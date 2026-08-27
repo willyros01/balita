@@ -1,0 +1,98 @@
+/* ============================================================
+   tokens.css — every colour and size decision lives here.
+   Nothing else in the app hard-codes a colour.
+
+   Three independent axes:
+     data-theme    day | night
+     data-contrast normal | high
+     --step        0..4, the text size
+   ============================================================ */
+
+:root{
+  /* Text size. --step is set by display.js; everything else follows. */
+  --step: 0;
+  --base: calc(1.0625rem + (var(--step) * 0.1875rem));
+
+  --sp: 1rem;             /* page gutter */
+  --measure: 34rem;       /* reading column */
+
+  --font-head: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --radius: 4px;
+  --rule-w: 1px;
+  --spine-w: 6px;
+  --dur: 180ms;
+
+  --tap: 2.8rem;          /* minimum touch target */
+}
+
+/* ---------------- day ---------------- */
+html[data-theme="day"]{
+  --bg:      #F4F6F3;
+  --surface: #FFFFFF;
+  --ink:     #14181D;
+  --muted:   #59626E;
+  --rule:    #DFE3DE;
+  --accent:  #0B5FA5;
+  --focus:   #0B5FA5;
+  --shade:   #EDF0EC;
+  --on-accent: #FFFFFF;
+}
+
+/* ---------------- night ---------------- */
+html[data-theme="night"]{
+  --bg:      #0F1215;
+  --surface: #181D22;
+  --ink:     #E7EBEE;
+  --muted:   #99A3AE;
+  --rule:    #2A3138;
+  --accent:  #79B8F0;
+  --focus:   #79B8F0;
+  --shade:   #20262C;
+  --on-accent: #0F1215;
+}
+
+/* ---------------- high contrast ----------------
+   Not simply "more contrast" — a different palette, with
+   heavier rules and larger spines so edges are findable. */
+html[data-contrast="high"][data-theme="day"]{
+  --bg:      #FFFFFF;
+  --surface: #FFFFFF;
+  --ink:     #000000;
+  --muted:   #000000;
+  --rule:    #000000;
+  --accent:  #00368C;
+  --focus:   #00368C;
+  --shade:   #FFFFFF;
+  --on-accent: #FFFFFF;
+  --rule-w:  2px;
+  --spine-w: 10px;
+}
+html[data-contrast="high"][data-theme="night"]{
+  --bg:      #000000;
+  --surface: #000000;
+  --ink:     #FFFFFF;
+  --muted:   #FFFFFF;
+  --rule:    #FFFFFF;
+  --accent:  #FFD400;
+  --focus:   #FFD400;
+  --shade:   #000000;
+  --on-accent: #000000;
+  --rule-w:  2px;
+  --spine-w: 10px;
+}
+
+/* Colour is never the only signal. In high contrast the per-source
+   spine colour is dropped and the letter tag carries the meaning. */
+html[data-contrast="high"] [style*="--spine"]{ --spine: var(--rule) !important; }
+
+/* ---------------- breakpoints ----------------
+   Same single column everywhere. Only the breathing room changes,
+   so the app looks the same on a phone, a tablet and a laptop. */
+@media (min-width: 48rem){
+  :root{ --sp: 1.5rem; --measure: 38rem; }
+}
+@media (min-width: 64rem){
+  :root{ --measure: 40rem; }
+}

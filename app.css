@@ -1,0 +1,298 @@
+/* ============================================================
+   app.css — layout and components. Colours come from tokens.css.
+   ============================================================ */
+
+*,*::before,*::after{ box-sizing: border-box; }
+
+html{ background: var(--bg); }
+
+body{
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--base);
+  line-height: 1.55;
+  -webkit-text-size-adjust: none;
+  transition: background var(--dur) linear, color var(--dur) linear;
+}
+
+:focus-visible{ outline: 3px solid var(--focus); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce){
+  *{ transition-duration: 0ms !important; animation-duration: 0ms !important; }
+}
+
+.sr-only{
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* ---------------- header ----------------
+   The reading controls are the point of this app, so they are
+   always on screen — never inside a menu, never scrolled away. */
+.topbar{
+  position: sticky; top: 0; z-index: 20;
+  background: var(--surface);
+  border-bottom: var(--rule-w) solid var(--rule);
+}
+.topbar-inner{
+  max-width: var(--measure); margin: 0 auto;
+  padding: 0.6rem var(--sp);
+  display: flex; align-items: center; gap: 0.6rem;
+}
+.wordmark{
+  font-family: var(--font-head); font-weight: 700;
+  font-size: 1.45em; letter-spacing: -0.015em;
+  margin: 0; line-height: 1.1;
+}
+.wordmark span{
+  display: block; font-family: var(--font-body);
+  font-size: 0.4em; font-weight: 400; letter-spacing: 0.09em;
+  text-transform: uppercase; color: var(--muted); line-height: 1.4;
+}
+.controls{ margin-left: auto; display: flex; gap: 0.35rem; }
+
+.ctrl{
+  font: inherit; font-size: 0.9em;
+  min-width: var(--tap); min-height: var(--tap);
+  padding: 0 0.45rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--surface); color: var(--ink);
+  border: var(--rule-w) solid var(--rule); border-radius: var(--radius);
+  cursor: pointer; transition: background var(--dur) linear;
+}
+.ctrl:hover{ background: var(--shade); }
+.ctrl[aria-pressed="true"]{
+  background: var(--accent); border-color: var(--accent); color: var(--on-accent);
+}
+.ctrl:disabled{ opacity: 0.4; cursor: not-allowed; }
+.ctrl .glyph{ font-size: 1.1em; line-height: 1; }
+
+/* ---------------- source chips ---------------- */
+.sources{
+  display: none;
+  background: var(--surface);
+  border-bottom: var(--rule-w) solid var(--rule);
+}
+body[data-view="feed"] .sources{ display: block; }
+.sources-inner{
+  max-width: var(--measure); margin: 0 auto;
+  padding: 0.5rem var(--sp);
+  display: flex; gap: 0.4rem;
+  overflow-x: auto; scrollbar-width: none;
+}
+.sources-inner::-webkit-scrollbar{ display: none; }
+
+.chip{
+  font: inherit; font-size: 0.85em; white-space: nowrap;
+  padding: 0.45rem 0.8rem; min-height: 2.4rem;
+  background: transparent; color: var(--muted);
+  border: var(--rule-w) solid var(--rule); border-radius: 999px;
+  cursor: pointer;
+}
+.chip[aria-pressed="true"]{
+  background: var(--ink); border-color: var(--ink);
+  color: var(--surface); font-weight: 700;
+}
+.chip-add{ border-style: dashed; color: var(--accent); font-weight: 700; }
+
+/* ---------------- shell ---------------- */
+main{ max-width: var(--measure); margin: 0 auto; padding: 0 var(--sp) 4rem; }
+
+.view{ display: none; }
+body[data-view="feed"]   .view-feed,
+body[data-view="reader"] .view-reader,
+body[data-view="manage"] .view-manage{ display: block; }
+
+.status-line{
+  font-size: 0.8em; color: var(--muted);
+  padding: 0.9rem 0 0.2rem;
+  display: flex; justify-content: space-between;
+  align-items: baseline; gap: 0.5rem;
+}
+
+/* ---------------- feed ---------------- */
+.feed{ list-style: none; margin: 0; padding: 0; }
+
+.card{ border-bottom: var(--rule-w) solid var(--rule); }
+.card-btn{
+  display: flex; gap: 0.9rem; width: 100%;
+  text-align: left; font: inherit; color: inherit;
+  background: transparent; border: 0;
+  border-left: var(--spine-w) solid var(--spine);
+  padding: 1.05rem var(--sp) 1.1rem;
+  cursor: pointer; transition: background var(--dur) linear;
+}
+.card-btn:hover{ background: var(--surface); }
+.card-text{ flex: 1; min-width: 0; }
+
+.thumb{
+  flex: 0 0 5.2rem; height: 5.2rem;
+  border-radius: var(--radius);
+  border: var(--rule-w) solid var(--rule);
+  overflow: hidden; background: var(--shade);
+}
+.thumb img, .thumb svg{
+  display: block; width: 100%; height: 100%; object-fit: cover;
+}
+
+.meta{
+  display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem;
+  font-size: 0.78em; color: var(--muted); margin: 0 0 0.35rem;
+}
+.tag{
+  font-weight: 700; letter-spacing: 0.07em; color: var(--spine);
+  border: var(--rule-w) solid currentColor; border-radius: 3px;
+  padding: 0.05rem 0.35rem;
+}
+html[data-contrast="high"] .tag{ color: var(--ink); }
+.dot{ opacity: 0.6; }
+
+.headline{
+  font-family: var(--font-head); font-weight: 600;
+  font-size: 1.28em; line-height: 1.24; letter-spacing: -0.01em;
+  margin: 0 0 0.3rem; text-wrap: balance;
+}
+.standfirst{ margin: 0; color: var(--muted); font-size: 0.9em; line-height: 1.5; }
+html[data-contrast="high"] .standfirst{ color: var(--ink); }
+
+.empty{ padding: 3rem var(--sp); text-align: center; color: var(--muted); }
+
+/* ---------------- reader ---------------- */
+.back{
+  font: inherit; font-size: 0.9em; font-weight: 700;
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  min-height: var(--tap); margin: 0.8rem 0 0.2rem;
+  padding: 0 0.7rem 0 0.4rem;
+  background: transparent; color: var(--accent);
+  border: var(--rule-w) solid transparent; border-radius: var(--radius);
+  cursor: pointer;
+}
+.back:hover{ border-color: var(--rule); }
+
+.article-head{
+  border-left: var(--spine-w) solid var(--spine);
+  padding-left: 0.9rem; margin: 0.5rem 0 1.2rem;
+}
+.article-title{
+  font-family: var(--font-head); font-weight: 700;
+  font-size: 1.68em; line-height: 1.18; letter-spacing: -0.015em;
+  margin: 0.3rem 0 0.5rem; text-wrap: balance;
+}
+.byline{ font-size: 0.82em; color: var(--muted); margin: 0; }
+
+figure{ margin: 0 0 1.3rem; }
+figure img, figure svg{
+  display: block; width: 100%; height: auto;
+  border: var(--rule-w) solid var(--rule); border-radius: var(--radius);
+  background: var(--shade);
+}
+figcaption{
+  font-size: 0.8em; color: var(--muted); line-height: 1.45;
+  border-left: 3px solid var(--rule);
+  padding: 0 0 0 0.6rem; margin-top: 0.55rem;
+}
+html[data-contrast="high"] figcaption{ color: var(--ink); }
+
+.article-body p{ margin: 0 0 1.1em; line-height: 1.7; }
+.article-body h3{
+  font-family: var(--font-head); font-size: 1.2em;
+  margin: 1.6em 0 0.5em;
+}
+.article-body ul, .article-body ol{ margin: 0 0 1.1em; padding-left: 1.4em; line-height: 1.7; }
+.article-body blockquote{
+  margin: 0 0 1.1em; padding-left: 0.9rem;
+  border-left: var(--spine-w) solid var(--rule);
+  font-style: italic; color: var(--muted);
+}
+html[data-contrast="high"] .article-body blockquote{ color: var(--ink); }
+
+.truncated{
+  margin: 0 0 1.1em; padding: 0.8rem 0.9rem;
+  background: var(--shade); border: var(--rule-w) solid var(--rule);
+  border-radius: var(--radius); font-size: 0.87em; color: var(--muted);
+}
+html[data-contrast="high"] .truncated{ color: var(--ink); }
+
+.origin{
+  margin-top: 1.6rem; padding-top: 1rem;
+  border-top: var(--rule-w) solid var(--rule);
+  font-size: 0.85em; color: var(--muted);
+}
+.origin a{ color: var(--accent); }
+
+/* ---------------- sources screen ---------------- */
+.mtitle{ font-family: var(--font-head); font-weight: 700; font-size: 1.5em; margin: 0.6rem 0 0.2rem; }
+.mhelp{ color: var(--muted); font-size: 0.88em; margin: 0 0 1.2rem; line-height: 1.55; }
+html[data-contrast="high"] .mhelp{ color: var(--ink); }
+
+.slist{ list-style: none; margin: 0 0 1.6rem; padding: 0; }
+.srow{
+  display: flex; align-items: center; gap: 0.75rem;
+  border-bottom: var(--rule-w) solid var(--rule);
+  border-left: var(--spine-w) solid var(--spine);
+  padding: 0.7rem 0 0.7rem 0.75rem;
+}
+.sname{ flex: 1; min-width: 0; }
+.sname strong{ display: block; font-size: 0.98em; }
+.sname small{
+  display: block; color: var(--muted); font-size: 0.76em;
+  word-break: break-all; line-height: 1.4;
+}
+html[data-contrast="high"] .sname small{ color: var(--ink); }
+
+.toggle{
+  font: inherit; font-size: 0.8em; font-weight: 700;
+  min-height: 2.5rem; padding: 0 0.75rem; border-radius: 999px;
+  cursor: pointer; background: transparent; color: var(--muted);
+  border: var(--rule-w) solid var(--rule);
+}
+.toggle[aria-pressed="true"]{
+  background: var(--accent); border-color: var(--accent); color: var(--on-accent);
+}
+.remove{
+  font: inherit; font-size: 1.1em;
+  min-width: 2.5rem; min-height: 2.5rem;
+  background: transparent; color: var(--muted);
+  border: var(--rule-w) solid transparent; border-radius: var(--radius);
+  cursor: pointer;
+}
+.remove:hover{ border-color: var(--rule); color: var(--ink); }
+
+.addbox{
+  background: var(--surface); border: var(--rule-w) solid var(--rule);
+  border-radius: var(--radius); padding: 1rem;
+}
+.addbox h3{ font-family: var(--font-head); font-size: 1.15em; margin: 0 0 0.2rem; }
+.addbox p{ font-size: 0.83em; color: var(--muted); margin: 0 0 0.8rem; line-height: 1.5; }
+html[data-contrast="high"] .addbox p{ color: var(--ink); }
+
+label{ display: block; font-size: 0.8em; font-weight: 700; margin-bottom: 0.3rem; }
+input[type="text"], input[type="url"]{
+  font: inherit; font-size: 0.95em; width: 100%;
+  padding: 0.65rem 0.7rem; margin-bottom: 0.8rem;
+  background: var(--bg); color: var(--ink);
+  border: var(--rule-w) solid var(--rule); border-radius: var(--radius);
+}
+.primary{
+  font: inherit; font-size: 0.95em; font-weight: 700;
+  min-height: var(--tap); padding: 0 1.1rem;
+  background: var(--accent); color: var(--on-accent);
+  border: var(--rule-w) solid var(--accent); border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.presets{ margin-top: 1.6rem; }
+.presets h3{ font-family: var(--font-head); font-size: 1.15em; margin: 0 0 0.6rem; }
+.preset-wrap{ display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+/* ---------------- footer note ---------------- */
+.note{
+  max-width: var(--measure); margin: 0 auto;
+  padding: 1.2rem var(--sp) 2.5rem;
+  font-size: 0.8em; line-height: 1.6; color: var(--muted);
+  border-top: var(--rule-w) solid var(--rule);
+}
+html[data-contrast="high"] .note{ color: var(--ink); }
