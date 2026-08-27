@@ -288,11 +288,56 @@ input[type="text"], input[type="url"]{
 .presets h3{ font-family: var(--font-head); font-size: 1.15em; margin: 0 0 0.6rem; }
 .preset-wrap{ display: flex; flex-wrap: wrap; gap: 0.4rem; }
 
-/* ---------------- footer note ---------------- */
-.note{
+/* ---------------- about panel ----------------
+   Everything you would need to answer "what is running on this
+   phone, and when did it last fetch anything". */
+.about{
   max-width: var(--measure); margin: 0 auto;
-  padding: 1.2rem var(--sp) 2.5rem;
-  font-size: 0.8em; line-height: 1.6; color: var(--muted);
+  padding: 1.3rem var(--sp) 3rem;
   border-top: var(--rule-w) solid var(--rule);
+  font-size: 0.8em; line-height: 1.55; color: var(--muted);
 }
-html[data-contrast="high"] .note{ color: var(--ink); }
+html[data-contrast="high"] .about{ color: var(--ink); }
+
+/* Out of the way while reading a story. */
+body[data-view="reader"] .about{ display: none; }
+
+.about-title{
+  font-family: var(--font-head); font-weight: 700;
+  font-size: 1.35em; color: var(--ink);
+  margin: 0 0 0.7rem;
+}
+
+.about-list{
+  margin: 0; padding: 0;
+  display: grid;
+  grid-template-columns: minmax(6.5rem, auto) 1fr;
+  gap: 0.35rem 0.9rem;
+}
+.about-list dt{
+  font-weight: 700; color: var(--ink);
+  margin: 0;
+}
+.about-list dd{
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+/* A word or two that carries a state — Online, Offline, Synced. */
+.pill{
+  display: inline-block;
+  font-size: 0.92em; font-weight: 700;
+  padding: 0.05rem 0.45rem;
+  border: var(--rule-w) solid currentColor;
+  border-radius: 3px;
+}
+.pill-ok{ color: var(--accent); }
+.pill-off{ color: var(--muted); }
+html[data-contrast="high"] .pill-off{ color: var(--ink); }
+
+.about-note{
+  margin: 1rem 0 0;
+  padding-top: 0.9rem;
+  border-top: var(--rule-w) solid var(--rule);
+  line-height: 1.6;
+}

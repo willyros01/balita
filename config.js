@@ -2,6 +2,11 @@
    config.js — the only file you edit to make this yours.
    ============================================================ */
 
+/* Shown at the bottom of the app, so you can always tell what is
+   running on a given phone. Bump both when you cut a new version. */
+export const VERSION    = "0.2.1";
+export const BUILD_DATE = "2026-08-27";
+
 /* Where the fetcher writes its output. Relative, so it works
    whether the site sits at the domain root or in a subfolder. */
 export const FEED_URL = "articles.json";

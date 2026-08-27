@@ -8,8 +8,13 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.2.0** — the app works. Story list, reading view, and the screen for
-adding feeds. Running on sample stories until the fetcher arrives in 0.3.0.
+**0.2.1** — the app works. Story list, reading view, the screen for adding
+feeds, and an About panel at the bottom of the list showing what is running
+and when it last fetched. Running on sample stories until 0.3.0.
+
+The version number lives in `config.js`. Bump `VERSION` and `BUILD_DATE`
+there whenever you change anything, and bump `VERSION` in `sw.js` too —
+that second one is what makes phones let go of the old copy.
 
 Every file sits at the top level, with no folders. That is deliberate: it
 makes uploading from an iPad or phone possible, since mobile browsers

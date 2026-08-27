@@ -12,7 +12,7 @@ GitHub, but it can select a batch of loose files.
 ## Part 1 — Unzip
 
 1. Open the **Files** app.
-2. Find `balita-v0.2.0.zip`, probably in **Downloads**.
+2. Find `balita-v0.2.1.zip`, probably in **Downloads**.
 3. Tap it once. A folder called `balita-v0.2.0` appears beside it.
 4. Tap into that folder. You should see fifteen files and no folders.
 
@@ -64,7 +64,7 @@ sw.js
 tokens.css
 ```
 
-7. In the box at the bottom, type: `Version 0.2.0`
+7. In the box at the bottom, type: `Version 0.2.1`
 8. Tap **Commit changes**.
 
 If you end up short a file, just upload the missing ones the same way.
@@ -96,8 +96,11 @@ That link is the app.
 
 Open the address.
 
-**What you should see at 0.2.0:** the header bar, a row of source chips
-below it, and eight stories. Tap one to read it. Tap **+ Sources** at the
+**What you should see at 0.2.1:** the header bar, a row of source chips
+below it, and eight stories. Scroll to the bottom for **About this app** —
+version, release date, how many stories are loaded, when they were fetched,
+how many sources are on, where your settings are kept, and whether you are
+online. Tap one to read it. Tap **+ Sources** at the
 end of the chip row to add or remove feeds.
 
 The stories are samples with placeholder text. Real ones start arriving in
@@ -119,6 +122,7 @@ Your settings and your feed list are remembered between visits.
 |---|---|
 | Plain text, no header bar | The two `.css` files are missing |
 | Header but no stories | `articles.json` is missing |
+| No About panel at the bottom | `app.js` did not update — upload it again |
 | Header, then nothing | One of the `.js` files is missing |
 
 In each case, redo Part 3 with the missing file.

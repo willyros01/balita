@@ -5,7 +5,7 @@
    Nothing in here draws anything itself.
    ============================================================ */
 
-import { FEED_URL } from "./config.js";
+import { FEED_URL, VERSION, BUILD_DATE } from "./config.js";
 import * as store   from "./store.js";
 import * as display from "./display.js";
 import * as feed    from "./feed.js";
@@ -13,10 +13,12 @@ import * as reader  from "./reader.js";
 import * as sources from "./sources.js";
 
 const state = {
-  sources:  [],
-  articles: [],
-  filter:   "ALL",
-  updated:  null
+  sources:     [],
+  articles:    [],
+  filter:      "ALL",
+  updated:     null,   /* when the fetcher last ran */
+  feedVersion: null,   /* which fetcher wrote it */
+  synced:      false   /* Firebase configured and reachable */
 };
 
 const sayEl = document.getElementById("announce");
@@ -33,7 +35,7 @@ const ctx = {
   announce,
   sourceOf: id => state.sources.find(s => s.id === id),
   show: view => { document.body.dataset.view = view; },
-  refresh: () => { feed.renderChips(ctx); feed.renderFeed(ctx); },
+  refresh: () => { feed.renderChips(ctx); feed.renderFeed(ctx); renderAbout(); },
   openArticle: id => reader.open(ctx, id),
   openSources: () => sources.show(ctx)
 };
@@ -46,12 +48,14 @@ async function loadArticles(){
     if(!res.ok) throw new Error("HTTP " + res.status);
 
     const data = await res.json();
-    state.articles = Array.isArray(data.articles) ? data.articles : [];
-    state.updated  = data.updated || null;
+    state.articles    = Array.isArray(data.articles) ? data.articles : [];
+    state.updated     = data.updated || null;
+    state.feedVersion = data.version || null;
   }catch(err){
     console.warn("Could not load stories.", err);
-    state.articles = [];
-    state.updated  = null;
+    state.articles    = [];
+    state.updated     = null;
+    state.feedVersion = null;
   }
 }
 
@@ -78,18 +82,82 @@ function registerWorker(){
   });
 }
 
-/* ---------------- footer note ---------------- */
+/* ---------------- about panel ----------------
+   Answers "what is running on this phone, and when did it last
+   fetch anything" without needing anybody's help. */
 
-function setFootnote(synced){
-  const el = document.getElementById("footnote");
-  if(!el) return;
+function longDate(iso){
+  if(!iso) return null;
+  const d = new Date(iso);
+  if(Number.isNaN(d.getTime())) return null;
+  return d.toLocaleString(undefined, {
+    weekday: "short", day: "numeric", month: "short",
+    hour: "numeric", minute: "2-digit"
+  });
+}
 
-  el.textContent = state.articles.length
-    ? "Advertising, trackers and pop-ups are removed before the stories reach this device. " +
-      (synced
-        ? "Your sources and settings follow you between devices."
-        : "Your sources and settings are kept on this device.")
+function pill(text, ok){
+  const s = document.createElement("span");
+  s.className = "pill " + (ok ? "pill-ok" : "pill-off");
+  s.textContent = text;
+  return s;
+}
+
+function renderAbout(){
+  const list = document.getElementById("about-list");
+  const note = document.getElementById("about-note");
+  if(!list) return;
+
+  const on    = state.sources.filter(s => s.on).length;
+  const total = state.sources.length;
+  const fetched = longDate(state.updated);
+  const feedVer = state.feedVersion;
+
+  const rows = [
+    ["Version",  "Balita " + VERSION],
+    ["Released", new Date(BUILD_DATE + "T00:00:00").toLocaleDateString(undefined,
+                   { day: "numeric", month: "long", year: "numeric" })],
+    ["Stories",  state.articles.length
+                   ? state.articles.length + " loaded" + (feedVer ? " (feed " + feedVer + ")" : "")
+                   : "none loaded"],
+    ["Fetched",  fetched || "not yet"],
+    ["Sources",  on + " on, " + total + " in the list"],
+    ["Settings", state.synced ? "Synced across your devices" : "Kept on this device"],
+    ["Storage",  state.synced ? "Firebase" : "This device only"],
+    ["Network",  null]   /* filled in below, and kept live */
+  ];
+
+  list.innerHTML = "";
+  rows.forEach(([label, value]) => {
+    const dt = document.createElement("dt");
+    dt.textContent = label;
+    const dd = document.createElement("dd");
+
+    if(label === "Network"){
+      dd.id = "net-state";
+      dd.appendChild(navigator.onLine ? pill("Online", true) : pill("Offline", false));
+    }else{
+      dd.textContent = value;
+    }
+
+    list.append(dt, dd);
+  });
+
+  note.textContent = state.articles.length
+    ? "Advertising, trackers and pop-ups are removed before stories reach this device. " +
+      "Saved stories stay readable without a signal."
     : "No stories yet. Once the fetcher is running, headlines arrive here on their own.";
+}
+
+function watchNetwork(){
+  const update = () => {
+    const dd = document.getElementById("net-state");
+    if(!dd) return;
+    dd.innerHTML = "";
+    dd.appendChild(navigator.onLine ? pill("Online", true) : pill("Offline", false));
+  };
+  window.addEventListener("online",  update);
+  window.addEventListener("offline", update);
 }
 
 /* ---------------- start ---------------- */
@@ -103,13 +171,15 @@ async function start(){
   ]);
 
   state.sources = savedSources;
+  state.synced  = conn.synced === true;
   display.setup({ settings, announce });
 
   await loadArticles();
 
   ctx.show("feed");
   ctx.refresh();
-  setFootnote(conn.synced);
+  renderAbout();
+  watchNetwork();
   registerWorker();
 }
 
