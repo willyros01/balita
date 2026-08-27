@@ -2,9 +2,10 @@ name: Fetch news
 
 on:
   schedule:
-    # Every 30 minutes. GitHub runs these on its own clock and can be
-    # a few minutes late when it is busy; that is normal.
-    - cron: "*/30 * * * *"
+    # Twice an hour, deliberately off the half hour. Free-tier jobs
+    # asking for :00 and :30 compete with everybody else's and get
+    # dropped; odd minutes are far more likely to actually run.
+    - cron: "7,37 * * * *"
   workflow_dispatch:      # adds a "Run workflow" button
   push:
     paths:
@@ -21,16 +22,18 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 12
 
     steps:
+      # v5 of both actions runs on Node 24. v4 still works but warns,
+      # because GitHub is retiring Node 20 from its runners.
       - name: Get the code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Install
         run: npm install --no-audit --no-fund
