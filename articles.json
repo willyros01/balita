@@ -1,0 +1,209 @@
+{
+  "version": "0.2.0",
+  "updated": "2026-08-27T06:40:00+08:00",
+  "note": "Sample stories for layout only. Replaced by the fetcher in 0.3.0.",
+  "articles": [
+    {
+      "id": "sample-1",
+      "source": "inq",
+      "title": "Senate panel opens hearing on flood control spending",
+      "summary": "Lawmakers asked agencies to account for projects approved in the last three budget cycles.",
+      "byline": "Sample byline",
+      "section": "Nation",
+      "published": "2026-08-27T06:22:00+08:00",
+      "url": "https://example.com/sample",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Placeholder text standing in for the article, so you can judge the reading experience rather than the news itself. Line length, spacing and letterforms are all real; the words are not."
+        },
+        {
+          "type": "p",
+          "text": "Everything that normally surrounds a news page is gone here. No banner across the top, no video that starts on its own, no box asking you to subscribe, no list of stories from three years ago."
+        },
+        {
+          "type": "image",
+          "src": null,
+          "caption": "A picture sits where it sat in the original article, with its own caption kept."
+        },
+        {
+          "type": "h",
+          "text": "What is left"
+        },
+        {
+          "type": "p",
+          "text": "The headline, the byline, the pictures that belong to the story, and the text. Nothing moves unless you move it."
+        },
+        {
+          "type": "quote",
+          "text": "A paragraph at this width runs to roughly sixty-five characters, which is the range most people read comfortably."
+        },
+        {
+          "type": "p",
+          "text": "Turning on bigger text keeps that proportion. The column does not grow with the type; the words per line drop instead, which is what you want when the letters get large."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "sample-2",
+      "source": "bbc",
+      "title": "Talks resume after a week-long pause",
+      "summary": "Negotiators returned to the table with a narrower agenda than the one they left.",
+      "byline": "Sample byline",
+      "section": "World",
+      "published": "2026-08-27T06:05:00+08:00",
+      "url": "https://example.com/sample",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Placeholder copy. International feeds sit in exactly the same layout as the local ones: same type, same spacing, same controls."
+        },
+        {
+          "type": "p",
+          "text": "That matters more than it sounds. Switching from Inquirer to BBC should not mean relearning where anything is."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "sample-3",
+      "source": "star",
+      "title": "Peso steadies after week of thin trading",
+      "summary": "Traders pointed to softer demand for dollars ahead of the long weekend.",
+      "byline": "Sample byline",
+      "section": "Business",
+      "published": "2026-08-27T05:59:00+08:00",
+      "url": "https://example.com/sample",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Placeholder body copy."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Lists survive the stripping, because they carry meaning.",
+            "Navigation menus do not, because they do not.",
+            "Anything the extractor cannot identify is dropped rather than shown broken."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Short items are common in a feed like this. The layout should not look broken at three paragraphs, nor cramped at thirty."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "sample-4",
+      "source": "cbc",
+      "title": "Rail service restored on the eastern corridor",
+      "summary": "Crews finished overnight repairs, with a reduced timetable through the weekend.",
+      "byline": "Sample byline",
+      "section": "Canada",
+      "published": "2026-08-27T05:34:00+08:00",
+      "url": "https://example.com/sample",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Placeholder text."
+        },
+        {
+          "type": "p",
+          "text": "Some outlets publish the whole article inside the feed itself. Where they do, this screen fills instantly and no extra fetch is needed."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "sample-5",
+      "source": "abs",
+      "title": "MRT-3 to run extended hours through the holidays",
+      "summary": "Operations start earlier on weekdays, with the last southbound train at midnight.",
+      "byline": "Sample byline",
+      "section": "Metro",
+      "published": "2026-08-27T04:35:00+08:00",
+      "url": "https://example.com/sample",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Placeholder text."
+        },
+        {
+          "type": "p",
+          "text": "Where an outlet publishes only a summary, the fetcher opens the article page, throws away everything that is not the story, and keeps the result."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "sample-6",
+      "source": "rap",
+      "title": "Weather bureau monitors low pressure area east of Mindanao",
+      "summary": "Forecasters said it may develop over the next 24 hours but is not expected to make landfall.",
+      "byline": "Sample byline",
+      "section": "Weather",
+      "published": "2026-08-27T03:30:00+08:00",
+      "url": "https://example.com/sample",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Placeholder text."
+        },
+        {
+          "type": "p",
+          "text": "Weather items are among the most-read stories in most Philippine feeds, which is a good argument for keeping them one tap from the top."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "sample-7",
+      "source": "gma",
+      "title": "Gilas names pool for the November window",
+      "summary": "The roster carries four holdovers from the last campaign and two first-time call-ups.",
+      "byline": "Sample byline",
+      "section": "Sports",
+      "published": "2026-08-27T02:20:00+08:00",
+      "url": "https://example.com/sample",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Placeholder text."
+        },
+        {
+          "type": "p",
+          "text": "The letter tag beside each headline does real work in high contrast mode, where colour coding is switched off on purpose."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "sample-8",
+      "source": "mb",
+      "title": "Education department sets calendar for the incoming school year",
+      "summary": "Classes open in the third week of August, with two scheduled breaks.",
+      "byline": "Sample byline",
+      "section": "Nation",
+      "published": "2026-08-27T01:00:00+08:00",
+      "url": "https://example.com/sample",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Placeholder opening. This item is marked as truncated, so you can see how a paywalled story is handled."
+        }
+      ],
+      "truncated": true
+    }
+  ]
+}

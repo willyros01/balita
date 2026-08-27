@@ -12,9 +12,9 @@ GitHub, but it can select a batch of loose files.
 ## Part 1 — Unzip
 
 1. Open the **Files** app.
-2. Find `balita-v0.1.1.zip`, probably in **Downloads**.
-3. Tap it once. A folder called `balita-v0.1.1` appears beside it.
-4. Tap into that folder. You should see ten files and no folders.
+2. Find `balita-v0.2.0.zip`, probably in **Downloads**.
+3. Tap it once. A folder called `balita-v0.2.0` appears beside it.
+4. Tap into that folder. You should see fifteen files and no folders.
 
 ---
 
@@ -39,27 +39,32 @@ GitHub, but it can select a batch of loose files.
 1. On the page that appears, tap **uploading an existing file**.
    (If you have navigated away: **Add file** → **Upload files**.)
 2. Tap **choose your files**.
-3. The Files picker opens. Navigate to the `balita-v0.1.1` folder.
+3. The Files picker opens. Navigate to the `balita-v0.2.0` folder.
 4. Tap **Select** at the top right.
 5. Tap each of the ten files, or use **Select All** if it is offered.
 6. Tap **Open**.
 
-Wait for the list to finish loading. You should count ten:
+Wait for the list to finish loading. You should count fifteen:
 
 ```
 README.md
 SETUP.md
 app.css
+app.js
+articles.json
 config.js
 display.js
+feed.js
 index.html
 manifest.webmanifest
+reader.js
+sources.js
 store.js
 sw.js
 tokens.css
 ```
 
-7. In the box at the bottom, type: `Version 0.1.1`
+7. In the box at the bottom, type: `Version 0.2.0`
 8. Tap **Commit changes**.
 
 If you end up short a file, just upload the missing ones the same way.
@@ -91,21 +96,32 @@ That link is the app.
 
 Open the address.
 
-**What you should see at 0.1.1:** the header bar reading *Balita — News,
-plainly*, with four buttons at the right: `A−`, `A+`, `◐`, `☾`. Below that,
-nothing at all.
+**What you should see at 0.2.0:** the header bar, a row of source chips
+below it, and eight stories. Tap one to read it. Tap **+ Sources** at the
+end of the chip row to add or remove feeds.
 
-**Blank is correct.** The part that draws the stories arrives in 0.2.0.
-What you are checking now is that the styling loaded and the buttons work.
+The stories are samples with placeholder text. Real ones start arriving in
+0.3.0.
 
-Try them:
+Things to try:
 
-- `A+` and `A−` — the wordmark grows and shrinks.
-- `◐` — everything snaps to pure black on white.
-- `☾` — the page goes dark, and the moon becomes a sun.
+- `A+` and `A−` — text grows and shrinks; the column keeps its width.
+- `◐` — pure black on white, and the source colours drop away so the
+  letter tags carry the meaning instead.
+- `☾` — night mode.
+- Tap a chip to show one source only.
+- Tap **+ Sources**, switch something off, go back — it is gone from the
+  list. Switch it back on and it returns.
 
-If you see plain unstyled text with no header bar, `tokens.css` or
-`app.css` did not upload. Go back to Part 3 and add them.
+Your settings and your feed list are remembered between visits.
+
+| Problem | Cause |
+|---|---|
+| Plain text, no header bar | The two `.css` files are missing |
+| Header but no stories | `articles.json` is missing |
+| Header, then nothing | One of the `.js` files is missing |
+
+In each case, redo Part 3 with the missing file.
 
 ---
 
@@ -153,9 +169,10 @@ less, since those live in storage rather than in the file.
 
 ## What comes next
 
-**0.2.0** adds `app.js`, `feed.js`, `reader.js` and `sources.js` — the
-story list, the reading view and the screen for adding feeds. The app
-becomes usable, running on sample stories.
+**0.3.0** adds the fetcher and the scheduled job. A small program runs on
+GitHub's own machines every half hour, pulls each feed, strips the pages
+down to the article, and writes a fresh `articles.json`. From then on the
+app fills itself.
 
-**0.3.0** adds the fetcher and the scheduled job, so real headlines start
-arriving on their own.
+Nothing about the screens you are looking at now will change — the sample
+`articles.json` is written in exactly the shape the fetcher produces.
