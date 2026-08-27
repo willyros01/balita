@@ -1,209 +1,3199 @@
 {
-  "version": "0.2.0",
-  "updated": "2026-08-27T06:40:00+08:00",
-  "note": "Sample stories for layout only. Replaced by the fetcher in 0.3.0.",
+  "version": "0.3.0",
+  "updated": "2026-08-27T21:04:02.679Z",
+  "sources": [
+    {
+      "id": "inq",
+      "name": "Inquirer"
+    },
+    {
+      "id": "star",
+      "name": "Philstar"
+    },
+    {
+      "id": "abs",
+      "name": "ABS-CBN"
+    },
+    {
+      "id": "rap",
+      "name": "Rappler"
+    },
+    {
+      "id": "gma",
+      "name": "GMA News"
+    },
+    {
+      "id": "mb",
+      "name": "Manila Bulletin"
+    },
+    {
+      "id": "bbc",
+      "name": "BBC World"
+    },
+    {
+      "id": "cbc",
+      "name": "CBC Top Stories"
+    }
+  ],
   "articles": [
     {
-      "id": "sample-1",
+      "id": "inq-1ctzieu",
       "source": "inq",
-      "title": "Senate panel opens hearing on flood control spending",
-      "summary": "Lawmakers asked agencies to account for projects approved in the last three budget cycles.",
-      "byline": "Sample byline",
-      "section": "Nation",
-      "published": "2026-08-27T06:22:00+08:00",
-      "url": "https://example.com/sample",
-      "image": null,
+      "title": "Bosnian Serb war criminal Ratko Mladic dead",
+      "summary": "BELGRADE, Serbia — Ratko Mladic, the former Bosnian Serb military chief who was convicted of war crimes for his role in the 1995 Srebrenica massacre, died in a hospital on Thursday, according to a…",
+      "byline": "Agence France-Presse",
+      "section": "",
+      "published": "2026-08-27T16:25:54.000Z",
+      "url": "https://globalnation.inquirer.net/336253/bosnian-serb-war-criminal-ratko-mladic-dead",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/08/AFP__20260827__C6ML6KE__v1__HighRes__FilesBosniaSerbiaWarMladicObit-620x483.jpg",
+        "caption": ""
+      },
       "blocks": [
         {
-          "type": "p",
-          "text": "Placeholder text standing in for the article, so you can judge the reading experience rather than the news itself. Line length, spacing and letterforms are all real; the words are not."
-        },
-        {
-          "type": "p",
-          "text": "Everything that normally surrounds a news page is gone here. No banner across the top, no video that starts on its own, no box asking you to subscribe, no list of stories from three years ago."
-        },
-        {
           "type": "image",
-          "src": null,
-          "caption": "A picture sits where it sat in the original article, with its own caption kept."
+          "src": "https://globalnation.inquirer.net/files/2026/08/AFP__20260827__C6ML6KE__v1__HighRes__FilesBosniaSerbiaWarMladicObit-1200x740.jpg",
+          "caption": "Ex-Bosnian Serb military chief Ratko Mladic gestures from the defendant box during the hearing of the final verdict on appeal against his genocide conviction over the 1995 Srebrenica massacre, Europe’s worst act of bloodshed since World War II, on June 8, 2021, at the International Residual Mecha…"
+        },
+        {
+          "type": "p",
+          "text": "BELGRADE, Serbia — Ratko Mladic, the former Bosnian Serb military chief who was convicted of war crimes for his role in the 1995 Srebrenica massacre, died in a hospital on Thursday, according to a United Nations international tribunal."
+        },
+        {
+          "type": "p",
+          "text": "Mladic, who had suffered several strokes in recent months, was serving a life sentence in The Hague for genocide, war crimes and crimes against humanity after overseeing the Srebrenica slaughter, Europe’s worst act of bloodshed since World War II."
+        },
+        {
+          "type": "p",
+          "text": "His conviction for wartime killings as the former Yugoslavia descended into carnage following the fall of communism led the media to dub him the “Butcher of Bosnia.”"
+        },
+        {
+          "type": "p",
+          "text": "Article continues after this advertisement"
+        },
+        {
+          "type": "p",
+          "text": "The 1992-1995 war left around 100,000 people dead and 2.2 million displaced."
+        },
+        {
+          "type": "p",
+          "text": "Mladic was the military face of a brutal trio, led on the political side by former Yugoslav President Slobodan Milosevic and former Bosnian Serb leader Radovan Karadzic."
+        },
+        {
+          "type": "p",
+          "text": "Serbian state officials and Mladic’s family had appealed for his release due to his failing health, but those calls were rejected by the Hague tribunal."
+        },
+        {
+          "type": "p",
+          "text": "A representative of the Mothers of Srebrenica victims’ association, reacting to Mladic’s death, told AFP that his name would always “symbolize genocide.”"
+        },
+        {
+          "type": "p",
+          "text": "“That will never be erased from his name,” said Sehida Abdurahmanovic, who believes her missing brother was among those killed in Srebrenica."
+        },
+        {
+          "type": "p",
+          "text": "Article continues after this advertisement"
+        },
+        {
+          "type": "p",
+          "text": "READ: Mladic, ‘Butcher of Bosnia,’ found guilty of genocide"
+        },
+        {
+          "type": "p",
+          "text": "READ: Serbia wants The Hague convict Mladic freed: He could die ‘any time’"
+        },
+        {
+          "type": "p",
+          "text": "Article continues after this advertisement"
         },
         {
           "type": "h",
-          "text": "What is left"
+          "text": "Srebrenica"
         },
         {
           "type": "p",
-          "text": "The headline, the byline, the pictures that belong to the story, and the text. Nothing moves unless you move it."
-        },
-        {
-          "type": "quote",
-          "text": "A paragraph at this width runs to roughly sixty-five characters, which is the range most people read comfortably."
+          "text": "In the war’s most infamous atrocity, Serb forces under Mladic’s command executed 8,000 Bosnian Muslim men and boys who had sought shelter in Srebrenica, which was meant to be a UN-protected enclave."
         },
         {
           "type": "p",
-          "text": "Turning on bigger text keeps that proportion. The column does not grow with the type; the words per line drop instead, which is what you want when the letters get large."
+          "text": "Their bodies were dumped in mass graves, many of which were dug up and reburied in an attempt to hide the evidence."
+        },
+        {
+          "type": "p",
+          "text": "The few who escaped told harrowing stories of murder, torture and rape by Bosnian Serb forces."
+        },
+        {
+          "type": "p",
+          "text": "In November 1995, the International Criminal Tribunal for the Former Yugoslavia (ICTY) indicted Mladic, who was dismissed from his post but evaded capture for another 16 years."
+        },
+        {
+          "type": "p",
+          "text": "At first, he led a life of luxury, pampered by the military in Serbia, where some to this day see him as a hero."
+        },
+        {
+          "type": "p",
+          "text": "But the pressure mounted on him after Milosevic fell from power in 2000. Mladic was finally arrested in May 2011 and transferred to The Hague."
+        },
+        {
+          "type": "p",
+          "text": "He was convicted in 2017, with the life sentence upheld on appeal in 2021."
+        },
+        {
+          "type": "p",
+          "text": "On the streets of Bosnia’s capital, Sarajevo, Hava Suljic told AFP she welcomed the news."
+        },
+        {
+          "type": "p",
+          "text": "“I’m delighted to know there is one less war criminal walking around in this world,” Suljic, a Bosnian Muslim from Srebrenica, said."
+        },
+        {
+          "type": "p",
+          "text": "But reactions in the Serb entity of divided Bosnia were in stark contrast."
+        },
+        {
+          "type": "p",
+          "text": "Former Bosnian Serb leader Milorad Dodik said Mladic’s death had “hit hard” and that the Republika Srpska “will not forget his role,” the Serb statelet’s public broadcaster reported."
+        },
+        {
+          "type": "p",
+          "text": "Locals who spoke with AFP in the Republika Srpska’s capital, Banja Luka, called Mladic the “greatest.”"
+        },
+        {
+          "type": "p",
+          "text": "“The greatest man has died, the greatest general of the Serbian people,” pensioner Dragan Beric said."
+        },
+        {
+          "type": "h",
+          "text": "‘Epitome of evil’"
+        },
+        {
+          "type": "p",
+          "text": "Mladic was also found guilty of orchestrating a wider campaign of ethnic cleansing to drive Muslims and Bosnians out of key areas to create a so-called Greater Serbia."
+        },
+        {
+          "type": "p",
+          "text": "The tribunal said at the time that the crimes committed were “among the most heinous known to humankind.” Former UN rights chief Zeid Ra’ad al Hussein described him as “the epitome of evil.”"
+        },
+        {
+          "type": "p",
+          "text": "But many Serbs continued to revere a military commander who portrayed himself as a “simple man” whom fate had chosen to protect his people."
+        },
+        {
+          "type": "p",
+          "text": "Your subscription could not be saved. Please try again."
+        },
+        {
+          "type": "p",
+          "text": "Your subscription has been successful."
+        },
+        {
+          "type": "p",
+          "text": "His age has always been a matter of dispute. He claimed to have been born in March 1943, but the tribunal listed his birth year as 1942. Local media widely reported that he had died at age 84."
         }
       ],
       "truncated": false
     },
     {
-      "id": "sample-2",
-      "source": "bbc",
-      "title": "Talks resume after a week-long pause",
-      "summary": "Negotiators returned to the table with a narrower agenda than the one they left.",
-      "byline": "Sample byline",
-      "section": "World",
-      "published": "2026-08-27T06:05:00+08:00",
-      "url": "https://example.com/sample",
-      "image": null,
+      "id": "inq-1hukxcb",
+      "source": "inq",
+      "title": "Crazy Jhenny, August 28, 2026",
+      "summary": "... Keep on reading: Crazy Jhenny, August 28, 2026",
+      "byline": "Albert G.Rodriguez",
+      "section": "",
+      "published": "2026-08-27T16:05:00.000Z",
+      "url": "https://entertainment.inquirer.net/681938/crazy-jhenny-august-28-2026",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/08/CrazyJhenny08282026-700x214.jpg",
+        "caption": ""
+      },
       "blocks": [
         {
           "type": "p",
-          "text": "Placeholder copy. International feeds sit in exactly the same layout as the local ones: same type, same spacing, same controls."
-        },
-        {
-          "type": "p",
-          "text": "That matters more than it sounds. Switching from Inquirer to BBC should not mean relearning where anything is."
+          "text": "... Keep on reading: Crazy Jhenny, August 28, 2026"
         }
       ],
-      "truncated": false
+      "truncated": true
     },
     {
-      "id": "sample-3",
+      "id": "inq-j1ek7o",
+      "source": "inq",
+      "title": "Love Knots, August 28, 2026",
+      "summary": "... Keep on reading: Love Knots, August 28, 2026",
+      "byline": "Elizabeth Chionglo",
+      "section": "",
+      "published": "2026-08-27T16:04:00.000Z",
+      "url": "https://entertainment.inquirer.net/681940/love-knots-august-28-2026",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/08/LoveKnots08282026-700x235.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "... Keep on reading: Love Knots, August 28, 2026"
+        }
+      ],
+      "truncated": true
+    },
+    {
+      "id": "inq-166nzqi",
+      "source": "inq",
+      "title": "Tuldok, August 28, 2026",
+      "summary": "... Keep on reading: Tuldok, August 28, 2026",
+      "byline": "Pia Maria Coll",
+      "section": "",
+      "published": "2026-08-27T16:03:00.000Z",
+      "url": "https://entertainment.inquirer.net/681943/tuldok-august-28-2026",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/08/ItoTuldok08282026-700x224.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "... Keep on reading: Tuldok, August 28, 2026"
+        }
+      ],
+      "truncated": true
+    },
+    {
+      "id": "star-1e7e2nf",
       "source": "star",
-      "title": "Peso steadies after week of thin trading",
-      "summary": "Traders pointed to softer demand for dollars ahead of the long weekend.",
-      "byline": "Sample byline",
-      "section": "Business",
-      "published": "2026-08-27T05:59:00+08:00",
-      "url": "https://example.com/sample",
-      "image": null,
+      "title": "UP needs fresh funding for NOAH",
+      "summary": "The University of the Philippines is seeking fresh funding in the 2027 national budget for Project NOAH, the core component of the UP Resilience Institute responsible for developing hazard maps that…",
+      "byline": "EJ Macababbad",
+      "section": "",
+      "published": "2026-08-27T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/08/28/2552327/needs-fresh-funding-noah",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/08/27/up_2026-08-27_23-28-56.jpg",
+        "caption": ""
+      },
       "blocks": [
         {
           "type": "p",
-          "text": "Placeholder body copy."
+          "text": "August 28, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "The UPRI received P1 billion this week from the Department of Budget and Management for Project NOAH (Nationwide Operational Assessment of Hazards). It was earmarked in the 2026 budget after the government cut P255 billion from the Department of Public Works and Highways budget in the aftermath of the flood control scandal."
+        },
+        {
+          "type": "p",
+          "text": "STAR / File"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The University of the Philippines is seeking fresh funding in the 2027 national budget for Project NOAH, the core component of the UP Resilience Institute responsible for developing hazard maps that policymakers and the public use to plan for weather events."
+        },
+        {
+          "type": "p",
+          "text": "The UPRI received P1 billion this week from the Department of Budget and Management for Project NOAH (Nationwide Operational Assessment of Hazards). It was earmarked in the 2026 budget after the government cut P255 billion from the Department of Public Works and Highways budget in the aftermath of the flood control scandal."
+        },
+        {
+          "type": "p",
+          "text": "The UPRI will use the mon- ey to upgrade its equipment, enhance hazard maps and fund research endeavors."
+        },
+        {
+          "type": "p",
+          "text": "But the 2027 National Ex- penditure Program, for now, contains no new money for Project NOAH"
+        },
+        {
+          "type": "p",
+          "text": "The university pointed out that its funding in the 2026 budget was finalized only uring the bicameral conference committee."
+        },
+        {
+          "type": "p",
+          "text": "UPRI executive director Mahar Lagmay said the P1 billion is “a good start,” but is not enough to execute all the plans they have in mind."
+        },
+        {
+          "type": "p",
+          "text": "However, it’s a marked improvement from 2017 when NOAH was transferred to the UPRI."
+        },
+        {
+          "type": "p",
+          "text": "Project NOAH had an annual budget of only over P30 million at the time, which it used to help cities craft their flood control master plans.With the huge increase in NOAH’s budget, Lagmay lai out the UPRI’s priority spending areas: high-resolution mapping of major river basins, support for the government’s Oplan Kontra Baha, simulation of major detention basins, drone surveys with state colleges and universities, native-tree mapping, sediment erosion and delivery assessment, mapping hidden waterways, promotion of nature-based solutions and artificial intel- ligence for disaster management."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "star-11j1a8m",
+      "source": "star",
+      "title": "DepEd backs school safety bill amid shootings",
+      "summary": "Amid recent shooting incidents and other security concerns in schools, Education Secretary Sonny Angara yesterday expressed his support for the passage of the Comprehensive School Safety Act that…",
+      "byline": "Evelyn Macairan",
+      "section": "",
+      "published": "2026-08-27T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/08/28/2552332/deped-backs-school-safety-bill-amid-shootings",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/08/27/72023-03-3002-45-322026-07-0922-42-54_2026-08-27_23-31-03.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "August 28, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "This file photo shows a facade of the Department of Education."
+        },
+        {
+          "type": "p",
+          "text": "STAR / File"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Amid recent shooting incidents and other security concerns in schools, Education Secretary Sonny Angara yesterday expressed his support for the passage of the Comprehensive School Safety Act that gives priority to school safety and well-being of learners."
+        },
+        {
+          "type": "p",
+          "text": "The Department of Education (DepEd) said Angara showed his support to Sen. Bam Aquino at the Senate on Wednesday as the senator proposed the Comprehensive School Safety Act."
+        },
+        {
+          "type": "p",
+          "text": "The bill seeks to institutionalize DepEd’s ongoing learner protection initiatives into permanent law, ensuring that critical safety protocols remain funded and sustained."
+        },
+        {
+          "type": "p",
+          "text": "The legislative push follows nationwide concerns after shooting incidents at the San Jose National High School in Tacloban and the Ateneo de Zamboanga University."
+        },
+        {
+          "type": "p",
+          "text": "The proposed Comprehensive School Safety Act establishes a three-pillar framework: prevention, response and recovery."
+        },
+        {
+          "type": "p",
+          "text": "Under prevention, the bill mandates risk identification and safety training for parents, teachers and student leaders."
+        },
+        {
+          "type": "p",
+          "text": "Response outlines emergency protocols, communication networks, active attack safety drills and coordination with authorities."
+        },
+        {
+          "type": "p",
+          "text": "The recovery phase ensures psychosocial support, trauma-informed care and structured return-to-school plans."
+        },
+        {
+          "type": "p",
+          "text": "The DepEd is expediting the recruitment of 10,000 school counselor associates nationwide, aiming to deploy them by year-end."
+        },
+        {
+          "type": "h",
+          "text": "La Salle security"
+        },
+        {
+          "type": "p",
+          "text": "A student’s message on an online group chat with fellow students that he is a shooter disrupted classes at La Salle Greenhills in Mandaluyong City yesterday."
+        },
+        {
+          "type": "p",
+          "text": "In a Facebook post, the school aid classes from preschool to Grade 12, including International Baccalaureate and Alternative Education programs, were conducted online as a precautionary measure. – Emmanuel Tupas"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "star-11emk4u",
+      "source": "star",
+      "title": "Sweeping DPWH budget reforms set",
+      "summary": "There will be a sweeping overhaul in the budget submission process of the Department of Public Works and Highways, whose total project count for next year will be slashed by more than half, DPWH…",
+      "byline": "Ranier Allan Ronda",
+      "section": "",
+      "published": "2026-08-27T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/08/28/2552341/sweeping-dpwh-budget-reforms-set",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/08/27/vince-dizon-dpwh2025-09-1216-42-32_2026-08-27_23-40-15.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "August 28, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "DPWH Secretary Vince Dizon also warned DPWH district engineers (DEs) that signing off on unvetted or “defective, anomalous” projects could land them in jail."
+        },
+        {
+          "type": "p",
+          "text": "DPWH via Facebook"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — There will be a sweeping overhaul in the budget submission process of the Department of Public Works and Highways, whose total project count for next year will be slashed by more than half, DPWH Secretary Vince Dizon said yesterday."
+        },
+        {
+          "type": "p",
+          "text": "Dizon also warned DPWH district engineers (DEs) that signing off on unvetted or “defective, anomalous” projects could land them in jail."
+        },
+        {
+          "type": "p",
+          "text": "Highlighting a complete departure from “old budget habits” that allowed billions in public funds to be squandered on poorly planned infrastructure projects, Dizon said the DPWH is imposing a strict “no plan, no budget” policy across all regional and district offices."
+        },
+        {
+          "type": "p",
+          "text": "“The old ways of budgeting are over,” he told reporters yesterday during his inspection of flood control and infrastructure projects at the EDSA Balintawak Cloverleaf area in Quezon City."
+        },
+        {
+          "type": "p",
+          "text": "“We no longer accept project entries that consist of just a line-item title and a price tag. Projects must originate from community needs and satisfy complete prerequisite engineering requirements before entering the budget.”"
+        },
+        {
+          "type": "p",
+          "text": "Under the newly instituted accountability framework, DEs are required to personally sign certification documents guaranteeing that submitted projects have secured right-of-way acquisitions, detailed engineering designs and complete programs of work."
+        },
+        {
+          "type": "p",
+          "text": "Dizon cautioned field officials against blindly approving lump-sum or unverified proposals, warning that their personal signatures will serve as primary evidence in criminal proceedings."
+        },
+        {
+          "type": "p",
+          "text": "“If a DE signs off on a project and it turns out to be defective, anomalous, or ghost infrastructure, they are automatically held accountable,” he warned. “I will bring their signed certifications directly to the National Bureau of Investigation or the Ombudsman. It will be an open-and-shut case, and corrupt district engineers will go straight to prison.”"
+        },
+        {
+          "type": "p",
+          "text": "To enforce strict quality control and eliminate bloated, uncoordinated civil works, Dizon said the DPWH drastically pared down its project portfolio from 26,000 projects in previous budget cycles down to 11,000 highly targeted national projects."
+        },
+        {
+          "type": "p",
+          "text": "Dizon reiterated that every approved project must carry written concurrence from the concerned local government unit to ensure alignment with local drainage and traffic master plans."
+        },
+        {
+          "type": "p",
+          "text": "“While these reforms aren’t entirely foolproof, they create a formidable shield against the systemic corruption of the past,” Dizon added. “We will remain vigilant in guarding the public coffers.”"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "star-if4yk4",
+      "source": "star",
+      "title": "P7.2 trillion budget bill for 2027 filed",
+      "summary": "The bill containing the government&rsquo;s spending plan worth P7.2 trillion for fiscal year has been formally filed before the House of Representatives.",
+      "byline": "Daphne Galvez",
+      "section": "",
+      "published": "2026-08-27T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/08/28/2552345/p72-trillion-budget-bill-2027-filed",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/08/27/62025-10-1322-24-46_2026-08-27_23-42-52.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "August 28, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "The bill serves as the legislative equivalent of the 2027 National Expenditure Program (NEP) that Malacañang annually submits to Congress."
+        },
+        {
+          "type": "p",
+          "text": "Philstar.com / Irra Lising"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The bill containing the government’s spending plan worth P7.2 trillion for fiscal year has been formally filed before the House of Representatives."
+        },
+        {
+          "type": "p",
+          "text": "House committee on appropriations chairperson Mikaela Suansing said she has formally filed House Bill 10858 or the 2027 General Appropriations Bill."
+        },
+        {
+          "type": "p",
+          "text": "The bill serves as the legislative equivalent of the 2027 National Expenditure Program (NEP) that Malacañang annually submits to Congress."
+        },
+        {
+          "type": "p",
+          "text": "“We are working to ensure the careful scrutiny of the national budget for the year 2027,” Suansing said."
+        },
+        {
+          "type": "p",
+          "text": "The House of Representatives started the committee-level budget deliberations last week."
+        },
+        {
+          "type": "p",
+          "text": "After the committee, the bill will then be deliberated at the plenary."
+        },
+        {
+          "type": "p",
+          "text": "The Department of Budget and Management (DBM) earlier said the Department of Education (P976 billion) and Department of Public Works and Highways (P644 billion) were among the agencies with the largest allocations in the proposed budget for next year."
+        },
+        {
+          "type": "h",
+          "text": "Senate conducts budget hearing"
+        },
+        {
+          "type": "p",
+          "text": "The Senate yesterday led the Development Budget Coordination Committee (DBCC) hearing into the proposed P7.2-trillion national budget for 2027, with economic managers and senators talking about the need to tame inflation and end corruption following the flood control mess."
+        },
+        {
+          "type": "p",
+          "text": "Monetary and fiscal managers from the Bangko Sentral ng Pilipinas (BSP), Department of Finance, and DBM were grilled by the senators about the rising cost of living and the global headwinds – like regional wars and oil price shocks – that affect economic growth."
+        },
+        {
+          "type": "p",
+          "text": "Senate President Sherwin Gatchalian questioned BSP Governor Eli Remolona about the capacity of the Anti-Money Laundering Council (AMLC), which Remolona chairs, in flagging suspicious bank flows due to corruption."
+        },
+        {
+          "type": "p",
+          "text": "Sen. Francis Pangilinan pointed toAMLC’s failure to flag Syms Construction flood control contractorSally Santos’ transaction at Landbank in cashing out an alleged P457 million kickback to dismissed district engineer Brice Hernandez, a finding of last year’s explosive Blue Ribbon flood control inquiry."
+        },
+        {
+          "type": "p",
+          "text": "Remolona and other BSP officials said the AMLC is undergoing an AI project to digitize its monitoring of millions of covered and suspicious transactions flagged by and reported to the council."
+        },
+        {
+          "type": "p",
+          "text": "Sen. Panfilo Lacson said he led last year’s augmentation of P162.9 million for the AMLC budget in 2026 for this AI project."
+        },
+        {
+          "type": "p",
+          "text": "Sen. Camille Villar raised concern over the decline in the country’s gross domestic product growth rate, from 2.8 percent in the first quarter to 2.3 percent in the second quarter."
+        },
+        {
+          "type": "p",
+          "text": "Remolona said tight spending as a result of the flood control mess contributed to the economic slowdown."
+        },
+        {
+          "type": "p",
+          "text": "Asked by Sen. Risa Hontiveros about the economic “have-nots” that contributed to the slowdown, Remolona said the country has to diversify its oil supply and to get into the AI sector, as he cited the Pax Silica manufacturing hub as a welcome initiative."
+        },
+        {
+          "type": "p",
+          "text": "The Department of Migrant Workers (DMW) and the Overseas Workers Welfare Administration (OWWA) have asked lawmakers for an additional P4 billion for migrant worker assistance programs in the 2027 budget, citing the continuing Middle East conflict and the need to maintain sufficient resources for the repatriation and assistance of OFWs."
+        },
+        {
+          "type": "p",
+          "text": "The 2027 NEP provides P7.726 billion for the DMW and P4.349 billion for OWWA. – Marc Jayson Cayabyab, Christine Boton"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "star-3rqz1y",
+      "source": "star",
+      "title": "Teachers’ group slams P3.34 billion budget cut for SUCs",
+      "summary": "The Alliance of Concerned Teachers yesterday condemned the P3.34-billion slash in the budget for state universities and colleges or SUCs under the 2027 National Expenditure Program (NEP), while P10.8…",
+      "byline": "Evelyn Macairan",
+      "section": "",
+      "published": "2026-08-27T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/08/28/2552348/teachers-group-slams-p334-billion-budget-cut-sucs",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/08/27/52026-08-0122-44-40_2026-08-27_23-46-15.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "August 28, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Out of 116 SUCs nationwide, 49 will suffer direct budget slashes while seven others will receive nominal increases of less than one percent."
+        },
+        {
+          "type": "p",
+          "text": "Ramon Efren Lazaro"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Alliance of Concerned Teachers (ACT) yesterday condemned the P3.34-billion slash in the budget for state universities and colleges or SUCs under the 2027 National Expenditure Program (NEP), while P10.8 billion was allocated for confidential and intelligence funds or CIF."
+        },
+        {
+          "type": "p",
+          "text": "In a statement, ACT chairperson Ruby Bernardo said that while the SUCs suffer budget cuts, P10.8 billion was allocated for CIFs – with P4.56 billion, or 44.9 percent of the total CIF, for the Office of the President alone."
+        },
+        {
+          "type": "p",
+          "text": "Out of 116 SUCs nationwide, 49 will suffer direct budget slashes while seven others will receive nominal increases of less than one percent."
+        },
+        {
+          "type": "p",
+          "text": "“The cutbacks in education are directly depriving the young Filipinos of their rights to education,” Bernardo said."
+        },
+        {
+          "type": "p",
+          "text": "ACT said the University of the Philippines System bears the single largest budget slash, losing nearly P2.95 billion – a move that would directly cripple funding for the Philippine General Hospital, which is the country’s premier government tertiary medical facility."
+        },
+        {
+          "type": "p",
+          "text": "Specialized institutions such as the Philippine Normal University and Polytechnic University of the Philippines also face hefty cuts with P394.9 million and P291.8 million, respectively."
+        },
+        {
+          "type": "p",
+          "text": "ACT asked lawmakers to immediately reject all proposed budget cuts, and fully restore the P3.34-billion reduction across all 49 affected SUCs."
+        },
+        {
+          "type": "p",
+          "text": "The teachers’ group noted that the Department of the Interior and Local Government was given a P22-billion budget increase in the NEP, of which P16 billion would go to the Philippine National Police."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "star-v3t2wz",
+      "source": "star",
+      "title": "BOC chief vows zero tolerance for agri smuggling",
+      "summary": "Customs Commissioner Ariel Nepomuceno has assured farmers that the agency will remain relentless in its fight against agricultural smuggling, emphasizing that protecting local producers, securing…",
+      "byline": "The Philippine Star",
+      "section": "",
+      "published": "2026-08-27T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/08/28/2552354/boc-chief-vows-zero-tolerance-agri-smuggling",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/08/28/a_2026-08-28_00-36-25.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "August 28, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Customs Commissioner Ariel Nepomuceno speaks to farmers during a recent event"
+        },
+        {
+          "type": "p",
+          "text": "STAR / File"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Customs Commissioner Ariel Nepomuceno has assured farmers that the agency will remain relentless in its fight against agricultural smuggling, emphasizing that protecting local producers, securing national borders, and ensuring proper government revenue collection are among the bureau’s top priorities."
+        },
+        {
+          "type": "p",
+          "text": "Addressing members of the Magsasaka party-list and farmer leaders from Pampanga, Bataan, Aurora, Tarlac, Zambales, and Nueva Ecija, Nepomuceno acknowledged the damaging impact of smuggling on the livelihoods of farmers and fisherfolk across the country."
+        },
+        {
+          "type": "p",
+          "text": "The Customs chief stressed that while the challenges confronting the agriculture sector extend beyond smuggling, the bureau remains committed to fulfilling its mandate through stronger border protection and stricter enforcement against customs fraud and illicit trade."
+        },
+        {
+          "type": "p",
+          "text": "Nepomuceno also underscored President Marcos’ directives to strengthen revenue collection, minimize corruption, and modernize the Bureau of Customs."
+        },
+        {
+          "type": "p",
+          "text": "He noted that the BOC has surpassed its revenue collection target by more than P11 billion, proving that reforms and efficient revenue generation can go hand in hand."
+        },
+        {
+          "type": "p",
+          "text": "According to the commissioner, every successful effort to stop smuggling not only protects legitimate businesses and local producers but also ensures that government revenues intended for public programs and services are properly collected."
+        },
+        {
+          "type": "p",
+          "text": "Reforms in the bureau have just started and this will be carried out over the long haul, he said."
+        },
+        {
+          "type": "p",
+          "text": "He assured farmers of his continued support, saying he is on their side."
+        },
+        {
+          "type": "p",
+          "text": "The gathering was attended by Magsasaka party-list chairman and former representative Argel Joseph Cabatbat, DIWA party-list chairman and former representative Michael Aglipay, Vice Mayor Allan Policarpio representing Mayor Michael Galang, and various farmer leaders from Central Luzon."
+        },
+        {
+          "type": "p",
+          "text": "A highlight of the gathering was the approval of a motion conferring upon Nepomuceno the distinction of honorary member of Magsasaka, in recognition of his support for farmers and commitment to combating agricultural smuggling."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "star-iwmc8j",
+      "source": "star",
+      "title": "Palace: No FB ban for now; Meta cooperating with government",
+      "summary": "The government is not banning Facebook for now, but is pushing for clearer FB rules on eliminating online content that promotes disinformation and encourages violence.",
+      "byline": "Alexis Romero",
+      "section": "",
+      "published": "2026-08-27T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/08/28/2552357/palace-no-fb-ban-now-meta-cooperating-government",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/08/27/fb2020-09-2522-25-33_2026-08-27_23-50-58.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "August 28, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Palace press officer Claire Castro told a media briefing last Tuesday that the administration is open to banning Facebook and gaming applications following concerns about disinformation and the rising cases of deadly school violence."
+        },
+        {
+          "type": "p",
+          "text": "AFP"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The government is not banning Facebook for now, but is pushing for clearer FB rules on eliminating online content that promotes disinformation and encourages violence."
+        },
+        {
+          "type": "p",
+          "text": "Palace press officer Claire Castro told a media briefing last Tuesday that the administration is open to banning Facebook and gaming applications following concerns about disinformation and the rising cases of deadly school violence."
+        },
+        {
+          "type": "p",
+          "text": "The Cybercrime Investigation and Coordinating Center proposed the ban days after the shooting incident at the Ateneo de Zamboanga, which claimed the lives of two persons."
+        },
+        {
+          "type": "p",
+          "text": "Speaking to reporters yesterday, Castro said Facebook has been responsive to the government’s efforts to immediately take down “fake news.”"
+        },
+        {
+          "type": "p",
+          "text": "“Facebook is not difficult to deal with and it doesn’t mean that if other social media platforms are not responsive, all of them would be banned. That is not what the President and our administration wants,” she said."
+        },
+        {
+          "type": "p",
+          "text": "“But this is also a signal for other violators, especially the gaming apps that we know affect our youth and can cause violence. So that is what we want to relay because even if the President is open (to a ban), based on the latest information, our government does not have much problem with Facebook,” she added."
+        },
+        {
+          "type": "p",
+          "text": "Castro urged other social media platforms to work with the government to prevent the spread of false information and violent content. She revealed that Information and Communications Technology Secretary Henry Aguda is set to travel to Singapore to meet with regional executives of Meta and discuss ways to immediately get rid of violent and false posts."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "star-azlw82",
+      "source": "star",
+      "title": "DILG wants PNP access to homes of legal gun owners",
+      "summary": "The Department of the Interior and Local Government (DILG) has proposed allowing police access to inspect homes of owners of lawfully issued firearms to check procedures for safekeeping.",
+      "byline": "The Philippine Star",
+      "section": "",
+      "published": "2026-08-27T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/08/28/2552359/dilg-wants-pnp-access-homes-legal-gun-owners",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/08/27/9-12025-12-0122-05-03_2026-08-27_23-52-59.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "August 28, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Interior and Local Government Secretary Jonvic Remulla on September 1, 2025."
+        },
+        {
+          "type": "p",
+          "text": "STAR / Miguel De Guzman"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Department of the Interior and Local Government (DILG) has proposed allowing police access to inspect homes of owners of lawfully issued firearms to check procedures for safekeeping."
+        },
+        {
+          "type": "p",
+          "text": "Interior Secretary Jonvic Remulla yesterday suggested amending guidelines on the handling of government-issued guns amid recent fatal school shooting incidents that involved such weapons."
+        },
+        {
+          "type": "p",
+          "text": "In his proposal, Remulla said firearm owners will be informed ahead of time about the inspection and they would provide a checklist and reminders on proper safekeeping practices."
+        },
+        {
+          "type": "p",
+          "text": "He admitted that such a proposal might “upset some people” but reminded them that owning and carrying a gun is only a privilege."
+        },
+        {
+          "type": "p",
+          "text": "He pointed out that in both cases of the recent school shootings in Tacloban and Zamboanga, the safekeeping of the guns was not in standard procedure."
+        },
+        {
+          "type": "p",
+          "text": "In the Tacloban incident, a policewoman owned the government-issued gun used by one of the shooters, her nephew."
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, the guns used in the Ateneo de Zamboanga University were owned by the father of the shooter, who was a Bureau of Customs personnel."
+        },
+        {
+          "type": "p",
+          "text": "Remulla also urged Congress to repeal Republic Act 8294 or the so-called Robin Padilla law, which reduced penalties for illegal possession of firearms and made it a bailable offense."
+        },
+        {
+          "type": "p",
+          "text": "However, he acknowledged that the Bureau of Jail Management and Penology could need additional funds to enhance their facilities if the law is repealed."
+        },
+        {
+          "type": "p",
+          "text": "“Loose firearms in this country are prevalent. And if we catch them, it will be non-bailable, so we will need more room in our jails,” he said."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "star-l82el5",
+      "source": "star",
+      "title": "Flood kills over 200 in Nepal; Pinoy among 1,300 missing",
+      "summary": "A Filipino was among hundreds reported missing as rescue teams searched on Thursday along the Nepal-China border after a catastrophic and deadly torrent of floods and mud swept through several…",
+      "byline": "Pia Lee-Brago, Alexis Romero",
+      "section": "",
+      "published": "2026-08-27T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/08/28/2552366/flood-kills-over-200-nepal-pinoy-among-1300-missing",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/08/27/afp_2026-08-27_23-56-43.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "August 28, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "DEVIGHAT – A Filipino was among hundreds reported missing as rescue teams searched on Thursday along the Nepal-China border after a catastrophic and deadly torrent of floods and mud swept through several communities following a glacier collapse."
+        },
+        {
+          "type": "p",
+          "text": "The disaster left at least 273 people dead and more than 1,300 missing, including foreigners and pilgrims, and displaced hundreds of people across the Himalayan region."
+        },
+        {
+          "type": "p",
+          "text": "Videos of the tragedy showed the flood swallowing up people as they tried to escape, and destroying buildings and bridges."
+        },
+        {
+          "type": "p",
+          "text": "On Thursday, drone footage from Nepal showed the scale of the destruction."
+        },
+        {
+          "type": "p",
+          "text": "The region’s steep valleys are economic lifelines and travel corridors, but are precarious when disaster strikes. Images showed what appeared to be the second floors of buildings in Nuwakot slathered in mud after the torrent rushed by. Debris hung from tree branches and wires, vehicles were buried and some stunned survivors were caked in mud. The floods halted travel in some areas."
+        },
+        {
+          "type": "p",
+          "text": "There was little time for anyone to flee."
+        },
+        {
+          "type": "p",
+          "text": "A Filipino was among the travelers missing after the deadly flash flood in the Bhotekoshi and Trishuli rivers, the Nepal Tourism Board reported Thursday."
+        },
+        {
+          "type": "p",
+          "text": "The Department of Foreign Affairs (DFA) said there are 128 reported Filipinos in Nepal, most of them women married to Nepalese and 18 of them migrant workers."
+        },
+        {
+          "type": "p",
+          "text": "DFA spokesperson Analyn Ratonel said the Philippine embassy in New Delhi, which is mandated to represent the Philippines in Nepal, and the Honorary Consulate General of the Philippines in Kathmandu, Nepal, are actively monitoring the situation in parts of northern Nepal that had been hit by massive flash floods."
+        },
+        {
+          "type": "p",
+          "text": "“The Embassy and the Consulate General are coordinating with Nepali authorities to determine whether there are affected Philippine nationals and provide emergency rescue or assistance,” Ratonel said."
+        },
+        {
+          "type": "p",
+          "text": "The village of Soley in Nuwakot, with about 25 homes, was virtually wiped out, said Nirajan Paudyal, a Kathmandu-based journalist whose parents and other relatives live there. Desperate for information, he traveled to the area on Thursday for news of his family."
+        },
+        {
+          "type": "p",
+          "text": "“There is no update till now. I fear there won’t be any update,” Paudyal said."
+        },
+        {
+          "type": "p",
+          "text": "The Himalayan mountain range spans several countries in South Asia and has many of the world’s highest peaks and remaining glaciers."
+        },
+        {
+          "type": "p",
+          "text": "The steep slopes and the lush valleys below the Himalayan mountain range are especially vulnerable to flooding and landslides, and extreme weather events. Melting glaciers have become more common because of warming because of human-caused climate change."
+        },
+        {
+          "type": "p",
+          "text": "Researchers in Kathmandu found earlier this year that glaciers across the Hindu Kush Himalaya region are melting faster, with ice loss rates doubling since 2000."
+        },
+        {
+          "type": "p",
+          "text": "The disaster has left at least 270 dead and 826 people missing in Nepal, and three dead and 558 missing in Tibet, authorities said."
+        },
+        {
+          "type": "p",
+          "text": "Nepalese officials said that dozens of bridges were destroyed and nearly 40 kilometers of roads were damaged, complicating search efforts."
+        },
+        {
+          "type": "p",
+          "text": "The Nepalese army has rescued more than 100 people from flood-affected areas through helicopter operations on Thursday morning, army spokesperson Brig. Gen. Raja Ram Basnet said."
+        },
+        {
+          "type": "p",
+          "text": "At least eight foreign nationals were airlifted to the country’s capital, Kathmandu, he said, adding that army teams also evacuated people trapped inside facilities linked to the Trishuli hydropower project."
+        },
+        {
+          "type": "p",
+          "text": "Rescuers found bodies hundreds of kilometers downstream from the disaster zone in Chitwan district. Dozens of injured people have been transported to Kathmandu for advanced medical care."
+        },
+        {
+          "type": "p",
+          "text": "Bishal Kumar Bhandari, chairman of the Nepal Red Cross Society, said they have shifted focus from rescue to large-scale relief operations in the flood-hit districts. He said that around 1,200 people were displaced from at least three villages."
+        },
+        {
+          "type": "p",
+          "text": "In Tibet, a mudslide that struck near the land border crossing of Gyirong Port on Wednesday left mud in the surrounding areas more than 1.52 meters (5 feet) deep on average, with some road sections exceeding 2 meters (6 feet), Chinese state broadcaster CCTV reported. Roads leading to the port were all damaged, while secondary collapses or landslides might occur as rain continued in the area, it added."
+        },
+        {
+          "type": "p",
+          "text": "Chinese authorities deployed a large military transport aircraft to send a team to the region, and the country’s premier, Li Qiang, arrived in Gyirong on Thursday to direct rescue efforts."
+        },
+        {
+          "type": "p",
+          "text": "Further, Chinese authorities are warning that a barrier lake, which formed at the confluence of Tsogyal River and the Purupqiangzangbu, is overflowing and may burst."
+        },
+        {
+          "type": "p",
+          "text": "According to Nepal’s Tourism Board, 517 of the missing people in the country were foreigners and 178 of them were from India, and some were likely there on a pilgrimage to Mt. Kailash in Tibet, a sacred site for Hindus."
+        },
+        {
+          "type": "p",
+          "text": "The site, however, drew tourists from all over the world. More than 60 of the missing in Nepal were from the US and the rest were from 30 other countries, ranging from Ukraine and the UK to South Africa and Japan, the Tourism Board said."
+        },
+        {
+          "type": "p",
+          "text": "Indian spiritual guru and the head of the Isha Foundation, Sadhguru Jaggi Vasudev, said on X that 77 people from one of his pilgrimage groups to Mt. Kailash were caught in the flash floods at the immigration office at the Nepal-China border."
+        },
+        {
+          "type": "p",
+          "text": "A visibly emotional Sadhguru said in a video that the group included foreign nationals from various countries. He said that there was no official information on the whereabouts of those who were at the immigration office, including 22 US nationals."
+        },
+        {
+          "type": "p",
+          "text": "“Looking at the scale of destruction, it looks bad. The same building where we were for the immigration just a week ago, that entire building is washed away,” Sadhguru said."
+        },
+        {
+          "type": "p",
+          "text": "In addition, China’s Ministry of Foreign Affairs spokesperson Lin Jian said that nearly 100 Chinese citizens were missing on the Nepal side. He said that according to preliminary information, 260 of those missing in Tibet were foreigners."
+        },
+        {
+          "type": "h",
+          "text": "Glacier collapse"
+        },
+        {
+          "type": "p",
+          "text": "The USGS later updated its analysis to say the seismic event it measured was a magnitude 5.2 glacier collapse that sent debris flowing downstream with catastrophic impact on communities. It said its determination was based on data from nearby seismic stations, long period seismic waves and satellite imagery, and that no earthquake had occurred."
+        },
+        {
+          "type": "p",
+          "text": "Climate experts at the Kathmandu-based International Centre for Integrated Mountain Development said an avalanche from a glacier likely caused Wednesday’s flash flood."
+        },
+        {
+          "type": "p",
+          "text": "“Hydrological observations indicate the exceptional speed and magnitude of the flood wave,” they said in an emailed statement, noting that water levels at one point on the Trishuli river rose by as much as 9 meters (27 feet) over half an hour."
+        },
+        {
+          "type": "p",
+          "text": "The Lhende Khola River, a tributary of the Bhotekoshi, had maximum flooding, they said."
+        },
+        {
+          "type": "p",
+          "text": "The disaster in Nepal and Tibet is not a one-off. The increasingly unstable Himalayan ice system threatens communities, infrastructure and water supplies across one of the world’s most densely populated regions."
+        },
+        {
+          "type": "p",
+          "text": "The region saw similar flash floods in August 2025, when a glacial lake in Tibet overflowed because of high temperatures. Nine people were killed, and critical infrastructure, including a bridge connecting Nepal and China, was damaged."
+        },
+        {
+          "type": "h",
+          "text": "Marcos calls for prayers"
+        },
+        {
+          "type": "p",
+          "text": "In Manila, President Marcos asked for prayers for the communities hit by the flash floods in Nepal as the Philippine government continues to monitor the situation in the disaster-struck areas."
+        },
+        {
+          "type": "p",
+          "text": "“His (Marcos) message is he was saddened by the incident and let us continue to pray for the improved condition of the people affected by the calamity in Nepal,” Palace press officer Claire Castro said in a media briefing yesterday."
+        },
+        {
+          "type": "p",
+          "text": "In an X post, Marcos joined other world leaders in expressing grief over the flash flood in Nepal."
+        },
+        {
+          "type": "p",
+          "text": "“The Philippines extends its deepest condolences to our friends in Nepal and to all those affected by the deadly flash flood yesterday,” the President said."
+        },
+        {
+          "type": "p",
+          "text": "“Our deepest sympathies go out to those who lost family, loved ones and friends. Please accept our most heartfelt prayers for strength in this difficult time,” he added."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "star-lmokwy",
+      "source": "star",
+      "title": "Detained, at large, on leave senators decline salaries",
+      "summary": "Senators who are detained, at large or on leave have declined to receive their salaries since missing their on-site duties, according to Senate President Sherwin Gatchalian.",
+      "byline": "Marc Jayson Cayabyab",
+      "section": "",
+      "published": "2026-08-27T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/08/28/2552370/detained-large-leave-senators-decline-salaries",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/08/27/sa_2026-08-27_23-59-37.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "August 28, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Senate President Sherwin Gatchalian"
+        },
+        {
+          "type": "p",
+          "text": "AFP / Jam Sta Rosa"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Senators who are detained, at large or on leave have declined to receive their salaries since missing their on-site duties, according to Senate President Sherwin Gatchalian."
+        },
+        {
+          "type": "p",
+          "text": "“Those who are detained and at large voluntarily declined,” Gatchalian said in a chance interview at the Senate yesterday."
+        },
+        {
+          "type": "p",
+          "text": "One of them is Sen. Loren Legarda, who has missed attending Vice President Sara Duterte’s impeachment trial this month since the ombudsman announced a preliminary investigation over her and her son’s alleged involvement in ghost solar farm projects."
+        },
+        {
+          "type": "p",
+          "text": "Gatchalian said Legarda, who is overseas, has extended her medical leave and declined receiving her salary."
+        },
+        {
+          "type": "p",
+          "text": "“It’s a very personal issue. I’m aware of her ailment. Even prior to this, we were personal friends as well and she said she has a serious medical issue,” said Gatchalian."
+        },
+        {
+          "type": "p",
+          "text": "“After she filed her medical leave she already declined her salary. We’ve instructed the accounting department and payroll department to suspend her salary,” he added."
+        },
+        {
+          "type": "p",
+          "text": "There is no word when Legarda would return from her medical leave."
+        },
+        {
+          "type": "p",
+          "text": "“I have no idea but she has to take her health seriously,” Gatchalian said."
+        },
+        {
+          "type": "p",
+          "text": "Senators’ salaries which are not received by the principal can be converted as savings, Gatchalian said."
+        },
+        {
+          "type": "p",
+          "text": "“The Senate can declare it as savings and use it for something else,” Gatchalian said."
+        },
+        {
+          "type": "p",
+          "text": "Other senators currently absent at the Senate are Ronald dela Rosa, who is at large, and Jinggoy Estrada and Rodante Marcoleta, who are detained."
+        },
+        {
+          "type": "p",
+          "text": "Dela Rosa has been in hiding since the International Criminal Court (ICC) ordered his arrest for the crimes against humanity case he faces with former president Rodrigo Duterte as a result of their bloody drug war."
+        },
+        {
+          "type": "p",
+          "text": "Estrada is serving his 90-day suspension pending the litigation of his plunder case for allegedly receiving P573 million in kickbacks from anomalous flood control projects."
+        },
+        {
+          "type": "p",
+          "text": "Marcoleta is also detained for plunder over an allegedly undeclared P75 million campaign funds for his 2025 senatorial bid."
+        },
+        {
+          "type": "p",
+          "text": "Gatchalian said he is monitoring the situation of Estrada, who was taken to a hospital in San Juan on Wednesday after suffering a meniscus tear on his left knee."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "inq-16td2qu",
+      "source": "inq",
+      "title": "San Jose del Monte City water production improves after crisis",
+      "summary": "MANILA, Philippines — San Jose del Monte City in Bulacan increased its average daily water production to 135.19 million liters per day (MLD) in August following the ongoing rehabilitation and…",
+      "byline": "",
+      "section": "",
+      "published": "2026-08-27T15:36:26.000Z",
+      "url": "https://newsinfo.inquirer.net/2293947/san-jose-del-monte-city-sees-improvement-in-water-production-after-crisis",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2023/03/San-Jose-Del-Monte-Bulacan-map-filephoto-300x169.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — San Jose del Monte City in Bulacan increased its average daily water production to 135.19 million liters per day (MLD) in August following the ongoing rehabilitation and corrective maintenance of its water facilities. Metro Pacific Bulacan Water (MPBW) reported that the city’s average water production increased by 10.5% in August from the 122.36 MLD recorded under PrimeWater, its previous water utility provider. READ: Water crisis grips 40,000 families in Bulacan It added that the combined production of Water Treatment Plants 1 and 2 increased to 55 MLD from the previous 40 MLD. San Jose del Monte was placed [&hellip;]... Keep on reading: San Jose del Monte City water production improves after crisis"
+        }
+      ],
+      "truncated": true
+    },
+    {
+      "id": "inq-1obyz2d",
+      "source": "inq",
+      "title": "Cops seize heavy equipment, arrest 7 in Negros quarry raid",
+      "summary": "BACOLOD CITY — Police arrested seven individuals and seized heavy equipment and quarry materials valued at P16 million during a joint anti-illegal quarrying operation in Hacienda Bag-o, Barangay…",
+      "byline": "",
+      "section": "",
+      "published": "2026-08-27T15:30:47.000Z",
+      "url": "https://newsinfo.inquirer.net/2293923/cops-seize-heavy-equipment-arrest-7-in-negros-quarry-raid",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/1787661849332blob-1-620x465.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BACOLOD CITY — Police arrested seven individuals and seized heavy equipment and quarry materials valued at P16 million during a joint anti-illegal quarrying operation in Hacienda Bag-o, Barangay Crossing Magallon, Moises Padilla, Negros Occidental, on Aug. 25. The operation was conducted along the Binalbagan River by the Regional Special Operations Group of the Police Regional Office Negros Island Region (PRO NIR), in coordination with the Moises Padilla Municipal Police Station, the Negros Occidental Police Provincial Office, and the Mines and Geosciences Bureau. The suspects were identified as aliases “Rom,” 44; “Rit,” 30; “Jer,” 28; “Gem,” 37; “Hen,” 40; “Ron,” 42; and [&hellip;]... Keep on reading: Cops seize heavy equipment, arrest 7 in Negros quarry raid"
+        }
+      ],
+      "truncated": true
+    },
+    {
+      "id": "inq-1jz0eo6",
+      "source": "inq",
+      "title": "PH may be caught in US rivals’ ‘crosshairs’ – Tinio",
+      "summary": "MANILA, Philippines — Deputy Minority Leader and ACT Teachers Rep. Antonio Tinio on Thursday warned that the growing US presence in the country’s military and economic assets could put the…",
+      "byline": "Holly Bacay",
+      "section": "",
+      "published": "2026-08-27T15:10:26.000Z",
+      "url": "https://globalnation.inquirer.net/336239/ph-may-be-caught-in-us-rivals-crosshairs-tinio",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2025/07/US-Philippines-Hegseth-AP-22July2025-620x349.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "image",
+          "src": "https://globalnation.inquirer.net/files/2025/07/US-Philippines-Hegseth-AP-22July2025-1200x740.jpg",
+          "caption": "Philippine President Ferdinand Marcos Jr., left, speaks during a meeting with Secretary of Defense Pete Hegseth, right, at the Pentagon, Monday, July 21, 2025, in Washington. (AP Photo/Mark Schiefelbein)"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Deputy Minority Leader and ACT Teachers Rep. Antonio Tinio on Thursday warned that the growing US presence in the country’s military and economic assets could put the Philippines in the “crosshairs” of its rivals."
+        },
+        {
+          "type": "p",
+          "text": "“In the event of a war between the US and China over the Taiwan issue, we can infer that China would target US facilities—both military and commercial—located in the Philippines. Our concern is that the US presence in the country is situated within our strategic and critical economic infrastructure,” Tinio said in a statement released on Thursday."
+        },
+        {
+          "type": "p",
+          "text": "READ: Teodoro: Decrease in capital outlay funds can affect AFP modernization"
+        },
+        {
+          "type": "p",
+          "text": "Article continues after this advertisement"
+        },
+        {
+          "type": "p",
+          "text": "Tinio’s statement followed his heated exchange with Defense Secretary Gilberto Teodoro during the House committee on appropriations’ hearing on the proposed 2027 budget of the Department of National Defense last Tuesday, Aug. 25."
+        },
+        {
+          "type": "p",
+          "text": "During the hearing, Tinio raised reports that US soldiers had attempted to enter the Philippine Veterans Investment Development Corporation Industrial Authority in Tagoloan, Misamis Oriental, where the new Philippine Navy dry dock is set to be established."
+        },
+        {
+          "type": "p",
+          "text": "Teodoro dismissed claims about US interest in the dry dock, saying the presence of foreign troops was for the Balikatan loading exercise."
+        },
+        {
+          "type": "p",
+          "text": "For Tinio, however, the incident was part of a broader pattern of Washington’s agenda in the country."
+        },
+        {
+          "type": "p",
+          "text": "He cited the US-led Pax Silica, the US Navy’s use of Subic Bay for repairs and plans for an oil depot in Davao Gulf."
+        },
+        {
+          "type": "p",
+          "text": "Article continues after this advertisement"
+        },
+        {
+          "type": "p",
+          "text": "Tinio said the growing US presence in strategic military and economic facilities was particularly concerning because the Philippines lacks the capacity to defend these assets should geopolitical tensions escalate."
+        },
+        {
+          "type": "p",
+          "text": "“How is the Philippines? The Gulf states are rich countries. They can afford high-tech missile defenses. How are we? What is the capability of the Armed Forces to defend these facilities?” he asked."
+        },
+        {
+          "type": "p",
+          "text": "Article continues after this advertisement"
+        },
+        {
+          "type": "p",
+          "text": "Tinio called on the public to remain vigilant against “foreign manipulation and intervention.”"
+        },
+        {
+          "type": "p",
+          "text": "“We must oppose all efforts to sell us out,” he added. /mcm"
+        },
+        {
+          "type": "p",
+          "text": "Your subscription could not be saved. Please try again."
+        },
+        {
+          "type": "p",
+          "text": "Your subscription has been successful."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "inq-1eqe1dg",
+      "source": "inq",
+      "title": "Sugarcane farm workers demand reforms in social benefits system",
+      "summary": "BACOLOD CITY — Sugarcane workers staged a protest outside the Department of Labor and Employment (DOLE) office here on Thursday, Aug. 27, demanding urgent reforms to the Social Amelioration Program…",
+      "byline": "",
+      "section": "",
+      "published": "2026-08-27T14:55:13.000Z",
+      "url": "https://newsinfo.inquirer.net/2293852/sugarcane-farm-workers-demand-reforms-in-social-benefits-system",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/1787826430530blob-620x465.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BACOLOD CITY — Sugarcane workers staged a protest outside the Department of Labor and Employment (DOLE) office here on Thursday, Aug. 27, demanding urgent reforms to the Social Amelioration Program (SAP) and the abolition of the &#8220;pakyaw&#8221; (piece-rate) system amid the crisis facing the sugar industry. The protest was led by the National Federation of Sugar Workers (NFSW), alongside the Kilusang Magbubukid ng Pilipinas (KMP) and national fisherfolk organization Pamalakaya. In a position paper submitted to the DOLE, the NFSW proposed policy changes and reforms to the SAP for consideration by the Bureau of Workers with Special Concerns (BWSC). READ: Negros [&hellip;]... Keep on reading: Sugarcane farm workers demand reforms in social benefits system"
+        }
+      ],
+      "truncated": true
+    },
+    {
+      "id": "inq-td2dci",
+      "source": "inq",
+      "title": "6 Aeta, including 3 children, die as boat capsizes in Zambales lake",
+      "summary": "SAN ANTONIO, Zambales — Six Aeta indigenous people, including three children, died on Thursday, after the boat they were riding capsized in Mapanuepe Lake in San Marcelino town, Zambales. Liza…",
+      "byline": "",
+      "section": "",
+      "published": "2026-08-27T14:50:00.000Z",
+      "url": "https://newsinfo.inquirer.net/2293857/6-aetas-including-3-children-die-as-boat-capsizes-in-zambales-lake",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/IMG_6214-620x349.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN ANTONIO, Zambales — Six Aeta indigenous people, including three children, died on Thursday, after the boat they were riding capsized in Mapanuepe Lake in San Marcelino town, Zambales. Liza Balario, Indigenous Peoples Mandatory Representative (IPMR) of Barangay Buhawen in San Marcelino, told the Inquirer that the victims were residents of the Aeta community in Sitio Lomibao, which is located across the lake from the main part of the barangay. READ: 20 rescued after passenger boat capsizes off Romblon town Residents of the community there have to cross the lake by boat to reach the barangay proper, where the community health [&hellip;]... Keep on reading: 6 Aeta, including 3 children, die as boat capsizes in Zambales lake"
+        }
+      ],
+      "truncated": true
+    },
+    {
+      "id": "inq-lc1agm",
+      "source": "inq",
+      "title": "PDEA destroys P12.34B worth of dangerous drugs",
+      "summary": "MANILA, Philippines — More than 2.2 metric tons of confiscated dangerous drugs worth P12.34 billion were destroyed through incineration at a waste management plant in Cavite on Thursday, the…",
+      "byline": "",
+      "section": "",
+      "published": "2026-08-27T14:45:29.000Z",
+      "url": "https://newsinfo.inquirer.net/2293934/pdea-destroys-p12-34-b-worth-of-dangerous-drugs",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2024/01/pdea-drugs-logo-filephoto-13024-300x169.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — More than 2.2 metric tons of confiscated dangerous drugs worth P12.34 billion were destroyed through incineration at a waste management plant in Cavite on Thursday, the Philippine Drug Enforcement Agency (PDEA) said. In a statement, PDEA said the volume was the largest amount of substances incinerated in this year’s operation, consisting of more than 2 million grams of solid substances and over 100 million milliliters (mL) of liquid dangerous drugs. The dangerous drugs were incinerated through thermal decomposition at Integrated Waste Management Inc. in Barangay Aguado, Trece Martires City, Cavite. According to the agency, the substances included approximately [&hellip;]... Keep on reading: PDEA destroys P12.34B worth of dangerous drugs"
+        }
+      ],
+      "truncated": true
+    },
+    {
+      "id": "inq-1ovcwgo",
+      "source": "inq",
+      "title": "We need deeper thinking about video games and violence",
+      "summary": "Everyone who thinks that video games cause violence is wrong. Everyone who thinks video games have nothing to do with violence is wrong. Before I proceed, I will set forward the idea that any school…",
+      "byline": "Carljoe Javier",
+      "section": "",
+      "published": "2026-08-27T14:18:39.000Z",
+      "url": "https://technology.inquirer.net/148863/we-need-deeper-thinking-about-video-games-and-violence",
+      "image": {
+        "src": "https://technology.inquirer.net/files/2026/08/alex-haney-xWkRYoSf8_c-unsplash-470x313.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "image",
+          "src": "https://technology.inquirer.net/files/2026/08/alex-haney-xWkRYoSf8_c-unsplash-1200x740.jpg",
+          "caption": "video games violenence"
+        },
+        {
+          "type": "p",
+          "text": "Everyone who thinks that video games cause violence is wrong."
+        },
+        {
+          "type": "p",
+          "text": "Everyone who thinks video games have nothing to do with violence is wrong."
+        },
+        {
+          "type": "p",
+          "text": "Before I proceed, I will set forward the idea that any school shooting, any kind of attack like this is tragic and unacceptable and we need to do things as a society to ensure that we are doing everything that we can, not just to prevent them, but providing care and concern so that no one even thinks about doing this to other people."
+        },
+        {
+          "type": "p",
+          "text": "Article continues after this advertisement"
+        },
+        {
+          "type": "p",
+          "text": "But I want to focus on technology and tech policy, and to look at the kinds of arguments we are having, and the ones that we should be having."
+        },
+        {
+          "type": "h",
+          "text": "Knee jerk responses"
+        },
+        {
+          "type": "p",
+          "text": "In what might be considered knee-jerk response, DILG Sec. Jonvic Remulla called for the banning of first-person games. Similarly, Sen. Robin Padilla is condemning game developers for inspiring school shooters. This isn’t much different from the responses to the tragic school shooting only months ago in Tacloban."
+        },
+        {
+          "type": "p",
+          "text": "In equal knee jerk response, we have lots of people saying that if it were true that games caused violence, then why isn’t there more violence? I come from the generation that played the first FPS’s, and I’ll be honest that this too has been my gut reaction. The corollary then is, if I and all the people around me who ever played violent games have not done anything, then games have nothing to do with it."
+        },
+        {
+          "type": "p",
+          "text": "RELATED STORY: DICT blocks GoreBox in Philippines after talks with developer"
+        },
+        {
+          "type": "p",
+          "text": "Article continues after this advertisement"
+        },
+        {
+          "type": "h",
+          "text": "Here’s what I think each side is getting wrong."
+        },
+        {
+          "type": "p",
+          "text": "The “video games make people violent” side join a long tradition of moral panics. Just this weekend I was in a board game cafe filled with people playing Dungeons & Dragons and Magic: The Gathering; these days considered harmless pastimes but when I was younger, we were warned that playing these games would lead us to Satanic rituals. It’s hilarious to watch 90s videos of fundamental preachers warning against the new threat of this Satanic force called Pokémon. I’m old enough that in Catholic School we were warned about the Satanic messages in the music of Led Zeppelin and Queen, which could be revealed by backmasking cassettes."
+        },
+        {
+          "type": "h",
+          "text": "Moral Panics and Genuine Concerns"
+        },
+        {
+          "type": "p",
+          "text": "The targets of such moral panics have shifted as culture and media have evolved. Whether it was worry over slasher films, punk music and gangsta rap, to Harry Potter and Lord of the Rings, to tabletop and video games, it’s been a move by moralist sides to blame pieces of culture for potential or actual harmful behavior. Looking at it with a broad historical scope, the argument falls apart and gets exposed as, well, silly."
+        },
+        {
+          "type": "p",
+          "text": "However, it is worth noting that there are some points of concern that have merit. While it’s too much to believe that there are “corrupting forces” in these things, and therefore we must protect our children against them is a stretch, what is worth acknowledging is that they are correct in noting that there are some kinds of media and culture that kids should not be allowed to engage with. There’s a reason for ratings systems, age limits, and the like. While those systems and limits will constantly be shifting given societal norms, they are important. You can’t just expose kids to everything and hope for the best."
+        },
+        {
+          "type": "p",
+          "text": "Article continues after this advertisement"
+        },
+        {
+          "type": "p",
+          "text": "Which brings us to what the “I’ve played video games and I haven’t shot anybody” side gets wrong. Those of us who lived through the moral panics against Diablo, Mortal Kombat, and Counter-Strike came up in a world with a very different gaming culture. We trash-talked people in front of us (or beside us, trying to keep our spot as challengers stepped up and dropped coins), played in rooms connected via LAN. These days, we aren’t playing inside of the same kinds of games, and if we are, there are rooms that are separate from our experiences."
+        },
+        {
+          "type": "h",
+          "text": "Games are so different now"
+        },
+        {
+          "type": "p",
+          "text": "This is to acknowledge that the worlds inside of video games today and the experience of games is so different. The scale of the social aspects of games is drastically different from what past generations experienced. We might have been the first to inhabit the MMO worlds of Ragnarok: Online or World of Warcraft, but the social aspects of games like Fortnite and Roblox are something else."
+        },
+        {
+          "type": "p",
+          "text": "What we get wrong is that when someone says something against video games, they might be getting something right. Broadly video games don’t cause violence. However, it cannot be denied that video game spaces are spaces where sexual predation and radicalization can occur. The games themselves might not be designed as vectors for spreading violent and radical thinking, or as a space for predators to take advantage of children. But that doesn’t mean that bad actors aren’t using the social aspects of those games to do things that were never in the game’s original plans."
+        },
+        {
+          "type": "p",
+          "text": "Some might want to shift the blame to parents. This interview with a game developer who worked on Roblox encourages parents to be watching their kids “24/7” if they are on Roblox. One can imagine the world of content just twenty years ago, movies had age minimums, video rental stores had sections with the movies marked for age, and in general we had a sense of where kids could go and what kind of things they were exposed to. But now, kids can log on and they have access, and also become accessible, to content and individuals that their parents would have no way to watch let alone control. (Also, what kind of life would it be if every movement done by young people was done under the surveillance of their parents? A different issue entirely, but something worth thinking about as we think about giving parents more control and shifting more responsibility to them.)"
+        },
+        {
+          "type": "p",
+          "text": "Very clearly parents need to play a part in watching what their kids are exposed to. But parental guidance is not enough, and so there needs to be a whole of society approach to this. We need our regulators to actually be regulating the right things. Rather than asking for blanket bans on FPS games, we should be asking our regulators to set expectations on platforms that host games."
+        },
+        {
+          "type": "h",
+          "text": "You wouldn’t leave kids in an arcade"
+        },
+        {
+          "type": "p",
+          "text": "I will try and make a simple analogy here. If I were running an arcade which allowed small kids to play certain games, then I should be expected to not put extremely violent games or sexual games within access of those small kids. Maybe I need to have a separate room for those games–I’m allowed to offer them and to let age-appropriate people play the games. More importantly, if there are creepers who are trying to isolate young children or radicalize troubled teens, then I should have a responsibility to protect those kids. Even better, I should have a connection with regulators so I know who to report them to."
+        },
+        {
+          "type": "p",
+          "text": "But what the analogy shows is that it isn’t just parents, or platforms, or regulators, but everyone working together to address this at the various layers. Games and all other content should have some kind of recommendations or verification limits (if you are playing on Steam you run into these all the time)."
+        },
+        {
+          "type": "p",
+          "text": "To the best of their ability, parents should help guide their children’s online behavior. To continue the arcade metaphor, you don’t just drop them off and hope for the best. If they are small you go and join them, if they are older, then you decide how much you can trust them. But then the platform has to step in. Once a parent trusts a platform enough to allow their children to use it, then the platform has a duty of care to the child. And beyond that, we do need regulation that holds platforms accountable."
+        },
+        {
+          "type": "p",
+          "text": "It’s not just banning video games. And it’s not that video games have nothing to do with violence. We need to be talking more deeply and exploring in a more thoughtful way what we can do here. I know that I might be talking about an internet that doesn’t exist anymore, given the levels of danger and toxicity we see in so many platforms. But I still think people can turn to online games to discover their people, have great experiences, and enrich their lives."
+        },
+        {
+          "type": "p",
+          "text": "Parents need to provide support for their kids and help them through what they can and should be playing. Platforms need to provide great spaces where kids can have fun, safe experiences. And regulators need to provide frameworks for platforms to adhere to and establish what the bounds are to hold them accountable. It’s going to take a lot more than blanket bans to get us to a better, safer place."
+        },
+        {
+          "type": "p",
+          "text": "Your subscription could not be saved. Please try again."
+        },
+        {
+          "type": "p",
+          "text": "Your subscription has been successful."
+        },
+        {
+          "type": "p",
+          "text": "RELATED STORY: Blaming video games is the lazy scapegoat"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "inq-nzpj8n",
+      "source": "inq",
+      "title": "Project Noah eyes 150 detention basins to help curb Metro Manila floods",
+      "summary": "MANILA, Philippines—Project Noah has proposed the construction of more than 150 detention basins across Metro Manila, in order to reduce flooding during heavy rainfall. In a press briefing on…",
+      "byline": "",
+      "section": "",
+      "published": "2026-08-27T14:15:00.000Z",
+      "url": "https://newsinfo.inquirer.net/2293840/project-noah-eyes-150-detention-basins-to-help-curb-metro-manila-floods",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/07/31july2026-floodstock-620x397.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—Project Noah has proposed the construction of more than 150 detention basins across Metro Manila, in order to reduce flooding during heavy rainfall. In a press briefing on Thursday, Project Noah executive director Mahar Lagmay explained that detention basins would temporarily store excess rainwater that would otherwise flow into low-lying areas, helping reduce the volume of water that causes flooding. “We cannot totally eradicate the floods because we are not better than nature. We are not better than the environment. But we can lower it so that the burden on the community, the burden on the people is lower,” Lagmay [&hellip;]... Keep on reading: Project Noah eyes 150 detention basins to help curb Metro Manila floods"
+        }
+      ],
+      "truncated": true
+    },
+    {
+      "id": "inq-1l30v12",
+      "source": "inq",
+      "title": "Lotto draw results, August 27, 2026",
+      "summary": "Here are the lotto draw results of the Philippine Charity Sweepstakes Office (PCSO) for Thursday, August 27, 2026. Check these out. READ MORE: Lotto draw results, August 26, 2026 Lotto draw results,…",
+      "byline": "",
+      "section": "",
+      "published": "2026-08-27T14:02:51.000Z",
+      "url": "https://cebudailynews.inquirer.net/761574/lotto-draw-results-august-27-2026",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2025/07/pcso-lotto-logo-filephoto-10222-4-2-2-620x349.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Here are the lotto draw results of the Philippine Charity Sweepstakes Office (PCSO) for Thursday, August 27, 2026. Check these out. READ MORE: Lotto draw results, August 26, 2026 Lotto draw results, August 25, 2026 PCSO lotto games and results The PCSO holds five 6-pick number games, the Lotto 6/42, MegaLotto 6/45, SuperLotto 6/49, GrandLotto 6/55, and UltraLotto 6/58 at ₱25 per combination. All of these number games can be played using the system play (systems 7 to 12), 5 Roll, and Lucky Pick. The PCSO draws the Lotto 6/42 on Tuesdays, Thursdays, and Saturdays and offers an initial jackpot prize [&hellip;]... Keep on reading: Lotto draw results, August 27, 2026"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "inq-1gp8u5y",
+      "source": "inq",
+      "title": "Lotto draw results on Thursday, August 27",
+      "summary": "MANILA, Philippines—A bettor won the ₱1.86 million 6D Lotto top prize Thursday, while no bettor hit the jackpot in Super Lotto 6/49 and Lotto 6/42 draws. According to the Philippine Charity…",
+      "byline": "",
+      "section": "",
+      "published": "2026-08-27T14:02:01.000Z",
+      "url": "https://newsinfo.inquirer.net/2293859/lotto-draw-results-on-thursday-august-27",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/10/pcso-lotto-logo-filephoto-10222-4-300x169.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—A bettor won the ₱1.86 million 6D Lotto top prize Thursday, while no bettor hit the jackpot in Super Lotto 6/49 and Lotto 6/42 draws. According to the Philippine Charity Sweepstakes Office, the winning combination for 6D Lotto was 8-7-5-3-9-0. Super Lotto 6/49 draw result: 33-15-03-42-11-30 Jackpot prize: ₱25.07 million Lotto 6/42 draw result: 39-35-26-18-04-13 Jackpot prize: ₱16.41 million Minor games Draw schedule Lotto 6/42 draws are held every Tuesday, Thursday and Saturday, while Super Lotto 6/49 draws take place every Tuesday, Thursday and Sunday. 6D Lotto is also drawn on Thursdays.... Keep on reading: Lotto draw results on Thursday, August 27"
+        }
+      ],
+      "truncated": true
+    },
+    {
+      "id": "rap-uz40di",
+      "source": "rap",
+      "title": "Romualdez&#8217; district No. 1 recipient of DPWH funds &#124; The wRap",
+      "summary": "Today’s headlines: Martin Romualdez, Philippine Senate, School shooting",
+      "byline": "Rappler.com",
+      "section": "Editors' Pick",
+      "published": "2026-08-27T14:00:00.000Z",
+      "url": "https://www.rappler.com/video/daily-wrap/august-27-2026/",
+      "image": {
+        "src": "https://www.rappler.com/rappler-prod-01/uploads/2026/08/THE-WRAP-LS-MAIN-29-1024x576.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "House of Representatives"
+        },
+        {
+          "type": "p",
+          "text": "Aug 27, 2026 10:00 PM PHT"
+        },
+        {
+          "type": "p",
+          "text": "Rappler.com"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/ydbPNu43kr0/sddefault.jpg",
+          "caption": "Romualdez’ district No. 1 recipient of DPWH funds | The wRap"
+        },
+        {
+          "type": "p",
+          "text": "Today’s headlines: Martin Romualdez, Philippine Senate, School shooting"
+        },
+        {
+          "type": "p",
+          "text": "Here are today’s headlines – the latest news in the Philippines and around the world:"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "Lists survive the stripping, because they carry meaning.",
-            "Navigation menus do not, because they do not.",
-            "Anything the extractor cannot identify is dropped rather than shown broken."
+            "Romualdez replaces Pulong Duterte as top recipient of DPWH funds"
           ]
         },
         {
           "type": "p",
-          "text": "Short items are common in a feed like this. The layout should not look broken at three paragraphs, nor cramped at thirty."
-        }
-      ],
-      "truncated": false
-    },
-    {
-      "id": "sample-4",
-      "source": "cbc",
-      "title": "Rail service restored on the eastern corridor",
-      "summary": "Crews finished overnight repairs, with a reduced timetable through the weekend.",
-      "byline": "Sample byline",
-      "section": "Canada",
-      "published": "2026-08-27T05:34:00+08:00",
-      "url": "https://example.com/sample",
-      "image": null,
-      "blocks": [
+          "text": "The first district of Leyte takes over the first district of Davao City as the top recipient of funds from the Department of Public Works and Highways."
+        },
         {
-          "type": "p",
-          "text": "Placeholder text."
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "4 senators stop receiving salaries amid absences"
+          ]
         },
         {
           "type": "p",
-          "text": "Some outlets publish the whole article inside the feed itself. Where they do, this screen fills instantly and no extra fetch is needed."
-        }
-      ],
-      "truncated": false
-    },
-    {
-      "id": "sample-5",
-      "source": "abs",
-      "title": "MRT-3 to run extended hours through the holidays",
-      "summary": "Operations start earlier on weekdays, with the last southbound train at midnight.",
-      "byline": "Sample byline",
-      "section": "Metro",
-      "published": "2026-08-27T04:35:00+08:00",
-      "url": "https://example.com/sample",
-      "image": null,
-      "blocks": [
+          "text": "Four senators stop receiving their salaries as they remain absent from plenary sessions of the Senate and the ongoing impeachment trial of Vice President Sara Duterte."
+        },
         {
-          "type": "p",
-          "text": "Placeholder text."
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "PNP files complaint vs father of minor in Ateneo de Zamboanga shooting"
+          ]
         },
         {
           "type": "p",
-          "text": "Where an outlet publishes only a summary, the fetcher opens the article page, throws away everything that is not the story, and keeps the result."
+          "text": "The Philippine National Police files a complaint against the owner of the gun used by a high school student in the August 18 school shooting in Zamboanga City."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Beyond income, 12.8% of Filipinos are poor across multiple dimensions in 2024"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A new and broader official way of measuring poverty shows that 12.8% of Filipinos were multidimensionally poor in 2024."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Filipino among missing in Nepal after deadly flash floods"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A Filipino is among those who are missing in Nepal, after a wall of mud and rock collapsed into a Himalayan river, causing catastrophic flash floods. – Rappler.com"
+        },
+        {
+          "type": "p",
+          "text": "How does this make you feel?"
+        },
+        {
+          "type": "p",
+          "text": "Loading"
+        },
+        {
+          "type": "h",
+          "text": "Related Topics"
+        },
+        {
+          "type": "p",
+          "text": "Martin Romualdez Nepal overseas Filipinos poverty in the Philippines School violence Senate of the Philippines"
+        },
+        {
+          "type": "h",
+          "text": "Martin Romualdez"
+        },
+        {
+          "type": "p",
+          "text": "Philippine News"
+        },
+        {
+          "type": "h",
+          "text": "Romualdez replaces Pulong Duterte as top recipient of DPWH funds"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/04/MARTIN-ROMUALDEZ-FLOOD-CONTROL-APRIL-30-2026.jpg?resize=257%2C257&crop=387px%2C0px%2C1080px%2C1080px",
+          "caption": "Romualdez replaces Pulong Duterte as top recipient of DPWH funds"
+        },
+        {
+          "type": "p",
+          "text": "Newsbreak Podcasts and Videos"
+        },
+        {
+          "type": "h",
+          "text": "Despite recantations, Ombudsman findings on Romualdez’s alleged money laundering network hold"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/titlecard-ls.png?resize=257%2C257&crop=451px%2C0px%2C1080px%2C1080px",
+          "caption": "Despite recantations, Ombudsman findings on Romualdez’s alleged money laundering network hold"
+        },
+        {
+          "type": "p",
+          "text": "Newsletters"
+        },
+        {
+          "type": "h",
+          "text": "[Rappler’s Best] The ‘maleta’ boys’ travelogue"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/romualdez-maleta-boys-travelogue-August-24-2026.jpg?resize=257%2C257&crop=180px%2C0px%2C720px%2C720px",
+          "caption": "[Rappler’s Best] The ‘maleta’ boys’ travelogue"
+        },
+        {
+          "type": "p",
+          "text": "Philippine News"
+        },
+        {
+          "type": "h",
+          "text": "What parts of Ombudsman’s case buildup vs Romualdez are affected by recantations?"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2025/09/martin-romualdez-resigns-speaker-congress-september-17-2025-005-scaled.jpg?resize=257%2C257&crop=225px%2C0px%2C1708px%2C1708px",
+          "caption": "What parts of Ombudsman’s case buildup vs Romualdez are affected by recantations?"
+        },
+        {
+          "type": "p",
+          "text": "More on Martin Romualdez"
+        },
+        {
+          "type": "h",
+          "text": "Nepal"
+        },
+        {
+          "type": "p",
+          "text": "Philippine News"
+        },
+        {
+          "type": "h",
+          "text": "Filipino among missing in Nepal after deadly flash floods"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/2026-08-27T021336Z_1245096159_RC2Q6NAUUOOJ_RTRMADP_3_NEPAL-FLOODS.jpg?resize=257%2C257&crop_strategy=attention",
+          "caption": "Filipino among missing in Nepal after deadly flash floods"
+        },
+        {
+          "type": "p",
+          "text": "South & Central Asia"
+        },
+        {
+          "type": "h",
+          "text": "Death toll mounts, more than 1,000 missing in Nepal and China after Himalayan flood"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/2026-08-27T004248Z_13831542_RC2A6NA5OWA5_RTRMADP_3_NEPAL-FLOODS.jpg?resize=257%2C257&crop=142px%2C0px%2C1467px%2C1467px",
+          "caption": "Death toll mounts, more than 1,000 missing in Nepal and China after Himalayan flood"
+        },
+        {
+          "type": "p",
+          "text": "Arts & Culture"
+        },
+        {
+          "type": "h",
+          "text": "How do different countries honor pets as they cross over to the rainbow bridge?"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2025/11/An-altar-at-the-area-which-is-dedicated-to-the-dead-pets.-Toganji-temple.-Nagoya.-Japan.jpg?resize=257%2C257&crop=256px%2C0px%2C720px%2C720px",
+          "caption": "How do different countries honor pets as they cross over to the rainbow bridge?"
+        },
+        {
+          "type": "p",
+          "text": "Fact Check"
+        },
+        {
+          "type": "h",
+          "text": "FACT CHECK: Videos of La Naval procession, Nepal protests misrepresented as rallies in PH"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2025/10/fact-check-ls-01-2.jpg?resize=257%2C257&crop_strategy=attention",
+          "caption": "FACT CHECK: Videos of La Naval procession, Nepal protests misrepresented as rallies in PH"
+        },
+        {
+          "type": "p",
+          "text": "More on Nepal"
+        },
+        {
+          "type": "h",
+          "text": "overseas Filipinos"
+        },
+        {
+          "type": "p",
+          "text": "Philippine News"
+        },
+        {
+          "type": "h",
+          "text": "Filipino among missing in Nepal after deadly flash floods"
+        },
+        {
+          "type": "p",
+          "text": "Business"
+        },
+        {
+          "type": "h",
+          "text": "[Good Business] What Doris Magsaysay Ho’s recognition says about Filipino leadership"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/MAGSAYSAY.jpg?resize=257%2C257&crop=310px%2C0px%2C720px%2C720px",
+          "caption": "[Good Business] What Doris Magsaysay Ho’s recognition says about Filipino leadership"
+        },
+        {
+          "type": "p",
+          "text": "Philippine News"
+        },
+        {
+          "type": "h",
+          "text": "For 2027, DMW may get P11-B budget. Is it enough to help OFWs?"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/03/ofws-middle-east-repatriation-march-2026.jpg?resize=257%2C257&crop=375px%2C0px%2C1367px%2C1367px",
+          "caption": "For 2027, DMW may get P11-B budget. Is it enough to help OFWs?"
+        },
+        {
+          "type": "p",
+          "text": "Newsmakers"
+        },
+        {
+          "type": "h",
+          "text": "This maritime leader is the first woman to receive the RVR Nation Building award"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/DORIS.jpg?resize=257%2C257&crop=544px%2C0px%2C1080px%2C1080px",
+          "caption": "This maritime leader is the first woman to receive the RVR Nation Building award"
+        },
+        {
+          "type": "p",
+          "text": "More on overseas Filipinos"
+        },
+        {
+          "type": "h",
+          "text": "poverty in the Philippines"
+        },
+        {
+          "type": "p",
+          "text": "Business"
+        },
+        {
+          "type": "h",
+          "text": "Beyond income, 12.8% of Filipinos are poor across multiple dimensions in 2024"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/07/philippine-economy-skyline-poverty-inflation-july-9-2026-004-scaled.jpg?resize=257%2C257&crop=323px%2C0px%2C1707px%2C1707px",
+          "caption": "Beyond income, 12.8% of Filipinos are poor across multiple dimensions in 2024"
+        },
+        {
+          "type": "p",
+          "text": "Thought Leaders"
+        },
+        {
+          "type": "h",
+          "text": "[In This Economy] Less than 10% of Filipinos are now poor? Not so fast"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/POVERTY-RATE-AUG-28-2026.jpg?resize=257%2C257&crop=393px%2C0px%2C1080px%2C1080px",
+          "caption": "[In This Economy] Less than 10% of Filipinos are now poor? Not so fast"
+        },
+        {
+          "type": "p",
+          "text": "Top 5 News Today"
+        },
+        {
+          "type": "h",
+          "text": "Philippines’ poverty rate hits record low 9.7% | The wRap"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/THE-WRAP-LS-MAIN-28.png?resize=257%2C257&crop=1px%2C0px%2C1080px%2C1080px",
+          "caption": "Philippines’ poverty rate hits record low 9.7% | The wRap"
+        },
+        {
+          "type": "p",
+          "text": "Business"
+        },
+        {
+          "type": "h",
+          "text": "Poverty rate hits record low 9.7%, but millions are one crisis from sliding back"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/07/philippine-economy-skyline-poverty-inflation-july-9-2026-002-scaled.jpg?resize=257%2C257&crop=853px%2C0px%2C1707px%2C1707px",
+          "caption": "Poverty rate hits record low 9.7%, but millions are one crisis from sliding back"
+        },
+        {
+          "type": "p",
+          "text": "More on poverty in the Philippines"
+        },
+        {
+          "type": "h",
+          "text": "School violence"
+        },
+        {
+          "type": "p",
+          "text": "Philippine News"
+        },
+        {
+          "type": "h",
+          "text": "DILG proposes home inspections for gun safekeeping compliance"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/01/jonvic-remulla-dilg-presscon-january-15-2026-001-scaled.jpg?resize=257%2C257&crop=555px%2C0px%2C1707px%2C1707px",
+          "caption": "DILG proposes home inspections for gun safekeeping compliance"
+        },
+        {
+          "type": "p",
+          "text": "Mindanao"
+        },
+        {
+          "type": "h",
+          "text": "PNP files complaint vs father of minor in Ateneo de Zamboanga shooting"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/02/2048px-Crime-scene-do-not-cross.jpg?resize=257%2C257&crop=133px%2C0px%2C1365px%2C1365px",
+          "caption": "PNP files complaint vs father of minor in Ateneo de Zamboanga shooting"
+        },
+        {
+          "type": "p",
+          "text": "Thought Leaders"
+        },
+        {
+          "type": "h",
+          "text": "[Pinoy Criminology] Prevent violence before it enters the classroom: A free assessment tool"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/PSRVA-MANUAL-AND-TOOL-AUG-26-2026.jpg?resize=257%2C257&crop=367px%2C0px%2C1080px%2C1080px",
+          "caption": "[Pinoy Criminology] Prevent violence before it enters the classroom: A free assessment tool"
+        },
+        {
+          "type": "p",
+          "text": "Newsletters"
+        },
+        {
+          "type": "h",
+          "text": "[DECODED] Another school shooting, another wave of disinformation"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/Decoded-another-school-shooting-August-26-2026.jpg?resize=257%2C257&crop=231px%2C0px%2C720px%2C720px",
+          "caption": "[DECODED] Another school shooting, another wave of disinformation"
+        },
+        {
+          "type": "p",
+          "text": "More on School violence"
+        },
+        {
+          "type": "h",
+          "text": "Senate of the Philippines"
+        },
+        {
+          "type": "p",
+          "text": "Philippine News"
+        },
+        {
+          "type": "h",
+          "text": "Senate eyes concurrent budget, plenary sessions amid VP trial"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/06/win-gatchalian-senate-president-special-session-june-17-2026-005-scaled.jpg?resize=257%2C257&crop=639px%2C0px%2C1709px%2C1709px",
+          "caption": "Senate eyes concurrent budget, plenary sessions amid VP trial"
+        },
+        {
+          "type": "p",
+          "text": "Philippine News"
+        },
+        {
+          "type": "h",
+          "text": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/07/sara-duterte-impeachment-trial-ds-001.jpg?resize=257%2C257&crop=437px%2C0px%2C1080px%2C1080px",
+          "caption": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
+        },
+        {
+          "type": "p",
+          "text": "Philippine News"
+        },
+        {
+          "type": "h",
+          "text": "4 senators stop receiving salaries amid absences"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/legarda-marcoleta-bato-jinggoy-aug-27-2026.jpg?resize=257%2C257&crop=416px%2C0px%2C1080px%2C1080px",
+          "caption": "4 senators stop receiving salaries amid absences"
+        },
+        {
+          "type": "p",
+          "text": "Inside Track"
+        },
+        {
+          "type": "h",
+          "text": "Can sub judice rule stop Sara Duterte from talking about her trial?"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/sara-duterte-press-con-july-31-2026.jpg?resize=257%2C257&crop=457px%2C0px%2C1080px%2C1080px",
+          "caption": "Can sub judice rule stop Sara Duterte from talking about her trial?"
+        },
+        {
+          "type": "p",
+          "text": "More on Senate of the Philippines"
         }
       ],
       "truncated": false
     },
     {
-      "id": "sample-6",
+      "id": "inq-10ce58n",
+      "source": "inq",
+      "title": "Economic team pushes for faster procurement, project implementation",
+      "summary": "MANILA – The country’s economic team is pushing for faster procurement and implementation of government projects and programs to deliver tangible benefits to Filipinos. During a briefing with the…",
+      "byline": "mbgerodias",
+      "section": "",
+      "published": "2026-08-27T13:58:10.000Z",
+      "url": "https://cebudailynews.inquirer.net/761581/economic-team-pushes-for-faster-procurement-project-implementation",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/08/bam-aquino-620x389.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "image",
+          "src": "https://cebudailynews.inquirer.net/files/2026/08/bam-aquino-1200x740.jpg",
+          "caption": "PROPOSED 2027 NEP. Committee on finance briefing on the proposed 2027 National Expenditure Program at the Senate of the Philippines in Pasay City on Thursday (Aug. 27, 2026). The Development Budget Coordination Committee presented the proposed national budget and fiscal plans for the coming year,…"
+        },
+        {
+          "type": "p",
+          "text": "MANILA – The country’s economic team is pushing for faster procurement and implementation of government projects and programs to deliver tangible benefits to Filipinos."
+        },
+        {
+          "type": "p",
+          "text": "During a briefing with the Senate Committee on Finance on the 2027 National Expenditure Program (NEP) on Thursday, Department of Budget and Management (DBM) Acting Secretary Kim Robert de Leon said the government is committed to accelerating infrastructure projects while strengthening safeguards for fund utilization."
+        },
+        {
+          "type": "p",
+          "text": "De Leon assured lawmakers that infrastructure spending would be accelerated without compromising the budgeting, procurement, accounting and auditing safeguards designed to protect public funds."
+        },
+        {
+          "type": "h",
+          "text": "READ: CHEd laments 50% cut in 2027 NEP from proposed budget"
+        },
+        {
+          "type": "p",
+          "text": "“We are not proposing any relaxation of safeguards. In fact, we want more safeguards,” he said when asked whether controls on the audit and validation of infrastructure projects would be eased to speed up government spending."
+        },
+        {
+          "type": "p",
+          "text": "“What we are looking at is how we can hasten implementation and procurement. The issue is not the safeguards. We need to implement. We have to start implementing,” De Leon added."
+        },
+        {
+          "type": "p",
+          "text": "De Leon said this as he cited delays in the procurement, awarding and implementation of already-funded infrastructure projects as among the immediate challenges the government must address."
+        },
+        {
+          "type": "p",
+          "text": "He said the government’s economic managers are working toward a recovery in infrastructure activity beginning in the third quarter of 2026, noting that the DBM has already made available the allotments the Department of Public Works and Highways needs to move forward with its projects."
+        },
+        {
+          "type": "p",
+          "text": "He said the objective is not simply to spend more or faster, but to ensure appropriated funds translate into “well-planned, properly implemented, and beneficial infrastructure projects.”"
+        },
+        {
+          "type": "p",
+          "text": "Department of Economy, Planning, and Development (DepDev) Secretary Arsenio M. Balisacan emphasized the need to fast-track implementation and translate reforms into concrete outcomes."
+        },
+        {
+          "type": "p",
+          "text": "“Our direction remains anchored in the Philippine Development Plan. Over the administration’s final two years, the focus is an accelerating execution, resolving implementation bottlenecks, and translating reforms into concrete results,” Balisacan said."
+        },
+        {
+          "type": "h",
+          "text": "READ: Marcos puts 70-meter Mananga dam in 2027 national budget"
+        },
+        {
+          "type": "p",
+          "text": "Finance Secretary Finance Go vowed responsible fiscal management through stronger revenues, prudent expenditure management and fiscal buffers against future shocks."
+        },
+        {
+          "type": "p",
+          "text": "He also ensured that government resources must be directed toward investments that generate jobs and create lasting economic value."
+        },
+        {
+          "type": "p",
+          "text": "“Our national budget can work harder if we invest in programs and projects that can help shape our future. We must look beyond the present and invest in high multiplier programs and projects that create lasting economic value, those that create jobs,” he said. (PNA)"
+        },
+        {
+          "type": "p",
+          "text": "Your subscription could not be saved. Please try again."
+        },
+        {
+          "type": "p",
+          "text": "Your subscription has been successful."
+        },
+        {
+          "type": "p",
+          "text": "Disclaimer: The comments uploaded on this site do not necessarily represent or reflect the views of management and owner of Cebudailynews. We reserve the right to exclude comments that we deem to be inconsistent with our editorial standards."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "rap-chge1a",
       "source": "rap",
-      "title": "Weather bureau monitors low pressure area east of Mindanao",
-      "summary": "Forecasters said it may develop over the next 24 hours but is not expected to make landfall.",
-      "byline": "Sample byline",
-      "section": "Weather",
-      "published": "2026-08-27T03:30:00+08:00",
-      "url": "https://example.com/sample",
-      "image": null,
+      "title": "[Walang Pasok] Class suspensions, Friday, August 28, 2026",
+      "summary": "Here is a list of areas where classes are suspended for Friday, August 28, 2026, due to the effects of the southwest monsoon",
+      "byline": "Rappler.com",
+      "section": "National News",
+      "published": "2026-08-27T12:51:02.000Z",
+      "url": "https://www.rappler.com/philippines/class-suspensions-walang-pasok-august-28-2026/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2026/01/WALANG-PASOK-2026-004.jpg",
+        "caption": ""
+      },
       "blocks": [
         {
           "type": "p",
-          "text": "Placeholder text."
+          "text": "Here is a list of areas where classes are suspended for Friday, August 28, 2026, due to the effects of the southwest monsoon"
         },
         {
           "type": "p",
-          "text": "Weather items are among the most-read stories in most Philippine feeds, which is a good argument for keeping them one tap from the top."
-        }
-      ],
-      "truncated": false
-    },
-    {
-      "id": "sample-7",
-      "source": "gma",
-      "title": "Gilas names pool for the November window",
-      "summary": "The roster carries four holdovers from the last campaign and two first-time call-ups.",
-      "byline": "Sample byline",
-      "section": "Sports",
-      "published": "2026-08-27T02:20:00+08:00",
-      "url": "https://example.com/sample",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Placeholder text."
+          "text": "MANILA, Philippines – Some areas suspended classes for Friday, August 28, due to the effects of the southwest monsoon or habagat."
         },
         {
           "type": "p",
-          "text": "The letter tag beside each headline does real work in high contrast mode, where colour coding is switched off on purpose."
-        }
-      ],
-      "truncated": false
-    },
-    {
-      "id": "sample-8",
-      "source": "mb",
-      "title": "Education department sets calendar for the incoming school year",
-      "summary": "Classes open in the third week of August, with two scheduled breaks.",
-      "byline": "Sample byline",
-      "section": "Nation",
-      "published": "2026-08-27T01:00:00+08:00",
-      "url": "https://example.com/sample",
-      "image": null,
-      "blocks": [
+          "text": "This list will be updated once local or national authorities make announcements."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Caloocan City – face-to-face classes in all levels (public and private)",
+            "Las Piñas City – all levels (public and private)",
+            "Malabon City – face-to-face classes in all levels (public and private)",
+            "Mandaluyong City – face-to-face classes in all levels (public and private)",
+            "City of Manila – face-to-face classes in all levels (public and private)",
+            "Marikina City – all levels (public and private)",
+            "Muntinlupa City – face-to-face classes in all levels (public and private)",
+            "Navotas City – face-to-face classes in all levels (public and private)",
+            "Parañaque City – face-to-face classes in all levels (public and private)",
+            "Pasay City – face-to-face classes in all levels (public and private)",
+            "Pateros – face-to-face classes from preschool to senior high school (public and private)",
+            "Quezon City – face-to-face classes in all levels (public and private)",
+            "San Juan City – face-to-face classes in all levels (public and private)",
+            "Taguig City – face-to-face classes in all levels (public and private)",
+            "Valenzuela City – face-to-face classes in all levels (public and private)"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Bataan – face-to-face classes from preschool to senior high school (public and private)",
+            "Bulacan Balagtas – face-to-face classes in all levels (public and private) Bulakan – face-to-face classes in all levels (public and private) Calumpit – face-to-face classes in all levels (public and private) Guiguinto – face-to-face classes in all levels (public and private) Hagonoy – all levels (public and private) Malolos City– face-to-face classes in all levels (public and private) Marilao – face-to-face classes in all levels (public and private) Meycauayan City – face-to-face classes in all levels (public and private) Norzagaray – face-to-face classes in all levels (public and private) Pandi – face-to-face classes in all levels (public and private) Plaridel – face-to-face classes in all levels (public and private) San Jose del Monte City – face-to-face classes in all levels (public and private)",
+            "Pampanga Angeles City – face-to-face classes in all levels (public and private) Candaba – face-to-face classes in the following schools: San Agustin Elementary School Lanang Elementary School Paralaya High School Pasig High School Lanang High School Pampanga State University Macabebe – face-to-face classes in all levels (public and private) Magalang – face-to-face classes in all levels (public and private) Mexico – face-to-face classes in the following schools: Laug Elementary School Sta. Maria Elementary School Dolores Piring Elementary School San Lorenzo Elementary School Sto. Domingo Elementary School Minalin – face-to-face classes in all levels (public and private) San Fernando City – face-to-face classes in all levels (public and private) San Simon – face-to-face classes in all levels (public and private) Sto. Tomas – face-to-face classes in all levels (public and private)",
+            "Nueva Ecija – face-to-face classes in all levels (public and private)",
+            "Zambales Palauig – face-to-face classes in all levels (public and private)"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Benguet Atok – face-to-face classes from preschool to elementary Bakun – face-to-face classes from preschool to senior high school Buguias – face-to-face classes from preschool to senior high school (public and private) Kibungan – face-to-face classes from preschool to senior high school"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pangasinan Aguilar – face-to-face classes in all levels (public and private) Alaminos City – all levels (public and private) Bani – face-to-face classes in all levels (public and private) Bugallon – face-to-face classes in all levels (public and private) Binmaley – face-to-face classes in all levels (public and private) Infanta – all levels (public and private) Lingayen – face-to-face classes in all levels (public and private) Mangaldan – all levels (public and private) Mangatarem – face-to-face classes in all levels (public and private) Sual – face-to-face classes in all levels (public and private)"
+          ]
+        },
         {
           "type": "p",
-          "text": "Placeholder opening. This item is marked as truncated, so you can see how a paywalled story is handled."
+          "text": "– Rappler.com"
+        },
+        {
+          "type": "p",
+          "text": "How does this make you feel?"
+        },
+        {
+          "type": "p",
+          "text": "Loading"
         }
       ],
       "truncated": true
+    },
+    {
+      "id": "rap-f4kgn0",
+      "source": "rap",
+      "title": "DILG proposes home inspections for gun safekeeping compliance",
+      "summary": "‘This might upset a few people because it might be interpreted as an infringement of rights,’ says Interior Secretary Jonvic Remulla during a House budget hearing",
+      "byline": "John Sitchon",
+      "section": "National News",
+      "published": "2026-08-27T12:21:27.000Z",
+      "url": "https://www.rappler.com/philippines/dilg-proposal-home-inspections-gun-safekeeping-compliance/",
+      "image": {
+        "src": "https://www.youtube.com/embed/rvjGtt_v5uY",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CEBU, Philippines – Amid concerns over loose firearm cases following recent school shootings, Department of the Interior and Local Government (DILG) Secretary Jonvic Remulla on Thursday, August 27, said they would propose home inspections to ensure compliance with gun safekeeping protocols."
+        },
+        {
+          "type": "p",
+          "text": "This happened after Akbayan Representative Dadah Kiram Ismula asked Remulla, during the House hearing into the DILG’s proposed 2027 budget, what the agency has done in response to the school shooting cases in Tacloban City and Zamboanga City, which revealed that the firearms used were owned by uniformed personnel."
+        },
+        {
+          "type": "p",
+          "text": "“Now, what we are proposing is that the IRR (implementing rules and regulations) has to be amended. The [Philippine National Police] will be granted access to all homes of all lawfully issued firearms to inspect their procedures in safekeeping,” Remulla said."
+        },
+        {
+          "type": "p",
+          "text": "According to the interior secretary, the minor involved in the Tacloban school shooting took his aunt’s firearm, which was left on a table."
+        },
+        {
+          "type": "p",
+          "text": "In July, the aunt of the minor told lawmakers during a Senate probe into the Tacloban school shooting that the child broke into her home and forcibly damaged her plastic locker, where she kept her pistol."
+        },
+        {
+          "type": "p",
+          "text": "In the case of the Zamboanga school shooting, Remulla said that the firearm was simply left in the car, which the shooter was able to take with ease."
+        },
+        {
+          "type": "p",
+          "text": "“This might upset a few people because it might be interpreted as an infringement of rights. However, we must remember that the privilege to own a gun is not enshrined in our Constitution,” Remulla said."
+        },
+        {
+          "type": "p",
+          "text": "On Wednesday, August 26, the Philippine National Police (PNP) confirmed that they had filed a complaint for reckless imprudence resulting in homicide and physical injury against the owner of the gun used in the Zamboanga school shooting."
+        },
+        {
+          "type": "p",
+          "text": "Before this, the Department of Justice had confirmed that Tacloban City prosecutors had recommended the filing of charges for reckless imprudence resulting in multiple homicide and physical injuries against the aunt of the minor involved in the Tacloban school shooting."
+        },
+        {
+          "type": "p",
+          "text": "Under existing laws, reckless imprudence is a bailable offense."
+        },
+        {
+          "type": "p",
+          "text": "Remulla recommended lawmakers impose greater penalties against owners of firearms used for illegal purposes."
+        },
+        {
+          "type": "p",
+          "text": "At present, police are able to check compliance and documents for gun owners applying for or renewing their license to own and possess firearms but are not allowed to conduct home visits."
+        },
+        {
+          "type": "p",
+          "text": "Remulla said the department is eyeing a revision to the IRR that would allow authorities to inform gun owners that a home inspection would occur and that the said inspection would include a checklist to measure the gun owner’s safekeeping procedures."
+        },
+        {
+          "type": "p",
+          "text": "“There are over 4 million handguns that are legal in this country, both from uniformed personnel and private owners, so I think it should be the responsibility of the PNP to inspect how they safekeep their guns,” Remulla added. – Rappler.com"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "rap-1tswokq",
+      "source": "rap",
+      "title": "PH embassy: Consult lawyers as US reviews asylum seekers who entered on short-term visas",
+      "summary": "'Filipino nationals who have concerns regarding their current immigration status are strongly encouraged to consult a qualified US immigration attorney,' says the embassy in Washington, D.C.",
+      "byline": "Bea Cupin",
+      "section": "Editors' Pick",
+      "published": "2026-08-27T12:03:16.000Z",
+      "url": "https://www.rappler.com/philippines/embassy-washington-dc-advisory-trump-plan-review-visa-asylum/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2025/03/Donald-Trump-March-8-2025.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – The Philippine embassy in Washington, D.C. urged Filipinos to “remain informed of recent developments in US immigration and visa policies and to ensure compliance with applicable US immigration laws” days after the State Department said it would revoke visas for foreigners who entered the country as short-term visitors and later applied for asylum."
+        },
+        {
+          "type": "p",
+          "text": "In a statement, State Department spokesperson Tommy Pigott confirmed earlier reports about the planned review."
+        },
+        {
+          "type": "p",
+          "text": "“Obtaining a visa in order to seek asylum is fraud — which is grounds for visa revocation…. These types of visas are issued with the clear understanding that they are for those who intend to return home,” said Pigott."
+        },
+        {
+          "type": "p",
+          "text": "The State Department, which issues both short-term and long-term visas to the United States, said it will work with the Department of Homeland Security to identify persons who entered the US on short-term visas and later filed asylum to stay for good. The White House, in an X post, said “up to two hundred thousand visas” would be revoked in what it described as the “largest mass visa revocation in history.”"
+        },
+        {
+          "type": "p",
+          "text": "“Recent reports indicate that the US Department of State has begun reviewing B1/B2 business and tourist visas issued to foreign nationals who subsequently applied for asylum in the United States, with visa revocations expected to be undertaken on a rolling basis. Filipino nationals who have concerns regarding their current immigration status are strongly encouraged to consult a qualified US immigration attorney or an accredited legal service provider for advice appropriate to their individual circumstances,” said the Philippine embassy."
+        },
+        {
+          "type": "p",
+          "text": "It added, “The Embassy reminds the Filipino community that immigration cases are determined by the appropriate US authorities based on the circumstances of each case.”"
+        },
+        {
+          "type": "p",
+          "text": "Filipino nationals may call 202-368-2767 or 202-769-8049, or send an email to atn@phembassy-us.org for consular help and Assistance-to-Nationals concerns, it said."
+        },
+        {
+          "type": "p",
+          "text": "US President Donald Trump has made immigration and a tough, sometimes brutal, crackdown on those found to have violated immigration laws a cornerstone of his administration."
+        },
+        {
+          "type": "p",
+          "text": "The State Department said some 175,000 visas had been revoked for various reasons since the second Trump administration started."
+        },
+        {
+          "type": "p",
+          "text": "The supposed “largest mass visa revocation in history” comes as most polls indicate that Trump’s approval is at an all-time low. Polls have also indicated that Americans, in the lead-up to the midterm elections, have waned in their support of Trump’s war on Iran, on top of growing domestic and economic concerns. – Rappler.com"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "rap-lcyj54",
+      "source": "rap",
+      "title": "Rappler Live Jam: NEXTONE",
+      "summary": "Four-piece band NEXTONE makes its Live Jam debut fresh off the release of its latest single 'Nagkulang'",
+      "byline": "Rappler.com, Juno Reyes",
+      "section": "Editors' Pick",
+      "published": "2026-08-27T12:00:59.000Z",
+      "url": "https://www.rappler.com/entertainment/live-jam/music-sessions-nextone-august-2026/",
+      "image": {
+        "src": "https://www.youtube.com/embed/hbL5xjAFS4g",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/hbL5xjAFS4g/sddefault.jpg",
+          "caption": "Rappler Live Jam: NEXTONE"
+        },
+        {
+          "type": "p",
+          "text": "Four-piece band NEXTONE makes its Live Jam debut fresh off the release of its latest single 'Nagkulang'"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – It’s NEXTONE’s turn to bring its music to the Rappler HQ on Thursday, August 27!"
+        },
+        {
+          "type": "p",
+          "text": "Formed in 2019, NEXTONE’s current lineup consists of Ezekiel on lead vocals and rhythm and lead guitars; Elijah on bass and vocals; Alean on drums, percussion, and backing vocals; and Ant on rhythm and lead guitars and backing vocals."
+        },
+        {
+          "type": "p",
+          "text": "NEXTONE’s sound leans toward modern rock, evidenced by tracks like “Kulay,” “Taft Avenue,” and “SA IYO,” to name a few."
+        },
+        {
+          "type": "p",
+          "text": "The four-piece band’s latest release is “Nagkulang,” told from the perspective of an individual who grapples with self-doubt after a failed relationship."
+        },
+        {
+          "type": "p",
+          "text": "Catch NEXTONE on Rappler Live Jam on Thursday, 8 pm, by bookmarking this page or heading to Rappler’s YouTube! – Rappler.com"
+        },
+        {
+          "type": "p",
+          "text": "How does this make you feel?"
+        },
+        {
+          "type": "p",
+          "text": "Loading"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/uploads/2026/04/cropped-author-img-scaled-1-250x250.jpg",
+          "caption": "Blouse, Clothing, Face"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "rap-pclbeg",
+      "source": "rap",
+      "title": "Senate eyes concurrent budget, plenary sessions amid VP trial",
+      "summary": "Pressed for time, the Senate is eyeing to allow concurrent budget deliberations and plenary sessions to avoid budget delay passage amid Sara Duterte's impeachment trial",
+      "byline": "Sundy Locus",
+      "section": "National News",
+      "published": "2026-08-27T11:54:41.000Z",
+      "url": "https://www.rappler.com/philippines/senate-allow-concurrent-budget-plenary-sessions-amid-sara-duterte-impeachment-trial/",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Senators are considering to allow the Senate committee on finance to hold hearings on the proposed P7.2 trillion national budget concurrent with plenary sessions."
+        },
+        {
+          "type": "p",
+          "text": "Senate President Sherwin Gatchalian announced the move on Thursday, August 27, as the upper chamber formally opened deliberations on the 2027 National Expenditure Program (NEP) amid the ongoing impeachment trial of Vice President Sara Duterte."
+        },
+        {
+          "type": "p",
+          "text": "Gatchalian also explained this is to prevent a reenacted budget for 2027."
+        },
+        {
+          "type": "p",
+          "text": "“We’re going to adjust yung legislative time namin. Papayagan namin ang committee on finance lang magkaroon ng hearing while plenary is in session. Bawal yun eh pero we will suspend the rules for the committee on finance para kahit nagpe-plenary kami, pwede silang mag-hearing,” he said."
+        },
+        {
+          "type": "p",
+          "text": "(We are going to adjust our legislative time. We will allow the committee on finance to conduct hearings while plenary is in session. That is normally prohibited, but we will suspend the rules for the finance committee so they can hold hearings during plenary.)"
+        },
+        {
+          "type": "p",
+          "text": "The finance committee is considering conducting the budget hearings starting the second week of September from Mondays to Fridays, according to the Senate chief. However, the panel will hold the deliberations on afternoons of Mondays to Wednesdays to accommodate the impeachment trial."
+        },
+        {
+          "type": "p",
+          "text": "“Kapag impeachment mahirap yun, kailangan andito ang senator-judges. But with plenary, magiging flexible kami para mahabol ng committee on finance ang schedule dahil ngayon kalahating araw [ang] na-take up na ng impeachment so wala nang time ang commmittee to conduct the hearings,” Gatchalian added."
+        },
+        {
+          "type": "p",
+          "text": "(It is difficult during an impeachment trial because senator-judges need to be present. But with regular plenary, we can be flexible so the committee on finance can catch up on its schedule. Half of our day is currently taken up by the impeachment, leaving the committee no time to hold budget hearings.) – Rappler.com"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "rap-voros1",
+      "source": "rap",
+      "title": "LIVE UPDATES: First BARMM parliamentary elections",
+      "summary": "Bookmark and refresh this page for the latest news, photos, videos, and analyses as Rappler closely follows the historic elections",
+      "byline": "Rappler.com",
+      "section": "Mindanao",
+      "published": "2026-08-27T11:27:34.000Z",
+      "url": "https://www.rappler.com/philippines/elections/barmm-updates-voting-results-tracking-polls-2026/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2026/08/barmm-developing-story.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Bangsamoro Autonomous Region in Muslim Mindanao is holding its first parliamentary elections on September 14, 2026, after being postponed at least four times: first in May 2022, then in May 2025, October 2025, and again in March 2026."
+        },
+        {
+          "type": "p",
+          "text": "The historic polls are seen as a pivotal moment in the decades-long peace process in a region that was mired in conflict and socioeconomic and political challenges. The upcoming elections are also a test for the Bangsamoro transition and the institutions and systems established in the last seven years."
+        },
+        {
+          "type": "p",
+          "text": "Bookmark and refresh this page for the latest news, photos, videos, and analyses as Rappler closely follows the regional elections."
+        },
+        {
+          "type": "h",
+          "text": "LATEST UPDATES"
+        },
+        {
+          "type": "p",
+          "text": "10 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "Bangsamoro parties clash over key reforms in first debate"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/Screenshot-2026-08-27-at-7.06.36-PM.png",
+          "caption": "Crowd, Person, Adult"
+        },
+        {
+          "type": "p",
+          "text": "Thirteen political parties faced off in Cotabato on Thursday, August 27, for the first BARMM Parliamentary Elections Debate organized by the Institute for Autonomy and Governance. Held at Notre Dame University, the historic face-off showcased competing platforms for the regional government ahead of the landmark polls."
+        },
+        {
+          "type": "p",
+          "text": "The debates centered on socioeconomic reforms, service decentralization, and resolving clan feuds or rido. Candidates also clashed over Sulu’s exclusion, electoral integrity, and resisting national government interference."
+        },
+        {
+          "type": "p",
+          "text": "The event ended with party-list groups signing posters to pledge their commitment to civil society advocacies. This included signing covenants of commitment with Duyog Bangsamoro and the Coalition for Social Accountability and Transparency. – Rappler.com"
+        },
+        {
+          "type": "p",
+          "text": "10 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "Delayed services an injustice to Bangsamoro — Loong"
+        },
+        {
+          "type": "p",
+          "text": "“Sang-ayon tayo sa decentralization kasi bakit natin i-centralize dito kung ang outcome ay kalahati ang nagagastos natin, kung ang outcome ay two years tayong delayed sa implementation. Because that is an injustice to the Bangsamoro people,” said engineer Don Mustapha Loong of the Progresibong Bangsamoro Party."
+        },
+        {
+          "type": "p",
+          "text": "Loong defended decentralization as a way to make government services more efficient and responsive to communities."
+        },
+        {
+          "type": "p",
+          "text": "He questioned the value of centralizing services when it results in lower spending outcomes and delays of up to two years in implementation."
+        },
+        {
+          "type": "p",
+          "text": "Loong called the failure to deliver the gains of the Bangsamoro transition “the greatest injustice that could possibly happen.”"
+        },
+        {
+          "type": "p",
+          "text": "He said the “fruits of the revolution” may already be within reach, yet many Bangsamoro people remain unable to experience their benefits. – Angelle Matura"
+        },
+        {
+          "type": "p",
+          "text": "Angelle Matura is a Mover from Cotabato City."
+        },
+        {
+          "type": "p",
+          "text": "10 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "Lim urges responsible spending, Kashim hits BARMM failures"
+        },
+        {
+          "type": "p",
+          "text": "“We have to take care of taxpayers’ money. Every family, every working-class family, every month, nakikita nila sa payroll nila, tax withheld. Can you imagine that money could’ve gone to one more sack of rice, one week’s worth of grocery?” said Nur-Ainee Tan Lim Misuari of the Mahardika Party."
+        },
+        {
+          "type": "p",
+          "text": "Lim called for greater accountability in the use of public funds, pointing to the underutilization of the block grant, limited absorptive capacity, and inefficiency in spending within the Bangsamoro Autonomous Region in Muslim Mindanao."
+        },
+        {
+          "type": "p",
+          "text": "She said the region needs leaders who can restrain themselves, put people first, and use public funds for the Bangsamoro."
+        },
+        {
+          "type": "p",
+          "text": "“This is a government of failure,” Abdulhussein Kashim of Indigenous, Settles, Sama and Minorities Alliance Party described the situation bluntly."
+        },
+        {
+          "type": "p",
+          "text": "He said the government has a strong legal foundation to deliver resources to the people but has failed to do so."
+        },
+        {
+          "type": "p",
+          "text": "Despite the criticisms, Lim said there remains an opportunity for the Bangsamoro to “rise from the ashes,” particularly for undecided voters who are weighing their choices."
+        },
+        {
+          "type": "p",
+          "text": "She reminded the audience that “our children are watching,” and that the region’s youth continue to dream of a better future. – Angelle Matura"
+        },
+        {
+          "type": "p",
+          "text": "Angelle Matura is a Mover from Cotabato City."
+        },
+        {
+          "type": "p",
+          "text": "11 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "Sema, Basher clash over national interference in BARMM polls"
+        },
+        {
+          "type": "p",
+          "text": "A tense exchange unfolded between lawyer Omar Yasser Sema of the Bangsamoro Party and Alipikre Basher of the People’s Consultative Party, also known as the Mushawara Party, over electoral reform and possible national government interference in the regional elections."
+        },
+        {
+          "type": "p",
+          "text": "Sema asked whether Basher would support reforms if interference occurs, clarifying that it was a serious question."
+        },
+        {
+          "type": "p",
+          "text": "Basher affirmed his commitment to an “honest and credible election,” saying they are “101%” committed to a credible electoral process."
+        },
+        {
+          "type": "p",
+          "text": "“Hindi ka matatakot sa national government?” Sema asked."
+        },
+        {
+          "type": "p",
+          "text": "Basher hesitated before cackling in response, drawing attention from the audience. – Angelle Matura"
+        },
+        {
+          "type": "p",
+          "text": "Angelle Matura is a Mover from Cotabato City."
+        },
+        {
+          "type": "p",
+          "text": "11 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "UBJP, BGC urge more representation for women, PWDs"
+        },
+        {
+          "type": "p",
+          "text": "“Ako po ay isa sa living [examples] of UBJP, kung paano itinaas ng UBJP ang participation ng kababaihan,” said lawyer Sha Elijah Dumama-Alba of the United Bangsamoro Justice Party."
+        },
+        {
+          "type": "p",
+          "text": "Dumama-Alba highlighted the political participation of women and persons with disabilities as part of the party’s future advocacy."
+        },
+        {
+          "type": "p",
+          "text": "She cited the Bangsamoro Women Commission, women’s empowerment, political subsidy funds for women candidates, and gender-based audits as pathways to strengthen women’s representation and participation."
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, Amir Mawalil of the BARMM Grand Coalition said the coalition wants to work with all political parties and support initiatives that advance inclusion."
+        },
+        {
+          "type": "p",
+          "text": "Both groups pointed to the Bangsamoro Gender and Development Code and stronger institutional mandates as mechanisms in expanding political participation and representation. – Angelle Matura"
+        },
+        {
+          "type": "p",
+          "text": "Angelle Matura is a Mover from Cotabato City."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2025/08/Bangsamoro_Parliament_Building.jpg?fit=449%2C449",
+          "caption": "What you need to know about the first BARMM parliamentary elections"
+        },
+        {
+          "type": "p",
+          "text": "11 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "UBJP backs national transitional justice commission"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/784815948_4488072824797442_3438682974929090374_n.jpg",
+          "caption": "People, Person, Crowd"
+        },
+        {
+          "type": "p",
+          "text": "“Kung gusto nating ma-address ang historical injustices, hindi lamang ito sa Bangsamoro region, kundi sa buong Pilipinas,” said lawyer Sha Elijah Dumama-Alba of the United Bangsamoro Justice Party (UBJP)."
+        },
+        {
+          "type": "p",
+          "text": "Dumama-Alba called for the establishment of a national transitional justice commission under the national government to address historical injustices and legitimate grievances."
+        },
+        {
+          "type": "p",
+          "text": "She said lasting peace requires justice, healing, and credible institutions."
+        },
+        {
+          "type": "p",
+          "text": "As one of the signatories to the Comprehensive Agreement on the Bangsamoro, the UBJP supports strengthening the Transitional Justice and Reconciliation Commission."
+        },
+        {
+          "type": "p",
+          "text": "The party calls for adequate funding, technical capacity, and legal and institutional protection, with communities and the ulama included in its implementation and governance. – Angelle Matura"
+        },
+        {
+          "type": "p",
+          "text": "Angelle Matura is a Mover from Cotabato City."
+        },
+        {
+          "type": "p",
+          "text": "12 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "Bangsamoro groups push for justice-based solutions to rido"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/785200418_926544173858558_2892907830848913984_n-1.jpg",
+          "caption": "Crowd, Person, Press Conference"
+        },
+        {
+          "type": "p",
+          "text": "“Sinusuportahan natin ang hybrid at restorative justice,” said Amir Mawalil of the BARMM Grand Coalition. Rido is a clan or family feud that can lead to repeated conflict and violence."
+        },
+        {
+          "type": "p",
+          "text": "Mawalil called for the institutionalization of a dispute resolution framework across the Bangsamoro government, with all agencies helping implement it."
+        },
+        {
+          "type": "p",
+          "text": "He identified land ownership and loose firearms among the issues that can fuel rido, stressing the need for responsive land distribution and addressing its root causes."
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, lawyer Omar Yasser Sema of the Bangsamoro Party argued that the root of rido is not simply land conflict but the failure to address crimes through the justice system."
+        },
+        {
+          "type": "p",
+          "text": "Sema called for greater access to justice and equal application of the law to prevent conflicts from escalating and recurring. – Angelle Matura"
+        },
+        {
+          "type": "p",
+          "text": "Angelle Matura is a Mover from Cotabato City."
+        },
+        {
+          "type": "p",
+          "text": "12 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "ABOT, PBB back settlers’ rights, inclusive Bangsamoro"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/785775009_2098242620903223_3315112631536442225_n.jpg",
+          "caption": ""
+        },
+        {
+          "type": "p",
+          "text": "“‘Di po natin sasayangin ang ating nasimulan na interfaith dialogue, kasama na doon ang culture of peace natin,” said Emran Mohammad of the Alliance of Bangsamoro Tri-People’s Party (ABOT)."
+        },
+        {
+          "type": "p",
+          "text": "Mohammad emphasized inclusivity for Moro, indigenous peoples, and settlers, including the concerns of Christian settlers, schools, churches, and other institutions."
+        },
+        {
+          "type": "p",
+          "text": "He stressed the importance of continuing interfaith dialogue and fostering a culture of peace."
+        },
+        {
+          "type": "p",
+          "text": "“Kailangan ng pagkakaintindihan at pagkakaunawaan para matamo ang pagkakaisa,” said engineer Addie Unsi of the Partido Bangon Bangsamoro (PBB), who also studied at Notre Dame University alongside Mohammad."
+        },
+        {
+          "type": "p",
+          "text": "Unsi expressed support for ABOT’s position on recognizing settlers’ rights."
+        },
+        {
+          "type": "p",
+          "text": "“Ang PBB ay susuportahan po ang posisyon ng ABOT doon sa pagkilala ng karapatan ng settlers,” Unsi said."
+        },
+        {
+          "type": "p",
+          "text": "He also pledged support for a settlers’ office with a dedicated budget to enable it to carry out its programs. – Angelle Matura"
+        },
+        {
+          "type": "p",
+          "text": "Angelle Matura is a Mover from Cotabato City."
+        },
+        {
+          "type": "p",
+          "text": "12 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "Progresibong Bangsamoro Party urges open economic zones in Basilan, Tawi-Tawi"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/786467597_1587110456115811_5623350496100883540_n.jpg",
+          "caption": "Crowd, Person, People"
+        },
+        {
+          "type": "p",
+          "text": "“The island region is the front door in terms of economic development,” said engineer Don Mustapha Loong of the Progresibong Bangsamoro Party."
+        },
+        {
+          "type": "p",
+          "text": "Loong highlighted the strategic position of Basilan and Tawi-Tawi as gateways for economic development in the Bangsamoro."
+        },
+        {
+          "type": "p",
+          "text": "He said the focus should not only be on smuggling but also on creating a framework for open economic zones and free ports that would maximize the region’s strategic position and resources."
+        },
+        {
+          "type": "p",
+          "text": "He stressed that despite this advantage, Basilan and Tawi-Tawi have yet to fully benefit from it. – Angelle Matura"
+        },
+        {
+          "type": "p",
+          "text": "Angelle Matura is a Mover from Cotabato City."
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "rap-1ah8gro",
+      "source": "rap",
+      "title": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte",
+      "summary": "Bookmark this page for Rappler's comprehensive coverage of Vice President Sara Duterte's impeachment trial at the Senate",
+      "byline": "Rappler.com",
+      "section": "National News",
+      "published": "2026-08-27T11:15:23.000Z",
+      "url": "https://www.rappler.com/philippines/vice-president-sara-duterte-impeachment-trial-updates-videos/",
+      "image": {
+        "src": "https://www.youtube.com/embed/OnuRm5C_FA8",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The impeachment trial of Vice President Sara Duterte — the first Philippine public official to be impeached twice by the House of Representatives — began at 2 pm on Monday, July 6."
+        },
+        {
+          "type": "p",
+          "text": "There are four articles of impeachment against Duterte involving alleged misuse of confidential funds, unexplained wealth, bribery of Department of Education officials, and grave threats against President Ferdinand Marcos Jr. and his family."
+        },
+        {
+          "type": "p",
+          "text": "Only 21 out of 24 senator-judges are physically present. Senator Bato dela Rosa remains in hiding as he faces an International Criminal Court arrest warrant over Rodrigo Duterte’s drug war, Senator Jinggoy Estrada has been detained and suspended in connection with a plunder case, and Senator Rodante Marcoleta surrendered to authorities as he also faces a plunder case."
+        },
+        {
+          "type": "p",
+          "text": "On this page, we bring you the latest updates, analyses, videos, and photos as the trial of the Vice President unfolds."
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/ZHfZ6Qt31NE/sddefault.jpg",
+          "caption": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "LATEST UPDATES"
+        },
+        {
+          "type": "p",
+          "text": "10 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "Sara Duterte’s staff appear allergic to this word"
+        },
+        {
+          "type": "p",
+          "text": "At the impeachment trial of Vice President Sara Duterte, her subordinates appear reluctant to say the word “disburse” in reference to Colonel Raymund Lachica."
+        },
+        {
+          "type": "p",
+          "text": "Dwight de Leon explains why."
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/OnuRm5C_FA8/sddefault.jpg",
+          "caption": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
+        },
+        {
+          "type": "p",
+          "text": "16 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "Benny Abante comments on senators’ prayers before session"
+        },
+        {
+          "type": "p",
+          "text": "Congressman and pastor Benny Abante says on Wednesday, August 26, that a recurring theme in the prayers of the senator-judges before the start of the impeachment proceedings is that they are “always asking for the truth to come out.”"
+        },
+        {
+          "type": "p",
+          "text": "Abante hopes that the senator-judges set a good example to the public by listening intently to the proceedings, as he noticed that some members of the court are not paying attention during the trial."
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/8mvgmXtHyEE/sddefault.jpg",
+          "caption": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
+        },
+        {
+          "type": "p",
+          "text": "17 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "House prosecution team holds press conference | August 27, 2026"
+        },
+        {
+          "type": "p",
+          "text": "House prosecution spokespersons and representatives Zia Adiong and Renee Co hold a press conference on Thursday, August 27, 2026."
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/dtjzJTeuP6U/sddefault.jpg",
+          "caption": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
+        },
+        {
+          "type": "p",
+          "text": "20 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "Rappler Recap: Prosecution flags ‘uniform’ accomplishment reports, informants’ medical supplies"
+        },
+        {
+          "type": "p",
+          "text": "Prosecutors on Wednesday, August 26, flag what they describe as seemingly uniform accomplishment reports from the Office of the Vice President, and examine claims that informants received medical supplies through confidential fund activities."
+        },
+        {
+          "type": "p",
+          "text": "Rappler’s Dwight De Leon breaks down the key points of the prosecution during the 19th day of Sara Duterte’s impeachment trial."
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/WomvBcSxc94/sddefault.jpg",
+          "caption": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
+        },
+        {
+          "type": "p",
+          "text": "21 hours ago"
+        },
+        {
+          "type": "h",
+          "text": "Rappler Recap: Duterte camp may seek new spokesperson as Poa prepares to testify"
+        },
+        {
+          "type": "p",
+          "text": "Vice President Sara Duterte’s defense team is considering replacing defense lawyer Michael Poa as spokesperson following the Senate impeachment court’s ruling on the sub judice rule on Wednesday, August 26. Poa is expected to remain as Duterte’s lawyer and is also set to testify as a prosecution witness."
+        },
+        {
+          "type": "p",
+          "text": "Rappler multimedia reporter Jairo Bolledo gives us the details."
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/XvqvkaVVRqw/sddefault.jpg",
+          "caption": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/07/michael-poa-sara-duterte-impeachment-july-8-2026-003-scaled.jpg?fit=449%2C449",
+          "caption": "Sub judice effect: Sara’s defense team considers replacing Poa as spokesperson"
+        },
+        {
+          "type": "p",
+          "text": "Aug 26, 2026 7:17 PM PHT"
+        },
+        {
+          "type": "h",
+          "text": "First warning? Escudero reminds Sara Duterte, through lawyer, of sub judice rule"
+        },
+        {
+          "type": "p",
+          "text": "Presiding officer Chiz Escudero gives the reminder after Vice President Sara Duterte made a social media post about the trial at about the same time Escudero read his decision on the sub judice rule."
+        },
+        {
+          "type": "p",
+          "text": "Aug 26, 2026 7:06 PM PHT"
+        },
+        {
+          "type": "h",
+          "text": "Abante: Ortonio ‘not telling the whole truth’ in impeachment trial"
+        },
+        {
+          "type": "p",
+          "text": "In an interview with Rappler on Wednesday, August 26, impeachment complaint endorser Congressman Benny Abante says Office of the Vice President assistant chief of staff Lemuel Ortonio is “skirting the issue” and should tell the “truth and nothing but the truth” about the confidential funds."
+        },
+        {
+          "type": "p",
+          "text": "He also says Gina Acosta’s testimony is enough to establish that P125 million in confidential funds was ordered transferred to Raymund Lachica. He doubts Lachica would provide new information if called to testify."
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/3TP9mGnLrHU/sddefault.jpg",
+          "caption": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
+        },
+        {
+          "type": "p",
+          "text": "Aug 26, 2026 6:16 PM PHT"
+        },
+        {
+          "type": "h",
+          "text": "Lawyer on Escudero’s sub judice ruling: ‘Very eloquent way of issuing a gag order’"
+        },
+        {
+          "type": "p",
+          "text": "Constitutional lawyer Lulu Reyes says the sub judice ruling of impeachment presiding officer Chiz Escudero was a “very eloquent way of issuing a gag order.” Reyes also notes on Wednesday, August 26, that Escudero did not only castigate the prosecution and defense counsels but the senator-judges as well."
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/pqUBv7TYXL0/sddefault.jpg",
+          "caption": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
+        },
+        {
+          "type": "p",
+          "text": "Aug 26, 2026 5:17 PM PHT"
+        },
+        {
+          "type": "h",
+          "text": "What if Lachica takes witness stand? Constitutional lawyer lays out scenarios"
+        },
+        {
+          "type": "p",
+          "text": "Constitutional lawyer Lulu Reyes lays out different scenarios for the prosecution and the defense if Office of the Vice President security officer Raymund Lachica would take the witness stand at Duterte’s impeachment trial. Reyes says this during Rappler’s special coverage of the trial on Wednesday, August 26."
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/5oGLsM4gdIE/sddefault.jpg",
+          "caption": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "rap-1clmg5k",
+      "source": "rap",
+      "title": "Join Rappler Movers Program: Write stories, build communities of action",
+      "summary": "With the new Movers Program, local storytellers and civic leaders will have more opportunities to hone their leadership skills, amplify local stories, and contribute to meaningful initiatives",
+      "byline": "Rappler.com",
+      "section": "Advocacies",
+      "published": "2026-08-27T10:29:23.000Z",
+      "url": "https://www.rappler.com/moveph/rappler-movers-program-application/",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines Do you want to be a community storyteller or lead advocacies in your locality?"
+        },
+        {
+          "type": "p",
+          "text": "For more than a decade, Rappler Movers have used storytelling and community action to amplify local issues, spark conversations, and help create change. Movers are volunteers of Rappler representing various provinces and regions in the Philippines committed to amplify stories and promote civic action at the local level."
+        },
+        {
+          "type": "p",
+          "text": "Since 2012, the program has connected community storytellers, advocates, and leaders nationwide through MovePH, Rappler’s civic engagement arm."
+        },
+        {
+          "type": "p",
+          "text": "Now, MovePH is strengthening this nationwide community to create more opportunities for Movers through its new Movers Program to stay connected, learn from one another, and bring meaningful change wherever they are."
+        },
+        {
+          "type": "p",
+          "text": "The program aims to build a long-term community where Movers can stay connected with Rappler, continue developing their skills, collaborate with fellow Movers nationwide, and find opportunities to contribute to stories and initiatives that matter."
+        },
+        {
+          "type": "p",
+          "text": "In this community, Movers choose their own path. Whether they’re a natural-born storyteller or a driven community organizer, there’s a place for Movers to lead, create, and make an impact."
+        },
+        {
+          "type": "p",
+          "text": "As community storytellers, Movers can:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Write or report stories from their community and surface issues, people, and perspectives that deserve attention",
+            "Build skills in journalism, news writing, digital storytelling, fact-checking, and community reporting",
+            "Pitch stories and get feedback from Rappler editors, journalists, and data experts"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "As community organizers, Movers can:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Help bring people together around issues that matter to your community",
+            "Participate in or help organize campaigns, discussions, and community initiatives",
+            "Build skills in community engagement, organizing, and civic action"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Movers can also do both — use storytelling to help communities engage with issues and highlight local voices, and community organizing to turn those conversations into action."
+        },
+        {
+          "type": "p",
+          "text": "Through the program, Movers will have opportunities to:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Build their skills through training from Rappler’s learning arm, RappLearn",
+            "Get mentorship from Rappler editors, journalists, data experts, and community engagement specialists, among others",
+            "Connect and collaborate with Movers from different communities and regions",
+            "Participate in a Movers’ Leadership Program, an exclusive hybrid training for Movers, as part of MovePH’s roadshows in selected areas as they become available",
+            "Take on leadership roles, including opportunities for committed Movers to lead a local Movers hub and help organize storytelling and community engagement activities locally",
+            "Explore other opportunities within Rappler, including internships, journalism fellowships, special projects, article contributions, and other pathways for growth and continued involvement"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Movers network continues to grow across the Philippines, with eight hubs currently in Iloilo, Iligan, Batangas, Metro Manila, Zamboanga, Pangasinan, Dumaguete, and Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)."
+        },
+        {
+          "type": "p",
+          "text": "The program is open year-round for applications of new and aspiring young Movers."
+        },
+        {
+          "type": "p",
+          "text": "Specifically, aspiring Movers must be or have:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "At least 18 years old and based in the Philippines",
+            "Affiliated with a local student or civil society organization",
+            "Strong writing and communication skills",
+            "Proven experience in community leadership/organizing or local storytelling",
+            "Committed to long-term civic engagement volunteering",
+            "Can attend monthly meetings or activities"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Interested individuals may apply below:"
+        },
+        {
+          "type": "p",
+          "text": "Submissions will be reviewed at the end of each month, and applicants will receive an update after each review cycle. Shortlisted applicants must complete the onboarding process."
+        },
+        {
+          "type": "p",
+          "text": "Applications based in Cebu, General Santos City, Basilan, Central Luzon, and Calabarzon will be prioritized."
+        },
+        {
+          "type": "p",
+          "text": "Over the past few years, Movers contributed to coverage of the national and local elections, anti-corruption marches, Palarong Pambansa, and other significant events across the country. They also tell stories about inspiring people, community efforts, and causes that make a difference."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Rappler Movers shine light on community issues, local races during 2025 elections",
+            "Rappler movers amplify local voices in the elections",
+            "A viral love story teaches Bicol students how to guard against disinformation",
+            "Through #PisoParaSaLaptop campaign, students raise money to cope with distance learning",
+            "From boats to ballot: Pride, hope energize first-time Badjao voters in Batangas",
+            "Batangas City: Votes sell for P700; political parties hold ‘voter education’ seminars",
+            "Community leaders call for more consultative spaces with Zamboanga City gov’t",
+            "Preserving the dying art of Burdang Taal, one thread at a time",
+            "Meet the doctors behind Western Visayas’ first awake craniotomy",
+            "Do you rely on AI for mental health? Here’s what to do about it.",
+            "BARMM minorities push true representation, oppose ‘crayon politics’"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Have questions about the Movers Program or want Rappler to visit your region? Email move.ph@rappler.com – Rappler.com"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "id": "rap-650jgr",
+      "source": "rap",
+      "title": "Southwest monsoon affecting Luzon, Western Visayas; LPA inside PAR may strengthen",
+      "summary": "(1st UPDATE) PAGASA says the low pressure area has a 'medium' chance of developing into a tropical depression, but it is still the southwest monsoon or 'habagat' that is mainly affecting Luzon and…",
+      "byline": "Jee Y. Geronimo",
+      "section": "Philippine News",
+      "published": "2026-08-27T10:24:48.000Z",
+      "url": "https://www.rappler.com/philippines/weather/low-pressure-area-southwest-monsoon-pagasa-forecast-august-27-2026-5pm/",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – A new low pressure area (LPA), which entered the Philippine Area of Responsibility on Thursday morning, August 27, has a “medium” chance of developing into a tropical depression."
+        },
+        {
+          "type": "p",
+          "text": "The Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA) said this LPA — the ninth LPA in August alone — was last located at 850 kilometers east of extreme Northern Luzon."
+        },
+        {
+          "type": "p",
+          "text": "Once it develops into a tropical depression, it will be called the local name Pilandok."
+        },
+        {
+          "type": "p",
+          "text": "“Hindi pa ganoong kalaki ang impluwensya [ng LPA] dahil hindi pa pronounced ‘yung paghila niya sa habagat. Ang main na nakakaapekto pa rin po sa atin ay itong hanging habagat,” PAGASA Weather Specialist John Manalo said during their 5 pm forecast on Thursday."
+        },
+        {
+          "type": "p",
+          "text": "(The LPA does not have much influence yet because its pull on the southwest monsoon is not yet as pronounced. What’s mainly affecting us is still the southwest monsoon.)"
+        },
+        {
+          "type": "p",
+          "text": "The southwest monsoon or habagat is bringing occasional rain to Benguet, La Union, Pangasinan, Zambales, Bataan, and Occidental Mindoro, and scattered rain and thunderstorms to Metro Manila, the rest of Luzon, Western Visayas, and Negros Island Region."
+        },
+        {
+          "type": "p",
+          "text": "Below is PAGASA’s latest heavy rainfall outlook for the next three days due to the southwest monsoon:"
+        },
+        {
+          "type": "p",
+          "text": "Thursday evening, August 27, to Friday evening, August 28"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Moderate to heavy rain (50-100 millimeters): Ilocos Sur, Benguet, La Union, Pangasinan, Zambales, Bataan, Tarlac, Pampanga, Bulacan, Metro Manila, Cavite, Batangas, Rizal, and Occidental Mindoro"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Friday evening, August 28, to Saturday evening, August 29"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Heavy to intense rain (100-200 mm): La Union, Benguet, Bataan, Zambales, and Occidental Mindoro",
+            "Moderate to heavy rain (50-100 mm): Ilocos Norte, Ilocos Sur, Abra, Pangasinan, Pampanga, Tarlac, Nueva Ecija, Bulacan, Metro Manila, Rizal, Cavite, Batangas, Oriental Mindoro, and Antique"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Saturday evening, August 29, to Sunday evening, August 30"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Heavy to intense rain (100-200 mm): La Union, Benguet, Zambales, Bataan, and Occidental Mindoro",
+            "Moderate to heavy rain (50-100 mm): Ilocos Norte, Ilocos Sur, Pangasinan, Abra, Tarlac, Nueva Ecija, Pampanga, Bulacan, Metro Manila, Rizal, Cavite, Oriental Mindoro, and Batangas"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These areas should watch out for floods and landslides."
+        },
+        {
+          "type": "p",
+          "text": "In Mindanao, meanwhile, PAGASA has issued heat index warnings, particularly in the regions of Zamboanga Peninsula and Caraga, where temperatures are hitting danger levels (42ºC-51ºC) in some areas. Manalo said the current El Niño “partly” has a role in these warmer conditions. – Rappler.com"
+        }
+      ],
+      "truncated": false
     }
   ]
 }
