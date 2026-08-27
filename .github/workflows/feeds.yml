@@ -1,0 +1,63 @@
+name: Fetch news
+
+on:
+  schedule:
+    # Every 30 minutes. GitHub runs these on its own clock and can be
+    # a few minutes late when it is busy; that is normal.
+    - cron: "*/30 * * * *"
+  workflow_dispatch:      # adds a "Run workflow" button
+  push:
+    paths:
+      - "sources.json"    # a new feed should show up without waiting
+
+# Needed so the job can commit the file it writes.
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install
+        run: npm install --no-audit --no-fund
+
+      - name: Fetch the news
+        run: node fetch-feeds.mjs
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "balita-bot"
+          git config user.email "balita-bot@users.noreply.github.com"
+
+          if git diff --quiet articles.json; then
+            echo "Nothing new."
+            exit 0
+          fi
+
+          COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('articles.json','utf8')).articles.length)")
+          git add articles.json
+          git commit -m "News: $COUNT stories"
+
+          # Another run may have landed while this one was working.
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase --strategy-option=theirs || true
+            sleep 5
+          done
+
+          echo "Could not push after three tries."
+          exit 1
