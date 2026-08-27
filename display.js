@@ -4,7 +4,7 @@
    care of the buttons, the announcements and saving.
    ============================================================ */
 
-import { MIN_STEP, MAX_STEP } from "./config.js";
+import { MIN_STEP, MAX_STEP, SCALE } from "./config.js";
 import { saveSettings } from "./store.js";
 
 const root = document.documentElement;
@@ -19,7 +19,12 @@ let elSmaller, elBigger, elContrast, elTheme;
 /* ---------------- applying ---------------- */
 
 function applyAll(){
+  /* --base drives every size in the app. --step is exposed too, so
+     the stylesheet can rearrange the layout at the largest sizes
+     where margins and thumbnails stop earning their space. */
+  root.style.setProperty("--base", SCALE[step] + "px");
   root.style.setProperty("--step", step);
+  root.dataset.step = String(step);
   root.dataset.theme    = night ? "night" : "day";
   root.dataset.contrast = high  ? "high"  : "normal";
 

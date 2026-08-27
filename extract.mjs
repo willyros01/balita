@@ -12,7 +12,7 @@
    ============================================================ */
 
 import { JSDOM } from "jsdom";
-import { Readability, isProbablyReaderable } from "@mozilla/readability";
+import { Readability } from "@mozilla/readability";
 
 /* Blocks the app can draw. Anything else is dropped. */
 const KEEP = new Set(["P", "H2", "H3", "H4", "BLOCKQUOTE", "UL", "OL", "FIGURE", "IMG"]);
@@ -184,6 +184,26 @@ function byline(doc, article){
   return v ? v.replace(/\s+/g, " ").trim().slice(0, 120) : "";
 }
 
+/* A feed body that stops mid-story. Inquirer's fullfeed does this
+   constantly: it carries several real paragraphs and then simply
+   stops, which is long enough to fool any word-count test. What
+   gives it away is how it ends. */
+const CUT_OFF = [
+  /\u2026\s*$/,                       /* trailing ellipsis */
+  /\.\.\.\s*$/,
+  /\b(read|continue) (more|reading)\b/i,
+  /\bfull (story|article)\b/i,
+  /\bthe post .+ appeared first on\b/i,
+  /[a-z,;:]\s*$/                       /* ends without punctuation */
+];
+
+export function looksCut(blocks){
+  const paras = blocks.filter(b => b.type === "p" && b.text);
+  if(!paras.length) return true;
+  const last = paras[paras.length - 1].text.trim();
+  return CUT_OFF.some(re => re.test(last));
+}
+
 /* ---------------- public ---------------- */
 
 /* Pull an article out of raw page HTML.
@@ -206,11 +226,13 @@ export function fromHtml(html, url){
   const rawText = doc.body ? doc.body.textContent : "";
   const walled = PAYWALL.some(re => re.test(rawText));
 
+  /* Readability offers isProbablyReaderable as a quick pre-check.
+     It says no to plenty of honest articles — short ones, unusual
+     markup, text in containers it does not recognise — and every
+     no became a blank story. Cheaper to simply try and see. */
   let article = null;
   try{
-    if(isProbablyReaderable(doc)){
-      article = new Readability(doc.cloneNode(true), { charThreshold: 250 }).parse();
-    }
+    article = new Readability(doc.cloneNode(true), { charThreshold: 200 }).parse();
   }catch(err){
     article = null;
   }
@@ -253,6 +275,7 @@ export function fromHtml(html, url){
     blocks,
     image,
     byline: author,
+    words,
     truncated: walled || words < 90
   };
 }
@@ -271,8 +294,7 @@ export function fromFeedContent(html, url){
       .filter(b => b.type === "p")
       .reduce((n, b) => n + b.text.split(/\s+/).length, 0);
 
-    /* Only trust it if it is a real article, not a teaser. */
-    if(words < 160) return null;
+    if(words < 40) return null;
 
     let image = null;
     const first = blocks.find(b => b.type === "image");
@@ -280,7 +302,11 @@ export function fromFeedContent(html, url){
       image = { src: first.src, caption: first.caption };
     }
 
-    return { blocks: blocks.filter(b => b !== first), image, byline: "", truncated: false };
+    return {
+      blocks: blocks.filter(b => b !== first),
+      image, byline: "", words,
+      truncated: looksCut(blocks)
+    };
   }catch(err){
     return null;
   }

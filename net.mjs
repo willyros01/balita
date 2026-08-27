@@ -8,9 +8,14 @@
 
 const UA = "Balita/0.3 (personal news reader; +https://github.com/)";
 
-const TIMEOUT_MS = 15000;
+/* Feeds are worth waiting for — there are only a handful and one
+   failure costs a whole outlet. Article pages are not: there are
+   dozens, many will never answer, and a page that has not replied
+   in eight seconds is almost never going to. Retrying those was
+   what turned a two-minute run into eight. */
+const TIMEOUT_MS = 12000;
 const RETRIES    = 2;
-const GAP_MS     = 400;   /* minimum spacing between requests to one host */
+const GAP_MS     = 250;   /* minimum spacing between requests to one host */
 
 const lastHit = new Map();
 

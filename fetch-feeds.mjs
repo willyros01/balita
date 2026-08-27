@@ -14,19 +14,21 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { XMLParser } from "fast-xml-parser";
 import { get, pool } from "./net.mjs";
-import { fromHtml, fromFeedContent } from "./extract.mjs";
+import { fromHtml, fromFeedContent, looksCut } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.3.0";
+const VERSION = "0.4.0";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
 
 const PER_SOURCE     = 15;    /* newest stories to keep per source */
-const MAX_AGE_DAYS   = 4;     /* anything older is dropped */
-const FETCH_BUDGET   = 45;    /* article pages to open in one run */
-const FEED_PARALLEL  = 4;
-const PAGE_PARALLEL  = 3;
+const MAX_AGE_DAYS   = 5;     /* anything older is dropped */
+const FETCH_BUDGET   = 120;   /* article pages to open in one run */
+const FEED_PARALLEL  = 5;
+const PAGE_PARALLEL  = 8;
+const PAGE_TIMEOUT   = 8000;  /* a page silent this long will not answer */
+const PAGE_RETRIES   = 0;
 
 /* ---------------- feed parsing ---------------- */
 
@@ -230,39 +232,69 @@ async function readArticle(item, source){
     truncated: false
   };
 
-  /* Best case: the feed already carries the article. */
+  const fallback = [{ type: "p", text: stripTags(item.summary) }].filter(b => b.text);
+
+  /* What the feed itself gave us, if anything usable. */
   const inline = fromFeedContent(item.full, item.link);
-  if(inline){
+
+  /* A complete article in the feed means no page to fetch — faster
+     for us and kinder to the outlet. But "long" is not the same as
+     "complete": Inquirer's fullfeed carries several real paragraphs
+     and then stops, which sails past any word count. So we only
+     skip the fetch when the text also ends like a finished story. */
+  if(inline && !inline.truncated && inline.words >= 150){
     return {
       ...base,
       blocks: inline.blocks,
       image: base.image || inline.image,
-      byline: base.byline || inline.byline
+      byline: base.byline || inline.byline,
+      source_of_text: "feed"
     };
   }
 
-  /* Otherwise open the page and strip it down. */
   let page;
   try{
-    page = await get(item.link, { accept: "text/html,application/xhtml+xml" });
+    page = await get(item.link, {
+      accept: "text/html,application/xhtml+xml",
+      timeout: PAGE_TIMEOUT,
+      retries: PAGE_RETRIES
+    });
   }catch(err){
-    return { ...base, blocks: [{ type: "p", text: stripTags(item.summary) }].filter(b => b.text), truncated: true };
+    page = null;
   }
 
-  if(page.status >= 400 || !page.body){
-    return { ...base, blocks: [{ type: "p", text: stripTags(item.summary) }].filter(b => b.text), truncated: true };
+  const out = (page && page.status < 400 && page.body)
+    ? fromHtml(page.body, page.url || item.link)
+    : null;
+
+  /* Both versions in hand, keep whichever is more complete. A page
+     that was blocked or timed out leaves the feed copy standing. */
+  const pageWords = out ? out.words : 0;
+  const feedWords = inline ? inline.words : 0;
+
+  if(out && out.blocks.length && pageWords >= feedWords){
+    return {
+      ...base,
+      blocks: out.blocks,
+      image: base.image || out.image,
+      byline: base.byline || out.byline,
+      truncated: out.truncated,
+      source_of_text: "page"
+    };
   }
 
-  const out = fromHtml(page.body, page.url || item.link);
+  if(inline && inline.blocks.length){
+    return {
+      ...base,
+      blocks: inline.blocks,
+      image: base.image || inline.image,
+      byline: base.byline || inline.byline,
+      truncated: inline.truncated,
+      source_of_text: "feed"
+    };
+  }
 
-  return {
-    ...base,
-    blocks: out.blocks.length ? out.blocks
-      : [{ type: "p", text: stripTags(item.summary) }].filter(b => b.text),
-    image: base.image || out.image,
-    byline: base.byline || out.byline,
-    truncated: out.truncated
-  };
+  return { ...base, blocks: fallback, truncated: true, source_of_text: "summary" };
 }
 
 /* ---------------- the run ---------------- */
@@ -291,12 +323,14 @@ async function main(){
 
   const reports = await pool(sources, FEED_PARALLEL, readSource);
 
-  /* Decide what actually needs fetching. */
-  const wanted = [];
+  /* Decide what actually needs fetching, keeping each source's
+     queue separate so the budget can be shared out fairly. */
+  const queues = new Map();
   const kept   = [];
 
   reports.forEach((r, i) => {
     const source = sources[i];
+
     if(!r || r.error || !r.ok){
       const why = (r && (r.note || (r.error && r.error.message))) || "failed";
       console.log("  " + source.name.padEnd(18) + " skipped — " + why);
@@ -305,34 +339,76 @@ async function main(){
       return;
     }
 
-    let fresh = 0;
+    const queue = [];
+    let reused = 0;
+
     for(const item of r.items.slice(0, PER_SOURCE)){
       const id = idFor(source.id, item.link);
       const have = known.get(id);
       if(have && Array.isArray(have.blocks) && have.blocks.length){
         kept.push(have);
+        reused++;
       }else{
-        wanted.push({ item, source });
-        fresh++;
+        queue.push({ item, source });
       }
     }
 
-    console.log("  " + source.name.padEnd(18) + " " +
-      String(r.items.length).padStart(3) + " items, " + fresh + " new" +
+    if(queue.length) queues.set(source.id, queue);
+
+    console.log("  " + source.name.padEnd(18) +
+      String(r.items.length).padStart(3) + " in feed, " +
+      String(reused).padStart(2) + " already had, " +
+      String(queue.length).padStart(2) + " to fetch" +
       (r.note ? " — " + r.note : ""));
   });
 
-  /* A budget stops one bad night from turning into a very long run. */
-  const toFetch = wanted.slice(0, FETCH_BUDGET);
-  const skipped = wanted.length - toFetch.length;
+  /* Take one from each source in turn rather than draining them in
+     order. Whichever outlet sat last in the list used to be starved
+     entirely whenever the budget ran out; now a shortfall is shared
+     out evenly and everybody gets their most recent stories first. */
+  const wanted = [];
+  const lists = Array.from(queues.values());
+  for(let round = 0; wanted.length < FETCH_BUDGET; round++){
+    let placed = false;
+    for(const list of lists){
+      if(round >= list.length) continue;
+      wanted.push(list[round]);
+      placed = true;
+      if(wanted.length >= FETCH_BUDGET) break;
+    }
+    if(!placed) break;
+  }
 
-  console.log("\nFetching " + toFetch.length + " stories" +
+  const queued  = lists.reduce((n, l) => n + l.length, 0);
+  const skipped = queued - wanted.length;
+
+  console.log("\nFetching " + wanted.length + " stories" +
     (skipped ? " (" + skipped + " left for the next run)" : "") + "\n");
 
-  const fetched = await pool(toFetch, PAGE_PARALLEL,
+  const started2 = Date.now();
+  const fetched = await pool(wanted, PAGE_PARALLEL,
     ({ item, source }) => readArticle(item, source));
 
   const fresh = fetched.filter(a => a && !a.error && a.title);
+
+  /* Say plainly what each source actually came away with, so a
+     source that quietly got nothing is visible in the log. */
+  if(fresh.length || kept.length){
+    console.log("Per source, after fetching:");
+    for(const source of sources){
+      const got  = fresh.filter(a => a.source === source.id);
+      const page = got.filter(a => a.source_of_text === "page").length;
+      const feedT= got.filter(a => a.source_of_text === "feed").length;
+      const only = got.filter(a => a.source_of_text === "summary").length;
+      const old  = kept.filter(a => a.source === source.id).length;
+      if(!got.length && !old.length) continue;
+      console.log("  " + source.name.padEnd(18) +
+        String(got.length + old.length).padStart(3) + " stories  " +
+        "(page " + page + ", feed " + feedT + ", summary only " + only +
+        ", reused " + old + ")");
+    }
+    console.log("  fetching took " + Math.round((Date.now() - started2) / 1000) + "s\n");
+  }
 
   /* ---------------- assemble ---------------- */
 
@@ -367,12 +443,18 @@ async function main(){
   const withText = articles.filter(a => a.blocks && a.blocks.length > 1).length;
   const withPic  = articles.filter(a => a.image && a.image.src).length;
   const walled   = articles.filter(a => a.truncated).length;
+  const bare     = articles.filter(a => a.source_of_text === "summary").length;
+  const dropped  = kept.length + fresh.length - articles.length;
 
-  console.log("\nWrote " + articles.length + " stories to " + ARTICLES_FILE);
-  console.log("  full text   " + withText);
-  console.log("  with photo  " + withPic);
-  console.log("  truncated   " + walled);
-  console.log("  took        " + Math.round((Date.now() - started) / 1000) + "s");
+  console.log("Wrote " + articles.length + " stories to " + ARTICLES_FILE);
+  console.log("  full text     " + withText);
+  console.log("  with photo    " + withPic);
+  console.log("  cut short     " + walled);
+  console.log("  summary only  " + bare);
+  if(dropped > 0){
+    console.log("  dropped       " + dropped + " (older than " + MAX_AGE_DAYS + " days, or over the per-source cap)");
+  }
+  console.log("  took          " + Math.round((Date.now() - started) / 1000) + "s");
 
   /* Never fail the job over one unreachable outlet — a partial
      file is far better than no file. */

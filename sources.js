@@ -59,9 +59,17 @@ export function render(ctx){
 
   const help = document.createElement("p");
   help.className = "mhelp";
-  help.textContent = "Turn a source off to hide it without losing it. " +
-    "Add any outlet that publishes a feed — most still do. New stories " +
-    "from a source you add appear at the next refresh.";
+  help.textContent = "Turn a source off to hide it without losing it.";
+
+  /* Adding a source here changes what this device shows. It does not
+     tell the fetcher to go and pull that feed — that list lives in
+     sources.json. Without saying so, a newly added outlet looks
+     broken: a chip with nothing behind it, forever. */
+  const warn = document.createElement("p");
+  warn.className = "mhelp";
+  warn.textContent = "A source added here only changes what you see. " +
+    "For its stories to actually arrive, it also has to be listed in " +
+    "sources.json in the repository — that is the list the fetcher works from.";
 
   /* ---------------- the list ---------------- */
   const list = document.createElement("ul");
@@ -212,7 +220,7 @@ export function render(ctx){
     pres.append(ph, wrap);
   }
 
-  el.append(back, title, help, list, box, pres);
+  el.append(back, title, help, warn, list, box, pres);
 }
 
 export function show(ctx){

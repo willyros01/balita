@@ -12,7 +12,7 @@ GitHub, but it can select a batch of loose files.
 ## Part 1 — Unzip
 
 1. Open the **Files** app.
-2. Find `balita-v0.3.0.zip`, probably in **Downloads**.
+2. Find `balita-v0.4.0.zip`, probably in **Downloads**.
 3. Tap it once. A folder called `balita-v0.2.0` appears beside it.
 4. Tap into that folder. You should see twenty-one files and no folders.
 
@@ -57,7 +57,7 @@ discover.mjs       display.js         sw.js
 tokens.css
 ```
 
-7. In the box at the bottom, type: `Version 0.3.0`
+7. In the box at the bottom, type: `Version 0.4.0`
 8. Tap **Commit changes**.
 
 If you end up short a file, just upload the missing ones the same way.
@@ -89,7 +89,7 @@ That link is the app.
 
 Open the address.
 
-**What you should see at 0.3.0:** the header bar, a row of source chips
+**What you should see at 0.4.0:** the header bar, a row of source chips
 below it, and eight stories. Scroll to the bottom for **About this app** —
 version, release date, how many stories are loaded, when they were fetched,
 how many sources are on, where your settings are kept, and whether you are
@@ -101,7 +101,10 @@ The stories are samples with placeholder text. Real ones start arriving in
 
 Things to try:
 
-- `A+` and `A−` — text grows and shrinks; the column keeps its width.
+- `A+` — press it seven times to reach the largest size. Past the fourth
+  step the margins narrow and the thumbnails disappear, so the words get
+  the whole screen.
+- `A−` — back down again.
 - `◐` — pure black on white, and the source colours drop away so the
   letter tags carry the meaning instead.
 - `☾` — night mode.
@@ -118,6 +121,7 @@ Your settings and your feed list are remembered between visits.
 | Action fails at the last step | Part 5c was skipped |
 | Action runs but nothing changes | Normal — nothing new since last time |
 | One outlet always skipped | Its feed address moved; fix `sources.json` |
+| A source shows a chip but no stories | It is not in `sources.json` — the app list and the fetcher list are separate |
 | No About panel at the bottom | `app.js` did not update — upload it again |
 | Header, then nothing | One of the `.js` files is missing |
 
@@ -186,19 +190,32 @@ It takes two to four minutes. Tap into the run and then into **fetch** to
 watch it. What you want to see:
 
 ```
-Reading 8 feeds
+Reading 9 feeds
 
-  Inquirer            30 items, 15 new
-  Philstar            25 items, 15 new
+  Inquirer           20 in feed,  0 already had, 15 to fetch
+  Philstar           10 in feed,  0 already had, 10 to fetch
   ...
 
-Fetching 45 stories
+Fetching 80 stories
 
-Wrote 112 stories to articles.json
-  full text   98
-  with photo  87
-  truncated   6
+Per source, after fetching:
+  Inquirer           15 stories  (page 13, feed 2, summary only 0, reused 0)
+  Philstar           10 stories  (page 8, feed 0, summary only 2, reused 0)
+  ...
+  fetching took 94s
+
+Wrote 78 stories to articles.json
+  full text     71
+  with photo    64
+  cut short      4
+  summary only   3
+  took          102s
 ```
+
+Read the **Per source** block rather than the one above it. The first block
+says what was queued; only the second says what was actually retrieved. A
+source showing `summary only` for most of its stories is refusing the
+fetcher — worth telling me about.
 
 A line reading *skipped* beside one outlet is not a failure. Feeds move and
 break; the run keeps going with the others. If the same one is skipped

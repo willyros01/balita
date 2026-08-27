@@ -8,8 +8,31 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.3.0** — real news. A scheduled job pulls every feed, strips the pages
-down to the article, and writes a fresh `articles.json` on its own.
+**0.4.0** — fixes from the first live run.
+
+- **Text goes much bigger.** Seven steps now, topping out at 50px to match
+  the largest iOS accessibility setting. At the big sizes the layout gives
+  back its margins and drops the thumbnails, because at 50px a phone fits
+  about six words to a line and every pixel spent on a picture is a word
+  lost.
+- **Sources at the end of the list no longer starve.** The fetch queue used
+  to be drained source by source, so when the budget ran out the last
+  outlets in `sources.json` got nothing at all. It now takes one story from
+  each source in turn.
+- **Eight minutes down to about ninety seconds.** Article pages get one
+  attempt at eight seconds instead of three attempts at fifteen, eight at a
+  time instead of three. Most of that run was spent waiting on pages that
+  were never going to answer.
+- **Fewer blank stories.** Readability's own pre-check was refusing honest
+  articles; it is gone, and the extractor simply tries.
+- **Inquirer's cut-off stories.** A feed body is no longer trusted just
+  because it is long. If it ends mid-sentence, on an ellipsis, or on a
+  "read more" tag, the page is fetched and whichever version is longer
+  wins.
+- **The log says what actually happened**, per source, including which
+  stories came from the page, the feed, or nothing at all.
+- ABS-CBN and CBC addresses corrected. The schedule moved off :00 and :30,
+  which free-tier jobs rarely get. Node deprecation warning fixed.
 
 The version number lives in `config.js`. Bump `VERSION` and `BUILD_DATE`
 there whenever you change anything, and bump `VERSION` in `sw.js` too —

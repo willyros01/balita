@@ -152,13 +152,30 @@ html[data-contrast="high"] .tag{ color: var(--ink); }
 
 .headline{
   font-family: var(--font-head); font-weight: 600;
-  font-size: 1.28em; line-height: 1.24; letter-spacing: -0.01em;
+  font-size: calc(1em * var(--head-scale));
+  line-height: 1.24; letter-spacing: -0.01em;
   margin: 0 0 0.3rem; text-wrap: balance;
 }
 .standfirst{ margin: 0; color: var(--muted); font-size: 0.9em; line-height: 1.5; }
 html[data-contrast="high"] .standfirst{ color: var(--ink); }
 
 .empty{ padding: 3rem var(--sp); text-align: center; color: var(--muted); }
+
+/* At the biggest sizes the words need every pixel. */
+html[data-step="4"] .thumb,
+html[data-step="5"] .thumb,
+html[data-step="6"] .thumb{ display: none; }
+
+/* The controls have to stay reachable, so they keep their own
+   size rather than growing with the text. */
+html[data-step="4"] .ctrl,
+html[data-step="5"] .ctrl,
+html[data-step="6"] .ctrl{ font-size: 0.75em; min-width: 2.6rem; padding: 0 0.3rem; }
+html[data-step="4"] .wordmark,
+html[data-step="5"] .wordmark,
+html[data-step="6"] .wordmark{ font-size: 1.1em; }
+html[data-step="5"] .wordmark span,
+html[data-step="6"] .wordmark span{ display: none; }
 
 /* ---------------- reader ---------------- */
 .back{
@@ -178,7 +195,8 @@ html[data-contrast="high"] .standfirst{ color: var(--ink); }
 }
 .article-title{
   font-family: var(--font-head); font-weight: 700;
-  font-size: 1.68em; line-height: 1.18; letter-spacing: -0.015em;
+  font-size: calc(1em * var(--title-scale));
+  line-height: 1.18; letter-spacing: -0.015em;
   margin: 0.3rem 0 0.5rem; text-wrap: balance;
 }
 .byline{ font-size: 0.82em; color: var(--muted); margin: 0; }

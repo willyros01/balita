@@ -1,11 +1,74 @@
 [
-  { "id": "inq",  "tag": "INQ",  "name": "Inquirer",        "url": "https://www.inquirer.net/fullfeed",                 "color": "#C2382F", "on": true },
-  { "id": "star", "tag": "STAR", "name": "Philstar",        "url": "https://www.philstar.com/rss/headlines",            "color": "#1F5FA9", "on": true },
-  { "id": "abs",  "tag": "ABS",  "name": "ABS-CBN",         "url": "https://news.abs-cbn.com/rss",                      "color": "#D48310", "on": true },
-  { "id": "rap",  "tag": "RAP",  "name": "Rappler",         "url": "https://www.rappler.com/feed/",                     "color": "#7B4BA8", "on": true },
-  { "id": "gma",  "tag": "GMA",  "name": "GMA News",        "url": "https://data.gmanetwork.com/gno/rss/news/feed.xml", "color": "#1B7A5A", "on": true },
-  { "id": "mb",   "tag": "MB",   "name": "Manila Bulletin", "url": "https://mb.com.ph/feed",                            "color": "#4A5560", "on": true },
-  { "id": "bbc",  "tag": "BBC",  "name": "BBC World",       "url": "https://feeds.bbci.co.uk/news/world/rss.xml",       "color": "#8C1D2F", "on": true },
-  { "id": "cbc",  "tag": "CBC",  "name": "CBC Top Stories", "url": "https://www.cbc.ca/webfeed/rss/rss-topstories",     "color": "#B03A2E", "on": true },
-  { "id": "cnn",  "tag": "CNN",  "name": "CNN World",       "url": "http://rss.cnn.com/rss/edition_world.rss",          "color": "#94402C", "on": false }
+  {
+    "id": "inq",
+    "tag": "INQ",
+    "name": "Inquirer",
+    "url": "https://www.inquirer.net/fullfeed",
+    "color": "#C2382F",
+    "on": true
+  },
+  {
+    "id": "star",
+    "tag": "STAR",
+    "name": "Philstar",
+    "url": "https://www.philstar.com/rss/headlines",
+    "color": "#1F5FA9",
+    "on": true
+  },
+  {
+    "id": "abs",
+    "tag": "ABS",
+    "name": "ABS-CBN",
+    "url": "https://www.abs-cbn.com/news",
+    "color": "#D48310",
+    "on": true
+  },
+  {
+    "id": "rap",
+    "tag": "RAP",
+    "name": "Rappler",
+    "url": "https://www.rappler.com/feed/",
+    "color": "#7B4BA8",
+    "on": true
+  },
+  {
+    "id": "gma",
+    "tag": "GMA",
+    "name": "GMA News",
+    "url": "https://data.gmanetwork.com/gno/rss/news/feed.xml",
+    "color": "#1B7A5A",
+    "on": true
+  },
+  {
+    "id": "mb",
+    "tag": "MB",
+    "name": "Manila Bulletin",
+    "url": "https://mb.com.ph/rss/headlines",
+    "color": "#4A5560",
+    "on": true
+  },
+  {
+    "id": "bbc",
+    "tag": "BBC",
+    "name": "BBC World",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "color": "#8C1D2F",
+    "on": true
+  },
+  {
+    "id": "cbc",
+    "tag": "CBC",
+    "name": "CBC Top Stories",
+    "url": "https://rss.cbc.ca/lineup/topstories.xml",
+    "color": "#B03A2E",
+    "on": true
+  },
+  {
+    "id": "cnn",
+    "tag": "CNN",
+    "name": "CNN World",
+    "url": "http://rss.cnn.com/rss/edition_world.rss",
+    "color": "#94402C",
+    "on": false
+  }
 ]
