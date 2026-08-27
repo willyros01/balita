@@ -8,9 +8,8 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.2.1** — the app works. Story list, reading view, the screen for adding
-feeds, and an About panel at the bottom of the list showing what is running
-and when it last fetched. Running on sample stories until 0.3.0.
+**0.3.0** — real news. A scheduled job pulls every feed, strips the pages
+down to the article, and writes a fresh `articles.json` on its own.
 
 The version number lives in `config.js`. Bump `VERSION` and `BUILD_DATE`
 there whenever you change anything, and bump `VERSION` in `sw.js` too —
@@ -37,13 +36,42 @@ cannot drag a folder into GitHub.
 | `feed.js` | The story list and the source chips |
 | `reader.js` | One story, decluttered |
 | `sources.js` | Adding and removing feeds |
-| `articles.json` | The stories. Sample data for now |
+| `articles.json` | The stories. Written by the fetcher |
+| `sources.json` | The feed list. Read by both the app and the fetcher |
 
-Still to come:
+The fetcher — runs on GitHub, never in the browser:
 
-| File | Version |
+| File | What it is for |
 |---|---|
-| `fetch-feeds.js` and the scheduled job | 0.3.0 |
+| `fetch-feeds.mjs` | The run: read feeds, decide what is new, write the file |
+| `extract.mjs` | Strips a news page down to blocks of text and pictures |
+| `discover.mjs` | Finds a feed address from a home page |
+| `net.mjs` | Outbound requests: timeouts, retries, and a polite gap |
+| `package.json` | The three libraries the fetcher needs |
+| `.github/workflows/feeds.yml` | The schedule |
+
+## How the fetcher works
+
+Every half hour, on GitHub's machines:
+
+1. Read `sources.json`.
+2. Fetch each feed. If an address turns out to be a home page rather than a
+   feed, look for the feed and use that instead.
+3. Compare against the `articles.json` already committed. Stories already
+   there are left alone — a normal run opens a handful of pages, not
+   hundreds.
+4. For genuinely new stories: if the feed carried the full text, use it. If
+   not, open the article page and run it through Readability, the same
+   engine behind Firefox's Reader View.
+5. Keep only paragraphs, headings, quotes, lists and the story's own
+   pictures. Everything else is discarded.
+6. Write `articles.json` and commit it.
+
+Nothing from a news site is ever passed through as HTML. Each block is
+plain text or a picture address, so no script or tracker can reach the
+phone.
+
+Run it yourself with `npm install` then `npm run fetch`.
 
 ## Setting it up
 

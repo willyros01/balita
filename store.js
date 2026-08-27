@@ -85,8 +85,21 @@ export async function loadSources(){
     localWrite(KEY_SOURCES, cloud.sources);   /* keep an offline copy */
     return cloud.sources;
   }
+
   const local = localRead(KEY_SOURCES);
   if(Array.isArray(local) && local.length) return local;
+
+  /* First run. sources.json is the list the fetcher works from, so
+     starting there means the app and the fetcher agree. */
+  try{
+    const res = await fetch("sources.json", { cache: "no-cache" });
+    if(res.ok){
+      const list = await res.json();
+      if(Array.isArray(list) && list.length) return list;
+    }
+  }catch(err){
+    /* fall through to the built-in list */
+  }
 
   return DEFAULT_SOURCES.map(s => ({ ...s }));
 }

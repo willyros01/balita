@@ -12,9 +12,9 @@ GitHub, but it can select a batch of loose files.
 ## Part 1 — Unzip
 
 1. Open the **Files** app.
-2. Find `balita-v0.2.1.zip`, probably in **Downloads**.
+2. Find `balita-v0.3.0.zip`, probably in **Downloads**.
 3. Tap it once. A folder called `balita-v0.2.0` appears beside it.
-4. Tap into that folder. You should see fifteen files and no folders.
+4. Tap into that folder. You should see twenty-one files and no folders.
 
 ---
 
@@ -44,27 +44,20 @@ GitHub, but it can select a batch of loose files.
 5. Tap each of the ten files, or use **Select All** if it is offered.
 6. Tap **Open**.
 
-Wait for the list to finish loading. You should count fifteen:
+Wait for the list to finish loading. You should count twenty-one:
 
 ```
-README.md
-SETUP.md
-app.css
-app.js
-articles.json
-config.js
-display.js
-feed.js
-index.html
-manifest.webmanifest
-reader.js
-sources.js
-store.js
-sw.js
+README.md          feed.js            net.mjs
+SETUP.md           feeds.yml          package.json
+app.css            fetch-feeds.mjs    reader.js
+app.js             index.html         sources.js
+articles.json      manifest.webmanifest  sources.json
+config.js          extract.mjs        store.js
+discover.mjs       display.js         sw.js
 tokens.css
 ```
 
-7. In the box at the bottom, type: `Version 0.2.1`
+7. In the box at the bottom, type: `Version 0.3.0`
 8. Tap **Commit changes**.
 
 If you end up short a file, just upload the missing ones the same way.
@@ -96,7 +89,7 @@ That link is the app.
 
 Open the address.
 
-**What you should see at 0.2.1:** the header bar, a row of source chips
+**What you should see at 0.3.0:** the header bar, a row of source chips
 below it, and eight stories. Scroll to the bottom for **About this app** —
 version, release date, how many stories are loaded, when they were fetched,
 how many sources are on, where your settings are kept, and whether you are
@@ -122,10 +115,100 @@ Your settings and your feed list are remembered between visits.
 |---|---|
 | Plain text, no header bar | The two `.css` files are missing |
 | Header but no stories | `articles.json` is missing |
+| Action fails at the last step | Part 5c was skipped |
+| Action runs but nothing changes | Normal — nothing new since last time |
+| One outlet always skipped | Its feed address moved; fix `sources.json` |
 | No About panel at the bottom | `app.js` did not update — upload it again |
 | Header, then nothing | One of the `.js` files is missing |
 
 In each case, redo Part 3 with the missing file.
+
+
+---
+
+## Part 5b — Put the schedule in place
+
+This is the one file that has to go in a folder, because GitHub insists on
+it. You will type the folder name rather than dragging it, which works fine
+on an iPad.
+
+1. In your repo, tap **Add file** → **Create new file**.
+2. In the filename box at the top, type exactly:
+
+   ```
+   .github/workflows/feeds.yml
+   ```
+
+   Include the leading dot. As you type each slash, GitHub shows the folders
+   forming above the box.
+
+3. Open `feeds.yml` from the unzipped folder — tap and hold it in Files,
+   choose **Quick Look**, then select all the text and copy it.
+
+   If Quick Look will not let you copy, open the `feeds.yml` card in the
+   chat where I sent this version and copy from there instead.
+
+4. Paste it into the big box on GitHub.
+5. Scroll down, commit message `Add the schedule`, tap **Commit changes**.
+
+Now delete the loose copy: open `feeds.yml` in the repo root, tap the **⋯**
+menu, choose **Delete file**, and commit. It only works inside
+`.github/workflows/`, and leaving a stray copy at the root is confusing
+later.
+
+---
+
+## Part 5c — Let the job write to the repo
+
+The fetcher has to commit the file it produces, and GitHub blocks that by
+default.
+
+1. Tap **Settings** in your repo.
+2. In the sidebar: **Actions** → **General**.
+3. Scroll to **Workflow permissions**.
+4. Choose **Read and write permissions**.
+5. Tap **Save**.
+
+Miss this and every run fails at the last step with a permissions error.
+
+---
+
+## Part 5d — Run it once by hand
+
+Do not wait half an hour to find out whether it works.
+
+1. Tap **Actions** along the top of the repo.
+2. If you see a green button offering to enable workflows, tap it.
+3. In the sidebar, tap **Fetch news**.
+4. Tap **Run workflow** → **Run workflow**.
+
+It takes two to four minutes. Tap into the run and then into **fetch** to
+watch it. What you want to see:
+
+```
+Reading 8 feeds
+
+  Inquirer            30 items, 15 new
+  Philstar            25 items, 15 new
+  ...
+
+Fetching 45 stories
+
+Wrote 112 stories to articles.json
+  full text   98
+  with photo  87
+  truncated   6
+```
+
+A line reading *skipped* beside one outlet is not a failure. Feeds move and
+break; the run keeps going with the others. If the same one is skipped
+every time, its address has changed — find the new one and edit
+`sources.json`.
+
+Once it turns green, open the app. Real headlines, and the About panel now
+shows a real **Fetched** time.
+
+From here it runs itself, every half hour.
 
 ---
 
@@ -173,10 +256,42 @@ less, since those live in storage rather than in the file.
 
 ## What comes next
 
-**0.3.0** adds the fetcher and the scheduled job. A small program runs on
-GitHub's own machines every half hour, pulls each feed, strips the pages
-down to the article, and writes a fresh `articles.json`. From then on the
-app fills itself.
+The app is finished and running on its own.
 
-Nothing about the screens you are looking at now will change — the sample
-`articles.json` is written in exactly the shape the fetcher produces.
+Things you may want next, in rough order of usefulness:
+
+- **Saving stories to read later.** Needs Firebase to be worth it, so they
+  follow you between devices.
+- **Reading aloud.** Every browser has a speech engine built in; it is a
+  button and about forty lines.
+- **Search across everything fetched.**
+- **A wider net.** Add any outlet with a feed from the Sources screen, or
+  by editing `sources.json`.
+
+## Adding and changing feeds
+
+Two ways, and they do different things.
+
+**From the app** — tap **+ Sources**. This changes what *you* see. It does
+not tell the fetcher to start pulling that feed.
+
+**In `sources.json`** — this is the fetcher's list. Open the file on
+GitHub, tap the pencil, add a line in the same shape as the others, commit.
+The schedule notices the change and runs immediately rather than waiting.
+
+To have a new outlet actually appear, it has to be in `sources.json`.
+
+## Running less often
+
+Half-hourly is roughly 1,400 runs a month, which is comfortably inside
+GitHub's free allowance for a public repo. If you would rather it were
+quieter, open `.github/workflows/feeds.yml` and change the cron line:
+
+| Line | Meaning |
+|---|---|
+| `*/30 * * * *` | every 30 minutes |
+| `0 * * * *` | on the hour |
+| `0 */3 * * *` | every three hours |
+| `0 22,2,10 * * *` | three times a day (times are UTC) |
+
+Manila is UTC+8, so `0 22 * * *` fires at 6 AM local.
