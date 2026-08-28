@@ -17,7 +17,7 @@ import { get, pool } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.8.0";
+const VERSION = "0.8.2";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -77,6 +77,34 @@ function shorten(text, n){
   return (stop > n * 0.6 ? cut.slice(0, stop) : cut).trimEnd() + "\u2026";
 }
 
+/* Walk the parsed document looking for the item or entry lists,
+   wherever a publisher has chosen to put them. Depth-limited, and
+   it takes the largest list it finds, since a feed's real entries
+   always outnumber any stray element sharing the name. */
+function findEntries(node, depth = 0){
+  if(!node || typeof node !== "object" || depth > 6) return [];
+
+  let best = [];
+
+  for(const [key, value] of Object.entries(node)){
+    const name = key.includes(":") ? key.split(":").pop() : key;
+
+    if(name === "item" || name === "entry"){
+      const list = asArray(value).filter(v => v && typeof v === "object");
+      if(list.length > best.length) best = list;
+    }
+
+    if(value && typeof value === "object"){
+      for(const child of asArray(value)){
+        const found = findEntries(child, depth + 1);
+        if(found.length > best.length) best = found;
+      }
+    }
+  }
+
+  return best;
+}
+
 /* RSS 2.0, Atom and RDF all in one, since Philippine outlets use
    all three between them. */
 function readFeed(xml){
@@ -95,7 +123,20 @@ function readFeed(xml){
   if(rss)       raw = asArray(rss.item);
   else if(rdf)  raw = asArray(rdf.item);
   else if(atom) raw = asArray(atom.entry);
-  else return [];
+
+  /* The three shapes above cover almost everything, but a publisher
+     only has to wrap the root differently — a namespace prefix, an
+     extra element — and the items become unreachable while the file
+     is still perfectly valid. That is how The Guardian's feed came
+     back as "no items" when a browser showed it full of stories.
+
+     Rather than special-case each one, go and find them: entries
+     live under a key called item or entry wherever they sit. */
+  if(!raw.length){
+    raw = findEntries(doc);
+  }
+
+  if(!raw.length) return [];
 
   return raw.map(item => {
     /* link */
@@ -217,7 +258,15 @@ async function readSource(source){
 
   const items = readFeed(res.body);
   if(!items.length){
-    report.note = "feed had no items";
+    /* Name the root element. "no items" on its own says nothing
+       about whether the fault is theirs or ours. */
+    let root = "unknown";
+    try{
+      const m = res.body.match(/<([a-z][\w:.-]*)[\s>]/i);
+      if(m) root = m[1];
+    }catch(e){}
+    report.note = "feed parsed but held no items (root <" + root + ">, " +
+      Math.round(res.body.length / 1024) + "kB)";
     return report;
   }
 
