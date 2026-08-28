@@ -7,17 +7,32 @@ on:
     # dropped; odd minutes are far more likely to actually run.
     - cron: "7,37 * * * *"
   workflow_dispatch:      # adds a "Run workflow" button
+
+  # An outside service can start a run by posting here. GitHub's own
+  # scheduler has never fired once on this repository — free-tier cron
+  # is best-effort and is dropped whenever their runners are busy.
+  # See SETUP.md for wiring up a scheduler that actually keeps time.
+  repository_dispatch:
+    types: [fetch-news]
+
   push:
-    paths:
-      - "sources.json"    # a new feed should show up without waiting
+    paths:                # a code or feed change should take effect at once
+      - "sources.json"
+      - "fetch-feeds.mjs"
+      - "extract.mjs"
+      - "discover.mjs"
+      - "net.mjs"
 
 # Needed so the job can commit the file it writes.
 permissions:
   contents: write
 
+# A queued run stays pinned to the commit that created it. One left
+# waiting for two hours eventually ran with hours-old code and undid
+# newer work. Cancel what is superseded rather than holding it.
 concurrency:
   group: fetch-news
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   fetch:
