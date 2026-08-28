@@ -198,6 +198,7 @@ function imageFrom(node, base){
 
 function toBlocks(root, base){
   let blocks = [];
+  let cutHere = -1;   /* where one story ends and the next begins */
   const seenImages = new Set();
 
   const nodes = root.querySelectorAll(Array.from(KEEP).join(","));
@@ -210,7 +211,9 @@ function toBlocks(root, base){
 
     if(node.tagName === "FIGURE" || node.tagName === "IMG"){
       const img = imageFrom(node, base);
-      if(img && !seenImages.has(img.src)){
+      /* No address, no block. A picture the app cannot show should
+         not become a block that later gets drawn as a fake one. */
+      if(img && img.src && !seenImages.has(img.src)){
         seenImages.add(img.src);
         blocks.push({ type: "image", src: img.src, caption: img.caption });
       }
@@ -226,6 +229,23 @@ function toBlocks(root, base){
     }
 
     const text = node.textContent.replace(/\s+/g, " ").trim();
+
+    /* Note the boundary before dropping the line that marks it.
+
+       DW ends every item with its own short link, and the feed then
+       runs straight on into the next story. That link is the only
+       signal of where one article stops.
+
+       In 0.11.0 two fixes shipped together and cancelled each other:
+       a new rule dropped any paragraph that was just a link, so by
+       the time the boundary search ran the marker had already gone.
+       Both fixes tested clean on their own. Neither was tested
+       against the other. */
+    if(cutHere < 0 && blocks.length > 2 &&
+       /^https?:\/\/(p\.)?dw\.com\/\S*$/i.test(text)){
+      cutHere = blocks.length;
+    }
+
     if(isJunk(text)) continue;
 
     if(node.tagName === "BLOCKQUOTE"){
@@ -237,20 +257,11 @@ function toBlocks(root, base){
     }
   }
 
-  /* Where one story ends and the next begins.
-
-     DW appends its own short link — p.dw.com/p/XXXX — at the end of
-     every item, and then the feed carries straight on into the
-     following story. Read as one article it is baffling: a headline
-     and a fresh photograph appear halfway down with nothing to say
-     they belong to something else. Two stories fused together are
-     worse than any amount of junk, because the reader cannot tell
-     which words go with which.
-
-     The link is the boundary, so cut there. */
-  const boundary = blocks.findIndex(b =>
-    b.type === "p" && b.text && /^https?:\/\/(p\.dw\.com|dw\.com)\/\S*$/i.test(b.text.trim()));
-  if(boundary > 2) blocks = blocks.slice(0, boundary);
+  /* Two stories fused into one are worse than any amount of junk:
+     a headline and a fresh photograph appear halfway down with
+     nothing to say they belong elsewhere. Cut at the boundary noted
+     above. */
+  if(cutHere > 2) blocks = blocks.slice(0, cutHere);
 
   /* Collapse repeats. Comparing only against the previous block was
      not enough: ABS-CBN's newsletter paragraph appears twice with a

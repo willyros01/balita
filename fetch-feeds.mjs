@@ -17,7 +17,7 @@ import { get, pool, doorwayReady, needsDoorway } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.11.0";
+const VERSION = "0.12.0";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -615,10 +615,18 @@ async function main(){
       const only = got.filter(a => a.source_of_text === "summary").length;
       const old  = kept.filter(a => a.source === source.id).length;
       if(!got.length && !old) continue;
+
+      /* How many actually have a picture. Without this it is
+         impossible to tell whether an image went missing here or in
+         the app, and I have guessed wrong at that twice. */
+      const all = [...got, ...kept.filter(a => a.source === source.id)];
+      const pics = all.filter(a => a.image && a.image.src).length;
+
       console.log("  " + source.name.padEnd(18) +
-        String(got.length + old).padStart(3) + " stories  " +
+        String(all.length).padStart(3) + " stories  " +
         "(page " + page + ", feed " + feedT + ", summary only " + only +
-        ", reused " + old + ")");
+        ", reused " + old + ")  " +
+        String(pics).padStart(3) + "/" + all.length + " with a photo");
     }
     console.log("  fetching took " + Math.round((Date.now() - started2) / 1000) + "s");
 

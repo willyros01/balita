@@ -250,6 +250,32 @@ Worth trying, roughly in order of cost:
    words with a photograph, which is a usable headline-and-summary card.
    Keep it on those terms and say so in the app rather than pretending.
 
+## Fixed in 0.12.0 — and why they needed fixing twice
+
+**The DW cut was cancelled by another fix in the same build.** 0.11.0 added
+a rule dropping any paragraph that is just a link, and a rule cutting the
+article at DW's short link. The first removed the marker the second looked
+for. Both were tested; neither was tested against the other. The boundary
+is now noted before the junk filter runs.
+
+**The invented photograph came from a fallback I only half removed.**
+`figureFor` in `reader.js` had an `else` branch drawing a fake picture when
+there was none. 0.10.0 stopped the *lead* image calling it, but every image
+block inside the article still went through the same function. The branch is
+gone entirely: no picture means no figure, and an image that fails to load
+removes its own frame. `imageFrom` in `extract.mjs` also no longer emits a
+block without an address.
+
+**The lesson worth keeping.** Two fixes in one build can cancel each other,
+and testing each alone will not show it. When several changes touch the same
+pipeline, test the pipeline, not the pieces.
+
+**And a standing diagnostic.** The log now prints, per source, how many
+stories carry a picture. Twice I could not tell whether an image was lost in
+the fetcher or in the app, and guessed wrong both times. `Guardian 45
+stories … 0/45 with a photo` points at the fetcher; `45/45` points at the
+app. No more guessing at that.
+
 ## Fixed in 0.11.0
 
 - Inquirer's subscription messages, both the success and the failure

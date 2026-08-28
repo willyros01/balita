@@ -8,27 +8,39 @@
    simply not drawn.
    ============================================================ */
 
-import { timeAgo, placeholder } from "./feed.js";
+import { timeAgo } from "./feed.js";
 
 /* Block kinds this screen knows how to draw. */
 const KNOWN = new Set(["p", "h", "quote", "list", "image"]);
 
+/* Returns a figure, or null when there is no real picture.
+
+   This used to fall back to drawing an invented one — a grey
+   mountain scene, half a screen tall, in an article that had no
+   photograph at all. It read as a broken image and pushed the story
+   down the page. Fixing only the lead image was not enough, because
+   every picture inside the body came through here too and hit the
+   same fallback.
+
+   So the fallback is gone. If a story has no picture it simply has
+   none, and if a picture fails to load its frame is removed rather
+   than filled with something imaginary. The placeholder still earns
+   its place as a small thumbnail in the list, where it keeps the
+   rows evenly spaced — but never as a photograph. */
 function figureFor(image, seed, alt){
+  if(!image || !image.src) return null;
+
   const fig = document.createElement("figure");
 
-  if(image && image.src){
-    const img = document.createElement("img");
-    img.src = image.src;
-    img.alt = alt || image.caption || "";
-    img.loading = "lazy";
-    img.decoding = "async";
-    img.addEventListener("error", () => { fig.innerHTML = placeholder(seed, 800, 450); });
-    fig.appendChild(img);
-  }else{
-    fig.innerHTML = placeholder(seed, 800, 450);
-  }
+  const img = document.createElement("img");
+  img.src = image.src;
+  img.alt = alt || image.caption || "";
+  img.loading = "lazy";
+  img.decoding = "async";
+  img.addEventListener("error", () => fig.remove());
+  fig.appendChild(img);
 
-  if(image && image.caption){
+  if(image.caption){
     const cap = document.createElement("figcaption");
     cap.textContent = image.caption;
     fig.appendChild(cap);
@@ -72,7 +84,7 @@ function blockFor(block, seed){
   }
 
   if(block.type === "image"){
-    return figureFor(block, seed);
+    return figureFor(block, seed);   /* null when there is no address */
   }
 
   return null;
@@ -127,11 +139,7 @@ export function open(ctx, id){
 
   head.append(meta, h2, by);
 
-  /* A story with no picture gets none. The invented grey graphic
-     reads as a broken image and pushes half a screen of story down,
-     which is worse than a plain start. It still earns its place as
-     a small thumbnail in the list, where it keeps the rows even. */
-  const lead = (a.image && a.image.src) ? figureFor(a.image, 0, a.title) : null;
+  const lead = figureFor(a.image, 0, a.title);
 
   /* body */
   const body = document.createElement("div");
