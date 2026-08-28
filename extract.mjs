@@ -17,20 +17,65 @@ import { Readability } from "@mozilla/readability";
 /* Blocks the app can draw. Anything else is dropped. */
 const KEEP = new Set(["P", "H2", "H3", "H4", "BLOCKQUOTE", "UL", "OL", "FIGURE", "IMG"]);
 
-/* Lines that are furniture rather than journalism. */
+/* Lines that are furniture rather than journalism.
+
+   Two kinds here. Some are whole paragraphs a publisher drops into
+   the middle of an article — the advertising interruptions and the
+   newsletter pitches. Readability keeps them, because structurally
+   they are paragraphs like any other; only the words give them away.
+
+   Matching has to be exact. A rule broad enough to be clever will
+   eventually eat a real sentence, and a missing paragraph is worse
+   than an unwanted one. */
 const JUNK = [
+  /^\s*$/,
+
+  /* advertising interruptions, mid-article */
+  /^article continues after this advertisement/i,
+  /^story continues (after|below)/i,
   /^advertisement$/i,
-  /^sponsored( content)?$/i,
-  /^read (more|next|also)\b/i,
-  /^related (stories|articles|news)\b/i,
+  /^advertisement\s*[-\u2013\u2014:]/i,
+  /^ad(vertising)?\s*$/i,
+  /^sponsored( content| by)?$/i,
+  /^promoted( content| by)?$/i,
+  /^continue reading (below|the (main )?story)/i,
+  /^scroll (down )?to continue/i,
+
+  /* cross-links dropped into the copy */
+  /^read (more|next|also|on)\b/i,
+  /^read:/i,
+  /^also read\b/i,
+  /^related (stories|articles|news|reading)\b/i,
+  /^more (on this|from)\b/i,
+  /^see also\b/i,
   /^watch:?$/i,
-  /^share (this|on)\b/i,
-  /^follow us\b/i,
-  /^sign up\b/i,
-  /^subscribe\b/i,
+  /^watch \| /i,
+  /^listen:?$/i,
+  /^in (photos|pictures):/i,
+
+  /* the newsletter and subscription pitches */
+  /^sign up (for|to)\b/i,
+  /^subscribe (to|for|now)\b/i,
+  /^get (the latest|our|breaking)\b.*\b(newsletter|inbox|updates)\b/i,
+  /\bdelivered (straight )?to your inbox\b/i,
+  /^join (our|the) (newsletter|mailing)/i,
+  /^support (our|independent) journalism/i,
+  /^become a (member|subscriber)\b/i,
+
+  /* social and housekeeping */
+  /^share (this|on|it)\b/i,
+  /^follow (us|@)/i,
   /^click here\b/i,
-  /^photo(graph)? (by|courtesy)/i,
-  /^\s*$/
+  /^tags?:/i,
+  /^filed under\b/i,
+  /^copyright \u00a9/i,
+  /^all rights reserved/i,
+
+  /* caption and credit lines that leak into the body */
+  /^photo(graph)? (by|courtesy|credit)/i,
+  /^image (by|courtesy|credit)/i,
+  /^file photo\b/i,
+  /^\(?(reuters|afp|ap|pna|inquirer\.net|philstar\.com)\)?$/i
 ];
 
 /* Signs the publisher has cut us off. */
@@ -238,17 +283,22 @@ export function fromHtml(html, url){
   }
 
   if(!article || !article.content){
-    dom.window.close();
+    try{ dom.window.close(); }catch(e){}
     return { ...empty, image: lead, truncated: walled };
   }
 
+  /* The close has to be in a finally. Left inside the try, any error
+     in toBlocks leaks the window, and enough leaked windows keep the
+     whole process alive long after the work is done. */
   let blocks = [];
+  let frag = null;
   try{
-    const frag = new JSDOM("<body>" + article.content + "</body>", { url });
+    frag = new JSDOM("<body>" + article.content + "</body>", { url });
     blocks = toBlocks(frag.window.document.body, url);
-    frag.window.close();
   }catch(err){
     blocks = [];
+  }finally{
+    if(frag) try{ frag.window.close(); }catch(e){}
   }
 
   const words = blocks
@@ -276,7 +326,7 @@ export function fromHtml(html, url){
     image,
     byline: author,
     words,
-    truncated: walled || words < 90
+    truncated: walled || words < 55
   };
 }
 
@@ -285,10 +335,10 @@ export function fromHtml(html, url){
 export function fromFeedContent(html, url){
   if(!html) return null;
 
+  let frag = null;
   try{
-    const frag = new JSDOM("<body>" + html + "</body>", { url });
+    frag = new JSDOM("<body>" + html + "</body>", { url });
     const blocks = toBlocks(frag.window.document.body, url);
-    frag.window.close();
 
     const words = blocks
       .filter(b => b.type === "p")
@@ -309,5 +359,7 @@ export function fromFeedContent(html, url){
     };
   }catch(err){
     return null;
+  }finally{
+    if(frag) try{ frag.window.close(); }catch(e){}
   }
 }

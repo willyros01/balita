@@ -6,7 +6,7 @@
    that is not responding.
    ============================================================ */
 
-const UA = "Wire/0.5 (personal news reader)";
+const UA = "Wire/0.6 (personal news reader)";
 
 /* Feeds are worth waiting for — there are only a handful and one
    failure costs a whole outlet. Article pages are not: there are

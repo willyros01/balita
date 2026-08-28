@@ -9,7 +9,7 @@ GitHub, but it can select a batch of loose files.
 
 ---
 
-## Upgrading to 0.5.0 — read this first
+## Upgrading — read this first
 
 Two things differ from previous versions.
 
@@ -18,21 +18,22 @@ and your repository already has the real one the fetcher wrote. Uploading it
 would put placeholder stories back until the next run. When the Files picker
 opens, tap every file *except* that one.
 
-**The repository keeps its name.** Only the app is renamed to Wire. Leaving
-the repository as `balita` means your Pages address does not change and
-nothing breaks.
+**The repository keeps its name.** Only the app is called Wire. Leaving the
+repository as `balita` means your Pages address does not change.
 
-After uploading, delete the home screen icon and add it again — that is the
-only way iOS picks up the new name and icon.
+**`feeds.yml` is not in this zip.** The schedule has not changed, and the
+live copy lives at `.github/workflows/feeds.yml` where a root upload cannot
+reach it anyway. If a stray `feeds.yml` is sitting in your repository root
+from an earlier version, delete it — it does nothing there.
 
 ---
 
 ## Part 1 — Unzip
 
 1. Open the **Files** app.
-2. Find `wire-v0.5.0.zip`, probably in **Downloads**.
+2. Find `wire-v0.7.0.zip`, probably in **Downloads**.
 3. Tap it once. A folder called `balita-v0.2.0` appears beside it.
-4. Tap into that folder. You should see twenty-five files and no folders.
+4. Tap into that folder. You should see twenty-three files and no folders.
 
 ---
 
@@ -75,7 +76,7 @@ discover.mjs       display.js         sw.js
 tokens.css
 ```
 
-7. In the box at the bottom, type: `Version 0.5.0`
+7. In the box at the bottom, type: `Version 0.7.0`
 8. Tap **Commit changes**.
 
 If you end up short a file, just upload the missing ones the same way.
@@ -107,7 +108,7 @@ That link is the app.
 
 Open the address.
 
-**What you should see at 0.5.0:** the header bar, a row of source chips
+**What you should see at 0.7.0:** the header bar, a row of source chips
 below it, and eight stories. Scroll to the bottom for **About this app** —
 version, release date, how many stories are loaded, when they were fetched,
 how many sources are on, where your settings are kept, and whether you are

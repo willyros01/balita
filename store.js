@@ -12,6 +12,7 @@ import { FIREBASE, DEFAULT_SOURCES } from "./config.js";
 
 const KEY_SOURCES  = "wire.sources";
 const KEY_SETTINGS = "wire.settings";
+const KEY_REMOVED  = "wire.removed";
 const DOC_PATH     = "wire/user";
 
 /* The app was called Balita until 0.5.0. Anyone who used it before
@@ -93,18 +94,8 @@ async function cloudWrite(patch){
 
 /* ---------------- sources ---------------- */
 
-export async function loadSources(){
-  const cloud = await cloudRead();
-  if(cloud && Array.isArray(cloud.sources) && cloud.sources.length){
-    localWrite(KEY_SOURCES, cloud.sources);   /* keep an offline copy */
-    return cloud.sources;
-  }
-
-  const local = localRead(KEY_SOURCES);
-  if(Array.isArray(local) && local.length) return local;
-
-  /* First run. sources.json is the list the fetcher works from, so
-     starting there means the app and the fetcher agree. */
+/* The list the fetcher actually works from. */
+async function fetchStandard(){
   try{
     const res = await fetch("sources.json", { cache: "no-cache" });
     if(res.ok){
@@ -112,15 +103,87 @@ export async function loadSources(){
       if(Array.isArray(list) && list.length) return list;
     }
   }catch(err){
-    /* fall through to the built-in list */
+    /* offline, or the file is missing */
+  }
+  return DEFAULT_SOURCES.map(s => ({ ...s }));
+}
+
+/* Bring the saved list up to date with the standard one.
+
+   Until 0.7.0 the saved list simply won over sources.json, so a feed
+   added there — or an address corrected there — never reached a
+   device that had already run once. CNN sat switched off for exactly
+   this reason.
+
+   The rules: an outlet you have keeps your on/off choice but takes
+   the current address and name. An outlet you do not have is added.
+   An outlet you deliberately removed stays removed. Anything you
+   added yourself is left alone. */
+function merge(saved, standard, removed){
+  const out = saved.map(s => ({ ...s }));
+  const byId = new Map(out.map(s => [s.id, s]));
+
+  for(const std of standard){
+    const mine = byId.get(std.id);
+    if(mine){
+      mine.name  = std.name;
+      mine.tag   = std.tag;
+      mine.url   = std.url;
+      mine.color = std.color;
+      continue;
+    }
+    if(removed.includes(std.id)) continue;
+    out.push({ ...std });
   }
 
-  return DEFAULT_SOURCES.map(s => ({ ...s }));
+  return out;
+}
+
+export async function loadSources(){
+  const standard = await fetchStandard();
+  const removed  = localRead(KEY_REMOVED) || [];
+
+  const cloud = await cloudRead();
+  if(cloud && Array.isArray(cloud.sources) && cloud.sources.length){
+    const merged = merge(cloud.sources, standard, removed);
+    localWrite(KEY_SOURCES, merged);
+    return merged;
+  }
+
+  const local = localRead(KEY_SOURCES);
+  if(Array.isArray(local) && local.length){
+    return merge(local, standard, removed);
+  }
+
+  return standard.map(s => ({ ...s }));
 }
 
 export async function saveSources(sources){
   localWrite(KEY_SOURCES, sources);
   await cloudWrite({ sources });
+}
+
+/* Remembering what was removed is what stops a merge putting it
+   straight back on the next load. */
+export function markRemoved(id){
+  const list = localRead(KEY_REMOVED) || [];
+  if(!list.includes(id)){
+    list.push(id);
+    localWrite(KEY_REMOVED, list);
+  }
+}
+
+export function unmarkRemoved(id){
+  const list = (localRead(KEY_REMOVED) || []).filter(x => x !== id);
+  localWrite(KEY_REMOVED, list);
+}
+
+/* Back to the list the fetcher works from, everything switched on. */
+export async function restoreStandard(){
+  localWrite(KEY_REMOVED, []);
+  const standard = (await fetchStandard()).map(s => ({ ...s, on: true }));
+  await saveSources(standard);
+  return standard;
 }
 
 /* ---------------- settings ---------------- */

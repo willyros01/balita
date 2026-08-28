@@ -10,7 +10,7 @@
    what makes phones pick up a new build.
    ============================================================ */
 
-const VERSION = "wire-v0.5.0";
+const VERSION = "wire-v0.7.0";
 const SHELL = [
   "./",
   "./index.html",
@@ -55,9 +55,14 @@ self.addEventListener("fetch", event => {
 
   const url = new URL(req.url);
 
-  /* Stories: always try the network first so the feed is current,
-     but keep the last good copy for when there is no signal. */
-  if(url.pathname.endsWith("articles.json")){
+  /* Stories and the source list: try the network first so both stay
+     current, keeping the last good copy for when there is no signal.
+
+     The source list was cached like the shell until 0.7.0, which meant
+     a feed added to sources.json never reached a device that had
+     already loaded once. It is data, not shell. */
+  if(url.pathname.endsWith("articles.json") ||
+     url.pathname.endsWith("sources.json")){
     event.respondWith(
       fetch(req)
         .then(res => {

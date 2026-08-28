@@ -8,26 +8,28 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.5.0**
+**0.7.0** — the source list, fixed properly.
 
-- **Renamed from Balita to Wire.** The app reads BBC, CBC and CNN as
-  readily as Inquirer, and the old name said otherwise. Settings saved
-  under the old name are carried across automatically.
-- **A real icon.** The story card reduced to its bones: the spine bar that
-  runs beside every headline, and the lines of text next to it.
-  Monochrome, so it looks right in either mode.
-- **Stories that arrive incomplete now say so.** A blocked story explains
-  that the outlet refuses the fetcher, and offers a large button to the
-  original — with a plain warning that their site carries advertising. The
-  list flags them too, so you know before tapping.
-- **Unreachable outlets cost seconds, not minutes.** Feed discovery was
-  retrying each of eight guessed addresses three times over. Last run spent
-  380 of its 391 seconds on two outlets that were never going to answer.
-- **The log tells the truth.** A counting mistake printed NaN and hid two
-  sources entirely. It also now distinguishes a timeout from an outright
-  refusal, which want different responses.
-- **CNN switched on.** It shipped disabled by mistake, which is why it
-  never appeared in any run.
+- **A feed added to `sources.json` now reaches devices that have already
+  run.** The saved list used to win outright, so CNN — switched on in the
+  file — stayed invisible on any phone that had loaded before. The two are
+  merged on every load: an outlet you have keeps your on/off choice but
+  takes the current address, one you do not have is added, one you removed
+  on purpose stays removed, and anything you added yourself is untouched.
+- **`sources.json` is no longer cached like the shell.** It was being served
+  cache-first, so a device never even asked for a newer copy. It is data,
+  and now behaves like the stories do.
+- **Removing a source asks first.** The cross sat against the on/off toggle
+  and removed an outlet outright on one tap. It now asks, and gives you five
+  seconds to change your mind before disarming.
+- **Undo after a removal**, for as long as the Sources screen stays open.
+- **"Restore the standard list"** at the bottom of that screen. Every outlet
+  the fetcher works from, switched on — so the answer to a mess is never
+  "go into Safari's settings and clear website data".
+
+Includes 0.6.0: advertising interruptions filtered out, runs exiting when
+the work is done rather than idling for six minutes, and the log naming why
+a source fell back to summaries.
 
 
 ## What each file does

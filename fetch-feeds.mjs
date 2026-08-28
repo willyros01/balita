@@ -17,7 +17,7 @@ import { get, pool } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.5.0";
+const VERSION = "0.6.0";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -28,7 +28,7 @@ const FETCH_BUDGET   = 120;   /* article pages to open in one run */
 const FEED_PARALLEL  = 5;
 const PAGE_PARALLEL  = 8;
 const PAGE_TIMEOUT   = 8000;  /* a page silent this long will not answer */
-const PAGE_RETRIES   = 0;
+const PAGE_RETRIES   = 1;   /* one second chance; cheap now that pages are quick */
 
 /* ---------------- feed parsing ---------------- */
 
@@ -256,15 +256,17 @@ async function readArticle(item, source){
     };
   }
 
-  let page;
+  let page, pageError = "";
   try{
     page = await get(item.link, {
       accept: "text/html,application/xhtml+xml",
       timeout: PAGE_TIMEOUT,
       retries: PAGE_RETRIES
     });
+    if(page.status >= 400) pageError = "HTTP " + page.status;
   }catch(err){
     page = null;
+    pageError = (err && err.message) || "no response";
   }
 
   const out = (page && page.status < 400 && page.body)
@@ -298,7 +300,11 @@ async function readArticle(item, source){
     };
   }
 
-  return { ...base, blocks: fallback, truncated: true, source_of_text: "summary" };
+  return {
+    ...base, blocks: fallback, truncated: true,
+    source_of_text: "summary",
+    why: pageError || "nothing could be extracted"
+  };
 }
 
 /* ---------------- the run ---------------- */
@@ -411,7 +417,22 @@ async function main(){
         "(page " + page + ", feed " + feedT + ", summary only " + only +
         ", reused " + old + ")");
     }
-    console.log("  fetching took " + Math.round((Date.now() - started2) / 1000) + "s\n");
+    console.log("  fetching took " + Math.round((Date.now() - started2) / 1000) + "s");
+
+    /* When a source falls back a lot, name the reason. Otherwise the
+       only signal is a number, and a number does not suggest a fix. */
+    const reasons = new Map();
+    fresh.filter(a => a.source_of_text === "summary" && a.why).forEach(a => {
+      const key = a.source + " \u2014 " + a.why;
+      reasons.set(key, (reasons.get(key) || 0) + 1);
+    });
+    if(reasons.size){
+      console.log("\n  Why stories fell back to the summary:");
+      for(const [key, n] of [...reasons].sort((x, y) => y[1] - x[1])){
+        console.log("    " + String(n).padStart(3) + "  " + key);
+      }
+    }
+    console.log("");
   }
 
   /* ---------------- assemble ---------------- */
@@ -468,7 +489,14 @@ async function main(){
   }
 }
 
-main().catch(err => {
-  console.error("Fetcher failed:", err);
-  process.exit(1);
-});
+/* The work finishes in well under a minute, but the process used to
+   sit there for another six. Parsing a hundred pages leaves enough
+   behind that the event loop never drains on its own. Everything we
+   care about is already written to disk by this point, so say so and
+   go rather than waiting to be told. */
+main()
+  .then(() => process.exit(0))
+  .catch(err => {
+    console.error("Fetcher failed:", err);
+    process.exit(1);
+  });

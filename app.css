@@ -312,14 +312,63 @@ html[data-contrast="high"] .sname small{ color: var(--ink); }
 .toggle[aria-pressed="true"]{
   background: var(--accent); border-color: var(--accent); color: var(--on-accent);
 }
+/* Kept clear of the on/off toggle, because they do very different
+   things and used to sit shoulder to shoulder. */
 .remove{
   font: inherit; font-size: 1.1em;
   min-width: 2.5rem; min-height: 2.5rem;
+  margin-left: 0.4rem;
   background: transparent; color: var(--muted);
   border: var(--rule-w) solid transparent; border-radius: var(--radius);
-  cursor: pointer;
+  cursor: pointer; white-space: nowrap;
 }
 .remove:hover{ border-color: var(--rule); color: var(--ink); }
+
+/* Armed, waiting for the second tap. */
+.remove-armed{
+  font-size: 0.78em; font-weight: 700;
+  padding: 0 0.6rem;
+  color: var(--surface);
+  background: #B4342B;
+  border-color: #B4342B;
+}
+html[data-contrast="high"] .remove-armed{
+  background: var(--ink); border-color: var(--ink); color: var(--surface);
+}
+
+/* ---------------- undo ---------------- */
+.undo{
+  display: flex; align-items: center; gap: 0.75rem;
+  margin: 0 0 1rem;
+  padding: 0.7rem 0.8rem;
+  background: var(--shade);
+  border: var(--rule-w) solid var(--rule);
+  border-left: var(--spine-w) solid var(--accent);
+  border-radius: var(--radius);
+  font-size: 0.88em;
+}
+.undo span{ flex: 1; min-width: 0; }
+.undo-btn{
+  font: inherit; font-size: 0.95em; font-weight: 700;
+  min-height: 2.5rem; padding: 0 0.9rem;
+  background: var(--accent); color: var(--on-accent);
+  border: var(--rule-w) solid var(--accent);
+  border-radius: var(--radius); cursor: pointer;
+}
+
+/* ---------------- restore ---------------- */
+.reset-row{
+  margin-top: 2rem; padding-top: 1.2rem;
+  border-top: var(--rule-w) solid var(--rule);
+}
+.reset-btn{
+  font: inherit; font-size: 0.9em; font-weight: 700;
+  width: 100%; min-height: var(--tap); padding: 0 1rem;
+  background: transparent; color: var(--ink);
+  border: var(--rule-w) solid var(--rule);
+  border-radius: var(--radius); cursor: pointer;
+}
+.reset-btn:hover{ background: var(--shade); }
 
 .addbox{
   background: var(--surface); border: var(--rule-w) solid var(--rule);

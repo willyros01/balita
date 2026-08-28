@@ -32,12 +32,12 @@ function tidyUrl(raw){
   }
 }
 
-async function commit(ctx){
+async function commit(ctx, undo){
   await saveSources(ctx.state.sources);
-  render(ctx);
+  render(ctx, undo);
 }
 
-export function render(ctx){
+export function render(ctx, undo){
   const el = document.getElementById("manage");
   el.innerHTML = "";
 
@@ -106,11 +106,40 @@ export function render(ctx){
     rm.className = "remove";
     rm.innerHTML = '<span aria-hidden="true">\u2715</span>';
     rm.setAttribute("aria-label", "Remove " + s.name);
+    /* Removing is not something a stray tap should manage. The first
+       press asks, the second does it. Sitting beside the on/off
+       toggle, an unguarded cross was far too easy to hit — more so at
+       the larger text sizes, where everything sits closer together. */
+    let asking = false;
+    let askTimer = null;
+
+    const rest = () => {
+      asking = false;
+      window.clearTimeout(askTimer);
+      rm.classList.remove("remove-armed");
+      rm.innerHTML = '<span aria-hidden="true">\u2715</span>';
+      rm.setAttribute("aria-label", "Remove " + s.name);
+    };
+
     rm.addEventListener("click", () => {
+      if(!asking){
+        asking = true;
+        rm.classList.add("remove-armed");
+        rm.textContent = "Remove?";
+        rm.setAttribute("aria-label", "Confirm removing " + s.name);
+        ctx.announce("Tap again to remove " + s.name);
+        askTimer = window.setTimeout(rest, 5000);
+        return;
+      }
+
+      rest();
+      const gone = { ...s };
+      const at = ctx.state.sources.findIndex(x => x.id === s.id);
       ctx.state.sources = ctx.state.sources.filter(x => x.id !== s.id);
       if(ctx.state.filter === s.id) ctx.state.filter = "ALL";
-      ctx.announce(s.name + " removed");
-      commit(ctx);
+      markRemoved(s.id);
+      ctx.announce(gone.name + " removed");
+      commit(ctx, { source: gone, at });
     });
 
     li.append(name, tog, rm);
@@ -220,7 +249,73 @@ export function render(ctx){
     pres.append(ph, wrap);
   }
 
-  el.append(back, title, help, warn, list, box, pres);
+  /* A way back from the last removal, for as long as the screen
+     stays open. Confirmation catches the stray tap; this catches
+     the deliberate one that turns out to be a mistake. */
+  let undoBar = null;
+  if(undo && undo.source){
+    undoBar = document.createElement("div");
+    undoBar.className = "undo";
+
+    const said = document.createElement("span");
+    said.textContent = undo.source.name + " removed.";
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "undo-btn";
+    btn.textContent = "Undo";
+    btn.addEventListener("click", () => {
+      unmarkRemoved(undo.source.id);
+      const at = Math.max(0, Math.min(undo.at, ctx.state.sources.length));
+      ctx.state.sources.splice(at, 0, undo.source);
+      ctx.announce(undo.source.name + " restored");
+      commit(ctx);
+    });
+
+    undoBar.append(said, btn);
+  }
+
+  /* The way out of any mess, without going near Safari's settings. */
+  const reset = document.createElement("div");
+  reset.className = "reset-row";
+
+  const resetBtn = document.createElement("button");
+  resetBtn.type = "button";
+  resetBtn.className = "reset-btn";
+  resetBtn.textContent = "Restore the standard list";
+
+  let resetAsking = false;
+  resetBtn.addEventListener("click", async () => {
+    if(!resetAsking){
+      resetAsking = true;
+      resetBtn.textContent = "Tap again to confirm";
+      resetBtn.classList.add("remove-armed");
+      ctx.announce("Tap again to restore the standard list");
+      window.setTimeout(() => {
+        resetAsking = false;
+        resetBtn.textContent = "Restore the standard list";
+        resetBtn.classList.remove("remove-armed");
+      }, 5000);
+      return;
+    }
+    ctx.state.sources = await restoreStandard();
+    ctx.state.filter = "ALL";
+    ctx.announce("Standard list restored");
+    render(ctx);
+  });
+
+  const resetWhy = document.createElement("p");
+  resetWhy.className = "mhelp";
+  resetWhy.style.margin = "0.5rem 0 0";
+  resetWhy.textContent = "Puts back every outlet the fetcher works from, " +
+    "switched on. Sources you added yourself are dropped.";
+
+  reset.append(resetBtn, resetWhy);
+
+  const parts = [back, title, help, warn];
+  if(undoBar) parts.push(undoBar);
+  parts.push(list, box, pres, reset);
+  el.append(...parts);
 }
 
 export function show(ctx){
