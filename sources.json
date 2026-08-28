@@ -8,6 +8,22 @@
     "on": true
   },
   {
+    "id": "inqn",
+    "tag": "INQN",
+    "name": "Inquirer News",
+    "url": "https://newsinfo.inquirer.net/feed",
+    "color": "#C2382F",
+    "on": true
+  },
+  {
+    "id": "inqg",
+    "tag": "INQG",
+    "name": "Inquirer Global",
+    "url": "https://globalnation.inquirer.net/feed",
+    "color": "#A8443C",
+    "on": true
+  },
+  {
     "id": "star",
     "tag": "STAR",
     "name": "Philstar",

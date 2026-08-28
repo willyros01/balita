@@ -4,7 +4,7 @@
 
 /* Shown at the bottom of the app, so you can always tell what is
    running on a given phone. Bump both when you cut a new version. */
-export const VERSION    = "0.8.1";
+export const VERSION    = "0.9.0";
 export const BUILD_DATE = "2026-08-27";
 
 /* Where the fetcher writes its output. Relative, so it works
@@ -45,6 +45,8 @@ export const MAX_STEP = SCALE.length - 1;
    storage and is edited from the Sources screen, not here. */
 export const DEFAULT_SOURCES = [
   { id:"inq",  tag:"INQ",  name:"Inquirer",        url:"https://www.inquirer.net/fullfeed",                 color:"#C2382F", on:true },
+  { id:"inqn", tag:"INQN", name:"Inquirer News",   url:"https://newsinfo.inquirer.net/feed",     color:"#C2382F", on:true },
+  { id:"inqg", tag:"INQG", name:"Inquirer Global", url:"https://globalnation.inquirer.net/feed", color:"#A8443C", on:true },
   { id:"star", tag:"STAR", name:"Philstar",        url:"https://www.philstar.com/rss/headlines",            color:"#1F5FA9", on:true },
   { id:"abs",  tag:"ABS",  name:"ABS-CBN",         url:"https://www.abs-cbn.com/news",                      color:"#D48310", on:true },
   { id:"rap",  tag:"RAP",  name:"Rappler",         url:"https://www.rappler.com/feed/",                     color:"#7B4BA8", on:true },

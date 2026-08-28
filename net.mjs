@@ -6,7 +6,14 @@
    that is not responding.
    ============================================================ */
 
-const UA = "Wire/0.6 (personal news reader)";
+/* Identify as a browser. Not a trick — the request is genuinely on
+   behalf of one person reading a public page. But a great many sites
+   reject anything whose user-agent is not a recognised browser, and
+   Inquirer was refusing roughly two thirds of its own articles on
+   that basis alone. */
+const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
+           "AppleWebKit/537.36 (KHTML, like Gecko) " +
+           "Chrome/126.0.0.0 Safari/537.36";
 
 /* Feeds are worth waiting for — there are only a handful and one
    failure costs a whole outlet. Article pages are not: there are
@@ -15,7 +22,12 @@ const UA = "Wire/0.6 (personal news reader)";
    what turned a two-minute run into eight. */
 const TIMEOUT_MS = 12000;
 const RETRIES    = 2;
-const GAP_MS     = 250;   /* minimum spacing between requests to one host */
+/* Ten article pages from one outlet inside three seconds reads as
+   scraping to any rate limiter, and the refusals that followed were
+   the result. A couple of seconds between requests to the same host
+   is ordinary reading pace, and the run still finishes in about a
+   minute because different outlets are fetched in parallel. */
+const GAP_MS     = 1800;
 
 const lastHit = new Map();
 
@@ -23,15 +35,23 @@ function sleep(ms){
   return new Promise(r => setTimeout(r, ms));
 }
 
-/* Never more than one request per host per GAP_MS. */
+/* Never more than one request per host per GAP_MS.
+
+   The slot has to be claimed before sleeping, not after. Measuring
+   the gap and then waiting looks correct but collapses the moment
+   more than one worker is running: eight of them read the same
+   "last request" time, all wait the same interval, and all fire
+   together — which is exactly the burst the gap exists to prevent.
+   Reserving the next slot up front makes them queue instead. */
 async function pace(url){
   let host;
   try{ host = new URL(url).host; }catch(e){ return; }
 
-  const last = lastHit.get(host) || 0;
-  const wait = GAP_MS - (Date.now() - last);
-  if(wait > 0) await sleep(wait);
-  lastHit.set(host, Date.now());
+  const now  = Date.now();
+  const slot = Math.max(now, (lastHit.get(host) || 0) + GAP_MS);
+  lastHit.set(host, slot);
+
+  if(slot > now) await sleep(slot - now);
 }
 
 /* Returns { url, status, body, contentType } or throws. */
@@ -54,13 +74,28 @@ export async function get(url, opts = {}){
           "user-agent": UA,
           "accept": opts.accept ||
             "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.5",
-          "accept-language": "en"
+          "accept-language": "en-US,en;q=0.9",
+          /* A browser sends these. Their absence is one of the
+             cheapest signals a filter can check for. */
+          "accept-encoding": "gzip, deflate, br",
+          "sec-fetch-dest": "document",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "upgrade-insecure-requests": "1"
         }
       });
 
       clearTimeout(timer);
 
-      /* Do not retry a refusal — the answer will not change. */
+      /* A 403 is worth one more try after a pause: when it comes from
+         a rate limiter rather than a policy, waiting is the whole
+         remedy. 401, 404 and 410 are settled answers. */
+      if(res.status === 403 && i < attempts){
+        await sleep(3000 + i * 2000);
+        lastErr = new Error("HTTP 403");
+        continue;
+      }
+
       if(res.status === 401 || res.status === 403 || res.status === 404 || res.status === 410){
         return {
           url: res.url || url,

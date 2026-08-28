@@ -98,6 +98,14 @@ CBC, CNN.
 `abs-cbn.com/feed`. It moved off `news.abs-cbn.com` and the old address is
 dead.
 
+**Inquirer's 403s were self-inflicted** (fixed in 0.9.0). The fetcher
+announced itself as `Wire/0.6` and allowed only 250ms between requests to
+one host — twenty article pages in five seconds. Inquirer's rate limiter
+refused about two thirds of them. It now identifies as a browser, waits
+1.8s between requests to the same outlet, and retries a 403 once after a
+pause. Note the pacing had a race: measuring the gap and then sleeping lets
+every parallel worker fire at once, so the slot is reserved before sleeping.
+
 **Inquirer is the problem child.** Roughly two thirds of its article pages
 refuse the fetcher, so those stories fall back to headline and summary.
 Their `fullfeed` also carries several real paragraphs and then stops, which
@@ -107,6 +115,20 @@ number to work from.
 
 Nothing was ever actually blocking the fetcher. The outlets that looked
 blocked were timing out inside slow feed discovery.
+
+**CNN was dropped.** `rss.cnn.com` still answers and is genuinely CNN's,
+but its newest item is April 2023 — abandoned, not hijacked. No verified
+current address exists, and CNN blocks automated access, so one cannot be
+tested from here.
+
+**GMA's main news feed stopped updating on 8 August.** Their Nation feed on
+the same server is current to the minute. Their other section feeds are
+listed at gmanetwork.com/news/rss and are worth trying if Nation ever goes
+the same way.
+
+**Verify a feed before adding it.** Two of the nine were serving stale or
+dead content while looking perfectly healthy in the log. Opening the
+address in a browser and checking the dates takes ten seconds.
 
 ---
 
@@ -132,6 +154,8 @@ rightly called out. If a diagnosis needs a fact, ask for the one fact.
 | 0.6.0 | Advertising interruptions filtered; runs exit instead of idling six minutes |
 | 0.7.0 | Source list merged rather than overwritten; `sources.json` no longer cached as shell |
 | 0.8.0 | Visible feedback; real confirm dialogs; sources matched by address; caps removed; external trigger |
+| 0.8.2 | Feed entries found wherever a publisher puts them; CNN dropped as abandoned; GMA moved to its live Nation feed; The Guardian added |
+| 0.9.0 | Browser user-agent and proper per-host pacing, fixing Inquirer's 403s; Inquirer news and global sections added |
 
 ---
 

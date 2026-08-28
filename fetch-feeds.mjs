@@ -17,7 +17,7 @@ import { get, pool } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.8.2";
+const VERSION = "0.9.0";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -33,7 +33,7 @@ const ARTICLES_FILE = "articles.json";
 const PER_SOURCE     = 200;
 const FETCH_BUDGET   = 250;   /* article pages to open in one run */
 const FEED_PARALLEL  = 5;
-const PAGE_PARALLEL  = 8;
+const PAGE_PARALLEL  = 10;  /* pacing is per host, so this is fine */
 const PAGE_TIMEOUT   = 8000;  /* a page silent this long will not answer */
 const PAGE_RETRIES   = 1;   /* one second chance; cheap now that pages are quick */
 
