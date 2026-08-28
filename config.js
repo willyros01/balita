@@ -4,7 +4,7 @@
 
 /* Shown at the bottom of the app, so you can always tell what is
    running on a given phone. Bump both when you cut a new version. */
-export const VERSION    = "0.8.0";
+export const VERSION    = "0.8.1";
 export const BUILD_DATE = "2026-08-27";
 
 /* Where the fetcher writes its output. Relative, so it works
@@ -48,18 +48,17 @@ export const DEFAULT_SOURCES = [
   { id:"star", tag:"STAR", name:"Philstar",        url:"https://www.philstar.com/rss/headlines",            color:"#1F5FA9", on:true },
   { id:"abs",  tag:"ABS",  name:"ABS-CBN",         url:"https://www.abs-cbn.com/news",                      color:"#D48310", on:true },
   { id:"rap",  tag:"RAP",  name:"Rappler",         url:"https://www.rappler.com/feed/",                     color:"#7B4BA8", on:true },
-  { id:"gma",  tag:"GMA",  name:"GMA News",        url:"https://data.gmanetwork.com/gno/rss/news/feed.xml", color:"#1B7A5A", on:true },
+  { id:"gma",  tag:"GMA",  name:"GMA News",        url:"https://data.gmanetwork.com/gno/rss/news/nation/feed.xml", color:"#1B7A5A", on:true },
   { id:"mb",   tag:"MB",   name:"Manila Bulletin", url:"https://mb.com.ph/feed",                            color:"#4A5560", on:true },
   { id:"bbc",  tag:"BBC",  name:"BBC World",       url:"https://feeds.bbci.co.uk/news/world/rss.xml",       color:"#8C1D2F", on:true },
   { id:"cbc",  tag:"CBC",  name:"CBC Top Stories", url:"https://rss.cbc.ca/lineup/topstories.xml",     color:"#B03A2E", on:true },
-  { id:"cnn",  tag:"CNN",  name:"CNN World",       url:"http://rss.cnn.com/rss/edition_world.rss",          color:"#94402C", on:true }
+  { id:"grd",  tag:"GRD",  name:"The Guardian",    url:"https://www.theguardian.com/world/rss",        color:"#1D5C96", on:true }
 ];
 
 /* Offered on the Sources screen as one-tap additions. */
 export const PRESETS = [
   { tag:"AJE",  name:"Al Jazeera",     url:"https://www.aljazeera.com/xml/rss/all.xml",      color:"#B8891F" },
   { tag:"NPR",  name:"NPR News",       url:"https://feeds.npr.org/1001/rss.xml",             color:"#3B6EA5" },
-  { tag:"GRD",  name:"The Guardian",   url:"https://www.theguardian.com/world/rss",          color:"#1D5C96" },
   { tag:"SCMP", name:"South China MP", url:"https://www.scmp.com/rss/91/feed",               color:"#9C6B2E" },
   { tag:"NHK",  name:"NHK World",      url:"https://www3.nhk.or.jp/nhkworld/en/news/feeds/", color:"#2E7D7D" },
   { tag:"STT",  name:"Straits Times",  url:"https://www.straitstimes.com/news/world/rss.xml", color:"#2F6B4F" }

@@ -35,7 +35,7 @@
     "id": "gma",
     "tag": "GMA",
     "name": "GMA News",
-    "url": "https://data.gmanetwork.com/gno/rss/news/feed.xml",
+    "url": "https://data.gmanetwork.com/gno/rss/news/nation/feed.xml",
     "color": "#1B7A5A",
     "on": true
   },
@@ -64,11 +64,11 @@
     "on": true
   },
   {
-    "id": "cnn",
-    "tag": "CNN",
-    "name": "CNN World",
-    "url": "http://rss.cnn.com/rss/edition_world.rss",
-    "color": "#94402C",
+    "id": "grd",
+    "tag": "GRD",
+    "name": "The Guardian",
+    "url": "https://www.theguardian.com/world/rss",
+    "color": "#1D5C96",
     "on": true
   }
 ]
