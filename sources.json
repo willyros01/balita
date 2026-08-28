@@ -13,7 +13,8 @@
     "name": "Inquirer News",
     "url": "https://newsinfo.inquirer.net/feed",
     "color": "#C2382F",
-    "on": true
+    "on": true,
+    "feedOnly": true
   },
   {
     "id": "inqg",

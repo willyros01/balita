@@ -13,11 +13,11 @@
 
 import { readFile, writeFile } from "node:fs/promises";
 import { XMLParser } from "fast-xml-parser";
-import { get, pool, warmUp } from "./net.mjs";
+import { get, pool } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.9.2";
+const VERSION = "0.9.3";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -369,6 +369,30 @@ async function readArticle(item, source){
 
   const fallback = [{ type: "p", text: stripTags(item.summary) }].filter(b => b.text);
 
+  /* Some outlets refuse every article page no matter how the request
+     is shaped. Asking anyway wastes a minute a run and pesters them
+     for nothing. Marked feedOnly in sources.json, they are taken at
+     what the feed gives — which the app labels plainly as headline
+     only, with a button through to the original. */
+  if(source.feedOnly){
+    const inlineOnly = fromFeedContent(item.full, item.link);
+    if(inlineOnly && inlineOnly.blocks.length){
+      return {
+        ...base,
+        blocks: inlineOnly.blocks,
+        image: base.image || inlineOnly.image,
+        byline: base.byline || inlineOnly.byline,
+        truncated: inlineOnly.truncated,
+        source_of_text: "feed"
+      };
+    }
+    return {
+      ...base, blocks: fallback, truncated: true,
+      source_of_text: "summary",
+      why: "headline only by design \u2014 this outlet blocks article pages"
+    };
+  }
+
   /* What the feed itself gave us, if anything usable. */
   const inline = fromFeedContent(item.full, item.link);
 
@@ -387,25 +411,17 @@ async function readArticle(item, source){
     };
   }
 
-  /* Arrive the way a reader would: having visited the site, and
-     from a page that links to this one. */
-  await warmUp(item.link);
-
-  let referer = "";
-  try{
-    const u = new URL(item.link);
-    /* the section the article sits in, or the front page */
-    const parts = u.pathname.split("/").filter(Boolean);
-    referer = parts.length > 1 ? u.origin + "/" + parts[0] + "/" : u.origin + "/";
-  }catch(e){}
+  /* A warm-up visit, a referrer and a session cookie were tried in
+     0.9.2 to get past newsinfo's refusals. They did not help there,
+     and they cost ABS-CBN a third of its articles — it had been
+     fetching every one. Removed: the plain request works better. */
 
   let page, pageError = "";
   try{
     page = await get(item.link, {
       accept: "text/html,application/xhtml+xml",
       timeout: PAGE_TIMEOUT,
-      retries: PAGE_RETRIES,
-      referer
+      retries: PAGE_RETRIES
     });
     if(page.status >= 400) pageError = "HTTP " + page.status;
   }catch(err){

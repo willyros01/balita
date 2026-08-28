@@ -11,7 +11,16 @@
    trip to the phone.
    ============================================================ */
 
-import { JSDOM } from "jsdom";
+import { JSDOM, VirtualConsole } from "jsdom";
+
+/* jsdom writes a full stack trace whenever a page carries CSS it
+   cannot parse, which on news sites is most of them. Hundreds of
+   them buried the summary and made a healthy run look broken.
+   Nothing here depends on stylesheets, so it is safe to say
+   nothing. Real errors still surface, because they come back as
+   thrown exceptions rather than console output. */
+const quiet = new VirtualConsole();
+quiet.on("jsdomError", () => {});
 import { Readability } from "@mozilla/readability";
 
 /* Blocks the app can draw. Anything else is dropped. */
@@ -259,7 +268,7 @@ export function fromHtml(html, url){
 
   let dom;
   try{
-    dom = new JSDOM(html, { url });
+    dom = new JSDOM(html, { url, virtualConsole: quiet });
   }catch(err){
     return empty;
   }
@@ -269,7 +278,12 @@ export function fromHtml(html, url){
   /* Take the lead picture before Readability prunes the head. */
   const lead = leadImage(doc, url);
   const rawText = doc.body ? doc.body.textContent : "";
-  const walled = PAYWALL.some(re => re.test(rawText));
+
+  /* A subscription pitch in the footer is not a paywall. Requiring
+     the phrase AND a thin article stops complete stories being
+     marked cut short because the site sells subscriptions at the
+     bottom of every page. */
+  const pitch = PAYWALL.some(re => re.test(rawText));
 
   /* Readability offers isProbablyReaderable as a quick pre-check.
      It says no to plenty of honest articles — short ones, unusual
@@ -284,7 +298,7 @@ export function fromHtml(html, url){
 
   if(!article || !article.content){
     try{ dom.window.close(); }catch(e){}
-    return { ...empty, image: lead, truncated: walled };
+    return { ...empty, image: lead, truncated: true };
   }
 
   /* The close has to be in a finally. Left inside the try, any error
@@ -293,7 +307,7 @@ export function fromHtml(html, url){
   let blocks = [];
   let frag = null;
   try{
-    frag = new JSDOM("<body>" + article.content + "</body>", { url });
+    frag = new JSDOM("<body>" + article.content + "</body>", { url, virtualConsole: quiet });
     blocks = toBlocks(frag.window.document.body, url);
   }catch(err){
     blocks = [];
@@ -332,7 +346,7 @@ export function fromHtml(html, url){
        on stories that were complete. A paywall notice in the page is
        real evidence; shortness is not. The threshold that remains
        only catches pages where extraction found almost nothing. */
-    truncated: walled || words < 20
+    truncated: (pitch && words < 200) || words < 20
   };
 }
 
@@ -343,7 +357,7 @@ export function fromFeedContent(html, url){
 
   let frag = null;
   try{
-    frag = new JSDOM("<body>" + html + "</body>", { url });
+    frag = new JSDOM("<body>" + html + "</body>", { url, virtualConsole: quiet });
     const blocks = toBlocks(frag.window.document.body, url);
 
     const words = blocks

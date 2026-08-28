@@ -35,7 +35,9 @@ const lastHit = new Map();
    everything at 1.8s while globalnation, on the same publisher's
    infrastructure, is perfectly happy. */
 const HOST_GAP = {
-  "newsinfo.inquirer.net": 6000
+  /* newsinfo refuses every article page whatever the pacing — six
+     seconds made no difference at all, and cost four minutes a run.
+     Left at the ordinary rate; it is kept for its headlines. */
 };
 
 /* Cookies, kept per host for the life of a run.

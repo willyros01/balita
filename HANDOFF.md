@@ -5,6 +5,20 @@ memory. Keep it in the repository and in every zip.
 
 ---
 
+## Standing instruction for every build
+
+Ship **one complete `wire-vX.Y.Z.zip`**, not a partial set of changed
+files. Partial uploads have caused real confusion — twice a dropped file
+led to hours chasing a bug that did not exist. The whole app is under
+200kB; there is no reason to economise.
+
+Always include **UPLOAD.md** in the zip. It is the step-by-step the owner
+follows: unzip, upload everything, run the fetch, check the app. Say plainly
+in the reply whether `feeds.yml` changed, since that one file lives in
+`.github/workflows/` and a root upload cannot reach it.
+
+Never put `articles.json` in a zip. It would overwrite real news.
+
 ## What this is
 
 **Wire** — a small web app that reads news feeds, strips out the
@@ -159,12 +173,27 @@ rightly called out. If a diagnosis needs a fact, ask for the one fact.
 
 ---
 
-## The newsinfo attempt (0.9.1)
+## newsinfo: settled (0.9.3)
 
-All four ideas below were implemented. If newsinfo still returns 403 after
-this, it is refusing GitHub's address range rather than the request's shape,
-and no amount of header work will change that — take option 4 and keep it as
-headline-and-summary.
+**It refuses GitHub's address range, not the shape of the request.** Every
+idea below was tried together and newsinfo returned 403 on all 35 article
+pages regardless — including at six seconds between requests.
+
+Worse, the warm-up visit, referrer and session cookie *broke ABS-CBN*,
+which had been fetching 100 of 100 from the page and dropped to 33 refusals.
+All three were removed in 0.9.3. The browser user-agent and 1.8s pacing from
+0.9.0 are the parts that helped and they stay.
+
+newsinfo is now marked `feedOnly` in sources.json: the fetcher takes what
+the feed gives and does not ask for the page. Its descriptions run to about
+sixty words with a photograph, and the app labels these "Headline only" with
+a button through to the original. Do not spend more time on this unless the
+fetcher moves off GitHub's runners.
+
+**The lesson: change one thing at a time.** Four changes shipped together
+fixed nothing and broke something that worked.
+
+### What was tried
 
 - A `referer` naming the article's own section page.
 - 6 seconds between requests to that host alone, via `HOST_GAP` in
