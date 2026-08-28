@@ -13,11 +13,11 @@
 
 import { readFile, writeFile } from "node:fs/promises";
 import { XMLParser } from "fast-xml-parser";
-import { get, pool } from "./net.mjs";
+import { get, pool, doorwayReady, needsDoorway } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.9.3";
+const VERSION = "0.11.0";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -147,9 +147,23 @@ function readFeedLoosely(xml){
       full: pick(block, "content:encoded") || pick(block, "description"),
       byline: pick(block, "dc:creator"),
       section: pick(block, "category"),
+      /* Look everywhere a picture might be. The Guardian and DW both
+         went through this reader and both arrived without images, so
+         the app drew its grey placeholder instead. Media tags first,
+         then any <img> inside the item's own HTML. */
       image: (() => {
-        const m = block.match(/<(?:media:content|media:thumbnail|enclosure)\b[^>]*url\s*=\s*["']([^"']+)["']/i);
-        return m ? { src: m[1], caption: "" } : null;
+        const tag = block.match(/<(?:media:content|media:thumbnail|media:group|enclosure)\b[^>]*url\s*=\s*["']([^"']+)["']/i);
+        if(tag && /^https?:/i.test(tag[1])) return { src: tag[1], caption: "" };
+
+        const img = block.match(/<img\b[^>]*src\s*=\s*["']([^"']+)["']/i);
+        if(img && /^https?:/i.test(img[1])) return { src: img[1], caption: "" };
+
+        /* CDATA hides the HTML from the matches above, so look at the
+           decoded description too. */
+        const esc = block.match(/&lt;img[^&]*src=(?:&quot;|")([^&"']+)/i);
+        if(esc && /^https?:/i.test(esc[1])) return { src: esc[1], caption: "" };
+
+        return null;
       })()
     });
   }
@@ -378,7 +392,9 @@ async function readArticle(item, source){
      for nothing. Marked feedOnly in sources.json, they are taken at
      what the feed gives — which the app labels plainly as headline
      only, with a button through to the original. */
-  if(source.feedOnly){
+  /* feedOnly exists for outlets that refuse the page. If the doorway
+     can reach this one, ask properly instead. */
+  if(source.feedOnly && !needsDoorway(item.link)){
     const inlineOnly = fromFeedContent(item.full, item.link);
     if(inlineOnly && inlineOnly.blocks.length){
       return {
@@ -513,6 +529,9 @@ async function main(){
   const known = new Map(existing.map(a => [a.id, a]));
 
   console.log("Wire fetcher " + VERSION);
+  console.log(doorwayReady()
+    ? "Doorway configured — refused hosts will be fetched through it"
+    : "No doorway configured — refused hosts stay headline-only");
   console.log("Reading " + sources.length + " feeds\n");
 
   const reports = await pool(sources, FEED_PARALLEL, readSource);

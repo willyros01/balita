@@ -31,6 +31,44 @@ const GAP_MS     = 1800;
 
 const lastHit = new Map();
 
+/* ---------------- the doorway ----------------
+
+   Some outlets refuse GitHub's runners outright. newsinfo.inquirer.net
+   returns 403 to every article page from Microsoft's address range,
+   whatever headers or pacing are used — but answers a Cloudflare
+   Worker with a normal 200. Proved by probe on 28 August.
+
+   So those hosts are asked for through the Worker instead. Only the
+   fetch moves; the page is parsed here exactly as any other, by the
+   same extractor. Nothing else changes.
+
+   Both values come from the workflow, and the doorway is simply not
+   used when they are absent — the fetcher carries on as before. */
+const DOOR_URL = process.env.WIRE_DOOR_URL || "";
+const DOOR_KEY = process.env.WIRE_KEY || "";
+
+const THROUGH_THE_DOOR = new Set([
+  "newsinfo.inquirer.net"
+]);
+
+export function doorwayReady(){
+  return Boolean(DOOR_URL && DOOR_KEY);
+}
+
+export function needsDoorway(url){
+  if(!doorwayReady()) return false;
+  try{
+    return THROUGH_THE_DOOR.has(new URL(url).host);
+  }catch(e){
+    return false;
+  }
+}
+
+function doorwayFor(url){
+  const base = DOOR_URL.replace(/\/+$/, "");
+  return base + "/fetch?url=" + encodeURIComponent(url);
+}
+
 /* Some hosts want more room than the general pace. newsinfo refuses
    everything at 1.8s while globalnation, on the same publisher's
    infrastructure, is perfectly happy. */
@@ -129,6 +167,12 @@ export async function get(url, opts = {}){
   const attempts = opts.retries ?? RETRIES;
   let lastErr;
 
+  /* Route through the doorway where the direct request is refused.
+     Pace against the real host, not the Worker, so the outlet still
+     sees a reasonable rate. */
+  const viaDoor = !opts.noDoor && needsDoorway(url);
+  const request = viaDoor ? doorwayFor(url) : url;
+
   for(let i = 0; i <= attempts; i++){
     if(i > 0) await sleep(700 * i);
     await pace(url);
@@ -157,7 +201,9 @@ export async function get(url, opts = {}){
       if(opts.referer) headers["referer"] = opts.referer;
       if(jar.has(host)) headers["cookie"] = jar.get(host);
 
-      const res = await fetch(url, {
+      if(viaDoor) headers["x-wire-key"] = DOOR_KEY;
+
+      const res = await fetch(request, {
         redirect: "follow",
         signal: ctrl.signal,
         headers
@@ -187,10 +233,13 @@ export async function get(url, opts = {}){
       if(!res.ok) throw new Error("HTTP " + res.status);
 
       return {
-        url: res.url || url,
-        status: res.status,
+        /* Report the outlet's own address, not the doorway's, so
+           everything downstream is unaware this happened. */
+        url: res.headers.get("x-wire-final-url") || (viaDoor ? url : (res.url || url)),
+        status: Number(res.headers.get("x-wire-status")) || res.status,
         body: await res.text(),
-        contentType: res.headers.get("content-type") || ""
+        contentType: res.headers.get("content-type") || "",
+        viaDoor
       };
 
     }catch(err){

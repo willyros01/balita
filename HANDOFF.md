@@ -250,6 +250,41 @@ Worth trying, roughly in order of cost:
    words with a photograph, which is a usable headline-and-summary card.
    Keep it on those terms and say so in the app rather than pretending.
 
+## Fixed in 0.11.0
+
+- Inquirer's subscription messages, both the success and the failure
+  notice nobody triggered, plus the comments disclaimer.
+- Any paragraph whose whole text is a web address.
+- DW's stories fusing together — their short link `p.dw.com/p/XXXX` marks
+  the end of each item, so the article is cut there.
+- Guardian and DW images: the loose reader now looks in media tags, in
+  `<img>` inside the item HTML, and in escaped HTML inside a description.
+- **The doorway is wired in.** See DOORWAY.md.
+
+## Superseded: DW arrives as several stories glued together
+
+Reported 28 Aug, from the first run with DW in the list. One screen showed
+the tail of a Baltic Sea story, then a bare short link, then a completely
+different headline — all inside one article.
+
+Three separate faults:
+
+**The article does not end.** DW's RDF feed evidently carries the following
+items inside the same block, so `fromFeedContent` keeps going past the end
+of the story. Find where one item stops and cut there; a reader cannot tell
+which words belong to which story, which is worse than any amount of junk.
+
+**A bare short link in the body** — `https://p.dw.com/p/5JaRt`. Drop any
+paragraph whose entire text is a URL. General rule, not DW-specific: no
+outlet means a naked address to be read as a sentence.
+
+**No images, so the placeholder appears.** The lead-image fix in 0.10.0
+removes the invented graphic when a story has none, so either that build was
+not yet uploaded when this was seen, or DW stories are arriving with no
+image at all. If the latter: DW is RDF like The Guardian was, and this is
+probably the same fault — the picture is inside the item and the reader is
+not passing it through. **Check the version in About before investigating.**
+
 ## Next build: day and night by the clock
 
 Switch automatically on time of day, rather than only when the reader taps
