@@ -450,3 +450,151 @@ html[data-contrast="high"] .pill-off{ color: var(--ink); }
   border-top: var(--rule-w) solid var(--rule);
   line-height: 1.6;
 }
+
+/* ============================================================
+   TOAST — what just happened.
+
+   Anchored to the bottom, clear of the reading area, wide enough
+   to read at any text size. It never grows with the type scale:
+   at 50px a toast that scaled too would fill the screen.
+   ============================================================ */
+.toast{
+  position: fixed;
+  left: 50%; bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  transform: translate(-50%, 1rem);
+  z-index: 60;
+  width: min(30rem, calc(100vw - 1.6rem));
+  display: flex; align-items: center; gap: 0.9rem;
+  padding: 0.85rem 1rem;
+  font-family: var(--font-body);
+  font-size: 1rem; line-height: 1.4;
+  background: var(--ink); color: var(--bg);
+  border: var(--rule-w) solid var(--ink);
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.22);
+  opacity: 0;
+  transition: opacity var(--dur) ease, transform var(--dur) ease;
+}
+.toast-in{ opacity: 1; transform: translate(-50%, 0); }
+.toast-text{ flex: 1; min-width: 0; }
+
+.toast-warn{ background: #8A3229; border-color: #8A3229; color: #fff; }
+.toast-undone{ background: #1F5E3F; border-color: #1F5E3F; color: #fff; }
+
+html[data-contrast="high"] .toast{
+  background: var(--bg); color: var(--ink);
+  border: 3px solid var(--ink);
+  box-shadow: none;
+}
+
+.toast-action{
+  font: inherit; font-size: 0.95em; font-weight: 700;
+  flex: 0 0 auto;
+  min-height: 2.6rem; padding: 0 0.9rem;
+  background: transparent; color: inherit;
+  border: 2px solid currentColor; border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ============================================================
+   CONFIRM SHEET — a question with two answers.
+   ============================================================ */
+.sheet-backdrop{
+  position: fixed; inset: 0; z-index: 70;
+  display: flex; align-items: flex-end; justify-content: center;
+  background: rgba(10,12,15,0.45);
+  opacity: 0; transition: opacity var(--dur) ease;
+  padding: 1rem;
+}
+.sheet-in{ opacity: 1; }
+
+.sheet{
+  width: min(28rem, 100%);
+  background: var(--surface); color: var(--ink);
+  border: var(--rule-w) solid var(--rule);
+  border-radius: 10px;
+  padding: 1.3rem 1.2rem 1.1rem;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+html[data-contrast="high"] .sheet{ border: 3px solid var(--ink); box-shadow: none; }
+
+.sheet-title{
+  font-family: var(--font-head); font-weight: 700;
+  font-size: 1.25em; line-height: 1.25;
+  margin: 0 0 0.5rem;
+}
+.sheet-body{
+  margin: 0 0 1.2rem;
+  font-size: 0.95em; line-height: 1.55; color: var(--muted);
+}
+html[data-contrast="high"] .sheet-body{ color: var(--ink); }
+
+.sheet-row{ display: flex; gap: 0.6rem; }
+.sheet-btn{
+  font: inherit; font-size: 1em; font-weight: 700;
+  flex: 1; min-height: 3rem; padding: 0 0.8rem;
+  border-radius: 8px; cursor: pointer;
+}
+.sheet-no{
+  background: transparent; color: var(--ink);
+  border: var(--rule-w) solid var(--rule);
+}
+.sheet-yes{
+  background: var(--accent); color: var(--on-accent);
+  border: var(--rule-w) solid var(--accent);
+}
+.sheet-danger{
+  background: #B4342B; color: #fff;
+  border: var(--rule-w) solid #B4342B;
+}
+html[data-contrast="high"] .sheet-danger{
+  background: var(--ink); color: var(--surface); border-color: var(--ink);
+}
+
+/* ============================================================
+   Buttons that look like buttons. The restore control read as a
+   line of text, so it was never obvious it could be tapped.
+   ============================================================ */
+.reset-btn{
+  display: flex; align-items: center; justify-content: center;
+  gap: 0.5rem;
+  font-size: 1em;
+  background: var(--surface);
+  border: 2px solid var(--rule);
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,0.06);
+}
+.reset-btn::before{
+  content: "\21BA";           /* a turning arrow */
+  font-size: 1.15em; line-height: 1;
+}
+
+/* A source the fetcher has nothing for. */
+.no-stories{
+  display: inline-block;
+  margin-top: 0.15rem;
+  font-size: 0.75em; font-weight: 700;
+  padding: 0.02rem 0.35rem;
+  color: var(--muted);
+  border: var(--rule-w) solid currentColor;
+  border-radius: 3px;
+}
+html[data-contrast="high"] .no-stories{ color: var(--ink); }
+
+.count-pill{
+  font-size: 0.75em; font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
+}
+html[data-contrast="high"] .count-pill{ color: var(--ink); }
+
+/* Stories held whose source is not in the list — the exact failure
+   that was invisible for an entire evening. */
+.orphan{
+  margin: 0.9rem 0 0;
+  padding: 0.8rem 0.9rem;
+  background: var(--shade);
+  border: var(--rule-w) solid var(--rule);
+  border-left: var(--spine-w) solid #B4342B;
+  border-radius: var(--radius);
+  font-size: 0.85em; line-height: 1.5;
+}

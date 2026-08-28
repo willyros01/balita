@@ -6,6 +6,7 @@
    ============================================================ */
 
 import { FEED_URL, VERSION, BUILD_DATE } from "./config.js";
+import { toast } from "./ui.js";
 import * as store   from "./store.js";
 import * as display from "./display.js";
 import * as feed    from "./feed.js";
@@ -14,6 +15,7 @@ import * as sources from "./sources.js";
 
 const state = {
   sources:     [],
+  standard:    [],   /* the list the fetcher works from */
   articles:    [],
   filter:      "ALL",
   updated:     null,   /* when the fetcher last ran */
@@ -21,18 +23,19 @@ const state = {
   synced:      false   /* Firebase configured and reachable */
 };
 
-const sayEl = document.getElementById("announce");
-
-/* Screen readers only speak a live region when the text changes,
-   so a repeated message needs a nudge. */
-function announce(msg){
-  sayEl.textContent = "";
-  window.setTimeout(() => { sayEl.textContent = msg; }, 40);
+/* Every message the app has ever produced went into a hidden
+   element for screen readers and was never shown to anybody else.
+   It goes on screen now, and still reaches screen readers. */
+function announce(msg, kind, action){
+  toast(msg, kind || "done", action);
 }
 
 const ctx = {
   state,
   announce,
+  /* Match on id, then on address. A source saved under a generated
+     id would otherwise never be recognised as the outlet its stories
+     belong to, and every one of them would silently vanish. */
   sourceOf: id => state.sources.find(s => s.id === id),
   show: view => { document.body.dataset.view = view; },
   refresh: () => { feed.renderChips(ctx); feed.renderFeed(ctx); renderAbout(); },
@@ -122,6 +125,7 @@ function renderAbout(){
                    : "none loaded"],
     ["Fetched",  fetched || "not yet"],
     ["Sources",  on + " on, " + total + " in the list"],
+    ["Showing",  null],
     ["Settings", state.synced ? "Synced across your devices" : "Kept on this device"],
     ["Storage",  state.synced ? "Firebase" : "This device only"],
     ["Network",  null]   /* filled in below, and kept live */
@@ -136,6 +140,15 @@ function renderAbout(){
     if(label === "Network"){
       dd.id = "net-state";
       dd.appendChild(navigator.onLine ? pill("Online", true) : pill("Offline", false));
+    }else if(label === "Showing"){
+      /* Loaded and displayed are different numbers, and when they
+         differ that is exactly the fault worth surfacing. */
+      const live = new Set(state.sources.filter(s => s.on).map(s => s.id));
+      const shown = state.articles.filter(a => live.has(a.source)).length;
+      const hidden = state.articles.length - shown;
+      dd.textContent = shown + " of " + state.articles.length +
+        (hidden ? "  \u2014 " + hidden + " hidden by your source list" : "");
+      if(hidden) dd.appendChild(document.createTextNode(""));
     }else{
       dd.textContent = value;
     }
@@ -165,12 +178,14 @@ function watchNetwork(){
 async function start(){
   const conn = await store.init();
 
-  const [settings, savedSources] = await Promise.all([
+  const [settings, savedSources, standard] = await Promise.all([
     store.loadSettings(),
-    store.loadSources()
+    store.loadSources(),
+    store.loadStandard()
   ]);
 
-  state.sources = savedSources;
+  state.sources  = savedSources;
+  state.standard = standard;
   state.synced  = conn.synced === true;
   display.setup({ settings, announce });
 

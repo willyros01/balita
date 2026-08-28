@@ -17,14 +17,21 @@ import { get, pool } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.6.0";
+const VERSION = "0.8.0";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
 
-const PER_SOURCE     = 15;    /* newest stories to keep per source */
-const MAX_AGE_DAYS   = 5;     /* anything older is dropped */
-const FETCH_BUDGET   = 120;   /* article pages to open in one run */
+/* No per-source cap and no age cutoff. Both were numbers I picked,
+   and between them they were binning about thirty stories a run —
+   including, on a busy day, the ones worth reading. A feed offers
+   what it offers; keep all of it. A story leaves only when the
+   outlet drops it from their own feed.
+
+   PER_SOURCE now only bounds how many are read from one feed in a
+   single pass, which no real feed reaches. */
+const PER_SOURCE     = 200;
+const FETCH_BUDGET   = 250;   /* article pages to open in one run */
 const FEED_PARALLEL  = 5;
 const PAGE_PARALLEL  = 8;
 const PAGE_TIMEOUT   = 8000;  /* a page silent this long will not answer */
@@ -329,6 +336,7 @@ async function main(){
 
   const known = new Map(existing.map(a => [a.id, a]));
 
+  console.log("Wire fetcher " + VERSION);
   console.log("Reading " + sources.length + " feeds\n");
 
   const reports = await pool(sources, FEED_PARALLEL, readSource);
@@ -437,24 +445,34 @@ async function main(){
 
   /* ---------------- assemble ---------------- */
 
-  const cutoff = Date.now() - MAX_AGE_DAYS * 86400000;
+  /* A story stays until the outlet stops listing it. That is the
+     only honest reason to drop one — not an age I invented. */
+  const stillListed = new Set();
+  reports.forEach((r, i) => {
+    if(!r || !r.ok) return;
+    r.items.forEach(item => stillListed.add(idFor(sources[i].id, item.link)));
+  });
+
+  const liveSources = new Set(reports.map((r, i) => (r && r.ok) ? sources[i].id : null));
+
   const byId = new Map();
+  let retired = 0;
 
   [...kept, ...fresh].forEach(a => {
     if(!a || !a.id) return;
-    if(new Date(a.published).getTime() < cutoff) return;
+
+    /* Only retire a story when its own feed answered this run and no
+       longer carries it. If an outlet was unreachable, keep what we
+       have rather than quietly emptying it. */
+    if(liveSources.has(a.source) && !stillListed.has(a.id)){
+      retired++;
+      return;
+    }
     byId.set(a.id, a);
   });
 
-  /* Newest first, and no more than PER_SOURCE from any one outlet. */
-  const perSource = new Map();
   const articles = Array.from(byId.values())
-    .sort((x, y) => new Date(y.published) - new Date(x.published))
-    .filter(a => {
-      const n = (perSource.get(a.source) || 0) + 1;
-      perSource.set(a.source, n);
-      return n <= PER_SOURCE;
-    });
+    .sort((x, y) => new Date(y.published) - new Date(x.published));
 
   const out = {
     version: VERSION,
@@ -469,7 +487,7 @@ async function main(){
   const withPic  = articles.filter(a => a.image && a.image.src).length;
   const walled   = articles.filter(a => a.truncated).length;
   const bare     = articles.filter(a => a.source_of_text === "summary").length;
-  const dropped  = kept.length + fresh.length - articles.length;
+  const dropped  = retired;
 
   console.log("Wrote " + articles.length + " stories to " + ARTICLES_FILE);
   console.log("  full text     " + withText);
@@ -477,7 +495,7 @@ async function main(){
   console.log("  cut short     " + walled);
   console.log("  summary only  " + bare);
   if(dropped > 0){
-    console.log("  dropped       " + dropped + " (older than " + MAX_AGE_DAYS + " days, or over the per-source cap)");
+    console.log("  retired       " + dropped + " (no longer listed by their outlet)");
   }
   console.log("  took          " + Math.round((Date.now() - started) / 1000) + "s");
 

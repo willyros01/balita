@@ -8,28 +8,34 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.7.0** — the source list, fixed properly.
+**0.8.0**
 
-- **A feed added to `sources.json` now reaches devices that have already
-  run.** The saved list used to win outright, so CNN — switched on in the
-  file — stayed invisible on any phone that had loaded before. The two are
-  merged on every load: an outlet you have keeps your on/off choice but
-  takes the current address, one you do not have is added, one you removed
-  on purpose stays removed, and anything you added yourself is untouched.
-- **`sources.json` is no longer cached like the shell.** It was being served
-  cache-first, so a device never even asked for a newer copy. It is data,
-  and now behaves like the stories do.
-- **Removing a source asks first.** The cross sat against the on/off toggle
-  and removed an outlet outright on one tap. It now asks, and gives you five
-  seconds to change your mind before disarming.
-- **Undo after a removal**, for as long as the Sources screen stays open.
-- **"Restore the standard list"** at the bottom of that screen. Every outlet
-  the fetcher works from, switched on — so the answer to a mess is never
-  "go into Safari's settings and clear website data".
-
-Includes 0.6.0: advertising interruptions filtered out, runs exiting when
-the work is done rather than idling for six minutes, and the log naming why
-a source fell back to summaries.
+- **Feedback is visible.** Every message the app produced went into a
+  hidden element meant for screen readers and was never shown. Buttons
+  looked dead because their responses were invisible. There is now a toast.
+- **Real confirm dialogs.** The remove and restore controls armed on the
+  first tap and disarmed five seconds later, so tapping repeatedly toggled
+  them forever and they could never fire. Both now ask a question with two
+  buttons, and Restore looks like a button rather than a line of text.
+- **Sources matched by address as well as id.** An outlet saved under a
+  generated id was never recognised as the one its stories belonged to, so
+  it showed as switched on with nothing behind it. Ids are corrected and
+  duplicates collapsed on load.
+- **The caps are gone.** No fifteen-per-source, no five-day cutoff — both
+  were numbers picked out of the air, and between them they binned about
+  thirty stories a run. A story now leaves only when its outlet stops
+  listing it.
+- **The Sources screen tells the truth:** a story count beside each outlet,
+  "No stories yet" where there are none, and a warning when the app holds
+  stories for a source missing from the list. About shows displayed against
+  loaded.
+- **An external scheduler can trigger a run.** GitHub's cron has never
+  fired here; SETUP.md covers wiring up one that keeps time.
+- **Superseded runs are cancelled** rather than queued. One left waiting
+  ran two hours later with stale code and undid newer work.
+- **The fetcher prints its version first**, so which code ran is never
+  again a matter of deduction.
+- **HANDOFF.md** carries the project's memory for a future session.
 
 
 ## What each file does

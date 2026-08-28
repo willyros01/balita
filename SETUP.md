@@ -9,7 +9,23 @@ GitHub, but it can select a batch of loose files.
 
 ---
 
-## Upgrading — read this first
+## Upgrading to 0.8.0 — read this first
+
+**`feeds.yml` changed.** The root upload cannot reach the live copy. Open
+`.github/workflows/feeds.yml` on GitHub, tap the pencil, select all, and
+paste in the new version from the `feeds` card. Commit.
+
+**Everything else is a normal upload.** `articles.json` is not in the zip,
+so there is nothing to leave out.
+
+**Your source list repairs itself on first load.** GMA and CNN were stored
+under generated ids that no story carried, which is why they showed as On
+with nothing behind them. The app now matches on address as well, adopts the
+correct id, and removes duplicates. No action needed.
+
+---
+
+## Upgrading — general
 
 Two things differ from previous versions.
 
@@ -31,7 +47,7 @@ from an earlier version, delete it — it does nothing there.
 ## Part 1 — Unzip
 
 1. Open the **Files** app.
-2. Find `wire-v0.7.0.zip`, probably in **Downloads**.
+2. Find `wire-v0.8.0.zip`, probably in **Downloads**.
 3. Tap it once. A folder called `balita-v0.2.0` appears beside it.
 4. Tap into that folder. You should see twenty-three files and no folders.
 
@@ -76,7 +92,7 @@ discover.mjs       display.js         sw.js
 tokens.css
 ```
 
-7. In the box at the bottom, type: `Version 0.7.0`
+7. In the box at the bottom, type: `Version 0.8.0`
 8. Tap **Commit changes**.
 
 If you end up short a file, just upload the missing ones the same way.
@@ -108,7 +124,7 @@ That link is the app.
 
 Open the address.
 
-**What you should see at 0.7.0:** the header bar, a row of source chips
+**What you should see at 0.8.0:** the header bar, a row of source chips
 below it, and eight stories. Scroll to the bottom for **About this app** —
 version, release date, how many stories are loaded, when they were fetched,
 how many sources are on, where your settings are kept, and whether you are
@@ -245,6 +261,80 @@ Once it turns green, open the app. Real headlines, and the About panel now
 shows a real **Fetched** time.
 
 From here it runs itself, every half hour.
+
+
+---
+
+## Making it run on a schedule
+
+GitHub's own scheduler has never fired on this repository — not once. Free
+plans run scheduled jobs on spare capacity, and when there is none they are
+skipped rather than delayed. The setting is still there and costs nothing,
+but it cannot be relied on.
+
+The fix is a service outside GitHub that keeps proper time and pokes the
+workflow. About ten minutes, all in Safari, free.
+
+### Part A — make a key
+
+1. On GitHub, tap your picture (top right) → **Settings**.
+2. Bottom of the sidebar: **Developer settings**.
+3. **Personal access tokens** → **Fine-grained tokens** → **Generate new
+   token**.
+4. Fill in:
+   - **Token name:** `wire-scheduler`
+   - **Expiration:** 1 year
+   - **Repository access:** *Only select repositories* → choose **balita**
+   - **Permissions** → **Repository permissions** → find **Contents** and
+     set it to **Read and write**
+5. **Generate token**, then **copy it**. It is shown once and never again.
+   Paste it somewhere safe for the next five minutes.
+
+The key can only touch this one repository. If it ever leaks, delete it on
+that same screen and make another.
+
+### Part B — set up the schedule
+
+1. Go to **cron-job.org** and make a free account.
+2. **Create cronjob**.
+3. **Title:** `Wire news`
+4. **URL:**
+
+   ```
+   https://api.github.com/repos/YOUR-USERNAME/balita/dispatches
+   ```
+
+   Replace `YOUR-USERNAME`. The repository is `balita`, not `wire`.
+
+5. **Schedule:** every 30 minutes. Avoid :00 and :30 if it offers a choice.
+6. Open **Advanced**:
+   - **Request method:** `POST`
+   - **Request body:**
+
+     ```
+     {"event_type":"fetch-news"}
+     ```
+
+   - **Headers** — add three:
+
+     | Key | Value |
+     |---|---|
+     | `Accept` | `application/vnd.github+json` |
+     | `Authorization` | `Bearer YOUR-TOKEN-HERE` |
+     | `Content-Type` | `application/json` |
+
+7. **Create**, then use **Test run**.
+
+A green result, or a **204**, means it worked. Check the Actions tab: a run
+should appear within seconds, triggered by `repository_dispatch`.
+
+**401** means the token is wrong or was pasted without `Bearer ` in front.
+**404** usually means the username or repository name is misspelled — and
+note that GitHub returns 404 rather than 403 when a token lacks permission,
+so check Part A step 4 as well.
+
+From then on it runs itself, and the **Fetched** line in the app's About
+panel should never be more than about half an hour old.
 
 ---
 

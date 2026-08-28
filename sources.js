@@ -32,12 +32,12 @@ function tidyUrl(raw){
   }
 }
 
-async function commit(ctx, undo){
+async function commit(ctx){
   await saveSources(ctx.state.sources);
-  render(ctx, undo);
+  render(ctx);
 }
 
-export function render(ctx, undo){
+export function render(ctx){
   const el = document.getElementById("manage");
   el.innerHTML = "";
 
@@ -72,6 +72,13 @@ export function render(ctx, undo){
     "sources.json in the repository — that is the list the fetcher works from.";
 
   /* ---------------- the list ---------------- */
+  /* How many stories the app actually holds for each source. An
+     outlet with none used to look identical to a working one. */
+  const counts = new Map();
+  (ctx.state.articles || []).forEach(a => {
+    counts.set(a.source, (counts.get(a.source) || 0) + 1);
+  });
+
   const list = document.createElement("ul");
   list.className = "slist";
 
@@ -88,6 +95,19 @@ export function render(ctx, undo){
     small.textContent = s.url;
     name.append(strong, small);
 
+    const n = counts.get(s.id) || 0;
+    if(n){
+      const c = document.createElement("small");
+      c.className = "count-pill";
+      c.textContent = n + (n === 1 ? " story" : " stories");
+      name.appendChild(c);
+    }else{
+      const none = document.createElement("span");
+      none.className = "no-stories";
+      none.textContent = "No stories yet";
+      name.appendChild(none);
+    }
+
     const tog = document.createElement("button");
     tog.type = "button";
     tog.className = "toggle";
@@ -97,7 +117,7 @@ export function render(ctx, undo){
     tog.addEventListener("click", () => {
       s.on = !s.on;
       if(!s.on && ctx.state.filter === s.id) ctx.state.filter = "ALL";
-      ctx.announce(s.name + (s.on ? " on" : " off"));
+      toast(s.name + (s.on ? " switched on" : " switched off"), "done");
       commit(ctx);
     });
 
@@ -106,40 +126,41 @@ export function render(ctx, undo){
     rm.className = "remove";
     rm.innerHTML = '<span aria-hidden="true">\u2715</span>';
     rm.setAttribute("aria-label", "Remove " + s.name);
-    /* Removing is not something a stray tap should manage. The first
-       press asks, the second does it. Sitting beside the on/off
-       toggle, an unguarded cross was far too easy to hit — more so at
-       the larger text sizes, where everything sits closer together. */
-    let asking = false;
-    let askTimer = null;
+    /* A real question, asked once. The old button armed itself and
+       disarmed after five seconds, so tapping it repeatedly just
+       toggled it forever and it could never fire. */
+    rm.addEventListener("click", async () => {
+      const yes = await ask({
+        title: "Remove " + s.name + "?",
+        body: "It disappears from your list and its stories stop showing. " +
+              "You can undo this straight afterwards, or put everything back " +
+              "with Restore the standard list.",
+        confirmLabel: "Remove",
+        cancelLabel: "Keep it",
+        danger: true
+      });
+      if(!yes) return;
 
-    const rest = () => {
-      asking = false;
-      window.clearTimeout(askTimer);
-      rm.classList.remove("remove-armed");
-      rm.innerHTML = '<span aria-hidden="true">\u2715</span>';
-      rm.setAttribute("aria-label", "Remove " + s.name);
-    };
-
-    rm.addEventListener("click", () => {
-      if(!asking){
-        asking = true;
-        rm.classList.add("remove-armed");
-        rm.textContent = "Remove?";
-        rm.setAttribute("aria-label", "Confirm removing " + s.name);
-        ctx.announce("Tap again to remove " + s.name);
-        askTimer = window.setTimeout(rest, 5000);
-        return;
-      }
-
-      rest();
       const gone = { ...s };
       const at = ctx.state.sources.findIndex(x => x.id === s.id);
       ctx.state.sources = ctx.state.sources.filter(x => x.id !== s.id);
       if(ctx.state.filter === s.id) ctx.state.filter = "ALL";
       markRemoved(s.id);
-      ctx.announce(gone.name + " removed");
-      commit(ctx, { source: gone, at });
+
+      await saveSources(ctx.state.sources);
+      render(ctx);
+
+      toast(gone.name + " removed", "done", {
+        label: "Undo",
+        onTap: async () => {
+          unmarkRemoved(gone.id);
+          const back = Math.max(0, Math.min(at, ctx.state.sources.length));
+          ctx.state.sources.splice(back, 0, gone);
+          await saveSources(ctx.state.sources);
+          render(ctx);
+          toast(gone.name + " is back", "undone");
+        }
+      });
     });
 
     li.append(name, tog, rm);
@@ -192,7 +213,7 @@ export function render(ctx, undo){
   const fail = msg => {
     err.textContent = msg;
     err.hidden = false;
-    ctx.announce(msg);
+    toast(msg, "warn");
   };
 
   addBtn.addEventListener("click", () => {
@@ -212,7 +233,7 @@ export function render(ctx, undo){
       color: PALETTE[ctx.state.sources.length % PALETTE.length],
       on: true
     });
-    ctx.announce(nm + " added");
+    toast(nm + " added. It will fill once the fetcher knows about it.", "done");
     commit(ctx);
   });
 
@@ -222,7 +243,13 @@ export function render(ctx, undo){
   const pres = document.createElement("div");
   pres.className = "presets";
 
-  const spare = PRESETS.filter(p => !ctx.state.sources.some(s => s.url === p.url));
+  /* Presets used to offer outlets the fetcher had never heard of, so
+     adding one produced a chip that would stay empty forever. Only
+     offer what is actually in the fetcher's own list. */
+  const fetcherUrls = new Set((ctx.state.standard || []).map(x => x.url));
+  const spare = PRESETS
+    .filter(p => fetcherUrls.has(p.url))
+    .filter(p => !ctx.state.sources.some(s => s.url === p.url));
 
   if(spare.length){
     const ph = document.createElement("h3");
@@ -240,7 +267,7 @@ export function render(ctx, undo){
           id: "p" + Date.now(),
           tag: p.tag, name: p.name, url: p.url, color: p.color, on: true
         });
-        ctx.announce(p.name + " added");
+        toast(p.name + " added", "done");
         commit(ctx);
       });
       wrap.appendChild(b);
@@ -249,30 +276,24 @@ export function render(ctx, undo){
     pres.append(ph, wrap);
   }
 
-  /* A way back from the last removal, for as long as the screen
-     stays open. Confirmation catches the stray tap; this catches
-     the deliberate one that turns out to be a mistake. */
-  let undoBar = null;
-  if(undo && undo.source){
-    undoBar = document.createElement("div");
-    undoBar.className = "undo";
+  /* Stories the app holds whose source is not in this list. This is
+     precisely what went wrong for an evening: the file had ninety-four
+     stories, several outlets showed nothing, and there was no way to
+     see the mismatch. */
+  const known = new Set(ctx.state.sources.map(x => x.id));
+  const orphanIds = [...new Set((ctx.state.articles || [])
+    .map(a => a.source).filter(id => !known.has(id)))];
 
-    const said = document.createElement("span");
-    said.textContent = undo.source.name + " removed.";
-
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "undo-btn";
-    btn.textContent = "Undo";
-    btn.addEventListener("click", () => {
-      unmarkRemoved(undo.source.id);
-      const at = Math.max(0, Math.min(undo.at, ctx.state.sources.length));
-      ctx.state.sources.splice(at, 0, undo.source);
-      ctx.announce(undo.source.name + " restored");
-      commit(ctx);
-    });
-
-    undoBar.append(said, btn);
+  let orphan = null;
+  if(orphanIds.length){
+    const n = (ctx.state.articles || []).filter(a => orphanIds.includes(a.source)).length;
+    orphan = document.createElement("p");
+    orphan.className = "orphan";
+    orphan.textContent = n + (n === 1 ? " story is" : " stories are") +
+      " held for " + orphanIds.length +
+      (orphanIds.length === 1 ? " source" : " sources") +
+      " missing from this list (" + orphanIds.join(", ") + "). " +
+      "Restore the standard list below to bring them back.";
   }
 
   /* The way out of any mess, without going near Safari's settings. */
@@ -284,24 +305,30 @@ export function render(ctx, undo){
   resetBtn.className = "reset-btn";
   resetBtn.textContent = "Restore the standard list";
 
-  let resetAsking = false;
   resetBtn.addEventListener("click", async () => {
-    if(!resetAsking){
-      resetAsking = true;
-      resetBtn.textContent = "Tap again to confirm";
-      resetBtn.classList.add("remove-armed");
-      ctx.announce("Tap again to restore the standard list");
-      window.setTimeout(() => {
-        resetAsking = false;
-        resetBtn.textContent = "Restore the standard list";
-        resetBtn.classList.remove("remove-armed");
-      }, 5000);
-      return;
+    const yes = await ask({
+      title: "Restore the standard list?",
+      body: "Every outlet the fetcher works from comes back, switched on. " +
+            "Sources you added yourself are removed, and your on and off " +
+            "choices are reset.",
+      confirmLabel: "Restore",
+      cancelLabel: "Cancel"
+    });
+    if(!yes) return;
+
+    resetBtn.disabled = true;
+    resetBtn.textContent = "Restoring\u2026";
+
+    try{
+      ctx.state.sources = await restoreStandard();
+      ctx.state.filter = "ALL";
+      render(ctx);
+      toast(ctx.state.sources.length + " sources restored, all switched on", "undone");
+    }catch(err){
+      resetBtn.disabled = false;
+      resetBtn.textContent = "Restore the standard list";
+      toast("Could not restore the list. Check your connection.", "warn");
     }
-    ctx.state.sources = await restoreStandard();
-    ctx.state.filter = "ALL";
-    ctx.announce("Standard list restored");
-    render(ctx);
   });
 
   const resetWhy = document.createElement("p");
@@ -313,8 +340,9 @@ export function render(ctx, undo){
   reset.append(resetBtn, resetWhy);
 
   const parts = [back, title, help, warn];
-  if(undoBar) parts.push(undoBar);
-  parts.push(list, box, pres, reset);
+  parts.push(list);
+  if(orphan) parts.push(orphan);
+  parts.push(box, pres, reset);
   el.append(...parts);
 }
 

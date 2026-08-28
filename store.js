@@ -119,24 +119,62 @@ async function fetchStandard(){
    the current address and name. An outlet you do not have is added.
    An outlet you deliberately removed stays removed. Anything you
    added yourself is left alone. */
+function tidy(u){
+  return String(u || "").trim().toLowerCase().replace(/\/+$/, "");
+}
+
 function merge(saved, standard, removed){
   const out = saved.map(s => ({ ...s }));
-  const byId = new Map(out.map(s => [s.id, s]));
+
+  const byId  = new Map(out.map(s => [s.id, s]));
+  const byUrl = new Map(out.map(s => [tidy(s.url), s]));
 
   for(const std of standard){
-    const mine = byId.get(std.id);
+    /* Match on id first, then on address. Matching on id alone was
+       the fault behind an outlet showing as On while every one of
+       its stories stayed hidden: a source added from the presets
+       screen carried a generated id like "p1756…", so the standard
+       entry was never recognised as the same outlet and got added
+       beside it. The stories carry the standard id; the visible
+       entry carried the generated one; nothing matched. */
+    const mine = byId.get(std.id) || byUrl.get(tidy(std.url));
+
     if(mine){
+      /* Adopt the fetcher's id, since that is what the stories use. */
+      if(mine.id !== std.id){
+        byId.delete(mine.id);
+        mine.id = std.id;
+        byId.set(std.id, mine);
+      }
       mine.name  = std.name;
       mine.tag   = std.tag;
       mine.url   = std.url;
       mine.color = std.color;
       continue;
     }
+
     if(removed.includes(std.id)) continue;
-    out.push({ ...std });
+
+    const fresh = { ...std };
+    out.push(fresh);
+    byId.set(fresh.id, fresh);
+    byUrl.set(tidy(fresh.url), fresh);
   }
 
-  return out;
+  /* Two entries for one outlet can only confuse. Keep the first. */
+  const seenId = new Set(), seenUrl = new Set();
+  return out.filter(s => {
+    const u = tidy(s.url);
+    if(seenId.has(s.id) || seenUrl.has(u)) return false;
+    seenId.add(s.id); seenUrl.add(u);
+    return true;
+  });
+}
+
+/* The app needs to know what the fetcher works from, to avoid
+   offering outlets it will never collect. */
+export async function loadStandard(){
+  return fetchStandard();
 }
 
 export async function loadSources(){

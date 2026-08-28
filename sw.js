@@ -10,7 +10,7 @@
    what makes phones pick up a new build.
    ============================================================ */
 
-const VERSION = "wire-v0.7.0";
+const VERSION = "wire-v0.8.0";
 const SHELL = [
   "./",
   "./index.html",
@@ -21,6 +21,7 @@ const SHELL = [
   "./config.js",
   "./store.js",
   "./display.js",
+  "./ui.js",
   "./articles.json",
   "./sources.json",
   "./icon-180.png",
