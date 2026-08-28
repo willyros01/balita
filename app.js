@@ -114,7 +114,7 @@ function renderAbout(){
   const feedVer = state.feedVersion;
 
   const rows = [
-    ["Version",  "Balita " + VERSION],
+    ["Version",  "Wire " + VERSION],
     ["Released", new Date(BUILD_DATE + "T00:00:00").toLocaleDateString(undefined,
                    { day: "numeric", month: "long", year: "numeric" })],
     ["Stories",  state.articles.length

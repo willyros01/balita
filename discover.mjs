@@ -7,6 +7,12 @@
 
 import { get } from "./net.mjs";
 
+/* Discovery is guesswork: most of these addresses will not exist, and
+   an address that has not answered in five seconds is not going to.
+   Retrying every guess three times turned two unreachable outlets
+   into six minutes of waiting. One quick attempt each. */
+const PROBE = { timeout: 5000, retries: 0 };
+
 /* Feeds announce themselves in the page head. */
 const LINK_RE = /<link\b[^>]*>/gi;
 
@@ -45,7 +51,7 @@ export async function discover(pageUrl){
   }
 
   /* Perhaps it is already a feed. */
-  const direct = await get(base.href).catch(() => null);
+  const direct = await get(base.href, PROBE).catch(() => null);
   if(direct && looksLikeFeed(direct.body)) return base.href;
 
   /* Look for an announced feed in the head. */
@@ -64,7 +70,7 @@ export async function discover(pageUrl){
     }
 
     for(const href of candidates){
-      const res = await get(href).catch(() => null);
+      const res = await get(href, PROBE).catch(() => null);
       if(res && looksLikeFeed(res.body)) return href;
     }
   }
@@ -72,7 +78,7 @@ export async function discover(pageUrl){
   /* Nothing announced. Try the usual paths. */
   for(const path of GUESSES){
     const href = new URL(path, base.origin).href;
-    const res = await get(href).catch(() => null);
+    const res = await get(href, PROBE).catch(() => null);
     if(res && looksLikeFeed(res.body)) return href;
   }
 

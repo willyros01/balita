@@ -227,12 +227,54 @@ html[data-contrast="high"] figcaption{ color: var(--ink); }
 }
 html[data-contrast="high"] .article-body blockquote{ color: var(--ink); }
 
-.truncated{
-  margin: 0 0 1.1em; padding: 0.8rem 0.9rem;
-  background: var(--shade); border: var(--rule-w) solid var(--rule);
-  border-radius: var(--radius); font-size: 0.87em; color: var(--muted);
+/* ---------------- the way out ----------------
+   Shown when a story could not be read in full. It has to explain
+   itself and offer a large, unmissable target — at 50px text a link
+   inside a paragraph is not a target at all. */
+.elsewhere{
+  margin: 1.4em 0 1.1em;
+  padding: 1rem;
+  background: var(--shade);
+  border: var(--rule-w) solid var(--rule);
+  border-left: var(--spine-w) solid var(--accent);
+  border-radius: var(--radius);
 }
-html[data-contrast="high"] .truncated{ color: var(--ink); }
+.elsewhere-head{
+  margin: 0 0 0.4rem;
+  font-weight: 700; font-size: 0.9em;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--accent);
+}
+.elsewhere-why{
+  margin: 0 0 0.9rem;
+  font-size: 0.92em; line-height: 1.55; color: var(--muted);
+}
+html[data-contrast="high"] .elsewhere-why{ color: var(--ink); }
+
+.elsewhere-go{
+  display: block; text-align: center;
+  padding: 0.75rem 0.9rem;
+  font-weight: 700; text-decoration: none;
+  background: var(--accent); color: var(--on-accent);
+  border: var(--rule-w) solid var(--accent);
+  border-radius: var(--radius);
+}
+.elsewhere-go:hover{ opacity: 0.9; }
+.elsewhere-warn{
+  margin: 0.55rem 0 0;
+  font-size: 0.78em; text-align: center; color: var(--muted);
+}
+html[data-contrast="high"] .elsewhere-warn{ color: var(--ink); }
+
+/* The same shortfall, flagged in the list. */
+.flag{
+  font-size: 0.92em; font-weight: 700;
+  padding: 0.02rem 0.35rem;
+  border: var(--rule-w) solid currentColor;
+  border-radius: 3px;
+  color: var(--accent);
+}
+html[data-contrast="high"] .flag{ color: var(--ink); }
 
 .origin{
   margin-top: 1.6rem; padding-top: 1rem;

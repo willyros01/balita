@@ -1,6 +1,6 @@
-# Balita
+# Wire
 
-Philippine and world news, stripped of advertising and set for easy reading.
+News from anywhere, stripped of advertising and set for easy reading.
 
 A small web app that installs to a phone, tablet or computer home screen.
 No account, no password. Text size, high contrast and day/night are always
@@ -8,39 +8,27 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.4.0** — fixes from the first live run.
+**0.5.0**
 
-- **Text goes much bigger.** Seven steps now, topping out at 50px to match
-  the largest iOS accessibility setting. At the big sizes the layout gives
-  back its margins and drops the thumbnails, because at 50px a phone fits
-  about six words to a line and every pixel spent on a picture is a word
-  lost.
-- **Sources at the end of the list no longer starve.** The fetch queue used
-  to be drained source by source, so when the budget ran out the last
-  outlets in `sources.json` got nothing at all. It now takes one story from
-  each source in turn.
-- **Eight minutes down to about ninety seconds.** Article pages get one
-  attempt at eight seconds instead of three attempts at fifteen, eight at a
-  time instead of three. Most of that run was spent waiting on pages that
-  were never going to answer.
-- **Fewer blank stories.** Readability's own pre-check was refusing honest
-  articles; it is gone, and the extractor simply tries.
-- **Inquirer's cut-off stories.** A feed body is no longer trusted just
-  because it is long. If it ends mid-sentence, on an ellipsis, or on a
-  "read more" tag, the page is fetched and whichever version is longer
-  wins.
-- **The log says what actually happened**, per source, including which
-  stories came from the page, the feed, or nothing at all.
-- ABS-CBN and CBC addresses corrected. The schedule moved off :00 and :30,
-  which free-tier jobs rarely get. Node deprecation warning fixed.
+- **Renamed from Balita to Wire.** The app reads BBC, CBC and CNN as
+  readily as Inquirer, and the old name said otherwise. Settings saved
+  under the old name are carried across automatically.
+- **A real icon.** The story card reduced to its bones: the spine bar that
+  runs beside every headline, and the lines of text next to it.
+  Monochrome, so it looks right in either mode.
+- **Stories that arrive incomplete now say so.** A blocked story explains
+  that the outlet refuses the fetcher, and offers a large button to the
+  original — with a plain warning that their site carries advertising. The
+  list flags them too, so you know before tapping.
+- **Unreachable outlets cost seconds, not minutes.** Feed discovery was
+  retrying each of eight guessed addresses three times over. Last run spent
+  380 of its 391 seconds on two outlets that were never going to answer.
+- **The log tells the truth.** A counting mistake printed NaN and hid two
+  sources entirely. It also now distinguishes a timeout from an outright
+  refusal, which want different responses.
+- **CNN switched on.** It shipped disabled by mistake, which is why it
+  never appeared in any run.
 
-The version number lives in `config.js`. Bump `VERSION` and `BUILD_DATE`
-there whenever you change anything, and bump `VERSION` in `sw.js` too —
-that second one is what makes phones let go of the old copy.
-
-Every file sits at the top level, with no folders. That is deliberate: it
-makes uploading from an iPad or phone possible, since mobile browsers
-cannot drag a folder into GitHub.
 
 ## What each file does
 

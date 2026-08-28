@@ -1,13 +1,13 @@
 {
-  "name": "Balita — news, plainly",
-  "short_name": "Balita",
-  "description": "Philippine and world news, stripped of advertising and set for easy reading.",
+  "name": "Wire \u2014 news, plainly",
+  "short_name": "Wire",
+  "description": "News from anywhere, stripped of advertising and set for easy reading.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#F4F6F3",
-  "theme_color": "#FFFFFF",
+  "background_color": "#0F1215",
+  "theme_color": "#14181D",
   "icons": [
     {
       "src": "icon-192.png",

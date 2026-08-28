@@ -152,6 +152,15 @@ export function renderFeed(ctx){
       meta.append(dot, sp);
     });
 
+    /* Say up front when a story did not come through whole, so the
+       shortfall is known before tapping rather than after. */
+    if(a.source_of_text === "summary" || a.truncated){
+      const flag = document.createElement("span");
+      flag.className = "flag";
+      flag.textContent = a.source_of_text === "summary" ? "Headline only" : "Cut short";
+      meta.appendChild(flag);
+    }
+
     const h = document.createElement("h2");
     h.className = "headline";
     h.textContent = a.title;

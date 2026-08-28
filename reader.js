@@ -146,23 +146,52 @@ export function open(ctx, id){
     body.appendChild(p);
   }
 
-  /* Paywalls and blocked pages: say so plainly rather than
-     letting the story appear to stop mid-thought. */
-  if(a.truncated){
-    const t = document.createElement("p");
-    t.className = "truncated";
-    t.textContent = "This is as far as " + (src ? src.name : "the publisher") +
-      " lets us read. The rest is behind their subscription.";
-    body.appendChild(t);
+  /* A story that arrived incomplete should say why, in plain words,
+     and offer the way out. Left unexplained it just looks broken. */
+  const outlet = src ? src.name : "the publisher";
+  const bare   = a.source_of_text === "summary";
+
+  if(bare || a.truncated){
+    const panel = document.createElement("aside");
+    panel.className = "elsewhere";
+
+    const h = document.createElement("p");
+    h.className = "elsewhere-head";
+    h.textContent = bare ? "Headline only" : "Story cut short";
+
+    const why = document.createElement("p");
+    why.className = "elsewhere-why";
+    why.textContent = bare
+      ? outlet + " does not let this app read its pages, so only the " +
+        "headline and summary came through. The full story is on their site."
+      : "This is as far as the text came through. " + outlet +
+        " keeps the rest on their own site, or behind a subscription.";
+
+    panel.append(h, why);
+
+    if(a.url){
+      const go = document.createElement("a");
+      go.className = "elsewhere-go";
+      go.href = a.url;
+      go.target = "_blank";
+      go.rel = "noopener noreferrer";
+      go.textContent = "Read it on " + outlet + " \u2197";
+      panel.appendChild(go);
+
+      const warn = document.createElement("p");
+      warn.className = "elsewhere-warn";
+      warn.textContent = "Opens their site, with their advertising.";
+      panel.appendChild(warn);
+    }
+
+    body.appendChild(panel);
   }
 
   /* origin */
   const origin = document.createElement("p");
   origin.className = "origin";
-  origin.append(document.createTextNode(
-    "Originally published by " + (src ? src.name : "the source") + ". "
-  ));
-  if(a.url){
+  origin.append(document.createTextNode("Originally published by " + outlet + ". "));
+  if(a.url && !bare && !a.truncated){
     const link = document.createElement("a");
     link.href = a.url;
     link.target = "_blank";

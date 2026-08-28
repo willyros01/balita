@@ -6,7 +6,7 @@
    that is not responding.
    ============================================================ */
 
-const UA = "Balita/0.3 (personal news reader; +https://github.com/)";
+const UA = "Wire/0.5 (personal news reader)";
 
 /* Feeds are worth waiting for — there are only a handful and one
    failure costs a whole outlet. Article pages are not: there are
@@ -81,7 +81,11 @@ export async function get(url, opts = {}){
 
     }catch(err){
       clearTimeout(timer);
-      lastErr = err;
+      /* AbortError just means our own timer fired. Say so plainly —
+         "timed out" and "refused the connection" want different fixes. */
+      lastErr = (err && err.name === "AbortError")
+        ? new Error("timed out after " + Math.round((opts.timeout ?? TIMEOUT_MS) / 1000) + "s")
+        : err;
     }
   }
 

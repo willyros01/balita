@@ -17,7 +17,7 @@ import { get, pool } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.4.0";
+const VERSION = "0.5.0";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -173,12 +173,13 @@ async function readSource(source){
   const report = { id: source.id, name: source.name, ok: false, items: [], note: "" };
 
   let feedUrl = source.url;
-  let res;
+  let res, firstError = "";
 
   try{
     res = await get(feedUrl, { accept: "application/rss+xml, application/xml, text/xml, */*" });
   }catch(err){
     res = null;
+    firstError = err && err.message ? err.message : "no response";
   }
 
   /* Not a feed? Perhaps a home page was pasted. Go and look. */
@@ -192,11 +193,14 @@ async function readSource(source){
   }
 
   if(!res || !res.body){
-    report.note = report.note || "no response";
+    report.note = firstError || "no response";
     return report;
   }
   if(res.status >= 400){
-    report.note = "HTTP " + res.status;
+    /* 403 from a datacenter usually means the outlet blocks cloud
+       traffic rather than that anything is broken. Worth naming. */
+    report.note = "HTTP " + res.status +
+      (res.status === 403 ? " — blocking this server" : "");
     return report;
   }
   if(!looksLikeFeed(res.body)){
@@ -401,9 +405,9 @@ async function main(){
       const feedT= got.filter(a => a.source_of_text === "feed").length;
       const only = got.filter(a => a.source_of_text === "summary").length;
       const old  = kept.filter(a => a.source === source.id).length;
-      if(!got.length && !old.length) continue;
+      if(!got.length && !old) continue;
       console.log("  " + source.name.padEnd(18) +
-        String(got.length + old.length).padStart(3) + " stories  " +
+        String(got.length + old).padStart(3) + " stories  " +
         "(page " + page + ", feed " + feedT + ", summary only " + only +
         ", reused " + old + ")");
     }

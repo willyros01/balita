@@ -4,7 +4,7 @@
 
 /* Shown at the bottom of the app, so you can always tell what is
    running on a given phone. Bump both when you cut a new version. */
-export const VERSION    = "0.4.0";
+export const VERSION    = "0.5.0";
 export const BUILD_DATE = "2026-08-27";
 
 /* Where the fetcher writes its output. Relative, so it works
@@ -52,7 +52,7 @@ export const DEFAULT_SOURCES = [
   { id:"mb",   tag:"MB",   name:"Manila Bulletin", url:"https://mb.com.ph/feed",                            color:"#4A5560", on:true },
   { id:"bbc",  tag:"BBC",  name:"BBC World",       url:"https://feeds.bbci.co.uk/news/world/rss.xml",       color:"#8C1D2F", on:true },
   { id:"cbc",  tag:"CBC",  name:"CBC Top Stories", url:"https://rss.cbc.ca/lineup/topstories.xml",     color:"#B03A2E", on:true },
-  { id:"cnn",  tag:"CNN",  name:"CNN World",       url:"http://rss.cnn.com/rss/edition_world.rss",          color:"#94402C", on:false }
+  { id:"cnn",  tag:"CNN",  name:"CNN World",       url:"http://rss.cnn.com/rss/edition_world.rss",          color:"#94402C", on:true }
 ];
 
 /* Offered on the Sources screen as one-tap additions. */

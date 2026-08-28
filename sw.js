@@ -10,7 +10,7 @@
    what makes phones pick up a new build.
    ============================================================ */
 
-const VERSION = "balita-v0.4.0";
+const VERSION = "wire-v0.5.0";
 const SHELL = [
   "./",
   "./index.html",
@@ -23,6 +23,9 @@ const SHELL = [
   "./display.js",
   "./articles.json",
   "./sources.json",
+  "./icon-180.png",
+  "./icon-192.png",
+  "./icon-512.png",
   "./sources.js",
   "./feed.js",
   "./reader.js"

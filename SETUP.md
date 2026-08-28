@@ -1,4 +1,4 @@
-# Setting up Balita
+# Setting up Wire
 
 Written for doing it entirely on an iPad, in Safari. No computer needed,
 nothing to install. About ten minutes.
@@ -9,12 +9,30 @@ GitHub, but it can select a batch of loose files.
 
 ---
 
+## Upgrading to 0.5.0 — read this first
+
+Two things differ from previous versions.
+
+**Do not upload `articles.json`.** The copy in the zip is old sample data,
+and your repository already has the real one the fetcher wrote. Uploading it
+would put placeholder stories back until the next run. When the Files picker
+opens, tap every file *except* that one.
+
+**The repository keeps its name.** Only the app is renamed to Wire. Leaving
+the repository as `balita` means your Pages address does not change and
+nothing breaks.
+
+After uploading, delete the home screen icon and add it again — that is the
+only way iOS picks up the new name and icon.
+
+---
+
 ## Part 1 — Unzip
 
 1. Open the **Files** app.
-2. Find `balita-v0.4.0.zip`, probably in **Downloads**.
+2. Find `wire-v0.5.0.zip`, probably in **Downloads**.
 3. Tap it once. A folder called `balita-v0.2.0` appears beside it.
-4. Tap into that folder. You should see twenty-one files and no folders.
+4. Tap into that folder. You should see twenty-five files and no folders.
 
 ---
 
@@ -57,7 +75,7 @@ discover.mjs       display.js         sw.js
 tokens.css
 ```
 
-7. In the box at the bottom, type: `Version 0.4.0`
+7. In the box at the bottom, type: `Version 0.5.0`
 8. Tap **Commit changes**.
 
 If you end up short a file, just upload the missing ones the same way.
@@ -89,7 +107,7 @@ That link is the app.
 
 Open the address.
 
-**What you should see at 0.4.0:** the header bar, a row of source chips
+**What you should see at 0.5.0:** the header bar, a row of source chips
 below it, and eight stories. Scroll to the bottom for **About this app** —
 version, release date, how many stories are loaded, when they were fetched,
 how many sources are on, where your settings are kept, and whether you are

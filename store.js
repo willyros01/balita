@@ -10,9 +10,14 @@
 
 import { FIREBASE, DEFAULT_SOURCES } from "./config.js";
 
-const KEY_SOURCES  = "balita.sources";
-const KEY_SETTINGS = "balita.settings";
-const DOC_PATH     = "balita/user";
+const KEY_SOURCES  = "wire.sources";
+const KEY_SETTINGS = "wire.settings";
+const DOC_PATH     = "wire/user";
+
+/* The app was called Balita until 0.5.0. Anyone who used it before
+   that has settings under the old names; move them across once so
+   nobody loses their text size or their feed list in the rename. */
+const OLD_KEYS = { "wire.sources": "balita.sources", "wire.settings": "balita.settings" };
 
 let db = null;
 let fs = null;          /* Firestore functions, loaded on demand */
@@ -23,7 +28,16 @@ const memory = {};
 
 function localRead(key){
   try{
-    const raw = window.localStorage.getItem(key);
+    let raw = window.localStorage.getItem(key);
+
+    if(raw === null && OLD_KEYS[key]){
+      raw = window.localStorage.getItem(OLD_KEYS[key]);
+      if(raw !== null){
+        window.localStorage.setItem(key, raw);
+        window.localStorage.removeItem(OLD_KEYS[key]);
+      }
+    }
+
     return raw ? JSON.parse(raw) : null;
   }catch(e){
     return memory[key] ?? null;
