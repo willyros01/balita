@@ -87,5 +87,13 @@
     "url": "https://www.theguardian.com/world/rss",
     "color": "#1D5C96",
     "on": true
+  },
+  {
+    "id": "dw",
+    "tag": "DW",
+    "name": "DW English",
+    "url": "https://rss.dw.com/rdf/rss-en-all",
+    "color": "#2E6B8A",
+    "on": true
   }
 ]

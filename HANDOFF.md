@@ -173,7 +173,23 @@ rightly called out. If a diagnosis needs a fact, ask for the one fact.
 
 ---
 
-## newsinfo: settled (0.9.3)
+## The Cloudflare doorway — prototype PASSED (28 Aug)
+
+`/probe?url=https://newsinfo.inquirer.net/` from a Cloudflare Worker
+returned **status 200, a real article page**, where GitHub's runners get 403.
+The approach works.
+
+Not yet wired in. What remains: set `WIRE_KEY` as a Worker secret, then add
+to `net.mjs` a list of hosts to route through the doorway and a branch that
+calls `/fetch?url=` with the key instead of fetching directly. Roughly ten
+lines. Everything else — parsing, extraction, writing articles.json — stays
+on GitHub exactly as it is. Do not move the extractor to Cloudflare; it
+needs jsdom, which Workers cannot run.
+
+`worker.js` is written, tested against lookalike domains, local files and
+cloud metadata addresses, and restricted to an allowlist of news hosts.
+
+## newsinfo: settled (0.9.3) — superseded by the doorway above
 
 **It refuses GitHub's address range, not the shape of the request.** Every
 idea below was tried together and newsinfo returned 403 on all 35 article
@@ -233,6 +249,30 @@ Worth trying, roughly in order of cost:
 4. If none of that works, the feed's own descriptions run to about sixty
    words with a photograph, which is a usable headline-and-summary card.
    Keep it on those terms and say so in the app rather than pretending.
+
+## Next build: day and night by the clock
+
+Switch automatically on time of day, rather than only when the reader taps
+the moon.
+
+Points to get right:
+
+- **A tap must still win.** Someone who chooses day at nine in the evening
+  wants day. Follow the clock only until they choose, then leave it alone
+  until the next natural boundary — sunrise or sunset — rather than
+  overriding them mid-evening.
+- **Reasonable hours, not a hardcoded pair.** Roughly 6am to 6pm reads as
+  day almost anywhere. Manila's daylight barely shifts through the year, so
+  fixed hours are honest here; no need for a sunrise calculation.
+- **Check on wake, not on a timer.** The app sits open for hours. Recompute
+  when the tab becomes visible again, which costs nothing.
+- **The device setting still matters.** iOS already has a night mode, and
+  someone who has set it deliberately should not be argued with. Treat the
+  system preference as the stronger signal where it exists.
+
+Stored alongside the other display settings in `store.js`, with a third
+state — automatic — beside day and night, so the button cycles
+auto → day → night.
 
 ## Still open
 

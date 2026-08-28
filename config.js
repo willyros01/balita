@@ -2,10 +2,10 @@
    config.js — the only file you edit to make this yours.
    ============================================================ */
 
-/* Shown at the bottom of the app, so you can always tell what is
-   running on a given phone. Bump both when you cut a new version. */
-export const VERSION    = "0.9.3";
-export const BUILD_DATE = "2026-08-27";
+/* The version now lives in version.js, on its own, so it cannot
+   drift from the service worker's cache name. Re-exported here so
+   everything else carries on importing it from one place. */
+export { VERSION, BUILD_DATE } from "./version.js";
 
 /* Where the fetcher writes its output. Relative, so it works
    whether the site sits at the domain root or in a subfolder. */
@@ -54,7 +54,8 @@ export const DEFAULT_SOURCES = [
   { id:"mb",   tag:"MB",   name:"Manila Bulletin", url:"https://mb.com.ph/feed",                            color:"#4A5560", on:true },
   { id:"bbc",  tag:"BBC",  name:"BBC World",       url:"https://feeds.bbci.co.uk/news/world/rss.xml",       color:"#8C1D2F", on:true },
   { id:"cbc",  tag:"CBC",  name:"CBC Top Stories", url:"https://rss.cbc.ca/lineup/topstories.xml",     color:"#B03A2E", on:true },
-  { id:"grd",  tag:"GRD",  name:"The Guardian",    url:"https://www.theguardian.com/world/rss",        color:"#1D5C96", on:true }
+  { id:"grd",  tag:"GRD",  name:"The Guardian",    url:"https://www.theguardian.com/world/rss",        color:"#1D5C96", on:true },
+  { id:"dw",   tag:"DW",   name:"DW English",      url:"https://rss.dw.com/rdf/rss-en-all",            color:"#2E6B8A", on:true }
 ];
 
 /* Offered on the Sources screen as one-tap additions. */

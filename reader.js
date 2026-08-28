@@ -127,8 +127,11 @@ export function open(ctx, id){
 
   head.append(meta, h2, by);
 
-  /* lead picture */
-  const lead = figureFor(a.image, 0, a.title);
+  /* A story with no picture gets none. The invented grey graphic
+     reads as a broken image and pushes half a screen of story down,
+     which is worse than a plain start. It still earns its place as
+     a small thumbnail in the list, where it keeps the rows even. */
+  const lead = (a.image && a.image.src) ? figureFor(a.image, 0, a.title) : null;
 
   /* body */
   const body = document.createElement("div");
@@ -200,7 +203,9 @@ export function open(ctx, id){
     origin.appendChild(link);
   }
 
-  el.append(back, head, lead, body, origin);
+  el.append(back, head);
+  if(lead) el.appendChild(lead);
+  el.append(body, origin);
 
   ctx.show("reader");
   window.scrollTo(0, 0);

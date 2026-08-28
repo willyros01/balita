@@ -140,7 +140,11 @@ function readFeedLoosely(xml){
       published: pick(block, "pubDate") || pick(block, "published") ||
                  pick(block, "updated") || pick(block, "dc:date"),
       summary: pick(block, "description") || pick(block, "summary"),
-      full: pick(block, "content:encoded"),
+      /* Guardian articles carry their picture inside content:encoded.
+         Passing this through means fromFeedContent finds it with the
+         same extractor that reads article pages — one path for feed
+         content, not a second image-hunting regex. */
+      full: pick(block, "content:encoded") || pick(block, "description"),
       byline: pick(block, "dc:creator"),
       section: pick(block, "category"),
       image: (() => {

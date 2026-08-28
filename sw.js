@@ -10,7 +10,11 @@
    what makes phones pick up a new build.
    ============================================================ */
 
-const VERSION = "wire-v0.9.3";
+/* Kept in step with the app's own version. importScripts is the
+   only way a classic service worker can read another file, and the
+   name is derived rather than typed, so the two cannot disagree. */
+importScripts("./version-sw.js");
+const VERSION = self.WIRE_CACHE;
 const SHELL = [
   "./",
   "./index.html",
@@ -21,6 +25,8 @@ const SHELL = [
   "./config.js",
   "./store.js",
   "./display.js",
+  "./version.js",
+  "./version-sw.js",
   "./ui.js",
   "./articles.json",
   "./sources.json",

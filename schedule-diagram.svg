@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" width="760" height="620" font-family="Helvetica, Arial, sans-serif">
+<rect width="760" height="620" fill="#F4F6F3"/>
+<text x="380" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#14181D">How the schedule will work</text>
+<text x="380" y="62" text-anchor="middle" font-size="13" fill="#59626E">Three pieces. You set up the middle one.</text>
+
+<!-- 1 clock -->
+<rect x="40" y="95" width="200" height="112" rx="8" fill="#FFFFFF" stroke="#0B5FA5" stroke-width="2"/>
+<circle cx="70" cy="125" r="13" fill="none" stroke="#0B5FA5" stroke-width="2"/>
+<line x1="70" y1="125" x2="70" y2="117" stroke="#0B5FA5" stroke-width="2"/>
+<line x1="70" y1="125" x2="76" y2="129" stroke="#0B5FA5" stroke-width="2"/>
+<text x="93" y="130" font-size="15" font-weight="bold" fill="#14181D">cron-job.org</text>
+<text x="56" y="155" font-size="12" fill="#59626E">Keeps proper time.</text>
+<text x="56" y="173" font-size="12" fill="#59626E">Every 30 minutes it sends</text>
+<text x="56" y="191" font-size="12" fill="#59626E">one message to GitHub.</text>
+<text x="140" y="228" text-anchor="middle" font-size="11" font-style="italic" fill="#0B5FA5">you set this up — 10 minutes</text>
+
+<!-- arrow 1 -->
+<line x1="240" y1="150" x2="292" y2="150" stroke="#59626E" stroke-width="2"/>
+<polygon points="300,150 290,145 290,155" fill="#59626E"/>
+<text x="270" y="140" text-anchor="middle" font-size="10" fill="#59626E">POST</text>
+
+<!-- 2 github -->
+<rect x="302" y="95" width="200" height="112" rx="8" fill="#FFFFFF" stroke="#DFE3DE" stroke-width="2"/>
+<text x="322" y="128" font-size="15" font-weight="bold" fill="#14181D">GitHub Actions</text>
+<text x="318" y="152" font-size="12" fill="#59626E">Wakes up, reads the feeds,</text>
+<text x="318" y="170" font-size="12" fill="#59626E">strips the pages, writes</text>
+<text x="318" y="188" font-size="12" fill="#59626E">articles.json.</text>
+<text x="402" y="228" text-anchor="middle" font-size="11" font-style="italic" fill="#59626E">already working</text>
+
+<!-- arrow 2 -->
+<line x1="502" y1="150" x2="554" y2="150" stroke="#59626E" stroke-width="2"/>
+<polygon points="562,150 552,145 552,155" fill="#59626E"/>
+
+<!-- 3 app -->
+<rect x="564" y="95" width="156" height="112" rx="8" fill="#FFFFFF" stroke="#DFE3DE" stroke-width="2"/>
+<rect x="622" y="118" width="40" height="62" rx="6" fill="none" stroke="#14181D" stroke-width="2"/>
+<line x1="634" y1="126" x2="650" y2="126" stroke="#14181D" stroke-width="2"/>
+<text x="642" y="200" text-anchor="middle" font-size="13" font-weight="bold" fill="#14181D">Wire</text>
+<text x="642" y="228" text-anchor="middle" font-size="11" font-style="italic" fill="#59626E">fresh news</text>
+
+<!-- why -->
+<rect x="40" y="272" width="680" height="72" rx="8" fill="#EDF0EC" stroke="#DFE3DE"/>
+<text x="60" y="298" font-size="13" font-weight="bold" fill="#14181D">Why not GitHub&#8217;s own scheduler?</text>
+<text x="60" y="320" font-size="12" fill="#59626E">It has one, and it has never fired &#8212; not once in four days. Free-tier scheduled jobs run on spare</text>
+<text x="60" y="338" font-size="12" fill="#59626E">capacity and are skipped rather than delayed. cron-job.org keeps real time.</text>
+
+<!-- what you need -->
+<text x="40" y="386" font-size="15" font-weight="bold" fill="#14181D">The two things you will create</text>
+
+<rect x="40" y="402" width="330" height="180" rx="8" fill="#FFFFFF" stroke="#DFE3DE" stroke-width="2"/>
+<circle cx="66" cy="430" r="13" fill="#0B5FA5"/>
+<text x="66" y="435" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">1</text>
+<text x="88" y="435" font-size="14" font-weight="bold" fill="#14181D">A key, on GitHub</text>
+<text x="58" y="460" font-size="12" fill="#59626E">Proves the message is really from you.</text>
+<text x="58" y="482" font-size="12" fill="#59626E">Scoped to the balita repository alone.</text>
+<text x="58" y="504" font-size="12" fill="#59626E">Shown once &#8212; copy it straight away.</text>
+<text x="58" y="534" font-size="12" fill="#59626E">Settings &#8594; Developer settings &#8594;</text>
+<text x="58" y="552" font-size="12" fill="#59626E">Personal access tokens &#8594; Fine-grained</text>
+
+<rect x="390" y="402" width="330" height="180" rx="8" fill="#FFFFFF" stroke="#DFE3DE" stroke-width="2"/>
+<circle cx="416" cy="430" r="13" fill="#0B5FA5"/>
+<text x="416" y="435" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">2</text>
+<text x="438" y="435" font-size="14" font-weight="bold" fill="#14181D">A job, on cron-job.org</text>
+<text x="408" y="460" font-size="12" fill="#59626E">Sends that message on a timer.</text>
+<text x="408" y="482" font-size="12" fill="#59626E">Free account, no card.</text>
+<text x="408" y="504" font-size="12" fill="#59626E">Holds the key so nobody else sees it.</text>
+<text x="408" y="534" font-size="12" fill="#59626E">One address, one line of text,</text>
+<text x="408" y="552" font-size="12" fill="#59626E">three headers. All copy and paste.</text>
+</svg>
