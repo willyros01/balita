@@ -55,6 +55,12 @@ jobs:
 
       - name: Fetch the news
         run: node fetch-feeds.mjs
+        env:
+          # The Cloudflare doorway, for hosts that refuse this server.
+          # Both are optional: without them the fetcher behaves exactly
+          # as it did before, and those outlets stay headline-only.
+          WIRE_DOOR_URL: ${{ secrets.WIRE_DOOR_URL }}
+          WIRE_KEY: ${{ secrets.WIRE_KEY }}
 
       - name: Commit if anything changed
         run: |
