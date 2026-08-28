@@ -326,7 +326,13 @@ export function fromHtml(html, url){
     image,
     byline: author,
     words,
-    truncated: walled || words < 55
+    /* A story is cut short when the publisher cut it, not when it is
+       simply brief. Word count was flagging 156 of 326 — wire briefs,
+       weather notices, sports results — and putting a warning panel
+       on stories that were complete. A paywall notice in the page is
+       real evidence; shortness is not. The threshold that remains
+       only catches pages where extraction found almost nothing. */
+    truncated: walled || words < 20
   };
 }
 

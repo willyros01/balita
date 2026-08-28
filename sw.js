@@ -10,7 +10,7 @@
    what makes phones pick up a new build.
    ============================================================ */
 
-const VERSION = "wire-v0.9.0";
+const VERSION = "wire-v0.9.2";
 const SHELL = [
   "./",
   "./index.html",

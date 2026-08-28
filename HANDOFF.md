@@ -159,9 +159,68 @@ rightly called out. If a diagnosis needs a fact, ask for the one fact.
 
 ---
 
+## The newsinfo attempt (0.9.1)
+
+All four ideas below were implemented. If newsinfo still returns 403 after
+this, it is refusing GitHub's address range rather than the request's shape,
+and no amount of header work will change that — take option 4 and keep it as
+headline-and-summary.
+
+- A `referer` naming the article's own section page.
+- 6 seconds between requests to that host alone, via `HOST_GAP` in
+  `net.mjs`. Other hosts stay at 1.8s.
+- A warm-up visit to the host's front page, with cookies kept for the run
+  and sent on the article requests.
+- Browser headers, from 0.9.0.
+
+## Original notes on the task
+
+**Get `newsinfo.inquirer.net` readable.** It is the feed the owner actually
+cares about, and the one currently returning HTTP 403 on all forty article
+pages.
+
+Context that narrows it down:
+
+- `globalnation.inquirer.net` fetched 40 of 40 in the same run, with the
+  same code, headers and pacing. So this is not the fetcher's behaviour in
+  general — it is that host specifically.
+- `www.inquirer.net/fullfeed` appears to have stopped updating: several
+  consecutive runs report "20 in feed, 20 already had, 0 to fetch". Treat
+  it as stale, the way GMA's main news feed was. It is probably not worth
+  keeping once newsinfo works.
+- The browser user-agent and 1.8s pacing added in 0.9.0 fixed Inquirer's
+  403s everywhere except this host, so whatever newsinfo runs is stricter
+  than a plain rate limiter.
+
+Worth trying, roughly in order of cost:
+
+1. A `referer` header pointing at the article's own section page. Some
+   filters reject requests that arrive with no referrer at all.
+2. Much slower pacing for that host alone — five or six seconds. Costs
+   several minutes a run, so make it per-host rather than global.
+3. A session cookie: fetch `newsinfo.inquirer.net` once, keep whatever
+   cookie comes back, and send it with the article requests. Many filters
+   admit anything that looks like it arrived via the site.
+4. If none of that works, the feed's own descriptions run to about sixty
+   words with a photograph, which is a usable headline-and-summary card.
+   Keep it on those terms and say so in the app rather than pretending.
+
 ## Still open
 
-- **Inquirer's page fetches.** Two thirds fail. The reason is now logged.
+- **`newsinfo.inquirer.net` returns 403 on every article page.** See above.
+- **"Cut short" is over-reported** — 156 of 326 in the last run. The
+  detector in `extract.mjs` flags any story whose final paragraph does not
+  end in terminal punctuation, and plenty of real articles end on a name or
+  a quotation. That puts a warning panel on complete stories.
+- **The Guardian** (addressed in 0.9.2). `readFeed` caught the XML parser's
+  error, discarded it, and returned immediately — so the recursive entry
+  finder added in 0.8.2 never ran, and the log reported "parsed but held no
+  items" when parsing had failed outright. Three wrong diagnoses came from
+  believing that message. The error is now surfaced, and a pattern-matching
+  reader recovers items from feeds the strict parser rejects.
+
+  **The lesson worth keeping: never swallow an error.** An empty catch
+  block cost more time here than every other bug combined.
 - **Scheduling.** Needs an external service; GitHub's own has never worked.
 - **Firebase is not configured.** `config.js` has `FIREBASE = null`, so
   settings live on each device separately. Optional.

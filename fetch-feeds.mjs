@@ -13,11 +13,11 @@
 
 import { readFile, writeFile } from "node:fs/promises";
 import { XMLParser } from "fast-xml-parser";
-import { get, pool } from "./net.mjs";
+import { get, pool, warmUp } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.9.0";
+const VERSION = "0.9.2";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -38,6 +38,8 @@ const PAGE_TIMEOUT   = 8000;  /* a page silent this long will not answer */
 const PAGE_RETRIES   = 1;   /* one second chance; cheap now that pages are quick */
 
 /* ---------------- feed parsing ---------------- */
+
+let lastParseError = "";
 
 const parser = new XMLParser({
   ignoreAttributes: false,
@@ -107,11 +109,78 @@ function findEntries(node, depth = 0){
 
 /* RSS 2.0, Atom and RDF all in one, since Philippine outlets use
    all three between them. */
+/* Pull items out with pattern matching, for feeds the XML parser
+   will not accept. Publishers put unescaped ampersands and stray
+   markup inside descriptions more often than anyone would like, and
+   one bad character should not cost an entire outlet. Crude, but it
+   only has to find the fields the app actually uses. */
+function readFeedLoosely(xml){
+  const items = [];
+  const blocks = String(xml).match(/<(item|entry)\b[\s\S]*?<\/\1>/gi) || [];
+
+  const pick = (block, tag) => {
+    const m = block.match(new RegExp("<" + tag + "\\b[^>]*>([\\s\\S]*?)<\\/" + tag + ">", "i"));
+    if(!m) return "";
+    return m[1].replace(/^\s*<!\[CDATA\[/, "").replace(/\]\]>\s*$/, "").trim();
+  };
+
+  for(const block of blocks){
+    let link = pick(block, "link");
+    if(!link){
+      const href = block.match(/<link\b[^>]*href\s*=\s*["']([^"']+)["']/i);
+      link = href ? href[1] : "";
+    }
+    if(!link) link = pick(block, "guid");
+
+    const title = pick(block, "title");
+    if(!title || !link) continue;
+
+    items.push({
+      title, link,
+      published: pick(block, "pubDate") || pick(block, "published") ||
+                 pick(block, "updated") || pick(block, "dc:date"),
+      summary: pick(block, "description") || pick(block, "summary"),
+      full: pick(block, "content:encoded"),
+      byline: pick(block, "dc:creator"),
+      section: pick(block, "category"),
+      image: (() => {
+        const m = block.match(/<(?:media:content|media:thumbnail|enclosure)\b[^>]*url\s*=\s*["']([^"']+)["']/i);
+        return m ? { src: m[1], caption: "" } : null;
+      })()
+    });
+  }
+
+  return items;
+}
+
+function looseTidy(i){
+  return {
+    title: stripTags(i.title),
+    link: String(i.link || "").trim(),
+    published: i.published || "",
+    summary: i.summary || "",
+    full: i.full || "",
+    image: i.image || null,
+    section: i.section ? stripTags(i.section).slice(0, 40) : "",
+    byline: stripTags(i.byline || "")
+  };
+}
+
 function readFeed(xml){
   let doc;
   try{
     doc = parser.parse(xml);
   }catch(err){
+    /* Discarding this error is what made The Guardian unreadable for
+       three attempts: the log reported "parsed but held no items"
+       when parsing had in fact failed outright, and the recursive
+       search added to handle odd structures never even ran. */
+    lastParseError = (err && err.message) ? err.message.slice(0, 120) : "XML parse failed";
+    const loose = readFeedLoosely(xml);
+    if(loose.length){
+      lastParseError += " \u2014 recovered " + loose.length + " items by pattern matching";
+      return loose.map(looseTidy);
+    }
     return [];
   }
 
@@ -256,7 +325,13 @@ async function readSource(source){
     return report;
   }
 
+  lastParseError = "";
   const items = readFeed(res.body);
+
+  if(items.length && lastParseError){
+    report.note = lastParseError;
+  }
+
   if(!items.length){
     /* Name the root element. "no items" on its own says nothing
        about whether the fault is theirs or ours. */
@@ -265,8 +340,8 @@ async function readSource(source){
       const m = res.body.match(/<([a-z][\w:.-]*)[\s>]/i);
       if(m) root = m[1];
     }catch(e){}
-    report.note = "feed parsed but held no items (root <" + root + ">, " +
-      Math.round(res.body.length / 1024) + "kB)";
+    report.note = (lastParseError || "parsed, but no items found") +
+      " (root <" + root + ">, " + Math.round(res.body.length / 1024) + "kB)";
     return report;
   }
 
@@ -312,12 +387,25 @@ async function readArticle(item, source){
     };
   }
 
+  /* Arrive the way a reader would: having visited the site, and
+     from a page that links to this one. */
+  await warmUp(item.link);
+
+  let referer = "";
+  try{
+    const u = new URL(item.link);
+    /* the section the article sits in, or the front page */
+    const parts = u.pathname.split("/").filter(Boolean);
+    referer = parts.length > 1 ? u.origin + "/" + parts[0] + "/" : u.origin + "/";
+  }catch(e){}
+
   let page, pageError = "";
   try{
     page = await get(item.link, {
       accept: "text/html,application/xhtml+xml",
       timeout: PAGE_TIMEOUT,
-      retries: PAGE_RETRIES
+      retries: PAGE_RETRIES,
+      referer
     });
     if(page.status >= 400) pageError = "HTTP " + page.status;
   }catch(err){
@@ -382,6 +470,25 @@ async function main(){
 
   /* Sample data from earlier versions should not survive. */
   existing = existing.filter(a => a.id && !String(a.id).startsWith("sample-"));
+
+  /* Stories already collected keep whatever flags they were given at
+     the time, so a change to the rules never reaches them — they are
+     reused rather than re-fetched. The "cut short" test was far too
+     eager and marked well over a hundred complete stories. That much
+     can be put right without fetching anything, because the word
+     count can be recomputed from the text we already hold. */
+  let unflagged = 0;
+  existing.forEach(a => {
+    if(!a.truncated || !Array.isArray(a.blocks)) return;
+    const words = a.blocks
+      .filter(b => b.type === "p" && b.text)
+      .reduce((n, b) => n + b.text.split(/\s+/).length, 0);
+    if(words >= 20 && a.source_of_text === "page"){
+      a.truncated = false;
+      unflagged++;
+    }
+  });
+  if(unflagged) console.log("Cleared a stale cut-short warning from " + unflagged + " stories\n");
 
   const known = new Map(existing.map(a => [a.id, a]));
 

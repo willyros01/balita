@@ -31,6 +31,73 @@ const GAP_MS     = 1800;
 
 const lastHit = new Map();
 
+/* Some hosts want more room than the general pace. newsinfo refuses
+   everything at 1.8s while globalnation, on the same publisher's
+   infrastructure, is perfectly happy. */
+const HOST_GAP = {
+  "newsinfo.inquirer.net": 6000
+};
+
+/* Cookies, kept per host for the life of a run.
+
+   A filter that turns away every request will often admit one that
+   looks like it arrived through the site: it has a cookie from an
+   earlier visit and a referrer naming the page it came from. We
+   fetch the section page once, keep whatever it hands back, and
+   carry it on the article requests. Nothing is stored between runs
+   and nothing identifies anybody. */
+const jar = new Map();
+const warmed = new Set();
+
+function remember(host, res){
+  let cookies = [];
+  try{
+    cookies = typeof res.headers.getSetCookie === "function"
+      ? res.headers.getSetCookie()
+      : [res.headers.get("set-cookie")].filter(Boolean);
+  }catch(e){ return; }
+
+  if(!cookies.length) return;
+
+  const existing = new Map(
+    (jar.get(host) || "").split("; ").filter(Boolean)
+      .map(p => [p.slice(0, p.indexOf("=")), p.slice(p.indexOf("=") + 1)])
+  );
+
+  for(const line of cookies){
+    const pair = String(line).split(";")[0];
+    const eq = pair.indexOf("=");
+    if(eq > 0) existing.set(pair.slice(0, eq).trim(), pair.slice(eq + 1).trim());
+  }
+
+  jar.set(host, [...existing].map(([k, v]) => k + "=" + v).join("; "));
+}
+
+/* Visit a host's front page once, so later requests arrive with a
+   cookie rather than out of nowhere. Failure is not important — it
+   is an attempt to be a better guest, not a requirement. */
+export async function warmUp(url){
+  let host, origin;
+  try{
+    const u = new URL(url);
+    host = u.host; origin = u.origin;
+  }catch(e){ return; }
+
+  if(warmed.has(host)) return;
+  warmed.add(host);
+
+  try{
+    await get(origin + "/", {
+      accept: "text/html,application/xhtml+xml",
+      timeout: 8000,
+      retries: 0,
+      noWarm: true
+    });
+  }catch(err){
+    /* nothing to do; the articles will simply try without a cookie */
+  }
+}
+
 function sleep(ms){
   return new Promise(r => setTimeout(r, ms));
 }
@@ -47,8 +114,9 @@ async function pace(url){
   let host;
   try{ host = new URL(url).host; }catch(e){ return; }
 
+  const gap  = HOST_GAP[host] || GAP_MS;
   const now  = Date.now();
-  const slot = Math.max(now, (lastHit.get(host) || 0) + GAP_MS);
+  const slot = Math.max(now, (lastHit.get(host) || 0) + gap);
   lastHit.set(host, slot);
 
   if(slot > now) await sleep(slot - now);
@@ -67,10 +135,10 @@ export async function get(url, opts = {}){
     const timer = setTimeout(() => ctrl.abort(), opts.timeout ?? TIMEOUT_MS);
 
     try{
-      const res = await fetch(url, {
-        redirect: "follow",
-        signal: ctrl.signal,
-        headers: {
+      let host = "";
+      try{ host = new URL(url).host; }catch(e){}
+
+      const headers = {
           "user-agent": UA,
           "accept": opts.accept ||
             "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.5",
@@ -80,12 +148,21 @@ export async function get(url, opts = {}){
           "accept-encoding": "gzip, deflate, br",
           "sec-fetch-dest": "document",
           "sec-fetch-mode": "navigate",
-          "sec-fetch-site": "none",
+          "sec-fetch-site": opts.referer ? "same-origin" : "none",
           "upgrade-insecure-requests": "1"
-        }
+      };
+
+      if(opts.referer) headers["referer"] = opts.referer;
+      if(jar.has(host)) headers["cookie"] = jar.get(host);
+
+      const res = await fetch(url, {
+        redirect: "follow",
+        signal: ctrl.signal,
+        headers
       });
 
       clearTimeout(timer);
+      remember(host, res);
 
       /* A 403 is worth one more try after a pause: when it comes from
          a rate limiter rather than a policy, waiting is the whole
