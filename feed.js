@@ -76,11 +76,15 @@ export function renderChips(ctx){
   });
 
   ctx.state.sources.filter(s => s.on).forEach(s => {
-    add(s.name, ctx.state.filter === s.id, () => {
+    const b = add(s.name, ctx.state.filter === s.id, () => {
       ctx.state.filter = s.id;
       renderChips(ctx); renderFeed(ctx);
       ctx.announce("Showing " + s.name);
     });
+    /* A selected outlet wears its own colour, the same one that runs
+       down the side of its headlines. */
+    b.dataset.tint = "";
+    b.style.setProperty("--tint", s.color);
   });
 
   add("+ Sources", null, ctx.openSources, "chip-add");

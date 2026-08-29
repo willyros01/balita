@@ -33,7 +33,7 @@ import { Readability } from "@mozilla/readability";
    which is why several fixes appeared not to work: they did work,
    on the handful of new stories, while the hundreds of reused ones
    went on showing exactly what they showed before. */
-export const EXTRACTOR_VERSION = 4;
+export const EXTRACTOR_VERSION = 5;
 
 /* Blocks the app can draw. Anything else is dropped. */
 const KEEP = new Set(["P", "H2", "H3", "H4", "BLOCKQUOTE", "UL", "OL", "FIGURE", "IMG"]);
@@ -116,6 +116,11 @@ const JUNK = [
   /^to view this video please enable javascript/i,
   /^skip next section/i,
   /^more from this section/i,
+
+  /* DW's appeal to be marked a preferred source, in every article */
+  /^if you rely on our team for trusted reporting/i,
+  /\bselect us as your preferred source on google\b/i,
+  /^edited by:/i,
 
   /* placeholder states, never content */
   /^loading\u2026?\.{0,3}$/i,
@@ -454,7 +459,23 @@ export function fromHtml(html, url){
   let image = lead;
   if(image){
     const leadStem = stem(image.src);
+
+    /* Same picture, same filename. */
     blocks = blocks.filter(b => !(b.type === "image" && b.src && stem(b.src) === leadStem));
+
+    /* Same picture, different crop.
+
+       Comparing filenames was not enough: outlets publish a wide
+       version above the story and a squarer one inside it, and the
+       two are separate files. But an image sitting before the first
+       paragraph is the article's own opening picture, which is
+       exactly what the lead already shows. Drop anything ahead of
+       the first paragraph rather than trying to prove two files hold
+       the same photograph. */
+    const firstText = blocks.findIndex(b => b.type === "p" || b.type === "h");
+    if(firstText > 0){
+      blocks = blocks.filter((b, i) => i >= firstText || b.type !== "image");
+    }
   }
   if(!image){
     const first = blocks.find(b => b.type === "image");

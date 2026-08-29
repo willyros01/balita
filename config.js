@@ -38,6 +38,12 @@ export const FIREBASE = {
    see the data-step rules in tokens.css. */
 export const SCALE = [17, 20, 24, 29, 35, 42, 50];
 
+/* When the app switches itself between day and night, if you leave it
+   on automatic. Manila's daylight barely shifts through the year, so
+   fixed hours are honest here — no sunrise arithmetic needed. */
+export const DAY_FROM = 6;    /* 6am */
+export const DAY_UNTIL = 18;  /* 6pm */
+
 export const MIN_STEP = 0;
 export const MAX_STEP = SCALE.length - 1;
 

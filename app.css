@@ -44,13 +44,13 @@ body{
 }
 .wordmark{
   font-family: var(--font-head); font-weight: 700;
-  font-size: 1.45em; letter-spacing: -0.015em;
-  margin: 0; line-height: 1.1;
+  font-size: 1.5em; letter-spacing: -0.025em;
+  margin: 0; line-height: 1.05;
 }
 .wordmark span{
   display: block; font-family: var(--font-body);
-  font-size: 0.4em; font-weight: 400; letter-spacing: 0.09em;
-  text-transform: uppercase; color: var(--muted); line-height: 1.4;
+  font-size: 0.38em; font-weight: 700; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--muted); line-height: 1.5;
 }
 .controls{ margin-left: auto; display: flex; gap: 0.35rem; }
 
@@ -96,6 +96,13 @@ body[data-view="feed"] .sources{ display: block; }
   background: var(--ink); border-color: var(--ink);
   color: var(--surface); font-weight: 700;
 }
+.chip[aria-pressed="true"][data-tint]{
+  background: var(--tint); border-color: var(--tint); color: #FFFFFF;
+}
+html[data-theme="night"] .chip[aria-pressed="true"][data-tint]{ color: #0F1215; }
+html[data-contrast="high"] .chip[aria-pressed="true"][data-tint]{
+  background: var(--ink); border-color: var(--ink); color: var(--surface);
+}
 .chip-add{ border-style: dashed; color: var(--accent); font-weight: 700; }
 
 /* ---------------- shell ---------------- */
@@ -118,14 +125,18 @@ body[data-view="manage"] .view-manage{ display: block; }
 
 .card{ border-bottom: var(--rule-w) solid var(--rule); }
 .card-btn{
-  display: flex; gap: 0.9rem; width: 100%;
+  display: flex; gap: 1rem; width: 100%;
   text-align: left; font: inherit; color: inherit;
   background: transparent; border: 0;
   border-left: var(--spine-w) solid var(--spine);
-  padding: 1.05rem var(--sp) 1.1rem;
-  cursor: pointer; transition: background var(--dur) linear;
+  padding: 1.25rem var(--sp) 1.3rem;
+  cursor: pointer;
+  transition: background var(--dur) linear, border-left-width var(--dur) ease;
 }
 .card-btn:hover{ background: var(--surface); }
+/* A press should be felt. The spine thickens rather than the whole
+   row flashing, which keeps the text still while it happens. */
+.card-btn:active{ background: var(--shade); }
 .card-text{ flex: 1; min-width: 0; }
 
 .thumb{
@@ -142,12 +153,22 @@ body[data-view="manage"] .view-manage{ display: block; }
   display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem;
   font-size: 0.78em; color: var(--muted); margin: 0 0 0.35rem;
 }
+/* The outlet's mark. It carries the source colour, which is the one
+   visual idea this app has — the same colour as the spine beside the
+   headline. It was drawn as a hollow outline and disappeared into
+   the metadata line; filled, it anchors the row. */
 .tag{
-  font-weight: 700; letter-spacing: 0.07em; color: var(--spine);
-  border: var(--rule-w) solid currentColor; border-radius: 3px;
-  padding: 0.05rem 0.35rem;
+  font-weight: 700; font-size: 0.94em;
+  letter-spacing: 0.08em;
+  color: #FFFFFF; background: var(--spine);
+  border: var(--rule-w) solid var(--spine);
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
 }
-html[data-contrast="high"] .tag{ color: var(--ink); }
+html[data-theme="night"] .tag{ color: #0F1215; }
+html[data-contrast="high"] .tag{
+  color: var(--surface); background: var(--ink); border-color: var(--ink);
+}
 .dot{ opacity: 0.6; }
 
 .headline{
@@ -191,30 +212,52 @@ html[data-step="6"] .wordmark span{ display: none; }
 
 .article-head{
   border-left: var(--spine-w) solid var(--spine);
-  padding-left: 0.9rem; margin: 0.5rem 0 1.2rem;
+  padding-left: 1rem;
+  margin: 0.5rem 0 1.5rem;
 }
 .article-title{
   font-family: var(--font-head); font-weight: 700;
   font-size: calc(1em * var(--title-scale));
-  line-height: 1.18; letter-spacing: -0.015em;
-  margin: 0.3rem 0 0.5rem; text-wrap: balance;
+  line-height: 1.16; letter-spacing: -0.018em;
+  margin: 0.45rem 0 0.6rem; text-wrap: balance;
 }
-.byline{ font-size: 0.82em; color: var(--muted); margin: 0; }
+.byline{
+  font-size: 0.84em; color: var(--muted); margin: 0;
+  padding-top: 0.5rem;
+  border-top: var(--rule-w) solid var(--rule);
+}
+html[data-contrast="high"] .byline{ color: var(--ink); }
 
 figure{ margin: 0 0 1.3rem; }
 figure img, figure svg{
   display: block; width: 100%; height: auto;
-  border: var(--rule-w) solid var(--rule); border-radius: var(--radius);
+  border: var(--rule-w) solid var(--rule);
+  border-radius: var(--radius);
   background: var(--shade);
 }
+figure{ margin: 0 0 1.5rem; }
 figcaption{
-  font-size: 0.8em; color: var(--muted); line-height: 1.45;
-  border-left: 3px solid var(--rule);
-  padding: 0 0 0 0.6rem; margin-top: 0.55rem;
+  font-size: 0.82em; color: var(--muted); line-height: 1.5;
+  border-left: 3px solid var(--spine);
+  padding: 0.1rem 0 0.1rem 0.65rem;
+  margin-top: 0.6rem;
 }
 html[data-contrast="high"] figcaption{ color: var(--ink); }
 
-.article-body p{ margin: 0 0 1.1em; line-height: 1.7; }
+.article-body p{ margin: 0 0 1.15em; line-height: 1.72; }
+
+/* The story starts here. A slightly larger opening paragraph is the
+   oldest signal in print that the article has begun, and it costs
+   nothing. Held back at the big text sizes, where everything is
+   already large. */
+.article-body > p:first-child{
+  font-size: 1.08em;
+  line-height: 1.62;
+  color: var(--ink);
+}
+html[data-step="4"] .article-body > p:first-child,
+html[data-step="5"] .article-body > p:first-child,
+html[data-step="6"] .article-body > p:first-child{ font-size: 1em; }
 .article-body h3{
   font-family: var(--font-head); font-size: 1.2em;
   margin: 1.6em 0 0.5em;
@@ -597,4 +640,19 @@ html[data-contrast="high"] .count-pill{ color: var(--ink); }
   border-left: var(--spine-w) solid #B4342B;
   border-radius: var(--radius);
   font-size: 0.85em; line-height: 1.5;
+}
+
+/* The day and night button has three states, and automatic needs to
+   look different from a deliberate choice — otherwise nobody knows
+   whether the app is following the clock or obeying them. A small
+   mark in the corner says which, without another button. */
+.ctrl[data-mode="auto"]{ position: relative; }
+.ctrl[data-mode="auto"]::after{
+  content: "";
+  position: absolute; right: 4px; top: 4px;
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--accent);
+}
+.ctrl[data-mode="night"]{
+  background: var(--accent); border-color: var(--accent); color: var(--on-accent);
 }

@@ -17,7 +17,7 @@ import { get, pool, doorwayReady, needsDoorway } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut, EXTRACTOR_VERSION } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.13.1";
+const VERSION = "0.14.0";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";

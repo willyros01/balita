@@ -15,7 +15,9 @@
   --step: 0;
   --base: 17px;
 
-  --sp: 1rem;             /* page gutter */
+  /* Page gutter. Never below 0.9rem: text against the edge of a
+     screen reads as cut off, whatever the actual margin. */
+  --sp: 1.15rem;
   --measure: 34rem;       /* reading column */
 
   /* How much larger a headline is than body text. This shrinks at
@@ -104,14 +106,18 @@ html[data-contrast="high"] [style*="--spine"]{ --spine: var(--rule) !important; 
 html[data-step="4"],
 html[data-step="5"],
 html[data-step="6"]{
-  --sp: 0.7rem;
+  --sp: 1rem;
   --head-scale: 1.14;
   --title-scale: 1.3;
   --spine-w: 5px;
 }
 html[data-step="5"],
 html[data-step="6"]{
-  --sp: 0.55rem;
+  /* Squeezed to 0.55rem in 0.4.0 to win a few characters per line.
+     At 50px that put the letters against the edge of the screen and
+     made them look clipped. Words need a margin to sit in; the extra
+     character was not worth it. */
+  --sp: 0.9rem;
   --head-scale: 1.08;
   --title-scale: 1.18;
 }

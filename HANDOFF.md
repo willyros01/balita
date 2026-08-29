@@ -250,6 +250,29 @@ Worth trying, roughly in order of cost:
    words with a photograph, which is a usable headline-and-summary card.
    Keep it on those terms and say so in the app rather than pretending.
 
+## Fixed in 0.14.0
+
+- **Day and night follow the clock.** Three states on one button:
+  automatic, day, night. Automatic switches at 6am and 6pm and rechecks
+  when the app comes back into view. A deliberate choice is never
+  overridden. A small dot on the button marks automatic.
+- **The gutter was too tight.** 0.4.0 cut it to 0.55rem at the largest text
+  sizes to win a character per line; on an iPhone that put the letters
+  against the edge and they read as clipped. Never below 0.9rem now.
+- **The design has more presence.** The source tag is filled with the
+  outlet's colour rather than outlined, so the one visual idea the app has
+  actually shows. A selected chip wears that colour too. The opening
+  paragraph is slightly larger, the byline sits under a rule, captions take
+  the source colour.
+- **The opening picture no longer repeats.** Comparing filenames missed it,
+  because outlets publish a wide crop above the story and a squarer one
+  inside — different files. Any image before the first paragraph is dropped
+  instead, which is structural and does not depend on proving two files hold
+  the same photograph.
+- DW's Google "preferred source" appeal and "Edited by:" filtered.
+
+**EXTRACTOR_VERSION is now 5**, so the next run re-reads everything again.
+
 ## Fixed in 0.13.0 — the one that mattered most
 
 **Improvements now reach stories already collected.** Until this build the
