@@ -4,6 +4,32 @@
 
 *,*::before,*::after{ box-sizing: border-box; }
 
+/* Nothing may be wider than the screen.
+
+   Something in the page was overflowing to the right, so the whole
+   document scrolled sideways: the story text ran off the left edge
+   and the header — sticky, but still inside a too-wide document —
+   travelled with it. On an iPad the extra width fitted and nothing
+   showed; on an iPhone and a Fire 8 it did not.
+
+   That also explains buttons that would not respond. They were not
+   dead; they had been carried out of reach, and the taps were
+   landing where they used to be. */
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* A flex child will not shrink below its content unless told, and
+   one long word — an address, a hashtag, a German compound — is
+   enough to push a row past the edge. */
+.card-text, .sname, .toast-text, .about-list dd{ min-width: 0; }
+
+.headline, .standfirst, .article-title, .article-body p,
+.article-body li, figcaption, .sname small{
+  overflow-wrap: anywhere;
+}
+
 html{ background: var(--bg); }
 
 body{

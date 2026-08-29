@@ -33,7 +33,7 @@ import { Readability } from "@mozilla/readability";
    which is why several fixes appeared not to work: they did work,
    on the handful of new stories, while the hundreds of reused ones
    went on showing exactly what they showed before. */
-export const EXTRACTOR_VERSION = 5;
+export const EXTRACTOR_VERSION = 6;
 
 /* Blocks the app can draw. Anything else is dropped. */
 const KEEP = new Set(["P", "H2", "H3", "H4", "BLOCKQUOTE", "UL", "OL", "FIGURE", "IMG"]);
@@ -116,6 +116,10 @@ const JUNK = [
   /^to view this video please enable javascript/i,
   /^skip next section/i,
   /^more from this section/i,
+
+  /* GMA's version of the same appeal */
+  /^make this your preferred source/i,
+  /\bto get more updates from this publisher on google\b/i,
 
   /* DW's appeal to be marked a preferred source, in every article */
   /^if you rely on our team for trusted reporting/i,
