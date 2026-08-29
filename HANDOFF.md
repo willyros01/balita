@@ -250,6 +250,35 @@ Worth trying, roughly in order of cost:
    words with a photograph, which is a usable headline-and-summary card.
    Keep it on those terms and say so in the app rather than pretending.
 
+## Fixed in 0.13.0 — the one that mattered most
+
+**Improvements now reach stories already collected.** Until this build the
+fetcher reused anything it already had, so a change to the extractor only
+ever affected the handful of stories fetched afterwards. DW had 136 of 139
+reused; the boundary fix touched three of them. Several fixes looked as
+though they had failed when they had simply never run on the stories being
+looked at.
+
+`EXTRACTOR_VERSION` in `extract.mjs` is stamped onto every story as `fx`.
+Anything carrying an older number is read again. **Bump it whenever the
+extraction rules change** — a new filter, a new boundary, anything that
+would produce different blocks from the same page. Expect one long run
+afterwards while the backlog is re-read; the fetch budget spreads it over
+two or three runs, and the log says how many are stale.
+
+Also in 0.13.0:
+
+- **The list no longer invents thumbnails.** A story without a picture used
+  to show a fabricated one in the list and nothing in the article, so the
+  two disagreed. Nothing in the app now draws a picture that does not exist.
+- **Interface icons are not photographs.** Filtered by shape — small and
+  roughly square — and by address (`icon`, `share`, `sprite`, `button`).
+  Not by caption: that way lies a new word every week.
+- **The lead picture no longer repeats** as the first body block. Whole-URL
+  comparison missed it because outlets serve the same photograph at several
+  sizes; the filename is compared instead.
+- **DW's video furniture** filtered.
+
 ## Fixed in 0.12.0 — and why they needed fixing twice
 
 **The DW cut was cancelled by another fix in the same build.** 0.11.0 added
@@ -310,6 +339,85 @@ not yet uploaded when this was seen, or DW stories are arriving with no
 image at all. If the latter: DW is RDF like The Guardian was, and this is
 probably the same fault — the picture is inside the item and the reader is
 not passing it through. **Check the version in About before investigating.**
+
+## Next build: ABS-CBN articles arriving empty — measured
+
+A story showed only a clipboard icon and a "Story cut short" panel. Probed
+through the Cloudflare Worker on 28 Aug:
+
+```
+target:  abs-cbn.com/news/nation/2026/8/26/water-leaks-inside-lrt-1...
+status:  200      bytes: 295161      paragraphs: 2
+verdict: answered, but the page holds almost no text
+```
+
+**Not a refusal.** Cloudflare received the whole page — 295KB of it — and
+the article is not in there. ABS-CBN builds its stories in the browser after
+the page arrives, so the fetcher receives a shell and so would the doorway.
+**Routing ABS-CBN through Cloudflare would change nothing**, which is worth
+knowing because it was the obvious first instinct.
+
+### Settled in 0.13.1: feedOnly
+
+The other sections were never probed, deliberately. The owner reads news,
+not sports or entertainment, and nation — the section that matters — is
+confirmed empty. Probing sections nobody reads to maybe rescue one of them
+was not worth the owner's time.
+
+ABS-CBN is now `feedOnly`. Its feed carries a headline, a summary and a
+photograph, so it shows a proper headline card rather than a clipboard icon
+above an empty panel. It also stops the fetcher opening a hundred pages a
+run for nothing, which was most of the run time.
+
+The reading view says why, in plain words: the site builds its stories in
+the browser, so the page arrives without the article in it.
+
+**If ABS-CBN ever rebuilds their site**, drop the `feedOnly` flag and probe
+again. Nothing else needs changing.
+
+## Next build: interface icons arriving as photographs
+
+ABS-CBN, on 0.12.0: a full-screen grey copy-to-clipboard icon, captioned
+"Clipboard", sitting in the article where a photograph should be.
+
+It is the share widget. Readability keeps it because it is an image with a
+caption, and the caption filter added in 0.10.0 only knows the words logo,
+banner, advertisement and newsletter.
+
+**Do not add "clipboard" to that list.** The next one will be Copy, or
+Share, or Print, and the list will grow forever. Filter on what the picture
+*is*, which distinguishes the whole family at once:
+
+- An interface icon is small and square. A news photograph is wide. If the
+  markup gives width and height, a square under roughly 200px is not a
+  photograph.
+- Its address usually says so: `/icon`, `/icons/`, `share`, `sprite`,
+  `button`, `ui/`.
+- SVG is already excluded by `usableImage`; PNG at icon dimensions is the
+  common case here.
+
+Also worth checking whether this inflates the photo counts — ABS-CBN
+reported 37/100 with a photo, and some of those may be icons rather than
+pictures, which would make that number misleading rather than merely low.
+
+## Next build: the lead photograph repeats
+
+Reported on 0.12.0, an Inquirer News story: the same picture shown twice,
+once as the lead and again as the first block of the body.
+
+The cause is the duplicate collapse in `toBlocks`, widened in 0.10.0 to
+compare against every block kept so far — but it keys on `b.text`, and image
+blocks have none, so they are never compared at all. `seenImages` catches
+repeats *within* the body; nothing compares the body against the lead.
+
+`fromHtml` already removes the first body image when it exactly matches the
+lead. Evidently that is not firing here — either the lead is chosen after
+that check, or the two addresses differ slightly (a different crop or size
+parameter of the same photograph, which is common).
+
+**Establish which before writing the fix.** If the addresses differ, matching
+on the address will not help and the comparison needs to be on the filename
+stem rather than the whole URL.
 
 ## Next build: day and night by the clock
 

@@ -14,10 +14,10 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { XMLParser } from "fast-xml-parser";
 import { get, pool, doorwayReady, needsDoorway } from "./net.mjs";
-import { fromHtml, fromFeedContent, looksCut } from "./extract.mjs";
+import { fromHtml, fromFeedContent, looksCut, EXTRACTOR_VERSION } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.12.0";
+const VERSION = "0.13.1";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -382,7 +382,8 @@ async function readArticle(item, source){
     url: item.link,
     image: item.image,
     blocks: [],
-    truncated: false
+    truncated: false,
+    fx: EXTRACTOR_VERSION
   };
 
   const fallback = [{ type: "p", text: stripTags(item.summary) }].filter(b => b.text);
@@ -540,6 +541,7 @@ async function main(){
      queue separate so the budget can be shared out fairly. */
   const queues = new Map();
   const kept   = [];
+  let stale    = 0;
 
   reports.forEach((r, i) => {
     const source = sources[i];
@@ -558,10 +560,16 @@ async function main(){
     for(const item of r.items.slice(0, PER_SOURCE)){
       const id = idFor(source.id, item.link);
       const have = known.get(id);
-      if(have && Array.isArray(have.blocks) && have.blocks.length){
+      const current = have && have.fx === EXTRACTOR_VERSION;
+
+      if(have && current && Array.isArray(have.blocks) && have.blocks.length){
         kept.push(have);
         reused++;
       }else{
+        /* Either new, or extracted under older rules. Read it again
+           so improvements reach the stories already collected — the
+           reason several fixes appeared to do nothing. */
+        if(have) stale++;
         queue.push({ item, source });
       }
     }
@@ -594,6 +602,10 @@ async function main(){
 
   const queued  = lists.reduce((n, l) => n + l.length, 0);
   const skipped = queued - wanted.length;
+
+  if(stale){
+    console.log("\n" + stale + " stories were extracted under older rules and will be read again");
+  }
 
   console.log("\nFetching " + wanted.length + " stories" +
     (skipped ? " (" + skipped + " left for the next run)" : "") + "\n");

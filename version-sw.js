@@ -1,1 +1,1 @@
-self.WIRE_CACHE = "wire-v0.12.0";
+self.WIRE_CACHE = "wire-v0.13.1";

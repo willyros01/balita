@@ -31,8 +31,8 @@ export function timeAgo(iso){
 }
 
 /* ---------------- artwork ----------------
-   A story with no picture gets a quiet shape rather than an empty
-   grey box, so the row keeps its rhythm down the page. */
+   Kept for the icons, no longer used for stories. Nothing in the app
+   now draws a picture that does not exist. */
 export function placeholder(seed, w, h){
   const n = Math.abs(seed | 0) % 6;
   const a = ["#8FA6B5","#B59E8F","#9BB58F","#A98FB5","#B58F9B","#8FB5AE"][n];
@@ -172,25 +172,31 @@ export function renderFeed(ctx){
     text.append(meta, h);
     if(a.summary) text.appendChild(sf);
 
-    /* picture side */
-    const thumb = document.createElement("div");
-    thumb.className = "thumb";
-    thumb.setAttribute("aria-hidden", "true");
+    /* A thumbnail only when there is a real picture.
+
+       The list used to draw an invented one for every story without
+       an image, so a headline appeared to have a photograph and then
+       the article had none. The list and the story disagreed, which
+       is worse than an uneven row. Text takes the full width instead. */
+    btn.appendChild(text);
 
     if(a.image && a.image.src){
+      const thumb = document.createElement("div");
+      thumb.className = "thumb";
+      thumb.setAttribute("aria-hidden", "true");
+
       const img = document.createElement("img");
       img.src = a.image.src;
       img.alt = "";
       img.loading = "lazy";
       img.decoding = "async";
-      /* A picture that will not load should not leave a hole. */
-      img.addEventListener("error", () => { thumb.innerHTML = placeholder(i, 100, 100); });
+      /* If it will not load, take the frame away rather than filling
+         it with something imaginary. */
+      img.addEventListener("error", () => thumb.remove());
       thumb.appendChild(img);
-    }else{
-      thumb.innerHTML = placeholder(i, 100, 100);
-    }
 
-    btn.append(text, thumb);
+      btn.appendChild(thumb);
+    }
     li.appendChild(btn);
     listEl.appendChild(li);
   });

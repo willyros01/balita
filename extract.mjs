@@ -23,6 +23,18 @@ const quiet = new VirtualConsole();
 quiet.on("jsdomError", () => {});
 import { Readability } from "@mozilla/readability";
 
+/* Bump this whenever the rules below change — a new filter, a new
+   boundary, anything that would produce different blocks from the
+   same page. Stories carry the number they were extracted with, and
+   the fetcher re-reads any that were done under an older one.
+
+   Without this, improvements only ever reach stories fetched after
+   them. Everything already collected keeps its old text forever,
+   which is why several fixes appeared not to work: they did work,
+   on the handful of new stories, while the hundreds of reused ones
+   went on showing exactly what they showed before. */
+export const EXTRACTOR_VERSION = 4;
+
 /* Blocks the app can draw. Anything else is dropped. */
 const KEEP = new Set(["P", "H2", "H3", "H4", "BLOCKQUOTE", "UL", "OL", "FIGURE", "IMG"]);
 
@@ -97,6 +109,14 @@ const JUNK = [
   /^disclaimer: the comments uploaded on this site/i,
   /^we reserve the right to exclude comments/i,
 
+  /* video and audio players sitting inside the article */
+  /^watch video \d{1,2}:\d{2}/i,
+  /^video \d{1,2}:\d{2}$/i,
+  /^this browser does not support the video element/i,
+  /^to view this video please enable javascript/i,
+  /^skip next section/i,
+  /^more from this section/i,
+
   /* placeholder states, never content */
   /^loading\u2026?\.{0,3}$/i,
   /^please wait\u2026?$/i,
@@ -152,13 +172,30 @@ function absolute(src, base){
   }
 }
 
-/* Publishers hand out placeholder and tracking pixels freely. */
+/* Publishers hand out placeholder and tracking pixels freely, and
+   share widgets sit in the article looking like pictures. ABS-CBN's
+   copy-to-clipboard icon arrived full width, captioned "Clipboard".
+
+   Filtering on the caption would mean a new word every time — Copy,
+   Share, Print, and on forever. What separates them is what they
+   are: an interface icon is a small square graphic at an address
+   that usually says so. A news photograph is wide. */
 function usableImage(url){
   if(!url) return false;
   if(!/^https?:/i.test(url)) return false;
   if(/\.svg(\?|$)/i.test(url)) return false;
   if(/(spacer|pixel|blank|placeholder|1x1|transparent)\./i.test(url)) return false;
+  if(/(^|[\/_-])(icons?|sprite|share|social|button|btn|logo|avatar|badge|emoji|ui)([\/_.-]|$)/i.test(url)) return false;
   return true;
+}
+
+/* An icon by its dimensions, where the markup gives them. */
+function looksLikeIcon(img){
+  const w = parseInt(img.getAttribute("width") || "0", 10);
+  const h = parseInt(img.getAttribute("height") || "0", 10);
+  if(!w || !h) return false;
+  if(w > 320 || h > 320) return false;
+  return Math.abs(w - h) <= Math.max(w, h) * 0.25;   /* roughly square */
 }
 
 function imageFrom(node, base){
@@ -182,6 +219,7 @@ function imageFrom(node, base){
 
   src = absolute(src, base);
   if(!usableImage(src)) return null;
+  if(looksLikeIcon(img)) return null;
 
   const capEl = node.tagName === "FIGURE" ? node.querySelector("figcaption") : null;
   let caption = capEl ? capEl.textContent.trim() : (img.getAttribute("alt") || "").trim();
@@ -398,10 +436,25 @@ export function fromHtml(html, url){
   const author = byline(doc, article);
   dom.window.close();
 
-  /* Drop a lead picture that the body already opens with. */
+  /* Drop a lead picture the body also carries.
+
+     Comparing whole addresses was not enough: outlets serve the same
+     photograph at several sizes, so the lead and the body block by
+     a width parameter or a crop folder and both were drawn. Compare
+     the filename instead, which survives that. */
+  const stem = u => {
+    try{
+      const path = new URL(u).pathname;
+      return path.slice(path.lastIndexOf("/") + 1).replace(/\.[a-z0-9]+$/i, "").toLowerCase();
+    }catch(e){
+      return u;
+    }
+  };
+
   let image = lead;
-  if(image && blocks[0] && blocks[0].type === "image" && blocks[0].src === image.src){
-    blocks.shift();
+  if(image){
+    const leadStem = stem(image.src);
+    blocks = blocks.filter(b => !(b.type === "image" && b.src && stem(b.src) === leadStem));
   }
   if(!image){
     const first = blocks.find(b => b.type === "image");

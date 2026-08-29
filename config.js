@@ -48,7 +48,7 @@ export const DEFAULT_SOURCES = [
   { id:"inqn", tag:"INQN", name:"Inquirer News",   url:"https://newsinfo.inquirer.net/feed",     color:"#C2382F", on:true, feedOnly:true },
   { id:"inqg", tag:"INQG", name:"Inquirer Global", url:"https://globalnation.inquirer.net/feed", color:"#A8443C", on:true },
   { id:"star", tag:"STAR", name:"Philstar",        url:"https://www.philstar.com/rss/headlines",            color:"#1F5FA9", on:true },
-  { id:"abs",  tag:"ABS",  name:"ABS-CBN",         url:"https://www.abs-cbn.com/news",                      color:"#D48310", on:true },
+  { id:"abs",  tag:"ABS",  name:"ABS-CBN",         url:"https://www.abs-cbn.com/news",                      color:"#D48310", on:true, feedOnly:true },
   { id:"rap",  tag:"RAP",  name:"Rappler",         url:"https://www.rappler.com/feed/",                     color:"#7B4BA8", on:true },
   { id:"gma",  tag:"GMA",  name:"GMA News",        url:"https://data.gmanetwork.com/gno/rss/news/nation/feed.xml", color:"#1B7A5A", on:true },
   { id:"mb",   tag:"MB",   name:"Manila Bulletin", url:"https://mb.com.ph/feed",                            color:"#4A5560", on:true },

@@ -38,7 +38,8 @@
     "name": "ABS-CBN",
     "url": "https://www.abs-cbn.com/news",
     "color": "#D48310",
-    "on": true
+    "on": true,
+    "feedOnly": true
   },
   {
     "id": "rap",

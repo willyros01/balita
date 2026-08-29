@@ -173,8 +173,9 @@ export function open(ctx, id){
     const why = document.createElement("p");
     why.className = "elsewhere-why";
     why.textContent = bare
-      ? outlet + " does not let this app read its pages, so only the " +
-        "headline and summary came through. The full story is on their site."
+      ? outlet + " builds its stories in the browser, so the page arrives " +
+        "with the article not yet in it. The headline, summary and " +
+        "photograph come from their feed; the rest is on their site."
       : "This is as far as the text came through. " + outlet +
         " keeps the rest on their own site, or behind a subscription.";
 
