@@ -250,6 +250,28 @@ Worth trying, roughly in order of cost:
    words with a photograph, which is a usable headline-and-summary card.
    Keep it on those terms and say so in the app rather than pretending.
 
+## Fixed in 0.14.1
+
+- **Every button on the Sources screen was dead on iPhone.** `.toast`
+  declared `display: flex`, which beats the browser's own rule for the
+  `hidden` attribute — so the toast never left the page. Invisible at zero
+  opacity, and catching every tap that landed on it. On an iPad the buttons
+  sat above it; on an iPhone they sat under it. Reported twice before it was
+  found. `.toast[hidden] { display: none }` and `pointer-events: none`
+  until shown.
+
+  **Worth remembering: a class that sets `display` silently defeats
+  `hidden`.** Anything toggled by that attribute needs the rule written out.
+
+- **Delete is a word in a button**, well clear of the On/Off toggle.
+- **The Guardian's entity limit** raised in the parser options. If the
+  installed version does not know the option it is ignored and the
+  pattern-matching reader carries on as before — either way nothing is lost,
+  and the log now reports recovery as a success rather than an error.
+- **Stale stories stay in the file** while they wait to be re-read, instead
+  of being dropped. The list no longer thins from 517 to 250 during a
+  changeover.
+
 ## Fixed in 0.14.0
 
 - **Day and night follow the clock.** Three states on one button:

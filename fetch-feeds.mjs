@@ -17,7 +17,7 @@ import { get, pool, doorwayReady, needsDoorway } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut, EXTRACTOR_VERSION } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.14.0";
+const VERSION = "0.14.1";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -45,7 +45,18 @@ const parser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: "@",
   textNodeName: "#text",
-  trimValues: true
+  trimValues: true,
+
+  /* The Guardian's feed carries enough escaped HTML to trip a
+     safety limit meant for a particular kind of attack — a document
+     that expands itself until it fills memory. A news feed we only
+     read is not that, and their 1004 entities against a ceiling of
+     1000 failed the whole file every run.
+
+     If this option is not recognised by the installed version it is
+     simply ignored, and the pattern-matching reader carries on
+     recovering the items as it has been. Either way nothing is lost. */
+  entityExpansionLimit: 1000000
 });
 
 const asArray = v => (v == null ? [] : Array.isArray(v) ? v : [v]);
@@ -196,7 +207,9 @@ function readFeed(xml){
     lastParseError = (err && err.message) ? err.message.slice(0, 120) : "XML parse failed";
     const loose = readFeedLoosely(xml);
     if(loose.length){
-      lastParseError += " \u2014 recovered " + loose.length + " items by pattern matching";
+      /* Recovery is a success, not a fault. Reported as such. */
+      lastParseError = "read by pattern matching (" + loose.length +
+        " items) \u2014 the strict parser refused it: " + lastParseError;
       return loose.map(looseTidy);
     }
     return [];
@@ -569,7 +582,15 @@ async function main(){
         /* Either new, or extracted under older rules. Read it again
            so improvements reach the stories already collected — the
            reason several fixes appeared to do nothing. */
-        if(have) stale++;
+        if(have){
+          stale++;
+          /* Hold on to what we have while it waits its turn. Only a
+             few hundred can be re-read in one run, and dropping the
+             rest meanwhile took the list from 517 stories to 250.
+             The fresh copy replaces this one when it arrives, since
+             fresh is merged after kept. */
+          if(Array.isArray(have.blocks) && have.blocks.length) kept.push(have);
+        }
         queue.push({ item, source });
       }
     }
@@ -604,7 +625,8 @@ async function main(){
   const skipped = queued - wanted.length;
 
   if(stale){
-    console.log("\n" + stale + " stories were extracted under older rules and will be read again");
+    console.log("\n" + stale + " stories were extracted under older rules and will be read " +
+      "again; they stay in the file meanwhile");
   }
 
   console.log("\nFetching " + wanted.length + " stories" +

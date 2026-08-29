@@ -124,8 +124,8 @@ export function render(ctx){
     const rm = document.createElement("button");
     rm.type = "button";
     rm.className = "remove";
-    rm.innerHTML = '<span aria-hidden="true">\u2715</span>';
-    rm.setAttribute("aria-label", "Remove " + s.name);
+    rm.textContent = "Delete";
+    rm.setAttribute("aria-label", "Delete " + s.name);
     /* A real question, asked once. The old button armed itself and
        disarmed after five seconds, so tapping it repeatedly just
        toggled it forever and it could never fire. */

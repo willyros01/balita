@@ -4,6 +4,19 @@ Everything outstanding, worst first. Nothing here is breaking the app.
 
 ---
 
+## Next build, agreed
+
+### Cap DW alone
+
+139 stories against 15 or 20 from most outlets, so DW fills the list. A
+`max` on that one source in `sources.json`; every other outlet stays
+uncapped. The general cap was removed on purpose and is not coming back.
+
+Wait until the re-extraction has settled before judging how many DW should
+keep.
+
+---
+
 ## Known and unfixed
 
 ### Inquirer News reads through the doorway; other refusals may not
@@ -17,16 +30,6 @@ The doorway does **not** help sites that build their pages in the browser.
 ABS-CBN was tested: Cloudflare received the whole page and the article was
 not in it. That is why ABS-CBN is `feedOnly` rather than routed.
 
-### The Guardian's feed fails the strict parser every run
-
-`Entity expansion limit exceeded` — their feed carries enough escaped HTML
-to trip a safety limit in the XML parser. The pattern-matching reader
-recovers all 45 items, so nothing is lost, but the log carries a warning on
-every run and it reads like a fault.
-
-Either raise the limit in the parser options, or say plainly in the log that
-this outlet is expected to need the fallback.
-
 ### DW is a quarter of everything
 
 139 stories against 15 or 20 from most outlets. Their feed is genuinely that
@@ -37,14 +40,6 @@ it should be a setting on that source, not a return to capping everything.
 ---
 
 ## Worth doing when convenient
-
-### Re-extraction drops stories rather than holding them
-
-When the extractor version changes, stories awaiting re-reading are dropped
-from `articles.json` instead of being kept with their old text. The count
-fell from 517 to 250 during the 0.13.0 changeover. Self-correcting over two
-or three runs, but the list thins out meanwhile. Keeping the old copy until
-a new one arrives would be kinder.
 
 ### ABS-CBN if they ever rebuild
 
@@ -79,6 +74,8 @@ one appears.
 
 ## Done, for the record
 
+Guardian's entity limit · stale stories held while awaiting re-extraction ·
+invisible toast blocking every tap on iPhone · Delete as a labelled button ·
 Doorway to Cloudflare · re-extraction when the rules change · invented
 placeholder graphics removed · interface icons filtered · advertising
 interruptions, newsletter blocks, subscription messages, mood widgets, audio
