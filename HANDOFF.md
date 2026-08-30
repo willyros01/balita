@@ -250,6 +250,18 @@ Worth trying, roughly in order of cost:
    words with a photograph, which is a usable headline-and-summary card.
    Keep it on those terms and say so in the app rather than pretending.
 
+## A test worth keeping
+
+`node --check` proves a file parses. It does not prove the screen draws.
+Twice in one session a find-and-replace removed something the code needed —
+four imports once, the Back button the next time — and both passed the
+syntax check and failed on the phone.
+
+The answer is to draw the screen in a stub browser before shipping: a
+minimal fake `document` and `window`, then call `sources.render(ctx)` and
+see whether it throws. It takes seconds and catches exactly this class of
+mistake. Do it after any edit to the drawing code.
+
 ## Fixed in 0.16.2 — the dead buttons, finally
 
 Reported at 0.7.0 and unfixed for nine builds. Five explanations were

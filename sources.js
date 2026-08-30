@@ -62,6 +62,16 @@ function build(ctx){
   const el = document.getElementById("manage");
   el.innerHTML = "";
 
+  const back = document.createElement("button");
+  back.type = "button";
+  back.className = "back";
+  back.innerHTML = '<span aria-hidden="true">\u2190</span> Back to stories';
+  onTap(back, () => {
+    ctx.show("feed");
+    ctx.refresh();
+    window.scrollTo(0, 0);
+    ctx.announce("Back to all stories");
+  });
 
   const title = document.createElement("h2");
   title.className = "mtitle";
