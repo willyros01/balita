@@ -38,8 +38,35 @@ async function commit(ctx){
 }
 
 export function render(ctx){
+  try{
+    build(ctx);
+  }catch(err){
+    /* A throw partway through used to leave the screen half drawn,
+       with the controls that had not been reached simply absent —
+       indistinguishable from buttons that do not work. Now it says
+       what happened. */
+    const el = document.getElementById("manage");
+    const p = document.createElement("pre");
+    p.className = "crash";
+    p.textContent = "Something went wrong drawing this screen:\n\n" +
+      (err && err.message ? err.message : String(err)) +
+      "\n\n" + ((err && err.stack) || "").split("\n").slice(0, 4).join("\n");
+    el.appendChild(p);
+    console.error(err);
+  }
+}
+
+function build(ctx){
   const el = document.getElementById("manage");
   el.innerHTML = "";
+
+  /* The version, here, because this is the screen people look at
+     when something is wrong — and it was only ever shown at the
+     bottom of the story list. */
+  const ver = document.createElement("p");
+  ver.className = "manage-version";
+  ver.textContent = "Wire " + (ctx.version || "?") +
+    "  \u00B7  tap anything below to test";
 
   /* back */
   const back = document.createElement("button");
@@ -115,6 +142,7 @@ export function render(ctx){
     tog.setAttribute("aria-pressed", String(s.on));
     tog.setAttribute("aria-label", (s.on ? "Turn off " : "Turn on ") + s.name);
     tog.addEventListener("click", () => {
+      toast("Tap registered \u2014 " + s.name, "done");
       s.on = !s.on;
       if(!s.on && ctx.state.filter === s.id) ctx.state.filter = "ALL";
       toast(s.name + (s.on ? " switched on" : " switched off"), "done");
@@ -347,7 +375,7 @@ export function render(ctx){
 
   reset.append(resetBtn, resetWhy);
 
-  const parts = [back, title, help, warn];
+  const parts = [back, ver, title, help, warn];
   parts.push(list);
   if(orphan) parts.push(orphan);
   parts.push(box, pres, admin, reset);

@@ -32,6 +32,7 @@ function announce(msg, kind, action){
 
 const ctx = {
   state,
+  version: VERSION,
   announce,
   /* Match on id, then on address. A source saved under a generated
      id would otherwise never be recognised as the outlet its stories
@@ -44,6 +45,41 @@ const ctx = {
 };
 
 /* ---------------- stories ---------------- */
+
+/* Reload the stories from the server.
+
+   There was no way to do this short of quitting the app and opening
+   it again: the file is fetched once at startup and never again, so
+   a run that finished five minutes ago was invisible until the app
+   was killed. */
+export async function refresh(){
+  const btn = document.getElementById("refresh");
+  if(btn){
+    btn.disabled = true;
+    btn.classList.add("spinning");
+  }
+
+  const before = state.articles.length;
+  await loadArticles();
+
+  state.sources = await store.loadSources();
+  ctx.refresh();
+  renderAbout();
+
+  if(btn){
+    btn.disabled = false;
+    btn.classList.remove("spinning");
+  }
+
+  const gained = state.articles.length - before;
+  announce(
+    !state.articles.length ? "Could not reach the stories. Check your connection." :
+    gained > 0  ? gained + (gained === 1 ? " new story" : " new stories") :
+    gained < 0  ? "Updated \u2014 " + state.articles.length + " stories" :
+                  "Already up to date",
+    !state.articles.length ? "warn" : gained > 0 ? "undone" : "done"
+  );
+}
 
 async function loadArticles(){
   try{
@@ -196,6 +232,27 @@ async function start(){
   renderAbout();
   watchNetwork();
   registerWorker();
+
+  const btn = document.getElementById("refresh");
+  if(btn) btn.addEventListener("click", refresh);
+
+  /* Coming back to the app after a while is the moment somebody
+     wants the news to be current. Check quietly then — no toast
+     unless something actually arrived. */
+  document.addEventListener("visibilitychange", async () => {
+    if(document.hidden) return;
+    const stale = !state.updated ||
+      (Date.now() - new Date(state.updated).getTime()) > 5 * 60000;
+    if(!stale) return;
+
+    const before = state.articles.length;
+    await loadArticles();
+    state.sources = await store.loadSources();
+    ctx.refresh();
+    renderAbout();
+    const gained = state.articles.length - before;
+    if(gained > 0) announce(gained + (gained === 1 ? " new story" : " new stories"), "undone");
+  });
 }
 
 start();

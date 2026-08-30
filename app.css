@@ -741,3 +741,36 @@ html[data-contrast="high"] .admin-due .admin-title{ color: var(--ink); }
   border: 2px solid var(--rule); border-radius: var(--radius);
 }
 .sheet-field:focus{ border-color: var(--accent); outline: none; }
+
+/* ---------------- refresh ---------------- */
+@keyframes wire-spin{ to{ transform: rotate(360deg); } }
+.ctrl.spinning .glyph{
+  display: inline-block;
+  animation: wire-spin 900ms linear infinite;
+}
+@media (prefers-reduced-motion: reduce){
+  .ctrl.spinning .glyph{ animation: none; opacity: 0.5; }
+}
+
+/* Five controls is a lot for a narrow phone. The header wraps rather
+   than pushing anything off the edge. */
+.controls{ flex-wrap: wrap; justify-content: flex-end; }
+
+/* ---------------- diagnostics on the Sources screen ---------------- */
+.manage-version{
+  margin: 0.6rem 0 0;
+  font-size: 0.75em; letter-spacing: 0.04em;
+  color: var(--muted);
+}
+html[data-contrast="high"] .manage-version{ color: var(--ink); }
+
+.crash{
+  margin: 1rem 0; padding: 1rem;
+  background: var(--shade);
+  border: var(--rule-w) solid #B4342B;
+  border-left: var(--spine-w) solid #B4342B;
+  border-radius: var(--radius);
+  font-size: 0.8em; line-height: 1.5;
+  white-space: pre-wrap; overflow-wrap: anywhere;
+  color: var(--ink);
+}
