@@ -15,9 +15,20 @@
    That also explains buttons that would not respond. They were not
    dead; they had been carried out of reach, and the taps were
    landing where they used to be. */
-html, body{
+/* `overflow-x: hidden` on the html element hides sideways overflow
+   without removing it, and iOS goes on mapping touches to the
+   un-clipped layout underneath. The page then looks correct while
+   every control sits somewhere the finger is not — which is exactly
+   what happened: the drifting screen appeared fixed and the buttons
+   stayed dead.
+
+   So: clip on the body only, which iOS handles properly, and make
+   sure nothing overflows in the first place. */
+html{ max-width: 100%; }
+body{
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
+  position: relative;
 }
 
 /* A flex child will not shrink below its content unless told, and
@@ -65,8 +76,29 @@ body{
 }
 .topbar-inner{
   max-width: var(--measure); margin: 0 auto;
-  padding: 0.6rem var(--sp);
+  padding: 0.55rem var(--sp);
   display: flex; align-items: center; gap: 0.6rem;
+}
+
+/* Five controls will not sit beside a wordmark on a phone without
+   one of them being squeezed to nothing. They go on their own line,
+   evenly spread, where each is a comfortable size and nothing is
+   crowded. On anything wider they return to the same row. */
+@media (max-width: 30rem){
+  .topbar-inner{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding-bottom: 0.65rem;
+  }
+  .controls{
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.4rem;
+  }
+  .ctrl{ width: 100%; min-width: 0; }
+  .wordmark{ font-size: 1.35em; }
 }
 .wordmark{
   font-family: var(--font-head); font-weight: 700;
@@ -763,6 +795,15 @@ html[data-contrast="high"] .admin-due .admin-title{ color: var(--ink); }
   color: var(--muted);
 }
 html[data-contrast="high"] .manage-version{ color: var(--ink); }
+
+.too-wide{
+  margin: 0.8rem 0; padding: 0.8rem 0.9rem;
+  background: var(--shade);
+  border-left: var(--spine-w) solid #B4342B;
+  border-radius: var(--radius);
+  font-size: 0.78em; line-height: 1.5;
+  overflow-wrap: anywhere;
+}
 
 .crash{
   margin: 1rem 0; padding: 1rem;

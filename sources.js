@@ -65,8 +65,20 @@ function build(ctx){
      bottom of the story list. */
   const ver = document.createElement("p");
   ver.className = "manage-version";
-  ver.textContent = "Wire " + (ctx.version || "?") +
-    "  \u00B7  tap anything below to test";
+  ver.textContent = "Wire " + (ctx.version || "?");
+
+  /* A control that reports being touched separates "the button is
+     broken" from "the tap never arrived", which four rounds of
+     guessing could not. */
+  const probe = document.createElement("button");
+  probe.type = "button";
+  probe.className = "reset-btn";
+  probe.style.marginTop = "0.5rem";
+  probe.textContent = "Tap here to test";
+  probe.addEventListener("click", () => toast("The tap arrived", "undone"));
+  probe.addEventListener("touchstart", () => {
+    probe.textContent = "Touch detected \u2014 release to confirm";
+  }, { passive: true });
 
   /* back */
   const back = document.createElement("button");
@@ -375,7 +387,13 @@ function build(ctx){
 
   reset.append(resetBtn, resetWhy);
 
-  const parts = [back, ver, title, help, warn];
+  const report = document.createElement("p");
+  report.id = "tap-report";
+  report.className = "manage-version";
+  report.textContent = "Touch anywhere on this screen and this line will "
+    + "say what it landed on.";
+
+  const parts = [back, ver, probe, report, title, help, warn];
   parts.push(list);
   if(orphan) parts.push(orphan);
   parts.push(box, pres, admin, reset);

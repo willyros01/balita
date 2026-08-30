@@ -121,6 +121,91 @@ function registerWorker(){
   });
 }
 
+/* ---------------- what did that tap actually hit? ----------------
+
+   Five explanations for the dead buttons have been wrong, each
+   reasoned from what seemed likely. This stops reasoning and
+   listens: it records every touch on the page and reports which
+   element received it. If a tap on the On/Off toggle is landing on
+   something else, this says what.
+
+   Only active on the Sources screen, and only until the fault is
+   found. */
+function watchTaps(){
+  const describe = el => {
+    if(!el) return "nothing";
+    const cls = (el.className && typeof el.className === "string")
+      ? "." + el.className.split(/\s+/).filter(Boolean).slice(0, 2).join(".")
+      : "";
+    const text = (el.textContent || "").trim().slice(0, 18);
+    return el.tagName.toLowerCase() + cls + (text ? ' "' + text + '"' : "");
+  };
+
+  document.addEventListener("touchend", e => {
+    if(document.body.dataset.view !== "manage") return;
+    const t = e.changedTouches && e.changedTouches[0];
+    if(!t) return;
+
+    /* What is actually at that point, whatever the finger meant. */
+    const hit = document.elementFromPoint(t.clientX, t.clientY);
+    const meant = e.target;
+
+    const box = document.getElementById("tap-report");
+    if(box){
+      box.textContent =
+        "touched " + Math.round(t.clientX) + "," + Math.round(t.clientY) +
+        "  \u2192  " + describe(hit) +
+        (hit !== meant ? "   (the event went to " + describe(meant) + ")" : "");
+    }
+  }, { passive: true });
+}
+
+/* ---------------- is anything too wide? ----------------
+
+   Four attempts have been made to stop the page overflowing
+   sideways, each by reasoning about what might be doing it. This
+   asks the browser instead: it walks the page, finds anything
+   sticking out past the screen, and says what it is. Silent when
+   everything fits. */
+function measureWidth(){
+  window.setTimeout(() => {
+    const limit = document.documentElement.clientWidth;
+    const guilty = [];
+
+    document.querySelectorAll("body *").forEach(el => {
+      const r = el.getBoundingClientRect();
+      if(r.width === 0 && r.height === 0) return;
+      const style = getComputedStyle(el);
+      if(style.position === "fixed") return;   /* cannot widen the page */
+      if(r.right > limit + 1 || r.left < -1){
+        guilty.push({
+          what: el.tagName.toLowerCase() +
+                (el.className && typeof el.className === "string"
+                  ? "." + el.className.split(/\s+/).filter(Boolean).slice(0, 2).join(".")
+                  : ""),
+          over: Math.round(Math.max(r.right - limit, -r.left))
+        });
+      }
+    });
+
+    if(!guilty.length) return;
+
+    console.warn("Wider than the screen:", guilty);
+
+    /* Say it on screen too, because the console is not reachable on
+       an iPhone and that is where this only ever happens. */
+    const note = document.createElement("p");
+    note.className = "too-wide";
+    note.textContent = "Layout note: " + guilty.length +
+      (guilty.length === 1 ? " element runs" : " elements run") +
+      " past the edge of the screen \u2014 " +
+      guilty.slice(0, 3).map(g => g.what + " by " + g.over + "px").join(", ") +
+      ". Screen is " + limit + "px.";
+    const about = document.getElementById("about");
+    if(about) about.prepend(note);
+  }, 600);
+}
+
 /* ---------------- about panel ----------------
    Answers "what is running on this phone, and when did it last
    fetch anything" without needing anybody's help. */
@@ -235,6 +320,9 @@ async function start(){
 
   const btn = document.getElementById("refresh");
   if(btn) btn.addEventListener("click", refresh);
+
+  measureWidth();
+  watchTaps();
 
   /* Coming back to the app after a while is the moment somebody
      wants the news to be current. Check quietly then — no toast
