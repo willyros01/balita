@@ -353,12 +353,21 @@ html[data-contrast="high"] .flag{ color: var(--ink); }
 .origin a{ color: var(--accent); }
 
 /* ---------------- sources screen ---------------- */
+.view-manage{ position: relative; z-index: 1; }
 .mtitle{ font-family: var(--font-head); font-weight: 700; font-size: 1.5em; margin: 0.6rem 0 0.2rem; }
 .mhelp{ color: var(--muted); font-size: 0.88em; margin: 0 0 1.2rem; line-height: 1.55; }
 html[data-contrast="high"] .mhelp{ color: var(--ink); }
 
 .slist{ list-style: none; margin: 0 0 1.6rem; padding: 0; }
+/* Everything on this screen must be reachable.
+
+   The buttons here were reported dead on iPhone three times. Rather
+   than hunt for one more overlapping thing, the row is given its own
+   stacking context and its controls are lifted above anything that
+   might sit over them, with touch handling stated explicitly so iOS
+   does not wait to see whether a tap is the start of a gesture. */
 .srow{
+  position: relative; z-index: 2;
   display: flex; align-items: center; gap: 0.6rem;
   border-bottom: var(--rule-w) solid var(--rule);
   border-left: var(--spine-w) solid var(--spine);
@@ -371,6 +380,12 @@ html[data-contrast="high"] .mhelp{ color: var(--ink); }
   word-break: break-all; line-height: 1.4;
 }
 html[data-contrast="high"] .sname small{ color: var(--ink); }
+
+.toggle, .remove, .primary, .reset-btn, .chip, .back{
+  position: relative; z-index: 3;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0,0,0,0.08);
+}
 
 .toggle{
   font: inherit; font-size: 0.8em; font-weight: 700;
@@ -482,7 +497,8 @@ input[type="text"], input[type="url"]{
 html[data-contrast="high"] .about{ color: var(--ink); }
 
 /* Out of the way while reading a story. */
-body[data-view="reader"] .about{ display: none; }
+body[data-view="reader"] .about,
+body[data-view="manage"] .about{ display: none; }
 
 .about-title{
   font-family: var(--font-head); font-weight: 700;
@@ -697,3 +713,31 @@ html[data-contrast="high"] .count-pill{ color: var(--ink); }
 .ctrl[data-mode="night"]{
   background: var(--accent); border-color: var(--accent); color: var(--on-accent);
 }
+
+/* ---------------- the token reminder ---------------- */
+.admin-row{
+  margin-top: 1.8rem; padding-top: 1.2rem;
+  border-top: var(--rule-w) solid var(--rule);
+}
+.admin-title{
+  font-family: var(--font-head); font-size: 1.15em;
+  margin: 0 0 0.35rem;
+}
+/* Two weeks out, it stops being a note and starts being a warning. */
+.admin-due{
+  padding: 1rem;
+  background: var(--shade);
+  border: var(--rule-w) solid var(--rule);
+  border-left: var(--spine-w) solid #B4342B;
+  border-radius: var(--radius);
+}
+.admin-due .admin-title{ color: #B4342B; }
+html[data-contrast="high"] .admin-due .admin-title{ color: var(--ink); }
+
+.sheet-field{
+  font: inherit; font-size: 1.05em; width: 100%;
+  padding: 0.75rem 0.7rem; margin: 0 0 1.1rem;
+  background: var(--bg); color: var(--ink);
+  border: 2px solid var(--rule); border-radius: var(--radius);
+}
+.sheet-field:focus{ border-color: var(--accent); outline: none; }

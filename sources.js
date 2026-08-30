@@ -296,6 +296,14 @@ export function render(ctx){
       "Restore the standard list below to bring them back.";
   }
 
+  /* ---------------- the token reminder ----------------
+     A GitHub token expires, and when it does the app quietly stops
+     updating. Nothing announces it. So the date is kept here and
+     the app says something while there is still time to act. */
+  const admin = document.createElement("div");
+  admin.className = "admin-row";
+  renderAdmin(ctx, admin);
+
   /* The way out of any mess, without going near Safari's settings. */
   const reset = document.createElement("div");
   reset.className = "reset-row";
@@ -342,7 +350,7 @@ export function render(ctx){
   const parts = [back, title, help, warn];
   parts.push(list);
   if(orphan) parts.push(orphan);
-  parts.push(box, pres, reset);
+  parts.push(box, pres, admin, reset);
   el.append(...parts);
 }
 
@@ -352,4 +360,185 @@ export function show(ctx){
   window.scrollTo(0, 0);
   document.getElementById("manage").focus();
   ctx.announce("Sources");
+}
+
+
+/* ============================================================
+   The GitHub token reminder, behind a passcode.
+   ============================================================ */
+
+function fmtDate(iso){
+  const d = new Date(iso + "T00:00:00");
+  return Number.isNaN(d.getTime()) ? iso
+    : d.toLocaleDateString(undefined, { day: "numeric", month: "long", year: "numeric" });
+}
+
+async function renderAdmin(ctx, root){
+  root.innerHTML = "";
+
+  const h = document.createElement("h3");
+  h.className = "admin-title";
+  h.textContent = "GitHub token";
+
+  const body = document.createElement("p");
+  body.className = "mhelp";
+  body.style.margin = "0 0 0.8rem";
+
+  const date = await lock.tokenExpiry();
+  const left = lock.daysUntil(date);
+
+  if(!date){
+    body.textContent = "The token that lets the scheduler fetch your news " +
+      "expires. Set the date and this will remind you before it does.";
+  }else if(left === null){
+    body.textContent = "Renewal date: " + date;
+  }else if(left < 0){
+    body.textContent = "Expired " + Math.abs(left) +
+      (Math.abs(left) === 1 ? " day" : " days") + " ago, on " + fmtDate(date) +
+      ". The news has probably stopped updating.";
+  }else if(left === 0){
+    body.textContent = "Expires today, " + fmtDate(date) + ".";
+  }else{
+    body.textContent = "Renews " + fmtDate(date) + " \u2014 " + left +
+      (left === 1 ? " day" : " days") + " away.";
+  }
+
+  if(left !== null && left <= 14) root.classList.add("admin-due");
+  else root.classList.remove("admin-due");
+
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "reset-btn";
+  btn.textContent = date ? "Change the date" : "Set the date";
+  btn.addEventListener("click", () => openAdmin(ctx, root));
+
+  root.append(h, body, btn);
+}
+
+async function openAdmin(ctx, root){
+  const already = await lock.isSet();
+
+  if(!already){
+    const first = await askForCode({
+      title: "Choose a passcode",
+      body: "This keeps the setting from being changed by accident, or by " +
+            "somebody else picking up the tablet.\n\n" +
+            "It is never written into the app and never stored as text — " +
+            "only a scrambled form of it is kept, which cannot be turned " +
+            "back. That also means nobody can recover it for you, so choose " +
+            "something you will remember.",
+      confirmLabel: "Set passcode"
+    });
+    if(first === null) return;
+    if(first.length < 4){
+      toast("Use at least four characters", "warn");
+      return;
+    }
+    await lock.setPasscode(first);
+    toast("Passcode set", "done");
+  }else{
+    const given = await askForCode({
+      title: "Passcode",
+      body: "Enter the passcode you set for this setting.",
+      confirmLabel: "Unlock"
+    });
+    if(given === null) return;
+    if(!(await lock.check(given))){
+      toast("That passcode does not match", "warn");
+      return;
+    }
+  }
+
+  await askForDate(ctx, root);
+}
+
+/* A small dialog with one field. Kept here rather than in ui.js
+   because it is the only place that needs an input. */
+function askForCode(opts){
+  return askWithField({ ...opts, type: "password", placeholder: "" });
+}
+
+async function askForDate(ctx, root){
+  const current = await lock.tokenExpiry();
+  const value = await askWithField({
+    title: "When does the token expire?",
+    body: "GitHub shows the date when you create the token. A reminder " +
+          "appears here two weeks before.",
+    type: "date",
+    value: current || "",
+    confirmLabel: "Save"
+  });
+  if(value === null) return;
+
+  await lock.setTokenExpiry(value || null);
+  await renderAdmin(ctx, root);
+  toast(value ? "Reminder set for " + fmtDate(value) : "Reminder cleared", "done");
+}
+
+function askWithField(opts){
+  return new Promise(resolve => {
+    const backdrop = document.createElement("div");
+    backdrop.className = "sheet-backdrop";
+
+    const sheet = document.createElement("div");
+    sheet.className = "sheet";
+    sheet.setAttribute("role", "dialog");
+    sheet.setAttribute("aria-modal", "true");
+
+    const h = document.createElement("h2");
+    h.className = "sheet-title";
+    h.textContent = opts.title;
+
+    const p = document.createElement("p");
+    p.className = "sheet-body";
+    p.style.whiteSpace = "pre-line";
+    p.textContent = opts.body || "";
+
+    const input = document.createElement("input");
+    input.type = opts.type || "text";
+    input.className = "sheet-field";
+    if(opts.value) input.value = opts.value;
+    if(opts.type === "password"){
+      input.autocomplete = "off";
+      input.inputMode = "text";
+    }
+
+    const row = document.createElement("div");
+    row.className = "sheet-row";
+
+    const no = document.createElement("button");
+    no.type = "button";
+    no.className = "sheet-btn sheet-no";
+    no.textContent = "Cancel";
+
+    const yes = document.createElement("button");
+    yes.type = "button";
+    yes.className = "sheet-btn sheet-yes";
+    yes.textContent = opts.confirmLabel || "Save";
+
+    row.append(no, yes);
+    sheet.append(h, p, input, row);
+    backdrop.appendChild(sheet);
+    document.body.appendChild(backdrop);
+
+    const close = answer => {
+      document.removeEventListener("keydown", onKey);
+      backdrop.remove();
+      resolve(answer);
+    };
+    const onKey = e => {
+      if(e.key === "Escape") close(null);
+      if(e.key === "Enter" && document.activeElement === input) close(input.value.trim());
+    };
+
+    no.addEventListener("click", () => close(null));
+    yes.addEventListener("click", () => close(input.value.trim()));
+    backdrop.addEventListener("click", e => { if(e.target === backdrop) close(null); });
+    document.addEventListener("keydown", onKey);
+
+    window.requestAnimationFrame(() => {
+      backdrop.classList.add("sheet-in");
+      input.focus();
+    });
+  });
 }

@@ -10,11 +10,16 @@
    what makes phones pick up a new build.
    ============================================================ */
 
-/* Kept in step with the app's own version. importScripts is the
-   only way a classic service worker can read another file, and the
-   name is derived rather than typed, so the two cannot disagree. */
-importScripts("./version-sw.js");
-const VERSION = self.WIRE_CACHE;
+/* Written out rather than imported.
+
+   This read the version from another file, which meant that if that
+   file failed to load for any reason the worker threw on install —
+   and a worker that fails to install leaves the previous one in
+   charge, serving the old app indefinitely. A fix could then be
+   uploaded and have no effect at all, with nothing to show why.
+   Keep it in step with version.js by hand; the cost of forgetting is
+   one stale cache, not a permanently frozen app. */
+const VERSION = "wire-v0.15.0";
 const SHELL = [
   "./",
   "./index.html",
@@ -26,7 +31,7 @@ const SHELL = [
   "./store.js",
   "./display.js",
   "./version.js",
-  "./version-sw.js",
+  "./sun.js",
   "./ui.js",
   "./articles.json",
   "./sources.json",
@@ -34,6 +39,7 @@ const SHELL = [
   "./icon-192.png",
   "./icon-512.png",
   "./sources.js",
+  "./lock.js",
   "./feed.js",
   "./reader.js"
 ];
@@ -41,7 +47,13 @@ const SHELL = [
 self.addEventListener("install", event => {
   event.waitUntil(
     caches.open(VERSION)
-      .then(cache => cache.addAll(SHELL))
+      /* addAll is all-or-nothing: one missing file and the entire
+         install fails, leaving the old worker in place. Added one at
+         a time so a gap costs that file's offline copy and nothing
+         more. */
+      .then(cache => Promise.all(
+        SHELL.map(url => cache.add(url).catch(() => {}))
+      ))
       .then(() => self.skipWaiting())
   );
 });

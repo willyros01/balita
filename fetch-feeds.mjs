@@ -17,7 +17,7 @@ import { get, pool, doorwayReady, needsDoorway } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut, EXTRACTOR_VERSION } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.14.2";
+const VERSION = "0.15.0";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -377,7 +377,16 @@ async function readSource(source){
   }
 
   report.ok = true;
-  report.items = items.slice(0, PER_SOURCE * 2);
+
+  /* A source may cap itself. DW publishes 139 stories a day against
+     15 or 20 from most outlets, so without one it fills the list and
+     the Philippine papers scroll away below it. This is a setting on
+     that source alone — the blanket cap on every outlet was removed
+     deliberately and is not coming back. */
+  const cap = Number(source.max) || PER_SOURCE;
+  report.items = items.slice(0, cap);
+  report.capped = items.length > cap ? items.length - cap : 0;
+
   return report;
 }
 
@@ -570,7 +579,8 @@ async function main(){
     const queue = [];
     let reused = 0;
 
-    for(const item of r.items.slice(0, PER_SOURCE)){
+    const cap = Number(source.max) || PER_SOURCE;
+    for(const item of r.items.slice(0, cap)){
       const id = idFor(source.id, item.link);
       const have = known.get(id);
       const current = have && have.fx === EXTRACTOR_VERSION;
@@ -687,7 +697,8 @@ async function main(){
   const stillListed = new Set();
   reports.forEach((r, i) => {
     if(!r || !r.ok) return;
-    r.items.forEach(item => stillListed.add(idFor(sources[i].id, item.link)));
+    const cap = Number(sources[i].max) || PER_SOURCE;
+    r.items.slice(0, cap).forEach(item => stillListed.add(idFor(sources[i].id, item.link)));
   });
 
   const liveSources = new Set(reports.map((r, i) => (r && r.ok) ? sources[i].id : null));

@@ -38,11 +38,19 @@ export const FIREBASE = {
    see the data-step rules in tokens.css. */
 export const SCALE = [17, 20, 24, 29, 35, 42, 50];
 
-/* When the app switches itself between day and night, if you leave it
-   on automatic. Manila's daylight barely shifts through the year, so
-   fixed hours are honest here — no sunrise arithmetic needed. */
-export const DAY_FROM = 6;    /* 6am */
-export const DAY_UNTIL = 18;  /* 6pm */
+/* Where the app works out sunrise and sunset from. Manila by
+   default; change these two numbers for anywhere else and the
+   automatic day and night setting follows the real sky.
+
+   The device's own location is never asked for. It would mean a
+   permission prompt for something two constants answer. */
+export const LATITUDE  = 14.5995;
+export const LONGITUDE = 120.9842;
+
+/* Only used inside the polar circles, where on some days the sun
+   neither rises nor sets and there is no honest answer. */
+export const DAY_FROM = 6;
+export const DAY_UNTIL = 18;
 
 export const MIN_STEP = 0;
 export const MAX_STEP = SCALE.length - 1;
@@ -61,7 +69,7 @@ export const DEFAULT_SOURCES = [
   { id:"bbc",  tag:"BBC",  name:"BBC World",       url:"https://feeds.bbci.co.uk/news/world/rss.xml",       color:"#8C1D2F", on:true },
   { id:"cbc",  tag:"CBC",  name:"CBC Top Stories", url:"https://rss.cbc.ca/lineup/topstories.xml",     color:"#B03A2E", on:true },
   { id:"grd",  tag:"GRD",  name:"The Guardian",    url:"https://www.theguardian.com/world/rss",        color:"#1D5C96", on:true },
-  { id:"dw",   tag:"DW",   name:"DW English",      url:"https://rss.dw.com/rdf/rss-en-all",            color:"#2E6B8A", on:true }
+  { id:"dw",   tag:"DW",   name:"DW English",      url:"https://rss.dw.com/rdf/rss-en-all",            color:"#2E6B8A", on:true, max:25 }
 ];
 
 /* Offered on the Sources screen as one-tap additions. */

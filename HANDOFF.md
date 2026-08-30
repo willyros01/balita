@@ -250,6 +250,49 @@ Worth trying, roughly in order of cost:
    words with a photograph, which is a usable headline-and-summary card.
    Keep it on those terms and say so in the app rather than pretending.
 
+## Fixed in 0.15.0
+
+**DW capped at 25, and nothing else capped.** It publishes 139 stories a
+day against 15 or 20 from most outlets, so it was two thirds of the list and
+the Philippine papers scrolled away beneath it. Now about a quarter.
+
+The cap is `max` on that one source in `sources.json`. Any source can set
+one; none other does. **The blanket per-source cap was removed deliberately
+in 0.8.0 and is not coming back** — it was throwing away thirty stories a
+run from outlets that publish few. This is the opposite: a limit on the one
+outlet that publishes many.
+
+The log names it when a feed exceeds its own limit, so the number is never
+silently doing something unexpected.
+
+To change it, edit `max` in `sources.json`. To remove it, delete the line.
+
+## Fixed in 0.14.3
+
+- **The service worker could freeze the app on an old version.** It read
+  its cache name from `version-sw.js` via `importScripts`. If that file
+  failed to load the worker threw during install — and a worker that fails
+  to install leaves the previous one serving the old app indefinitely. A fix
+  could be uploaded and have no effect, with nothing to show why. The
+  version is written out in `sw.js` now, and `cache.addAll` — all or nothing
+  — was replaced with one file at a time.
+
+  **Suspected cause of "the buttons are still dead" after 0.14.1.**
+
+- **Sources controls lifted above anything that might cover them**, with
+  `touch-action: manipulation` so iOS does not wait to see whether a tap is
+  the start of a gesture. The About panel is hidden on that screen.
+- **Day and night follow the real sun.** `sun.js` computes sunrise and
+  sunset from latitude and longitude in `config.js` — no network, no
+  permission prompt. Verified against Manila (05:44 / 18:10 on 29 August)
+  and London (04:43 / 21:21 in June). Falls back to fixed hours inside the
+  polar circles, where some days have neither.
+- **A GitHub token reminder**, on the Sources screen, behind a passcode.
+  The passcode is never in the code and never stored as text: only a salted
+  SHA-256 hash, which cannot be reversed. It stops an accidental change, not
+  a determined person with the device — say so rather than implying more.
+- GMA's "Make this your preferred source" filtered.
+
 ## Fixed in 0.14.1
 
 - **Every button on the Sources screen was dead on iPhone.** `.toast`

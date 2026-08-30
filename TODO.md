@@ -4,19 +4,6 @@ Everything outstanding, worst first. Nothing here is breaking the app.
 
 ---
 
-## Next build, agreed
-
-### Cap DW alone
-
-139 stories against 15 or 20 from most outlets, so DW fills the list. A
-`max` on that one source in `sources.json`; every other outlet stays
-uncapped. The general cap was removed on purpose and is not coming back.
-
-Wait until the re-extraction has settled before judging how many DW should
-keep.
-
----
-
 ## Known and unfixed
 
 ### Inquirer News reads through the doorway; other refusals may not
@@ -72,8 +59,13 @@ one appears.
 
 ---
 
+**The original list of six is closed.**
+
 ## Done, for the record
 
+DW capped at 25, every other source uncapped · Sunrise and sunset drive day and night · GitHub token reminder behind a
+passcode · horizontal overflow that pushed the page off-screen · service
+worker no longer freezes on an old version if a file is missing ·
 Guardian's entity limit · stale stories held while awaiting re-extraction ·
 invisible toast blocking every tap on iPhone · Delete as a labelled button ·
 Doorway to Cloudflare · re-extraction when the rules change · invented

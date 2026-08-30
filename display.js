@@ -4,7 +4,9 @@
    care of the buttons, the announcements and saving.
    ============================================================ */
 
-import { MIN_STEP, MAX_STEP, SCALE, DAY_FROM, DAY_UNTIL } from "./config.js";
+import { MIN_STEP, MAX_STEP, SCALE, DAY_FROM, DAY_UNTIL,
+         LATITUDE, LONGITUDE } from "./config.js";
+import { daylight, sunTimes } from "./sun.js";
 import { saveSettings } from "./store.js";
 
 const root = document.documentElement;
@@ -19,8 +21,7 @@ let announce = () => {};
 let mode = "auto";
 
 function byTheClock(){
-  const h = new Date().getHours();
-  return (h >= DAY_FROM && h < DAY_UNTIL) ? "day" : "night";
+  return daylight(new Date(), LATITUDE, LONGITUDE, DAY_FROM, DAY_UNTIL);
 }
 
 function showing(){
@@ -59,10 +60,21 @@ function applyAll(){
   }
 }
 
-function hour(h){
-  const d = new Date();
-  d.setHours(h, 0, 0, 0);
-  return d.toLocaleTimeString(undefined, { hour: "numeric" });
+function clockTime(d){
+  return d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+}
+
+/* Say when it will change, using the real times rather than a rule
+   of thumb. Somebody who knows sunset is at ten past six should see
+   ten past six. */
+function followingText(){
+  const now = new Date();
+  const t = sunTimes(now, LATITUDE, LONGITUDE);
+  if(!t) return "Following the clock";
+
+  return showing() === "day"
+    ? "Following the sun \u2014 night at " + clockTime(t.sunset)
+    : "Following the sun \u2014 day at " + clockTime(t.sunrise);
 }
 
 function persist(){
@@ -114,14 +126,9 @@ export function setup(opts){
     mode = mode === "auto" ? "day" : mode === "day" ? "night" : "auto";
     applyAll(); persist();
 
-    announce(
-      mode === "auto"
-        ? "Following the clock \u2014 " + (showing() === "day"
-            ? "day until " + hour(DAY_UNTIL)
-            : "night until " + hour(DAY_FROM))
-        : mode === "day" ? "Day, until you change it"
-                         : "Night, until you change it"
-    );
+    announce(mode === "auto" ? followingText()
+           : mode === "day"  ? "Day, until you change it"
+                             : "Night, until you change it");
   });
 
   /* The app sits open for hours. Recheck when it comes back into
