@@ -5,6 +5,8 @@
    from. It draws a list and calls back when something is tapped.
    ============================================================ */
 
+import { onTap } from "./ui.js";
+
 /* ---------------- time ----------------
    "18 minutes ago" reads better than a timestamp when you are
    scanning, and it is one less thing to decipher. */
@@ -58,13 +60,13 @@ export function renderChips(ctx){
   const wrap = document.getElementById("chips");
   wrap.innerHTML = "";
 
-  const add = (label, pressed, onTap, extra) => {
+  const add = (label, pressed, onTapHandler, extra) => {
     const b = document.createElement("button");
     b.type = "button";
     b.className = "chip" + (extra ? " " + extra : "");
     b.textContent = label;
     if(pressed !== null) b.setAttribute("aria-pressed", String(pressed));
-    b.addEventListener("click", onTap);
+    onTap(b, onTapHandler);
     wrap.appendChild(b);
     return b;
   };
@@ -132,7 +134,7 @@ export function renderFeed(ctx){
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "card-btn";
-    btn.addEventListener("click", () => ctx.openArticle(a.id));
+    onTap(btn, () => ctx.openArticle(a.id));
 
     /* text side */
     const text = document.createElement("div");

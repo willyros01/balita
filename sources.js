@@ -65,15 +65,25 @@ function build(ctx){
      bottom of the story list. */
   const ver = document.createElement("p");
   ver.className = "manage-version";
-  ver.textContent = "Wire " + (ctx.version || "?") +
-    "  \u00B7  tap anything below to test";
+  ver.textContent = "Wire " + (ctx.version || "?");
+
+  /* A control that reports being touched separates "the button is
+     broken" from "the tap never arrived", which four rounds of
+     guessing could not. */
+  const probe = document.createElement("button");
+  probe.type = "button";
+  probe.className = "reset-btn";
+  probe.style.marginTop = "0.5rem";
+  probe.textContent = "Tap here to test";
+  onTap(probe, () => toast("The tap arrived", "undone"));
+
 
   /* back */
   const back = document.createElement("button");
   back.type = "button";
   back.className = "back";
   back.innerHTML = '<span aria-hidden="true">\u2190</span> Back to stories';
-  back.addEventListener("click", () => {
+  onTap(back, () => {
     ctx.show("feed");
     ctx.refresh();
     window.scrollTo(0, 0);
@@ -141,7 +151,7 @@ function build(ctx){
     tog.textContent = s.on ? "On" : "Off";
     tog.setAttribute("aria-pressed", String(s.on));
     tog.setAttribute("aria-label", (s.on ? "Turn off " : "Turn on ") + s.name);
-    tog.addEventListener("click", () => {
+    onTap(tog, () => {
       toast("Tap registered \u2014 " + s.name, "done");
       s.on = !s.on;
       if(!s.on && ctx.state.filter === s.id) ctx.state.filter = "ALL";
@@ -157,7 +167,7 @@ function build(ctx){
     /* A real question, asked once. The old button armed itself and
        disarmed after five seconds, so tapping it repeatedly just
        toggled it forever and it could never fire. */
-    rm.addEventListener("click", async () => {
+    onTap(rm, async () => {
       const yes = await ask({
         title: "Remove " + s.name + "?",
         body: "It disappears from your list and its stories stop showing. " +
@@ -244,7 +254,7 @@ function build(ctx){
     toast(msg, "warn");
   };
 
-  addBtn.addEventListener("click", () => {
+  onTap(addBtn, () => {
     err.hidden = true;
     const nm = iName.value.trim();
     const url = tidyUrl(iUrl.value);
@@ -341,7 +351,7 @@ function build(ctx){
   resetBtn.className = "reset-btn";
   resetBtn.textContent = "Restore the standard list";
 
-  resetBtn.addEventListener("click", async () => {
+  onTap(resetBtn, async () => {
     const yes = await ask({
       title: "Restore the standard list?",
       body: "Every outlet the fetcher works from comes back, switched on. " +
@@ -375,7 +385,13 @@ function build(ctx){
 
   reset.append(resetBtn, resetWhy);
 
-  const parts = [back, ver, title, help, warn];
+  const report = document.createElement("p");
+  report.id = "tap-report";
+  report.className = "manage-version";
+  report.textContent = "Touch anywhere on this screen and this line will "
+    + "say what it landed on.";
+
+  const parts = [back, ver, probe, report, title, help, warn];
   parts.push(list);
   if(orphan) parts.push(orphan);
   parts.push(box, pres, admin, reset);
@@ -559,8 +575,8 @@ function askWithField(opts){
       if(e.key === "Enter" && document.activeElement === input) close(input.value.trim());
     };
 
-    no.addEventListener("click", () => close(null));
-    yes.addEventListener("click", () => close(input.value.trim()));
+    onTap(no,  () => close(null));
+    onTap(yes, () => close(input.value.trim()));
     backdrop.addEventListener("click", e => { if(e.target === backdrop) close(null); });
     document.addEventListener("keydown", onKey);
 
