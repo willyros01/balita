@@ -15,20 +15,9 @@
    That also explains buttons that would not respond. They were not
    dead; they had been carried out of reach, and the taps were
    landing where they used to be. */
-/* `overflow-x: hidden` on the html element hides sideways overflow
-   without removing it, and iOS goes on mapping touches to the
-   un-clipped layout underneath. The page then looks correct while
-   every control sits somewhere the finger is not — which is exactly
-   what happened: the drifting screen appeared fixed and the buttons
-   stayed dead.
-
-   So: clip on the body only, which iOS handles properly, and make
-   sure nothing overflows in the first place. */
-html{ max-width: 100%; }
-body{
+html, body{
   max-width: 100%;
-  overflow-x: clip;
-  position: relative;
+  overflow-x: hidden;
 }
 
 /* A flex child will not shrink below its content unless told, and
@@ -76,39 +65,8 @@ body{
 }
 .topbar-inner{
   max-width: var(--measure); margin: 0 auto;
-  padding: 0.55rem var(--sp);
+  padding: 0.6rem var(--sp);
   display: flex; align-items: center; gap: 0.6rem;
-}
-
-/* Five controls beside a wordmark will not fit a phone. Stacking
-   them full width was worse — a column of wide buttons dominating
-   the screen before a single headline.
-
-   Instead they keep their row and become square, sized by touch
-   rather than by text, and the wordmark drops its tagline. Compact,
-   still comfortably tappable, and the news starts at the top of the
-   screen where it belongs. */
-@media (max-width: 30rem){
-  .topbar-inner{ padding: 0.5rem 0.7rem; gap: 0.4rem; }
-
-  .wordmark{ font-size: 1.25em; }
-  .wordmark span{ display: none; }
-
-  .controls{ gap: 0.3rem; flex-wrap: nowrap; }
-
-  .ctrl{
-    width: 2.6rem; min-width: 2.6rem; height: 2.6rem; min-height: 2.6rem;
-    padding: 0;
-    border-radius: 7px;
-  }
-  .ctrl .glyph{ font-size: 1em; }
-}
-
-/* Narrower still — a small phone, or large text making the wordmark
-   wide. The buttons shrink a little further rather than wrapping. */
-@media (max-width: 22rem){
-  .ctrl{ width: 2.3rem; min-width: 2.3rem; height: 2.3rem; min-height: 2.3rem; }
-  .wordmark{ font-size: 1.1em; }
 }
 .wordmark{
   font-family: var(--font-head); font-weight: 700;
@@ -796,7 +754,7 @@ html[data-contrast="high"] .admin-due .admin-title{ color: var(--ink); }
 
 /* Five controls is a lot for a narrow phone. The header wraps rather
    than pushing anything off the edge. */
-.controls{ justify-content: flex-end; }
+.controls{ flex-wrap: wrap; justify-content: flex-end; }
 
 /* ---------------- diagnostics on the Sources screen ---------------- */
 .manage-version{
@@ -805,15 +763,6 @@ html[data-contrast="high"] .admin-due .admin-title{ color: var(--ink); }
   color: var(--muted);
 }
 html[data-contrast="high"] .manage-version{ color: var(--ink); }
-
-.too-wide{
-  margin: 0.8rem 0; padding: 0.8rem 0.9rem;
-  background: var(--shade);
-  border-left: var(--spine-w) solid #B4342B;
-  border-radius: var(--radius);
-  font-size: 0.78em; line-height: 1.5;
-  overflow-wrap: anywhere;
-}
 
 .crash{
   margin: 1rem 0; padding: 1rem;

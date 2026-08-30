@@ -7,7 +7,6 @@
 import { MIN_STEP, MAX_STEP, SCALE, DAY_FROM, DAY_UNTIL,
          LATITUDE, LONGITUDE } from "./config.js";
 import { daylight, sunTimes } from "./sun.js";
-import { onTap } from "./ui.js";
 import { saveSettings } from "./store.js";
 
 const root = document.documentElement;
@@ -106,24 +105,24 @@ export function setup(opts){
     mode = "auto";
   }
 
-  onTap(elBigger, () => {
+  elBigger.addEventListener("click", () => {
     if(step >= MAX_STEP) return;
     step++; applyAll(); persist();
     announce("Text size " + (step + 1) + " of " + (MAX_STEP + 1));
   });
 
-  onTap(elSmaller, () => {
+  elSmaller.addEventListener("click", () => {
     if(step <= MIN_STEP) return;
     step--; applyAll(); persist();
     announce("Text size " + (step + 1) + " of " + (MAX_STEP + 1));
   });
 
-  onTap(elContrast, () => {
+  elContrast.addEventListener("click", () => {
     high = !high; applyAll(); persist();
     announce(high ? "High contrast on" : "High contrast off");
   });
 
-  onTap(elTheme, () => {
+  elTheme.addEventListener("click", () => {
     mode = mode === "auto" ? "day" : mode === "day" ? "night" : "auto";
     applyAll(); persist();
 

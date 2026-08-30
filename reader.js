@@ -9,7 +9,6 @@
    ============================================================ */
 
 import { timeAgo } from "./feed.js";
-import { onTap } from "./ui.js";
 
 /* Block kinds this screen knows how to draw. */
 const KNOWN = new Set(["p", "h", "quote", "list", "image"]);
@@ -106,7 +105,7 @@ export function open(ctx, id){
   back.type = "button";
   back.className = "back";
   back.innerHTML = '<span aria-hidden="true">\u2190</span> All stories';
-  onTap(back, () => close(ctx));
+  back.addEventListener("click", () => close(ctx));
 
   /* head */
   const head = document.createElement("header");
