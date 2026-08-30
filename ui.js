@@ -11,6 +11,39 @@
      confirm()  a real question with two buttons
    ============================================================ */
 
+/* ---------------- making a control respond ----------------
+
+   The Sources buttons received touches and never received clicks.
+   Proved rather than guessed: a touch reported landing on exactly
+   the right button, the touchstart handler ran, and the click that
+   should have followed never came.
+
+   iOS withholds a click when anything moves under the finger
+   between pressing and releasing — a reflow, a re-render, a change
+   of height somewhere above. On this screen something does, and
+   five attempts to name it have failed.
+
+   So stop depending on click alone. pointerup fires regardless, and
+   binding both with a guard against acting twice makes a control
+   work either way. Everything here uses it. */
+export function onTap(el, fn){
+  let handled = 0;
+
+  const run = e => {
+    /* Both events fire for one press; act once. */
+    const now = Date.now();
+    if(now - handled < 400) return;
+    handled = now;
+    fn(e);
+  };
+
+  el.addEventListener("click", run);
+  el.addEventListener("pointerup", e => {
+    if(e.pointerType === "mouse" && e.button !== 0) return;
+    run(e);
+  });
+}
+
 let toastEl = null;
 let toastTimer = null;
 let liveEl = null;
@@ -47,10 +80,7 @@ export function toast(message, kind = "done", action){
     btn.type = "button";
     btn.className = "toast-action";
     btn.textContent = action.label;
-    btn.addEventListener("click", () => {
-      hide();
-      action.onTap();
-    });
+    onTap(btn, () => { hide(); action.onTap(); });
     toastEl.appendChild(btn);
   }
 
@@ -140,8 +170,8 @@ export function confirm(opts){
       }
     };
 
-    no.addEventListener("click", () => close(false));
-    yes.addEventListener("click", () => close(true));
+    onTap(no,  () => close(false));
+    onTap(yes, () => close(true));
     backdrop.addEventListener("click", e => { if(e.target === backdrop) close(false); });
     document.addEventListener("keydown", onKey);
 

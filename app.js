@@ -6,7 +6,7 @@
    ============================================================ */
 
 import { FEED_URL, VERSION, BUILD_DATE } from "./config.js";
-import { toast } from "./ui.js";
+import { toast, onTap } from "./ui.js";
 import * as store   from "./store.js";
 import * as display from "./display.js";
 import * as feed    from "./feed.js";
@@ -319,7 +319,7 @@ async function start(){
   registerWorker();
 
   const btn = document.getElementById("refresh");
-  if(btn) btn.addEventListener("click", refresh);
+  if(btn) onTap(btn, refresh);
 
   measureWidth();
   watchTaps();

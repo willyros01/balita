@@ -80,25 +80,35 @@ body{
   display: flex; align-items: center; gap: 0.6rem;
 }
 
-/* Five controls will not sit beside a wordmark on a phone without
-   one of them being squeezed to nothing. They go on their own line,
-   evenly spread, where each is a comfortable size and nothing is
-   crowded. On anything wider they return to the same row. */
+/* Five controls beside a wordmark will not fit a phone. Stacking
+   them full width was worse — a column of wide buttons dominating
+   the screen before a single headline.
+
+   Instead they keep their row and become square, sized by touch
+   rather than by text, and the wordmark drops its tagline. Compact,
+   still comfortably tappable, and the news starts at the top of the
+   screen where it belongs. */
 @media (max-width: 30rem){
-  .topbar-inner{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
-    padding-bottom: 0.65rem;
+  .topbar-inner{ padding: 0.5rem 0.7rem; gap: 0.4rem; }
+
+  .wordmark{ font-size: 1.25em; }
+  .wordmark span{ display: none; }
+
+  .controls{ gap: 0.3rem; flex-wrap: nowrap; }
+
+  .ctrl{
+    width: 2.6rem; min-width: 2.6rem; height: 2.6rem; min-height: 2.6rem;
+    padding: 0;
+    border-radius: 7px;
   }
-  .controls{
-    margin-left: 0;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 0.4rem;
-  }
-  .ctrl{ width: 100%; min-width: 0; }
-  .wordmark{ font-size: 1.35em; }
+  .ctrl .glyph{ font-size: 1em; }
+}
+
+/* Narrower still — a small phone, or large text making the wordmark
+   wide. The buttons shrink a little further rather than wrapping. */
+@media (max-width: 22rem){
+  .ctrl{ width: 2.3rem; min-width: 2.3rem; height: 2.3rem; min-height: 2.3rem; }
+  .wordmark{ font-size: 1.1em; }
 }
 .wordmark{
   font-family: var(--font-head); font-weight: 700;
@@ -786,7 +796,7 @@ html[data-contrast="high"] .admin-due .admin-title{ color: var(--ink); }
 
 /* Five controls is a lot for a narrow phone. The header wraps rather
    than pushing anything off the edge. */
-.controls{ flex-wrap: wrap; justify-content: flex-end; }
+.controls{ justify-content: flex-end; }
 
 /* ---------------- diagnostics on the Sources screen ---------------- */
 .manage-version{
