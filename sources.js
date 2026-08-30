@@ -62,35 +62,6 @@ function build(ctx){
   const el = document.getElementById("manage");
   el.innerHTML = "";
 
-  /* The version, here, because this is the screen people look at
-     when something is wrong — and it was only ever shown at the
-     bottom of the story list. */
-  const ver = document.createElement("p");
-  ver.className = "manage-version";
-  ver.textContent = "Wire " + (ctx.version || "?");
-
-  /* A control that reports being touched separates "the button is
-     broken" from "the tap never arrived", which four rounds of
-     guessing could not. */
-  const probe = document.createElement("button");
-  probe.type = "button";
-  probe.className = "reset-btn";
-  probe.style.marginTop = "0.5rem";
-  probe.textContent = "Tap here to test";
-  onTap(probe, () => toast("The tap arrived", "undone"));
-
-
-  /* back */
-  const back = document.createElement("button");
-  back.type = "button";
-  back.className = "back";
-  back.innerHTML = '<span aria-hidden="true">\u2190</span> Back to stories';
-  onTap(back, () => {
-    ctx.show("feed");
-    ctx.refresh();
-    window.scrollTo(0, 0);
-    ctx.announce("Back to all stories");
-  });
 
   const title = document.createElement("h2");
   title.className = "mtitle";
@@ -387,13 +358,7 @@ function build(ctx){
 
   reset.append(resetBtn, resetWhy);
 
-  const report = document.createElement("p");
-  report.id = "tap-report";
-  report.className = "manage-version";
-  report.textContent = "Touch anywhere on this screen and this line will "
-    + "say what it landed on.";
-
-  const parts = [back, ver, probe, report, title, help, warn];
+  const parts = [back, title, help, warn];
   parts.push(list);
   if(orphan) parts.push(orphan);
   parts.push(box, pres, admin, reset);

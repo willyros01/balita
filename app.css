@@ -799,22 +799,6 @@ html[data-contrast="high"] .admin-due .admin-title{ color: var(--ink); }
 .controls{ justify-content: flex-end; }
 
 /* ---------------- diagnostics on the Sources screen ---------------- */
-.manage-version{
-  margin: 0.6rem 0 0;
-  font-size: 0.75em; letter-spacing: 0.04em;
-  color: var(--muted);
-}
-html[data-contrast="high"] .manage-version{ color: var(--ink); }
-
-.too-wide{
-  margin: 0.8rem 0; padding: 0.8rem 0.9rem;
-  background: var(--shade);
-  border-left: var(--spine-w) solid #B4342B;
-  border-radius: var(--radius);
-  font-size: 0.78em; line-height: 1.5;
-  overflow-wrap: anywhere;
-}
-
 .crash{
   margin: 1rem 0; padding: 1rem;
   background: var(--shade);

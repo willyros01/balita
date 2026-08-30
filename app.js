@@ -121,45 +121,6 @@ function registerWorker(){
   });
 }
 
-/* ---------------- what did that tap actually hit? ----------------
-
-   Five explanations for the dead buttons have been wrong, each
-   reasoned from what seemed likely. This stops reasoning and
-   listens: it records every touch on the page and reports which
-   element received it. If a tap on the On/Off toggle is landing on
-   something else, this says what.
-
-   Only active on the Sources screen, and only until the fault is
-   found. */
-function watchTaps(){
-  const describe = el => {
-    if(!el) return "nothing";
-    const cls = (el.className && typeof el.className === "string")
-      ? "." + el.className.split(/\s+/).filter(Boolean).slice(0, 2).join(".")
-      : "";
-    const text = (el.textContent || "").trim().slice(0, 18);
-    return el.tagName.toLowerCase() + cls + (text ? ' "' + text + '"' : "");
-  };
-
-  document.addEventListener("touchend", e => {
-    if(document.body.dataset.view !== "manage") return;
-    const t = e.changedTouches && e.changedTouches[0];
-    if(!t) return;
-
-    /* What is actually at that point, whatever the finger meant. */
-    const hit = document.elementFromPoint(t.clientX, t.clientY);
-    const meant = e.target;
-
-    const box = document.getElementById("tap-report");
-    if(box){
-      box.textContent =
-        "touched " + Math.round(t.clientX) + "," + Math.round(t.clientY) +
-        "  \u2192  " + describe(hit) +
-        (hit !== meant ? "   (the event went to " + describe(meant) + ")" : "");
-    }
-  }, { passive: true });
-}
-
 /* ---------------- is anything too wide? ----------------
 
    Four attempts have been made to stop the page overflowing
@@ -192,17 +153,9 @@ function measureWidth(){
 
     console.warn("Wider than the screen:", guilty);
 
-    /* Say it on screen too, because the console is not reachable on
-       an iPhone and that is where this only ever happens. */
-    const note = document.createElement("p");
-    note.className = "too-wide";
-    note.textContent = "Layout note: " + guilty.length +
-      (guilty.length === 1 ? " element runs" : " elements run") +
-      " past the edge of the screen \u2014 " +
-      guilty.slice(0, 3).map(g => g.what + " by " + g.over + "px").join(", ") +
-      ". Screen is " + limit + "px.";
-    const about = document.getElementById("about");
-    if(about) about.prepend(note);
+    /* Console only now that the layout is behaving. If the drifting
+       screen ever returns this names the cause on the first look,
+       instead of five rounds of reasoning about it. */
   }, 600);
 }
 
@@ -322,7 +275,6 @@ async function start(){
   if(btn) onTap(btn, refresh);
 
   measureWidth();
-  watchTaps();
 
   /* Coming back to the app after a while is the moment somebody
      wants the news to be current. Check quietly then — no toast

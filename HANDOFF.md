@@ -250,6 +250,37 @@ Worth trying, roughly in order of cost:
    words with a photograph, which is a usable headline-and-summary card.
    Keep it on those terms and say so in the app rather than pretending.
 
+## Fixed in 0.16.2 — the dead buttons, finally
+
+Reported at 0.7.0 and unfixed for nine builds. Five explanations were
+offered and every one was wrong: an invisible toast, a stale service
+worker, horizontal overflow, `overflow-x: hidden` on the html element, a
+covering element.
+
+**The answer came from instrumenting rather than reasoning.** A touch
+reporter added to the Sources screen showed the touch landing on exactly
+the right button, with `touchstart` firing — and no click following. iOS
+withholds a click when anything shifts under the finger between press and
+release.
+
+`onTap()` in `ui.js` binds `click` and `pointerup`, with a 400ms guard so
+one press acts once. Applied to every control in the app. **Use it for
+anything new** — `addEventListener("click", …)` alone works on a desktop
+and is dead on a phone.
+
+Two lessons worth more than the fix:
+
+- **Checking that a file parses is not checking that it works.** The
+  rewrite that introduced `onTap` deleted four imports from `sources.js`.
+  `node --check` passed; the screen threw on first use. All ten modules are
+  now actually loaded in a stub browser before shipping.
+- **When five theories have failed, stop theorising.** The crash box and the
+  touch reporter answered in one round what reasoning had not in nine.
+
+The crash box stays: a throw while drawing the Sources screen now shows the
+error rather than leaving a blank half-screen indistinguishable from broken
+buttons.
+
 ## Fixed in 0.15.0
 
 **DW capped at 25, and nothing else capped.** It publishes 139 stories a

@@ -42,6 +42,18 @@ keeps proper time, which is the real answer.
 
 ---
 
+## Worth knowing
+
+**Clicks are unreliable on iOS in this app.** Buttons on the Sources screen
+received touches and never received clicks — proved, not guessed, with an
+on-screen touch reporter. iOS withholds a click when anything shifts under
+the finger between press and release, and something on that screen does.
+Five attempts to name it failed.
+
+`onTap()` in `ui.js` binds both `click` and `pointerup`, with a guard so one
+press acts once. **Use it for every control** rather than `addEventListener`
+directly, or the button will work on a desktop and be dead on a phone.
+
 ## Watch for
 
 These need a real example before they can be fixed. Send a screenshot when
@@ -63,7 +75,8 @@ one appears.
 
 ## Done, for the record
 
-DW capped at 25, every other source uncapped · Sunrise and sunset drive day and night · GitHub token reminder behind a
+Sources buttons that had been dead since 0.7.0 · refresh button · crash
+reporting on the Sources screen · DW capped at 25, every other source uncapped · Sunrise and sunset drive day and night · GitHub token reminder behind a
 passcode · horizontal overflow that pushed the page off-screen · service
 worker no longer freezes on an old version if a file is missing ·
 Guardian's entity limit · stale stories held while awaiting re-extraction ·
