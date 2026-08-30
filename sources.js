@@ -6,7 +6,9 @@
    ============================================================ */
 
 import { PRESETS, PALETTE } from "./config.js";
-import { saveSources } from "./store.js";
+import { saveSources, markRemoved, unmarkRemoved, restoreStandard } from "./store.js";
+import { toast, confirm as ask, onTap } from "./ui.js";
+import * as lock from "./lock.js";
 
 /* A short tag from a name: "Manila Bulletin" -> "MABU".
    Falls back to something rather than nothing. */

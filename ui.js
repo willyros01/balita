@@ -27,6 +27,11 @@
    binding both with a guard against acting twice makes a control
    work either way. Everything here uses it. */
 export function onTap(el, fn){
+  /* A missing element should not take the whole screen down with it.
+     One undefined import did exactly that today: sources.js threw on
+     the first onTap call and the Sources screen drew nothing at all. */
+  if(!el || typeof el.addEventListener !== "function") return;
+
   let handled = 0;
 
   const run = e => {
