@@ -1,6 +1,6 @@
 {
   "version": "0.15.1",
-  "updated": "2026-09-03T17:01:01.378Z",
+  "updated": "2026-09-03T17:08:26.364Z",
   "sources": [
     {
       "id": "inq",
@@ -52,6 +52,49 @@
     }
   ],
   "articles": [
+    {
+      "id": "inqn-nx3ccx",
+      "source": "inqn",
+      "title": "Bohol town suspends classes amid worsening air quality caused by haze",
+      "summary": "TAGBILARAN CITY, Bohol — The municipal government of Bilar, Bohol, has suspended classes in kindergarten, elementary and secondary levels in public and private schools due to worsening air quality…",
+      "byline": "clopez",
+      "section": "Latest News Stories",
+      "published": "2026-09-03T17:08:25.064Z",
+      "url": "https://newsinfo.inquirer.net/2298679/bohol-town-suspends-classes-amid-worsening-air-quality-caused-by-haze",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/bohol-haze-2sep2026-scaled.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TAGBILARAN CITY, Bohol — The municipal government of Bilar, Bohol, has suspended classes in kindergarten, elementary and secondary levels in public and private schools due to worsening air quality caused by haze from wildfires in Indonesia’s Kalimantan and Sumatra regions."
+        },
+        {
+          "type": "p",
+          "text": "Mayor Norman Palacio issued a memorandum Thursday, Sept. 3, ordering the suspension effective immediately and until further notice."
+        },
+        {
+          "type": "p",
+          "text": "Smoke and particulate matter are being carried by prevailing winds from Indonesia toward Bohol and other parts of the country, particularly the Visayas and Mindanao."
+        },
+        {
+          "type": "p",
+          "text": "Palacio advised residents to remain indoors whenever possible and limit unnecessary outdoor activities as a precaution against unhealthy air quality."
+        },
+        {
+          "type": "p",
+          "text": "School heads and concerned officials were directed to disseminate the memorandum and ensure its immediate implementation."
+        },
+        {
+          "type": "p",
+          "text": "The public was urged to remain vigilant, prioritize health and safety, and monitor official announcements for updates on the class suspension. /das"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
     {
       "id": "inqn-17zu55q",
       "source": "inqn",
@@ -121,6 +164,85 @@
         {
           "type": "p",
           "text": "The Inquirer reached out to Remulla about the SC’s statement but he had not responded as of press time. /das"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-14w7ly3",
+      "source": "grd",
+      "title": "Nvidia to buy developer platform Hugging Face in $12.9bn deal",
+      "summary": "<p>Semi-conductor giant bets that support for open AI models could offset potential slowdown in demand for chips</p><p>Nvidia will buy the popular developer platform Hugging Face for nearly $13bn,…",
+      "byline": "Reuters",
+      "section": "Nvidia",
+      "published": "2026-09-03T16:59:56.000Z",
+      "url": "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/435487580779be5596c03bb62e0d164456bff6da/472_0_3333_2667/master/3333.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=bd3e3efffa14c6a769a34b4d87640a1a",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nvidia will buy the popular developer platform Hugging Face for nearly $13bn, betting that support for ⁠open AI models could offset a potential slowdown in demand for the semiconductor giant’s chips."
+        },
+        {
+          "type": "p",
+          "text": "Shares ⁠in Nvidia were ⁠slightly lower ​after the $12.93bn (£9.57bn) deal – which ranks among its biggest ever – was announced for the database of AI models on Thursday."
+        },
+        {
+          "type": "p",
+          "text": "Hugging Face, based in New York and backed by the likes of Intel, Advanced Micro Devices and Amazon, was founded in 2016 by the French entrepreneurs Clément Delangue, Julien Chaumond and Thomas Wolf."
+        },
+        {
+          "type": "p",
+          "text": "Nvidia is already a major open AI player in the US with ⁠its widely used Nemotron model and vocal support for the technology."
+        },
+        {
+          "type": "p",
+          "text": "Acquiring Hugging Face will give it direct access to a platform developers use to ⁠collaborate and test and share tools, potentially providing insight and data that could help it narrow the ​technology gap with top American and ‌Chinese labs."
+        },
+        {
+          "type": "p",
+          "text": "“Nvidia gains visibility into customer’s preferences and the AI models they use,” said Naveen Chhabra, principal analyst at Forrester. “They can see which models are trending, what datasets customer are downloading, and the architectures that are gaining traction weeks before they hit mainstream tech news.”"
+        },
+        {
+          "type": "p",
+          "text": "Demand for open-weight models ‌has surged from businesses balking at the steep bill of deploying generative AI. Chinese companies ‌such as DeepSeek, Moonshot and Z.ai have emerged as crucial players with models that can match the best from the US in tasks including generating computer code at a lower cost."
+        },
+        {
+          "type": "p",
+          "text": "There are fears that some US firms could become reliant on Beijing’s models even as both countries race to dominate a technology they see as crucial to their future. The Trump administration has scrambled to respond to the wave of open models from China, weighing whether to restrict their use while also worrying about stifling American businesses that have taken to using them."
+        },
+        {
+          "type": "p",
+          "text": "Jensen Huang, Nvidia’s chief executive, was a signatory of an open letter earlier this year from major tech firms that advocated for open models and warned against government regulation that would stifle their use. Huang pledged that Nvidia would keep Hugging Face open after acquiring it."
+        },
+        {
+          "type": "p",
+          "text": "“Hugging ‌Face will remain an open platform for the entire AI ecosystem,” said Huang, adding that his company’s chips would not be required to ​build on or deploy through Hugging Face."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "Under the deal, Nvidia will pay about $11.9bn to Hugging Face investors, while offering an equity-based retention program of up to $1bn for employees who join Nvidia."
+        },
+        {
+          "type": "p",
+          "text": "For Nvidia, building up its open source business may help it cushion a demand slowdown from customers such as ⁠Meta, OpenAI and Microsoft, which are developing their own AI chips to cut reliance ​on its costly and ​supply-constrained processors. Several Chinese chip-making firms have also made recent advancements that could further disrupt the balance of power within big tech, though they face strict international export controls."
+        },
+        {
+          "type": "p",
+          "text": "It has been a volatile year in the market for chipmakers, with a chip stock selloff in July wiping $1tn from the market caps of leading firms. Nvidia shares bounced back in August, though, with a strong revenue forecast leading to the second-biggest one-day gain in market history – adding $442bn to the company’s market value."
+        },
+        {
+          "type": "p",
+          "text": "Hugging Face has also been ​in the news recently after a hack by rogue AI agents that ​escaped OpenAI’s testing ‌environment. Beyond hosting AI ​models, it offers datasets, ​software libraries and cloud services used to build and deploy AI applications."
         }
       ],
       "truncated": false,
@@ -1387,184 +1509,6 @@
         {
           "type": "p",
           "text": "The department emphasized that Filipino seafarers should be given sufficient information about the risks involved so they can make an informed decision before sailing through dangerous maritime areas. – Alexis Romero"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-1cp69e",
-      "source": "dw",
-      "title": "How Russia is trying to attract African students",
-      "summary": "As Russia deepens ties with African nations seeking to distance themselves from Western influence, academic diplomacy is emerging as a key tool in Moscow's foreign policy.",
-      "byline": "Privilege Musvanhiri",
-      "section": "",
-      "published": "2026-09-03T15:52:00.000Z",
-      "url": "https://www.dw.com/en/how-russia-is-trying-to-attract-african-students/a-74489443?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/74545131_6.jpg",
-        "caption": "Russia is trying to attract more African studentsImage: Anton Novoderezhkin/TASS/IMAGO"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "In 2025, Russia allocated more than 5,000 state-funded university spots for African students after receiving more than 40,000 applications. According to Russia's cultural diplomacy agency Rossotrudnichestvo, that's double the applications they received in 2024. The highest number of applicants came from Sudan, Guinea, Ghana and Chad. Officials also report a growing interest in Russian language courses."
-        },
-        {
-          "type": "p",
-          "text": "Observers say it is unsurprising that African students are turning to Russian universities for higher education. Under President Vladimir Putin, the Kremlin has sought to revive Soviet-era relationships and build new alliances across Africa to grow its global influence amid confrontation with the West."
-        },
-        {
-          "type": "p",
-          "text": "Since its full-scale invasion of Ukraine in 2022, Russia has increasingly turned toward countries in the Global South to counter international isolation. Russia has touted education, energy, and military cooperation as tools of engagement."
-        },
-        {
-          "type": "p",
-          "text": "\"Offering scholarships is the cheapest possible way to get allies. Russia needs allies at the moment,\" Russian historian Irina Filatova, Professor Emeritus at the University of KwaZulu-Natal in South Africa, told DW. \"Russia has created an image that projects it as anti-colonial, and Africans agree with it.\""
-        },
-        {
-          "type": "p",
-          "text": "Currently, the number of African students studying in the European Union or United States dwarfs that of African students studying in Russia, with a study estimating there were more than 92,000 African students studying in France alone."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/68156917_$%7BformatId%7D.jpg",
-          "caption": "Russia has upped its efforts in making gestures of friendship towards African nations, particularly those in the Sahel, such as MaliImage: FANNY NOARO-KABRE/AFP"
-        },
-        {
-          "type": "h",
-          "text": "Expanding a cultural footprint"
-        },
-        {
-          "type": "p",
-          "text": "Russia has announced plans to expand its network of cultural and education centers across Africa in a program known as \"Russian Houses\" to strengthen its academic and cultural footprint on the continent."
-        },
-        {
-          "type": "p",
-          "text": "Yevgeny Primakov, head of Rossotrudnichestvo, told the Russia-Africa Expo 2025 held in Moscow in October that new centers are planned for Egypt, Zambia, Tanzania, South Africa and Ethiopia."
-        },
-        {
-          "type": "p",
-          "text": "\"Russian language courses are now offered in many African countries, and attending them opens the door to Russian scholarships, universities, career opportunities and a new way of life,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "The growing presence of Russian Houses, coupled with language programs and state-funded study grants, helps explain the rise in scholarship applications. In the Central African Republic, authorities have introduced compulsory Russian language courses for university students. Russian military advisers and private contractors have already established a strong presence in the CAR, whose President Faustin-Archange Touadera relies on Russian military support."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/68506060_$%7BformatId%7D.jpg",
-          "caption": "Supporters of Central African Republic leader Faustin Archange Touadera have been a pro-Russian voiceImage: CAROL VALADE/AFP/Getty Images"
-        },
-        {
-          "type": "h",
-          "text": "Propaganda and recruitment concerns"
-        },
-        {
-          "type": "p",
-          "text": "Critics, however, accuse Russian Houses of serving as covert propaganda outposts that promote Kremlin narratives abroad."
-        },
-        {
-          "type": "p",
-          "text": "Human rights organizations have also raised alarm over reports that some foreign students have been pressured into joining the Russian military in exchange for visa extensions or legal status."
-        },
-        {
-          "type": "p",
-          "text": "Several students captured by Ukrainian forces claimed they were coerced into signing military contracts under threat of deportation or imprisonment. Others have been lured into other aspects of Russia's war effort, such as working in factories making arms and ammunition. Analysts warn such practices could undermine Russia's soft power ambitions."
-        },
-        {
-          "type": "p",
-          "text": "\"It is very bad for the Russian image at the moment to invite people to study and pay for their studies if they end up doing something different,\" said Filatova, adding, \"Russia needs African countries as allies, not enemies.\""
-        },
-        {
-          "type": "h",
-          "text": "Echoes of the Soviet past"
-        },
-        {
-          "type": "p",
-          "text": "During the Soviet era, Moscow positioned itself as a partner to newly independent states in Asia, Africa and Latin America."
-        },
-        {
-          "type": "p",
-          "text": "Thousands of students from non-aligned countries, many of whom later became political or business leaders, received an education in the Soviet Union."
-        },
-        {
-          "type": "p",
-          "text": "A symbol of this was the Patrice Lumumba People's Friendship University of Russia, established in 1960, which trained students from the developing world while advancing Soviet foreign policy objectives."
-        },
-        {
-          "type": "h",
-          "text": "Affordable education for African students"
-        },
-        {
-          "type": "p",
-          "text": "Beyond geopolitics, tuition and living expenses in Russia are significantly lower than in Western or even some African universities."
-        },
-        {
-          "type": "p",
-          "text": "\"Russian universities are way cheaper than studying in Europe or some African countries,\" said Keith Baptist, a Zimbabwean parent with three dependents studying in Russia."
-        },
-        {
-          "type": "p",
-          "text": "\"Accommodation and food are also way cheaper in Russia compared to a student learning here in Zimbabwe,\" he added."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/71401247_$%7BformatId%7D.jpg",
-          "caption": "A delegation from Kenya visited the Patrice Lumumba University of Moscow in 1964, which has come to symbolize long standing relations between Russia and KenyaImage: Alexei Stuzhin/TASS /IMAGO"
-        },
-        {
-          "type": "p",
-          "text": "Annual tuition fees for medicine and other specialized fields in Russia range between $2,000 (€1,719) and $10,000 (€8,596), compared to between $20,000 and $40,000 in Europe or the United States."
-        },
-        {
-          "type": "p",
-          "text": "Jefry Makumbe, a Zimbabwean graduate who earned a Bachelor of Arts Honors in Radio and Television Journalism from the University of Voronezh in 2008, said affordability and cordial relations play a major role."
-        },
-        {
-          "type": "p",
-          "text": "\"Affordability and the good relations Russia enjoys with African countries are big factors. Many young people in Africa would prefer to study in Russia,\" Makumbe told DW."
-        },
-        {
-          "type": "p",
-          "text": "Filatova says the Kremlin's deliberate funding for state universities keeps costs low."
-        },
-        {
-          "type": "p",
-          "text": "\"If the scholarships are fully paid for, it's a good opportunity for African students who cannot afford education. Fully funded education is rare in the West and even Africa itself,\" she said."
-        },
-        {
-          "type": "h",
-          "text": "Western nations driving students away"
-        },
-        {
-          "type": "p",
-          "text": "Analysts also point to increasingly restrictive immigration and visa policies in Western countries as another driver of the shift toward Russia."
-        },
-        {
-          "type": "p",
-          "text": "In June, the United States suspended visa issuance including student visas to several African nations."
-        },
-        {
-          "type": "p",
-          "text": "Washington also revoked more than 6,000 student visas over alleged violations of United States law, including overstays and what it termed \"support for terrorism.\""
-        },
-        {
-          "type": "p",
-          "text": "\"Western countries are now making it difficult to get a scholarship or even a simple student visa,\" said Baptist."
-        },
-        {
-          "type": "p",
-          "text": "\"In our case, America was the first option, only for us to find out that visa applications had been suspended.\""
-        },
-        {
-          "type": "h",
-          "text": "What's driving Russia's ambitious push into Africa?"
-        },
-        {
-          "type": "p",
-          "text": "Edited by Cai Nebe"
         }
       ],
       "truncated": false,
@@ -2841,211 +2785,6 @@
         {
           "type": "p",
           "text": "Another man, Hekmat Omar Ali Hakim, was charged on 21 August with failing to disclose information in relation to the synagogue attack. Hakim, 49, pleaded not guilty at Westminster magistrates court. He is due to attend a hearing at the Old Bailey on 25 September."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-1ig5oqx",
-      "source": "grd",
-      "title": "Aid operations in aftermath of deadly Nepal floods hampered by conditions | First Thing",
-      "summary": "<p>Guardian reporters in Nepal have witnessed first-hand the scenes of destruction and grief after the flash floods. Plus, a not-to-be-missed interview with the legendary Mr T</p><p>Good morning.…",
-      "byline": "Martin Belam",
-      "section": "US news",
-      "published": "2026-09-03T15:03:39.000Z",
-      "url": "https://www.theguardian.com/us-news/2026/sep/03/first-thing-aid-operations-deadly-nepal-floods-hampered-conditions",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/d855de450fea76f543dff9d233b978c5490445c4/668_216_4729_3784/master/4729.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7f5b348b21796698302c5398efd5c39f",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Good morning. Thousands remain missing and the delivery of aid has been hampered by treacherous conditions in communities almost wiped out of existence by the flash flooding in Nepal and Tibet. A week after the disaster, survivors who fled up mountainsides are still being collected by army helicopters and evacuated."
-        },
-        {
-          "type": "p",
-          "text": "The mountain village of Syabru Besi was among those destroyed, with even the road to the village gone. According to local government officials, at least 500 people there are missing, a quarter of the population. The village resembles nothing more than a muddy riverbed, with just one building left standing."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "What have Guardian reporters witnessed? Hannah Ellis-Petersen and Gaurav Pokharel have been in the Betrawati and Rasuwa districts with the photographer Ahmer Khan. In this video, Ellis-Petersen explains what she has seen alongside haunting footage of the debris. They have spoken to multiple survivors in a region now full of human suffering."
-          ]
-        },
-        {
-          "type": "h",
-          "text": "Israel ‘seeking Trump’s support for plan to expel Palestinians from Gaza’"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/faa0a5cc58d3f426937db387c36dd1fb8fd0e810/491_0_4320_3456/master/4320.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Internally displaced Palestinians among the wreckage of Gaza after Israel’s military campaign. Photograph: Mohammed Saber/EPA"
-        },
-        {
-          "type": "p",
-          "text": "Israel’s defence minister has said his country is seeking Donald Trump’s support to approve plans to expel Palestinians from the Gaza Strip in what has widely been condemned as a potential war crime. Israel Katz said there was “no real solution for Gaza in the end without this migration”."
-        },
-        {
-          "type": "p",
-          "text": "Trump discussed a US takeover of the Gaza Strip in early 2025 that would have involved removing Palestinians from the territory, but has since pulled back from the idea. A 20-point peace plan the White House drew up last year did not call for Palestinians’ deportation, an act that would be widely seen as ethnic cleansing."
-        },
-        {
-          "type": "h",
-          "text": "Child sexual abuse survivor alleges Elon Musk’s AI chatbot used photos of her to generate new illegal images"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/e9d36343cdbab318e46647b8e2016dc7b54b5e82/631_0_2709_2167/master/2709.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Musk’s company did not requests for comment about the allegations against its Grok chatbot.  Photograph: NurPhoto/Getty Images"
-        },
-        {
-          "type": "p",
-          "text": "A survivor of child sexual abuse has sued Elon Musk’s artificial intelligence company, alleging that its Grok chatbot used pictures of her abuse to generate new illegal pornographic images that depict her. Attorneys for the plaintiff accuse xAI of both generating child sexual abuse material of their client and of ingesting child sexual abuse images depicting her."
-        },
-        {
-          "type": "p",
-          "text": "Margaret Mabie, an attorney for the plaintiff, said: “The difference here between many criminal cases that you’ll see with AI-generated material is that you cannot prove that the kid in the material is real. But here, because you can associate it with the series, we know that it is an identifiable victim who is still alive and was a real child in the photo.” Neither xAI or SpaceX, which acquired the company in February, returned requests for comment regarding the lawsuit."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "What other legal developments have happened around AI? The Trump administration is supporting OpenAI in ⁠a lawsuit against the New York Times, arguing in favor of the use of copyrighted writing to train AI. The Times accuses OpenAI of using millions of newspaper articles without permission to train its chatbot. In a brief filed to the court, the Trump administration said: “The US has a strong interest in continuing to develop a robust and competitive artificial intelligence industry.”"
-          ]
-        },
-        {
-          "type": "h",
-          "text": "JD Vance says he’s doing ‘God’s work – and if that leads to the end times, OK’"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/d4e8a2b60afcac6d3f3b03d6c4cc1a27590a98d6/1106_0_2894_2317/master/2894.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "JD Vance published a spiritual memoir earlier this summer.  Photograph: Samuel Corum/UPI/Shutterstock"
-        },
-        {
-          "type": "p",
-          "text": "JD Vance has said he was “doing as much of God’s work as possible” and that he was OK “if that leads to the end times”, which he says “are coming”. The US vice-president made the comments during a podcast interview with Bryce Crawford, a 22-year-old evangelical host."
-        },
-        {
-          "type": "p",
-          "text": "Vance said: “I think there are things about the world that make me feel, like, not shocked if the antichrist was walking among us.” He pointed to AI, using the example of an acquaintance who uses AI as a marriage counselor, which he described as “kind of satanic”."
-        },
-        {
-          "type": "p",
-          "text": "Vance, who published a spiritual memoir earlier this summer about his conversion to Catholicism, said: “I think you got to just kinda try and have an attitude of: the end times may be coming, in fact they are coming, it’s just a question of whether they’re coming thousands of years down the road, or a few months down the road.”"
-        },
-        {
-          "type": "h",
-          "text": "In other news …"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/9d365c4daed72fdea21165a216adc8438042badb/376_0_2560_2048/master/2560.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Cassandra Wilson. Photograph: Andy Hall/The Observer"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Cassandra Wilson, a Grammy-winning jazz singer, has died aged 70. Labelled the US’s best singer by Time magazine in 2001, Wilson was best known for her genre-bending voice.",
-            "Google has defeated the US justice department’s attempt to force it to sell some of its ad technology in a win for the firm against US antitrust enforcers’ attempts to break up big tech.",
-            "The clothing company Patagonia has joined a lawsuit challenging Donald Trump’s decision to reduce the Bears Ears and Grand Staircase-Escalante national monuments in Utah. The president’s order would strip sacred tribal sites of safeguards.",
-            "An MMA fight in Florida has been condemned after a fighter made antisemitic comments and a spectator was ejected for waving a giant swastika flag."
-          ]
-        },
-        {
-          "type": "h",
-          "text": "Stat of the day: Uber to cut 3,300 corporate jobs in management overhaul"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/b0a20434e732e76f34b9367db14967587a5a92e6/205_0_2961_2370/master/2961.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Uber’s chief executive, Dara Khosrowshahi. Photograph: Anushree Fadnavis/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "The company says it is slashing 10% of its workforce to make operations “simpler and faster”, and is also asking most of its staff to come into an office, meaning less than about 1% of employees will be working remotely."
-        },
-        {
-          "type": "h",
-          "text": "The Filter Recommends: 10 fall getaways for every type of traveler … and better coffee at home"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/6fa9ce9979739c5c374791348c9a3a4d37fee200/174_0_4560_3648/master/4560.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Level up your coffee skills. Photograph: Pinkybird/Getty Images"
-        },
-        {
-          "type": "p",
-          "text": "Our contributors share their favorite accommodations from fall and winter’s past, listing 10 stays they would book again in a heartbeat. And if you aren’t going away, we’ve got six coffee-making upgrade suggestions to level up your skill."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/0aeae78547ff1823ff5c54a07bb7081adac53355/0_914_5205_4164/master/5205.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Mr. T, photographed for the Guardian in Chicago, August 2026. Photograph: Nolis Anderson/The Guardian"
-        },
-        {
-          "type": "p",
-          "text": "I pity the fool who does not read this incredible Simon Hattenstone interview with 74-year-old Mr T."
-        },
-        {
-          "type": "h",
-          "text": "… or this: The $1 Trump coin – legal tender, depending on what you mean by legal"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/f2e26f71e06a68a9dbd169040235add3abe38757/62_0_1350_1080/master/1350.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "The Trump coin. Photograph: Department of Treasury/United States Mint/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "As Adam Gabbatt puts it, two hallmarks of Donald Trump’s second term are the president’s enthusiasm for putting his name and face on things, and his cavalier approach to established law. This can be summed up by the fact that Trump and the treasury secretary, Scott Bessent, appear to be ignoring various laws and 250 years of tradition that have previously prevented the likeness of living people from appearing on US currency."
-        },
-        {
-          "type": "h",
-          "text": "Climate check: UN warns of record El Niño approaching"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/4124a74c408b7fcc8aec3128eace5e84f119f90f/215_0_6397_5120/master/6397.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "El Niño in previous years. Photograph: Science Photo Library/Alamy"
-        },
-        {
-          "type": "p",
-          "text": "The UN has said the El Niño is “supersizing before our eyes” and likely to be the largest in at least 1,000 years and will pile extra heat into an atmosphere where temperatures are already rising rapidly due to global heating. The combination means 2027 is set to “blow apart” the record and be the hottest year ever recorded."
-        },
-        {
-          "type": "h",
-          "text": "Last Thing: New musical to give intimate portrait of Marilyn Monroe and Arthur Miller’s marriage"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/cfb4280d5a120d45291c0b8657a422df7e2856dd/298_55_1308_1046/master/1308.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Marilyn Monroe and husband Arthur Miller. Photograph: New York Daily News Archive/NY Daily News/Getty Images"
-        },
-        {
-          "type": "p",
-          "text": "Misfits Together, by Bastille’s Dan Smith and To Kill a King’s Ralph Pelleymounter, is set amid the 1950s’ “red scare” and gives a nuanced and intimate portrait of the pair’s famous relationship, while revealing parallels between the volatile state of the US during the 50s and now."
-        },
-        {
-          "type": "h",
-          "text": "Sign up"
-        },
-        {
-          "type": "p",
-          "text": "First Thing is delivered to thousands of inboxes every weekday. If you’re not already signed up, subscribe now."
-        },
-        {
-          "type": "h",
-          "text": "Get in touch"
-        },
-        {
-          "type": "p",
-          "text": "If you have any questions or comments about any of our newsletters please email newsletters@theguardian.com"
         }
       ],
       "truncated": false,
@@ -11775,69 +11514,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inqn-7nxshv",
-      "source": "inqn",
-      "title": "COA eyeing modified rules on confidential funds",
-      "summary": "MANILA, Philippines – The Commission on Audit (COA) is studying the possibility of modifying its 11-year-old circular being used as a basis in auditing confidential and intelligence funds, COA…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-09-03T10:31:27.037Z",
-      "url": "https://newsinfo.inquirer.net/2298507/coa-eyeing-modified-rules-on-confidential-funds",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2021/08/Commission-on-Audit-COA.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – The Commission on Audit (COA) is studying the possibility of modifying its 11-year-old circular being used as a basis in auditing confidential and intelligence funds, COA Commissioner Douglas Malillin said on Thursday."
-        },
-        {
-          "type": "p",
-          "text": "Amid the ongoing impeachment trial of Vice President Sara Duterte, COA’s Joint Circular (JC) No. 2015-01 with the Department of Budget and Management, the Department of the Interior and Local Government, the Government Commission for GOCCs, and the Department of National Defense has frequently been the subject of debate, particularly in its enactment."
-        },
-        {
-          "type": "p",
-          "text": "“After all the concerns and issues that were raised regarding the confidential funds, we were taking a look at the joint memorandum circular, which was issued in 2015… and we find that there are certain revisions that need to be modified or revised,” Malillin said."
-        },
-        {
-          "type": "p",
-          "text": "Malillin enumerated some of the provisions in the circular that they may reform."
-        },
-        {
-          "type": "p",
-          "text": "These include the supporting documents or documents evidencing payments, particularly the data that should be included, and how auditors will identify sufficiency of the documents."
-        },
-        {
-          "type": "p",
-          "text": "He also mentioned that there may be a need to have requirements for people who have knowledge of the identities of people using aliases, should they be allowed."
-        },
-        {
-          "type": "p",
-          "text": "“The present joint memorandum circular does not exactly prohibit nor does it really straightforwardly allow the use of aliases,” Malillin pointed out."
-        },
-        {
-          "type": "p",
-          "text": "Malillin also mentioned that the current JC lacks provisions on evidence of success and casual links, which he characterized as “very crucial features” on the payment of rewards – an allowable use for confidential funds."
-        },
-        {
-          "type": "p",
-          "text": "Furthermore, Mallilin noted the need for COA to also identify informants for confidential activities for purposes of auditing.“There should be a balance between protecting the identity, but also a point of where COA, based on certain clearances, can actually take a look at the identity of the person without compromising national security and the confidentiality of the activity,” he explained."
-        },
-        {
-          "type": "p",
-          "text": "The specific steps in issuing credit notices and notices of disallowance must also be revisited, Mallilin pressed."
-        },
-        {
-          "type": "p",
-          "text": "A credit notice is issued when an agency passes an audit, while a notice of disallowance is issued to agencies that have been flagged by COA for discrepancies in use or documentation of government funds. /gsg"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "inqn-snr7j6",
@@ -22229,6 +21905,172 @@
         {
           "type": "h",
           "text": "BBC Africa podcasts"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "dw-146mtfk",
+      "source": "dw",
+      "title": "1 in 5 youths targeted by online sexual abuse, UNICEF finds",
+      "summary": "A survey of around 21,000 young people by the UN's agency for children, UNICEF, has found that online sexual abuse of minors is on the rise.",
+      "byline": "David Ehl",
+      "section": "",
+      "published": "2026-09-03T00:05:00.000Z",
+      "url": "https://www.dw.com/en/1-in-5-youths-targeted-by-online-sexual-abuse-unicef-finds/a-78654173?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/76820656_6.jpg",
+        "caption": "A new survey by UNICEF found that one in five teenagers had been the target of online sexual abuse over the past yearImage: Robin Utrecht/ROBIN UTRECHT/picture alliance"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The internet is not a safe place for unsupervised children and young people — by now, that's common knowledge."
+        },
+        {
+          "type": "p",
+          "text": "Social media platforms are adept at tweaking their algorithms to ensure users of any age remain on their sites. To do that, they often disseminate content that can be dangerous and upsetting for young people."
+        },
+        {
+          "type": "p",
+          "text": "Studies regularly find a connection between what's known as doomscrolling and a higher risk of psychological problems in the young, including suicidal thoughts. And some of the latest trends in video creation on platforms like TikTok directly endanger the safety of users."
+        },
+        {
+          "type": "p",
+          "text": "In the United States, Meta, which owns both Instagram and Facebook, recently opted to settle a case against it out of court. A number of US states had claimed that the two platforms harmed children."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/78425808_$%7BformatId%7D.jpg",
+          "caption": "In the court case against Meta, held in Oakland, California, the corporation avoided a conviction by reaching a financial settlement with statesImage: Vicki Behringer/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "Meta agreed to pay up to $17.1 billion (€14.7 billion) to the states involved and to limit teenagers' access to its platforms to just two hours a day. During the night, access will be completely blocked."
+        },
+        {
+          "type": "p",
+          "text": "A new survey by UNICEF, the UN agency for children, puts the spotlight on another danger that young people constantly face in the digital world: sexual assault, a threat experienced by one in five people between the ages of 12 and 17 over the past year."
+        },
+        {
+          "type": "h",
+          "text": "What are the key findings?"
+        },
+        {
+          "type": "p",
+          "text": "The UNICEF report, which DW saw in advance of publication, explains how such attacks often happen."
+        },
+        {
+          "type": "p",
+          "text": "\"It often begins without warning,\" the authors of the study wrote. \"Conversation becomes coercion, and coercion becomes entrapment.\""
+        },
+        {
+          "type": "p",
+          "text": "The survey found that more than 15 million children had been exposed to unwanted sexual content. An estimated 9 million were pressured into sexual conversations or asked to share sexual images, while some 4 million had sexual images shared without their consent. The report's authors, however, warn that the true scale is likely far higher."
+        },
+        {
+          "type": "p",
+          "text": "\"The report reveals a painful reality,\" said UNICEF Executive Director Catherine Russell. \"These experiences cause profound emotional and mental distress. Many children suffer in silence, unsure where to turn for help.\""
+        },
+        {
+          "type": "p",
+          "text": "Often, the perpetrator of the assault puts pressure on a victim. The victims then feel ashamed and this makes it difficult to tell anybody about what has happened. Of those surveyed, 41% had never told anybody about their assault. Others said they had first confided in friends, siblings or their mothers. Fewer than 1% were reported to authorities."
+        },
+        {
+          "type": "p",
+          "text": "The stereotype many have of a complete stranger harassing young people online actually only applies in 16% of cases. Most perpetrators — 57% — are already known to their victims. They may be friends, family members or even romantic partners."
+        },
+        {
+          "type": "p",
+          "text": "In addition, 27% of respondents were not able to identify the people behind the profiles. When perpetrators are known, they include adults but also minors. In many cases, attacks take place in real life as well as online."
+        },
+        {
+          "type": "p",
+          "text": "The major social media platforms are also the main gateways for this kind of behavior. The UNICEF report says 60% of assaults come primarily from Facebook, WhatsApp and Instagram (all of which are owned by Meta), followed by Snapchat, TikTok and YouTube. And 14% of respondents cited online gaming platforms as the location of an assault — gaming platforms usually have direct messaging channels."
+        },
+        {
+          "type": "h",
+          "text": "How was the data collected?"
+        },
+        {
+          "type": "p",
+          "text": "The report polled around 21,000 young people in 21 countries, aged between 12 and 17, who regularly use the internet. Data from 12 countries — Ethiopia, Indonesia, Cambodia, Kenya, Malaysia, Mozambique, Namibia, the Philippines, Tanzania, Thailand, Uganda and Vietnam — had already been collected in 2020 and 2021 and analyzed in an earlier report."
+        },
+        {
+          "type": "p",
+          "text": "For this new report, additional data was collected in Armenia, Brazil, Colombia, the Dominican Republic, Mexico, Montenegro, North Macedonia, Pakistan and Serbia. The surveys were also supplemented by longer interviews with 100 young people who had experienced abuse."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/75488321_$%7BformatId%7D.jpg",
+          "caption": "Children and young people can come into contact with potentially inappropriate AI-generated content onlineImage: Leon Neal/Getty Images"
+        },
+        {
+          "type": "h",
+          "text": "Europe, US surveys find similar results"
+        },
+        {
+          "type": "p",
+          "text": "Researchers familiar with this issue would not be surprised by the scale of the problem."
+        },
+        {
+          "type": "p",
+          "text": "The 2020 EU Kids Online Survey, based on a poll conducted in 19 European countries, indicated that 22% of all participants had received sexually explicit messages online."
+        },
+        {
+          "type": "p",
+          "text": "In a Spanish study conducted in seven secondary schools in 2021 and 2022, 21% of female respondents said they were sexually harassed online \"occasionally,\" while 5% said this happened \"frequently.\" For male respondents in the Spanish study, the percentages were a few points lower."
+        },
+        {
+          "type": "p",
+          "text": "A similar survey conducted by the Pew Research Center in 2022 found that 17% of 13- to 17-year-olds in the US said they had been sent explicit images without their consent. The survey did not differentiate between sexually explicit content and other material that showed things like violence."
+        },
+        {
+          "type": "h",
+          "text": "Social media bans in Australia, UK, France"
+        },
+        {
+          "type": "p",
+          "text": "The UNICEF report calls on governments, tech companies and other stakeholders to better protect children and young people in the digital world."
+        },
+        {
+          "type": "p",
+          "text": "Among the requests:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Design more secure digital platforms, with stronger protection for the privacy of minors.",
+            "Strengthen national regulations and criminal law, and close loopholes.",
+            "Establish trustworthy reporting and support systems for young people."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Coming just after Meta's out-of-court settlement in the US, the new UNICEF report will likely add fuel to the fire for those seeking to ban social media for young people, an ongoing debate in many countries."
+        },
+        {
+          "type": "p",
+          "text": "In December 2025, Australia became the first country in the world to introduce an age limit for social media in order to protect minors. There, anyone under 16 is prohibited from having an account on platforms like YouTube, X, Facebook, Instagram, TikTok and Snapchat, a rule the platforms themselves are required to monitor."
+        },
+        {
+          "type": "p",
+          "text": "A similar age limit will come into effect in the UK in 2027, while France is the first EU country to have passed a law adopting an age limit — 15 years old — for social media users. However, it has since been blocked by France's top court, the Constitutional Council, which ruled it might infringe on freedom of expression and privacy."
+        },
+        {
+          "type": "p",
+          "text": "In June, a German commission proposed a tiered model. This would come with age limits, requirements for proof of age and strict rules requiring the cooperation of social media platforms."
+        },
+        {
+          "type": "p",
+          "text": "This article was originally written in German."
+        },
+        {
+          "type": "h",
+          "text": "Virtual people: Why you can't always trust what you see"
         }
       ],
       "truncated": false,
