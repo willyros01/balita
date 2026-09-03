@@ -103,6 +103,12 @@ async function loadArticles(){
 document.addEventListener("keydown", e => {
   if(e.key !== "Escape") return;
   if(document.body.dataset.view === "feed") return;
+
+  if(document.body.dataset.view === "reader"){
+    reader.close(ctx);   /* returns to where the story was opened from */
+    return;
+  }
+
   ctx.show("feed");
   ctx.refresh();
   window.scrollTo(0, 0);

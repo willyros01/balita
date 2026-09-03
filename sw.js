@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.16.3";
+const VERSION = "wire-v0.16.4";
 const SHELL = [
   "./",
   "./index.html",

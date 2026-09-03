@@ -14,6 +14,12 @@ import { onTap } from "./ui.js";
 /* Block kinds this screen knows how to draw. */
 const KNOWN = new Set(["p", "h", "quote", "list", "image"]);
 
+/* Where the list was scrolled to when a story was opened. Closing
+   the article puts the reader back there instead of at the top —
+   losing your place in a long list every time you read one story
+   was worse than the extra line of code to remember it. */
+let feedScrollY = 0;
+
 /* Returns a figure, or null when there is no real picture.
 
    This used to fall back to drawing an invented one — a grey
@@ -94,6 +100,8 @@ function blockFor(block, seed){
 export function open(ctx, id){
   const a = ctx.state.articles.find(x => x.id === id);
   if(!a) return;
+
+  feedScrollY = window.scrollY;
 
   const src = ctx.sourceOf(a.source);
   const el  = document.getElementById("reader");
@@ -225,6 +233,6 @@ export function open(ctx, id){
 
 export function close(ctx){
   ctx.show("feed");
-  window.scrollTo(0, 0);
+  window.scrollTo(0, feedScrollY);
   ctx.announce("Back to all stories");
 }
