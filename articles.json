@@ -1,6 +1,6 @@
 {
   "version": "0.15.1",
-  "updated": "2026-09-04T20:00:56.901Z",
+  "updated": "2026-09-04T20:30:54.776Z",
   "sources": [
     {
       "id": "inq",
@@ -52,6 +52,85 @@
     }
   ],
   "articles": [
+    {
+      "id": "gma-1l1in7i",
+      "source": "gma",
+      "title": "Rodrigo Duterte camp urges ICC to strengthen evidence verification",
+      "summary": "The camp of former President Rodrigo Duterte on Thursday asked the International Criminal Court (ICC) to amend its E-Court Protocol to strengthen verification requirements for open-source and…",
+      "byline": "GMA News",
+      "section": "",
+      "published": "2026-09-04T20:13:21.000Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1001226/rodrigo-duterte-camp-urges-icc-to-strengthen-evidence-verification/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2025/11/Duterte_ICC_2025_11_28_13_15_24.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published September 5, 2026 4:13am"
+        },
+        {
+          "type": "p",
+          "text": "The camp of former President Rodrigo Duterte on Thursday asked the International Criminal Court (ICC) to amend its E-Court Protocol to strengthen verification requirements for open-source and user-generated material submitted as evidence."
+        },
+        {
+          "type": "p",
+          "text": "In a submission before the ICC Trial Chamber III, the defense flagged several problems with the prosecution’s evidence, including illegible documents, audiovisual files without transcripts or translations, and pages from the same document being disclosed separately under different and nonconsecutive evidence reference numbers."
+        },
+        {
+          "type": "p",
+          "text": "\"Based on a small sample of documents from the same dataset which has already been received by the defense, it is clear that there are major issues with this collection of documents; it includes many duplicates and documents of very poor quality which, notwithstanding its volume, makes meaningful review immensely challenging,\" the defense said."
+        },
+        {
+          "type": "p",
+          "text": "The defense said the prosecution had disclosed more than 25,000 evidence items as of the latest count, up from just over 5,000 items submitted before the confirmation hearing in February."
+        },
+        {
+          "type": "p",
+          "text": "The prosecution has also signaled plans to submit another 200 gigabytes of material, the defense said."
+        },
+        {
+          "type": "p",
+          "text": "\"With three months until the start of trial, the defense is deeply concerned that the quality and quantity of the evidence in this case risks flooding the record with unreliable and/or irrelevant material. This would be detrimental for the parties and the Chamber’s search for the truth, and reputationally damaging for the Court,\" the defense said."
+        },
+        {
+          "type": "p",
+          "text": "\"This concern is particularly heightened in this case where, unlike in other cases previously before the Court, the parties and Chamber are operating in an environment where a huge volume of misinformation is being routinely created and shared online about these proceedings and the events on which they focus.\""
+        },
+        {
+          "type": "p",
+          "text": "To mitigate this risk, the defense proposed adding an “Expert Verification” field to the E-Court Protocol for open-source and user-generated evidence."
+        },
+        {
+          "type": "p",
+          "text": "The field would indicate whether an item submitted to the Court would be accompanied by an expert report."
+        },
+        {
+          "type": "p",
+          "text": "\"In the defense’s view, any such expert report ought to include, at a minimum, information on: the source of the item (both the sender/uploader and the creator of the piece of evidence, if known); its chain of custody and whether the item is the original or a copy; its metadata and any other technical aspects, such as the hash value generated at the time of capture; the steps taken to verify the material and to check for editing or manipulation,\" the defense said."
+        },
+        {
+          "type": "p",
+          "text": "\"It should also include information on the qualifications and experience of the person who undertook those steps to verify the material on behalf of the tendering party, and the methodology that they followed. Without this information, it would be very difficult for the Chamber to come to a view on the evidence’s relevance and admissibility, pursuant to Article 69(4) of the [Rome] Statute,\" it added."
+        },
+        {
+          "type": "p",
+          "text": "It suggested that the Court approve a template for expert verification reports ahead of trial."
+        },
+        {
+          "type": "p",
+          "text": "Duterte has been in ICC custody since March 2025 in connection with charges of crimes against humanity over killings during his tenure as Davao City mayor and in relation to the war on drugs during his presidency."
+        },
+        {
+          "type": "p",
+          "text": "The trial is set to begin on November 30, 2026. — VBL, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
     {
       "id": "dw-1wxqln5",
       "source": "dw",
@@ -12234,6 +12313,180 @@
       "source_of_text": "page"
     },
     {
+      "id": "dw-1xqwdow",
+      "source": "dw",
+      "title": "The hidden environmental cost of AI data centers",
+      "summary": "As data centers multiply to meet AI demand, they're straining power grids, draining water supplies and reshaping the land and air around them.",
+      "byline": "Josh Axelrod",
+      "section": "",
+      "published": "2026-09-04T11:08:00.000Z",
+      "url": "https://www.dw.com/en/the-hidden-environmental-cost-of-ai-data-centers/a-78789889?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/77389241_6.jpg",
+        "caption": "Rows of servers hum inside Google's data center in Douglas County, Georgia — one of thousands of facilities worldwide powering the AI boomImage: Connie Zhou/ZUMA/picture alliance"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every question sent to AI models provides an instant reply that seems to appear out of nowhere, but answering queries requires physical infrastructure that consumes real energy, water and land."
+        },
+        {
+          "type": "p",
+          "text": "Somewhere around the world — maybe in Virginia, Sao Paulo or Hong Kong — a massive warehouse filled with fiber-optic cables and seemingly endless rows of humming servers is working to provide the processing power for the more than 2.5 billion questions ChatGPT alone fields daily."
+        },
+        {
+          "type": "p",
+          "text": "AI models, along with cloud storage, streaming, web hosting and social media, all have a very real physical footprint. If data centers were a country, their level of electricity use would make them the 11th largest electricity consumer in the world, according to researchers from the United Nations University."
+        },
+        {
+          "type": "p",
+          "text": "From energy to water to land, here's the real toll data centers take on the environment."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/65375278_$%7BformatId%7D.jpg",
+          "caption": "Every query typed into a chatbot like ChatGPT sets off a chain of physical processes in data centers around the worldImage: CHRISTIAN BEUTLER/KEYSTONE/picture alliance"
+        },
+        {
+          "type": "h",
+          "text": "An insatiable appetite for power"
+        },
+        {
+          "type": "p",
+          "text": "Data centers are becoming some of the world's fastest-growing consumers of electricity. These warehouses of servers, routers and internet-connected devices run 24/7, while cooling systems operate continuously to keep the tech from overheating."
+        },
+        {
+          "type": "p",
+          "text": "In Frankfurt, Germany, the grid is currently so saturated that no new connections will be available until at least the 2030s. There, data centers consume about 41% of the city's electricity. In Dublin, it's double that."
+        },
+        {
+          "type": "p",
+          "text": "And data center electricity consumption is growing rapidly — it's expected to double by 2030 to about 945 terawatt-hours, around what Japan consumes annually, according to the International Energy Agency."
+        },
+        {
+          "type": "h",
+          "text": "How the AI boom could slow climate progress"
+        },
+        {
+          "type": "p",
+          "text": "All that energy has to come from somewhere, increasing reliance on fossil fuels."
+        },
+        {
+          "type": "p",
+          "text": "One 2024 study found that more than half of the United States' data centers are powered by fossil fuels, emitting in excess of 105 million tons of CO2. Offsetting that would take more than 31,000 wind turbines running continuously for a year."
+        },
+        {
+          "type": "p",
+          "text": "The build-out is also keeping old coal plants alive. Utilities in the US have delayed the retirement of 15 coal-fired plants nationwide to meet surging demand, plants that together emitted nearly 65 million tons of greenhouse gases in 2023 alone."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/76873284_$%7BformatId%7D.jpg",
+          "caption": "A technician checks equipment at an Amazon Web Services data center in New Carlisle, Indiana, one of the facilities straining local power grids to keep up with demandImage: Noah Berger/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "And utilities are also constructing new gas-fired power plants, with more than 100 GW of additional facilities across the country already announced. That would lead to more carbon emissions than burning 111 million pounds (50.4 million kilograms) of coal."
+        },
+        {
+          "type": "p",
+          "text": "Of course, data centers can also be powered by renewable energy. Pairing a facility with on-site renewables can ease pressure on the local power supply, and any surplus energy can even be sold back to the grid, making it more stable."
+        },
+        {
+          "type": "p",
+          "text": "However, using green electricity for data centers means there is less available for electrifying transport or decarbonizing other emissions-heavy industries."
+        },
+        {
+          "type": "h",
+          "text": "Hidden water demand"
+        },
+        {
+          "type": "p",
+          "text": "Many data centers consume millions of gallons of water to stay cool. Servers generate constant heat, and water is one of the most effective ways to absorb and carry that heat away through evaporation."
+        },
+        {
+          "type": "p",
+          "text": "A single large facility can use up to 5 million gallons a day, roughly the same as a town of 10,000 to 50,000 people. About 80% of the water withdrawn for cooling simply evaporates; the rest becomes wastewater that can overwhelm local treatment systems never designed to handle that volume."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/78065031_$%7BformatId%7D.jpg",
+          "caption": "Demonstrators in Fredericksburg, Virginia, joined a nationwide protest against data centers in July 2026, with many signs targeting the industry's heavy water useImage: Evelyn Hockstein/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "In northern Virginia, the almost 300 data centers clustered in one region of the US state supply about a third of the world's online traffic. There, in what is known as the world's data center capital, facilities collectively used nearly 2 billion gallons of water in 2023."
+        },
+        {
+          "type": "p",
+          "text": "There are several more efficient ways to cool data centers. These include immersion cooling, where devices are bathed in a coolant, and closed-loop cooling systems which recycle water and can reduce freshwater use by up to 70%."
+        },
+        {
+          "type": "h",
+          "text": "Data centers are making cities hotter"
+        },
+        {
+          "type": "p",
+          "text": "Cooling a data center doesn't get rid of the heat, it just moves it outside. That can exacerbate the urban heat island effect, which is when cities experience higher temperatures than rural areas."
+        },
+        {
+          "type": "p",
+          "text": "Researchers in Phoenix, Arizona, found a single large data center can emit as much waste heat as tens or even hundreds of thousands of households, raising nearby land surface temperatures by up to 9 degrees Celsius (16 Fahrenheit) and air temperatures by up to 2 degrees Celsius. Those effects can be felt as far as half a kilometer away."
+        },
+        {
+          "type": "p",
+          "text": "Since cities are already 0.5–4 degrees Celsius warmer than their surroundings, these higher temperatures can increase heat stress risks for nearby residents and push up air conditioning demand, requiring still yet more energy."
+        },
+        {
+          "type": "p",
+          "text": "Not all of that heat goes to waste: a growing number of data centers are capturing and piping it into nearby homes and businesses. This process, called thermal energy networks, can reduce data center power demand by up to 30%."
+        },
+        {
+          "type": "h",
+          "text": "Coal, gas and diesel all contribute to dirty air"
+        },
+        {
+          "type": "p",
+          "text": "Powering and running data centers pollutes the air on two fronts."
+        },
+        {
+          "type": "p",
+          "text": "First, coal and gas plants release toxic particulate matter, which can lead to respiratory disease, heart disease, asthma and more health conditions for nearby communities."
+        },
+        {
+          "type": "p",
+          "text": "On-site diesel generators, used as backup power when the grid fails, also release harmful air pollutants. These generators pump out 200 to 600 times more nitrogen oxides than natural gas plants."
+        },
+        {
+          "type": "p",
+          "text": "One estimate found that when backup generators for all of Virginia's data centers were emitting at just 10% of their permitted level, they could contribute to 14,000 cases of asthma symptoms, more than a dozen deaths and up to $300 million in public health costs a year."
+        },
+        {
+          "type": "h",
+          "text": "Data centers take over large swaths of land"
+        },
+        {
+          "type": "p",
+          "text": "Data center construction requires large plots of land to build on. Repurposing natural and agricultural areas into industrial zones can threaten biodiversity and disrupt local ecosystems."
+        },
+        {
+          "type": "p",
+          "text": "In Hattersheim, Germany, for example, an 18-acre (7-hectare) parcel reserved for agriculture and groundwater protection — a local green space known for its rapeseed blossoms — was rezoned in 2024 to make way for a five-building data center campus."
+        },
+        {
+          "type": "p",
+          "text": "The damage often extends beyond the site itself. Gas pipelines and power plants built to supply these facilities require their own land, fragmenting habitats and eroding soil along their routes."
+        },
+        {
+          "type": "h",
+          "text": "Why does AI need so much energy?"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
       "id": "abs-1vkrloc",
       "source": "abs",
       "title": "Coffee meets cocktails: Coffee Plz kicks off with Workshop 14 x The Problem Child bar collab",
@@ -12976,101 +13229,6 @@
         {
           "type": "p",
           "text": "According to Tooro tradition, kings are not buried in the evening."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "gma-ob7a2w",
-      "source": "gma",
-      "title": "Bong Go questions timing of arrest warrant vs VP Sara Duterte",
-      "summary": "Senator Christopher Bong Go on Friday questioned the timing of the issuance of the warrant of arrest against Vice President Sara Duterte over her grave threats case.",
-      "byline": "GISELLE OMBAY, GMA News",
-      "section": "",
-      "published": "2026-09-04T10:50:00.000Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1001177/bong-go-questions-timing-of-arrest-warrant-vs-vp-sara-duterte/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2018/03/Bong-Go-and-Sara-Duterte_2018_03_13_17_35_49.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published September 4, 2026 6:50pm"
-        },
-        {
-          "type": "p",
-          "text": "Senator Christopher Bong Go on Friday questioned the timing of the issuance of the warrant of arrest against Vice President Sara Duterte over her grave threats case."
-        },
-        {
-          "type": "p",
-          "text": "Go, a known ally of the Duterte family, asked why the arrest warrant was only issued now, coinciding with the impeachment trial of the Vice President."
-        },
-        {
-          "type": "p",
-          "text": "“Nagtataka lang po ako sa timing. ‘Yung timing ang pinagtataka natin,” he said in an ambush interview at the Senate."
-        },
-        {
-          "type": "p",
-          "text": "(I’m just wondering about the timing. The timing is what I’m curious about.)"
-        },
-        {
-          "type": "p",
-          "text": "“Bakit ngayon? Bakit ngayon ‘yung panahon na ongoing ‘yung impeachment? Daming panahon pa noon eh, even before the impeachment. Even before the impeachment, pwede namang mai-file ‘yan. Bakit ngayon ‘yung timing, talagang nagkatugma? Ang tagal na noon,” he added."
-        },
-        {
-          "type": "p",
-          "text": "(Why only now? Why was it only issued now when the impeachment is ongoing? There was a lot of time before. Even before the impeachment, that could have been filed. Why is the timing now, coinciding with the trial? That happened a long time ago.)"
-        },
-        {
-          "type": "p",
-          "text": "Regardless, Go expressed belief that Duterte will be able to overcome the challenges."
-        },
-        {
-          "type": "p",
-          "text": "“Sanay naman po ‘yun si Vice President sa mga ganong sitwasyon. Ongoing nga po ‘yung impeachment eh. She can handle. I believe, kaya niya po po ‘yun,” he said."
-        },
-        {
-          "type": "p",
-          "text": "(The Vice President is used to such situations. The impeachment is even ongoing. She can handle it. I believe she can do it.)"
-        },
-        {
-          "type": "p",
-          "text": "Senator JV Ejercito, meanwhile, was mum on the matter, saying he has to look into it first."
-        },
-        {
-          "type": "p",
-          "text": "Asked if the arrest warrant has any effect with the impeachment trial, he said, “I would have to study it. Pasensya na, katatapos ko lang dito [sa hearing]. Tignan ko muna.”"
-        },
-        {
-          "type": "p",
-          "text": "(I would have to study it. Sorry, I just finished with the hearing. I'll look at it first.)"
-        },
-        {
-          "type": "p",
-          "text": "Atty. Paul Lawrence Lim, Duterte’s counsel for the grave threats cases, announced Friday afternoon that a Quezon City regional trial court has issued a warrant of arrest against the Vice President."
-        },
-        {
-          "type": "p",
-          "text": "The Department of Justice (DOJ) also confirmed the information."
-        },
-        {
-          "type": "p",
-          "text": "In early August, the DOJ filed three counts of grave threats against Duterte over her remarks that she hired an individual to kill President Ferdinand \"Bongbong\" Marcos Jr., First Lady Liza Araneta Marcos, and former speaker Martin Romualdez, should an alleged plot against her succeed."
-        },
-        {
-          "type": "p",
-          "text": "Prosecutors recommended the bail to be set at P120,000 per count."
-        },
-        {
-          "type": "p",
-          "text": "Following this, Duterte filed a motion to quash on the ground of jurisdiction, arguing that she and other impeachable officers have limited procedural immunity while in office under the 1987 Constitution."
-        },
-        {
-          "type": "p",
-          "text": "Duterte’s alleged grave threats against the President is also the basis of one of the Articles of Impeachment against her in the ongoing trial before the Senate impeachment court. — RSJ, GMA News"
         }
       ],
       "truncated": false,
@@ -23792,180 +23950,6 @@
         {
           "type": "p",
           "text": "“When people talk about compensation now,” he said, “compensation is a concept to them that includes all the land that they lost, the economy that they were taken out of and even how they have been treated in the new democracy.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-n8b6sv",
-      "source": "dw",
-      "title": "Are data centers really bad for the planet?",
-      "summary": "As data centers multiply to meet AI demand, they're straining power grids, draining water supplies and reshaping the land and air around them.",
-      "byline": "Josh Axelrod",
-      "section": "",
-      "published": "2026-09-03T08:53:00.000Z",
-      "url": "https://www.dw.com/en/are-data-centers-really-bad-for-the-planet/a-78789889?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/77389241_6.jpg",
-        "caption": "Rows of servers hum inside Google's data center in Douglas County, Georgia — one of thousands of facilities worldwide powering the AI boomImage: Connie Zhou/ZUMA/picture alliance"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Every question sent to AI models provides an instant reply that seems to appear out of nowhere, but answering queries requires physical infrastructure that consumes real energy, water and land."
-        },
-        {
-          "type": "p",
-          "text": "Somewhere around the world — maybe in Virginia, Sao Paulo or Hong Kong — a massive warehouse filled with fiber-optic cables and seemingly endless rows of humming servers is working to provide the processing power for the more than 2.5 billion questions ChatGPT alone fields daily."
-        },
-        {
-          "type": "p",
-          "text": "AI models, along with cloud storage, streaming, web hosting and social media, all have a very real physical footprint. If data centers were a country, their level of electricity use would make them the 11th largest electricity consumer in the world, according to researchers from the United Nations University."
-        },
-        {
-          "type": "p",
-          "text": "From energy to water to land, here's the real toll data centers take on the environment."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/65375278_$%7BformatId%7D.jpg",
-          "caption": "Every query typed into a chatbot like ChatGPT sets off a chain of physical processes in data centers around the worldImage: CHRISTIAN BEUTLER/KEYSTONE/picture alliance"
-        },
-        {
-          "type": "h",
-          "text": "An insatiable appetite for power"
-        },
-        {
-          "type": "p",
-          "text": "Data centers are becoming some of the world's fastest-growing consumers of electricity. These warehouses of servers, routers and internet-connected devices run 24/7, while cooling systems operate continuously to keep the tech from overheating."
-        },
-        {
-          "type": "p",
-          "text": "In Frankfurt, Germany, the grid is currently so saturated that no new connections will be available until at least the 2030s. There, data centers consume about 41% of the city's electricity. In Dublin, it's double that."
-        },
-        {
-          "type": "p",
-          "text": "And data center electricity consumption is growing rapidly — it's expected to double by 2030 to about 945 terawatt-hours, around what Japan consumes annually, according to the International Energy Agency."
-        },
-        {
-          "type": "h",
-          "text": "How the AI boom could slow climate progress"
-        },
-        {
-          "type": "p",
-          "text": "All that energy has to come from somewhere, increasing reliance on fossil fuels."
-        },
-        {
-          "type": "p",
-          "text": "One 2024 study found that more than half of the United States' data centers are powered by fossil fuels, emitting in excess of 105 million tons of CO2. Offsetting that would take more than 31,000 wind turbines running continuously for a year."
-        },
-        {
-          "type": "p",
-          "text": "The build-out is also keeping old coal plants alive. Utilities in the US have delayed the retirement of 15 coal-fired plants nationwide to meet surging demand, plants that together emitted nearly 65 million tons of greenhouse gases in 2023 alone."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/76873284_$%7BformatId%7D.jpg",
-          "caption": "A technician checks equipment at an Amazon Web Services data center in New Carlisle, Indiana, one of the facilities straining local power grids to keep up with demandImage: Noah Berger/REUTERS"
-        },
-        {
-          "type": "p",
-          "text": "And utilities are also constructing new gas-fired power plants, with more than 100 GW of additional facilities across the country already announced. That would lead to more carbon emissions than burning 111 million pounds (50.4 million kilograms) of coal."
-        },
-        {
-          "type": "p",
-          "text": "Of course, data centers can also be powered by renewable energy. Pairing a facility with on-site renewables can ease pressure on the local power supply, and any surplus energy can even be sold back to the grid, making it more stable."
-        },
-        {
-          "type": "p",
-          "text": "However, using green electricity for data centers means there is less available for electrifying transport or decarbonizing other emissions-heavy industries."
-        },
-        {
-          "type": "h",
-          "text": "Hidden water demand"
-        },
-        {
-          "type": "p",
-          "text": "Many data centers consume millions of gallons of water to stay cool. Servers generate constant heat, and water is one of the most effective ways to absorb and carry that heat away through evaporation."
-        },
-        {
-          "type": "p",
-          "text": "A single large facility can use up to 5 million gallons a day, roughly the same as a town of 10,000 to 50,000 people. About 80% of the water withdrawn for cooling simply evaporates; the rest becomes wastewater that can overwhelm local treatment systems never designed to handle that volume."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/78065031_$%7BformatId%7D.jpg",
-          "caption": "Demonstrators in Fredericksburg, Virginia, joined a nationwide protest against data centers in July 2026, with many signs targeting the industry's heavy water useImage: Evelyn Hockstein/REUTERS"
-        },
-        {
-          "type": "p",
-          "text": "In northern Virginia, the almost 300 data centers clustered in one region of the US state supply about a third of the world's online traffic. There, in what is known as the world's data center capital, facilities collectively used nearly 2 billion gallons of water in 2023."
-        },
-        {
-          "type": "p",
-          "text": "There are several more efficient ways to cool data centers. These include immersion cooling, where devices are bathed in a coolant, and closed-loop cooling systems which recycle water and can reduce freshwater use by up to 70%."
-        },
-        {
-          "type": "h",
-          "text": "Data centers are making cities hotter"
-        },
-        {
-          "type": "p",
-          "text": "Cooling a data center doesn't get rid of the heat, it just moves it outside. That can exacerbate the urban heat island effect, which is when cities experience higher temperatures than rural areas."
-        },
-        {
-          "type": "p",
-          "text": "Researchers in Phoenix, Arizona, found a single large data center can emit as much waste heat as tens or even hundreds of thousands of households, raising nearby land surface temperatures by up to 9 degrees Celsius (16 Fahrenheit) and air temperatures by up to 2 degrees Celsius. Those effects can be felt as far as half a kilometer away."
-        },
-        {
-          "type": "p",
-          "text": "Since cities are already 0.5–4 degrees Celsius warmer than their surroundings, these higher temperatures can increase heat stress risks for nearby residents and push up air conditioning demand, requiring still yet more energy."
-        },
-        {
-          "type": "p",
-          "text": "Not all of that heat goes to waste: a growing number of data centers are capturing and piping it into nearby homes and businesses. This process, called thermal energy networks, can reduce data center power demand by up to 30%."
-        },
-        {
-          "type": "h",
-          "text": "Coal, gas and diesel all contribute to dirty air"
-        },
-        {
-          "type": "p",
-          "text": "Powering and running data centers pollutes the air on two fronts."
-        },
-        {
-          "type": "p",
-          "text": "First, coal and gas plants release toxic particulate matter, which can lead to respiratory disease, heart disease, asthma and more health conditions for nearby communities."
-        },
-        {
-          "type": "p",
-          "text": "On-site diesel generators, used as backup power when the grid fails, also release harmful air pollutants. These generators pump out 200 to 600 times more nitrogen oxides than natural gas plants."
-        },
-        {
-          "type": "p",
-          "text": "One estimate found that when backup generators for all of Virginia's data centers were emitting at just 10% of their permitted level, they could contribute to 14,000 cases of asthma symptoms, more than a dozen deaths and up to $300 million in public health costs a year."
-        },
-        {
-          "type": "h",
-          "text": "Data centers take over large swaths of land"
-        },
-        {
-          "type": "p",
-          "text": "Data center construction requires large plots of land to build on. Repurposing natural and agricultural areas into industrial zones can threaten biodiversity and disrupt local ecosystems."
-        },
-        {
-          "type": "p",
-          "text": "In Hattersheim, Germany, for example, an 18-acre (7-hectare) parcel reserved for agriculture and groundwater protection — a local green space known for its rapeseed blossoms — was rezoned in 2024 to make way for a five-building data center campus."
-        },
-        {
-          "type": "p",
-          "text": "The damage often extends beyond the site itself. Gas pipelines and power plants built to supply these facilities require their own land, fragmenting habitats and eroding soil along their routes."
-        },
-        {
-          "type": "h",
-          "text": "Why does AI need so much energy?"
         }
       ],
       "truncated": false,
