@@ -1,6 +1,6 @@
 {
   "version": "0.15.1",
-  "updated": "2026-09-06T16:01:08.561Z",
+  "updated": "2026-09-06T16:31:10.697Z",
   "sources": [
     {
       "id": "inq",
@@ -52,6 +52,924 @@
     }
   ],
   "articles": [
+    {
+      "id": "bbc-1gerr07",
+      "source": "bbc",
+      "title": "German far-right set for big win in eastern state - exit polls",
+      "summary": "Germany's AfD has hailed a \"historic result\" and is projected to win 44.5% of the vote, far ahead of the conservative CDU on 18.5%.",
+      "byline": "Paul Kirby",
+      "section": "",
+      "published": "2026-09-06T16:21:19.000Z",
+      "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
+      "image": {
+        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41a1/live/92680d00-aa0f-11f1-aed2-8d6da8d75094.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Germany's AfD is heading for a big victory in the eastern state of Saxony-Anhalt, far ahead of its mainstream rivals, exit polls say. It is not yet clear if that would be enough to take power in the state but the AfD says it has won a mandate to govern."
+        },
+        {
+          "type": "p",
+          "text": "The far-right party is projected to win 44-44.5% of the vote, far ahead of the conservative CDU on 18.5%."
+        },
+        {
+          "type": "p",
+          "text": "The AfD has hailed the result as a \"historic outcome\" and the charismatic leader in the state, Ulrich Siegmund, has refused to rule with any other party."
+        },
+        {
+          "type": "p",
+          "text": "No far-right party has won control of a state in Germany since World War Two, and governing at state level would mean powers over policing, local education and culture."
+        },
+        {
+          "type": "p",
+          "text": "Saxony-Anhalt has a small population of 2.1 million and the AfD in the state is assessed by domestic intelligence as \"far-right extremist\", a classification rejected by Siegmund."
+        },
+        {
+          "type": "p",
+          "text": "The AfD's projected result is higher than earlier opinion polls suggested, but it will depend on which of the smaller parties get into the state parliament before the party's leaders know if they have enough seats to govern."
+        },
+        {
+          "type": "p",
+          "text": "That may hinge on whether one of the smaller parties gets over the required threshold of 5%. If it fails, then the AfD's chances of a majority increase."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-wsz8cs",
+      "source": "abs",
+      "title": "'Nothing has changed': FIFA confirms Infantino to run for re-election",
+      "summary": "Gianni Infantino will stand in next March's FIFA presidential election, despite the backlash over his now-abandoned plan to bring private investment into the World Cup, football's global governing…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-06T16:13:43.000Z",
+      "url": "https://www.abs-cbn.com/sports/othersports/2026/9/7/nothing-has-changed-fifa-confirms-infantino-to-run-for-re-election-0013",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gianni Infantino will stand in next March's FIFA presidential election, despite the backlash over his now-abandoned plan to bring private investment into the World Cup, football's global governing body announced Sunday."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "dw-1h44pn5",
+      "source": "dw",
+      "title": "Saxony-Anhalt: Far-right AfD secures huge lead in key vote",
+      "summary": "Although the eastern state accounts for less than 3% of the nationwide electorate, the election outcome could serve as a bellwether about the far-right AfD's prospects in the rest of the country. DW…",
+      "byline": "Louis Oelofse, Richard Connor",
+      "section": "",
+      "published": "2026-09-06T16:02:00.000Z",
+      "url": "https://www.dw.com/en/saxony-anhalt-far-right-afd-secures-huge-lead-in-key-vote/live-78754934?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79074045_6.jpg",
+        "caption": "SPD lead candidate Armin Willingmann, Saxony-Anhalt's deputy premier, cast his vote in the morningImage: Julian Stratenschulte/dpa/picture alliance"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 6, 2026"
+        },
+        {
+          "type": "h",
+          "text": "AfD's Ulrich Siegmund says far-right party 'made history'"
+        },
+        {
+          "type": "p",
+          "text": "Ulrich Siegmund, the head of the far-right AfD party in Saxony-Anhalt, celebrated AfD's apparent victory after the exit polls were made public."
+        },
+        {
+          "type": "p",
+          "text": "\"We've made history, we need to say this clearly,\" he told German public broadcaster ARD."
+        },
+        {
+          "type": "p",
+          "text": "Siegmund also said the result was also a \"signal\" for Germany's federal government, led by CDU politician Friedrich Merz."
+        },
+        {
+          "type": "p",
+          "text": "Speaking about potentially building a coalition with one of the other parties — most of which ruled out working with the far-right party ahead of the election — Siegmund said the AfD is open to cooperation, in its own terms."
+        },
+        {
+          "type": "p",
+          "text": "\"We will not give away our basic positions for the sake of being in power,\" he said."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-pig3ve",
+      "source": "grd",
+      "title": "Pupils with Send plans in England likely to double to one in 10 in rush for support",
+      "summary": "<p>Schools and councils express financial concerns as EHCP applications surge before potential change in provision</p><ul><li><p><a…",
+      "byline": "Richard Adams Education editor",
+      "section": "Special educational needs",
+      "published": "2026-09-06T16:00:09.000Z",
+      "url": "https://www.theguardian.com/education/2026/sep/06/schools-england-report-surge-send-applications",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/7f8a09145494ff1fc793d8c44f248207176d9bc0/683_0_6827_5464/master/6827.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=d4d7270c6764141c322610ed3045c885",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Schools and councils across England are expecting the proportion of children with special needs plans to double to one in 10, with families rushing to secure support before ministers bring in changes."
+        },
+        {
+          "type": "p",
+          "text": "Headteachers have reported an “unreal” surge in applications for education, health and care plans (EHCPs) mandating support for needs or disabilities such as speech and learning difficulties, autism or ADHD. In 2025, just one in 20 school-age children had EHCPs."
+        },
+        {
+          "type": "p",
+          "text": "The number of pupils with EHCPs has risen by more than 11% in each of the last two years, and projections by local authorities seen by the Guardian are anticipating similar, double-digit annual increases over the next three years. Similar levels nationally would mean just under 10% of all school-age children with an EHCP in 2029."
+        },
+        {
+          "type": "p",
+          "text": "Such a rapid increase would outstrip the government’s own forecasts and eat into funding for improving specialist support in mainstream schools, undermining its plans for immediate reform while straining school and council budgets."
+        },
+        {
+          "type": "p",
+          "text": "School leaders said their special educational needs (Send) coordinators had worked through the summer to deal with the influx of requests for assessments, as secondary schools say that many more year 7 pupils are arriving with EHCPs or applications."
+        },
+        {
+          "type": "p",
+          "text": "One described the volume of requests as “unreal”; while other schools said they expect to have double the number of incoming pupils with EHCPs when the new academic year begins this month."
+        },
+        {
+          "type": "p",
+          "text": "Bill Revans, the County Councils Network’s spokesperson on special educational needs and disabilities (Send), and the Liberal Democrat leader of Somerset council, said: “It is clear there has been a particularly sharp surge in assessment requests to our member councils this year since the government announced its planned reforms in February."
+        },
+        {
+          "type": "p",
+          "text": "“Our previous analysis had predicted the number of EHCPs will rise to 840,000 by 2028-29, however, it is now likely these numbers will be exceeded."
+        },
+        {
+          "type": "p",
+          "text": "“This translates to very real financial pressures on local authorities, and despite the government commitment to wipe 90% of existing Send deficits built up by councils over the past decade, we expect the debt to be re-accrued by as soon as this time next year.”"
+        },
+        {
+          "type": "p",
+          "text": "EHCPs are legal documents agreed between local authorities and families in England detailing the support required for children and young people up to the age of 25, allowing access to extra funding or places in special schools. While more than 530,000 school-age children have EHCPs, an additional 1.3 million have identified special needs, according to official data."
+        },
+        {
+          "type": "p",
+          "text": "The costs are met out of local authority high needs budgets but the massive growth in EHCPs has led to councils amassing sustained deficits, and require a statutory override granted by central government to avoid many local authorities becoming technically bankrupt."
+        },
+        {
+          "type": "p",
+          "text": "Georgia Gould, the schools minister overseeing the changes, said the government was carefully considering the responses to its white paper, which aims to give children earlier diagnosis and intervention and moderate the need for EHCPs. The white paper’s timeline would mean more children get individual support plans alongside increased support in mainstream schools; while EHCPs would be designed for those with more profound needs and disabilities from 2030."
+        },
+        {
+          "type": "p",
+          "text": "During a visit to Thomas Lord Audley secondary school in Colchester, Gould said parts of the planned changes would begin operating this year, including the government’s new “experts in hand” scheme that puts specialists directly into mainstream schools and nurseries."
+        },
+        {
+          "type": "p",
+          "text": "“I’ve spoken to parents around the country, and lots of families and children have been really let down by the system,” Gould said. “So they are really concerned, and any change can feel worrying for those families."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/48a70cf70fe22e0f10372443e959338d9fb0732e/1359_0_6830_5464/master/6830.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Georgia Gould, the schools minister, on a visit to a school in Colchester, said she families have been let down by the system. Photograph: Graeme Robertson/The Guardian"
+        },
+        {
+          "type": "p",
+          "text": "“That’s why we want to put in place tangible change they can see and feel in classrooms and in their communities. And we’ve been clear that we will build a new and inclusive system before we bring in wider changes."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "“We’re really determined to put that support in place so parents don’t need to fight, the support will be readily available at their school, and so no child falls through the cracks.”"
+        },
+        {
+          "type": "p",
+          "text": "Gould acknowledged that it was “going to take time to build that trust, to work with families for them to see that day to day. All the work we are doing, the investment, the teacher training, the sharing of best practice, is so important.”"
+        },
+        {
+          "type": "p",
+          "text": "Paul Whiteman, the general secretary of the National Association of Head Teachers, said the reports of increases in EHCPs chimed with “what we hear from school leaders”."
+        },
+        {
+          "type": "p",
+          "text": "Whiteman said: “While it is hard to give a definitive reason for why this is happening, it appears likely that the government’s plans to restrict future EHCPs to children with the most complex needs may have led to more families and schools applying before these changes kick-in.”"
+        },
+        {
+          "type": "p",
+          "text": "Ipsea, a charity that helps families navigate the special needs system, said its helplines had received most calls about EHCP provision since March, after the changes were announced."
+        },
+        {
+          "type": "p",
+          "text": "Madeleine Cassidy, Ipsea’s chief executive, said: “The government’s proposed Send reforms risk making an already fragile system worse by removing the statutory protections and vital safeguards available to children and families when support is delayed, denied or inadequate.”"
+        },
+        {
+          "type": "p",
+          "text": "The surge in applications has led some local authorities to dramatically raise their own forecasts. A report by Hampshire council in July showed applications so far this year were at record levels and forecasted a 58% increase in EHCPs between 2026 and 2030. Manchester council is also anticipating a 40% increase in school-age children with EHCPs by 2029."
+        },
+        {
+          "type": "p",
+          "text": "William Burns, a social care policy adviser for the Chartered Institute of Public Finance and Accountancy, said a forthcoming survey of local authority treasurers was likely to reveal that the renewed push for EHCPs was creating financial pressures."
+        },
+        {
+          "type": "p",
+          "text": "Burns said: “The government’s own modelling suggests demand for EHCPs could return to today’s levels by 2035, yet current levels of demand are already placing severe strain on the system. It is therefore difficult to see how recreating today’s volume of need, even within a reformed framework, can be considered a sustainable end state.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-1gq4qoy",
+      "source": "star",
+      "title": "Taguig ‘meddling’ on reclamation inspection hit",
+      "summary": "Ombudsman Jesus Crispin Remulla has accused the Taguig local government of blocking the investigation by his office of alleged illegal reclamation activities in the city.",
+      "byline": "Ghio Ong",
+      "section": "",
+      "published": "2026-09-06T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/09/07/2554489/taguig-meddling-reclamation-inspection-hit",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 7, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Ombudsman Jesus Crispin Remulla has accused the Taguig local government of blocking the investigation by his office of alleged illegal reclamation activities in the city."
+        },
+        {
+          "type": "p",
+          "text": "Speaking in his “Executive Session” program on radio dzRH on Saturday, Remulla disclosed that some personnel of the ombudsman – particularly police assigned to them – were scolded and prevented by Taguig local government personnel from taking pictures during an inspection of the reclaimed area."
+        },
+        {
+          "type": "p",
+          "text": "“We had investigators who were being hindered in Taguig… they even identified themselves as Office of the Ombudsman personnel, to no avail,” he said. “They were supposed to fly the drone to take pictures, but they are being prevented. They are blocking cops detailed to us.”"
+        },
+        {
+          "type": "p",
+          "text": "Citing a social media post by Sen. Panfilo Lacson who divulged the alleged anomalies in reclamation projects at portions of Laguna de Bay located in the city, the Pilipino Star Ngayon reported that Special Action Force operatives arrested personnel from Taguig’s Public Order and Safety Office (POSO) for allegedly preventing ombudsman personnel from carrying out their supposed probe."
+        },
+        {
+          "type": "p",
+          "text": "Lacson has cited eight reclamation sites along the Taguig side of the Laguna de Bay were fraudulent, four of which had fake land titles while the remaining four had no plotted lots in the digital file of the Land Registration Authority."
+        },
+        {
+          "type": "p",
+          "text": "In a statement, the Taguig city government argued “the POSO personnel had no intention of interfering with, or preventing, the Office of the Ombudsman from carrying out its official functions.”"
+        },
+        {
+          "type": "p",
+          "text": "“Their actions were undertaken in the course of their regular public safety and enforcement duties and were prompted by the need to verify the identity and purpose of individuals who, at the time, were in civilian clothes, using an unmarked vehicle parked along a bike lane, and operating a drone in a public area,” it added.?"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-10b6t4z",
+      "source": "star",
+      "title": "Pilandok enhances monsoon outside PAR",
+      "summary": "Rains are expected to drench parts of Luzon and the Visayas as tropical storm Krovanh, with the local name Pilandok, continues to enhance the southwest monsoon or habagat, the Philippine Atmospheric,…",
+      "byline": "Josiah Antonio",
+      "section": "",
+      "published": "2026-09-06T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/09/07/2554492/pilandok-enhances-monsoon-outside-par",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/09/06/10_2026-09-06_21-42-01.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 7, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Based on the latest weather satellite as of 4 p.m. yesterday, the eye of Pilandok was last located at 1,035 kilometers east-northeast of extreme northern Luzon."
+        },
+        {
+          "type": "p",
+          "text": "pagasa.dost.gov.ph"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Rains are expected to drench parts of Luzon and the Visayas as tropical storm Krovanh, with the local name Pilandok, continues to enhance the southwest monsoon or habagat, the Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA) said."
+        },
+        {
+          "type": "p",
+          "text": "It was packing winds of 65 kms per hour with gusts of 80 kph."
+        },
+        {
+          "type": "p",
+          "text": "Pilandok is not expected to reenter the Philippine area of responsibility as it is moving eastward at 10 kph."
+        },
+        {
+          "type": "p",
+          "text": "However, it is heavily influencing the monsoon, bringing rains in many parts of Luzon and the Visayas in the coming days."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-5w7kbu",
+      "source": "star",
+      "title": "Special provision eyed on secret funds in 2027 budget",
+      "summary": "The Senate is eyeing a special provision in the 2027 national budget to ensure transparency and the proper use of confidential funds, following revelations of gaping loopholes in state auditing rules…",
+      "byline": "Neil Jayson Servallos",
+      "section": "",
+      "published": "2026-09-06T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/09/07/2554494/special-provision-eyed-secret-funds-2027-budget",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/09/06/9_2026-09-06_21-43-46.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 7, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Senate President Sherwin Gatchalian"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Senate is eyeing a special provision in the 2027 national budget to ensure transparency and the proper use of confidential funds, following revelations of gaping loopholes in state auditing rules during recent impeachment hearings."
+        },
+        {
+          "type": "p",
+          "text": "Senate President Sherwin Gatchalian said he and Senate finance committee chairman JV Ejercito would study the inclusion of the special provision, though he noted the limitations of a yearly budget clause."
+        },
+        {
+          "type": "p",
+          "text": "“We can also do that, but a special provision needs to be placed every year, if not, it will disappear,” Gatchalian told radio dzBB."
+        },
+        {
+          "type": "p",
+          "text": "“That’s the complication of a special provision. So, myself and chairman JV will study that,” he added."
+        },
+        {
+          "type": "p",
+          "text": "The push for tighter controls comes amid scrutiny of the anonymous acknowledgment receipts used to liquidate millions in secret funds."
+        },
+        {
+          "type": "p",
+          "text": "Gatchalian pointed out that the current Joint Circular (JC) of the Commission on Audit (COA) regulating these funds lacks clear directives for documenting informants and defining the parameters for security officers."
+        },
+        {
+          "type": "p",
+          "text": "He urged COA to amend its guidelines to prevent future abuse."
+        },
+        {
+          "type": "p",
+          "text": "“There are many things there that still need improvement. For example, the role of the security officer. We heard during the impeachment about what’s being given to the security officer. Does he actually have a role? Should he be funded? These are the matters that the COA needs to clarify through the JC,” Gatchalian said."
+        },
+        {
+          "type": "p",
+          "text": "“I think it’s about time to update so that those who would use CF (confidential funds) in the future won’t abuse it,” he added."
+        },
+        {
+          "type": "p",
+          "text": "Reacting to a proposal by House prosecutor Rep. Terry Ridon to pass a confidential intelligence fund “Integrity Bill” that would impose heavy statutory penalties for the misuse of secret funds, Gatchalian expressed support, but maintained that amending the COA circular is the fastest immediate remedy."
+        },
+        {
+          "type": "p",
+          "text": "Aside from safeguarding confidential funds, Gatchalian confirmed that the Senate would retain the “anti-epal” provision in the 2027 budget to stop politicians from claiming credit for government aid (ayuda) programs."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-68pcmm",
+      "source": "star",
+      "title": "VP’s arrest has no effect on impeachment trial – Gatchalian",
+      "summary": "The recent arrest warrant issued against Vice President Sara Duterte will have no bearing on the ongoing Senate impeachment trial, Senate President Sherwin Gatchalian said yesterday.",
+      "byline": "Neil Jayson Servallos",
+      "section": "",
+      "published": "2026-09-06T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/09/07/2554495/vps-arrest-has-no-effect-impeachment-trial-gatchalian",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/09/06/8_2026-09-06_21-46-05.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 7, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Vice President Sara Duterte is escorted by members of the media as she walks down the stairs after posting bail at the Quezon City Regional Trial Court on September 5, 2026."
+        },
+        {
+          "type": "p",
+          "text": "Michael Varcas / The Philippine STAR"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The recent arrest warrant issued against Vice President Sara Duterte will have no bearing on the ongoing Senate impeachment trial, Senate President Sherwin Gatchalian said yesterday."
+        },
+        {
+          "type": "p",
+          "text": "He emphasized that the Quezon City Regional Trial Court’s finding of probable cause for grave threats is a distinct judicial process that will not influence the direction of the impeachment trial."
+        },
+        {
+          "type": "p",
+          "text": "“This is my personal opinion, it does not have an effect for me and the impeachment because it is a different court,” Gatchalian said in a radio interview on dzBB."
+        },
+        {
+          "type": "p",
+          "text": "“The court has determined probable cause and there will be a hearing but that doesn’t mean she is guilty. That is the same with the impeachment court, there will be a presentation to the defense and other decisions,” he added."
+        },
+        {
+          "type": "p",
+          "text": "Addressing suspicions raised by Sen. Bong Go regarding the “timing” of the warrant’s release during the height of the Senate trial, Gatchalian maintained that the chamber has no control over concurrent investigations conducted by other government branches."
+        },
+        {
+          "type": "p",
+          "text": "Amid the legal battles, Gatchalian also called on the Philippine National Police to proactively investigate the alleged threats against the Vice President’s life and her family."
+        },
+        {
+          "type": "p",
+          "text": "He stressed that state forces are obligated to protect all citizens, regardless of their position."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-matnwb",
+      "source": "star",
+      "title": "20 million kids faced online sexual abuse – Unicef",
+      "summary": "About 20 million children aged 12 to 17 across 21 countries have experienced technology-facilitated sexual exploitation and abuse, according to a new report of the United Nations Children&rsquo;s…",
+      "byline": "Pia Lee-Brago",
+      "section": "",
+      "published": "2026-09-06T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/09/07/2554496/20-million-kids-faced-online-sexual-abuse-unicef",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/09/06/7_2026-09-06_21-47-59.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 7, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "The report, “Through Children’s Eyes: How Digital Technologies Enable Child Sexual Abuse,” combines children’s testimonies with one of the largest bodies of available survey data to warn of a widespread trend of child sexual abuse and exploitation – both online and offline – enabled by technology."
+        },
+        {
+          "type": "p",
+          "text": "Pixabay / File"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — About 20 million children aged 12 to 17 across 21 countries have experienced technology-facilitated sexual exploitation and abuse, according to a new report of the United Nations Children’s Fund (UNICEF)."
+        },
+        {
+          "type": "p",
+          "text": "UNICEF said this report combines evidence from two rounds of Disrupting Harm research conducted across 21 countries."
+        },
+        {
+          "type": "p",
+          "text": "The first round, with data collected primarily in 2020–2021, covered Cambodia, Ethiopia, Indonesia, Kenya, Malaysia, Mozambique, Namibia, the Philippines, Tanzania, Thailand, Uganda and Vietnam."
+        },
+        {
+          "type": "p",
+          "text": "The second round in 2024-2025 expanded the research to Armenia, Brazil, Colombia, the Dominican Republic, Mexico, Montenegro, North Macedonia, Pakistan and Serbia."
+        },
+        {
+          "type": "p",
+          "text": "The report estimates that over 15 million children were exposed to unwanted sexual content, nine million were asked to engage in sexual conversations or share sexual images against their will and four million children had sexual images of themselves shared without their consent."
+        },
+        {
+          "type": "p",
+          "text": "However, the true scale of the issue is likely far higher due to underreporting by children."
+        },
+        {
+          "type": "p",
+          "text": "According to the findings, nearly 60 percent of all recorded instances of exploitation occurred on social media platforms such as Facebook, Instagram, Snapchat, TikTok and WhatsApp, and 14 percent happened on online games, with the platforms’ features often used to exploit trust."
+        },
+        {
+          "type": "p",
+          "text": "Some 38 percent of children first encountered the perpetrators online and evidence shows abuse is often facilitated through intentional features that allow perpetrators to hide their identities."
+        },
+        {
+          "type": "p",
+          "text": "Across the 21 countries, 57 percent of exploitation cases involved perpetrators the children knew, including peers, friends and family members."
+        },
+        {
+          "type": "p",
+          "text": "The report notes that 38 percent of children first encountered the perpetrator online, with evidence showing how abuse is facilitated through fake accounts and private messaging features."
+        },
+        {
+          "type": "p",
+          "text": "Children who experienced technology-aided sexual exploitation were four times more likely to report suicidal thoughts or behaviors and self-harm and reported significantly higher levels of anxiety."
+        },
+        {
+          "type": "p",
+          "text": "More than 40 percent of cases of tech-facilitated abuse were never shared with anyone, while fewer than one percent were reported to authorities such as the police, social workers or helplines."
+        },
+        {
+          "type": "p",
+          "text": "The most common reason children remained silent was not knowing where to go or who to tell."
+        },
+        {
+          "type": "p",
+          "text": "The researchers issued calls to tech companies to include stronger protections for children and improve their reporting systems."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-1rjz1gx",
+      "source": "star",
+      "title": "Sandigan denies ‘congtractor’ bid to quash flood control cases",
+      "summary": "Two divisions of the Sandiganbayan threw out the bids of alleged &ldquo;congtractor&rdquo; Uswag Ilonggo party-list Rep. James Ang to dismiss one graft case against him and consolidate the 14 others.",
+      "byline": "Rainier Allan Ronda, Ghio Ong",
+      "section": "",
+      "published": "2026-09-06T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/09/07/2554497/sandigan-denies-congtractor-bid-quash-flood-control-cases",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/09/06/6_2026-09-06_21-49-27.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 7, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Sandiganbayan"
+        },
+        {
+          "type": "p",
+          "text": "Philstar.com / Irra Lising"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Two divisions of the Sandiganbayan threw out the bids of alleged “congtractor” Uswag Ilonggo party-list Rep. James Ang to dismiss one graft case against him and consolidate the 14 others."
+        },
+        {
+          "type": "p",
+          "text": "In a 17-page resolution issued on Sept. 2, the anti-graft court’s Third Division ruled to deny for lack of merit Ang’s motion for consolidation and motion to quash information."
+        },
+        {
+          "type": "p",
+          "text": "The prosecution had argued that consolidating the cases would prolong litigation for each case, “because the prosecution will have to present witnesses and pieces of evidence for all counts, which are insignificant for the other charges.”"
+        },
+        {
+          "type": "p",
+          "text": "Ang is facing 14 counts of violation of Section 3 (h) of Republic Act 3019 or the Anti-Graft and Corrupt Practices Act over contracts for road projects in parts of Panay island worth millions of pesos, all filed by the ombudsman."
+        },
+        {
+          "type": "p",
+          "text": "Two were filed before the Second Division, one before the Seventh Division, three before the First Division, three before the Fifth, two before the Fourth Division, two before the Sixth Division and one before the Third Division, particularly the case involving a P5.9 million contract for a project involving the Iloilo-Antique Road in March 2023."
+        },
+        {
+          "type": "p",
+          "text": "The Third Division also decided to junk Ang’s motion to quash by declaring it “cannot subscribe to Ang’s argument that the Information lacks factual averment that the project was not completed, or was substandard or was a ghost project to the damage of the government” since the charge against him indicated that he had interest in the road project while being a government official."
+        },
+        {
+          "type": "p",
+          "text": "In a nine-page resolution on Sept. 3, the Sandiganbayan Seventh Division also ruled to deny for lack of merit Ang’s motions for consolidation and to quash information."
+        },
+        {
+          "type": "p",
+          "text": "It added there was no need to merge the cases against him, ruling that these must be tried individually."
+        },
+        {
+          "type": "p",
+          "text": "Late last month, the Sandiganbayan Sixth Division also denied Ang’s motion to quash the graft case over an P8.1-million contract for road projects in Iloilo and Antique."
+        },
+        {
+          "type": "p",
+          "text": "DPWH flood projects for 2027 properly vetted"
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, former Department of Environment and Natural Resources (DENR) undersecretary Carlos Primo David said that the flood control projects designed and planned by the Department of Public Works and Highways (DPWH) for funding and implementation under its 2027 budget had gone through a proper science-based vetting process."
+        },
+        {
+          "type": "p",
+          "text": "In an exclusive interview with The STAR, David said that the three-member independent advisory committee formed by DPWH Secretary Vince Dizon last year had slashed the approved flood control projects from over 600 down to 250 high-priority infrastructure works for the upcoming budget year."
+        },
+        {
+          "type": "p",
+          "text": "David told The STAR that the independent committee shielded agency leaders from political pressure when rejecting substandard or redundant proposals."
+        },
+        {
+          "type": "p",
+          "text": "He noted that the initiative marked the first time in public works history that local district engineers were stripped of ultimate authority in deciding which flood control projects received funding."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-4q9hjq",
+      "source": "star",
+      "title": "No VP Sara mugshots? Ridon hits ‘special treatment’",
+      "summary": "Unlike ordinary people and other politicians who have been charged with criminal cases, Vice President Sara Duterte did not have her mugshots taken &ndash; a special treatment that must not be…",
+      "byline": "Delon Porcalla",
+      "section": "",
+      "published": "2026-09-06T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/09/07/2554499/no-vp-sara-mugshots-ridon-hits-special-treatment",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/09/06/5_2026-09-06_21-50-42.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 7, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Vice President Sara Duterte"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Unlike ordinary people and other politicians who have been charged with criminal cases, Vice President Sara Duterte did not have her mugshots taken – a special treatment that must not be tolerated, a lawmaker insisted yesterday."
+        },
+        {
+          "type": "p",
+          "text": "“There should be equal treatment of all accused under the law: ordinary people, senator, or the vice president. No special treatment,” House prosecutor and Bicol Saro party-list Rep. Terry Ridon stressed."
+        },
+        {
+          "type": "p",
+          "text": "The public accounts panel chair made the pronouncement after the Philippine National Police “waived” over the weekend its ordinary booking procedures in the case of Duterte, who has been the subject of an arrest warrant issued by Quezon City Judge Ma. Angelica de Ramos for a grave threats lawsuit."
+        },
+        {
+          "type": "p",
+          "text": "“It is clearly a case of special treatment that does not speak well of the rule of law and the equality of persons before the law,” Ridon said."
+        },
+        {
+          "type": "p",
+          "text": "“Sen. Rodante Marcoleta, even if he surrendered directly to the Sandiganbayan, was still subjected to the mandatory and standard criminal booking process, including the taking of a booking photograph or a mugshot,” the lawmaker and lawyer recalled."
+        },
+        {
+          "type": "p",
+          "text": "Former senator Ramon Revilla Jr., ex-congressman Mike Defensor, Sen. Jinggoy Estrada, his father ex-president Joseph Estrada and even former president and now-Pampanga Rep. Gloria Macapagal-Arroyo, all had their mugshots taken previously."
+        },
+        {
+          "type": "p",
+          "text": "Rep. France Castro called on the Vice President to cease her “drama” of playing the victim, and stop being a “bratinella.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-12n86wk",
+      "source": "star",
+      "title": "President Marcos wants subsidized P20/kilo rice sustained",
+      "summary": "The government has funding in place to sustain President Marcos&rsquo; P20-per-kilo subsidized rice program until the end of his term, with most of the additional funds released still unused,…",
+      "byline": "Josiah Antonio",
+      "section": "",
+      "published": "2026-09-06T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/09/07/2554501/president-marcos-wants-subsidized-p20kilo-rice-sustained",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/09/06/4_2026-09-06_21-52-27.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 7, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Known as “Benteng Bigas Meron Na!,” the program is providing relief to vulnerable consumers and is expected to reach as many as 60 million Filipinos through June 2028."
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The government has funding in place to sustain President Marcos’ P20-per-kilo subsidized rice program until the end of his term, with most of the additional funds released still unused, agriculture chief Francisco Tiu Laurel Jr. said yesterday."
+        },
+        {
+          "type": "p",
+          "text": "“It’s really helping a lot of people,” Tiu Lau Laurel said, pointing to the program’s impact on households hit by high food costs."
+        },
+        {
+          "type": "p",
+          "text": "The funding position gives the government room to sustain the subsidy while keeping it targeted at consumers who need it most."
+        },
+        {
+          "type": "p",
+          "text": "The initiative also gives the National Food Authority (NFA) a bigger role in the rice market by allowing it to purchase more palay from local farmers through faster inventory movement."
+        },
+        {
+          "type": "p",
+          "text": "Tiu Laurel said forcing the broader market to sell rice at P20 per kilo could instead hurt farmers, whose production costs leave little room for further price cuts."
+        },
+        {
+          "type": "p",
+          "text": "Even the most efficient local rice farmers spend about P12 to produce a kilo of palay."
+        },
+        {
+          "type": "p",
+          "text": "Milling, transport, trading and other costs must still be covered before rice reaches consumers."
+        },
+        {
+          "type": "p",
+          "text": "A market-wide P20 per kilo retail price could therefore squeeze farm incomes and discourage domestic production, particularly if farmers are forced to absorb the difference."
+        },
+        {
+          "type": "p",
+          "text": "The targeted subsidy allows the government to lower prices for qualified consumers without imposing the full cost on farmers and other players in the supply chain."
+        },
+        {
+          "type": "p",
+          "text": "Tiu Laurel said President Marcos was aware that the P20 per kilo market price for rice, which he promised during the 2022 campaign, could no longer be attained."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-1dta9vh",
+      "source": "star",
+      "title": "VP Sara decries police ‘surveillance’",
+      "summary": "Vice President Sara Duterte cried political harassment anew, this time over her grave threats case and the subsequent arrest warrant against her, berating Interior Secretary Jonvic Remulla and the…",
+      "byline": "Evelyn Macairan",
+      "section": "",
+      "published": "2026-09-06T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/09/07/2554503/vp-sara-decries-police-surveillance",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/09/06/3_2026-09-06_21-54-27.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 7, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Vice President Sara Duterte is escorted by members of the media as she walks down the stairs after posting bail at the Quezon City Regional Trial Court on September 5, 2026."
+        },
+        {
+          "type": "p",
+          "text": "Michael Varcas / The Philippine STAR"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Vice President Sara Duterte cried political harassment anew, this time over her grave threats case and the subsequent arrest warrant against her, berating Interior Secretary Jonvic Remulla and the police over “surveillance operations.”"
+        },
+        {
+          "type": "p",
+          "text": "Duterte made the remark in response to Remulla’s statement that they knew where she was on Friday, the day the arrest warrant was issued, but did not capture her."
+        },
+        {
+          "type": "p",
+          "text": "“These words by Sec. Jonvic Remulla seem to solidify the documents we have long held regarding the harassment and surveillance operations of the Philippine National Police and other government agencies against me,” she said in a statement on Saturday."
+        },
+        {
+          "type": "p",
+          "text": "“We do not trust you, Jonvic Remulla, as well as the police who are minions under a corrupt government led by (President) Marcos,” Duterte added."
+        },
+        {
+          "type": "p",
+          "text": "The Vice President claimed that the current administration has reportedly been conducting surveillance operations against her in recent years."
+        },
+        {
+          "type": "p",
+          "text": "She questioned why the authorities had to pay her mother and children a visit when they knew where she was."
+        },
+        {
+          "type": "p",
+          "text": "“There is only one clear answer – to scare and intimidate my family,” she said."
+        },
+        {
+          "type": "p",
+          "text": "Duterte recalled that there have been reports of other civilians allegedly harassed by the police, including her father, former president Rodrigo Duterte who was arrested in 2025 and brought to The Hague."
+        },
+        {
+          "type": "p",
+          "text": "The Vice President also stressed their position that she does not want to surrender and be placed under the police jurisdiction due to “safety concerns.”"
+        },
+        {
+          "type": "h",
+          "text": "No verified threat"
+        },
+        {
+          "type": "p",
+          "text": "Despite Duterte’s allegations, the Philippine National Police (PNP) maintained it has not monitored any credible threat against the Vice President."
+        },
+        {
+          "type": "p",
+          "text": "“To date, however, the Vice President has not reported to the PNP any threat to her life or to the safety of her family, including the threats she said date back to 2023. Likewise, the PNP has not monitored any verified threat against the Vice President or her family,” PNP chief Gen. Jose Melencio Nartatez Jr. said in a statement Saturday evening."
+        },
+        {
+          "type": "p",
+          "text": "The PNP also affirmed its readiness to conduct security evaluations on safety concerns raised by Duterte."
+        },
+        {
+          "type": "p",
+          "text": "“The Philippine National Police remains steadfastly committed to the rule of law, ensuring that all our operations are conducted with utmost professionalism, impartiality, and absolute respect for individual rights without fear or favor,” the PNP chief noted. — Rainier Allan Ronda"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-97zwn7",
+      "source": "star",
+      "title": "Ombudsman to SC: Act on complaint vs CA justices",
+      "summary": "Following his call for the Supreme Court (SC) to do some &ldquo;soul-searching,&rdquo; Ombudsman Jesus Crispin Remulla is seeking an update on an administrative case filed last year by his…",
+      "byline": "Ghio Ong",
+      "section": "",
+      "published": "2026-09-06T16:00:00.000Z",
+      "url": "https://www.philstar.com/headlines/2026/09/07/2554504/ombudsman-sc-act-complaint-vs-ca-justices",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/09/06/2_2026-09-06_21-56-18.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 7, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "An undated photo of the Ombudsman office."
+        },
+        {
+          "type": "p",
+          "text": "STAR / File"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Following his call for the Supreme Court (SC) to do some “soul-searching,” Ombudsman Jesus Crispin Remulla is seeking an update on an administrative case filed last year by his predecessor against seven incumbent justices of the Court of Appeals (CA)."
+        },
+        {
+          "type": "p",
+          "text": "During the “Executive Session” program on dzRH on Saturday, Remulla shared a report by ABS-CBN News about former ombudsman Samuel Martires who filed an administrative complaint against seven CA associate justices."
+        },
+        {
+          "type": "p",
+          "text": "They were all facing complaints “for gross ignorance of the law and conduct prejudicial to the best interest of the service arising from their TRO (temporary restraining order) and rulings against the ombudsman’s preventive suspension orders on Antique officials.”"
+        },
+        {
+          "type": "p",
+          "text": "“To date, there appears to be no record of the Judicial Integrity Board or the Supreme Court having acted on or resolved that complaint,” according to Remulla."
+        },
+        {
+          "type": "p",
+          "text": "A report from Pilipino Star Ngayon in March 2025 said Martires pressed complaints for gross ignorance of the law and conduct prejudicial to the interest of the public against CA Associate Justices Louis Acosta, Marlene Gonzales-Sison, Rex Bernardo Pascual, Mary Charlene Hernandez-Azura, Roberto Quiroz, Rafael Antonio Santos and Ferdinand Baylon. The names of Sison and Santos no longer appear on the list of incumbent justices in the CA website."
+        },
+        {
+          "type": "p",
+          "text": "Martires alleged the justices issued a TRO against the ombudsman’s decision to preventively suspend local officials of Antique, even if only photocopies of the suspension order were presented when these should have been certified true copies, and that the TRO was enforced even if the suspension had already lapsed. Also, a petitioner was given a TRO despite not having yet asked the ombudsman to reconsider its decision."
+        },
+        {
+          "type": "p",
+          "text": "Remulla argued the ombudsman has been “tallying everything,” particularly “cases dismissed by the ombudsman, but were overturned by the Court of Appeals.”"
+        },
+        {
+          "type": "p",
+          "text": "“We already have findings of fact. Now, when they dismiss that and reverse us, does that mean they have a new finding of fact? It is a question of law,” he maintained."
+        },
+        {
+          "type": "p",
+          "text": "Remulla’s remarks came after the SC called on him or other parties to file complaints against erring judges and justices and submit supporting evidence. The latter maintained it “takes seriously” the accusations against members of the judiciary, but “cannot act on broad allegations against an entire appellate court based on public statements.”"
+        },
+        {
+          "type": "p",
+          "text": "Remulla, who urged the judiciary to “do some soul-searching” during Senate budget deliberations for the Office of the Ombudsman, emphasized the ombudsman would “inform the public” about the alleged institutional issues that disturb the credibility of the judiciary."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
     {
       "id": "abs-19ztpd9",
       "source": "abs",
@@ -3366,94 +4284,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "grd-71l643",
-      "source": "grd",
-      "title": "Farage says overseas donation row ‘looks bad’ but denies Reform breached electoral law",
-      "summary": "<p>Robert Jenrick says party has followed legal protocol ‘at all times’ as Met police consider launching investigation</p><p>Nigel Farage has acknowledged the overseas donation row engulfing Reform…",
-      "byline": "Pippa Crerar Political editor",
-      "section": "Nigel Farage",
-      "published": "2026-09-06T11:12:09.000Z",
-      "url": "https://www.theguardian.com/politics/2026/sep/06/farage-says-overseas-donation-row-looks-bad-but-denies-reform-breached-electoral-law",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/5f102288b2d396ca87ffa246f9644c6e7310acc6/0_0_4126_3302/master/4126.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=fdc612e0fa029b3491d689b6ff9050d1",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Nigel Farage has acknowledged the overseas donation row engulfing Reform UK “looks bad” for his party but denied it had ever taken foreign money in breach of electoral law."
-        },
-        {
-          "type": "p",
-          "text": "The Reform leader, who is battling to contain the fallout from the allegations, was asked to categorically rule out that foreign money had ever been funnelled to his party. He replied: “I can … never happened.”"
-        },
-        {
-          "type": "p",
-          "text": "Farage was forced to suspend his close aide Dan Jukes and Reform’s head of policy, James Orr, on Friday after they were filmed in an undercover investigation apparently plotting to get around electoral laws on foreign donations."
-        },
-        {
-          "type": "p",
-          "text": "In an interview with the BBC’s Laura Kuenssberg, Farage described their comments as “injudicious at best” and admitted the optics of the undercover filming were problematic for his party, which has in the past tried to suggest it would do politics differently."
-        },
-        {
-          "type": "p",
-          "text": "“This looks bad, as does the sale of peerages, as does government contracts for donations,” he said. “We are not the first people to be involved in a row over donations.”"
-        },
-        {
-          "type": "p",
-          "text": "The Metropolitan police are now assessing the evidence after a complaint that Farage and his aides have broken political funding laws, with sources suggesting a full investigation is expected to be launched. They all deny wrongdoing."
-        },
-        {
-          "type": "p",
-          "text": "Scotland Yard could extend an existing investigation into whether Reform took donations channelled through an intermediary from potentially impermissible sources, which the party and donors deny."
-        },
-        {
-          "type": "p",
-          "text": "Farage is already facing intense scrutiny about Reform’s finances, as well as a £5m gift by a crypto billionaire shortly before announcing he would stand in the 2024 general election, which he has since said was intended to pay for security."
-        },
-        {
-          "type": "p",
-          "text": "In an earlier extract of the BBC interview, Farage also claimed he “wasn’t even listening” during the meeting at the centre of the controversy, and that he knew donation law “better than anybody”, as he sought to limit the damage caused by the allegations."
-        },
-        {
-          "type": "p",
-          "text": "Robert Jenrick, Reform’s Treasury spokesperson, said on Sunday that he had seen legal advice that the party had not in fact broken electoral law over foreign donations but that lessons would be learned from the episode."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/87fc83af710fca376c8fef43a7ccdc7e1a128925/0_0_5900_3933/master/5900.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Reform MP Robert Jenrick has said a KC reviewed the evidence and found the party had not broken any laws. Photograph: Temilade Adelaja/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "“We’re going to investigate exactly what happened,” Jenrick told Sky News. “It’s right to have due process. But this is not the way that Reform conducts itself."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "“Like any political party, we seek to abide by the law at all times, and we believe we have in this case. In fact, I’ve reviewed the legal advice from the KC who’s advised the party in the last 48 hours, and it shows that, yeah, we did."
-        },
-        {
-          "type": "p",
-          "text": "“But do we want for the best version of ourselves? Yes, absolutely. And no doubt there will be lessons to be learnt from this.”"
-        },
-        {
-          "type": "p",
-          "text": "Speaking after the BBC interview, the business secretary, Jonathan Reynolds, said: “For a political party that don’t like foreigners much they do seem to have a soft spot for foreign cash. We have rules in this country about how our democracy works and everyone has to stick to them.”"
-        },
-        {
-          "type": "p",
-          "text": "He added: “I think you see someone struggling to decide whether they’re really serious about trying to run for power or want to keep the protest going.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "rap-1ofo03v",
       "source": "rap",
       "title": "Gilas Pilipinas suffers back-to-back blowouts to Korea ahead of Asian Games",
@@ -5153,153 +5983,6 @@
         {
           "type": "p",
           "text": "The two arrested individuals were turned over to the BI Warden’s Facility, where they will remain while their cases are being processed."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-fmqodg",
-      "source": "star",
-      "title": "‘Hindi ka biktima’: VP Sara Duterte urged to face accountability amid threats case",
-      "summary": "Several current and former lawmakers have rejected Vice President Sara Duterte&rsquo;s portrayal of herself as a victim, saying she must face accountability over the grave threats complaints filed…",
-      "byline": "Ian Laqui",
-      "section": "",
-      "published": "2026-09-06T08:33:00.000Z",
-      "url": "https://www.philstar.com/headlines/2026/09/06/2554420/hindi-ka-biktima-vp-sara-duterte-urged-face-accountability-amid-threats-case",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/09/06/sara-duterte-qc-court-2_2026-09-06_16-31-44.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 6, 2026 | 4:33pm"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Several current and former lawmakers have rejected Vice President Sara Duterte’s portrayal of herself as a victim, saying she must face accountability over the grave threats complaints filed against her before a Quezon City court."
-        },
-        {
-          "type": "p",
-          "text": "Separate statements from current and former lawmakers came after Duterte lashed out at her lawyers in front of the media on September 5, saying that she does not feel safe around law enforcement."
-        },
-        {
-          "type": "p",
-          "text": "In a statement on Sunday, September 6, Rep. Leila de Lima (Mamamayang Liberal) emphasized that Duterte must face accountability."
-        },
-        {
-          "type": "p",
-          "text": "“Hindi ka biktima; may pananagutan ka,” De Lima said."
-        },
-        {
-          "type": "p",
-          "text": "(You are not a victim; you are accountable.)"
-        },
-        {
-          "type": "p",
-          "text": "Former Sen. Antonio Trillanes IV, in a separate statement, also urged the public to “look at Duterte” and choose wisely in the next presidential elections."
-        },
-        {
-          "type": "p",
-          "text": "“Sana naman maliwanag sa inyo na wala talaga siya (Duterte) sa tamang pag-iisip,” Trillanes said."
-        },
-        {
-          "type": "p",
-          "text": "(I hope it's clear to you that he/she is really not in her right mind)"
-        },
-        {
-          "type": "p",
-          "text": "“Hindi ito pwedeng maging presidente o manatili bilang bise presidente. Alang-alang sa ating bayan at sa ating mga kapwa Pilipino, pumili naman tayo nang maayos,” he added."
-        },
-        {
-          "type": "p",
-          "text": "(This person cannot be president or remain as vice president. For the sake of our country and our fellow Filipinos, let's make a better choice.)"
-        },
-        {
-          "type": "h",
-          "text": "Special treatment"
-        },
-        {
-          "type": "p",
-          "text": "On September 4, the Quezon City Regional Trial Court (RTC) Branch 98 issued a warrant of arrest against Duterte over three counts of grave threats against President Ferdinand Marcos Jr., First Lady Liza Marcos, and former House Speaker Martin Romualdez."
-        },
-        {
-          "type": "p",
-          "text": "She posted bail on Saturday, September 5, with P120,000 for each count. She appeared personally before the court. One of her lawyers, Paul Lawrence Lim, said that Duterte submitted her mugshots to the court."
-        },
-        {
-          "type": "p",
-          "text": "For House impeachment prosecutor Rep. Terry Ridon (Bicol-SARO), the said act of Duterte giving her mugshots to the court instead of undergoing booking procedures is a form of “special treatment.”"
-        },
-        {
-          "type": "p",
-          "text": "“The Philippine National Police waived its ordinary booking procedures in the case of Vice President Sara Duterte. It is clearly a case of special treatment that does not speak well of the rule of law and the equality of persons before the law,” Ridon said."
-        },
-        {
-          "type": "p",
-          "text": "“Dapat pantay ang pagtrato ng batas sa lahat ng mga akusado: ordinaryong tao, senador o pangalawang pangulo. No special treatment,” he added."
-        },
-        {
-          "type": "p",
-          "text": "(The law must treat all accused individuals equally: whether an ordinary citizen, a senator, or the vice president. No special treatment.)"
-        },
-        {
-          "type": "p",
-          "text": "According to the Department of Justice (DOJ), immunity from suit only applies to the president."
-        },
-        {
-          "type": "p",
-          "text": "“The DOJ's position is that presidential immunity is lodged solely in the president as chief executive, which is why the DOJ filed the case against the accused,” DOJ spokesperson Polo Martinez told reporters."
-        },
-        {
-          "type": "p",
-          "text": "For Interior Secretary Jonvic Remulla, the Philippine National Police accorded Duterte with “all the respect her position deserves.”"
-        },
-        {
-          "type": "p",
-          "text": "“We have all the body cam footages of her warrants being served. We have all the body cam footages of her arrival to post bail,” Remulla said."
-        },
-        {
-          "type": "p",
-          "text": "“We knew of her whereabouts the night before but we did not force the warrant of arrest,” he added."
-        },
-        {
-          "type": "h",
-          "text": "No bearing on the impeachment trial"
-        },
-        {
-          "type": "p",
-          "text": "One of the grounds being challenged by Duterte’s lawyers is the vice president’s alleged immunity from criminal prosecution while being in office, as she is an impeachable officer."
-        },
-        {
-          "type": "p",
-          "text": "However, for lawyer and former Sen. Franklin Drilon, Duterte’s case before the RTC has no bearing on her ongoing impeachment trial, saying the two proceedings are different in nature."
-        },
-        {
-          "type": "p",
-          "text": "“As we have said, this impeachment trial is sui generis, a class of its own. It is not a court of law,” Drilon said in a radio interview, according to a OneNews report."
-        },
-        {
-          "type": "p",
-          "text": "“It is not a criminal case. It is a political process, a process provided for by the Constitution to hold accountable those who should be held accountable… The penalty here, if found guilty, is not imprisonment but removal from public office and perpetual disqualification from public office,” he added."
-        },
-        {
-          "type": "p",
-          "text": "Impeachment legal spokesperson Benjamin Tolosa also echoed Drilon’s opinion."
-        },
-        {
-          "type": "p",
-          "text": "He explained that the RTC has made its own judicial determination of probable cause for the issuance of the warrant in connection with Duterte’s case."
-        },
-        {
-          "type": "p",
-          "text": "“The criminal case and the impeachment proceedings are separate proceedings, with different purposes and consequences. The former determines criminal liability, while the latter concerns the Vice President’s fitness to remain in office,” Tolosa said in a social media post."
-        },
-        {
-          "type": "p",
-          "text": "The grave threats charge is also being tackled in the impeachment court. It is lodged under Article I of the Articles of Impeachment against Duterte. — with reports from OneNews"
         }
       ],
       "truncated": false,
@@ -10999,105 +11682,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "star-dgz0qq",
-      "source": "star",
-      "title": "SolGen asks Pasig court to resolve motions on wage hike freeze order",
-      "summary": "The Office of the Solicitor General asked a Pasig City court to immediately resolve its pending motion for reconsideration seeking to lift the freeze order on Metro Manila's P85 daily minimum wage…",
-      "byline": "Ian Laqui",
-      "section": "",
-      "published": "2026-09-06T05:48:00.000Z",
-      "url": "https://www.philstar.com/headlines/2026/09/06/2554411/solgen-asks-pasig-court-resolve-motions-wage-hike-freeze-order",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/08/14/manial2026-08-1222-15-31_2026-08-14_08-55-50.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 6, 2026 | 1:48pm"
-        },
-        {
-          "type": "p",
-          "text": "This undated photo shows an individual counting Philippine peso bills."
-        },
-        {
-          "type": "p",
-          "text": "The Philippine STAR / Walter Bollozos"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Office of the Solicitor General (OSG) asked a Pasig City court to immediately resolve its pending motion for reconsideration seeking to lift the freeze order on Metro Manila's P85 daily minimum wage increase."
-        },
-        {
-          "type": "p",
-          "text": "In a motion to resolve the OSG's motion filed on September 3, state lawyers urged Pasig City Regional Trial Court Branch 152 to rule on the government's “Urgent Motion for Reconsideration Ad Cautelam” filed on August 17, seeking to dismiss the cases filed by construction firms and set aside the court's August 13 order that issued a writ of preliminary injunction against the wage hike order."
-        },
-        {
-          "type": "p",
-          "text": "According to the OSG, the motions filed by the government are now “ripe for resolution.”"
-        },
-        {
-          "type": "p",
-          "text": "“Moreover, the issues raised in the Motion concern the continued implementation of Wage Order No. NCR-27 and directly affect minimum wage earners, employers, and other stakeholders throughout the National Capital Region, which issues plainly pertain to the unreleased daily increase in workers' wages that this Honorable Court enjoined,” the OSG said."
-        },
-        {
-          "type": "p",
-          "text": "“Its early resolution would therefore serve the interests of justice, fairness, and public welfare by removing uncertainty on a matter imbued with significant public interest,” it added."
-        },
-        {
-          "type": "p",
-          "text": "The government's primary legal defense counsel stressed that a prompt ruling is necessary because the OSG's motion raises a threshold objection regarding the RTC's jurisdiction over wage board decisions."
-        },
-        {
-          "type": "p",
-          "text": "\"Questions of jurisdiction are not deferred to the end of a case; they are resolved at the earliest opportunity, precisely so that neither the parties nor the Honorable Court expend further time and resources on proceedings that may ultimately be void,\" the motion read."
-        },
-        {
-          "type": "p",
-          "text": "The controversy stems from a Department of Labor and Employment wage order that granted a two-tranche P85 daily minimum wage increase for over 1.1 million workers in the National Capital Region."
-        },
-        {
-          "type": "p",
-          "text": "The first tranche—a P60 increase—was slated to take effect on July 25, followed by the remaining P25 in January 2027."
-        },
-        {
-          "type": "p",
-          "text": "However, petitioners, construction firms Readycon and R-II Builders, filed a petition for declaratory relief, alleging that the wage board failed to properly consider employer capacity to pay under the Labor Code amid rising fuel and operational costs."
-        },
-        {
-          "type": "p",
-          "text": "Branch 152 granted a temporary restraining order on July 30, followed by a writ of preliminary injunction on August 13 after requiring the petitioners to post a P10-billion bond."
-        },
-        {
-          "type": "p",
-          "text": "The government and various labor groups have challenged the injunction, citing Article 126 of the Labor Code, which explicitly prohibits courts from issuing injunctions or restraining orders against wage board proceedings."
-        },
-        {
-          "type": "p",
-          "text": "Lawyer Sonny Matula, president of the Federation of Free Workers (FFW), backed the OSG’s motion, urging the court to immediately address jurisdiction before taking any further steps."
-        },
-        {
-          "type": "p",
-          "text": "He argued that if the court lacks authority, there is no reason to stall the proceedings while workers suffer financially on the sidelines."
-        },
-        {
-          "type": "p",
-          "text": "“We are one with the OSG on this. Jurisdiction is not an issue you save for dessert—it belongs at the beginning of the meal. If the court has no jurisdiction, there is no reason to keep dribbling the ball while workers wait with empty pockets on the sidelines. Resolve it now,” Matula said."
-        },
-        {
-          "type": "p",
-          "text": "Matula stressed that both the government and labor are aligned in their appeal, adding that alongside the OSG's stance and labor's pleas, the immediate financial strain on workers every payday should serve as a clear signal for the court to resolve the matter."
-        },
-        {
-          "type": "p",
-          "text": "“The OSG has spoken. Labor has spoken—even if labor is still waiting to be allowed inside. Most importantly, workers’ empty pockets speak every payday. We respectfully hope the Court hears all three,” Matula said."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-xvc0yi",
       "source": "abs",
       "title": "Ogie Diaz gifts daughter Erin ₱1 million for being single and having no child at 25",
@@ -11486,105 +12070,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "feed"
-    },
-    {
-      "id": "star-1x7p7l1",
-      "source": "star",
-      "title": "Supreme Court: 11,900 out of 13,441 Bar aspirants took first-day exams",
-      "summary": "This number is out of the 13,441 applicants which was cleared by the High Court to take the examination for admission to the practice of law.",
-      "byline": "Ian Laqui",
-      "section": "",
-      "published": "2026-09-06T05:10:00.000Z",
-      "url": "https://www.philstar.com/headlines/2026/09/06/2554410/supreme-court-11900-out-13441-bar-aspirants-took-first-day-exams",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/09/06/edd-bar-first-dayjpeg_2026-09-06_12-51-51.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 6, 2026 | 1:10pm"
-        },
-        {
-          "type": "p",
-          "text": "Examinees arrive at the gate of the University of Santo Tomas in Manila for the first day of the 2026 Bar Examinations on Sept. 6, 2026."
-        },
-        {
-          "type": "p",
-          "text": "The STAR / Edd Gumban"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — There are 11,900 aspirants who have taken the 2026 Bar Examinations on the first day of the examinations, on Sunday, September 6, Supreme Court Associate Justice and 2026 Bar Exams Chairperson Samuel Gaerlan said."
-        },
-        {
-          "type": "p",
-          "text": "This number is out of the 13,441 applicants which was cleared by the high court to take the examination for admission to the practice of law."
-        },
-        {
-          "type": "p",
-          "text": "The number of takers was higher than last year’s first-day takers of 11,437 candidates."
-        },
-        {
-          "type": "p",
-          "text": "“I think we have the highest number of applicants and examiners as compared to the previous years,” Gaerlan said."
-        },
-        {
-          "type": "p",
-          "text": "“They are inspired to take the bar exam, and maybe they were thinking that I am reasonable and fair, so they did not postpone taking the Bar Exam,” he added."
-        },
-        {
-          "type": "p",
-          "text": "On the first day, bar aspirants will take political and public international law in the morning and commercial and taxation laws in the afternoon."
-        },
-        {
-          "type": "p",
-          "text": "For the second day of the Bar Exams on September 9, bar aspirants will take Civil Law and Land Titles and Deeds and Labor Law and Social Legislation."
-        },
-        {
-          "type": "p",
-          "text": "On the last day of the exams, September 13, examinees will take Criminal Law and Remedial Law, Legal and Judicial Ethics, with Practical Exercises."
-        },
-        {
-          "type": "h",
-          "text": "No barriers"
-        },
-        {
-          "type": "p",
-          "text": "According to Gaerlan, there are Bar examinees who face predicaments and disabilities yet choose to push through the examinations."
-        },
-        {
-          "type": "p",
-          "text": "Since the 2020/2021 Bar Examinations, popularly known as the “Best Bar Ever,” the Supreme Court has implemented digitized Bar Examinations through the Examplify software."
-        },
-        {
-          "type": "p",
-          "text": "However, in this year's examination, according to Gaerlan, there are three individuals who were permitted to take the examination in written form due to their conditions."
-        },
-        {
-          "type": "p",
-          "text": "One examinee, 64, has a chronic eye condition. Another examinee, 49, is undergoing therapy for a shoulder injury, and another examinee, 69, had limited exposure to computers."
-        },
-        {
-          "type": "p",
-          "text": "Four examinees were also allowed the assistance of a coder."
-        },
-        {
-          "type": "p",
-          "text": "“One lost sight through a rare form of meningitis. Another 75-year-old who struggles with computer literacy and a third one who lost both arms,” Gaerlan said."
-        },
-        {
-          "type": "p",
-          "text": "There is also one person deprived of liberty who was allowed to take the Bar Examinations in one of the 15 local testing centers."
-        },
-        {
-          "type": "p",
-          "text": "“Of course, with (the) implementation of our security protocols in coordination with the Office of the Judiciary Marshals,” Gaerlan said."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "abs-1anvh0p",
@@ -12220,80 +12705,6 @@
         {
           "type": "p",
           "text": "“For sure, if it disturbs during the play, like if you see the light or something, well, you always say to the referee, can be sometimes challenging, like if during the point this happens.” – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-11mze9t",
-      "source": "dw",
-      "title": "Saxony-Anhalt: Far-right AfD eyes power in German state vote",
-      "summary": "Although the eastern state accounts for less than 3% of the nationwide electorate, the election outcome could serve as a bellwether about the far-right AFD's prospects in the rest of the country. DW…",
-      "byline": "Louis Oelofse, Richard Connor",
-      "section": "",
-      "published": "2026-09-06T04:58:00.000Z",
-      "url": "https://www.dw.com/en/saxony-anhalt-far-right-afd-eyes-power-in-german-state-vote/live-78754934?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79044315_6.jpg",
-        "caption": "The far-right AfD is polling strongly in Saxony-Anhalt, while the BSW is seeking a first foothold in the state parliamentImage: Michael Taeger/Jan Huebner/IMAGO"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Live"
-        },
-        {
-          "type": "p",
-          "text": "Although the eastern state accounts for less than 3% of the nationwide electorate, the election outcome could serve as a bellwether about the far-right AFD's prospects in the rest of the country. DW has the latest."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79044315_605.jpg",
-          "caption": "The far-right AfD is polling strongly in Saxony-Anhalt, while the BSW is seeking a first foothold in the state parliamentImage: Michael Taeger/Jan Huebner/IMAGO"
-        },
-        {
-          "type": "h",
-          "text": "What you need to know"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Saxony-Anhalt voters are set to elect a new state parliament in a vote being closely watched across Germany",
-            "The far-right Alternative for Germany (AfD) is polling well ahead of the center-right Christian Democratic Union (CDU), which has led the state government since 2002",
-            "The result could test Germany's political 'firewall' against the far right and put pressure on CDU Chancellor Friedrich Merz if the CDU performs badly"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "It is election day in Germany's Saxony-Anhalt state. Follow all the developments here."
-        },
-        {
-          "type": "p",
-          "text": "September 6, 2026"
-        },
-        {
-          "type": "h",
-          "text": "ANALYSIS: Why is this election so closely watched?"
-        },
-        {
-          "type": "p",
-          "text": "I have not experienced a more polarizing election since Brexit or Trump vs. Hillary Clinton in 2016. That is because the stakes are so high."
-        },
-        {
-          "type": "p",
-          "text": "For a number of reasons, the decision voters in Saxony-Anhalt reach today is being watched closely in Berlin and beyond:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Watershed moment: Should the AfD secure an absolute majority, it would be the first time a right-wing populist party has won power in a state in Germany in the postwar era.",
-            "Firewall: Should the AfD not secure an absolute majority, the focus will turn to the conservative CDU. Pressure will mount on the party to rethink its longstanding policy of not governing with or passing laws with the far-right AfD or far-left Left Party. Such a debate risks splitting the CDU.",
-            "Chancellor: A dire result for the conservatives may lead to calls for the deeply unpopular Chancellor Friedrich Merz to be replaced. In CDU circles in Berlin, the talk is of an election that could 'change the republic.'"
-          ]
         }
       ],
       "truncated": false,
@@ -13820,113 +14231,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "star-1wkj7ym",
-      "source": "star",
-      "title": "No verified threats vs VP Sara Duterte, open to receiving reports — PNP",
-      "summary": "The Philippine National Police said it has not monitored any verified threat against Vice President Sara Duterte or her family, despite her claims that she fears for their safety and has documented…",
-      "byline": "Kristine Daguno-Bersamina",
-      "section": "",
-      "published": "2026-09-06T02:46:00.000Z",
-      "url": "https://www.philstar.com/headlines/2026/09/06/2554401/no-verified-threats-vs-vp-sara-duterte-open-receiving-reports-pnp",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/09/06/sara-duterte-qc-court_2026-09-06_10-28-08.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 6, 2026 | 10:46am"
-        },
-        {
-          "type": "p",
-          "text": "Philippine Vice President Sara Duterte shows a document after posting bail at a court building in Quezon City suburban Manila on September 5, 2026."
-        },
-        {
-          "type": "p",
-          "text": "AFP / Ted Aljibe"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Philippine National Police (PNP) said it has not monitored any verified threat against Vice President Sara Duterte or her family, despite her claims that she fears for their safety and has documented threats and harassment dating back to 2023."
-        },
-        {
-          "type": "p",
-          "text": "In a statement on Saturday evening, September 5, PNP chief PGen. Jose Melencio Nartatez Jr. said Duterte has yet to report to the police any threat to her life or the safety of her family."
-        },
-        {
-          "type": "p",
-          "text": "“The PNP continues to monitor the situation,” Nartatez said."
-        },
-        {
-          "type": "p",
-          "text": "\"To date, however, the Vice President has not reported to the PNP any threat to her life or to the safety of her family, including the threats she said date back to 2023. Likewise, the PNP has not monitored any verified threat against the Vice President or her family,\" he added."
-        },
-        {
-          "type": "p",
-          "text": "Duterte raised the concerns on Saturday when she appeared at the Quezon City Hall of Justice to post bail following the issuance of an arrest warrant against her over three counts of grave threats."
-        },
-        {
-          "type": "p",
-          "text": "“I have documented threats and harassment since 2023. I fear for my children. I do not feel they are safe if I am with them,” Duterte said in a statement issued by the Office of the Vice President."
-        },
-        {
-          "type": "p",
-          "text": "She also alleged that her family had been subjected to harassment and expressed distrust in both the police and the courts."
-        },
-        {
-          "type": "p",
-          "text": "“I do not feel safe at all, kahit anong gawin ko,” Duterte said."
-        },
-        {
-          "type": "p",
-          "text": "Duterte did not provide details about the threats and harassment she said she had documented since 2023. She also did not identify the police officers she referred to in her statements."
-        },
-        {
-          "type": "p",
-          "text": "The PNP said it provided security assistance during Duterte’s appearance at the Quezon City Regional Trial Court Branch 98 on Saturday, where she posted P120,000 bail for each of the three counts."
-        },
-        {
-          "type": "p",
-          "text": "The vice president was able to safely arrive at and leave the court, according to Nartatez."
-        },
-        {
-          "type": "p",
-          "text": "The PNP said it remains open to receiving documents, reports or statements concerning the alleged threats against Duterte and her family."
-        },
-        {
-          "type": "p",
-          "text": "\"My office, in particular, remains open to receiving such information so that we can properly check, assess, and verify it,\" Nartatez said."
-        },
-        {
-          "type": "p",
-          "text": "He also reminded police personnel to comply with the law, observe existing policies and procedures, and perform their duties professionally and lawfully."
-        },
-        {
-          "type": "p",
-          "text": "Duterte's lawyers said the bail was posted directly with the weekend court, without prejudice to the jurisdictional issues they had raised in the case."
-        },
-        {
-          "type": "p",
-          "text": "The arrest warrant was issued on Friday, September 4, after the court found probable cause to hold Duterte for trial."
-        },
-        {
-          "type": "p",
-          "text": "The case stemmed from an online press briefing in November 2024, when Duterte said she had hired someone to kill President Ferdinand “Bongbong” Marcos Jr., First Lady Liza Araneta Marcos and then-House Speaker Martin Romualdez if she herself were killed."
-        },
-        {
-          "type": "p",
-          "text": "The Department of Justice charged her with three counts of grave threats under Republic Act 10175, or the Cybercrime Prevention Act."
-        },
-        {
-          "type": "p",
-          "text": "Duterte's grave threats case comes as her impeachment trial before the Senate is ongoing. The alleged threats against Marcos also form part of one of the Articles of Impeachment against the vice president."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-lcu22q",
       "source": "abs",
       "title": "Lacson fires back after Cayetano likens probe into Taguig projects to 'striptease'",
@@ -13967,109 +14271,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "star-1ny7tvz",
-      "source": "star",
-      "title": "Rains welcome Bar Examinees on first day",
-      "summary": "Undeterred by heavy rain, bar examinees made their way to their respective testing centers, backed by steadfast supporters who braved the weather with them.",
-      "byline": "Ian Laqui",
-      "section": "",
-      "published": "2026-09-06T02:35:00.000Z",
-      "url": "https://www.philstar.com/headlines/2026/09/06/2554400/rains-welcome-bar-examinees-first-day",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/09/06/rains-ust-bar_2026-09-06_10-18-16.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 6, 2026 | 10:35am"
-        },
-        {
-          "type": "p",
-          "text": "Rain showers at the University of Santo Tomas on Sept. 6, 2026, during the first day of the 2026 Bar Examinations."
-        },
-        {
-          "type": "p",
-          "text": "Philstar.com / Ian Laqui"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The first day of the 2026 Bar Examinations has been welcomed by rainshowers on Sunday, September 6."
-        },
-        {
-          "type": "p",
-          "text": "Undeterred by heavy rain, bar examinees made their way to their respective testing centers, backed by steadfast supporters who braved the weather with them."
-        },
-        {
-          "type": "p",
-          "text": "The Supreme Court has designated 15 local testing centers across the country for this year’s examination for admission to the practice of law."
-        },
-        {
-          "type": "p",
-          "text": "Seven of the 15 testing centers are located in Metro Manila, with San Beda College Alabang in Muntinlupa as the headquarters."
-        },
-        {
-          "type": "p",
-          "text": "On the first day, bar aspirants will take political and public international law in the morning and commercial and taxation laws in the afternoon."
-        },
-        {
-          "type": "p",
-          "text": "For the second day of the Bar Exams on September 9, bar aspirants will take Civil Law and Land Titles and Deeds and Labor Law and Social Legislation."
-        },
-        {
-          "type": "p",
-          "text": "On the last day of the exams, examinees will take Criminal Law and Remedial Law, Legal and Judicial Ethics, with Practical Exercises."
-        },
-        {
-          "type": "p",
-          "text": "In a message to Philstar.com, Manila Police District Spokesperson Major Philip Ines said that there are 900 personnel from the Philippine National Police who are deployed for the Bar Examinations."
-        },
-        {
-          "type": "h",
-          "text": "It takes a village to raise a lawyer"
-        },
-        {
-          "type": "p",
-          "text": "For the Bar Operations support for the bar examinees, the journey toward the Bar is never a solo march."
-        },
-        {
-          "type": "p",
-          "text": "For University of Santo Tomas law student Claire Pascual, raising a lawyer requires a supportive community, emphasizing that to build that network, one must first step up and be a part of it."
-        },
-        {
-          "type": "p",
-          "text": "“It takes a village to raise a lawyer and to have a village, you must first be a villager,” Pascual told Philstar.com."
-        },
-        {
-          "type": "p",
-          "text": "Lester Rodil, also a law student from the Polytechnic University of the Philippines, went out as early as 4 a.m. at the New Era University in Quezon City."
-        },
-        {
-          "type": "p",
-          "text": "Despite getting drenched in the rain, he said that supporting the bar examinees was \"worth it\" because it showed the \"true spirit of the law school community.\""
-        },
-        {
-          "type": "p",
-          "text": "“Every law student shares the same conundrum and hardship. If there is any moment a bar taker needs unwavering support, it is during the bar exam week,” Rodil told Philstar.com."
-        },
-        {
-          "type": "p",
-          "text": "His message to the Bar Examinees: “Your years of hard work have led to this moment. It’s time to harvest the fruits of your labor.”"
-        },
-        {
-          "type": "p",
-          "text": "In this year’s Bar Exams, the Supreme Court cleared 13,441 applicants to take the 2026 Bar Examinations out of 14,291 total registered candidates."
-        },
-        {
-          "type": "p",
-          "text": "Last year, there were 5,594 examinees who passed the exams, yielding a passing rate of 48.98%."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "inqn-3bx1gp",
@@ -14349,128 +14550,6 @@
         {
           "type": "p",
           "text": "She was airlifted to a hospital in Kathmandu for treatment, Reuters reported."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-l7yq8j",
-      "source": "star",
-      "title": "2026 Bar exams kick off today",
-      "summary": "The Bar Examinations, which will be conducted on two Sundays and one Wednesday in September, will be held in localized testing centers across the country.",
-      "byline": "Ian Laqui",
-      "section": "",
-      "published": "2026-09-06T01:53:00.000Z",
-      "url": "https://www.philstar.com/headlines/2026/09/06/2554354/2026-bar-exams-kick-today",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/09/06/img1983_2026-09-06_09-30-16.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 6, 2026 | 9:53am"
-        },
-        {
-          "type": "p",
-          "text": "Clear backpacks carried by Bar Examinees at the University of Santo Tomas on Sept. 6, 2026."
-        },
-        {
-          "type": "p",
-          "text": "Supreme Court Public Information Office"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The 2026 Bar Examinations commence on Sunday, September 6."
-        },
-        {
-          "type": "p",
-          "text": "The Bar Examinations, which will be conducted on two Sundays and one Wednesday in September, will be held in localized testing centers across the country."
-        },
-        {
-          "type": "p",
-          "text": "The Supreme Court has set 15 local testing centers across the country for the examination."
-        },
-        {
-          "type": "p",
-          "text": "This year’s Bar Examination chairperson is Supreme Court Associate Justice Samuel Gaerlan. San Beda College Alabang in Muntinlupa serves as the headquarters for the Bar Examination."
-        },
-        {
-          "type": "p",
-          "text": "On September 6, the aspirants for the bar will take Political and Public International Law in the morning session and Commercial and Taxation Laws in the afternoon session."
-        },
-        {
-          "type": "p",
-          "text": "The second day of the Bar Exams will be held on Wednesday, September 9, while the last day will be on Sunday, September 13."
-        },
-        {
-          "type": "p",
-          "text": "The Supreme Court cleared 13,441 applicants to take the 2026 Bar Examinations out of 14,291 total registered candidates."
-        },
-        {
-          "type": "p",
-          "text": "During the 2025 Bar Examinations, there were 5,594 examinees who passed the exams, yielding a passing rate of 48.98%."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-1uv7oy7",
-      "source": "star",
-      "title": "Rains expected across Luzon, Visayas due to habagat — PAGASA",
-      "summary": "Luzon and Visayas may expect rains due to the southwest monsoon, the state weather bureau PAGASA said.",
-      "byline": "Ian Laqui",
-      "section": "",
-      "published": "2026-09-06T01:47:00.000Z",
-      "url": "https://www.philstar.com/weather/2026/09/06/2554397/rains-expected-across-luzon-visayas-due-habagat-pagasa",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/09/06/potholes-rain-novaliches_2026-09-06_09-42-35.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 6, 2026 | 9:47am"
-        },
-        {
-          "type": "p",
-          "text": "Motorists slow down while crossing pedestrians maneuver around massive potholes caused by the heavy rainfall from previous weather disturbances and the southwest monsoon at the corner of Belfast Avenue and Quirino Highway in Novaliches, Quezon City on Aug. 8, 2026."
-        },
-        {
-          "type": "p",
-          "text": "The Philippine STAR / Miguel de Guzman"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Luzon and Visayas may expect rains due to the southwest monsoon, the state weather bureau PAGASA said."
-        },
-        {
-          "type": "p",
-          "text": "In its weather forecast on Sunday, September 6, PAGASA said that Metro Manila, Ilocos Region, Cordillera Administrative Region, Western Visayas, the rest of Central Luzon, the rest of MIMAROPA, Rizal and Laguna may expect cloudy skies with scattered rains and thunderstorms due to the southwest monsoon, locally known as habagat."
-        },
-        {
-          "type": "p",
-          "text": "The habagat may also bring occasional rains to Zambales, Bataan, Cavite, Batangas and Occidental Mindoro."
-        },
-        {
-          "type": "p",
-          "text": "Mindanao may expect partly cloudy to cloudy skies with isolated rainshowers or thunderstorms due to localized thunderstorms."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, Tropical Storm Krovanh (formerly Pilandok) is estimated to be 875 kilometers east-northeast of extreme Northern Luzon as of 3 a.m. on Sunday."
-        },
-        {
-          "type": "p",
-          "text": "It has wind speeds of up to 65 kilometers per hour (kph) and gusts of up to 80 kph."
-        },
-        {
-          "type": "p",
-          "text": "The tropical storm is moving east-southwestward at 10 kph."
         }
       ],
       "truncated": false,
@@ -17639,267 +17718,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "star-1wxaxad",
-      "source": "star",
-      "title": "PDP-Laban denounces Sara arrest warrant",
-      "summary": "The Partido Demokratiko Pilipino-Laban has denounced the issuance of a warrant of arrest against Vice President Sara Duterte, calling it an &ldquo;assault&rdquo; on the legitimate political…",
-      "byline": "Daphne Galvez",
-      "section": "",
-      "published": "2026-09-05T16:00:00.000Z",
-      "url": "https://www.philstar.com/headlines/2026/09/06/2554316/pdp-laban-denounces-sara-arrest-warrant",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/09/05/11_2026-09-05_22-09-34.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 6, 2026 | 12:00am"
-        },
-        {
-          "type": "p",
-          "text": "Vice President Sara Duterte arrives at the Quezon City Hall of Justice on September 5, 2026."
-        },
-        {
-          "type": "p",
-          "text": "Michael Varcas / The Philippine STAR"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Partido Demokratiko Pilipino (PDP)-Laban has denounced the issuance of a warrant of arrest against Vice President Sara Duterte, calling it an “assault” on the legitimate political opposition."
-        },
-        {
-          "type": "p",
-          "text": "It pointed to the fact that the arrest warrant was issued by a regional trial court judge recently appointed by President Marcos."
-        },
-        {
-          "type": "p",
-          "text": "“The blatant attempt to decimate the political opposition is disingenuous yet obvious: appoint people beholden to the present administration to key positions in government agencies and use these agencies as weapons of mass harassment against those who dare oppose the prevailing corruption masterminded by the Palace,” PDP-Laban national spokesman Ferdinand Topacio said."
-        },
-        {
-          "type": "p",
-          "text": "He urged the people to maintain their support “to the leaders of their choice” and resist the imposition of those that have been repudiated and “stand fast against the forces of dictatorship.”"
-        },
-        {
-          "type": "p",
-          "text": "However, House Deputy Speaker Paolo Ortega V said the issuance of the arrest warrant only means that Duterte should now confront the charges through the judicial process available to every accused."
-        },
-        {
-          "type": "p",
-          "text": "Ortega said Duterte will have every opportunity to dispute the charges, question the prosecution’s evidence and avail herself of the remedies provided under the Rules of Court."
-        },
-        {
-          "type": "p",
-          "text": "He said the development should therefore be allowed to proceed according to law, with the court ultimately determining criminal liability after hearing the evidence of both the prosecution and the defense."
-        },
-        {
-          "type": "p",
-          "text": "For his part, Bicol Saro party-list Rep. Terry Ridon told Duterte to stop portraying her arrest as a threat to her safety and instead address the grave threats charges against her through the proper legal process."
-        },
-        {
-          "type": "p",
-          "text": "Ridon made the statement after Duterte repeatedly expressed fears for her life after arriving at the Quezon City Hall of Justice yesterday to post bail."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, former press secretary Trixie Cruz-Angeles said Duterte’s supporters will remember the warrant of arrest against Duterte as oppression."
-        },
-        {
-          "type": "p",
-          "text": "In a short video uploaded by Bilyonaryo News Channel, Angeles said, “History might not be a very kind judge because we will remember.”"
-        },
-        {
-          "type": "p",
-          "text": "“We will remember this, it is all on record and there will be people who would attest, there will be people who will stand with this, to all of these events and we’ll interpret them as oppression. So good luck in 2028,” she added. — Evelyn Macairan"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-pywjes",
-      "source": "star",
-      "title": "JV hopes reforms will boost Senate ratings",
-      "summary": "The Senate&rsquo;s trust ratings will likely improve following reforms put in place by the new leadership, according to finance committee chairman Sen. JV Ejercito.",
-      "byline": "Marc Jayson Cayabyab",
-      "section": "",
-      "published": "2026-09-05T16:00:00.000Z",
-      "url": "https://www.philstar.com/headlines/2026/09/06/2554317/jv-hopes-reforms-will-boost-senate-ratings",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/09/05/10_2026-09-05_22-11-30.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 6, 2026 | 12:00am"
-        },
-        {
-          "type": "p",
-          "text": "Senator JV Ejercito on March 4, 2026."
-        },
-        {
-          "type": "p",
-          "text": "STAR / Ryan Baldemor"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Senate’s trust ratings will likely improve following reforms put in place by the new leadership, according to finance committee chairman Sen. JV Ejercito."
-        },
-        {
-          "type": "p",
-          "text": "The senior deputy majority leader said the reforms include transparency measures in scrutinizing the proposed P7.2-trillion national budget for 2027."
-        },
-        {
-          "type": "p",
-          "text": "Ejercito vowed to ensure that confidential funds are limited to government agencies with law enforcement and military mandate, including national security and the Office of the President."
-        },
-        {
-          "type": "p",
-          "text": "“To avoid controversies, we will not give (confidential funds) to civilian agencies,” Ejercito said."
-        },
-        {
-          "type": "p",
-          "text": "Agencies with lump sum budget items would be required to submit programs of work to ensure the funding goes to implemented projects and not lost to corruption."
-        },
-        {
-          "type": "p",
-          "text": "“We will ask for all the details so we know how the funds will be used,” Ejercito said."
-        },
-        {
-          "type": "p",
-          "text": "He hoped the Senate could redeem the public’s trust through reforms and prevent a repeat of the previous years’ budget insertions, which led to the flood control scandal."
-        },
-        {
-          "type": "p",
-          "text": "Ejercito noted that the Senate ratings dropped while the House of Representatives improved."
-        },
-        {
-          "type": "p",
-          "text": "He attributed the dip to the chaos that preceded the current leadership of Senate President Sherwin Gatchalian."
-        },
-        {
-          "type": "p",
-          "text": "“It’s the first time in history that the Senate’s trust ratings are lower than the House. But hopefully, with the reforms in place, the Senate can regain the trust of the people,” Ejercito said."
-        },
-        {
-          "type": "p",
-          "text": "He was reacting to the OCTA Research Group’s survey where the Senate’s ratings dropped to 41 percent in a survey conducted from July 4 to 11 from 44 percent in March."
-        },
-        {
-          "type": "p",
-          "text": "Twenty-seven percent said they distrust the upper chamber, up from 24 percent, while undecided respondents remained at 32 percent."
-        },
-        {
-          "type": "p",
-          "text": "The Senate’s performance ratings also dropped from 42 percent to 38 percent, with those dissatisfied with its performance increasing from 27 percent to 32 percent."
-        },
-        {
-          "type": "p",
-          "text": "Undecided respondents hardly moved, from 31 percent to 30 percent."
-        },
-        {
-          "type": "p",
-          "text": "The latest OCTA poll coincided with the start of the impeachment trial of Vice President Sara Duterte on July 6."
-        },
-        {
-          "type": "p",
-          "text": "It captured the tumultuous Senate presidency dispute between Alan Peter Cayetano and Gatchalian, the May 13 shooting incident at the Senate and Sen. Ronald Dela Rosa’s escape, and the arrest of Sens. Jinggoy Estrada and Rodante Marcoleta on non-bailable plunder charges."
-        },
-        {
-          "type": "p",
-          "text": "The House of Representatives’ trust ratings improved in the second quarter."
-        },
-        {
-          "type": "p",
-          "text": "Thirty-eight percent said they trust the House, up from 36 percent, while 28 percent said they distrust it, down from 33 percent."
-        },
-        {
-          "type": "p",
-          "text": "Undecided respondents increased from 30 percent to 33 percent."
-        },
-        {
-          "type": "p",
-          "text": "In terms of performance, 37 percent said they were satisfied with the Lower House, up from 35 percent, while 32 percent were undecided, down from 35 percent. Those who were undecided hardly moved, from 30 percent to 31 percent."
-        },
-        {
-          "type": "p",
-          "text": "OCTA’s second quarter survey had 1,200 respondents and a margin of error of plus/minus three percent. — Janvic Mateo"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-isa67y",
-      "source": "star",
-      "title": "DPWH working on detailed flood master plan",
-      "summary": "After the massive floods in Metro Manila and other provinces, the Department of Public Works and Highways is eyeing to create a science-backed flood management infrastructure plan to strengthen…",
-      "byline": "Emmanuel Tupas",
-      "section": "",
-      "published": "2026-09-05T16:00:00.000Z",
-      "url": "https://www.philstar.com/headlines/2026/09/06/2554320/dpwh-working-detailed-flood-master-plan",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/09/05/9_2026-09-05_22-14-45.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 6, 2026 | 12:00am"
-        },
-        {
-          "type": "p",
-          "text": "Residents wade through floodwaters while others use paddle boats in a village in Lingayen, Pangasinan on August 30, 2026."
-        },
-        {
-          "type": "p",
-          "text": "Cesar Ramirez / The Philippine STAR"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — After the massive floods in Metro Manila and other provinces, the Department of Public Works and Highways (DPWH) is eyeing to create a science-backed flood management infrastructure plan to strengthen long-term disaster preparedness in the country."
-        },
-        {
-          "type": "p",
-          "text": "DPWH Secretary Vince Dizon has ordered the updating of all flood management master plans in the wake of the floods brought by tropical cyclones and the enhanced southwest monsoon."
-        },
-        {
-          "type": "p",
-          "text": "He said they are laying the technical foundation for future flood control projects that are based on science."
-        },
-        {
-          "type": "p",
-          "text": "The DPWH is collaborating with the University of the Philippines-Project Nationwide Operational Assessment of Hazards (NOAH), local governments and key partner agencies in the integration of hazard mapping and scientific data before the projects are implemented."
-        },
-        {
-          "type": "p",
-          "text": "The DPWH is also working with NLEX Corp. for long-term solutions to ease the flooding at the North Luzon Expressway-San Simon Interchange in Pampanga."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, the Land Transportation Franchising and Regulatory Board (LTFRB) has directed its regional offices to coordinate with expressway managements for the timely dissemination on the status of the expressways within their respective areas of responsibility."
-        },
-        {
-          "type": "p",
-          "text": "The directive covers Metro Manila, Ilocos Region where the TPLEX is located, Central Luzon where the SCTEX and NLEX is located and CALABARZON where SLEX, STAR Toll, CALAX and MCLEX are located."
-        },
-        {
-          "type": "p",
-          "text": "Acting LTFRB Chairman Greg Pua Jr. said they also instructed all regional franchising and regulatory offices in the three regions to coordinate with the local government units in identifying alternative routes from the expressways in cases of emergency and other unexpected incidents similar to what happened at the San Simon area of NLEX."
-        },
-        {
-          "type": "p",
-          "text": "“The incident that happened in NLEX is a wake-up call for us in the LTFRB and other agencies to do our part in coming up with measures to maximize the assistance to the public,” Pua said. — Josiah Antonio"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "grd-1jwvtft",
       "source": "grd",
       "title": "US military says it struck three Iranian tankers after American warships came under missile attack",
@@ -20491,27 +20309,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-1vup52j",
-      "source": "abs",
-      "title": "Prosecution: Dropping bribery impeachment article vs Duterte not yet final",
-      "summary": "Dropping bribery from the articles of impeachment against Vice President Sara Duterte is not yet final, according to the prosecution team on Saturday.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-05T08:01:23.000Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/5/prosecution-dropping-bribery-impeachment-article-vs-duterte-not-yet-final-1601",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Dropping bribery from the articles of impeachment against Vice President Sara Duterte is not yet final, according to the prosecution team on Saturday."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "cbc-1uqzmtu",
