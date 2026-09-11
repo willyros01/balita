@@ -1,6 +1,6 @@
 {
   "version": "0.15.1",
-  "updated": "2026-09-11T20:51:52.126Z",
+  "updated": "2026-09-11T21:01:27.143Z",
   "sources": [
     {
       "id": "inq",
@@ -52,6 +52,316 @@
     }
   ],
   "articles": [
+    {
+      "id": "inqg-2ed7ta",
+      "source": "inqg",
+      "title": "Weapons, spyware and AI scams: Anthropic exposes Claude misuse",
+      "summary": "WASHINGTON, United States — Anthropic has released a 154-page report describing how bad actors used its Claude AI system for state-sponsored surveillance, propaganda operations and other activities.…",
+      "byline": "dsanchez",
+      "section": "Global Scale",
+      "published": "2026-09-11T21:01:23.182Z",
+      "url": "https://globalnation.inquirer.net/337829/weapons-spyware-and-ai-scams-anthropic-exposes-claude-misuse",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/09/AP26252642585781-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "WASHINGTON, United States — Anthropic has released a 154-page report describing how bad actors used its Claude AI system for state-sponsored surveillance, propaganda operations and other activities."
+        },
+        {
+          "type": "p",
+          "text": "Here’s a look at some of the cases, which have added to mounting worries over the risks posed by rapidly advancing artificial intelligence."
+        },
+        {
+          "type": "h",
+          "text": "Spyware in Mali"
+        },
+        {
+          "type": "p",
+          "text": "A tech consultant in Bamako, working with Mali’s junta-led state intelligence service (ANSE), used Claude Code to build “Lakana 360” — a surveillance system capable of monitoring roughly 25 million SIM cards across the country’s mobile network."
+        },
+        {
+          "type": "p",
+          "text": "The app, which Anthropic could not disable, can capture calls, texts and voice traffic, and even identify people by their voice if they switch SIM cards."
+        },
+        {
+          "type": "p",
+          "text": "It can also detect who is using encryption or a VPN."
+        },
+        {
+          "type": "h",
+          "text": "Kamikaze drones in Russia"
+        },
+        {
+          "type": "p",
+          "text": "A small team of likely freelance developers in Russia used Claude to build software intended to power autonomous “kamikaze” drones."
+        },
+        {
+          "type": "p",
+          "text": "The drone swarm was programmed to pick its own targets and crash into them to detonate, without a human making the final decision."
+        },
+        {
+          "type": "p",
+          "text": "In their programming, the team repeatedly picked a location in Ukraine’s Donetsk region as their target and used VPNs to circumvent Anthropic’s geographic blocks."
+        },
+        {
+          "type": "p",
+          "text": "The developers claimed to have received funding from Russian government and military research programs, though Anthropic assessed the group as a small freelance team rather than an official operation."
+        },
+        {
+          "type": "h",
+          "text": "Missile-making in Yemen"
+        },
+        {
+          "type": "p",
+          "text": "A group in northern Yemen used Claude Code to help build weapons."
+        },
+        {
+          "type": "p",
+          "text": "The popular coding tool helped design software for a guided rocket, drew up plans for a long-range missile, and helped develop an even faster type of missile called a hypersonic glide vehicle."
+        },
+        {
+          "type": "p",
+          "text": "To avoid getting caught, they split the work across separate conversations with the AI."
+        },
+        {
+          "type": "p",
+          "text": "Anthropic says there’s no proof they ever finished a working weapon, but the group did test-fire one rocket. It apparently failed, because they went back to the AI afterward and asked it to help determine what went wrong."
+        },
+        {
+          "type": "h",
+          "text": "Propaganda in France"
+        },
+        {
+          "type": "p",
+          "text": "Anthropic traced a fake news operation to LKM Company, a French advertising agency."
+        },
+        {
+          "type": "p",
+          "text": "Using Claude, it mass-produced political articles across about 70 fake news websites in roughly 20 languages — publishing at least 8,913 stories."
+        },
+        {
+          "type": "p",
+          "text": "Each site was given a made-up journalist’s byline and a fake Twitter/X account, boosted by hundreds of fake accounts posting comments meant to look like those of real people."
+        },
+        {
+          "type": "p",
+          "text": "The operation flipped its message depending on who was paying, selling what Anthropic called “propaganda as a service.”"
+        },
+        {
+          "type": "p",
+          "text": "It targeted the U.S., Brazil and France, and did a lot of work on the Democratic Republic of Congo, generally favoring the DRC’s side in its conflict with Rwanda."
+        },
+        {
+          "type": "h",
+          "text": "Influencing in the UAE"
+        },
+        {
+          "type": "p",
+          "text": "A UAE-linked influence operation targeted the Muslim Brotherhood and United Nations experts critical of Abu Dhabi’s alleged role in war-ravaged Sudan."
+        },
+        {
+          "type": "p",
+          "text": "The operation used Claude to generate reports, advocacy materials, social media content and testimony on Sudan."
+        },
+        {
+          "type": "p",
+          "text": "Anthropic said the operation centered on an AI persona known as “Deadshot,” guided by a command calling for “a coordinated transatlantic and regional operation to dismantle the Muslim Brotherhood globally.”"
+        },
+        {
+          "type": "p",
+          "text": "The operation also ghost-wrote official testimonies intended for delivery at the 62nd session of the UN Human Rights Council, drafting them under “specific restrictions” that the speeches should not mention the UAE."
+        },
+        {
+          "type": "h",
+          "text": "AI dates in China"
+        },
+        {
+          "type": "p",
+          "text": "A China-based app studio built a network of more than 20 dating apps that claimed to be staffed by real people but were secretly run by Claude."
+        },
+        {
+          "type": "p",
+          "text": "Over just two weeks in April 2026, Anthropic found more than 4,700 different Claude-powered AI characters chatting with at least 25,000 real users, sending about 2.36 million messages in total."
+        },
+        {
+          "type": "p",
+          "text": "To seem more believable, real human workers were mixed in with the bots — roughly one human for every three AI personas — handling things the AI couldn’t, like video calls. /das"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-mo6huo",
+      "source": "inq",
+      "title": "When weight starts running your life",
+      "summary": "Successful weight loss isn’t simply about losing more pounds. Look at what you’re gaining too: better health, greater resilience, and a body that can do more.... Keep on reading: When weight starts…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-11T21:00:00.000Z",
+      "url": "https://lifestyle.inquirer.net/581053/when-weight-starts-running-your-life/",
+      "image": {
+        "src": "https://lifestyle.inquirer.net/files/2026/09/1290354-620x424.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Successful weight loss isn’t simply about losing more pounds. Look at what you’re gaining too: better health, greater resilience, and a body that can do more.... Keep on reading: When weight starts running your life"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "HTTP 403"
+    },
+    {
+      "id": "inq-18716x5",
+      "source": "inq",
+      "title": "Weapons, spyware and AI scams: Anthropic exposes Claude misuse",
+      "summary": "WASHINGTON, United States — Anthropic has released a 154-page report describing how bad actors used its Claude AI system for state-sponsored surveillance, propaganda operations and other activities.…",
+      "byline": "Agence France-Presse, Associated Press",
+      "section": "",
+      "published": "2026-09-11T20:51:58.000Z",
+      "url": "https://globalnation.inquirer.net/337829/weapons-spyware-and-ai-scams-anthropic-exposes-claude-misuse",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/09/AP26252642585781-620x414.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "WASHINGTON, United States — Anthropic has released a 154-page report describing how bad actors used its Claude AI system for state-sponsored surveillance, propaganda operations and other activities."
+        },
+        {
+          "type": "p",
+          "text": "Here’s a look at some of the cases, which have added to mounting worries over the risks posed by rapidly advancing artificial intelligence."
+        },
+        {
+          "type": "h",
+          "text": "Spyware in Mali"
+        },
+        {
+          "type": "p",
+          "text": "A tech consultant in Bamako, working with Mali’s junta-led state intelligence service (ANSE), used Claude Code to build “Lakana 360” — a surveillance system capable of monitoring roughly 25 million SIM cards across the country’s mobile network."
+        },
+        {
+          "type": "p",
+          "text": "The app, which Anthropic could not disable, can capture calls, texts and voice traffic, and even identify people by their voice if they switch SIM cards."
+        },
+        {
+          "type": "p",
+          "text": "It can also detect who is using encryption or a VPN."
+        },
+        {
+          "type": "h",
+          "text": "Kamikaze drones in Russia"
+        },
+        {
+          "type": "p",
+          "text": "A small team of likely freelance developers in Russia used Claude to build software intended to power autonomous “kamikaze” drones."
+        },
+        {
+          "type": "p",
+          "text": "The drone swarm was programmed to pick its own targets and crash into them to detonate, without a human making the final decision."
+        },
+        {
+          "type": "p",
+          "text": "In their programming, the team repeatedly picked a location in Ukraine’s Donetsk region as their target and used VPNs to circumvent Anthropic’s geographic blocks."
+        },
+        {
+          "type": "p",
+          "text": "The developers claimed to have received funding from Russian government and military research programs, though Anthropic assessed the group as a small freelance team rather than an official operation."
+        },
+        {
+          "type": "h",
+          "text": "Missile-making in Yemen"
+        },
+        {
+          "type": "p",
+          "text": "A group in northern Yemen used Claude Code to help build weapons."
+        },
+        {
+          "type": "p",
+          "text": "The popular coding tool helped design software for a guided rocket, drew up plans for a long-range missile, and helped develop an even faster type of missile called a hypersonic glide vehicle."
+        },
+        {
+          "type": "p",
+          "text": "To avoid getting caught, they split the work across separate conversations with the AI."
+        },
+        {
+          "type": "p",
+          "text": "Anthropic says there’s no proof they ever finished a working weapon, but the group did test-fire one rocket. It apparently failed, because they went back to the AI afterward and asked it to help determine what went wrong."
+        },
+        {
+          "type": "h",
+          "text": "Propaganda in France"
+        },
+        {
+          "type": "p",
+          "text": "Anthropic traced a fake news operation to LKM Company, a French advertising agency."
+        },
+        {
+          "type": "p",
+          "text": "Using Claude, it mass-produced political articles across about 70 fake news websites in roughly 20 languages — publishing at least 8,913 stories."
+        },
+        {
+          "type": "p",
+          "text": "Each site was given a made-up journalist’s byline and a fake Twitter/X account, boosted by hundreds of fake accounts posting comments meant to look like those of real people."
+        },
+        {
+          "type": "p",
+          "text": "The operation flipped its message depending on who was paying, selling what Anthropic called “propaganda as a service.”"
+        },
+        {
+          "type": "p",
+          "text": "It targeted the U.S., Brazil and France, and did a lot of work on the Democratic Republic of Congo, generally favoring the DRC’s side in its conflict with Rwanda."
+        },
+        {
+          "type": "h",
+          "text": "Influencing in the UAE"
+        },
+        {
+          "type": "p",
+          "text": "A UAE-linked influence operation targeted the Muslim Brotherhood and United Nations experts critical of Abu Dhabi’s alleged role in war-ravaged Sudan."
+        },
+        {
+          "type": "p",
+          "text": "The operation used Claude to generate reports, advocacy materials, social media content and testimony on Sudan."
+        },
+        {
+          "type": "p",
+          "text": "Anthropic said the operation centered on an AI persona known as “Deadshot,” guided by a command calling for “a coordinated transatlantic and regional operation to dismantle the Muslim Brotherhood globally.”"
+        },
+        {
+          "type": "p",
+          "text": "The operation also ghost-wrote official testimonies intended for delivery at the 62nd session of the UN Human Rights Council, drafting them under “specific restrictions” that the speeches should not mention the UAE."
+        },
+        {
+          "type": "h",
+          "text": "AI dates in China"
+        },
+        {
+          "type": "p",
+          "text": "A China-based app studio built a network of more than 20 dating apps that claimed to be staffed by real people but were secretly run by Claude."
+        },
+        {
+          "type": "p",
+          "text": "Over just two weeks in April 2026, Anthropic found more than 4,700 different Claude-powered AI characters chatting with at least 25,000 real users, sending about 2.36 million messages in total."
+        },
+        {
+          "type": "p",
+          "text": "To seem more believable, real human workers were mixed in with the bots — roughly one human for every three AI personas — handling things the AI couldn’t, like video calls. /das"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
     {
       "id": "inqg-ara60a",
       "source": "inqg",
@@ -6130,85 +6440,6 @@
       "why": "HTTP 403"
     },
     {
-      "id": "inq-10g0ui3",
-      "source": "inq",
-      "title": "NBA: Jonathan Kuminga picked Timberwolves for genuine connection",
-      "summary": "MINNEAPOLIS— Jonathan Kuminga took to heart the hard sell from some of the most important members of the Minnesota Timberwolves to complete their starting lineup and help them chase an NBA…",
-      "byline": "Associated Press",
-      "section": "",
-      "published": "2026-09-11T14:44:50.000Z",
-      "url": "https://sports.inquirer.net/694759/nba-jonathan-kuminga-picked-timberwolves-for-genuine-connection",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/09/AP26253561993433-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Minnesota Timberwolves forward Jonathan Kuminga poses with his jersey during an NBA basketball news conference at Target Center, Thursday, Sept. 10, 2026, in Minneapolis. (AP Photo/Ellen Schmidt)"
-        },
-        {
-          "type": "p",
-          "text": "MINNEAPOLIS— Jonathan Kuminga took to heart the hard sell from some of the most important members of the Minnesota Timberwolves to complete their starting lineup and help them chase an NBA championship."
-        },
-        {
-          "type": "p",
-          "text": "The on-court fit was there, of course. The chance to join a winner was, too. But the extra efforts and meaningful connections by the Timberwolves with the 23-year-old Kuminga made his decision about where to play this season clear, even if he could’ve made more money elsewhere."
-        },
-        {
-          "type": "p",
-          "text": "From president of basketball operations Tim Connelly to basketball operations assistant Alonzo Gee visiting him in Miami, to receiving regular phone calls from star guards LaMelo Ball and Anthony Edwards, Kuminga quickly realized the strength of their interest in him."
-        },
-        {
-          "type": "p",
-          "text": "“Especially Ant, he called me every single time. He checked up on me, and he was a very, very genuine person. He didn’t have to do that,” Kuminga said on Thursday at Target Center during an introductory news conference. “That just shows how much he wants to bring me over here.”"
-        },
-        {
-          "type": "p",
-          "text": "The chats transcended basketball, too, from raising young children to going fishing."
-        },
-        {
-          "type": "p",
-          "text": "“Them wanting me to be here, it felt real, and they were very genuine people, and these are people you could sit down with and have a conversation,” Kuminga said. “I think that’s when I felt the vibe.”"
-        },
-        {
-          "type": "p",
-          "text": "After the Wolves traded Julius Randle and Naz Reid as part of the blockbuster acquisition of Ball, they were left with a gaping hole at the power forward position. They took a swing at signing LeBron James, even though they knew it was a long shot."
-        },
-        {
-          "type": "p",
-          "text": "But the opportunity to use their limited salary cap space on a two-year, $12.4 million contract for a young multi-skilled player like Kuminga was too good to miss. The solid relationship that already existed with his agent Aaron Turner helped build the foundation of a deal."
-        },
-        {
-          "type": "p",
-          "text": "“Just kind of being ourselves and telling him how we envisioned our team helping him and how we envisioned him helping our team,” Connelly said. “Just trying to be honest and as clear and transparent as possible.”"
-        },
-        {
-          "type": "p",
-          "text": "Kuminga, who was drafted by the Golden State Warriors with the seventh overall pick in 2021 that originally belonged to the Wolves, won an NBA title as a rookie. The native of the Democratic Republic of the Congo started 46 games and averaged a career-high 16.1 points per game in 2023-24."
-        },
-        {
-          "type": "p",
-          "text": "He missed much of the following season with a right ankle injury, though, and then fell out of coach Steve Kerr’s rotation in 2025-26, before being traded to the Atlanta Hawks."
-        },
-        {
-          "type": "p",
-          "text": "With a player option on his contract for the second year, Kuminga won’t have to wait long to cash in if he stays healthy and performs well. The question about how the new-look Wolves will share the ball beyond the volume-shooting backcourt has yet to be answered, with small forward Jaden McDaniels also in the mix for regular touches. Ayo Dosunmu, acquired from the Bulls at last season’s trade deadline, also brings scoring off the bench."
-        },
-        {
-          "type": "p",
-          "text": "But Edwards has led an offseason push to make the Wolves a more connected team, both off the court and on it. Kuminga’s athleticism and intensity ought to help their defense as much as their offense."
-        },
-        {
-          "type": "p",
-          "text": "“I know what it takes to win, and I think just me including myself with those guys, I think we have a chance of going far,” Kuminga said. “I think just me bringing my mentality to what they have already, I think we can do such a great job out here.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-6e5n15",
       "source": "abs",
       "title": "Palace says harsh protests won't solve Pax Silica issue",
@@ -6228,110 +6459,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-1qgl57t",
-      "source": "inq",
-      "title": "Germany beats Belgium to reach women’s Fiba World Cup semifinals",
-      "summary": "BERLIN— Buoyed by partisan home fans, host Germany upset Belgium 93-74 on Thursday to reach the women’s FIBA World Cup semifinals, where the United States will play Spain. Leonie Fiebich scored 17…",
-      "byline": "Associated Press",
-      "section": "",
-      "published": "2026-09-11T14:38:49.000Z",
-      "url": "https://sports.inquirer.net/694753/germany-beats-belgium-to-reach-womens-fiba-world-cup-semifinals",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/09/AP26253614291304-1-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "German players react during the Women’s Basketball World Cup quarterfinal match between Germany and Belgium in Berlin, Thursday, Sept. 10, 2026. (AP Photo/Ebrahim Noroozi)"
-        },
-        {
-          "type": "p",
-          "text": "BERLIN— Buoyed by partisan home fans, host Germany upset Belgium 93-74 on Thursday to reach the women’s FIBA World Cup semifinals, where the United States will play Spain."
-        },
-        {
-          "type": "p",
-          "text": "Leonie Fiebich scored 17 points and had 10 rebounds to lead Germany to a showdown with France on Saturday. Nyara Sabally also had a double-double with 16 points and 12 rebounds."
-        },
-        {
-          "type": "p",
-          "text": "“Everyone stepped up today and we did it from the first second to the very last,” said Alexandra Wilke, who contributed 10 points."
-        },
-        {
-          "type": "p",
-          "text": "Megan Gustafson scored 16 points and led Spain to an 89-66 win over injury-hit Australia in the last quarterfinal, ending the Americans’ wait to learn their next opponent. The four-time defending champions routed Hungary 108-56 in the first quarterfinal to stretch their winning streak in the tournament to 34 games."
-        },
-        {
-          "type": "p",
-          "text": "Australia was without forward Ezi Magbegor, who tore her right ACL in the win over Italy, and Alanna Smith, who re-aggravated a leg injury at the start of the tournament."
-        },
-        {
-          "type": "p",
-          "text": "“It’s really hard to compete against the best in the world when you don’t have all your best players, but I think it was a great experience for all our younger players,” Australia coach Sandy Brondello said."
-        },
-        {
-          "type": "p",
-          "text": "Brondello is married to Germany coach Olaf Lange and she said she was “really proud of my husband, which is very weird to say,” after what Lange had called the “ best day in German basketball ” as Germany progressed."
-        },
-        {
-          "type": "p",
-          "text": "“I was a little teary out there, I went and watched the end of the game,” said Brondello, who previously also coached some of the German players."
-        },
-        {
-          "type": "h",
-          "text": "Germany breaks new ground"
-        },
-        {
-          "type": "image",
-          "src": "https://sports.inquirer.net/files/2026/09/AP26253635168399-scaled.jpg",
-          "caption": "German players celebrate after the Women's Basketball World Cup quarterfinal match between Germany and Belgium in Berlin, Thursday, Sept. 10, 2026."
-        },
-        {
-          "type": "p",
-          "text": "German players celebrate after the Women’s Basketball World Cup quarterfinal match between Germany and Belgium in Berlin, Thursday, Sept. 10, 2026. (AP Photo/Ebrahim Noroozi)"
-        },
-        {
-          "type": "p",
-          "text": "Germany had never reached the semifinals before. The players screamed and whooped in celebration."
-        },
-        {
-          "type": "p",
-          "text": "“I can’t quite believe it yet,” forward Frieda Bühner said. “We’re among the best four teams in the world. I can’t believe it. It’s crazy.”"
-        },
-        {
-          "type": "p",
-          "text": "Germany had lost its opening game by 30 points to Spain, but bounced back with impressive wins over Japan and Mali before routing South Korea in a playoff to reach the quarterfinals."
-        },
-        {
-          "type": "p",
-          "text": "Egged on by fervent commentary from the announcer, fans cheered, jumped and waved Germany flags at the Berlin Arena to help the home team keep its momentum going."
-        },
-        {
-          "type": "p",
-          "text": "“It’s always really cool to play in front of such a crowd,” Sabally said. “I couldn’t have wished for more, especially in Germany. It’s really cool to see that there’s so much hype and the whole venue is caught up in it. It’s really, really cool.”"
-        },
-        {
-          "type": "p",
-          "text": "It’s the sixth straight World Cup at which the host has made the final four since China failed to make the semifinals in 2002."
-        },
-        {
-          "type": "p",
-          "text": "Belgium, the European champion, was one of three teams that advanced through group play without a loss."
-        },
-        {
-          "type": "p",
-          "text": "Emma Meesseman led Belgium with 29 points and added eight rebounds, but her team was unable to regain the lead after Bühner made it 20-19 toward the end of the first quarter."
-        },
-        {
-          "type": "p",
-          "text": "Germany did not qualify for the World Cup since the unified country’s only previous appearance as host in 1998. East Germany’s women’s basketball team finished fourth at the 1967 tournament."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "abs-1ngc6a",
@@ -22967,141 +23094,6 @@
         {
           "type": "p",
           "text": "The cause of the fire was under investigation."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "inqg-1h5duqn",
-      "source": "inqg",
-      "title": "Iran strikes ships, expands no-go zone outside Strait of Hormuz",
-      "summary": "TEHRAN &#8212; Iran said it attacked more than a dozen vessels trying to pass through the Strait of Hormuz on Wednesday, as it announced an expansion of a no-go zone outside the strategic waterway it…",
-      "byline": "dlejano",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-09-10T02:00:53.341Z",
-      "url": "https://globalnation.inquirer.net/337580/iran-strikes-ships-expands-no-go-zone-outside-strait-of-hormuz",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/09/Iran-strikes-ships-expands-no-go-zone-outside-Strait-of-Hormuz-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TEHRAN — Iran said it attacked more than a dozen vessels trying to pass through the Strait of Hormuz on Wednesday, as it announced an expansion of a no-go zone outside the strategic waterway it has blockaded for months."
-        },
-        {
-          "type": "p",
-          "text": "The fresh attacks and fighting with the United States sent oil prices above $100 per barrel again as Tehran chokes off the strait and Washington presses a counter-blockade of Iranian ports. Brent oil closed at $101.21."
-        },
-        {
-          "type": "p",
-          "text": "Iran’s Revolutionary Guards said on Wednesday they attacked two US vessels, eight oil tankers, and 10 “non-compliant vessels” that were trying to pass through the route crucial for oil and gas trade, Iranian state media reported."
-        },
-        {
-          "type": "p",
-          "text": "The United Kingdom Maritime Trade Operations (UKMTO) said “several” vessels in the Gulf of Oman and the Gulf were “subject to disabling fire as part of ongoing military activity in the region”."
-        },
-        {
-          "type": "p",
-          "text": "The Gulf of Oman lies on the Indian Ocean side of the narrow Hormuz strait, a vital energy conduit that normally carries around a fifth of the world’s oil and liquefied natural gas."
-        },
-        {
-          "type": "p",
-          "text": "Iran’s Guards also for the first time added parts of the Gulf of Oman and the Arabian Sea to a new “prohibited zone” on Wednesday, saying exact coordinates will be announced later."
-        },
-        {
-          "type": "p",
-          "text": "“If a vessel enters that area without coordination, it will be subject to our sanctions,” Guards spokesman Hossein Mohebi told state television."
-        },
-        {
-          "type": "p",
-          "text": "The Guards also said they struck a US military base in Jordan in response to US forces destroying five Iranian oil tankers a day earlier."
-        },
-        {
-          "type": "p",
-          "text": "Jordan’s army shot down 18 missiles fired at the kingdom, it said."
-        },
-        {
-          "type": "p",
-          "text": "Iran’s foreign ministry condemned the attack on its oil tankers as “an overt threat to regional and international peace and security,” saying the strikes “increase the dangers of tensions in the region”."
-        },
-        {
-          "type": "p",
-          "text": "It said the targeting of US military facilities in the region was “self-defence”."
-        },
-        {
-          "type": "p",
-          "text": "The US military for its part had said it was responding to an Iranian attack targeting an American warship, the second such incident in less than a week."
-        },
-        {
-          "type": "h",
-          "text": "Long war?"
-        },
-        {
-          "type": "p",
-          "text": "Iran’s Guards, the ideological arm of the military, said the war could be brought to an end if Washington met its conditions, which included demands on the wars in Lebanon and Yemen."
-        },
-        {
-          "type": "p",
-          "text": "“It must… refrain from renewed threats, withdraw the Israeli regime’s army from Lebanon, end the blockade of Yemen, release $24 billion in Iran’s frozen assets and refrain from any interference in the country’s nuclear and missile capabilities,” Mohebi said, according to Fars news agency."
-        },
-        {
-          "type": "p",
-          "text": "Donald Trump, an unpopular president eager to end an unpopular war, asserted Wednesday the conflict will conclude right after the mid-term US elections in November. Polls show his Republican Party could face a drubbing and lose control of one or both houses of Congress."
-        },
-        {
-          "type": "p",
-          "text": "“I think the war will end immediately after the election” because Iran “can’t hold out any longer,” Trump told journalists, accusing Tehran of being “desperate to try and affect” the vote."
-        },
-        {
-          "type": "p",
-          "text": "However, the Wall Street Journal quoted US officials saying that Trump’s top advisers are privately warning that the war could drag on through the remaining two years of his term."
-        },
-        {
-          "type": "h",
-          "text": "Nuclear referral"
-        },
-        {
-          "type": "p",
-          "text": "As Washington tries to choke off Iran economically, the International Atomic Energy Agency (IAEA) board of governors on Wednesday voted to refer Iran to the UN Security Council over its nuclear “non-compliance”, in a diplomatic move that piles pressure on Tehran."
-        },
-        {
-          "type": "p",
-          "text": "The resolution seen by AFP was adopted by a 23-3 vote with eight abstentions, they said. Russia, China and Niger voted against it."
-        },
-        {
-          "type": "p",
-          "text": "Iran’s representative to the UN nuclear watchdog said the resolution was passed under US pressure, saying it “has no basis and will not bring any results”."
-        },
-        {
-          "type": "p",
-          "text": "Israeli Prime Minister Benjamin Netanyahu repeated his claim Iran was about to collapse."
-        },
-        {
-          "type": "p",
-          "text": "“The main task is to bring down the terror regime in Iran. We are very close to that,” he said Wednesday on a troop visit in southern Syria, where Israel has occupied what it calls a “security zone”."
-        },
-        {
-          "type": "h",
-          "text": "Tanker strikes"
-        },
-        {
-          "type": "p",
-          "text": "The latest round of US-Iran fighting was triggered after American forces destroyed five Iranian oil tankers Tuesday, with the US military saying it “directed the crews to abandon ship” before hitting the vessels."
-        },
-        {
-          "type": "p",
-          "text": "“Iran continues to try to hit US naval ships, and for every time they do that or try to do that, they’re going to lose tankers, and I think you’ll see that again today,” US Secretary of State Marco Rubio told reporters Tuesday on a visit to Colombia."
-        },
-        {
-          "type": "p",
-          "text": "Iran has asserted control of the Strait of Hormuz since US-Israeli strikes began the war in February, with traffic through the waterway virtually paralysed."
-        },
-        {
-          "type": "p",
-          "text": "Tehran requires vessels to obtain permission and pay transit fees before using the strait. /dl"
         }
       ],
       "truncated": false,
