@@ -1,6 +1,6 @@
 {
   "version": "0.15.1",
-  "updated": "2026-09-11T23:01:03.038Z",
+  "updated": "2026-09-11T23:09:59.976Z",
   "sources": [
     {
       "id": "inq",
@@ -52,6 +52,77 @@
     }
   ],
   "articles": [
+    {
+      "id": "grd-1rfj41c",
+      "source": "grd",
+      "title": "Military aircraft reportedly blamed for UK air traffic control outage",
+      "summary": "<p>Meltdown that grounded thousands of flights caused by ‘spurious’ flight data being entered into system, report says</p><p>The air traffic control outage that caused thousands of flights to be…",
+      "byline": "Guardian Staff",
+      "section": "Air transport",
+      "published": "2026-09-11T23:04:27.000Z",
+      "url": "https://www.theguardian.com/world/2026/sep/12/military-aircraft-reportedly-blamed-for-uk-air-traffic-control-outage",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/892fd7e4ecd0577b1cbbeeadcb3bc5d32a9a1c15/553_360_3142_2513/master/3142.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=8efb889a8ba56829d5db99866f9b0505",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The air traffic control outage that caused thousands of flights to be grounded across the UK earlier in the week was caused by a military aircraft entering “spurious” flight data into the system, according to a report."
+        },
+        {
+          "type": "p",
+          "text": "Hundreds of thousands of passengers were affected after more than 2,000 flights were cancelled on Tuesday when the system used by the National Air Traffic Services (Nats) shut down for four hours."
+        },
+        {
+          "type": "p",
+          "text": "According to the Financial Times, four people briefed on the incident claimed that the shutdown was caused by a flight plan submitted by a UK military aircraft, which caused a meltdown in air traffic control systems used by Nats which remained unfixed for several hours."
+        },
+        {
+          "type": "p",
+          "text": "The paper also reported that Nats operations officer Kathryn Leahy called the operations managers of numerous airports and airlines, and “tensions boiled over” after Leahy informed them their flight processing system did not have a dedicated backup due to Nats being in the midst of a “complete overhaul of its systems” and because the amount of data it keeps meant duplicating it would cost “vast amounts”."
+        },
+        {
+          "type": "p",
+          "text": "The crisis has put pressure on Martin Rolfe, the chief executive of Nats, who was summoned to a meeting by transport secretary Heidi Alexander on Wednesday. Alexander, who said she did “not believe the issue was unavoidable”, was understood to have given Rolfe a week to report on the causes of the shutdown, while also commissioning an independent review by the Civil Aviation Authority (CAA) into the incident."
+        },
+        {
+          "type": "p",
+          "text": "The incident is the most serious to affect British commercial airspace since August 2023, when a technical issue led to almost 1,600 flights being delayed. Nats came under fire after that outage, with the CAA setting out 34 recommendations to improve its systems to avoid similar incidents, all of which were said to have been fully implemented."
+        },
+        {
+          "type": "p",
+          "text": "Rolfe ruled out a cyber-attack, which was initially suspected, saying he “believes we’ve never seen an incident happen more than once, so this will be something different that we’ve never seen in 50 years of operation”."
+        },
+        {
+          "type": "p",
+          "text": "Numerous airlines have already called for Rolfe to resign or be fired over the outage. Ryanair’s chief executive, Michael O’Leary, accused Rolfe of “telling lies to save his own skin” and said his position was “untenable”."
+        },
+        {
+          "type": "p",
+          "text": "O’Leary added: “We don’t need more investigations, we don’t need more reports and we don’t need another parliamentary committee hearing where Martin Rolfe will promise change, will promise resilience and will promise an effective backup system.”"
+        },
+        {
+          "type": "p",
+          "text": "The delays led to some aeroplanes full of passengers were stuck waiting for information for more than four hours, while flights due to arrive in the UK were diverted to different airports, with some forced to land in Germany."
+        },
+        {
+          "type": "p",
+          "text": "Despite the far-reaching effect of the outage, it was understood that passengers impacted were unlikely to be able to claim compensation, as delays were due to “extraordinary circumstances”."
+        },
+        {
+          "type": "p",
+          "text": "The Ministry of Defence has said there was no wrongdoing on the part of the military."
+        },
+        {
+          "type": "p",
+          "text": "A spokesperson from the ministry said: “We do not believe there’s any indication of an error on the part of the military. This is subject to the live Nats investigation, so it’d be inappropriate for us to comment further while that’s ongoing.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
     {
       "id": "inqg-f5huxp",
       "source": "inqg",
@@ -287,6 +358,30 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-8bvdu4",
+      "source": "inq",
+      "title": "Christopher de Leon and the film that started it all",
+      "summary": "After 52 years, Christopher de Leon watches “Tinimbang Ka Ngunit Kulang” anew and rediscovers his youth.... Keep on reading: Christopher de Leon and the film that started it all",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-11T23:00:00.000Z",
+      "url": "https://lifestyle.inquirer.net/581059/christopher-de-leon-tinimbang-ka-ngunit-kulang/",
+      "image": {
+        "src": "https://lifestyle.inquirer.net/files/2026/09/5-Christopher-de-Leon-as-Junior-620x465.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "After 52 years, Christopher de Leon watches “Tinimbang Ka Ngunit Kulang” anew and rediscovers his youth.... Keep on reading: Christopher de Leon and the film that started it all"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "HTTP 403"
     },
     {
       "id": "abs-r41m5n",
@@ -2854,81 +2949,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-68euga",
-      "source": "inq",
-      "title": "Gilas faces must-win games to make it out of group play at Asian Games",
-      "summary": "Gilas Pilipinas’ rough loss to Bahrain cast more doubt on its chances of retaining the gold medal in men’s basketball as the country’s campaign in the Aichi-Nagoya Asian Games officially got going on…",
-      "byline": "INQUIRER.net",
-      "section": "",
-      "published": "2026-09-11T21:25:43.000Z",
-      "url": "https://sports.inquirer.net/694736/gilas-faces-must-win-games-to-make-it-out-of-group-play-at-asian-games",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/09/2026-09-11_Asian-Games-mens-basketball-PHI-BRN-copy-620x775.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Gilas Pilipinas’ rough loss to Bahrain cast more doubt on its chances of retaining the gold medal in men’s basketball as the country’s campaign in the Aichi-Nagoya Asian Games officially got going on Friday."
-        },
-        {
-          "type": "p",
-          "text": "Coach Tim Cone refused to sugarcoat much of the 89-85 loss, a scoreline that wasn’t reflective of the difficulty Gilas endured for most of the contest."
-        },
-        {
-          "type": "p",
-          "text": "“We expected more from ourselves, [especially having a lot of] basketball-crazy fans,” Cone said. “So we’re disappointed.”"
-        },
-        {
-          "type": "p",
-          "text": "A decisive stretch during the waning moments of the second quarter all the way to the third spelled doom for Gilas, as it was left helpless with Bahrain’s combination of size advantage and outside conversions, all the while with the Filipinos struggling to make shots reminiscent of their two blowout defeats in an exhibition series with South Korea."
-        },
-        {
-          "type": "p",
-          "text": "Calvin Oftana was one of the few, if not the lone bright spot, for Gilas, making good on Cone’s belief as a “plug-and-play guy” being a part of his system for the long term."
-        },
-        {
-          "type": "p",
-          "text": "Oftana showed no signs of rust or injury concerns, having missed the last three months with hamstring and toe injuries, firing 31 points on 11-of-19 shooting in undoubtedly his best performance in a Gilas uniform."
-        },
-        {
-          "type": "p",
-          "text": "But Oftana’s big game went for naught, as the rest of the team struggled to find its rhythm to end up shooting at a cold 38-percent clip."
-        },
-        {
-          "type": "p",
-          "text": "Defensive match-up problems were also evident, with three of Bahrain’s four naturalized players in ex-NBA player JaKarr Sampson, big-bodied Elijah Thomas and even Uros Ilic proving too much to handle."
-        },
-        {
-          "type": "p",
-          "text": "“We had a hard time with their size,” said Cone. “Even though we won the rebounds (51-35), we had a hard time defending their size. [They] forced us to collapse down on their bigs because we are undersized.”"
-        },
-        {
-          "type": "p",
-          "text": "“And that either allowed them to score inside or allowed them to kick out for three-point shots and we couldn’t cover both,” added Cone."
-        },
-        {
-          "type": "p",
-          "text": "And now Gilas has no course but to play with a sense of urgency on Saturday against Kazakhstan, as another loss will likely end all chances of even advancing to the quarterfinals as a top two finisher in Group C or as two of the best three third-place finishers."
-        },
-        {
-          "type": "p",
-          "text": "Cone said he and the rest of the team can’t dwell on the narrow loss longer."
-        },
-        {
-          "type": "p",
-          "text": "“At some point, you can be disappointed only long enough,” said Cone. “And then, you got to move on.”"
-        },
-        {
-          "type": "p",
-          "text": "“This is the first game of the tournament, so we got to move on,” he said. “But we feel like we know that we can be better than we did today. And I think we will.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "grd-1ke3kkj",
       "source": "grd",
       "title": "North Carolina state trooper charged with murder of police captain",
@@ -4689,105 +4709,6 @@
         {
           "type": "p",
           "text": "The Swedish migration authorities and police have been approached for comment on the detention of Charles."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-5zw02f",
-      "source": "grd",
-      "title": "‘World’s most profitable football business’: Abramovich’s frozen Chelsea cash earns £175m",
-      "summary": "<p>Proceeds are in a UK account amid a dispute about how the money should be used and a separate criminal investigation</p><p>Funds from Roman Abramovich’s sale of Chelsea FC have earned at least…",
-      "byline": "Rob Davies",
-      "section": "Roman Abramovich",
-      "published": "2026-09-11T17:22:17.000Z",
-      "url": "https://www.theguardian.com/world/2026/sep/11/roman-abramovich-frozen-chelsea-sale-proceeds-earnings",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/001bc01270d3ebd5a30a09c6ef3022a6ed878b66/0_0_1959_1567/master/1959.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=53655f0fc435469f8b83ba422345684d",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Funds from Roman Abramovich’s sale of Chelsea FC have earned at least £175m in interest while locked in a UK bank account, new accounts show, leading one analyst to describe the company housing the frozen cash as “the most profitable football business in the world”."
-        },
-        {
-          "type": "p",
-          "text": "Accounts for Fordstam, the company through which the billionaire Russian oligarch owned Chelsea, show that the proceeds of the sale have risen from £2.3bn to nearly £2.5bn."
-        },
-        {
-          "type": "p",
-          "text": "Abramovich, who was hit with UK sanctions in 2022 over his ties to Vladimir Putin, has previously pledged to donate the money to victims of the war in Ukraine. However, the funds have yet to be released, amid an ongoing legal dispute with the British government about how the money should be used."
-        },
-        {
-          "type": "p",
-          "text": "The picture is further complicated by a separate criminal investigation by the Jersey authorities into the original source of the oil tycoon’s wealth."
-        },
-        {
-          "type": "p",
-          "text": "There is also uncertainty about whether £1.4bn in loans – part of a vast network of offshore companies that the oligarch used to fund Chelsea’s success – will be deducted from the final sum available for donation."
-        },
-        {
-          "type": "p",
-          "text": "In the meantime, the money, an initial £2.35bn, has been accruing interest rapidly, earning £114m in 2024 and nearly £63m the year before that. The total is likely to have risen significantly because another two years have elapsed since June 2024, the latest date covered by the accounts."
-        },
-        {
-          "type": "p",
-          "text": "Stefan Borson, a football finance expert who is head of sport at the law firm McCarthy Denning, said: “With the interest received, this now appears to be the most profitable football-related business in the world,” a tongue-in-cheek reference to the lack of profitability among high-spending football clubs."
-        },
-        {
-          "type": "p",
-          "text": "“It sheds no further insight as to what progress (or otherwise) has been made in distributing the proceeds of the sale.”"
-        },
-        {
-          "type": "p",
-          "text": "The £2.5bn proceeds remain frozen in a Barclays bank account owing to a dispute with the UK government, which pledged to take legal action after Abramovich missed a March 2026 deadline to free up the funds."
-        },
-        {
-          "type": "p",
-          "text": "The government wants the money to be earmarked for Ukraine but, according to reports, Abramovich is prepared to defy ministers by giving it to a foundation with a more global outlook."
-        },
-        {
-          "type": "p",
-          "text": "A government spokesperson said: “We have been clear from the start that the proceeds of the sale of Chelsea FC must be used for humanitarian causes in Ukraine. Roman Abramovich has yet to fulfil the commitment made at the time of the sale. The government is taking further steps to ensure that promise is kept, including continuing preparations for potential legal action if necessary."
-        },
-        {
-          "type": "p",
-          "text": "“Our absolute priority remains ensuring the funds reach the most vulnerable in Ukraine who have endured over four years of relentless suffering.”"
-        },
-        {
-          "type": "p",
-          "text": "It is also unclear whether the donation will be reduced by any demand from Abramovich that Fordstam repays £1.4bn in loans extended by his Camberley International Investment vehicle, based in Jersey."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "“It’s always been vague as to whether Abramovich was going to donate the whole sale proceeds to the Ukraine relief fund or just the profits,” said a football finance expert, Kieran Maguire."
-        },
-        {
-          "type": "p",
-          "text": "“The sum due to his offshore company is still in the accounts which suggests the latter.”"
-        },
-        {
-          "type": "p",
-          "text": "The future of the loan is further complicated by two factors."
-        },
-        {
-          "type": "p",
-          "text": "As long as Abramovich is under sanctions, the money cannot legally be repaid to him without a licence from the Office for Financial Sanctions Implementation (OFSI), part of the Treasury."
-        },
-        {
-          "type": "p",
-          "text": "At the same time, prosecutors in Jersey are investigating whether the proceeds of the Chelsea sale amount to the proceeds of crime, as part of a corruption and money-laundering investigation. The inquiry is looking at the source of much of Abramovich’s wealth, including the sale of his oil and gas company Sibneft, which the Russian government acquired for $13bn in 2005."
-        },
-        {
-          "type": "p",
-          "text": "The Guardian approached lawyers for Roman Abramovich for comment."
         }
       ],
       "truncated": false,
