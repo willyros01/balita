@@ -1,6 +1,6 @@
 {
   "version": "0.15.1",
-  "updated": "2026-09-12T05:31:03.162Z",
+  "updated": "2026-09-12T06:00:59.928Z",
   "sources": [
     {
       "id": "inq",
@@ -53,6 +53,619 @@
   ],
   "articles": [
     {
+      "id": "rap-zgj22i",
+      "source": "rap",
+      "title": "Q&#038;A: Could AI really kill off humanity within the decade?",
+      "summary": "Amid looming IPOs, professor Kate Devlin says, 'Let’s remember that [these AI companies] are constantly looking for investment and, in return, they promise the most powerful and dominant models. What…",
+      "byline": "The Conversation",
+      "section": "Tech Features",
+      "published": "2026-09-12T06:00:00.000Z",
+      "url": "https://www.rappler.com/technology/features/interview-could-ai-really-kill-off-humanity-within-decade/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2026/07/anthropic-graphics-june-5-2026-reuters.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ANTHROPIC. The Anthropic logo, a keyboard, and a robotic hand are shown in this illustration created on June 5, 2026."
+        },
+        {
+          "type": "p",
+          "text": "Dado Ruvic/Reuters"
+        },
+        {
+          "type": "p",
+          "text": "Amid looming IPOs, professor Kate Devlin says, 'Let’s remember that [these AI companies] are constantly looking for investment and, in return, they promise the most powerful and dominant models. What could be more powerful than a model that threatens our very existence?'"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Researchers from Anthropic warn that AI could pose a significant threat to humanity within the decade, with one employee resigning over these concerns.",
+            "The discourse around AI's potential dangers is fueled by a mix of genuine belief and the companies' desire to attract investment, despite ongoing debates about the need for regulation.",
+            "While superintelligent AI is not currently a reality, there are existing risks associated with AI, including environmental impacts and misuse by bad actors."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "Artificial intelligence (AI) could wipe out humanity this decade, according to three researchers from the US company Anthropic. One of the employees, Jacob Coxon, has quit the AI firm."
+        },
+        {
+          "type": "p",
+          "text": "His predictions were backed by two other current Anthropic researchers in posts on social media. On X, Coxon claimed: “The people building AI earnestly believe that it could kill us all by the end of the decade. This is not a marketing stunt.”"
+        },
+        {
+          "type": "p",
+          "text": "It’s not the first time AI researchers and companies have issued such assessments. Here, Kate Devlin, professor of artificial intelligence & society, explains what is behind them and whether there’s anything different about the latest warning."
+        },
+        {
+          "type": "p",
+          "text": "The latest claims about AI have come from a researcher who resigned from Anthropic. What is your general view on what has happened here?"
+        },
+        {
+          "type": "p",
+          "text": "To give this a sense of perspective, we should remember that it’s one AI company ex-employee posting on a platform known for grandiose claims, which was then quoted by a current AI company employee who put a figure on the risk of human extinction at greater than 10%."
+        },
+        {
+          "type": "p",
+          "text": "So, it’s another doom-laden narrative about the supposed threat from AI. There is some dialling back from this in a follow up tweet from current Anthropic employee Evan Hubinger that read: “I think the risk from present models is low. What I’m worried about is superintelligence”."
+        },
+        {
+          "type": "p",
+          "text": "These tweets have gained huge coverage because these kinds of things always do. It taps into our very primal fears — and our decades of watching dystopian sci-fi."
+        },
+        {
+          "type": "p",
+          "text": "The claims from Jacob Coxon were backed by current employees of Anthropic. Why do you think AI companies are happy to support these kinds of claims in public?"
+        },
+        {
+          "type": "p",
+          "text": "It’s likely that these men believe what they’re saying, but we’ve heard warnings like this for years. It does seem odd that AI companies are okay with these kinds of claims."
+        },
+        {
+          "type": "p",
+          "text": "Let’s remember that they are constantly looking for investment and, in return, they promise the most powerful and dominant models. What could be more powerful than a model that threatens our very existence?"
+        },
+        {
+          "type": "p",
+          "text": "One theory for doom-mongering by AI companies is that they want to avoid regulation. Do you think outside regulation of AI companies is inevitable?"
+        },
+        {
+          "type": "p",
+          "text": "It has been incredibly difficult to regulate AI, certainly at an international level. There has been little appetite for AI to be regulated in the US because there’s a view that regulation might stifle innovation."
+        },
+        {
+          "type": "p",
+          "text": "The UK doesn’t have any AI-specific laws either, just existing laws that might apply in some cases. China began to introduce national-level laws but has now replaced that with technical standards and sector regulation. The EU remains the only place where there is dedicated AI regulation."
+        },
+        {
+          "type": "p",
+          "text": "However, it looks like this has kicked off yet another call for better regulation, and we’re seeing that at present in US Congress and in the Houses of Parliament in the UK."
+        },
+        {
+          "type": "p",
+          "text": "There is another angle, in that industry might be on board with regulation, as big tech companies would have the money to comply, but it could knock out their competitors with smaller budgets, so it would leave the leaders in dominant positions."
+        },
+        {
+          "type": "p",
+          "text": "How far away are we from the kind of superintelligent AI mentioned in the latest warnings?"
+        },
+        {
+          "type": "p",
+          "text": "We don’t have superintelligence. I’m reluctant to put a time frame on that. Often people say “5-10 years” but that’s happened a lot in AI and 5-10 years pass without anything arising. It also depends on what is meant by superintelligence. Something that is conscious and thinks for itself? That might never happen."
+        },
+        {
+          "type": "p",
+          "text": "In this case, it doesn’t really matter, as there are other harms already happening from AI, and there are other ways things can go wrong, though probably not at the existential level that’s being suggested here."
+        },
+        {
+          "type": "p",
+          "text": "For example, AI is energy-hungry. It needs water to cool data centers. It has a damaging environmental impact. There are also issues around the content generated by AI, anything from a lack of plurality in the models’ outputs (meaning that the information it returns is homogenized, converging on particular viewpoints) to the spread of misinformation and disinformation."
+        },
+        {
+          "type": "p",
+          "text": "We also know there is hidden labour in the AI supply chain: there are people working in terrible conditions to deliver the technology. And we know that it’s having an impact on people’s lives in terms of how it’s changing the workplace."
+        },
+        {
+          "type": "p",
+          "text": "What are the potential practical ways in which AI could actually wipe out humans?"
+        },
+        {
+          "type": "p",
+          "text": "“Wiping out” is a bit extreme but there are some dangerous threats. There are the “bad actor” scenarios where AI is used destructively, like creating weapons or deadly viruses."
+        },
+        {
+          "type": "p",
+          "text": "More mundane, but potentially very destructive, are AI agents let loose due to human carelessness or incompetence, hacking or taking control of insecure systems."
+        },
+        {
+          "type": "p",
+          "text": "A survey we recently ran at King’s College London found that the UK public are feeling increasingly negative about AI, and that 42% of people are deliberately limiting their AI use. With claims from tech companies that it poses a direct threat to our existence, it will be unsurprising if public opinion dips even further. – Rappler.com"
+        },
+        {
+          "type": "p",
+          "text": "This story originally appeared on The Conversation."
+        },
+        {
+          "type": "p",
+          "text": "Kate Devlin, Professor of Artificial Intelligence & Society, Department of Digital Humanities, King’s College London"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-mxmkis",
+      "source": "inq",
+      "title": "Church bells toll in Basilan for peaceful BARMM elections",
+      "summary": "LAMITAN CITY, Basilan &#8212; As the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) prepares for its historic first parliamentary elections on Monday, Sept. 14, the Catholic Church is…",
+      "byline": "jbarrion",
+      "section": "",
+      "published": "2026-09-12T05:58:49.000Z",
+      "url": "https://www.inquirer.net/488433/church-bells-toll-in-basilan-for-peaceful-barmm-elections/",
+      "image": {
+        "src": "https://www.inquirer.net/wp-content/uploads/2026/09/Church-bells-toll-in-Basilan-for-eeks-peaceful-BARMM-620x413.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LAMITAN CITY, Basilan — As the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) prepares for its historic first parliamentary elections on Monday, Sept. 14, the Catholic Church is mobilizing its faithful to pray for peace and order across the region."
+        },
+        {
+          "type": "p",
+          "text": "In Circular Letter No. 007, Series of 2026, issued Saturday, Isabela de Basilan Bishop Leo Dalmao called on all Catholic parishes and quasi-parishes to hold a simultaneous prayer, tolling of church bells, and candle lighting at 6:00 p.m. on Sunday, September 13, on the eve of the landmark vote."
+        },
+        {
+          "type": "p",
+          "text": "The directive highlights the religious community’s active role in pushing for a credible, peaceful, honest, and orderly electoral exercise as the autonomous region transitions from an interim government to its first elected parliament."
+        },
+        {
+          "type": "p",
+          "text": "Although Isabela City is politically independent and not part of the BARMM territory, Dalmao asked local Catholic churches to join the initiative in solidarity with the people of Basilan province and the entire Bangsamoro region."
+        },
+        {
+          "type": "p",
+          "text": "The prelate asked the faithful to pray for the safety of voters, election workers, security forces, candidates, and local communities, urging divine guidance toward genuine peace, justice, and the common good during the critical democratic transition."
+        },
+        {
+          "type": "p",
+          "text": "Under the directive, parish priests and administrators are instructed to read the circular during all weekend Masses on Sept. 12 and 13 to urge maximum participation from the community. INQ"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1wgmmwc",
+      "source": "abs",
+      "title": "Lav Diaz film ‘Makikiraan Po’ wins at Venice International Film Festival",
+      "summary": "Lav Diaz achieves another feat with his film 'Makikiraan Po (Let Us Through, Dear Ancestors).'",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-12T05:56:28.000Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/movies-series/2026/9/12/award-winning-director-lav-diaz-film-makikiraan-po-wins-at-venice-international-film-festival-1356",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Lav Diaz achieves another feat with his film 'Makikiraan Po (Let Us Through, Dear Ancestors).'"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-sxa22z",
+      "source": "abs",
+      "title": "Coast Guard probes possible lapses in MV June Aster fire",
+      "summary": "The Philippine Coast Guard is investigating possible lapses in the actions of the captain and crew of the MV June Aster, as the death toll from the vessel fire off Coron, Palawan rose to 35.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-12T05:52:01.000Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/9/12/coast-guard-probes-possible-lapses-in-mv-june-aster-fire-1352",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Philippine Coast Guard is investigating possible lapses in the actions of the captain and crew of the MV June Aster, as the death toll from the vessel fire off Coron, Palawan rose to 35."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "gma-1e2ct0q",
+      "source": "gma",
+      "title": "Prosecution panel challenges Sara Duterte to show up in impeachment trial",
+      "summary": "After Vice President Sara Duterte called the impeachment complaints lodged against her baseless, House impeachment prosecutor and Bicol Saro Party-list Rep. Terry Ridon challenged her to show up at…",
+      "byline": "JEAN MANGALUZ, GMA News",
+      "section": "",
+      "published": "2026-09-12T05:51:56.000Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1002131/prosecution-panel-challenges-sara-duterte-to-show-up-in-impeachment-trial/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/09/ridon_2026_09_12_13_33_35.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published September 12, 2026 1:51pm"
+        },
+        {
+          "type": "p",
+          "text": "After Vice President Sara Duterte called the impeachment complaints lodged against her baseless, House impeachment prosecutor and Bicol Saro Party-list Representative Terry Ridon on Saturday challenged her to show up at her own trial."
+        },
+        {
+          "type": "p",
+          "text": "Duterte went on a tirade on Friday after arriving for her arraignment at the Quezon City Hall of Justice for her grave threats case, and slammed the impeachment proceedings against her, saying that there was no real evidence."
+        },
+        {
+          "type": "p",
+          "text": "Ridon thumbed down Duterte’s accusations. The reason that there was a trial in the first place is because there is enough basis, he said."
+        },
+        {
+          "type": "p",
+          "text": "“Hindi po totoo na walang ebidensiya nape-presenta (It is not true that there is no evidence presented),” Ridon said at the Saturday News Forum."
+        },
+        {
+          "type": "p",
+          "text": "“Nakakatuwa po ito para sa isang mataas na nahalal na official, na nagsasabi po na wala siyang tiwala sa mga korte ng Pilipinas. Kaya bilang panghuling salita, this is a challenge to the Vice President, magpakita po kayo sa Lunes. Magsisimula na po ang paglahad ng hindi mapaliwanag na yaman ng inyo pong pamilya,” he said."
+        },
+        {
+          "type": "p",
+          "text": "(It is funny for a high-ranking, elected official to say that she does not trust a court of the Philippines. So as a last word, this is a challenge to the Vice President, show up on Monday. We will lay out your family’s unexplained wealth.)"
+        },
+        {
+          "type": "p",
+          "text": "If she could show up for her grave threats case at the Quezon CIty Regional Trial Court, Duterte could show up at the impeachment trial, Ridon said."
+        },
+        {
+          "type": "p",
+          "text": "GMA News Online contacted Duterte's spokesperson Atty. Salvador Paolo Panelo Jr. for comment, but he has yet to issue a statement as of posting time."
+        },
+        {
+          "type": "p",
+          "text": "On Monday, the prosecution will present the evidence on Duterte’s alleged unexplained wealth."
+        },
+        {
+          "type": "p",
+          "text": "They will present retired Sandiganbayan Presiding Justice Amparo Cabotaje-Tang, Ombudsman Records Division Officer-in-Charge Atty. Karen Batu and Securities and Exchange Commission Company Registration and Monitoring Department Director Atty. Gerardo del Rosario as witnesses."
+        },
+        {
+          "type": "p",
+          "text": "The prosecution has previously forfeited presenting 15 other witnesses, wanting Duterte herself to take up the witness stand. —KG, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "dw-pw6f3f",
+      "source": "dw",
+      "title": "In an exclusive interview with DW, Zelenskyy says he would be open to meeting with Putin at the G20 summit in Miami",
+      "summary": "In an interview with DW, Ukrainian President Volodymyr Zelenskyy said Ukraine was in a strong position to negotiate and offered to meet Vladimir Putin in Miami.",
+      "byline": "Misha Komadovsky, Roshni Majumdar, Timothy Jones",
+      "section": "",
+      "published": "2026-09-12T05:46:00.000Z",
+      "url": "https://www.dw.com/en/in-an-exclusive-interview-with-dw-zelenskyy-says-he-would-be-open-to-meeting-with-putin-at-the-g20-summit-in-miami/a-79241703?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79241763_6.jpg",
+        "caption": "DW's Misha Komadovsky interviewed Ukrainian President Volodymyr Zelenskyy on September 11 at Canadian Forces Base North BayImage: Misha Komadovsky/DW"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ukrainian President Volodymyr Zelenskyy has said he would travel to Miami if his Russian counterpart, Vladimir Putin, attended the Group of 20 (G20) leaders' summit scheduled for December."
+        },
+        {
+          "type": "p",
+          "text": "Zelenskyy replied enthusiastically when DW's correspondent Misha Komadovsky posed the question on Friday."
+        },
+        {
+          "type": "p",
+          "text": "\"Yes, of course. We have to come. We have to meet, to speak and make decisions,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "Zelenskyy added that what he was going to say to Putin mattered less than results."
+        },
+        {
+          "type": "p",
+          "text": "\"It's not about words. What I will tell him or what he wants to tell me, it doesn’t matter. It doesn’t matter. [...] Results matter. That's it.\""
+        },
+        {
+          "type": "p",
+          "text": "Zelenskyy and Putin have not met in person since Russia launched its full-scale invasion of its smaller neighbor in February 2022."
+        },
+        {
+          "type": "p",
+          "text": "The Kremlin has so far declined to say whether Putin would go to Miami for the meeting."
+        },
+        {
+          "type": "p",
+          "text": "The Russian leader has not personally attended a G20 summit since 2019."
+        },
+        {
+          "type": "p",
+          "text": "Last month, Russia's Finance Minister Anton Siluanov was however invited by the US to attend a meeting of G20 countries in North Carolina in a move that upset European officials."
+        },
+        {
+          "type": "h",
+          "text": "Zelenskyy pushes for more Patriot missiles ahead of winter"
+        },
+        {
+          "type": "p",
+          "text": "Zelenskyy's interview with DW comes as summer is nearly over and Ukraine is gearing up for the cold months of winter."
+        },
+        {
+          "type": "p",
+          "text": "The Ukrainian president has conceded that his country has been struggling to counter flying jet-propelled drones that Russia has been increasingly deploying."
+        },
+        {
+          "type": "p",
+          "text": "\"They [US] have political will to sell and to help, but the production is not too big. So it means that stocks is a variant,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "\"Will Americans be ready to give us (Patriots)? I don’t know. We will see.\""
+        },
+        {
+          "type": "p",
+          "text": "Patriot missiles are powerful weapons that are currently the most effective defense against Russian ballistic missile attacks."
+        },
+        {
+          "type": "h",
+          "text": "What Zelenskyy needs from US and European allies"
+        },
+        {
+          "type": "p",
+          "text": "\"Russia [currently] produces 140 ballistic missiles per month. So, according to the rules of NATO, if you want to destroy 140, you need a 1-to-2 [ratio], 280 missiles,\" Zelenskyy told DW."
+        },
+        {
+          "type": "p",
+          "text": "\"You will never have 280 missiles per month, and between us, it’s a huge challenge to have [even] 100 missiles per month. This is what I want. I want to have 100-120 for these difficult months, especially the cold months.\""
+        },
+        {
+          "type": "p",
+          "text": "Germany earlier this week said it was going to send Patriot missiles from its national stock, without specifying how many missiles that would be."
+        },
+        {
+          "type": "p",
+          "text": "Zelenskyy called on Kyiv's European allies to provide more support."
+        },
+        {
+          "type": "p",
+          "text": "\"They have to give as much as possible. With all respect to them, they have to give to Ukrainians to save their lives.\""
+        },
+        {
+          "type": "p",
+          "text": "Zelenskyy also spoke of having secured agreements with several European companies to develop a Ukrainian-led anti-missile system called Freya."
+        },
+        {
+          "type": "p",
+          "text": "He said he was hoping that the first test phase would begin by the end of December, stressing that time was short."
+        },
+        {
+          "type": "h",
+          "text": "Ukraine faces Patriot missile shortage"
+        },
+        {
+          "type": "h",
+          "text": "Ukraine in 'good position for negotiations'"
+        },
+        {
+          "type": "p",
+          "text": "Zelenskyy said that it was a \"good signal\" that US envoys Steve Witkoff and Jared Kushner visited Kyiv earlier this week, and not just Moscow."
+        },
+        {
+          "type": "p",
+          "text": "He said he had made clear to them that his country was well-placed for negotiations on ending the conflict, with Russia estimated to be losing more than 30,000 soldiers a month."
+        },
+        {
+          "type": "p",
+          "text": "Zelenskyy said this meant that Moscow was paying a \"big price\" for small gains on the battlefield."
+        },
+        {
+          "type": "p",
+          "text": "\"So that’s why we think that we have now good position for negotiations,\" he said, adding that his country was stronger than last year."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79079951_$%7BformatId%7D.jpg",
+          "caption": "US envoys Steve Witkoff and Jared Kushner held talks with Zelenskyy in KyivImage: Ukrainian Presidential Press Office/AP Photo/dpa/picture alliance"
+        },
+        {
+          "type": "h",
+          "text": "Grain and energy top priorities"
+        },
+        {
+          "type": "p",
+          "text": "The other concern that has been coming up steadily over this summer is the shipment of grains through the Black Sea, with Moscow and Kyiv currently targeting each other's ships."
+        },
+        {
+          "type": "p",
+          "text": "Russia's de facto blockade of Ukraine's Black Sea ports in the Odesa region has led to a 76% fall in Ukraine's grain exports year-on-year so far in August."
+        },
+        {
+          "type": "p",
+          "text": "Zelenskyy said he had spoken with the two envoys about an energy and grain ceasefire that could provide a starting point for peace."
+        },
+        {
+          "type": "p",
+          "text": "\"What can bring us to any kind of negotiations? So energy and grain. This is step number one. What we can achieve,\" he said."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1ejt8dm",
+      "source": "abs",
+      "title": "BTS Suga meets boxing icon Sugar Ray Leonard who inspired his stage name",
+      "summary": "BTS member Suga finally met boxing legend Sugar Ray Leonard, the athlete who inspired his stage name, during the group’s Los Angeles concert.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-12T05:37:17.000Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/9/12/bts-suga-meets-boxing-icon-sugar-ray-leonard-who-inspired-his-stage-name-1337",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BTS member Suga finally met boxing legend Sugar Ray Leonard, the athlete who inspired his stage name, during the group’s Los Angeles concert."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-146k5kj",
+      "source": "inq",
+      "title": "Rare white Philippine duck spotted in Leyte natural park",
+      "summary": "MANILA, Philippines — Amid the waters of Lake Malagsum in Burauen, Leyte, protected area rangers spotted a Philippine duck with an unusual appearance &#8211; its feathers markedly paler than those of…",
+      "byline": "dbongcac",
+      "section": "",
+      "published": "2026-09-12T05:34:00.000Z",
+      "url": "https://cebudailynews.inquirer.net/765981/rare-white-philippine-duck-spotted-in-leyte-natural-park",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/09/09-12-Rare-Leyte-duck-620x382.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Amid the waters of Lake Malagsum in Burauen, Leyte, protected area rangers spotted a Philippine duck with an unusual appearance – its feathers markedly paler than those of other ducks due to a rare pigmentation condition."
+        },
+        {
+          "type": "p",
+          "text": "The leucistic Philippine duck (Anas luzonica) was documented during a routine patrol at the Mahagnao Volcano Natural Park (MVNP), marking the first recorded sighting of its kind by the park’s Biodiversity Monitoring Team."
+        },
+        {
+          "type": "p",
+          "text": "Leucism causes reduced pigmentation, giving an animal unusually pale or white coloration. Unlike albinism, however, it does not involve a complete absence of pigmentation."
+        },
+        {
+          "type": "p",
+          "text": "For the Protected Area Management Office, the unusual duck is more than a striking sight. The team said the record adds to MVNP’s biodiversity data and highlights the natural park as a safe habitat for threatened and unique wildlife."
+        },
+        {
+          "type": "p",
+          "text": "The Philippine duck itself is distinctive even without leucism: It is the country’s only endemic duck, according to a study by Ivannah Kryztelle Cuna, Dianne Valencia and Essex Vladimer Samaniego published in SIYASIG: The Southern Luzon Journal of Science."
+        },
+        {
+          "type": "p",
+          "text": "The species is at home in a wide range of aquatic environments. The study said Philippine ducks can be found in lakes, reservoirs, marshes, swamps, freshwater ponds, streams and rivers, as well as estuaries, mangroves, mudflats, salt pans and even the open sea."
+        },
+        {
+          "type": "p",
+          "text": "Where Philippine ducks find refuge"
+        },
+        {
+          "type": "p",
+          "text": "Hundreds of kilometers from Lake Malagsum, researchers studying the species in the Pagbilao Mangrove Swamp Forest Reserve in Quezon found signs of how the birds respond to their surroundings."
+        },
+        {
+          "type": "p",
+          "text": "Cuna and her fellow researchers monitored Philippine ducks in four transects in the reserve from December 2018 to February 2019. They recorded 1,742 encounters — 557 involving swimming ducks and 1,185 fly-thrus — and classified the species as common in the study area based on their abundance scale."
+        },
+        {
+          "type": "p",
+          "text": "But the birds were not distributed evenly."
+        },
+        {
+          "type": "p",
+          "text": "Only 84 duck encounters were recorded in the most disturbed transect, an area frequented by fishermen and used as an entry point for visitors. Recreational activities such as swimming and picnics were also reported there."
+        },
+        {
+          "type": "p",
+          "text": "By comparison, researchers recorded 699 and 773 duck encounters in two of the less disturbed transects, where there was little to no visitor access and fishermen were prohibited."
+        },
+        {
+          "type": "p",
+          "text": "The researchers said human disturbance influenced the population and abundance of Philippine ducks in the reserve. They recommended continued monitoring and conservation measures, including minimizing activities that could significantly disturb their habitat."
+        },
+        {
+          "type": "p",
+          "text": "A familiar bird in unfamiliar colors"
+        },
+        {
+          "type": "p",
+          "text": "A Philippine duck normally bears a rusty cinnamon-colored head, black crown and nape and a prominent black stripe through the eye, according to the Pagbilao study."
+        },
+        {
+          "type": "p",
+          "text": "Its wings feature an iridescent blue-green patch bordered in black with a narrow white edge, while the underside of the wing is white. Male and female ducks generally look alike, although females were found to be slightly smaller and lighter in color."
+        },
+        {
+          "type": "p",
+          "text": "That typical coloration makes the pale plumage of the leucistic individual in Lake Malagsum particularly unusual."
+        },
+        {
+          "type": "p",
+          "text": "Beyond its appearance, however, the bird belongs to a species facing threats that have made its protection a matter of law."
+        },
+        {
+          "type": "p",
+          "text": "The Philippine duck is classified as vulnerable under Department of Environment and Natural Resources Administrative Order No. 2019-09."
+        },
+        {
+          "type": "p",
+          "text": "Under Republic Act No. 9147, or the Wildlife Resources Conservation and Protection Act, killing or destroying a vulnerable species is punishable by imprisonment of two years and one day to four years and a fine of P30,000 to P300,000."
+        },
+        {
+          "type": "p",
+          "text": "Hunting, capturing or possessing a vulnerable species carries a penalty of six months and one day to two years in prison and a fine of P10,000 to P100,000."
+        },
+        {
+          "type": "p",
+          "text": "The Pagbilao study likewise cited reported cases of duck poaching in areas near the mangrove reserve and recommended that authorities continue monitoring and conservation efforts for the Philippine duck."
+        },
+        {
+          "type": "p",
+          "text": "For the Biodiversity Monitoring Team at Mahagnao Volcano Natural Park, the rare bird in Lake Malagsum serves as another reminder of why those efforts matter: Every species, including its rarest individuals, deserves protection."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1939hqt",
+      "source": "abs",
+      "title": "Alex Eala sits front row alongside ‘Spider-Man’ star Sadie Sink, other international stars at NYFW",
+      "summary": "Filipina tennis star Alex Eala continues her New York Fashion Week appearances.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-12T05:33:14.000Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/9/12/alex-eala-sits-front-row-alongside-spider-man-star-sadie-sink-other-international-stars-at-nyfw-1333",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Filipina tennis star Alex Eala continues her New York Fashion Week appearances."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
       "id": "abs-iie39t",
       "source": "abs",
       "title": "Lady Gaga welcomes first child with fiancé Michael Polansky",
@@ -93,6 +706,85 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "grd-218fd",
+      "source": "grd",
+      "title": "Saudi Arabia shuts down oil pipeline, blaming drones from Iraq",
+      "summary": "<p>Riyadh has increased its use of the East-West pipeline since the start of the Middle East war to bypass the closure of the strait of Hormuz</p><p>Saudi authorities said Friday drones launched from…",
+      "byline": "Agence France-Presse",
+      "section": "Saudi Arabia",
+      "published": "2026-09-12T05:22:01.000Z",
+      "url": "https://www.theguardian.com/world/2026/sep/12/saudi-arabia-shuts-down-oil-pipeline-blaming-drones-from-iraq",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/5522d0dc1ce938b9cf8dd25dc20f8c37ab803777/481_0_3333_2667/master/3333.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=5d590a412e7133a4302ff1b7f8572b28",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Saudi authorities said Friday drones launched from Iraq led to the temporary closure of a crucial oil export route used to bypass the lockdown of the strait of Hormuz."
+        },
+        {
+          "type": "p",
+          "text": "Riyadh has increased its use of the East-West pipeline, which links Abqaiq, near the Gulf, to the port of Yanbu on the Red Sea, since the start of the Middle East war to bypass strait of Hormuz closed by Iran."
+        },
+        {
+          "type": "p",
+          "text": "The Saudi foreign ministry condemned “the targeting of the East-West pipeline in the Riyadh and Medina regions by several drones coming from Iraq, which caused human injuries and damage”."
+        },
+        {
+          "type": "p",
+          "text": "“The pipeline was stopped as a precaution, and the attacks resulted in some injuries,” an energy ministry official told the SPA news agency earlier."
+        },
+        {
+          "type": "p",
+          "text": "Satellite images from Copernicus Sentinel Data taken on Thursday showed black smoke billowing near Medina, along the general route of the East-West pipeline that carries Saudi oil to its Red Sea coast."
+        },
+        {
+          "type": "p",
+          "text": "The news comes as Yemen’s rampant Houthi forces have captured the strategic island of Perim in the Bab al-Mandab strait, expanding their control of the narrow waterway, one of the ​world’s vital shipping routes."
+        },
+        {
+          "type": "p",
+          "text": "The office of Iraqi prime minister Ali al-Zaidi confirmed the attack originated from Iraqi territory and said on X that the commander in charge of the southern province of Maysan had been dismissed."
+        },
+        {
+          "type": "p",
+          "text": "The Iraqi government said it condemned “the attacks targeting our brethren in the Kingdom of Saudi Arabia [that] originated from a location within the governorate”."
+        },
+        {
+          "type": "p",
+          "text": "Riyadh said that, at the Iraqi prime minister’s request, it had chosen “not to respond at this stage and to support the efforts of the Iraqi government …to prevent attacks launched from Iraq against the Kingdom and neighbouring countries”."
+        },
+        {
+          "type": "p",
+          "text": "Riyadh previously accused Iranian-backed Iraqi militias of targeting its oil infrastructure. But it stressed that the kingdom “reserves the right to take all necessary measures to protect its sovereignty, its security, its facilities,” and its people."
+        },
+        {
+          "type": "p",
+          "text": "Bahrain, Jordan and Qatar also condemned the attack on the Saudi pipeline, while the Gulf Cooperation Council denounced “a dangerous escalation and an unacceptable threat to the security of the Kingdom”."
+        },
+        {
+          "type": "p",
+          "text": "Oil prices have climbed past $100 a barrel this week, while average US diesel prices topped $6 for the first time on Friday – a potential headache for president Donald Trump ahead of midterm elections."
+        },
+        {
+          "type": "p",
+          "text": "Yemen’s Iran-backed Houthi rebels announced a maritime blockade in July against Saudi Arabia – which supports the Yemeni government – attacking its oil tankers in the Red Sea."
+        },
+        {
+          "type": "p",
+          "text": "By taking control of the Yemeni Red Sea coast and the islands in the Bab al-Mandab Strait on Friday, the Houthis consolidated their grip on the strategic passage linking Europe and Asia."
+        },
+        {
+          "type": "p",
+          "text": "Navigation through the Bab al-Mandab Strait was “safe” for all but Saudi Arabia after the latest advances, the Houthis said."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inq-159arle",
@@ -3740,65 +4432,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-i55j6f",
-      "source": "inq",
-      "title": "Court lifts restraining order vs Socoteco II–Ignite plebiscite",
-      "summary": "MANILA, Philippines — A power cooperative in South Cotabato has secured victory over an attempt to block a plebiscite on its proposed partnership with Ignite Power and Energy Holdings Inc. In a…",
-      "byline": "Lisbet K. Esmael",
-      "section": "",
-      "published": "2026-09-12T02:52:21.000Z",
-      "url": "https://business.inquirer.net/610691/court-lifts-restraining-order-vs-socoteco-iiignite-plebiscite",
-      "image": {
-        "src": "https://business.inquirer.net/files/2026/05/socoteco-II-620x349.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — A power cooperative in South Cotabato has secured victory over an attempt to block a plebiscite on its proposed partnership with Ignite Power and Energy Holdings Inc."
-        },
-        {
-          "type": "p",
-          "text": "In a 12-page ruling dated September 11, the Regional Trial Court in Polomolok, South Cotabato, has granted South Cotabato II Electric Cooperative’s (Socoteco II) motion to lift a temporary restraining order (TRO), removing legal hurdles for member-consumer-owners to vote on the planned deal."
-        },
-        {
-          "type": "p",
-          "text": "It lifts a September 4 restraining order, extended to September 24, affecting the initial voting set earlier this month."
-        },
-        {
-          "type": "p",
-          "text": "The court dismissed as “speculative” the allegations of a lack of transparency in Socoteco II’s move approving the conditional joint venture agreement."
-        },
-        {
-          "type": "p",
-          "text": "“What plaintiff offers is a conjecture presented as violation, and an injunction will not protect a right founded on nothing more than speculative claim,” the decision read."
-        },
-        {
-          "type": "p",
-          "text": "It added, “The parties still need to finalize the proposed deal, as it remains conditional and incomplete.”"
-        },
-        {
-          "type": "p",
-          "text": "If irregularities marred the plebiscite, the court stated that the plaintiff could still present his case and seek to nullify it, including the planned joint venture."
-        },
-        {
-          "type": "p",
-          "text": "“The JVA remains subject to a final, independent stage. It has not yet happened. Until it does, whatever consequence plaintiff fears from it remains a possibility hedged by condition, not an injury demonstrable in the present,” the court said."
-        },
-        {
-          "type": "p",
-          "text": "Socoteco II, meanwhile, said that voting could now proceed, with dates set on September 19 to 20 and September 26 to 27."
-        },
-        {
-          "type": "p",
-          "text": "Manny Pacquiao, the boxing legend and former Senator, backs Ignite Power, along with Prime Electric Holdings Inc., led by Razon. /pai"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-1j1ddtk",
       "source": "cbc",
       "title": "Zelenskyy describes Canada-U.S. tensions as 'strange,' draws comparison to Ukraine and Russia",
@@ -3945,30 +4578,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-1x7vwv1",
-      "source": "inq",
-      "title": "Rare leucistic Philippine duck spotted in Leyte natural park",
-      "summary": "MANILA, Philippines — Amid the waters of Lake Malagsum in Burauen, Leyte, protected area rangers encountered a Philippine duck that stood out from the rest — its feathers unusually pale because of a…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-12T02:41:13.000Z",
-      "url": "https://newsinfo.inquirer.net/2304063/rare-leucistic-philippine-duck-spotted-in-leyte-natural-park",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/philippine-duck-leyte-12sep2026-e1789179601913-620x368.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Amid the waters of Lake Malagsum in Burauen, Leyte, protected area rangers encountered a Philippine duck that stood out from the rest — its feathers unusually pale because of a rare pigmentation condition. The leucistic Philippine duck (Anas luzonica) was documented at Mahagnao Volcano Natural Park (MVNP) during regular patrols, marking the first such record by the park’s Biodiversity Monitoring Team. Leucism causes reduced pigmentation, giving an animal unusually pale or white coloration. Unlike albinism, however, it does not involve a complete absence of pigmentation. READ: Rare Asian duck draws bird watchers to Calif. For the Protected Area [&hellip;]... Keep on reading: Rare leucistic Philippine duck spotted in Leyte natural park"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "HTTP 403"
     },
     {
       "id": "rap-3z20hx",
@@ -4819,171 +5428,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "rap-hhc91m",
-      "source": "rap",
-      "title": "2 Negrense national artists: One painted people’s struggles, the other lit the stage",
-      "summary": "Their lives in art were different. One continues to live with the community that became central to his work; the other is remembered for a career that helped shape how theater was presented to…",
-      "byline": "Ambo Delilan",
-      "section": "Artists",
-      "published": "2026-09-12T01:00:00.000Z",
-      "url": "https://www.rappler.com/people/artists/negrense-national-artists-nunelucio-alvarado-teodoro-hilado/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/09/negros-alvarado-hilado.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Nunelucio Alvarado and Teodoro Hilado were named among the National Artists for 2025, recognizing their significant contributions to art and theater in the Philippines.",
-            "Alvarado, a social-realist artist, has dedicated over five decades to portraying the lives of ordinary people, while Hilado, known as the 'Father of Philippine Lighting Design,' pioneered technical direction in theater.",
-            "Both artists have left a lasting impact on their communities, with Alvarado continuing to live among those he inspires, and Hilado being honored posthumously for his innovative work in enhancing theatrical storytelling."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "This is AI-generated. Read the article for full context. Report any errors."
-        },
-        {
-          "type": "p",
-          "text": "NEGROS OCCIDENTAL, Philippines – One is 76 and living with dementia in his hometown, where for more than five decades he turned his art toward the lives and struggles of people around him. The other died in 2015, after a career devoted to an aspect of theater most audiences rarely see but experience in every production."
-        },
-        {
-          "type": "p",
-          "text": "Nunelucio Alvarado, fondly called “Maestro Nunelucio,” and Teodoro “Teddy” Ledesma-Hilado were named among the 10 National Artists for 2025 in Proclamation No. 1414 announced by Malacañang on Wednesday, September 9."
-        },
-        {
-          "type": "p",
-          "text": "Their recognition brings together two very different lives in art. Alvarado is the social-realist artist from Sagay whose provocative works became a quiet form of social revolution, while Hilado, the Silaynon known as the “Father of Philippine Lighting Design,” pioneered lighting design and technical direction in the Philippines."
-        },
-        {
-          "type": "p",
-          "text": "For Helen Arguelles Cutillar, Sagay’s tourism and information officer, Alvarado’s life is itself a canvas."
-        },
-        {
-          "type": "p",
-          "text": "“He is peerless,” Cutillar said. “He touched people’s lives, especially the poor in so many ways.”"
-        },
-        {
-          "type": "p",
-          "text": "Alvarado has no college degree. Yet for more than five decades, he etched his mark in visual arts, building a body of work centered on social realities and the lives of ordinary people."
-        },
-        {
-          "type": "p",
-          "text": "His recognition, however, is not being seen in Sagay as a distinction that belongs to him alone."
-        },
-        {
-          "type": "p",
-          "text": "Sagay Mayor Leo Rafael Cueva said the honor also belongs to the communities whose lives and struggles have been at the heart of Alvarado’s work."
-        },
-        {
-          "type": "p",
-          "text": "“Maestro Nunelucio showed that an artist does not have to leave his community behind to create work that matters to the nation and the world,” Cueva said. “He brought his art back to Sagay, shared it with our children and communities, and helped make art part of everyday life here.”"
-        },
-        {
-          "type": "p",
-          "text": "“We now have a national treasure living with us. He is a true gem in the field of arts,” Negros Occidental 2nd District Representative Alfredo Marañon III said on Thursday, September 10."
-        },
-        {
-          "type": "p",
-          "text": "Alvarado is living with dementia, and his wife, Rosalia “Sally” Alvarado, spoke on behalf of the family as the country recognized his contribution."
-        },
-        {
-          "type": "p",
-          "text": "“We hope his legacy of bringing art and the love for art into the community will continue for generations to come,” she said."
-        },
-        {
-          "type": "p",
-          "text": "The Metropolitan Museum of Manila hailed the declaration of Alvarado as a national artist, saying it highlighted his work depicting the lives and struggles of communities in Negros."
-        },
-        {
-          "type": "p",
-          "text": "It said Alvarado has been known for his social realist works rooted in the sugarlands of Negros, with recurring images of sakadas and sugarcane reflecting exploitation, hardship, resistance, survival and hope."
-        },
-        {
-          "type": "p",
-          "text": "The museum, which holds Alvarado’s works in its collection, said his art has given voice to local communities and helped bring their experiences and stories to a wider audience."
-        },
-        {
-          "type": "p",
-          "text": "“Immortalizing his agrarian activism in his work, Alvarado continues to spread his philosophy that art belongs to the people and his advocacy for the active involvement of art and grassroots communities in the Philippines,” read part of the museum’s statement."
-        },
-        {
-          "type": "p",
-          "text": "The museum also celebrated the declaration of another national artist, Imelda Cajipe-Endaya (visual arts), whose works are also in its collection."
-        },
-        {
-          "type": "p",
-          "text": "The museum said Endaya is known for her textured mixed-media works using everyday fabrics and objects, and for an artistic practice focused on Filipino identity, human rights, feminism, overseas Filipino workers, environmental issues and peace."
-        },
-        {
-          "type": "p",
-          "text": "“Their works have illuminated the realities, struggles, and aspirations of local communities and through their art and advocacy, Cajipe-Endaya and Alvarado have made impactful contributions to Philippine art and inspire future generations to learn and appreciate the stories that shape them as Filipinos,” it said."
-        },
-        {
-          "type": "p",
-          "text": "If Alvarado brought art into the life of his community, Hilado devoted his career to the technical side of theater."
-        },
-        {
-          "type": "p",
-          "text": "The Silay-born artist was named a national artist for theater, specifically for technical direction, 11 years after his death at 77, recognizing a career that helped establish technical direction as an important part of theater from the wings."
-        },
-        {
-          "type": "p",
-          "text": "Hilado pioneered lighting design and technical direction in the Philippines and became known as the “Father of Philippine Lighting Design.”"
-        },
-        {
-          "type": "p",
-          "text": "He helped professionalize the technical side of the performing arts, using light, space and technical direction to enhance storytelling."
-        },
-        {
-          "type": "p",
-          "text": "When he served as technical director at the Cultural Center of the Philippines, Hilado mastered a minimalist approach to theater, using lights and space to heighten storytelling. His work created atmospheres that captivated audiences and helped raise the standards of local productions to an international level."
-        },
-        {
-          "type": "p",
-          "text": "Silay Mayor Joedith Gallego asked Silaynons to celebrate Hilado’s recognition."
-        },
-        {
-          "type": "p",
-          "text": "“He [was] an exceptional artist behind theater lighting and productions,” Gallego said."
-        },
-        {
-          "type": "p",
-          "text": "Hilado was the third national artist from Silay, according to Solomon Locsin, chairman of the Negros Occidental Historical Council. Before him came Leandro Locsin, who was declared a national artist for architecture in 1990, and Agnes Dakudao-Locsin, national artist for dance in 2022."
-        },
-        {
-          "type": "p",
-          "text": "In Sagay, the recognition of Alvarado brings national attention to an artist whose work has remained closely tied to his community. And in Silay, Hilado’s posthumous recognition honors a career devoted to the technical craft of theater."
-        },
-        {
-          "type": "p",
-          "text": "Their lives in art were different. One continues to live with the community that became central to his work; the other is remembered for a career that helped shape how theater was presented to audiences."
-        },
-        {
-          "type": "p",
-          "text": "Aside from Alvarado, Hilado and Endaya, the other 2025 national artists are as follows:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Gabriel “Gabby” Formoso – architecture",
-            "Rafael “Nonoy” Catalino Froilan – dance",
-            "Maria Beatriz “Patis” Fabella Pamintuan Tesoro – design and allied arts",
-            "Armando “Bing” Lao – film and broadcast arts",
-            "Gregorio Brillantes – literature",
-            "Nicanor Tiongson – literature",
-            "Alfredo Buenaventura – music"
-          ]
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "grd-knvr2f",
@@ -15779,61 +16223,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "gma-1lbi0kg",
-      "source": "gma",
-      "title": "4 of Zaldy Co's ex-bodyguards issued arrest warrants; bail posted",
-      "summary": "Arrest warrants were issued against four out of 18 former bodyguards of ex-lawmaker Zaldy Co, but they were able to walk free after immediately posting bail.",
-      "byline": "GMA News",
-      "section": "",
-      "published": "2026-09-11T09:25:03.000Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1002048/4-of-zaldy-co-s-ex-bodyguards-issued-arrest-warrants-bail-posted/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/08/ex_bodyguards_2026_08_07_16_26_59.JPG",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published September 11, 2026 5:25pm"
-        },
-        {
-          "type": "p",
-          "text": "Arrest warrants were issued against four out of 18 former bodyguards of ex-lawmaker Zaldy Co, but they were able to walk free after immediately posting bail."
-        },
-        {
-          "type": "p",
-          "text": "In a DZBB report from Glen Juego on Friday, San Juan City police arrested four of the 18 ex-bodyguards due to a cyberlibel case filed against them."
-        },
-        {
-          "type": "p",
-          "text": "San Juan City Chief of Police Col. Anthony Gantang confirmed the arrest directly to DZBB."
-        },
-        {
-          "type": "p",
-          "text": "The arrest was made while the four ex-bodyguards were facing another case at the Hall of Justice in San Juan City."
-        },
-        {
-          "type": "p",
-          "text": "Gantang said that the ex-bodyguards were able to walk free after posting bail on the same day at 4:00 p.m."
-        },
-        {
-          "type": "p",
-          "text": "Each of them paid a bail of P10,000 for the cyberlibel complaint."
-        },
-        {
-          "type": "p",
-          "text": "At least 10 other former bodyguards have been arrested due to perjury charges. The bodyguards, also known as maleta boys, made headlines for claiming to make cash deliveries for Co and several other personalities."
-        },
-        {
-          "type": "p",
-          "text": "However, four out of the 18 have since recanted their testimonies, wanting to remain silent instead. —Jean Mangaluz/LDF, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-2h3mml",
       "source": "abs",
       "title": "Preparations for historic BARMM polls 95% ready in Lanao Del Sur",
@@ -16392,108 +16781,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "dw-h5w5qy",
-      "source": "dw",
-      "title": "Philippines ferry fire: Search continues for dozens missing",
-      "summary": "Firefighters searching for survivors combed through the smoking remains of a ferry off the coast of Coron island in the Philippines. Five people died and over 40 have been rescued",
-      "byline": "Emilio Reynoso",
-      "section": "",
-      "published": "2026-09-11T08:18:00.000Z",
-      "url": "https://www.dw.com/en/philippines-ferry-fire-search-continues-for-dozens-missing/a-79223425?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79223702_6.jpg",
-        "caption": "The fire pm the MV June Aster continued to smolder Friday morning Image: Philippine Coast Guard/REUTERS"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Philippine firefighters on Friday managed to enter a smoldering ferry in a search for dozens of people still unaccounted for after the vessel caught fire on Wednesday evening, with rescue work complicated by heavy smoke and extreme heat."
-        },
-        {
-          "type": "p",
-          "text": "Firefighters have reported that five people have died, 43 people have been rescued, and more than 80 are missing."
-        },
-        {
-          "type": "p",
-          "text": "The ferry \"MV June Aster\" had originated in Manila, and was nearing its destination, the tourist hotspot of Coron in the western Philippine province of Palawan, when it caught fire just off the coast."
-        },
-        {
-          "type": "p",
-          "text": "The Philippine Coast Guard updated the number of missing people from 86 to 84 after confirming that two people originally listed on the manifest had not been on board."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79223756_$%7BformatId%7D.jpg",
-          "caption": "The Philippine Coast Guard said the ship caught fire in 'seconds' Image: Philippine Coast Guard/AP Photo/picture alliance"
-        },
-        {
-          "type": "h",
-          "text": "Ferry fire spread 'in seconds'"
-        },
-        {
-          "type": "p",
-          "text": "Philippine Coast Guards spokeswoman Noemie Cayabyab told a radio interview Friday that the fire broke out in \"seconds.\""
-        },
-        {
-          "type": "p",
-          "text": "\"From the time that they heard the loud explosion, the appearance of smoke, and then fire. It spread very quickly,\" she said, citing survivor accounts."
-        },
-        {
-          "type": "p",
-          "text": "Cayabyab said some of those who made it off the ship did not have time to put on life jackets."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79208164_$%7BformatId%7D.jpg",
-          "caption": "Some passengers jumped into the water and were rescued by nearby fishermenImage: Philippine Coast Guard/AFP"
-        },
-        {
-          "type": "p",
-          "text": "The Coast Guard has deployed several vessels and divers to the incident, while army rescue boats, fishermen and private resort owners have also provided assistance in the search."
-        },
-        {
-          "type": "h",
-          "text": "Investigation ongoing"
-        },
-        {
-          "type": "p",
-          "text": "The fire began in the cargo hold, and may have moved even more rapidly due to strong winds, Cayabyab added later."
-        },
-        {
-          "type": "p",
-          "text": "Although the exact cause of the accident has yet to be officially determined, survivors reported hearing explosions inside the ship."
-        },
-        {
-          "type": "p",
-          "text": "They later said that a small fire quickly escalated and engulfed the vessel."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79208190_$%7BformatId%7D.jpg",
-          "caption": "The Coast Guard released this image of the ferry burning Wednesday night Image: Philippine Coast Guard/AFP"
-        },
-        {
-          "type": "p",
-          "text": "Some passengers jumped into the sea, where they remained afloat until they were rescued. The vessel caught fire some 7 kilometers (4.5 miles) off the village of Turda."
-        },
-        {
-          "type": "p",
-          "text": "The ferry was carrying electric cars, motorcycles, cargo, and heavy-duty equipment, as well as provisions for the crew and passengers."
-        },
-        {
-          "type": "p",
-          "text": "Ferries are one of the most widely used forms of transport in the Philippines, an archipelago made up of 7,600 islands."
-        },
-        {
-          "type": "p",
-          "text": "The country has a history of maritime accidents, some of which are caused by overcrowding, adverse sailing conditions, and lax safety standards."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-n56a9f",
       "source": "bbc",
       "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
@@ -16635,27 +16922,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-3fjrc3",
-      "source": "abs",
-      "title": "Chef Miggy Moreno brings Southern Mindanaoan cuisine to Admiral Hotel dinner",
-      "summary": "Admiral Hotel Manila will bring the flavors of Southern Mindanao to Manila with the second installment of its Busog Chronicles culinary series on September 18.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-11T08:09:42.000Z",
-      "url": "https://www.abs-cbn.com/lifestyle/food-travel/2026/9/11/chef-miggy-moreno-brings-southern-mindanaoan-cuisine-to-admiral-hotel-dinner-1609",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Admiral Hotel Manila will bring the flavors of Southern Mindanao to Manila with the second installment of its Busog Chronicles culinary series on September 18."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "cbc-1n53uk",
@@ -17635,27 +17901,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-1gj1jei",
-      "source": "abs",
-      "title": "Alex Eala sits front row at Tory Burch show in New York Fashion Week",
-      "summary": "Filipina tennis star Alex Eala made her first appearance at New York Fashion Week as a guest at the Tory Burch Spring/Summer 2027 runway show.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-11T06:00:09.000Z",
-      "url": "https://www.abs-cbn.com/lifestyle/health-beauty-fashion/2026/9/11/alex-eala-sits-front-row-at-tory-burch-show-in-new-york-fashion-week-1400",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Filipina tennis star Alex Eala made her first appearance at New York Fashion Week as a guest at the Tory Burch Spring/Summer 2027 runway show."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "bbc-ybyzi5",
       "source": "bbc",
       "title": "Spies, strategies and missed opportunities: How the lessons of 9/11 are still being learnt",
@@ -17927,27 +18172,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-ig7815",
-      "source": "abs",
-      "title": "COMEBACK ni Belle Tinkerbell, kinaaliwan sa Miss Q&A Resbakulawan | It’s Showtime",
-      "summary": "COMEBACK ni Belle Tinkerbell, kinaaliwan sa Miss Q&A Resbakulawan | It’s Showtime",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-11T05:46:52.000Z",
-      "url": "https://www.abs-cbn.com/entertainment/studios/tv/2026/9/11/comeback-ni-belle-tinkerbell-kinaaliwan-sa-miss-q-a-resbakulawan-it-s-showtime-1346",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COMEBACK ni Belle Tinkerbell, kinaaliwan sa Miss Q&A Resbakulawan | It’s Showtime"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "bbc-u0wn10",
@@ -18465,27 +18689,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-109hsys",
-      "source": "abs",
-      "title": "No scheduled surgery, invasive procedure for Romualdez at the moment—doctor",
-      "summary": "Doctors of former House Speaker Martin Romualdez returned to the Sandiganbayan Third Division on Friday for its hearing on the lawmaker’s motion for hospital confinement.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-11T03:49:30.000Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/11/no-scheduled-surgery-invasive-procedure-for-romualdez-at-the-moment-doctor-1139",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Doctors of former House Speaker Martin Romualdez returned to the Sandiganbayan Third Division on Friday for its hearing on the lawmaker’s motion for hospital confinement."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "inqg-5v3dzu",
@@ -21376,122 +21579,6 @@
         {
           "type": "p",
           "text": "The UN said the new map aimed to present “a more accurate representation” of continental landmasses than was portrayed by more traditional Mercator projections."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-1besw67",
-      "source": "grd",
-      "title": "Houthis seize key Yemeni port of Mocha in drive to take control of Red Sea coast",
-      "summary": "<p>Iran and its proxies move closer to full control of two shipping chokepoints as regional conflict widens</p><p>Yemen’s Houthi rebels are making a concerted drive to take full control of the…",
-      "byline": "Patrick Wintour Diplomatic editor",
-      "section": "Houthis",
-      "published": "2026-09-10T11:39:56.000Z",
-      "url": "https://www.theguardian.com/world/2026/sep/10/houthis-seize-key-port-mocha-yemen-red-sea-coast-iran-saudi-arabia-us",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/8553e04ff5feb3b856dfd3be32d9e3ae72ff57f3/165_0_2356_1885/master/2356.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=49c4ec5afb32ae87fbc44df7206acf78",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Yemen’s Houthi rebels are making a concerted drive to take full control of the country’s Red Sea coast, claiming control of the key port of Mocha, in the most serious wave of fighting with the Saudi-backed government in years."
-        },
-        {
-          "type": "p",
-          "text": "Seizure of the coast would be a strategic disaster for Saudi Arabia and the US, taking Iran and its proxies closer to full control of two chokepoints for western shipping on opposite sides of the Arabian peninsula: the Bab al-Mandeb at the southern end of the Red Sea and the strait of Hormuz in the Gulf."
-        },
-        {
-          "type": "p",
-          "text": "Observers have said a reduction in hostilities – the most intense since the UN-sponsored ceasefire of April 2022 put an end to major military exchanges – now seems unlikely in what is seen as an attempt by the Houthis to open a second front in the Iran-US war, alongside the battle for control of Hormuz."
-        },
-        {
-          "type": "p",
-          "text": "The Royal United Services Institute (Rusi), a London-based defence and security thinktank, said the situation in Yemen was spiralling out of control, adding that the UN-recognised Yemeni government was opening new fronts against the Houthis in the hope it could put more pressure on the rebels than they could withstand."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/c0317f00d206162ab154fc163ad64b52050d1c01/82_0_2500_2000/master/2500.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "A screengrab from video footage released by Saudi-backed forces shows a rocket being fired during fighting in Taiz province. Photograph: Yemen National Resistance Forces/AFP/Getty Images"
-        },
-        {
-          "type": "p",
-          "text": "The fighting has also raised questions about whether Saudi Arabia, which on Thursday launched as many as 40 airstrikes on Houthi targets, will activate the Mecca defence agreement and ask its co-signatories, Pakistan and Turkey, to send forces. The pact is designed to be defensive in nature and believed unlikely to apply to Saudi military activities in Yemen."
-        },
-        {
-          "type": "p",
-          "text": "By taking control of more of the Red Sea coast south of the port of Hodeidah, the Houthis’ aim is to put pressure on Saudi Arabia and the US to agree a deal that lifts the US blockade on Iranian oil tankers in the Gulf. Donald Trump on Wednesday acknowledged he did not expect the war with Iran to end before the US midterm elections at the start of November."
-        },
-        {
-          "type": "p",
-          "text": "The latest phase in the escalation began when Houthis attacked energy installations and southern cities in Saudi Arabia using drones and ballistic missiles. In response, the kingdom’s military forces launched at least 15 strikes between 3 and 7 September."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/0dced1a06c18db533f6e3a0c9c9408bbd02df06e/472_0_2516_2014/master/2516.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "The aftermath of Houthi strikes on Mocha last month. The rebel group claims it now controls the port. Photograph: Al Joumhouriya TV/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "The conflict data monitor Acled estimated there were 276 fatalities over the five-day period alone. The fighting has continued, with the Houthis claiming control of Mocha in Taiz province, as well as the inland city of Hays and the Khalid ibn al-Walid camp, the largest military base in the region. One Houthi-linked estimate suggested rebel forces had gained control of more than 2,320 sq miles (6,000 sq km) of land."
-        },
-        {
-          "type": "p",
-          "text": "The commander of the Yemeni government forces, Maj Gen Tareq Saleh, admitted he had organised a strategic retreat south of Mocha in order to regroup in a secure location. “The armed forces in the western coast paid a heavy price – martyrs and wounded – over the past days as they confronted the Houthi attack planned by Iran, and supported by it,” he said."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/39f915bb625ebf800468932212bfb60ad98cc3f0/0_0_4780_3825/master/4780.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "A satellite image shows smoke billowing from an Aramco oil depot near the Saudi city of Abha after a Houthi attack. Photograph: Planet Labs/AFP/Getty Images"
-        },
-        {
-          "type": "p",
-          "text": "Saudi Arabia, meanwhile, continues to take advantage of its air superiority to attack Houthi positions, though government sources acknowledged the rebels’ ground advances along the coast and their missile strikes on the strategic Red Sea islands of Zuqar and Hanish."
-        },
-        {
-          "type": "p",
-          "text": "The clashes have ranged across Yemen, including Ad Dali, al-Bayda, Marib, Shabwah, al-Jawf, Hodeidah, and Taiz. In the initial days of the renewed conflict the Houthis found themselves being forced back in some areas as battles on multiple fronts overstretched their resources and fighter numbers."
-        },
-        {
-          "type": "p",
-          "text": "The Houthis will be hoping political divisions inside the Yemeni government, reflected in a lack of an integrated military, will slowly give them the upper hand. The United Arab Emirates, previously a powerful player in southern Yemen where it backed the separatist forces of the Southern Transitional Council, withdrew its financial and military support at the turn of the year. The southern forces have refused to fight outside their own region."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/612da6d22d20639357ae749e9cf99f67812ed9ae/0_0_2500_2000/master/2500.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "A screengrab from video footage released by the Saudi-backed forces shows a fighter firing at Houthi rebels in Taiz province. Photograph: Yemen National Resistance Forces/AFP/Getty Images"
-        },
-        {
-          "type": "p",
-          "text": "“A reduction in hostilities anytime soon seems unlikely, as both sides continue to escalate with the goal of inflicting enough damage to the other side to force a compromise,” said Sherwan Hindreen Ali, a Yemen analyst for Acled. “In terms of military capability, both sides are more equal compared to the immediate period prior to the 2022 ceasefire when the Houthis had the upper hand.”"
-        },
-        {
-          "type": "p",
-          "text": "He added: “Fighting will remain focused on the fronts of the Red Sea coast in Hodeidah and Taiz, where both the Houthis and the Saudi Arabia-Yemen government have a vested interest in claiming the whole territory to deprive the other side of effective control of the strait of Bab al-Mandab.”"
-        },
-        {
-          "type": "p",
-          "text": "The fighting has contributed to the price of oil rising above $100 a barrel after weeks when it was trading closer to $80."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/23489f80538a039c160cba0de33ce2c15ff62bc3/333_0_3333_2667/master/3333.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "A screengrab of video footage reportedly showing Houthi attacks on Saudi-backed forces in al-Jawf province. Photograph: Ansarullah Media Centre/AFP/Getty Images"
-        },
-        {
-          "type": "p",
-          "text": "The escalantion to this week’s all-out violence has been a slow process. It began after a senior Houthi delegation from the group, which has long been in a complex alliance with Iran, flew to Tehran for the funeral of the Iranian supreme leader Ali Khamenei in July, returning in an Iranian plane that the Saudis refused to land in rebel-controlled Sana’a."
-        },
-        {
-          "type": "p",
-          "text": "The Saudis instead bombed the runway, leading the Houthis to announce a Red Sea naval blockade of Saudi Arabia in what the Yemeni rebels described as a blockade for a blockade. The 20 July announcement of the blockade was followed by a strike on Saudi Arabia’s Jazan refinery on 25 July and on a tanker off Yanbu on 24 August."
-        },
-        {
-          "type": "p",
-          "text": "Saudi Arabia has become reliant on the Red Sea route for trade after Iran throttled shipping through the strait of Hormuz following US-Israeli attacks."
         }
       ],
       "truncated": false,
