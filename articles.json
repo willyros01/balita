@@ -1,6 +1,6 @@
 {
   "version": "0.15.1",
-  "updated": "2026-09-12T14:30:55.519Z",
+  "updated": "2026-09-12T15:00:57.017Z",
   "sources": [
     {
       "id": "inq",
@@ -52,6 +52,102 @@
     }
   ],
   "articles": [
+    {
+      "id": "abs-qovt38",
+      "source": "abs",
+      "title": "Palawan ferry fire death toll climbs to 76",
+      "summary": "The death toll from a Philippine ferry fire jumped to 76 on Saturday after the coast guard confirmed the discovery of 41 more bodies aboard the burnt-out vesse",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-12T15:00:19.000Z",
+      "url": "https://www.abs-cbn.com/news/regions/2026/9/12/palawan-ferry-fire-death-toll-climbs-to-76-2300",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The death toll from a Philippine ferry fire jumped to 76 on Saturday after the coast guard confirmed the discovery of 41 more bodies aboard the burnt-out vesse"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "grd-nhlsfk",
+      "source": "grd",
+      "title": "Taxes wouldn’t fund $5,000 Trump ‘dividend’ if Republicans win midterms, says commerce secretary",
+      "summary": "<p>Lutnick said $500bn of estimated $1tn needed to fund checks to all US adults could come from new visa program</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a>’s…",
+      "byline": "Edward Helmore",
+      "section": "Trump administration",
+      "published": "2026-09-12T14:38:25.000Z",
+      "url": "https://www.theguardian.com/us-news/2026/sep/12/trump-midterm-dividend-funding",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/4324b5b609cac359000f928ded4ad6e19f20641f/147_0_5637_4511/master/5637.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=807cddb68a02db7119fe43a446bd4244",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Donald Trump’s controversial proposal to give a $5,000 “dividend” to all US adults if Republicans maintain control of Congress in November’s elections would not be paid out from US tax revenues, according to the US commerce secretary, Howard Lutnick."
+        },
+        {
+          "type": "p",
+          "text": "“It’s not tax money,” Lutnick said in an interview with NBC News, adding that the administration could “earn the money that Donald Trump wants to pay out, not from the deficit and not from taxpayers”."
+        },
+        {
+          "type": "p",
+          "text": "In a speech at the Republican midterm convention rally in Dallas, Texas, on Wednesday, Trump said he would issue the dividends “because of our tremendous strength and success economically” and likened the payment to a one-time, tax-free $1,776 “Warrior Dividend” approved for about 1.45 million US military service members last year."
+        },
+        {
+          "type": "p",
+          "text": "Trump suggested the dividend, which could cost as much as $1tn if paid out to all Americans, could come in part from tariff revenue."
+        },
+        {
+          "type": "p",
+          "text": "“If the Republicans win, you win with us, and you get $5,000,” he said, adding that it would be called “the Trump dividend”."
+        },
+        {
+          "type": "p",
+          "text": "But the proposal has been widely criticized, in part because the US national debt recently surpassed $40tn, up from $10tn in 2008, marking a near 300% increase over 18 years."
+        },
+        {
+          "type": "p",
+          "text": "Lutnick told NBC that some of the dividend money could come from a planned commerce department program to charge wealthy visitors to the US to pay up to $5m to extend their visas."
+        },
+        {
+          "type": "p",
+          "text": "“We have a waitlist of more than 100,000 people who want to come,” he said, and calculated that this could raise $500bn. He also cited the government’s $8.9bn investment in chipmaker Intel, which has since appreciated in market value, from $20 per share to $100."
+        },
+        {
+          "type": "p",
+          "text": "In his comments, Lutnick joined with other administration officials in floating ideas on where the $5,000 checks might come from."
+        },
+        {
+          "type": "p",
+          "text": "Kevin Hassett, director of the National Economic Council, told Bloomberg TV that the White House is considering a “reconciliation process” in Congress to fund the program."
+        },
+        {
+          "type": "p",
+          "text": "“We can do it in a fiscally responsible way,” Hassett said. “The bottom line is there are multiple paths to getting it done – don’t underestimate President Trump.”"
+        },
+        {
+          "type": "p",
+          "text": "JD Vance has also suggested tariff revenues would cover the cost and that the payments would not go to wealthy Americans."
+        },
+        {
+          "type": "p",
+          "text": "However, the supreme court has ruled that revenue raised by Trump’s “liberation day” 2025 import tariffs must be returned, and an earlier proposal to return $2,000 to US taxpayers from tariff receipts was more than the revenue that had been raised, according to the nonpartisan Tax Foundation."
+        },
+        {
+          "type": "p",
+          "text": "Trump’s $5,000 dividend proposal comes as a recent Associated Press poll found that only about three in 10 US adults, or 32%, approve of how the president is handling the economy, down from 40% at the start of his second term."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
     {
       "id": "abs-1dbjcaf",
       "source": "abs",
@@ -130,6 +226,57 @@
         {
           "type": "p",
           "text": "Ateneo begins its campaign on Wednesday against University of the East at Mall of Asia Arena."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "bbc-2mjbne",
+      "source": "bbc",
+      "title": "French officials investigate if 'malicious act' caused train derailment",
+      "summary": "Officials say a rail fragment was found on the tracks after Friday's crash of a passenger train that left 44 people injured.",
+      "byline": "Jaroslav Lukiv",
+      "section": "",
+      "published": "2026-09-12T14:13:57.000Z",
+      "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss",
+      "image": {
+        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57a4/live/cdfa4090-aea6-11f1-8972-d5c52a82c3b8.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Officials in northern France are investigating if the derailment of a passenger train on Friday evening was the result of \"a malicious act\"."
+        },
+        {
+          "type": "p",
+          "text": "Prosecutor Sébastien Gallois said on Saturday that a fragment of rail had been found on the tracks - and the reasons for its presence were \"unknown\"."
+        },
+        {
+          "type": "p",
+          "text": "Local media say 186 passengers were on board the train that was operating between Rouen and Caen in Normandy."
+        },
+        {
+          "type": "p",
+          "text": "Fourty-four were treated for injuries, including an 18-year-old woman who was airlifted to hospital in a critical condition."
+        },
+        {
+          "type": "p",
+          "text": "Some 140 firefighters and other emergency teams were deployed to the scene of the incident near Cléon, just south of Rouen, shortly before 20:00 (18:00 GMT)."
+        },
+        {
+          "type": "p",
+          "text": "\"Suddenly there were a few jolts, and then after about three seconds it got stronger and stronger,\" Louis, a passenger on the train, told ICI Normandie radio."
+        },
+        {
+          "type": "p",
+          "text": "\"I couldn't stay in my seat anymore. The windows partially shattered, the stones from the track came into the carriage. It was really shocking. I'm still shaking,\" he added."
+        },
+        {
+          "type": "p",
+          "text": "The Rouen prosecutor's office said the train driver had tested negative for drugs and alcohol."
         }
       ],
       "truncated": false,
@@ -4111,153 +4258,6 @@
         {
           "type": "p",
           "text": "“We’re meant to no longer be a group of countries under an empire. We were meant to be a group of countries with a shared history and who are treated as equals,” she said. “The idea that all of the countries bar one want to have a discussion and so the discussion is stopped has to be wrong … if we do things like that, I think we will soon see the crumbling of the Commonwealth. And that would be a huge shame.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-12ncpfq",
-      "source": "grd",
-      "title": "Registered sex offender was allowed to participate at South Carolina church for decades",
-      "summary": "<p>The Brookwood Church in Simpsonville only just disqualified Jerry Sidell from serving there in any capacity</p><p>A registered sex offender who was sentenced to prison in the 1980s after he told…",
-      "byline": "Ramon Antonio Vargas",
-      "section": "South Carolina",
-      "published": "2026-09-12T11:00:33.000Z",
-      "url": "https://www.theguardian.com/us-news/2026/sep/12/south-carolina-brookwood-church-sex-offender",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/9064760990707a44d2a45c6d3fec4e30faa6a026/206_0_1255_1004/master/1255.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ff9411acdc509e5f00cd1e063592dc26",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A registered sex offender who was sentenced to prison in the 1980s after he told authorities that he had molested several boys whom he met through his religious work with Christian youth in Georgia was later allowed to participate for decades in ministry at a South Carolina church."
-        },
-        {
-          "type": "p",
-          "text": "The Brookwood church, a southern Baptist institution in the South Carolina city of Simpsonville, only just disqualified Jerry Sidell from serving there in any capacity, after he joined it in 1999 and fulfilled various ministerial roles."
-        },
-        {
-          "type": "p",
-          "text": "The church’s senior pastor, Bryan Jones, told congregants at a Thursday night meeting that Sidell had been “forthright” with Brookwood leaders back then about his previously pleading guilty in Georgia to the crimes of enticing a minor for indecent purposes and child molestation."
-        },
-        {
-          "type": "p",
-          "text": "Without mentioning Sidell’s name, Jones said that church leaders implemented boundaries addressing his participation at Brookwood, which operates a preschool. Jones said those rules included a prohibition from working in or being around children or student ministries."
-        },
-        {
-          "type": "p",
-          "text": "Sidell, 69, also could not set foot in the school or those particular ministries’ spaces, Jones said. And Sidell had to disclose his past to those in charge of any non-children or non-student ministries in which he wanted to take part, Jones told congregants, according to an audio recording of the meeting provided to the Guardian."
-        },
-        {
-          "type": "p",
-          "text": "Yet Jones – who was named Brookwood’s senior pastor in late 2022 – also suggested that he personally had only recently learned of Sidell’s status as a registered sex offender."
-        },
-        {
-          "type": "p",
-          "text": "Jones didn’t elaborate. But he said he reacted to that discovery by meeting Sidell and informing him that he could no longer perform with the church’s adult musical band or be a member of the small prayer group – also made up of adults – to which he belonged."
-        },
-        {
-          "type": "p",
-          "text": "Jones also said Brookwood had enacted a new policy requiring “any” registered sex offender attending church services to enter through a specific door, check in with the institution’s security team and then sit with a designated guard. That designated guard would then escort the registered sex offender out of Brookwood after the completion of services, Jones said."
-        },
-        {
-          "type": "p",
-          "text": "As Jones put it, he and his fellow Brookwood leaders believe in “grace and forgiveness” – but, he added, “we felt … there are consequences for actions”."
-        },
-        {
-          "type": "p",
-          "text": "An email to the Guardian from an individual familiar with Brookwood and Sidell contended that the church specifically put those heightened rules in place in either July or August. That was after authorities in Pawleys Island, South Carolina, reported arresting a registered sex offender named Warren Spence Perry for allegedly violating his probation by working at a school and children’s daycare run by a local southern Baptist church."
-        },
-        {
-          "type": "p",
-          "text": "Five other people connected to the Pawleys Island community church and its school, about four hours away from Simpsonville by car, were later also arrested on suspicion of illegally concealing Perry’s involvement with children there."
-        },
-        {
-          "type": "p",
-          "text": "Perry, 70, pleaded guilty in 2023 to sexually exploiting a minor three years earlier, and a proposed federal class-action lawsuit has been filed at the church and school where he had been working, as WCIV and other South Carolina news outlets have reported."
-        },
-        {
-          "type": "p",
-          "text": "Furthermore, the individual who emailed the Guardian about Sidell accurately noted his having founded Rusty Bucket Music, a venue which – according to social media video and images – has hosted youth performers and patrons since its opening in 2019."
-        },
-        {
-          "type": "p",
-          "text": "Videos available online suggest Brookwood leaders have had a presence at Rusty Bucket Music in the South Carolina town of Gray Court, which is adjacent to Simpsonville. Two videos show Jones and his fellow Brookwood pastor JC Thompson delivering prepared, recorded discussions of biblical scripture there."
-        },
-        {
-          "type": "p",
-          "text": "Rusty Bucket Music’s website and its Facebook page had been taken down as of Friday."
-        },
-        {
-          "type": "p",
-          "text": "A professional networking page under Sidell’s name described him as a Brookwood church musician since at least 2013. He reportedly partook in worship ministry, played the keyboard and participated in small men’s groups at Brookwood, according to the Christian church watchdog website MinistryWatch, which first reported on Sidell in late August."
-        },
-        {
-          "type": "p",
-          "text": "The individual who corresponded with the Guardian about Sidell said the Brookwood church has about 5,000 congregants. According to the individual, “Sidell’s sex offender status was not disclosed to many of the people” who served alongside him or encountered him at the ministries in which he was involved."
-        },
-        {
-          "type": "p",
-          "text": "As the individual put it: “Sidell kept this information extremely private.”"
-        },
-        {
-          "type": "p",
-          "text": "Sidell did not immediately respond to a request for comment. Neither did Brookwood."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "At Thursday’s meeting with congregants, Thompson and Jones made it a point to say that their own children were Brookwood congregants, too."
-        },
-        {
-          "type": "p",
-          "text": "“We care about protecting our people,” said Thompson, who also said that Brookwood had security cameras throughout the entirety of its campus, among other safety measures."
-        },
-        {
-          "type": "p",
-          "text": "Another pastor, Matt Plunkett, said all church volunteers must also take an abuse-prevention class."
-        },
-        {
-          "type": "p",
-          "text": "Jones at one point asked the congregation to pray for victims. But at another juncture, in a clear allusion to Sidell and the media’s interest in him, he asserted: “Satan would love to disrupt what’s happening in this church. He would love to disrupt what God is doing in this church.”"
-        },
-        {
-          "type": "p",
-          "text": "The cases centering on Sidell and Perry came amid a broader, years-long scandal involving the handling of matters related to sexual abuse by the Southern Baptist Convention (SBC), the US’s largest Protestant denomination. It is also the second-largest Christian denomination in the US behind the Roman Catholic church."
-        },
-        {
-          "type": "p",
-          "text": "The SBC, a politically influential group of loosely affiliated churches with about 12 million congregants, in June 2022 issued a 205-page document listing hundreds of Baptist leaders and congregants accused or found guilty of sexually abusing children."
-        },
-        {
-          "type": "p",
-          "text": "Neither Sidell nor Perry were named in that specific document."
-        },
-        {
-          "type": "p",
-          "text": "Other religious denominations in the US and across the world besides the SBC and the Roman Catholic church – Christian or otherwise – have also spent years grappling with sexual abuse within their ranks."
-        },
-        {
-          "type": "p",
-          "text": "With respect to his case, Sidell pleaded guilty in 1983 to five charges of child molestation and one of enticing a minor to commit indecent acts, a 1986 Atlanta Journal-Constitution article reported."
-        },
-        {
-          "type": "p",
-          "text": "The newspaper reported that Sidell at one point told detectives that he had molested nine boys whom he knew from serving at the nondenominational First Christian church of Jonesboro, Georgia, as a youth minister. He received six concurrent 10-year prison sentences, the Journal-Constitution reported."
-        },
-        {
-          "type": "p",
-          "text": "The parents of two of Sidell’s victims – a pair of brothers – sued Sidell for $2m. The Journal-Constitution reported that the younger son secured a $500,000 jury verdict, but the award was eliminated entirely after Sidell was granted a new trial on what the outlet termed a legal technicality. The plaintiffs then dropped the litigation, and told the Journal-Constitution that members of their church ostracized them for going public against Sidell."
-        },
-        {
-          "type": "p",
-          "text": "In addition to South Carolina, Sidell is registered as a sex offender in Florida, a US justice department tool shows. Both registrations list a home address in Simpsonville about a mile and a half away from the Brookwood church."
         }
       ],
       "truncated": false,
@@ -15198,61 +15198,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "bbc-1ai6tsq",
-      "source": "bbc",
-      "title": "Passenger train derails in France leaving at least 44 injured",
-      "summary": "France's transport minister says 180 passengers were on board the train operating the Rouen-Caen route in Normandy.",
-      "byline": "Jaroslav Lukiv",
-      "section": "",
-      "published": "2026-09-11T21:25:32.000Z",
-      "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss",
-      "image": {
-        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e072/live/267036e0-ae24-11f1-9042-891b220b1e31.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "At least 44 people have been injured, including one seriously, after a passenger train derailed in northern France, local officials have said."
-        },
-        {
-          "type": "p",
-          "text": "An 18-year-old woman was airlifted in critical condition by helicopter to hospital."
-        },
-        {
-          "type": "p",
-          "text": "Transport Minister Philippe Tabarot said 180 passengers were on board the train that was operating between Rouen and Caen in Normandy."
-        },
-        {
-          "type": "p",
-          "text": "He added that 140 firefighters and other emergency teams were being deployed to the scene of the crash on Friday evening near the commune of Cléon, just south of Rouen."
-        },
-        {
-          "type": "p",
-          "text": "The cause of the derailment was not immediately known."
-        },
-        {
-          "type": "p",
-          "text": "The local authorities activated a mass-casualty response plan after the crash shortly before 20:00 local time (18:00 GMT)."
-        },
-        {
-          "type": "p",
-          "text": "Photographs later emerged showing passengers leaving the crashed train, with French media reporting that three carriages overturned."
-        },
-        {
-          "type": "p",
-          "text": "France's state-owned railway operator SNCF reported \"significant disruptions\" on its routes in the area. It said replacement buses would be provided."
-        },
-        {
-          "type": "p",
-          "text": "The authorities advised the public to avoid the area."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "inqg-2ed7ta",
       "source": "inqg",
       "title": "Weapons, spyware and AI scams: Anthropic exposes Claude misuse",
@@ -19629,27 +19574,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-aqie1w",
-      "source": "abs",
-      "title": "BTOB's Minhyuk to hold solo concert in Manila on Nov. 21",
-      "summary": "K-pop star Lee Minhyuk, also known by his solo stage name Huta, is returning to Manila in November for a solo concert.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-11T11:51:49.000Z",
-      "url": "https://www.abs-cbn.com/entertainment/showbiz/events/2026/9/11/btob-lee-minhyuk-huta-announces-solo-concert-manila-1951",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "K-pop star Lee Minhyuk, also known by his solo stage name Huta, is returning to Manila in November for a solo concert."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "dw-1fs7dwr",
