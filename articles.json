@@ -1,6 +1,6 @@
 {
   "version": "0.15.1",
-  "updated": "2026-09-12T01:27:20.018Z",
+  "updated": "2026-09-12T01:30:53.418Z",
   "sources": [
     {
       "id": "inq",
@@ -52,6 +52,27 @@
     }
   ],
   "articles": [
+    {
+      "id": "abs-i2a5i9",
+      "source": "abs",
+      "title": "Bruno Mars adds third day for ‘The Romantic Tour’ in Bulacan in May 2027",
+      "summary": "Bruno Mars adds a third Philippine show for The Romantic Tour, scheduled on May 18, 2027 at the Philippine Arena in Bulacan.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-12T01:30:22.000Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/music/2026/9/12/bruno-mars-adds-third-day-for-the-romantic-tour-in-bulacan-in-may-2027-0930",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bruno Mars adds a third Philippine show for The Romantic Tour, scheduled on May 18, 2027 at the Philippine Arena in Bulacan."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
     {
       "id": "abs-1nnrb71",
       "source": "abs",
@@ -1684,14 +1705,14 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "star-ajt9c4",
+      "id": "star-r5sh4s",
       "source": "star",
-      "title": "30 bodies recovered from ferry fire; more remains aboard",
-      "summary": "Authorities have recovered 30 cadavers from the MV June Aster, which caught fire off Coron, Palawan, with more remains believed to still be aboard the vessel.",
+      "title": "Palawan ferry fire death toll rises to 35; 53 still missing",
+      "summary": "The death toll from the ferry fire off Coron, Palawan has risen to 35, with 43 survivors and 53 people still missing, the Philippine Coast Guard said Saturday.",
       "byline": "Kristine Daguno-Bersamina",
       "section": "",
       "published": "2026-09-11T23:38:00.000Z",
-      "url": "https://www.philstar.com/headlines/2026/09/12/2555779/30-bodies-recovered-ferry-fire-more-remains-aboard",
+      "url": "https://www.philstar.com/headlines/2026/09/12/2555779/palawan-ferry-fire-death-toll-rises-35-53-still-missing",
       "image": {
         "src": "https://media.philstar.com/photos/2026/09/12/ferry-fire-coron-palawan_2026-09-12_07-35-53.jpg",
         "caption": ""
@@ -1711,7 +1732,7 @@
         },
         {
           "type": "p",
-          "text": "MANILA, Philippines (Updated — The death toll from the ferry fire off Coron, Palawan has risen to 35, with 43 survivors and 53 people still missing, the Philippine Coast Guard said Saturday."
+          "text": "MANILA, Philippines (Updated 8:52 a.m.) — The death toll from the ferry fire off Coron, Palawan has risen to 35, with 43 survivors and 53 people still missing, the Philippine Coast Guard said Saturday."
         },
         {
           "type": "p",
@@ -16813,27 +16834,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-19tmzgc",
-      "source": "abs",
-      "title": "Sara Duterte says impeachment conviction threshold should follow constitution",
-      "summary": "Vice President Sara Duterte said Friday that the constitution should be followed on the issue of how many votes are needed for acquittal or conviction in her impeachment trial.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-11T06:22:19.000Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/11/sara-duterte-says-constitution-needs-to-be-followed-in-impeachment-conviction-threshold-1421",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Vice President Sara Duterte said Friday that the constitution should be followed on the issue of how many votes are needed for acquittal or conviction in her impeachment trial."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "bbc-1phjobk",
