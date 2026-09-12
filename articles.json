@@ -1,6 +1,6 @@
 {
   "version": "0.15.1",
-  "updated": "2026-09-12T19:00:56.492Z",
+  "updated": "2026-09-12T19:31:03.419Z",
   "sources": [
     {
       "id": "inq",
@@ -52,6 +52,105 @@
     }
   ],
   "articles": [
+    {
+      "id": "inq-1bvvtl4",
+      "source": "inq",
+      "title": "Police arrest two DI-linked teens after shootout in Maguindanao",
+      "summary": "COTABATO CITY, BARMM, Philippines — Two suspected Moro extremists were injured in a shootout with police authorities in Shariff Aguak, Maguindanao del Sur during the implementation of election gun…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-12T19:17:11.000Z",
+      "url": "https://newsinfo.inquirer.net/2304262/police-arrest-two-di-linked-teenagers-after-shootout-in-maguindanao",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/DI-linked-teenagers-after-shootout-in-Maguindanao-del-Sur-13September2026-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "COTABATO CITY, BARMM, Philippines — Two suspected Moro extremists were injured in a shootout with police authorities in Shariff Aguak, Maguindanao del Sur during the implementation of election gun ban on Friday afternoon, Sept. 11, police said. Capt. Steffi Salanguit, speaking for police in the Bangsamoro Autonomous Region (PRO-BAR), said the suspects were on board a motorbike and was flagged down at a checkpoint in Barangay Poblacion 2 for gun ban inspection at about 3 p.m. She identified the suspects as alias “Sob” and alias “Abs,” both residents of Barangay Kitango, Datu Saudi Ampatuan, Maguindanao del Sur. “The driver ignored the [&hellip;]... Keep on reading: Police arrest two DI-linked teens after shootout in Maguindanao"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "HTTP 403"
+    },
+    {
+      "id": "grd-11asy2o",
+      "source": "grd",
+      "title": "Former US detention officer charged with 20 counts of felony forgery",
+      "summary": "<p>Michael Diehl allegedly forged magistrates’ signatures in North Carolina to allow enough time for ICE to take custody of prisoners</p><p>A former Guilford county detention officer in North…",
+      "byline": "Keely Aouga",
+      "section": "North Carolina",
+      "published": "2026-09-12T18:56:37.000Z",
+      "url": "https://www.theguardian.com/us-news/2026/sep/12/former-detention-officer-north-carolina-charged-felony-forgery",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/30174bf1dcc67dde1990eb801756c23d853e24a7/171_0_1706_1365/master/1706.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=f6856a33681ce9b9ceef72e81009d8f4",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A former Guilford county detention officer in North Carolina faces forgery charges in connection to 20 alleged forged Immigration and Customs Enforcement (ICE) detainment documents, according to a Guilford county sheriff’s office (GCSO) news release."
+        },
+        {
+          "type": "p",
+          "text": "Guilford county’s sheriff, Danny H Rogers, reported that on Friday the Guilford county magistrate’s office notified the GCSO of a potentially forged court document submitted by GCSO detention officer Michael Diehl, 40."
+        },
+        {
+          "type": "p",
+          "text": "“The document, entitled ‘Order After Receipt of ICE Detainer and Administrative Warrant’, an AOC-CR-662 form, was associated with an Immigration and Customs Enforcement (ICE) detainer issued for inmate Claudio Nepornuceno,” the statement read."
+        },
+        {
+          "type": "p",
+          "text": "“Upon review, the Magistrate’s Office and GCSO Detention staff determined that the document contained the allegedly forged signature of a different magistrate who didn’t process Nepornuceno’s initial arrest,” the statement added."
+        },
+        {
+          "type": "p",
+          "text": "Under North Carolina law, when inmates are subject to an ICE detainer, they must see a magistrate with a copy of the ICE detainer. Afterwards, the magistrate can issue an AOC-CR-662 form, which allows the detention center to hold the inmate for up to 48 hours beyond the time they would otherwise be entitled to be released from custody. The 48-hour window allows ICE an opportunity to take custody of the inmate."
+        },
+        {
+          "type": "p",
+          "text": "However, the GCSO found that Nepornuceno was not presented before the magistrate with the detainer. Instead, the form containing the magistrate’s allegedly forged signature was submitted."
+        },
+        {
+          "type": "p",
+          "text": "A further investigation into the GCSO’s jail booking records identified 19 additional AOC-CR-662 forms associated with 19 additional inmates that contained allegedly forged signatures of magistrates."
+        },
+        {
+          "type": "p",
+          "text": "The investigation found that in each of these 20 cases, ICE had issued a detainer based on evidence that the inmate who was the subject of the detainer was in violation of US immigration law."
+        },
+        {
+          "type": "p",
+          "text": "During the GCSO’s criminal investigation into the matter, Diehl’s employment with the sheriff’s office was terminated."
+        },
+        {
+          "type": "p",
+          "text": "And as a result of the investigation, Diehl was arrested and charged with 20 counts of felony common law forgery."
+        },
+        {
+          "type": "p",
+          "text": "He received a $5,000 secured bond and has since been released from custody."
+        },
+        {
+          "type": "p",
+          "text": "The investigation remains ongoing and additional charges may follow."
+        },
+        {
+          "type": "p",
+          "text": "The investigation into Diehl comes as the Trump administration’s immigration crackdown continues across the country."
+        },
+        {
+          "type": "p",
+          "text": "Since Trump’s inauguration, a record number of individuals – more than 70,000 – have been detained by ICE."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
     {
       "id": "abs-lbiv9k",
       "source": "abs",
@@ -5146,61 +5245,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "grd-kzm034",
-      "source": "grd",
-      "title": "Calls for Democrats to be shot go unchallenged at Republican convention",
-      "summary": "<p>Crowd member repeatedly said some Democrats ‘should be shot’ during Ted Cruz’s speech, without senator responding</p><p>On the night Republicans gathered to mourn the killing of Charlie Kirk and…",
-      "byline": "Joseph Gedeon in Washington",
-      "section": "Republicans",
-      "published": "2026-09-12T12:36:55.000Z",
-      "url": "https://www.theguardian.com/us-news/2026/sep/12/democrats-republican-midterm-convention",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/c3d255de99bd2e379acfcdce14151f76ae2a1d0a/515_0_4720_3776/master/4720.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ce381b81ca6049f87d625eca436fc19a",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "On the night Republicans gathered to mourn the killing of Charlie Kirk and warn against the dangers of violent rhetoric, a crowd at the party’s irregular midterm convention in Dallas repeatedly called for a sitting Senate candidate to be shot, while the Republican senator at the podium never denounced or even noted the outbursts."
-        },
-        {
-          "type": "p",
-          "text": "The outbursts came repeatedly during Ted Cruz’s Thursday night address at the American Airlines center, when he named a Democrat he accused of holding radical views. After the senator mentioned the New York City mayor, Zohran Mamdani, video footage depicts at least one audience member shouting: “He should be shot!” The same cry followed when Cruz named Michigan Senate candidate Abdul El-Sayed, and again after he named Texas Senate candidate James Talarico. Cruz did not pause or respond to the shouting, and it remains unclear whether he heard it from the stage. Cruz did not respond to a request for comment."
-        },
-        {
-          "type": "p",
-          "text": "Cruz had accused Mamdani of wanting to seize the means of production, said El-Sayed felt an “obligation” to follow Sharia law and claimed Talarico wanted to dismantle capitalism. Each characterization stretched past remarks the three men had actually made in other contexts."
-        },
-        {
-          "type": "p",
-          "text": "Asked about the moment on CNN’s The Source With Kaitlan Collins, El-Sayed said such rhetoric had become dangerously normalized and that it should unsettle anyone who heard it. He called on Republicans to name the chant for what it was: incitement that both parties ought to reject, and appealed for a return to a politics centered on people’s basic needs and dignity."
-        },
-        {
-          "type": "p",
-          "text": "“Look, I’m a dad with two daughters, and I hope those daughters get to grow up and live with their dad. This is what has become the norm in our politics … literally calls to violence and the inability for anybody to actually call it out,” El-Sayed said."
-        },
-        {
-          "type": "p",
-          "text": "“We can learn to disagree agreeably, and when you hear that kind of call to violence, it should be shuddering to all of us,” he added."
-        },
-        {
-          "type": "p",
-          "text": "A spokesperson for Mike Rogers, the Republican former congressman challenging El-Sayed for Michigan’s open Senate seat who was in Dallas for the convention, said Rogers condemned the remarks and “all political violence”."
-        },
-        {
-          "type": "p",
-          "text": "The convention fell on the first anniversary of the assassination of conservative commentator Charlie Kirk, an occasion Republican speakers repeatedly invoked, including the vice-president, JD Vance, who spoke of his friendship with Kirk during a headlining address."
-        },
-        {
-          "type": "p",
-          "text": "El-Sayed is locked in one of the cycle’s most closely watched Senate races. A CNN poll released on Wednesday showed him leading Rogers 47% to 44% in the contest to succeed the retiring Democratic senator Gary Peters, as both parties fight for control of the chamber."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "inq-1ho2j91",
       "source": "inq",
       "title": "Gilas routs Kazakhstan, stays alive in Asian Games quarterfinals race",
@@ -7307,30 +7351,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-b5m39k",
-      "source": "inq",
-      "title": "Calleja: VP conviction vote threshold could drop to 13 with 20 senators",
-      "summary": "MANILA, Philippines &#8211; The number of votes needed to convict Vice President Sara Z. Duterte could fall to 13 if only 20 senators are legally able to function and participate as senator-judges…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-12T11:15:35.000Z",
-      "url": "https://newsinfo.inquirer.net/2304129/calleja-vp-conviction-vote-threshold-could-drop-to-13-with-20-senators",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Senate-impeachment-court-9september2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8211; The number of votes needed to convict Vice President Sara Z. Duterte could fall to 13 if only 20 senators are legally able to function and participate as senator-judges when the impeachment court renders judgment, according to one interpretation of the Constitution being advanced outside the prosecution panel. “We are applying two-thirds kasi tignan po natin ang batas, concurrence of two-thirds of all members. Hindi sinabing 16, hindi sinabing 24. So, movable po yung number ng two-thirds, movable din yung number ng all members,” lawyer Howard Calleja stressed during the Saturday News Forum at Dapo Restaurant in Quezon [&hellip;]... Keep on reading: Calleja: VP conviction vote threshold could drop to 13 with 20 senators"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "HTTP 403"
     },
     {
       "id": "cbc-tsvvw1",
