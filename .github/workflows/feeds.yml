@@ -30,6 +30,10 @@ on:
       - "net.mjs"
       - "breaking-notify.mjs"
       - "breaking-state.json"
+      - "notifications.js"
+      - "app.js"
+      - "sw.js"
+      - "version.js"
       - ".github/workflows/feeds.yml"
 
 # Needed so the job can commit the file it writes.
