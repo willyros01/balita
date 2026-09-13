@@ -83,6 +83,9 @@ jobs:
         continue-on-error: true
         env:
           GOOGLE_ACCESS_TOKEN: ${{ steps.google-auth.outputs.access_token }}
+          # A release commit bearing the exact marker below sends one clearly
+          # labelled Inquirer test alert. Ordinary runs always remain strict.
+          WIRE_TEST_INQUIRER: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, '[test-inquirer-alert]') && '1' || '0' }}
 
       - name: Commit if anything changed
         run: |

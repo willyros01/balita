@@ -16,6 +16,7 @@ const STATE_FILE = "breaking-state.json";
 const APPROVED_SOURCES = new Set([
   "inq", "inqn", "inqg", "cbc", "bbc", "gma", "dw", "abs"
 ]);
+const INQUIRER_SOURCES = new Set(["inq", "inqn", "inqg"]);
 const MARKER = /^\s*(?:\[(?:breaking|just\s+in|urgent|live)\]|(?:breaking|just\s+in|urgent|live)\s*[:\u2014\u2013-])\s*/i;
 
 const MAX_PER_RUN = 1;
@@ -136,7 +137,7 @@ async function sendOne(accessToken, subscription, article, sourceName){
 async function main(){
   const feed = JSON.parse(await readFile(ARTICLES_FILE, "utf8"));
   const articles = Array.isArray(feed.articles) ? feed.articles : [];
-  const candidates = articles.filter(qualifies)
+  const strictCandidates = articles.filter(qualifies)
     .sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0));
 
   let state = await loadState();
@@ -144,7 +145,7 @@ async function main(){
     state = {
       version: 1,
       initializedAt: new Date().toISOString(),
-      seenIds: candidates.map(a => a.id).filter(Boolean).slice(0, MAX_SEEN_IDS),
+      seenIds: strictCandidates.map(a => a.id).filter(Boolean).slice(0, MAX_SEEN_IDS),
       sent: []
     };
     await saveState(state);
@@ -158,6 +159,13 @@ async function main(){
     return Number.isFinite(at) && now - at < MIN_ALERT_GAP_MS;
   });
   const seen = new Set(state.seenIds);
+  const testInquirer = process.env.WIRE_TEST_INQUIRER === "1";
+  const candidates = testInquirer
+    ? articles
+      .filter(a => a?.id && INQUIRER_SOURCES.has(a.source) && !seen.has(a.id))
+      .sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0))
+      .slice(0, 1)
+    : strictCandidates;
   const newCandidates = candidates.filter(a => a.id && !seen.has(a.id));
 
   /* Every candidate is marked seen now, even when a quota suppresses it.
@@ -189,13 +197,18 @@ async function main(){
   }
 
   for(const article of selected){
+    const notificationArticle = testInquirer
+      ? { ...article, title: `[Test] ${article.title}` }
+      : article;
     const results = await Promise.all(
-      devices.map(device => sendOne(accessToken, device, article, sourceNames.get(article.source)))
+      devices.map(device => sendOne(accessToken, device, notificationArticle, sourceNames.get(article.source)))
     );
     const delivered = results.filter(Boolean).length;
     if(delivered){
       state.sent.push({ id: article.id, source: article.source, sentAt: new Date().toISOString() });
-      console.log(`Sent one strictly marked alert to ${delivered} device or devices.`);
+      console.log(testInquirer
+        ? `Sent one Inquirer test alert to ${delivered} device or devices.`
+        : `Sent one strictly marked alert to ${delivered} device or devices.`);
     }else{
       console.warn("The marked alert could not be delivered to any subscribed device.");
     }
