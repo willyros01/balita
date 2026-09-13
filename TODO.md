@@ -78,7 +78,9 @@ one appears.
 Sources buttons that had been dead since 0.7.0 · refresh button · crash
 reporting on the Sources screen · DW capped at 25, every other source uncapped · Sunrise and sunset drive day and night · GitHub token reminder behind a
 passcode · horizontal overflow that pushed the page off-screen · service
-worker no longer freezes on an old version if a file is missing ·
+worker no longer freezes on an old version if a file is missing · strictly limited
+breaking-news notifications · keyless GitHub-to-Google identity · per-device
+notification opt in and removal · device Focus and Do Not Disturb preserved ·
 Guardian's entity limit · stale stories held while awaiting re-extraction ·
 invisible toast blocking every tap on iPhone · Delete as a labelled button ·
 Doorway to Cloudflare · re-extraction when the rules change · invented

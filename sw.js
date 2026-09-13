@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.16.4";
+const VERSION = "wire-v0.17.0";
 const SHELL = [
   "./",
   "./index.html",
@@ -27,6 +27,7 @@ const SHELL = [
   "./tokens.css",
   "./app.css",
   "./app.js",
+  "./notifications.js",
   "./config.js",
   "./store.js",
   "./display.js",
@@ -109,4 +110,51 @@ self.addEventListener("fetch", event => {
 /* Lets the page force an update without the user clearing anything. */
 self.addEventListener("message", event => {
   if(event.data === "skip-waiting") self.skipWaiting();
+});
+
+/* ---------------- breaking-news push ----------------
+
+   These are ordinary web notifications. No sound, critical-alert flag,
+   time-sensitive flag or persistent prompt is requested, leaving Focus
+   and Do Not Disturb entirely under the device's control. */
+self.addEventListener("push", event => {
+  let payload = {};
+  try{ payload = event.data ? event.data.json() : {}; }
+  catch(err){ payload = { data: { title: event.data ? event.data.text() : "" } }; }
+
+  const data = payload.data || {};
+  const articleId = String(data.articleId || "");
+  const source = String(data.sourceName || "News");
+  const headline = String(data.title || "Breaking news");
+  const path = articleId ? "?article=" + encodeURIComponent(articleId) : "./";
+
+  event.waitUntil(self.registration.showNotification("Wire · " + source, {
+    body: headline,
+    icon: new URL("icon-192.png", self.registration.scope).href,
+    badge: new URL("icon-192.png", self.registration.scope).href,
+    tag: articleId ? "wire-breaking-" + articleId : "wire-breaking",
+    renotify: false,
+    data: { path }
+  }));
+});
+
+self.addEventListener("notificationclick", event => {
+  event.notification.close();
+
+  let target = new URL(event.notification.data?.path || "./", self.registration.scope);
+  const scope = new URL(self.registration.scope);
+  if(target.origin !== scope.origin || !target.pathname.startsWith(scope.pathname)){
+    target = scope;
+  }
+
+  event.waitUntil(
+    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(async windows => {
+      const open = windows.find(client => client.url.startsWith(self.registration.scope));
+      if(open){
+        const navigated = "navigate" in open ? await open.navigate(target.href) : open;
+        return (navigated || open).focus();
+      }
+      return self.clients.openWindow(target.href);
+    })
+  );
 });

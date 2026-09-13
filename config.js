@@ -28,6 +28,23 @@ export const FIREBASE = {
 };
 */
 
+/* Push notifications use their own Firebase app. This is deliberately
+   separate from FIREBASE above: turning on breaking-news alerts must not
+   change where reading settings or the source list are stored. These are
+   public web-app identifiers, not credentials. */
+export const PUSH_FIREBASE = {
+  apiKey:            "AIzaSyBZvfBBSi7agKL-BL2dB3RELvmaOWkQoC4",
+  authDomain:        "wire-news-6da5a.firebaseapp.com",
+  projectId:         "wire-news-6da5a",
+  storageBucket:     "wire-news-6da5a.firebasestorage.app",
+  messagingSenderId: "927723710869",
+  appId:             "1:927723710869:web:4090ac3e3454bc79e6ae9c"
+};
+
+/* Public Web Push certificate generated in Firebase Console. */
+export const PUSH_VAPID_KEY =
+  "BE-egct9fJ1D7lprEjdF1Lh4zw0nfhW8uNV39DjAlsGIQiPYT8SwUIWX1VDodgmxziccI7xsXGzOHxntbATTK8Q";
+
 /* Text size, in pixels, one entry per step of the A+ button.
    Each step is about a fifth larger than the one before, which is
    roughly the smallest jump the eye reliably notices.

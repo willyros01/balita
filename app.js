@@ -12,6 +12,7 @@ import * as display from "./display.js";
 import * as feed    from "./feed.js";
 import * as reader  from "./reader.js";
 import * as sources from "./sources.js";
+import * as notifications from "./notifications.js";
 
 const state = {
   sources:     [],
@@ -276,9 +277,16 @@ async function start(){
   renderAbout();
   watchNetwork();
   registerWorker();
+  notifications.setup({ announce, onTap });
 
   const btn = document.getElementById("refresh");
   if(btn) onTap(btn, refresh);
+
+  const requestedArticle = new URLSearchParams(location.search).get("article");
+  if(requestedArticle && state.articles.some(a => a.id === requestedArticle)){
+    ctx.openArticle(requestedArticle);
+    history.replaceState(null, "", location.pathname + location.hash);
+  }
 
   measureWidth();
 

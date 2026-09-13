@@ -6,6 +6,44 @@ Twenty minutes, all in Safari, free, no card. Two accounts, two things to
 create. Every value you need to type is written out below — nothing is left
 for you to work out.
 
+## cron-job.org interface contract
+
+Use these exact production values for this repository:
+
+| Field | Value |
+|---|---|
+| Job title | `Wire news` |
+| URL | `https://api.github.com/repos/willyros01/balita/dispatches` |
+| Method | `POST` |
+| Schedule | Every 30 minutes, preferably minutes `7` and `37` |
+| Body | `{"event_type":"fetch-news"}` |
+| Expected response | HTTP `204` with an empty body |
+| GitHub event received | `repository_dispatch` with type `fetch-news` |
+
+Required request headers:
+
+| Header | Value |
+|---|---|
+| `Accept` | `application/vnd.github+json` |
+| `Content-Type` | `application/json` |
+| `Authorization` | `Bearer github_pat_…` |
+| `X-GitHub-Api-Version` | `2022-11-28` |
+
+The fine-grained token is the only secret held by cron-job.org. It must be
+restricted to `willyros01/balita` with repository **Contents: Read and write**.
+Never place it in the URL, body, screenshots, repository, or job title.
+
+Operational ownership:
+
+- cron-job.org owns timing and makes one authenticated HTTP request.
+- GitHub validates the token and emits `repository_dispatch`.
+- `.github/workflows/feeds.yml` owns all fetching, notification decisions,
+  commits, and logs.
+- A failed job may be retried, but `breaking-state.json` prevents duplicate
+  alerts for a story already processed.
+- Pause the cron job to stop external triggers. Revoke the GitHub token to
+  terminate its access immediately.
+
 **Have `schedule-diagram.svg` open beside this** if you want to see how the
 three pieces fit together.
 
@@ -171,13 +209,14 @@ exactly this, including the braces and quotation marks:
 ### 2.9 — Headers
 
 Find **Headers** — usually a small table with **Add header** beneath it. Add
-three, one at a time.
+four, one at a time.
 
 | Name | Value |
 |---|---|
 | `Accept` | `application/vnd.github+json` |
 | `Content-Type` | `application/json` |
 | `Authorization` | `Bearer github_pat_YOUR-KEY-HERE` |
+| `X-GitHub-Api-Version` | `2022-11-28` |
 
 For the third, type the word `Bearer`, then one space, then paste the key
 from step 1.9.

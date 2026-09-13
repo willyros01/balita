@@ -7,6 +7,20 @@ Every file in this version sits at the top level, with no folders. That is
 what makes this possible on a tablet — Safari cannot drag a folder into
 GitHub, but it can select a batch of loose files.
 
+## Current production documentation
+
+The instructions below preserve the original iPad installation history. For
+the current production integrations, use these authoritative documents:
+
+- `NOTIFICATIONS.md` — Firebase, FCM, Firestore, GitHub identity, limits,
+  testing, and emergency stop.
+- `DOORWAY.md` — the complete Cloudflare Worker request interface.
+- `SCHEDULE.md` — the complete cron-job.org to GitHub request interface.
+
+Version `0.17.0` adds `notifications.js`, `breaking-notify.mjs`, and
+`breaking-state.json`, and changes `.github/workflows/feeds.yml`, `sw.js`,
+`app.js`, `index.html`, `app.css`, `config.js`, and `version.js`.
+
 ---
 
 ## Upgrading to 0.8.0 — read this first
@@ -315,13 +329,14 @@ that same screen and make another.
      {"event_type":"fetch-news"}
      ```
 
-   - **Headers** — add three:
+   - **Headers** — add four:
 
      | Key | Value |
      |---|---|
      | `Accept` | `application/vnd.github+json` |
      | `Authorization` | `Bearer YOUR-TOKEN-HERE` |
      | `Content-Type` | `application/json` |
+     | `X-GitHub-Api-Version` | `2022-11-28` |
 
 7. **Create**, then use **Test run**.
 

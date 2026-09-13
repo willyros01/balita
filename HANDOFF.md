@@ -62,6 +62,27 @@ HTML, so nothing from a news site can carry a script to the reader.
 `blocks` is the safety boundary. The reader draws only the types it knows;
 anything else is dropped.
 
+## Breaking-news notifications — 0.17.0
+
+Push is deliberately separate from the dormant settings-sync path.
+`config.js` keeps `FIREBASE = null`; `PUSH_FIREBASE` and the public VAPID key
+are used only by `notifications.js`. A device opts in with a visible button,
+receives an anonymous device identity, and may write only its own
+`pushSubscriptions/{uid}` document.
+
+`breaking-notify.mjs` runs after the feed fetch. It accepts only `inq`,
+`inqn`, `inqg`, `cbc`, `bbc`, and `grd`, and only a headline beginning with a
+punctuated or bracketed publisher marker: Breaking, Just In, Urgent, or Live.
+The hard limits are one per run, no more than one in any rolling 30-minute
+period, and one per article. Suppressed candidates are marked seen rather
+than queued. The initial `breaking-state.json` baseline sent nothing.
+
+GitHub authenticates through the `wire-github/balita-main` Workload Identity
+provider as `wire-news-sender@wire-news-6da5a.iam.gserviceaccount.com`. The
+provider condition admits only `willyros01/balita` on `refs/heads/main`.
+There is no permanent service-account key. Read `NOTIFICATIONS.md` before
+changing any part of this boundary.
+
 ---
 
 ## Rules learned the hard way
@@ -591,8 +612,9 @@ auto → day → night.
   **The lesson worth keeping: never swallow an error.** An empty catch
   block cost more time here than every other bug combined.
 - **Scheduling.** Needs an external service; GitHub's own has never worked.
-- **Firebase is not configured.** `config.js` has `FIREBASE = null`, so
-  settings live on each device separately. Optional.
+- **Settings sync remains disabled.** `config.js` keeps `FIREBASE = null`, so
+  reading settings stay on each device. The separate push configuration is
+  active only after a device opts in.
 - **Re-extraction.** Improving the extractor does not improve stories
   already collected, because they are reused rather than re-fetched. There
   is no way to force a rebuild short of deleting `articles.json`.

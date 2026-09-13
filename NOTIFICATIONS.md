@@ -1,0 +1,214 @@
+# Breaking-news notifications
+
+This document is the complete operating contract for Wire's notification
+feature. The reading app still works without notifications, and notification
+registration is separate from reading settings and source preferences.
+
+## Fixed project resources
+
+| Resource | Value |
+|---|---|
+| Firebase project | `wire-news-6da5a` |
+| Google Cloud project number | `927723710869` |
+| Firestore database | `(default)`, location `nam5` |
+| Web app | `Wire Web` |
+| Sender service account | `wire-news-sender@wire-news-6da5a.iam.gserviceaccount.com` |
+| Workload Identity pool | `wire-github` |
+| Workload Identity provider | `balita-main` |
+| Allowed GitHub repository | `willyros01/balita` |
+| Allowed GitHub ref | `refs/heads/main` |
+
+The web app configuration and VAPID public key in `config.js` are public
+identifiers. No private service-account key belongs in the repository.
+
+## Device registration interface
+
+1. The reader taps **Turn on** under **Breaking-news notifications**.
+2. `notifications.js` asks the browser for notification permission.
+3. Firebase Anonymous Authentication creates a device-local identity.
+4. Firebase Cloud Messaging returns a registration token using the public
+   VAPID key and the existing `sw.js` registration.
+5. The app writes one document to:
+
+   ```text
+   pushSubscriptions/{anonymous-auth-uid}
+   ```
+
+The document schema is:
+
+```text
+token      string       FCM registration token
+enabled    boolean      true while subscribed
+updatedAt  timestamp    server-generated refresh time
+```
+
+Firestore rules allow an authenticated anonymous device to read, create,
+update, or delete only the document whose id matches its own UID. Every other
+client read or write is denied. The server-side sender uses IAM and is not
+governed by client security rules.
+
+The deployed rule source is preserved as `firestore.rules`. Update that file
+whenever the deployed rules change so the security boundary remains auditable.
+
+Turning notifications off deletes the subscription document and asks FCM to
+delete the local token. Clearing all browser data can leave an old document;
+the sender removes it after FCM reports that the token is unregistered.
+
+## Breaking-news decision policy
+
+All gates must pass. The sender does not infer importance from subject matter.
+
+### Approved sources
+
+| Feed id | Outlet |
+|---|---|
+| `inq` | Inquirer |
+| `inqn` | Inquirer News |
+| `inqg` | Inquirer Global |
+| `cbc` | CBC Top Stories |
+| `bbc` | BBC World |
+| `grd` | The Guardian |
+
+### Approved publisher markers
+
+The headline must begin with one of these publisher-written markers, followed
+by punctuation, or place the marker in square brackets:
+
+```text
+Breaking:
+Just In:
+Urgent:
+Live:
+[Breaking]
+[Just In]
+[Urgent]
+[Live]
+```
+
+Matching is case-insensitive. A marker appearing later in a headline does not
+qualify. Ordinary headlines and headlines from every other source are ignored.
+
+### Hard frequency limits
+
+| Limit | Value |
+|---|---|
+| Per workflow run | 1 alert maximum |
+| All sources combined | 1 alert maximum in any rolling 30-minute period |
+| Per article | Once only |
+
+Every qualifying story is marked seen, including one suppressed by a limit.
+Suppressed stories do not form a backlog and cannot create a later flood.
+`breaking-state.json` holds this deduplication and quota state. Its first
+baseline was created without sending any historical alerts.
+
+## GitHub-to-Google interface
+
+`.github/workflows/feeds.yml` requests GitHub's short-lived OIDC token with:
+
+```yaml
+permissions:
+  contents: write
+  id-token: write
+```
+
+`google-github-actions/auth@v3` exchanges that identity through:
+
+```text
+projects/927723710869/locations/global/workloadIdentityPools/wire-github/providers/balita-main
+```
+
+The provider admits only the repository and `main` branch listed above. The
+resulting access token is passed in memory to `breaking-notify.mjs`. It is not
+stored in GitHub, printed, or committed.
+
+Authentication and notification steps are non-blocking for the news fetch. A
+temporary Google or FCM failure is shown as a workflow warning, while the new
+`articles.json` is still committed so notifications cannot make the reader
+stale.
+
+The sender service account has only the project roles needed to read/delete
+subscription documents and send FCM messages:
+
+```text
+roles/datastore.user
+roles/firebasecloudmessaging.admin
+```
+
+## Sender interfaces
+
+The sender lists subscription documents through the Firestore REST API and
+sends a data-only message through FCM HTTP v1. The data fields are strings:
+
+```text
+articleId   Wire article id
+sourceName  display name, limited to 40 characters
+title       publisher headline, limited to 220 characters
+```
+
+Web Push headers are:
+
+```text
+TTL: 3600
+Urgency: normal
+```
+
+No sound, critical-alert setting, time-sensitive setting, or persistent prompt
+is requested. The operating system therefore remains responsible for Focus,
+Do Not Disturb, notification summaries, and user notification settings.
+
+## Service-worker interface
+
+`sw.js` receives the data message, displays one notification tagged with the
+article id, and opens:
+
+```text
+./?article={articleId}
+```
+
+`app.js` validates that the id exists in the current `articles.json`, opens the
+reader, and removes the query string from browser history. The service worker
+rejects click destinations outside its own GitHub Pages scope.
+
+## Required Firebase Console settings
+
+1. **Authentication → Sign-in method → Anonymous:** Enabled.
+2. **Authentication → Settings → Authorized domains:**
+   `willyros01.github.io` must be present.
+3. **Project settings → Cloud Messaging → Web Push certificates:** the public
+   key in `config.js` must be the active key.
+4. Firestore rules must restrict clients to their own
+   `pushSubscriptions/{uid}` document.
+
+## Acceptance test
+
+1. Wait for the GitHub Pages deployment of version `0.17.0`.
+2. On iPhone or iPad, remove the previous Home Screen installation and install
+   Wire again if the notification control does not appear.
+3. Open Wire from its Home Screen icon.
+4. Tap **Turn on** and allow notifications.
+5. Confirm the status reads **On for this device**.
+6. In GitHub Actions, run **Fetch news**. A normal run should report
+   `No new strictly marked breaking stories.` and send nothing.
+7. Do not manufacture a live alert by editing `articles.json`. Use the isolated
+   test procedure below before any production-message test is added.
+8. Turn on device Focus or Do Not Disturb before a real notification test and
+   confirm the operating system suppresses or delays it according to the
+   device's own settings.
+
+## Failure guide
+
+| Message | Meaning |
+|---|---|
+| `auth/unauthorized-domain` | Add `willyros01.github.io` under Firebase Authentication authorized domains |
+| Permission was not granted | Enable notifications in device settings, then reopen the installed app |
+| Browser cannot enable notifications | On iPhone/iPad, install to the Home Screen and open from the icon |
+| Could not read subscriptions | Check the sender's Firestore IAM role |
+| FCM HTTP 403 | Check the Cloud Messaging IAM role and API |
+| No subscribed devices | Turn on notifications in the installed app |
+| No new strictly marked stories | Normal; nothing passed every gate |
+
+## Emergency stop
+
+To stop delivery without changing the app, disable the **Fetch news** workflow
+or remove `roles/firebasecloudmessaging.admin` from the sender service account.
+To stop one device, tap **Turn off** in Wire.

@@ -22,10 +22,14 @@ on:
       - "extract.mjs"
       - "discover.mjs"
       - "net.mjs"
+      - "breaking-notify.mjs"
+      - "breaking-state.json"
+      - ".github/workflows/feeds.yml"
 
 # Needed so the job can commit the file it writes.
 permissions:
   contents: write
+  id-token: write
 
 # A queued run stays pinned to the commit that created it. One left
 # waiting for two hours eventually ran with hours-old code and undid
@@ -53,6 +57,18 @@ jobs:
       - name: Install
         run: npm install --no-audit --no-fund
 
+      # Exchanges GitHub's five-minute identity for a short-lived Google
+      # access token. There is no stored service-account key.
+      - name: Authenticate notification sender
+        id: google-auth
+        uses: google-github-actions/auth@v3
+        continue-on-error: true
+        with:
+          project_id: wire-news-6da5a
+          workload_identity_provider: projects/927723710869/locations/global/workloadIdentityPools/wire-github/providers/balita-main
+          service_account: wire-news-sender@wire-news-6da5a.iam.gserviceaccount.com
+          token_format: access_token
+
       - name: Fetch the news
         run: node fetch-feeds.mjs
         env:
@@ -62,18 +78,24 @@ jobs:
           WIRE_DOOR_URL: ${{ secrets.WIRE_DOOR_URL }}
           WIRE_KEY: ${{ secrets.WIRE_KEY }}
 
+      - name: Send tightly limited breaking-news alerts
+        run: node breaking-notify.mjs
+        continue-on-error: true
+        env:
+          GOOGLE_ACCESS_TOKEN: ${{ steps.google-auth.outputs.access_token }}
+
       - name: Commit if anything changed
         run: |
           git config user.name  "balita-bot"
           git config user.email "balita-bot@users.noreply.github.com"
 
-          if git diff --quiet articles.json; then
+          if git diff --quiet articles.json breaking-state.json; then
             echo "Nothing new."
             exit 0
           fi
 
           COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('articles.json','utf8')).articles.length)")
-          git add articles.json
+          git add articles.json breaking-state.json
           git commit -m "News: $COUNT stories"
 
           # Another run may have landed while this one was working.

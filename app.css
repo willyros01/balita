@@ -527,6 +527,35 @@ input[type="text"], input[type="url"]{
 .presets h3{ font-family: var(--font-head); font-size: 1.15em; margin: 0 0 0.6rem; }
 .preset-wrap{ display: flex; flex-wrap: wrap; gap: 0.4rem; }
 
+/* ---------------- breaking-news opt in ---------------- */
+.breaking{
+  max-width: var(--measure); margin: 0 auto;
+  padding: 1.1rem var(--sp);
+  display: flex; align-items: center; gap: 1rem;
+  border-top: var(--rule-w) solid var(--rule);
+  background: var(--surface);
+}
+.breaking-copy{ flex: 1; min-width: 0; }
+.breaking h2{
+  font-family: var(--font-head); font-size: 1.15em;
+  margin: 0 0 0.25rem;
+}
+.breaking p{
+  color: var(--muted); font-size: 0.82em; line-height: 1.5;
+  margin: 0;
+}
+.breaking-toggle{ flex: 0 0 auto; min-width: 7rem; }
+.breaking-toggle[aria-pressed="true"]{
+  background: transparent; color: var(--ink); border-color: var(--rule);
+}
+body[data-view="reader"] .breaking,
+body[data-view="manage"] .breaking{ display: none; }
+
+@media (max-width: 34rem){
+  .breaking{ align-items: stretch; flex-direction: column; }
+  .breaking-toggle{ width: 100%; }
+}
+
 /* ---------------- about panel ----------------
    Everything you would need to answer "what is running on this
    phone, and when did it last fetch anything". */
