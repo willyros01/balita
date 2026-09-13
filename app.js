@@ -128,6 +128,31 @@ function registerWorker(){
   });
 }
 
+/* A notification can focus an already-open Home Screen app without causing a
+   navigation. Receive its article id directly so tapping the alert still opens
+   the reader. Refresh once first in case the alert refers to a newly fetched
+   story that is not in this window's in-memory feed yet. */
+function listenForNotificationClicks(){
+  if(!("serviceWorker" in navigator)) return;
+
+  navigator.serviceWorker.addEventListener("message", async event => {
+    if(event.data?.type !== "wire-open-article") return;
+    const articleId = String(event.data.articleId || "");
+    if(!articleId) return;
+
+    if(!state.articles.some(article => article.id === articleId)){
+      await loadArticles();
+      ctx.refresh();
+    }
+
+    if(state.articles.some(article => article.id === articleId)){
+      ctx.openArticle(articleId);
+    }else{
+      announce("That story is no longer in the current feed.", "undone");
+    }
+  });
+}
+
 /* ---------------- is anything too wide? ----------------
 
    Four attempts have been made to stop the page overflowing
@@ -277,6 +302,7 @@ async function start(){
   renderAbout();
   watchNetwork();
   registerWorker();
+  listenForNotificationClicks();
   notifications.setup({ announce, onTap });
 
   const btn = document.getElementById("refresh");

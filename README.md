@@ -8,10 +8,11 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.0**
+**0.17.1**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
+- Tapping a notification now opens its story even when Wire is already open.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,
   and ABS-CBN, and only when the publisher begins its headline with Breaking,
   Just In, Urgent, or Live.

@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.0";
+const VERSION = "wire-v0.17.1";
 const SHELL = [
   "./",
   "./index.html",
@@ -134,13 +134,14 @@ self.addEventListener("push", event => {
     badge: new URL("icon-192.png", self.registration.scope).href,
     tag: articleId ? "wire-breaking-" + articleId : "wire-breaking",
     renotify: false,
-    data: { path }
+    data: { articleId, path }
   }));
 });
 
 self.addEventListener("notificationclick", event => {
   event.notification.close();
 
+  const articleId = String(event.notification.data?.articleId || "");
   let target = new URL(event.notification.data?.path || "./", self.registration.scope);
   const scope = new URL(self.registration.scope);
   if(target.origin !== scope.origin || !target.pathname.startsWith(scope.pathname)){
@@ -151,8 +152,13 @@ self.addEventListener("notificationclick", event => {
     self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(async windows => {
       const open = windows.find(client => client.url.startsWith(self.registration.scope));
       if(open){
+        await open.focus();
+        if(articleId){
+          open.postMessage({ type: "wire-open-article", articleId });
+          return open;
+        }
         const navigated = "navigate" in open ? await open.navigate(target.href) : open;
-        return (navigated || open).focus();
+        return navigated || open;
       }
       return self.clients.openWindow(target.href);
     })

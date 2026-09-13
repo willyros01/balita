@@ -179,9 +179,12 @@ article id, and opens:
 ./?article={articleId}
 ```
 
-`app.js` validates that the id exists in the current `articles.json`, opens the
-reader, and removes the query string from browser history. The service worker
-rejects click destinations outside its own GitHub Pages scope.
+If Wire is closed, the query string opens the Home Screen app and `app.js`
+validates the id against the current `articles.json` before opening the reader.
+If Wire is already open, the service worker focuses that window and sends the
+article id through a `wire-open-article` message; the app refreshes stale feed
+data before opening it. The service worker rejects click destinations outside
+its own GitHub Pages scope.
 
 ## Required Firebase Console settings
 
@@ -195,7 +198,7 @@ rejects click destinations outside its own GitHub Pages scope.
 
 ## Acceptance test
 
-1. Wait for the GitHub Pages deployment of version `0.17.0`.
+1. Wait for the GitHub Pages deployment of version `0.17.1`.
 2. On iPhone or iPad, remove the previous Home Screen installation and install
    Wire again if the notification control does not appear.
 3. Open Wire from its Home Screen icon.
