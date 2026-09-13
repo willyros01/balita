@@ -103,6 +103,18 @@ Suppressed stories do not form a backlog and cannot create a later flood.
 `breaking-state.json` holds this deduplication and quota state. Its first
 baseline was created without sending any historical alerts.
 
+### Manual Inquirer delivery test
+
+An operator may open **Actions → Fetch news → Run workflow**, select
+**Send one clearly labelled test alert from the newest unseen Inquirer story**,
+and run the workflow. This manual-only path selects one unseen story from the
+three Inquirer feeds without requiring a publisher marker and prefixes its
+notification title with `[Test]`. It still enforces the shared rolling
+30-minute limit and requires at least one subscribed device.
+
+Scheduled, external, and push-triggered runs cannot activate test mode and
+continue to require every approved publisher-marker gate.
+
 ## GitHub-to-Google interface
 
 `.github/workflows/feeds.yml` requests GitHub's short-lived OIDC token with:

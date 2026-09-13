@@ -180,7 +180,9 @@ async function main(){
     await saveState(state);
     console.log(newCandidates.length
       ? `Suppressed ${newCandidates.length} marked story or stories under the alert limits.`
-      : "No new strictly marked breaking stories.");
+      : testInquirer
+        ? "No unseen Inquirer story is available for the manual test."
+        : "No new strictly marked breaking stories.");
     return;
   }
 
@@ -192,7 +194,9 @@ async function main(){
 
   if(!devices.length){
     await saveState(state);
-    console.log("A marked story was found, but no devices are subscribed. No alert sent.");
+    console.log(testInquirer
+      ? "An Inquirer test story was found, but no devices are subscribed. No alert sent."
+      : "A marked story was found, but no devices are subscribed. No alert sent.");
     return;
   }
 

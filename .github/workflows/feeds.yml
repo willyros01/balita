@@ -7,6 +7,12 @@ on:
     # dropped; odd minutes are far more likely to actually run.
     - cron: "7,37 * * * *"
   workflow_dispatch:      # adds a "Run workflow" button
+    inputs:
+      test_inquirer:
+        description: "Send one clearly labelled test alert from the newest unseen Inquirer story"
+        required: false
+        default: false
+        type: boolean
 
   # An outside service can start a run by posting here. GitHub's own
   # scheduler has never fired once on this repository — free-tier cron
@@ -83,9 +89,9 @@ jobs:
         continue-on-error: true
         env:
           GOOGLE_ACCESS_TOKEN: ${{ steps.google-auth.outputs.access_token }}
-          # A release commit bearing the exact marker below sends one clearly
-          # labelled Inquirer test alert. Ordinary runs always remain strict.
-          WIRE_TEST_INQUIRER: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, '[test-inquirer-alert]') && '1' || '0' }}
+          # Manual test runs may bypass the marker for one Inquirer story.
+          # Scheduled, external, and push runs always remain strict.
+          WIRE_TEST_INQUIRER: ${{ github.event_name == 'workflow_dispatch' && inputs.test_inquirer && '1' || '0' }}
 
       - name: Commit if anything changed
         run: |
