@@ -67,7 +67,9 @@ All gates must pass. The sender does not infer importance from subject matter.
 | `inqg` | Inquirer Global |
 | `cbc` | CBC Top Stories |
 | `bbc` | BBC World |
-| `grd` | The Guardian |
+| `gma` | GMA News |
+| `dw` | DW English |
+| `abs` | ABS-CBN |
 
 ### Approved publisher markers
 

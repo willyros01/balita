@@ -71,8 +71,9 @@ receives an anonymous device identity, and may write only its own
 `pushSubscriptions/{uid}` document.
 
 `breaking-notify.mjs` runs after the feed fetch. It accepts only `inq`,
-`inqn`, `inqg`, `cbc`, `bbc`, and `grd`, and only a headline beginning with a
-punctuated or bracketed publisher marker: Breaking, Just In, Urgent, or Live.
+`inqn`, `inqg`, `cbc`, `bbc`, `gma`, `dw`, and `abs`, and only a headline
+beginning with a punctuated or bracketed publisher marker: Breaking, Just In,
+Urgent, or Live.
 The hard limits are one per run, no more than one in any rolling 30-minute
 period, and one per article. Suppressed candidates are marked seen rather
 than queued. The initial `breaking-state.json` baseline sent nothing.

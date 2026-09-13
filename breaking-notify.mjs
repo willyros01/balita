@@ -13,7 +13,9 @@ const PROJECT_ID = "wire-news-6da5a";
 const ARTICLES_FILE = "articles.json";
 const STATE_FILE = "breaking-state.json";
 
-const APPROVED_SOURCES = new Set(["inq", "inqn", "inqg", "cbc", "bbc", "grd"]);
+const APPROVED_SOURCES = new Set([
+  "inq", "inqn", "inqg", "cbc", "bbc", "gma", "dw", "abs"
+]);
 const MARKER = /^\s*(?:\[(?:breaking|just\s+in|urgent|live)\]|(?:breaking|just\s+in|urgent|live)\s*[:\u2014\u2013-])\s*/i;
 
 const MAX_PER_RUN = 1;

@@ -12,8 +12,8 @@ one tap away, never buried in a menu.
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
-- Alerts are accepted only from the three Inquirer feeds, CBC, BBC, and The
-  Guardian, and only when the publisher begins its headline with Breaking,
+- Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,
+  and ABS-CBN, and only when the publisher begins its headline with Breaking,
   Just In, Urgent, or Live.
 - Hard controls allow no more than one alert in any rolling 30-minute period
   and one alert per article. Suppressed alerts never queue.
