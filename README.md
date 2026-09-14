@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.8**
+**0.17.9**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -29,6 +29,9 @@ one tap away, never buried in a menu.
 - Background-resume routing no longer depends on iOS emitting a lifecycle
   event. The worker broadcasts before and after foregrounding every Wire
   window, while the page consumes the durable route on a one-second heartbeat.
+- RSS feeds are requested directly before using the Cloudflare doorway as a
+  fallback. Empty HTTP errors now retain their real status instead of being
+  reported generically as `no response`.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,
   and ABS-CBN, and only when the publisher begins its headline with Breaking,
   Just In, Urgent, or Live.

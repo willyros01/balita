@@ -120,6 +120,9 @@ test("the page recovers routes on startup and every iOS resume signal", () => {
   assert.match(feedSource, /li\.dataset\.articleId = a\.id/);
   assert.match(readerSource, /returnSource\.name \+ " headlines"/);
   assert.match(fetcherSource, /ARTICLE_DIR \+ "\/" \+ article\.id \+ "\.json"/);
+  assert.match(fetcherSource, /noDoor: true/);
+  assert.ok(fetcherSource.indexOf("if(res.status >= 400)") <
+    fetcherSource.indexOf("if(!res || !res.body)"));
 });
 
 test("the workflow publishes articles before sending their notifications", async () => {

@@ -325,10 +325,31 @@ async function readSource(source){
   let res, firstError = "";
 
   try{
-    res = await get(feedUrl, { accept: "application/rss+xml, application/xml, text/xml, */*" });
+    /* Fetch feeds directly first. The doorway exists for article pages that
+       reject GitHub, but routing newsinfo's public RSS through it can turn a
+       healthy feed into an empty upstream response. */
+    res = await get(feedUrl, {
+      accept: "application/rss+xml, application/xml, text/xml, */*",
+      noDoor: true
+    });
   }catch(err){
     res = null;
     firstError = err && err.message ? err.message : "no response";
+  }
+
+  /* If the runner itself is refused, retain the configured doorway as a
+     fallback rather than making direct access a new single point of failure. */
+  if(needsDoorway(feedUrl) && (!res || !res.body || res.status >= 400)){
+    try{
+      const throughDoor = await get(feedUrl, {
+        accept: "application/rss+xml, application/xml, text/xml, */*"
+      });
+      if(throughDoor && (throughDoor.body || throughDoor.status < 400)){
+        res = throughDoor;
+      }
+    }catch(err){
+      if(!firstError) firstError = err && err.message ? err.message : "no response";
+    }
   }
 
   /* Not a feed? Perhaps a home page was pasted. Go and look. */
@@ -341,15 +362,15 @@ async function readSource(source){
     }
   }
 
-  if(!res || !res.body){
-    report.note = firstError || "no response";
-    return report;
-  }
   if(res.status >= 400){
     /* 403 from a datacenter usually means the outlet blocks cloud
        traffic rather than that anything is broken. Worth naming. */
     report.note = "HTTP " + res.status +
       (res.status === 403 ? " — blocking this server" : "");
+    return report;
+  }
+  if(!res || !res.body){
+    report.note = firstError || "no response";
     return report;
   }
   if(!looksLikeFeed(res.body)){

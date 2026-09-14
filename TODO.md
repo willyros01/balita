@@ -13,6 +13,12 @@ servers are refused. If another outlet starts returning 403, add its host to
 two places — `THROUGH_THE_DOOR` in `net.mjs` and `ALLOWED` in `worker.js`.
 Both, or it will not route.
 
+Feeds themselves are now tried directly before the doorway fallback. On
+September 14, 2026, Inquirer News returned valid RSS directly while Manila
+Bulletin returned a Cloudflare 403 challenge. Manila Bulletin must not be
+added to `net.mjs` until the Worker's separate host allowlist is updated and
+its exact feed is successfully probed there.
+
 The doorway does **not** help sites that build their pages in the browser.
 ABS-CBN was tested: Cloudflare received the whole page and the article was
 not in it. That is why ABS-CBN is `feedOnly` rather than routed.
