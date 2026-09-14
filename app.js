@@ -131,23 +131,79 @@ function registerWorker(){
 let notificationClicksReady = false;
 let pendingNotificationArticle = "";
 let lastNotificationArticle = "";
+let notificationArticleOpening = false;
+const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
+const NOTIFICATION_ROUTE_URL = new URL(
+  ".wire-notification-route.json",
+  location.href
+).href;
+
+async function recoverNotificationArticle(){
+  if(!("caches" in window)) return;
+
+  try{
+    const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
+    const response = await cache.match(NOTIFICATION_ROUTE_URL);
+    if(!response) return;
+
+    const saved = await response.json();
+    const articleId = String(saved.articleId || "");
+    if(!articleId) return;
+
+    pendingNotificationArticle = articleId;
+    await openPendingNotificationArticle();
+  }catch(err){
+    console.warn("Could not recover the notification destination.", err);
+  }
+}
+
+async function clearNotificationArticle(articleId){
+  if(!("caches" in window)) return;
+
+  try{
+    const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
+    const response = await cache.match(NOTIFICATION_ROUTE_URL);
+    if(!response) return;
+
+    const saved = await response.json();
+    if(String(saved.articleId || "") === articleId){
+      await cache.delete(NOTIFICATION_ROUTE_URL);
+    }
+  }catch(err){
+    console.warn("Could not clear the notification destination.", err);
+  }
+}
 
 async function openPendingNotificationArticle(){
   const articleId = pendingNotificationArticle;
-  if(!notificationClicksReady || !articleId || articleId === lastNotificationArticle) return;
+  if(!notificationClicksReady || !articleId || notificationArticleOpening) return;
 
-  pendingNotificationArticle = "";
-  lastNotificationArticle = articleId;
-
-  if(!state.articles.some(article => article.id === articleId)){
-    await loadArticles();
-    ctx.refresh();
+  if(articleId === lastNotificationArticle){
+    pendingNotificationArticle = "";
+    await clearNotificationArticle(articleId);
+    return;
   }
 
-  if(state.articles.some(article => article.id === articleId)){
-    ctx.openArticle(articleId);
-  }else{
-    announce("That story is no longer in the current feed.", "undone");
+  notificationArticleOpening = true;
+  try{
+    if(!state.articles.some(article => article.id === articleId)){
+      await loadArticles();
+      ctx.refresh();
+    }
+
+    pendingNotificationArticle = "";
+    if(state.articles.some(article => article.id === articleId)){
+      ctx.openArticle(articleId);
+      lastNotificationArticle = articleId;
+    }else{
+      announce("That story is no longer in the current feed.", "undone");
+    }
+    await clearNotificationArticle(articleId);
+  }finally{
+    notificationArticleOpening = false;
+    if(pendingNotificationArticle && pendingNotificationArticle !== articleId){
+      void openPendingNotificationArticle();
+    }
   }
 }
 
@@ -168,6 +224,11 @@ function listenForNotificationClicks(){
 }
 
 listenForNotificationClicks();
+void recoverNotificationArticle();
+window.addEventListener("pageshow", () => { void recoverNotificationArticle(); });
+document.addEventListener("visibilitychange", () => {
+  if(!document.hidden) void recoverNotificationArticle();
+});
 
 /* ---------------- is anything too wide? ----------------
 
@@ -321,6 +382,7 @@ async function start(){
   notifications.setup({ announce, onTap });
 
   notificationClicksReady = true;
+  await recoverNotificationArticle();
   await openPendingNotificationArticle();
 
   const btn = document.getElementById("refresh");

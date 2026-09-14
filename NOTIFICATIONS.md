@@ -183,10 +183,18 @@ If Wire is closed, the query string opens the Home Screen app. Because iOS can
 replace that URL with the app's start URL, the service worker also repeats a
 `wire-open-article` message briefly while the new page starts. `app.js`
 registers its listener before loading storage or feed data, queues the id until
-the interface is ready, and ignores duplicate messages. If Wire is already
-open, the same message path focuses its existing window. In both cases, the app
-refreshes stale feed data before opening the matching reader. The service worker
-rejects click destinations outside its own GitHub Pages scope.
+the interface is ready, and ignores duplicate messages.
+
+Before either path wakes the app, the worker also writes the article id to the
+dedicated `wire-notification-route-v1` browser cache. That cache is deliberately
+preserved across shell-cache upgrades. On startup, `pageshow`, and return from
+the background, the page reads the saved destination, refreshes the feed if
+needed, opens that exact article, and then deletes the record. This durable
+handoff covers iPadOS suspending an already-open app before a one-time worker
+message can be handled. It never falls back to the first feed article.
+
+The service worker rejects click destinations outside its own GitHub Pages
+scope.
 
 ## Required Firebase Console settings
 
@@ -200,7 +208,7 @@ rejects click destinations outside its own GitHub Pages scope.
 
 ## Acceptance test
 
-1. Wait for the GitHub Pages deployment of version `0.17.2`.
+1. Wait for the GitHub Pages deployment of version `0.17.3`.
 2. On iPhone or iPad, remove the previous Home Screen installation and install
    Wire again if the notification control does not appear.
 3. Open Wire from its Home Screen icon.

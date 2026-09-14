@@ -19,7 +19,14 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.2";
+const VERSION = "wire-v0.17.3";
+/* Kept outside the shell cache so an app update cannot erase a notification
+   tap before the page has had a chance to consume it. */
+const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
+const NOTIFICATION_ROUTE_URL = new URL(
+  ".wire-notification-route.json",
+  self.registration.scope
+).href;
 const SHELL = [
   "./",
   "./index.html",
@@ -63,7 +70,9 @@ self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys()
       .then(keys => Promise.all(
-        keys.filter(k => k !== VERSION).map(k => caches.delete(k))
+        keys
+          .filter(k => k !== VERSION && k !== NOTIFICATION_ROUTE_CACHE)
+          .map(k => caches.delete(k))
       ))
       .then(() => self.clients.claim())
   );
@@ -148,30 +157,45 @@ self.addEventListener("notificationclick", event => {
     target = scope;
   }
 
-  event.waitUntil(
-    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(async windows => {
-      const open = windows.find(client => client.url.startsWith(self.registration.scope));
-      if(open){
-        await open.focus();
-        if(articleId){
-          open.postMessage({ type: "wire-open-article", articleId });
-          return open;
-        }
-        const navigated = "navigate" in open ? await open.navigate(target.href) : open;
-        return navigated || open;
+  event.waitUntil((async () => {
+    /* A backgrounded iOS Home Screen app can be frozen while postMessage is
+       delivered. Persist the destination before waking it; the page removes
+       this record only after it has opened the matching story. */
+    if(articleId){
+      const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
+      await cache.put(NOTIFICATION_ROUTE_URL, new Response(JSON.stringify({
+        articleId,
+        clickedAt: new Date().toISOString()
+      }), {
+        headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
+      }));
+    }
+
+    const windows = await self.clients.matchAll({
+      type: "window",
+      includeUncontrolled: true
+    });
+    const open = windows.find(client => client.url.startsWith(self.registration.scope));
+    if(open){
+      await open.focus();
+      if(articleId){
+        open.postMessage({ type: "wire-open-article", articleId });
+        return open;
       }
-      const opened = await self.clients.openWindow(target.href);
-      if(opened && articleId){
-        /* iOS may launch an installed Home Screen app at its start URL even
-           when openWindow included a query string. Repeat the article message
-           briefly while the new page installs its listener. The page ignores
-           duplicates. */
-        for(const delay of [0, 500, 1500]){
-          if(delay) await new Promise(resolve => setTimeout(resolve, delay));
-          opened.postMessage({ type: "wire-open-article", articleId });
-        }
+      const navigated = "navigate" in open ? await open.navigate(target.href) : open;
+      return navigated || open;
+    }
+    const opened = await self.clients.openWindow(target.href);
+    if(opened && articleId){
+      /* iOS may launch an installed Home Screen app at its start URL even
+         when openWindow included a query string. Repeat the article message
+         briefly while the new page installs its listener. The page ignores
+         duplicates. */
+      for(const delay of [0, 500, 1500]){
+        if(delay) await new Promise(resolve => setTimeout(resolve, delay));
+        opened.postMessage({ type: "wire-open-article", articleId });
       }
-      return opened;
-    })
-  );
+    }
+    return opened;
+  })());
 });

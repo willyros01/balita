@@ -8,12 +8,15 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.2**
+**0.17.3**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
 - Tapping a notification opens its story whether Wire is already open or is
   being launched from a closed state on iPhone or iPad.
+- A notification destination is saved before a suspended app is resumed, then
+  removed only after Wire opens that exact story. This prevents iPadOS from
+  losing a one-time background message and returning to the feed position.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,
   and ABS-CBN, and only when the publisher begins its headline with Breaking,
   Just In, Urgent, or Live.

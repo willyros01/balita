@@ -1,11 +1,12 @@
 {
   "name": "balita",
-  "version": "0.17.2",
+  "version": "0.17.3",
   "private": true,
   "description": "News, plainly. Fetches feeds, strips advertising, writes articles.json.",
   "type": "module",
   "scripts": {
-    "fetch": "node fetch-feeds.mjs"
+    "fetch": "node fetch-feeds.mjs",
+    "test": "node --test"
   },
   "dependencies": {
     "@mozilla/readability": "^0.5.0",
