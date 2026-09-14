@@ -94,11 +94,11 @@ jobs:
           git config user.name  "balita-bot"
           git config user.email "balita-bot@users.noreply.github.com"
 
-          if git diff --quiet articles.json; then
+          if [ -z "$(git status --porcelain -- articles.json articles/)" ]; then
             echo "No new stories to publish."
           else
             COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('articles.json','utf8')).articles.length)")
-            git add articles.json
+            git add articles.json articles/
             git commit -m "News: $COUNT stories"
 
             for i in 1 2 3; do

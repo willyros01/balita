@@ -113,7 +113,9 @@ export function open(ctx, id){
   const back = document.createElement("button");
   back.type = "button";
   back.className = "back";
-  back.innerHTML = '<span aria-hidden="true">\u2190</span> All stories';
+  const returnSource = ctx.state.filter === "ALL" ? null : ctx.sourceOf(ctx.state.filter);
+  back.innerHTML = '<span aria-hidden="true">\u2190</span> ' +
+    (returnSource ? returnSource.name + " headlines" : "All stories");
   onTap(back, () => close(ctx));
 
   /* head */
@@ -234,5 +236,6 @@ export function open(ctx, id){
 export function close(ctx){
   ctx.show("feed");
   window.scrollTo(0, feedScrollY);
-  ctx.announce("Back to all stories");
+  const source = ctx.state.filter === "ALL" ? null : ctx.sourceOf(ctx.state.filter);
+  ctx.announce(source ? "Back to " + source.name + " headlines" : "Back to all stories");
 }

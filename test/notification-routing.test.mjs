@@ -5,6 +5,9 @@ import vm from "node:vm";
 
 const workerSource = await readFile(new URL("../sw.js", import.meta.url), "utf8");
 const appSource = await readFile(new URL("../app.js", import.meta.url), "utf8");
+const feedSource = await readFile(new URL("../feed.js", import.meta.url), "utf8");
+const readerSource = await readFile(new URL("../reader.js", import.meta.url), "utf8");
+const fetcherSource = await readFile(new URL("../fetch-feeds.mjs", import.meta.url), "utf8");
 
 function workerHarness({ windows = [], openedClient = null } = {}){
   const listeners = new Map();
@@ -113,6 +116,11 @@ test("the page recovers routes on startup and every iOS resume signal", () => {
   assert.match(appSource, /await loadArticles\(true\)/);
   assert.match(appSource, /retryNotificationArticle\(articleId\)/);
   assert.doesNotMatch(appSource, /That story is no longer in the current feed/);
+  assert.match(appSource, /"articles\/" \+ encodeURIComponent\(articleId\)/);
+  assert.match(appSource, /prepareNotificationReturn\(article\)/);
+  assert.match(feedSource, /li\.dataset\.articleId = a\.id/);
+  assert.match(readerSource, /returnSource\.name \+ " headlines"/);
+  assert.match(fetcherSource, /ARTICLE_DIR \+ "\/" \+ article\.id \+ "\.json"/);
 });
 
 test("the workflow publishes articles before sending their notifications", async () => {
@@ -120,6 +128,6 @@ test("the workflow publishes articles before sending their notifications", async
   const publish = workflow.indexOf("name: Publish fetched stories before alerts");
   const notify = workflow.indexOf("name: Send tightly limited breaking-news alerts");
   assert.ok(publish > 0 && notify > publish);
-  assert.match(workflow, /git diff --quiet articles\.json/);
+  assert.match(workflow, /git status --porcelain -- articles\.json articles\//);
   assert.match(workflow, /git diff --quiet breaking-state\.json/);
 });

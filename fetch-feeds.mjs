@@ -11,7 +11,7 @@
    Run by hand with:  node fetch-feeds.mjs
    ============================================================ */
 
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { XMLParser } from "fast-xml-parser";
 import { get, pool, doorwayReady, needsDoorway } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut, EXTRACTOR_VERSION } from "./extract.mjs";
@@ -21,6 +21,7 @@ const VERSION = "0.15.1";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
+const ARTICLE_DIR   = "articles";
 
 /* No per-source cap and no age cutoff. Both were numbers I picked,
    and between them they were binning about thirty stories a run —
@@ -729,6 +730,20 @@ async function main(){
     articles
   };
 
+  /* A notification carries one stable article ID. Publish a matching static
+     endpoint so the installed app can retrieve exactly that story without
+     waiting for, downloading, or searching the complete feed. */
+  await rm(ARTICLE_DIR, { recursive: true, force: true });
+  await mkdir(ARTICLE_DIR, { recursive: true });
+  await Promise.all(articles.map(article => {
+    if(!/^[a-z0-9-]+$/i.test(article.id)){
+      throw new Error("Unsafe article ID: " + article.id);
+    }
+    return writeFile(
+      ARTICLE_DIR + "/" + article.id + ".json",
+      JSON.stringify(article, null, 2) + "\n"
+    );
+  }));
   await writeFile(ARTICLES_FILE, JSON.stringify(out, null, 2) + "\n");
 
   const withText = articles.filter(a => a.blocks && a.blocks.length > 1).length;

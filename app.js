@@ -158,6 +158,39 @@ function retryNotificationArticle(articleId){
   }, 2500);
 }
 
+async function loadNotificationArticle(articleId){
+  if(!/^[a-z0-9-]+$/i.test(articleId)) return null;
+
+  try{
+    const url = "articles/" + encodeURIComponent(articleId) +
+      ".json?notification=" + Date.now();
+    const response = await fetch(url, { cache: "no-store" });
+    if(!response.ok) return null;
+
+    const article = await response.json();
+    if(String(article.id || "") !== articleId) return null;
+    const at = state.articles.findIndex(item => item.id === articleId);
+    if(at >= 0) state.articles[at] = article;
+    else state.articles.push(article);
+    return article;
+  }catch(err){
+    console.warn("Could not load the notified story directly.", err);
+    return null;
+  }
+}
+
+function prepareNotificationReturn(article){
+  /* A notification is an entrance into this publisher's headline grouping,
+     not into whatever All Sources position happened to be open beforehand. */
+  state.filter = article.source;
+  ctx.show("feed");
+  ctx.refresh();
+
+  const card = Array.from(document.querySelectorAll("[data-article-id]"))
+    .find(node => node.dataset.articleId === article.id);
+  if(card) window.scrollTo(0, Math.max(0, card.offsetTop - 16));
+}
+
 /* Read the only record from the dedicated cache instead of reconstructing its
    URL from location.href. Installed iOS apps can resume at either /balita or
    /balita/, while the worker always keys it from its canonical scope. */
@@ -214,11 +247,16 @@ async function openPendingNotificationArticle(){
   notificationArticleOpening = true;
   try{
     if(!state.articles.some(article => article.id === articleId)){
+      await loadNotificationArticle(articleId);
+    }
+    if(!state.articles.some(article => article.id === articleId)){
       await loadArticles(true);
       ctx.refresh();
     }
 
-    if(state.articles.some(article => article.id === articleId)){
+    const article = state.articles.find(item => item.id === articleId);
+    if(article){
+      prepareNotificationReturn(article);
       pendingNotificationArticle = "";
       ctx.openArticle(articleId);
       lastNotificationArticle = articleId;

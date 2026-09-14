@@ -166,6 +166,16 @@ TTL: 3600
 Urgency: normal
 ```
 
+Before FCM is called, the workflow publishes both the complete feed and one
+stable endpoint for every current article:
+
+```text
+articles/{articleId}.json
+```
+
+This makes the notification ID directly addressable and prevents deep linking
+from depending on the complete feed being refreshed first.
+
 No sound, critical-alert setting, time-sensitive setting, or persistent prompt
 is requested. The operating system therefore remains responsible for Focus,
 Do Not Disturb, notification summaries, and user notification settings.
@@ -193,6 +203,12 @@ needed, opens that exact article, and then deletes the record. This durable
 handoff covers iOS suspending an already-open app before a one-time worker
 message can be handled. It never falls back to the first feed article.
 
+The page first requests `articles/{articleId}.json` and verifies that the ID in
+the response exactly matches the notification. It then selects the article's
+publisher grouping before opening the reader. The reader's Back button returns
+to that grouping at the notified headline rather than to a previous All
+Sources position.
+
 The worker uses `clients.openWindow()` for the article URL whether Wire is
 closed or suspended. That browser-owned launch route is the path verified to
 work on iPhone; `WindowClient.navigate()` remains only a fallback because iOS
@@ -217,7 +233,7 @@ scope.
 
 ## Acceptance test
 
-1. Wait for the GitHub Pages deployment of version `0.17.5`.
+1. Wait for the GitHub Pages deployment of version `0.17.7`.
 2. On iPhone or iPad, remove the previous Home Screen installation and install
    Wire again if the notification control does not appear.
 3. Open Wire from its Home Screen icon.

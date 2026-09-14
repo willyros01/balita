@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.6";
+const VERSION = "wire-v0.17.7";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -91,6 +91,7 @@ self.addEventListener("fetch", event => {
      a feed added to sources.json never reached a device that had
      already loaded once. It is data, not shell. */
   if(url.pathname.endsWith("articles.json") ||
+     (url.pathname.includes("/articles/") && url.pathname.endsWith(".json")) ||
      url.pathname.endsWith("sources.json")){
     event.respondWith(
       fetch(req)

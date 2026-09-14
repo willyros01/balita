@@ -77,7 +77,7 @@ export function renderChips(ctx){
     ctx.announce("Showing all sources");
   });
 
-  ctx.state.sources.filter(s => s.on).forEach(s => {
+  ctx.state.sources.filter(s => s.on || s.id === ctx.state.filter).forEach(s => {
     const b = add(s.name, ctx.state.filter === s.id, () => {
       ctx.state.filter = s.id;
       renderChips(ctx); renderFeed(ctx);
@@ -99,7 +99,9 @@ export function renderFeed(ctx){
   const countEl   = document.getElementById("count");
   const updatedEl = document.getElementById("updated");
 
-  const live  = ctx.state.sources.filter(s => s.on).map(s => s.id);
+  const live  = ctx.state.sources
+    .filter(s => s.on || s.id === ctx.state.filter)
+    .map(s => s.id);
   const items = ctx.state.articles
     .filter(a => live.includes(a.source))
     .filter(a => ctx.state.filter === "ALL" || a.source === ctx.state.filter)
@@ -129,6 +131,7 @@ export function renderFeed(ctx){
 
     const li = document.createElement("li");
     li.className = "card";
+    li.dataset.articleId = a.id;
     li.style.setProperty("--spine", src.color);
 
     const btn = document.createElement("button");
