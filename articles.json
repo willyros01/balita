@@ -1,6 +1,6 @@
 {
   "version": "0.15.1",
-  "updated": "2026-09-14T22:07:10.790Z",
+  "updated": "2026-09-14T22:31:11.030Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,37 @@
   ],
   "articles": [
     {
+      "id": "inqn-18lew76",
+      "source": "inqn",
+      "title": "House budget discussions open to public",
+      "summary": "MANILA, Philippines — Lawmakers on Monday said plenary discussions on proposed amendments to the P7.2-trillion 2027 budget will be open to the public. The Budget Amendments Review Subcommittee will…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-09-14T22:30:54.356Z",
+      "url": "https://newsinfo.inquirer.net/2305161/house-budget-discussions-open-to-public",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/06/1244858-1.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Lawmakers on Monday said plenary discussions on proposed amendments to the P7.2-trillion 2027 budget will be open to the public. The Budget Amendments Review Subcommittee will soon convene to hammer out proposed tweaks to House Bill No. 10858. READ: House set to discuss amendments to proposed 2027 budget “There are no amendments"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "HTTP 403"
+    },
+    {
       "id": "inqn-wz2gdq",
       "source": "inqn",
       "title": "Sona promise: Lower power bills as VAT on system loss out",
       "summary": "MANILA, Philippines — The Bureau of Internal Revenue (BIR) has removed the 12-percent value-added tax (VAT) on system loss charges in electricity bills effective immediately, a move the Department of…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-14T22:07:00.660Z",
+      "published": "2026-09-14T22:30:53.811Z",
       "url": "https://newsinfo.inquirer.net/2305128/sona-promise-lower-power-bills-as-vat-on-system-loss-out",
       "image": {
         "src": "https://newsinfo.inquirer.net/files/2026/09/electric-VAT-15September2026.jpg",
@@ -77,28 +101,363 @@
       "why": "HTTP 403"
     },
     {
-      "id": "inqn-18lew76",
+      "id": "inqn-17nff5s",
       "source": "inqn",
-      "title": "House budget discussions open to public",
-      "summary": "MANILA, Philippines — Lawmakers on Monday said plenary discussions on proposed amendments to the P7.2-trillion 2027 budget will be open to the public. The Budget Amendments Review Subcommittee will…",
+      "title": "Easterlies to affect N. Luzon; localized thunderstorms to prevail over PH",
+      "summary": "MANILA, Philippines — The easterlies, or warm winds coming from the Pacific Ocean, may bring gloomy skies and occasional rains over Northern Luzon, while the rest of the country may experience…",
       "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-09-14T22:07:00.660Z",
-      "url": "https://newsinfo.inquirer.net/2305161/house-budget-discussions-open-to-public",
+      "section": "Latest News Stories",
+      "published": "2026-09-14T22:30:53.779Z",
+      "url": "https://newsinfo.inquirer.net/2305247/easterlies-to-affect-n-luzon-localized-thunderstorms-to-prevail-over-ph",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/06/1244858-1.jpeg",
+        "src": "https://newsinfo.inquirer.net/files/2026/09/810421921_1104444168688518_6363091107023907594_n.jpeg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — Lawmakers on Monday said plenary discussions on proposed amendments to the P7.2-trillion 2027 budget will be open to the public. The Budget Amendments Review Subcommittee will soon convene to hammer out proposed tweaks to House Bill No. 10858. READ: House set to discuss amendments to proposed 2027 budget “There are no amendments"
+          "text": "MANILA, Philippines — The easterlies, or warm winds coming from the Pacific Ocean, may bring gloomy skies and occasional rains over Northern Luzon, while the rest of the country may experience localized thunderstorms on Tuesday, Sept. 15, the state weather bureau reported. The Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa) reported in its"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
       "why": "HTTP 403"
+    },
+    {
+      "id": "cbc-1mf8cen",
+      "source": "cbc",
+      "title": "Bell plans expansion of Sask. AI data centre, making it largest private investment in province's history",
+      "summary": "At an investment summit in Toronto hosted by Prime Minister Mark Carney, Bell Canada CEO Mirko Bibic announced the controversial data centre near Regina will be expanded from the original…",
+      "byline": "Phil Tank",
+      "section": "News/Canada/Saskatoon",
+      "published": "2026-09-14T22:16:45.000Z",
+      "url": "https://www.cbc.ca/news/canada/saskatoon/bell-canada-ai-data-centre-size-expansion-investment-9.7343780?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/9bbf656a-d4ed-4ede-becb-7f31f97d64cd,1789422589754/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3BResize%3D620",
+        "caption": "Bell Canada CEO Mirko Bibic announces plans to expand the AI data centre located just outside Regina at an investment summit in Toronto on Monday. (CBC)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Saskatoon·New"
+        },
+        {
+          "type": "p",
+          "text": "At an investment summit in Toronto hosted by Prime Minister Mark Carney, Bell Canada CEO Mirko Bibic announced the controversial data centre near Regina will be expanded from the original 300-megawatt facility to one that would eventually need 1.2 gigawatts of power."
+        },
+        {
+          "type": "h",
+          "text": "Bell Canada announced quadrupling of project near Regina at investment summit in Toronto"
+        },
+        {
+          "type": "p",
+          "text": "Bell Canada announced plans Monday to quadruple the size of a planned AI data centre near Regina, a move that would make it the largest private capital investment in Saskatchewan history."
+        },
+        {
+          "type": "p",
+          "text": "At an investment summit in Toronto hosted by Prime Minister Mark Carney, Bell Canada CEO Mirko Bibic announced the controversial data centre will be expanded from the original 300-megawatt facility to one that would eventually need 1.2 gigawatts of power."
+        },
+        {
+          "type": "p",
+          "text": "To achieve the expansion, the telecommunications giant would increase its investment in the so-called Bell AI Fabric to $52 billion."
+        },
+        {
+          "type": "p",
+          "text": "With Premier Scott Moe standing next to him, Bibic offered praise to the Saskatchewan Party government for creating the investment environment in the province."
+        },
+        {
+          "type": "p",
+          "text": "\"I was asked three specific times in the last day and a half, 'Why did you choose Saskatchewan?'\" Bibic told the crowd. \"For me the answer was simple: it's because Saskatchewan is a great place to invest.\""
+        },
+        {
+          "type": "p",
+          "text": "Moe compared the data centre to the construction of the railway across Canada to protect the nation's sovereignty. He stressed the need to protect the data of Canadians."
+        },
+        {
+          "type": "p",
+          "text": "\"Today, the infrastructure has changed, but the purpose has not,\" Moe said. \"That same nation-building purpose calls for a new kind of infrastructure, infrastructure that protects our data and secures our sovereignty.\""
+        },
+        {
+          "type": "p",
+          "text": "A news release from the province says the expansion could create as many as 500 permanent jobs, including about 100 management positions, and another 3,000 jobs in areas like security and maintenance."
+        },
+        {
+          "type": "p",
+          "text": "Carney called the investment a \"fantastic example\" of the type of project his government is trying to facilitate."
+        },
+        {
+          "type": "p",
+          "text": "The announcement was attended by former prime ministers Jean Chretien and Stephen Harper, who joined Bibic and Moe on stage for photos."
+        },
+        {
+          "type": "p",
+          "text": "The provincial government did not immediately reply to a question about whether the expansion would require further approval from the Rural Municipality of Sherwood, where the data centre is located."
+        },
+        {
+          "type": "p",
+          "text": "The RM and Reeve Ray Orb also did not immediately reply to a message seeking their comment on the expansion."
+        },
+        {
+          "type": "p",
+          "text": "The RM approved the data centre in April after the province appointed four new council members following resignations. About 100 protesters gathered outside the RM office as the mostly appointed council approved the centre."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "RM of Sherwood council approves Bell Canada AI data centre near Regina",
+            "Saskatoon chamber applauds 'prudent' study, moratorium on data centres"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bibic said he met with Moe and Minister Jeremy Harrison in July to discuss an expansion of the project. The news release says Bell Canada must supply its own power for the expansion, as it had to for the original project."
+        },
+        {
+          "type": "p",
+          "text": "The two-day summit in Toronto is aimed at attracting $1 trillion in investment amid a turbulent trade war with the United States."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Phil Tank is an award-winning journalist based in Saskatoon. He can be reached at phil.tank@cbc.ca."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-zmspk9",
+      "source": "cbc",
+      "title": "Raptors, Clippers agree to complete trade to send Kawhi Leonard back to Toronto: reports",
+      "summary": "The Raptors and Los Angeles Clippers have agreed to complete a trade to send star forward Kawhi Leonard back to Toronto, according to multiple media reports.",
+      "byline": "CBC",
+      "section": "Sports/Basketball/NBA",
+      "published": "2026-09-14T22:15:35.000Z",
+      "url": "https://www.cbc.ca/sports/basketball/nba/raptors-kawhi-leonard-trade-finalized-9.7343826?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/3152a252-f734-472a-8df2-c27ada629ef4,1789423634881/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C304%2C5819%2C3273%29%3BResize%3D620",
+        "caption": "Kawhi Leonard is seen as a member of the Los Angeles Clippers during a game in March. Per multiple reports, the veteran superstar is finally returning to the Toronto Raptors after the proposed trade between the two franchises can be completed following the league's investigation into the Clippers' a"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NBA·New"
+        },
+        {
+          "type": "p",
+          "text": "The Raptors and Los Angeles Clippers have agreed to complete a trade to send star forward Kawhi Leonard back to Toronto, according to multiple media reports."
+        },
+        {
+          "type": "h",
+          "text": "Deal involving Ingram, Dick, 5 picks has been paused during NBA's cap probe"
+        },
+        {
+          "type": "p",
+          "text": "Reports say the trade will be made official pending a trade call. Shams Charania of ESPN was the first to report the agreement."
+        },
+        {
+          "type": "p",
+          "text": "The Raptors offered no comment on the reported trade Monday."
+        },
+        {
+          "type": "p",
+          "text": "CBC Sports has not independently confirmed the reports."
+        },
+        {
+          "type": "p",
+          "text": "The deal would see L.A. get all-star forward Brandon Ingram, guard Gradey Dick, unprotected first-round picks in 2031 and 2033, a 2027 first-round pick swap and two second-round picks in return."
+        },
+        {
+          "type": "p",
+          "text": "The deal had been on hold while the NBA investigated Leonard and the Clippers for salary-cap circumvention."
+        },
+        {
+          "type": "p",
+          "text": "The league completed its investigation on Sept. 2, fining Leonard $700,000 US but declining to suspend him or void his contract."
+        },
+        {
+          "type": "p",
+          "text": "Although the deal had not been officially submitted to the league while the investigation was underway, Leonard, Ingram and Dick tried to participate with their new teams as much as NBA rules allowed."
+        },
+        {
+          "type": "p",
+          "text": "Leonard sat in the front row at Kyle Lowry's July 7 news conference at OVO Athletic Centre, where Lowry announced he would retire as a member of the Raptors. Ingram attended a Clippers summer league game in Las Vegas on July 10."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Leonard focused on Raptors return with 'clean slate' after avoiding suspension in NBA cap probe"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The 35-year-old Leonard averaged 27.9 points, 6.3 rebounds, 3.6 assists, 1.9 steals and 0.4 blocks per game last season for the Clippers in 2025-26."
+        },
+        {
+          "type": "p",
+          "text": "Ingram averaged 21.5 points, 5.6 rebounds and 3.7 assists in his one season in Toronto, but was injured 11 minutes into Game 5 of the Raptors' first-round playoff series against the Cleveland Cavaliers. He underwent right heel surgery on May 8."
+        },
+        {
+          "type": "p",
+          "text": "Dick took a step back in his third NBA season, averaging 14 minutes per game in 2025-26, averaging six points, 1.9 rebounds and 0.7 assists, all career lows."
+        },
+        {
+          "type": "p",
+          "text": "Leonard was the central player in the Raptors' 2019 championship run, but spent just one season with the club before joining his hometown Clippers as a free agent."
+        },
+        {
+          "type": "p",
+          "text": "Once the trade is completed, Leonard is expected to speak to reporters at the Raptors' media day on Sept. 28."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1pry8x7",
+      "source": "grd",
+      "title": "Russian oligarch close to Putin reportedly paid for part of Donald Trump Jr’s lavish wedding",
+      "summary": "<p>US president’s eldest child married Palm Beach socialite Bettina Anderson in three-day celebration across two exclusive private islands</p><ul><li><p><a…",
+      "byline": "Lucy Campbell",
+      "section": "Donald Trump Jr",
+      "published": "2026-09-14T22:09:16.000Z",
+      "url": "https://www.theguardian.com/us-news/2026/sep/14/russian-oligarch-trump-jr-wedding",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/5ac382204e8c433c1a1e683bedb1d168ba951a8b/0_0_1500_1200/master/1500.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=a833d83be74f66aef3cddf89ef88206a",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Donald Trump Jr and his wife, Bettina, confirmed on Monday that a Russian oligarch close to Vladimir Putin partially paid for the couple’s wedding celebrations in May, following a ProPublica report revealing Umar Kremlev spent hundreds of thousands of dollars on the events."
+        },
+        {
+          "type": "p",
+          "text": "Trump Jr, the US president’s eldest child, married the Palm Beach socialite in a lavish three-day celebration across two exclusive private islands in May."
+        },
+        {
+          "type": "p",
+          "text": "Citing records and interviews with three anonymous sources familiar with the event, ProPublica reported that Kremlev, a member of the Russian president’s circle, footed the bill to rent one of the islands where a reception was held and where guests slept, along with other large expenses, including a huge firework show."
+        },
+        {
+          "type": "p",
+          "text": "In a statement signed by the couple and shared on Bettina Trump’s Instagram after ProPublica’s report was published, they confirmed Kremlev’s contributions to the celebrations and characterized them as “an extraordinarily generous wedding gift from a friend, and something for which we were and remain incredibly grateful”."
+        },
+        {
+          "type": "p",
+          "text": "A top Democrat demanded answers on the Trumps’ ties to Kremlev."
+        },
+        {
+          "type": "p",
+          "text": "“Why did a Russian oligarch close to Putin fund Trump Jr.’s wedding in the Bahamas?” posted Robert Garcia, the ranking member and lead Democrat on the House oversight committee, on social media. “Umar Kremlev spent hundreds of thousands of dollars on the President’s son. What did he get in return? We need answers.”"
+        },
+        {
+          "type": "p",
+          "text": "Kremlev has a longstanding relationship with Putin. He is the head of the International Boxing Association (IBA), a sporting body that has been backed by the state-owned Russian energy company Gazprom. According to ProPublica, the wedding payments came from an IBA-affiliated entity in Dubai that the boxing association uses for financial transactions."
+        },
+        {
+          "type": "p",
+          "text": "In the days before the wedding party, he reportedly went to China as part of a delegation accompanying Putin, and the month prior the Russian president had bestowed him with a state honor, the Order of Friendship. The Ukrainian government has imposed sanctions on Kremlev, citing his closeness to Putin and Russian security services."
+        },
+        {
+          "type": "p",
+          "text": "Alexander Lagutin, a businessperson who has held senior roles at a Russian defense contractor and a state-backed energy company, had been with Kremlev on the China trip. Kremlev’s right hand at the IBA, Elena Sobol, attended the wedding, too."
+        },
+        {
+          "type": "p",
+          "text": "While the event was extravagant, the guest list was intimate, with only about 50 people attending, most of whom were immediate family, close friends and business partners of the couple. Then there was Kremlev, who reportedly didn’t attend the ceremony itself, which was limited to just 18 guests, but was present with a large contingent of Russians at the party, much to the confusion of the other guests. The group reportedly sometimes stood off by themselves speaking Russian, according to ProPublica."
+        },
+        {
+          "type": "p",
+          "text": "The affair has raised questions about the implications of a member of Putin’s circle financially supporting and gaining such intimate access to the US president’s family. In recent years Trump Jr has emerged as a leading campaign surrogate for Trump and has even been touted as a potential political heir."
+        },
+        {
+          "type": "p",
+          "text": "Donald Sherman, the president and CEO of Citizens for Responsibility and Ethics in Washington (Crew), said it is in the public interest for Congress to strongly consider requiring financial disclosure statements of a president’s adult children, in addition to the president themselves."
+        },
+        {
+          "type": "p",
+          "text": "The crux of the issue is the nature of the friendship, and whether the giving of gifts is genuine or designed to influence, Sherman said. “We know that private companies and foreign governments have been seeking to gain Don Jr’s favor in order to serve their own financial interests. And so, it’s important that there is a measure of transparency when folks tied to the Russian government are lavishing the president’s rich adult son with expensive gifts.”"
+        },
+        {
+          "type": "p",
+          "text": "He added: “Most of us learn as children that ‘there’s no such thing as a free lunch’. It’s one thing if, in the nature of this friendship, there’s a mutual exchange of lavish gifts. It’s another if someone’s daddy becomes president and then all of a sudden this new friend starts giving gifts – that context very much matters.”"
+        },
+        {
+          "type": "p",
+          "text": "In similar vein, retired FBI official Frank Montoya Jr told ProPublica: “If I’m paying for your wedding, at some point, you’re going to owe me something. This should be unthinkable for the son of the president.”"
+        },
+        {
+          "type": "p",
+          "text": "It remains unclear why Kremlev helped pay for the wedding and why he was there, when he appears to have only met Trump Jr – the executive vice-president of the Trump Organization, who has a personal net worth somewhere in the ballpark of $300m – quite recently."
+        },
+        {
+          "type": "p",
+          "text": "Donald Trump famously didn’t attend the wedding. “He’d like me to go, but it’s going to be just a small, little private affair,” the US president told reporters a few days before the nuptials. “I said, you know, this is not good timing for me. I have a thing called Iran and other things.”"
+        },
+        {
+          "type": "p",
+          "text": "In response to detailed questions from ProPublica, a spokesperson for Trump Jr did not deny that Kremlev had helped fund the wedding. “Umar is a personal friend of Don,” the spokesperson said, adding Kremlev is “not someone he has a business relationship with” and that the men met through a mutual friend in the hunting world."
+        },
+        {
+          "type": "p",
+          "text": "In their joint Instagram statement, Trump Jr and Bettina Trump thanked “our dear friend Umar” who “very generously hosted two incredible nights of celebrations for us AFTER our wedding”."
+        },
+        {
+          "type": "p",
+          "text": "They said they “got married privately” on 22 May “surrounded ONLY by our family”, and said the Russian businessman had simply given them a gift."
+        },
+        {
+          "type": "p",
+          "text": "“Friendship doesn’t require a political motive. Generosity doesn’t automatically come with an agenda. And sometimes a wedding gift is simply a wedding gift,” they said."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-o8snkd",
+      "source": "inq",
+      "title": "Comelec: BARMM ERs now 97.79% on Tuesday morning",
+      "summary": "MANILA, Philippines — The Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) parliamentary election returns (ERs) are now 97.79 percent, as of Tuesday morning, Sept. 15, the Commission on…",
+      "byline": "cbuban",
+      "section": "",
+      "published": "2026-09-14T22:07:23.000Z",
+      "url": "https://www.inquirer.net/489315/comelec-barmm-ers-now-97-79-on-tuesday-morning/",
+      "image": {
+        "src": "https://www.inquirer.net/wp-content/uploads/2026/09/NAMFREL-BARMM-election-comelec-14September2026_3-620x462.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) parliamentary election returns (ERs) are now 97.79 percent, as of Tuesday morning, Sept. 15, the Commission on Elections (Comelec) reported."
+        },
+        {
+          "type": "p",
+          "text": "Based on the Comelec’s real time updates for the BARMM polls on its official website, it received 5,097 ERs, as of 5:30 a.m. There are 5,212 clustered precincts in 1,186 polling centers across the region."
+        },
+        {
+          "type": "p",
+          "text": "The transmission of results, however, in Maluso, Basilan, is expected to be completed by 8 p.m. on Tuesday, as elections in the municipality will resume at 7 a.m. after some ballots were reportedly compromised, according to Comelec."
+        },
+        {
+          "type": "p",
+          "text": "Early Monday, the poll body opened the official voting for the first-ever BARMM elections after four postponements to formally elect the 80-member seat parliament. /cb"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inqn-m0zlqf",
@@ -213,6 +572,30 @@
         {
           "type": "p",
           "text": "Sharon Cuneta and Barbie Forteza face off in a mother-daughter story that owns its melodrama... Keep on reading: ‘Honor Thy Mother’ is a classic Filipino soap—and unapologetically so"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "HTTP 403"
+    },
+    {
+      "id": "inq-6x7k7i",
+      "source": "inq",
+      "title": "Easterlies to affect N. Luzon; localized thunderstorms to prevail over PH",
+      "summary": "MANILA, Philippines — The easterlies, or warm winds coming from the Pacific Ocean, may bring gloomy skies and occasional rains over Northern Luzon, while the rest of the country may experience…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-14T21:56:42.000Z",
+      "url": "https://newsinfo.inquirer.net/2305247/easterlies-to-affect-n-luzon-localized-thunderstorms-to-prevail-over-ph",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/810421921_1104444168688518_6363091107023907594_n-620x349.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The easterlies, or warm winds coming from the Pacific Ocean, may bring gloomy skies and occasional rains over Northern Luzon, while the rest of the country may experience localized thunderstorms on Tuesday, Sept. 15, the state weather bureau reported. The Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa) reported in its 5 a.m. weather advisory that partly gloomy skies with isolated rain showers or thunderstorms may prevail over Batanes and Babuyan Islands due to the easterlies. Meanwhile, Metro Manila and the rest of the country are also expected to experience partly cloudy to cloudy skies with [&hellip;]... Keep on reading: Easterlies to affect N. Luzon; localized thunderstorms to prevail over PH"
         }
       ],
       "truncated": true,
@@ -2227,54 +2610,6 @@
       "why": "HTTP 403"
     },
     {
-      "id": "inq-1983c84",
-      "source": "inq",
-      "title": "9 major irrigation systems in E. Visayas below normal water levels – NIA",
-      "summary": "TACLOBAN CITY, LEYTE, Philippines — Nine of 11 major irrigation systems monitored by the National Irrigation Administration (NIA) in Eastern Visayas have recorded below-normal water levels, prompting…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-14T20:30:00.000Z",
-      "url": "https://newsinfo.inquirer.net/2305086/9-major-irrigation-systems-in-e-visayas-below-normal-water-levels-nia",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/03/National-Irrigation-Administration-09202022-620x349.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TACLOBAN CITY, LEYTE, Philippines — Nine of 11 major irrigation systems monitored by the National Irrigation Administration (NIA) in Eastern Visayas have recorded below-normal water levels, prompting the agency to adjust water delivery schedules to farmers. In an advisory issued on Sept. 11, the NIA said the declining water levels were brought about by the prevailing weather conditions and appealed to farmers served by the affected irrigation systems to cooperate with the adjusted irrigation schedules. The agency said the measure was necessary to ensure that the available water supply would be distributed efficiently and reach as many rice fields as possible. [&hellip;]... Keep on reading: 9 major irrigation systems in E. Visayas below normal water levels – NIA"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "HTTP 403"
-    },
-    {
-      "id": "inq-1toghnj",
-      "source": "inq",
-      "title": "Teams, coaches all set for ‘marathon’ 3-series challenge",
-      "summary": "The Premier Volleyball League coaches brace for a challenging marathon in the brand-new All-Filipino Conference, which will be split into three series: Siklab, Sigla and Sinag. The PVL unveiled the…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-14T20:20:07.000Z",
-      "url": "https://sports.inquirer.net/695296/teams-coaches-all-set-for-marathon-3-series-challenge",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/09/Rachel-Anne-Daquis-14September2026-620x349.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Premier Volleyball League coaches brace for a challenging marathon in the brand-new All-Filipino Conference, which will be split into three series: Siklab, Sigla and Sinag. The PVL unveiled the new format on Monday at Novotel Manila, to celebrate its 10th anniversary. The first series, Siklab, is set to run from October to December. The [&hellip;]... Keep on reading: Teams, coaches all set for ‘marathon’ 3-series challenge"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "HTTP 403"
-    },
-    {
       "id": "cbc-v8unwg",
       "source": "cbc",
       "title": "Former Saskatoon private school admin, pictured with paddle in 1997, testifies at former principal's trial",
@@ -2687,30 +3022,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inqn-2fd3tb",
-      "source": "inqn",
-      "title": "Kalinga man swept away by Chico River found dead",
-      "summary": "BAGUIO CITY — Rescuers on Monday retrieved the body of a 20-year-old man who was earlier swept away by strong currents while crossing the Chico River in Lubuagan, Kalinga. The body of Jasper Cawi…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-09-14T19:49:16.000Z",
-      "url": "https://newsinfo.inquirer.net/2304976/kalinga-man-swept-away-by-chico-river-found-dead",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Kalinga-map-filephoto-091122-1.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BAGUIO CITY — Rescuers on Monday retrieved the body of a 20-year-old man who was earlier swept away by strong currents while crossing the Chico River in Lubuagan, Kalinga. The body of Jasper Cawi Pallogan was recovered at around 4 p.m. in the river in Barangay Bantay, Tabuk City. Pallogan was carried away by currents"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "HTTP 429"
-    },
-    {
       "id": "inqg-qcdmn5",
       "source": "inqg",
       "title": "Senate OKs Asean extradition treaty, tourist safety bill on 3rd reading",
@@ -2783,89 +3094,6 @@
         {
           "type": "p",
           "text": "They have been working without a contract since Jan. 1."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-gk0wpc",
-      "source": "grd",
-      "title": "Mahmoud Khalil sues Columbia University over years of alleged anti-Palestinian discrimination",
-      "summary": "<p>Lawsuit accuses university of ‘deliberate indifference’ and failure to respond to ‘persistent and coordinated harassment’</p><p><a href=\"https://www.theguardian.com/us-news/mahmoud-khalil\">Mahmoud…",
-      "byline": "Alice Speri",
-      "section": "Mahmoud Khalil",
-      "published": "2026-09-14T19:34:28.000Z",
-      "url": "https://www.theguardian.com/us-news/2026/sep/14/mahmoud-khalil-columbia-university-lawsuit",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/364708009d23111f4233ee4758a5a7db11e1089a/229_0_2280_1825/master/2280.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=606f8299f4911e5515b14a5732cd4817",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Mahmoud Khalil announced on Monday that he’s sued Columbia University, accusing the New York City school he attended of a years-long history of anti-Palestinian discrimination, indifference to harassment, and retaliation."
-        },
-        {
-          "type": "p",
-          "text": "Khalil, a US green card holder of Palestinian descent, was a graduate student at Columbia’s School of International and Public Affairs (SIPA) when he was arrested at his university apartment by federal immigration agents in March 2025, the first of a number of foreign nationals that the Trump administration has detained and sought to deport over their pro-Palestinian advocacy."
-        },
-        {
-          "type": "p",
-          "text": "In a lawsuit filed in the southern district of New York, Khalil and members of the SIPA’s Palestine Working Group have now accused the university, its board, and the dean of the school, Keren Yarhi-Milo, of “deliberate indifference” and failure to respond to “severe, persistent, and coordinated harassment” directed towards him and other students who had been outspoken about Palestinian rights."
-        },
-        {
-          "type": "p",
-          "text": "Khalil, who missed the birth of his first son while in detention, was released in June 2025 but is continuing to fight the administration’s efforts to deport him – a protracted legal battle that is expected to ultimately be decided by the US supreme court."
-        },
-        {
-          "type": "p",
-          "text": "Still, Khalil has continued to speak out, both about Palestinian rights and about free speech in the US. In July, he sued the Trump administration and several pro-Israel groups, accusing them of conspiring to target him and others as punishment for their advocacy. And in an earlier lawsuit filed in March 2025 he sought to stop Columbia from releasing student disciplinary records to the House Committee on Education and the Workforce, which has led the charge against universities in the aftermath of Israel’s war in Gaza and widespread campus protests in support of Palestinian rights."
-        },
-        {
-          "type": "p",
-          "text": "“Columbia laid the groundwork for my targeting by the Trump administration through its deliberate indifference and discrimination aimed at intimidating Palestinian students,” Khalil wrote in a statement announcing the lawsuit."
-        },
-        {
-          "type": "p",
-          "text": "“For over two years, we pleaded with Columbia. Columbia did not care. Our safety and our wellbeing did not serve the ideological project its Board of Trustees was protecting, so they traded us away.”"
-        },
-        {
-          "type": "p",
-          "text": "Khalil also warned of more lawsuits to come. “Next, I will turn to the hateful individuals at Columbia who were also responsible for what we endured,” he wrote."
-        },
-        {
-          "type": "p",
-          "text": "A spokesperson for the university declined to comment on pending litigation but said that “Columbia is committed to protecting our community from discrimination and harassment, and responding promptly and appropriately when concerns arise.”"
-        },
-        {
-          "type": "p",
-          "text": "Columbia students were the first to erect pro-Palestinian encampments on campus in the spring of 2024, inspiring dozens more across the country. The university, once home to cutting-edge scholarship about Palestine, also became the first to be targeted by the Trump administration as part of its ongoing effort to exploit antisemitism accusations to bend universities to its agenda."
-        },
-        {
-          "type": "p",
-          "text": "As tensions flared on campus after the 7 October 2023 Hamas attacks and Israel’s subsequent war in Gaza, students repeatedly sought the administration’s support to protect them from doxing campaigns, the complaint alleges. Many had their photos, names, and personal information posted online, as well as on mobile billboard trucks."
-        },
-        {
-          "type": "p",
-          "text": "Khalil was well known to university administrators because of his efforts to mediate between student protesters and school officials. In the months leading up to his detention, he reported threats, harassment, and doxing, including attacks targeting his immigration status."
-        },
-        {
-          "type": "p",
-          "text": "“What Mahmoud Khalil endured for speaking up against the genocide in Gaza was unconscionable. And much of that was at the hands of or enabled by Columbia,” Brittany Finley, one of his attorneys, wrote in a press release. “Columbia knew what was happening on its campus, and it chose indifference over action.”"
-        },
-        {
-          "type": "p",
-          "text": "According to the complaint, rather than address Khalil’s and other students’ concerns, Columbia subjected students to disciplinary proceedings and restrictions, including suspending SIPA’s Palestine Working Group in May 2025 – a suspension that remains in effect."
-        },
-        {
-          "type": "p",
-          "text": "Other pro-Palestinians students have also sued Columbia over its alleged failure to protect them from a hostile campus environment."
-        },
-        {
-          "type": "p",
-          "text": "“This didn’t begin with me, nor does it end with me,” Khalil said. “With this lawsuit, we hope to ensure that future generations of Columbia students never have to face this fight.”"
         }
       ],
       "truncated": false,
@@ -10767,191 +10995,6 @@
       "why": "HTTP 403"
     },
     {
-      "id": "cbc-fu8hii",
-      "source": "cbc",
-      "title": "What timing of a second referendum in Alberta could look like, if it were to happen",
-      "summary": "Albertans will vote next month on the possibility of a second referendum on separation, but exactly when that referendum — if a majority voted for it — would happen, remains somewhat murky.",
-      "byline": "Jennifer Keiller",
-      "section": "News/Canada/Calgary",
-      "published": "2026-09-14T11:00:00.000Z",
-      "url": "https://www.cbc.ca/news/canada/calgary/alberta-second-referendum-timing-9.7341997?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/c1595917-a986-4401-afff-e8c9b7f37369,1789246663129/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C535%2C5712%2C3213%29%3BResize%3D620",
-        "caption": "Albertans will vote on 10 questions in a referendum Oct. 19, including whether they support the province remaining in Confederation, or they support the province beginning the legal process to have a second, binding referendum on separation. (Janet French/CBC)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Albertans will vote next month on the possibility of a second referendum on separation, but exactly when that referendum — if a majority voted for it — would happen, remains somewhat murky."
-        },
-        {
-          "type": "p",
-          "text": "The Oct. 19 referendum will include 10 questions, including whether Albertans would like to remain in Confederation, or if they support the province beginning the legal process of holding a binding referendum on separation."
-        },
-        {
-          "type": "p",
-          "text": "Polls have consistently shown the majority of Albertans would prefer to stay in Canada, but polls aren’t outcomes. Political analysts expect turnout to be a key factor in determining whether a second referendum is necessary."
-        },
-        {
-          "type": "p",
-          "text": "Elections Alberta said any questions about a future, second referendum must be directed to the provincial government."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "What to expect when you’re voting in the Alberta referendum and watching results"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "“Should Albertans give us that direction in the Fall 2026 referendum, we would begin the legal process under the constitution to hold the binding referendum as soon as possible,” the premier’s press secretary Sam Blackett said in a statement."
-        },
-        {
-          "type": "h",
-          "text": "Spring? Not spring?"
-        },
-        {
-          "type": "p",
-          "text": "In an audio recording from a UCP town hall in Lethbridge in August, Premier Danielle Smith is heard saying her goal would be to hold a binding referendum in spring 2027, if a majority of Albertans vote for it this fall."
-        },
-        {
-          "type": "p",
-          "text": "Alberta content creator Lawrence Magee, who runs the account Berta Proud Dad, shared the recording."
-        },
-        {
-          "type": "p",
-          "text": "In the audio, Smith says holding the vote in the spring would settle the issue before the next provincial election. That election is set for October 2027, though the premier can call a snap election before then."
-        },
-        {
-          "type": "p",
-          "text": "Smith estimated in the recording a timeline of roughly two-and-a-half months of consultations, before the question would be finalized and submitted to the House of Commons for approval, and a vote scheduled for March or April."
-        },
-        {
-          "type": "p",
-          "text": "“If this is truly going to [be] a referendum on those precise terms of departure, then there would likely have to be pretty long and pretty deep [consultations] and getting it done in a six-month stretch is extremely ambitious,” University of Alberta associate law professor Gerard Kennedy told CBC News."
-        },
-        {
-          "type": "p",
-          "text": "But at a news conference on Aug. 26, Smith seemed to backpedal on that proposed timeline, citing the rules in the Citizen Initiative Act that prohibit a referendum from a citizen petition within a year of a general election."
-        },
-        {
-          "type": "p",
-          "text": "Those remarks had some separatists fuming, including the Alberta Prosperity Project’s Jeff Rath, who rejected the idea the legislation is really any sort of an impediment to holding a binding referendum in 2027."
-        },
-        {
-          "type": "p",
-          "text": "He suggested Smith is the real hurdle."
-        },
-        {
-          "type": "p",
-          "text": "“As long as Premier Smith is premier of Alberta, Alberta will never be free,” he told hundreds of supporters outside the legislature late last month."
-        },
-        {
-          "type": "p",
-          "text": "As to why the act prohibits citizen-initiated referendums in an election year, Kennedy says the reason is likely two-fold: both the burden on Elections Alberta, and the possibility that the issue could be one that comes up naturally in an election campaign."
-        },
-        {
-          "type": "h",
-          "text": "But couldn’t that change?"
-        },
-        {
-          "type": "p",
-          "text": "“What [Smith] says isn't wrong, but it's not complete,” said Kennedy."
-        },
-        {
-          "type": "p",
-          "text": "With its majority seat count, he says there is nothing stopping the government from simply changing the legislation."
-        },
-        {
-          "type": "p",
-          "text": "“It would have to go through the legislative process, but they can do that quickly if they have to,” Kennedy said."
-        },
-        {
-          "type": "p",
-          "text": "Plus, he says there’s nothing stopping the premier from calling a vote under the Referendum Act, which, unlike the Citizen Initiative Act, does not stipulate any kind of referendum black-out period before an election."
-        },
-        {
-          "type": "p",
-          "text": "“Now, I don't think Elections Alberta would be very happy about that, because they are not exactly bored,” Kennedy said."
-        },
-        {
-          "type": "p",
-          "text": "Under the Referendum Act, a separation vote could even be added as a ballot-box question during a provincial election."
-        },
-        {
-          "type": "p",
-          "text": "But what makes sense politically for Smith is a separate question."
-        },
-        {
-          "type": "p",
-          "text": "“If she were to call another referendum, let's say six months after the original referendum, six months ahead of a general election, there I think could be a very considerable political cost to pay,” said political scientist Lori Williams."
-        },
-        {
-          "type": "p",
-          "text": "“Certainly she'd run into voter fatigue and a considerable backlash from those who object to being asked twice about a question that it's clear the majority of Albertans oppose.”"
-        },
-        {
-          "type": "h",
-          "text": "What needs to happen before a second referendum"
-        },
-        {
-          "type": "p",
-          "text": "In a news conference Sept. 1, Smith said she could not give a clear answer on when a theoretical second referendum might be held, because the court has “put a bit of a monkey wrench” in the situation."
-        },
-        {
-          "type": "p",
-          "text": "Justice Shaina Leonard quashed a citizen-led petition on separation, ruling the government failed to carry out proper consultations with First Nations."
-        },
-        {
-          "type": "p",
-          "text": "Smith says the government has not been given parameters as to what those consultations would need to look like."
-        },
-        {
-          "type": "p",
-          "text": "The government is appealing the court’s decision, as is separatist leader Mitch Sylvestre, who led the petition drive."
-        },
-        {
-          "type": "p",
-          "text": "It would be helpful, Kennedy said, to have those appeals dealt with first. The appeal court’s ruling — and potentially that of the Supreme Court, should the case go there — could help set the terms for what consultations look like."
-        },
-        {
-          "type": "p",
-          "text": "Once the province has done consultations, it would need to settle on the wording of the referendum question. Within 30 days of that, the House of Commons would weigh in on the chosen question, as per the federal Clarity Act."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Can a province just decide to leave Canada? Here's what the law says"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "MPs would vote on the question, deciding if it is both clear and would result in clear expression of the will of the province."
-        },
-        {
-          "type": "p",
-          "text": "Because the Clarity Act was enacted in 2000, following the last Quebec sovereignty referendum, it would be the first time it would be tested."
-        },
-        {
-          "type": "p",
-          "text": "“We are in uncharted territory. Like, if the province said ‘we don't care what the Clarity Act has to say,' that might be pragmatically unwise, but it's not necessarily doomed to legal failure,” Kennedy said."
-        },
-        {
-          "type": "p",
-          "text": "However, given the polls that show majority support lies on the remain side, Kennedy doubts that it will be put to the test in this case."
-        },
-        {
-          "type": "p",
-          "text": "“Do you want what my best prediction is? There's nowhere near a majority vote yes in the Oct. 19 referendum and this is all a moot point.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1tcwc78",
       "source": "abs",
       "title": "Senators lament possible WTA sanction for Alex Eala amid Asiad participation",
@@ -16889,129 +16932,6 @@
         {
           "type": "p",
           "text": "\"No,\" he said."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-13t9g3x",
-      "source": "cbc",
-      "title": "Reef balls are turning an ocean desert in N.L. into a thriving ecosystem",
-      "summary": "Last year, fisheries technologist Mark Santos and a team at the Marine Institute launched 285 cement reef balls into Placentia Bay’s Fox Harbour in a bid to remediate an ocean dead zone. Already, he…",
-      "byline": "Leila Beaudoin",
-      "section": "News/Canada/Nfld. & Labrador",
-      "published": "2026-09-13T08:30:00.000Z",
-      "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/reef-balls-placentia-bay-9.7334843?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/c6c16bb6-144e-453f-a626-b01ee4236fc3,1788794604852/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C118%2C4032%2C2268%29%3BResize%3D620",
-        "caption": "Marine Institute's Bethany Randell (left) and Mark Santos are using man-made reef balls to help turn Placentia Bay’s Fox Harbour into a thriving marine ecosystem. (Leila Beaudoin/CBC)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Nfld. & Labrador"
-        },
-        {
-          "type": "p",
-          "text": "Last year, fisheries technologist Mark Santos and a team at the Marine Institute launched 285 cement reef balls into Placentia Bay’s Fox Harbour in a bid to remediate an ocean dead zone. Already, he said, they can see marine life returning."
-        },
-        {
-          "type": "h",
-          "text": "Man-made reef balls are full of nooks and crannies, made from special cement"
-        },
-        {
-          "type": "p",
-          "text": "For millennia, seeing the bottom of the ocean floor was reserved for deepsea divers. But that, much like the ocean itself, has changed."
-        },
-        {
-          "type": "p",
-          "text": "Through an array of cameras, the majesty of the deepsea floor has been brought to life on screens — but so has the polar opposite of a thriving seabed: barren, grey dead zones. It’s a testament to the damage caused to marine ecosystems."
-        },
-        {
-          "type": "p",
-          "text": "But a team of ocean scientists in Newfoundland and Labrador are turning one ocean dead zone into a thriving marine ecosystem."
-        },
-        {
-          "type": "p",
-          "text": "“This is really cool because we get to fix a part of the ocean,” Mark Santos, a fisheries technologist with the Marine Institute's Centre for Sustainable Aquatic Resources."
-        },
-        {
-          "type": "p",
-          "text": "A manufactured reef made of concrete structures brings new life into Placentia Bay"
-        },
-        {
-          "type": "p",
-          "text": "A year ago, Santos and a team at The Launch, Marine Institute’s coastal state-of-art lab in Holyrood, launched 285 cement reef balls into the bay. The structures are full of nooks and crannies and made from a type of cement that allows for biofouling, a natural process that invites algae growth working with sunbeams to photosynthesis marine snow into life."
-        },
-        {
-          "type": "p",
-          "text": "The Marine Institute partnered with a major oil company and the government to restore a seafloor zone in Placentia Bay’s Fox Harbour, which is adjacent to a dredging site."
-        },
-        {
-          "type": "p",
-          "text": "“It was barren,” said Santos, who compared the area to a desert. “It was a mega project in the area, they had to remove some of the sediment in the area and this is a remediation project, we had an opportunity to rebuild.”"
-        },
-        {
-          "type": "p",
-          "text": "The team placed an underwater camera in the area to monitor the balls and watched as the cement became carpeted in algae and slowly, more and more marine life settled into the structures to call them home."
-        },
-        {
-          "type": "p",
-          "text": "“If you look at the video you’ll see lobsters sticking out of these little slots and their little claws sticking out,” he said."
-        },
-        {
-          "type": "p",
-          "text": "Through an underwater camera, the artificial marine habitat can be watched through SmartAtlantic.ca."
-        },
-        {
-          "type": "p",
-          "text": "“We actually get to show that to everybody, to say look, we are doing something good. There's a new habitat growing here,” said Bethany Randell, a project engineer with the Marine Institute's Centre for Applied Ocean Technology."
-        },
-        {
-          "type": "p",
-          "text": "Randell added this is what she got into the ocean science business for, a chance to fix some of the damaged ocean."
-        },
-        {
-          "type": "p",
-          "text": "“If we just step away for a minute, nature will find a way.”"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Marine Institute professor embarking on 8-month-long remote Arctic journey",
-            "Shark sightings off northern Newfoundland a welcome sign for researcher"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Since the reef balls were put into place in the bay, Santos said lobsters have migrated there because the layered balls provide an excellent home for the borrowing crustaceans."
-        },
-        {
-          "type": "p",
-          "text": "The reef balls have a predicted lifespan of 500 years, and while this project has a nine-year span, Santos said he plans to keep the camera down there as long as possible."
-        },
-        {
-          "type": "p",
-          "text": "“Maybe it would be great to put them in other places too,” added Randell, who has big conservation ideas and started off wanting to be a marine biologist."
-        },
-        {
-          "type": "p",
-          "text": "Happy to see her ocean saving dreams reflected in this project, like Santos she hopes to keep the balls rolling."
-        },
-        {
-          "type": "p",
-          "text": "Download our free CBC News app to sign up for push alerts for CBC Newfoundland and Labrador. Sign up for our daily headlines newsletter here. Click here to visit our landing page."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Leila Beaudoin is a freelance journalist based in Newfoundland and Labrador."
         }
       ],
       "truncated": false,
