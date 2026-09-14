@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.15**
+**0.17.16**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -33,10 +33,9 @@ one tap away, never buried in a menu.
   fallback whenever the doorway feed is unavailable or older. The main
   Inquirer and Global Nation feeds and article pages use their original direct
   routes.
-- Headline-only records are retried in small batches until full article text
-  is recovered: no more than two old records per source in each 30-minute run.
-  ABS-CBN is the sole exception because its pages have no server-rendered
-  article body.
+- Every retained headline-only record is queued for one paced recovery attempt
+  in the same workflow pass. ABS-CBN is the sole exception because its pages
+  have no server-rendered article body.
 - Manila Bulletin remains direct-only while a working full-article source is
   investigated; its Cloudflare challenge is not treated as a usable feed.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,

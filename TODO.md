@@ -23,9 +23,9 @@ When it contains a newer item, or the doorway feed is unavailable, Wire uses
 the direct feed to discover current article URLs. The main Inquirer and Global
 Nation sources use their original direct routes and never use the doorway.
 
-Summary-only records are retried until complete article text succeeds, capped
-at two old records per source per run. ABS-CBN is excluded because its pages
-do not provide server-rendered article text.
+Every summary-only record is attempted once in the same recovery pass,
+including retained records whose feed is temporarily unavailable. ABS-CBN is
+excluded because its pages do not provide server-rendered article text.
 
 Manila Bulletin still returns a Cloudflare challenge both directly and
 through the doorway. It remains direct-only until a current feed that carries

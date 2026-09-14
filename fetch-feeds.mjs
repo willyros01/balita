@@ -37,7 +37,6 @@ const FEED_PARALLEL  = 5;
 const PAGE_PARALLEL  = 10;  /* pacing is per host, so this is fine */
 const PAGE_TIMEOUT   = 8000;  /* a page silent this long will not answer */
 const PAGE_RETRIES   = 1;   /* one second chance; cheap now that pages are quick */
-const FULL_TEXT_RETRY_PER_SOURCE = 2;
 
 /* ---------------- feed parsing ---------------- */
 
@@ -432,7 +431,7 @@ async function readSource(source){
 
 /* ---------------- one story ---------------- */
 
-async function readArticle(item, source){
+async function readArticle(item, source, recovery = false){
   const base = {
     id: idFor(source.id, item.link),
     source: source.id,
@@ -504,7 +503,9 @@ async function readArticle(item, source){
     page = await get(item.link, {
       accept: "text/html,application/xhtml+xml",
       timeout: PAGE_TIMEOUT,
-      retries: PAGE_RETRIES
+      /* Backlog recovery gets one controlled request per article. New stories
+         retain the ordinary second chance for a transient failure. */
+      retries: recovery ? 0 : PAGE_RETRIES
     });
     if(page.status >= 400) pageError = "HTTP " + page.status;
   }catch(err){
@@ -613,25 +614,41 @@ async function main(){
       console.log("  " + source.name.padEnd(18) + " skipped — " + why);
       /* Keep what we already had from this source. */
       kept.push(...existing.filter(a => a.source === source.id));
+
+      /* A failed feed must not strand its existing headline-only records. */
+      if(source.id !== "abs"){
+        const recovery = existing
+          .filter(a => a.source === source.id && a.source_of_text === "summary" && a.url)
+          .map(a => ({
+            source,
+            recovery: true,
+            item: {
+              title: a.title,
+              summary: a.summary || "",
+              byline: a.byline || "",
+              section: a.section || "",
+              published: a.published,
+              link: a.url,
+              image: a.image || null,
+              full: ""
+            }
+          }));
+        if(recovery.length) queues.set(source.id, recovery);
+      }
       return;
     }
 
     const queue = [];
     let reused = 0;
-    let incompleteRetryRemaining = FULL_TEXT_RETRY_PER_SOURCE;
 
     const cap = Number(source.max) || PER_SOURCE;
     for(const item of r.items.slice(0, cap)){
       const id = idFor(source.id, item.link);
       const have = known.get(id);
-      /* A temporary refusal must not permanently turn a story into a
-         headline-only record. Retry a small number on every run until the
-         publisher supplies usable article text. ABS-CBN is the sole explicit
-         exception because its pages do not contain server-rendered stories. */
+      /* Drain every eligible headline-only record in this pass. ABS-CBN is
+         the sole exception because its pages have no server-rendered body. */
       const retryIncomplete = Boolean(have) && source.id !== "abs" &&
-        have.source_of_text === "summary" &&
-        incompleteRetryRemaining > 0;
-      if(retryIncomplete) incompleteRetryRemaining--;
+        have.source_of_text === "summary";
       const current = have && have.fx === EXTRACTOR_VERSION && !retryIncomplete;
 
       if(have && current && Array.isArray(have.blocks) && have.blocks.length){
@@ -650,7 +667,7 @@ async function main(){
              fresh is merged after kept. */
           if(Array.isArray(have.blocks) && have.blocks.length) kept.push(have);
         }
-        queue.push({ item, source });
+        queue.push({ item, source, recovery: retryIncomplete });
       }
     }
 
@@ -693,7 +710,7 @@ async function main(){
 
   const started2 = Date.now();
   const fetched = await pool(wanted, PAGE_PARALLEL,
-    ({ item, source }) => readArticle(item, source));
+    ({ item, source, recovery }) => readArticle(item, source, recovery));
 
   const fresh = fetched.filter(a => a && !a.error && a.title);
 

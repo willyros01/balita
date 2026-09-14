@@ -37,9 +37,9 @@ or older. Its `newsinfo.inquirer.net` article pages still use the doorway for
 full-text extraction. Main Inquirer and Global Nation retain their original
 direct feed and article routes.
 
-Headline-only records from every source except ABS-CBN remain eligible for
-later full-text recovery. Recovery is capped at two old records per source per
-run, so a refusal cannot create another bulk retry.
+Every retained headline-only record except ABS-CBN is queued for one paced
+full-text recovery request in the same workflow pass. Recovery requests do not
+receive an automatic retry, preventing one refusal from multiplying traffic.
 
 **Nothing breaks if you skip this.** Without the two secrets the fetcher
 behaves exactly as it does now.

@@ -146,8 +146,8 @@ test("only Inquirer News uses doorway-first freshness routing", async () => {
     fetcherSource.indexOf("noDoor: true"));
   assert.match(fetcherSource, /newest\(directItems\) > newest\(doorwayItems\)/);
   assert.match(fetcherSource, /have\.source_of_text === "summary"/);
-  assert.match(fetcherSource, /FULL_TEXT_RETRY_PER_SOURCE = 2/);
-  assert.match(fetcherSource, /incompleteRetryRemaining--/);
   assert.match(fetcherSource, /source\.id !== "abs"/);
   assert.match(fetcherSource, /!retryIncomplete/);
+  assert.match(fetcherSource, /retries: recovery \? 0 : PAGE_RETRIES/);
+  assert.match(fetcherSource, /a\.source_of_text === "summary" && a\.url/);
 });
