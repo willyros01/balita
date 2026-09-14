@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.10**
+**0.17.11**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -29,11 +29,14 @@ one tap away, never buried in a menu.
 - Background-resume routing no longer depends on iOS emitting a lifecycle
   event. The worker broadcasts before and after foregrounding every Wire
   window, while the page consumes the durable route on a one-second heartbeat.
-- RSS feeds are requested directly before using the Cloudflare doorway as a
-  fallback. Empty HTTP errors now retain their real status instead of being
-  reported generically as `no response`.
-- Manila Bulletin is included in the client-side doorway fallback list. The
-  Worker still independently restricts which exact upstream hosts it permits.
+- Inquirer News uses the Cloudflare doorway for both its RSS feed and article
+  pages. This restores the proven full-article path instead of accepting
+  headline-only results from a direct feed request.
+- The direct Inquirer News feed is checked only for freshness. If it contains
+  newer headlines than Cloudflare, Wire uses that newer index while continuing
+  to retrieve each full article page through Cloudflare.
+- Manila Bulletin remains direct-only while a working full-article source is
+  investigated; its Cloudflare challenge is not treated as a usable feed.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,
   and ABS-CBN, and only when the publisher begins its headline with Breaking,
   Just In, Urgent, or Live.

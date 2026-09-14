@@ -13,12 +13,18 @@ servers are refused. If another outlet starts returning 403, add its host to
 two places — `THROUGH_THE_DOOR` in `net.mjs` and `ALLOWED` in `worker.js`.
 Both, or it will not route.
 
-Feeds themselves are now tried directly before the doorway fallback. On
-September 14, 2026, Inquirer News returned valid RSS directly while Manila
-Bulletin returned a Cloudflare 403 challenge. Wire 0.17.10 adds `mb.com.ph`
-to `net.mjs` so GitHub can exercise the authenticated doorway fallback. The
-Worker's separate host allowlist must also permit the host before `/fetch`
-can succeed.
+For Inquirer News the doorway intentionally handles both the RSS feed and
+the article pages. A direct-feed-first experiment returned headlines but
+left new stories without full article bodies, so Wire 0.17.11 restored the
+previous end-to-end doorway path.
+
+A direct request remains as a freshness probe, not the primary route. When it
+contains a newer item than the doorway feed, Wire uses it to discover the new
+URLs and still retrieves their complete article pages through the doorway.
+
+Manila Bulletin still returns a Cloudflare challenge both directly and
+through the doorway. It remains direct-only until a current feed that carries
+usable article text is verified.
 
 The doorway does **not** help sites that build their pages in the browser.
 ABS-CBN was tested: Cloudflare received the whole page and the article was

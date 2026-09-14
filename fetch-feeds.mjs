@@ -323,36 +323,46 @@ async function readSource(source){
 
   let feedUrl = source.url;
   let res, firstError = "";
-  let doorwayStatus = 0, doorwayError = "";
+  let usedFreshnessFallback = false;
 
   try{
-    /* Fetch feeds directly first. The doorway exists for article pages that
-       reject GitHub, but routing newsinfo's public RSS through it can turn a
-       healthy feed into an empty upstream response. */
-    res = await get(feedUrl, {
-      accept: "application/rss+xml, application/xml, text/xml, */*",
-      noDoor: true
-    });
+    /* net.mjs routes configured refused hosts through the doorway. For
+       Inquirer News this deliberately applies to the feed as well as each
+       article page, so the feed and full story use one proven path. */
+    res = await get(feedUrl, { accept: "application/rss+xml, application/xml, text/xml, */*" });
   }catch(err){
     res = null;
     firstError = err && err.message ? err.message : "no response";
   }
 
-  /* If the runner itself is refused, retain the configured doorway as a
-     fallback rather than making direct access a new single point of failure. */
-  if(needsDoorway(feedUrl) && (!res || !res.body || res.status >= 400)){
+  /* Cloudflare is the primary route for Inquirer News, including its feed.
+     Probe the public feed only as a freshness check: if it contains a newer
+     item (or the doorway feed failed), use it for discovery. readArticle()
+     still opens newsinfo article URLs through the doorway, so choosing the
+     fresher index never downgrades stories to headline-only by design. */
+  if(source.id === "inqn" && needsDoorway(feedUrl)){
     try{
-      const throughDoor = await get(feedUrl, {
-        accept: "application/rss+xml, application/xml, text/xml, */*"
+      const direct = await get(feedUrl, {
+        accept: "application/rss+xml, application/xml, text/xml, */*",
+        noDoor: true
       });
-      if(throughDoor && (throughDoor.body || throughDoor.status < 400)){
-        res = throughDoor;
-      }else if(throughDoor){
-        doorwayStatus = throughDoor.status;
+      if(direct && direct.status < 400 && direct.body && looksLikeFeed(direct.body)){
+        const doorwayItems = res && res.status < 400 && res.body && looksLikeFeed(res.body)
+          ? readFeed(res.body) : [];
+        const directItems = readFeed(direct.body);
+        const newest = items => items.reduce((latest, item) => {
+          const stamp = Date.parse(item.published || "");
+          return Number.isFinite(stamp) ? Math.max(latest, stamp) : latest;
+        }, 0);
+
+        if(directItems.length &&
+           (!doorwayItems.length || newest(directItems) > newest(doorwayItems))){
+          res = direct;
+          usedFreshnessFallback = true;
+        }
       }
     }catch(err){
-      doorwayError = err && err.message ? err.message : "no response";
-      if(!firstError) firstError = doorwayError;
+      /* A failed freshness probe must not replace a working doorway result. */
     }
   }
 
@@ -366,17 +376,15 @@ async function readSource(source){
     }
   }
 
-  if(res && res.status >= 400){
+  if(!res || !res.body){
+    report.note = firstError || "no response";
+    return report;
+  }
+  if(res.status >= 400){
     /* 403 from a datacenter usually means the outlet blocks cloud
        traffic rather than that anything is broken. Worth naming. */
     report.note = "HTTP " + res.status +
-      (res.status === 403 ? " — blocking this server" : "") +
-      (doorwayStatus ? "; doorway HTTP " + doorwayStatus : "") +
-      (!doorwayStatus && doorwayError ? "; doorway " + doorwayError : "");
-    return report;
-  }
-  if(!res || !res.body){
-    report.note = firstError || "no response";
+      (res.status === 403 ? " — blocking this server" : "");
     return report;
   }
   if(!looksLikeFeed(res.body)){
@@ -389,6 +397,9 @@ async function readSource(source){
 
   if(items.length && lastParseError){
     report.note = lastParseError;
+  }
+  if(items.length && usedFreshnessFallback){
+    report.note = "direct feed was newer; article pages still use doorway";
   }
 
   if(!items.length){

@@ -120,9 +120,7 @@ test("the page recovers routes on startup and every iOS resume signal", () => {
   assert.match(feedSource, /li\.dataset\.articleId = a\.id/);
   assert.match(readerSource, /returnSource\.name \+ " headlines"/);
   assert.match(fetcherSource, /ARTICLE_DIR \+ "\/" \+ article\.id \+ "\.json"/);
-  assert.match(fetcherSource, /noDoor: true/);
-  assert.ok(fetcherSource.indexOf("if(res.status >= 400)") <
-    fetcherSource.indexOf("if(!res || !res.body)"));
+  assert.match(fetcherSource, /article pages still use doorway/);
 });
 
 test("the workflow publishes articles before sending their notifications", async () => {
@@ -134,11 +132,14 @@ test("the workflow publishes articles before sending their notifications", async
   assert.match(workflow, /git diff --quiet breaking-state\.json/);
 });
 
-test("Manila Bulletin can use the strictly allowlisted doorway fallback", async () => {
+test("Inquirer News uses the doorway for its feed and full article pages", async () => {
   const netSource = await readFile(new URL("../net.mjs", import.meta.url), "utf8");
 
-  assert.match(netSource, /"mb\.com\.ph"/);
-  assert.match(fetcherSource, /needsDoorway\(feedUrl\)/);
-  assert.match(fetcherSource, /noDoor: true/);
-  assert.match(fetcherSource, /doorway HTTP/);
+  assert.match(netSource, /"newsinfo\.inquirer\.net"/);
+  assert.doesNotMatch(netSource, /"mb\.com\.ph"/);
+  assert.match(fetcherSource, /source\.id === "inqn"/);
+  assert.match(fetcherSource, /noDoor:\s*true/);
+  assert.ok(fetcherSource.indexOf("res = await get(feedUrl, { accept:") <
+    fetcherSource.indexOf("noDoor: true"));
+  assert.match(fetcherSource, /newest\(directItems\) > newest\(doorwayItems\)/);
 });

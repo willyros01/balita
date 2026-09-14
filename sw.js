@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.10";
+const VERSION = "wire-v0.17.11";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
