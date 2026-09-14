@@ -95,7 +95,7 @@ jobs:
           GOOGLE_ACCESS_TOKEN: ${{ steps.google-auth.outputs.access_token }}
           # Manual test runs may bypass the marker for one Inquirer story.
           # Scheduled, external, and push runs always remain strict.
-          WIRE_TEST_INQUIRER: ${{ ((github.event_name == 'workflow_dispatch' && inputs.test_inquirer) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[test-inquirer-alert]'))) && '1' || '0' }}
+          WIRE_TEST_INQUIRER: ${{ github.event_name == 'workflow_dispatch' && inputs.test_inquirer && '1' || '0' }}
 
       - name: Commit if anything changed
         run: |
