@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.1";
+const VERSION = "wire-v0.17.2";
 const SHELL = [
   "./",
   "./index.html",
@@ -160,7 +160,18 @@ self.addEventListener("notificationclick", event => {
         const navigated = "navigate" in open ? await open.navigate(target.href) : open;
         return navigated || open;
       }
-      return self.clients.openWindow(target.href);
+      const opened = await self.clients.openWindow(target.href);
+      if(opened && articleId){
+        /* iOS may launch an installed Home Screen app at its start URL even
+           when openWindow included a query string. Repeat the article message
+           briefly while the new page installs its listener. The page ignores
+           duplicates. */
+        for(const delay of [0, 500, 1500]){
+          if(delay) await new Promise(resolve => setTimeout(resolve, delay));
+          opened.postMessage({ type: "wire-open-article", articleId });
+        }
+      }
+      return opened;
     })
   );
 });

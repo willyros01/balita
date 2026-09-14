@@ -128,30 +128,46 @@ function registerWorker(){
   });
 }
 
-/* A notification can focus an already-open Home Screen app without causing a
-   navigation. Receive its article id directly so tapping the alert still opens
-   the reader. Refresh once first in case the alert refers to a newly fetched
-   story that is not in this window's in-memory feed yet. */
+let notificationClicksReady = false;
+let pendingNotificationArticle = "";
+let lastNotificationArticle = "";
+
+async function openPendingNotificationArticle(){
+  const articleId = pendingNotificationArticle;
+  if(!notificationClicksReady || !articleId || articleId === lastNotificationArticle) return;
+
+  pendingNotificationArticle = "";
+  lastNotificationArticle = articleId;
+
+  if(!state.articles.some(article => article.id === articleId)){
+    await loadArticles();
+    ctx.refresh();
+  }
+
+  if(state.articles.some(article => article.id === articleId)){
+    ctx.openArticle(articleId);
+  }else{
+    announce("That story is no longer in the current feed.", "undone");
+  }
+}
+
+/* Register this listener before startup awaits storage or the feed. A newly
+   launched iOS Home Screen app can otherwise miss the service worker's first
+   article message. Queue it until the UI is ready, then refresh stale feed data
+   before opening the reader. */
 function listenForNotificationClicks(){
   if(!("serviceWorker" in navigator)) return;
 
-  navigator.serviceWorker.addEventListener("message", async event => {
+  navigator.serviceWorker.addEventListener("message", event => {
     if(event.data?.type !== "wire-open-article") return;
     const articleId = String(event.data.articleId || "");
     if(!articleId) return;
-
-    if(!state.articles.some(article => article.id === articleId)){
-      await loadArticles();
-      ctx.refresh();
-    }
-
-    if(state.articles.some(article => article.id === articleId)){
-      ctx.openArticle(articleId);
-    }else{
-      announce("That story is no longer in the current feed.", "undone");
-    }
+    pendingNotificationArticle = articleId;
+    void openPendingNotificationArticle();
   });
 }
+
+listenForNotificationClicks();
 
 /* ---------------- is anything too wide? ----------------
 
@@ -302,8 +318,10 @@ async function start(){
   renderAbout();
   watchNetwork();
   registerWorker();
-  listenForNotificationClicks();
   notifications.setup({ announce, onTap });
+
+  notificationClicksReady = true;
+  await openPendingNotificationArticle();
 
   const btn = document.getElementById("refresh");
   if(btn) onTap(btn, refresh);

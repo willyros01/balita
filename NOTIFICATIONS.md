@@ -179,12 +179,14 @@ article id, and opens:
 ./?article={articleId}
 ```
 
-If Wire is closed, the query string opens the Home Screen app and `app.js`
-validates the id against the current `articles.json` before opening the reader.
-If Wire is already open, the service worker focuses that window and sends the
-article id through a `wire-open-article` message; the app refreshes stale feed
-data before opening it. The service worker rejects click destinations outside
-its own GitHub Pages scope.
+If Wire is closed, the query string opens the Home Screen app. Because iOS can
+replace that URL with the app's start URL, the service worker also repeats a
+`wire-open-article` message briefly while the new page starts. `app.js`
+registers its listener before loading storage or feed data, queues the id until
+the interface is ready, and ignores duplicate messages. If Wire is already
+open, the same message path focuses its existing window. In both cases, the app
+refreshes stale feed data before opening the matching reader. The service worker
+rejects click destinations outside its own GitHub Pages scope.
 
 ## Required Firebase Console settings
 
@@ -198,7 +200,7 @@ its own GitHub Pages scope.
 
 ## Acceptance test
 
-1. Wait for the GitHub Pages deployment of version `0.17.1`.
+1. Wait for the GitHub Pages deployment of version `0.17.2`.
 2. On iPhone or iPad, remove the previous Home Screen installation and install
    Wire again if the notification control does not appear.
 3. Open Wire from its Home Screen icon.
