@@ -132,25 +132,22 @@ test("the workflow publishes articles before sending their notifications", async
   assert.match(workflow, /git diff --quiet breaking-state\.json/);
 });
 
-test("all three Inquirer feeds use doorway-first freshness routing", async () => {
+test("only Inquirer News uses doorway-first freshness routing", async () => {
   const netSource = await readFile(new URL("../net.mjs", import.meta.url), "utf8");
 
   assert.match(netSource, /"newsinfo\.inquirer\.net"/);
-  assert.match(netSource, /"www\.inquirer\.net"/);
-  assert.match(netSource, /"globalnation\.inquirer\.net"/);
-  assert.match(netSource, /"sports\.inquirer\.net"/);
-  assert.match(netSource, /"entertainment\.inquirer\.net"/);
-  assert.match(netSource, /"technology\.inquirer\.net"/);
-  assert.match(netSource, /"lifestyle\.inquirer\.net"/);
-  assert.match(netSource, /"cebudailynews\.inquirer\.net"/);
+  assert.doesNotMatch(netSource, /"www\.inquirer\.net"/);
+  assert.doesNotMatch(netSource, /"globalnation\.inquirer\.net"/);
+  assert.doesNotMatch(netSource, /"business\.inquirer\.net"/);
   assert.doesNotMatch(netSource, /"mb\.com\.ph"/);
-  assert.match(fetcherSource, /INQUIRER_SOURCE_IDS\.has\(source\.id\)/);
+  assert.match(fetcherSource, /source\.id === "inqn"/);
   assert.match(fetcherSource, /noDoor:\s*true/);
   assert.ok(fetcherSource.indexOf("res = await get(feedUrl, { accept:") <
     fetcherSource.indexOf("noDoor: true"));
   assert.match(fetcherSource, /newest\(directItems\) > newest\(doorwayItems\)/);
   assert.match(fetcherSource, /have\.source_of_text === "summary"/);
-  assert.match(fetcherSource, /INQUIRER_RETRY_PER_SOURCE = 2/);
+  assert.match(fetcherSource, /FULL_TEXT_RETRY_PER_SOURCE = 2/);
   assert.match(fetcherSource, /incompleteRetryRemaining--/);
-  assert.match(fetcherSource, /!retryIncompleteInquirer/);
+  assert.match(fetcherSource, /source\.id !== "abs"/);
+  assert.match(fetcherSource, /!retryIncomplete/);
 });

@@ -14,8 +14,8 @@ password, written in two places so the two ends recognise each other.
 | Fetch request | `GET {WIRE_DOOR_URL}/fetch?url={percent-encoded-article-url}` |
 | Authentication | Request header `x-wire-key`, value from GitHub secret `WIRE_KEY` |
 | Worker secret | Cloudflare encrypted secret named `WIRE_KEY`; must match GitHub exactly |
-| Routed hosts | `newsinfo.inquirer.net`, `www.inquirer.net`, `globalnation.inquirer.net`, `business.inquirer.net`, `sports.inquirer.net`, `entertainment.inquirer.net`, `technology.inquirer.net`, `lifestyle.inquirer.net`, `cebudailynews.inquirer.net` |
-| Worker upstream allowlist | Must contain those same exact hosts |
+| Routed host | `newsinfo.inquirer.net` |
+| Worker upstream allowlist | Must contain that exact host |
 | Success body | Upstream article HTML as text |
 | Success metadata | `content-type`, `x-wire-final-url`, and `x-wire-status` response headers |
 | Auth failure | HTTP `401` |
@@ -31,14 +31,15 @@ The doorway returns source HTML only to the GitHub fetcher. The browser never
 calls it. `extract.mjs` still converts the response into the small plain-text
 block types accepted by the app.
 
-For all three configured Inquirer feeds, the doorway is the primary route.
-The fetcher also compares each direct feed's newest timestamp. If a direct
-feed is newer, it supplies the headline index for that run, while supported
-Inquirer article hosts still go through the doorway for full-text extraction.
-Any Inquirer record that had to use a summary is retried on later runs rather
-than being permanently reused as though it were complete. Recovery is capped
-at two old records per Inquirer source per run, so an upstream block cannot
-produce another bulk retry.
+Only Inquirer News uses the doorway. The fetcher compares its direct feed with
+the doorway feed and uses the direct feed whenever the doorway is unavailable
+or older. Its `newsinfo.inquirer.net` article pages still use the doorway for
+full-text extraction. Main Inquirer and Global Nation retain their original
+direct feed and article routes.
+
+Headline-only records from every source except ABS-CBN remain eligible for
+later full-text recovery. Recovery is capped at two old records per source per
+run, so a refusal cannot create another bulk retry.
 
 **Nothing breaks if you skip this.** Without the two secrets the fetcher
 behaves exactly as it does now.

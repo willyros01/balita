@@ -18,12 +18,14 @@ the article pages. A direct-feed-first experiment returned headlines but
 left new stories without full article bodies, so Wire 0.17.11 restored the
 previous end-to-end doorway path.
 
-A direct request remains as a freshness probe, not the primary route, for all
-three Inquirer feeds. When it contains a newer item than the doorway feed,
-Wire uses it to discover the new URLs and still retrieves supported article
-hosts through the doorway. Summary-only Inquirer records are retried every run
-until the complete article succeeds, capped at two old records per source per
-run to avoid a burst when the Worker is blocked.
+A direct request remains the Inquirer News freshness and failure fallback.
+When it contains a newer item, or the doorway feed is unavailable, Wire uses
+the direct feed to discover current article URLs. The main Inquirer and Global
+Nation sources use their original direct routes and never use the doorway.
+
+Summary-only records are retried until complete article text succeeds, capped
+at two old records per source per run. ABS-CBN is excluded because its pages
+do not provide server-rendered article text.
 
 Manila Bulletin still returns a Cloudflare challenge both directly and
 through the doorway. It remains direct-only until a current feed that carries

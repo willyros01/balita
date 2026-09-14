@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.14**
+**0.17.15**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -29,17 +29,14 @@ one tap away, never buried in a menu.
 - Background-resume routing no longer depends on iOS emitting a lifecycle
   event. The worker broadcasts before and after foregrounding every Wire
   window, while the page consumes the durable route on a one-second heartbeat.
-- All three Inquirer feeds use the Cloudflare doorway as their primary route.
-  Their direct feeds are checked only for freshness; a newer direct index can
-  supply article URLs, but supported Inquirer article pages still go through
-  Cloudflare for full-text extraction.
-- The doorway host contract covers the Inquirer News, main, Global Nation,
-  Business, Sports, Entertainment, Technology, Lifestyle, and Cebu Daily News
-  hosts used by those three feeds.
-- Inquirer records that fell back to summaries after a temporary page refusal
-  are never considered complete. Each 30-minute run retries no more than two
-  per Inquirer source, preventing a blocked Worker from producing a large
-  burst of failed requests.
+- Only Inquirer News uses the Cloudflare doorway. Its direct feed is the
+  fallback whenever the doorway feed is unavailable or older. The main
+  Inquirer and Global Nation feeds and article pages use their original direct
+  routes.
+- Headline-only records are retried in small batches until full article text
+  is recovered: no more than two old records per source in each 30-minute run.
+  ABS-CBN is the sole exception because its pages have no server-rendered
+  article body.
 - Manila Bulletin remains direct-only while a working full-article source is
   investigated; its Cloudflare challenge is not treated as a usable feed.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,
