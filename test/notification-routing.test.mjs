@@ -6,7 +6,7 @@ import vm from "node:vm";
 const workerSource = await readFile(new URL("../sw.js", import.meta.url), "utf8");
 const appSource = await readFile(new URL("../app.js", import.meta.url), "utf8");
 
-function workerHarness({ windows = [] } = {}){
+function workerHarness({ windows = [], openedClient = null } = {}){
   const listeners = new Map();
   const records = new Map();
   const order = [];
@@ -29,7 +29,10 @@ function workerHarness({ windows = [] } = {}){
     clients: {
       claim: async () => {},
       matchAll: async () => windows,
-      openWindow: async () => null
+      openWindow: async url => {
+        order.push("open:" + url);
+        return openedClient;
+      }
     },
     addEventListener: (name, handler) => listeners.set(name, handler),
     skipWaiting: async () => {}
@@ -52,18 +55,14 @@ function workerHarness({ windows = [] } = {}){
   return { listeners, records, order };
 }
 
-test("a background notification saves, navigates and then focuses the app", async () => {
+test("a background notification uses the proven browser launch route", async () => {
   const order = [];
   const client = {
     url: "https://example.test/balita/",
-    navigate: async url => {
-      order.push("navigate:" + url);
-      return client;
-    },
     focus: async () => { order.push("focused"); },
     postMessage: message => order.push("message:" + message.articleId)
   };
-  const harness = workerHarness({ windows: [client] });
+  const harness = workerHarness({ windows: [client], openedClient: client });
   const originalPush = harness.order.push.bind(harness.order);
   harness.order.push = value => {
     order.push(value);
@@ -82,8 +81,10 @@ test("a background notification saves, navigates and then focuses the app", asyn
 
   assert.deepEqual(order, [
     "route-saved",
-    "navigate:https://example.test/balita/?article=inq-test",
+    "open:https://example.test/balita/?article=inq-test",
     "focused",
+    "message:inq-test",
+    "message:inq-test",
     "message:inq-test",
     "message:inq-test",
     "message:inq-test"
@@ -101,9 +102,10 @@ test("service-worker activation preserves a pending notification route", async (
   assert.deepEqual(harness.order, ["delete:wire-v0.17.2"]);
 });
 
-test("the page recovers routes on startup and both iOS resume signals", () => {
+test("the page recovers routes on startup and every iOS resume signal", () => {
   assert.match(appSource, /void recoverNotificationArticle\(\);/);
   assert.match(appSource, /addEventListener\("pageshow"/);
+  assert.match(appSource, /addEventListener\("focus"/);
   assert.match(appSource, /addEventListener\("visibilitychange"/);
   assert.match(appSource, /await clearNotificationArticle\(articleId\)/);
   assert.match(appSource, /const requests = await cache\.keys\(\)/);

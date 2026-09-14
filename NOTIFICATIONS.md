@@ -193,12 +193,14 @@ needed, opens that exact article, and then deletes the record. This durable
 handoff covers iOS suspending an already-open app before a one-time worker
 message can be handled. It never falls back to the first feed article.
 
-For an existing window, the worker additionally navigates it to
-`./?article={articleId}` before focusing it and repeats the article message after
-navigation. The page reads the dedicated cache by its stored request rather
-than reconstructing the key from the resumed page URL, which may differ in its
-trailing slash on iOS. These are three independent routes to the same id: URL,
-persistent cache, and worker message.
+The worker uses `clients.openWindow()` for the article URL whether Wire is
+closed or suspended. That browser-owned launch route is the path verified to
+work on iPhone; `WindowClient.navigate()` remains only a fallback because iOS
+may ignore it while restoring an existing Home Screen app. After launch, the
+worker repeats the article message for five seconds. The page also checks the
+dedicated cache on window focus, `pageshow`, and visibility return. These are
+independent routes to the same id: launch URL, persistent cache, and worker
+message.
 
 The service worker rejects click destinations outside its own GitHub Pages
 scope.
@@ -215,7 +217,7 @@ scope.
 
 ## Acceptance test
 
-1. Wait for the GitHub Pages deployment of version `0.17.4`.
+1. Wait for the GitHub Pages deployment of version `0.17.5`.
 2. On iPhone or iPad, remove the previous Home Screen installation and install
    Wire again if the notification control does not appear.
 3. Open Wire from its Home Screen icon.

@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.4**
+**0.17.5**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -17,9 +17,9 @@ one tap away, never buried in a menu.
 - A notification destination is saved before a suspended app is resumed, then
   removed only after Wire opens that exact story. This prevents iOS from losing
   a one-time background message and returning to the feed position.
-- An already-open Wire window is explicitly navigated to the article route;
-  persistent cache recovery and repeated worker messages remain independent
-  fallbacks when iOS resumes a suspended Home Screen app.
+- Notification taps use the same browser-owned launch route whether Wire is
+  closed or suspended. Persistent cache recovery, URL routing, a window-focus
+  listener, and repeated worker messages remain independent fallbacks.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,
   and ABS-CBN, and only when the publisher begins its headline with Breaking,
   Just In, Urgent, or Live.

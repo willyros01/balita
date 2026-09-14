@@ -236,6 +236,7 @@ function listenForNotificationClicks(){
 listenForNotificationClicks();
 void recoverNotificationArticle();
 window.addEventListener("pageshow", () => { void recoverNotificationArticle(); });
+window.addEventListener("focus", () => { void recoverNotificationArticle(); });
 document.addEventListener("visibilitychange", () => {
   if(!document.hidden) void recoverNotificationArticle();
 });
