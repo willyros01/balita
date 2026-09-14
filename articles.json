@@ -1,6 +1,6 @@
 {
   "version": "0.15.1",
-  "updated": "2026-09-14T22:38:22.629Z",
+  "updated": "2026-09-14T22:39:32.720Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,37 @@
   ],
   "articles": [
     {
+      "id": "inqn-17nff5s",
+      "source": "inqn",
+      "title": "Easterlies to affect N. Luzon; localized thunderstorms to prevail over PH",
+      "summary": "MANILA, Philippines — The easterlies, or warm winds coming from the Pacific Ocean, may bring gloomy skies and occasional rains over Northern Luzon, while the rest of the country may experience…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-09-14T22:39:25.439Z",
+      "url": "https://newsinfo.inquirer.net/2305247/easterlies-to-affect-n-luzon-localized-thunderstorms-to-prevail-over-ph",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/810421921_1104444168688518_6363091107023907594_n.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The easterlies, or warm winds coming from the Pacific Ocean, may bring gloomy skies and occasional rains over Northern Luzon, while the rest of the country may experience localized thunderstorms on Tuesday, Sept. 15, the state weather bureau reported. The Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa) reported in its"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "HTTP 403"
+    },
+    {
       "id": "inqn-wz2gdq",
       "source": "inqn",
       "title": "Sona promise: Lower power bills as VAT on system loss out",
       "summary": "MANILA, Philippines — The Bureau of Internal Revenue (BIR) has removed the 12-percent value-added tax (VAT) on system loss charges in electricity bills effective immediately, a move the Department of…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-14T22:38:16.199Z",
+      "published": "2026-09-14T22:39:25.439Z",
       "url": "https://newsinfo.inquirer.net/2305128/sona-promise-lower-power-bills-as-vat-on-system-loss-out",
       "image": {
         "src": "https://newsinfo.inquirer.net/files/2026/09/electric-VAT-15September2026.jpg",
@@ -77,28 +101,110 @@
       "why": "HTTP 403"
     },
     {
-      "id": "inqn-17nff5s",
-      "source": "inqn",
-      "title": "Easterlies to affect N. Luzon; localized thunderstorms to prevail over PH",
-      "summary": "MANILA, Philippines — The easterlies, or warm winds coming from the Pacific Ocean, may bring gloomy skies and occasional rains over Northern Luzon, while the rest of the country may experience…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-09-14T22:38:16.157Z",
-      "url": "https://newsinfo.inquirer.net/2305247/easterlies-to-affect-n-luzon-localized-thunderstorms-to-prevail-over-ph",
+      "id": "cbc-1t0a1qr",
+      "source": "cbc",
+      "title": "Republican Mitch McConnell returns to U.S. Senate after 3-month absence",
+      "summary": "Republican Sen. Mitch McConnell of Kentucky returned to the U.S. Senate on Monday for the first time since June 14, when he was hospitalized after a fall in his home.",
+      "byline": "CBC",
+      "section": "News/World",
+      "published": "2026-09-14T22:33:02.000Z",
+      "url": "https://www.cbc.ca/news/world/mitch-mcconnell-returns-senate-9.7343847?cmp=rss",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/810421921_1104444168688518_6363091107023907594_n.jpeg",
-        "caption": ""
+        "src": "https://i.cbc.ca/ais/fa0094a9-d1cc-4ff2-bcb9-ea1fbb1b2d44,1789424313898/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C323%2C5597%2C3148%29%3BResize%3D620",
+        "caption": "U.S. Sen. Mitch McConnell waves at reporters outside the Senate Chamber after he returned to Capitol Hill on Monday. (Evan Vucci/Reuters)"
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — The easterlies, or warm winds coming from the Pacific Ocean, may bring gloomy skies and occasional rains over Northern Luzon, while the rest of the country may experience localized thunderstorms on Tuesday, Sept. 15, the state weather bureau reported. The Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa) reported in its"
+          "text": "World·New"
+        },
+        {
+          "type": "p",
+          "text": "Republican Sen. Mitch McConnell of Kentucky returned to the U.S. Senate on Monday for the first time since June 14, when he was hospitalized after a fall in his home."
+        },
+        {
+          "type": "h",
+          "text": "McConnell has been conspicuously absent since he suffered a fall June 11"
+        },
+        {
+          "type": "p",
+          "text": "McConnell's three-month absence from the Senate generated a flood of criticism and online speculation, as the Kentucky senator initially remained quiet for weeks about his condition. The 84-year-old senator eventually disclosed that he had been \"briefly unconscious\" due to the fall and had also been treated for mild pneumonia in the hospital."
+        },
+        {
+          "type": "p",
+          "text": "\"My recovery has been a long and often frustrating process, and the lingering effects of childhood polio haven't made it any easier,\" McConnell said in a statement Monday. \"I'm still not quite back to 100%, but I've assured Leader [John] Thune that, as I continue with physical therapy on the advice of my doctors, I will do my best to be present for tough votes when our Conference needs me.\""
+        },
+        {
+          "type": "p",
+          "text": "The concerns over McConnell's absence highlighted increasing public concern about the age of lawmakers and their capacity to carry out their duties. Speculation about his condition grew so intense at one point that Kentucky's Democratic Gov. Andy Beshear took the extraordinary step of issuing a public letter asking McConnell to update the public in a \"transparent manner.\""
+        },
+        {
+          "type": "p",
+          "text": "Mitch McConnell confirms he's alive; his absence, death of other senator complicate Republican power"
+        },
+        {
+          "type": "p",
+          "text": "McConnell's absence was also felt over the summer as Republicans were unable to advance a farm bill out of committee. His return could give Republican leaders a needed vote as they try to advance legislation on cryptocurrency regulation and college sports."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Late-night TV hosts skewer Mitch McConnell's proof-of-life photo",
+            "U.S. Sen. Mitch McConnell breaks silence, says he was hospitalized after a fall"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "McConnell, who holds the distinction of being the longest-serving Senate leader, is in his final months of his four decades in office. He is retiring at the end of January after one of the most consequential careers in modern politics."
+        },
+        {
+          "type": "p",
+          "text": "Republicans have nominated U.S. Rep. Andy Barr to replace him, while Democrats have nominated former state lawmaker Charles Booker. McConnell said he is determined to finish out his term."
+        },
+        {
+          "type": "h",
+          "text": "History of health problems"
+        },
+        {
+          "type": "p",
+          "text": "McConnell had polio in his early childhood and has long acknowledged difficulty as an adult in walking and climbing stairs."
+        },
+        {
+          "type": "p",
+          "text": "The physician's office in Congress in the July statement said McConnell has \"experienced several falls through the year\" due to his \"post-polio condition.\" The office said his physical therapy was aimed at reducing the risk of him falling again."
+        },
+        {
+          "type": "p",
+          "text": "\"A comprehensive evaluation by a multidisciplinary team determined that he had no fractures, cardiac abnormalities, stroke, tumor, or hemorrhage,\" the physician's office said."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The U.S. Senate is in turmoil. What does it mean for upcoming midterm elections?"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "McConnell was first elected to the Senate in 1984 and was the Republican leader from 2007 until last year , serving as both majority and minority leader during that period. He has remained active as a rank-and-file senator, showing up for work when the chamber is in session, often using a wheelchair to get around."
+        },
+        {
+          "type": "p",
+          "text": "But the senator's physical condition has visibly declined in recent years."
+        },
+        {
+          "type": "p",
+          "text": "He was hospitalized with a concussion in March 2023 and missed several weeks of work after falling in a Washington hotel."
+        },
+        {
+          "type": "p",
+          "text": "He twice froze up during news conferences after he returned, staring vacantly ahead before colleagues and staff. A year later, he fell and sprained his wrist while walking out of a Republican luncheon."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "inqn-18lew76",
@@ -21482,272 +21588,6 @@
         {
           "type": "p",
           "text": "Video by Meiying Wu"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-m8lorb",
-      "source": "cbc",
-      "title": "IN PHOTOS | TIFF movies and moments",
-      "summary": "See highlights from the Toronto International Film Festival, featuring nearly 300 titles, 800 guests and thousands of industry delegates during the 11-day event that started on Thursday.",
-      "byline": "Showwei Chu, Christine Pagulayan",
-      "section": "News/Entertainment/Entertainment Photos",
-      "published": "2026-09-10T22:16:19.000Z",
-      "url": "https://www.cbc.ca/news/entertainment/toronto-international-film-festival-photo-scroller-9.7337149?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/f61f1a64-72b7-4b00-8de7-0421a091fb4a,1789406402610/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C780%2C438%29%3BResize%3D620",
-        "caption": "During the Toronto International Film Festival, CBC News will feature highlights from red carpet premieres, fan excitement and other festival moments. (Evan Mitsui/CBC, Evan Mitsui/CBC, Matt Winkelmeyer/Getty Images, Evan Mitsui/CBC)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Film fans and stars are flocking to Canada's largest city for the Toronto International Film Festival. The 51st edition of TIFF, which runs for 11 days until Sept. 20, features nearly 300 titles and big-name actors, including Javier Bardem, Cynthia Erivo and Seth Rogen, among others."
-        },
-        {
-          "type": "p",
-          "text": "Each day, we will feature highlights from red carpet premieres, fan excitement and other festival moments, so keep scrolling."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "TIFF's at a turning point — but how will the film festival's new focus on dealmaking affect fans?"
-          ]
-        },
-        {
-          "type": "h",
-          "text": "Day 5: Sept. 14"
-        },
-        {
-          "type": "p",
-          "text": "TIFF is now at the half-way point. But the stars are still out in full force today."
-        },
-        {
-          "type": "p",
-          "text": "Orlando Bloom as well as sisters Kate (in second photo) and Rooney Mara are among the celebrities in town to promote their film. In their case, it's the buzzy Bucking Fastard, the tale of sisters Jean and Joan Holbrooke, who speak in unison, dress alike and fall for the same man played by Bloom."
-        },
-        {
-          "type": "p",
-          "text": "(Evan Mitsui/CBC)"
-        },
-        {
-          "type": "p",
-          "text": "Taraji P. Henson attends the premiere of Darlene Love: I Know Where I've Been."
-        },
-        {
-          "type": "p",
-          "text": "(Arturo Holmes/Getty Images)"
-        },
-        {
-          "type": "p",
-          "text": "Alden Ehrenreich greets fans outside the premiere of the thriller A Talent For Murder at Roy Thomson Hall."
-        },
-        {
-          "type": "p",
-          "text": "(Matt Winkelmeyer/Getty Images)"
-        },
-        {
-          "type": "p",
-          "text": "Helen Mirren, who was honoured at TIFF's Tribute Awards on Sunday, also on the red carpet for A Talent For Murder."
-        },
-        {
-          "type": "p",
-          "text": "(Carlos Osorio/Reuters)"
-        },
-        {
-          "type": "h",
-          "text": "Day 4: Sept. 13"
-        },
-        {
-          "type": "p",
-          "text": "Léa Seydoux (first photo) and Lily-Rose Depp (second photo) attend the premiere of their film, Alpha Gang, which is about aliens that come to Earth to conquer it, and find that the human world has a plague they weren’t ready for."
-        },
-        {
-          "type": "p",
-          "text": "Cynthia Erivo poses with fans at the premiere of Prima Facie at Roy Thomson Hall. In the film, she plays a British defence lawyer, who primarily defends those accused of sex crimes."
-        },
-        {
-          "type": "p",
-          "text": "(Sonia Recchia/Getty Images)"
-        },
-        {
-          "type": "p",
-          "text": "Annie Murphy poses on the red carpet at the premiere of her rom-com, All That She Wants. Murphy stars as a millennial, who hooks up with a Gen Zer."
-        },
-        {
-          "type": "p",
-          "text": "(Brian de Rivera Simon/Getty Images)"
-        },
-        {
-          "type": "p",
-          "text": "Margaret Qualley promotes her film, Love Of Your Life, at the Royal Alexandra Theatre."
-        },
-        {
-          "type": "p",
-          "text": "(Mark Blinch/Reuters)"
-        },
-        {
-          "type": "p",
-          "text": "Amanda Seyfried attends the premiere of the American prison drama thriller, The Life and Deaths of Wilson Shedd."
-        },
-        {
-          "type": "p",
-          "text": "(Robin Marchant/Getty Images)"
-        },
-        {
-          "type": "p",
-          "text": "From left to right, director Yeon Sang-ho, and stars Kim Hyun-joo and Bae Hyun-sung pose with fans on Toronto's King Street West at the premiere of Paradise Lost."
-        },
-        {
-          "type": "p",
-          "text": "Julianne Moore greets fans during the premiere of The Debut at the Princess of Wales Theatre."
-        },
-        {
-          "type": "p",
-          "text": "(Rodin Eckenroth/Getty Images)"
-        },
-        {
-          "type": "p",
-          "text": "Javier Bardem attends the red carpet for The Beloved, in which he stars as an acclaimed film director who casts his estranged daughter, played by Victoria Luengo, second photo, in a period piece."
-        },
-        {
-          "type": "p",
-          "text": "Channing Tatum, left, and Gemma Chan promote their film, Josephine, at the Royal Alexandra Theatre. They play the parents of a young girl, played by Mason Reeves, second photo, who are helping their daughter cope after she witnesses a crime."
-        },
-        {
-          "type": "p",
-          "text": "(Leon Bennett/Getty Images)"
-        },
-        {
-          "type": "h",
-          "text": "Day 3: Sept. 12"
-        },
-        {
-          "type": "p",
-          "text": "Zaria arrives on the red carpet at Roy Thomson Hall to promote the film Misty Green, which was written, directed and produced by Chris Rock, second photo, who also appears in the film."
-        },
-        {
-          "type": "p",
-          "text": "Lauren Miller Rogen looks at her husband, Seth Rogen, as they promote Babies, a film she wrote and directed."
-        },
-        {
-          "type": "p",
-          "text": "Seth Rogen and Anna Kendrick, seen below, star in the film about a couple deciding whether they want to be parents."
-        },
-        {
-          "type": "p",
-          "text": "Sarah Paulson poses ahead of the premiere of her film Closing Night at the Princess of Wales Theatre."
-        },
-        {
-          "type": "p",
-          "text": "Courtney Cox, centre, directs Evil Genius, which dramatizes a bizarre 2003 bank heist by a pizza delivery man dubbed the \"pizza bomber.\" Patricia Arquette, left, and David Harbour star in the film, which premiered at Roy Thomson Hall."
-        },
-        {
-          "type": "p",
-          "text": "(Frazer Harrison/Getty Images)"
-        },
-        {
-          "type": "h",
-          "text": "Day 2: Sept. 11"
-        },
-        {
-          "type": "p",
-          "text": "Fans of K-pop superstar Lisa caught a glimpse of her at the premiere of her documentary Always Lalisa at Roy Thomson Hall."
-        },
-        {
-          "type": "p",
-          "text": "The cast and crew of The Stunt Driver pose on the red carpet at the film's premiere. The film stars Jay Baruchel, in the centre, pointing, and Ed Helms, to his left."
-        },
-        {
-          "type": "p",
-          "text": "Director Michael Dowse, to Baruchel's right, says he knew Baruchel was perfect for the role of Canadian daredevil Ken Carter after watching him in the film Blackberry."
-        },
-        {
-          "type": "p",
-          "text": "Baruchel with his wife Rebecca-Jo Dunham-Baruchel."
-        },
-        {
-          "type": "p",
-          "text": "Rebel Wilson, left, with her wife, Ramona Agruma-Wilson, promotes Girl Group, a film she wrote, directed and starred in alongside Jennifer Coolidge and Randall Park, in second photo, at Roy Thomson Hall."
-        },
-        {
-          "type": "p",
-          "text": "Actor James McAvoy signs autographs ahead of the premiere of his supernatural drama Faith at the Royal Alexandra Theatre."
-        },
-        {
-          "type": "p",
-          "text": "Faith co-star Smylie Bradwell, right, who plays the son of a single mom, attends the premiere."
-        },
-        {
-          "type": "p",
-          "text": "Earlier Friday at Roy Thomson Hall, director Adrian Buitenhuis arrives to promote the film Man in Motion: The Rick Hansen Story."
-        },
-        {
-          "type": "p",
-          "text": "(Chris Young/The Canadian Press)"
-        },
-        {
-          "type": "p",
-          "text": "Hansen arrives on the red carpet."
-        },
-        {
-          "type": "h",
-          "text": "Day 1: Sept. 10"
-        },
-        {
-          "type": "p",
-          "text": "Workers roll out the red carpet ahead of Thursday's opening film Being Heumann by Oscar-winning director Siân Heder, as well as the Canadian premieres for Fjord, The Housewife and Stuffed."
-        },
-        {
-          "type": "p",
-          "text": "Furry friends and visitors pose for photos in front of the TIFF sign on King Street West, a section of which is blocked off during the first part of the festival and known as Festival Street."
-        },
-        {
-          "type": "p",
-          "text": "(Carlos Osorio/Reuters, Joel C Ryan/Invision/The Associated Press)"
-        },
-        {
-          "type": "p",
-          "text": "At Roy Thomson Hall, the cast and crew of Being Heumann pose on the red carpet ahead of its premiere. The biographical film is about the so-called mother of the disability rights movement, Judy Heumann."
-        },
-        {
-          "type": "p",
-          "text": "Actor Rio Finnegan attends the film's premiere."
-        },
-        {
-          "type": "p",
-          "text": "Actor Fan Bingbing, who is a TIFF 2026 Tribute Award honouree, attends the film's premiere."
-        },
-        {
-          "type": "p",
-          "text": "Toronto Mayor Olivia Chow also attends the premiere."
-        },
-        {
-          "type": "p",
-          "text": "At the Royal Alexandra Theatre, actor Jodie Comer of Killing Eve fame attends the premiere of Stuffed."
-        },
-        {
-          "type": "p",
-          "text": "(Cindy Ord/Getty Images)"
-        },
-        {
-          "type": "p",
-          "text": "And the film's director and co-writer Theo Rhys meets fans at the premiere."
-        },
-        {
-          "type": "p",
-          "text": "Later at the Royal Alexandra Theatre, actor Naomi Watts greets fans as she attends the red carpet for her film The Housewife, directed by Canaadian filmmaker Ben Shirinian."
-        },
-        {
-          "type": "p",
-          "text": "The Housewife is a historical drama based on a true story that focuses on a couple played by Watts and Luke Evans, also at the premiere."
-        },
-        {
-          "type": "p",
-          "text": "(Joel C Ryan/Invision/The Associated Press)"
         }
       ],
       "truncated": false,
