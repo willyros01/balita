@@ -218,6 +218,14 @@ dedicated cache on window focus, `pageshow`, and visibility return. These are
 independent routes to the same id: launch URL, persistent cache, and worker
 message.
 
+For background resume, the worker broadcasts the ID to every matching Wire
+window before foregrounding and repeatedly re-queries and broadcasts afterward.
+It also focuses and navigates the returned client. Because iOS can restore an
+old Home Screen view without emitting any lifecycle event, the page checks the
+durable route cache once per second whenever its JavaScript is running. This
+heartbeat is the final authority and does not depend on `focus`, `pageshow`,
+`visibilitychange`, or a one-time worker message.
+
 The service worker rejects click destinations outside its own GitHub Pages
 scope.
 
@@ -233,7 +241,7 @@ scope.
 
 ## Acceptance test
 
-1. Wait for the GitHub Pages deployment of version `0.17.7`.
+1. Wait for the GitHub Pages deployment of version `0.17.8`.
 2. On iPhone or iPad, remove the previous Home Screen installation and install
    Wire again if the notification control does not appear.
 3. Open Wire from its Home Screen icon.

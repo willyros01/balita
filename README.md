@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.7**
+**0.17.8**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -26,6 +26,9 @@ one tap away, never buried in a menu.
 - Every current story is also published at `articles/<article-id>.json`.
   Notification taps retrieve that exact endpoint, open the ID directly, and
   make Back return to the matching headline in its publisher grouping.
+- Background-resume routing no longer depends on iOS emitting a lifecycle
+  event. The worker broadcasts before and after foregrounding every Wire
+  window, while the page consumes the durable route on a one-second heartbeat.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,
   and ABS-CBN, and only when the publisher begins its headline with Breaking,
   Just In, Urgent, or Live.

@@ -143,6 +143,7 @@ let pendingNotificationArticle = "";
 let lastNotificationArticle = "";
 let notificationArticleOpening = false;
 let notificationRetryTimer = 0;
+let notificationHeartbeatBusy = false;
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
 
 /* Capture the launch URL before startup does any asynchronous work. iOS can
@@ -288,6 +289,9 @@ function listenForNotificationClicks(){
     pendingNotificationArticle = articleId;
     void openPendingNotificationArticle();
   });
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    void recoverNotificationArticle();
+  });
 }
 
 listenForNotificationClicks();
@@ -297,6 +301,18 @@ window.addEventListener("focus", () => { void recoverNotificationArticle(); });
 document.addEventListener("visibilitychange", () => {
   if(!document.hidden) void recoverNotificationArticle();
 });
+
+/* iOS can resume an installed app at its old screen without emitting any of
+   the events above. Timers resume when JavaScript resumes, so this lightweight
+   cache heartbeat makes the durable route authoritative rather than relying
+   on an optional lifecycle signal. Backgrounded pages are frozen or heavily
+   throttled by iOS, and the cache is read-only unless a route exists. */
+window.setInterval(async () => {
+  if(notificationHeartbeatBusy) return;
+  notificationHeartbeatBusy = true;
+  try{ await recoverNotificationArticle(); }
+  finally{ notificationHeartbeatBusy = false; }
+}, 1000);
 
 /* ---------------- is anything too wide? ----------------
 

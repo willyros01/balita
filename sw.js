@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.7";
+const VERSION = "wire-v0.17.8";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -172,6 +172,28 @@ self.addEventListener("notificationclick", event => {
       }));
     }
 
+    const wireWindows = () => self.clients.matchAll({
+      type: "window",
+      includeUncontrolled: true
+    }).then(clients => clients.filter(client =>
+      client.url.startsWith(self.registration.scope)
+    ));
+
+    const broadcast = async () => {
+      if(!articleId) return [];
+      const clients = await wireWindows();
+      clients.forEach(client => client.postMessage({
+        type: "wire-open-article",
+        articleId
+      }));
+      return clients;
+    };
+
+    /* Tell an existing page before asking iOS to foreground it. WebKit can
+       restore a frozen Home Screen window without delivering a later focus,
+       pageshow, visibility or message event. */
+    const existing = await broadcast();
+
     /* The cold-launch path has opened the correct article reliably on iPhone.
        Use that same browser-owned launch operation even when a Wire window is
        already present. iOS can ignore WindowClient.navigate() on a suspended
@@ -181,24 +203,20 @@ self.addEventListener("notificationclick", event => {
     catch(err){ /* Fall back to the existing client below. */ }
 
     if(!opened){
-      const windows = await self.clients.matchAll({
-        type: "window",
-        includeUncontrolled: true
-      });
-      opened = windows.find(client => client.url.startsWith(self.registration.scope)) || null;
-      if(opened && "navigate" in opened){
-        try{ opened = await opened.navigate(target.href) || opened; }
-        catch(err){ /* The saved route and messages below still recover it. */ }
-      }
+      opened = existing[0] || null;
     }
 
     if(opened) await opened.focus();
+    if(opened && "navigate" in opened){
+      try{ opened = await opened.navigate(target.href) || opened; }
+      catch(err){ /* Cache polling and broadcasts remain independent paths. */ }
+    }
     if(opened && articleId){
-      /* Repeat for five seconds: iOS may need time to thaw the existing app or
-         may replace the requested URL with its manifest start URL. */
+      /* Re-query all clients on every attempt. iOS may replace the original
+         WindowClient object while restoring the Home Screen application. */
       for(const delay of [0, 500, 1000, 1500, 2000]){
         if(delay) await new Promise(resolve => setTimeout(resolve, delay));
-        opened.postMessage({ type: "wire-open-article", articleId });
+        await broadcast();
       }
     }
     return opened;

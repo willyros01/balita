@@ -82,16 +82,11 @@ test("a background notification uses the proven browser launch route", async () 
   });
   await completion;
 
-  assert.deepEqual(order, [
-    "route-saved",
-    "open:https://example.test/balita/?article=inq-test",
-    "focused",
-    "message:inq-test",
-    "message:inq-test",
-    "message:inq-test",
-    "message:inq-test",
-    "message:inq-test"
-  ]);
+  assert.equal(order[0], "route-saved");
+  assert.ok(order.indexOf("message:inq-test") <
+    order.indexOf("open:https://example.test/balita/?article=inq-test"));
+  assert.ok(order.includes("focused"));
+  assert.equal(order.filter(item => item === "message:inq-test").length, 6);
   const saved = [...harness.records.values()].map(JSON.parse)[0];
   assert.equal(saved.articleId, "inq-test");
 });
@@ -118,6 +113,10 @@ test("the page recovers routes on startup and every iOS resume signal", () => {
   assert.doesNotMatch(appSource, /That story is no longer in the current feed/);
   assert.match(appSource, /"articles\/" \+ encodeURIComponent\(articleId\)/);
   assert.match(appSource, /prepareNotificationReturn\(article\)/);
+  assert.match(appSource, /window\.setInterval\(async \(\) =>/);
+  assert.match(appSource, /notificationHeartbeatBusy/);
+  assert.match(workerSource, /const existing = await broadcast\(\)/);
+  assert.match(workerSource, /await broadcast\(\)/);
   assert.match(feedSource, /li\.dataset\.articleId = a\.id/);
   assert.match(readerSource, /returnSource\.name \+ " headlines"/);
   assert.match(fetcherSource, /ARTICLE_DIR \+ "\/" \+ article\.id \+ "\.json"/);
