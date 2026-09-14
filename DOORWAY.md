@@ -36,7 +36,9 @@ The fetcher also compares each direct feed's newest timestamp. If a direct
 feed is newer, it supplies the headline index for that run, while supported
 Inquirer article hosts still go through the doorway for full-text extraction.
 Any Inquirer record that had to use a summary is retried on later runs rather
-than being permanently reused as though it were complete.
+than being permanently reused as though it were complete. Recovery is capped
+at two old records per Inquirer source per run, so an upstream block cannot
+produce another bulk retry.
 
 **Nothing breaks if you skip this.** Without the two secrets the fetcher
 behaves exactly as it does now.

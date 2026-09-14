@@ -145,5 +145,7 @@ test("all three Inquirer feeds use doorway-first freshness routing", async () =>
     fetcherSource.indexOf("noDoor: true"));
   assert.match(fetcherSource, /newest\(directItems\) > newest\(doorwayItems\)/);
   assert.match(fetcherSource, /have\.source_of_text === "summary"/);
+  assert.match(fetcherSource, /INQUIRER_RETRY_PER_SOURCE = 2/);
+  assert.match(fetcherSource, /incompleteRetryRemaining--/);
   assert.match(fetcherSource, /!retryIncompleteInquirer/);
 });

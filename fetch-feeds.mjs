@@ -38,6 +38,7 @@ const PAGE_PARALLEL  = 10;  /* pacing is per host, so this is fine */
 const PAGE_TIMEOUT   = 8000;  /* a page silent this long will not answer */
 const PAGE_RETRIES   = 1;   /* one second chance; cheap now that pages are quick */
 const INQUIRER_SOURCE_IDS = new Set(["inq", "inqn", "inqg"]);
+const INQUIRER_RETRY_PER_SOURCE = 2;
 
 /* ---------------- feed parsing ---------------- */
 
@@ -618,6 +619,7 @@ async function main(){
 
     const queue = [];
     let reused = 0;
+    let incompleteRetryRemaining = INQUIRER_RETRY_PER_SOURCE;
 
     const cap = Number(source.max) || PER_SOURCE;
     for(const item of r.items.slice(0, cap)){
@@ -627,7 +629,9 @@ async function main(){
          story into a headline-only record. Keep retrying incomplete Inquirer
          entries until a later run successfully extracts their full page. */
       const retryIncompleteInquirer = Boolean(have) && doorwayReady() &&
-        INQUIRER_SOURCE_IDS.has(source.id) && have.source_of_text === "summary";
+        INQUIRER_SOURCE_IDS.has(source.id) && have.source_of_text === "summary" &&
+        incompleteRetryRemaining > 0;
+      if(retryIncompleteInquirer) incompleteRetryRemaining--;
       const current = have && have.fx === EXTRACTOR_VERSION && !retryIncompleteInquirer;
 
       if(have && current && Array.isArray(have.blocks) && have.blocks.length){

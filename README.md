@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.12**
+**0.17.13**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -34,8 +34,9 @@ one tap away, never buried in a menu.
   supply article URLs, but supported Inquirer article pages still go through
   Cloudflare for full-text extraction.
 - Inquirer records that fell back to summaries after a temporary page refusal
-  are never considered complete. Each 30-minute run retries them until their
-  full article text is recovered.
+  are never considered complete. Each 30-minute run retries no more than two
+  per Inquirer source, preventing a blocked Worker from producing a large
+  burst of failed requests.
 - Manila Bulletin remains direct-only while a working full-article source is
   investigated; its Cloudflare challenge is not treated as a usable feed.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,

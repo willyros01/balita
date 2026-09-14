@@ -22,7 +22,8 @@ A direct request remains as a freshness probe, not the primary route, for all
 three Inquirer feeds. When it contains a newer item than the doorway feed,
 Wire uses it to discover the new URLs and still retrieves supported article
 hosts through the doorway. Summary-only Inquirer records are retried every run
-until the complete article succeeds.
+until the complete article succeeds, capped at two old records per source per
+run to avoid a burst when the Worker is blocked.
 
 Manila Bulletin still returns a Cloudflare challenge both directly and
 through the doorway. It remains direct-only until a current feed that carries
