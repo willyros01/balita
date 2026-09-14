@@ -18,9 +18,11 @@ the article pages. A direct-feed-first experiment returned headlines but
 left new stories without full article bodies, so Wire 0.17.11 restored the
 previous end-to-end doorway path.
 
-A direct request remains as a freshness probe, not the primary route. When it
-contains a newer item than the doorway feed, Wire uses it to discover the new
-URLs and still retrieves their complete article pages through the doorway.
+A direct request remains as a freshness probe, not the primary route, for all
+three Inquirer feeds. When it contains a newer item than the doorway feed,
+Wire uses it to discover the new URLs and still retrieves supported article
+hosts through the doorway. Summary-only Inquirer records are retried every run
+until the complete article succeeds.
 
 Manila Bulletin still returns a Cloudflare challenge both directly and
 through the doorway. It remains direct-only until a current feed that carries

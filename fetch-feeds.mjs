@@ -37,6 +37,7 @@ const FEED_PARALLEL  = 5;
 const PAGE_PARALLEL  = 10;  /* pacing is per host, so this is fine */
 const PAGE_TIMEOUT   = 8000;  /* a page silent this long will not answer */
 const PAGE_RETRIES   = 1;   /* one second chance; cheap now that pages are quick */
+const INQUIRER_SOURCE_IDS = new Set(["inq", "inqn", "inqg"]);
 
 /* ---------------- feed parsing ---------------- */
 
@@ -340,7 +341,7 @@ async function readSource(source){
      item (or the doorway feed failed), use it for discovery. readArticle()
      still opens newsinfo article URLs through the doorway, so choosing the
      fresher index never downgrades stories to headline-only by design. */
-  if(source.id === "inqn" && needsDoorway(feedUrl)){
+  if(INQUIRER_SOURCE_IDS.has(source.id) && needsDoorway(feedUrl)){
     try{
       const direct = await get(feedUrl, {
         accept: "application/rss+xml, application/xml, text/xml, */*",
@@ -622,7 +623,12 @@ async function main(){
     for(const item of r.items.slice(0, cap)){
       const id = idFor(source.id, item.link);
       const have = known.get(id);
-      const current = have && have.fx === EXTRACTOR_VERSION;
+      /* A temporary Cloudflare refusal must not permanently turn an Inquirer
+         story into a headline-only record. Keep retrying incomplete Inquirer
+         entries until a later run successfully extracts their full page. */
+      const retryIncompleteInquirer = Boolean(have) && doorwayReady() &&
+        INQUIRER_SOURCE_IDS.has(source.id) && have.source_of_text === "summary";
+      const current = have && have.fx === EXTRACTOR_VERSION && !retryIncompleteInquirer;
 
       if(have && current && Array.isArray(have.blocks) && have.blocks.length){
         kept.push(have);

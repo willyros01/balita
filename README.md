@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.11**
+**0.17.12**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -29,12 +29,13 @@ one tap away, never buried in a menu.
 - Background-resume routing no longer depends on iOS emitting a lifecycle
   event. The worker broadcasts before and after foregrounding every Wire
   window, while the page consumes the durable route on a one-second heartbeat.
-- Inquirer News uses the Cloudflare doorway for both its RSS feed and article
-  pages. This restores the proven full-article path instead of accepting
-  headline-only results from a direct feed request.
-- The direct Inquirer News feed is checked only for freshness. If it contains
-  newer headlines than Cloudflare, Wire uses that newer index while continuing
-  to retrieve each full article page through Cloudflare.
+- All three Inquirer feeds use the Cloudflare doorway as their primary route.
+  Their direct feeds are checked only for freshness; a newer direct index can
+  supply article URLs, but supported Inquirer article pages still go through
+  Cloudflare for full-text extraction.
+- Inquirer records that fell back to summaries after a temporary page refusal
+  are never considered complete. Each 30-minute run retries them until their
+  full article text is recovered.
 - Manila Bulletin remains direct-only while a working full-article source is
   investigated; its Cloudflare challenge is not treated as a usable feed.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,

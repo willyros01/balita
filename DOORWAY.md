@@ -14,8 +14,8 @@ password, written in two places so the two ends recognise each other.
 | Fetch request | `GET {WIRE_DOOR_URL}/fetch?url={percent-encoded-article-url}` |
 | Authentication | Request header `x-wire-key`, value from GitHub secret `WIRE_KEY` |
 | Worker secret | Cloudflare encrypted secret named `WIRE_KEY`; must match GitHub exactly |
-| Routed host | `newsinfo.inquirer.net` |
-| Worker upstream allowlist | Must contain that exact host |
+| Routed hosts | `newsinfo.inquirer.net`, `www.inquirer.net`, `globalnation.inquirer.net`, `business.inquirer.net` |
+| Worker upstream allowlist | Must contain those same exact hosts |
 | Success body | Upstream article HTML as text |
 | Success metadata | `content-type`, `x-wire-final-url`, and `x-wire-status` response headers |
 | Auth failure | HTTP `401` |
@@ -31,11 +31,12 @@ The doorway returns source HTML only to the GitHub fetcher. The browser never
 calls it. `extract.mjs` still converts the response into the small plain-text
 block types accepted by the app.
 
-For Inquirer News, the doorway is the primary route for both the feed and its
-article pages. The fetcher also compares the direct feed's newest timestamp.
-If the direct feed is newer, it supplies the headline index for that run, but
-every `newsinfo.inquirer.net` article page still goes through the doorway for
-full-text extraction.
+For all three configured Inquirer feeds, the doorway is the primary route.
+The fetcher also compares each direct feed's newest timestamp. If a direct
+feed is newer, it supplies the headline index for that run, while supported
+Inquirer article hosts still go through the doorway for full-text extraction.
+Any Inquirer record that had to use a summary is retried on later runs rather
+than being permanently reused as though it were complete.
 
 **Nothing breaks if you skip this.** Without the two secrets the fetcher
 behaves exactly as it does now.
