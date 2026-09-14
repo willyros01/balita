@@ -138,6 +138,11 @@ test("all three Inquirer feeds use doorway-first freshness routing", async () =>
   assert.match(netSource, /"newsinfo\.inquirer\.net"/);
   assert.match(netSource, /"www\.inquirer\.net"/);
   assert.match(netSource, /"globalnation\.inquirer\.net"/);
+  assert.match(netSource, /"sports\.inquirer\.net"/);
+  assert.match(netSource, /"entertainment\.inquirer\.net"/);
+  assert.match(netSource, /"technology\.inquirer\.net"/);
+  assert.match(netSource, /"lifestyle\.inquirer\.net"/);
+  assert.match(netSource, /"cebudailynews\.inquirer\.net"/);
   assert.doesNotMatch(netSource, /"mb\.com\.ph"/);
   assert.match(fetcherSource, /INQUIRER_SOURCE_IDS\.has\(source\.id\)/);
   assert.match(fetcherSource, /noDoor:\s*true/);

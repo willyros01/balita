@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.13**
+**0.17.14**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -33,6 +33,9 @@ one tap away, never buried in a menu.
   Their direct feeds are checked only for freshness; a newer direct index can
   supply article URLs, but supported Inquirer article pages still go through
   Cloudflare for full-text extraction.
+- The doorway host contract covers the Inquirer News, main, Global Nation,
+  Business, Sports, Entertainment, Technology, Lifestyle, and Cebu Daily News
+  hosts used by those three feeds.
 - Inquirer records that fell back to summaries after a temporary page refusal
   are never considered complete. Each 30-minute run retries no more than two
   per Inquirer source, preventing a blocked Worker from producing a large

@@ -51,7 +51,12 @@ const THROUGH_THE_DOOR = new Set([
   "newsinfo.inquirer.net",
   "www.inquirer.net",
   "globalnation.inquirer.net",
-  "business.inquirer.net"
+  "business.inquirer.net",
+  "sports.inquirer.net",
+  "entertainment.inquirer.net",
+  "technology.inquirer.net",
+  "lifestyle.inquirer.net",
+  "cebudailynews.inquirer.net"
 ]);
 
 export function doorwayReady(){
