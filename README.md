@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.9**
+**0.17.10**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -32,6 +32,8 @@ one tap away, never buried in a menu.
 - RSS feeds are requested directly before using the Cloudflare doorway as a
   fallback. Empty HTTP errors now retain their real status instead of being
   reported generically as `no response`.
+- Manila Bulletin is included in the client-side doorway fallback list. The
+  Worker still independently restricts which exact upstream hosts it permits.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,
   and ABS-CBN, and only when the publisher begins its headline with Breaking,
   Just In, Urgent, or Live.

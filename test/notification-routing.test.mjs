@@ -133,3 +133,11 @@ test("the workflow publishes articles before sending their notifications", async
   assert.match(workflow, /git status --porcelain -- articles\.json articles\//);
   assert.match(workflow, /git diff --quiet breaking-state\.json/);
 });
+
+test("Manila Bulletin can use the strictly allowlisted doorway fallback", async () => {
+  const netSource = await readFile(new URL("../net.mjs", import.meta.url), "utf8");
+
+  assert.match(netSource, /"mb\.com\.ph"/);
+  assert.match(fetcherSource, /needsDoorway\(feedUrl\)/);
+  assert.match(fetcherSource, /noDoor: true/);
+});

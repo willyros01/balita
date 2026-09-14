@@ -14,7 +14,8 @@ password, written in two places so the two ends recognise each other.
 | Fetch request | `GET {WIRE_DOOR_URL}/fetch?url={percent-encoded-article-url}` |
 | Authentication | Request header `x-wire-key`, value from GitHub secret `WIRE_KEY` |
 | Worker secret | Cloudflare encrypted secret named `WIRE_KEY`; must match GitHub exactly |
-| Allowed upstream host | `newsinfo.inquirer.net` only |
+| Client fallback hosts | `newsinfo.inquirer.net`, `mb.com.ph` |
+| Worker upstream allowlist | Must contain the same two exact hosts |
 | Success body | Upstream article HTML as text |
 | Success metadata | `content-type`, `x-wire-final-url`, and `x-wire-status` response headers |
 | Auth failure | HTTP `401` |

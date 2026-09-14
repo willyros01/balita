@@ -15,9 +15,10 @@ Both, or it will not route.
 
 Feeds themselves are now tried directly before the doorway fallback. On
 September 14, 2026, Inquirer News returned valid RSS directly while Manila
-Bulletin returned a Cloudflare 403 challenge. Manila Bulletin must not be
-added to `net.mjs` until the Worker's separate host allowlist is updated and
-its exact feed is successfully probed there.
+Bulletin returned a Cloudflare 403 challenge. Wire 0.17.10 adds `mb.com.ph`
+to `net.mjs` so GitHub can exercise the authenticated doorway fallback. The
+Worker's separate host allowlist must also permit the host before `/fetch`
+can succeed.
 
 The doorway does **not** help sites that build their pages in the browser.
 ABS-CBN was tested: Cloudflare received the whole page and the article was
