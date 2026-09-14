@@ -140,4 +140,5 @@ test("Manila Bulletin can use the strictly allowlisted doorway fallback", async 
   assert.match(netSource, /"mb\.com\.ph"/);
   assert.match(fetcherSource, /needsDoorway\(feedUrl\)/);
   assert.match(fetcherSource, /noDoor: true/);
+  assert.match(fetcherSource, /doorway HTTP/);
 });

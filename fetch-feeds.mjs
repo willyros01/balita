@@ -323,6 +323,7 @@ async function readSource(source){
 
   let feedUrl = source.url;
   let res, firstError = "";
+  let doorwayStatus = 0, doorwayError = "";
 
   try{
     /* Fetch feeds directly first. The doorway exists for article pages that
@@ -346,9 +347,12 @@ async function readSource(source){
       });
       if(throughDoor && (throughDoor.body || throughDoor.status < 400)){
         res = throughDoor;
+      }else if(throughDoor){
+        doorwayStatus = throughDoor.status;
       }
     }catch(err){
-      if(!firstError) firstError = err && err.message ? err.message : "no response";
+      doorwayError = err && err.message ? err.message : "no response";
+      if(!firstError) firstError = doorwayError;
     }
   }
 
@@ -362,11 +366,13 @@ async function readSource(source){
     }
   }
 
-  if(res.status >= 400){
+  if(res && res.status >= 400){
     /* 403 from a datacenter usually means the outlet blocks cloud
        traffic rather than that anything is broken. Worth naming. */
     report.note = "HTTP " + res.status +
-      (res.status === 403 ? " — blocking this server" : "");
+      (res.status === 403 ? " — blocking this server" : "") +
+      (doorwayStatus ? "; doorway HTTP " + doorwayStatus : "") +
+      (!doorwayStatus && doorwayError ? "; doorway " + doorwayError : "");
     return report;
   }
   if(!res || !res.body){
