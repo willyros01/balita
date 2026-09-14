@@ -88,6 +88,30 @@ jobs:
           WIRE_DOOR_URL: ${{ secrets.WIRE_DOOR_URL }}
           WIRE_KEY: ${{ secrets.WIRE_KEY }}
 
+      # Never notify for an article that the installed app cannot fetch yet.
+      - name: Publish fetched stories before alerts
+        run: |
+          git config user.name  "balita-bot"
+          git config user.email "balita-bot@users.noreply.github.com"
+
+          if git diff --quiet articles.json; then
+            echo "No new stories to publish."
+          else
+            COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('articles.json','utf8')).articles.length)")
+            git add articles.json
+            git commit -m "News: $COUNT stories"
+
+            for i in 1 2 3; do
+              if git push; then break; fi
+              if [ "$i" = 3 ]; then
+                echo "Could not publish stories after three tries."
+                exit 1
+              fi
+              git pull --rebase --strategy-option=theirs
+              sleep 5
+            done
+          fi
+
       - name: Send tightly limited breaking-news alerts
         run: node breaking-notify.mjs
         continue-on-error: true
@@ -97,19 +121,18 @@ jobs:
           # Scheduled, external, and push runs always remain strict.
           WIRE_TEST_INQUIRER: ${{ github.event_name == 'workflow_dispatch' && inputs.test_inquirer && '1' || '0' }}
 
-      - name: Commit if anything changed
+      - name: Commit notification state if changed
         run: |
           git config user.name  "balita-bot"
           git config user.email "balita-bot@users.noreply.github.com"
 
-          if git diff --quiet articles.json breaking-state.json; then
-            echo "Nothing new."
+          if git diff --quiet breaking-state.json; then
+            echo "Notification state is unchanged."
             exit 0
           fi
 
-          COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('articles.json','utf8')).articles.length)")
-          git add articles.json breaking-state.json
-          git commit -m "News: $COUNT stories"
+          git add breaking-state.json
+          git commit -m "Notifications: update delivery state"
 
           # Another run may have landed while this one was working.
           for i in 1 2 3; do

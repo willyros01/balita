@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.5**
+**0.17.6**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -20,6 +20,9 @@ one tap away, never buried in a menu.
 - Notification taps use the same browser-owned launch route whether Wire is
   closed or suspended. Persistent cache recovery, URL routing, a window-focus
   listener, and repeated worker messages remain independent fallbacks.
+- Fetched stories are published before their alerts are sent. If the hosted
+  feed is briefly behind, Wire retains the destination and retries instead of
+  dropping the reader back on All Sources.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,
   and ABS-CBN, and only when the publisher begins its headline with Breaking,
   Just In, Urgent, or Live.

@@ -82,9 +82,12 @@ export async function refresh(){
   );
 }
 
-async function loadArticles(){
+async function loadArticles(cacheBust = false){
   try{
-    const res = await fetch(FEED_URL, { cache: "no-cache" });
+    const feedUrl = cacheBust
+      ? FEED_URL + (FEED_URL.includes("?") ? "&" : "?") + "notification=" + Date.now()
+      : FEED_URL;
+    const res = await fetch(feedUrl, { cache: "no-store" });
     if(!res.ok) throw new Error("HTTP " + res.status);
 
     const data = await res.json();
@@ -139,7 +142,21 @@ let notificationClicksReady = false;
 let pendingNotificationArticle = "";
 let lastNotificationArticle = "";
 let notificationArticleOpening = false;
+let notificationRetryTimer = 0;
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
+
+/* Capture the launch URL before startup does any asynchronous work. iOS can
+   discard it while restoring an installed app's previous navigation state. */
+const launchNotificationArticle = new URLSearchParams(location.search).get("article") || "";
+if(launchNotificationArticle) pendingNotificationArticle = launchNotificationArticle;
+
+function retryNotificationArticle(articleId){
+  if(notificationRetryTimer || pendingNotificationArticle !== articleId) return;
+  notificationRetryTimer = window.setTimeout(() => {
+    notificationRetryTimer = 0;
+    if(pendingNotificationArticle === articleId) void openPendingNotificationArticle();
+  }, 2500);
+}
 
 /* Read the only record from the dedicated cache instead of reconstructing its
    URL from location.href. Installed iOS apps can resume at either /balita or
@@ -197,18 +214,20 @@ async function openPendingNotificationArticle(){
   notificationArticleOpening = true;
   try{
     if(!state.articles.some(article => article.id === articleId)){
-      await loadArticles();
+      await loadArticles(true);
       ctx.refresh();
     }
 
-    pendingNotificationArticle = "";
     if(state.articles.some(article => article.id === articleId)){
+      pendingNotificationArticle = "";
       ctx.openArticle(articleId);
       lastNotificationArticle = articleId;
+      history.replaceState(null, "", location.pathname + location.hash);
+      await clearNotificationArticle(articleId);
     }else{
-      announce("That story is no longer in the current feed.", "undone");
+      announce("Opening the notified story…", "undone");
+      retryNotificationArticle(articleId);
     }
-    await clearNotificationArticle(articleId);
   }finally{
     notificationArticleOpening = false;
     if(pendingNotificationArticle && pendingNotificationArticle !== articleId){
@@ -398,12 +417,6 @@ async function start(){
 
   const btn = document.getElementById("refresh");
   if(btn) onTap(btn, refresh);
-
-  const requestedArticle = new URLSearchParams(location.search).get("article");
-  if(requestedArticle && state.articles.some(a => a.id === requestedArticle)){
-    ctx.openArticle(requestedArticle);
-    history.replaceState(null, "", location.pathname + location.hash);
-  }
 
   measureWidth();
 

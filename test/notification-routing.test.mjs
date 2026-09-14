@@ -110,4 +110,16 @@ test("the page recovers routes on startup and every iOS resume signal", () => {
   assert.match(appSource, /await clearNotificationArticle\(articleId\)/);
   assert.match(appSource, /const requests = await cache\.keys\(\)/);
   assert.doesNotMatch(appSource, /NOTIFICATION_ROUTE_URL/);
+  assert.match(appSource, /await loadArticles\(true\)/);
+  assert.match(appSource, /retryNotificationArticle\(articleId\)/);
+  assert.doesNotMatch(appSource, /That story is no longer in the current feed/);
+});
+
+test("the workflow publishes articles before sending their notifications", async () => {
+  const workflow = await readFile(new URL("../.github/workflows/feeds.yml", import.meta.url), "utf8");
+  const publish = workflow.indexOf("name: Publish fetched stories before alerts");
+  const notify = workflow.indexOf("name: Send tightly limited breaking-news alerts");
+  assert.ok(publish > 0 && notify > publish);
+  assert.match(workflow, /git diff --quiet articles\.json/);
+  assert.match(workflow, /git diff --quiet breaking-state\.json/);
 });
