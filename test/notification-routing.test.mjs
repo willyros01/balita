@@ -17,6 +17,7 @@ function workerHarness({ windows = [] } = {}){
       records.set(String(key), await response.clone().text());
     },
     match: async key => records.get(String(key)),
+    keys: async () => [...records.keys()].map(url => new Request(url)),
     delete: async key => records.delete(String(key))
   };
   const self = {
@@ -51,10 +52,14 @@ function workerHarness({ windows = [] } = {}){
   return { listeners, records, order };
 }
 
-test("a background notification saves its route before focusing the app", async () => {
+test("a background notification saves, navigates and then focuses the app", async () => {
   const order = [];
   const client = {
     url: "https://example.test/balita/",
+    navigate: async url => {
+      order.push("navigate:" + url);
+      return client;
+    },
     focus: async () => { order.push("focused"); },
     postMessage: message => order.push("message:" + message.articleId)
   };
@@ -75,7 +80,14 @@ test("a background notification saves its route before focusing the app", async 
   });
   await completion;
 
-  assert.deepEqual(order, ["route-saved", "focused", "message:inq-test"]);
+  assert.deepEqual(order, [
+    "route-saved",
+    "navigate:https://example.test/balita/?article=inq-test",
+    "focused",
+    "message:inq-test",
+    "message:inq-test",
+    "message:inq-test"
+  ]);
   const saved = [...harness.records.values()].map(JSON.parse)[0];
   assert.equal(saved.articleId, "inq-test");
 });
@@ -94,4 +106,6 @@ test("the page recovers routes on startup and both iOS resume signals", () => {
   assert.match(appSource, /addEventListener\("pageshow"/);
   assert.match(appSource, /addEventListener\("visibilitychange"/);
   assert.match(appSource, /await clearNotificationArticle\(articleId\)/);
+  assert.match(appSource, /const requests = await cache\.keys\(\)/);
+  assert.doesNotMatch(appSource, /NOTIFICATION_ROUTE_URL/);
 });

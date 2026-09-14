@@ -121,11 +121,18 @@ function registerWorker(){
   if(!("serviceWorker" in navigator)) return;
   if(location.protocol === "file:") return;   /* only works over http */
 
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("sw.js").catch(err => {
+  const install = () => {
+    navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).then(registration => {
+      /* A Home Screen app may remain alive for days. Check now so a routing
+         correction does not wait for the browser's periodic update cycle. */
+      void registration.update();
+    }).catch(err => {
       console.warn("Offline support unavailable.", err);
     });
-  });
+  };
+
+  if(document.readyState === "complete") install();
+  else window.addEventListener("load", install, { once: true });
 }
 
 let notificationClicksReady = false;
@@ -133,24 +140,31 @@ let pendingNotificationArticle = "";
 let lastNotificationArticle = "";
 let notificationArticleOpening = false;
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
-const NOTIFICATION_ROUTE_URL = new URL(
-  ".wire-notification-route.json",
-  location.href
-).href;
+
+/* Read the only record from the dedicated cache instead of reconstructing its
+   URL from location.href. Installed iOS apps can resume at either /balita or
+   /balita/, while the worker always keys it from its canonical scope. */
+async function cachedNotificationArticle(){
+  const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
+  const requests = await cache.keys();
+  for(const request of requests){
+    const response = await cache.match(request);
+    if(!response) continue;
+    const saved = await response.json();
+    const articleId = String(saved.articleId || "");
+    if(articleId) return { articleId, cache, request };
+  }
+  return null;
+}
 
 async function recoverNotificationArticle(){
   if(!("caches" in window)) return;
 
   try{
-    const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
-    const response = await cache.match(NOTIFICATION_ROUTE_URL);
-    if(!response) return;
+    const saved = await cachedNotificationArticle();
+    if(!saved) return;
 
-    const saved = await response.json();
-    const articleId = String(saved.articleId || "");
-    if(!articleId) return;
-
-    pendingNotificationArticle = articleId;
+    pendingNotificationArticle = saved.articleId;
     await openPendingNotificationArticle();
   }catch(err){
     console.warn("Could not recover the notification destination.", err);
@@ -161,13 +175,9 @@ async function clearNotificationArticle(articleId){
   if(!("caches" in window)) return;
 
   try{
-    const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
-    const response = await cache.match(NOTIFICATION_ROUTE_URL);
-    if(!response) return;
-
-    const saved = await response.json();
-    if(String(saved.articleId || "") === articleId){
-      await cache.delete(NOTIFICATION_ROUTE_URL);
+    const saved = await cachedNotificationArticle();
+    if(saved && saved.articleId === articleId){
+      await saved.cache.delete(saved.request);
     }
   }catch(err){
     console.warn("Could not clear the notification destination.", err);

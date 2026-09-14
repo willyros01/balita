@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.3";
+const VERSION = "wire-v0.17.4";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -177,13 +177,23 @@ self.addEventListener("notificationclick", event => {
     });
     const open = windows.find(client => client.url.startsWith(self.registration.scope));
     if(open){
-      await open.focus();
-      if(articleId){
-        open.postMessage({ type: "wire-open-article", articleId });
-        return open;
+      /* Focusing alone is not a reliable route on iOS: a suspended page can
+         return to its previous feed position without receiving postMessage.
+         Navigate the existing window to the same URL used for a cold launch.
+         The durable cache above remains the fallback if iOS removes the query. */
+      let routed = open;
+      if("navigate" in open){
+        try{ routed = await open.navigate(target.href) || open; }
+        catch(err){ /* The saved route and messages below still recover it. */ }
       }
-      const navigated = "navigate" in open ? await open.navigate(target.href) : open;
-      return navigated || open;
+      await routed.focus();
+      if(articleId){
+        for(const delay of [0, 400, 1200]){
+          if(delay) await new Promise(resolve => setTimeout(resolve, delay));
+          routed.postMessage({ type: "wire-open-article", articleId });
+        }
+      }
+      return routed;
     }
     const opened = await self.clients.openWindow(target.href);
     if(opened && articleId){
