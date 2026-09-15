@@ -106,6 +106,17 @@ function doorwayFor(url){
   return base + "/fetch?url=" + encodeURIComponent(url);
 }
 
+function circuitOpenResult(url, viaDoor){
+  return {
+    url,
+    status: 403,
+    body: "",
+    contentType: "",
+    viaDoor,
+    circuitOpen: true
+  };
+}
+
 /* Some hosts want more room than the general pace. newsinfo refuses
    everything at 1.8s while globalnation, on the same publisher's
    infrastructure, is perfectly happy. */
@@ -213,19 +224,19 @@ export async function get(url, opts = {}){
   const request = viaDoor ? doorwayFor(url) : url;
 
   if(opts.circuitBreaker && hostCircuit.isOpen(url, viaDoor)){
-    return {
-      url,
-      status: 403,
-      body: "",
-      contentType: "",
-      viaDoor,
-      circuitOpen: true
-    };
+    return circuitOpenResult(url, viaDoor);
   }
 
   for(let i = 0; i <= attempts; i++){
     if(i > 0) await sleep(700 * i);
     await pace(url);
+
+    /* Several workers may have entered pace() while the route was still
+       closed. Check again after their wait so queued work cannot leak past a
+       breaker opened by the two requests ahead of it. */
+    if(opts.circuitBreaker && hostCircuit.isOpen(url, viaDoor)){
+      return circuitOpenResult(url, viaDoor);
+    }
 
     const ctrl  = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), opts.timeout ?? TIMEOUT_MS);

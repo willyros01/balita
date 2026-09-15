@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.17**
+**0.17.18**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
