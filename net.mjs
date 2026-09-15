@@ -29,6 +29,43 @@ const RETRIES    = 2;
    minute because different outlets are fetched in parallel. */
 const GAP_MS     = 1800;
 
+/* Two refusals from the same route are enough evidence for one run.
+   Stop asking that route until the next scheduled run rather than turning
+   one blocked publisher into dozens of identical requests. Direct and
+   doorway routes are tracked separately so either one can still rescue the
+   other. A successful response clears that route's refusal count. */
+export class HostCircuitBreaker {
+  constructor(limit = 2){
+    this.limit = limit;
+    this.failures = new Map();
+  }
+
+  key(url, viaDoor = false){
+    try{
+      return (viaDoor ? "door:" : "direct:") + new URL(url).host;
+    }catch(e){
+      return (viaDoor ? "door:" : "direct:") + String(url);
+    }
+  }
+
+  isOpen(url, viaDoor = false){
+    return (this.failures.get(this.key(url, viaDoor)) || 0) >= this.limit;
+  }
+
+  record(url, viaDoor, status){
+    const key = this.key(url, viaDoor);
+    if(status === 403){
+      const failures = (this.failures.get(key) || 0) + 1;
+      this.failures.set(key, failures);
+      return failures >= this.limit;
+    }
+    if(status >= 200 && status < 400) this.failures.delete(key);
+    return this.isOpen(url, viaDoor);
+  }
+}
+
+const hostCircuit = new HostCircuitBreaker(2);
+
 const lastHit = new Map();
 
 /* ---------------- the doorway ----------------
@@ -170,8 +207,21 @@ export async function get(url, opts = {}){
   /* Route through the doorway where the direct request is refused.
      Pace against the real host, not the Worker, so the outlet still
      sees a reasonable rate. */
-  const viaDoor = !opts.noDoor && needsDoorway(url);
+  const viaDoor = opts.forceDoor
+    ? needsDoorway(url)
+    : (!opts.noDoor && needsDoorway(url));
   const request = viaDoor ? doorwayFor(url) : url;
+
+  if(opts.circuitBreaker && hostCircuit.isOpen(url, viaDoor)){
+    return {
+      url,
+      status: 403,
+      body: "",
+      contentType: "",
+      viaDoor,
+      circuitOpen: true
+    };
+  }
 
   for(let i = 0; i <= attempts; i++){
     if(i > 0) await sleep(700 * i);
@@ -212,10 +262,14 @@ export async function get(url, opts = {}){
       clearTimeout(timer);
       remember(host, res);
 
+      const circuitOpened = opts.circuitBreaker
+        ? hostCircuit.record(url, viaDoor, res.status)
+        : false;
+
       /* A 403 is worth one more try after a pause: when it comes from
          a rate limiter rather than a policy, waiting is the whole
          remedy. 401, 404 and 410 are settled answers. */
-      if(res.status === 403 && i < attempts){
+      if(res.status === 403 && i < attempts && !circuitOpened){
         await sleep(3000 + i * 2000);
         lastErr = new Error("HTTP 403");
         continue;
@@ -226,7 +280,9 @@ export async function get(url, opts = {}){
           url: res.url || url,
           status: res.status,
           body: "",
-          contentType: res.headers.get("content-type") || ""
+          contentType: res.headers.get("content-type") || "",
+          viaDoor,
+          circuitOpen: circuitOpened
         };
       }
 

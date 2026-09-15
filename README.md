@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.16**
+**0.17.17**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -36,6 +36,14 @@ one tap away, never buried in a menu.
 - Every retained headline-only record is queued for one paced recovery attempt
   in the same workflow pass. ABS-CBN is the sole exception because its pages
   have no server-rendered article body.
+- Article recovery follows one bounded ladder: complete feed text, the direct
+  article page, the configured doorway, then the best feed text or summary
+  already saved. No speculative mobile, cache, AMP, or API URL is invented.
+- Direct and doorway requests have separate circuit breakers. Two HTTP 403
+  responses stop that route for the remainder of the run while still allowing
+  the other route to recover the article. A successful response resets it.
+- Previously saved full text is never replaced by a shorter feed copy or
+  headline-only result.
 - Manila Bulletin remains direct-only while a working full-article source is
   investigated; its Cloudflare challenge is not treated as a usable feed.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,

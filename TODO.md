@@ -27,6 +27,12 @@ Every summary-only record is attempted once in the same recovery pass,
 including retained records whose feed is temporarily unavailable. ABS-CBN is
 excluded because its pages do not provide server-rendered article text.
 
+Wire 0.17.17 adds a bounded article fallback ladder and independent direct and
+doorway circuit breakers. Two HTTP 403 responses stop only that route for the
+rest of the run; the other route may still succeed. The breaker resets on the
+next run. Complete saved articles are never downgraded when every current route
+fails.
+
 Manila Bulletin still returns a Cloudflare challenge both directly and
 through the doorway. It remains direct-only until a current feed that carries
 usable article text is verified.

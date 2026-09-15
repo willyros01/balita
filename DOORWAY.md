@@ -33,9 +33,18 @@ block types accepted by the app.
 
 Only Inquirer News uses the doorway. The fetcher compares its direct feed with
 the doorway feed and uses the direct feed whenever the doorway is unavailable
-or older. Its `newsinfo.inquirer.net` article pages still use the doorway for
-full-text extraction. Main Inquirer and Global Nation retain their original
-direct feed and article routes.
+or older. For each `newsinfo.inquirer.net` article, Wire first accepts complete
+text carried by the feed, then tries the direct article page, then the doorway.
+If neither page route yields a better copy, it keeps the best feed text or
+summary already available. Main Inquirer and Global Nation retain their
+original direct feed and article routes.
+
+Direct and doorway article requests have independent per-run circuit breakers.
+After two HTTP 403 responses from one route, Wire skips that route for the
+remainder of the workflow but may still try the other. The circuits reset when
+the next 30-minute workflow starts, and a successful response clears the
+corresponding refusal count immediately. This prevents a blocked host from
+producing dozens of repeated requests.
 
 Every retained headline-only record except ABS-CBN is queued for one paced
 full-text recovery request in the same workflow pass. Recovery requests do not
@@ -152,7 +161,7 @@ Nothing else in the log should change.
 | `No doorway configured` | GitHub cannot see the secrets | Part 3 — check both names |
 | `inqn — HTTP 401` | The passwords differ | Compare Part 2 and Part 3, character by character |
 | `inqn — HTTP 403` | The Worker refused the host | The address must be in `ALLOWED` in `worker.js` |
-| `inqn — HTTP 403` still, from Inquirer | Cloudflare is being refused too | Unlikely — the probe returned 200. Tell me. |
+| `doorway circuit open after repeated HTTP 403` | Inquirer refused the Worker twice in this run | Wire keeps the feed copy and tests again on the next scheduled run |
 | Everything unchanged | Old stories are reused, not re-fetched | Correct. Only new stories go through the doorway. Wait for the next batch. |
 
 ---

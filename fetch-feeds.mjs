@@ -17,7 +17,7 @@ import { get, pool, doorwayReady, needsDoorway } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut, EXTRACTOR_VERSION } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
 
-const VERSION = "0.15.1";
+const VERSION = "0.17.17";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -316,6 +316,41 @@ function isoDate(value){
   return new Date(Math.min(t, Date.now())).toISOString();
 }
 
+function articleWordCount(article){
+  if(!article || !Array.isArray(article.blocks)) return 0;
+  return article.blocks.reduce((total, block) => {
+    const text = block && block.type === "list"
+      ? (Array.isArray(block.items) ? block.items.join(" ") : "")
+      : (block && block.text) || "";
+    return total + String(text).trim().split(/\s+/).filter(Boolean).length;
+  }, 0);
+}
+
+/* Refresh metadata without allowing a failed extraction to erase a complete
+   article already in the repository. This rule applies even when extractor
+   versions change and an older story is intentionally read again. */
+function preserveBestText(previous, candidate){
+  if(!previous) return candidate;
+
+  const previousWords = articleWordCount(previous);
+  const candidateWords = articleWordCount(candidate);
+  const previousIsFull = previous.source_of_text !== "summary" && previousWords > 0;
+  const candidateIsWorse = candidate.source_of_text === "summary" ||
+    (previousIsFull && !previous.truncated && candidateWords < previousWords);
+
+  if(!previousIsFull || !candidateIsWorse) return candidate;
+
+  return {
+    ...candidate,
+    blocks: previous.blocks,
+    image: candidate.image || previous.image,
+    byline: candidate.byline || previous.byline,
+    truncated: previous.truncated,
+    source_of_text: previous.source_of_text,
+    why: previous.why
+  };
+}
+
 /* ---------------- one source ---------------- */
 
 async function readSource(source){
@@ -498,31 +533,71 @@ async function readArticle(item, source, recovery = false){
      and they cost ABS-CBN a third of its articles — it had been
      fetching every one. Removed: the plain request works better. */
 
-  let page, pageError = "";
-  try{
-    page = await get(item.link, {
-      accept: "text/html,application/xhtml+xml",
-      timeout: PAGE_TIMEOUT,
-      /* Backlog recovery gets one controlled request per article. New stories
-         retain the ordinary second chance for a transient failure. */
-      retries: recovery ? 0 : PAGE_RETRIES
-    });
-    if(page.status >= 400) pageError = "HTTP " + page.status;
-  }catch(err){
-    page = null;
-    pageError = (err && err.message) || "no response";
-  }
+  let page = null, out = null, pageError = "";
+  const pageOptions = {
+    accept: "text/html,application/xhtml+xml",
+    timeout: PAGE_TIMEOUT,
+    circuitBreaker: true,
+    /* Backlog recovery gets one controlled request per article. New stories
+       retain the ordinary second chance for a transient failure. */
+    retries: recovery ? 0 : PAGE_RETRIES
+  };
 
-  const out = (page && page.status < 400 && page.body)
-    ? fromHtml(page.body, page.url || item.link)
-    : null;
+  /* The article fallback ladder is deliberately explicit:
+       1. complete text embedded in the feed (handled above),
+       2. the publisher's direct article page,
+       3. the configured doorway for this exact host,
+       4. the best feed text or summary already in hand.
+
+     Direct and doorway circuits are independent. Two 403 responses open one
+     route for the rest of this run, but the other route still gets its chance.
+     No unverified mobile, AMP, cache or API address is invented here. */
+  const routes = needsDoorway(item.link)
+    ? [
+        { name: "direct", options: { ...pageOptions, noDoor: true } },
+        { name: "doorway", options: { ...pageOptions, forceDoor: true } }
+      ]
+    : [{ name: "direct", options: pageOptions }];
+
+  for(const route of routes){
+    try{
+      const candidate = await get(item.link, route.options);
+      if(candidate.circuitOpen && !candidate.body){
+        pageError = route.name + " circuit open after repeated HTTP 403";
+        continue;
+      }
+      if(candidate.status >= 400){
+        pageError = route.name + " HTTP " + candidate.status;
+        continue;
+      }
+
+      const extracted = candidate.body
+        ? fromHtml(candidate.body, candidate.url || item.link)
+        : null;
+      if(extracted && extracted.blocks.length){
+        if(!out || extracted.words > out.words){
+          page = candidate;
+          out = extracted;
+        }
+        /* A complete result at least as substantial as the feed is enough.
+           A short or visibly cut direct page still allows the doorway route
+           to try for a better copy. */
+        if(!extracted.truncated && extracted.words >= feedWords) break;
+        pageError = route.name + " returned incomplete article text";
+        continue;
+      }
+      pageError = route.name + " returned no extractable article text";
+    }catch(err){
+      pageError = route.name + " " + ((err && err.message) || "no response");
+    }
+  }
 
   /* Both versions in hand, keep whichever is more complete. A page
      that was blocked or timed out leaves the feed copy standing. */
   const pageWords = out ? out.words : 0;
   const feedWords = inline ? inline.words : 0;
 
-  if(out && out.blocks.length && pageWords >= feedWords){
+  if(page && out && out.blocks.length && pageWords >= feedWords){
     return {
       ...base,
       blocks: out.blocks,
@@ -782,7 +857,7 @@ async function main(){
       retired++;
       return;
     }
-    byId.set(a.id, a);
+    byId.set(a.id, preserveBestText(byId.get(a.id), a));
   });
 
   const articles = Array.from(byId.values())
