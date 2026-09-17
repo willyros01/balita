@@ -1,0 +1,132 @@
+{
+  "id": "cbc-h72mk1",
+  "source": "cbc",
+  "title": "OpenAI flags 6 new examples of 'concerning' AI behaviour",
+  "summary": "OpenAI has disclosed six reports of \"unexpected or concerning\" behaviour in artificial-intelligence models as the debate on AI safety becomes increasingly heated.",
+  "byline": "CBC",
+  "section": "News/World",
+  "published": "2026-09-17T13:28:16.000Z",
+  "url": "https://www.cbc.ca/news/world/openai-models-agents-misalignment-concerning-behaviour-9.7347641?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/b39882fc-9a86-4581-aa60-b3e956078e95,1789647550802/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C5856%2C3294%29%3BResize%3D620",
+    "caption": "Visitors look at their phones next to an OpenAI's logo during a telecom industry gathering in Barcelona on Feb. 26, 2024. (Pau Barrena/AFP/Getty Images)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "World·New"
+    },
+    {
+      "type": "p",
+      "text": "OpenAI has disclosed six reports of \"unexpected or concerning\" behaviour in artificial-intelligence models as the debate on AI safety becomes increasingly heated."
+    },
+    {
+      "type": "h",
+      "text": "AI models are increasingly using 'deception and concealment' to complete tasks, analyst says"
+    },
+    {
+      "type": "p",
+      "text": "OpenAI has disclosed six reports of \"unexpected or concerning\" behaviour in artificial-intelligence models as the debate on artificial intelligence safety becomes increasingly heated."
+    },
+    {
+      "type": "p",
+      "text": "The AI company also said Wednesday it was introducing a new framework for tracking, probing and disclosing instances of what it called \"misalignment,\" including cases where AI models acted without authorization, co-ordinated with other models or evaded oversight."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI's latest announcement came as U.S. AI bosses, including the leaders of OpenAI and Anthropic, are calling for a slowdown in the technology's development over safety concerns."
+    },
+    {
+      "type": "p",
+      "text": "Among the new cases reported by OpenAI:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "An unreleased research model inserted \"jailbreak-like instructions\" into its own notes to disregard its normal constraints and told itself to be \"freed from the roles and identities that bind other chatbots.\""
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "An AI \"agent\" used computer code to answer a question, but in order to have an online source to cite, it uploaded a file to the public internet without asking the user."
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "During training of an AI model called GPT-5.6 Sol, the model instructed itself to invent missing data, and an agent wrote a message to remind itself to hide mismatched information."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The six reported behaviours were discovered during training or evaluation over the past months, OpenAI said."
+    },
+    {
+      "type": "p",
+      "text": "\"We do not believe that the AI industry has solved alignment and monitoring to a sufficient degree to continue responsibly scaling at maximum speed for much longer,\" OpenAI wrote in a blog post as it disclosed the events."
+    },
+    {
+      "type": "p",
+      "text": "Alignment is an industry term that means AI systems keep the user's and developer's intent while following human values and safety rules."
+    },
+    {
+      "type": "p",
+      "text": "The company said the misalignments were individual instances and shouldn’t be considered reflective of how often they occur across its models."
+    },
+    {
+      "type": "p",
+      "text": "\"As AI systems grow more advanced and more widely deployed, we need to build a broader and better-informed consensus on the progress of alignment research,\" the blog post said."
+    },
+    {
+      "type": "p",
+      "text": "\"Decisions about how AI development should proceed in the months and years to come need to draw on evidence that people outside the companies building frontier models can examine for themselves,\" the company said. (Frontier models are the most-advanced models at any given time.)"
+    },
+    {
+      "type": "p",
+      "text": "Why slowing the AI race won't be easy"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday's new cases followed OpenAI's disclosure in July that hundreds of rogue AI agents hacked into billion-dollar AI company Hugging Face."
+    },
+    {
+      "type": "p",
+      "text": "Anthropic also said the same month that its AI models hacked into three organizations during testing."
+    },
+    {
+      "type": "p",
+      "text": "AI \"agents\" are becoming smarter and have become \"more determined to resolve complex tasks through inter-agent collaboration, knowledge sharing, deception and concealment,\" said Lian Jye Su, a chief analyst at technology research and advisory group Omdia."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Canada is investing $150M to make AI safer. Will it work?",
+        "AI 'fearmongering' could harm Canada’s rare opportunity, says top CEO"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's making it harder to govern and contain them using traditional AI security approaches, he said."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI's new tracking and disclosure framework, meanwhile, can help push for other AI developers to also adopt similar practices."
+    },
+    {
+      "type": "p",
+      "text": "\"That said, the process remains internal and voluntary, but is a step in the right direction,\" Su added."
+    },
+    {
+      "type": "p",
+      "text": "With files from CBC's John Mazerolle and Kevin Maimann"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
