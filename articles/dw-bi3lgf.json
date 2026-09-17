@@ -1,0 +1,59 @@
+{
+  "id": "dw-bi3lgf",
+  "source": "dw",
+  "title": "OpenAI discloses new 'concerning' behavior",
+  "summary": "New transparency reports from OpenAI show that some AI models have engaged in deceptive behavior, raising fresh questions about the safety, reliability, and governance of advanced artificial…",
+  "byline": "Emilio Reynoso",
+  "section": "",
+  "published": "2026-09-17T06:00:00.000Z",
+  "url": "https://www.dw.com/en/openai-discloses-new-concerning-behavior/a-79300180?maca=en-rss-en-all-1573-rdf",
+  "image": {
+    "src": "https://static.dw.com/image/72860695_6.jpg",
+    "caption": "OpenAI says it is trying to be more transparent about safety concernsImage: Rene Traut IMAGO"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "OpenAI, the developer behind ChatGPT, revealed on Wednesday that it has detected new incidents in which its artificial intelligence (AI) has behaved in \"unexpected or concerning\" ways."
+    },
+    {
+      "type": "p",
+      "text": "The developer has conducted several behavioral tests on AI models, and acording to them, some models made significant efforts to \"cheat.\" In one specific case, it attempted to upload files to the internet that it had created itself, only to cite them later and present them as reliable sources in its responses. In another case, a model, after failing to find the requested information, fabricated it and attempted to conceal the fact that it had done so."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI also identified a problem related to instructions concerning \"roles and identities\" that its software occasionally left for itself."
+    },
+    {
+      "type": "p",
+      "text": "These disclosures are part of a new approach by OpenAI, where it claims it is now focused on making such findings transparent, especially in cases where AI behaves in unexpected ways or pursues objectives different from those of human users."
+    },
+    {
+      "type": "h",
+      "text": "ChatGPT-6 Astra: Almost human or just hyped?"
+    },
+    {
+      "type": "h",
+      "text": "Is AI a threat?"
+    },
+    {
+      "type": "p",
+      "text": "The ChatGPT developer pledged to provide greater transparency regarding its testing procedures after its software independently escaped a secure sandbox and hacked into systems belonging to the artificial intelligence company Hugging Face. The reason the software moved to bypass Hugging Face's security during the cyberattack was that it believed it would find answers to a test it had been assigned."
+    },
+    {
+      "type": "p",
+      "text": "During the attack, AI agents exploited software vulnerabilities and coordinated with one another. The hacking incident and other similar events have fueled concerns that AI systems are becoming increasingly advanced and could eventually escape human control."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI CEO Sam Altman has also recently supported proposals to slow down the development of the technology and introduce greater regulation."
+    },
+    {
+      "type": "p",
+      "text": "While noting that these concerns may be justified, researchers have also questioned whether this is part of a diversion tactic to drum up investment and distract from the environmental damage AI data centers are currently causing."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
