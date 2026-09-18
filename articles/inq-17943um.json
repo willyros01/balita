@@ -1,0 +1,120 @@
+{
+  "id": "inq-17943um",
+  "source": "inq",
+  "title": "A10 Networks launches A10 AI Gateway, an intelligent control plane for unified management of all AI operations",
+  "summary": "A10 Networks (NYSE: ATEN) today announced that A10 AI Gateway, an intelligent control plane for centrally managing AI use across organizations, is scheduled to become available in the fourth quarter…",
+  "byline": "INQUIRER.net BrandRoom",
+  "section": "",
+  "published": "2026-09-18T07:43:08.000Z",
+  "url": "https://technology.inquirer.net/149315/a10-networks-launches-a10-ai-gateway-an-intelligent-control-plane-for-unified-management-of-all-ai-operations",
+  "image": {
+    "src": "https://technology.inquirer.net/files/2026/09/A10_AI_Gateway_Press_Release_2000x1200-470x282.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A10 Networks (NYSE: ATEN) today announced that A10 AI Gateway, an intelligent control plane for centrally managing AI use across organizations, is scheduled to become available in the fourth quarter of 2026."
+    },
+    {
+      "type": "image",
+      "src": "https://technology.inquirer.net/files/2026/09/A10_AI_Gateway_Press_Release_2000x1200-1200x740.jpg",
+      "caption": "A10 Networks AI"
+    },
+    {
+      "type": "p",
+      "text": "A10 AI Gateway provides unified routing, cost management and governance across the AI agents, applications and large language models (LLMs) used by organizations. It enables centralized visibility into AI usage, cost optimization, access control and enhanced security, helping organizations use AI more efficiently and securely."
+    },
+    {
+      "type": "h",
+      "text": "Background"
+    },
+    {
+      "type": "p",
+      "text": "As AI adoption rapidly expands across organizations, enterprises are accelerating efforts to embed AI agents and generative AI capabilities into business applications. At the same time, as the use of multiple AI providers and AI models grows, it becomes increasingly difficult to understand which models are being used, how much they cost, and whether appropriate governance and security are in place."
+    },
+    {
+      "type": "p",
+      "text": "AI requests also vary widely, from simple processing tasks to workloads that require advanced reasoning. Organizations therefore need a management platform that can optimize AI performance, reduce latency, streamline security operations and control AI-related costs."
+    },
+    {
+      "type": "p",
+      "text": "To address these challenges, A10 AI Gateway consolidates AI usage across the organization into a single management platform, providing an environment in which enterprises can operate AI efficiently and securely."
+    },
+    {
+      "type": "h",
+      "text": "Overview"
+    },
+    {
+      "type": "p",
+      "text": "A10 AI Gateway is an intelligent control plane that provides unified routing, cost management and governance across the AI agents, applications and large language models (LLMs) used by an organization."
+    },
+    {
+      "type": "p",
+      "text": "It selects the appropriate AI model based on the content of each request and applicable usage policies, while centralizing visibility into AI usage and costs. This helps optimize performance, manage costs, strengthen security and implement governance, while giving developers and users access to the right AI models for their needs."
+    },
+    {
+      "type": "h",
+      "text": "Key Features"
+    },
+    {
+      "type": "p",
+      "text": "Identity-based AI AccessSynchronizes with existing local directory systems to apply access and routing policies by user or group. For example, organizations can configure different AI models and usage policies for engineering and finance teams."
+    },
+    {
+      "type": "p",
+      "text": "Smart RoutingMoving beyond static routing policies and simple request metering, A10 AI Gateway evaluates the complexity and type of each request. It automatically routes simple tasks to more cost-efficient models and tasks requiring advanced reasoning to more capable models."
+    },
+    {
+      "type": "p",
+      "text": "Centralized Traffic and Cost Management"
+    },
+    {
+      "type": "p",
+      "text": "As a central control plane, A10 AI Gateway provides real-time, per-request cost tracking in dollars; per-model and per-team token budget management with hard limits and soft-limit alerts; and usage controls (TPM/RPM) by key or team. This centralizes visibility into AI usage and costs while supporting effective governance."
+    },
+    {
+      "type": "p",
+      "text": "Integration with A10’s AI Security Portfolio"
+    },
+    {
+      "type": "p",
+      "text": "A10 AI Gateway complements A10’s existing AI security portfolio, including TrojAI, A10 AI Firewall and ThreatX. It supports security across the full AI lifecycle, from pre-deployment testing and runtime protection to controls at the network and API layers."
+    },
+    {
+      "type": "p",
+      "text": "Flexible Deployment Within the Customer Environment"
+    },
+    {
+      "type": "p",
+      "text": "A10 AI Gateway is available as standalone software or with integrated hardware and can run entirely within the customer’s own environment, including on-premises, private cloud and air-gapped environments. This enables organizations to maintain control over their models, data and policies while preserving data sovereignty – an advantage that cloud-hosted and edge-bound gateways cannot match."
+    },
+    {
+      "type": "h",
+      "text": "Availability"
+    },
+    {
+      "type": "p",
+      "text": "A10 AI Gateway is scheduled to become available in the fourth quarter of 2026."
+    },
+    {
+      "type": "p",
+      "text": "Dhrupad Trivedi, president and CEO of A10 Networks, said:"
+    },
+    {
+      "type": "p",
+      "text": "“Enterprises are being asked to move fast on AI and stay in control at the same time. AI use is spreading faster than teams can discover, govern, or secure it, driving up cost and leaving no single place to set the rules. The A10 AI Gateway gives organizations one intelligent control plane to see how AI is being used, to govern who can access which models, and match every request to the right model at the right cost. Our integrated portfolio gives customers a complete, sovereign way to put AI to work at scale. That is how enterprises adopt AI with confidence instead of trading speed for control,”"
+    },
+    {
+      "type": "p",
+      "text": "ADVT."
+    },
+    {
+      "type": "p",
+      "text": "This article is brought to you by A10 Networks."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
