@@ -20,5 +20,5 @@
   "truncated": true,
   "fx": 6,
   "source_of_text": "summary",
-  "why": "direct HTTP 403"
+  "why": "direct circuit open after repeated HTTP 403"
 }
