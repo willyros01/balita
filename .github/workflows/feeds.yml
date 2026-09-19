@@ -25,6 +25,7 @@ on:
     paths:                # a code or feed change should take effect at once
       - "sources.json"
       - "fetch-feeds.mjs"
+      - "retention.mjs"
       - "extract.mjs"
       - "discover.mjs"
       - "net.mjs"

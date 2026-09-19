@@ -37,6 +37,10 @@ Manila Bulletin still returns a Cloudflare challenge both directly and
 through the doorway. It remains direct-only until a current feed that carries
 usable article text is verified.
 
+Wire 0.17.19 adds a three-day retention ceiling, including when a source is
+unreachable, and expires a tapped notification route once a newer completed
+feed proves that its exact article ID is no longer available.
+
 The doorway does **not** help sites that build their pages in the browser.
 ABS-CBN was tested: Cloudflare received the whole page and the article was
 not in it. That is why ABS-CBN is `feedOnly` rather than routed.

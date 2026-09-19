@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.18**
+**0.17.19**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -20,6 +20,12 @@ one tap away, never buried in a menu.
 - Notification taps use the same browser-owned launch route whether Wire is
   closed or suspended. Persistent cache recovery, URL routing, a window-focus
   listener, and repeated worker messages remain independent fallbacks.
+- If a tapped notification's article has disappeared, Wire consumes the saved
+  route as soon as a feed build completed after the tap confirms that the ID
+  is absent. That stale route can no longer block a newer notification.
+- Articles older than three days are removed even when a publisher's feed is
+  frozen or temporarily unreachable. Their per-article JSON endpoints are
+  removed in the same feed publication.
 - Fetched stories are published before their alerts are sent. If the hosted
   feed is briefly behind, Wire retains the destination and retries instead of
   dropping the reader back on All Sources.
@@ -44,8 +50,9 @@ one tap away, never buried in a menu.
   the other route to recover the article. A successful response resets it.
 - Previously saved full text is never replaced by a shorter feed copy or
   headline-only result.
-- Manila Bulletin remains direct-only while a working full-article source is
-  investigated; its Cloudflare challenge is not treated as a usable feed.
+- Manila Bulletin remains direct-only. Its RSS URL returns the same Cloudflare
+  challenge both directly and through the Worker; an allowlist entry permits
+  a request but cannot make the upstream site accept it.
 - Alerts are accepted only from the three Inquirer feeds, CBC, BBC, GMA, DW,
   and ABS-CBN, and only when the publisher begins its headline with Breaking,
   Just In, Urgent, or Live.
@@ -85,6 +92,7 @@ The fetcher — runs on GitHub, never in the browser:
 | File | What it is for |
 |---|---|
 | `fetch-feeds.mjs` | The run: read feeds, decide what is new, write the file |
+| `retention.mjs` | The tested three-day article-retention rule |
 | `extract.mjs` | Strips a news page down to blocks of text and pictures |
 | `discover.mjs` | Finds a feed address from a home page |
 | `net.mjs` | Outbound requests: timeouts, retries, and a polite gap |

@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.18";
+const VERSION = "wire-v0.17.19";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -162,11 +162,12 @@ self.addEventListener("notificationclick", event => {
     /* A backgrounded iOS Home Screen app can be frozen while postMessage is
        delivered. Persist the destination before waking it; the page removes
        this record only after it has opened the matching story. */
+    const clickedAt = new Date().toISOString();
     if(articleId){
       const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
       await cache.put(NOTIFICATION_ROUTE_URL, new Response(JSON.stringify({
         articleId,
-        clickedAt: new Date().toISOString()
+        clickedAt
       }), {
         headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
       }));
@@ -184,7 +185,8 @@ self.addEventListener("notificationclick", event => {
       const clients = await wireWindows();
       clients.forEach(client => client.postMessage({
         type: "wire-open-article",
-        articleId
+        articleId,
+        clickedAt
       }));
       return clients;
     };

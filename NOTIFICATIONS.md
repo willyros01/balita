@@ -209,6 +209,14 @@ publisher grouping before opening the reader. The reader's Back button returns
 to that grouping at the notified headline rather than to a previous All
 Sources position.
 
+The saved route also contains the tap time. If the article endpoint is absent,
+the page refreshes `articles.json`. Once that file reports a completed fetch
+later than the tap and still does not contain the requested ID, the route is
+expired, its retry timer is cancelled, and its cache record is deleted. Until
+that conclusive newer feed exists, a transient publication or network delay is
+retried. This prevents an unavailable old ID from polling forever or delaying a
+newer notification.
+
 The worker uses `clients.openWindow()` for the article URL whether Wire is
 closed or suspended. That browser-owned launch route is the path verified to
 work on iPhone; `WindowClient.navigate()` remains only a fallback because iOS

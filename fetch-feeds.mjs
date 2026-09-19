@@ -16,21 +16,17 @@ import { XMLParser } from "fast-xml-parser";
 import { get, pool, doorwayReady, needsDoorway } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut, EXTRACTOR_VERSION } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
+import { isWithinArticleRetention } from "./retention.mjs";
 
-const VERSION = "0.17.18";
+const VERSION = "0.17.19";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
 const ARTICLE_DIR   = "articles";
 
-/* No per-source cap and no age cutoff. Both were numbers I picked,
-   and between them they were binning about thirty stories a run —
-   including, on a busy day, the ones worth reading. A feed offers
-   what it offers; keep all of it. A story leaves only when the
-   outlet drops it from their own feed.
-
-   PER_SOURCE now only bounds how many are read from one feed in a
-   single pass, which no real feed reaches. */
+/* PER_SOURCE only bounds how many are read from one feed in a single pass,
+   which no real feed reaches. A separate three-day retention rule prevents
+   a broken or frozen publisher feed from pinning stale news indefinitely. */
 const PER_SOURCE     = 200;
 const FETCH_BUDGET   = 250;   /* article pages to open in one run */
 const FEED_PARALLEL  = 5;
@@ -452,14 +448,23 @@ async function readSource(source){
 
   report.ok = true;
 
+  const currentItems = items.filter(item =>
+    isWithinArticleRetention(item.published)
+  );
+  const expiredItems = items.length - currentItems.length;
+  if(expiredItems){
+    report.note = [report.note, expiredItems + " item(s) older than 3 days ignored"]
+      .filter(Boolean).join("; ");
+  }
+
   /* A source may cap itself. DW publishes 139 stories a day against
      15 or 20 from most outlets, so without one it fills the list and
      the Philippine papers scroll away below it. This is a setting on
      that source alone — the blanket cap on every outlet was removed
      deliberately and is not coming back. */
   const cap = Number(source.max) || PER_SOURCE;
-  report.items = items.slice(0, cap);
-  report.capped = items.length > cap ? items.length - cap : 0;
+  report.items = currentItems.slice(0, cap);
+  report.capped = currentItems.length > cap ? currentItems.length - cap : 0;
 
   return report;
 }
@@ -833,8 +838,9 @@ async function main(){
 
   /* ---------------- assemble ---------------- */
 
-  /* A story stays until the outlet stops listing it. That is the
-     only honest reason to drop one — not an age I invented. */
+  /* A story stays while its outlet lists it, but never beyond three days.
+     The age ceiling also applies when an outlet is unreachable, preventing a
+     frozen feed from pinning old stories forever. */
   const stillListed = new Set();
   reports.forEach((r, i) => {
     if(!r || !r.ok) return;
@@ -846,9 +852,15 @@ async function main(){
 
   const byId = new Map();
   let retired = 0;
+  let expired = 0;
 
   [...kept, ...fresh].forEach(a => {
     if(!a || !a.id) return;
+
+    if(!isWithinArticleRetention(a.published)){
+      expired++;
+      return;
+    }
 
     /* Only retire a story when its own feed answered this run and no
        longer carries it. If an outlet was unreachable, keep what we
@@ -899,6 +911,9 @@ async function main(){
   console.log("  summary only  " + bare);
   if(dropped > 0){
     console.log("  retired       " + dropped + " (no longer listed by their outlet)");
+  }
+  if(expired > 0){
+    console.log("  expired       " + expired + " (older than 3 days)");
   }
   console.log("  took          " + Math.round((Date.now() - started) / 1000) + "s");
 

@@ -39,6 +39,13 @@ If neither page route yields a better copy, it keeps the best feed text or
 summary already available. Main Inquirer and Global Nation retain their
 original direct feed and article routes.
 
+Manila Bulletin is deliberately not routed through the doorway. Although the
+deployed Worker's allowlist may contain `mb.com.ph`, an allowlist entry only
+permits the request; it does not make the upstream site accept Cloudflare's
+request. Both `https://mb.com.ph/rss/headlines` directly and the Worker's
+`/probe` currently return HTTP 403 with a Cloudflare challenge page. Wire must
+not parse that HTML as RSS or report it as a successful feed.
+
 Direct and doorway article requests have independent per-run circuit breakers.
 After two HTTP 403 responses from one route, Wire skips that route for the
 remainder of the workflow but may still try the other. The circuits reset when

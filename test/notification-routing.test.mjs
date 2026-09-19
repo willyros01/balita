@@ -115,11 +115,16 @@ test("the page recovers routes on startup and every iOS resume signal", () => {
   assert.match(appSource, /prepareNotificationReturn\(article\)/);
   assert.match(appSource, /window\.setInterval\(async \(\) =>/);
   assert.match(appSource, /notificationHeartbeatBusy/);
+  assert.match(appSource, /feedUpdatedAt > clickedAt/);
+  assert.match(appSource, /return \{ articleId, clickedAt, cache, request \}/);
+  assert.match(appSource, /await expireNotificationArticle\(articleId\)/);
+  assert.match(appSource, /That notified story is no longer available/);
   assert.match(workerSource, /const existing = await broadcast\(\)/);
   assert.match(workerSource, /await broadcast\(\)/);
   assert.match(feedSource, /li\.dataset\.articleId = a\.id/);
   assert.match(readerSource, /returnSource\.name \+ " headlines"/);
   assert.match(fetcherSource, /ARTICLE_DIR \+ "\/" \+ article\.id \+ "\.json"/);
+  assert.match(fetcherSource, /isWithinArticleRetention\(a\.published\)/);
   assert.match(fetcherSource, /article pages still use doorway/);
 });
 

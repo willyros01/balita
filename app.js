@@ -140,6 +140,7 @@ function registerWorker(){
 
 let notificationClicksReady = false;
 let pendingNotificationArticle = "";
+let pendingNotificationClickedAt = "";
 let lastNotificationArticle = "";
 let notificationArticleOpening = false;
 let notificationRetryTimer = 0;
@@ -203,7 +204,8 @@ async function cachedNotificationArticle(){
     if(!response) continue;
     const saved = await response.json();
     const articleId = String(saved.articleId || "");
-    if(articleId) return { articleId, cache, request };
+    const clickedAt = String(saved.clickedAt || "");
+    if(articleId) return { articleId, clickedAt, cache, request };
   }
   return null;
 }
@@ -216,6 +218,7 @@ async function recoverNotificationArticle(){
     if(!saved) return;
 
     pendingNotificationArticle = saved.articleId;
+    pendingNotificationClickedAt = saved.clickedAt || "";
     await openPendingNotificationArticle();
   }catch(err){
     console.warn("Could not recover the notification destination.", err);
@@ -235,13 +238,29 @@ async function clearNotificationArticle(articleId){
   }
 }
 
+function feedCompletedAfterNotification(){
+  const clickedAt = Date.parse(pendingNotificationClickedAt || "");
+  const feedUpdatedAt = Date.parse(state.updated || "");
+  return Number.isFinite(clickedAt) && Number.isFinite(feedUpdatedAt) &&
+    feedUpdatedAt > clickedAt;
+}
+
+async function expireNotificationArticle(articleId){
+  pendingNotificationArticle = "";
+  pendingNotificationClickedAt = "";
+  if(notificationRetryTimer){
+    window.clearTimeout(notificationRetryTimer);
+    notificationRetryTimer = 0;
+  }
+  await clearNotificationArticle(articleId);
+}
+
 async function openPendingNotificationArticle(){
   const articleId = pendingNotificationArticle;
   if(!notificationClicksReady || !articleId || notificationArticleOpening) return;
 
   if(articleId === lastNotificationArticle){
-    pendingNotificationArticle = "";
-    await clearNotificationArticle(articleId);
+    await expireNotificationArticle(articleId);
     return;
   }
 
@@ -255,14 +274,24 @@ async function openPendingNotificationArticle(){
       ctx.refresh();
     }
 
+    /* A tap may outlive the static per-article endpoint. Once a feed build
+       newer than the tap has completed and still does not contain that ID,
+       the destination is conclusively gone. Consume the route instead of
+       polling forever and blocking a later notification. */
+    if(!state.articles.some(article => article.id === articleId) &&
+       feedCompletedAfterNotification()){
+      await expireNotificationArticle(articleId);
+      announce("That notified story is no longer available.", "warn");
+      return;
+    }
+
     const article = state.articles.find(item => item.id === articleId);
     if(article){
       prepareNotificationReturn(article);
-      pendingNotificationArticle = "";
       ctx.openArticle(articleId);
       lastNotificationArticle = articleId;
       history.replaceState(null, "", location.pathname + location.hash);
-      await clearNotificationArticle(articleId);
+      await expireNotificationArticle(articleId);
     }else{
       announce("Opening the notified story…", "undone");
       retryNotificationArticle(articleId);
@@ -287,6 +316,7 @@ function listenForNotificationClicks(){
     const articleId = String(event.data.articleId || "");
     if(!articleId) return;
     pendingNotificationArticle = articleId;
+    pendingNotificationClickedAt = String(event.data.clickedAt || "");
     void openPendingNotificationArticle();
   });
   navigator.serviceWorker.addEventListener("controllerchange", () => {
