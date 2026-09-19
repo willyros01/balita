@@ -1,0 +1,52 @@
+{
+  "id": "rap-qnntrc",
+  "source": "rap",
+  "title": "Gemini hacked 3 companies in first known breakout by Google&#8217;s AI",
+  "summary": "The hacks, which occurred in May during a cybersecurity test, were conducted by Irregular, an independent company that conducts cybersecurity evaluations",
+  "byline": "Reuters",
+  "section": "Technology",
+  "published": "2026-09-19T03:15:17.000Z",
+  "url": "https://www.rappler.com/technology/gemini-hacked-companies-first-known-breakout-google-ai/",
+  "image": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Google’s Gemini model accessed the internet and hacked other companies during a test of its cybersecurity capabilities, the first known example of the company’s AI systems autonomously committing such an act."
+    },
+    {
+      "type": "p",
+      "text": "The hacks occurred in May during a cybersecurity test conducted by Irregular, an independent company that conducts cybersecurity evaluations."
+    },
+    {
+      "type": "p",
+      "text": "During a standard testing evaluation, Gemini found public information online and guessed credentials to access three websites it thought were within the scope of its test, Heather Adkins, Google’s vice president of security engineering, said in a statement."
+    },
+    {
+      "type": "p",
+      "text": "“We ensured the three entities were made aware, and we worked with our training partner on the changes they’ve now made to their testing processes,” Adkins said. “These events highlight the importance of training powerful AI models to act responsibly.”"
+    },
+    {
+      "type": "p",
+      "text": "An Irregular spokesperson said the incident involved the same issue that affected other AI labs and that all relevant labs were notified in late July. “All known issues on our end were remedied and resolved weeks ago,” the spokesperson said."
+    },
+    {
+      "type": "p",
+      "text": "Similar incidents linked to Irregular were disclosed by Meta, Anthropic and OpenAI. Meta said in August the incident did not involve a sandbox escape or sophisticated cyberattack, while Irregular said it was working on best practices for securely conducting AI cybersecurity evaluations."
+    },
+    {
+      "type": "p",
+      "text": "The incidents have raised questions about the safeguards needed as AI agents gain greater autonomy and access to the internet and computer systems."
+    },
+    {
+      "type": "p",
+      "text": "In one of the cases, the Gemini model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems, according to the Wall Street Journal, which first reported the news on Friday."
+    },
+    {
+      "type": "p",
+      "text": "Adkins said that in all three instances, the model ceased its hacking. – Rappler.com"
+    }
+  ],
+  "truncated": true,
+  "fx": 6,
+  "source_of_text": "feed"
+}
