@@ -803,13 +803,18 @@ async function main(){
       const page = got.filter(a => a.source_of_text === "page").length;
       const feedT= got.filter(a => a.source_of_text === "feed").length;
       const only = got.filter(a => a.source_of_text === "summary").length;
-      const old  = kept.filter(a => a.source === source.id).length;
+      const old  = kept.filter(a =>
+        a.source === source.id && isWithinArticleRetention(a.published)
+      ).length;
       if(!got.length && !old) continue;
 
       /* How many actually have a picture. Without this it is
          impossible to tell whether an image went missing here or in
          the app, and I have guessed wrong at that twice. */
-      const all = [...got, ...kept.filter(a => a.source === source.id)];
+      const all = [
+        ...got,
+        ...kept.filter(a => a.source === source.id)
+      ].filter(a => isWithinArticleRetention(a.published));
       const pics = all.filter(a => a.image && a.image.src).length;
 
       console.log("  " + source.name.padEnd(18) +
@@ -852,13 +857,13 @@ async function main(){
 
   const byId = new Map();
   let retired = 0;
-  let expired = 0;
+  const expiredIds = new Set();
 
   [...kept, ...fresh].forEach(a => {
     if(!a || !a.id) return;
 
     if(!isWithinArticleRetention(a.published)){
-      expired++;
+      expiredIds.add(a.id);
       return;
     }
 
@@ -912,8 +917,8 @@ async function main(){
   if(dropped > 0){
     console.log("  retired       " + dropped + " (no longer listed by their outlet)");
   }
-  if(expired > 0){
-    console.log("  expired       " + expired + " (older than 3 days)");
+  if(expiredIds.size > 0){
+    console.log("  expired       " + expiredIds.size + " (older than 3 days)");
   }
   console.log("  took          " + Math.round((Date.now() - started) / 1000) + "s");
 
