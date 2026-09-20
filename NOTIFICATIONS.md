@@ -182,26 +182,20 @@ Do Not Disturb, notification summaries, and user notification settings.
 
 ## Service-worker interface
 
-`sw.js` receives the data message, displays one notification tagged with the
-article id, and opens:
+`sw.js` receives the data message and displays one notification tagged with the
+article id. When the user taps it, the worker first saves the exact article ID
+and the alert's original send time in `wire-notification-route-v1`.
 
 ```text
 ./?article={articleId}
 ```
 
-If Wire is closed, the query string opens the Home Screen app. Because iOS can
-replace that URL with the app's start URL, the service worker also repeats a
-`wire-open-article` message briefly while the new page starts. `app.js`
-registers its listener before loading storage or feed data, queues the id until
-the interface is ready, and ignores duplicate messages.
-
-Before either path wakes the app, the worker also writes the article id to the
-dedicated `wire-notification-route-v1` browser cache. That cache is deliberately
-preserved across shell-cache upgrades. On startup, `pageshow`, and return from
-the background, the page reads the saved destination, refreshes the feed if
-needed, opens that exact article, and then deletes the record. This durable
-handoff covers iOS suspending an already-open app before a one-time worker
-message can be handled. It never falls back to the first feed article.
+The worker does not ask a frozen background page to navigate. It focuses an
+existing Wire window, or opens the app's start URL when none exists. The route
+cache is deliberately preserved across shell-cache upgrades. After Wire is
+visible, `app.js` reads the route on startup, focus, `pageshow`, visibility
+return, or its visible-only heartbeat; it opens that exact article and then
+deletes the record. A later notification replaces an older pending route.
 
 The page first requests `articles/{articleId}.json` and verifies that the ID in
 the response exactly matches the notification. It then selects the article's
@@ -209,30 +203,13 @@ publisher grouping before opening the reader. The reader's Back button returns
 to that grouping at the notified headline rather than to a previous All
 Sources position.
 
-The saved route also contains the tap time. If the article endpoint is absent,
-the page refreshes `articles.json`. Once that file reports a completed fetch
-later than the tap and still does not contain the requested ID, the route is
-expired, its retry timer is cancelled, and its cache record is deleted. Until
-that conclusive newer feed exists, a transient publication or network delay is
-retried. This prevents an unavailable old ID from polling forever or delaying a
-newer notification.
-
-The worker uses `clients.openWindow()` for the article URL whether Wire is
-closed or suspended. That browser-owned launch route is the path verified to
-work on iPhone; `WindowClient.navigate()` remains only a fallback because iOS
-may ignore it while restoring an existing Home Screen app. After launch, the
-worker repeats the article message for five seconds. The page also checks the
-dedicated cache on window focus, `pageshow`, and visibility return. These are
-independent routes to the same id: launch URL, persistent cache, and worker
-message.
-
-For background resume, the worker broadcasts the ID to every matching Wire
-window before foregrounding and repeatedly re-queries and broadcasts afterward.
-It also focuses and navigates the returned client. Because iOS can restore an
-old Home Screen view without emitting any lifecycle event, the page checks the
-durable route cache once per second whenever its JavaScript is running. This
-heartbeat is the final authority and does not depend on `focus`, `pageshow`,
-`visibilitychange`, or a one-time worker message.
+The saved route expires 30 minutes after the notification's send time. If the
+user taps after that deadline, Wire deletes the route, cancels its retry, shows
+current headlines, and announces that the notification expired. An expired
+route therefore cannot poll forever or delay a newer notification. The same
+expiration rule applies to cold launch and background resume.
+The visible-only heartbeat is the final fallback if iOS restores the app
+without emitting a reliable lifecycle event.
 
 The service worker rejects click destinations outside its own GitHub Pages
 scope.

@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.25";
+const VERSION = "wire-v0.17.26";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -161,82 +161,30 @@ self.addEventListener("notificationclick", event => {
   const articleId = String(event.notification.data?.articleId || "");
   const sentAt = String(event.notification.data?.sentAt || "");
   const sentAtMs = Date.parse(sentAt);
-  const stale = Number.isFinite(sentAtMs) &&
-    Date.now() - sentAtMs > NOTIFICATION_MAX_AGE_MS;
-  let target = new URL(event.notification.data?.path || "./", self.registration.scope);
-  const scope = new URL(self.registration.scope);
-  if(target.origin !== scope.origin || !target.pathname.startsWith(scope.pathname)){
-    target = scope;
-  }
 
   event.waitUntil((async () => {
-    /* FCM discards undelivered pushes after 30 minutes. If the operating
-       system has already displayed one, it cannot be recalled remotely;
-       refuse its stale route when the reader eventually taps it. */
-    if(stale) return null;
-
-    /* A backgrounded iOS Home Screen app can be frozen while postMessage is
-       delivered. Persist the destination before waking it; the page removes
-       this record only after it has opened the matching story. */
-    const clickedAt = Number.isFinite(sentAtMs) ? sentAt : new Date().toISOString();
+    /* A backgrounded iOS Home Screen app cannot reliably process a message
+       until it is visible. Persist the destination first. The foregrounded
+       page validates its age and consumes it after iOS has resumed the app. */
+    const routeSentAt = Number.isFinite(sentAtMs) ? sentAt : new Date().toISOString();
     if(articleId){
       const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
       await cache.put(NOTIFICATION_ROUTE_URL, new Response(JSON.stringify({
         articleId,
-        clickedAt
+        sentAt: routeSentAt
       }), {
         headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
       }));
     }
 
-    const wireWindows = () => self.clients.matchAll({
+    const windows = await self.clients.matchAll({
       type: "window",
       includeUncontrolled: true
-    }).then(clients => clients.filter(client =>
+    });
+    const open = windows.find(client =>
       client.url.startsWith(self.registration.scope)
-    ));
-
-    const broadcast = async () => {
-      if(!articleId) return [];
-      const clients = await wireWindows();
-      clients.forEach(client => client.postMessage({
-        type: "wire-open-article",
-        articleId,
-        clickedAt
-      }));
-      return clients;
-    };
-
-    /* Tell an existing page before asking iOS to foreground it. WebKit can
-       restore a frozen Home Screen window without delivering a later focus,
-       pageshow, visibility or message event. */
-    const existing = await broadcast();
-
-    /* The cold-launch path has opened the correct article reliably on iPhone.
-       Use that same browser-owned launch operation even when a Wire window is
-       already present. iOS can ignore WindowClient.navigate() on a suspended
-       Home Screen app and merely restore its old scroll position. */
-    let opened = null;
-    try{ opened = await self.clients.openWindow(target.href); }
-    catch(err){ /* Fall back to the existing client below. */ }
-
-    if(!opened){
-      opened = existing[0] || null;
-    }
-
-    if(opened) await opened.focus();
-    if(opened && "navigate" in opened){
-      try{ opened = await opened.navigate(target.href) || opened; }
-      catch(err){ /* Cache polling and broadcasts remain independent paths. */ }
-    }
-    if(opened && articleId){
-      /* Re-query all clients on every attempt. iOS may replace the original
-         WindowClient object while restoring the Home Screen application. */
-      for(const delay of [0, 500, 1000, 1500, 2000]){
-        if(delay) await new Promise(resolve => setTimeout(resolve, delay));
-        await broadcast();
-      }
-    }
-    return opened;
+    );
+    if(open) return open.focus();
+    return self.clients.openWindow(self.registration.scope);
   })());
 });

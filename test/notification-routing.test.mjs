@@ -9,6 +9,7 @@ const feedSource = await readFile(new URL("../feed.js", import.meta.url), "utf8"
 const readerSource = await readFile(new URL("../reader.js", import.meta.url), "utf8");
 const fetcherSource = await readFile(new URL("../fetch-feeds.mjs", import.meta.url), "utf8");
 const notifierSource = await readFile(new URL("../breaking-notify.mjs", import.meta.url), "utf8");
+const notificationsSource = await readFile(new URL("../notifications.js", import.meta.url), "utf8");
 
 function workerHarness({ windows = [], openedClient = null } = {}){
   const listeners = new Map();
@@ -59,12 +60,11 @@ function workerHarness({ windows = [], openedClient = null } = {}){
   return { listeners, records, order };
 }
 
-test("a background notification uses the proven browser launch route", async () => {
+test("a background notification is saved before the app is foregrounded", async () => {
   const order = [];
   const client = {
     url: "https://example.test/balita/",
-    focus: async () => { order.push("focused"); },
-    postMessage: message => order.push("message:" + message.articleId)
+    focus: async () => { order.push("focused"); }
   };
   const harness = workerHarness({ windows: [client], openedClient: client });
   const originalPush = harness.order.push.bind(harness.order);
@@ -84,12 +84,31 @@ test("a background notification uses the proven browser launch route", async () 
   await completion;
 
   assert.equal(order[0], "route-saved");
-  assert.ok(order.indexOf("message:inq-test") <
-    order.indexOf("open:https://example.test/balita/?article=inq-test"));
-  assert.ok(order.includes("focused"));
-  assert.equal(order.filter(item => item === "message:inq-test").length, 6);
+  assert.equal(order[1], "focused");
+  assert.equal(order.some(item => item.startsWith("open:")), false);
   const saved = [...harness.records.values()].map(JSON.parse)[0];
   assert.equal(saved.articleId, "inq-test");
+  assert.ok(Date.parse(saved.sentAt));
+});
+
+test("a cold notification saves its route before opening Wire", async () => {
+  const harness = workerHarness();
+  let completion;
+  harness.listeners.get("notificationclick")({
+    notification: {
+      data: { articleId: "inq-cold", sentAt: "2026-09-20T12:00:00.000Z" },
+      close() {}
+    },
+    waitUntil(promise){ completion = promise; }
+  });
+  await completion;
+
+  assert.deepEqual(harness.order, [
+    "route-saved",
+    "open:https://example.test/balita/"
+  ]);
+  const saved = [...harness.records.values()].map(JSON.parse)[0];
+  assert.equal(saved.sentAt, "2026-09-20T12:00:00.000Z");
 });
 
 test("service-worker activation preserves a pending notification route", async () => {
@@ -105,8 +124,9 @@ test("notification delivery and routing expire after one fetch cycle", async () 
   assert.match(notifierSource, /TTL: "1800"/);
   assert.match(notifierSource, /sentAt/);
   assert.match(workerSource, /NOTIFICATION_MAX_AGE_MS = 30 \* 60 \* 1000/);
-  assert.match(workerSource, /if\(stale\) return null/);
   assert.match(workerSource, /Date\.now\(\) - sentAtMs > NOTIFICATION_MAX_AGE_MS/);
+  assert.match(appSource, /Date\.now\(\) - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS/);
+  assert.match(appSource, /This notification has expired\. Showing current headlines\./);
 });
 
 test("the page recovers routes on startup and every iOS resume signal", () => {
@@ -125,17 +145,21 @@ test("the page recovers routes on startup and every iOS resume signal", () => {
   assert.match(appSource, /window\.setInterval\(async \(\) =>/);
   assert.match(appSource, /notificationHeartbeatBusy/);
   assert.match(appSource, /NOTIFICATION_ROUTE_MAX_AGE_MS = 30 \* 60 \* 1000/);
-  assert.match(appSource, /Date\.now\(\) - clickedAt > NOTIFICATION_ROUTE_MAX_AGE_MS/);
-  assert.match(appSource, /return \{ articleId, clickedAt, cache, request \}/);
+  assert.match(appSource, /document\.visibilityState === "hidden"/);
+  assert.match(appSource, /Date\.now\(\) - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS/);
+  assert.match(appSource, /return \{ articleId, sentAt, cache, request \}/);
   assert.match(appSource, /await expireNotificationArticle\(articleId\)/);
   assert.doesNotMatch(appSource, /feedUpdatedAt > clickedAt/);
-  assert.match(workerSource, /const existing = await broadcast\(\)/);
-  assert.match(workerSource, /await broadcast\(\)/);
+  assert.match(workerSource, /if\(open\) return open\.focus\(\)/);
+  assert.doesNotMatch(workerSource, /postMessage\(/);
   assert.match(feedSource, /li\.dataset\.articleId = a\.id/);
   assert.match(readerSource, /returnSource\.name \+ " headlines"/);
   assert.match(fetcherSource, /ARTICLE_DIR \+ "\/" \+ article\.id \+ "\.json"/);
   assert.match(fetcherSource, /isWithinArticleRetention\(a\.published\)/);
   assert.match(fetcherSource, /article pages still use doorway/);
+  assert.doesNotMatch(notificationsSource, /No test push has reached Wire/);
+  assert.match(notificationsSource, /Notifications are on\./);
+  assert.match(notificationsSource, /Notifications are off\./);
 });
 
 test("the workflow publishes articles before sending their notifications", async () => {
@@ -147,15 +171,15 @@ test("the workflow publishes articles before sending their notifications", async
   assert.match(workflow, /git diff --quiet breaking-state\.json/);
 });
 
-test("only Inquirer News uses doorway-first freshness routing", async () => {
+test("the established Inquirer doorway and freshness routing remains intact", async () => {
   const netSource = await readFile(new URL("../net.mjs", import.meta.url), "utf8");
 
   assert.match(netSource, /"newsinfo\.inquirer\.net"/);
-  assert.doesNotMatch(netSource, /"www\.inquirer\.net"/);
-  assert.doesNotMatch(netSource, /"globalnation\.inquirer\.net"/);
-  assert.doesNotMatch(netSource, /"business\.inquirer\.net"/);
+  assert.match(netSource, /"www\.inquirer\.net"/);
+  assert.match(netSource, /"globalnation\.inquirer\.net"/);
+  assert.match(netSource, /"business\.inquirer\.net"/);
   assert.doesNotMatch(netSource, /"mb\.com\.ph"/);
-  assert.match(fetcherSource, /source\.id === "inqn"/);
+  assert.match(fetcherSource, /INQUIRER_SOURCE_IDS\.has\(source\.id\)/);
   assert.match(fetcherSource, /noDoor:\s*true/);
   assert.ok(fetcherSource.indexOf("res = await get(feedUrl, { accept:") <
     fetcherSource.indexOf("noDoor: true"));
@@ -170,8 +194,8 @@ test("only Inquirer News uses doorway-first freshness routing", async () => {
   assert.match(fetcherSource, /circuitBreaker: true/);
   assert.match(fetcherSource, /preserveBestText\(byId\.get\(a\.id\), a\)/);
   assert.match(fetcherSource, /candidate\.source_of_text === "summary"/);
-  assert.ok(fetcherSource.indexOf('name: "direct"') <
-    fetcherSource.indexOf('name: "doorway"'));
+  assert.ok(fetcherSource.indexOf('name: "doorway"') <
+    fetcherSource.indexOf('name: "direct"'));
   assert.match(netSource,
     /await pace\(url\);[\s\S]*?hostCircuit\.isOpen\(url, viaDoor\)/);
 });

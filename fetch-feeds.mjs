@@ -16,7 +16,10 @@ import { XMLParser } from "fast-xml-parser";
 import { get, pool, doorwayReady, needsDoorway } from "./net.mjs";
 import { fromHtml, fromFeedContent, looksCut, EXTRACTOR_VERSION } from "./extract.mjs";
 import { discover, looksLikeFeed } from "./discover.mjs";
-import { isWithinArticleRetention } from "./retention.mjs";
+import {
+  isWithinArticleRetention,
+  isWithinHeadlineOnlyRetention
+} from "./retention.mjs";
 
 const VERSION = "0.17.20";
 
@@ -329,6 +332,11 @@ function articleWordCount(article){
 function preserveBestText(previous, candidate){
   if(!previous) return candidate;
 
+  candidate = {
+    ...candidate,
+    firstSeen: previous.firstSeen || previous.published || candidate.firstSeen
+  };
+
   const previousWords = articleWordCount(previous);
   const candidateWords = articleWordCount(candidate);
   const previousIsFull = previous.source_of_text !== "summary" && previousWords > 0;
@@ -480,6 +488,7 @@ async function readArticle(item, source, recovery = false){
     byline: item.byline || "",
     section: item.section || "",
     published: isoDate(item.published) || new Date().toISOString(),
+    firstSeen: new Date().toISOString(),
     url: item.link,
     image: item.image,
     blocks: [],
@@ -653,6 +662,9 @@ async function main(){
 
   /* Sample data from earlier versions should not survive. */
   existing = existing.filter(a => a.id && !String(a.id).startsWith("sample-"));
+  existing.forEach(a => {
+    if(!a.firstSeen) a.firstSeen = a.published || new Date().toISOString();
+  });
 
   /* Stories already collected keep whatever flags they were given at
      the time, so a change to the rules never reaches them — they are
@@ -861,12 +873,17 @@ async function main(){
   const byId = new Map();
   let retired = 0;
   const expiredIds = new Set();
+  const expiredHeadlineIds = new Set();
 
   [...kept, ...fresh].forEach(a => {
     if(!a || !a.id) return;
 
     if(!isWithinArticleRetention(a.published)){
       expiredIds.add(a.id);
+      return;
+    }
+    if(!isWithinHeadlineOnlyRetention(a)){
+      expiredHeadlineIds.add(a.id);
       return;
     }
 
@@ -922,6 +939,9 @@ async function main(){
   }
   if(expiredIds.size > 0){
     console.log("  expired       " + expiredIds.size + " (older than 3 days)");
+  }
+  if(expiredHeadlineIds.size > 0){
+    console.log("  headline-only " + expiredHeadlineIds.size + " (older than 24 hours)");
   }
   console.log("  took          " + Math.round((Date.now() - started) / 1000) + "s");
 

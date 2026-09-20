@@ -155,14 +155,14 @@ function paint(button, status){
   button.setAttribute("aria-pressed", on ? "true" : "false");
   button.textContent = busy ? "Please wait…" : repairNeeded ? "Repair notifications" : on ? "Turn off" : "Turn on";
   status.textContent = busy
-    ? "Updating this device…"
+    ? "Updating…"
     : repairNeeded
       ? "Notification address needs repair. Tap Repair notifications once."
     : refreshError
-      ? "Notification registration failed: " + refreshError + ". Reopen Wire to retry."
+      ? "Could not update notifications. Reopen Wire and try again."
       : on
-      ? "On for this device. Focus and Do Not Disturb remain in control."
-      : "Off for this device. Only strictly marked breaking stories can alert you.";
+      ? "Notifications are on."
+      : "Notifications are off.";
 }
 
 export function setup({ announce, onTap }){
@@ -174,28 +174,6 @@ export function setup({ announce, onTap }){
     Notification.permission === "granted" &&
     savedAddressRevision() !== ADDRESS_REVISION;
   paint(button, status);
-  const diagnostic = document.createElement("p");
-  diagnostic.style.fontSize = "1.1em";
-  status.after(diagnostic);
-  async function showPushStatus(){
-    try {
-      const cache = await caches.open("wire-push-diagnostics-v1");
-      const response = await cache.match(new URL(".wire-push-status.json", new URL("./", location.href)).href);
-      if(!response){
-        diagnostic.textContent = "No test push has reached Wire since diagnostics were installed.";
-        return;
-      }
-      const record = await response.json();
-      diagnostic.textContent = record.error
-        ? "Last push reached Wire, but display failed: " + record.error
-        : "Last push reached Wire at " + new Date(record.receivedAt).toLocaleTimeString() +
-          (record.displayedAt ? "; the browser accepted its display." : ".");
-    } catch (_) {}
-  }
-  showPushStatus();
-  document.addEventListener("visibilitychange", () => {
-    if(document.visibilityState === "visible") showPushStatus();
-  });
 
   onTap(button, async () => {
     if(busy) return;
@@ -204,13 +182,13 @@ export function setup({ announce, onTap }){
     try{
       if(repairNeeded){
         await subscribe({ repair: true });
-        announce("Notification address repaired on this device.", "done");
+        announce("Notifications repaired.", "done");
       }else if(savedEnabled()){
         await unsubscribe();
-        announce("Breaking-news notifications are off on this device.", "done");
+        announce("Notifications turned off.", "done");
       }else{
         await subscribe();
-        announce("Breaking-news notifications are on for this device.", "done");
+        announce("Notifications turned on.", "done");
       }
     }catch(err){
       console.warn("Could not change notification setting.", err);
@@ -231,4 +209,3 @@ export function setup({ announce, onTap }){
     });
   }
 }
-

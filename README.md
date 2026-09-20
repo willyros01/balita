@@ -8,33 +8,29 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.20**
+**0.17.26**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
-- Tapping a notification opens its story whether Wire is already open or is
-  being launched from a closed state on iPhone or iPad.
-- A notification destination is saved before a suspended app is resumed, then
-  removed only after Wire opens that exact story. This prevents iOS from losing
-  a one-time background message and returning to the feed position.
-- Notification taps use the same browser-owned launch route whether Wire is
-  closed or suspended. Persistent cache recovery, URL routing, a window-focus
-  listener, and repeated worker messages remain independent fallbacks.
-- If a tapped notification's article has disappeared, Wire consumes the saved
-  route as soon as a feed build completed after the tap confirms that the ID
-  is absent. That stale route can no longer block a newer notification.
+- A notification destination is saved before iOS resumes Wire. The service
+  worker only foregrounds the app; the visible page then opens the exact ID.
+- A saved notification route expires 30 minutes after the alert was sent. Wire
+  clears an expired route, explains that it expired, and shows current
+  headlines, so an old alert cannot block a newer one.
 - Articles older than three days are removed even when a publisher's feed is
   frozen or temporarily unreachable. Their per-article JSON endpoints are
   removed in the same feed publication.
+- Headline-only records are removed 24 hours after Wire first sees them. Full
+  articles retain the normal three-day window.
 - Fetched stories are published before their alerts are sent. If the hosted
   feed is briefly behind, Wire retains the destination and retries instead of
   dropping the reader back on All Sources.
 - Every current story is also published at `articles/<article-id>.json`.
   Notification taps retrieve that exact endpoint, open the ID directly, and
   make Back return to the matching headline in its publisher grouping.
-- Background-resume routing no longer depends on iOS emitting a lifecycle
-  event. The worker broadcasts before and after foregrounding every Wire
-  window, while the page consumes the durable route on a one-second heartbeat.
+- Background-resume routing waits until Wire is visible. Startup, focus,
+  `pageshow`, visibility return, and a visible-only heartbeat consume the
+  durable route without asking a frozen background page to navigate.
 - All three Inquirer feeds use the Cloudflare doorway as their primary route.
   Each direct feed is checked for freshness and becomes the discovery fallback
   when the doorway is unavailable or older. Supported Inquirer article hosts

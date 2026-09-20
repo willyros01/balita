@@ -140,7 +140,7 @@ function registerWorker(){
 
 let notificationClicksReady = false;
 let pendingNotificationArticle = "";
-let pendingNotificationClickedAt = "";
+let pendingNotificationSentAt = "";
 let lastNotificationArticle = "";
 let notificationArticleOpening = false;
 let notificationRetryTimer = 0;
@@ -205,8 +205,8 @@ async function cachedNotificationArticle(){
     if(!response) continue;
     const saved = await response.json();
     const articleId = String(saved.articleId || "");
-    const clickedAt = String(saved.clickedAt || "");
-    if(articleId) return { articleId, clickedAt, cache, request };
+    const sentAt = String(saved.sentAt || saved.clickedAt || "");
+    if(articleId) return { articleId, sentAt, cache, request };
   }
   return null;
 }
@@ -219,7 +219,7 @@ async function recoverNotificationArticle(){
     if(!saved) return;
 
     pendingNotificationArticle = saved.articleId;
-    pendingNotificationClickedAt = saved.clickedAt || "";
+    pendingNotificationSentAt = saved.sentAt || "";
     await openPendingNotificationArticle();
   }catch(err){
     console.warn("Could not recover the notification destination.", err);
@@ -240,14 +240,14 @@ async function clearNotificationArticle(articleId){
 }
 
 function notificationRouteExpired(){
-  const clickedAt = Date.parse(pendingNotificationClickedAt || "");
-  return Number.isFinite(clickedAt) &&
-    Date.now() - clickedAt > NOTIFICATION_ROUTE_MAX_AGE_MS;
+  const sentAt = Date.parse(pendingNotificationSentAt || "");
+  return Number.isFinite(sentAt) &&
+    Date.now() - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS;
 }
 
 async function expireNotificationArticle(articleId){
   pendingNotificationArticle = "";
-  pendingNotificationClickedAt = "";
+  pendingNotificationSentAt = "";
   if(notificationRetryTimer){
     window.clearTimeout(notificationRetryTimer);
     notificationRetryTimer = 0;
@@ -258,9 +258,13 @@ async function expireNotificationArticle(articleId){
 async function openPendingNotificationArticle(){
   const articleId = pendingNotificationArticle;
   if(!notificationClicksReady || !articleId || notificationArticleOpening) return;
+  if(document.visibilityState === "hidden") return;
 
   if(notificationRouteExpired()){
     await expireNotificationArticle(articleId);
+    ctx.show("feed");
+    ctx.refresh();
+    announce("This notification has expired. Showing current headlines.", "warn");
     return;
   }
 
@@ -310,7 +314,7 @@ function listenForNotificationClicks(){
     const articleId = String(event.data.articleId || "");
     if(!articleId) return;
     pendingNotificationArticle = articleId;
-    pendingNotificationClickedAt = String(event.data.clickedAt || "");
+    pendingNotificationSentAt = String(event.data.sentAt || event.data.clickedAt || "");
     void openPendingNotificationArticle();
   });
   navigator.serviceWorker.addEventListener("controllerchange", () => {
@@ -332,6 +336,7 @@ document.addEventListener("visibilitychange", () => {
    on an optional lifecycle signal. Backgrounded pages are frozen or heavily
    throttled by iOS, and the cache is read-only unless a route exists. */
 window.setInterval(async () => {
+  if(document.visibilityState === "hidden") return;
   if(notificationHeartbeatBusy) return;
   notificationHeartbeatBusy = true;
   try{ await recoverNotificationArticle(); }
