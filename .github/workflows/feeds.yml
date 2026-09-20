@@ -115,7 +115,6 @@ jobs:
 
       - name: Send tightly limited breaking-news alerts
         run: node breaking-notify.mjs
-        continue-on-error: true
         env:
           GOOGLE_ACCESS_TOKEN: ${{ steps.google-auth.outputs.access_token }}
           # Manual test runs may bypass the marker for one Inquirer story.
@@ -123,6 +122,7 @@ jobs:
           WIRE_TEST_INQUIRER: ${{ github.event_name == 'workflow_dispatch' && inputs.test_inquirer && '1' || '0' }}
 
       - name: Commit notification state if changed
+        if: ${{ !cancelled() }}
         run: |
           git config user.name  "balita-bot"
           git config user.email "balita-bot@users.noreply.github.com"
@@ -146,3 +146,4 @@ jobs:
           exit 1
 
 # Recovery replacement for cancelled pass 7 of 10
+

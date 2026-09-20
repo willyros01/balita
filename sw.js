@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.20";
+const VERSION = "wire-v0.17.21";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -27,6 +27,8 @@ const NOTIFICATION_ROUTE_URL = new URL(
   ".wire-notification-route.json",
   self.registration.scope
 ).href;
+const PUSH_DIAGNOSTICS = "wire-push-diagnostics-v1";
+const PUSH_DIAGNOSTICS_URL = new URL(".wire-push-status.json", self.registration.scope).href;
 const SHELL = [
   "./",
   "./index.html",
@@ -71,7 +73,7 @@ self.addEventListener("activate", event => {
     caches.keys()
       .then(keys => Promise.all(
         keys
-          .filter(k => k !== VERSION && k !== NOTIFICATION_ROUTE_CACHE)
+          .filter(k => k !== VERSION && k !== NOTIFICATION_ROUTE_CACHE && k !== PUSH_DIAGNOSTICS)
           .map(k => caches.delete(k))
       ))
       .then(() => self.clients.claim())
@@ -133,19 +135,36 @@ self.addEventListener("push", event => {
   catch(err){ payload = { data: { title: event.data ? event.data.text() : "" } }; }
 
   const data = payload.data || {};
+  const visible = payload.notification || {};
   const articleId = String(data.articleId || "");
   const source = String(data.sourceName || "News");
-  const headline = String(data.title || "Breaking news");
+  const headline = String(data.title || visible.body || "Breaking news");
   const path = articleId ? "?article=" + encodeURIComponent(articleId) : "./";
 
-  event.waitUntil(self.registration.showNotification("Wire · " + source, {
+  // One display owner: this native push listener. No Firebase SW auto-display listener.
+  event.waitUntil((async () => {
+    const record = { articleId, receivedAt: new Date().toISOString(), version: VERSION };
+    const save = async () => {
+      try {
+        const cache = await caches.open(PUSH_DIAGNOSTICS);
+        await cache.put(PUSH_DIAGNOSTICS_URL, new Response(JSON.stringify(record)));
+      } catch (_) { /* Diagnostics must never block display. */ }
+    };
+    try {
+      await self.registration.showNotification(visible.title || "Wire · " + source, {
     body: headline,
     icon: new URL("icon-192.png", self.registration.scope).href,
     badge: new URL("icon-192.png", self.registration.scope).href,
     tag: articleId ? "wire-breaking-" + articleId : "wire-breaking",
     renotify: false,
     data: { articleId, path }
-  }));
+      });
+      record.displayedAt = new Date().toISOString();
+    } catch (err) {
+      record.error = String(err.message || err);
+    }
+    await save();
+  })());
 });
 
 self.addEventListener("notificationclick", event => {
@@ -224,3 +243,4 @@ self.addEventListener("notificationclick", event => {
     return opened;
   })());
 });
+

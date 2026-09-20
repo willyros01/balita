@@ -8,6 +8,8 @@
 import { PUSH_FIREBASE, PUSH_VAPID_KEY } from "./config.js";
 
 const ENABLED_KEY = "wire.breaking.enabled";
+const ADDRESS_REVISION = "wire-push-0.17.21";
+let refreshError = "";
 const SDK = "https://www.gstatic.com/firebasejs/10.12.2/";
 
 let app;
@@ -56,6 +58,7 @@ async function loadFirebase(){
 
 async function deviceUser(){
   const { authMod } = await loadFirebase();
+  await auth.authStateReady();
   if(auth.currentUser) return auth.currentUser;
   return (await authMod.signInAnonymously(auth)).user;
 }
@@ -64,7 +67,8 @@ async function worker(){
   if(!("serviceWorker" in navigator)){
     throw new Error("Push notifications are not supported by this browser.");
   }
-  await navigator.serviceWorker.register("sw.js");
+  const registration = await navigator.serviceWorker.register("sw.js", { updateViaCache: "none" });
+  await registration.update();
   return navigator.serviceWorker.ready;
 }
 
@@ -88,6 +92,12 @@ async function subscribe(){
 
   const { firestoreMod, messagingMod } = await loadFirebase();
   const [user, registration] = await Promise.all([deviceUser(), worker()]);
+  // Rebuild the browser/FCM binding once; retain the same anonymous device document.
+  if(localStorage.getItem("wire.push.addressRevision") !== ADDRESS_REVISION){
+    await messagingMod.deleteToken(messaging);
+    const oldSubscription = await registration.pushManager.getSubscription();
+    if(oldSubscription) await oldSubscription.unsubscribe();
+  }
   const token = await messagingMod.getToken(messaging, {
     vapidKey: PUSH_VAPID_KEY,
     serviceWorkerRegistration: registration
@@ -104,6 +114,8 @@ async function subscribe(){
     { merge: true }
   );
 
+  localStorage.setItem("wire.push.addressRevision", ADDRESS_REVISION);
+  refreshError = "";
   saveEnabled(true);
 }
 
@@ -126,7 +138,9 @@ function paint(button, status){
   button.textContent = busy ? "Please wait…" : on ? "Turn off" : "Turn on";
   status.textContent = busy
     ? "Updating this device…"
-    : on
+    : refreshError
+      ? "Notification registration failed: " + refreshError + ". Reopen Wire to retry."
+      : on
       ? "On for this device. Focus and Do Not Disturb remain in control."
       : "Off for this device. Only strictly marked breaking stories can alert you.";
 }
@@ -137,6 +151,25 @@ export function setup({ announce, onTap }){
   if(!button || !status) return;
 
   paint(button, status);
+  const diagnostic = document.createElement("p");
+  diagnostic.style.fontSize = "1.1em";
+  status.after(diagnostic);
+  async function showPushStatus(){
+    try {
+      const cache = await caches.open("wire-push-diagnostics-v1");
+      const response = await cache.match(new URL(".wire-push-status.json", new URL("./", location.href)).href);
+      if(!response) return;
+      const record = await response.json();
+      diagnostic.textContent = record.error
+        ? "Last push reached Wire, but display failed: " + record.error
+        : "Last push reached Wire at " + new Date(record.receivedAt).toLocaleTimeString() +
+          (record.displayedAt ? "; the browser accepted its display." : ".");
+    } catch (_) {}
+  }
+  showPushStatus();
+  document.addEventListener("visibilitychange", () => {
+    if(document.visibilityState === "visible") showPushStatus();
+  });
 
   onTap(button, async () => {
     if(busy) return;
@@ -163,7 +196,10 @@ export function setup({ announce, onTap }){
      requested here; only a deliberate tap may show that prompt. */
   if(savedEnabled() && "Notification" in window && Notification.permission === "granted"){
     subscribe().then(() => paint(button, status)).catch(err => {
+      refreshError = err.message || "Unknown error";
+      paint(button, status);
       console.warn("Could not refresh the notification address.", err);
     });
   }
 }
+

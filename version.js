@@ -10,9 +10,10 @@
    Change the line below. Nothing else.
    ============================================================ */
 
-export const VERSION    = "0.17.20";
+export const VERSION    = "0.17.21";
 export const BUILD_DATE = "2026-09-20";
 
 /* The service worker reads this too, so the cache name can never
    drift from the version the app reports. */
 export const CACHE_NAME = "wire-v" + VERSION;
+
