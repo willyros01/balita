@@ -1,0 +1,48 @@
+WIRE — NOTIFICATION HANDOFF FIX — v0.17.27
+
+WHAT WAS WRONG
+
+Tapping a breaking-news notification while the app was backgrounded on
+iOS brought the app to the foreground showing whatever screen it had
+been on before — not the story the notification was about.
+
+Reading the actual code in the repo, sw.js's notificationclick handler
+was unconditionally calling clients.openWindow() every single time,
+before ever trying to hand off to a window that might already be open
+and running. On iOS, when an instance of the app is already running,
+openWindow() does not perform a fresh navigation the way it does on a
+true cold launch — it simply resurfaces that existing instance exactly
+as it already was. That is the exact symptom reported: not a failed
+navigation, but a second launch path stepping in front of the handoff
+to the window that was already there, before that handoff had a
+chance to be acted on.
+
+THE FIX — sw.js
+
+The order of operations is reversed. An existing window — even a
+frozen, backgrounded one — is now tried first, by focusing it directly.
+openWindow() is reserved for a genuine cold launch, when nothing is
+already running to hand off to. Nothing else about the file changed:
+the persistent route cache, the retry broadcasts, and the navigate()
+attempt are all still in place exactly as they were, doing the same
+job as safety nets around this corrected order.
+
+THE FIX — app.js
+
+A second thing was added, separate from the fix above: a notification
+that sits unconsumed for more than thirty minutes is now treated as
+stale. Rather than opening it whenever the phone eventually comes back
+to the foreground — possibly long after it stopped meaning anything —
+it is discarded, with a message saying it expired. A newer notification
+already overwrites the one stored route on its own; this only matters
+for the case where nothing newer ever arrives to take its place.
+
+version.js was also bumped, to 0.17.27, to match the number now inside
+sw.js — these two must always agree, or the phone can keep serving an
+old build while About reports a newer number.
+
+WHAT THIS DOES NOT TOUCH
+
+Nothing else in the app changed. Only these three files are in this
+zip, on purpose — not a full rebuild, so nothing else in the repository
+is at risk of being overwritten by an out-of-date copy.

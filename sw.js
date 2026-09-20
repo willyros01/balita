@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.26";
+const VERSION = "wire-v0.17.27";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -27,7 +27,8 @@ const NOTIFICATION_ROUTE_URL = new URL(
   ".wire-notification-route.json",
   self.registration.scope
 ).href;
-const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
+const PUSH_DIAGNOSTICS = "wire-push-diagnostics-v1";
+const PUSH_DIAGNOSTICS_URL = new URL(".wire-push-status.json", self.registration.scope).href;
 const SHELL = [
   "./",
   "./index.html",
@@ -72,7 +73,7 @@ self.addEventListener("activate", event => {
     caches.keys()
       .then(keys => Promise.all(
         keys
-          .filter(k => k !== VERSION && k !== NOTIFICATION_ROUTE_CACHE)
+          .filter(k => k !== VERSION && k !== NOTIFICATION_ROUTE_CACHE && k !== PUSH_DIAGNOSTICS)
           .map(k => caches.delete(k))
       ))
       .then(() => self.clients.claim())
@@ -134,57 +135,122 @@ self.addEventListener("push", event => {
   catch(err){ payload = { data: { title: event.data ? event.data.text() : "" } }; }
 
   const data = payload.data || {};
+  const visible = payload.notification || {};
   const articleId = String(data.articleId || "");
   const source = String(data.sourceName || "News");
-  const headline = String(data.title || "Breaking news");
-  const sentAt = String(data.sentAt || "");
-  const sentAtMs = Date.parse(sentAt);
-  if(Number.isFinite(sentAtMs) && Date.now() - sentAtMs > NOTIFICATION_MAX_AGE_MS){
-    return;
-  }
+  const headline = String(data.title || visible.body || "Breaking news");
   const path = articleId ? "?article=" + encodeURIComponent(articleId) : "./";
 
-  event.waitUntil(self.registration.showNotification("Wire · " + source, {
+  // One display owner: this native push listener. No Firebase SW auto-display listener.
+  event.waitUntil((async () => {
+    const record = { articleId, receivedAt: new Date().toISOString(), version: VERSION };
+    const save = async () => {
+      try {
+        const cache = await caches.open(PUSH_DIAGNOSTICS);
+        await cache.put(PUSH_DIAGNOSTICS_URL, new Response(JSON.stringify(record)));
+      } catch (_) { /* Diagnostics must never block display. */ }
+    };
+    try {
+      await self.registration.showNotification(visible.title || "Wire · " + source, {
     body: headline,
     icon: new URL("icon-192.png", self.registration.scope).href,
     badge: new URL("icon-192.png", self.registration.scope).href,
     tag: articleId ? "wire-breaking-" + articleId : "wire-breaking",
     renotify: false,
-    timestamp: Number.isFinite(sentAtMs) ? sentAtMs : Date.now(),
-    data: { articleId, path, sentAt }
-  }));
+    data: { articleId, path }
+      });
+      record.displayedAt = new Date().toISOString();
+    } catch (err) {
+      record.error = String(err.message || err);
+    }
+    await save();
+  })());
 });
 
 self.addEventListener("notificationclick", event => {
   event.notification.close();
 
   const articleId = String(event.notification.data?.articleId || "");
-  const sentAt = String(event.notification.data?.sentAt || "");
-  const sentAtMs = Date.parse(sentAt);
+  let target = new URL(event.notification.data?.path || "./", self.registration.scope);
+  const scope = new URL(self.registration.scope);
+  if(target.origin !== scope.origin || !target.pathname.startsWith(scope.pathname)){
+    target = scope;
+  }
 
   event.waitUntil((async () => {
-    /* A backgrounded iOS Home Screen app cannot reliably process a message
-       until it is visible. Persist the destination first. The foregrounded
-       page validates its age and consumes it after iOS has resumed the app. */
-    const routeSentAt = Number.isFinite(sentAtMs) ? sentAt : new Date().toISOString();
+    /* A backgrounded iOS Home Screen app can be frozen while postMessage is
+       delivered. Persist the destination before waking it; the page removes
+       this record only after it has opened the matching story. */
+    const clickedAt = new Date().toISOString();
     if(articleId){
       const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
       await cache.put(NOTIFICATION_ROUTE_URL, new Response(JSON.stringify({
         articleId,
-        sentAt: routeSentAt
+        clickedAt
       }), {
         headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
       }));
     }
 
-    const windows = await self.clients.matchAll({
+    const wireWindows = () => self.clients.matchAll({
       type: "window",
       includeUncontrolled: true
-    });
-    const open = windows.find(client =>
+    }).then(clients => clients.filter(client =>
       client.url.startsWith(self.registration.scope)
-    );
-    if(open) return open.focus();
-    return self.clients.openWindow(self.registration.scope);
+    ));
+
+    const broadcast = async () => {
+      if(!articleId) return [];
+      const clients = await wireWindows();
+      clients.forEach(client => client.postMessage({
+        type: "wire-open-article",
+        articleId,
+        clickedAt
+      }));
+      return clients;
+    };
+
+    /* Tell an existing page before doing anything else that might move it. */
+    const existing = await broadcast();
+
+    /* An existing window — even a frozen, backgrounded one — is handed
+       off to directly, by focusing it. openWindow() is reserved for a
+       genuine cold launch, when nothing is running to hand off to.
+
+       This was previously reversed: openWindow() ran unconditionally,
+       on the reasoning that navigate() can be silently ignored on a
+       frozen iOS window. That reasoning was sound for the cold-launch
+       case, where it is the only path that works at all. But when an
+       instance of the app is already running, iOS does not treat
+       openWindow() as "navigate this existing window to a new page" —
+       it resurfaces that existing instance exactly as it already was.
+       That is the frozen-screen symptom: not a failed navigation, but
+       a second launch path stepping in front of the handoff to the
+       window that was already there, before that handoff had a chance
+       to be acted on. Trying the existing window first, and only
+       falling back to openWindow() when there is truly nothing to
+       hand off to, is the order that was already working before this
+       was changed. */
+    let opened = existing[0] || null;
+
+    if(!opened){
+      try{ opened = await self.clients.openWindow(target.href); }
+      catch(err){ /* Nothing was running and the launch itself failed. */ }
+    }
+
+    if(opened) await opened.focus();
+    if(opened && "navigate" in opened){
+      try{ opened = await opened.navigate(target.href) || opened; }
+      catch(err){ /* Cache polling and broadcasts remain independent paths. */ }
+    }
+    if(opened && articleId){
+      /* Re-query all clients on every attempt. iOS may replace the original
+         WindowClient object while restoring the Home Screen application. */
+      for(const delay of [0, 500, 1000, 1500, 2000]){
+        if(delay) await new Promise(resolve => setTimeout(resolve, delay));
+        await broadcast();
+      }
+    }
+    return opened;
   })());
 });
