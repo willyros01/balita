@@ -8,12 +8,13 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.26**
+**0.17.28**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
 - A notification destination is saved before iOS resumes Wire. The service
-  worker only foregrounds the app; the visible page then opens the exact ID.
+  worker uses the browser-owned launch route proven in 0.17.8, while the
+  foregrounded page consumes the saved exact ID.
 - A saved notification route expires 30 minutes after the alert was sent. Wire
   clears an expired route, explains that it expired, and shows current
   headlines, so an old alert cannot block a newer one.
@@ -28,9 +29,9 @@ one tap away, never buried in a menu.
 - Every current story is also published at `articles/<article-id>.json`.
   Notification taps retrieve that exact endpoint, open the ID directly, and
   make Back return to the matching headline in its publisher grouping.
-- Background-resume routing waits until Wire is visible. Startup, focus,
-  `pageshow`, visibility return, and a visible-only heartbeat consume the
-  durable route without asking a frozen background page to navigate.
+- Background-resume routing restores the proven pre/post-foreground broadcasts,
+  explicit browser launch, focus/navigation, and one-second durable-route
+  heartbeat from 0.17.8.
 - All three Inquirer feeds use the Cloudflare doorway as their primary route.
   Each direct feed is checked for freshness and becomes the discovery fallback
   when the doorway is unavailable or older. Supported Inquirer article hosts

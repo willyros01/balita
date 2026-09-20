@@ -60,11 +60,13 @@ function workerHarness({ windows = [], openedClient = null } = {}){
   return { listeners, records, order };
 }
 
-test("a background notification is saved before the app is foregrounded", async () => {
+test("a background notification uses the proven 0.17.8 foreground route", async () => {
   const order = [];
   const client = {
     url: "https://example.test/balita/",
-    focus: async () => { order.push("focused"); }
+    focus: async () => { order.push("focused"); },
+    navigate: async url => { order.push("navigate:" + url); return client; },
+    postMessage: message => order.push("message:" + message.articleId)
   };
   const harness = workerHarness({ windows: [client], openedClient: client });
   const originalPush = harness.order.push.bind(harness.order);
@@ -76,7 +78,11 @@ test("a background notification is saved before the app is foregrounded", async 
   let completion;
   harness.listeners.get("notificationclick")({
     notification: {
-      data: { articleId: "inq-test", path: "?article=inq-test" },
+      data: {
+        articleId: "inq-test",
+        path: "?article=inq-test",
+        sentAt: "2026-09-20T12:00:00.000Z"
+      },
       close() {}
     },
     waitUntil(promise){ completion = promise; }
@@ -84,11 +90,14 @@ test("a background notification is saved before the app is foregrounded", async 
   await completion;
 
   assert.equal(order[0], "route-saved");
-  assert.equal(order[1], "focused");
-  assert.equal(order.some(item => item.startsWith("open:")), false);
+  assert.equal(order[1], "message:inq-test");
+  assert.ok(order.includes("open:https://example.test/balita/?article=inq-test"));
+  assert.ok(order.includes("focused"));
+  assert.ok(order.includes("navigate:https://example.test/balita/?article=inq-test"));
+  assert.equal(order.filter(item => item === "message:inq-test").length, 6);
   const saved = [...harness.records.values()].map(JSON.parse)[0];
   assert.equal(saved.articleId, "inq-test");
-  assert.ok(Date.parse(saved.sentAt));
+  assert.equal(saved.sentAt, "2026-09-20T12:00:00.000Z");
 });
 
 test("a cold notification saves its route before opening Wire", async () => {
@@ -96,7 +105,11 @@ test("a cold notification saves its route before opening Wire", async () => {
   let completion;
   harness.listeners.get("notificationclick")({
     notification: {
-      data: { articleId: "inq-cold", sentAt: "2026-09-20T12:00:00.000Z" },
+      data: {
+        articleId: "inq-cold",
+        path: "?article=inq-cold",
+        sentAt: "2026-09-20T12:00:00.000Z"
+      },
       close() {}
     },
     waitUntil(promise){ completion = promise; }
@@ -105,7 +118,7 @@ test("a cold notification saves its route before opening Wire", async () => {
 
   assert.deepEqual(harness.order, [
     "route-saved",
-    "open:https://example.test/balita/"
+    "open:https://example.test/balita/?article=inq-cold"
   ]);
   const saved = [...harness.records.values()].map(JSON.parse)[0];
   assert.equal(saved.sentAt, "2026-09-20T12:00:00.000Z");
@@ -145,13 +158,14 @@ test("the page recovers routes on startup and every iOS resume signal", () => {
   assert.match(appSource, /window\.setInterval\(async \(\) =>/);
   assert.match(appSource, /notificationHeartbeatBusy/);
   assert.match(appSource, /NOTIFICATION_ROUTE_MAX_AGE_MS = 30 \* 60 \* 1000/);
-  assert.match(appSource, /document\.visibilityState === "hidden"/);
+  assert.doesNotMatch(appSource, /document\.visibilityState === "hidden"/);
   assert.match(appSource, /Date\.now\(\) - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS/);
   assert.match(appSource, /return \{ articleId, sentAt, cache, request \}/);
   assert.match(appSource, /await expireNotificationArticle\(articleId\)/);
   assert.doesNotMatch(appSource, /feedUpdatedAt > clickedAt/);
-  assert.match(workerSource, /if\(open\) return open\.focus\(\)/);
-  assert.doesNotMatch(workerSource, /postMessage\(/);
+  assert.match(workerSource, /self\.clients\.openWindow\(target\.href\)/);
+  assert.match(workerSource, /client\.postMessage\(/);
+  assert.match(workerSource, /for\(const delay of \[0, 500, 1000, 1500, 2000\]\)/);
   assert.match(feedSource, /li\.dataset\.articleId = a\.id/);
   assert.match(readerSource, /returnSource\.name \+ " headlines"/);
   assert.match(fetcherSource, /ARTICLE_DIR \+ "\/" \+ article\.id \+ "\.json"/);

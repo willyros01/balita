@@ -140,7 +140,7 @@ function registerWorker(){
 
 let notificationClicksReady = false;
 let pendingNotificationArticle = "";
-let pendingNotificationClickedAt = "";
+let pendingNotificationSentAt = "";
 let lastNotificationArticle = "";
 let notificationArticleOpening = false;
 let notificationRetryTimer = 0;
@@ -153,7 +153,7 @@ const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
    whenever the phone next comes to the foreground. A fresh tap already
    overwrites the one cached route this app keeps, so this only matters
    when nothing newer ever arrives to take its place. */
-const STALE_NOTIFICATION_MS = 30 * 60 * 1000;
+const NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
 
 /* Capture the launch URL before startup does any asynchronous work. iOS can
    discard it while restoring an installed app's previous navigation state. */
@@ -212,8 +212,8 @@ async function cachedNotificationArticle(){
     if(!response) continue;
     const saved = await response.json();
     const articleId = String(saved.articleId || "");
-    const clickedAt = String(saved.clickedAt || "");
-    if(articleId) return { articleId, clickedAt, cache, request };
+    const sentAt = String(saved.sentAt || saved.clickedAt || "");
+    if(articleId) return { articleId, sentAt, cache, request };
   }
   return null;
 }
@@ -225,26 +225,8 @@ async function recoverNotificationArticle(){
     const saved = await cachedNotificationArticle();
     if(!saved) return;
 
-    /* Invalidate anything that has sat unconsumed too long, before it
-       ever reaches the code that would open it. This has to happen
-       here, at recovery time, rather than only where an article is
-       opened — otherwise a stale route left untouched would simply
-       wait for the next time the app comes to the foreground and get
-       acted on then, arbitrarily long after the notification it came
-       from stopped meaning anything. */
-    const age = Date.now() - Date.parse(saved.clickedAt || "");
-    if(Number.isFinite(age) && age > STALE_NOTIFICATION_MS){
-      await saved.cache.delete(saved.request);
-      if(pendingNotificationArticle === saved.articleId){
-        pendingNotificationArticle = "";
-        pendingNotificationClickedAt = "";
-      }
-      announce("That notification has expired.", "warn");
-      return;
-    }
-
     pendingNotificationArticle = saved.articleId;
-    pendingNotificationClickedAt = saved.clickedAt || "";
+    pendingNotificationSentAt = saved.sentAt || "";
     await openPendingNotificationArticle();
   }catch(err){
     console.warn("Could not recover the notification destination.", err);
@@ -264,16 +246,9 @@ async function clearNotificationArticle(articleId){
   }
 }
 
-function feedCompletedAfterNotification(){
-  const clickedAt = Date.parse(pendingNotificationClickedAt || "");
-  const feedUpdatedAt = Date.parse(state.updated || "");
-  return Number.isFinite(clickedAt) && Number.isFinite(feedUpdatedAt) &&
-    feedUpdatedAt > clickedAt;
-}
-
 async function expireNotificationArticle(articleId){
   pendingNotificationArticle = "";
-  pendingNotificationClickedAt = "";
+  pendingNotificationSentAt = "";
   if(notificationRetryTimer){
     window.clearTimeout(notificationRetryTimer);
     notificationRetryTimer = 0;
@@ -284,6 +259,16 @@ async function expireNotificationArticle(articleId){
 async function openPendingNotificationArticle(){
   const articleId = pendingNotificationArticle;
   if(!notificationClicksReady || !articleId || notificationArticleOpening) return;
+
+  const sentAt = Date.parse(pendingNotificationSentAt || "");
+  if(Number.isFinite(sentAt) &&
+     Date.now() - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS){
+    await expireNotificationArticle(articleId);
+    ctx.show("feed");
+    ctx.refresh();
+    announce("This notification has expired. Showing current headlines.", "warn");
+    return;
+  }
 
   if(articleId === lastNotificationArticle){
     await expireNotificationArticle(articleId);
@@ -298,17 +283,6 @@ async function openPendingNotificationArticle(){
     if(!state.articles.some(article => article.id === articleId)){
       await loadArticles(true);
       ctx.refresh();
-    }
-
-    /* A tap may outlive the static per-article endpoint. Once a feed build
-       newer than the tap has completed and still does not contain that ID,
-       the destination is conclusively gone. Consume the route instead of
-       polling forever and blocking a later notification. */
-    if(!state.articles.some(article => article.id === articleId) &&
-       feedCompletedAfterNotification()){
-      await expireNotificationArticle(articleId);
-      announce("That notified story is no longer available.", "warn");
-      return;
     }
 
     const article = state.articles.find(item => item.id === articleId);
@@ -342,7 +316,7 @@ function listenForNotificationClicks(){
     const articleId = String(event.data.articleId || "");
     if(!articleId) return;
     pendingNotificationArticle = articleId;
-    pendingNotificationClickedAt = String(event.data.clickedAt || "");
+    pendingNotificationSentAt = String(event.data.sentAt || event.data.clickedAt || "");
     void openPendingNotificationArticle();
   });
   navigator.serviceWorker.addEventListener("controllerchange", () => {

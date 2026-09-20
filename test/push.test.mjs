@@ -22,6 +22,11 @@ test('legacy data-only messages still display',async()=>{
  const r=await push({data:{articleId:'inq-abc',title:'Old format'}});
  assert.equal(r.displays[0][1].body,'Old format');
 });
+test('messages already older than one fetch cycle are not displayed',async()=>{
+ const old = new Date(Date.now() - 31 * 60 * 1000).toISOString();
+ const r=await push({data:{articleId:'inq-old',title:'Expired',sentAt:old}});
+ assert.equal(r.displays.length,0);
+});
 test('display rejection remains observable by the push event',async()=>{
  await assert.rejects(push({data:{articleId:'inq-abc'}},true),/permission revoked/);
 });

@@ -190,12 +190,13 @@ and the alert's original send time in `wire-notification-route-v1`.
 ./?article={articleId}
 ```
 
-The worker does not ask a frozen background page to navigate. It focuses an
-existing Wire window, or opens the app's start URL when none exists. The route
-cache is deliberately preserved across shell-cache upgrades. After Wire is
-visible, `app.js` reads the route on startup, focus, `pageshow`, visibility
-return, or its visible-only heartbeat; it opens that exact article and then
-deletes the record. A later notification replaces an older pending route.
+The worker saves the route, broadcasts the ID, and uses the browser-owned
+article launch route proven in 0.17.8. It then focuses/navigates the returned
+client and repeats the ID broadcast while iOS resumes the app. The route cache
+is preserved across shell-cache upgrades. `app.js` reads it on startup, focus,
+`pageshow`, visibility return, or its one-second heartbeat; it opens that exact
+article and then deletes the record. A later notification replaces an older
+pending route.
 
 The page first requests `articles/{articleId}.json` and verifies that the ID in
 the response exactly matches the notification. It then selects the article's
@@ -208,7 +209,7 @@ user taps after that deadline, Wire deletes the route, cancels its retry, shows
 current headlines, and announces that the notification expired. An expired
 route therefore cannot poll forever or delay a newer notification. The same
 expiration rule applies to cold launch and background resume.
-The visible-only heartbeat is the final fallback if iOS restores the app
+The heartbeat is the final fallback if iOS restores the app
 without emitting a reliable lifecycle event.
 
 The service worker rejects click destinations outside its own GitHub Pages
