@@ -6,22 +6,23 @@ Everything outstanding, worst first. Nothing here is breaking the app.
 
 ## Known and unfixed
 
-### Inquirer News reads through the doorway; other refusals may not
+### All three Inquirer feeds read through the doorway
 
-`newsinfo.inquirer.net` is routed through Cloudflare because GitHub's
-servers are refused. If another outlet starts returning 403, add its host to
-two places — `THROUGH_THE_DOOR` in `net.mjs` and `ALLOWED` in `worker.js`.
-Both, or it will not route.
+The three configured Inquirer feed hosts and their supported article subdomains
+are routed through Cloudflare because GitHub's servers are frequently refused.
+If another outlet starts returning 403, add its host to two places —
+`THROUGH_THE_DOOR` in `net.mjs` and `ALLOWED` in the deployed Worker. Both, or
+it will not route.
 
-For Inquirer News the doorway intentionally handles both the RSS feed and
-the article pages. A direct-feed-first experiment returned headlines but
-left new stories without full article bodies, so Wire 0.17.11 restored the
-previous end-to-end doorway path.
+For all three Inquirer sources the doorway intentionally handles both the RSS
+feed and supported article pages. Wire 0.17.20 restores the proven routing that
+was narrowed in 0.17.15 and fixes an initialization defect that discarded
+otherwise successful full-page extractions.
 
-A direct request remains the Inquirer News freshness and failure fallback.
-When it contains a newer item, or the doorway feed is unavailable, Wire uses
-the direct feed to discover current article URLs. The main Inquirer and Global
-Nation sources use their original direct routes and never use the doorway.
+A direct request remains the freshness and failure fallback for each Inquirer
+feed. When it contains a newer item, or the doorway feed is unavailable, Wire
+uses the direct feed to discover current article URLs. Supported article pages
+remain doorway-first, with a direct request as their fallback.
 
 Every summary-only record is attempted once in the same recovery pass,
 including retained records whose feed is temporarily unavailable. ABS-CBN is

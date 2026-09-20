@@ -1,6 +1,7 @@
 # Turning on the doorway
 
-Ten minutes. Makes Inquirer News read in full instead of headline-only.
+Ten minutes. Makes all three Inquirer feeds read in full instead of
+headline-only.
 
 Everything is already built and uploaded. What remains is one shared
 password, written in two places so the two ends recognise each other.
@@ -14,8 +15,8 @@ password, written in two places so the two ends recognise each other.
 | Fetch request | `GET {WIRE_DOOR_URL}/fetch?url={percent-encoded-article-url}` |
 | Authentication | Request header `x-wire-key`, value from GitHub secret `WIRE_KEY` |
 | Worker secret | Cloudflare encrypted secret named `WIRE_KEY`; must match GitHub exactly |
-| Routed host | `newsinfo.inquirer.net` |
-| Worker upstream allowlist | Must contain that exact host |
+| Routed hosts | The nine Inquirer hosts listed below |
+| Worker upstream allowlist | Must contain those same exact hosts |
 | Success body | Upstream article HTML as text |
 | Success metadata | `content-type`, `x-wire-final-url`, and `x-wire-status` response headers |
 | Auth failure | HTTP `401` |
@@ -31,13 +32,18 @@ The doorway returns source HTML only to the GitHub fetcher. The browser never
 calls it. `extract.mjs` still converts the response into the small plain-text
 block types accepted by the app.
 
-Only Inquirer News uses the doorway. The fetcher compares its direct feed with
-the doorway feed and uses the direct feed whenever the doorway is unavailable
-or older. For each `newsinfo.inquirer.net` article, Wire first accepts complete
-text carried by the feed, then tries the direct article page, then the doorway.
-If neither page route yields a better copy, it keeps the best feed text or
-summary already available. Main Inquirer and Global Nation retain their
-original direct feed and article routes.
+All three Inquirer feeds use the doorway as their primary route. The fetcher
+also compares each direct feed and uses it for discovery whenever it is newer
+or the doorway feed is unavailable. For supported Inquirer article hosts, Wire
+first accepts complete text carried by the feed, then tries the doorway, then
+the direct article page. If neither page route yields a better copy, it keeps
+the best feed text or summary already available.
+
+The routed host contract is `newsinfo.inquirer.net`, `www.inquirer.net`,
+`globalnation.inquirer.net`, `business.inquirer.net`, `sports.inquirer.net`,
+`entertainment.inquirer.net`, `technology.inquirer.net`,
+`lifestyle.inquirer.net`, and `cebudailynews.inquirer.net`. The Worker's
+`ALLOWED` list must contain the same hosts.
 
 Manila Bulletin is deliberately not routed through the doorway. Although the
 deployed Worker's allowlist may contain `mb.com.ph`, an allowlist entry only

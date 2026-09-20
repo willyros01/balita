@@ -85,7 +85,15 @@ const DOOR_URL = process.env.WIRE_DOOR_URL || "";
 const DOOR_KEY = process.env.WIRE_KEY || "";
 
 const THROUGH_THE_DOOR = new Set([
-  "newsinfo.inquirer.net"
+  "newsinfo.inquirer.net",
+  "www.inquirer.net",
+  "globalnation.inquirer.net",
+  "business.inquirer.net",
+  "sports.inquirer.net",
+  "entertainment.inquirer.net",
+  "technology.inquirer.net",
+  "lifestyle.inquirer.net",
+  "cebudailynews.inquirer.net"
 ]);
 
 export function doorwayReady(){

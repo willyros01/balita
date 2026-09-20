@@ -18,7 +18,7 @@ import { fromHtml, fromFeedContent, looksCut, EXTRACTOR_VERSION } from "./extrac
 import { discover, looksLikeFeed } from "./discover.mjs";
 import { isWithinArticleRetention } from "./retention.mjs";
 
-const VERSION = "0.17.19";
+const VERSION = "0.17.20";
 
 const SOURCES_FILE  = "sources.json";
 const ARTICLES_FILE = "articles.json";
@@ -33,6 +33,7 @@ const FEED_PARALLEL  = 5;
 const PAGE_PARALLEL  = 10;  /* pacing is per host, so this is fine */
 const PAGE_TIMEOUT   = 8000;  /* a page silent this long will not answer */
 const PAGE_RETRIES   = 1;   /* one second chance; cheap now that pages are quick */
+const INQUIRER_SOURCE_IDS = new Set(["inq", "inqn", "inqg"]);
 
 /* ---------------- feed parsing ---------------- */
 
@@ -357,21 +358,20 @@ async function readSource(source){
   let usedFreshnessFallback = false;
 
   try{
-    /* net.mjs routes configured refused hosts through the doorway. For
-       Inquirer News this deliberately applies to the feed as well as each
-       article page, so the feed and full story use one proven path. */
+    /* net.mjs routes configured refused hosts through the doorway. For all
+       three Inquirer sources this deliberately applies to the feed as well as
+       each supported article host, restoring their proven full-text path. */
     res = await get(feedUrl, { accept: "application/rss+xml, application/xml, text/xml, */*" });
   }catch(err){
     res = null;
     firstError = err && err.message ? err.message : "no response";
   }
 
-  /* Cloudflare is the primary route for Inquirer News, including its feed.
-     Probe the public feed only as a freshness check: if it contains a newer
-     item (or the doorway feed failed), use it for discovery. readArticle()
-     still opens newsinfo article URLs through the doorway, so choosing the
-     fresher index never downgrades stories to headline-only by design. */
-  if(source.id === "inqn" && needsDoorway(feedUrl)){
+  /* Cloudflare is the primary route for all three Inquirer feeds. Probe each
+     public feed as a freshness and failure fallback: a newer direct index may
+     discover current URLs, while supported article hosts still use the
+     doorway-first full-text route below. */
+  if(INQUIRER_SOURCE_IDS.has(source.id) && needsDoorway(feedUrl)){
     try{
       const direct = await get(feedUrl, {
         accept: "application/rss+xml, application/xml, text/xml, */*",
@@ -550,17 +550,18 @@ async function readArticle(item, source, recovery = false){
 
   /* The article fallback ladder is deliberately explicit:
        1. complete text embedded in the feed (handled above),
-       2. the publisher's direct article page,
-       3. the configured doorway for this exact host,
+       2. the configured doorway for supported Inquirer hosts,
+       3. the publisher's direct article page,
        4. the best feed text or summary already in hand.
 
      Direct and doorway circuits are independent. Two 403 responses open one
      route for the rest of this run, but the other route still gets its chance.
      No unverified mobile, AMP, cache or API address is invented here. */
+  const feedWords = inline ? inline.words : 0;
   const routes = needsDoorway(item.link)
     ? [
-        { name: "direct", options: { ...pageOptions, noDoor: true } },
-        { name: "doorway", options: { ...pageOptions, forceDoor: true } }
+        { name: "doorway", options: { ...pageOptions, forceDoor: true } },
+        { name: "direct", options: { ...pageOptions, noDoor: true } }
       ]
     : [{ name: "direct", options: pageOptions }];
 
@@ -585,7 +586,7 @@ async function readArticle(item, source, recovery = false){
           out = extracted;
         }
         /* A complete result at least as substantial as the feed is enough.
-           A short or visibly cut direct page still allows the doorway route
+           A short or visibly cut doorway page still allows the direct route
            to try for a better copy. */
         if(!extracted.truncated && extracted.words >= feedWords) break;
         pageError = route.name + " returned incomplete article text";
@@ -600,7 +601,6 @@ async function readArticle(item, source, recovery = false){
   /* Both versions in hand, keep whichever is more complete. A page
      that was blocked or timed out leaves the feed copy standing. */
   const pageWords = out ? out.words : 0;
-  const feedWords = inline ? inline.words : 0;
 
   if(page && out && out.blocks.length && pageWords >= feedWords){
     return {

@@ -8,7 +8,7 @@ one tap away, never buried in a menu.
 
 ## Version
 
-**0.17.19**
+**0.17.20**
 
 - Optional breaking-news notifications, switched on separately on each
   device and backed by Firebase Cloud Messaging.
@@ -35,16 +35,17 @@ one tap away, never buried in a menu.
 - Background-resume routing no longer depends on iOS emitting a lifecycle
   event. The worker broadcasts before and after foregrounding every Wire
   window, while the page consumes the durable route on a one-second heartbeat.
-- Only Inquirer News uses the Cloudflare doorway. Its direct feed is the
-  fallback whenever the doorway feed is unavailable or older. The main
-  Inquirer and Global Nation feeds and article pages use their original direct
-  routes.
+- All three Inquirer feeds use the Cloudflare doorway as their primary route.
+  Each direct feed is checked for freshness and becomes the discovery fallback
+  when the doorway is unavailable or older. Supported Inquirer article hosts
+  use the doorway first and retain a direct-page fallback.
 - Every retained headline-only record is queued for one paced recovery attempt
   in the same workflow pass. ABS-CBN is the sole exception because its pages
   have no server-rendered article body.
-- Article recovery follows one bounded ladder: complete feed text, the direct
-  article page, the configured doorway, then the best feed text or summary
-  already saved. No speculative mobile, cache, AMP, or API URL is invented.
+- Article recovery follows one bounded ladder: complete feed text, the
+  configured doorway for supported Inquirer hosts, the direct article page,
+  then the best feed text or summary already saved. No speculative mobile,
+  cache, AMP, or API URL is invented.
 - Direct and doorway requests have separate circuit breakers. Two HTTP 403
   responses stop that route for the remainder of the run while still allowing
   the other route to recover the article. A successful response resets it.
