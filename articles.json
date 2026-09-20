@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-09-20T22:43:16.925Z",
+  "updated": "2026-09-20T22:49:59.910Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-ylcg9y",
+      "source": "inqn",
+      "title": "CHR asked to probe alleged harassment of KMP leader",
+      "summary": "MANILA, Philippines — Peasant network Tanggol Magsasaka has asked the Commission on Human Rights (CHR) to investigate alleged harassment and surveillance activities that targeted Kilusang Magbubukid…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-09-20T22:49:45.624Z",
+      "firstSeen": "2026-09-20T20:43:16.804Z",
+      "url": "https://newsinfo.inquirer.net/2308563/chr-asked-to-probe-alleged-harassment-of-kmp-leader",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Commission-on-Human-Rights-CHR-logo-filephoto-091522-e1721724282213.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Peasant network Tanggol Magsasaka has asked the Commission on Human Rights (CHR) to investigate alleged harassment and surveillance activities that targeted Kilusang Magbubukid ng Pilipinas (KMP) chair Danilo Ramos last week in Malolos, Bulacan. According to a complaint filed by the group with the CHR on Friday, six men in civilian clothes"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1hc03vf",
       "source": "inqn",
       "title": "Biodiversity plan seeks to revive Ifugao Rice Terraces",
       "summary": "BAGUIO CITY, Philippines — The centuries-old Ifugao Rice Terraces, inscribed as a World Heritage Site in 1995, are confronting biodiversity losses as more Ifugao youth abandon the mountain-carved…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-20T22:43:02.562Z",
+      "published": "2026-09-20T22:49:45.624Z",
       "firstSeen": "2026-09-20T20:43:16.804Z",
       "url": "https://newsinfo.inquirer.net/2308534/biodiversity-plan-seeks-to-revive-ifugao-rice-terraces",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "SAN FRANCISCO, AGUSAN DEL SUR, Philippines — The prolonged El Niño phenomenon has affected more than 35,000 hectares of rice lands in this province, leaving about 21,600 farmers unable to plant at…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-20T22:43:02.562Z",
+      "published": "2026-09-20T22:49:45.624Z",
       "firstSeen": "2026-09-20T20:31:04.481Z",
       "url": "https://newsinfo.inquirer.net/2308535/el-nino-disrupts-rice-planting-water-supply-in-agusan-del-sur",
       "image": {
@@ -103,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-ylcg9y",
-      "source": "inqn",
-      "title": "CHR asked to probe alleged harassment of KMP leader",
-      "summary": "MANILA, Philippines — Peasant network Tanggol Magsasaka has asked the Commission on Human Rights (CHR) to investigate alleged harassment and surveillance activities that targeted Kilusang Magbubukid…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-09-20T22:43:02.561Z",
-      "firstSeen": "2026-09-20T20:43:16.804Z",
-      "url": "https://newsinfo.inquirer.net/2308563/chr-asked-to-probe-alleged-harassment-of-kmp-leader",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Commission-on-Human-Rights-CHR-logo-filephoto-091522-e1721724282213.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Peasant network Tanggol Magsasaka has asked the Commission on Human Rights (CHR) to investigate alleged harassment and surveillance activities that targeted Kilusang Magbubukid ng Pilipinas (KMP) chair Danilo Ramos last week in Malolos, Bulacan. According to a complaint filed by the group with the CHR on Friday, six men in civilian clothes"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-zfpagg",
       "source": "inqn",
       "title": "LTFRB seeks Comelec exemption from ban on subsidy programs",
       "summary": "MANILA, Philippines — The Land Transportation Franchising and Regulatory Board (LTFRB) has asked the Commission on Elections (Comelec) to exempt from the government spending ban some of its programs,…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-20T22:43:02.518Z",
+      "published": "2026-09-20T22:49:45.504Z",
       "firstSeen": "2026-09-20T21:01:00.361Z",
       "url": "https://newsinfo.inquirer.net/2308567/ltfrb-seeks-comelec-exemption-from-ban-on-subsidy-programs",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "MANILA, Philippines — With the death toll at 77 and eight people still missing, the Philippine National Police on Sunday said it supports the creation of a proposed interagency task force to…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-20T22:43:00.808Z",
+      "published": "2026-09-20T22:49:43.971Z",
       "firstSeen": "2026-09-20T21:01:00.318Z",
       "url": "https://newsinfo.inquirer.net/2308568/pnp-backs-task-force-to-probe-palawan-ferry-fire",
       "image": {
@@ -178,38 +178,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-162xesv",
-      "source": "inqn",
-      "title": "Palace to DOH: Fast-track medical aid for indigents",
-      "summary": "MANILA, Philippines — Malacañang has ordered the Department of Health (DOH) to fast-track the processing of legitimate claims under its Medical Assistance to Indigent and Financially Incapacitated…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-09-20T22:43:00.742Z",
-      "firstSeen": "2026-09-20T21:38:29.398Z",
-      "url": "https://newsinfo.inquirer.net/2308564/palace-to-doh-fast-track-medical-aid-for-indigents",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/1296450.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Malacañang has ordered the Department of Health (DOH) to fast-track the processing of legitimate claims under its Medical Assistance to Indigent and Financially Incapacitated Patients (Maifip) program, following complaints of delays that have left some patients waiting months for financial support. Executive Secretary Ralph Recto directed DOH regional directors and participating hospitals"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1m3iu9",
       "source": "inqn",
       "title": "To check school violence: Lawmaker wants franchises for social media",
       "summary": "MANILA, Philippines — The deadly school shooting in Banga, South Cotabato, has prompted a congressman to push for a measure requiring social media platforms to secure congressional franchises before…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-20T22:42:58.946Z",
+      "published": "2026-09-20T22:49:43.761Z",
       "firstSeen": "2026-09-20T21:38:29.398Z",
       "url": "https://newsinfo.inquirer.net/2308562/to-check-school-violence-lawmaker-wants-franchises-for-social-media",
       "image": {
@@ -228,13 +203,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-162xesv",
+      "source": "inqn",
+      "title": "Palace to DOH: Fast-track medical aid for indigents",
+      "summary": "MANILA, Philippines — Malacañang has ordered the Department of Health (DOH) to fast-track the processing of legitimate claims under its Medical Assistance to Indigent and Financially Incapacitated…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-09-20T22:49:43.761Z",
+      "firstSeen": "2026-09-20T21:38:29.398Z",
+      "url": "https://newsinfo.inquirer.net/2308564/palace-to-doh-fast-track-medical-aid-for-indigents",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/1296450.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Malacañang has ordered the Department of Health (DOH) to fast-track the processing of legitimate claims under its Medical Assistance to Indigent and Financially Incapacitated Patients (Maifip) program, following complaints of delays that have left some patients waiting months for financial support. Executive Secretary Ralph Recto directed DOH regional directors and participating hospitals"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1wpzjpy",
       "source": "inqn",
       "title": "Ex-PDLs depict prison conditions through UP Law Center mural",
       "summary": "MANILA, Philippines — A group of former inmates or persons deprived of liberty (PDLs) is hoping to inform the public about the conditions in the country’s prisons through their mural at the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-20T22:42:57.142Z",
+      "published": "2026-09-20T22:49:43.706Z",
       "firstSeen": "2026-09-20T22:01:06.023Z",
       "url": "https://newsinfo.inquirer.net/2308579/ex-pdls-depict-prison-conditions-through-up-law-center-mural",
       "image": {
@@ -259,7 +259,7 @@
       "summary": "MANILA, Philippines — The scope of the bills seeking a ban on dynasties in public office must be extended to up to the fourth civil degree of familial and spousal relations, according to the Supreme…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-20T22:42:53.623Z",
+      "published": "2026-09-20T22:49:40.167Z",
       "firstSeen": "2026-09-20T22:01:02.686Z",
       "url": "https://newsinfo.inquirer.net/2308576/sc-ban-on-dynasties-must-be-up-to-4th-degree",
       "image": {
@@ -284,7 +284,7 @@
       "summary": "HAGONOY, BULACAN, Philippines — Church groups and residents in this flood-prone town took to the streets to question the national government’s ability to solve the perennial flooding problem amid the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-20T22:42:49.917Z",
+      "published": "2026-09-20T22:49:36.689Z",
       "firstSeen": "2026-09-20T22:01:02.124Z",
       "url": "https://newsinfo.inquirer.net/2308569/hagonoy-folk-stage-protest-anew-over-lack-of-flood-solution",
       "image": {
@@ -309,7 +309,7 @@
       "summary": "MANILA, Philippines — A low pressure area (LPA), which may enter the Philippine area of responsibility by Tuesday or Wednesday, is forecast to develop into a tropical depression by Thursday or…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-09-20T22:42:49.916Z",
+      "published": "2026-09-20T22:49:32.904Z",
       "firstSeen": "2026-09-20T22:30:59.355Z",
       "url": "https://newsinfo.inquirer.net/2308638/lpa-may-become-tropical-depression-by-thursday-or-friday",
       "image": {
@@ -325,7 +325,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqn-1jgz0qj",
@@ -334,7 +334,7 @@
       "summary": "MANILA, Philippines — More than 17,000 police officers were deployed since Saturday night for the 54th commemoration of martial law on Monday, as multisectoral groups plan to march on the streets to…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-20T22:42:49.916Z",
+      "published": "2026-09-20T22:49:32.904Z",
       "firstSeen": "2026-09-20T22:01:02.082Z",
       "url": "https://newsinfo.inquirer.net/2308558/pnp-on-alert-as-protests-commemorate-martial-law",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "MANILA, Philippines — The Philippines is standing by its One China policy, but will also keep pursuing economic and cultural cooperation with Taiwan, the Department of Foreign Affairs (DFA) said on…",
       "byline": "cbuban",
       "section": "Asia & Pacific",
-      "published": "2026-09-20T22:42:49.916Z",
+      "published": "2026-09-20T22:49:32.904Z",
       "firstSeen": "2026-09-20T21:01:00.318Z",
       "url": "https://globalnation.inquirer.net/338824/dfa-ph-to-maintain-one-china-policy-ties-with-taiwan",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "MANILA, Philippines — Association of Southeast Asian Nations (Asean) members have agreed to provisionally implement an updated regional trade agreement ahead of its formal entry into force next year,…",
       "byline": "cbuban",
       "section": "Asia & Pacific",
-      "published": "2026-09-20T22:42:49.916Z",
+      "published": "2026-09-20T22:49:32.904Z",
       "firstSeen": "2026-09-20T21:01:00.361Z",
       "url": "https://globalnation.inquirer.net/338822/asean-takes-steps-to-protect-trade-amid-middle-east-crisis",
       "image": {
@@ -395,6 +395,56 @@
         {
           "type": "p",
           "text": "MANILA, Philippines — Association of Southeast Asian Nations (Asean) members have agreed to provisionally implement an updated regional trade agreement ahead of its formal entry into force next year, a move aimed at deepening trade within the region amid disruptions from the continuing Middle East crisis. The agreement allows member states to apply the Second"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1hyxhb3",
+      "source": "inqn",
+      "title": "Thunderstorms to bring heavy rain, strong winds to Metro Manila, Luzon",
+      "summary": "MANILA, Philippines — Moderate to heavy rainshowers with lightning and strong winds are expected over parts of Metro Manila and other areas in Luzon on Monday morning, according to the state weather…",
+      "byline": "postie",
+      "section": "Latest News Stories",
+      "published": "2026-09-20T22:49:32.904Z",
+      "firstSeen": "2026-09-20T22:49:32.904Z",
+      "url": "https://newsinfo.inquirer.net/2308643/thunderstorms-to-bring-heavy-rain-strong-winds-to-metro-manila-luzon",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2024/07/staydrybyrobertalfiler07232024jpg-scaled.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Moderate to heavy rainshowers with lightning and strong winds are expected over parts of Metro Manila and other areas in Luzon on Monday morning, according to the state weather bureau. READ: Pagasa: Bukidnon haze linked to local weather, temperature drop In the thunderstorm advisory of the Philippine Atmospheric, Geophysical, and Astronomical Services"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-lzvkpd",
+      "source": "inq",
+      "title": "Thunderstorms to bring heavy rain, strong winds to Metro Manila, Luzon",
+      "summary": "MANILA, Philippines — Moderate to heavy rainshowers with lightning and strong winds are expected over parts of Metro Manila and other areas in Luzon on Monday morning, according to the state weather…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-20T22:44:00.000Z",
+      "firstSeen": "2026-09-20T22:49:32.904Z",
+      "url": "https://newsinfo.inquirer.net/2308643/thunderstorms-to-bring-heavy-rain-strong-winds-to-metro-manila-luzon",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2024/07/staydrybyrobertalfiler07232024jpg-620x412.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Moderate to heavy rainshowers with lightning and strong winds are expected over parts of Metro Manila and other areas in Luzon on Monday morning, according to the state weather bureau. READ: Pagasa: Bukidnon haze linked to local weather, temperature drop In the thunderstorm advisory of the Philippine Atmospheric, Geophysical, and Astronomical Services Administration (Pagasa) issued at 5:49 a.m., the following areas will experience the said weather conditions: Metro Manila Pampanga Bulacan Cavite Laguna Quezon Zambales READ: Hagonoy folk stage protest anew over lack of flood solution Pagasa said that the weather conditions will persist within the next two [&hellip;]... Keep on reading: Thunderstorms to bring heavy rain, strong winds to Metro Manila, Luzon"
         }
       ],
       "truncated": true,
@@ -571,7 +621,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-1ajtlkj",
@@ -901,7 +951,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-3w49x1",
@@ -2263,31 +2313,6 @@
         {
           "type": "p",
           "text": "MANILA, Philippines — Peasant network Tanggol Magsasaka has asked the Commission on Human Rights (CHR) to investigate alleged harassment and surveillance activities that targeted Kilusang Magbubukid ng Pilipinas (KMP) chair Danilo Ramos last week in Malolos, Bulacan. According to a complaint filed by the group with the CHR on Friday, six men in civilian clothes [&hellip;]... Keep on reading: CHR asked to probe alleged harassment of KMP leader"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-1vfd1hx",
-      "source": "inq",
-      "title": "Biodiversity plan seeks to revive Ifugao Rice Terraces",
-      "summary": "BAGUIO CITY, Philippines — The centuries-old Ifugao Rice Terraces, inscribed as a World Heritage Site in 1995, are confronting biodiversity losses as more Ifugao youth abandon the mountain-carved…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-20T20:35:00.000Z",
-      "firstSeen": "2026-09-20T20:43:16.803Z",
-      "url": "https://newsinfo.inquirer.net/2308534/biodiversity-plan-seeks-to-revive-ifugao-rice-terraces",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Rice-Terraces-21September2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BAGUIO CITY, Philippines — The centuries-old Ifugao Rice Terraces, inscribed as a World Heritage Site in 1995, are confronting biodiversity losses as more Ifugao youth abandon the mountain-carved rice farms amid the continuing decline in the economic viability of traditional farming. A proposal to integrate biodiversity conservation into the economic plans of Ifugao ancestral domains [&hellip;]... Keep on reading: Biodiversity plan seeks to revive Ifugao Rice Terraces"
         }
       ],
       "truncated": true,
@@ -6183,31 +6208,6 @@
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages",
       "firstSeen": "2026-09-20T14:11:21.000Z"
-    },
-    {
-      "id": "inqn-1cscm6h",
-      "source": "inqn",
-      "title": "DSWD chief visits Banga to check on school shooting victims",
-      "summary": "BANGA, South Cotabato — Social Welfare Secretary Rex Gatchalian arrived here Sunday to check on victims and families affected by the deadly shooting at Banga National High School (BNHS). Gatchalian,…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-09-20T14:09:59.000Z",
-      "firstSeen": "2026-09-20T14:09:59.000Z",
-      "url": "https://newsinfo.inquirer.net/2308293/dswd-chief-visits-banga-to-check-on-school-shooting-victims",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/DSWD-chief-visits-Banga-as-psychosocial-support-readied-for-school-shooting-incident--scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BANGA, South Cotabato — Social Welfare Secretary Rex Gatchalian arrived here Sunday to check on victims and families affected by the deadly shooting at Banga National High School (BNHS). Gatchalian, who arrived shortly after 11 a.m., visited the victims, their parents and teachers affected by the Sept. 18 shooting. READ: Campus shooter ‘planned attack, warned"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-50z5u6",
