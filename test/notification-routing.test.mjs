@@ -115,11 +115,10 @@ test("the page recovers routes on startup and every iOS resume signal", () => {
   assert.match(appSource, /prepareNotificationReturn\(article\)/);
   assert.match(appSource, /window\.setInterval\(async \(\) =>/);
   assert.match(appSource, /notificationHeartbeatBusy/);
-  assert.match(appSource, /NOTIFICATION_ROUTE_MAX_AGE_MS = 30 \\* 60 \\* 1000/);
-  assert.match(appSource, /Date\\.now\\(\\) - clickedAt > NOTIFICATION_ROUTE_MAX_AGE_MS/);
+  assert.match(appSource, /feedUpdatedAt > clickedAt/);
   assert.match(appSource, /return \{ articleId, clickedAt, cache, request \}/);
   assert.match(appSource, /await expireNotificationArticle\(articleId\)/);
-  assert.doesNotMatch(appSource, /feedUpdatedAt > clickedAt/);
+  assert.match(appSource, /That notified story is no longer available/);
   assert.match(workerSource, /const existing = await broadcast\(\)/);
   assert.match(workerSource, /await broadcast\(\)/);
   assert.match(feedSource, /li\.dataset\.articleId = a\.id/);

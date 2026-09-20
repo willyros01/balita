@@ -145,7 +145,7 @@ let lastNotificationArticle = "";
 let notificationArticleOpening = false;
 let notificationRetryTimer = 0;
 let notificationHeartbeatBusy = false;
-const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";\nconst NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
+const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
 
 /* Capture the launch URL before startup does any asynchronous work. iOS can
    discard it while restoring an installed app's previous navigation state. */
@@ -238,10 +238,11 @@ async function clearNotificationArticle(articleId){
   }
 }
 
-function notificationRouteExpired(){
+function feedCompletedAfterNotification(){
   const clickedAt = Date.parse(pendingNotificationClickedAt || "");
-  return Number.isFinite(clickedAt) &&
-    Date.now() - clickedAt > NOTIFICATION_ROUTE_MAX_AGE_MS;
+  const feedUpdatedAt = Date.parse(state.updated || "");
+  return Number.isFinite(clickedAt) && Number.isFinite(feedUpdatedAt) &&
+    feedUpdatedAt > clickedAt;
 }
 
 async function expireNotificationArticle(articleId){
@@ -258,11 +259,6 @@ async function openPendingNotificationArticle(){
   const articleId = pendingNotificationArticle;
   if(!notificationClicksReady || !articleId || notificationArticleOpening) return;
 
-  if(notificationRouteExpired()){
-    await expireNotificationArticle(articleId);
-    return;
-  }
-
   if(articleId === lastNotificationArticle){
     await expireNotificationArticle(articleId);
     return;
@@ -276,6 +272,17 @@ async function openPendingNotificationArticle(){
     if(!state.articles.some(article => article.id === articleId)){
       await loadArticles(true);
       ctx.refresh();
+    }
+
+    /* A tap may outlive the static per-article endpoint. Once a feed build
+       newer than the tap has completed and still does not contain that ID,
+       the destination is conclusively gone. Consume the route instead of
+       polling forever and blocking a later notification. */
+    if(!state.articles.some(article => article.id === articleId) &&
+       feedCompletedAfterNotification()){
+      await expireNotificationArticle(articleId);
+      announce("That notified story is no longer available.", "warn");
+      return;
     }
 
     const article = state.articles.find(item => item.id === articleId);
