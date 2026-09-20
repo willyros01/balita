@@ -169,6 +169,7 @@ test("all three Inquirer feeds use doorway-first freshness routing", async () =>
     fetcherSource.indexOf('name: "direct"'));
   assert.ok(fetcherSource.indexOf("const feedWords") <
     fetcherSource.indexOf("extracted.words >= feedWords"));
+  assert.match(fetcherSource, /routeErrors\.join\("; "\)/);
   assert.match(netSource,
     /await pace\(url\);[\s\S]*?hostCircuit\.isOpen\(url, viaDoor\)/);
 });

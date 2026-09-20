@@ -539,6 +539,7 @@ async function readArticle(item, source, recovery = false){
      fetching every one. Removed: the plain request works better. */
 
   let page = null, out = null, pageError = "";
+  const routeErrors = [];
   const pageOptions = {
     accept: "text/html,application/xhtml+xml",
     timeout: PAGE_TIMEOUT,
@@ -569,11 +570,11 @@ async function readArticle(item, source, recovery = false){
     try{
       const candidate = await get(item.link, route.options);
       if(candidate.circuitOpen && !candidate.body){
-        pageError = route.name + " circuit open after repeated HTTP 403";
+        routeErrors.push(route.name + " circuit open after repeated HTTP 403");
         continue;
       }
       if(candidate.status >= 400){
-        pageError = route.name + " HTTP " + candidate.status;
+        routeErrors.push(route.name + " HTTP " + candidate.status);
         continue;
       }
 
@@ -589,14 +590,16 @@ async function readArticle(item, source, recovery = false){
            A short or visibly cut doorway page still allows the direct route
            to try for a better copy. */
         if(!extracted.truncated && extracted.words >= feedWords) break;
-        pageError = route.name + " returned incomplete article text";
+        routeErrors.push(route.name + " returned incomplete article text");
         continue;
       }
-      pageError = route.name + " returned no extractable article text";
+      routeErrors.push(route.name + " returned no extractable article text");
     }catch(err){
-      pageError = route.name + " " + ((err && err.message) || "no response");
+      routeErrors.push(route.name + " " + ((err && err.message) || "no response"));
     }
   }
+
+  pageError = routeErrors.join("; ");
 
   /* Both versions in hand, keep whichever is more complete. A page
      that was blocked or timed out leaves the feed copy standing. */
