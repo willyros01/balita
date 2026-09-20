@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.28";
+const VERSION = "wire-v0.17.29";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -168,9 +168,6 @@ self.addEventListener("notificationclick", event => {
   }
 
   event.waitUntil((async () => {
-    /* A backgrounded iOS Home Screen app can be frozen while postMessage is
-       delivered. Persist the destination before waking it; the page removes
-       this record only after it has opened the matching story. */
     const routeSentAt = Number.isFinite(sentAtMs) ? sentAt : new Date().toISOString();
     if(articleId){
       const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
@@ -182,51 +179,34 @@ self.addEventListener("notificationclick", event => {
       }));
     }
 
-    const wireWindows = () => self.clients.matchAll({
+    const windows = await self.clients.matchAll({
       type: "window",
       includeUncontrolled: true
-    }).then(clients => clients.filter(client =>
+    });
+    let opened = windows.find(client =>
       client.url.startsWith(self.registration.scope)
-    ));
+    ) || null;
 
-    const broadcast = async () => {
-      if(!articleId) return [];
-      const clients = await wireWindows();
-      clients.forEach(client => client.postMessage({
-        type: "wire-open-article",
-        articleId,
-        sentAt: routeSentAt
-      }));
-      return clients;
-    };
-
-    /* Tell an existing page before asking iOS to foreground it. WebKit can
-       restore a frozen Home Screen window without delivering a later focus,
-       pageshow, visibility or message event. */
-    const existing = await broadcast();
-
-    /* This is the exact browser-owned foreground route proven in 0.17.8.
-       iOS may ignore navigate() on a suspended Home Screen window, while
-       openWindow() forces the notification URL through app activation. */
-    let opened = null;
-    try{ opened = await self.clients.openWindow(target.href); }
-    catch(err){ /* Fall back to the existing client below. */ }
-
-    if(!opened) opened = existing[0] || null;
-
-    if(opened) await opened.focus();
-    if(opened && "navigate" in opened){
-      try{ opened = await opened.navigate(target.href) || opened; }
-      catch(err){ /* Cache polling and broadcasts remain independent paths. */ }
-    }
-    if(opened && articleId){
-      /* Re-query all clients on every attempt. iOS may replace the original
-         WindowClient object while restoring the Home Screen application. */
-      for(const delay of [0, 500, 1000, 1500, 2000]){
-        if(delay) await new Promise(resolve => setTimeout(resolve, delay));
-        await broadcast();
+    if(opened){
+      /* For a backgrounded installed app, preserve its client and only ask
+         iOS to foreground it. The page consumes the durable route after its
+         visibility lifecycle confirms that restoration has completed. */
+      await opened.focus();
+      if(articleId){
+        for(const delay of [0, 250, 500, 1000, 1500]){
+          if(delay) await new Promise(resolve => setTimeout(resolve, delay));
+          opened.postMessage({
+            type: "wire-open-article",
+            articleId,
+            sentAt: routeSentAt
+          });
+        }
       }
+      return opened;
     }
-    return opened;
+
+    /* Cold launch remains browser-owned and retains the exact article URL. */
+    try{ return await self.clients.openWindow(target.href); }
+    catch(err){ return null; }
   })());
 });

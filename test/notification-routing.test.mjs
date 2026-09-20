@@ -60,7 +60,7 @@ function workerHarness({ windows = [], openedClient = null } = {}){
   return { listeners, records, order };
 }
 
-test("a background notification uses the proven 0.17.8 foreground route", async () => {
+test("a background notification waits for the existing app to foreground", async () => {
   const order = [];
   const client = {
     url: "https://example.test/balita/",
@@ -90,11 +90,10 @@ test("a background notification uses the proven 0.17.8 foreground route", async 
   await completion;
 
   assert.equal(order[0], "route-saved");
-  assert.equal(order[1], "message:inq-test");
-  assert.ok(order.includes("open:https://example.test/balita/?article=inq-test"));
-  assert.ok(order.includes("focused"));
-  assert.ok(order.includes("navigate:https://example.test/balita/?article=inq-test"));
-  assert.equal(order.filter(item => item === "message:inq-test").length, 6);
+  assert.equal(order[1], "focused");
+  assert.ok(!order.includes("open:https://example.test/balita/?article=inq-test"));
+  assert.ok(!order.includes("navigate:https://example.test/balita/?article=inq-test"));
+  assert.equal(order.filter(item => item === "message:inq-test").length, 5);
   const saved = [...harness.records.values()].map(JSON.parse)[0];
   assert.equal(saved.articleId, "inq-test");
   assert.equal(saved.sentAt, "2026-09-20T12:00:00.000Z");

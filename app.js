@@ -144,6 +144,7 @@ let pendingNotificationSentAt = "";
 let lastNotificationArticle = "";
 let notificationArticleOpening = false;
 let notificationRetryTimer = 0;
+let notificationForegroundTimer = 0;
 let notificationHeartbeatBusy = false;
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
 
@@ -258,6 +259,9 @@ async function expireNotificationArticle(articleId){
 
 async function openPendingNotificationArticle(){
   const articleId = pendingNotificationArticle;
+  /* Never consume a route while iOS is still restoring a backgrounded app.
+     WebKit can redraw the previous screen after hidden-page JavaScript runs. */
+  if(document.visibilityState !== "visible") return;
   if(!notificationClicksReady || !articleId || notificationArticleOpening) return;
 
   const sentAt = Date.parse(pendingNotificationSentAt || "");
@@ -304,6 +308,18 @@ async function openPendingNotificationArticle(){
   }
 }
 
+function scheduleForegroundNotificationArticle(){
+  if(notificationForegroundTimer) window.clearTimeout(notificationForegroundTimer);
+  notificationForegroundTimer = window.setTimeout(async () => {
+    notificationForegroundTimer = 0;
+    if(document.visibilityState !== "visible") return;
+    /* Let iOS finish restoring its previous page before the notification route
+       becomes authoritative. This prevents WebKit from repainting over it. */
+    await recoverNotificationArticle();
+    await openPendingNotificationArticle();
+  }, 200);
+}
+
 /* Register this listener before startup awaits storage or the feed. A newly
    launched iOS Home Screen app can otherwise miss the service worker's first
    article message. Queue it until the UI is ready, then refresh stale feed data
@@ -317,7 +333,7 @@ function listenForNotificationClicks(){
     if(!articleId) return;
     pendingNotificationArticle = articleId;
     pendingNotificationSentAt = String(event.data.sentAt || event.data.clickedAt || "");
-    void openPendingNotificationArticle();
+    scheduleForegroundNotificationArticle();
   });
   navigator.serviceWorker.addEventListener("controllerchange", () => {
     void recoverNotificationArticle();
@@ -326,10 +342,10 @@ function listenForNotificationClicks(){
 
 listenForNotificationClicks();
 void recoverNotificationArticle();
-window.addEventListener("pageshow", () => { void recoverNotificationArticle(); });
-window.addEventListener("focus", () => { void recoverNotificationArticle(); });
+window.addEventListener("pageshow", scheduleForegroundNotificationArticle);
+window.addEventListener("focus", scheduleForegroundNotificationArticle);
 document.addEventListener("visibilitychange", () => {
-  if(!document.hidden) void recoverNotificationArticle();
+  if(document.visibilityState === "visible") scheduleForegroundNotificationArticle();
 });
 
 /* iOS can resume an installed app at its old screen without emitting any of
@@ -338,7 +354,7 @@ document.addEventListener("visibilitychange", () => {
    on an optional lifecycle signal. Backgrounded pages are frozen or heavily
    throttled by iOS, and the cache is read-only unless a route exists. */
 window.setInterval(async () => {
-  if(notificationHeartbeatBusy) return;
+  if(document.visibilityState !== "visible" || notificationHeartbeatBusy) return;
   notificationHeartbeatBusy = true;
   try{ await recoverNotificationArticle(); }
   finally{ notificationHeartbeatBusy = false; }
