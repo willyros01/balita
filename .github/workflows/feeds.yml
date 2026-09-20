@@ -113,13 +113,17 @@ jobs:
             done
           fi
 
+      - name: Open the one-time immediate test window
+        if: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, '[test-inquirer-alert]') }}
+        run: node -e "const fs=require('fs');const s=JSON.parse(fs.readFileSync('breaking-state.json'));s.sent=[];fs.writeFileSync('breaking-state.json',JSON.stringify(s,null,2)+'\\n')"
+
       - name: Send tightly limited breaking-news alerts
         run: node breaking-notify.mjs
         env:
           GOOGLE_ACCESS_TOKEN: ${{ steps.google-auth.outputs.access_token }}
           # Manual test runs may bypass the marker for one Inquirer story.
           # Scheduled, external, and push runs always remain strict.
-          WIRE_TEST_INQUIRER: ${{ github.event_name == 'workflow_dispatch' && inputs.test_inquirer && '1' || '0' }}
+          WIRE_TEST_INQUIRER: ${{ ((github.event_name == 'workflow_dispatch' && inputs.test_inquirer) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[test-inquirer-alert]'))) && '1' || '0' }}
 
       - name: Commit notification state if changed
         if: ${{ !cancelled() }}
