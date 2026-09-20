@@ -141,30 +141,33 @@ test("notification delivery and routing expire after one fetch cycle", async () 
   assert.match(appSource, /This notification has expired\. Showing current headlines\./);
 });
 
-test("the page recovers routes on startup and every iOS resume signal", () => {
-  assert.match(appSource, /void recoverNotificationArticle\(\);/);
+test("notification routing is serialized after foreground activation", () => {
+  assert.match(appSource, /function wakeNotificationRouteProcessor\(\)/);
+  assert.match(appSource, /async function consumeOneNotificationRoute\(\)/);
+  assert.match(appSource, /notificationRouteProcessing/);
+  assert.match(appSource, /notificationRouteWakeRequested/);
+  assert.match(appSource, /document\.visibilityState === "visible"/);
+  assert.match(appSource, /Opening the notified story…/);
   assert.match(appSource, /addEventListener\("pageshow"/);
   assert.match(appSource, /addEventListener\("focus"/);
   assert.match(appSource, /addEventListener\("visibilitychange"/);
-  assert.match(appSource, /await clearNotificationArticle\(articleId\)/);
+  assert.match(appSource, /await clearNotificationRoute\(route\)/);
   assert.match(appSource, /const requests = await cache\.keys\(\)/);
-  assert.doesNotMatch(appSource, /NOTIFICATION_ROUTE_URL/);
   assert.match(appSource, /await loadArticles\(true\)/);
-  assert.match(appSource, /retryNotificationArticle\(articleId\)/);
-  assert.doesNotMatch(appSource, /That story is no longer in the current feed/);
+  assert.match(appSource, /scheduleNotificationRetry\(\)/);
   assert.match(appSource, /"articles\/" \+ encodeURIComponent\(articleId\)/);
   assert.match(appSource, /prepareNotificationReturn\(article\)/);
-  assert.match(appSource, /window\.setInterval\(async \(\) =>/);
-  assert.match(appSource, /notificationHeartbeatBusy/);
+  assert.match(appSource, /The heartbeat is only another wake signal/);
   assert.match(appSource, /NOTIFICATION_ROUTE_MAX_AGE_MS = 30 \* 60 \* 1000/);
-  assert.doesNotMatch(appSource, /document\.visibilityState === "hidden"/);
   assert.match(appSource, /Date\.now\(\) - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS/);
   assert.match(appSource, /return \{ articleId, sentAt, cache, request \}/);
-  assert.match(appSource, /await expireNotificationArticle\(articleId\)/);
+  assert.doesNotMatch(appSource, /openPendingNotificationArticle/);
+  assert.doesNotMatch(appSource, /recoverNotificationArticle/);
   assert.doesNotMatch(appSource, /feedUpdatedAt > clickedAt/);
   assert.match(workerSource, /self\.clients\.openWindow\(target\.href\)/);
-  assert.match(workerSource, /client\.postMessage\(/);
-  assert.match(workerSource, /for\(const delay of \[0, 500, 1000, 1500, 2000\]\)/);
+  assert.match(workerSource, /opened\.postMessage\(/);
+  assert.match(workerSource, /for\(const delay of \[0, 250, 500, 1000, 1500\]\)/);
+  assert.doesNotMatch(workerSource, /opened\.navigate/);
   assert.match(feedSource, /li\.dataset\.articleId = a\.id/);
   assert.match(readerSource, /returnSource\.name \+ " headlines"/);
   assert.match(fetcherSource, /ARTICLE_DIR \+ "\/" \+ article\.id \+ "\.json"/);

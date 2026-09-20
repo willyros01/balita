@@ -139,34 +139,18 @@ function registerWorker(){
 }
 
 let notificationClicksReady = false;
-let pendingNotificationArticle = "";
-let pendingNotificationSentAt = "";
-let lastNotificationArticle = "";
-let notificationArticleOpening = false;
+let notificationRouteProcessing = false;
+let notificationRouteWakeRequested = false;
 let notificationRetryTimer = 0;
-let notificationForegroundTimer = 0;
-let notificationHeartbeatBusy = false;
+let lastNotificationArticle = "";
+let launchNotificationConsumed = false;
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
-
-/* A notification sitting unconsumed this long no longer reflects what is
-   current. Past this age it is invalidated rather than opened, with a
-   message saying so, rather than silently surfacing something stale
-   whenever the phone next comes to the foreground. A fresh tap already
-   overwrites the one cached route this app keeps, so this only matters
-   when nothing newer ever arrives to take its place. */
 const NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
+const launchNotificationArticle =
+  new URLSearchParams(location.search).get("article") || "";
 
-/* Capture the launch URL before startup does any asynchronous work. iOS can
-   discard it while restoring an installed app's previous navigation state. */
-const launchNotificationArticle = new URLSearchParams(location.search).get("article") || "";
-if(launchNotificationArticle) pendingNotificationArticle = launchNotificationArticle;
-
-function retryNotificationArticle(articleId){
-  if(notificationRetryTimer || pendingNotificationArticle !== articleId) return;
-  notificationRetryTimer = window.setTimeout(() => {
-    notificationRetryTimer = 0;
-    if(pendingNotificationArticle === articleId) void openPendingNotificationArticle();
-  }, 2500);
+function notificationPageIsActive(){
+  return document.visibilityState === "visible";
 }
 
 async function loadNotificationArticle(articleId){
@@ -191,8 +175,6 @@ async function loadNotificationArticle(articleId){
 }
 
 function prepareNotificationReturn(article){
-  /* A notification is an entrance into this publisher's headline grouping,
-     not into whatever All Sources position happened to be open beforehand. */
   state.filter = article.source;
   ctx.show("feed");
   ctx.refresh();
@@ -202,10 +184,9 @@ function prepareNotificationReturn(article){
   if(card) window.scrollTo(0, Math.max(0, card.offsetTop - 16));
 }
 
-/* Read the only record from the dedicated cache instead of reconstructing its
-   URL from location.href. Installed iOS apps can resume at either /balita or
-   /balita/, while the worker always keys it from its canonical scope. */
-async function cachedNotificationArticle(){
+async function cachedNotificationRoute(){
+  if(!("caches" in window)) return null;
+
   const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
   const requests = await cache.keys();
   for(const request of requests){
@@ -219,145 +200,169 @@ async function cachedNotificationArticle(){
   return null;
 }
 
-async function recoverNotificationArticle(){
-  if(!("caches" in window)) return;
+async function clearNotificationRoute(route){
+  if(!route?.cache || !route?.request) return;
 
-  try{
-    const saved = await cachedNotificationArticle();
-    if(!saved) return;
-
-    pendingNotificationArticle = saved.articleId;
-    pendingNotificationSentAt = saved.sentAt || "";
-    await openPendingNotificationArticle();
-  }catch(err){
-    console.warn("Could not recover the notification destination.", err);
+  /* A newer notification may replace the single durable record while the
+     current article is opening. Never let the older transaction erase it. */
+  const response = await route.cache.match(route.request);
+  if(!response) return;
+  const current = await response.json();
+  if(String(current.articleId || "") === route.articleId){
+    await route.cache.delete(route.request);
   }
 }
 
-async function clearNotificationArticle(articleId){
-  if(!("caches" in window)) return;
-
-  try{
-    const saved = await cachedNotificationArticle();
-    if(saved && saved.articleId === articleId){
-      await saved.cache.delete(saved.request);
-    }
-  }catch(err){
-    console.warn("Could not clear the notification destination.", err);
-  }
-}
-
-async function expireNotificationArticle(articleId){
-  pendingNotificationArticle = "";
-  pendingNotificationSentAt = "";
-  if(notificationRetryTimer){
-    window.clearTimeout(notificationRetryTimer);
+function scheduleNotificationRetry(){
+  if(notificationRetryTimer) return;
+  notificationRetryTimer = window.setTimeout(() => {
     notificationRetryTimer = 0;
-  }
-  await clearNotificationArticle(articleId);
+    wakeNotificationRouteProcessor();
+  }, 2500);
 }
 
-async function openPendingNotificationArticle(){
-  const articleId = pendingNotificationArticle;
-  /* Never consume a route while iOS is still restoring a backgrounded app.
-     WebKit can redraw the previous screen after hidden-page JavaScript runs. */
-  if(document.visibilityState !== "visible") return;
-  if(!notificationClicksReady || !articleId || notificationArticleOpening) return;
+async function nextNotificationRoute(){
+  const saved = await cachedNotificationRoute();
+  if(saved) return saved;
 
-  const sentAt = Date.parse(pendingNotificationSentAt || "");
+  if(!launchNotificationConsumed && launchNotificationArticle){
+    return {
+      articleId: launchNotificationArticle,
+      sentAt: "",
+      cache: null,
+      request: null,
+      launchFallback: true
+    };
+  }
+  return null;
+}
+
+/* The only function allowed to validate, load, open or clear a notification.
+   Lifecycle events and service-worker messages merely wake the serialized
+   processor below. */
+async function consumeOneNotificationRoute(){
+  if(!notificationClicksReady || !notificationPageIsActive()) return "waiting";
+
+  const route = await nextNotificationRoute();
+  if(!route) return "empty";
+
+  const articleId = route.articleId;
+  const sentAt = Date.parse(route.sentAt || "");
   if(Number.isFinite(sentAt) &&
      Date.now() - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS){
-    await expireNotificationArticle(articleId);
+    await clearNotificationRoute(route);
+    if(route.launchFallback) launchNotificationConsumed = true;
     ctx.show("feed");
     ctx.refresh();
     announce("This notification has expired. Showing current headlines.", "warn");
-    return;
+    return "expired";
   }
 
   if(articleId === lastNotificationArticle){
-    await expireNotificationArticle(articleId);
-    return;
+    await clearNotificationRoute(route);
+    if(route.launchFallback) launchNotificationConsumed = true;
+    return "duplicate";
   }
 
-  notificationArticleOpening = true;
-  try{
-    if(!state.articles.some(article => article.id === articleId)){
-      await loadNotificationArticle(articleId);
-    }
-    if(!state.articles.some(article => article.id === articleId)){
-      await loadArticles(true);
-      ctx.refresh();
-    }
+  /* This visible acknowledgement is emitted before any network or reader work,
+     so both cold launch and background resume expose the same deterministic
+     path to the user. */
+  announce("Opening the notified story…", "undone");
 
-    const article = state.articles.find(item => item.id === articleId);
-    if(article){
-      prepareNotificationReturn(article);
-      ctx.openArticle(articleId);
-      lastNotificationArticle = articleId;
-      history.replaceState(null, "", location.pathname + location.hash);
-      await expireNotificationArticle(articleId);
-    }else{
-      announce("Opening the notified story…", "undone");
-      retryNotificationArticle(articleId);
-    }
-  }finally{
-    notificationArticleOpening = false;
-    if(pendingNotificationArticle && pendingNotificationArticle !== articleId){
-      void openPendingNotificationArticle();
-    }
+  if(!state.articles.some(article => article.id === articleId)){
+    await loadNotificationArticle(articleId);
   }
+  if(!state.articles.some(article => article.id === articleId)){
+    await loadArticles(true);
+    ctx.refresh();
+  }
+
+  if(!notificationPageIsActive()) return "waiting";
+
+  const article = state.articles.find(item => item.id === articleId);
+  if(!article){
+    scheduleNotificationRetry();
+    return "retry";
+  }
+
+  prepareNotificationReturn(article);
+  ctx.openArticle(articleId);
+  history.replaceState(null, "", location.pathname + location.hash);
+  lastNotificationArticle = articleId;
+  if(route.launchFallback) launchNotificationConsumed = true;
+  await clearNotificationRoute(route);
+  return "opened";
 }
 
-function scheduleForegroundNotificationArticle(){
-  if(notificationForegroundTimer) window.clearTimeout(notificationForegroundTimer);
-  notificationForegroundTimer = window.setTimeout(async () => {
-    notificationForegroundTimer = 0;
-    if(document.visibilityState !== "visible") return;
-    /* Let iOS finish restoring its previous page before the notification route
-       becomes authoritative. This prevents WebKit from repainting over it. */
-    await recoverNotificationArticle();
-    await openPendingNotificationArticle();
-  }, 200);
+function wakeNotificationRouteProcessor(){
+  notificationRouteWakeRequested = true;
+  if(notificationRouteProcessing) return;
+
+  notificationRouteProcessing = true;
+  void (async () => {
+    try{
+      while(notificationRouteWakeRequested){
+        notificationRouteWakeRequested = false;
+        if(!notificationClicksReady || !notificationPageIsActive()) break;
+
+        /* Allow iOS to finish restoring its previous screen before the single
+           transaction changes Wire's view. */
+        await new Promise(resolve => window.setTimeout(resolve, 200));
+        if(!notificationPageIsActive()){
+          notificationRouteWakeRequested = true;
+          break;
+        }
+
+        const result = await consumeOneNotificationRoute();
+        if(result === "retry" || result === "waiting") break;
+
+        /* If a newer route arrived during this transaction, process it next,
+           in sequence, without allowing parallel navigation. */
+        const next = await nextNotificationRoute();
+        if(next && next.articleId !== lastNotificationArticle){
+          notificationRouteWakeRequested = true;
+        }
+      }
+    }catch(err){
+      console.warn("Could not process the notification destination.", err);
+      scheduleNotificationRetry();
+    }finally{
+      notificationRouteProcessing = false;
+      if(notificationRouteWakeRequested &&
+         notificationClicksReady &&
+         notificationPageIsActive()){
+        window.setTimeout(wakeNotificationRouteProcessor, 0);
+      }
+    }
+  })();
 }
 
-/* Register this listener before startup awaits storage or the feed. A newly
-   launched iOS Home Screen app can otherwise miss the service worker's first
-   article message. Queue it until the UI is ready, then refresh stale feed data
-   before opening the reader. */
 function listenForNotificationClicks(){
   if(!("serviceWorker" in navigator)) return;
 
   navigator.serviceWorker.addEventListener("message", event => {
-    if(event.data?.type !== "wire-open-article") return;
-    const articleId = String(event.data.articleId || "");
-    if(!articleId) return;
-    pendingNotificationArticle = articleId;
-    pendingNotificationSentAt = String(event.data.sentAt || event.data.clickedAt || "");
-    scheduleForegroundNotificationArticle();
+    if(event.data?.type === "wire-open-article"){
+      wakeNotificationRouteProcessor();
+    }
   });
-  navigator.serviceWorker.addEventListener("controllerchange", () => {
-    void recoverNotificationArticle();
-  });
+  navigator.serviceWorker.addEventListener(
+    "controllerchange",
+    wakeNotificationRouteProcessor
+  );
 }
 
 listenForNotificationClicks();
-void recoverNotificationArticle();
-window.addEventListener("pageshow", scheduleForegroundNotificationArticle);
-window.addEventListener("focus", scheduleForegroundNotificationArticle);
+window.addEventListener("pageshow", wakeNotificationRouteProcessor);
+window.addEventListener("focus", wakeNotificationRouteProcessor);
 document.addEventListener("visibilitychange", () => {
-  if(document.visibilityState === "visible") scheduleForegroundNotificationArticle();
+  if(notificationPageIsActive()) wakeNotificationRouteProcessor();
 });
 
-/* iOS can resume an installed app at its old screen without emitting any of
-   the events above. Timers resume when JavaScript resumes, so this lightweight
-   cache heartbeat makes the durable route authoritative rather than relying
-   on an optional lifecycle signal. Backgrounded pages are frozen or heavily
-   throttled by iOS, and the cache is read-only unless a route exists. */
-window.setInterval(async () => {
-  if(document.visibilityState !== "visible" || notificationHeartbeatBusy) return;
-  notificationHeartbeatBusy = true;
-  try{ await recoverNotificationArticle(); }
-  finally{ notificationHeartbeatBusy = false; }
+/* iOS does not guarantee a lifecycle event when an installed app thaws.
+   The heartbeat is only another wake signal; it cannot read, open or clear a
+   route itself, so it cannot race the serialized processor. */
+window.setInterval(() => {
+  if(notificationPageIsActive()) wakeNotificationRouteProcessor();
 }, 1000);
 
 /* ---------------- is anything too wide? ----------------
@@ -512,8 +517,7 @@ async function start(){
   notifications.setup({ announce, onTap });
 
   notificationClicksReady = true;
-  await recoverNotificationArticle();
-  await openPendingNotificationArticle();
+  wakeNotificationRouteProcessor();
 
   const btn = document.getElementById("refresh");
   if(btn) onTap(btn, refresh);
