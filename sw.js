@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.24";
+const VERSION = "wire-v0.17.25";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -27,8 +27,7 @@ const NOTIFICATION_ROUTE_URL = new URL(
   ".wire-notification-route.json",
   self.registration.scope
 ).href;
-const PUSH_DIAGNOSTICS = "wire-push-diagnostics-v1";
-const PUSH_DIAGNOSTICS_URL = new URL(".wire-push-status.json", self.registration.scope).href;
+const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
 const SHELL = [
   "./",
   "./index.html",
@@ -73,7 +72,7 @@ self.addEventListener("activate", event => {
     caches.keys()
       .then(keys => Promise.all(
         keys
-          .filter(k => k !== VERSION && k !== NOTIFICATION_ROUTE_CACHE && k !== PUSH_DIAGNOSTICS)
+          .filter(k => k !== VERSION && k !== NOTIFICATION_ROUTE_CACHE)
           .map(k => caches.delete(k))
       ))
       .then(() => self.clients.claim())
@@ -135,42 +134,35 @@ self.addEventListener("push", event => {
   catch(err){ payload = { data: { title: event.data ? event.data.text() : "" } }; }
 
   const data = payload.data || {};
-  const visible = payload.notification || {};
   const articleId = String(data.articleId || "");
   const source = String(data.sourceName || "News");
-  const headline = String(data.title || visible.body || "Breaking news");
+  const headline = String(data.title || "Breaking news");
+  const sentAt = String(data.sentAt || "");
+  const sentAtMs = Date.parse(sentAt);
+  if(Number.isFinite(sentAtMs) && Date.now() - sentAtMs > NOTIFICATION_MAX_AGE_MS){
+    return;
+  }
   const path = articleId ? "?article=" + encodeURIComponent(articleId) : "./";
 
-  // One display owner: this native push listener. No Firebase SW auto-display listener.
-  event.waitUntil((async () => {
-    const record = { articleId, receivedAt: new Date().toISOString(), version: VERSION };
-    const save = async () => {
-      try {
-        const cache = await caches.open(PUSH_DIAGNOSTICS);
-        await cache.put(PUSH_DIAGNOSTICS_URL, new Response(JSON.stringify(record)));
-      } catch (_) { /* Diagnostics must never block display. */ }
-    };
-    try {
-      await self.registration.showNotification(visible.title || "Wire · " + source, {
+  event.waitUntil(self.registration.showNotification("Wire · " + source, {
     body: headline,
     icon: new URL("icon-192.png", self.registration.scope).href,
     badge: new URL("icon-192.png", self.registration.scope).href,
     tag: articleId ? "wire-breaking-" + articleId : "wire-breaking",
     renotify: false,
-    data: { articleId, path }
-      });
-      record.displayedAt = new Date().toISOString();
-    } catch (err) {
-      record.error = String(err.message || err);
-    }
-    await save();
-  })());
+    timestamp: Number.isFinite(sentAtMs) ? sentAtMs : Date.now(),
+    data: { articleId, path, sentAt }
+  }));
 });
 
 self.addEventListener("notificationclick", event => {
   event.notification.close();
 
   const articleId = String(event.notification.data?.articleId || "");
+  const sentAt = String(event.notification.data?.sentAt || "");
+  const sentAtMs = Date.parse(sentAt);
+  const stale = Number.isFinite(sentAtMs) &&
+    Date.now() - sentAtMs > NOTIFICATION_MAX_AGE_MS;
   let target = new URL(event.notification.data?.path || "./", self.registration.scope);
   const scope = new URL(self.registration.scope);
   if(target.origin !== scope.origin || !target.pathname.startsWith(scope.pathname)){
@@ -178,10 +170,15 @@ self.addEventListener("notificationclick", event => {
   }
 
   event.waitUntil((async () => {
+    /* FCM discards undelivered pushes after 30 minutes. If the operating
+       system has already displayed one, it cannot be recalled remotely;
+       refuse its stale route when the reader eventually taps it. */
+    if(stale) return null;
+
     /* A backgrounded iOS Home Screen app can be frozen while postMessage is
        delivered. Persist the destination before waking it; the page removes
        this record only after it has opened the matching story. */
-    const clickedAt = new Date().toISOString();
+    const clickedAt = Number.isFinite(sentAtMs) ? sentAt : new Date().toISOString();
     if(articleId){
       const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
       await cache.put(NOTIFICATION_ROUTE_URL, new Response(JSON.stringify({
@@ -243,4 +240,3 @@ self.addEventListener("notificationclick", event => {
     return opened;
   })());
 });
-

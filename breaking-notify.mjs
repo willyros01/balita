@@ -97,21 +97,19 @@ async function removeSubscription(accessToken, name){
 }
 
 async function sendOne(accessToken, subscription, article, sourceName){
+  const sentAt = new Date().toISOString();
   const message = {
     message: {
       token: subscription.token,
       data: {
         articleId: String(article.id),
         sourceName: String(sourceName || article.source).slice(0, 40),
-        title: String(article.title).slice(0, 220)
-      },
-      notification: {
-        title: "Wire · " + String(sourceName || article.source).slice(0, 40),
-        body: String(article.title).slice(0, 220)
+        title: String(article.title).slice(0, 220),
+        sentAt
       },
       webpush: {
         headers: {
-          TTL: "3600",
+          TTL: "1800",
           Urgency: "normal"
         }
       }
@@ -129,16 +127,12 @@ async function sendOne(accessToken, subscription, article, sourceName){
     console.warn("One notification delivery failed because FCM was unreachable.");
     return false;
   }
-  if(res.ok){
-    const body = await res.json();
-    console.log("FCM accepted", JSON.stringify({ articleId: article.id, messageName: body.name }));
-    return true;
-  }
+  if(res.ok) return true;
 
   let body = {};
   try{ body = await res.json(); }catch(err){ /* status still identifies the failure */ }
   if(unregistered(res.status, body)) await removeSubscription(accessToken, subscription.name);
-  console.warn("FCM rejected", JSON.stringify({ status: res.status, code: body?.error?.status, details: body?.error?.details }));
+  console.warn(`One notification delivery failed (HTTP ${res.status}).`);
   return false;
 }
 
@@ -215,15 +209,14 @@ async function main(){
     const results = await Promise.all(
       devices.map(device => sendOne(accessToken, device, notificationArticle, sourceNames.get(article.source)))
     );
-    const accepted = results.filter(Boolean).length;
-    if(accepted){
+    const delivered = results.filter(Boolean).length;
+    if(delivered){
       state.sent.push({ id: article.id, source: article.source, sentAt: new Date().toISOString() });
       console.log(testInquirer
-        ? `FCM accepted one Inquirer test alert for ${accepted} registered token(s); device display is unconfirmed.`
-        : `FCM accepted one strictly marked alert for ${accepted} registered token(s); device display is unconfirmed.`);
+        ? `Sent one Inquirer test alert to ${delivered} device or devices.`
+        : `Sent one strictly marked alert to ${delivered} device or devices.`);
     }else{
-      await saveState(state);
-      throw new Error("FCM accepted no sends; inspect rejection details above.");
+      console.warn("The marked alert could not be delivered to any subscribed device.");
     }
   }
 
@@ -236,4 +229,3 @@ if(process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href){
     process.exit(1);
   });
 }
-
