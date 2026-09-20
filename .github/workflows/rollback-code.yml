@@ -1,0 +1,119 @@
+name: Roll back application code
+
+# Manual only, never automatic. This rewinds the application's own
+# code to how it looked at an earlier point, while leaving the news
+# data (articles.json, notified.json, the per-article files) exactly
+# as it is right now, untouched.
+#
+# .github/workflows itself is also left alone on purpose. A code
+# rollback should not also undo how the automation is set up, and a
+# workflow rewriting its own definition mid-run is a complication
+# worth avoiding entirely.
+#
+# Defaults to a preview: it shows exactly what would change without
+# committing anything at all. Only set dry_run to false, deliberately,
+# once that preview looks right.
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_sha:
+        description: "Exact commit to roll back to (leave blank if using a date below)"
+        required: false
+      before_date:
+        description: "Roll back to the last commit before this date, as YYYY-MM-DD (only used if commit_sha is blank)"
+        required: false
+      dry_run:
+        description: "Type true to preview only, or false to actually commit the rollback"
+        required: true
+        default: "true"
+
+permissions:
+  contents: write
+
+jobs:
+  rollback:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0   # full history, needed to find an older commit
+
+      - name: Work out which commit to restore
+        id: target
+        run: |
+          if [ -n "${{ inputs.commit_sha }}" ]; then
+            TARGET="${{ inputs.commit_sha }}"
+          elif [ -n "${{ inputs.before_date }}" ]; then
+            TARGET=$(git rev-list -1 --before="${{ inputs.before_date }} 23:59:59" main)
+          else
+            echo "::error::Provide either commit_sha or before_date."
+            exit 1
+          fi
+
+          if [ -z "$TARGET" ] || ! git cat-file -e "$TARGET" 2>/dev/null; then
+            echo "::error::Could not find a commit matching that input."
+            exit 1
+          fi
+
+          echo "Restoring the application to this commit:"
+          git show -s --format="  %H%n  %ci%n  %s" "$TARGET"
+          echo "target=$TARGET" >> "$GITHUB_OUTPUT"
+
+      - name: Restore application files, leaving news data and workflows untouched
+        run: |
+          TARGET="${{ steps.target.outputs.target }}"
+
+          # Never touched by this workflow, regardless of what the
+          # target commit contains.
+          is_protected() {
+            case "$1" in
+              articles.json|notified.json|articles/*|.github/*) return 0 ;;
+              *) return 1 ;;
+            esac
+          }
+
+          git ls-tree -r --name-only "$TARGET" > /tmp/target-files.txt
+          git ls-tree -r --name-only HEAD       > /tmp/current-files.txt
+
+          echo "--- restoring to the older version ---"
+          while IFS= read -r file; do
+            is_protected "$file" && continue
+            mkdir -p "$(dirname "$file")"
+            git show "$TARGET:$file" > "$file.new" 2>/dev/null || continue
+            if ! cmp -s "$file" "$file.new" 2>/dev/null; then
+              echo "  changed: $file"
+            fi
+            mv "$file.new" "$file"
+          done < /tmp/target-files.txt
+
+          echo "--- removing files added after that commit ---"
+          while IFS= read -r file; do
+            is_protected "$file" && continue
+            if ! grep -Fxq "$file" /tmp/target-files.txt; then
+              echo "  removed: $file"
+              rm -f "$file"
+            fi
+          done < /tmp/current-files.txt
+
+      - name: Show exactly what this would change
+        run: |
+          git add -A -- . ':!articles.json' ':!notified.json' ':!articles' ':!.github'
+          git status
+          echo ""
+          git diff --cached --stat
+
+      - name: Commit and push the rollback
+        if: ${{ inputs.dry_run == 'false' }}
+        run: |
+          git config user.name  "balita-bot"
+          git config user.email "balita-bot@users.noreply.github.com"
+          git commit -m "Roll back application code to ${{ steps.target.outputs.target }}"
+          git push
+
+      - name: Preview only — nothing was committed
+        if: ${{ inputs.dry_run != 'false' }}
+        run: echo "This was a preview. Run again with dry_run set to false to actually commit this."
