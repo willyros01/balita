@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.37";
+const VERSION = "wire-v0.17.38";
 
 /* Kept outside the shell cache so an app update cannot erase a
    notification's destination before the page has had a chance to
@@ -193,16 +193,29 @@ self.addEventListener("push", event => {
 
   event.waitUntil((async () => {
     await trace("push received for " + (articleId || "no id"));
-    /* Written before the notification is even displayed. If nothing
-       downstream of this line ever runs — the display call fails, the
-       tap's own handler never fires, the worker is stopped the moment
-       this finishes — the destination has already survived
-       independently of all of it. */
-    await writeNotificationRoute(articleId, sentAt);
-    await trace("route written at arrival");
+
+    /* Written before the notification is even displayed, normally.
+       If this specific write is what's failing on a device where the
+       banner still displays fine, that would explain a tap finding
+       nothing without the worker looking dead at all — showing the
+       notification and writing the route are two separate steps, and
+       nothing has yet proven they always succeed or fail together.
+
+       If it throws, the failure is folded into the banner's own text
+       instead of being swallowed — the one channel already confirmed
+       to reach the device reliably, so the answer isn't stuck behind
+       whatever caused the write to fail in the first place. */
+    let writeFailure = "";
+    try{
+      await writeNotificationRoute(articleId, sentAt);
+      await trace("route written at arrival");
+    }catch(err){
+      writeFailure = String(err?.message || err);
+      await trace("EXIT: route write failed \u2014 " + writeFailure);
+    }
 
     await self.registration.showNotification("Wire · " + source, {
-      body: headline,
+      body: writeFailure ? headline + "  [route write failed: " + writeFailure + "]" : headline,
       icon: new URL("icon-192.png", self.registration.scope).href,
       badge: new URL("icon-192.png", self.registration.scope).href,
       tag: articleId ? "wire-breaking-" + articleId : "wire-breaking",
@@ -210,7 +223,7 @@ self.addEventListener("push", event => {
       timestamp: Number.isFinite(sentAtMs) ? sentAtMs : Date.now(),
       data: { articleId, sentAt }
     });
-    await trace("notification shown");
+    await trace("notification shown" + (writeFailure ? " (route write had failed)" : ""));
   })());
 });
 
@@ -225,8 +238,17 @@ self.addEventListener("notificationclick", event => {
 
     /* Redundant with the write at arrival above — cheap, and a second
        independent chance costs nothing even when it is usually
-       unnecessary by the time a tap happens. */
-    await writeNotificationRoute(articleId, sentAt);
+       unnecessary by the time a tap happens. Traced separately from
+       the push-time write on purpose: if this one succeeds where the
+       earlier one failed, or vice versa, that difference is itself
+       the answer to whether writing ever works on this device at
+       all, or whether something is clearing a write that succeeded. */
+    try{
+      await writeNotificationRoute(articleId, sentAt);
+      await trace("route write at tap: succeeded");
+    }catch(err){
+      await trace("route write at tap: FAILED \u2014 " + String(err?.message || err));
+    }
 
     /* Nothing more than this. No forced navigation, no message handed
        across to a page that may or may not be listening, no repeated

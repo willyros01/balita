@@ -1,32 +1,32 @@
-WIRE v0.17.37 — THE REAL FIX
+WIRE v0.17.38 — MAKES A SILENT FAILURE VISIBLE
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHAT WAS ACTUALLY WRONG
-Confirmed directly from the trace file you sent, not guessed. Pageshow
-fired early, before the app's own startup had finished loading settings
-and the full story list. Because the notification check has its own
-way of fetching one story directly, it did not need to wait, and it
-opened your article successfully, fast.
+WHY THIS ONE IS DIFFERENT
+The iPhone's notification banner displays correctly - that's proven now,
+twice. So the push itself is working. What's still unclear is whether
+the one small file it's supposed to write alongside that banner is
+failing to write at all, or writing fine and then being cleared before
+the tap happens. Those need different fixes, and there was no way to
+tell them apart before this.
 
-Moments later, the app's own slower startup finished its work, and
-unconditionally sent the screen back to the main feed - every time,
-regardless of what was already showing. That is what erased the
-article you had just opened.
+WHAT CHANGED
+If writing that file fails at the moment the notification arrives, the
+banner's own text will now say so directly - something like:
 
-THE FIX
-One line. Startup now only shows the main feed if an article is not
-already open. If one is, it leaves it alone.
+  Some headline  [route write failed: <the actual error>]
 
-The trace stays in for this round, so the fix can be confirmed the
-same way the problem was found - by reading exactly what happened,
-not by assuming it worked.
+If the banner looks completely normal, the write succeeded at that
+moment. The trace will also separately record whether the write
+attempted again at the tap itself succeeded or failed, which tells us
+whether writing itself is broken on that device or something is
+clearing a write that worked.
 
-HOW TO TEST
-Delete and re-add the Home Screen icon. Clear the trace. Send a test
-alert. Tap it. If it opens correctly and stays open, save the trace
-anyway and send it - a clean, confirming trace is worth having on
-record too.
+WHAT TO DO
+Test on the iPhone specifically, the same way as before. Look closely
+at the banner text itself this time, not just the headline - if it
+says anything after the headline in brackets, that is the direct
+answer. Save and send the trace file either way.
