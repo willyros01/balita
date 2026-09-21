@@ -1,0 +1,43 @@
+WIRE v0.17.32 — DIAGNOSTIC BUILD
+
+THREE FILES. Replace these on GitHub:
+  sw.js
+  app.js
+  version.js
+
+WHAT IT DOES
+Records every step of the notification path — from both the service
+worker and the page — into a durable record that survives freezing,
+reloading and app updates. Nothing else about the app is changed.
+
+HOW TO READ IT
+Open Wire, scroll to the bottom of the story list, to the About panel.
+Under the normal About rows there is now a section headed
+"Notification trace (temporary)". That is the record.
+
+HOW TO TEST
+1. Upload the three files.
+2. Delete the Home Screen icon and re-add it, so the new worker is
+   definitely the one running.
+3. Open Wire, scroll to About, tap "Clear trace".
+4. Background the app. Note which screen you left it on.
+5. Trigger or wait for a breaking notification.
+6. Tap it from the lock screen or Notification Centre.
+7. When it lands on the wrong screen, scroll to About and read the
+   trace.
+
+WHAT TO SEND BACK
+The lines under "Notification trace". Any line starting with EXIT is
+the answer — it names exactly where the path stopped.
+
+The four silent exits now each identify themselves:
+  EXIT: startup not finished yet
+  EXIT: page reports itself hidden
+  EXIT: no route found in the cache
+  EXIT: already opened this one in this session
+
+The worker lines also show whether navigate was accepted or refused,
+which is the other thing that could not be seen from outside.
+
+NOTE
+The trace is temporary and will be removed once the fault is found.
