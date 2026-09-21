@@ -1,36 +1,33 @@
-WIRE v0.17.35 — REBUILT, SIMPLER
+WIRE v0.17.36 — SAME AS v0.17.35, PLUS A SMALL TRACE
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHAT THIS IS
-A rebuild, not a patch. The tap now does almost nothing beyond asking
-the OS to bring the app forward. No forced navigation, no message
-handed across to the page, no repeated attempts, no once-a-second
-polling. All of that has been removed.
+WHAT'S DIFFERENT FROM v0.17.35
+Nothing about how notifications actually work has changed. This adds
+only a small recording of what happens, so the one still-unexplained
+case — the iPad landing on All Sources after a cold-start tap — can be
+seen directly instead of reasoned about.
 
-WHAT REPLACES IT
-The destination is written to durable storage the instant a
-notification arrives — before it is even shown on screen. Reading it
-back is triggered only by the app becoming visible, for any reason:
-a tap, opening the icon, or switching back to an already-open tab.
-That single moment is the only thing this now depends on, and it is
-the one signal that fired reliably in every test run so far,
-including the one that otherwise failed completely.
+HOW TO USE IT
+Two small buttons now sit at the very bottom of the About panel, under
+a heading that says "Notification trace (temporary)":
 
-WHAT DID NOT CHANGE
-The thirty minute expiry rule and its message. Loading a story
-directly if it is not yet in the feed. Everything about how sources,
-display and the rest of the app work.
+  Save trace as a file
+  Clear trace
+
+Tap Clear trace before a test, run the test, then tap Save trace as a
+file afterward. On an iPad or iPhone this should offer to save a file
+called wire-trace.txt, or open a share sheet — either way, save it
+somewhere you can get to it, then attach that file here in the chat
+directly. No screenshots needed this time.
 
 HOW TO TEST
-Same as before: delete and re-add the Home Screen icon, send a test
-alert from the Actions tab, background the app, tap the notification.
-Repeat a few times, including at least one wait past five minutes
-before tapping, since that is the case that mattered.
+Delete and re-add the Home Screen icon on whichever device you are
+testing. Clear the trace. Send a test alert. Tap it. Save the trace
+file. Send it here.
 
-Nothing to read afterward this time — the diagnostic trace has been
-removed now that it has done its job. Just tell me whether it opened
-the right story.
+If the About panel does not show the two buttons at all after
+updating, the new files did not take — check the Version line first.

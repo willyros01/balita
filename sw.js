@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.35";
+const VERSION = "wire-v0.17.36";
 
 /* Kept outside the shell cache so an app update cannot erase a
    notification's destination before the page has had a chance to
@@ -32,6 +32,30 @@ const NOTIFICATION_ROUTE_URL = new URL(
   self.registration.scope
 ).href;
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
+
+/* ---------------- trace, round two ----------------
+   Minimal, on purpose. The last version split worker and page into
+   two logs because a since-removed heartbeat was flooding a shared
+   one — that flood cannot happen anymore, since nothing left writes
+   on a timer. So one small shared record is enough this time.
+   Read back and exported to a plain text file from the About panel
+   in app.js. Remove once this particular question is answered. */
+const TRACE_CACHE = "wire-trace-v3";
+const TRACE_URL = new URL(".wire-trace.json", self.registration.scope).href;
+
+async function trace(step){
+  try{
+    const cache = await caches.open(TRACE_CACHE);
+    let log = [];
+    const existing = await cache.match(TRACE_URL);
+    if(existing) log = await existing.json();
+    log.push(new Date().toISOString().slice(11, 23) + "  worker  " + step);
+    if(log.length > 100) log = log.slice(-100);
+    await cache.put(TRACE_URL, new Response(JSON.stringify(log), {
+      headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
+    }));
+  }catch(err){ /* Never let recording break the thing being recorded. */ }
+}
 
 const SHELL = [
   "./",
@@ -168,12 +192,14 @@ self.addEventListener("push", event => {
   }
 
   event.waitUntil((async () => {
+    await trace("push received for " + (articleId || "no id"));
     /* Written before the notification is even displayed. If nothing
        downstream of this line ever runs — the display call fails, the
        tap's own handler never fires, the worker is stopped the moment
        this finishes — the destination has already survived
        independently of all of it. */
     await writeNotificationRoute(articleId, sentAt);
+    await trace("route written at arrival");
 
     await self.registration.showNotification("Wire · " + source, {
       body: headline,
@@ -184,6 +210,7 @@ self.addEventListener("push", event => {
       timestamp: Number.isFinite(sentAtMs) ? sentAtMs : Date.now(),
       data: { articleId, sentAt }
     });
+    await trace("notification shown");
   })());
 });
 
@@ -194,6 +221,8 @@ self.addEventListener("notificationclick", event => {
   const sentAt = String(event.notification.data?.sentAt || "");
 
   event.waitUntil((async () => {
+    await trace("tap received for " + (articleId || "no id"));
+
     /* Redundant with the write at arrival above — cheap, and a second
        independent chance costs nothing even when it is usually
        unnecessary by the time a tap happens. */
@@ -213,6 +242,7 @@ self.addEventListener("notificationclick", event => {
     const existing = windows.find(client =>
       client.url.startsWith(self.registration.scope)
     );
+    await trace(existing ? "found an existing window, focusing it" : "no existing window, opening one");
     if(existing) return existing.focus();
     return self.clients.openWindow(self.registration.scope);
   })());

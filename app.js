@@ -163,6 +163,71 @@ const NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
 let notificationCheckRunning = false;
 let lastOpenedNotificationArticle = "";
 
+/* ---------------- trace, round two ----------------
+   Same shared record sw.js writes to. Read back and offered as a
+   plain text file to download, rather than a panel to screenshot —
+   a screenshot has cut off lines and mangled exact text more than
+   once in this project; a file cannot. Remove once this particular
+   question is answered. */
+const TRACE_CACHE = "wire-trace-v3";
+let traceUrl = "";
+
+async function traceTarget(){
+  if(traceUrl) return traceUrl;
+  try{
+    const reg = await navigator.serviceWorker?.getRegistration();
+    traceUrl = new URL(".wire-trace.json", reg?.scope || location.href).href;
+  }catch(err){
+    traceUrl = new URL(".wire-trace.json", location.href).href;
+  }
+  return traceUrl;
+}
+
+async function trace(step){
+  try{
+    if(!("caches" in window)) return;
+    const url = await traceTarget();
+    const cache = await caches.open(TRACE_CACHE);
+    let log = [];
+    const existing = await cache.match(url);
+    if(existing) log = await existing.json();
+    log.push(new Date().toISOString().slice(11, 23) + "  page    " + step);
+    if(log.length > 100) log = log.slice(-100);
+    await cache.put(url, new Response(JSON.stringify(log), {
+      headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
+    }));
+  }catch(err){ /* Never let recording break the thing being recorded. */ }
+}
+
+async function readTrace(){
+  try{
+    if(!("caches" in window)) return [];
+    const url = await traceTarget();
+    const cache = await caches.open(TRACE_CACHE);
+    const response = await cache.match(url);
+    if(!response) return [];
+    return (await response.json()).sort();
+  }catch(err){ return []; }
+}
+
+async function clearTrace(){
+  try{ await caches.delete(TRACE_CACHE); traceUrl = ""; }
+  catch(err){ /* nothing to clear */ }
+}
+
+function downloadTrace(lines){
+  const blob = new Blob([lines.length ? lines.join("\n") + "\n" : "Nothing recorded yet.\n"],
+    { type: "text/plain" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "wire-trace.txt";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
 async function readNotificationRoute(){
   if(!("caches" in window)) return null;
 
@@ -224,19 +289,23 @@ async function checkForNotifiedArticle(){
   notificationCheckRunning = true;
   try{
     const route = await readNotificationRoute();
-    if(!route) return;
+    if(!route){ await trace("checked, nothing in the route"); return; }
 
     if(route.articleId === lastOpenedNotificationArticle){
+      await trace("EXIT: already opened " + route.articleId + " this session");
       await clearNotificationRoute(route);
       return;
     }
 
     const sentAtMs = Date.parse(route.sentAt || "");
     if(Number.isFinite(sentAtMs) && Date.now() - sentAtMs > NOTIFICATION_ROUTE_MAX_AGE_MS){
+      await trace("EXIT: expired");
       await clearNotificationRoute(route);
       announce("This notification has expired. Showing current headlines.", "warn");
       return;
     }
+
+    await trace("route found: " + route.articleId + ", loading it");
 
     if(!state.articles.some(article => article.id === route.articleId)){
       await loadNotificationArticle(route.articleId);
@@ -253,6 +322,7 @@ async function checkForNotifiedArticle(){
          the expiry rule above is what eventually retires it if it
          never does. Nothing to announce here; announcing would repeat
          on every visibility change while it remains missing. */
+      await trace("EXIT: not found in the feed even after a fresh fetch, leaving the route");
       return;
     }
 
@@ -260,17 +330,22 @@ async function checkForNotifiedArticle(){
     ctx.openArticle(route.articleId);
     lastOpenedNotificationArticle = route.articleId;
     await clearNotificationRoute(route);
+    await trace("OPENED " + route.articleId);
   }catch(err){
+    await trace("EXIT: threw \u2014 " + (err?.message || err));
     console.warn("Could not check for a notified story.", err);
   }finally{
     notificationCheckRunning = false;
   }
 }
 
-window.addEventListener("pageshow", checkForNotifiedArticle);
-window.addEventListener("focus", checkForNotifiedArticle);
+window.addEventListener("pageshow", () => { void trace("woken by: pageshow"); checkForNotifiedArticle(); });
+window.addEventListener("focus", () => { void trace("woken by: focus"); checkForNotifiedArticle(); });
 document.addEventListener("visibilitychange", () => {
-  if(document.visibilityState === "visible") checkForNotifiedArticle();
+  if(document.visibilityState === "visible"){
+    void trace("woken by: became visible");
+    checkForNotifiedArticle();
+  }
 });
 
 /* ---------------- is anything too wide? ----------------
@@ -380,6 +455,53 @@ function renderAbout(){
     ? "Advertising, trackers and pop-ups are removed before stories reach this device. " +
       "Saved stories stay readable without a signal."
     : "No stories yet. Once the fetcher is running, headlines arrive here on their own.";
+
+  void renderTraceButtons();
+}
+
+/* Temporary. Two small buttons under About: one saves the recorded
+   notification trace as a plain text file, the other clears it. A
+   file avoids the repeated problem of a screenshot cutting off or
+   mangling exact text. Remove with the rest of the trace. */
+async function renderTraceButtons(){
+  const note = document.getElementById("about-note");
+  if(!note) return;
+
+  const host = note.parentNode;
+  let box = document.getElementById("trace-box");
+  if(!box){
+    box = document.createElement("div");
+    box.id = "trace-box";
+    box.style.marginTop = "1.5rem";
+    box.style.paddingTop = "1rem";
+    box.style.borderTop = "1px solid var(--rule)";
+    host.appendChild(box);
+
+    const title = document.createElement("p");
+    title.style.fontWeight = "700";
+    title.style.margin = "0 0 0.6rem";
+    title.textContent = "Notification trace (temporary)";
+    box.appendChild(title);
+
+    const row = document.createElement("div");
+    row.style.display = "flex";
+    row.style.gap = "0.6rem";
+
+    const save = document.createElement("button");
+    save.type = "button";
+    save.className = "reset-btn";
+    save.textContent = "Save trace as a file";
+    onTap(save, async () => downloadTrace(await readTrace()));
+
+    const clear = document.createElement("button");
+    clear.type = "button";
+    clear.className = "reset-btn";
+    clear.textContent = "Clear trace";
+    onTap(clear, async () => { await clearTrace(); announce("Trace cleared.", "done"); });
+
+    row.append(save, clear);
+    box.appendChild(row);
+  }
 }
 
 function watchNetwork(){
@@ -421,6 +543,7 @@ async function start(){
   /* Covers a cold start: the app may have been launched fresh by a tap
      while nothing was already running, and there is no other visibility
      event coming to trigger the check on its own. */
+  await trace("start() finished, checking for a notified article");
   void checkForNotifiedArticle();
 
   const btn = document.getElementById("refresh");
