@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.36";
+const VERSION = "wire-v0.17.37";
 
 /* Kept outside the shell cache so an app update cannot erase a
    notification's destination before the page has had a chance to

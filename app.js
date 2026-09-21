@@ -533,7 +533,14 @@ async function start(){
 
   await loadArticles();
 
-  ctx.show("feed");
+  /* Only sends the reader back to the main feed if nothing is already
+     open. pageshow can fire, and checkForNotifiedArticle can succeed,
+     while this function is still in the middle of its own setup —
+     that is exactly what happened on the iPad test that exposed this.
+     Unconditionally resetting the view here silently threw away an
+     article that had already opened correctly, moments earlier, in
+     the same window. */
+  if(document.body.dataset.view !== "reader") ctx.show("feed");
   ctx.refresh();
   renderAbout();
   watchNetwork();

@@ -1,33 +1,32 @@
-WIRE v0.17.36 — SAME AS v0.17.35, PLUS A SMALL TRACE
+WIRE v0.17.37 — THE REAL FIX
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHAT'S DIFFERENT FROM v0.17.35
-Nothing about how notifications actually work has changed. This adds
-only a small recording of what happens, so the one still-unexplained
-case — the iPad landing on All Sources after a cold-start tap — can be
-seen directly instead of reasoned about.
+WHAT WAS ACTUALLY WRONG
+Confirmed directly from the trace file you sent, not guessed. Pageshow
+fired early, before the app's own startup had finished loading settings
+and the full story list. Because the notification check has its own
+way of fetching one story directly, it did not need to wait, and it
+opened your article successfully, fast.
 
-HOW TO USE IT
-Two small buttons now sit at the very bottom of the About panel, under
-a heading that says "Notification trace (temporary)":
+Moments later, the app's own slower startup finished its work, and
+unconditionally sent the screen back to the main feed - every time,
+regardless of what was already showing. That is what erased the
+article you had just opened.
 
-  Save trace as a file
-  Clear trace
+THE FIX
+One line. Startup now only shows the main feed if an article is not
+already open. If one is, it leaves it alone.
 
-Tap Clear trace before a test, run the test, then tap Save trace as a
-file afterward. On an iPad or iPhone this should offer to save a file
-called wire-trace.txt, or open a share sheet — either way, save it
-somewhere you can get to it, then attach that file here in the chat
-directly. No screenshots needed this time.
+The trace stays in for this round, so the fix can be confirmed the
+same way the problem was found - by reading exactly what happened,
+not by assuming it worked.
 
 HOW TO TEST
-Delete and re-add the Home Screen icon on whichever device you are
-testing. Clear the trace. Send a test alert. Tap it. Save the trace
-file. Send it here.
-
-If the About panel does not show the two buttons at all after
-updating, the new files did not take — check the Version line first.
+Delete and re-add the Home Screen icon. Clear the trace. Send a test
+alert. Tap it. If it opens correctly and stays open, save the trace
+anyway and send it - a clean, confirming trace is worth having on
+record too.
