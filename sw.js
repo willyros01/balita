@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.32";
+const VERSION = "wire-v0.17.33";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -28,28 +28,6 @@ const NOTIFICATION_ROUTE_URL = new URL(
   self.registration.scope
 ).href;
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
-
-/* ---------------- durable trace ----------------
-   Temporary. Records what the notification path actually did, on both
-   sides, so the exit point can be read off the device instead of
-   guessed at. Survives freezes, reloads and app updates. Remove once
-   the fault is found. */
-const TRACE_CACHE = "wire-trace-v1";
-const TRACE_URL = new URL(".wire-trace.json", self.registration.scope).href;
-
-async function trace(step){
-  try{
-    const cache = await caches.open(TRACE_CACHE);
-    let log = [];
-    const existing = await cache.match(TRACE_URL);
-    if(existing) log = await existing.json();
-    log.push(new Date().toISOString().slice(11, 23) + "  worker  " + step);
-    if(log.length > 60) log = log.slice(-60);
-    await cache.put(TRACE_URL, new Response(JSON.stringify(log), {
-      headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
-    }));
-  }catch(err){ /* Never let recording break the thing being recorded. */ }
-}
 
 const SHELL = [
   "./",
@@ -95,9 +73,7 @@ self.addEventListener("activate", event => {
     caches.keys()
       .then(keys => Promise.all(
         keys
-          .filter(k => k !== VERSION &&
-                       k !== NOTIFICATION_ROUTE_CACHE &&
-                       k !== TRACE_CACHE)
+          .filter(k => k !== VERSION && k !== NOTIFICATION_ROUTE_CACHE)
           .map(k => caches.delete(k))
       ))
       .then(() => self.clients.claim())
@@ -165,13 +141,11 @@ self.addEventListener("push", event => {
   const sentAt = String(data.sentAt || "");
   const sentAtMs = Date.parse(sentAt);
   if(Number.isFinite(sentAtMs) && Date.now() - sentAtMs > NOTIFICATION_MAX_AGE_MS){
-    event.waitUntil(trace("push dropped, already older than 30 min"));
     return;
   }
   const path = articleId ? "?article=" + encodeURIComponent(articleId) : "./";
 
   event.waitUntil((async () => {
-    await trace("push shown for " + (articleId || "no id"));
     await self.registration.showNotification("Wire · " + source, {
       body: headline,
       icon: new URL("icon-192.png", self.registration.scope).href,
@@ -197,8 +171,6 @@ self.addEventListener("notificationclick", event => {
   }
 
   event.waitUntil((async () => {
-    await trace("tap received for " + (articleId || "no id"));
-
     const routeSentAt = Number.isFinite(sentAtMs) ? sentAt : new Date().toISOString();
     if(articleId){
       const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
@@ -208,56 +180,36 @@ self.addEventListener("notificationclick", event => {
       }), {
         headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
       }));
-      await trace("route written, sentAt " + routeSentAt);
     }
 
+    /* Use the browser-owned launch operation for both cold and background
+       taps. This is the route that proved reliable on installed iOS apps:
+       navigate() can merely restore a suspended window at its old screen. */
     const windows = await self.clients.matchAll({
       type: "window",
       includeUncontrolled: true
     });
-    let opened = windows.find(client =>
+    const existing = windows.find(client =>
       client.url.startsWith(self.registration.scope)
     ) || null;
+    let opened = null;
+    try{ opened = await self.clients.openWindow(target.href); }
+    catch(err){ /* Fall back to the existing client below. */ }
 
-    await trace(opened
-      ? "existing window found, taking resume path"
-      : "no existing window, taking cold launch path");
+    if(!opened) opened = existing;
+    if(!opened) return null;
 
-    if(opened){
-      /* iOS can foreground a suspended Home Screen client without delivering
-         focus, pageshow, visibilitychange or postMessage to the resumed page.
-         Put the exact article id in the client URL first. That forces the same
-         durable startup route used by the proven cold-launch path; the page
-         still waits until it is visible before opening the reader. */
-      let routed = opened;
-      let navigated = false;
-      try{
-        const result = await opened.navigate(target.href);
-        routed = result || opened;
-        navigated = true;
+    await opened.focus();
+    if(articleId){
+      for(const delay of [0, 250, 500, 1000, 1500]){
+        if(delay) await new Promise(resolve => setTimeout(resolve, delay));
+        opened.postMessage({
+          type: "wire-open-article",
+          articleId,
+          sentAt: routeSentAt
+        });
       }
-      catch(err){ await trace("navigate refused: " + (err.message || err)); }
-      if(navigated) await trace("navigate accepted");
-
-      await routed.focus();
-      await trace("focus called");
-
-      if(articleId){
-        for(const delay of [0, 250, 500, 1000, 1500]){
-          if(delay) await new Promise(resolve => setTimeout(resolve, delay));
-          routed.postMessage({
-            type: "wire-open-article",
-            articleId,
-            sentAt: routeSentAt
-          });
-        }
-        await trace("messages sent to page");
-      }
-      return routed;
     }
-
-    /* Cold launch remains browser-owned and retains the exact article URL. */
-    try{ return await self.clients.openWindow(target.href); }
-    catch(err){ await trace("openWindow failed: " + (err.message || err)); return null; }
+    return opened;
   })());
 });

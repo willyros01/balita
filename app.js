@@ -45,63 +45,6 @@ const ctx = {
   openSources: () => sources.show(ctx)
 };
 
-/* ---------------- durable trace ----------------
-   Temporary. The notification path had four ways to exit in silence,
-   which made it impossible to tell from the outside which one was
-   being taken. Each now says so, into the same durable record the
-   worker writes to, and the result is shown at the bottom of the
-   About panel. Remove all of this once the fault is found. */
-const TRACE_CACHE = "wire-trace-v1";
-let traceUrl = "";
-
-async function traceTarget(){
-  if(traceUrl) return traceUrl;
-  try{
-    const reg = await navigator.serviceWorker?.getRegistration();
-    traceUrl = new URL(".wire-trace.json", reg?.scope || location.href).href;
-  }catch(err){
-    traceUrl = new URL(".wire-trace.json", location.href).href;
-  }
-  return traceUrl;
-}
-
-async function trace(step){
-  try{
-    if(!("caches" in window)) return;
-    const url = await traceTarget();
-    const cache = await caches.open(TRACE_CACHE);
-    let log = [];
-    const existing = await cache.match(url);
-    if(existing) log = await existing.json();
-    log.push(new Date().toISOString().slice(11, 23) + "  page    " + step);
-    if(log.length > 60) log = log.slice(-60);
-    await cache.put(url, new Response(JSON.stringify(log), {
-      headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
-    }));
-  }catch(err){ /* Never let recording break the thing being recorded. */ }
-}
-
-async function readTrace(){
-  try{
-    if(!("caches" in window)) return [];
-    const cache = await caches.open(TRACE_CACHE);
-    const keys = await cache.keys();
-    for(const request of keys){
-      const response = await cache.match(request);
-      if(response) return await response.json();
-    }
-  }catch(err){ /* nothing recorded yet */ }
-  return [];
-}
-
-async function clearTrace(){
-  try{
-    if(!("caches" in window)) return;
-    await caches.delete(TRACE_CACHE);
-    traceUrl = "";
-  }catch(err){ /* nothing to clear */ }
-}
-
 /* ---------------- stories ---------------- */
 
 /* Reload the stories from the server.
@@ -299,28 +242,22 @@ async function nextNotificationRoute(){
    processor below. */
 async function consumeOneNotificationRoute(){
   if(!notificationClicksReady){
-    await trace("EXIT: startup not finished yet");
     return "waiting";
   }
   if(!notificationPageIsActive()){
-    await trace("EXIT: page reports itself hidden");
     return "waiting";
   }
 
   const route = await nextNotificationRoute();
   if(!route){
-    await trace("EXIT: no route found in the cache");
     return "empty";
   }
 
   const articleId = route.articleId;
-  await trace("route read: " + articleId + (route.launchFallback ? " (from launch url)" : " (from cache)"));
 
   const sentAt = Date.parse(route.sentAt || "");
   if(Number.isFinite(sentAt) &&
      Date.now() - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS){
-    const mins = Math.round((Date.now() - sentAt) / 60000);
-    await trace("EXIT: expired, sent " + mins + " min ago");
     await clearNotificationRoute(route);
     if(route.launchFallback) launchNotificationConsumed = true;
     ctx.show("feed");
@@ -330,7 +267,6 @@ async function consumeOneNotificationRoute(){
   }
 
   if(articleId === lastNotificationArticle){
-    await trace("EXIT: already opened this one in this session");
     await clearNotificationRoute(route);
     if(route.launchFallback) launchNotificationConsumed = true;
     return "duplicate";
@@ -339,8 +275,7 @@ async function consumeOneNotificationRoute(){
   /* This visible acknowledgement is emitted before any network or reader work,
      so both cold launch and background resume expose the same deterministic
      path to the user. */
-  await trace("reached the announce step");
-  announce("Opening the notified story\u2026", "undone");
+  announce("Opening the notified story…", "undone");
 
   if(!state.articles.some(article => article.id === articleId)){
     await loadNotificationArticle(articleId);
@@ -351,13 +286,11 @@ async function consumeOneNotificationRoute(){
   }
 
   if(!notificationPageIsActive()){
-    await trace("EXIT: went hidden while loading");
     return "waiting";
   }
 
   const article = state.articles.find(item => item.id === articleId);
   if(!article){
-    await trace("EXIT: story not found in the feed, will retry");
     scheduleNotificationRetry();
     return "retry";
   }
@@ -368,11 +301,10 @@ async function consumeOneNotificationRoute(){
   lastNotificationArticle = articleId;
   if(route.launchFallback) launchNotificationConsumed = true;
   await clearNotificationRoute(route);
-  await trace("OPENED the article");
   return "opened";
 }
 
-function wakeNotificationRouteProcessor(reason){
+function wakeNotificationRouteProcessor(){
   notificationRouteWakeRequested = true;
   if(notificationRouteProcessing) return;
 
@@ -402,7 +334,6 @@ function wakeNotificationRouteProcessor(reason){
         }
       }
     }catch(err){
-      await trace("EXIT: threw \u2014 " + (err?.message || err));
       console.warn("Could not process the notification destination.", err);
       scheduleNotificationRetry();
     }finally{
@@ -421,29 +352,24 @@ function listenForNotificationClicks(){
 
   navigator.serviceWorker.addEventListener("message", event => {
     if(event.data?.type === "wire-open-article"){
-      void trace("woken by: message from worker");
-      wakeNotificationRouteProcessor("message");
+      wakeNotificationRouteProcessor();
     }
   });
   navigator.serviceWorker.addEventListener("controllerchange", () => {
-    void trace("woken by: controllerchange");
-    wakeNotificationRouteProcessor("controllerchange");
+    wakeNotificationRouteProcessor();
   });
 }
 
 listenForNotificationClicks();
 window.addEventListener("pageshow", () => {
-  void trace("woken by: pageshow");
-  wakeNotificationRouteProcessor("pageshow");
+  wakeNotificationRouteProcessor();
 });
 window.addEventListener("focus", () => {
-  void trace("woken by: focus");
-  wakeNotificationRouteProcessor("focus");
+  wakeNotificationRouteProcessor();
 });
 document.addEventListener("visibilitychange", () => {
   if(notificationPageIsActive()){
-    void trace("woken by: became visible");
-    wakeNotificationRouteProcessor("visible");
+    wakeNotificationRouteProcessor();
   }
 });
 
@@ -451,7 +377,7 @@ document.addEventListener("visibilitychange", () => {
    The heartbeat is only another wake signal; it cannot read, open or clear a
    route itself, so it cannot race the serialized processor. */
 window.setInterval(() => {
-  if(notificationPageIsActive()) wakeNotificationRouteProcessor("heartbeat");
+  if(notificationPageIsActive()) wakeNotificationRouteProcessor();
 }, 1000);
 
 /* ---------------- is anything too wide? ----------------
@@ -568,60 +494,6 @@ function renderAbout(){
       "Saved stories stay readable without a signal."
     : "No stories yet. Once the fetcher is running, headlines arrive here on their own.";
 
-  void renderTrace();
-}
-
-/* Temporary. Shows the recorded notification path underneath About, so it
-   can be read straight off the device. Remove with the rest of the trace. */
-async function renderTrace(){
-  const note = document.getElementById("about-note");
-  if(!note) return;
-
-  const host = note.parentNode;
-  let box = document.getElementById("trace-box");
-  if(!box){
-    box = document.createElement("div");
-    box.id = "trace-box";
-    box.style.marginTop = "1.5rem";
-    box.style.paddingTop = "1rem";
-    box.style.borderTop = "1px solid var(--rule)";
-    host.appendChild(box);
-  }
-
-  const log = await readTrace();
-  box.innerHTML = "";
-
-  const title = document.createElement("p");
-  title.style.fontWeight = "700";
-  title.style.margin = "0 0 0.5rem";
-  title.textContent = "Notification trace (temporary)";
-  box.appendChild(title);
-
-  if(!log.length){
-    const empty = document.createElement("p");
-    empty.style.margin = "0 0 0.75rem";
-    empty.textContent = "Nothing recorded yet.";
-    box.appendChild(empty);
-  }else{
-    log.forEach(line => {
-      const p = document.createElement("p");
-      p.style.margin = "0 0 0.25rem";
-      p.style.lineHeight = "1.4";
-      p.textContent = line;
-      box.appendChild(p);
-    });
-  }
-
-  const clear = document.createElement("button");
-  clear.type = "button";
-  clear.className = "reset-btn";
-  clear.style.marginTop = "0.75rem";
-  clear.textContent = "Clear trace";
-  onTap(clear, async () => {
-    await clearTrace();
-    await renderTrace();
-  });
-  box.appendChild(clear);
 }
 
 function watchNetwork(){
@@ -638,9 +510,6 @@ function watchNetwork(){
 /* ---------------- start ---------------- */
 
 async function start(){
-  await trace("--- app started, url " +
-    (launchNotificationArticle ? "has article=" + launchNotificationArticle : "plain") + " ---");
-
   const conn = await store.init();
 
   const [settings, savedSources, standard] = await Promise.all([
@@ -664,8 +533,7 @@ async function start(){
   notifications.setup({ announce, onTap });
 
   notificationClicksReady = true;
-  await trace("startup finished, processor now allowed to run");
-  wakeNotificationRouteProcessor("startup");
+  wakeNotificationRouteProcessor();
 
   const btn = document.getElementById("refresh");
   if(btn) onTap(btn, refresh);
