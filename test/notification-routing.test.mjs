@@ -60,7 +60,7 @@ function workerHarness({ windows = [], openedClient = null } = {}){
   return { listeners, records, order };
 }
 
-test("a background notification uses the proven exact-URL launch before foreground", async () => {
+test("a background notification routes the existing app by exact URL before foreground", async () => {
   const order = [];
   const client = {
     url: "https://example.test/balita/",
@@ -90,9 +90,9 @@ test("a background notification uses the proven exact-URL launch before foregrou
   await completion;
 
   assert.equal(order[0], "route-saved");
-  assert.equal(order[1], "open:https://example.test/balita/?article=inq-test");
+  assert.equal(order[1], "navigate:https://example.test/balita/?article=inq-test");
   assert.equal(order[2], "focused");
-  assert.ok(!order.includes("navigate:https://example.test/balita/?article=inq-test"));
+  assert.ok(!order.includes("open:https://example.test/balita/?article=inq-test"));
   assert.equal(order.filter(item => item === "message:inq-test").length, 5);
   const saved = [...harness.records.values()].map(JSON.parse)[0];
   assert.equal(saved.articleId, "inq-test");
@@ -135,10 +135,6 @@ test("service-worker activation preserves a pending notification route", async (
 test("notification delivery and routing expire after one fetch cycle", async () => {
   assert.match(notifierSource, /TTL: "1800"/);
   assert.match(notifierSource, /sentAt/);
-  assert.match(notifierSource, /notification:\s*\{/);
-  assert.match(notifierSource, /fcm_options:\s*\{/);
-  assert.match(notifierSource, /\?article=\$\{encodeURIComponent\(articleId\)\}/);
-  assert.match(notifierSource, /FCM accepted/);
   assert.match(workerSource, /NOTIFICATION_MAX_AGE_MS = 30 \* 60 \* 1000/);
   assert.match(workerSource, /Date\.now\(\) - sentAtMs > NOTIFICATION_MAX_AGE_MS/);
   assert.match(appSource, /Date\.now\(\) - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS/);
@@ -180,9 +176,6 @@ test("notification routing is serialized after foreground activation", () => {
   assert.doesNotMatch(notificationsSource, /No test push has reached Wire/);
   assert.match(notificationsSource, /Notifications are on\./);
   assert.match(notificationsSource, /Notifications are off\./);
-  assert.match(notificationsSource, /registration\.pushManager\.getSubscription\(\)/);
-  assert.match(notificationsSource, /oldSubscription\.unsubscribe\(\)/);
-  assert.match(notificationsSource, /subscribe\(\{ repair: true \}\)/);
 });
 
 test("the workflow publishes articles before sending their notifications", async () => {

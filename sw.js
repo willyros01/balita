@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.34";
+const VERSION = "wire-v0.17.31";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -28,7 +28,6 @@ const NOTIFICATION_ROUTE_URL = new URL(
   self.registration.scope
 ).href;
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
-
 const SHELL = [
   "./",
   "./index.html",
@@ -145,17 +144,15 @@ self.addEventListener("push", event => {
   }
   const path = articleId ? "?article=" + encodeURIComponent(articleId) : "./";
 
-  event.waitUntil((async () => {
-    await self.registration.showNotification("Wire · " + source, {
-      body: headline,
-      icon: new URL("icon-192.png", self.registration.scope).href,
-      badge: new URL("icon-192.png", self.registration.scope).href,
-      tag: articleId ? "wire-breaking-" + articleId : "wire-breaking",
-      renotify: false,
-      timestamp: Number.isFinite(sentAtMs) ? sentAtMs : Date.now(),
-      data: { articleId, path, sentAt }
-    });
-  })());
+  event.waitUntil(self.registration.showNotification("Wire · " + source, {
+    body: headline,
+    icon: new URL("icon-192.png", self.registration.scope).href,
+    badge: new URL("icon-192.png", self.registration.scope).href,
+    tag: articleId ? "wire-breaking-" + articleId : "wire-breaking",
+    renotify: false,
+    timestamp: Number.isFinite(sentAtMs) ? sentAtMs : Date.now(),
+    data: { articleId, path, sentAt }
+  }));
 });
 
 self.addEventListener("notificationclick", event => {
@@ -182,34 +179,40 @@ self.addEventListener("notificationclick", event => {
       }));
     }
 
-    /* Use the browser-owned launch operation for both cold and background
-       taps. This is the route that proved reliable on installed iOS apps:
-       navigate() can merely restore a suspended window at its old screen. */
     const windows = await self.clients.matchAll({
       type: "window",
       includeUncontrolled: true
     });
-    const existing = windows.find(client =>
+    let opened = windows.find(client =>
       client.url.startsWith(self.registration.scope)
     ) || null;
-    let opened = null;
-    try{ opened = await self.clients.openWindow(target.href); }
-    catch(err){ /* Fall back to the existing client below. */ }
 
-    if(!opened) opened = existing;
-    if(!opened) return null;
+    if(opened){
+      /* iOS can foreground a suspended Home Screen client without delivering
+         focus, pageshow, visibilitychange or postMessage to the resumed page.
+         Put the exact article id in the client URL first. That forces the same
+         durable startup route used by the proven cold-launch path; the page
+         still waits until it is visible before opening the reader. */
+      let routed = opened;
+      try{ routed = await opened.navigate(target.href) || opened; }
+      catch(err){ /* The saved cache route remains the fallback. */ }
 
-    await opened.focus();
-    if(articleId){
-      for(const delay of [0, 250, 500, 1000, 1500]){
-        if(delay) await new Promise(resolve => setTimeout(resolve, delay));
-        opened.postMessage({
-          type: "wire-open-article",
-          articleId,
-          sentAt: routeSentAt
-        });
+      await routed.focus();
+      if(articleId){
+        for(const delay of [0, 250, 500, 1000, 1500]){
+          if(delay) await new Promise(resolve => setTimeout(resolve, delay));
+          routed.postMessage({
+            type: "wire-open-article",
+            articleId,
+            sentAt: routeSentAt
+          });
+        }
       }
+      return routed;
     }
-    return opened;
+
+    /* Cold launch remains browser-owned and retains the exact article URL. */
+    try{ return await self.clients.openWindow(target.href); }
+    catch(err){ return null; }
   })());
 });

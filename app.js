@@ -241,20 +241,12 @@ async function nextNotificationRoute(){
    Lifecycle events and service-worker messages merely wake the serialized
    processor below. */
 async function consumeOneNotificationRoute(){
-  if(!notificationClicksReady){
-    return "waiting";
-  }
-  if(!notificationPageIsActive()){
-    return "waiting";
-  }
+  if(!notificationClicksReady || !notificationPageIsActive()) return "waiting";
 
   const route = await nextNotificationRoute();
-  if(!route){
-    return "empty";
-  }
+  if(!route) return "empty";
 
   const articleId = route.articleId;
-
   const sentAt = Date.parse(route.sentAt || "");
   if(Number.isFinite(sentAt) &&
      Date.now() - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS){
@@ -285,9 +277,7 @@ async function consumeOneNotificationRoute(){
     ctx.refresh();
   }
 
-  if(!notificationPageIsActive()){
-    return "waiting";
-  }
+  if(!notificationPageIsActive()) return "waiting";
 
   const article = state.articles.find(item => item.id === articleId);
   if(!article){
@@ -355,22 +345,17 @@ function listenForNotificationClicks(){
       wakeNotificationRouteProcessor();
     }
   });
-  navigator.serviceWorker.addEventListener("controllerchange", () => {
-    wakeNotificationRouteProcessor();
-  });
+  navigator.serviceWorker.addEventListener(
+    "controllerchange",
+    wakeNotificationRouteProcessor
+  );
 }
 
 listenForNotificationClicks();
-window.addEventListener("pageshow", () => {
-  wakeNotificationRouteProcessor();
-});
-window.addEventListener("focus", () => {
-  wakeNotificationRouteProcessor();
-});
+window.addEventListener("pageshow", wakeNotificationRouteProcessor);
+window.addEventListener("focus", wakeNotificationRouteProcessor);
 document.addEventListener("visibilitychange", () => {
-  if(notificationPageIsActive()){
-    wakeNotificationRouteProcessor();
-  }
+  if(notificationPageIsActive()) wakeNotificationRouteProcessor();
 });
 
 /* iOS does not guarantee a lifecycle event when an installed app thaws.
@@ -493,7 +478,6 @@ function renderAbout(){
     ? "Advertising, trackers and pop-ups are removed before stories reach this device. " +
       "Saved stories stay readable without a signal."
     : "No stories yet. Once the fetcher is running, headlines arrive here on their own.";
-
 }
 
 function watchNetwork(){
