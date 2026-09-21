@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.38";
+const VERSION = "wire-v0.17.39";
 
 /* Kept outside the shell cache so an app update cannot erase a
    notification's destination before the page has had a chance to
@@ -33,27 +33,33 @@ const NOTIFICATION_ROUTE_URL = new URL(
 ).href;
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
 
-/* ---------------- trace, round two ----------------
-   Minimal, on purpose. The last version split worker and page into
-   two logs because a since-removed heartbeat was flooding a shared
-   one — that flood cannot happen anymore, since nothing left writes
-   on a timer. So one small shared record is enough this time.
-   Read back and exported to a plain text file from the About panel
-   in app.js. Remove once this particular question is answered. */
-const TRACE_CACHE = "wire-trace-v3";
-const TRACE_URL = new URL(".wire-trace.json", self.registration.scope).href;
+/* ---------------- trace, round three ----------------
+   Round two used one shared JSON array: read it, add a line, write the
+   whole thing back. Two events firing close together — exactly what a
+   notification arriving and being checked for does — could each read
+   before the other had written, and whichever wrote second silently
+   erased the other's line. That is almost certainly why some real
+   traces came back with only one line in them; not a sign that nothing
+   else happened, a sign that this recorder lost what did.
+
+   Every call now writes to its own key instead, stamped with the time
+   and something to keep same-millisecond calls apart. Nothing is ever
+   read before writing, so there is nothing left to race. Reading the
+   trace back means listing every key under this prefix and sorting by
+   the timestamp embedded in each one. Remove once this question is
+   answered. */
+const TRACE_CACHE = "wire-trace-v4";
+const TRACE_PREFIX = new URL(".wire-trace-", self.registration.scope).href;
 
 async function trace(step){
   try{
     const cache = await caches.open(TRACE_CACHE);
-    let log = [];
-    const existing = await cache.match(TRACE_URL);
-    if(existing) log = await existing.json();
-    log.push(new Date().toISOString().slice(11, 23) + "  worker  " + step);
-    if(log.length > 100) log = log.slice(-100);
-    await cache.put(TRACE_URL, new Response(JSON.stringify(log), {
-      headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
-    }));
+    const stamp = Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
+    const t = new Date().toISOString().slice(11, 23);
+    await cache.put(TRACE_PREFIX + stamp + ".json", new Response(
+      JSON.stringify({ t, who: "worker", step }),
+      { headers: { "Content-Type": "application/json", "Cache-Control": "no-store" } }
+    ));
   }catch(err){ /* Never let recording break the thing being recorded. */ }
 }
 

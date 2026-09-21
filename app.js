@@ -163,55 +163,67 @@ const NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
 let notificationCheckRunning = false;
 let lastOpenedNotificationArticle = "";
 
-/* ---------------- trace, round two ----------------
-   Same shared record sw.js writes to. Read back and offered as a
-   plain text file to download, rather than a panel to screenshot —
-   a screenshot has cut off lines and mangled exact text more than
-   once in this project; a file cannot. Remove once this particular
-   question is answered. */
-const TRACE_CACHE = "wire-trace-v3";
-let traceUrl = "";
+/* ---------------- trace, round three ----------------
+   Round two used one shared JSON array, read then written back whole.
+   Two events firing close together — a notification arriving and
+   being checked for is exactly that — could each read before the
+   other had written, and whichever wrote second silently erased the
+   other's line. Real traces sent back with only one line in them were
+   very likely this, not evidence that nothing else happened.
+
+   Every call now writes to its own key, so nothing is ever read before
+   writing and there is nothing left to race. Reading means listing
+   every key under this prefix and sorting by the timestamp inside
+   each one. Remove once this question is answered. */
+const TRACE_CACHE = "wire-trace-v4";
+const TRACE_PREFIX_NAME = ".wire-trace-";
+let tracePrefix = "";
 
 async function traceTarget(){
-  if(traceUrl) return traceUrl;
+  if(tracePrefix) return tracePrefix;
+  let base = location.href;
   try{
     const reg = await navigator.serviceWorker?.getRegistration();
-    traceUrl = new URL(".wire-trace.json", reg?.scope || location.href).href;
-  }catch(err){
-    traceUrl = new URL(".wire-trace.json", location.href).href;
-  }
-  return traceUrl;
+    if(reg?.scope) base = reg.scope;
+  }catch(err){ /* fall back to location.href */ }
+  tracePrefix = new URL(TRACE_PREFIX_NAME, base).href;
+  return tracePrefix;
 }
 
 async function trace(step){
   try{
     if(!("caches" in window)) return;
-    const url = await traceTarget();
+    const prefix = await traceTarget();
     const cache = await caches.open(TRACE_CACHE);
-    let log = [];
-    const existing = await cache.match(url);
-    if(existing) log = await existing.json();
-    log.push(new Date().toISOString().slice(11, 23) + "  page    " + step);
-    if(log.length > 100) log = log.slice(-100);
-    await cache.put(url, new Response(JSON.stringify(log), {
-      headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
-    }));
+    const stamp = Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
+    const t = new Date().toISOString().slice(11, 23);
+    await cache.put(prefix + stamp + ".json", new Response(
+      JSON.stringify({ t, who: "page", step }),
+      { headers: { "Content-Type": "application/json", "Cache-Control": "no-store" } }
+    ));
   }catch(err){ /* Never let recording break the thing being recorded. */ }
 }
 
 async function readTrace(){
   try{
     if(!("caches" in window)) return [];
-    const url = await traceTarget();
     const cache = await caches.open(TRACE_CACHE);
-    const response = await cache.match(url);
-    if(!response) return [];
-    return (await response.json()).sort();
+    const requests = await cache.keys();
+    const entries = [];
+    for(const request of requests){
+      const response = await cache.match(request);
+      if(!response) continue;
+      const saved = await response.json();
+      if(saved?.t) entries.push(saved);
+    }
+    return entries
+      .sort((a, b) => a.t.localeCompare(b.t))
+      .map(e => e.t + "  " + e.who + "  " + e.step);
   }catch(err){ return []; }
 }
 
 async function clearTrace(){
-  try{ await caches.delete(TRACE_CACHE); traceUrl = ""; }
+  try{ await caches.delete(TRACE_CACHE); tracePrefix = ""; }
   catch(err){ /* nothing to clear */ }
 }
 

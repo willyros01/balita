@@ -1,32 +1,33 @@
-WIRE v0.17.38 — MAKES A SILENT FAILURE VISIBLE
+WIRE v0.17.39 — FIXES THE TRACE ITSELF, NOT THE NOTIFICATION LOGIC
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHY THIS ONE IS DIFFERENT
-The iPhone's notification banner displays correctly - that's proven now,
-twice. So the push itself is working. What's still unclear is whether
-the one small file it's supposed to write alongside that banner is
-failing to write at all, or writing fine and then being cleared before
-the tap happens. Those need different fixes, and there was no way to
-tell them apart before this.
+WHAT WAS ACTUALLY WRONG
+Not the notification handling. The recorder. Two events firing close
+together - which a real notification and the check for it always do -
+could each read the log before the other had finished writing it back,
+and whichever wrote second silently erased the other's line. That is
+almost certainly why some traces came back with only one line: not
+because nothing else happened, but because this recorder lost the
+evidence that it did.
 
-WHAT CHANGED
-If writing that file fails at the moment the notification arrives, the
-banner's own text will now say so directly - something like:
+Proven directly before shipping: the old design was made to fail with
+the exact same timing a real device produces, and it lost a line every
+time. The new design - each event writes to its own key instead of
+sharing one - was run through the identical test and lost nothing, even
+across the worker and the page writing at once.
 
-  Some headline  [route write failed: <the actual error>]
-
-If the banner looks completely normal, the write succeeded at that
-moment. The trace will also separately record whether the write
-attempted again at the tap itself succeeded or failed, which tells us
-whether writing itself is broken on that device or something is
-clearing a write that worked.
+WHAT THIS MEANS FOR THE LAST TWO TESTS
+The iPhone trace showed a full, clean, complete success - that one is
+real and can be trusted as is. The iPad trace showing only one line is
+now suspect, not confirmed - it may well have been a real success or a
+real failure, but this recorder's bug means we cannot tell from what it
+produced. Worth testing the iPad again with this version before drawing
+any conclusion from that one.
 
 WHAT TO DO
-Test on the iPhone specifically, the same way as before. Look closely
-at the banner text itself this time, not just the headline - if it
-says anything after the headline in brackets, that is the direct
-answer. Save and send the trace file either way.
+Same as always. Clear the trace, run the test, save the trace as a file
+afterward, send it here either way.
