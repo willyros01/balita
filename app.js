@@ -45,86 +45,6 @@ const ctx = {
   openSources: () => sources.show(ctx)
 };
 
-/* ---------------- durable trace ----------------
-   Temporary. The notification path had four ways to exit in silence,
-   which made it impossible to tell from the outside which one was
-   being taken. Each now says so.
-
-   The worker and the page each keep their OWN record now, in
-   separate keys of the same cache. The first version shared one
-   record, and this page's own once-a-second heartbeat was almost
-   certainly evicting the worker's few, crucial lines — tap received,
-   route written — long before anyone got to read them. They are
-   merged back together, in order, only when displayed.
-
-   The heartbeat itself also no longer writes a line on every tick
-   when it finds nothing — that was the actual source of the flood.
-   It now only speaks when something changes.
-
-   Remove all of this once the fault is found. */
-const TRACE_CACHE = "wire-trace-v2";
-const TRACE_WORKER_URL_NAME = ".wire-trace-worker.json";
-const TRACE_PAGE_URL_NAME = ".wire-trace-page.json";
-let traceWorkerUrl = "";
-let tracePageUrl = "";
-
-async function traceTargets(){
-  if(traceWorkerUrl && tracePageUrl){
-    return { worker: traceWorkerUrl, page: tracePageUrl };
-  }
-  let base = location.href;
-  try{
-    const reg = await navigator.serviceWorker?.getRegistration();
-    if(reg?.scope) base = reg.scope;
-  }catch(err){ /* fall back to location.href */ }
-  traceWorkerUrl = new URL(TRACE_WORKER_URL_NAME, base).href;
-  tracePageUrl = new URL(TRACE_PAGE_URL_NAME, base).href;
-  return { worker: traceWorkerUrl, page: tracePageUrl };
-}
-
-async function trace(step){
-  try{
-    if(!("caches" in window)) return;
-    const { page } = await traceTargets();
-    const cache = await caches.open(TRACE_CACHE);
-    let log = [];
-    const existing = await cache.match(page);
-    if(existing) log = await existing.json();
-    log.push(new Date().toISOString().slice(11, 23) + "  page    " + step);
-    if(log.length > 200) log = log.slice(-200);
-    await cache.put(page, new Response(JSON.stringify(log), {
-      headers: { "Content-Type": "application/json", "Cache-Control": "no-store" }
-    }));
-  }catch(err){ /* Never let recording break the thing being recorded. */ }
-}
-
-async function readTrace(){
-  try{
-    if(!("caches" in window)) return [];
-    const { worker, page } = await traceTargets();
-    const cache = await caches.open(TRACE_CACHE);
-    const [workerRes, pageRes] = await Promise.all([
-      cache.match(worker),
-      cache.match(page)
-    ]);
-    const workerLog = workerRes ? await workerRes.json() : [];
-    const pageLog = pageRes ? await pageRes.json() : [];
-    /* Both use the same HH:MM:SS.mmm clock, taken on the same device,
-       so a plain text sort interleaves them correctly. */
-    return [...workerLog, ...pageLog].sort();
-  }catch(err){ /* nothing recorded yet */ }
-  return [];
-}
-
-async function clearTrace(){
-  try{
-    if(!("caches" in window)) return;
-    await caches.delete(TRACE_CACHE);
-    traceWorkerUrl = "";
-    tracePageUrl = "";
-  }catch(err){ /* nothing to clear */ }
-}
-
 /* ---------------- stories ---------------- */
 
 /* Reload the stories from the server.
@@ -218,19 +138,50 @@ function registerWorker(){
   else window.addEventListener("load", install, { once: true });
 }
 
-let notificationClicksReady = false;
-let notificationRouteProcessing = false;
-let notificationRouteWakeRequested = false;
-let notificationRetryTimer = 0;
-let lastNotificationArticle = "";
-let launchNotificationConsumed = false;
+/* ---------------- breaking-news notifications ----------------
+
+   One routine, triggered only by the app becoming visible — never by
+   the tap directly, never by a timer. Tapping a notification, opening
+   the Home Screen icon, and switching back to an already-open tab all
+   lead here the same way.
+
+   Earlier versions tried to actively steer the moment of the tap
+   itself: forcing a specific navigation, relaying a live message to
+   the page, retrying on a delay ladder in case a frozen window woke
+   up partway through. All of that was scaffolding for a cause that
+   was not yet known. Once it was — that the tap handler can simply
+   not run at all after the app has sat backgrounded for a while —
+   none of that scaffolding could have helped anyway, since it all
+   depended on the very handler that might not run. What is reliable,
+   confirmed across every real test, is that the page always learns
+   when it becomes visible. So that is the only signal this depends
+   on now. The destination itself lives in durable storage, written
+   the moment the notification arrived — see sw.js — and is simply
+   read back here, once, whenever there is a reason to look. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
 const NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
-const launchNotificationArticle =
-  new URLSearchParams(location.search).get("article") || "";
+let notificationCheckRunning = false;
+let lastOpenedNotificationArticle = "";
 
-function notificationPageIsActive(){
-  return document.visibilityState === "visible";
+async function readNotificationRoute(){
+  if(!("caches" in window)) return null;
+
+  const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
+  const requests = await cache.keys();
+  for(const request of requests){
+    const response = await cache.match(request);
+    if(!response) continue;
+    const saved = await response.json();
+    const articleId = String(saved.articleId || "");
+    const sentAt = String(saved.sentAt || "");
+    if(articleId) return { articleId, sentAt, cache, request };
+  }
+  return null;
+}
+
+async function clearNotificationRoute(route){
+  if(!route?.cache || !route?.request) return;
+  await route.cache.delete(route.request);
 }
 
 async function loadNotificationArticle(articleId){
@@ -255,6 +206,8 @@ async function loadNotificationArticle(articleId){
 }
 
 function prepareNotificationReturn(article){
+  /* A notification is an entrance into this publisher's headline grouping,
+     not into whatever All Sources position happened to be open beforehand. */
   state.filter = article.source;
   ctx.show("feed");
   ctx.refresh();
@@ -264,230 +217,61 @@ function prepareNotificationReturn(article){
   if(card) window.scrollTo(0, Math.max(0, card.offsetTop - 16));
 }
 
-async function cachedNotificationRoute(){
-  if(!("caches" in window)) return null;
+async function checkForNotifiedArticle(){
+  if(notificationCheckRunning) return;
+  if(document.visibilityState !== "visible") return;
 
-  const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
-  const requests = await cache.keys();
-  for(const request of requests){
-    const response = await cache.match(request);
-    if(!response) continue;
-    const saved = await response.json();
-    const articleId = String(saved.articleId || "");
-    const sentAt = String(saved.sentAt || saved.clickedAt || "");
-    if(articleId) return { articleId, sentAt, cache, request };
-  }
-  return null;
-}
+  notificationCheckRunning = true;
+  try{
+    const route = await readNotificationRoute();
+    if(!route) return;
 
-async function clearNotificationRoute(route){
-  if(!route?.cache || !route?.request) return;
-
-  /* A newer notification may replace the single durable record while the
-     current article is opening. Never let the older transaction erase it. */
-  const response = await route.cache.match(route.request);
-  if(!response) return;
-  const current = await response.json();
-  if(String(current.articleId || "") === route.articleId){
-    await route.cache.delete(route.request);
-  }
-}
-
-function scheduleNotificationRetry(){
-  if(notificationRetryTimer) return;
-  notificationRetryTimer = window.setTimeout(() => {
-    notificationRetryTimer = 0;
-    wakeNotificationRouteProcessor();
-  }, 2500);
-}
-
-async function nextNotificationRoute(){
-  const saved = await cachedNotificationRoute();
-  if(saved) return saved;
-
-  if(!launchNotificationConsumed && launchNotificationArticle){
-    return {
-      articleId: launchNotificationArticle,
-      sentAt: "",
-      cache: null,
-      request: null,
-      launchFallback: true
-    };
-  }
-  return null;
-}
-
-/* The only function allowed to validate, load, open or clear a notification.
-   Lifecycle events and service-worker messages merely wake the serialized
-   processor below. */
-async function consumeOneNotificationRoute(reason){
-  /* The heartbeat calls this once a second for as long as the app is
-     open, purely as a routine check. Tracing every one of those,
-     finding nothing, was the actual flood that pushed the worker's
-     handful of real lines out of the record before anyone could read
-     them — not the worker writing too much, but the page writing far
-     too often about nothing happening. A real wake, from a tap or a
-     lifecycle event, is still always worth a line either way. */
-  const quiet = reason === "heartbeat";
-
-  if(!notificationClicksReady){
-    if(!quiet) await trace("EXIT: startup not finished yet");
-    return "waiting";
-  }
-  if(!notificationPageIsActive()){
-    if(!quiet) await trace("EXIT: page reports itself hidden");
-    return "waiting";
-  }
-
-  const route = await nextNotificationRoute();
-  if(!route){
-    if(!quiet) await trace("EXIT: no route found in the cache");
-    return "empty";
-  }
-
-  const articleId = route.articleId;
-  await trace("route read: " + articleId + (route.launchFallback ? " (from launch url)" : " (from cache)"));
-
-  const sentAt = Date.parse(route.sentAt || "");
-  if(Number.isFinite(sentAt) &&
-     Date.now() - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS){
-    const mins = Math.round((Date.now() - sentAt) / 60000);
-    await trace("EXIT: expired, sent " + mins + " min ago");
-    await clearNotificationRoute(route);
-    if(route.launchFallback) launchNotificationConsumed = true;
-    ctx.show("feed");
-    ctx.refresh();
-    announce("This notification has expired. Showing current headlines.", "warn");
-    return "expired";
-  }
-
-  if(articleId === lastNotificationArticle){
-    await trace("EXIT: already opened this one in this session");
-    await clearNotificationRoute(route);
-    if(route.launchFallback) launchNotificationConsumed = true;
-    return "duplicate";
-  }
-
-  /* This visible acknowledgement is emitted before any network or reader work,
-     so both cold launch and background resume expose the same deterministic
-     path to the user. */
-  await trace("reached the announce step");
-  announce("Opening the notified story\u2026", "undone");
-
-  if(!state.articles.some(article => article.id === articleId)){
-    await loadNotificationArticle(articleId);
-  }
-  if(!state.articles.some(article => article.id === articleId)){
-    await loadArticles(true);
-    ctx.refresh();
-  }
-
-  if(!notificationPageIsActive()){
-    await trace("EXIT: went hidden while loading");
-    return "waiting";
-  }
-
-  const article = state.articles.find(item => item.id === articleId);
-  if(!article){
-    await trace("EXIT: story not found in the feed, will retry");
-    scheduleNotificationRetry();
-    return "retry";
-  }
-
-  prepareNotificationReturn(article);
-  ctx.openArticle(articleId);
-  history.replaceState(null, "", location.pathname + location.hash);
-  lastNotificationArticle = articleId;
-  if(route.launchFallback) launchNotificationConsumed = true;
-  await clearNotificationRoute(route);
-  await trace("OPENED the article");
-  return "opened";
-}
-
-let notificationLastWakeReason = "";
-
-function wakeNotificationRouteProcessor(reason){
-  notificationLastWakeReason = reason || "";
-  notificationRouteWakeRequested = true;
-  if(notificationRouteProcessing) return;
-
-  notificationRouteProcessing = true;
-  void (async () => {
-    try{
-      while(notificationRouteWakeRequested){
-        notificationRouteWakeRequested = false;
-        if(!notificationClicksReady || !notificationPageIsActive()) break;
-
-        /* Allow iOS to finish restoring its previous screen before the single
-           transaction changes Wire's view. */
-        await new Promise(resolve => window.setTimeout(resolve, 200));
-        if(!notificationPageIsActive()){
-          notificationRouteWakeRequested = true;
-          break;
-        }
-
-        const result = await consumeOneNotificationRoute(notificationLastWakeReason);
-        if(result === "retry" || result === "waiting") break;
-
-        /* If a newer route arrived during this transaction, process it next,
-           in sequence, without allowing parallel navigation. */
-        const next = await nextNotificationRoute();
-        if(next && next.articleId !== lastNotificationArticle){
-          notificationRouteWakeRequested = true;
-        }
-      }
-    }catch(err){
-      await trace("EXIT: threw \u2014 " + (err?.message || err));
-      console.warn("Could not process the notification destination.", err);
-      scheduleNotificationRetry();
-    }finally{
-      notificationRouteProcessing = false;
-      if(notificationRouteWakeRequested &&
-         notificationClicksReady &&
-         notificationPageIsActive()){
-        window.setTimeout(wakeNotificationRouteProcessor, 0);
-      }
+    if(route.articleId === lastOpenedNotificationArticle){
+      await clearNotificationRoute(route);
+      return;
     }
-  })();
-}
 
-function listenForNotificationClicks(){
-  if(!("serviceWorker" in navigator)) return;
-
-  navigator.serviceWorker.addEventListener("message", event => {
-    if(event.data?.type === "wire-open-article"){
-      void trace("woken by: message from worker");
-      wakeNotificationRouteProcessor("message");
+    const sentAtMs = Date.parse(route.sentAt || "");
+    if(Number.isFinite(sentAtMs) && Date.now() - sentAtMs > NOTIFICATION_ROUTE_MAX_AGE_MS){
+      await clearNotificationRoute(route);
+      announce("This notification has expired. Showing current headlines.", "warn");
+      return;
     }
-  });
-  navigator.serviceWorker.addEventListener("controllerchange", () => {
-    void trace("woken by: controllerchange");
-    wakeNotificationRouteProcessor("controllerchange");
-  });
+
+    if(!state.articles.some(article => article.id === route.articleId)){
+      await loadNotificationArticle(route.articleId);
+    }
+    if(!state.articles.some(article => article.id === route.articleId)){
+      await loadArticles(true);
+      ctx.refresh();
+    }
+
+    const article = state.articles.find(item => item.id === route.articleId);
+    if(!article){
+      /* Not found even after a fresh fetch. Leave the route in place —
+         a later check may still find it once a newer fetch lands, and
+         the expiry rule above is what eventually retires it if it
+         never does. Nothing to announce here; announcing would repeat
+         on every visibility change while it remains missing. */
+      return;
+    }
+
+    prepareNotificationReturn(article);
+    ctx.openArticle(route.articleId);
+    lastOpenedNotificationArticle = route.articleId;
+    await clearNotificationRoute(route);
+  }catch(err){
+    console.warn("Could not check for a notified story.", err);
+  }finally{
+    notificationCheckRunning = false;
+  }
 }
 
-listenForNotificationClicks();
-window.addEventListener("pageshow", () => {
-  void trace("woken by: pageshow");
-  wakeNotificationRouteProcessor("pageshow");
-});
-window.addEventListener("focus", () => {
-  void trace("woken by: focus");
-  wakeNotificationRouteProcessor("focus");
-});
+window.addEventListener("pageshow", checkForNotifiedArticle);
+window.addEventListener("focus", checkForNotifiedArticle);
 document.addEventListener("visibilitychange", () => {
-  if(notificationPageIsActive()){
-    void trace("woken by: became visible");
-    wakeNotificationRouteProcessor("visible");
-  }
+  if(document.visibilityState === "visible") checkForNotifiedArticle();
 });
-
-/* iOS does not guarantee a lifecycle event when an installed app thaws.
-   The heartbeat is only another wake signal; it cannot read, open or clear a
-   route itself, so it cannot race the serialized processor. */
-window.setInterval(() => {
-  if(notificationPageIsActive()) wakeNotificationRouteProcessor("heartbeat");
-}, 1000);
 
 /* ---------------- is anything too wide? ----------------
 
@@ -518,12 +302,7 @@ function measureWidth(){
     });
 
     if(!guilty.length) return;
-
     console.warn("Wider than the screen:", guilty);
-
-    /* Console only now that the layout is behaving. If the drifting
-       screen ever returns this names the cause on the first look,
-       instead of five rounds of reasoning about it. */
   }, 600);
 }
 
@@ -590,7 +369,6 @@ function renderAbout(){
       const hidden = state.articles.length - shown;
       dd.textContent = shown + " of " + state.articles.length +
         (hidden ? "  \u2014 " + hidden + " hidden by your source list" : "");
-      if(hidden) dd.appendChild(document.createTextNode(""));
     }else{
       dd.textContent = value;
     }
@@ -602,61 +380,6 @@ function renderAbout(){
     ? "Advertising, trackers and pop-ups are removed before stories reach this device. " +
       "Saved stories stay readable without a signal."
     : "No stories yet. Once the fetcher is running, headlines arrive here on their own.";
-
-  void renderTrace();
-}
-
-/* Temporary. Shows the recorded notification path underneath About, so it
-   can be read straight off the device. Remove with the rest of the trace. */
-async function renderTrace(){
-  const note = document.getElementById("about-note");
-  if(!note) return;
-
-  const host = note.parentNode;
-  let box = document.getElementById("trace-box");
-  if(!box){
-    box = document.createElement("div");
-    box.id = "trace-box";
-    box.style.marginTop = "1.5rem";
-    box.style.paddingTop = "1rem";
-    box.style.borderTop = "1px solid var(--rule)";
-    host.appendChild(box);
-  }
-
-  const log = await readTrace();
-  box.innerHTML = "";
-
-  const title = document.createElement("p");
-  title.style.fontWeight = "700";
-  title.style.margin = "0 0 0.5rem";
-  title.textContent = "Notification trace (temporary)";
-  box.appendChild(title);
-
-  if(!log.length){
-    const empty = document.createElement("p");
-    empty.style.margin = "0 0 0.75rem";
-    empty.textContent = "Nothing recorded yet.";
-    box.appendChild(empty);
-  }else{
-    log.forEach(line => {
-      const p = document.createElement("p");
-      p.style.margin = "0 0 0.25rem";
-      p.style.lineHeight = "1.4";
-      p.textContent = line;
-      box.appendChild(p);
-    });
-  }
-
-  const clear = document.createElement("button");
-  clear.type = "button";
-  clear.className = "reset-btn";
-  clear.style.marginTop = "0.75rem";
-  clear.textContent = "Clear trace";
-  onTap(clear, async () => {
-    await clearTrace();
-    await renderTrace();
-  });
-  box.appendChild(clear);
 }
 
 function watchNetwork(){
@@ -673,9 +396,6 @@ function watchNetwork(){
 /* ---------------- start ---------------- */
 
 async function start(){
-  await trace("--- app started, url " +
-    (launchNotificationArticle ? "has article=" + launchNotificationArticle : "plain") + " ---");
-
   const conn = await store.init();
 
   const [settings, savedSources, standard] = await Promise.all([
@@ -698,9 +418,10 @@ async function start(){
   registerWorker();
   notifications.setup({ announce, onTap });
 
-  notificationClicksReady = true;
-  await trace("startup finished, processor now allowed to run");
-  wakeNotificationRouteProcessor("startup");
+  /* Covers a cold start: the app may have been launched fresh by a tap
+     while nothing was already running, and there is no other visibility
+     event coming to trigger the check on its own. */
+  void checkForNotifiedArticle();
 
   const btn = document.getElementById("refresh");
   if(btn) onTap(btn, refresh);

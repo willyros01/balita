@@ -1,50 +1,36 @@
-WIRE v0.17.33 — DIAGNOSTIC BUILD, ROUND TWO
+WIRE v0.17.35 — REBUILT, SIMPLER
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHAT CHANGED FROM v0.17.32
-The trace itself had a bug. The worker and the page were sharing one
-record, and the page's own once-a-second heartbeat was writing a line
-every single tick — including while the app just sits open before any
-test even starts. Within about a minute, that flood pushes the
-worker's handful of real lines — tap received, route written — clean
-out of the record. That is almost certainly why the last trace showed
-only page-side lines and nothing from the worker at all.
+WHAT THIS IS
+A rebuild, not a patch. The tap now does almost nothing beyond asking
+the OS to bring the app forward. No forced navigation, no message
+handed across to the page, no repeated attempts, no once-a-second
+polling. All of that has been removed.
 
-Two fixes, nothing else touched:
-  The worker and the page now keep separate records, so one cannot
-  push the other out.
-  The heartbeat no longer writes a line when it finds nothing, which
-  removes the flood at its source rather than just giving it more
-  room.
+WHAT REPLACES IT
+The destination is written to durable storage the instant a
+notification arrives — before it is even shown on screen. Reading it
+back is triggered only by the app becoming visible, for any reason:
+a tap, opening the icon, or switching back to an already-open tab.
+That single moment is the only thing this now depends on, and it is
+the one signal that fired reliably in every test run so far,
+including the one that otherwise failed completely.
 
-WHAT I EXPECT TO FIND THIS TIME
-If the worker actually runs when you tap a notification, its lines
-will now survive and show up first in the merged trace — tap
-received, route written, then either navigate accepted or navigate
-refused, then focus called.
-
-If there are still no worker lines at all, that is now a real,
-solid finding rather than a suspected recording bug: it would mean
-iOS is bringing the app forward without ever running the
-notification click handler in the worker, which points the fix
-somewhere upstream of anything in these files.
+WHAT DID NOT CHANGE
+The thirty minute expiry rule and its message. Loading a story
+directly if it is not yet in the feed. Everything about how sources,
+display and the rest of the app work.
 
 HOW TO TEST
-1. Upload the three files.
-2. Delete the Home Screen icon and re-add it.
-3. Open Wire, scroll to About, tap "Clear trace".
-4. Background the app.
-5. Send a test notification (Actions tab, Fetch news, Run workflow,
-   tick the test box).
-6. Tap the notification.
-7. Open Wire again if it did not already come to the front, tap the
-   refresh arrow at the top to redraw the panel, scroll to About.
+Same as before: delete and re-add the Home Screen icon, send a test
+alert from the Actions tab, background the app, tap the notification.
+Repeat a few times, including at least one wait past five minutes
+before tapping, since that is the case that mattered.
 
-WHAT TO SEND BACK
-Everything under "Notification trace" this time, from the top —
-not just the tail end. If it is long, a couple of screenshots
-scrolling down is fine.
+Nothing to read afterward this time — the diagnostic trace has been
+removed now that it has done its job. Just tell me whether it opened
+the right story.
