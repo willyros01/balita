@@ -139,12 +139,20 @@ async function subscribe({ repair = false } = {}){
 
 async function unsubscribe(){
   const { firestoreMod, messagingMod } = await loadFirebase();
-  const user = await deviceUser();
+  const [user, registration] = await Promise.all([deviceUser(), worker()]);
 
   await firestoreMod.deleteDoc(
     firestoreMod.doc(db, "pushSubscriptions", user.uid)
   );
   await messagingMod.deleteToken(messaging).catch(() => false);
+  /* deleteToken removes Firebase's address, but iOS can retain the dead
+     browser PushSubscription underneath it. If that subscription is reused,
+     FCM accepts messages that never reach the device. A deliberate Turn off
+     must remove both layers so the next Turn on creates a genuinely new
+     Apple Web Push address. */
+  const oldSubscription = await registration.pushManager.getSubscription();
+  if(oldSubscription) await oldSubscription.unsubscribe().catch(() => false);
+  saveAddressRevision("");
   saveEnabled(false);
 }
 
@@ -187,7 +195,9 @@ export function setup({ announce, onTap }){
         await unsubscribe();
         announce("Notifications turned off.", "done");
       }else{
-        await subscribe();
+        /* A Turn on tap is the required iOS user gesture. Always use it to
+           discard any surviving stale browser subscription before enrolling. */
+        await subscribe({ repair: true });
         announce("Notifications turned on.", "done");
       }
     }catch(err){

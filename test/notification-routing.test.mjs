@@ -180,6 +180,9 @@ test("notification routing is serialized after foreground activation", () => {
   assert.doesNotMatch(notificationsSource, /No test push has reached Wire/);
   assert.match(notificationsSource, /Notifications are on\./);
   assert.match(notificationsSource, /Notifications are off\./);
+  assert.match(notificationsSource, /registration\.pushManager\.getSubscription\(\)/);
+  assert.match(notificationsSource, /oldSubscription\.unsubscribe\(\)/);
+  assert.match(notificationsSource, /subscribe\(\{ repair: true \}\)/);
 });
 
 test("the workflow publishes articles before sending their notifications", async () => {
