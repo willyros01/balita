@@ -98,19 +98,33 @@ async function removeSubscription(accessToken, name){
 
 async function sendOne(accessToken, subscription, article, sourceName){
   const sentAt = new Date().toISOString();
+  const articleId = String(article.id);
+  const displaySource = String(sourceName || article.source).slice(0, 40);
+  const displayTitle = String(article.title).slice(0, 220);
+  const articleLink = `https://willyros01.github.io/balita/?article=${encodeURIComponent(articleId)}`;
   const message = {
     message: {
       token: subscription.token,
+      /* Keep the exact article identity in data for Wire's service worker,
+         and also provide a standard notification payload so iOS can treat
+         this as a user-visible Web Push instead of background-only data. */
+      notification: {
+        title: `Wire \u00b7 ${displaySource}`,
+        body: displayTitle
+      },
       data: {
-        articleId: String(article.id),
-        sourceName: String(sourceName || article.source).slice(0, 40),
-        title: String(article.title).slice(0, 220),
+        articleId,
+        sourceName: displaySource,
+        title: displayTitle,
         sentAt
       },
       webpush: {
         headers: {
           TTL: "1800",
           Urgency: "normal"
+        },
+        fcm_options: {
+          link: articleLink
         }
       }
     }
@@ -127,7 +141,12 @@ async function sendOne(accessToken, subscription, article, sourceName){
     console.warn("One notification delivery failed because FCM was unreachable.");
     return false;
   }
-  if(res.ok) return true;
+  if(res.ok){
+    let body = {};
+    try{ body = await res.json(); }catch(err){ /* acceptance is still valid */ }
+    console.log(`FCM accepted ${subscription.name.split("/").pop()}: ${body.name || "message name unavailable"}`);
+    return true;
+  }
 
   let body = {};
   try{ body = await res.json(); }catch(err){ /* status still identifies the failure */ }

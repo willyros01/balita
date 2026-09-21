@@ -135,6 +135,10 @@ test("service-worker activation preserves a pending notification route", async (
 test("notification delivery and routing expire after one fetch cycle", async () => {
   assert.match(notifierSource, /TTL: "1800"/);
   assert.match(notifierSource, /sentAt/);
+  assert.match(notifierSource, /notification:\s*\{/);
+  assert.match(notifierSource, /fcm_options:\s*\{/);
+  assert.match(notifierSource, /\?article=\$\{encodeURIComponent\(articleId\)\}/);
+  assert.match(notifierSource, /FCM accepted/);
   assert.match(workerSource, /NOTIFICATION_MAX_AGE_MS = 30 \* 60 \* 1000/);
   assert.match(workerSource, /Date\.now\(\) - sentAtMs > NOTIFICATION_MAX_AGE_MS/);
   assert.match(appSource, /Date\.now\(\) - sentAt > NOTIFICATION_ROUTE_MAX_AGE_MS/);
