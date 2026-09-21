@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.30";
+const VERSION = "wire-v0.17.31";
 /* Kept outside the shell cache so an app update cannot erase a notification
    tap before the page has had a chance to consume it. */
 const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
@@ -188,21 +188,27 @@ self.addEventListener("notificationclick", event => {
     ) || null;
 
     if(opened){
-      /* For a backgrounded installed app, preserve its client and only ask
-         iOS to foreground it. The page consumes the durable route after its
-         visibility lifecycle confirms that restoration has completed. */
-      await opened.focus();
+      /* iOS can foreground a suspended Home Screen client without delivering
+         focus, pageshow, visibilitychange or postMessage to the resumed page.
+         Put the exact article id in the client URL first. That forces the same
+         durable startup route used by the proven cold-launch path; the page
+         still waits until it is visible before opening the reader. */
+      let routed = opened;
+      try{ routed = await opened.navigate(target.href) || opened; }
+      catch(err){ /* The saved cache route remains the fallback. */ }
+
+      await routed.focus();
       if(articleId){
         for(const delay of [0, 250, 500, 1000, 1500]){
           if(delay) await new Promise(resolve => setTimeout(resolve, delay));
-          opened.postMessage({
+          routed.postMessage({
             type: "wire-open-article",
             articleId,
             sentAt: routeSentAt
           });
         }
       }
-      return opened;
+      return routed;
     }
 
     /* Cold launch remains browser-owned and retains the exact article URL. */
