@@ -1,0 +1,50 @@
+WIRE v0.17.33 — DIAGNOSTIC BUILD, ROUND TWO
+
+THREE FILES. Replace these on GitHub:
+  sw.js
+  app.js
+  version.js
+
+WHAT CHANGED FROM v0.17.32
+The trace itself had a bug. The worker and the page were sharing one
+record, and the page's own once-a-second heartbeat was writing a line
+every single tick — including while the app just sits open before any
+test even starts. Within about a minute, that flood pushes the
+worker's handful of real lines — tap received, route written — clean
+out of the record. That is almost certainly why the last trace showed
+only page-side lines and nothing from the worker at all.
+
+Two fixes, nothing else touched:
+  The worker and the page now keep separate records, so one cannot
+  push the other out.
+  The heartbeat no longer writes a line when it finds nothing, which
+  removes the flood at its source rather than just giving it more
+  room.
+
+WHAT I EXPECT TO FIND THIS TIME
+If the worker actually runs when you tap a notification, its lines
+will now survive and show up first in the merged trace — tap
+received, route written, then either navigate accepted or navigate
+refused, then focus called.
+
+If there are still no worker lines at all, that is now a real,
+solid finding rather than a suspected recording bug: it would mean
+iOS is bringing the app forward without ever running the
+notification click handler in the worker, which points the fix
+somewhere upstream of anything in these files.
+
+HOW TO TEST
+1. Upload the three files.
+2. Delete the Home Screen icon and re-add it.
+3. Open Wire, scroll to About, tap "Clear trace".
+4. Background the app.
+5. Send a test notification (Actions tab, Fetch news, Run workflow,
+   tick the test box).
+6. Tap the notification.
+7. Open Wire again if it did not already come to the front, tap the
+   refresh arrow at the top to redraw the panel, scroll to About.
+
+WHAT TO SEND BACK
+Everything under "Notification trace" this time, from the top —
+not just the tail end. If it is long, a couple of screenshots
+scrolling down is fine.
