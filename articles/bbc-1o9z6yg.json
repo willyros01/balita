@@ -3,7 +3,7 @@
   "source": "bbc",
   "title": "British man missing after diving into Lake Como to rescue teenager",
   "summary": "The UK Foreign Office says it is supporting the man's family and working with local authorities.",
-  "byline": "",
+  "byline": "Adam Goldsmith",
   "section": "",
   "published": "2026-09-22T10:29:40.000Z",
   "firstSeen": "2026-09-22T10:01:03.475Z",
@@ -15,11 +15,50 @@
   "blocks": [
     {
       "type": "p",
-      "text": "The UK Foreign Office says it is supporting the man's family and working with local authorities."
+      "text": "Italian authorities are searching for a British man who has gone missing after reportedly diving into Lake Como to rescue a teenager."
+    },
+    {
+      "type": "p",
+      "text": "The man was attempting to rescue two people - a father and son - who were in distress in the water near the San Siro municipality on the lake's western shore on Monday afternoon, Italian media report."
+    },
+    {
+      "type": "p",
+      "text": "The man and the family he was friends with had reportedly been on a boating trip at the time. The father and son were later rescued by another passing boat, but the man has not been seen again."
+    },
+    {
+      "type": "p",
+      "text": "The UK Foreign Office said: \"We are supporting the family of a British national missing in Italy and are in contact with the local authorities.\""
+    },
+    {
+      "type": "p",
+      "text": "Emergency services - including a helicopter, divers and boat units - have responded at the scene, where the lake's depth can reach more than 200m, according to Italian news agency Ansa."
+    },
+    {
+      "type": "p",
+      "text": "Rescuers are now preparing to deploy two underwater robots to scan the lake bed where the lake becomes too deep for divers, local news site Qui Como reports."
+    },
+    {
+      "type": "p",
+      "text": "The alarm was first raised around 13:30 local time (11:30 GMT) by the mother of the teenager, who was on a rented boat around 600m from shore with her other child, it said."
+    },
+    {
+      "type": "p",
+      "text": "The man - who dived in after the father and son after they experienced difficulty swimming and was described as being in his late 30s - began to sink and was not seen resurfacing, the local newspaper reports."
+    },
+    {
+      "type": "p",
+      "text": "The mother then called emergency services. The father and son were given medical treatment after suffering from the early stages of hypothermia, according to Qui Como."
+    },
+    {
+      "type": "p",
+      "text": "Lake Como, around 30 miles north of Milan, is a popular tourist hotspot, with more than 78,000 foreign visitors in 2024, local chamber of commerce research shows."
+    },
+    {
+      "type": "p",
+      "text": "However, water temperatures there can start to fall from September onward."
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct returned no extractable article text"
+  "source_of_text": "page"
 }
