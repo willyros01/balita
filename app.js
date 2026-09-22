@@ -142,10 +142,11 @@ function registerWorker(){
    Matches sw.js exactly. See there for why this replaced Cache
    Storage. */
 const DB_NAME = "wire-durable";
-const DB_VERSION = 2;   /* bumped so existing devices actually get the new store below */
+const DB_VERSION = 3;   /* bumped again to add the trace store below */
 const ROUTE_STORE = "route";
 const LAST_TAP_STORE = "lastTap";
 const LAST_TAP_KEY = "current";
+const TRACE_STORE = "trace";
 
 function openDB(){
   return new Promise((resolve, reject) => {
@@ -154,6 +155,7 @@ function openDB(){
       const db = req.result;
       if(!db.objectStoreNames.contains(ROUTE_STORE)) db.createObjectStore(ROUTE_STORE);
       if(!db.objectStoreNames.contains(LAST_TAP_STORE)) db.createObjectStore(LAST_TAP_STORE);
+      if(!db.objectStoreNames.contains(TRACE_STORE)) db.createObjectStore(TRACE_STORE);
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);
@@ -197,6 +199,78 @@ async function idbGetAll(store){
       await new Promise(r => setTimeout(r, 150));
     }
   }
+}
+
+/* ---------------- trace ----------------
+   Small and specific, not the full recording built during the earlier
+   investigation — just enough to see, in plain sentences, exactly
+   what the page finds when it checks, and whether the app was already
+   open beforehand or not. Each entry writes to its own key, which is
+   what makes it safe against several events firing close together.
+   Offered as a downloadable text file rather than a panel to
+   screenshot — a screenshot has cut off lines and mangled exact text
+   more than once in this project; a file cannot. Remove once this
+   question is answered. */
+async function trace(sentence){
+  try{
+    const stamp = Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
+    const t = new Date().toISOString().slice(11, 23);
+    await idbPut(TRACE_STORE, stamp, { t, who: "the page", sentence });
+  }catch(err){ /* Never let recording break the thing being recorded. */ }
+}
+
+async function idbPut(store, key, value){
+  for(const attempt of [0, 1]){
+    try{
+      const db = await openDB();
+      await new Promise((resolve, reject) => {
+        const tx = db.transaction(store, "readwrite");
+        tx.objectStore(store).put(value, key);
+        tx.oncomplete = () => resolve();
+        tx.onerror = () => reject(tx.error);
+      });
+      return;
+    }catch(err){
+      if(attempt === 1) throw err;
+      await new Promise(r => setTimeout(r, 150));
+    }
+  }
+}
+
+async function readTrace(){
+  try{
+    const rows = await idbGetAll(TRACE_STORE);
+    return rows
+      .map(r => r.value)
+      .filter(v => v?.t)
+      .sort((a, b) => a.t.localeCompare(b.t))
+      .map(v => v.t + "  \u2014  " + v.who + "  \u2014  " + v.sentence);
+  }catch(err){ return []; }
+}
+
+async function clearTrace(){
+  try{
+    const db = await openDB();
+    await new Promise((resolve, reject) => {
+      const tx = db.transaction(TRACE_STORE, "readwrite");
+      tx.objectStore(TRACE_STORE).clear();
+      tx.oncomplete = () => resolve();
+      tx.onerror = () => reject(tx.error);
+    });
+  }catch(err){ /* nothing to clear */ }
+}
+
+function downloadTrace(lines){
+  const blob = new Blob([lines.length ? lines.join("\n") + "\n" : "Nothing recorded yet.\n"],
+    { type: "text/plain" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "wire-trace.txt";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
 }
 
 /* ---------------- breaking-news notifications ----------------
@@ -332,6 +406,8 @@ async function checkForNotifiedArticle(){
 
   notificationCheckRunning = true;
   try{
+    await trace("The app became visible and is now checking for a notification to open.");
+
     /* A specific tap, if there is one, is handled on its own and
        exclusively — it does not fall through to the general queue,
        whether it opens successfully or turns out to be gone. Opening
@@ -339,11 +415,18 @@ async function checkForNotifiedArticle(){
        its own kind of wrong answer. */
     const tapped = await readLastTap();
     if(tapped){
+      await trace("Found a specifically-tapped article recorded: \u201c" + tapped.articleId +
+        "\u201d, sent at " + tapped.sentAt + ".");
       await clearLastTap();
-      await resolveAndOpenRoute(tapped);
+      const opened = await resolveAndOpenRoute(tapped);
+      await trace(opened
+        ? "Opened article \u201c" + tapped.articleId + "\u201d successfully \u2014 this was the specifically-tapped one."
+        : "Could not open the specifically-tapped article \u201c" + tapped.articleId + "\u201d (expired, already open, or no longer found).");
       await clearNotificationRoute(tapped);
       return;
     }
+
+    await trace("No specifically-tapped article was recorded \u2014 falling back to the general list, oldest first.");
 
     /* No specific tap pending — the app was opened generally, so the
        oldest still-waiting story is the best available answer. Expired
@@ -352,13 +435,17 @@ async function checkForNotifiedArticle(){
        but only one story is actually opened per check. */
     while(true){
       const route = await readNextNotificationRoute();
-      if(!route) return;
+      if(!route){ await trace("The general list is empty. Nothing to open."); return; }
 
       const opened = await resolveAndOpenRoute(route);
+      await trace(opened
+        ? "Opened article \u201c" + route.articleId + "\u201d from the general list."
+        : "Article \u201c" + route.articleId + "\u201d from the general list could not be opened (expired, already open, or no longer found) \u2014 trying the next one.");
       await clearNotificationRoute(route);
       if(opened) return;
     }
   }catch(err){
+    await trace("Something threw an error while checking \u2014 " + String(err?.message || err));
     console.warn("Could not check for a notified story.", err);
   }finally{
     notificationCheckRunning = false;
@@ -506,6 +593,52 @@ function renderAbout(){
     ? "Advertising, trackers and pop-ups are removed before stories reach this device. " +
       "Saved stories stay readable without a signal."
     : "No stories yet. Once the fetcher is running, headlines arrive here on their own.";
+
+  void renderTraceButtons();
+}
+
+/* Temporary. Two small buttons under About: one saves the recorded
+   trace as a plain text file, the other clears it. Remove with the
+   rest of the trace once this question is answered. */
+async function renderTraceButtons(){
+  const note = document.getElementById("about-note");
+  if(!note) return;
+
+  const host = note.parentNode;
+  let box = document.getElementById("trace-box");
+  if(!box){
+    box = document.createElement("div");
+    box.id = "trace-box";
+    box.style.marginTop = "1.5rem";
+    box.style.paddingTop = "1rem";
+    box.style.borderTop = "1px solid var(--rule)";
+    host.appendChild(box);
+
+    const title = document.createElement("p");
+    title.style.fontWeight = "700";
+    title.style.margin = "0 0 0.6rem";
+    title.textContent = "Notification trace (temporary)";
+    box.appendChild(title);
+
+    const row = document.createElement("div");
+    row.style.display = "flex";
+    row.style.gap = "0.6rem";
+
+    const save = document.createElement("button");
+    save.type = "button";
+    save.className = "reset-btn";
+    save.textContent = "Save trace as a file";
+    onTap(save, async () => downloadTrace(await readTrace()));
+
+    const clear = document.createElement("button");
+    clear.type = "button";
+    clear.className = "reset-btn";
+    clear.textContent = "Clear trace";
+    onTap(clear, async () => { await clearTrace(); announce("Trace cleared.", "done"); });
+
+    row.append(save, clear);
+    box.appendChild(row);
+  }
 }
 
 function watchNetwork(){

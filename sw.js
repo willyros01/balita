@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.47";
+const VERSION = "wire-v0.17.48";
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
 
 /* ---------------- durable storage: IndexedDB ----------------
@@ -34,10 +34,11 @@ const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
    built specifically for a page's own durable data and is shared
    between this worker and the page through the same database. */
 const DB_NAME = "wire-durable";
-const DB_VERSION = 2;   /* bumped so existing devices actually get the new store below */
+const DB_VERSION = 3;   /* bumped again to add the trace store below */
 const ROUTE_STORE = "route";
 const LAST_TAP_STORE = "lastTap";
 const LAST_TAP_KEY = "current";
+const TRACE_STORE = "trace";
 
 function openDB(){
   return new Promise((resolve, reject) => {
@@ -46,10 +47,27 @@ function openDB(){
       const db = req.result;
       if(!db.objectStoreNames.contains(ROUTE_STORE)) db.createObjectStore(ROUTE_STORE);
       if(!db.objectStoreNames.contains(LAST_TAP_STORE)) db.createObjectStore(LAST_TAP_STORE);
+      if(!db.objectStoreNames.contains(TRACE_STORE)) db.createObjectStore(TRACE_STORE);
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);
   });
+}
+
+/* ---------------- trace ----------------
+   Small and specific, not the full recording built during the earlier
+   investigation. Each entry writes to its own key rather than a
+   shared record, which is what makes it safe against several events
+   firing close together — nothing is ever read before being written,
+   so there is nothing to race. Written as full, plain sentences on
+   purpose, so the file can be read directly without translating
+   anything. Remove once this question is answered. */
+async function trace(sentence){
+  try{
+    const stamp = Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
+    const t = new Date().toISOString().slice(11, 23);
+    await idbPut(TRACE_STORE, stamp, { t, who: "the worker", sentence });
+  }catch(err){ /* Never let recording break the thing being recorded. */ }
 }
 
 async function idbPut(store, key, value){
@@ -223,6 +241,8 @@ self.addEventListener("push", event => {
   }
 
   event.waitUntil((async () => {
+    await trace("A push arrived for article \u201c" + articleId + "\u201d, headline: " + headline);
+
     try{ await writeNotificationRoute(articleId, sentAt); }
     catch(err){ /* The tap below writes it again as a second chance. */ }
 
@@ -235,6 +255,8 @@ self.addEventListener("push", event => {
       timestamp: Number.isFinite(sentAtMs) ? sentAtMs : Date.now(),
       data: { articleId, sentAt }
     });
+
+    await trace("Showed the banner for article \u201c" + articleId + "\u201d.");
   })());
 });
 
@@ -243,8 +265,19 @@ self.addEventListener("notificationclick", event => {
 
   const articleId = String(event.notification.data?.articleId || "");
   const sentAt = String(event.notification.data?.sentAt || "");
+  const tag = String(event.notification.tag || "");
 
   event.waitUntil((async () => {
+    /* This is the single most important line in this whole trace. It
+       records exactly what the operating system itself claims about
+       the banner that was just tapped — not what this code assumes,
+       what the OS actually handed over. If the wrong article is ever
+       named here, for a tap that was clearly on a different banner,
+       that points at something happening before this code ever runs
+       at all, not at anything in these files. */
+    await trace("A notification was tapped. The operating system says this banner belongs to article \u201c" +
+      articleId + "\u201d, tagged \u201c" + tag + "\u201d, originally sent at " + sentAt + ".");
+
     /* Redundant with the write at arrival above — cheap, and a second
        independent chance costs nothing even when it is usually
        unnecessary by the time a tap happens. */
@@ -261,8 +294,11 @@ self.addEventListener("notificationclick", event => {
        are pressed in quick succession the last one pressed is the one
        honoured, matching what tapping a specific thing means. */
     if(articleId){
-      try{ await idbPut(LAST_TAP_STORE, LAST_TAP_KEY, { articleId, sentAt }); }
-      catch(err){ /* the general queue is still there as a fallback */ }
+      try{
+        await idbPut(LAST_TAP_STORE, LAST_TAP_KEY, { articleId, sentAt });
+        await trace("Recorded article \u201c" + articleId + "\u201d as the one specifically tapped, for the page to read.");
+      }
+      catch(err){ await trace("Could not record the tapped article \u2014 " + String(err?.message || err)); }
     }
 
     /* A cold launch reliably forces a real page load; asking an
@@ -279,12 +315,18 @@ self.addEventListener("notificationclick", event => {
       client.url.startsWith(self.registration.scope)
     );
 
-    if(!existing) return self.clients.openWindow(self.registration.scope);
+    if(!existing){
+      await trace("No app window was already open \u2014 this is a COLD START. Opening a brand new one.");
+      return self.clients.openWindow(self.registration.scope);
+    }
 
+    await trace("Found an app window already open \u2014 this is a BACKGROUND-TO-FOREGROUND resume, not a cold start. Asking it to reload and come forward.");
     try{
       const reloaded = await existing.navigate(self.registration.scope);
+      await trace("The reload was accepted.");
       return (reloaded || existing).focus();
     }catch(err){
+      await trace("The reload was refused \u2014 " + String(err?.message || err) + ". Focusing the window as it already was instead.");
       return existing.focus();
     }
   })());

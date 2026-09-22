@@ -1,44 +1,38 @@
-WIRE v0.17.47 — CLOSES A FIRST-TAP-OF-A-FRESH-SESSION GAP
+WIRE v0.17.48 — A SMALL, READABLE TRACE, FOCUSED ON THIS ONE QUESTION
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHAT YOUR LAST TEST SHOWED
-A different, more specific pattern than before: the very first tap
-after a fresh install landed on the wrong story, but every tap after
-it in that same session was correct - true in both the cold start and
-background tests you ran.
+WHAT THIS RECORDS
+Not the full system from before - just what's needed to see plainly
+whether the phone itself is handing over the wrong information for a
+specific tap, or something in these files is. Every line is written
+as a complete sentence, not a code fragment, so it can be read
+directly.
 
-MY HONEST READ ON THIS ONE
-I can't prove this one the same way the last two were proven, since it
-depends on exactly how the phone behaves in a narrow moment I can't
-fully reproduce here. But there is a real, legitimate risk that fits
-precisely: the durable storage this all depends on doesn't exist until
-something first tries to use it, and right now that first use could
-end up happening inside the notification handler itself, while
-several are arriving in the background - a moment already known,
-throughout this project, to be far more constrained than an ordinary
-one. Everything after that first moment works, because by then the
-storage already exists.
+The single most important line: the moment any notification is
+tapped, it records exactly what the operating system itself says that
+banner belongs to - the article id, the tag, the time it was
+originally sent. Not what the app assumes. What the phone actually
+hands over. If that line ever names the wrong article for a tap that
+was clearly on a different banner, that points at something outside
+these files entirely.
 
-WHAT CHANGED
-The storage is now created up front, during the app's own
-installation - a moment the browser is documented to actually give
-real time to, rather than leaving its first creation to happen under
-pressure later. On top of that, every write and read now quietly
-retries once, a fraction of a second later, if anything goes wrong the
-first time - cheap insurance either way.
+It also marks plainly, in words, whether each tap found the app
+already open (a background-to-foreground resume) or found nothing
+running at all (a cold start) - since that distinction mattered to
+what you're checking.
 
-Re-ran every existing test against this version before packaging it -
-the ordering, the clearing, the specific-tap priority - all still
-behave exactly as before with this added.
+WHERE TO READ IT
+The About panel again has two small buttons at the bottom - Save
+trace as a file, and Clear trace. Same as before: tap Clear trace
+before a test, run the test, then Save trace as a file afterward and
+send that file here.
 
-WHAT TO DO
-Same full routine - kill the app, delete the icon, add it back fresh.
-The real test is the one that just failed: right after a truly fresh
-install, before opening the app at all, get three notifications
-waiting and tap one that isn't the newest. If this holds up now, on
-the very first attempt of a brand new session, that's the confirmation
-this needed.
+HOW TO TEST
+Same full routine as always - kill the app, delete the icon, add it
+back fresh. Get three notifications waiting, tap the one that isn't
+oldest or newest, save the trace, send it - whether it works this
+time or not.
