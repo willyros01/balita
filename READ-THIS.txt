@@ -1,54 +1,37 @@
-WIRE v0.17.45 — TAPPING A SPECIFIC NOTIFICATION NOW OPENS THAT ONE
+WIRE v0.17.46 — ONE TAP, ONE ACTION
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-THE BUG, EXACTLY AS REPORTED
-With two or more notifications sitting on the device at once, tapping
-any of them always opened whichever story happened to be oldest in the
-queue, not the one actually pressed.
+WHAT WAS ACTUALLY HAPPENING
+Read your report closely and reproduced it directly before touching
+anything. When the app comes forward, more than one signal often
+fires for that same single moment - this project's traces have shown
+that repeatedly throughout the whole investigation. Each of those
+signals was being allowed to take its own independent turn. So one
+tap could trigger two or three actions back to back, faster than any
+of them could be seen - the first one correctly opening what you
+actually tapped, and each one after it falling back to the general
+queue and opening something else, before you ever got to see the
+first result.
 
-WHY THAT WAS HAPPENING
-The queue was built to handle a real problem - the app not being sure
-which banner was pressed when it couldn't reliably wake in time to
-find out. So it played it safe and always opened the oldest waiting
-story instead of guessing. But a tap actually does carry one piece of
-certain information: the service worker always knows precisely which
-banner was pressed. That certainty was being thrown away in favor of
-the same safe guess every time, even when it wasn't needed at all.
+Confirmed directly: tapping the newest of three waiting stories, with
+two of these signals firing close together, opens the newest one
+first - then, an instant later, a second action opens the oldest one
+instead, which is the only thing that was ever actually visible.
 
 THE FIX
-The moment a notification is tapped, exactly which one is recorded
-separately from the general queue. That specific record now always
-takes priority - tapping a banner opens that banner's story, full
-stop. The general oldest-first queue still exists, but only comes
-into play when there was no specific tap to begin with - opening the
-app from its icon, or switching back to it without pressing any
-particular notification.
+However many of these signals fire for one real moment of the app
+becoming visible, only one actual check now runs for it - the rest
+are recognised as the same moment and folded into that single check
+rather than each getting their own turn. Proven directly: three rapid
+signals now produce exactly one action, while a genuinely separate,
+later return to the app still gets its own, completely unaffected.
 
-If the specific story that was tapped has expired, or can no longer
-be found, that is now what gets reported - not some other story
-pulled from the queue instead.
-
-ONE TECHNICAL DETAIL WORTH KNOWING
-This required bumping the internal version number of the durable
-database itself, separate from Wire's own version number. That is
-what makes the new storage actually appear on a device that already
-has the app installed from before - tested directly, including
-confirming any story you already had waiting survives the upgrade
-untouched.
-
-Tested directly before packaging: tapping the newer of two waiting
-notifications now correctly opens that one rather than the older one
-sitting behind it; tapping an expired one reports it as expired rather
-than silently opening something else; and opening the app generally,
-with no specific tap involved, still falls back to the oldest waiting
-story exactly as before.
-
-HOW TO TEST
-Same full routine as always - kill the app, delete the icon, add it
-back fresh. To actually see this fixed, you'll need at least two
-notifications waiting at once, then tap the one that isn't oldest and
-confirm it opens correctly.
+WHAT TO DO TO SEE IT
+Same routine as always - kill the app, delete the icon, add it back
+fresh. To actually test this, you'll need three notifications waiting
+at once again, the same as before - tap the newest one and confirm it
+opens correctly and stays there, then try the others.

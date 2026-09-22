@@ -347,10 +347,40 @@ async function checkForNotifiedArticle(){
   }
 }
 
-window.addEventListener("pageshow", checkForNotifiedArticle);
-window.addEventListener("focus", checkForNotifiedArticle);
+/* One tap, one action — nothing more.
+
+   pageshow, focus and visibilitychange can all fire within a few
+   milliseconds of each other for a single moment of the app becoming
+   visible; this project's own traces have shown that repeatedly. The
+   busy-flag on checkForNotifiedArticle stops those from running at
+   the same time as each other, but it does nothing to stop a second
+   one from taking its own full turn immediately after the first
+   finishes — and a second turn, with the tap's own signal already
+   consumed by the first, falls back to the general queue and opens
+   something else entirely. One tap could open two or three articles
+   in a row, faster than any of them could actually be seen, and only
+   the last one ever became visible.
+
+   Coalescing every trigger within a short window into a single actual
+   check closes that gap: however many of these fire for one real
+   moment of becoming visible, only one check ever runs for it. A
+   hundred milliseconds is far longer than these have ever been
+   observed to spread apart, and far too short for a person to
+   perceive as a delay. */
+let notificationCheckScheduled = false;
+function scheduleNotificationCheck(){
+  if(notificationCheckScheduled) return;
+  notificationCheckScheduled = true;
+  setTimeout(() => {
+    notificationCheckScheduled = false;
+    checkForNotifiedArticle();
+  }, 100);
+}
+
+window.addEventListener("pageshow", scheduleNotificationCheck);
+window.addEventListener("focus", scheduleNotificationCheck);
 document.addEventListener("visibilitychange", () => {
-  if(document.visibilityState === "visible") checkForNotifiedArticle();
+  if(document.visibilityState === "visible") scheduleNotificationCheck();
 });
 
 /* ---------------- is anything too wide? ----------------
@@ -507,7 +537,7 @@ async function start(){
   registerWorker();
   notifications.setup({ announce, onTap });
 
-  void checkForNotifiedArticle();
+  void scheduleNotificationCheck();
 
   const btn = document.getElementById("refresh");
   if(btn) onTap(btn, refresh);
