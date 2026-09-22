@@ -1,40 +1,51 @@
-WIRE v0.17.43 — MOVED THE DURABLE STORAGE ITSELF
+WIRE v0.17.44 — CLEANUP + CLEAR "STORY GONE" MESSAGE + STACKING SUPPORT
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-THIS IS ONE CONSOLIDATED CHANGE, NOT ANOTHER SINGLE-QUESTION BUILD
-The last test proved something concrete: the write succeeded and was
-confirmed present immediately, yet was gone later, specifically after
-the app had been backgrounded rather than freshly launched. That rules
-out the write failing. What's left is something clearing it afterward.
+TWO OF YOUR THREE REQUESTS ARE FULLY DONE HERE. THE THIRD NEEDS ONE
+MORE STEP FROM ME - SEE THE NOTE AT THE BOTTOM.
 
-Rather than add another trace question on top of the same storage,
-this moves the one thing that actually matters - where the
-notification's destination and the trace both live - to a different
-storage system entirely. Cache Storage exists for network responses
-and is something the browser reclaims when convenient. IndexedDB
-exists specifically to hold a page's own data permanently, and is
-treated far more carefully. Everything else already built stays
-exactly as it was: the write-at-arrival design, the immediate
-read-back check reported in the banner, the reload-before-focus
-change to the tap, the start()-guard fix. Only the storage underneath
-all of it has changed.
+1) TRACE REMOVED
+Every diagnostic added while chasing the background-resume bug is
+gone - the buttons in About, the recording itself, the extra text
+that could appear in a notification banner. The app is back to a
+clean, quiet state. It did its job.
 
-Also added in the same build: a request asking the browser to treat
-this site's storage as important enough not to clear casually. Safari
-does not always honor this, but it costs nothing to ask, and belongs
-here rather than as a reason for a later build.
+2) CLEAR MESSAGE WHEN A STORY IS GONE
+Previously, if a notification pointed to a story that could no longer
+be found - replaced, removed, or updated under a different id at the
+source - the app silently landed on the main headline list with no
+explanation at all. It now says plainly:
 
-The helper code itself was tested directly against a real IndexedDB
-implementation before this was packaged - round trips, overwrites,
-ten concurrent writes firing close together the same way real events
-do, and reading from an independently-opened connection the way the
-worker and the page each will. All of it passed.
+  "That story is no longer available. It may have been updated
+   or replaced."
+
+3) STACKING - THE CLIENT SIDE IS DONE, VERIFIED, READY
+The single overwritable slot that held one pending notification's
+destination is now a real queue, keyed by each story's own id rather
+than one shared spot. Several genuinely breaking stories can now
+arrive and wait their turn without one silently erasing another
+before it's ever opened. Tested directly against the actual logic
+before shipping - multiple stacked entries coexisting, correct
+oldest-first ordering, and selective clearing all confirmed working.
+
+When the app comes forward, it opens the single oldest story still
+waiting, then leaves anything else queued for the next time it comes
+forward - rather than jumping through several articles at once.
+
+WHAT STILL NEEDS DOING, ON MY END, NOT YOURS
+The other half of "waive the 30 minute rule" lives on the sending
+side - the part that currently refuses to send more than one alert
+in any half hour. GitHub's tools were unavailable to me for this
+particular reply, so I could not safely read that file before editing
+it, and I did not want to guess at a change to the actual sending
+logic. That one file's change is still owed and will come as soon as
+I can read it properly first.
 
 WHAT TO DO
-Same full routine as always - kill the app, delete the icon, add it
-back fresh. One background test. Watch the banner text, and save and
-send the trace either way.
+Same routine as always - kill the app, delete the icon, add it back
+fresh. This one is safe to test at leisure; nothing here depends on
+timing the way the background-resume fix did.

@@ -19,8 +19,22 @@ const APPROVED_SOURCES = new Set([
 const INQUIRER_SOURCES = new Set(["inq", "inqn", "inqg"]);
 const MARKER = /^\s*(?:\[(?:breaking|just\s+in|urgent|live)\]|(?:breaking|just\s+in|urgent|live)\s*[:\u2014\u2013-])\s*/i;
 
-const MAX_PER_RUN = 1;
-const MIN_ALERT_GAP_MS = 30 * 60 * 1000;
+/* A generous backstop, not a throttle. The marker above is the real
+   gate — a publisher must explicitly tag its own headline as
+   breaking, urgent, live, or just in, across only eight approved
+   sources, so genuinely qualifying stories are already rare. This
+   exists only to catch a true runaway (a feed glitch re-marking many
+   old headlines at once), not to hold back real, distinct breaking
+   stories that legitimately arrive close together.
+
+   The previous version also refused to send more than one alert in
+   any thirty-minute window, regardless of how many stories qualified,
+   which was reasonable when the client could only ever track one
+   pending notification at a time. The client now keeps a proper
+   queue, keyed by each story's own id, so several genuine alerts can
+   wait their turn without one erasing another. That rule is gone. */
+const MAX_PER_RUN = 10;
+const MAX_SENT_LOG = 500;
 const MAX_SEEN_IDS = 2000;
 
 export function qualifies(article){
@@ -155,11 +169,6 @@ async function main(){
     return;
   }
 
-  const now = Date.now();
-  state.sent = state.sent.filter(item => {
-    const at = new Date(item.sentAt).getTime();
-    return Number.isFinite(at) && now - at < MIN_ALERT_GAP_MS;
-  });
   const seen = new Set(state.seenIds);
   const testInquirer = process.env.WIRE_TEST_INQUIRER === "1";
   const candidates = testInquirer
@@ -170,18 +179,19 @@ async function main(){
     : strictCandidates;
   const newCandidates = candidates.filter(a => a.id && !seen.has(a.id));
 
-  /* Every candidate is marked seen now, even when a quota suppresses it.
-     This intentionally drops excess alerts instead of building a backlog. */
+  /* Every candidate is marked seen now, even when the backstop above
+     suppresses it. This intentionally drops any true excess instead
+     of building a backlog that would otherwise dump all at once on a
+     later run. */
   for(const article of newCandidates) seen.add(article.id);
   state.seenIds = [...seen].slice(-MAX_SEEN_IDS);
 
-  const available = state.sent.length ? 0 : MAX_PER_RUN;
-  const selected = newCandidates.slice(0, available);
+  const selected = newCandidates.slice(0, MAX_PER_RUN);
 
   if(!selected.length){
     await saveState(state);
     console.log(newCandidates.length
-      ? `Suppressed ${newCandidates.length} marked story or stories under the alert limits.`
+      ? `Suppressed ${newCandidates.length} marked story or stories over the per-run backstop.`
       : testInquirer
         ? "No unseen Inquirer story is available for the manual test."
         : "No new strictly marked breaking stories.");
@@ -219,6 +229,11 @@ async function main(){
       console.warn("The marked alert could not be delivered to any subscribed device.");
     }
   }
+
+  /* No longer read for anything, since sending is no longer gated by
+     how recently something last went out. Kept only as a bounded,
+     human-readable log of what has actually been sent. */
+  state.sent = state.sent.slice(-MAX_SENT_LOG);
 
   await saveState(state);
 }

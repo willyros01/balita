@@ -138,17 +138,12 @@ function registerWorker(){
   else window.addEventListener("load", install, { once: true });
 }
 
-/* ---------------- durable storage, moved to IndexedDB ----------------
-   Matches sw.js exactly. Direct evidence showed Cache Storage would
-   accept a write, confirm it back immediately, and still lose it later
-   — specifically after the app had been sitting in the background
-   rather than freshly launched. IndexedDB is a different storage system
-   built for small durable records like this one, shared between this
-   page and the worker through the same database. */
+/* ---------------- durable storage: IndexedDB ----------------
+   Matches sw.js exactly. See there for why this replaced Cache
+   Storage. */
 const DB_NAME = "wire-durable";
 const DB_VERSION = 1;
 const ROUTE_STORE = "route";
-const TRACE_STORE = "trace";
 
 function openDB(){
   return new Promise((resolve, reject) => {
@@ -156,30 +151,19 @@ function openDB(){
     req.onupgradeneeded = () => {
       const db = req.result;
       if(!db.objectStoreNames.contains(ROUTE_STORE)) db.createObjectStore(ROUTE_STORE);
-      if(!db.objectStoreNames.contains(TRACE_STORE)) db.createObjectStore(TRACE_STORE);
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);
   });
 }
 
-async function idbPut(store, key, value){
+async function idbDelete(store, key){
   const db = await openDB();
   return new Promise((resolve, reject) => {
     const tx = db.transaction(store, "readwrite");
-    tx.objectStore(store).put(value, key);
+    tx.objectStore(store).delete(key);
     tx.oncomplete = () => resolve();
     tx.onerror = () => reject(tx.error);
-  });
-}
-
-async function idbGet(store, key){
-  const db = await openDB();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(store, "readonly");
-    const req = tx.objectStore(store).get(key);
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
   });
 }
 
@@ -194,96 +178,41 @@ async function idbGetAll(store){
   });
 }
 
-async function idbDelete(store, key){
-  const db = await openDB();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(store, "readwrite");
-    tx.objectStore(store).delete(key);
-    tx.oncomplete = () => resolve();
-    tx.onerror = () => reject(tx.error);
-  });
-}
-
-async function idbClear(store){
-  const db = await openDB();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(store, "readwrite");
-    tx.objectStore(store).clear();
-    tx.oncomplete = () => resolve();
-    tx.onerror = () => reject(tx.error);
-  });
-}
-
-/* ---------------- trace ----------------
-   Reads everything in the shared trace store and offers it as a plain
-   text file to download, rather than a panel to screenshot — a
-   screenshot has cut off lines and mangled exact text more than once
-   in this project; a file cannot. Remove once the underlying storage
-   question is settled. */
-async function trace(step){
-  try{
-    const stamp = Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
-    const t = new Date().toISOString().slice(11, 23);
-    await idbPut(TRACE_STORE, stamp, { t, who: "page", step });
-  }catch(err){ /* Never let recording break the thing being recorded. */ }
-}
-
-async function readTrace(){
-  try{
-    const rows = await idbGetAll(TRACE_STORE);
-    return rows
-      .map(r => r.value)
-      .filter(v => v?.t)
-      .sort((a, b) => a.t.localeCompare(b.t))
-      .map(v => v.t + "  " + v.who + "  " + v.step);
-  }catch(err){ return []; }
-}
-
-async function clearTrace(){
-  try{ await idbClear(TRACE_STORE); }
-  catch(err){ /* nothing to clear */ }
-}
-
-function downloadTrace(lines){
-  const blob = new Blob([lines.length ? lines.join("\n") + "\n" : "Nothing recorded yet.\n"],
-    { type: "text/plain" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "wire-trace.txt";
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  URL.revokeObjectURL(url);
-}
-
 /* ---------------- breaking-news notifications ----------------
 
-   One routine, triggered only by the app becoming visible — never by
-   the tap directly, never by a timer. Tapping a notification, opening
-   the Home Screen icon, and switching back to an already-open tab all
-   lead here the same way. */
+   A durable queue rather than one overwritable slot, since the sender
+   no longer holds back a second alert for half an hour — several
+   genuinely breaking stories can now arrive before any of them are
+   opened, and none of them should be lost or silently replaced by a
+   later one.
+
+   Woken only by the app becoming visible — never by the tap directly,
+   never by a timer. Tapping a notification, opening the Home Screen
+   icon, and switching back to an already-open tab all lead here the
+   same way. Because a tap cannot reliably tell this routine which
+   specific banner among several was pressed, each visibility check
+   opens the single oldest story still waiting, in the order it
+   arrived, and leaves any others queued for the next check — rather
+   than guessing, or opening several at once. */
 let notificationCheckRunning = false;
 let lastOpenedNotificationArticle = "";
 const NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
 
-async function readNotificationRoute(){
+async function readNextNotificationRoute(){
   try{
-    const saved = await idbGet(ROUTE_STORE, "current");
-    const articleId = String(saved?.articleId || "");
-    const sentAt = String(saved?.sentAt || "");
-    if(articleId) return { articleId, sentAt };
-  }catch(err){ /* nothing to read */ }
-  return null;
+    const rows = await idbGetAll(ROUTE_STORE);
+    const routes = rows
+      .map(r => ({ articleId: String(r.value?.articleId || ""), sentAt: String(r.value?.sentAt || "") }))
+      .filter(r => r.articleId);
+    if(!routes.length) return null;
+    routes.sort((a, b) => a.sentAt.localeCompare(b.sentAt));
+    return routes[0];
+  }catch(err){ return null; }
 }
 
 async function clearNotificationRoute(route){
-  try{
-    const current = await idbGet(ROUTE_STORE, "current");
-    if(String(current?.articleId || "") === route.articleId){
-      await idbDelete(ROUTE_STORE, "current");
-    }
-  }catch(err){ /* nothing to clear */ }
+  try{ await idbDelete(ROUTE_STORE, route.articleId); }
+  catch(err){ /* nothing to clear */ }
 }
 
 async function loadNotificationArticle(articleId){
@@ -323,59 +252,63 @@ async function checkForNotifiedArticle(){
 
   notificationCheckRunning = true;
   try{
-    const route = await readNotificationRoute();
-    if(!route){ await trace("checked, nothing in the route"); return; }
+    /* Expired and no-longer-available entries are cleared in the same
+       pass, so the queue never fills up with things that will never
+       open — but only one story is actually opened per check, so
+       arriving from the background never jumps through several
+       articles at once. */
+    while(true){
+      const route = await readNextNotificationRoute();
+      if(!route) return;
 
-    if(route.articleId === lastOpenedNotificationArticle){
-      await trace("EXIT: already opened " + route.articleId + " this session");
+      if(route.articleId === lastOpenedNotificationArticle){
+        await clearNotificationRoute(route);
+        continue;
+      }
+
+      const sentAtMs = Date.parse(route.sentAt || "");
+      if(Number.isFinite(sentAtMs) && Date.now() - sentAtMs > NOTIFICATION_ROUTE_MAX_AGE_MS){
+        await clearNotificationRoute(route);
+        announce("A notification expired before it was opened. Showing current headlines.", "warn");
+        continue;
+      }
+
+      if(!state.articles.some(article => article.id === route.articleId)){
+        await loadNotificationArticle(route.articleId);
+      }
+      if(!state.articles.some(article => article.id === route.articleId)){
+        await loadArticles(true);
+        ctx.refresh();
+      }
+
+      const article = state.articles.find(item => item.id === route.articleId);
+      if(!article){
+        /* The story this notification pointed to is genuinely gone —
+           removed or replaced at the source, not merely still loading.
+           Said plainly rather than silently landing on the main feed
+           with no explanation at all. */
+        await clearNotificationRoute(route);
+        announce("That story is no longer available. It may have been updated or replaced.", "warn");
+        continue;
+      }
+
+      prepareNotificationReturn(article);
+      ctx.openArticle(route.articleId);
+      lastOpenedNotificationArticle = route.articleId;
       await clearNotificationRoute(route);
-      return;
+      return;   /* Stop after one. Anything else queued waits for the next check. */
     }
-
-    const sentAtMs = Date.parse(route.sentAt || "");
-    if(Number.isFinite(sentAtMs) && Date.now() - sentAtMs > NOTIFICATION_ROUTE_MAX_AGE_MS){
-      await trace("EXIT: expired");
-      await clearNotificationRoute(route);
-      announce("This notification has expired. Showing current headlines.", "warn");
-      return;
-    }
-
-    await trace("route found: " + route.articleId + ", loading it");
-
-    if(!state.articles.some(article => article.id === route.articleId)){
-      await loadNotificationArticle(route.articleId);
-    }
-    if(!state.articles.some(article => article.id === route.articleId)){
-      await loadArticles(true);
-      ctx.refresh();
-    }
-
-    const article = state.articles.find(item => item.id === route.articleId);
-    if(!article){
-      await trace("EXIT: not found in the feed even after a fresh fetch, leaving the route");
-      return;
-    }
-
-    prepareNotificationReturn(article);
-    ctx.openArticle(route.articleId);
-    lastOpenedNotificationArticle = route.articleId;
-    await clearNotificationRoute(route);
-    await trace("OPENED " + route.articleId);
   }catch(err){
-    await trace("EXIT: threw \u2014 " + (err?.message || err));
     console.warn("Could not check for a notified story.", err);
   }finally{
     notificationCheckRunning = false;
   }
 }
 
-window.addEventListener("pageshow", () => { void trace("woken by: pageshow"); checkForNotifiedArticle(); });
-window.addEventListener("focus", () => { void trace("woken by: focus"); checkForNotifiedArticle(); });
+window.addEventListener("pageshow", checkForNotifiedArticle);
+window.addEventListener("focus", checkForNotifiedArticle);
 document.addEventListener("visibilitychange", () => {
-  if(document.visibilityState === "visible"){
-    void trace("woken by: became visible");
-    checkForNotifiedArticle();
-  }
+  if(document.visibilityState === "visible") checkForNotifiedArticle();
 });
 
 /* ---------------- is anything too wide? ----------------
@@ -483,52 +416,6 @@ function renderAbout(){
     ? "Advertising, trackers and pop-ups are removed before stories reach this device. " +
       "Saved stories stay readable without a signal."
     : "No stories yet. Once the fetcher is running, headlines arrive here on their own.";
-
-  void renderTraceButtons();
-}
-
-/* Temporary. Two small buttons under About: one saves the recorded
-   notification trace as a plain text file, the other clears it.
-   Remove with the rest of the trace. */
-async function renderTraceButtons(){
-  const note = document.getElementById("about-note");
-  if(!note) return;
-
-  const host = note.parentNode;
-  let box = document.getElementById("trace-box");
-  if(!box){
-    box = document.createElement("div");
-    box.id = "trace-box";
-    box.style.marginTop = "1.5rem";
-    box.style.paddingTop = "1rem";
-    box.style.borderTop = "1px solid var(--rule)";
-    host.appendChild(box);
-
-    const title = document.createElement("p");
-    title.style.fontWeight = "700";
-    title.style.margin = "0 0 0.6rem";
-    title.textContent = "Notification trace (temporary)";
-    box.appendChild(title);
-
-    const row = document.createElement("div");
-    row.style.display = "flex";
-    row.style.gap = "0.6rem";
-
-    const save = document.createElement("button");
-    save.type = "button";
-    save.className = "reset-btn";
-    save.textContent = "Save trace as a file";
-    onTap(save, async () => downloadTrace(await readTrace()));
-
-    const clear = document.createElement("button");
-    clear.type = "button";
-    clear.className = "reset-btn";
-    clear.textContent = "Clear trace";
-    onTap(clear, async () => { await clearTrace(); announce("Trace cleared.", "done"); });
-
-    row.append(save, clear);
-    box.appendChild(row);
-  }
 }
 
 function watchNetwork(){
@@ -545,18 +432,11 @@ function watchNetwork(){
 /* ---------------- start ---------------- */
 
 async function start(){
-  await trace("--- app started ---");
-
   /* Asks the browser to treat this site's storage as important enough
      not to clear under normal pressure. Not honoured the same way
      everywhere, and Safari is among the least reliable about it — but
-     it costs nothing to ask, and belongs with the storage change
-     itself rather than waiting for a reason to add it separately. */
-  if(navigator.storage?.persist){
-    navigator.storage.persist().then(granted => {
-      void trace("storage persistence " + (granted ? "granted" : "not granted"));
-    }).catch(() => {});
-  }
+     it costs nothing to ask. */
+  navigator.storage?.persist?.().catch(() => {});
 
   const conn = await store.init();
 
@@ -575,8 +455,9 @@ async function start(){
 
   /* Only sends the reader back to the main feed if nothing is already
      open. pageshow can fire, and checkForNotifiedArticle can succeed,
-     while this function is still in the middle of its own setup — that
-     is exactly what happened on the test that exposed this. */
+     while this function is still in the middle of its own setup — an
+     early notification check finishing first should not be silently
+     overwritten by this routine finishing later. */
   if(document.body.dataset.view !== "reader") ctx.show("feed");
   ctx.refresh();
   renderAbout();
@@ -584,7 +465,6 @@ async function start(){
   registerWorker();
   notifications.setup({ announce, onTap });
 
-  await trace("start() finished, checking for a notified article");
   void checkForNotifiedArticle();
 
   const btn = document.getElementById("refresh");

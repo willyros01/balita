@@ -19,32 +19,23 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.43";
+const VERSION = "wire-v0.17.44";
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
 
-/* ---------------- durable storage, moved to IndexedDB ----------------
-   Every earlier version of this kept the notification's destination,
-   and the trace recording it, in Cache Storage. Direct evidence finally
-   proved what was happening there: a write would succeed, and reading
-   it back immediately afterward would confirm it was genuinely present
-   — yet by the time anything later looked for that same record, it was
-   gone, consistently, specifically after the app had been sitting in
-   the background rather than freshly launched. Cache Storage is built
-   around HTTP caching semantics; nothing here is actually an HTTP
-   response, and iOS reclaiming it under exactly that circumstance,
-   while leaving a fresh launch untouched, is the simplest explanation
-   that fits everything seen so far.
-
-   IndexedDB is a genuinely different storage system, built for exactly
-   this kind of small durable record rather than cached responses, and
-   is available to both this worker and the page from the same shared
-   database. Moving both the route and the trace into it is one change,
-   not two — everything that reads or writes either one goes through
-   the small helper below instead of the Cache API. */
+/* ---------------- durable storage: IndexedDB ----------------
+   Cache Storage was tried first and proved unreliable specifically for
+   this: a write would succeed, and reading it back immediately would
+   confirm it was genuinely present, yet the same record would be gone
+   by the time anything read it later — consistently, after the app had
+   been sitting in the background rather than freshly launched. Cache
+   Storage is built for HTTP response caching, not a small durable
+   record, and iOS reclaiming it under exactly that circumstance was
+   the simplest explanation that fit everything seen. IndexedDB is
+   built specifically for a page's own durable data and is shared
+   between this worker and the page through the same database. */
 const DB_NAME = "wire-durable";
 const DB_VERSION = 1;
 const ROUTE_STORE = "route";
-const TRACE_STORE = "trace";
 
 function openDB(){
   return new Promise((resolve, reject) => {
@@ -52,7 +43,6 @@ function openDB(){
     req.onupgradeneeded = () => {
       const db = req.result;
       if(!db.objectStoreNames.contains(ROUTE_STORE)) db.createObjectStore(ROUTE_STORE);
-      if(!db.objectStoreNames.contains(TRACE_STORE)) db.createObjectStore(TRACE_STORE);
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);
@@ -67,42 +57,6 @@ async function idbPut(store, key, value){
     tx.oncomplete = () => resolve();
     tx.onerror = () => reject(tx.error);
   });
-}
-
-async function idbGet(store, key){
-  const db = await openDB();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(store, "readonly");
-    const req = tx.objectStore(store).get(key);
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
-  });
-}
-
-async function idbDelete(store, key){
-  const db = await openDB();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(store, "readwrite");
-    tx.objectStore(store).delete(key);
-    tx.oncomplete = () => resolve();
-    tx.onerror = () => reject(tx.error);
-  });
-}
-
-/* ---------------- trace ----------------
-   Every call writes to its own key, stamped with the time and something
-   to keep same-millisecond calls apart, rather than one shared record —
-   an earlier version shared one array and lost lines when two events
-   fired close together, since each read the record before the other had
-   finished writing it back. Nothing here is ever read before writing,
-   so there is nothing left to race. Remove once the underlying storage
-   question is settled. */
-async function trace(step){
-  try{
-    const stamp = Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
-    const t = new Date().toISOString().slice(11, 23);
-    await idbPut(TRACE_STORE, stamp, { t, who: "worker", step });
-  }catch(err){ /* Never let recording break the thing being recorded. */ }
 }
 
 const SHELL = [
@@ -147,11 +101,9 @@ self.addEventListener("install", event => {
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys()
-      /* The route and the trace no longer live here at all now, so
-         there is nothing of theirs left for this cleanup to protect —
-         every cache found at this point is safe to remove. */
+      /* The route lives in IndexedDB now, not here, so every cache
+         found at this point is safe to remove. */
       .then(keys => Promise.all(keys.filter(k => k !== VERSION).map(k => caches.delete(k))))
-      .then(() => trace("activate \u2014 this worker just took over"))
       .then(() => self.clients.claim())
   );
 });
@@ -206,18 +158,22 @@ self.addEventListener("message", event => {
    time-sensitive flag or persistent prompt is requested, leaving Focus
    and Do Not Disturb entirely under the device's control. */
 
-/* The one durable record of where a notification should lead.
+/* The durable record of where a notification should lead.
 
    Written twice, independently: once here, the instant a push
    arrives, before the notification is even shown — and once more
    below, at the moment it is tapped, as a second, redundant chance
    at the same outcome. Neither write depends on the other having
-   succeeded. One fixed key: the newest notification always simply
-   replaces whatever was there before, which is correct because the
-   sender itself never allows two alerts within the same half hour. */
+   succeeded.
+
+   Keyed by the article's own id rather than one fixed slot, so more
+   than one pending story can exist at once without a newer one
+   silently erasing an older one that hasn't been opened yet. The
+   sender no longer limits itself to one alert per half hour, so this
+   can no longer assume there is ever only one to keep track of. */
 async function writeNotificationRoute(articleId, sentAt){
   if(!articleId) return;
-  await idbPut(ROUTE_STORE, "current", {
+  await idbPut(ROUTE_STORE, articleId, {
     articleId,
     sentAt: sentAt || new Date().toISOString()
   });
@@ -239,36 +195,11 @@ self.addEventListener("push", event => {
   }
 
   event.waitUntil((async () => {
-    await trace("push received for " + (articleId || "no id"));
-
-    /* Written before the notification is even displayed, normally. If
-       it throws, the failure is folded into the banner's own text
-       instead of being swallowed — the one channel already confirmed
-       to reach the device reliably on every test so far, regardless of
-       anything else failing. */
-    let writeFailure = "";
-    let confirmed = false;
-    try{
-      await writeNotificationRoute(articleId, sentAt);
-      await trace("route written at arrival");
-
-      /* Read the same record straight back, in the same breath, before
-         doing anything else. Proved genuinely necessary once already:
-         Cache Storage accepted this same write and still lost it later,
-         so a write not throwing is confirmation of nothing on its own. */
-      const savedBack = await idbGet(ROUTE_STORE, "current");
-      confirmed = String(savedBack?.articleId || "") === articleId;
-      await trace(confirmed ? "read-back confirmed it" : "EXIT: read-back found nothing");
-    }catch(err){
-      writeFailure = String(err?.message || err);
-      await trace("EXIT: route write failed \u2014 " + writeFailure);
-    }
-
-    const diagnostic = writeFailure ? "  [write failed: " + writeFailure + "]" :
-      !confirmed ? "  [write did not verify]" : "";
+    try{ await writeNotificationRoute(articleId, sentAt); }
+    catch(err){ /* The tap below writes it again as a second chance. */ }
 
     await self.registration.showNotification("Wire · " + source, {
-      body: headline + diagnostic,
+      body: headline,
       icon: new URL("icon-192.png", self.registration.scope).href,
       badge: new URL("icon-192.png", self.registration.scope).href,
       tag: articleId ? "wire-breaking-" + articleId : "wire-breaking",
@@ -276,7 +207,6 @@ self.addEventListener("push", event => {
       timestamp: Number.isFinite(sentAtMs) ? sentAtMs : Date.now(),
       data: { articleId, sentAt }
     });
-    await trace("notification shown" + (diagnostic ? " (with a diagnostic in the body)" : ""));
   })());
 });
 
@@ -287,29 +217,17 @@ self.addEventListener("notificationclick", event => {
   const sentAt = String(event.notification.data?.sentAt || "");
 
   event.waitUntil((async () => {
-    await trace("tap received for " + (articleId || "no id"));
-
     /* Redundant with the write at arrival above — cheap, and a second
        independent chance costs nothing even when it is usually
-       unnecessary by the time a tap happens. Traced separately from
-       the push-time write on purpose: if this one succeeds where the
-       earlier one is later found missing, or vice versa, that
-       difference is itself useful evidence. */
-    try{
-      await writeNotificationRoute(articleId, sentAt);
-      await trace("route write at tap: succeeded");
-    }catch(err){
-      await trace("route write at tap: FAILED \u2014 " + String(err?.message || err));
-    }
+       unnecessary by the time a tap happens. */
+    try{ await writeNotificationRoute(articleId, sentAt); }catch(err){ /* already tried once above */ }
 
-    /* A cold launch has passed every single test run so far. A resume
-       from the background has failed every single one. The structural
-       difference between them: a cold launch always forces a real page
-       load, and a resume never asked for one — it only asked the
-       existing window to come forward. This asks for a real reload on
-       that same existing window too, before falling back to a plain
-       focus if the reload is refused, so the resume case gets the same
-       page-load signal the cold case already relies on. */
+    /* A cold launch reliably forces a real page load; asking an
+       existing window to merely come forward did not reliably wake
+       the page's own checks. Asking that same existing window to
+       reload first, before falling back to a plain focus if the
+       reload is refused, gives a resume the same page-load signal a
+       cold launch already gets. */
     const windows = await self.clients.matchAll({
       type: "window",
       includeUncontrolled: true
@@ -318,17 +236,12 @@ self.addEventListener("notificationclick", event => {
       client.url.startsWith(self.registration.scope)
     );
 
-    if(!existing){
-      await trace("no existing window, opening one");
-      return self.clients.openWindow(self.registration.scope);
-    }
+    if(!existing) return self.clients.openWindow(self.registration.scope);
 
     try{
       const reloaded = await existing.navigate(self.registration.scope);
-      await trace("existing window reloaded");
       return (reloaded || existing).focus();
     }catch(err){
-      await trace("reload was refused \u2014 " + String(err?.message || err) + ", focusing as-is");
       return existing.focus();
     }
   })());
