@@ -138,92 +138,109 @@ function registerWorker(){
   else window.addEventListener("load", install, { once: true });
 }
 
-/* ---------------- breaking-news notifications ----------------
+/* ---------------- durable storage, moved to IndexedDB ----------------
+   Matches sw.js exactly. Direct evidence showed Cache Storage would
+   accept a write, confirm it back immediately, and still lose it later
+   — specifically after the app had been sitting in the background
+   rather than freshly launched. IndexedDB is a different storage system
+   built for small durable records like this one, shared between this
+   page and the worker through the same database. */
+const DB_NAME = "wire-durable";
+const DB_VERSION = 1;
+const ROUTE_STORE = "route";
+const TRACE_STORE = "trace";
 
-   One routine, triggered only by the app becoming visible — never by
-   the tap directly, never by a timer. Tapping a notification, opening
-   the Home Screen icon, and switching back to an already-open tab all
-   lead here the same way.
-
-   Earlier versions tried to actively steer the moment of the tap
-   itself: forcing a specific navigation, relaying a live message to
-   the page, retrying on a delay ladder in case a frozen window woke
-   up partway through. All of that was scaffolding for a cause that
-   was not yet known. Once it was — that the tap handler can simply
-   not run at all after the app has sat backgrounded for a while —
-   none of that scaffolding could have helped anyway, since it all
-   depended on the very handler that might not run. What is reliable,
-   confirmed across every real test, is that the page always learns
-   when it becomes visible. So that is the only signal this depends
-   on now. The destination itself lives in durable storage, written
-   the moment the notification arrived — see sw.js — and is simply
-   read back here, once, whenever there is a reason to look. */
-const NOTIFICATION_ROUTE_CACHE = "wire-notification-route-v1";
-const NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
-let notificationCheckRunning = false;
-let lastOpenedNotificationArticle = "";
-
-/* ---------------- trace, round three ----------------
-   Round two used one shared JSON array, read then written back whole.
-   Two events firing close together — a notification arriving and
-   being checked for is exactly that — could each read before the
-   other had written, and whichever wrote second silently erased the
-   other's line. Real traces sent back with only one line in them were
-   very likely this, not evidence that nothing else happened.
-
-   Every call now writes to its own key, so nothing is ever read before
-   writing and there is nothing left to race. Reading means listing
-   every key under this prefix and sorting by the timestamp inside
-   each one. Remove once this question is answered. */
-const TRACE_CACHE = "wire-trace-v4";
-const TRACE_PREFIX_NAME = ".wire-trace-";
-let tracePrefix = "";
-
-async function traceTarget(){
-  if(tracePrefix) return tracePrefix;
-  let base = location.href;
-  try{
-    const reg = await navigator.serviceWorker?.getRegistration();
-    if(reg?.scope) base = reg.scope;
-  }catch(err){ /* fall back to location.href */ }
-  tracePrefix = new URL(TRACE_PREFIX_NAME, base).href;
-  return tracePrefix;
+function openDB(){
+  return new Promise((resolve, reject) => {
+    const req = indexedDB.open(DB_NAME, DB_VERSION);
+    req.onupgradeneeded = () => {
+      const db = req.result;
+      if(!db.objectStoreNames.contains(ROUTE_STORE)) db.createObjectStore(ROUTE_STORE);
+      if(!db.objectStoreNames.contains(TRACE_STORE)) db.createObjectStore(TRACE_STORE);
+    };
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
 }
 
+async function idbPut(store, key, value){
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(store, "readwrite");
+    tx.objectStore(store).put(value, key);
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+async function idbGet(store, key){
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(store, "readonly");
+    const req = tx.objectStore(store).get(key);
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+async function idbGetAll(store){
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(store, "readonly");
+    const keysReq = tx.objectStore(store).getAllKeys();
+    const valsReq = tx.objectStore(store).getAll();
+    tx.oncomplete = () => resolve((keysReq.result || []).map((key, i) => ({ key, value: valsReq.result[i] })));
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+async function idbDelete(store, key){
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(store, "readwrite");
+    tx.objectStore(store).delete(key);
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+async function idbClear(store){
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(store, "readwrite");
+    tx.objectStore(store).clear();
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+/* ---------------- trace ----------------
+   Reads everything in the shared trace store and offers it as a plain
+   text file to download, rather than a panel to screenshot — a
+   screenshot has cut off lines and mangled exact text more than once
+   in this project; a file cannot. Remove once the underlying storage
+   question is settled. */
 async function trace(step){
   try{
-    if(!("caches" in window)) return;
-    const prefix = await traceTarget();
-    const cache = await caches.open(TRACE_CACHE);
     const stamp = Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
     const t = new Date().toISOString().slice(11, 23);
-    await cache.put(prefix + stamp + ".json", new Response(
-      JSON.stringify({ t, who: "page", step }),
-      { headers: { "Content-Type": "application/json", "Cache-Control": "no-store" } }
-    ));
+    await idbPut(TRACE_STORE, stamp, { t, who: "page", step });
   }catch(err){ /* Never let recording break the thing being recorded. */ }
 }
 
 async function readTrace(){
   try{
-    if(!("caches" in window)) return [];
-    const cache = await caches.open(TRACE_CACHE);
-    const requests = await cache.keys();
-    const entries = [];
-    for(const request of requests){
-      const response = await cache.match(request);
-      if(!response) continue;
-      const saved = await response.json();
-      if(saved?.t) entries.push(saved);
-    }
-    return entries
+    const rows = await idbGetAll(TRACE_STORE);
+    return rows
+      .map(r => r.value)
+      .filter(v => v?.t)
       .sort((a, b) => a.t.localeCompare(b.t))
-      .map(e => e.t + "  " + e.who + "  " + e.step);
+      .map(v => v.t + "  " + v.who + "  " + v.step);
   }catch(err){ return []; }
 }
 
 async function clearTrace(){
-  try{ await caches.delete(TRACE_CACHE); tracePrefix = ""; }
+  try{ await idbClear(TRACE_STORE); }
   catch(err){ /* nothing to clear */ }
 }
 
@@ -240,25 +257,33 @@ function downloadTrace(lines){
   URL.revokeObjectURL(url);
 }
 
-async function readNotificationRoute(){
-  if(!("caches" in window)) return null;
+/* ---------------- breaking-news notifications ----------------
 
-  const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
-  const requests = await cache.keys();
-  for(const request of requests){
-    const response = await cache.match(request);
-    if(!response) continue;
-    const saved = await response.json();
-    const articleId = String(saved.articleId || "");
-    const sentAt = String(saved.sentAt || "");
-    if(articleId) return { articleId, sentAt, cache, request };
-  }
+   One routine, triggered only by the app becoming visible — never by
+   the tap directly, never by a timer. Tapping a notification, opening
+   the Home Screen icon, and switching back to an already-open tab all
+   lead here the same way. */
+let notificationCheckRunning = false;
+let lastOpenedNotificationArticle = "";
+const NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
+
+async function readNotificationRoute(){
+  try{
+    const saved = await idbGet(ROUTE_STORE, "current");
+    const articleId = String(saved?.articleId || "");
+    const sentAt = String(saved?.sentAt || "");
+    if(articleId) return { articleId, sentAt };
+  }catch(err){ /* nothing to read */ }
   return null;
 }
 
 async function clearNotificationRoute(route){
-  if(!route?.cache || !route?.request) return;
-  await route.cache.delete(route.request);
+  try{
+    const current = await idbGet(ROUTE_STORE, "current");
+    if(String(current?.articleId || "") === route.articleId){
+      await idbDelete(ROUTE_STORE, "current");
+    }
+  }catch(err){ /* nothing to clear */ }
 }
 
 async function loadNotificationArticle(articleId){
@@ -283,8 +308,6 @@ async function loadNotificationArticle(articleId){
 }
 
 function prepareNotificationReturn(article){
-  /* A notification is an entrance into this publisher's headline grouping,
-     not into whatever All Sources position happened to be open beforehand. */
   state.filter = article.source;
   ctx.show("feed");
   ctx.refresh();
@@ -329,11 +352,6 @@ async function checkForNotifiedArticle(){
 
     const article = state.articles.find(item => item.id === route.articleId);
     if(!article){
-      /* Not found even after a fresh fetch. Leave the route in place —
-         a later check may still find it once a newer fetch lands, and
-         the expiry rule above is what eventually retires it if it
-         never does. Nothing to announce here; announcing would repeat
-         on every visibility change while it remains missing. */
       await trace("EXIT: not found in the feed even after a fresh fetch, leaving the route");
       return;
     }
@@ -449,8 +467,6 @@ function renderAbout(){
       dd.id = "net-state";
       dd.appendChild(navigator.onLine ? pill("Online", true) : pill("Offline", false));
     }else if(label === "Showing"){
-      /* Loaded and displayed are different numbers, and when they
-         differ that is exactly the fault worth surfacing. */
       const live = new Set(state.sources.filter(s => s.on).map(s => s.id));
       const shown = state.articles.filter(a => live.has(a.source)).length;
       const hidden = state.articles.length - shown;
@@ -472,9 +488,8 @@ function renderAbout(){
 }
 
 /* Temporary. Two small buttons under About: one saves the recorded
-   notification trace as a plain text file, the other clears it. A
-   file avoids the repeated problem of a screenshot cutting off or
-   mangling exact text. Remove with the rest of the trace. */
+   notification trace as a plain text file, the other clears it.
+   Remove with the rest of the trace. */
 async function renderTraceButtons(){
   const note = document.getElementById("about-note");
   if(!note) return;
@@ -530,6 +545,19 @@ function watchNetwork(){
 /* ---------------- start ---------------- */
 
 async function start(){
+  await trace("--- app started ---");
+
+  /* Asks the browser to treat this site's storage as important enough
+     not to clear under normal pressure. Not honoured the same way
+     everywhere, and Safari is among the least reliable about it — but
+     it costs nothing to ask, and belongs with the storage change
+     itself rather than waiting for a reason to add it separately. */
+  if(navigator.storage?.persist){
+    navigator.storage.persist().then(granted => {
+      void trace("storage persistence " + (granted ? "granted" : "not granted"));
+    }).catch(() => {});
+  }
+
   const conn = await store.init();
 
   const [settings, savedSources, standard] = await Promise.all([
@@ -547,11 +575,8 @@ async function start(){
 
   /* Only sends the reader back to the main feed if nothing is already
      open. pageshow can fire, and checkForNotifiedArticle can succeed,
-     while this function is still in the middle of its own setup —
-     that is exactly what happened on the iPad test that exposed this.
-     Unconditionally resetting the view here silently threw away an
-     article that had already opened correctly, moments earlier, in
-     the same window. */
+     while this function is still in the middle of its own setup — that
+     is exactly what happened on the test that exposed this. */
   if(document.body.dataset.view !== "reader") ctx.show("feed");
   ctx.refresh();
   renderAbout();
@@ -559,9 +584,6 @@ async function start(){
   registerWorker();
   notifications.setup({ announce, onTap });
 
-  /* Covers a cold start: the app may have been launched fresh by a tap
-     while nothing was already running, and there is no other visibility
-     event coming to trigger the check on its own. */
   await trace("start() finished, checking for a notified article");
   void checkForNotifiedArticle();
 
