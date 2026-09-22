@@ -1,36 +1,39 @@
-WIRE v0.17.41 — TESTS THE ACTUAL DIFFERENCE BETWEEN THE TWO PATHS
+WIRE v0.17.42 — CHECKS THE WRITE THE INSTANT IT HAPPENS
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHY THIS ONE IS DIFFERENT FROM EVERY PREVIOUS ATTEMPT
-Every earlier build treated cold and background as though they should
-behave the same way once a notification is tapped. They don't, and the
-completely deterministic result across every test - cold always passes,
-background always fails, on both devices, without exception - pointed
-directly at what's structurally different between them.
-
-A cold launch always forces a real, full page load. A background resume
-never asked for one - it only asked the already-open window to come to
-the front, on the assumption that alone would be enough to wake the
-page's own checks. If that assumption doesn't hold on iOS, nothing was
-ever going to wake up to look, no matter how solid the reading logic
-underneath it was.
+WHY THIS ONE IS DIFFERENT
+Every background-resume test so far has come back with zero worker
+activity in the trace at all - not written, not deleted, simply never
+present. That leaves two real possibilities open: the write itself is
+failing right there and then, or it succeeds and something clears it
+before the tap happens minutes later. There has been no way to tell
+those apart.
 
 WHAT CHANGED
-When an existing window is found, it is now asked to reload completely
-before being brought forward - the same real page load a cold launch
-already gets, rather than just being told to come to the front as it
-was. If that succeeds, the background case should end up running
-through exactly the same path that has already passed every time.
+The instant the destination is written, this version reads the exact
+same record straight back, in the same breath, before doing anything
+else. Whatever that read-back finds is folded directly into the
+notification's own visible text - the one channel that has worked
+correctly on every single test so far, regardless of anything else
+failing.
 
-The trace records plainly whether that reload was accepted or refused,
-so if this doesn't work either, we'll know that specifically rather
-than guessing again.
+WHAT THE BANNER WILL SAY THIS TIME
+If everything is fine, it looks completely normal, just the headline.
+
+If the write itself failed outright, it will say:
+  [write failed: <the actual error>]
+
+If the write did not throw, but reading it back immediately afterward
+still finds nothing there, it will say:
+  [write did not verify]
+
+Those are two different problems with two different fixes, and this is
+the first time either has been possible to tell apart directly.
 
 WHAT TO DO
-One background test, the same way you've been running them. Clear the
-trace first, background the device, wait for the notification, tap it,
-save the trace afterward.
+One background test, either device. Look closely at the banner text
+itself before tapping it, not just after. Save and send the trace too.

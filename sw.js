@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.41";
+const VERSION = "wire-v0.17.42";
 
 /* Kept outside the shell cache so an app update cannot erase a
    notification's destination before the page has had a chance to
@@ -213,16 +213,34 @@ self.addEventListener("push", event => {
        to reach the device reliably, so the answer isn't stuck behind
        whatever caused the write to fail in the first place. */
     let writeFailure = "";
+    let confirmed = false;
     try{
       await writeNotificationRoute(articleId, sentAt);
       await trace("route written at arrival");
+
+      /* Read the same record straight back, in the same breath, before
+         doing anything else. This is not redundant with the write
+         above — it answers a different question. The write not
+         throwing only means the browser accepted the request; it does
+         not prove the record actually exists yet where a later reader
+         would find it. Checking immediately, and folding the answer
+         into the banner itself, settles that with certainty rather
+         than inferring it from what happens minutes later at the tap. */
+      const cache = await caches.open(NOTIFICATION_ROUTE_CACHE);
+      const readBack = await cache.match(NOTIFICATION_ROUTE_URL);
+      const savedBack = readBack ? await readBack.json() : null;
+      confirmed = String(savedBack?.articleId || "") === articleId;
+      await trace(confirmed ? "read-back confirmed it" : "EXIT: read-back found nothing");
     }catch(err){
       writeFailure = String(err?.message || err);
       await trace("EXIT: route write failed \u2014 " + writeFailure);
     }
 
+    const diagnostic = writeFailure ? "  [write failed: " + writeFailure + "]" :
+      !confirmed ? "  [write did not verify]" : "";
+
     await self.registration.showNotification("Wire · " + source, {
-      body: writeFailure ? headline + "  [route write failed: " + writeFailure + "]" : headline,
+      body: headline + diagnostic,
       icon: new URL("icon-192.png", self.registration.scope).href,
       badge: new URL("icon-192.png", self.registration.scope).href,
       tag: articleId ? "wire-breaking-" + articleId : "wire-breaking",
@@ -230,7 +248,7 @@ self.addEventListener("push", event => {
       timestamp: Number.isFinite(sentAtMs) ? sentAtMs : Date.now(),
       data: { articleId, sentAt }
     });
-    await trace("notification shown" + (writeFailure ? " (route write had failed)" : ""));
+    await trace("notification shown" + (diagnostic ? " (with a diagnostic in the body)" : ""));
   })());
 });
 
