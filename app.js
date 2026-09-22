@@ -161,24 +161,42 @@ function openDB(){
 }
 
 async function idbDelete(store, key){
-  const db = await openDB();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(store, "readwrite");
-    tx.objectStore(store).delete(key);
-    tx.oncomplete = () => resolve();
-    tx.onerror = () => reject(tx.error);
-  });
+  /* One retry, on any failure — matches sw.js exactly. Cheap, and
+     catches the narrow window right after a fresh install where the
+     database might still be finishing its own creation. */
+  for(const attempt of [0, 1]){
+    try{
+      const db = await openDB();
+      await new Promise((resolve, reject) => {
+        const tx = db.transaction(store, "readwrite");
+        tx.objectStore(store).delete(key);
+        tx.oncomplete = () => resolve();
+        tx.onerror = () => reject(tx.error);
+      });
+      return;
+    }catch(err){
+      if(attempt === 1) throw err;
+      await new Promise(r => setTimeout(r, 150));
+    }
+  }
 }
 
 async function idbGetAll(store){
-  const db = await openDB();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(store, "readonly");
-    const keysReq = tx.objectStore(store).getAllKeys();
-    const valsReq = tx.objectStore(store).getAll();
-    tx.oncomplete = () => resolve((keysReq.result || []).map((key, i) => ({ key, value: valsReq.result[i] })));
-    tx.onerror = () => reject(tx.error);
-  });
+  for(const attempt of [0, 1]){
+    try{
+      const db = await openDB();
+      return await new Promise((resolve, reject) => {
+        const tx = db.transaction(store, "readonly");
+        const keysReq = tx.objectStore(store).getAllKeys();
+        const valsReq = tx.objectStore(store).getAll();
+        tx.oncomplete = () => resolve((keysReq.result || []).map((key, i) => ({ key, value: valsReq.result[i] })));
+        tx.onerror = () => reject(tx.error);
+      });
+    }catch(err){
+      if(attempt === 1) throw err;
+      await new Promise(r => setTimeout(r, 150));
+    }
+  }
 }
 
 /* ---------------- breaking-news notifications ----------------

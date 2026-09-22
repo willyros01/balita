@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.46";
+const VERSION = "wire-v0.17.47";
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
 
 /* ---------------- durable storage: IndexedDB ----------------
@@ -53,13 +53,27 @@ function openDB(){
 }
 
 async function idbPut(store, key, value){
-  const db = await openDB();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(store, "readwrite");
-    tx.objectStore(store).put(value, key);
-    tx.oncomplete = () => resolve();
-    tx.onerror = () => reject(tx.error);
-  });
+  /* One retry, on any failure at all. The one moment this matters —
+     the very first write of a fresh install, before the database has
+     ever been touched — is also the one moment most likely to race
+     against its own creation. A second attempt, a beat later, costs
+     nothing when the first one succeeds, and catches exactly that
+     narrow window when it doesn't. */
+  for(const attempt of [0, 1]){
+    try{
+      const db = await openDB();
+      await new Promise((resolve, reject) => {
+        const tx = db.transaction(store, "readwrite");
+        tx.objectStore(store).put(value, key);
+        tx.oncomplete = () => resolve();
+        tx.onerror = () => reject(tx.error);
+      });
+      return;
+    }catch(err){
+      if(attempt === 1) throw err;
+      await new Promise(r => setTimeout(r, 150));
+    }
+  }
 }
 
 const SHELL = [
@@ -89,14 +103,25 @@ const SHELL = [
 
 self.addEventListener("install", event => {
   event.waitUntil(
-    caches.open(VERSION)
-      /* addAll is all-or-nothing: one missing file and the entire
-         install fails, leaving the old worker in place. Added one at
-         a time so a gap costs that file's offline copy and nothing
-         more. */
-      .then(cache => Promise.all(
-        SHELL.map(url => cache.add(url).catch(() => {}))
-      ))
+    Promise.all([
+      caches.open(VERSION)
+        /* addAll is all-or-nothing: one missing file and the entire
+           install fails, leaving the old worker in place. Added one at
+           a time so a gap costs that file's offline copy and nothing
+           more. */
+        .then(cache => Promise.all(
+          SHELL.map(url => cache.add(url).catch(() => {}))
+        )),
+
+      /* Creates the durable database now, during installation — a
+         moment the browser is documented to give a real, reliable
+         amount of time to, rather than leaving its first-ever creation
+         to happen inside a push handler later, arriving in the far
+         more constrained moment of the app sitting backgrounded. A
+         database that already exists by the time the first real push
+         arrives has nothing left to create under pressure. */
+      openDB().catch(() => {})
+    ])
       .then(() => self.skipWaiting())
   );
 });
