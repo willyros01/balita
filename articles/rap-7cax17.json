@@ -1,0 +1,103 @@
+{
+  "id": "rap-7cax17",
+  "source": "rap",
+  "title": "UN panel: OpenAI&#8217;s Hugging Face hack is an &#8216;early warning&#8217; for loss of human control",
+  "summary": "The UN Independent International Scientific Panel on AI says the Hugging Face hack by OpenAI agents shows 'several warning signs occurring together in a real technical setting'",
+  "byline": "Victor Barreiro Jr.",
+  "section": "Technology",
+  "published": "2026-09-22T07:51:05.000Z",
+  "firstSeen": "2026-09-22T08:01:03.766Z",
+  "url": "https://www.rappler.com/technology/un-panel-openai-hugging-face-hack-technical-brief-details/",
+  "image": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "MANILA, Philippines – Hacking events by agentic artificial intelligence, such as the ones done by OpenAI’s agentic AI to hack Hugging Face, are seen as “an early warning of one possible route to more severe future loss of control: capable AI agents persistently pursuing a goal that goes beyond or even conflicts with human intentions,” the United Nations Independent International Scientific Panel on AI said on Tuesday, September 22."
+    },
+    {
+      "type": "p",
+      "text": "In a released thematic brief, the panel outlined how AI agents in this particular case cooperated over days to “cheat” an evaluator (or to otherwise produce a correct answer without actually solving the problem), conceal the “cheating,” and obtain the access and information they believed they needed."
+    },
+    {
+      "type": "p",
+      "text": "This occurred against the backdrop of similar incidents by other agentic AI. The panel said the Hugging Face hack shows “several warning signs” of malicious conduct occurring together in a real technical setting."
+    },
+    {
+      "type": "p",
+      "text": "These are “unauthorized goal pursuit, persistence through obstacles, coordination across AI agents, gaining higher-level access (known in cybersecurity as privilege escalation), interference with activity records, and attacks on systems belonging to another company.”"
+    },
+    {
+      "type": "p",
+      "text": "The panel also discussed misalignment in artificial intelligence, explaining how an AI system can pursue a goal that conflicts with the intentions or constraints set by people responsible for the operation of the system."
+    },
+    {
+      "type": "p",
+      "text": "Said the panel, “The goal may be the system’s interpretation of an assigned task, a shortcut rewarded during training, or an intermediate aim that becomes useful while pursuing something else. Misaligned behavior is the observable result. The underlying misaligned goals and their origins also matter because they may produce harmful behavior in other settings or become more dangerous as capabilities grow.”"
+    },
+    {
+      "type": "p",
+      "text": "It added that while a model can be misaligned, this misalignment is different from a failure of the systems designed to keep that misalignment from being carried out."
+    },
+    {
+      "type": "p",
+      "text": "“Tools, authentication, permissions, network access, monitoring and human approval can prevent or enable the same model behavior,” the panel said.It pointed out the OpenAI-Hugging Face hack occurred when misalignment combined with a system level failure that allowed that misaligned AI agent to take actions outside the intended task in an environment that also let that agent reach internal and outside systems or infrastructure."
+    },
+    {
+      "type": "p",
+      "text": "The panel also explained how, in training Agentic AI, success is rewarded across multi-step interactions in which the AI model plans, uses tools, and responds to its environment. Examining how models are trained, and then finding and preventing the common cause of misaligned goals, it said, “could reduce several types of AI risks at once.”"
+    },
+    {
+      "type": "p",
+      "text": "The panel also described how, despite OpenAI being able to stop the activity of its agents this time, “does not establish that operators will retain control over future systems that are more capable, persistent, or difficult to monitor.”"
+    },
+    {
+      "type": "p",
+      "text": "It added that loss of control of AI systems is an important risk to consider should multiple AI agents sharing misaligned goals cooperate to pursue their goals faster than any human response, or faster than the detection and reporting by monitoring systems, or perhaps faster than constraints from technical controls can restrict them."
+    },
+    {
+      "type": "p",
+      "text": "The field of cybersecurity can offer established approaches to managing severe risks when it comes to AI use."
+    },
+    {
+      "type": "p",
+      "text": "These include the following:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Planning for failure, or designing systems assuming that, unless proven otherwise, that individual components and safeguards can fail, including when several unlikely events occur together,",
+        "Defense in depth, or when safety relies on multiple, independent, and redundant layers of protection, ensuring the failure of one layer does not defeat the entire system.",
+        "Human authority and automatic protection. In this case, high-hazard systems preserve human authority to intervene, while automated mechanisms detect failures and trigger protective actions without depending on a person to react in real time (such as in spacecraft safe modes).",
+        "Independent controls, or when critical safety mechanisms are kept independent of the system they protect, so that the protected system cannot alter them."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The OpenAI-Hugging Face hacking incident “exposed failures in several layers of control at once: network isolation, credential handling, monitoring, and response,” showing why multiple barriers are usually combined for AI controls."
+    },
+    {
+      "type": "p",
+      "text": "As such, the panel deems it necessary to treat AI like a high-risk field like aviation or nuclear science."
+    },
+    {
+      "type": "p",
+      "text": "“Other high-risk fields combine multiple protective layers with continued investigation of failures and their causes. Aviation and nuclear safety also use international coordination, technical standards, licensing and prior safety demonstrations, although the arrangements vary by field and jurisdiction,” the panel said."
+    },
+    {
+      "type": "p",
+      "text": "The panel also said that while loss-of-control events such as the OpenAI-Hugging Face hack will remain probable, the severity of such events make risk management important, requiring “far greater attention and resources.”"
+    },
+    {
+      "type": "p",
+      "text": "“Monitoring evidence and scientific advances relevant to such events is an important role for the UN Independent International Scientific Panel on AI,” it added. – Rappler.com"
+    },
+    {
+      "type": "p",
+      "text": "The thematic brief of the UN Independent International Scientific Panel on AI is available here."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "feed"
+}
