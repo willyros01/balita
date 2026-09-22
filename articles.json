@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-09-22T19:31:15.729Z",
+  "updated": "2026-09-22T19:43:19.203Z",
   "sources": [
     {
       "id": "inq",
@@ -59,7 +59,7 @@
       "summary": "CAGAYAN DE ORO CITY — To address growing concerns over Pax Silica, the Archdiocese of Cagayan de Oro-Commission on Social Apostolate and the Samdhana Institute convened a multi-stakeholder dialogue…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-09-22T19:31:05.015Z",
+      "published": "2026-09-22T19:43:08.461Z",
       "firstSeen": "2026-09-22T12:24:34.804Z",
       "url": "https://newsinfo.inquirer.net/2309823/cagayan-de-oro-multi-stakeholder-dialogue-tackles-pax-silica",
       "image": {
@@ -78,38 +78,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-109ba9b",
-      "source": "inqn",
-      "title": "Aid to RSSI-hit sugarcane workers to hit P1.9B by yearend, says DSWD",
-      "summary": "BACOLOD CITY &#8212; The Department of Social Welfare and Development’s ongoing distribution of Emergency Cash Transfers (ECT) to small sugarcane farmers and workers whose crops have been destroyed…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-09-22T19:31:04.844Z",
-      "firstSeen": "2026-09-22T13:01:00.827Z",
-      "url": "https://newsinfo.inquirer.net/2309843/aid-to-rssi-hit-sugarcane-workers-to-hit-p1-9b-by-yearend-says-dswd",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/negros-occidental-sugarcane-3sep2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BACOLOD CITY &#8212; The Department of Social Welfare and Development’s ongoing distribution of Emergency Cash Transfers (ECT) to small sugarcane farmers and workers whose crops have been destroyed by red-striped soft scale insects (RSSI) in Negros Island will hit P1.9 billion before the end of this year, Social Welfare Secretary Rex Gatchalian said on Tuesday,"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-14rky0e",
       "source": "inqn",
       "title": "DOH: Leptospirosis cases exceed 10,000 as of Sept. 16",
       "summary": "MANILA, Philippines &#8212; The Department of Health (DOH) recorded 10,936 cases of leptospirosis as of Sept. 16, a 38% increase from the 7,931 cases reported during the same period last year. Of the…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-09-22T19:31:04.844Z",
+      "published": "2026-09-22T19:43:08.344Z",
       "firstSeen": "2026-09-22T12:31:02.657Z",
       "url": "https://newsinfo.inquirer.net/2309846/doh-leptospirosis-cases-exceed-10000-as-of-sept-16",
       "image": {
@@ -134,7 +109,7 @@
       "summary": "MANILA, Philippines — The trough of the tropical depression (TD) will continue to bring rains over Visayas and Mindanao on Wednesday, Sept. 23, the state weather bureau said. Philippine Atmospheric,…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-09-22T19:31:04.844Z",
+      "published": "2026-09-22T19:43:08.344Z",
       "firstSeen": "2026-09-22T13:01:02.095Z",
       "url": "https://newsinfo.inquirer.net/2309844/trough-of-td-to-bring-rains-in-visayas-mindanao-pagasa",
       "image": {
@@ -159,7 +134,7 @@
       "summary": "KORONADAL CITY — Five days after she was critically wounded in the Banga National High School shooting in South Cotabato, a Grade 9 female student who suffered a gunshot wound in the head is showing…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-09-22T19:31:04.844Z",
+      "published": "2026-09-22T19:43:08.344Z",
       "firstSeen": "2026-09-22T12:24:34.704Z",
       "url": "https://newsinfo.inquirer.net/2309819/student-wounded-in-south-cotabatos-school-attack-recovering-after-surgery",
       "image": {
@@ -178,13 +153,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-109ba9b",
+      "source": "inqn",
+      "title": "Aid to RSSI-hit sugarcane workers to hit P1.9B by yearend, says DSWD",
+      "summary": "BACOLOD CITY &#8212; The Department of Social Welfare and Development’s ongoing distribution of Emergency Cash Transfers (ECT) to small sugarcane farmers and workers whose crops have been destroyed…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-09-22T19:43:08.343Z",
+      "firstSeen": "2026-09-22T13:01:00.827Z",
+      "url": "https://newsinfo.inquirer.net/2309843/aid-to-rssi-hit-sugarcane-workers-to-hit-p1-9b-by-yearend-says-dswd",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/negros-occidental-sugarcane-3sep2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BACOLOD CITY &#8212; The Department of Social Welfare and Development’s ongoing distribution of Emergency Cash Transfers (ECT) to small sugarcane farmers and workers whose crops have been destroyed by red-striped soft scale insects (RSSI) in Negros Island will hit P1.9 billion before the end of this year, Social Welfare Secretary Rex Gatchalian said on Tuesday,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-gcbnci",
       "source": "inqn",
       "title": "Go signs reso to remove LPG, kerosene excise",
       "summary": "MANILA, Philippines — Department of Finance (DOF) Secretary Frederick Go signed on Tuesday a resolution removing excise tax on liquefied petroleum gas (LPG) and kerosene. Go announced in the middle…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-09-22T19:31:03.120Z",
+      "published": "2026-09-22T19:43:06.595Z",
       "firstSeen": "2026-09-22T17:13:31.099Z",
       "url": "https://newsinfo.inquirer.net/2309873/go-signs-reso-to-remove-lpg-kerosene-excise",
       "image": {
@@ -209,7 +209,7 @@
       "summary": "MANILA, Philippines — Transport group Manibela called for immediate government action to support jeepney drivers and operators amid continuing oil price hikes in an open letter posted on social media…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-09-22T19:31:03.120Z",
+      "published": "2026-09-22T19:43:06.595Z",
       "firstSeen": "2026-09-22T13:11:13.473Z",
       "url": "https://newsinfo.inquirer.net/2309853/manibela-calls-for-action-amid-continuing-oil-price-hikes-2",
       "image": {
@@ -228,38 +228,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-o2dyam",
-      "source": "inqn",
-      "title": "Gov&#8217;t chasing people influencing students to terrorize schools; 4 plans foiled",
-      "summary": "MANILA, Philippines — The government is currently going after individuals who have been influencing students to start shooting sprees inside schools, with Interior Secretary Jonvic Remulla saying…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-09-22T19:31:03.119Z",
-      "firstSeen": "2026-09-22T16:01:12.153Z",
-      "url": "https://newsinfo.inquirer.net/2309882/govt-chasing-people-influencing-students-to-terrorize-schools-4-plans-foiled",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/News1282678.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The government is currently going after individuals who have been influencing students to start shooting sprees inside schools, with Interior Secretary Jonvic Remulla saying that they are close to catching one of those behind these efforts. In an ambush interview on Tuesday, Remulla was asked about developments regarding the recent shooting incident"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-ylkfhk",
       "source": "inqn",
       "title": "No jackpot winners in Sept. 22 PCSO lotto draws",
       "summary": "MANILA, Philippines — No bettor won the jackpots in the Ultra Lotto 6/58, Super Lotto 6/49 and Lotto 6/42 draws Tuesday, Sept. 22, according to the Philippine Charity Sweepstakes Office (PCSO). The…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-09-22T19:31:03.119Z",
+      "published": "2026-09-22T19:43:06.545Z",
       "firstSeen": "2026-09-22T14:01:09.835Z",
       "url": "https://newsinfo.inquirer.net/2309878/no-jackpot-winners-in-sept-22-pcso-lotto-draws",
       "image": {
@@ -284,7 +259,7 @@
       "summary": "MANILA, Philippines — President Ferdinand Marcos Jr. has declared Nov. 16 to 18, 2026, as special (non-working) days in the National Capital Region for the 49th Association of Southeast Asian Nations…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-09-22T19:31:03.119Z",
+      "published": "2026-09-22T19:43:06.545Z",
       "firstSeen": "2026-09-22T13:43:43.014Z",
       "url": "https://newsinfo.inquirer.net/2309871/marcos-declares-nov-16-18-non-working-days-in-ncr-for-asean-summit",
       "image": {
@@ -303,13 +278,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-o2dyam",
+      "source": "inqn",
+      "title": "Gov&#8217;t chasing people influencing students to terrorize schools; 4 plans foiled",
+      "summary": "MANILA, Philippines — The government is currently going after individuals who have been influencing students to start shooting sprees inside schools, with Interior Secretary Jonvic Remulla saying…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-09-22T19:43:04.814Z",
+      "firstSeen": "2026-09-22T16:01:12.153Z",
+      "url": "https://newsinfo.inquirer.net/2309882/govt-chasing-people-influencing-students-to-terrorize-schools-4-plans-foiled",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/News1282678.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The government is currently going after individuals who have been influencing students to start shooting sprees inside schools, with Interior Secretary Jonvic Remulla saying that they are close to catching one of those behind these efforts. In an ambush interview on Tuesday, Remulla was asked about developments regarding the recent shooting incident"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-gq5tw3",
       "source": "inqn",
       "title": "Busted Iloilo drug suspect yields P2.8-M meth",
       "summary": "ILOILO CITY — Authorities arrested a 32-year-old &#8220;high-value&#8221; drug suspect and seized some P2.84 million worth of suspected meth during an anti-illegal drug operation late Monday night in…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-09-22T19:31:03.093Z",
+      "published": "2026-09-22T19:43:04.797Z",
       "firstSeen": "2026-09-22T14:31:04.690Z",
       "url": "https://newsinfo.inquirer.net/2309849/busted-iloilo-drug-suspect-yields-p2-8-m-meth",
       "image": {
@@ -334,7 +334,7 @@
       "summary": "MANILA, Philippines — Deputy Minority Leader and ACT Teachers party-list Rep. Antonio Tinio flagged the proposed P37.5 billion budget allocated to the Financial Assistance to Local Government Units…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-09-22T19:30:59.521Z",
+      "published": "2026-09-22T19:43:02.989Z",
       "firstSeen": "2026-09-22T15:30:55.894Z",
       "url": "https://newsinfo.inquirer.net/2309894/tinio-slams-proposed-p37-5-b-lgu-assistance-budget-in-2027",
       "image": {
@@ -353,63 +353,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-14ucdcw",
-      "source": "inqg",
-      "title": "Proposed BI border fee to affect OFW rehires, say immigration experts",
-      "summary": "MANILA, Philippines — Nearly two million overseas Filipino workers (OFWs) returning to the country would be affected by the proposed border fee by the Bureau of Immigration (BI), some immigration…",
-      "byline": "dsanchez",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-09-22T19:30:57.884Z",
-      "firstSeen": "2026-09-22T12:31:02.657Z",
-      "url": "https://globalnation.inquirer.net/339050/proposed-border-fee-to-affect-ofw-rehires-say-immigration-experts",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2025/06/Bureau-of-Immigration-BI-10June2025.gif",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Nearly two million overseas Filipino workers (OFWs) returning to the country would be affected by the proposed border fee by the Bureau of Immigration (BI), some immigration experts said. Loreto Soriano, an expert from the Migration and Policy Development Center, raised concern that the proposed border fee amounting to P240, or $4"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-g4g07e",
-      "source": "inqn",
-      "title": "Remulla: Banga shooter a good kid who got into deep web, Satanism",
-      "summary": "MANILA, Philippines — The student behind the shooting incident at the Banga National High School in South Cotabato was a good kid that got exposed to the deep web and Satanism, Interior Secretary…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-09-22T19:30:57.262Z",
-      "firstSeen": "2026-09-22T15:30:55.298Z",
-      "url": "https://newsinfo.inquirer.net/2309904/remulla-banga-shooter-a-good-kid-who-got-into-deep-web-satanism",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Jonvic-Remulla-21September2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The student behind the shooting incident at the Banga National High School in South Cotabato was a good kid that got exposed to the deep web and Satanism, Interior Secretary Jonvic Remulla said on Tuesday. Remulla said in an ambush interview at the Batasang Pambansa complex that the student, whom he called"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-kiycwu",
       "source": "inqn",
       "title": "Highlights: Day 28 of Sara Duterte impeachment trial &#124; Sept. 22, 2026",
       "summary": "MANILA, Philippines – The Senate impeachment court wrapped up Day 28 of Vice President Sara Duterte&#8217;s trial on Tuesday with presiding officer Senator-judge Francis Escudero announcing that…",
       "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-09-22T19:30:55.902Z",
+      "published": "2026-09-22T19:42:57.543Z",
       "firstSeen": "2026-09-22T14:31:04.635Z",
       "url": "https://newsinfo.inquirer.net/2309897/highlights-day-28-of-sara-duterte-impeachment-trial-sept-22-2026",
       "image": {
@@ -428,13 +378,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-g4g07e",
+      "source": "inqn",
+      "title": "Remulla: Banga shooter a good kid who got into deep web, Satanism",
+      "summary": "MANILA, Philippines — The student behind the shooting incident at the Banga National High School in South Cotabato was a good kid that got exposed to the deep web and Satanism, Interior Secretary…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-09-22T19:42:57.543Z",
+      "firstSeen": "2026-09-22T15:30:55.298Z",
+      "url": "https://newsinfo.inquirer.net/2309904/remulla-banga-shooter-a-good-kid-who-got-into-deep-web-satanism",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Jonvic-Remulla-21September2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The student behind the shooting incident at the Banga National High School in South Cotabato was a good kid that got exposed to the deep web and Satanism, Interior Secretary Jonvic Remulla said on Tuesday. Remulla said in an ambush interview at the Batasang Pambansa complex that the student, whom he called"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-ffplxp",
+      "source": "inqg",
+      "title": "DFA asks passport fee hike to apply to next-gen rollouts in 2028",
+      "summary": "MANILA, Philippines — The Department of Foreign Affairs (DFA) has asked to delay the increase of the passport fee until June 2028 when it begins issuing the next-generation Philippine passports. DFA…",
+      "byline": "cbuban",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-09-22T19:42:57.543Z",
+      "firstSeen": "2026-09-22T15:01:56.634Z",
+      "url": "https://globalnation.inquirer.net/339058/dfa-asks-passport-fee-hike-to-apply-to-next-gen-rollouts-in-2028",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2025/10/Philippines-Passport-stock-20October2025.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Department of Foreign Affairs (DFA) has asked to delay the increase of the passport fee until June 2028 when it begins issuing the next-generation Philippine passports. DFA Secretary Theresa Lazaro proposed the push back in response to government passport printer APO Production Unit’s request to increase the passport fee from P950"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
       "id": "inqg-19ojsop",
       "source": "inqg",
       "title": "Remulla admits mistake on Roque asylum status: In limbo, not denied",
       "summary": "MANILA, Philippines — Interior Secretary Jonvic Remulla has admitted being wrong about his earlier pronouncement that former presidential spokesperson Harry Roque’s asylum bid has been rejected,…",
       "byline": "cbuban",
       "section": "Latest Global Nation Stories",
-      "published": "2026-09-22T19:30:55.902Z",
+      "published": "2026-09-22T19:42:57.543Z",
       "firstSeen": "2026-09-22T17:01:01.491Z",
       "url": "https://globalnation.inquirer.net/339056/remulla-admits-mistake-on-roque-asylum-status-in-limbo-not-denied",
       "image": {
@@ -457,9 +457,9 @@
       "source": "inqn",
       "title": "Firm, BOC personnel charged over P17.5-M smuggled veggies",
       "summary": "The Bureau of Customs (BOC) on Tuesday sued 14 individuals, including its own personnel and a trading firm, over the illegal shipment of P17.5 million worth of onions and carrots that had been…",
-      "byline": "NewsPublish",
+      "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-22T19:30:55.842Z",
+      "published": "2026-09-22T19:42:57.542Z",
       "firstSeen": "2026-09-22T16:30:54.537Z",
       "url": "https://newsinfo.inquirer.net/2309941/firm-boc-personnel-charged-over-p17-5-m-smuggled-veggies",
       "image": {
@@ -478,29 +478,29 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqg-ffplxp",
+      "id": "inqg-14ucdcw",
       "source": "inqg",
-      "title": "DFA asks passport fee hike to apply to next-gen rollouts in 2028",
-      "summary": "MANILA, Philippines — The Department of Foreign Affairs (DFA) has asked to delay the increase of the passport fee until June 2028 when it begins issuing the next-generation Philippine passports. DFA…",
-      "byline": "cbuban",
+      "title": "Proposed BI border fee to affect OFW rehires, say immigration experts",
+      "summary": "MANILA, Philippines — Nearly two million overseas Filipino workers (OFWs) returning to the country would be affected by the proposed border fee by the Bureau of Immigration (BI), some immigration…",
+      "byline": "dsanchez",
       "section": "Latest Global Nation Stories",
-      "published": "2026-09-22T19:30:55.842Z",
-      "firstSeen": "2026-09-22T15:01:56.634Z",
-      "url": "https://globalnation.inquirer.net/339058/dfa-asks-passport-fee-hike-to-apply-to-next-gen-rollouts-in-2028",
+      "published": "2026-09-22T19:40:55.000Z",
+      "firstSeen": "2026-09-22T12:31:02.657Z",
+      "url": "https://globalnation.inquirer.net/339050/proposed-border-fee-to-affect-ofw-rehires-say-immigration-experts",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2025/10/Philippines-Passport-stock-20October2025.png",
+        "src": "https://globalnation.inquirer.net/files/2025/06/Bureau-of-Immigration-BI-10June2025.gif",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — The Department of Foreign Affairs (DFA) has asked to delay the increase of the passport fee until June 2028 when it begins issuing the next-generation Philippine passports. DFA Secretary Theresa Lazaro proposed the push back in response to government passport printer APO Production Unit’s request to increase the passport fee from P950"
+          "text": "MANILA, Philippines — Nearly two million overseas Filipino workers (OFWs) returning to the country would be affected by the proposed border fee by the Bureau of Immigration (BI), some immigration experts said. Loreto Soriano, an expert from the Migration and Policy Development Center, raised concern that the proposed border fee amounting to P240, or $4"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqn-aezq9f",
@@ -526,6 +526,141 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "cbc-djthdv",
+      "source": "cbc",
+      "title": "911 dispatch ‘mistakes’ delayed search for Calgary boy who went missing from care facility: city",
+      "summary": "A review of City of Calgary 911 procedures following the high-profile disappearance and search for an 11-year-old boy this summer found that police dispatch was delayed roughly one hour. Parker Wells…",
+      "byline": "Bradley van Paridon",
+      "section": "News/Canada/Calgary",
+      "published": "2026-09-22T19:25:52.000Z",
+      "firstSeen": "2026-09-22T19:42:57.543Z",
+      "url": "https://www.cbc.ca/news/canada/calgary/parker-wells-911-review-9.7353950?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/3f756d79-ecc2-4f45-bb73-79b689754c93,1786055805508/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1280%2C720%29%3BResize%3D620",
+        "caption": "The disappearance of Parker Wells from a care facility in July prompted a large-scale search and now an internal review of city 911 procedures. (Calgary Police Service)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Calgary·New"
+        },
+        {
+          "type": "p",
+          "text": "A review of City of Calgary 911 procedures following the high-profile disappearance and search for an 11-year-old boy this summer found that police dispatch was delayed roughly one hour. Parker Wells was at a care facility for the day when he went missing in July. After a large-scale search, his body was found two weeks later in a system of underground pipes."
+        },
+        {
+          "type": "h",
+          "text": "Original call for missing 11-year-old warranted emergency response, review finds"
+        },
+        {
+          "type": "p",
+          "text": "A review of City of Calgary 911 procedures following the high-profile disappearance and search for an 11-year-old boy this summer found that police dispatch was delayed roughly one hour."
+        },
+        {
+          "type": "p",
+          "text": "Parker Wells was at a care facility for the day when he went missing in July. A large-scale search involving civilians and police led to his body being found two weeks later in a system of underground pipes."
+        },
+        {
+          "type": "p",
+          "text": "According to city officials, the internal review of calls from the day Parker went missing examined dispatcher actions, decision making and adherence to operational policies. The results show a lapse in adherence to procedure rather than a lack of prescribed procedure, officials say."
+        },
+        {
+          "type": "p",
+          "text": "\"We discovered there were some mistakes made, that procedure was not followed correctly, and we've subsequently implemented measures to make sure it doesn't happen again,\" said Iain Bushell, the city's director of emergency management and community safety, on Tuesday."
+        },
+        {
+          "type": "p",
+          "text": "In a press release the same day, he said those instance of not following procedure resulted \"in a delay in how certain information was acted on.”"
+        },
+        {
+          "type": "p",
+          "text": "Calgarians mourn Parker Wells at community vigil downtown"
+        },
+        {
+          "type": "h",
+          "text": "What caused the delay"
+        },
+        {
+          "type": "p",
+          "text": "The first call to 911 regarding the disappearance of Parker from his care facility was made on July 16 at 10:53 a.m."
+        },
+        {
+          "type": "p",
+          "text": "At that time, the caller stated they did not wish to file a missing person report. However, the review found that sufficient information was given during the call to initiate an emergency response and to dispatch police."
+        },
+        {
+          "type": "p",
+          "text": "The review also found that a supervisor subsequently reviewed the call and also did not escalate, reassess or reopen the call."
+        },
+        {
+          "type": "p",
+          "text": "At 11:24 a.m. the care facility called back to officially report Parker missing, triggering police dispatch at 11:41 a.m."
+        },
+        {
+          "type": "p",
+          "text": "According to officials, the delay was a missed opportunity to dispatch police earlier."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The emotional fallout for many Calgarians after search for Parker ends in tragedy"
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Changes to procedures and training underway"
+        },
+        {
+          "type": "p",
+          "text": "In response to the city’s review, several actions are underway to strengthen oversight, reinforce policy compliance and improve training for dispatchers, officials said."
+        },
+        {
+          "type": "p",
+          "text": "Reviews of calls flagged as \"advised events\" (categorized as not requiring police assistance) now occur every 15-30 minutes by two rather than one supervisor. Spot checks and periodic reviews by coaching mentors and the coaching pool have been implemented, and employees are now seated closer to senior staff to improve guidance, mentorship and oversight."
+        },
+        {
+          "type": "p",
+          "text": "All employees completed a mandatory review of missing persons policy and team briefings focused on reinforcing policy adherence, critical thinking and decision making. A broader review of policies and procedures is also underway."
+        },
+        {
+          "type": "p",
+          "text": "Training for new recruits is extended by one week, and the city is developing new training focused on critical thinking, emotional intelligence and problem solving."
+        },
+        {
+          "type": "p",
+          "text": "Finally, supervisor training regarding event review and escalation responsibilities is also being developed."
+        },
+        {
+          "type": "p",
+          "text": "“We are committed to strengthening our processes and ensuring our employees have the support, training and tools they need to serve Calgarians effectively,” said Bushell."
+        },
+        {
+          "type": "p",
+          "text": "“Calgary 911 employees are deeply committed to public safety, and when an event has a tragic outcome such as this, they feel the weight of that responsibility.”"
+        },
+        {
+          "type": "p",
+          "text": "The city said appropriate disciplinary action has been taken as well."
+        },
+        {
+          "type": "p",
+          "text": "\"There is one individual who is no longer with the city,\" said Bushell."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Bradley van Paridon is a Calgary based journalist covering science and local news. He can be reached at bradley.van.paridon@cbc.ca"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inqg-1paqhf4",
@@ -5286,102 +5421,6 @@
         {
           "type": "p",
           "text": "He explained that four contracts were awarded through competitive public bidding and 15 contracts were processed through small value procurement, as allowed under procurement rules. — Daphne Galvez, Evelyn Macairan"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-1t274ui",
-      "source": "cbc",
-      "title": "Heroes star Hayden Panettiere died from 'toxic' mix of drugs, including fentanyl: coroner's report",
-      "summary": "The recent death of actor Hayden Panettiere has been ruled accidental and attributed to \"toxic effects\" of a mix of drugs, including fentanyl, according to the Greenville County Coroner's Office.",
-      "byline": "Jessica Wong",
-      "section": "News/World",
-      "published": "2026-09-22T15:57:19.000Z",
-      "firstSeen": "2026-09-22T16:30:54.538Z",
-      "url": "https://www.cbc.ca/news/world/panettiere-coronors-report-9.7353683?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/e0c8abc6-2c05-4632-a974-9366bbadf8e8,1790092148039/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C156%2C3000%2C1687%29%3BResize%3D620",
-        "caption": "An image of Hayden Panettiere appears during the in memoriam presentation at the Emmy Awards on Sept. 14 in Los Angeles. A South Carolina coroner's office has released the cause of death for the Heroes and Nashville star. (Chris Pizzello/Associated Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "World"
-        },
-        {
-          "type": "p",
-          "text": "The recent death of actor Hayden Panettiere has been ruled accidental and attributed to \"toxic effects\" of a mix of drugs, including fentanyl, according to the Greenville County Coroner's Office."
-        },
-        {
-          "type": "h",
-          "text": "Coroner's office rules actor's August death an accident"
-        },
-        {
-          "type": "p",
-          "text": "The recent death of Hayden Panettiere has been ruled accidental and attributed to \"toxic effects\" of a mix of drugs, including fentanyl, according to the Greenville County Coroner's Office."
-        },
-        {
-          "type": "p",
-          "text": "The actor, known for roles in TV shows like Heroes and Nashville, died on Aug. 16 at a Greenville, S.C., residence where she'd been staying."
-        },
-        {
-          "type": "p",
-          "text": "Upon arriving at the scene, emergency responders had found Panettiere in cardiac arrest and were unsuccessful with their resuscitation efforts, according to the office."
-        },
-        {
-          "type": "p",
-          "text": "Following a joint investigation by the office alongside the Greenville City Police Department, \"the cause of death has been ruled as toxic effects of fentanyl, 4-ANPP, Alprazolam, Methocarbamol, and Quetiapine,\" the office confirmed to CBC News in an official statement on Tuesday."
-        },
-        {
-          "type": "p",
-          "text": "Quetiapine is an antipsychotic medication used to treat schizophrenia, bipolar disorder and major depression and Alprazolam is used to treat anxiety and panic disorders as well as anxiety caused by depression."
-        },
-        {
-          "type": "p",
-          "text": "Methocarbamol is a muscle relaxant, while 4-ANPP is a compound linked to the production of fentanyl, a powerful opioid."
-        },
-        {
-          "type": "p",
-          "text": "Heroes, Nashville star Hayden Panettiere dead at 36"
-        },
-        {
-          "type": "p",
-          "text": "During the autopsy, \"no signs of trauma were discovered that would have contributed to the death,\" the statement added."
-        },
-        {
-          "type": "p",
-          "text": "The television and film performer, who died days ahead of her 37th birthday, had openly discussed personal struggles with early fame, addiction and mental health, including postpartum depression following the birth of her daughter in 2014."
-        },
-        {
-          "type": "p",
-          "text": "Panettiere spoke and wrote candidly about her life, including in interviews and in her recent memoir, This Is Me: A Reckoning."
-        },
-        {
-          "type": "p",
-          "text": "Tributes pour in for Hayden Panettiere after her death at 36"
-        },
-        {
-          "type": "p",
-          "text": "Her death unleashed a flood of tributes and remembrances from co-stars and fans."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Neutrogena responds after Hayden Panettiere fans renew call for boycott",
-            "Why are people mad at Neutrogena on behalf of Hayden Panettiere?"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "It also revived an earlier backlash against skincare company Neutrogena, for whom Panettiere had served as a global brand ambassador and pitchwoman for nearly a decade before the birth of her daughter."
-        },
-        {
-          "type": "p",
-          "text": "She had alleged the company dropped her after she began speaking openly about her struggle with postpartum depression."
         }
       ],
       "truncated": false,
