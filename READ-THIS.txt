@@ -1,33 +1,36 @@
-WIRE v0.17.39 — FIXES THE TRACE ITSELF, NOT THE NOTIFICATION LOGIC
+WIRE v0.17.41 — TESTS THE ACTUAL DIFFERENCE BETWEEN THE TWO PATHS
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHAT WAS ACTUALLY WRONG
-Not the notification handling. The recorder. Two events firing close
-together - which a real notification and the check for it always do -
-could each read the log before the other had finished writing it back,
-and whichever wrote second silently erased the other's line. That is
-almost certainly why some traces came back with only one line: not
-because nothing else happened, but because this recorder lost the
-evidence that it did.
+WHY THIS ONE IS DIFFERENT FROM EVERY PREVIOUS ATTEMPT
+Every earlier build treated cold and background as though they should
+behave the same way once a notification is tapped. They don't, and the
+completely deterministic result across every test - cold always passes,
+background always fails, on both devices, without exception - pointed
+directly at what's structurally different between them.
 
-Proven directly before shipping: the old design was made to fail with
-the exact same timing a real device produces, and it lost a line every
-time. The new design - each event writes to its own key instead of
-sharing one - was run through the identical test and lost nothing, even
-across the worker and the page writing at once.
+A cold launch always forces a real, full page load. A background resume
+never asked for one - it only asked the already-open window to come to
+the front, on the assumption that alone would be enough to wake the
+page's own checks. If that assumption doesn't hold on iOS, nothing was
+ever going to wake up to look, no matter how solid the reading logic
+underneath it was.
 
-WHAT THIS MEANS FOR THE LAST TWO TESTS
-The iPhone trace showed a full, clean, complete success - that one is
-real and can be trusted as is. The iPad trace showing only one line is
-now suspect, not confirmed - it may well have been a real success or a
-real failure, but this recorder's bug means we cannot tell from what it
-produced. Worth testing the iPad again with this version before drawing
-any conclusion from that one.
+WHAT CHANGED
+When an existing window is found, it is now asked to reload completely
+before being brought forward - the same real page load a cold launch
+already gets, rather than just being told to come to the front as it
+was. If that succeeds, the background case should end up running
+through exactly the same path that has already passed every time.
+
+The trace records plainly whether that reload was accepted or refused,
+so if this doesn't work either, we'll know that specifically rather
+than guessing again.
 
 WHAT TO DO
-Same as always. Clear the trace, run the test, save the trace as a file
-afterward, send it here either way.
+One background test, the same way you've been running them. Clear the
+trace first, background the device, wait for the notification, tap it,
+save the trace afterward.

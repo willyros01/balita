@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.39";
+const VERSION = "wire-v0.17.41";
 
 /* Kept outside the shell cache so an app update cannot erase a
    notification's destination before the page has had a chance to
@@ -107,9 +107,10 @@ self.addEventListener("activate", event => {
     caches.keys()
       .then(keys => Promise.all(
         keys
-          .filter(k => k !== VERSION && k !== NOTIFICATION_ROUTE_CACHE)
+          .filter(k => k !== VERSION && k !== NOTIFICATION_ROUTE_CACHE && k !== TRACE_CACHE)
           .map(k => caches.delete(k))
       ))
+      .then(() => trace("activate \u2014 this worker just took over"))
       .then(() => self.clients.claim())
   );
 });
@@ -256,13 +257,24 @@ self.addEventListener("notificationclick", event => {
       await trace("route write at tap: FAILED \u2014 " + String(err?.message || err));
     }
 
-    /* Nothing more than this. No forced navigation, no message handed
-       across to a page that may or may not be listening, no repeated
-       attempts. Bring the app forward the plain way any ordinary
-       notification would, and accept whatever the OS chooses to show
-       in that moment. The app's own routine, once it is genuinely
-       visible on screen, is what finds the destination and opens it —
-       see checkForNotifiedArticle() in app.js. */
+    /* A cold launch has passed every single test run so far. A resume
+       from the background has failed every single one. The structural
+       difference between them is exactly this: a cold launch always
+       forces a real page load, and a resume never asked for one — it
+       only asked the existing window to come forward, on the
+       assumption that would be enough to wake the page's own checks.
+
+       That assumption is what this replaces. A real reload is the one
+       thing every passing case has in common, so a resume now asks
+       for one too, on the same existing window, before falling back
+       to a plain focus if the reload itself is refused. This is not
+       the forced navigation removed earlier for a different reason —
+       that one fired repeatedly alongside a message handed across to
+       the page, trying to force a specific outcome regardless of what
+       actually woke up. This fires once, and its only job is to give
+       the page the same real reload the cold path already relies on;
+       whatever runs afterward is entirely the page's own routine,
+       exactly as it is for a fresh launch. */
     const windows = await self.clients.matchAll({
       type: "window",
       includeUncontrolled: true
@@ -270,8 +282,19 @@ self.addEventListener("notificationclick", event => {
     const existing = windows.find(client =>
       client.url.startsWith(self.registration.scope)
     );
-    await trace(existing ? "found an existing window, focusing it" : "no existing window, opening one");
-    if(existing) return existing.focus();
-    return self.clients.openWindow(self.registration.scope);
+
+    if(!existing){
+      await trace("no existing window, opening one");
+      return self.clients.openWindow(self.registration.scope);
+    }
+
+    try{
+      const reloaded = await existing.navigate(self.registration.scope);
+      await trace("existing window reloaded");
+      return (reloaded || existing).focus();
+    }catch(err){
+      await trace("reload was refused \u2014 " + String(err?.message || err) + ", focusing as-is");
+      return existing.focus();
+    }
   })());
 });
