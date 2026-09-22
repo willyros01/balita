@@ -1,51 +1,54 @@
-WIRE v0.17.44 — CLEANUP + CLEAR "STORY GONE" MESSAGE + STACKING SUPPORT
+WIRE v0.17.45 — TAPPING A SPECIFIC NOTIFICATION NOW OPENS THAT ONE
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-TWO OF YOUR THREE REQUESTS ARE FULLY DONE HERE. THE THIRD NEEDS ONE
-MORE STEP FROM ME - SEE THE NOTE AT THE BOTTOM.
+THE BUG, EXACTLY AS REPORTED
+With two or more notifications sitting on the device at once, tapping
+any of them always opened whichever story happened to be oldest in the
+queue, not the one actually pressed.
 
-1) TRACE REMOVED
-Every diagnostic added while chasing the background-resume bug is
-gone - the buttons in About, the recording itself, the extra text
-that could appear in a notification banner. The app is back to a
-clean, quiet state. It did its job.
+WHY THAT WAS HAPPENING
+The queue was built to handle a real problem - the app not being sure
+which banner was pressed when it couldn't reliably wake in time to
+find out. So it played it safe and always opened the oldest waiting
+story instead of guessing. But a tap actually does carry one piece of
+certain information: the service worker always knows precisely which
+banner was pressed. That certainty was being thrown away in favor of
+the same safe guess every time, even when it wasn't needed at all.
 
-2) CLEAR MESSAGE WHEN A STORY IS GONE
-Previously, if a notification pointed to a story that could no longer
-be found - replaced, removed, or updated under a different id at the
-source - the app silently landed on the main headline list with no
-explanation at all. It now says plainly:
+THE FIX
+The moment a notification is tapped, exactly which one is recorded
+separately from the general queue. That specific record now always
+takes priority - tapping a banner opens that banner's story, full
+stop. The general oldest-first queue still exists, but only comes
+into play when there was no specific tap to begin with - opening the
+app from its icon, or switching back to it without pressing any
+particular notification.
 
-  "That story is no longer available. It may have been updated
-   or replaced."
+If the specific story that was tapped has expired, or can no longer
+be found, that is now what gets reported - not some other story
+pulled from the queue instead.
 
-3) STACKING - THE CLIENT SIDE IS DONE, VERIFIED, READY
-The single overwritable slot that held one pending notification's
-destination is now a real queue, keyed by each story's own id rather
-than one shared spot. Several genuinely breaking stories can now
-arrive and wait their turn without one silently erasing another
-before it's ever opened. Tested directly against the actual logic
-before shipping - multiple stacked entries coexisting, correct
-oldest-first ordering, and selective clearing all confirmed working.
+ONE TECHNICAL DETAIL WORTH KNOWING
+This required bumping the internal version number of the durable
+database itself, separate from Wire's own version number. That is
+what makes the new storage actually appear on a device that already
+has the app installed from before - tested directly, including
+confirming any story you already had waiting survives the upgrade
+untouched.
 
-When the app comes forward, it opens the single oldest story still
-waiting, then leaves anything else queued for the next time it comes
-forward - rather than jumping through several articles at once.
+Tested directly before packaging: tapping the newer of two waiting
+notifications now correctly opens that one rather than the older one
+sitting behind it; tapping an expired one reports it as expired rather
+than silently opening something else; and opening the app generally,
+with no specific tap involved, still falls back to the oldest waiting
+story exactly as before.
 
-WHAT STILL NEEDS DOING, ON MY END, NOT YOURS
-The other half of "waive the 30 minute rule" lives on the sending
-side - the part that currently refuses to send more than one alert
-in any half hour. GitHub's tools were unavailable to me for this
-particular reply, so I could not safely read that file before editing
-it, and I did not want to guess at a change to the actual sending
-logic. That one file's change is still owed and will come as soon as
-I can read it properly first.
-
-WHAT TO DO
-Same routine as always - kill the app, delete the icon, add it back
-fresh. This one is safe to test at leisure; nothing here depends on
-timing the way the background-resume fix did.
+HOW TO TEST
+Same full routine as always - kill the app, delete the icon, add it
+back fresh. To actually see this fixed, you'll need at least two
+notifications waiting at once, then tap the one that isn't oldest and
+confirm it opens correctly.

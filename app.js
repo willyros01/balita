@@ -142,8 +142,10 @@ function registerWorker(){
    Matches sw.js exactly. See there for why this replaced Cache
    Storage. */
 const DB_NAME = "wire-durable";
-const DB_VERSION = 1;
+const DB_VERSION = 2;   /* bumped so existing devices actually get the new store below */
 const ROUTE_STORE = "route";
+const LAST_TAP_STORE = "lastTap";
+const LAST_TAP_KEY = "current";
 
 function openDB(){
   return new Promise((resolve, reject) => {
@@ -151,6 +153,7 @@ function openDB(){
     req.onupgradeneeded = () => {
       const db = req.result;
       if(!db.objectStoreNames.contains(ROUTE_STORE)) db.createObjectStore(ROUTE_STORE);
+      if(!db.objectStoreNames.contains(LAST_TAP_STORE)) db.createObjectStore(LAST_TAP_STORE);
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);
@@ -186,17 +189,38 @@ async function idbGetAll(store){
    opened, and none of them should be lost or silently replaced by a
    later one.
 
+   Separately from that queue, the worker also records exactly which
+   banner a tap pressed — the one piece of information a tap gives
+   with total certainty. That specific article always takes priority
+   over the general queue, so tapping one particular notification
+   reliably opens that one, rather than whichever happens to be
+   oldest. The general queue is only for when there is no such
+   certainty at all: the app opened from its icon, or switched back to
+   without pressing any specific banner. In that situation the oldest
+   waiting story is the best available guess, and only one is opened
+   per check, leaving the rest for the next one.
+
    Woken only by the app becoming visible — never by the tap directly,
-   never by a timer. Tapping a notification, opening the Home Screen
-   icon, and switching back to an already-open tab all lead here the
-   same way. Because a tap cannot reliably tell this routine which
-   specific banner among several was pressed, each visibility check
-   opens the single oldest story still waiting, in the order it
-   arrived, and leaves any others queued for the next check — rather
-   than guessing, or opening several at once. */
+   never by a timer. */
 let notificationCheckRunning = false;
 let lastOpenedNotificationArticle = "";
 const NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
+
+async function readLastTap(){
+  try{
+    const rows = await idbGetAll(LAST_TAP_STORE);
+    const row = rows.find(r => r.key === LAST_TAP_KEY);
+    const articleId = String(row?.value?.articleId || "");
+    const sentAt = String(row?.value?.sentAt || "");
+    if(articleId) return { articleId, sentAt };
+  }catch(err){ /* nothing to read */ }
+  return null;
+}
+
+async function clearLastTap(){
+  try{ await idbDelete(LAST_TAP_STORE, LAST_TAP_KEY); }
+  catch(err){ /* nothing to clear */ }
+}
 
 async function readNextNotificationRoute(){
   try{
@@ -246,57 +270,75 @@ function prepareNotificationReturn(article){
   if(card) window.scrollTo(0, Math.max(0, card.offsetTop - 16));
 }
 
+/* Shared by both the specific-tap path and the general queue: given
+   one route, either opens it and returns true, or explains why it
+   could not and returns false. Never touches storage itself — the
+   caller decides what to clear, since the two paths clear from
+   different places. */
+async function resolveAndOpenRoute(route){
+  if(route.articleId === lastOpenedNotificationArticle) return false;
+
+  const sentAtMs = Date.parse(route.sentAt || "");
+  if(Number.isFinite(sentAtMs) && Date.now() - sentAtMs > NOTIFICATION_ROUTE_MAX_AGE_MS){
+    announce("This notification expired before it was opened. Showing current headlines.", "warn");
+    return false;
+  }
+
+  if(!state.articles.some(article => article.id === route.articleId)){
+    await loadNotificationArticle(route.articleId);
+  }
+  if(!state.articles.some(article => article.id === route.articleId)){
+    await loadArticles(true);
+    ctx.refresh();
+  }
+
+  const article = state.articles.find(item => item.id === route.articleId);
+  if(!article){
+    /* The story this notification pointed to is genuinely gone —
+       removed or replaced at the source, not merely still loading.
+       Said plainly rather than silently landing on the main feed
+       with no explanation at all. */
+    announce("That story is no longer available. It may have been updated or replaced.", "warn");
+    return false;
+  }
+
+  prepareNotificationReturn(article);
+  ctx.openArticle(route.articleId);
+  lastOpenedNotificationArticle = route.articleId;
+  return true;
+}
+
 async function checkForNotifiedArticle(){
   if(notificationCheckRunning) return;
   if(document.visibilityState !== "visible") return;
 
   notificationCheckRunning = true;
   try{
-    /* Expired and no-longer-available entries are cleared in the same
-       pass, so the queue never fills up with things that will never
-       open — but only one story is actually opened per check, so
-       arriving from the background never jumps through several
-       articles at once. */
+    /* A specific tap, if there is one, is handled on its own and
+       exclusively — it does not fall through to the general queue,
+       whether it opens successfully or turns out to be gone. Opening
+       some other story instead of the one actually pressed would be
+       its own kind of wrong answer. */
+    const tapped = await readLastTap();
+    if(tapped){
+      await clearLastTap();
+      await resolveAndOpenRoute(tapped);
+      await clearNotificationRoute(tapped);
+      return;
+    }
+
+    /* No specific tap pending — the app was opened generally, so the
+       oldest still-waiting story is the best available answer. Expired
+       and no-longer-available entries are cleared in the same pass,
+       so the queue never fills up with things that will never open —
+       but only one story is actually opened per check. */
     while(true){
       const route = await readNextNotificationRoute();
       if(!route) return;
 
-      if(route.articleId === lastOpenedNotificationArticle){
-        await clearNotificationRoute(route);
-        continue;
-      }
-
-      const sentAtMs = Date.parse(route.sentAt || "");
-      if(Number.isFinite(sentAtMs) && Date.now() - sentAtMs > NOTIFICATION_ROUTE_MAX_AGE_MS){
-        await clearNotificationRoute(route);
-        announce("A notification expired before it was opened. Showing current headlines.", "warn");
-        continue;
-      }
-
-      if(!state.articles.some(article => article.id === route.articleId)){
-        await loadNotificationArticle(route.articleId);
-      }
-      if(!state.articles.some(article => article.id === route.articleId)){
-        await loadArticles(true);
-        ctx.refresh();
-      }
-
-      const article = state.articles.find(item => item.id === route.articleId);
-      if(!article){
-        /* The story this notification pointed to is genuinely gone —
-           removed or replaced at the source, not merely still loading.
-           Said plainly rather than silently landing on the main feed
-           with no explanation at all. */
-        await clearNotificationRoute(route);
-        announce("That story is no longer available. It may have been updated or replaced.", "warn");
-        continue;
-      }
-
-      prepareNotificationReturn(article);
-      ctx.openArticle(route.articleId);
-      lastOpenedNotificationArticle = route.articleId;
+      const opened = await resolveAndOpenRoute(route);
       await clearNotificationRoute(route);
-      return;   /* Stop after one. Anything else queued waits for the next check. */
+      if(opened) return;
     }
   }catch(err){
     console.warn("Could not check for a notified story.", err);

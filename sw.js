@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.44";
+const VERSION = "wire-v0.17.45";
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
 
 /* ---------------- durable storage: IndexedDB ----------------
@@ -34,8 +34,10 @@ const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
    built specifically for a page's own durable data and is shared
    between this worker and the page through the same database. */
 const DB_NAME = "wire-durable";
-const DB_VERSION = 1;
+const DB_VERSION = 2;   /* bumped so existing devices actually get the new store below */
 const ROUTE_STORE = "route";
+const LAST_TAP_STORE = "lastTap";
+const LAST_TAP_KEY = "current";
 
 function openDB(){
   return new Promise((resolve, reject) => {
@@ -43,6 +45,7 @@ function openDB(){
     req.onupgradeneeded = () => {
       const db = req.result;
       if(!db.objectStoreNames.contains(ROUTE_STORE)) db.createObjectStore(ROUTE_STORE);
+      if(!db.objectStoreNames.contains(LAST_TAP_STORE)) db.createObjectStore(LAST_TAP_STORE);
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);
@@ -221,6 +224,21 @@ self.addEventListener("notificationclick", event => {
        independent chance costs nothing even when it is usually
        unnecessary by the time a tap happens. */
     try{ await writeNotificationRoute(articleId, sentAt); }catch(err){ /* already tried once above */ }
+
+    /* This is the one piece of information a tap gives with total
+       certainty: exactly which banner was pressed. The general queue
+       above exists for when there is no such certainty at all — the
+       app being opened from its icon, or switched back to without any
+       specific tap — and picks whatever is oldest as its best guess in
+       that situation. A real tap should never have to rely on a guess
+       about itself. Recorded separately, and deliberately overwritten
+       by whichever tap happens most recently, so if several banners
+       are pressed in quick succession the last one pressed is the one
+       honoured, matching what tapping a specific thing means. */
+    if(articleId){
+      try{ await idbPut(LAST_TAP_STORE, LAST_TAP_KEY, { articleId, sentAt }); }
+      catch(err){ /* the general queue is still there as a fallback */ }
+    }
 
     /* A cold launch reliably forces a real page load; asking an
        existing window to merely come forward did not reliably wake

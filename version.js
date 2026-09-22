@@ -10,7 +10,7 @@
    Change the line below. Nothing else.
    ============================================================ */
 
-export const VERSION    = "0.17.44";
+export const VERSION    = "0.17.45";
 export const BUILD_DATE = "2026-09-23";
 
 /* The service worker reads this too, so the cache name can never
