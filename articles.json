@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-09-22T00:01:19.015Z",
+  "updated": "2026-09-22T00:05:34.280Z",
   "sources": [
     {
       "id": "inq",
@@ -53,63 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-1t1a2z8",
-      "source": "inqn",
-      "title": "Cagayan vice governor starts 90-day preventive suspension over graft case",
-      "summary": "TUGUEGARAO CITY, Philippines — Cagayan Vice Gov. Manuel Mamba began serving his 90-day preventive suspension on Monday, Sept. 21, after the Regional Trial Court in Batac, Ilocos Norte, denied his…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-09-22T00:01:08.344Z",
-      "firstSeen": "2026-09-21T17:30:59.632Z",
-      "url": "https://newsinfo.inquirer.net/2309236/cagayan-vice-governor-starts-90-day-preventive-suspension-over-graft-case",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Cagayan-map-filephoto-091122.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TUGUEGARAO CITY, Philippines — Cagayan Vice Gov. Manuel Mamba began serving his 90-day preventive suspension on Monday, Sept. 21, after the Regional Trial Court in Batac, Ilocos Norte, denied his motion for reconsideration. Mamba said he respected the court’s order, stressing that the suspension was “not a penalty but a procedural requirement.” He said he"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1lq4fzv",
-      "source": "inqn",
-      "title": "Body of missing Apayao resident found after 3 days of search",
-      "summary": "BAGUIO CITY, Philippines — The remains of a resident of Pudtol, Apayao were recovered near Dacao Dam on Sunday, Sept. 20, three days after she was reported missing, the municipal government said.…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-09-22T00:01:08.344Z",
-      "firstSeen": "2026-09-21T17:00:59.373Z",
-      "url": "https://newsinfo.inquirer.net/2309214/body-of-missing-apayao-resident-found-after-3-days-of-search",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Body-of-missing-Apayao-resident-found-after-3-days-of-search-21September2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BAGUIO CITY, Philippines — The remains of a resident of Pudtol, Apayao were recovered near Dacao Dam on Sunday, Sept. 20, three days after she was reported missing, the municipal government said. Revelyn Balatoc was reported missing on Sept. 17, prompting the Municipal Disaster Risk Reduction and Management Council to activate its Emergency Operations Center"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-gyrev9",
       "source": "inqn",
       "title": "&#8216;I had to swim to work&#8217;: BPO workers join rally vs flood control mess",
       "summary": "MANILA, Philippines — Some call center agents, whose graveyard shift forces them to adjust their body clock to sleep during the day, chose to forego their daytime slumber and join Monday&#8217;s…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-09-22T00:01:08.344Z",
+      "published": "2026-09-22T00:05:27.073Z",
       "firstSeen": "2026-09-21T17:53:01.245Z",
       "url": "https://newsinfo.inquirer.net/2309312/i-had-to-swim-to-work-bpo-workers-join-rally-vs-flood-control-mess",
       "image": {
@@ -134,7 +84,7 @@
       "summary": "ILOILO CITY, Philippines — The 54th anniversary of the declaration of martial law was observed peacefully in Western Visayas on Monday, Sept. 21, with no major untoward incidents reported in…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-09-22T00:01:08.344Z",
+      "published": "2026-09-22T00:05:27.073Z",
       "firstSeen": "2026-09-21T17:00:59.434Z",
       "url": "https://newsinfo.inquirer.net/2309185/western-visayas-marks-martial-law-anniversary-peacefully-cops-say",
       "image": {
@@ -153,13 +103,88 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1lq4fzv",
+      "source": "inqn",
+      "title": "Body of missing Apayao resident found after 3 days of search",
+      "summary": "BAGUIO CITY, Philippines — The remains of a resident of Pudtol, Apayao were recovered near Dacao Dam on Sunday, Sept. 20, three days after she was reported missing, the municipal government said.…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-09-22T00:05:25.438Z",
+      "firstSeen": "2026-09-21T17:00:59.373Z",
+      "url": "https://newsinfo.inquirer.net/2309214/body-of-missing-apayao-resident-found-after-3-days-of-search",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Body-of-missing-Apayao-resident-found-after-3-days-of-search-21September2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BAGUIO CITY, Philippines — The remains of a resident of Pudtol, Apayao were recovered near Dacao Dam on Sunday, Sept. 20, three days after she was reported missing, the municipal government said. Revelyn Balatoc was reported missing on Sept. 17, prompting the Municipal Disaster Risk Reduction and Management Council to activate its Emergency Operations Center"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1t1a2z8",
+      "source": "inqn",
+      "title": "Cagayan vice governor starts 90-day preventive suspension over graft case",
+      "summary": "TUGUEGARAO CITY, Philippines — Cagayan Vice Gov. Manuel Mamba began serving his 90-day preventive suspension on Monday, Sept. 21, after the Regional Trial Court in Batac, Ilocos Norte, denied his…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-09-22T00:05:25.392Z",
+      "firstSeen": "2026-09-21T17:30:59.632Z",
+      "url": "https://newsinfo.inquirer.net/2309236/cagayan-vice-governor-starts-90-day-preventive-suspension-over-graft-case",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Cagayan-map-filephoto-091122.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TUGUEGARAO CITY, Philippines — Cagayan Vice Gov. Manuel Mamba began serving his 90-day preventive suspension on Monday, Sept. 21, after the Regional Trial Court in Batac, Ilocos Norte, denied his motion for reconsideration. Mamba said he respected the court’s order, stressing that the suspension was “not a penalty but a procedural requirement.” He said he"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-19evr2e",
+      "source": "inqn",
+      "title": "Groups push back vs efforts to revise martial law history",
+      "summary": "CAGAYAN DE ORO CITY, Philippines — Stories of arrests, torture, killings and resistance were retold across the country as groups marked the 54th anniversary of the declaration of martial law on…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-09-22T00:05:25.275Z",
+      "firstSeen": "2026-09-21T21:01:01.160Z",
+      "url": "https://newsinfo.inquirer.net/2309233/groups-push-back-vs-efforts-to-revise-martial-law-history",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Protesters-gather-in-Iloilo-City-21September2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CAGAYAN DE ORO CITY, Philippines — Stories of arrests, torture, killings and resistance were retold across the country as groups marked the 54th anniversary of the declaration of martial law on Monday, urging the public to remember its abuses and resist efforts to rewrite its history. In Cagayan de Oro, the late journalist Hugo “Ka"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-14viv66",
       "source": "inqn",
       "title": "Cebu detects first swine fever cases in 3 years",
       "summary": "CEBU CITY, Philippines — The province of Cebu has recorded its first reported cases of the highly contagious African swine fever (ASF) in the municipality of Ginatilan, prompting local authorities to…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-22T00:01:08.206Z",
+      "published": "2026-09-22T00:05:25.275Z",
       "firstSeen": "2026-09-21T21:01:05.996Z",
       "url": "https://newsinfo.inquirer.net/2309232/cebu-detects-first-swine-fever-cases-in-3-years",
       "image": {
@@ -184,7 +209,7 @@
       "summary": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — Some 39,847 sugarcane farmers in Negros Island have received P410.28 million in emergency cash transfers (ECT) from the Department of Social Welfare and…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-22T00:01:08.206Z",
+      "published": "2026-09-22T00:05:25.275Z",
       "firstSeen": "2026-09-21T20:30:53.160Z",
       "url": "https://newsinfo.inquirer.net/2309230/negros-sugar-farmers-get-p410-3m-in-cash-aid",
       "image": {
@@ -203,13 +228,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-6c5o5h",
+      "source": "inqn",
+      "title": "Manila logs 32 new flu-like cases",
+      "summary": "MANILA, Philippines — Manila on Monday recorded 32 new influenza-like illness (ILI) cases, the highest number of new cases among the illnesses included in the city’s latest report on water-borne…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-09-22T00:05:25.274Z",
+      "firstSeen": "2026-09-21T21:01:00.628Z",
+      "url": "https://newsinfo.inquirer.net/2309267/manila-logs-32-new-flu-like-cases",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Manila.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Manila on Monday recorded 32 new influenza-like illness (ILI) cases, the highest number of new cases among the illnesses included in the city’s latest report on water-borne diseases, influenza, leptospirosis and dengue. The Manila Health Department also logged 22 new dengue cases, 15 new leptospirosis cases and one new confirmed COVID-19 case"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1h2soiy",
       "source": "inqn",
       "title": "Legarda files sixth medical leave extension",
       "summary": "MANILA, Philippines — For the sixth time, Sen. Loren Legarda extended anew her medical leave, this time from Oct. 5 to Oct. 9, Senate Secretary Renato Bantug said on Monday. Legarda first filed a…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-22T00:01:06.588Z",
+      "published": "2026-09-22T00:05:25.273Z",
       "firstSeen": "2026-09-21T21:30:59.458Z",
       "url": "https://newsinfo.inquirer.net/2309271/legarda-files-sixth-medical-leave-extension",
       "image": {
@@ -234,7 +284,7 @@
       "summary": "MANILA, Philippines — Quezon City’s digital reporting platform has resolved 4,580 of 5,589 reports filed by residents and other users in nearly four months, giving it an 82-percent resolution rate as…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-22T00:01:06.588Z",
+      "published": "2026-09-22T00:05:25.273Z",
       "firstSeen": "2026-09-21T21:01:00.566Z",
       "url": "https://newsinfo.inquirer.net/2309252/qc-digital-platform-reports-82-resolution-rate",
       "image": {
@@ -253,88 +303,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-6c5o5h",
-      "source": "inqn",
-      "title": "Manila logs 32 new flu-like cases",
-      "summary": "MANILA, Philippines — Manila on Monday recorded 32 new influenza-like illness (ILI) cases, the highest number of new cases among the illnesses included in the city’s latest report on water-borne…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-09-22T00:01:06.588Z",
-      "firstSeen": "2026-09-21T21:01:00.628Z",
-      "url": "https://newsinfo.inquirer.net/2309267/manila-logs-32-new-flu-like-cases",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Manila.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Manila on Monday recorded 32 new influenza-like illness (ILI) cases, the highest number of new cases among the illnesses included in the city’s latest report on water-borne diseases, influenza, leptospirosis and dengue. The Manila Health Department also logged 22 new dengue cases, 15 new leptospirosis cases and one new confirmed COVID-19 case"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-19evr2e",
-      "source": "inqn",
-      "title": "Groups push back vs efforts to revise martial law history",
-      "summary": "CAGAYAN DE ORO CITY, Philippines — Stories of arrests, torture, killings and resistance were retold across the country as groups marked the 54th anniversary of the declaration of martial law on…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-09-22T00:01:06.588Z",
-      "firstSeen": "2026-09-21T21:01:01.160Z",
-      "url": "https://newsinfo.inquirer.net/2309233/groups-push-back-vs-efforts-to-revise-martial-law-history",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Protesters-gather-in-Iloilo-City-21September2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CAGAYAN DE ORO CITY, Philippines — Stories of arrests, torture, killings and resistance were retold across the country as groups marked the 54th anniversary of the declaration of martial law on Monday, urging the public to remember its abuses and resist efforts to rewrite its history. In Cagayan de Oro, the late journalist Hugo “Ka"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-6ovjnb",
-      "source": "inqn",
-      "title": "SC sets jail reforms to reduce congestion",
-      "summary": "MANILA, Philippines — To further reduce jail overcrowding, Chief Justice Alexander Gesmundo said the Supreme Court will introduce house arrest, medical confinement and community-supervised release as…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-09-22T00:01:06.514Z",
-      "firstSeen": "2026-09-21T21:30:57.633Z",
-      "url": "https://newsinfo.inquirer.net/2309263/sc-sets-jail-reforms-to-reduce-congestion",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Alexander-Gesmundo-22September2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — To further reduce jail overcrowding, Chief Justice Alexander Gesmundo said the Supreme Court will introduce house arrest, medical confinement and community-supervised release as legal alternatives to detention. Gesmundo highlighted these upcoming procedural reforms in his speech during the Justice Sector Coordinating Council (JSCC) Summit on Monday. “The Supreme Court, for its part,"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-jk9bhl",
       "source": "inqn",
       "title": "DPWH Davao region chief called over flood works probe",
       "summary": "MANILA, Philippines — The National Bureau of Investigation on Monday issued a subpoena to the director of the Department of Public Works and Highways (DPWH) office in Region XI (Davao) in connection…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-22T00:01:06.514Z",
+      "published": "2026-09-22T00:05:24.016Z",
       "firstSeen": "2026-09-21T21:30:57.633Z",
       "url": "https://newsinfo.inquirer.net/2309253/dpwh-davao-region-chief-called-over-flood-works-probe",
       "image": {
@@ -353,38 +328,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-kfpbpq",
-      "source": "inqn",
-      "title": "SEC exec: VP part of food firm’s board while in office",
-      "summary": "MANILA, Philippines — Vice President Sara Duterte stayed on the board and retained her stake in a food company for three years after becoming Vice President, with a Securities and Exchange Commission…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-09-22T00:01:06.407Z",
-      "firstSeen": "2026-09-21T22:01:02.600Z",
-      "url": "https://newsinfo.inquirer.net/2309255/sec-exec-vp-part-of-food-firms-board-while-in-office",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Securities-and-Exchange-Commission-SEC-Company-Registration-and-Monitoring-Department-Director-Gerardo-del-Rosario-INQUIRER-FILE.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Vice President Sara Duterte stayed on the board and retained her stake in a food company for three years after becoming Vice President, with a Securities and Exchange Commission (SEC) official saying on Monday that her continued corporate roles could violate the constitutional ban on government officials participating in business. Lawyer Gerardo"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1czrt0d",
       "source": "inqn",
       "title": "Marcos to gov’t agencies: Use AI to improve services",
       "summary": "MANILA, Philippines — President Marcos has ordered the government to use artificial intelligence (AI) to provide better services to the Filipino public. In a message delivered by Cabinet Secretary…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-22T00:01:06.407Z",
+      "published": "2026-09-22T00:05:24.015Z",
       "firstSeen": "2026-09-21T21:30:57.632Z",
       "url": "https://newsinfo.inquirer.net/2309265/marcos-to-govt-agencies-use-ai-to-improve-services",
       "image": {
@@ -403,13 +353,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-6ovjnb",
+      "source": "inqn",
+      "title": "SC sets jail reforms to reduce congestion",
+      "summary": "MANILA, Philippines — To further reduce jail overcrowding, Chief Justice Alexander Gesmundo said the Supreme Court will introduce house arrest, medical confinement and community-supervised release as…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-09-22T00:05:24.015Z",
+      "firstSeen": "2026-09-21T21:30:57.633Z",
+      "url": "https://newsinfo.inquirer.net/2309263/sc-sets-jail-reforms-to-reduce-congestion",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Alexander-Gesmundo-22September2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — To further reduce jail overcrowding, Chief Justice Alexander Gesmundo said the Supreme Court will introduce house arrest, medical confinement and community-supervised release as legal alternatives to detention. Gesmundo highlighted these upcoming procedural reforms in his speech during the Justice Sector Coordinating Council (JSCC) Summit on Monday. “The Supreme Court, for its part,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-kfpbpq",
+      "source": "inqn",
+      "title": "SEC exec: VP part of food firm’s board while in office",
+      "summary": "MANILA, Philippines — Vice President Sara Duterte stayed on the board and retained her stake in a food company for three years after becoming Vice President, with a Securities and Exchange Commission…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-09-22T00:05:23.474Z",
+      "firstSeen": "2026-09-21T22:01:02.600Z",
+      "url": "https://newsinfo.inquirer.net/2309255/sec-exec-vp-part-of-food-firms-board-while-in-office",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Securities-and-Exchange-Commission-SEC-Company-Registration-and-Monitoring-Department-Director-Gerardo-del-Rosario-INQUIRER-FILE.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Vice President Sara Duterte stayed on the board and retained her stake in a food company for three years after becoming Vice President, with a Securities and Exchange Commission (SEC) official saying on Monday that her continued corporate roles could violate the constitutional ban on government officials participating in business. Lawyer Gerardo"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-uy7xpz",
       "source": "inqn",
       "title": "Groups on martial law abuses: Never again",
       "summary": "MANILA, Philippines — Fifty-four years after the declaration of martial law under the regime of President Ferdinand Marcos Sr., human rights groups, church members, and various sectors said Filipinos…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-22T00:01:04.630Z",
+      "published": "2026-09-22T00:05:19.933Z",
       "firstSeen": "2026-09-21T22:01:01.792Z",
       "url": "https://newsinfo.inquirer.net/2309259/groups-on-martial-law-abuses-never-again",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "MANILA, Philippines — The National Telecommunications Commission (NTC) has blocked two websites allegedly being used by “groomers” to encourage minors to commit real-world crimes after authorities…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-22T00:01:01.041Z",
+      "published": "2026-09-22T00:05:18.177Z",
       "firstSeen": "2026-09-21T22:01:01.791Z",
       "url": "https://newsinfo.inquirer.net/2309254/govt-blocks-2-websites-luring-kids-to-violence",
       "image": {
@@ -453,13 +453,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1hoafht",
+      "source": "inqn",
+      "title": "Woman dies after refusing to leave burning house in Quezon",
+      "summary": "LUCENA CITY — A 65-year-old woman died after refusing to leave her burning house in Sariaya town, Quezon province, on Sunday, police said. The Quezon police said in a report Monday that a male…",
+      "byline": "Dona Policar",
+      "section": "Latest News Stories",
+      "published": "2026-09-22T00:05:14.472Z",
+      "firstSeen": "2026-09-22T00:00:57.405Z",
+      "url": "https://newsinfo.inquirer.net/2309360/woman-dies-after-refusing-to-leave-burning-house-in-quezon",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/11/map-quezon1.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LUCENA CITY — A 65-year-old woman died after refusing to leave her burning house in Sariaya town, Quezon province, on Sunday, police said. The Quezon police said in a report Monday that a male relative noticed the house on fire in Barangay Lutucan Bata and rushed inside to rescue the woman, who was reportedly suffering"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-1cxhn5w",
+      "source": "inqn",
+      "title": "VP trial Day 28: Defense to cross-examine SEC exec",
+      "summary": "MANILA, Philippines — Prosecution witness Gerardo del Rosario, director of the Securities and Exchange Commission’s (SEC) Company Registration and Monitoring Department, who testified yesterday on…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-09-22T00:05:14.472Z",
+      "firstSeen": "2026-09-21T23:00:59.496Z",
+      "url": "https://newsinfo.inquirer.net/2309220/vp-trial-day-28-defense-to-cross-examine-sec-exec",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Gerardo-del-Rosario-SEC-22September2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Prosecution witness Gerardo del Rosario, director of the Securities and Exchange Commission’s (SEC) Company Registration and Monitoring Department, who testified yesterday on the businesses linked to Vice President Sara Duterte, will be cross-examined by defense lawyers today, the 28th day of the VP’s impeachment trial. The House prosecution panel presented Del Rosario"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1j7l4a0",
       "source": "inqn",
       "title": "Trough of LPA outside PAR to affect parts of Visayas, Mindanao Tuesday",
       "summary": "MANILA, Philippines — The trough of the low pressure area (LPA) monitored outside the Philippine area of responsibility (PAR) will bring rain over parts of Visayas and Mindanao on Tuesday, according…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-22T00:00:59.060Z",
+      "published": "2026-09-22T00:05:14.472Z",
       "firstSeen": "2026-09-21T22:40:09.556Z",
       "url": "https://newsinfo.inquirer.net/2309350/trough-of-lpa-outside-par-to-affect-parts-of-visayas-mindanao-on-tuesday",
       "image": {
@@ -478,63 +528,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1cxhn5w",
-      "source": "inqn",
-      "title": "VP trial Day 28: Defense to cross-examine SEC exec",
-      "summary": "MANILA, Philippines — Prosecution witness Gerardo del Rosario, director of the Securities and Exchange Commission’s (SEC) Company Registration and Monitoring Department, who testified yesterday on…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-09-22T00:00:57.494Z",
-      "firstSeen": "2026-09-21T23:00:59.496Z",
-      "url": "https://newsinfo.inquirer.net/2309220/vp-trial-day-28-defense-to-cross-examine-sec-exec",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Gerardo-del-Rosario-SEC-22September2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Prosecution witness Gerardo del Rosario, director of the Securities and Exchange Commission’s (SEC) Company Registration and Monitoring Department, who testified yesterday on the businesses linked to Vice President Sara Duterte, will be cross-examined by defense lawyers today, the 28th day of the VP’s impeachment trial. The House prosecution panel presented Del Rosario"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
-    },
-    {
-      "id": "inqg-rg8ton",
-      "source": "inqg",
-      "title": "Sara Duterte glad ICC judges got to see dad’s condition",
-      "summary": "MANILA, Philippines — Vice President Sara Duterte on Monday said she was happy that the International Criminal Court (ICC) judges saw the physical state of her father Rodrigo Duterte, during a recent…",
-      "byline": "cbuban",
-      "section": "Europe",
-      "published": "2026-09-22T00:00:57.494Z",
-      "firstSeen": "2026-09-21T21:01:00.566Z",
-      "url": "https://globalnation.inquirer.net/338922/sara-duterte-glad-icc-judges-got-to-see-dads-condition",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/09/duterte-icc-hearing20-16sept2026-e1789575783123.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Vice President Sara Duterte on Monday said she was happy that the International Criminal Court (ICC) judges saw the physical state of her father Rodrigo Duterte, during a recent procedural hearing on the charges of crimes against humanity against him. The former President personally appeared for the very first time during the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-v1vdja",
       "source": "inqg",
       "title": "DMW: Filipinos in Riyadh safe after missile attacks",
       "summary": "MANILA, Philippines — No Filipino was harmed following the missile attacks on Riyadh, the Department of Migrant Workers (DMW) said on Monday morning. Yemeni militant group the Houthis, Iran’s crucial…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-22T00:00:57.405Z",
+      "published": "2026-09-22T00:05:14.472Z",
       "firstSeen": "2026-09-21T21:30:57.633Z",
       "url": "https://globalnation.inquirer.net/338924/dmw-filipinos-in-riyadh-safe-after-missile-attacks",
       "image": {
@@ -553,23 +553,23 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-1hoafht",
-      "source": "inqn",
-      "title": "Woman dies after refusing to leave burning house in Quezon",
-      "summary": "LUCENA CITY — A 65-year-old woman died after refusing to leave her burning house in Sariaya town, Quezon province, on Sunday, police said. The Quezon police said in a report Monday that a male…",
-      "byline": "Dona Policar",
-      "section": "Latest News Stories",
-      "published": "2026-09-22T00:00:57.405Z",
-      "firstSeen": "2026-09-22T00:00:57.405Z",
-      "url": "https://newsinfo.inquirer.net/2309360/woman-dies-after-refusing-to-leave-burning-house-in-quezon",
+      "id": "inqg-rg8ton",
+      "source": "inqg",
+      "title": "Sara Duterte glad ICC judges got to see dad’s condition",
+      "summary": "MANILA, Philippines — Vice President Sara Duterte on Monday said she was happy that the International Criminal Court (ICC) judges saw the physical state of her father Rodrigo Duterte, during a recent…",
+      "byline": "cbuban",
+      "section": "Europe",
+      "published": "2026-09-22T00:05:14.472Z",
+      "firstSeen": "2026-09-21T21:01:00.566Z",
+      "url": "https://globalnation.inquirer.net/338922/sara-duterte-glad-icc-judges-got-to-see-dads-condition",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/11/map-quezon1.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/09/duterte-icc-hearing20-16sept2026-e1789575783123.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "LUCENA CITY — A 65-year-old woman died after refusing to leave her burning house in Sariaya town, Quezon province, on Sunday, police said. The Quezon police said in a report Monday that a male relative noticed the house on fire in Barangay Lutucan Bata and rushed inside to rescue the woman, who was reportedly suffering"
+          "text": "MANILA, Philippines — Vice President Sara Duterte on Monday said she was happy that the International Criminal Court (ICC) judges saw the physical state of her father Rodrigo Duterte, during a recent procedural hearing on the charges of crimes against humanity against him. The former President personally appeared for the very first time during the"
         }
       ],
       "truncated": true,
@@ -620,6 +620,56 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1u8atxg",
+      "source": "inq",
+      "title": "Taylor Swift will become the most awarded artist in MTV VMAs history",
+      "summary": "NEW YORK — Taylor Swift will once again break records. At the 2026 MTV Video Music Awards on Sunday, she will receive the inaugural Artist Director Honors, becoming the most awarded artist in VMA…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-21T23:58:34.000Z",
+      "firstSeen": "2026-09-22T00:05:14.471Z",
+      "url": "https://entertainment.inquirer.net/684419/taylor-swift-will-become-the-most-awarded-artist-in-mtv-vmas-history",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/09/AP26264508433553-700x526.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NEW YORK — Taylor Swift will once again break records. At the 2026 MTV Video Music Awards on Sunday, she will receive the inaugural Artist Director Honors, becoming the most awarded artist in VMA history. Currently, Swift is tied with Beyoncé for the title of most-awarded musician in VMA history. They have 30 each. (Eminem is the male artist with the most VMAs, with 15.) The new award, which according to the VMAs is meant to recognize artists “whose work behind the camera has expanded the possibilities of music video and advanced the art of visual storytelling,” will bring her total [&hellip;]... Keep on reading: Taylor Swift will become the most awarded artist in MTV VMAs history"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-8qwev3",
+      "source": "inq",
+      "title": "Woman dies after refusing to leave burning house in Quezon",
+      "summary": "LUCENA CITY — A 65-year-old woman died after refusing to leave her burning house in Sariaya town, Quezon province, on Sunday, police said. The Quezon police said in a report Monday that a male…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-21T23:57:48.000Z",
+      "firstSeen": "2026-09-22T00:05:14.472Z",
+      "url": "https://newsinfo.inquirer.net/2309360/woman-dies-after-refusing-to-leave-burning-house-in-quezon",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/11/map-quezon1-620x349.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LUCENA CITY — A 65-year-old woman died after refusing to leave her burning house in Sariaya town, Quezon province, on Sunday, police said. The Quezon police said in a report Monday that a male relative noticed the house on fire in Barangay Lutucan Bata and rushed inside to rescue the woman, who was reportedly suffering from an unspecified mental health condition. READ: Surigao del Norte forest fire threatened PH eagle nests The woman, however, refused to leave the house, forcing the relative to abandon the rescue attempt because of the intense heat, police said. Once the fire was extinguished, firefighters recovered [&hellip;]... Keep on reading: Woman dies after refusing to leave burning house in Quezon"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "grd-1iku6zy",
@@ -828,7 +878,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-ak5vad",
@@ -1264,7 +1314,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "grd-bg4yr0",
@@ -3527,31 +3577,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-1wzsmsr",
-      "source": "inq",
-      "title": "Bullets and ballots in BARMM elections (2)",
-      "summary": "Cotabato City—Finally, the long-anticipated first-ever parliamentary elections in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) took place last Monday, Sept. 14, 2026. It was indeed…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-21T21:10:00.000Z",
-      "firstSeen": "2026-09-21T21:30:57.633Z",
-      "url": "https://opinion.inquirer.net/194585/bullets-and-ballots-in-barmm-elections-2",
-      "image": {
-        "src": "https://opinion.inquirer.net/files/2024/03/kris-crossing-mindanao-rufa-cagoco-guiam-1200PX-12mARCH2024-300x169.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Cotabato City—Finally, the long-anticipated first-ever parliamentary elections in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) took place last Monday, Sept. 14, 2026. It was indeed historic. It was the first parliamentary election that could only take place in the BARMM, and no other region in the country. The ballots were delivered, but the bullets [&hellip;]... Keep on reading: Bullets and ballots in BARMM elections (2)"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "grd-1bp674i",
       "source": "grd",
       "title": "UK to give support to Saudi jets in attempt to counter Houthi fighters",
@@ -3642,31 +3667,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-tw70j4",
-      "source": "inq",
-      "title": "The country we have not yet become: 54 years after martial law",
-      "summary": "Martial law in the Philippines was declared on Sept. 21, 1972, a date that continues to demand the nation’s attention not because the past refuses to be forgotten, but because so much of what defined…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-21T21:05:00.000Z",
-      "firstSeen": "2026-09-21T21:30:59.458Z",
-      "url": "https://opinion.inquirer.net/194588/the-country-we-have-not-yet-become-54-years-after-martial-law",
-      "image": {
-        "src": "https://www.inquirer.net/wp-content/uploads/2016/08/inquirer_def_img.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Martial law in the Philippines was declared on Sept. 21, 1972, a date that continues to demand the nation’s attention not because the past refuses to be forgotten, but because so much of what defined that era remains unresolved in the present. Fifty-four years is a long time by any measure, yet the distance between [&hellip;]... Keep on reading: The country we have not yet become: 54 years after martial law"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqn-68965l",
