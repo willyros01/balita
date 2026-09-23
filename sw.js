@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.48";
+const VERSION = "wire-v0.17.51";
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
 
 /* ---------------- durable storage: IndexedDB ----------------
@@ -55,14 +55,21 @@ function openDB(){
 }
 
 /* ---------------- trace ----------------
-   Small and specific, not the full recording built during the earlier
-   investigation. Each entry writes to its own key rather than a
-   shared record, which is what makes it safe against several events
-   firing close together — nothing is ever read before being written,
-   so there is nothing to race. Written as full, plain sentences on
-   purpose, so the file can be read directly without translating
-   anything. Remove once this question is answered. */
+   A single switch, not code to add and remove each time. The mystery
+   this was built to chase is solved — a confirmed, unfixable Apple
+   platform bug, not anything in these files (see the long comment on
+   TRACE_ENABLED in app.js for the sourced explanation). Off by
+   default now. If tracing is ever needed again, for this or anything
+   else, flipping this one line back to true brings all of it back
+   exactly as it was, with nothing to rebuild.
+
+   Keep this in step with the matching switch in app.js — the two
+   files can't share a constant directly, the same reason VERSION
+   above has to be kept in step with version.js by hand. */
+const TRACE_ENABLED = false;
+
 async function trace(sentence){
+  if(!TRACE_ENABLED) return;
   try{
     const stamp = Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
     const t = new Date().toISOString().slice(11, 23);
@@ -246,8 +253,35 @@ self.addEventListener("push", event => {
     try{ await writeNotificationRoute(articleId, sentAt); }
     catch(err){ /* The tap below writes it again as a second chance. */ }
 
+    /* The one condition where a tap on this specific notification
+       cannot be trusted to open this specific story: the app is
+       already running somewhere, AND at least one other Wire
+       notification is already waiting alongside this new one. Under
+       exactly those two conditions, tapping any of them may not fire
+       the event that tells this app which one was pressed at all —
+       a confirmed WebKit bug (bugs.webkit.org, issue 252544), not
+       anything this app does. On a cold start, or when this is the
+       only notification waiting, that bug either doesn't apply or
+       can't produce a wrong answer, so nothing needs to be said.
+
+       This is the only moment anything can be said about it at all —
+       once the bug actually fires, nothing in this app gets a chance
+       to say anything, so it has to be said here, before any tap. */
+    let warning = "";
+    try{
+      const [already, windows] = await Promise.all([
+        self.registration.getNotifications(),
+        self.clients.matchAll({ type: "window", includeUncontrolled: true })
+      ]);
+      const appAlreadyRunning = windows.some(w => w.url.startsWith(self.registration.scope));
+      const otherNotificationsWaiting = already.length >= 1;
+      if(appAlreadyRunning && otherNotificationsWaiting){
+        warning = " (with others waiting, tapping may open a different one)";
+      }
+    }catch(err){ /* If this check itself fails, showing the notification plainly is still correct. */ }
+
     await self.registration.showNotification("Wire · " + source, {
-      body: headline,
+      body: headline + warning,
       icon: new URL("icon-192.png", self.registration.scope).href,
       badge: new URL("icon-192.png", self.registration.scope).href,
       tag: articleId ? "wire-breaking-" + articleId : "wire-breaking",
@@ -256,7 +290,7 @@ self.addEventListener("push", event => {
       data: { articleId, sentAt }
     });
 
-    await trace("Showed the banner for article \u201c" + articleId + "\u201d.");
+    await trace("Showed the banner for article \u201c" + articleId + "\u201d" + (warning ? ", with the multiple-waiting warning." : "."));
   })());
 });
 

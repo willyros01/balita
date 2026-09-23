@@ -1,38 +1,33 @@
-WIRE v0.17.48 — A SMALL, READABLE TRACE, FOCUSED ON THIS ONE QUESTION
+WIRE v0.17.51 — WARNS WHEN A TAP MIGHT NOT BE TRUSTWORTHY
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHAT THIS RECORDS
-Not the full system from before - just what's needed to see plainly
-whether the phone itself is handing over the wrong information for a
-specific tap, or something in these files is. Every line is written
-as a complete sentence, not a code fragment, so it can be read
-directly.
+WHAT THIS ADDS
+The one condition where the confirmed WebKit bug can actually produce
+a wrong result: Wire already running somewhere, AND more than one of
+its notifications waiting at once. Under exactly those two conditions,
+the newest notification's own text now adds a short note:
 
-The single most important line: the moment any notification is
-tapped, it records exactly what the operating system itself says that
-banner belongs to - the article id, the tag, the time it was
-originally sent. Not what the app assumes. What the phone actually
-hands over. If that line ever names the wrong article for a tap that
-was clearly on a different banner, that points at something outside
-these files entirely.
+  (with others waiting, tapping may open a different one)
 
-It also marks plainly, in words, whether each tap found the app
-already open (a background-to-foreground resume) or found nothing
-running at all (a cold start) - since that distinction mattered to
-what you're checking.
+WHEN IT DOES NOT APPEAR, ON PURPOSE
+On a cold start, since that path doesn't have the bug at all. And when
+only one notification is waiting, since there's nothing to guess wrong
+between - the correct answer and the fallback answer are the same
+thing. Tested directly against all five real combinations before
+packaging - the warning only appears in the one case that actually
+needs it, every time.
 
-WHERE TO READ IT
-The About panel again has two small buttons at the bottom - Save
-trace as a file, and Clear trace. Same as before: tap Clear trace
-before a test, run the test, then Save trace as a file afterward and
-send that file here.
+WHY IT HAS TO GO IN THE NOTIFICATION ITSELF
+Once the bug actually fires, the app never gets a chance to say
+anything at all - that's the whole nature of the bug. This is the
+only moment, before any tap happens, where a message can reach you.
 
-HOW TO TEST
-Same full routine as always - kill the app, delete the icon, add it
-back fresh. Get three notifications waiting, tap the one that isn't
-oldest or newest, save the trace, send it - whether it works this
-time or not.
+WHAT TO DO
+Same routine as always - kill the app, delete the icon, add it back
+fresh. To see it, get two or more notifications waiting while Wire is
+already open somewhere - the note should appear on whichever one
+arrives once a second one is already waiting.

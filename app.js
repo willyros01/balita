@@ -202,16 +202,38 @@ async function idbGetAll(store){
 }
 
 /* ---------------- trace ----------------
-   Small and specific, not the full recording built during the earlier
-   investigation — just enough to see, in plain sentences, exactly
-   what the page finds when it checks, and whether the app was already
-   open beforehand or not. Each entry writes to its own key, which is
-   what makes it safe against several events firing close together.
-   Offered as a downloadable text file rather than a panel to
-   screenshot — a screenshot has cut off lines and mangled exact text
-   more than once in this project; a file cannot. Remove once this
-   question is answered. */
+   A single switch, not code to add and remove each build.
+
+   This was built to chase one specific question: why a notification
+   tapped while Wire was already running never opened the right
+   article. That question is answered, and it isn't a bug in Wire at
+   all. It's a confirmed, still-open bug in WebKit itself, filed
+   directly against Apple's own engine: bugs.webkit.org, issue 252544.
+   Under the exact conditions this project kept reproducing — the app
+   already running, opened normally from its Home Screen icon rather
+   than from an earlier notification — tapping a new notification on
+   iOS never fires the event that tells any web app which one was
+   pressed. Not the wrong article. No information at all. Every push
+   notification solution on iOS hits this same wall; it isn't specific
+   to how Wire is built. A cold start avoids it entirely because
+   launching a fresh instance goes through a completely different
+   path, one this bug doesn't touch, which is exactly why that case
+   has worked correctly every single time it's been tested.
+
+   There is nothing left to fix here, so this switch defaults to off.
+   The general list, opening the oldest waiting story when nothing
+   more specific is known, is already the best an app can honestly do
+   once that event never arrives — not a fallback standing in for a
+   better answer, but the actual best available one.
+
+   Flipping TRACE_ENABLED back to true, in both this file and the
+   matching one in sw.js, brings every part of this back exactly as it
+   was — the recording itself, and the two buttons in About below —
+   with nothing to rebuild, if some other question ever needs it. */
+const TRACE_ENABLED = false;
+
 async function trace(sentence){
+  if(!TRACE_ENABLED) return;
   try{
     const stamp = Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
     const t = new Date().toISOString().slice(11, 23);
@@ -296,6 +318,17 @@ function downloadTrace(lines){
    never by a timer. */
 let notificationCheckRunning = false;
 let lastOpenedNotificationArticle = "";
+
+/* Becomes true the moment anything has been shown this page's lifetime
+   by an automatic check with no specific tap behind it — opening the
+   oldest waiting story as a best guess when there's nothing more
+   certain to go on. Once that guess has been made once, it should not
+   be made again on its own a moment later, replacing what was just
+   shown correctly with a different guess. A genuine new tap is still
+   always honoured regardless of this — this only ever blocks a second,
+   unprompted automatic swap. Resets naturally on every fresh page
+   load, since a new load means a genuinely new moment to judge. */
+let notificationAutoOpenUsed = false;
 const NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
 
 async function readLastTap(){
@@ -423,10 +456,30 @@ async function checkForNotifiedArticle(){
         ? "Opened article \u201c" + tapped.articleId + "\u201d successfully \u2014 this was the specifically-tapped one."
         : "Could not open the specifically-tapped article \u201c" + tapped.articleId + "\u201d (expired, already open, or no longer found).");
       await clearNotificationRoute(tapped);
+      /* This is exactly the flag that was missing before this fix. A
+         correctly-opened, specifically-tapped article is precisely
+         what a later automatic guess must never be allowed to
+         overwrite — this is what stops that. */
+      if(opened) notificationAutoOpenUsed = true;
       return;
     }
 
     await trace("No specifically-tapped article was recorded \u2014 falling back to the general list, oldest first.");
+
+    /* If an earlier check in this same page's lifetime already showed
+       something automatically — a guess, since nothing specific was
+       tapped — a second such guess should not quietly replace it a
+       moment later. This is exactly what let a correctly-opened,
+       specifically-tapped article get overwritten seconds afterward
+       by an unrelated backlog item, when a second visibility signal
+       fired for the same resume slightly outside the window that
+       coalesces the near-simultaneous ones. A fresh, genuine tap
+       still always takes priority regardless — this only stops a
+       second unprompted guess from following a first one. */
+    if(notificationAutoOpenUsed){
+      await trace("Already showed something automatically once this session \u2014 not guessing again.");
+      return;
+    }
 
     /* No specific tap pending — the app was opened generally, so the
        oldest still-waiting story is the best available answer. Expired
@@ -442,7 +495,7 @@ async function checkForNotifiedArticle(){
         ? "Opened article \u201c" + route.articleId + "\u201d from the general list."
         : "Article \u201c" + route.articleId + "\u201d from the general list could not be opened (expired, already open, or no longer found) \u2014 trying the next one.");
       await clearNotificationRoute(route);
-      if(opened) return;
+      if(opened){ notificationAutoOpenUsed = true; return; }
     }
   }catch(err){
     await trace("Something threw an error while checking \u2014 " + String(err?.message || err));
@@ -601,6 +654,7 @@ function renderAbout(){
    trace as a plain text file, the other clears it. Remove with the
    rest of the trace once this question is answered. */
 async function renderTraceButtons(){
+  if(!TRACE_ENABLED) return;
   const note = document.getElementById("about-note");
   if(!note) return;
 
