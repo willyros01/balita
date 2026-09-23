@@ -5,7 +5,8 @@
     "name": "Inquirer",
     "url": "https://www.inquirer.net/fullfeed",
     "color": "#C2382F",
-    "on": true
+    "on": true,
+    "max": 20
   },
   {
     "id": "inqn",
@@ -14,7 +15,8 @@
     "url": "https://newsinfo.inquirer.net/feed",
     "color": "#C2382F",
     "on": true,
-    "feedOnly": true
+    "feedOnly": true,
+    "max": 20
   },
   {
     "id": "inqg",
@@ -22,7 +24,8 @@
     "name": "Inquirer Global",
     "url": "https://globalnation.inquirer.net/feed",
     "color": "#A8443C",
-    "on": true
+    "on": true,
+    "max": 20
   },
   {
     "id": "star",
