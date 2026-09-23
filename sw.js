@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.51";
+const VERSION = "wire-v0.17.52";
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
 
 /* ---------------- durable storage: IndexedDB ----------------
@@ -75,6 +75,16 @@ async function trace(sentence){
     const t = new Date().toISOString().slice(11, 23);
     await idbPut(TRACE_STORE, stamp, { t, who: "the worker", sentence });
   }catch(err){ /* Never let recording break the thing being recorded. */ }
+}
+
+async function idbCount(store){
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(store, "readonly");
+    const req = tx.objectStore(store).count();
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
 }
 
 async function idbPut(store, key, value){
@@ -250,9 +260,6 @@ self.addEventListener("push", event => {
   event.waitUntil((async () => {
     await trace("A push arrived for article \u201c" + articleId + "\u201d, headline: " + headline);
 
-    try{ await writeNotificationRoute(articleId, sentAt); }
-    catch(err){ /* The tap below writes it again as a second chance. */ }
-
     /* The one condition where a tap on this specific notification
        cannot be trusted to open this specific story: the app is
        already running somewhere, AND at least one other Wire
@@ -266,19 +273,31 @@ self.addEventListener("push", event => {
 
        This is the only moment anything can be said about it at all —
        once the bug actually fires, nothing in this app gets a chance
-       to say anything, so it has to be said here, before any tap. */
+       to say anything, so it has to be said here, before any tap.
+
+       This originally checked self.registration.getNotifications(),
+       which is documented to always return an empty list on iOS —
+       meaning that check could never have found anything, on this
+       platform, regardless of how many notifications genuinely were
+       waiting. Counting the durable list of not-yet-opened stories,
+       already proven solid throughout this whole project, tells us
+       the same thing reliably. Checked before this article's own
+       entry is written below, so it counts only what was already
+       there beforehand, not itself. */
     let warning = "";
     try{
-      const [already, windows] = await Promise.all([
-        self.registration.getNotifications(),
-        self.clients.matchAll({ type: "window", includeUncontrolled: true })
-      ]);
+      const windows = await self.clients.matchAll({ type: "window", includeUncontrolled: true });
       const appAlreadyRunning = windows.some(w => w.url.startsWith(self.registration.scope));
-      const otherNotificationsWaiting = already.length >= 1;
-      if(appAlreadyRunning && otherNotificationsWaiting){
-        warning = " (with others waiting, tapping may open a different one)";
+      if(appAlreadyRunning){
+        const alreadyWaiting = await idbCount(ROUTE_STORE);
+        if(alreadyWaiting >= 1){
+          warning = " (with others waiting, tapping may open a different one)";
+        }
       }
     }catch(err){ /* If this check itself fails, showing the notification plainly is still correct. */ }
+
+    try{ await writeNotificationRoute(articleId, sentAt); }
+    catch(err){ /* The tap below writes it again as a second chance. */ }
 
     await self.registration.showNotification("Wire · " + source, {
       body: headline + warning,

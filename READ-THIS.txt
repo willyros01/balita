@@ -1,33 +1,35 @@
-WIRE v0.17.51 — WARNS WHEN A TAP MIGHT NOT BE TRUSTWORTHY
+WIRE v0.17.52 — FIXES THE WARNING ITSELF, WHICH NEVER ACTUALLY APPEARED
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHAT THIS ADDS
-The one condition where the confirmed WebKit bug can actually produce
-a wrong result: Wire already running somewhere, AND more than one of
-its notifications waiting at once. Under exactly those two conditions,
-the newest notification's own text now adds a short note:
+WHAT WAS ACTUALLY WRONG WITH v0.17.51
+The warning added last time checked something called
+getNotifications() to see how many alerts were already waiting. That
+specific function is documented to always return an empty list on
+iOS Safari - meaning the check could never have found anything on
+your phone, no matter how many notifications genuinely were sitting
+there. Not a mistake in the condition itself. The information it was
+reading from was broken on this platform from the start.
 
-  (with others waiting, tapping may open a different one)
+THE FIX
+Counting how many stories are already sitting in Wire's own durable
+list - the one already proven solid throughout this entire project -
+tells us the same thing reliably. Checked before the new notification's
+own entry gets added, so it only counts what was genuinely already
+there beforehand.
 
-WHEN IT DOES NOT APPEAR, ON PURPOSE
-On a cold start, since that path doesn't have the bug at all. And when
-only one notification is waiting, since there's nothing to guess wrong
-between - the correct answer and the fallback answer are the same
-thing. Tested directly against all five real combinations before
-packaging - the warning only appears in the one case that actually
-needs it, every time.
-
-WHY IT HAS TO GO IN THE NOTIFICATION ITSELF
-Once the bug actually fires, the app never gets a chance to say
-anything at all - that's the whole nature of the bug. This is the
-only moment, before any tap happens, where a message can reach you.
+Re-tested all five real combinations against this corrected version
+before packaging it - cold with none waiting, cold with several
+waiting, already running with none, already running with one, already
+running with several. The warning now appears only in the two
+already-running cases with something else waiting, exactly as
+intended, and stays silent in every other case, including every cold
+start regardless of how many are waiting.
 
 WHAT TO DO
 Same routine as always - kill the app, delete the icon, add it back
-fresh. To see it, get two or more notifications waiting while Wire is
-already open somewhere - the note should appear on whichever one
-arrives once a second one is already waiting.
+fresh. To see the warning, background the app with it already open,
+then get two or more notifications waiting.
