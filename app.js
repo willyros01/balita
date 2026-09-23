@@ -230,7 +230,7 @@ async function idbGetAll(store){
    matching one in sw.js, brings every part of this back exactly as it
    was — the recording itself, and the two buttons in About below —
    with nothing to rebuild, if some other question ever needs it. */
-const TRACE_ENABLED = false;
+const TRACE_ENABLED = true;
 
 async function trace(sentence){
   if(!TRACE_ENABLED) return;

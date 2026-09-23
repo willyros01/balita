@@ -1,35 +1,30 @@
-WIRE v0.17.52 — FIXES THE WARNING ITSELF, WHICH NEVER ACTUALLY APPEARED
+WIRE v0.17.53 — TURNS THE TRACE BACK ON, JUST FOR THIS ONE QUESTION
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHAT WAS ACTUALLY WRONG WITH v0.17.51
-The warning added last time checked something called
-getNotifications() to see how many alerts were already waiting. That
-specific function is documented to always return an empty list on
-iOS Safari - meaning the check could never have found anything on
-your phone, no matter how many notifications genuinely were sitting
-there. Not a mistake in the condition itself. The information it was
-reading from was broken on this platform from the start.
-
-THE FIX
-Counting how many stories are already sitting in Wire's own durable
-list - the one already proven solid throughout this entire project -
-tells us the same thing reliably. Checked before the new notification's
-own entry gets added, so it only counts what was genuinely already
-there beforehand.
-
-Re-tested all five real combinations against this corrected version
-before packaging it - cold with none waiting, cold with several
-waiting, already running with none, already running with one, already
-running with several. The warning now appears only in the two
-already-running cases with something else waiting, exactly as
-intended, and stays silent in every other case, including every cold
-start regardless of how many are waiting.
+WHY THIS TIME IS DIFFERENT FROM GUESSING AGAIN
+The logic behind the warning has now been tested twice, correctly,
+in isolation - and it still isn't appearing for you on a real device.
+Rather than propose a third theory without evidence, this turns the
+trace switch back on - the one built specifically so it could come
+back without rebuilding anything - and adds one new line that records
+exactly what the warning check computes, every single time a push
+arrives: how many windows it found, whether it decided the app was
+already running, and how many stories it counted as already waiting.
 
 WHAT TO DO
 Same routine as always - kill the app, delete the icon, add it back
-fresh. To see the warning, background the app with it already open,
-then get two or more notifications waiting.
+fresh. In About, tap Clear trace once everything is confirmed at
+0.17.53. Then do exactly the test that should show the warning -
+Wire already open, backgrounded, and two or more notifications
+arriving - and save and send the trace afterward.
+
+WHAT I'M ACTUALLY LOOKING FOR
+The new line will say plainly what the check saw at the moment each
+notification arrived. If it saw zero windows when the app was
+genuinely open, or zero already waiting when there should have been
+one, that tells us directly which part of the check isn't seeing what
+it should, rather than guessing further from the outside.

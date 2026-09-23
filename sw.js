@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.52";
+const VERSION = "wire-v0.17.53";
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
 
 /* ---------------- durable storage: IndexedDB ----------------
@@ -66,7 +66,7 @@ function openDB(){
    Keep this in step with the matching switch in app.js — the two
    files can't share a constant directly, the same reason VERSION
    above has to be kept in step with version.js by hand. */
-const TRACE_ENABLED = false;
+const TRACE_ENABLED = true;
 
 async function trace(sentence){
   if(!TRACE_ENABLED) return;
@@ -288,13 +288,15 @@ self.addEventListener("push", event => {
     try{
       const windows = await self.clients.matchAll({ type: "window", includeUncontrolled: true });
       const appAlreadyRunning = windows.some(w => w.url.startsWith(self.registration.scope));
-      if(appAlreadyRunning){
-        const alreadyWaiting = await idbCount(ROUTE_STORE);
-        if(alreadyWaiting >= 1){
-          warning = " (with others waiting, tapping may open a different one)";
-        }
+      const alreadyWaiting = await idbCount(ROUTE_STORE);
+      await trace("Warning check: " + windows.length + " window(s) found, already running = " +
+        appAlreadyRunning + ", " + alreadyWaiting + " already waiting in the route list.");
+      if(appAlreadyRunning && alreadyWaiting >= 1){
+        warning = " (with others waiting, tapping may open a different one)";
       }
-    }catch(err){ /* If this check itself fails, showing the notification plainly is still correct. */ }
+    }catch(err){
+      await trace("Warning check threw \u2014 " + String(err?.message || err));
+    }
 
     try{ await writeNotificationRoute(articleId, sentAt); }
     catch(err){ /* The tap below writes it again as a second chance. */ }
