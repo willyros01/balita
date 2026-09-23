@@ -19,7 +19,7 @@
    uploaded and have no effect at all, with nothing to show why.
    Keep it in step with version.js by hand; the cost of forgetting is
    one stale cache, not a permanently frozen app. */
-const VERSION = "wire-v0.17.53";
+const VERSION = "wire-v0.17.54";
 const NOTIFICATION_MAX_AGE_MS = 30 * 60 * 1000;
 
 /* ---------------- durable storage: IndexedDB ----------------
@@ -66,7 +66,7 @@ function openDB(){
    Keep this in step with the matching switch in app.js — the two
    files can't share a constant directly, the same reason VERSION
    above has to be kept in step with version.js by hand. */
-const TRACE_ENABLED = true;
+const TRACE_ENABLED = false;
 
 async function trace(sentence){
   if(!TRACE_ENABLED) return;

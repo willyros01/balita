@@ -230,7 +230,7 @@ async function idbGetAll(store){
    matching one in sw.js, brings every part of this back exactly as it
    was — the recording itself, and the two buttons in About below —
    with nothing to rebuild, if some other question ever needs it. */
-const TRACE_ENABLED = true;
+const TRACE_ENABLED = false;
 
 async function trace(sentence){
   if(!TRACE_ENABLED) return;
@@ -319,16 +319,33 @@ function downloadTrace(lines){
 let notificationCheckRunning = false;
 let lastOpenedNotificationArticle = "";
 
-/* Becomes true the moment anything has been shown this page's lifetime
-   by an automatic check with no specific tap behind it — opening the
-   oldest waiting story as a best guess when there's nothing more
-   certain to go on. Once that guess has been made once, it should not
-   be made again on its own a moment later, replacing what was just
-   shown correctly with a different guess. A genuine new tap is still
-   always honoured regardless of this — this only ever blocks a second,
-   unprompted automatic swap. Resets naturally on every fresh page
-   load, since a new load means a genuinely new moment to judge. */
+/* Becomes true briefly after anything has been shown by an automatic
+   check with no specific tap behind it — opening the oldest waiting
+   story as a best guess when there's nothing more certain to go on.
+   For a short window afterward, a second such guess is not allowed to
+   immediately follow and replace it — that specific gap, where a
+   second visibility signal lands a moment after the first for the
+   same resume, is what let a correct result get silently overwritten
+   in the first place.
+
+   It resets itself shortly after, on its own — this must never become
+   permanent for the rest of a long-running page's life. A genuinely
+   later, separate moment of the app becoming visible, seconds or
+   minutes afterward, is a real new question and deserves a real new
+   answer, not a lasting "already answered once" that quietly refuses
+   every legitimate open from then on. A genuine new tap is always
+   honoured regardless of this, at any time — this only ever blocks a
+   second unprompted guess trailing close behind a first one. */
 let notificationAutoOpenUsed = false;
+let notificationAutoOpenResetTimer = 0;
+function markAutoOpenUsed(){
+  notificationAutoOpenUsed = true;
+  if(notificationAutoOpenResetTimer) clearTimeout(notificationAutoOpenResetTimer);
+  notificationAutoOpenResetTimer = setTimeout(() => {
+    notificationAutoOpenUsed = false;
+  }, 3000);
+}
+
 const NOTIFICATION_ROUTE_MAX_AGE_MS = 30 * 60 * 1000;
 
 async function readLastTap(){
@@ -459,8 +476,9 @@ async function checkForNotifiedArticle(){
       /* This is exactly the flag that was missing before this fix. A
          correctly-opened, specifically-tapped article is precisely
          what a later automatic guess must never be allowed to
-         overwrite — this is what stops that. */
-      if(opened) notificationAutoOpenUsed = true;
+         overwrite in the moment right after — this is what stops
+         that, briefly, before resetting itself. */
+      if(opened) markAutoOpenUsed();
       return;
     }
 
@@ -495,7 +513,7 @@ async function checkForNotifiedArticle(){
         ? "Opened article \u201c" + route.articleId + "\u201d from the general list."
         : "Article \u201c" + route.articleId + "\u201d from the general list could not be opened (expired, already open, or no longer found) \u2014 trying the next one.");
       await clearNotificationRoute(route);
-      if(opened){ notificationAutoOpenUsed = true; return; }
+      if(opened){ markAutoOpenUsed(); return; }
     }
   }catch(err){
     await trace("Something threw an error while checking \u2014 " + String(err?.message || err));

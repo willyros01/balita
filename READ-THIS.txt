@@ -1,30 +1,39 @@
-WIRE v0.17.53 — TURNS THE TRACE BACK ON, JUST FOR THIS ONE QUESTION
+WIRE v0.17.54 — FIXES A REAL SIDE EFFECT FROM THE LAST FIX
 
 THREE FILES. Replace these on GitHub:
   sw.js
   app.js
   version.js
 
-WHY THIS TIME IS DIFFERENT FROM GUESSING AGAIN
-The logic behind the warning has now been tested twice, correctly,
-in isolation - and it still isn't appearing for you on a real device.
-Rather than propose a third theory without evidence, this turns the
-trace switch back on - the one built specifically so it could come
-back without rebuilding anything - and adds one new line that records
-exactly what the warning check computes, every single time a push
-arrives: how many windows it found, whether it decided the app was
-already running, and how many stories it counted as already waiting.
+WHAT THE TRACE ACTUALLY SHOWED
+Not the WebKit bug this time, at least not the whole story - a real
+regression from the previous fix. That fix added a safeguard: once
+anything is shown automatically, without a specific tap behind it,
+don't let a second such guess immediately follow and overwrite it a
+moment later. That part was correct and is still here.
+
+What wasn't right: that safeguard never turned itself back off. Once
+it triggered once, it kept blocking every future automatic guess for
+the rest of that page's entire lifetime - including a perfectly
+legitimate one, minutes later, that should have been allowed through.
+That's exactly why nothing opened at all in your last test.
+
+THE FIX
+The safeguard now resets itself three seconds after being set. That's
+comfortably longer than the near-instant gap the original fix was
+built to catch, and short enough that any genuinely later, separate
+moment of the app becoming visible gets treated as its own real
+question again, with its own real answer - rather than a lasting
+"already answered" that quietly refuses everything afterward.
+
+Tested directly before packaging: still correctly blocks a repeat
+guess 200 milliseconds later, and correctly allows a fresh one just
+over three seconds after that.
+
+Tracing is switched back off in this build, its job for this specific
+question done.
 
 WHAT TO DO
 Same routine as always - kill the app, delete the icon, add it back
-fresh. In About, tap Clear trace once everything is confirmed at
-0.17.53. Then do exactly the test that should show the warning -
-Wire already open, backgrounded, and two or more notifications
-arriving - and save and send the trace afterward.
-
-WHAT I'M ACTUALLY LOOKING FOR
-The new line will say plainly what the check saw at the moment each
-notification arrived. If it saw zero windows when the app was
-genuinely open, or zero already waiting when there should have been
-one, that tells us directly which part of the check isn't seeing what
-it should, rather than guessing further from the outside.
+fresh. Test the background case again the way you just did - it
+should now actually land on the waiting story instead of staying put.
