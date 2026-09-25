@@ -1,0 +1,317 @@
+{
+  "id": "grd-9yvmk1",
+  "source": "grd",
+  "title": "OpenAI hack on Australian government reveals anxiety at heart of global artificial intelligence dilemma",
+  "summary": "<p>As the UN warns traditional safeguards are ‘unravelling’, Donald Trump says he will encourage, not restrain, the AI race</p><p>When the Australian prime minister, Anthony Albanese, sat down for an…",
+  "byline": "Ben Doherty in Sydney",
+  "section": "AI (artificial intelligence)",
+  "published": "2026-09-25T15:12:38.000Z",
+  "firstSeen": "2026-09-25T15:31:07.163Z",
+  "url": "https://www.theguardian.com/technology/2026/sep/26/openai-hack-australian-government-anxiety-global-dilemma-artificial-intelligence",
+  "image": {
+    "src": "https://i.guim.co.uk/img/media/591b29c15ba606604fba069a81f2b12fb4d0bb4f/1208_0_6633_5307/master/6633.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=94eb8a5328fd5e84a7c7275fa32edd5e",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "When the Australian prime minister, Anthony Albanese, sat down for an interview in the heart of Silicon Valley at the weekend he had known for two days that his was the first government known to have been attacked by a rogue AI agent."
+    },
+    {
+      "type": "p",
+      "text": "He didn’t reveal the attack then, but he sounded a warning about the march of AI: “the risk is that AI develops in a way in which humans are no longer in control of what AI is producing.”"
+    },
+    {
+      "type": "p",
+      "text": "But Albanese noted, too, that two countries – the US and China – would dominate the world’s response to the new technology."
+    },
+    {
+      "type": "p",
+      "text": "“The truth is they’re the big two giants here, and so we want to see cooperation,” Albanese said."
+    },
+    {
+      "type": "p",
+      "text": "“The US is essentially ahead of China when it comes to the race that is on for the development of this new technology. But it is in the world’s interests that there be engagement.”"
+    },
+    {
+      "type": "p",
+      "text": "Days later, Albanese used the global attention of the United Nations general assembly meeting in New York to reveal that Australia’s government healthcare system, Medicare, had been attacked by an OpenAI agent in June, but that it was three months before his government was told."
+    },
+    {
+      "type": "p",
+      "text": "Again he warned of “the potential risks of allowing frontier AI to develop too fast without guardrails”."
+    },
+    {
+      "type": "p",
+      "text": "China’s president, Xi Jinping, skipped the general assembly in favour of a bilateral meeting with the US president, where he emphasised the responsibility to manage AI “for good, and ensure that the development of AI is always under human control and serves the wellbeing of the people”."
+    },
+    {
+      "type": "p",
+      "text": "But the president of the United States – the nation which is the global leader in artificial intelligence – used his general assembly address to insist he would only encourage, not restrain, the AI race."
+    },
+    {
+      "type": "h",
+      "text": "Alarms sounding"
+    },
+    {
+      "type": "p",
+      "text": "To little fanfare earlier in the week, the UN’s independent international scientific panel on AI warned a threshold had already been crossed."
+    },
+    {
+      "type": "p",
+      "text": "There was, the panel, said: “no assurance that humans can reliably keep AI agents under control today, particularly as they become more capable, harder to monitor and better at finding loopholes or hiding their activity”."
+    },
+    {
+      "type": "p",
+      "text": "The Australian government had known the reality of this for more than a week. OpenAI had known it more than a month."
+    },
+    {
+      "type": "p",
+      "text": "Two days after the panel’s statement, the Australian prime minister belatedly revealed an OpenAI agent had hacked medical data held by Australia’s universal health care provider, Medicare."
+    },
+    {
+      "type": "p",
+      "text": "No patient data had been accessed, but the agent had gained unauthorised access to “non-public files”."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI’s agent hacked the government sites in June of this year. OpenAI discovered its agent had gone rogue in August. It did not tell the Australian government until 10 September, and then only with a solitary email to a generic public email address not checked until the next day. The prime minister was informed on 18 September."
+    },
+    {
+      "type": "p",
+      "text": "It was another week before the Australian people were told."
+    },
+    {
+      "type": "p",
+      "text": "Australia has promised, if it is possible, to lay criminal charges, though this is complicated by the fact that OpenAI claims the hack was committed by an AI agent – apparently acting beyond its instructions (euphemised by OpenAI as “misaligned behaviour”) – not a person."
+    },
+    {
+      "type": "p",
+      "text": "The hack on Australia’s Medicare statistics reporting service portal, as well as three other government sites, follows the Hugging Face incident in July, in which autonomous AI agents developed by OpenAI broke out of their isolated testing environments, coordinated themselves into a “swarm” and launched a cyber-attack on competitor AI platform Hugging Face."
+    },
+    {
+      "type": "h",
+      "text": "The OpenAI Medicare hack"
+    },
+    {
+      "type": "p",
+      "text": "June 2026"
+    },
+    {
+      "type": "p",
+      "text": "The hack"
+    },
+    {
+      "type": "p",
+      "text": "OpenAI agent hacks into Australian Institute of Health and Welfare, the Victorian Department of Health, the New South Wales Bureau of Crime Statistics and Research, and the Medicare statistics reporting service portal of Services Australia."
+    },
+    {
+      "type": "p",
+      "text": "August 2026"
+    },
+    {
+      "type": "p",
+      "text": "The discovery"
+    },
+    {
+      "type": "p",
+      "text": "OpenAI becomes aware of agent hack."
+    },
+    {
+      "type": "p",
+      "text": "10 September 2026"
+    },
+    {
+      "type": "p",
+      "text": "Email sent"
+    },
+    {
+      "type": "p",
+      "text": "OpenAI email Services Australia's public portal."
+    },
+    {
+      "type": "p",
+      "text": "11 September 2026"
+    },
+    {
+      "type": "p",
+      "text": "Email received"
+    },
+    {
+      "type": "p",
+      "text": "Services Australia checks email and identifies the issue."
+    },
+    {
+      "type": "p",
+      "text": "15 September 2026"
+    },
+    {
+      "type": "p",
+      "text": "The notification"
+    },
+    {
+      "type": "p",
+      "text": "Services Australia notifies Australian Signals Directorate, and ASD do further work to verify the incident."
+    },
+    {
+      "type": "p",
+      "text": "17 September 2026"
+    },
+    {
+      "type": "p",
+      "text": "Minister informed"
+    },
+    {
+      "type": "p",
+      "text": "Government services minister, Katy Gallagher and her ministerial office are advised of the hack and further investigate the seriousness of the incident."
+    },
+    {
+      "type": "p",
+      "text": "18 September 2026"
+    },
+    {
+      "type": "p",
+      "text": "Formal briefing"
+    },
+    {
+      "type": "p",
+      "text": "Gallagher receives formal briefing from services Australia."
+    },
+    {
+      "type": "p",
+      "text": "18 September 2026 - 19 September 2026"
+    },
+    {
+      "type": "p",
+      "text": "The discussions"
+    },
+    {
+      "type": "p",
+      "text": "Gallagher notifies prime minister, deputy prime minister and home affairs minister. Discussions take place between ministers, Services Australia and ASD."
+    },
+    {
+      "type": "p",
+      "text": "The technical briefing"
+    },
+    {
+      "type": "p",
+      "text": "OpenAI provides first technical briefing with Services Australia, the first direct sharing of information from Open AI to Services Australia."
+    },
+    {
+      "type": "p",
+      "text": "23 September 2026"
+    },
+    {
+      "type": "p",
+      "text": "The checks"
+    },
+    {
+      "type": "p",
+      "text": "Government waits for confirmation about risks of announcing information publicly and ensuring it is in interests of national security."
+    },
+    {
+      "type": "p",
+      "text": "24 September 2026"
+    },
+    {
+      "type": "p",
+      "text": "The announcement"
+    },
+    {
+      "type": "p",
+      "text": "6am Australian eastern standard time PM Anthony Albanese announces breach in New York."
+    },
+    {
+      "type": "p",
+      "text": "10.45am Deputy PM Richard Marles and Gallagher address Australian media."
+    },
+    {
+      "type": "p",
+      "text": "The UN panel, investigating that attack, warned “the traditional method of safeguarding is unravelling” as AI agents act autonomously to breach protections."
+    },
+    {
+      "type": "p",
+      "text": "“The default interpretation and immediate lesson is that basic cybersecurity practices were overlooked, and safeguards are not advancing at the pace of capabilities. The more insidious and grave concern is that current training methods can lead agents to adopt goals of their own, knowingly violate safety instructions, and conceal their actions.”"
+    },
+    {
+      "type": "p",
+      "text": "Twenty countries (including Australia) and the EU this week signed a statement arguing the rapid development of frontier AI models posed serious risks to safety and security if not properly managed."
+    },
+    {
+      "type": "p",
+      "text": "“AI must remain under human direction, oversight and control. It must be developed and used in line with international law.”"
+    },
+    {
+      "type": "h",
+      "text": "Too soon?"
+    },
+    {
+      "type": "p",
+      "text": "Even those running AI companies have warned the technology is developing too rapidly for humans to control."
+    },
+    {
+      "type": "p",
+      "text": "Appearing before the UN security council this week, OpenAI’s chief executive, Sam Altman, warned: “some of the things people working to build AI have said are so dystopian that they sound like the plot of bad science fiction movies”."
+    },
+    {
+      "type": "p",
+      "text": "“As AI systems become more capable and more autonomous, they can move faster than our institutions … or make decisions that people no longer understand or control.”"
+    },
+    {
+      "type": "p",
+      "text": "But there are at least two – very loud – voices in opposition to any external regulation of the AI industry."
+    },
+    {
+      "type": "image",
+      "src": "https://i.guim.co.uk/img/media/67b9c1670be1a277795350ebbaf1e567d7ce8391/0_0_4626_3084/master/4626.jpg?width=445&dpr=1&s=none&crop=none",
+      "caption": "Elon Musk has said AI would probably be beyond human control within a decade, and that humanity should ‘enjoy the ride’. Photograph: Susan Walsh/AP"
+    },
+    {
+      "type": "p",
+      "text": "Elon Musk, who co-founded OpenAI with Altman before falling out with him, said in a recent interview the “smart move” would be to have the “leading AI companies at least just meet or have some sort of call once every few weeks and just discuss any safety and security issues”."
+    },
+    {
+      "type": "p",
+      "text": "Musk said AI would probably be beyond the control of humans within a decade, and that humanity should “enjoy the ride”."
+    },
+    {
+      "type": "p",
+      "text": "“I still think there’s risk associated with AI and robots. It’s not zero … my sort of philosophical conclusion is to look on the bright side. I can’t see any way to really stop this incredible momentum of AI and robots."
+    },
+    {
+      "type": "p",
+      "text": "“If there was a stop button, we probably shouldn’t press it, because the most likely outcome is incredible abundance for all.”"
+    },
+    {
+      "type": "p",
+      "text": "Donald Trump used his speech to the UN general assembly to attempt to rebrand AI, and insist it should never be reined in."
+    },
+    {
+      "type": "p",
+      "text": "“The United States also totally rejects any attempt to construct a globalist scheme to control for the artificial intelligence being spoken of so much now,” the US president said."
+    },
+    {
+      "type": "p",
+      "text": "Trump wants to re-label artificial intelligence “superintelligence”."
+    },
+    {
+      "type": "p",
+      "text": "“I’m not going to stifle growth of something that will be bigger than the Industrial Revolution."
+    },
+    {
+      "type": "p",
+      "text": "“We’re going to encourage it, not rein it in.”"
+    },
+    {
+      "type": "p",
+      "text": "Trump said the US was “leading China by a lot” in AI, and would continue to do so “safely and responsibly”."
+    },
+    {
+      "type": "p",
+      "text": "“Whoever wins superintelligence, wins.”"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
