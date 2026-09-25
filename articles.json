@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-09-25T06:01:28.193Z",
+  "updated": "2026-09-25T06:05:10.771Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-1otl47j",
+      "source": "inqn",
+      "title": "Zambales classes resume as new road project is being mapped out",
+      "summary": "SAN ANTONIO, Zambales — After nearly two months of suspension, face-to-face classes have resumed at a school in the Zambales town of San Marcelino following severe flooding and lahar that damaged…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-09-25T06:05:01.876Z",
+      "firstSeen": "2026-09-24T23:31:05.561Z",
+      "url": "https://newsinfo.inquirer.net/2311491/zambales-classes-resume-as-new-road-project-is-being-mapped-out",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Screenshot-2026-09-25-at-7.01.51-AM.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN ANTONIO, Zambales — After nearly two months of suspension, face-to-face classes have resumed at a school in the Zambales town of San Marcelino following severe flooding and lahar that damaged parts of the school during the height of the southwest monsoon. Sta. Fe National High School was among the facilities in Barangay Sta. Fe"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-19omrfc",
       "source": "inqn",
       "title": "Queenie maintains strength over PH sea east of extreme Northern Luzon",
       "summary": "MANILA, Philippines — Tropical Storm Queenie has maintained its strength while moving over the Philippine Sea east of extreme northern Luzon, the state weather bureau reported on Friday. Based on the…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:21.142Z",
+      "published": "2026-09-25T06:05:01.876Z",
       "firstSeen": "2026-09-24T23:01:08.285Z",
       "url": "https://newsinfo.inquirer.net/2311484/queenie-maintains-strength-over-ph-sea-east-of-extreme-northern-luzon",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — Police arrested a suspected high-value drug target and seized around 275.55 grams of suspected shabu worth P1.87 million, along with firearms, ammunition, and drug…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:21.142Z",
+      "published": "2026-09-25T06:05:01.876Z",
       "firstSeen": "2026-09-24T23:01:08.339Z",
       "url": "https://newsinfo.inquirer.net/2311486/p1-87-m-shabu-guns-seized-in-oriental-mindoro-drug-bust",
       "image": {
@@ -103,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-crfiai",
-      "source": "inqn",
-      "title": "Gunsmith arrested in Pangasinan drug bust",
-      "summary": "CALASIAO, Pangasinan— Police arrested a 59-year-old gunsmith and seized 36.10 grams of suspected shabu worth P245,480 during a search operation in this town on Wednesday in Pozorrubio. The suspect…",
-      "byline": "cavendano",
-      "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:21.031Z",
-      "firstSeen": "2026-09-25T01:31:04.506Z",
-      "url": "https://newsinfo.inquirer.net/2311506/gunsmith-arrested-in-pangasinan-drug-bust",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Pangasinan-map-filephoto-091122.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CALASIAO, Pangasinan— Police arrested a 59-year-old gunsmith and seized 36.10 grams of suspected shabu worth P245,480 during a search operation in this town on Wednesday in Pozorrubio. The suspect was classified as a high-value individual (HVI) in the police operation. The police teams implemented Search Warrant No. U-2026-032, which resulted in the seizure of three"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-sugijp",
       "source": "inqn",
       "title": "Man arrested in QC over theft of 4 car batteries from water company",
       "summary": "MANILA, Philippines — A 24-year-old man was arrested in Quezon City for allegedly taking four maintenance-free car batteries in a compound belonged to a water company. According to the Quezon City…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:21.031Z",
+      "published": "2026-09-25T06:05:01.875Z",
       "firstSeen": "2026-09-25T01:01:24.682Z",
       "url": "https://newsinfo.inquirer.net/2311502/man-arrested-in-qc-over-theft-of-4-car-batteries-from-water-company",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "VALENCIA CITY, Bukidnon — Thirteen local government units (LGUs) in Bukidnon received gold recognitions from the Office of the Civil Defense Region 10 (OCD-10) as Gawad Kalasag 2026 awardees for…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:21.031Z",
+      "published": "2026-09-25T06:05:01.875Z",
       "firstSeen": "2026-09-25T00:31:14.090Z",
       "url": "https://newsinfo.inquirer.net/2311499/13-bukidnon-lgus-bag-gawad-kalasag-awards-for-disaster-resilience",
       "image": {
@@ -184,7 +184,7 @@
       "summary": "CALAPAN CITY — Five residents of San Fernando town on Sibuyan Island have filed a verified administrative complaint against their municipal council before the Romblon Provincial Board over council…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:21.031Z",
+      "published": "2026-09-25T06:05:01.875Z",
       "firstSeen": "2026-09-24T23:31:05.531Z",
       "url": "https://newsinfo.inquirer.net/2311494/residents-sue-municipal-council-for-endorsing-mining-at-sibuyan-island",
       "image": {
@@ -203,23 +203,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1otl47j",
+      "id": "inqn-crfiai",
       "source": "inqn",
-      "title": "Zambales classes resume as new road project is being mapped out",
-      "summary": "SAN ANTONIO, Zambales — After nearly two months of suspension, face-to-face classes have resumed at a school in the Zambales town of San Marcelino following severe flooding and lahar that damaged…",
-      "byline": "jvicente",
+      "title": "Gunsmith arrested in Pangasinan drug bust",
+      "summary": "CALASIAO, Pangasinan— Police arrested a 59-year-old gunsmith and seized 36.10 grams of suspected shabu worth P245,480 during a search operation in this town on Wednesday in Pozorrubio. The suspect…",
+      "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:21.031Z",
-      "firstSeen": "2026-09-24T23:31:05.561Z",
-      "url": "https://newsinfo.inquirer.net/2311491/zambales-classes-resume-as-new-road-project-is-being-mapped-out",
+      "published": "2026-09-25T06:05:01.874Z",
+      "firstSeen": "2026-09-25T01:31:04.506Z",
+      "url": "https://newsinfo.inquirer.net/2311506/gunsmith-arrested-in-pangasinan-drug-bust",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Screenshot-2026-09-25-at-7.01.51-AM.png",
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Pangasinan-map-filephoto-091122.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "SAN ANTONIO, Zambales — After nearly two months of suspension, face-to-face classes have resumed at a school in the Zambales town of San Marcelino following severe flooding and lahar that damaged parts of the school during the height of the southwest monsoon. Sta. Fe National High School was among the facilities in Barangay Sta. Fe"
+          "text": "CALASIAO, Pangasinan— Police arrested a 59-year-old gunsmith and seized 36.10 grams of suspected shabu worth P245,480 during a search operation in this town on Wednesday in Pozorrubio. The suspect was classified as a high-value individual (HVI) in the police operation. The police teams implemented Search Warrant No. U-2026-032, which resulted in the seizure of three"
         }
       ],
       "truncated": true,
@@ -234,7 +234,7 @@
       "summary": "SAN ILDEFONSO, Ilocos Sur — A 29-year-old farmer was arrested during a routine police checkpoint after being found with suspected shabu in Barangay Macabiag, Sinait town in Ilocos Sur on Wednesday.…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:20.986Z",
+      "published": "2026-09-25T06:05:01.853Z",
       "firstSeen": "2026-09-25T02:01:09.398Z",
       "url": "https://newsinfo.inquirer.net/2311515/farmer-with-shabu-caught-at-ilocos-sur-checkpoint",
       "image": {
@@ -253,38 +253,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-h92yaq",
-      "source": "inqn",
-      "title": "From Araneta to Baguio: Blessed Fulton Sheen’s ties to PH",
-      "summary": "MANILA, Philippines — Blessed Fulton Sheen, who was beatified by the Catholic Church on Thursday, Sept. 24, visited the Philippines during his lifetime, leaving a lasting connection with Filipino…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:20.931Z",
-      "firstSeen": "2026-09-25T02:31:04.814Z",
-      "url": "https://newsinfo.inquirer.net/2311520/from-araneta-to-baguio-blessed-fulton-sheens-ties-to-ph",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Blessed-Fulton-Sheens-ties-to-PH-25September2026_2.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Blessed Fulton Sheen, who was beatified by the Catholic Church on Thursday, Sept. 24, visited the Philippines during his lifetime, leaving a lasting connection with Filipino Catholics. Sheen, a US-born bishop, promoter of the Church’s missionary activity and modern radio and television evangelist, was declared “blessed” during a Mass in St. Louis,"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-14tt55u",
       "source": "inqn",
       "title": "Martin Romualdez to testify in his plunder case in Sandiganbayan",
       "summary": "MANILA, Philippines — Former Speaker Martin Romualdez will testify in his plunder case before the Sandiganbayan, his lawyer Ade Fajardo said on Friday. Fajardo, who called Romualdez as their most…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:20.921Z",
+      "published": "2026-09-25T06:05:01.842Z",
       "firstSeen": "2026-09-25T02:31:04.764Z",
       "url": "https://newsinfo.inquirer.net/2311523/martin-romualdez-to-testify-in-his-plunder-case-in-sandiganbayan",
       "image": {
@@ -303,13 +278,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-h92yaq",
+      "source": "inqn",
+      "title": "From Araneta to Baguio: Blessed Fulton Sheen’s ties to PH",
+      "summary": "MANILA, Philippines — Blessed Fulton Sheen, who was beatified by the Catholic Church on Thursday, Sept. 24, visited the Philippines during his lifetime, leaving a lasting connection with Filipino…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-09-25T06:05:01.842Z",
+      "firstSeen": "2026-09-25T02:31:04.814Z",
+      "url": "https://newsinfo.inquirer.net/2311520/from-araneta-to-baguio-blessed-fulton-sheens-ties-to-ph",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Blessed-Fulton-Sheens-ties-to-PH-25September2026_2.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Blessed Fulton Sheen, who was beatified by the Catholic Church on Thursday, Sept. 24, visited the Philippines during his lifetime, leaving a lasting connection with Filipino Catholics. Sheen, a US-born bishop, promoter of the Church’s missionary activity and modern radio and television evangelist, was declared “blessed” during a Mass in St. Louis,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-trq801",
       "source": "inqn",
       "title": "2028 polls survey: Sara-Robin 12 points ahead of Leni-Bam tandem &#8212; OCTA",
       "summary": "MANILA, Philippines – The hypothetical tandem of Vice President Sara Duterte and Sen. Robin Padilla held the national lead by 12 percent against that of Naga City Mayor Leni Robredo and Sen. Paolo…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:20.765Z",
+      "published": "2026-09-25T06:05:01.809Z",
       "firstSeen": "2026-09-25T03:01:09.013Z",
       "url": "https://newsinfo.inquirer.net/2311527/2028-polls-survey-sara-robin-12-points-ahead-of-leni-bam-tandem-octa",
       "image": {
@@ -334,7 +334,7 @@
       "summary": "MANILA, Philippines — Thirty percent of Filipinos disagree with the statement, “A person like me cannot do anything to reduce corruption in the government,” according to the latest survey of the…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:20.539Z",
+      "published": "2026-09-25T06:05:01.761Z",
       "firstSeen": "2026-09-25T03:01:08.953Z",
       "url": "https://newsinfo.inquirer.net/2311529/sws-30-of-filipinos-believe-they-can-do-something-to-fight-corruption",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "MANILA, Philippines — The Sandiganbayan Third Division on Friday called out the lawyers of former House Speaker Martin Romualdez over their media remarks about the court process during his…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:19.185Z",
+      "published": "2026-09-25T06:05:01.538Z",
       "firstSeen": "2026-09-25T04:01:13.146Z",
       "url": "https://newsinfo.inquirer.net/2311538/sandiganbayan-calls-out-martin-romualdez-lawyers-over-media-remarks",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "[Updated Sept. 25, 2026, 11:51 a.m.] MANILA, Philippines — President Ferdinand Marcos Jr. confirmed on Friday that he had signed Mary Jane Veloso’s absolute pardon. In a brief media interview in…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:18.964Z",
+      "published": "2026-09-25T06:04:59.739Z",
       "firstSeen": "2026-09-25T03:31:05.003Z",
       "url": "https://newsinfo.inquirer.net/2311536/marcos-grants-mary-jane-veloso-absolute-pardon",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "MANILA, Philippines – Batangas 1st District Rep. Leandro Leviste is currently taking care of his mother, Sen. Loren Legarda, who is undergoing treatment for a lung and autoimmune condition in France,…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:17.416Z",
+      "published": "2026-09-25T06:04:57.956Z",
       "firstSeen": "2026-09-25T04:01:08.665Z",
       "url": "https://newsinfo.inquirer.net/2311545/leandro-leviste-is-taking-care-of-loren-legardas-health-in-france-spox",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "[Updated Sept. 25, 2026, 12:09 p.m.] MANILA, Philippines — President Ferdinand Marcos Jr. has signed into law a measure postponing the Barangay and Sangguniang Kabataan Elections (BSKE) scheduled for…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:17.199Z",
+      "published": "2026-09-25T06:04:56.164Z",
       "firstSeen": "2026-09-25T04:01:08.605Z",
       "url": "https://newsinfo.inquirer.net/2311546/marcos-signs-into-law-bske-postponement",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "LUCENA CITY — The sea turtle nesting season began early in the coastal town of Sariaya, Quezon, with 95 eggs collected Friday morning along the shores of Tayabas Bay. Edwin Frias, a deputized “bantay…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:15.401Z",
+      "published": "2026-09-25T06:04:51.023Z",
       "firstSeen": "2026-09-25T04:31:45.054Z",
       "url": "https://newsinfo.inquirer.net/2311559/95-turtle-eggs-found-as-tayabas-bay-nesting-season-starts-early",
       "image": {
@@ -478,29 +478,29 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-sswy20",
+      "id": "inqn-qkaztx",
       "source": "inqn",
-      "title": "Mindoro SVD missionary Fr. Vicente Castro dies at 85",
-      "summary": "CALAPAN CITY — Divine Word missionary Fr. Vicente Castro, SVD, a longtime missionary, theologian, and community builder who served Mindoro, died early Friday at Villa Cristo Rey, Christ the King…",
-      "byline": "cavendano",
+      "title": "Lawyers of Zaldy Co, Romualdez’s co-accused, appear for plunder pretrial",
+      "summary": "MANILA, Philippines — The lawyers of former Ako Bicol Rep. Zaldy Co made a special appearance on Friday at the Sandiganbayan Third Division during the pretrial proceeding of former House Speaker…",
+      "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:08.546Z",
-      "firstSeen": "2026-09-25T05:01:09.800Z",
-      "url": "https://newsinfo.inquirer.net/2311569/mindoro-svd-missionary-fr-vicente-castro-dies-at-85",
+      "published": "2026-09-25T06:04:49.161Z",
+      "firstSeen": "2026-09-25T06:01:08.385Z",
+      "url": "https://newsinfo.inquirer.net/2311587/lawyers-of-zaldy-co-romualdezs-co-accused-appear-for-plunder-pretrial",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Fr-Vicente-Castro-25September2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/03/zaldy-co-10mar2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "CALAPAN CITY — Divine Word missionary Fr. Vicente Castro, SVD, a longtime missionary, theologian, and community builder who served Mindoro, died early Friday at Villa Cristo Rey, Christ the King Mission Seminary in Quezon City. He was 85. The Society of the Divine Word (SVD) Philippine Southern Province announced that Castro died at about 2:10"
+          "text": "MANILA, Philippines — The lawyers of former Ako Bicol Rep. Zaldy Co made a special appearance on Friday at the Sandiganbayan Third Division during the pretrial proceeding of former House Speaker Martin Romualdez for plunder. Co and two others are among the co-accused of Romualdez in this case over alleged kickbacks worth P7.44 billion. Gabrielle"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inqn-739ol8",
@@ -509,7 +509,7 @@
       "summary": "MANILA, Philippines — Tropical Storm Queenie has slightly accelerated while moving west-northwestward over the Philippine Sea east of extreme northern Luzon, the state weather bureau reported on…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:08.525Z",
+      "published": "2026-09-25T06:04:49.161Z",
       "firstSeen": "2026-09-25T05:01:09.800Z",
       "url": "https://newsinfo.inquirer.net/2311575/queenie-slightly-accelerates-over-ph-sea-east-of-extreme-northern-luzon",
       "image": {
@@ -525,26 +525,26 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-qkaztx",
+      "id": "inqn-sswy20",
       "source": "inqn",
-      "title": "Lawyers of Zaldy Co, Romualdez’s co-accused, appear for plunder pretrial",
-      "summary": "MANILA, Philippines — The lawyers of former Ako Bicol Rep. Zaldy Co made a special appearance on Friday at the Sandiganbayan Third Division during the pretrial proceeding of former House Speaker…",
-      "byline": "mareyes",
+      "title": "Mindoro SVD missionary Fr. Vicente Castro dies at 85",
+      "summary": "CALAPAN CITY — Divine Word missionary Fr. Vicente Castro, SVD, a longtime missionary, theologian, and community builder who served Mindoro, died early Friday at Villa Cristo Rey, Christ the King…",
+      "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-09-25T06:01:08.385Z",
-      "firstSeen": "2026-09-25T06:01:08.385Z",
-      "url": "https://newsinfo.inquirer.net/2311587/lawyers-of-zaldy-co-romualdezs-co-accused-appear-for-plunder-pretrial",
+      "published": "2026-09-25T06:04:49.161Z",
+      "firstSeen": "2026-09-25T05:01:09.800Z",
+      "url": "https://newsinfo.inquirer.net/2311569/mindoro-svd-missionary-fr-vicente-castro-dies-at-85",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/03/zaldy-co-10mar2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Fr-Vicente-Castro-25September2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — The lawyers of former Ako Bicol Rep. Zaldy Co made a special appearance on Friday at the Sandiganbayan Third Division during the pretrial proceeding of former House Speaker Martin Romualdez for plunder. Co and two others are among the co-accused of Romualdez in this case over alleged kickbacks worth P7.44 billion. Gabrielle"
+          "text": "CALAPAN CITY — Divine Word missionary Fr. Vicente Castro, SVD, a longtime missionary, theologian, and community builder who served Mindoro, died early Friday at Villa Cristo Rey, Christ the King Mission Seminary in Quezon City. He was 85. The Society of the Divine Word (SVD) Philippine Southern Province announced that Castro died at about 2:10"
         }
       ],
       "truncated": true,
@@ -794,51 +794,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "abs-1402xmn",
-      "source": "abs",
-      "title": "“China’s First Supermodel”: 10 Things to Know About Liu Wen, Jing Boran’s Rumored Girlfriend",
-      "summary": "From making history on the runway to becoming China’s first bona fide supermodel, get to know Liu Wen, the longtime rumored partner of \" The Early Spring\" star Jing Boran.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T05:54:29.000Z",
-      "firstSeen": "2026-09-25T06:01:08.386Z",
-      "url": "https://www.abs-cbn.com/people/2026/9/13/-china-s-first-supermodel-10-things-to-know-about-liu-wen-jing-boran-s-rumored-girlfriend-1110",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "From making history on the runway to becoming China’s first bona fide supermodel, get to know Liu Wen, the longtime rumored partner of \" The Early Spring\" star Jing Boran."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1oa8hl5",
-      "source": "abs",
-      "title": "China's Super Couple: All the Times Jing Boran and Liu Wen Were Spotted Together",
-      "summary": "We’re all feeling the kilig over Jing Boran and Liu Wen, so here’s a look at all the appearances that have had fans feeling even more kilig and fueled romance rumors between the two.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T05:53:57.000Z",
-      "firstSeen": "2026-09-25T06:01:08.525Z",
-      "url": "https://www.abs-cbn.com/people/2026/9/16/all-the-times-jing-boran-and-liu-wen-were-seen-together-in-public-1020",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "We’re all feeling the kilig over Jing Boran and Liu Wen, so here’s a look at all the appearances that have had fans feeling even more kilig and fueled romance rumors between the two."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "rap-31hydj",
@@ -997,28 +953,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "abs-1wgxicm",
-      "source": "abs",
-      "title": "AFP says China ships blocked supply run for BRP Sierra Madre",
-      "summary": "The Armed Forces of the Philippines said Friday Chinese warships and coast guard vessels blocked a resupply mission for the BRP Sierra Madre.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T05:39:56.000Z",
-      "firstSeen": "2026-09-25T06:01:10.742Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/25/afp-says-china-ships-blocked-supply-run-for-brp-sierra-madre-1339",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Armed Forces of the Philippines said Friday Chinese warships and coast guard vessels blocked a resupply mission for the BRP Sierra Madre."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "inq-1s1ritl",
       "source": "inq",
       "title": "PAL eyes Delhi, Mumbai flights by December",
@@ -1041,7 +975,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-e7a5fj",
@@ -1066,7 +1000,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-og416s",
@@ -1091,51 +1025,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "abs-3bpe6j",
-      "source": "abs",
-      "title": "'I'm not done': Sanchez looks to regroup after Asian Games heartbreak",
-      "summary": "Filipina swimmer Kayla Sanchez had a couple of heartbreaks in the 2026 Asian Games, twice narrowly missing the podium despite performances that reset national records.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T05:31:12.000Z",
-      "firstSeen": "2026-09-25T06:01:15.627Z",
-      "url": "https://www.abs-cbn.com/sports/othersports/2026/9/25/-i-m-not-done-sanchez-looks-to-regroup-after-asian-games-heartbreak-1331",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Filipina swimmer Kayla Sanchez had a couple of heartbreaks in the 2026 Asian Games, twice narrowly missing the podium despite performances that reset national records."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1wy8ha1",
-      "source": "abs",
-      "title": "PNP probes Cavite suspects' links to store heists",
-      "summary": "The Philippine National Police (PNP) is looking into possible links between four suspects arrested in connection with a convenience store robbery in Trece Martires City, Cavite and other similar…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T05:30:25.000Z",
-      "firstSeen": "2026-09-25T06:01:17.385Z",
-      "url": "https://www.abs-cbn.com/news/regions/2026/9/25/pnp-probes-cavite-suspects-links-to-store-heists-1330",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Philippine National Police (PNP) is looking into possible links between four suspects arrested in connection with a convenience store robbery in Trece Martires City, Cavite and other similar cases across Luzon."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-xyz3yw",
@@ -1160,7 +1050,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "rap-1kk22qg",
@@ -1307,28 +1197,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-7lthw4",
-      "source": "abs",
-      "title": "Veloso camp expects Mary Jane’s release soon after Marcos’ absolute pardon",
-      "summary": "The legal team of Mary Jane Veloso expects her release soon after President Ferdinand Marcos Jr. granted her an absolute pardon on Friday, although the necessary procedures still have to be completed.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T05:27:05.000Z",
-      "firstSeen": "2026-09-25T05:31:02.985Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/25/veloso-camp-expects-mary-jane-s-release-soon-after-marcos-absolute-pardon-1327",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The legal team of Mary Jane Veloso expects her release soon after President Ferdinand Marcos Jr. granted her an absolute pardon on Friday, although the necessary procedures still have to be completed."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "rap-x48ysu",
@@ -1797,7 +1665,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "gma-i3gbe5",
@@ -16339,6 +16207,28 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
+      "id": "abs-17wxbuy",
+      "source": "abs",
+      "title": "Asian Games: Sibol’s Karl Gonzalvo advances to Puyo Puyo quarterfinals",
+      "summary": "Sibol’s Karl Gonzalvo advanced to the quarterfinals of the Puyo Puyo Champions tournament at the 20th Asian Games Aichi-Nagoya 2026 after finishing third in Group A on Thursday at Aichi Sky Expo in…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-24T11:43:23.000Z",
+      "firstSeen": "2026-09-25T06:04:49.161Z",
+      "url": "https://www.abs-cbn.com/sports/esports/2026/9/24/asian-games-sibol-s-karl-gonzalvo-advances-to-puyo-puyo-quarterfinals-1938",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sibol’s Karl Gonzalvo advanced to the quarterfinals of the Puyo Puyo Champions tournament at the 20th Asian Games Aichi-Nagoya 2026 after finishing third in Group A on Thursday at Aichi Sky Expo in Japan."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
       "id": "dw-79qmub",
       "source": "dw",
       "title": "EU finally clinching trade deals with Southeast Asian states",
@@ -16711,6 +16601,28 @@
       "source_of_text": "page"
     },
     {
+      "id": "abs-1mgq1yc",
+      "source": "abs",
+      "title": "Asiad: Gilas Women advance to 3x3 semis, take down Singapore",
+      "summary": "Gilas Pilipinas Women took down Singapore, 22-12, to advance to the semifinals of the 3-on-3 basketball tournament of the 2026 Aichi-Nagoya Asian Games on Thursday at the Kinjo Futo Station Square…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-24T11:29:17.000Z",
+      "firstSeen": "2026-09-25T06:04:49.161Z",
+      "url": "https://www.abs-cbn.com/sports/basketball/2026/9/24/asiad-gilas-women-advance-to-3x3-semis-take-down-singapore-1920",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gilas Pilipinas Women took down Singapore, 22-12, to advance to the semifinals of the 3-on-3 basketball tournament of the 2026 Aichi-Nagoya Asian Games on Thursday at the Kinjo Futo Station Square Venue in Japan."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
       "id": "dw-12ir5nv",
       "source": "dw",
       "title": "India news: Cockroach party demands Election Commissioner Gyanesh Kumar's resignation",
@@ -16834,6 +16746,94 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
+    },
+    {
+      "id": "abs-57wat8",
+      "source": "abs",
+      "title": "ALV Pageant Circle appoints new PH rep for Face of Beauty International",
+      "summary": "ALV Pageant Circle announced on Thursday that it has appointed a new Philippine delegate for Face of Beauty International.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-24T11:16:36.000Z",
+      "firstSeen": "2026-09-25T06:04:49.164Z",
+      "url": "https://www.abs-cbn.com/lifestyle/pageants-beauty-queens/2026/9/24/alv-pageant-circle-appoints-new-ph-rep-for-face-of-beauty-international-1916",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ALV Pageant Circle announced on Thursday that it has appointed a new Philippine delegate for Face of Beauty International."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-qs4ab0",
+      "source": "abs",
+      "title": "Only 31% of direct PhilHealth contributors consistently pay premium",
+      "summary": "Only around 10.5 million or 31% of the 33.3 million direct PhilHealth contributors consistently pay their premium, according to the Department of Health’s budget sponsor at the House of…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-24T11:05:22.000Z",
+      "firstSeen": "2026-09-25T06:04:54.583Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/9/24/only-31-of-direct-philhealth-contributors-consistently-pay-premium-1905",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Only around 10.5 million or 31% of the 33.3 million direct PhilHealth contributors consistently pay their premium, according to the Department of Health’s budget sponsor at the House of Representatives, Bataan 2nd District Representative Albert Garcia said."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-1gvfmwh",
+      "source": "abs",
+      "title": "Kim Chiu speaks up after sister's arrest, says there's 'much more to this story'",
+      "summary": "Actress Kim Chiu arrived Thursday at the Quezon City Hall of Justice for the arraignment of her sister Lakambini, who she charged with 124 counts of qualified theft.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-24T11:05:03.000Z",
+      "firstSeen": "2026-09-25T06:04:56.417Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/9/24/kim-chiu-sister-lakambini-arraignment-theft-1411",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Actress Kim Chiu arrived Thursday at the Quezon City Hall of Justice for the arraignment of her sister Lakambini, who she charged with 124 counts of qualified theft."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-1w8rixk",
+      "source": "abs",
+      "title": "DICT chief says matter with Facebook may be brought to court",
+      "summary": "The DICT said it may bring Facebook to court if the social media giant does not cooperate with local authorities.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-24T11:04:29.000Z",
+      "firstSeen": "2026-09-25T06:04:58.347Z",
+      "url": "https://www.abs-cbn.com/news/technology/2026/9/24/dict-chief-says-matter-with-facebook-may-be-brought-to-court-1904",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The DICT said it may bring Facebook to court if the social media giant does not cooperate with local authorities."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "abs-c5fmiu",
