@@ -1,0 +1,163 @@
+{
+  "id": "cbc-16u2kpg",
+  "source": "cbc",
+  "title": "OpenAI bots accessed public U.S. Census, SEC data, as company discloses unexpected AI activity",
+  "summary": "OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company’s…",
+  "byline": "CBC",
+  "section": "News/World",
+  "published": "2026-09-26T14:38:18.000Z",
+  "firstSeen": "2026-09-26T15:01:07.971Z",
+  "url": "https://www.cbc.ca/news/world/openai-rogue-us-sites-activity-9.7359673?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/5270b93a-e4ca-4aac-8811-169935df9d4e,1790428149304/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C600%2C5760%2C3240%29%3BResize%3D620",
+    "caption": "The logo for OpenAI, the maker of ChatGPT, appears on a mobile phone. OpenAI's artificial intelligence agents have interacted with several U.S. government websites in unplanned ways, the company disclosed on Friday. (Richard Drew/The Associated Press)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "World·New"
+    },
+    {
+      "type": "p",
+      "text": "OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company’s models’ unanticipated behavior."
+    },
+    {
+      "type": "h",
+      "text": "OpenAI disclosed that it had identified several examples of 'unexpected' or 'concerning' model behaviour"
+    },
+    {
+      "type": "p",
+      "text": "OpenAI's artificial intelligence agents have interacted with several U.S. government websites in unplanned ways, the company disclosed on Friday, amid growing concerns about rogue AI activity."
+    },
+    {
+      "type": "p",
+      "text": "The report comes amid an ongoing review into unanticipated artificial intelligence behaviour, with the company previously acknowledging multiple examples of \"unexpected or concerning model behavior.\""
+    },
+    {
+      "type": "p",
+      "text": "OpenAI spokesperson Liz Bourgeois said in a statement that the lab is continuing to conduct a review of \"misaligned model activity\" — when AI systems behave in undesired ways — and is notifying organizations when it identifies potential impacts to their systems."
+    },
+    {
+      "type": "p",
+      "text": "According to the latest revelations, the AI giant's models accessed publicly available information on two websites operated by the Securities and Exchange Commission (SEC) as well as U.S. Census Bureau data. OpenAI did not find any use of SEC credentials, access to accounts or nonpublic information, changes to SEC data or systems, or evidence of a compromise or vulnerability, the company said."
+    },
+    {
+      "type": "p",
+      "text": "AI evaluator and research lab Transluce said Friday that through an independent investigation it also found that agents appearing to originate from OpenAI attempted a rudimentary hack on a Department of Education website for the department’s civil rights office, which did not succeed."
+    },
+    {
+      "type": "p",
+      "text": "The Department of Education's \"system operations reviews\" found \"no evidence of any impact to our website or databases,\" a department spokesperson said Friday."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI CEO tells world leaders to help guide AI's future"
+    },
+    {
+      "type": "p",
+      "text": "A Transluce spokesperson said as part of its investigation, it came across data on the open web that revealed fresh details about some previously identified OpenAI agents' activities on U.S. government websites and brought it to OpenAI's attention."
+    },
+    {
+      "type": "p",
+      "text": "Transluce found \"additional rogue activity, some of which is not clearly attributable to OpenAI,\" targeting other government agencies, including the Justice Department and the Commerce Department, as well as some state government websites in California, Maryland, Illinois, Texas and New York."
+    },
+    {
+      "type": "p",
+      "text": "The models were \"using sites in unintended ways and sometimes violating explicit usage policies,\" Transluce said in a statement."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said it is reviewing Transluce’s report."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "AI's 'warning shot': Tech companies, experts raise fears of more rogue swarms after alarming Hugging Face hack",
+        "Rogue AI swarm used a University of Toronto link-shortening tool to communicate"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "OpenAI, maker of ChatGPT, also said Friday that its agents had leaked 53 images from ChatGPT users. OpenAI declined to say if the images were AI-generated or identified real people. It also declined to say when the images were posted."
+    },
+    {
+      "type": "p",
+      "text": "\"As AI systems become more capable and autonomous, misaligned behavior can translate into consequential actions in the real world, including cybersecurity incidents and other outcomes that developers may not have anticipated,\" the report says."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI CEO Sam Altman said on social media Friday that there is an \"extensive and ongoing review related to our agents' use of internet access during training and evaluation.\""
+    },
+    {
+      "type": "p",
+      "text": "The company also said it had notified dozens of third parties about improper activity."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "OpenAI flags 6 new examples of 'concerning' AI behaviour"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The disclosure and researcher reports reveal a new area of privacy risk for the company and illustrate how difficult it is even for an AI firm at the cutting edge of the technology to track all the unauthorized activity tied to its agents."
+    },
+    {
+      "type": "p",
+      "text": "The disclosure comes at a time of heightened global concerns about AI systems escaping human control and hacking into external websites, as well as industry calls for a slowdown on AI development, which OpenAI has said it supports."
+    },
+    {
+      "type": "p",
+      "text": "Australia says OpenAI agent hacked government health data website"
+    },
+    {
+      "type": "p",
+      "text": "Just on Wednesday, Australian Prime Minister Anthony Albanese said OpenAI agents broke into a government health data portal in June. Albanese told reporters in New York that OpenAI uncovered the activity in August, and disclosed it on Sept. 10 via an email to a general government inbox. He said he directly told Altman that this disclosure process was unacceptable."
+    },
+    {
+      "type": "h",
+      "text": "Revelations follow Hugging Face hack concerns"
+    },
+    {
+      "type": "p",
+      "text": "If OpenAI notifies organizations it identifies as being impacted by unexpected model behaviour, that does not mean there was a security incident, the company said, and could instead identify a design issue or security weakness that impacted organizations want to address."
+    },
+    {
+      "type": "p",
+      "text": "Most of the activity OpenAI said it has reviewed so far has involved routine research tasks where agents accessed public web content to answer questions, including government websites seen as authoritative sources of public information."
+    },
+    {
+      "type": "p",
+      "text": "Several companies have disclosed incidents in recent months when they say their models have behaved unpredictably or hacked into other organizations' websites or systems. OpenAI disclosed in July that two of its most capable AI models were responsible for the cyberattack targeting AI startup Hugging Face."
+    },
+    {
+      "type": "p",
+      "text": "Altman said in his social media post Friday that the Hugging Face incident \"is still the most severe event we've seen.\""
+    },
+    {
+      "type": "p",
+      "text": "OpenAI models went rogue and launched cyber attack on start-up"
+    },
+    {
+      "type": "p",
+      "text": "That incident stirred widespread panic in the industry and beyond about AI models going rogue, and several competing AI labs made similar disclosures in the days and weeks that followed."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI most recently shared six reports of \"unexpected or concerning\" behaviour in AI models and introduced a framework for tracking, probing and disclosing instances of what it called misalignment."
+    },
+    {
+      "type": "p",
+      "text": "\"Examples of misalignment may help identify problems other AI developers might encounter as their systems reach similar capabilities, reveal weaknesses in safeguards, or challenge assumptions about model behavior,\" OpenAI said earlier this month."
+    },
+    {
+      "type": "p",
+      "text": "With files from Anya Zoledziowski and Reuters"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
