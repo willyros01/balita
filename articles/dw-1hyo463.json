@@ -1,0 +1,84 @@
+{
+  "id": "dw-1hyo463",
+  "source": "dw",
+  "title": "OpenAI tools post user images from ChatGPT online",
+  "summary": "OpenAI said it found 53 cases in which user-uploaded image links on ChatGPT were shared with third-party websites. The company said it had removed most of these links.",
+  "byline": "Mahima Kapoor",
+  "section": "",
+  "published": "2026-09-26T05:58:00.000Z",
+  "firstSeen": "2026-09-26T06:01:09.978Z",
+  "url": "https://www.dw.com/en/openai-tools-post-user-images-from-chatgpt-online/a-79440406?maca=en-rss-en-all-1573-rdf",
+  "image": {
+    "src": "https://static.dw.com/image/79440318_6.jpg",
+    "caption": "OpenAI said it had removed most of the leaked content and was working to remove the restImage: Jakub Porzycki/NurPhoto/IMAGO"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Artificial intelligence giant OpenAI on Friday acknowledged that its AI tools had posted images users provided to ChatGPT on online sites, without the company's knowledge, in yet another example of AI agents operating outside of their confines."
+    },
+    {
+      "type": "p",
+      "text": "In a post on X, the company said its AI agents had sent \"training and evaluation data to third-party services when they shouldn't have,\" adding that most of the data shared did not come from users."
+    },
+    {
+      "type": "p",
+      "text": "However, they had found 53 cases where images that people had uploaded to ChatGPT were posted to image-hosting sites as links that were not publicly listed."
+    },
+    {
+      "type": "p",
+      "text": "\"The images came from accounts that allowed their data to be used to improve our models, and after we disassociated the Images from the accounts and ran them through a privacy filter,\" it said."
+    },
+    {
+      "type": "p",
+      "text": "The company said it had removed most of the content and was working to remove the rest."
+    },
+    {
+      "type": "p",
+      "text": "Apart from the images, OpenAI confirmed a New York Times report that its tool had accessed websites of US federal agencies but that they only retrieved publicly available information."
+    },
+    {
+      "type": "h",
+      "text": "Tech giant OpenAI heads for Wall Street"
+    },
+    {
+      "type": "h",
+      "text": "Rising fear of rogue AI"
+    },
+    {
+      "type": "p",
+      "text": "The latest disclosure comes amid heightened global concerns about AI systems escaping human control and hacking into external websites, as well as industry calls for a slowdown on AI development — a move which OpenAI said it supports."
+    },
+    {
+      "type": "p",
+      "text": "Friday's post also clarified that the cases of unauthorized sharing occurred before a fresh round of safeguards were implemented over a month ago."
+    },
+    {
+      "type": "p",
+      "text": "In July, OpenAI had said internal cybersecurity evaluations showed that its models circumvented controls designed to isolate them from the internet. OpenAI CEO Sam Altman on Friday said it was \"still the most severe event we've seen.\""
+    },
+    {
+      "type": "p",
+      "text": "\"We are continuing to review agent activity in research and evaluation runs, working backward month by month starting from the Hugging Face incident,\" OpenAI said in a safety blog post on Friday, adding that it would \"provide further updates\" in time."
+    },
+    {
+      "type": "h",
+      "text": "How US, China could end the AI race"
+    },
+    {
+      "type": "h",
+      "text": "Investigation finds OpenAI agents attempting hacks"
+    },
+    {
+      "type": "p",
+      "text": "AI evaluator and research lab Transluce on Friday said that it also found that AI agents, appearing to originate from OpenAI, attempted a rudimentary hack on the US Department of Education website for the department's civil rights office. The agents did not succeed, according to the independent investigation."
+    },
+    {
+      "type": "p",
+      "text": "The company said it found \"additional rogue activities,\" some of which were not directly attributable to OpenAI, targeting other government agencies, including the Justice Department and the Commerce Department, as well as some state government websites in California, Maryland, Illinois, Texas and New York."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
