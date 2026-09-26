@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-09-26T13:01:29.189Z",
+  "updated": "2026-09-26T13:31:36.533Z",
   "sources": [
     {
       "id": "inq",
@@ -53,38 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-rxx21n",
-      "source": "inqn",
-      "title": "Bulusan park survey highlights rich diversity of bird species",
-      "summary": "MANILA, Philippines — Beneath the dense canopy of Bulusan Volcano Natural Park (BVNP) in Sorsogon, a varied community of birds continues to thrive, from colorful forest dwellers to species found only…",
-      "byline": "Dennis Maliwanag",
-      "section": "Latest News Stories",
-      "published": "2026-09-26T13:01:16.099Z",
-      "firstSeen": "2026-09-26T05:31:05.130Z",
-      "url": "https://newsinfo.inquirer.net/2312039/bulusan-park-survey-highlights-rich-diversity-of-bird-species",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/bulusan4-birds-26sept2026.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Beneath the dense canopy of Bulusan Volcano Natural Park (BVNP) in Sorsogon, a varied community of birds continues to thrive, from colorful forest dwellers to species found only in the Philippines. A three-day avian assessment across the park’s different elevation zones documented resident, endemic and ecologically sensitive species, according to the Department"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-11prdw2",
       "source": "inqn",
       "title": "Guiuan earns global recognition for environmental programs",
       "summary": "TACLOBAN CITY – Guiuan, Eastern Samar has earned international recognition for its environmental and sustainability initiatives, including coastal resource protection, solid waste management and…",
       "byline": "jbarrion",
       "section": "Latest News Stories",
-      "published": "2026-09-26T13:01:12.999Z",
+      "published": "2026-09-26T13:31:22.126Z",
       "firstSeen": "2026-09-26T06:01:09.888Z",
       "url": "https://newsinfo.inquirer.net/2312056/guiuan-earns-national-global-recognitions-for-environmental-programs",
       "image": {
@@ -103,38 +78,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1c3yh9e",
-      "source": "inqn",
-      "title": "African swine fever on pigs confirmed in Agutaya, Palawan",
-      "summary": "CALAPAN CITY— The Department of Agriculture–Bureau of Animal Industry confirmed a case of African swine fever (ASF) in Barangay Concepcion in Agutaya town, Palawan, the provincial government said…",
-      "byline": "jbarrion",
-      "section": "Latest News Stories",
-      "published": "2026-09-26T13:01:12.508Z",
-      "firstSeen": "2026-09-26T06:31:02.703Z",
-      "url": "https://newsinfo.inquirer.net/2312061/african-swine-fever-on-pigs-confirmed-in-agutaya-palawan",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/11/Palawan-map-filephoto-091222.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CALAPAN CITY— The Department of Agriculture–Bureau of Animal Industry confirmed a case of African swine fever (ASF) in Barangay Concepcion in Agutaya town, Palawan, the provincial government said Friday, Sept. 25. In a statement, the provincial government said it was talking with the Provincial ASF Task Force, Agutaya municipal government and other agencies concerned to contain"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1u20ilx",
       "source": "inqn",
       "title": "DOH raises code white alert amid STS Queenie",
       "summary": "MANILA, Philippines — The Department of Health (DOH) on Saturday activated code white alert amid the potential effects of Severe Tropical Storm Queenie. According to the DOH in an advisory, code…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-09-26T13:01:11.199Z",
+      "published": "2026-09-26T13:31:20.362Z",
       "firstSeen": "2026-09-26T08:01:11.191Z",
       "url": "https://newsinfo.inquirer.net/2312066/doh-raises-code-white-alert-amid-sts-queenie",
       "image": {
@@ -153,13 +103,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1c3yh9e",
+      "source": "inqn",
+      "title": "African swine fever on pigs confirmed in Agutaya, Palawan",
+      "summary": "CALAPAN CITY— The Department of Agriculture–Bureau of Animal Industry confirmed a case of African swine fever (ASF) in Barangay Concepcion in Agutaya town, Palawan, the provincial government said…",
+      "byline": "jbarrion",
+      "section": "Latest News Stories",
+      "published": "2026-09-26T13:31:20.362Z",
+      "firstSeen": "2026-09-26T06:31:02.703Z",
+      "url": "https://newsinfo.inquirer.net/2312061/african-swine-fever-on-pigs-confirmed-in-agutaya-palawan",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2024/11/Palawan-map-filephoto-091222.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CALAPAN CITY— The Department of Agriculture–Bureau of Animal Industry confirmed a case of African swine fever (ASF) in Barangay Concepcion in Agutaya town, Palawan, the provincial government said Friday, Sept. 25. In a statement, the provincial government said it was talking with the Provincial ASF Task Force, Agutaya municipal government and other agencies concerned to contain"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1wl2ooe",
       "source": "inqn",
       "title": "Study: Over 80% of upper Marikina watershed vulnerable to landslides",
       "summary": "MANILA, Philippines — Slope is the biggest contributor to landslide susceptibility in the Upper Marikina River Basin Protected Landscape (UMRBPL), a 2026 study revealed, highlighting the need for…",
       "byline": "Dennis Maliwanag",
       "section": "Latest News Stories",
-      "published": "2026-09-26T13:01:09.632Z",
+      "published": "2026-09-26T13:31:17.635Z",
       "firstSeen": "2026-09-26T08:01:11.108Z",
       "url": "https://newsinfo.inquirer.net/2312065/study-over-80-of-upper-marikina-watershed-vulnerable-to-landslides",
       "image": {
@@ -184,7 +159,7 @@
       "summary": "MANILA, Philippines — Malacañang on Saturday called on Vice President Sara Duterte to learn how to respond to accusations using evidence, instead of relying on &#8216;red herring&#8217; and &#8216;ad…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-09-26T13:01:08.358Z",
+      "published": "2026-09-26T13:31:14.926Z",
       "firstSeen": "2026-09-26T09:01:06.453Z",
       "url": "https://newsinfo.inquirer.net/2312074/palace-to-sara-duterte-respond-with-evidence-stop-using-fallacies",
       "image": {
@@ -209,7 +184,7 @@
       "summary": "MANILA, Philippines — What renders the 1987 Constitution futile is when Filipinos begin defending acts of corruptions by “nefarious political idols” and normalizing unlawful execution of innocent…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-09-26T13:01:07.647Z",
+      "published": "2026-09-26T13:31:06.739Z",
       "firstSeen": "2026-09-26T10:31:07.806Z",
       "url": "https://newsinfo.inquirer.net/2312079/defense-of-nefarious-political-idols-makes-constitution-useless-palace",
       "image": {
@@ -234,7 +209,7 @@
       "summary": "COTABATO CITY — Even if they are no longer sitting in the regional legislature, former members of parliament (MPs) organized themselves and offered help in shaping the future of the Bangsamoro…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-09-26T13:01:07.580Z",
+      "published": "2026-09-26T13:31:05.994Z",
       "firstSeen": "2026-09-26T11:01:08.950Z",
       "url": "https://newsinfo.inquirer.net/2312081/ex-barmm-mps-form-group-to-help-start-new-regional-government",
       "image": {
@@ -250,7 +225,615 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1sqoa9f",
+      "source": "inqn",
+      "title": "SC petitions to impeachment vote rule a ‘litmus test’ — Adiong",
+      "summary": "MANILA, Philippines — The Supreme Court challenges to the Senate impeachment court’s new voting rule will be a “litmus test” of how the Constitution’s accountability mechanism applies under…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-09-26T13:31:05.989Z",
+      "firstSeen": "2026-09-26T13:31:05.989Z",
+      "url": "https://newsinfo.inquirer.net/2312090/sc-petitions-to-impeachment-vote-rule-a-litmus-test-adiong",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/07/Zia-Alonto-Adiong-20July2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Supreme Court challenges to the Senate impeachment court’s new voting rule will be a “litmus test” of how the Constitution’s accountability mechanism applies under unprecedented circumstances, trial spokesperson and Lanao del Sur Rep. Zia Alonto Adiong said Saturday. “It’s a litmus test because I believe the Constitution is very expressive, explicit"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-oiy1xk",
+      "source": "inqn",
+      "title": "Defense must explain Sara Duterte’s Gencorp interest – Tolosa",
+      "summary": "MANILA, Philippines — Vice President Sara Duterte’s defense lawyers will have to explain her declared financial interest in Gencorp Industries Inc. despite corporate records showing that she was not…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-09-26T13:31:05.988Z",
+      "firstSeen": "2026-09-26T13:31:05.988Z",
+      "url": "https://newsinfo.inquirer.net/2312092/defense-must-explain-sara-dutertes-gencorp-interest-tolosa",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/WhatsApp-Image-2026-09-02-at-11.05.05-e1790428803274.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Vice President Sara Duterte’s defense lawyers will have to explain her declared financial interest in Gencorp Industries Inc. despite corporate records showing that she was not listed as a shareholder, House prosecution spokesperson Benjamin “Jay” Tolosa Jr. said. “It’s up to them how they will explain it,” Tolosa, who is also private"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-16veyse",
+      "source": "inqn",
+      "title": "Chua: Let Sara Duterte spokesperson enjoy limelight",
+      "summary": "MANILA, Philippines — Manila Rep. Joel Chua on Saturday brushed aside criticism from Vice President Sara Duterte’s camp over the Senate impeachment court’s decision to adjust the voting threshold for…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-09-26T13:31:05.926Z",
+      "firstSeen": "2026-09-26T13:31:05.926Z",
+      "url": "https://newsinfo.inquirer.net/2312094/chua-let-sara-duterte-spokesperson-enjoy-limelight",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/05/Joel-Chua-10May2026_2.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Manila Rep. Joel Chua on Saturday brushed aside criticism from Vice President Sara Duterte’s camp over the Senate impeachment court’s decision to adjust the voting threshold for conviction, saying her spokesperson Paolo Panelo should be allowed to “enjoy the limelight.” “He wants to be recognized, so let him. At the end of"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-sgt747",
+      "source": "inq",
+      "title": "Leylah Fernandez tops Maja Chwalinska, enters Singapore Open final",
+      "summary": "SINGAPORE–Leylah Fernandez rallied past Poland’s Maja Chwalinska, 1-6, 6-4, 6-2, to reach the Singapore Open final on Saturday night at OCBC Arena Center Court. Fernandez delivered a beeline backhand…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T13:24:49.000Z",
+      "firstSeen": "2026-09-26T13:31:05.926Z",
+      "url": "https://sports.inquirer.net/698220/leylah-fernandez-tops-maja-chwalinska-enters-singapore-open-final",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/09/IMG_2325_Singapore-Tennis-Open-single-semifinal-Maja-Chwalinska-and-Leylah-Fernandez_Leylah-Fernandez-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SINGAPORE–Leylah Fernandez rallied past Poland’s Maja Chwalinska, 1-6, 6-4, 6-2, to reach the Singapore Open final on Saturday night at OCBC Arena Center Court. Fernandez delivered a beeline backhand winner to put away the French Open runner-up Chwalinska and clinch her first final appearance this season. The 24-year-old Fernandez faces Australia’s Talia Gibson in the final on Sunday. READ: Leylah Fernandez gets boost from PH crowd, ousts top seed Andreeva FINAL CONFIRMED 😤@leylahfernandez is marches through to the last two in Singapore! She defeats Chwalinska 1-6, 6-4, 6-2.#SgTennisOpen pic.twitter.com/CfbQgPj1Jh &mdash; wta (@WTA) September 26, 2026 “I know it’s gonna be a [&hellip;]... Keep on reading: Leylah Fernandez tops Maja Chwalinska, enters Singapore Open final"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-b0k3xu",
+      "source": "abs",
+      "title": "VALORANT Champions: Global Esports falls to Team Vitality, drops to elimination match",
+      "summary": "Global Esports kicked off their VALORANT Champions Shanghai run with a tough loss, falling 2-1 to Team Vitality in their group stage opener.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T13:22:51.000Z",
+      "firstSeen": "2026-09-26T13:31:05.926Z",
+      "url": "https://www.abs-cbn.com/sports/esports/2026/9/26/valorant-champions-global-esports-falls-to-team-vitality-drops-to-elimination-match-2122",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Global Esports kicked off their VALORANT Champions Shanghai run with a tough loss, falling 2-1 to Team Vitality in their group stage opener."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-1d9on3w",
+      "source": "abs",
+      "title": "Years after her sons’ deaths, Davao mom continues fight for justice",
+      "summary": "Over two decades after burying four of her children, a 72-year-old mother keeps her hope and struggle for justice alive as the murder cases of her minor sons–allegedly by the notorious Davao Death…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T13:22:33.000Z",
+      "firstSeen": "2026-09-26T13:31:05.988Z",
+      "url": "https://www.abs-cbn.com/news/regions/2026/9/26/years-after-her-sons-deaths-davao-mom-continues-fight-for-justice-2122",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Over two decades after burying four of her children, a 72-year-old mother keeps her hope and struggle for justice alive as the murder cases of her minor sons–allegedly by the notorious Davao Death Squad (DDS)–remain stalled at the administrative level."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-xqanfy",
+      "source": "inq",
+      "title": "Huge crowds cheer Pope Leo along Champs-Elysees ahead of Paris mass",
+      "summary": "PARIS, France—Pope Leo XIV rode down the French capital&#8217;s iconic Champs-Elysees avenue in his popemobile on Saturday to the cheers of huge crowds of faithful, ahead of a giant open-air mass.…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T13:21:10.000Z",
+      "firstSeen": "2026-09-26T13:31:05.988Z",
+      "url": "https://globalnation.inquirer.net/339453/huge-crowds-cheer-pope-leo-along-champs-elysees-ahead-of-paris-mass",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/09/PopeLeo-crowd-26September2026-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PARIS, France—Pope Leo XIV rode down the French capital&#8217;s iconic Champs-Elysees avenue in his popemobile on Saturday to the cheers of huge crowds of faithful, ahead of a giant open-air mass. Aboard the popemobile, the smiling pontiff blessed several babies and waved to worshippers, as he made his way from the Arc de Triomphe to Place de la Concorde, where a giant white canopy was installed. Dozens of giant screens lined the more than two-kilometer stretch. Clutching small French and Vatican flags, crowds gathered in anticipation ahead of the service, with the city center sealed off, helicopters circling overhead and snipers positioned [&hellip;]... Keep on reading: Huge crowds cheer Pope Leo along Champs-Elysees ahead of Paris mass"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1edmclb",
+      "source": "inq",
+      "title": "UAAP: Louie Alas builds Ateneo around Jared Bahay, guards",
+      "summary": "SCHEDULE: UAAP Season 89 men’s basketball tournament – first round MANILA, Philippines—Ateneo coach Louie Alas made one thing clear after the Blue Eagles’ 73-68 victory over Adamson in the UAAP…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T13:19:06.000Z",
+      "firstSeen": "2026-09-26T13:31:05.988Z",
+      "url": "https://sports.inquirer.net/698198/uaap-louie-alas-builds-ateneo-around-jared-bahay-guards",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/09/UAAP-89-MBB-ADMU-vs.-AdU-Jared-Bahay-0018-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SCHEDULE: UAAP Season 89 men’s basketball tournament – first round MANILA, Philippines—Ateneo coach Louie Alas made one thing clear after the Blue Eagles’ 73-68 victory over Adamson in the UAAP Season 89 men’s basketball tournament Saturday at Mall of Asia Arena. Alas will almost always live and die with his guards. Led by Jared Bahay, Ateneo’s backcourt delivered as the Blue Eagles improved to 2-1. “Every time I build a team, the centerpiece is always a guard,” Alas said. “If you notice, ever since I started coaching, I have had a minimum of four to five guards, and I have a [&hellip;]... Keep on reading: UAAP: Louie Alas builds Ateneo around Jared Bahay, guards"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "cbc-1to9nq6",
+      "source": "cbc",
+      "title": "Canadian citizen detained at U.S. border crossing, questioned about voting for hours",
+      "summary": "",
+      "byline": "Arden McLeod",
+      "section": "News/Canada",
+      "published": "2026-09-26T13:19:03.000Z",
+      "firstSeen": "2026-09-26T13:31:05.926Z",
+      "url": "https://www.cbc.ca/news/canada/british-columbia/canadian-detained-at-bc-border-for-hours-9.7359371?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/cfc9d642-7105-4d08-ac98-7b6845eb470f,1790379153443/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1854%2C1042%29%3BResize%3D620",
+        "caption": "Paige Adamson says she was detained until nearly 3 a.m. PT and was 'basically treated like a criminal' when she attempted to cross the Canada-U.S. border at the Point Roberts border crossing on Sept. 15. (Ben Nelms/CBC)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "British Columbia"
+        },
+        {
+          "type": "p",
+          "text": "Paige Adamson was on her way home from a birthday dinner in Tsawwassen, B.C., on Sept. 15 when she was stopped at the Point Roberts border crossing and questioned about voting for hours. Lawyers are raising concerns around vulnerabilities Canadians face while living in the U.S., especially over being registered to vote."
+        },
+        {
+          "type": "h",
+          "text": "'Tip of the iceberg': One lawyer warns more Canadians could be detained over illegal voting concerns"
+        },
+        {
+          "type": "p",
+          "text": "Paige Adamson was on her way home from a birthday dinner in Tsawwassen, B.C., on Sept. 15 when she was stopped at the Point Roberts border crossing."
+        },
+        {
+          "type": "p",
+          "text": "It was a regular stop that Adamson — a Canadian citizen who has lived in Point Roberts, Wash., as a U.S. permanent resident for 14 years — had grown used to."
+        },
+        {
+          "type": "p",
+          "text": "But this time, they had a new question for her."
+        },
+        {
+          "type": "p",
+          "text": "\"The very first thing she asked was, 'Have you ever voted in a federal U.S. election?'\" said Adamson."
+        },
+        {
+          "type": "p",
+          "text": "Adamson, 61, said she told the border agent she had never voted in a federal election."
+        },
+        {
+          "type": "p",
+          "text": "\"They immediately said, 'Park over here and come into the office.'\""
+        },
+        {
+          "type": "p",
+          "text": "What happened next, Adamson said, was a nearly six-hour-long process — where she went through secondary inspection just after 9 p.m., was interrogated until after 2 a.m. and signed documents before being admitted into the U.S."
+        },
+        {
+          "type": "p",
+          "text": "One of the documents CBC News reviewed said Adamson \"must surrender for removal from the United States, if so ordered.\""
+        },
+        {
+          "type": "p",
+          "text": "Lawyers who spoke with CBC News said U.S. voter registration systems can sometimes catch non-citizens up in errors, and one of them says he has seen an uptick in non-citizens being questioned in the last week."
+        },
+        {
+          "type": "h",
+          "text": "Grounds for removal"
+        },
+        {
+          "type": "p",
+          "text": "According to documents provided by Adamson, the Department of Homeland Security (DHS) alleges she falsely claimed she was a U.S. citizen \"for the purposes of registering to vote in Whatcom County, Washington state.\""
+        },
+        {
+          "type": "p",
+          "text": "The department also alleges Adamson voted in Washington state's 2018 general election."
+        },
+        {
+          "type": "p",
+          "text": "DHS cites those allegations as grounds for removing Adamson from the U.S."
+        },
+        {
+          "type": "p",
+          "text": "But Adamson maintained during questioning, a transcript reviewed by CBC News showed, that she has never voted in a federal election and doesn't remember ever voting in a state election — though she acknowledged receiving a ballot and may have been registered."
+        },
+        {
+          "type": "p",
+          "text": "Adamson is now scheduled to appear for a hearing in Seattle, and is grappling with potentially being removed from the state she has lived in since 2012."
+        },
+        {
+          "type": "p",
+          "text": "\"My anxiety is over the top,\" she said."
+        },
+        {
+          "type": "h",
+          "text": "A broader trend"
+        },
+        {
+          "type": "p",
+          "text": "In the past week and a half, immigration lawyer Len Saunders said he has received calls from three people — including Adamson — about being detained at the border and questioned about voting."
+        },
+        {
+          "type": "p",
+          "text": "One, he said, was a Blaine, Wash., resident who crosses the border daily to work as a nurse in B.C."
+        },
+        {
+          "type": "p",
+          "text": "Saunders said three near-identical situations like this in such a short period is unprecedented in his career that stretches back more than 25 years."
+        },
+        {
+          "type": "p",
+          "text": "The Blaine-based lawyer told CBC News there could be hundreds of Canadians facing similar issues, and expects more cases as Canadians cross the border during the holidays."
+        },
+        {
+          "type": "p",
+          "text": "\"This is just the tip of the iceberg,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "B.C. immigration lawyer Chris Anders said border enforcement is \"way, way stricter and tougher\" than at any point in the last two decades."
+        },
+        {
+          "type": "p",
+          "text": "He said the databases used by border officials are constantly expanding, meaning something that did not cause problems for someone previously could suddenly pop up during a new entry."
+        },
+        {
+          "type": "h",
+          "text": "Voter registration issues"
+        },
+        {
+          "type": "p",
+          "text": "Washington state automatically registers some eligible voters when they get or renew a driver's licence or state ID, but the state says the system is tied to proof of U.S. citizenship."
+        },
+        {
+          "type": "p",
+          "text": "But internal Washington Department of Licensing emails, obtained by the non-profit Federation for American Immigration Reform through a Freedom of Information request, show instances where non-citizens were registered to vote."
+        },
+        {
+          "type": "p",
+          "text": "\"A lot of Canadians say, 'Well, I thought I was entitled to [vote] because I went in, got my driver's licence and they registered me to vote,'\" said Saunders."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Change in Canada's citizenship law hitting U.S. archives",
+            "Winnipeg-born man deported back to Canada after 9 months in ICE detention"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Saunders said that in those situations, he has told clients to immediately deregister and submit a declaration saying they \"unknowingly registered or unknowingly voted,\" and that used to be a consistent solution."
+        },
+        {
+          "type": "p",
+          "text": "\"Now, it seems to be a completely different scenario during this current administration.\""
+        },
+        {
+          "type": "h",
+          "text": "The detainment"
+        },
+        {
+          "type": "p",
+          "text": "In an email to CBC News, a spokesperson for the U.S. Customs and Border Protection (CBP) said when a permanent resident arrives at a port of entry, officers screen their documentation against federal and state databases."
+        },
+        {
+          "type": "p",
+          "text": "The CBP says if those records indicate \"potential unlawful voter registration, illegal voting, or a previous false claim to U.S. citizenship,\" the individual is subject to \"rigorous examination and detailed questioning.\""
+        },
+        {
+          "type": "p",
+          "text": "Depending on the case, an individual may face \"prolonged\" immigration inspections, receive a notice to appear and formal removal proceedings, the spokesperson said."
+        },
+        {
+          "type": "p",
+          "text": "Are U.S. border agents allowed to search my phone? Your border questions answered"
+        },
+        {
+          "type": "p",
+          "text": "Adamson said she wasn't offered water until around the five-hour mark of her detainment, and no one asked whether she needed to use the bathroom."
+        },
+        {
+          "type": "p",
+          "text": "\"I was basically treated like a criminal,\" she said."
+        },
+        {
+          "type": "p",
+          "text": "She said the large Canadian population in Point Roberts — an exclave of the U.S. located just south of Delta, B.C. — has left her concerned that some of her neighbours could face similar problems."
+        },
+        {
+          "type": "p",
+          "text": "\"This beautiful little place, it's kind of being invaded,\" she said."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Arden McLeod, from Vancouver, is an associate producer with CBC News. He has a passion for community storytelling, local news, and reflecting the values of B.C. He graduated from the British Columbia Institute of Technology's broadcast and online journalism program. You can reach him at Arden.McLeod@cbc.ca."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-kxg0",
+      "source": "inq",
+      "title": "Chua: Let Sara Duterte spokesperson enjoy limelight",
+      "summary": "MANILA, Philippines — Manila Rep. Joel Chua on Saturday brushed aside criticism from Vice President Sara Duterte’s camp over the Senate impeachment court’s decision to adjust the voting threshold for…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T13:18:06.000Z",
+      "firstSeen": "2026-09-26T13:31:05.993Z",
+      "url": "https://newsinfo.inquirer.net/2312094/chua-let-sara-duterte-spokesperson-enjoy-limelight",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/05/Joel-Chua-10May2026_2-620x349.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Manila Rep. Joel Chua on Saturday brushed aside criticism from Vice President Sara Duterte’s camp over the Senate impeachment court’s decision to adjust the voting threshold for conviction, saying her spokesperson Paolo Panelo should be allowed to “enjoy the limelight.” “He wants to be recognized, so let him. At the end of the day, we have heard the chief justices,” Chua, a member of the House prosecution panel, said at a news conference. “Surely, he cannot claim to know better than the chief justices,” he added. Chua was responding to Panelo’s criticism of the impeachment court’s ruling on [&hellip;]... Keep on reading: Chua: Let Sara Duterte spokesperson enjoy limelight"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-iviyo6",
+      "source": "inq",
+      "title": "Defense must explain Sara Duterte’s Gencorp interest – Tolosa",
+      "summary": "MANILA, Philippines — Vice President Sara Duterte’s defense lawyers will have to explain her declared financial interest in Gencorp Industries Inc. despite corporate records showing that she was not…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T13:15:35.000Z",
+      "firstSeen": "2026-09-26T13:31:06.426Z",
+      "url": "https://newsinfo.inquirer.net/2312092/defense-must-explain-sara-dutertes-gencorp-interest-tolosa",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/WhatsApp-Image-2026-09-02-at-11.05.05-e1790428803274-620x345.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Vice President Sara Duterte’s defense lawyers will have to explain her declared financial interest in Gencorp Industries Inc. despite corporate records showing that she was not listed as a shareholder, House prosecution spokesperson Benjamin “Jay” Tolosa Jr. said. “It’s up to them how they will explain it,” Tolosa, who is also private counsel for the House prosecution panel, said at a news conference. Tolosa was responding to a question on whether a trust or nominee arrangement could explain the apparent discrepancy between Duterte’s Statement of Assets, Liabilities and Net Worth (SALN) and Gencorp’s records with the Securities and [&hellip;]... Keep on reading: Defense must explain Sara Duterte’s Gencorp interest – Tolosa"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-111lmhx",
+      "source": "abs",
+      "title": "Castro says Senate has constitutional mandate over impeachment trial amid threshold vote criticism",
+      "summary": "Presidential Communications Office Undersecretary Claire Castro on Saturday said the Senate has the constitutional authority to conduct an impeachment trial, responding to criticism from allies of…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T13:13:46.000Z",
+      "firstSeen": "2026-09-26T13:31:05.991Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/9/26/castro-says-senate-has-constitutional-mandate-over-impeachment-trial-amid-threshold-vote-criticism-2113",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Presidential Communications Office Undersecretary Claire Castro on Saturday said the Senate has the constitutional authority to conduct an impeachment trial, responding to criticism from allies of Vice President Sara Duterte over the Senate’s threshold voting on the impeachment process."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inqn-rxx21n",
+      "source": "inqn",
+      "title": "Bulusan park survey highlights rich diversity of bird species",
+      "summary": "MANILA, Philippines — Beneath the dense canopy of Bulusan Volcano Natural Park (BVNP) in Sorsogon, a varied community of birds continues to thrive, from colorful forest dwellers to species found only…",
+      "byline": "Dennis Maliwanag",
+      "section": "Latest News Stories",
+      "published": "2026-09-26T13:06:36.000Z",
+      "firstSeen": "2026-09-26T05:31:05.130Z",
+      "url": "https://newsinfo.inquirer.net/2312039/bulusan-park-survey-highlights-rich-diversity-of-bird-species",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/bulusan4-birds-26sept2026.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Beneath the dense canopy of Bulusan Volcano Natural Park (BVNP) in Sorsogon, a varied community of birds continues to thrive, from colorful forest dwellers to species found only in the Philippines. A three-day avian assessment across the park’s different elevation zones documented resident, endemic and ecologically sensitive species, according to the Department"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-9gy2m5",
+      "source": "inq",
+      "title": "SC petitions to impeachment vote rule a ‘litmus test’ — Adiong",
+      "summary": "MANILA, Philippines — The Supreme Court challenges to the Senate impeachment court’s new voting rule will be a “litmus test” of how the Constitution’s accountability mechanism applies under…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T13:02:16.000Z",
+      "firstSeen": "2026-09-26T13:31:13.160Z",
+      "url": "https://newsinfo.inquirer.net/2312090/sc-petitions-to-impeachment-vote-rule-a-litmus-test-adiong",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/07/Zia-Alonto-Adiong-20July2026-620x349.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Supreme Court challenges to the Senate impeachment court’s new voting rule will be a “litmus test” of how the Constitution’s accountability mechanism applies under unprecedented circumstances, trial spokesperson and Lanao del Sur Rep. Zia Alonto Adiong said Saturday. “It’s a litmus test because I believe the Constitution is very expressive, explicit on how we can actually act on accountability mechanism of the Constitution in running after those who are alleged to be violating or has already violated the Constitution,” Adiong said during the Saturday News Forum in Quezon City. Adiong was responding to questions about petitions asking [&hellip;]... Keep on reading: SC petitions to impeachment vote rule a ‘litmus test’ — Adiong"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-17tiflr",
+      "source": "grd",
+      "title": "New research finds 485 chemicals in US pesticide products linked to breast cancer",
+      "summary": "<p>Paper raises questions about safety of food and other products as early onset breast cancer rates surge worldwide</p><p>New research has identified at least 485 chemicals used in US pesticide…",
+      "byline": "Tom Perkins",
+      "section": "US news",
+      "published": "2026-09-26T13:00:36.000Z",
+      "firstSeen": "2026-09-26T13:31:05.926Z",
+      "url": "https://www.theguardian.com/us-news/2026/sep/26/breast-cancer-us-pesticide-products",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/32eccf934e9631dee75792a9a27d4aa1f759765d/0_828_2131_1705/master/2131.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=d7bfbf07af25093eedc0152f0b9f23b5",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "New research has identified at least 485 chemicals used in US pesticide products that are linked to breast cancer, raising questions about the safety of food and other products at a time when early onset breast cancer rates are surging worldwide."
+        },
+        {
+          "type": "p",
+          "text": "The new peer-reviewed paper, published in Environmental Health Perspectives, a top journal from the American Chemical Society, highlights what public health advocates say are a range of deficiencies in how US pesticides are regulated. The review includes active pesticide ingredients, but also hundreds of so-called “inert”, or inactive, ingredients that typically do not undergo a thorough safety review."
+        },
+        {
+          "type": "p",
+          "text": "The Environmental Protection Agency only considers each pesticide ingredient’s individual health risks, and does not consider the entire pesticide formula, or exposure to multiple pesticides. The chemicals are not just found in pesticides used on crops, but also in lice treatments applied to children’s scalps, home lawn fertilizers, and flea and tick treatments."
+        },
+        {
+          "type": "p",
+          "text": "“Adding these exposures up gets pretty consequential and concerning,” said Jenny Kay, a report co-author with the Silent Spring Institute non-profit. “We wanted to bring more attention to the pesticides in different products.”"
+        },
+        {
+          "type": "p",
+          "text": "Beside skin cancers, breast cancer is the most commonly diagnosed cancer in the US. Incidence rates for breast cancer have notably increased by 1% per year, according to the American Cancer Society, and that rise has actually been slightly faster in women younger than 50 (1.4%)."
+        },
+        {
+          "type": "p",
+          "text": "Pesticide use has also increased in recent years, as federal health data via the National Health and Nutrition Examination Survey (NHANES) shows 84 of these specific breast cancer-linked chemicals are present in the general population. But that number, scientists say, is an undercount because it does not track most of the compounds the Silent Spring Institute identified."
+        },
+        {
+          "type": "p",
+          "text": "The pesticide review is part of a broader systematic effort by the institute to identify where in the economy, and across everyday life, people are exposed to breast cancer-linked chemicals. It identified about 500 in common consumer goods, and 462 in drinking water."
+        },
+        {
+          "type": "p",
+          "text": "Only about 145 of the pesticide chemicals identified were registered with the EPA as active ingredients, meaning that the chemical industry is either using the inert status to avoid health scrutiny, or exploiting other loopholes."
+        },
+        {
+          "type": "p",
+          "text": "Inactive, or inert, ingredients are usually added as surfactants or penetrating agents that help disperse the active ingredients or make them more absorbable. About 4,000 inert ingredients are approved for use by the EPA, among them Pfas “forever chemicals”. They are often added to make the pesticide more toxic to a living organism."
+        },
+        {
+          "type": "p",
+          "text": "“They are not biologically inert, they are just called inert because they do not target the pest,” Kay said. In other words, the body does not distinguish between inert and active ingredients, and inactive substances are no less of a danger to human health."
+        },
+        {
+          "type": "p",
+          "text": "“It is a regulatory blind spot,” Kay said. The EPA in 2023 rejected a legal petition to start more stringently reviewing inert ingredients."
+        },
+        {
+          "type": "p",
+          "text": "Kay said another problem lies in hormone-disrupting chemicals causing disease at lower levels of exposure, but not higher. This “non-monotonic dose response” has led the EPA to dismiss some chemicals’ risks, and ignore that they can cause cancer at low levels."
+        },
+        {
+          "type": "p",
+          "text": "The top officials in the EPA’s pesticide and chemical safety offices are former industry lobbyists. The pesticide office in particular has been viewed as being heavily infiltrated by industry, and subjected to its influence."
+        },
+        {
+          "type": "p",
+          "text": "“I’m not in the head of EPA scientists, but I do worry a lot about industry pressure and the revolving door between EPA and industry employees because all of that factors into the way the EPA considers and regulates chemicals,” Kay said."
+        },
+        {
+          "type": "p",
+          "text": "The Silent Spring Institute called for an expansion of California’s Proposition 65, which requires warnings for chemicals known to cause cancer or reproductive harm. The study identified 16 pesticides that are not listed under Prop 65, and the authors say adding these chemicals could discourage companies from using them."
+        },
+        {
+          "type": "p",
+          "text": "People can protect themselves by buying organic produce, or products that have not been treated with pesticides, as much as possible. If that’s not possible, Consumer Reports has an easy-to-use guide on which fruits and vegetables typically have the highest levels of pesticide residues on them. Among those are blueberries, watermelon, kale and green beans."
+        },
+        {
+          "type": "p",
+          "text": "A recent report found about 25% of the nation’s water intake and around 675,000 wells draw water contaminated with dangerous levels of atrazine, a hormone disrupting chemical linked to breast cancer. Water-filtration systems can filter pesticides from water, and though no system is perfect, activated carbon and reverse osmosis generally do the best job."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "bbc-1vpyca7",
@@ -699,7 +1282,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-1nxs0sv",
@@ -724,7 +1307,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "gma-jwebaf",
@@ -2572,31 +3155,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-1ol4sub",
-      "source": "inq",
-      "title": "Asian Games: PH upset by Hong Kong, finishes 5th in baseball",
-      "summary": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–The Philippine men’s baseball team was defeated by Hong Kong, 7-5, in a placement round game…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T10:45:13.000Z",
-      "firstSeen": "2026-09-26T11:01:09.045Z",
-      "url": "https://sports.inquirer.net/698167/asian-games-ph-upset-by-hong-kong-finishes-5th-in-baseball",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/09/807728007_122190653708851936_9215284979086772463_n-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–The Philippine men’s baseball team was defeated by Hong Kong, 7-5, in a placement round game marred by a rain delay on Saturday to conclude its campaign in the Aichi-Nagoya Asian Games. Disaster struck the Philippines in the fourth and fifth innings when Hong Kong erased a 2-0 deficit off ace pitcher Romeo Jasmin to take control of the contest held at Toyohashi Municipal Baseball Stadium. Chances of rallying in the final two frames went for naught as the Filipino batters would fall at the hands of the [&hellip;]... Keep on reading: Asian Games: PH upset by Hong Kong, finishes 5th in baseball"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "bbc-gq41yf",
       "source": "bbc",
       "title": "Republic of Ireland news conference delayed before controversial Israel game",
@@ -2859,81 +3417,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-1qyky7l",
-      "source": "inq",
-      "title": "Torregosa settles for 14th in Asian Games marathon debut, vows comeback",
-      "summary": "CEBU CITY, Philippines — Cebu-based Philippine marathon record-holder Artjoy Torregosa of Agusan del Sur finished 14th in her Asian Games debut after clocking 2 hours, 48 minutes, and 36 seconds in…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T10:30:00.000Z",
-      "firstSeen": "2026-09-26T11:01:09.045Z",
-      "url": "https://cebudailynews.inquirer.net/770003/artjoy-torregosa-asian-games",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/09/Gemini_Generated_Image_erbhvaerbhvaerbh-620x346.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CEBU CITY, Philippines — Cebu-based Philippine marathon record-holder Artjoy Torregosa of Agusan del Sur finished 14th in her Asian Games debut after clocking 2 hours, 48 minutes, and 36 seconds in the women’s marathon on Saturday, September 26, in Japan. Torregosa, a decorated varsity athlete from the University of San Carlos, was among 18 competitors [&hellip;]... Keep on reading: Torregosa settles for 14th in Asian Games marathon debut, vows comeback"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-490tw5",
-      "source": "inq",
-      "title": "Asian Games: PH Blu Girls begin softball bid with loss to host Japan",
-      "summary": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–The Philippine Blu Girls were beaten handily by host Japan, 10-0, in four innings to start…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T10:20:36.000Z",
-      "firstSeen": "2026-09-26T10:31:07.806Z",
-      "url": "https://sports.inquirer.net/698160/asian-games-ph-blu-girls-begin-softball-bid-with-loss-to-host-japan",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/09/Asian-Games-2026_Team-Philippines_PH-Blu-Girls_womens-softball_2-620x349.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–The Philippine Blu Girls were beaten handily by host Japan, 10-0, in four innings to start their medal bid in women’s softball at the Aichi-Nagoya Asian Games 2026 on Saturday. The Blu Girls surrendered nine runs in the second inning before the game held at Anjo Softball Ground concluded after the bottom half of the fourth due to a 10-run mercy rule. READ: Asian Games: PH Blu Girls open softball campaign vs host Japan Starter Royevel Palma was pulled after 1 2/3 innings after giving up six runs [&hellip;]... Keep on reading: Asian Games: PH Blu Girls begin softball bid with loss to host Japan"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-1rl98i8",
-      "source": "inq",
-      "title": "Asian Games: Sibol rebounds from forfeiture to top Pokémon pool",
-      "summary": "READ: Follow Inquirer Sports&#8217; special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines — Following a first-game disqualification, Sibol’s Pokémon Unite squad showed what it was…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T10:19:35.000Z",
-      "firstSeen": "2026-09-26T10:31:07.961Z",
-      "url": "https://sports.inquirer.net/698119/asian-games-sibol-rebounds-from-forfeiture-to-top-pokemon-pool",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/09/2-Sibol-vs-Chinese-Taipei-620x349.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "READ: Follow Inquirer Sports&#8217; special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines — Following a first-game disqualification, Sibol’s Pokémon Unite squad showed what it was capable of, taking the Pool A top seed and advancing to the Asian Games 2026 esports quarterfinals Saturday at Aichi Sky Expo. Team Philippines and Kazakhstan forfeited their opening match over uniform violations. Sibol responded by winning two must-win games to keep its medal hopes alive, beating Chinese Taipei, 2-0, before dispatching Malaysia by the same score to finish the pool stage 2-1. “Unfortunately, that’s what happened yesterday. But we bounced back,” Sibol Pokémon [&hellip;]... Keep on reading: Asian Games: Sibol rebounds from forfeiture to top Pokémon pool"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1lp61fw",
       "source": "inqn",
       "title": "Sara Duterte denies receiving money from Velasco&#8217;s ex-aide",
@@ -2951,31 +3434,6 @@
         {
           "type": "p",
           "text": "MANILA, Philippines — Vice President Sara Duterte on Saturday denied knowing the alleged former security officer of former Speaker Lord Allan Velasco who supposedly delivered money to her and other members of her family. Duterte made the pronouncement after the National Bureau of Investigation (NBI) recently revealed that it is investigating claims by dismissed policeman"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-176yyxg",
-      "source": "inq",
-      "title": "TikTok agrees to teen limits in US settlement following Meta",
-      "summary": "WASHINGTON D.C., United States—TikTok on Friday agreed to pay Alabama at least $100 million and enact time limits and other restrictions for teen users. As a result, it avoided trial with a…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T10:15:39.000Z",
-      "firstSeen": "2026-09-26T10:31:07.961Z",
-      "url": "https://globalnation.inquirer.net/339437/tiktok-agrees-to-teen-limits-in-us-settlement-following-meta",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/09/AFP__20260926__C9EM39F__v1__HighRes__FirstUsTrialAgainstTiktokOpens-620x370.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "WASHINGTON D.C., United States—TikTok on Friday agreed to pay Alabama at least $100 million and enact time limits and other restrictions for teen users. As a result, it avoided trial with a settlement modeled on Instagram-owner Meta&#8217;s recent agreement with US states. A trial had been set to begin Monday in the southern US state over claims by Alabama that TikTok misled parents about tools meant to shield children from harmful content. Attorney General Steve Marshall hailed the settlement as &#8220;a great day for Alabama parents.&#8221; &#8220;Tonight, they can rest easier knowing real protections are in place to shield their children from [&hellip;]... Keep on reading: TikTok agrees to teen limits in US settlement following Meta"
         }
       ],
       "truncated": true,
@@ -3231,31 +3689,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-16jdd38",
-      "source": "inq",
-      "title": "UAAP: FEU scores breakthrough win, sends UE to 0-3",
-      "summary": "READ: UAAP Season 89 men&#8217;s basketball tournament – first round MANILA, Philippines—Far Eastern University eased to its first win in the UAAP Season 89 men’s basketball tournament after downing…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T10:04:18.000Z",
-      "firstSeen": "2026-09-26T10:31:07.964Z",
-      "url": "https://sports.inquirer.net/698121/uaap-feu-scores-breakthrough-win-sends-ue-to-0-3",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/09/UAAP89-MBB-Kirby-Mongcopa-1152-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "READ: UAAP Season 89 men&#8217;s basketball tournament – first round MANILA, Philippines—Far Eastern University eased to its first win in the UAAP Season 89 men’s basketball tournament after downing the University of the East, 93-70, at Mall of Asia Arena on Saturday. The Tamaraws barely broke a sweat to improve to a 1-1 record while leaving the Red Warriors still searching for a win after three games. “The way we had our collapse against Adamson was not what we expected. We had to sit on that for weeks. It was hard for us,” coach Sean Chambers said, referring to their season-opening [&hellip;]... Keep on reading: UAAP: FEU scores breakthrough win, sends UE to 0-3"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "gma-1nvs57e",
@@ -3968,31 +4401,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inqn-k1kzlg",
-      "source": "inqn",
-      "title": "68 bird species documented in Nueva Vizcaya census",
-      "summary": "MANILA, Philippines — The provincial government of Nueva Vizcaya has documented 68 bird species thriving in its mountains, highlighting the province’s “rich biodiversity.” The Department of…",
-      "byline": "Dennis Maliwanag",
-      "section": "Latest News Stories",
-      "published": "2026-09-26T09:01:12.000Z",
-      "firstSeen": "2026-09-26T01:31:02.647Z",
-      "url": "https://newsinfo.inquirer.net/2312001/68-bird-species-documented-in-nueva-vizcaya-census",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/nueva-vizcaya-birds-26sept2026.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The provincial government of Nueva Vizcaya has documented 68 bird species thriving in its mountains, highlighting the province’s “rich biodiversity.” The Department of Environment and Natural Resources (DENR) in Cagayan Valley said the Provincial Tourism and Culture Office, together with the Wild Bird Photographers, conducted a bird census in selected areas. READ:"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "grd-1ot4f7f",
       "source": "grd",
       "title": "Severely disabled young people should get fast-track access to benefits, Milburn says",
@@ -4175,56 +4583,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inqn-180sahp",
-      "source": "inqn",
-      "title": "Outlying Albay village gets new school building",
-      "summary": "LEGAZPI CITY &#8212; Sixty-one learners who have been holding classes at the school stage and covered court of Burgos Elementary School in Albay&#8217;s Daraga town, will finally have classrooms of…",
-      "byline": "mareyes",
-      "section": "Latest News Stories",
-      "published": "2026-09-26T08:58:56.000Z",
-      "firstSeen": "2026-09-26T01:01:09.503Z",
-      "url": "https://newsinfo.inquirer.net/2312005/outlying-albay-village-gets-new-school-building",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/26sept2026-burgos9.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LEGAZPI CITY &#8212; Sixty-one learners who have been holding classes at the school stage and covered court of Burgos Elementary School in Albay&#8217;s Daraga town, will finally have classrooms of their own following the inauguration of a new two-classroom building on Friday (Sept. 25) The P9.65-million building was constructed by the Department of Public Works"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-lwtiu",
-      "source": "inqn",
-      "title": "DA chief: Using corn to produce bioethanol helps Cagayan Valley farmers",
-      "summary": "CITY OF ILAGAN, Isabela &#8212; A Department of Agriculture proposal to harness excess yellow corn would benefit Cagayan Valley farms, which are some of the country&#8217;s primary corn growers, said…",
-      "byline": "mareyes",
-      "section": "Latest News Stories",
-      "published": "2026-09-26T08:50:30.000Z",
-      "firstSeen": "2026-09-26T01:01:09.598Z",
-      "url": "https://newsinfo.inquirer.net/2312000/da-chief-using-corn-to-produce-bioethanol-helps-cagayan-valley-farmers",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Cagayan-Valley-MAP-09082022.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CITY OF ILAGAN, Isabela &#8212; A Department of Agriculture proposal to harness excess yellow corn would benefit Cagayan Valley farms, which are some of the country&#8217;s primary corn growers, said Agriculture Secretary Francisco Tiu Laurel Jr. in a speech read for him during the 19th Regional Corn Congress held at the Capital Arena on Sept."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-1lcp5iy",
@@ -5057,202 +5415,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-p2673",
-      "source": "cbc",
-      "title": "Why is it so difficult for Ukraine to take down Russia's jet-powered drones?",
-      "summary": "Russia's jet-powered drones being used to carry out strikes on Kyiv and other parts of Ukraine are often able to evade air defences because they fly at higher altitudes and faster speeds. To stop…",
-      "byline": "Briar Stewart",
-      "section": "News/World",
-      "published": "2026-09-26T08:00:00.000Z",
-      "firstSeen": "2026-09-26T08:31:11.491Z",
-      "url": "https://www.cbc.ca/news/world/ukraine-jet-drone-9.7358784?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/c245f83b-d766-461e-ac8b-90b29c1a2830,1790387057043/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C130%2C3037%2C1708%29%3BResize%3D620",
-        "caption": "Firefighters work around the debris of what appears to be a jet-powered drone engine following a Russian strike on Kyiv Friday. (Angela Johnston/CBC)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "World·New"
-        },
-        {
-          "type": "p",
-          "text": "Russia's jet-powered drones being used to carry out strikes on Kyiv and other parts of Ukraine are often able to evade air defences because they fly at higher altitudes and faster speeds. To stop these new models, faster interceptors are needed, but that technology is still in the trial phase, Ukrainian officials say."
-        },
-        {
-          "type": "h",
-          "text": "Half of drones currently being launched at Ukraine are jet-powered, senior official suggests"
-        },
-        {
-          "type": "p",
-          "text": "When a Russian drone slammed into a high-rise residential building in Kyiv around 8 a.m. Friday, killing a 14-year-old boy and injuring several others, the remnants of a jet engine were plainly visible among the broken glass and blackened debris on the pavement."
-        },
-        {
-          "type": "p",
-          "text": "Russia's latest battlefield innovation — jet-powered drones — has been used to carry out strikes on the Ukrainian capital, including attacks targeting offices, data centres and warehouses."
-        },
-        {
-          "type": "p",
-          "text": "The weapons, which have been pummelling Kyiv and other parts of Ukraine for weeks, have often been able to evade Ukrainian air defences because they fly at higher altitudes and at much higher speeds, reaching more than 600 km/h."
-        },
-        {
-          "type": "p",
-          "text": "\"It's not easy to intercept. You need to intercept [at] a similar speed or faster,\" said Volodymyr Khomenko, head of the Explosive Ordnance Disposal Department of the National Police of Ukraine."
-        },
-        {
-          "type": "p",
-          "text": "\"For faster drones, we need faster interceptors.\""
-        },
-        {
-          "type": "p",
-          "text": "24 hours in Kyiv: Living through Russian drone strikes"
-        },
-        {
-          "type": "h",
-          "text": "What are jet-powered drones?"
-        },
-        {
-          "type": "p",
-          "text": "According to Ukrainian officials, Russia began testing its jet-powered strike drones two years ago in the Chernihiv region, north of Kyiv and near the border with Belarus."
-        },
-        {
-          "type": "p",
-          "text": "Unlike earlier models of Shahed drones, which were based on Iranian designs and included piston engines, the new versions are equipped with turbojet engines. Ukrainian military intelligence officials have said some of those engines are being sourced from China."
-        },
-        {
-          "type": "p",
-          "text": "There are three models of Geran jet-powered drones, with the latest being the Geran-5. Its design differs significantly from earlier versions. Instead of a triangular shape, it looks more like a cruise missile, with aerodynamic fins."
-        },
-        {
-          "type": "p",
-          "text": "The Geran-5 can cruise at about 600 km/h, roughly three times the speed of the earlier Shahed models that began attacking Ukrainian cities in 2022."
-        },
-        {
-          "type": "h",
-          "text": "How often is Russia using them?"
-        },
-        {
-          "type": "p",
-          "text": "Khomenko told CBC News that he believes about half of the drones currently being launched at Ukraine are jet-powered, while the other half are older models. But he says the balance is shifting rapidly."
-        },
-        {
-          "type": "p",
-          "text": "Ukraine's Air Force said Russia fired 2,800 jet-powered drones at Ukraine in August, almost twice as many as in July."
-        },
-        {
-          "type": "p",
-          "text": "In recent weeks, Russia has been sending the drones in small waves, often resulting in multihour air-raid alerts in Kyiv. Air defences can be heard throughout the city alongside the sound of explosions."
-        },
-        {
-          "type": "p",
-          "text": "Unlike older models, which emit a buzzing sound that's been compared to a motorcycle, the jet-powered drones are quieter. Instead, residents often report hearing a whooshing sound as they fly through the air."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Ukraine's largest steel plant to shutter amid recurring Russian strikes",
-            "Russian drones are stalking Ukrainian trains and trying to hobble the country's rail system"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "When a drone crashed into the high-rise apartment building on Friday, Alice Boyko told CBC News she didn't think she heard the air-raid siren until after the explosion. She lives in the same building that was struck, but her apartment is on the opposite side."
-        },
-        {
-          "type": "p",
-          "text": "\"To be honest, I was more afraid of the missiles, but now I worry about drones, too."
-        },
-        {
-          "type": "p",
-          "text": "\"You never think that this is going to happen to you.\""
-        },
-        {
-          "type": "h",
-          "text": "Why are they so hard for air defences to intercept?"
-        },
-        {
-          "type": "p",
-          "text": "Ukraine's Air Force has said that it's intercepting about 60 per cent of the jet-powered drones, compared with more than 90 per cent of earlier models."
-        },
-        {
-          "type": "p",
-          "text": "During air-raid alerts in Kyiv, mobile units armed with heavy machine guns and shoulder-mounted surface-to-air missile systems track threats in the sky. Above them, fighter jets, including F-16s, try to shoot the drones down."
-        },
-        {
-          "type": "p",
-          "text": "Ukraine has also developed a large fleet of interceptor drones during the war. But the models currently in the field are not fast enough to intercept the jet-powered drones."
-        },
-        {
-          "type": "p",
-          "text": "Borys Dolyna, a commander of a Ukrainian interceptor-drone company, told CBC News that the jet-powered drones move so quickly that they can be difficult to see even on the video feeds from interceptor drones. In some cases, he says, they appear as little more than a small pixel on the screen."
-        },
-        {
-          "type": "p",
-          "text": "He says he's seen jet-powered drones several times, but their speed was so great that his team had no chance of intercepting them."
-        },
-        {
-          "type": "h",
-          "text": "What is Ukraine doing about it?"
-        },
-        {
-          "type": "p",
-          "text": "Ukrainian President Volodymyr Zelenskyy has said the country is trying to accelerate production of newly designed interceptors capable of bringing down the Russian drones."
-        },
-        {
-          "type": "p",
-          "text": "While officials have reported a number of successful interceptions, the technology is still in the trial phase."
-        },
-        {
-          "type": "p",
-          "text": "Cory Woods, a Canadian working as a drone-interceptor pilot in Ukraine who is normally deployed in the eastern part of the country closer to the front, says drone warfare is evolving so rapidly that it has become what he describes as a \"cat-and-mouse game.\""
-        },
-        {
-          "type": "p",
-          "text": "\"Every time the enemy makes an innovation and alters their technology or their tactics, we have to respond and change ours,\" he said in an interview with CBC News from Kyiv."
-        },
-        {
-          "type": "p",
-          "text": "\"Once they pick up on that, they change it again, and so it's constantly going back and forth.\""
-        },
-        {
-          "type": "p",
-          "text": "However, Woods says that if Ukraine is to seriously blunt Russia's ability to use strike drones across the country, its military must have weapons capable of targeting the factories where the drones are made and the sites where they're launched."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Ukraine fires more than 1,000 drones at Russia, including hundreds launched at Moscow",
-            "The moment a Russian drone bypassed Ukrainian air defences"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "\"There's no point in hitting the arrow if you let the archer live,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "\"Russia has massive manufacturing capabilities. They've been gearing up for this for years. They've stockpiled a lot.\""
-        },
-        {
-          "type": "p",
-          "text": "One of Russia's deadly jet-powered drones crashed in this backyard"
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Briar Stewart is a CBC correspondent, based in London. During her nearly two decades with CBC, she has reported across Canada and internationally. She can be reached at briar.stewart@cbc.ca or on X @briarstewart."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-6gdqrb",
       "source": "cbc",
       "title": "More women are taking testosterone to treat menopause symptoms. Does science support that?",
@@ -5505,6 +5667,202 @@
       "source_of_text": "page"
     },
     {
+      "id": "cbc-p2673",
+      "source": "cbc",
+      "title": "Why is it so difficult for Ukraine to take down Russia's jet-powered drones?",
+      "summary": "Russia's jet-powered drones being used to carry out strikes on Kyiv and other parts of Ukraine are often able to evade air defences because they fly at higher altitudes and faster speeds. To stop…",
+      "byline": "Briar Stewart",
+      "section": "News/World",
+      "published": "2026-09-26T08:00:00.000Z",
+      "firstSeen": "2026-09-26T08:31:11.491Z",
+      "url": "https://www.cbc.ca/news/world/ukraine-jet-drone-9.7358784?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/c245f83b-d766-461e-ac8b-90b29c1a2830,1790387057043/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C130%2C3037%2C1708%29%3BResize%3D620",
+        "caption": "Firefighters work around the debris of what appears to be a jet-powered drone engine following a Russian strike on Kyiv Friday. (Angela Johnston/CBC)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "World·New"
+        },
+        {
+          "type": "p",
+          "text": "Russia's jet-powered drones being used to carry out strikes on Kyiv and other parts of Ukraine are often able to evade air defences because they fly at higher altitudes and faster speeds. To stop these new models, faster interceptors are needed, but that technology is still in the trial phase, Ukrainian officials say."
+        },
+        {
+          "type": "h",
+          "text": "Half of drones currently being launched at Ukraine are jet-powered, senior official suggests"
+        },
+        {
+          "type": "p",
+          "text": "When a Russian drone slammed into a high-rise residential building in Kyiv around 8 a.m. Friday, killing a 14-year-old boy and injuring several others, the remnants of a jet engine were plainly visible among the broken glass and blackened debris on the pavement."
+        },
+        {
+          "type": "p",
+          "text": "Russia's latest battlefield innovation — jet-powered drones — has been used to carry out strikes on the Ukrainian capital, including attacks targeting offices, data centres and warehouses."
+        },
+        {
+          "type": "p",
+          "text": "The weapons, which have been pummelling Kyiv and other parts of Ukraine for weeks, have often been able to evade Ukrainian air defences because they fly at higher altitudes and at much higher speeds, reaching more than 600 km/h."
+        },
+        {
+          "type": "p",
+          "text": "\"It's not easy to intercept. You need to intercept [at] a similar speed or faster,\" said Volodymyr Khomenko, head of the Explosive Ordnance Disposal Department of the National Police of Ukraine."
+        },
+        {
+          "type": "p",
+          "text": "\"For faster drones, we need faster interceptors.\""
+        },
+        {
+          "type": "p",
+          "text": "24 hours in Kyiv: Living through Russian drone strikes"
+        },
+        {
+          "type": "h",
+          "text": "What are jet-powered drones?"
+        },
+        {
+          "type": "p",
+          "text": "According to Ukrainian officials, Russia began testing its jet-powered strike drones two years ago in the Chernihiv region, north of Kyiv and near the border with Belarus."
+        },
+        {
+          "type": "p",
+          "text": "Unlike earlier models of Shahed drones, which were based on Iranian designs and included piston engines, the new versions are equipped with turbojet engines. Ukrainian military intelligence officials have said some of those engines are being sourced from China."
+        },
+        {
+          "type": "p",
+          "text": "There are three models of Geran jet-powered drones, with the latest being the Geran-5. Its design differs significantly from earlier versions. Instead of a triangular shape, it looks more like a cruise missile, with aerodynamic fins."
+        },
+        {
+          "type": "p",
+          "text": "The Geran-5 can cruise at about 600 km/h, roughly three times the speed of the earlier Shahed models that began attacking Ukrainian cities in 2022."
+        },
+        {
+          "type": "h",
+          "text": "How often is Russia using them?"
+        },
+        {
+          "type": "p",
+          "text": "Khomenko told CBC News that he believes about half of the drones currently being launched at Ukraine are jet-powered, while the other half are older models. But he says the balance is shifting rapidly."
+        },
+        {
+          "type": "p",
+          "text": "Ukraine's Air Force said Russia fired 2,800 jet-powered drones at Ukraine in August, almost twice as many as in July."
+        },
+        {
+          "type": "p",
+          "text": "In recent weeks, Russia has been sending the drones in small waves, often resulting in multihour air-raid alerts in Kyiv. Air defences can be heard throughout the city alongside the sound of explosions."
+        },
+        {
+          "type": "p",
+          "text": "Unlike older models, which emit a buzzing sound that's been compared to a motorcycle, the jet-powered drones are quieter. Instead, residents often report hearing a whooshing sound as they fly through the air."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ukraine's largest steel plant to shutter amid recurring Russian strikes",
+            "Russian drones are stalking Ukrainian trains and trying to hobble the country's rail system"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "When a drone crashed into the high-rise apartment building on Friday, Alice Boyko told CBC News she didn't think she heard the air-raid siren until after the explosion. She lives in the same building that was struck, but her apartment is on the opposite side."
+        },
+        {
+          "type": "p",
+          "text": "\"To be honest, I was more afraid of the missiles, but now I worry about drones, too."
+        },
+        {
+          "type": "p",
+          "text": "\"You never think that this is going to happen to you.\""
+        },
+        {
+          "type": "h",
+          "text": "Why are they so hard for air defences to intercept?"
+        },
+        {
+          "type": "p",
+          "text": "Ukraine's Air Force has said that it's intercepting about 60 per cent of the jet-powered drones, compared with more than 90 per cent of earlier models."
+        },
+        {
+          "type": "p",
+          "text": "During air-raid alerts in Kyiv, mobile units armed with heavy machine guns and shoulder-mounted surface-to-air missile systems track threats in the sky. Above them, fighter jets, including F-16s, try to shoot the drones down."
+        },
+        {
+          "type": "p",
+          "text": "Ukraine has also developed a large fleet of interceptor drones during the war. But the models currently in the field are not fast enough to intercept the jet-powered drones."
+        },
+        {
+          "type": "p",
+          "text": "Borys Dolyna, a commander of a Ukrainian interceptor-drone company, told CBC News that the jet-powered drones move so quickly that they can be difficult to see even on the video feeds from interceptor drones. In some cases, he says, they appear as little more than a small pixel on the screen."
+        },
+        {
+          "type": "p",
+          "text": "He says he's seen jet-powered drones several times, but their speed was so great that his team had no chance of intercepting them."
+        },
+        {
+          "type": "h",
+          "text": "What is Ukraine doing about it?"
+        },
+        {
+          "type": "p",
+          "text": "Ukrainian President Volodymyr Zelenskyy has said the country is trying to accelerate production of newly designed interceptors capable of bringing down the Russian drones."
+        },
+        {
+          "type": "p",
+          "text": "While officials have reported a number of successful interceptions, the technology is still in the trial phase."
+        },
+        {
+          "type": "p",
+          "text": "Cory Woods, a Canadian working as a drone-interceptor pilot in Ukraine who is normally deployed in the eastern part of the country closer to the front, says drone warfare is evolving so rapidly that it has become what he describes as a \"cat-and-mouse game.\""
+        },
+        {
+          "type": "p",
+          "text": "\"Every time the enemy makes an innovation and alters their technology or their tactics, we have to respond and change ours,\" he said in an interview with CBC News from Kyiv."
+        },
+        {
+          "type": "p",
+          "text": "\"Once they pick up on that, they change it again, and so it's constantly going back and forth.\""
+        },
+        {
+          "type": "p",
+          "text": "However, Woods says that if Ukraine is to seriously blunt Russia's ability to use strike drones across the country, its military must have weapons capable of targeting the factories where the drones are made and the sites where they're launched."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ukraine fires more than 1,000 drones at Russia, including hundreds launched at Moscow",
+            "The moment a Russian drone bypassed Ukrainian air defences"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"There's no point in hitting the arrow if you let the archer live,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "\"Russia has massive manufacturing capabilities. They've been gearing up for this for years. They've stockpiled a lot.\""
+        },
+        {
+          "type": "p",
+          "text": "One of Russia's deadly jet-powered drones crashed in this backyard"
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Briar Stewart is a CBC correspondent, based in London. During her nearly two decades with CBC, she has reported across Canada and internationally. She can be reached at briar.stewart@cbc.ca or on X @briarstewart."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
       "id": "cbc-9cewee",
       "source": "cbc",
       "title": "What is the truth about Diana? Her brother offers his view, ‘once and for all’",
@@ -5672,6 +6030,209 @@
         {
           "type": "p",
           "text": "Swan Song may indeed prove to be Spencer's last public words on his sister, but with that milestone anniversary of her death next year, there is no sense others will stop offering their own narratives of Diana any time soon."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-1tibt9f",
+      "source": "cbc",
+      "title": "What drives ShinyHunters, the group that claimed responsibility for hacking the FBI?",
+      "summary": "The hacking group that claimed responsibility for stealing a massive trove of data from the FBI on Tuesday — including officials' job assignments, addresses and social security numbers — has been…",
+      "byline": "Kevin Maimann",
+      "section": "News/World",
+      "published": "2026-09-26T08:00:00.000Z",
+      "firstSeen": "2026-09-26T13:01:07.580Z",
+      "url": "https://www.cbc.ca/news/world/shinyhunters-data-breach-explainer-9.7356209?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/ae5fd5be-7281-4f6c-bbf1-700ace0b6f4d,1790289681951/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C229%2C4370%2C2458%29%3BResize%3D620",
+        "caption": "ShinyHunters claimed responsibility for a massive FBI data breach this week. It's the latest in a long line of high-profile cyberattacks targeting corporations, schools and government institutions. (Graeme Roy/The Canadian Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "World"
+        },
+        {
+          "type": "p",
+          "text": "The hacking group that claimed responsibility for stealing a massive trove of data from the FBI on Tuesday — including officials' job assignments, addresses and social security numbers — has been linked to dozens of cyberattacks targeting corporations, schools and government institutions. Here's what we know about ShinyHunters."
+        },
+        {
+          "type": "h",
+          "text": "The notorious hacking group is linked to dozens of major data breaches"
+        },
+        {
+          "type": "p",
+          "text": "The hacking group that claimed responsibility for stealing a massive trove of data from the FBI on Tuesday — including officials' job assignments, addresses and social security numbers — has been linked to dozens of cyberattacks targeting large companies and institutions."
+        },
+        {
+          "type": "p",
+          "text": "ShinyHunters has been active since at least 2019 and is known as one of the most prolific data theft and extortion groups, typically demanding ransom payments in exchange for not releasing the sensitive data it's obtained."
+        },
+        {
+          "type": "p",
+          "text": "But in the case of the recent breach, which a former FBI operative called \"foreign intelligence service goldmine,\" the group says it's not asking for money."
+        },
+        {
+          "type": "p",
+          "text": "ShinyHunters is giving the FBI one week to remove or \"correct\" a report from May that makes claims about the group that it says are false."
+        },
+        {
+          "type": "p",
+          "text": "The FBI is investigating the breach and the FBIJobs.gov portal was still down Thursday afternoon."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "FBI employee data allegedly hacked by ShinyHunters contains sensitive info about intelligence roles"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The hacking group caused chaos at universities around the world in May, including in Canada, with a cyberattack on Canvas, an online learning-management system that connects millions of students with their instructors."
+        },
+        {
+          "type": "p",
+          "text": "Here's what we do know about ShinyHunters."
+        },
+        {
+          "type": "h",
+          "text": "Who are they?"
+        },
+        {
+          "type": "p",
+          "text": "ShinyHunters is a loose collection of young hackers in multiple countries, according to researchers who spoke to CBC News."
+        },
+        {
+          "type": "p",
+          "text": "Cynthia Kaiser, head of Halcyon's Ransomware Research Center and former deputy assistant director of the FBI’s cyber division, says the group is made up of teenagers or people who \"act like teenagers.\""
+        },
+        {
+          "type": "p",
+          "text": "\"I think that ShinyHunters has historically demonstrated what would be seen as an immaturity with their communications — taunting of victims, doxxing of security researchers — actions that are really atypical of normal ransomware operations that run a lot more like businesses,\" she said."
+        },
+        {
+          "type": "p",
+          "text": "Australia says OpenAI agent hacked government health data website"
+        },
+        {
+          "type": "p",
+          "text": "Kaiser says this is highlighted by the group attacking the FBI the same week it attacked rival \"ransomware gang\" Cl0P, and speculates that this week's attacks could cause the group's downfall."
+        },
+        {
+          "type": "p",
+          "text": "\"When you're targeting law enforcement, you're essentially kicking a bee's nest and hoping nothing comes back out at you.\""
+        },
+        {
+          "type": "p",
+          "text": "Sebastien Raoult, a French citizen who the U.S. Department of Justice says was a member of ShinyHunters, was arrested in Morocco in 2022 and extradited to the U.S. where he was sentenced in 2024 to three years in prison and ordered to pay more than $5 million US in restitution for wire fraud and aggravated identity theft. He was 22 years old at the time of his sentencing."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A cyberattack hit universities worldwide, including top Canadian schools. Here's what we know",
+            "Telus probes cybersecurity incident that 'ShinyHunters' group claims responsibility for"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Experts tell CBC News it's notable that members seem to be proficient English speakers, separating them from other ransomware groups that tend to be Russian."
+        },
+        {
+          "type": "p",
+          "text": "Kaiser says ShinyHunters members overlap with other groups like Scattered Spider and LAPSUS$ — the three also claimed to work together last year in what cybersecurity analysts dubbed a \"cybercrime superpgroup\" — and the broader network includes members in the U.S., U.K. and Canada."
+        },
+        {
+          "type": "p",
+          "text": "Ian Lin, an ethical hacker and head of research and development at Toronto-based cybersecurity company Packetlabs, says it would be unwise for any organization to dismiss the threat that ShinyHunters poses, regardless of the way the group communicates publicly."
+        },
+        {
+          "type": "p",
+          "text": "\"They've shown incredible capability,\" Lin said."
+        },
+        {
+          "type": "p",
+          "text": "\"We have to take them very seriously.\""
+        },
+        {
+          "type": "h",
+          "text": "What do they want?"
+        },
+        {
+          "type": "p",
+          "text": "Lin, who hacks organizations to expose vulnerabilities and help them tighten their digital security, says ShinyHunters are chasing notoriety and fame, despite individual members being anonymous."
+        },
+        {
+          "type": "p",
+          "text": "\"Every time they compromise something, they really want a big bang,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "Primarily, though, he says the group seems to be mostly financially motivated and not driven by a particular ideology or worldview."
+        },
+        {
+          "type": "p",
+          "text": "\"When there's leaders that can rally a group of people who grew up with AI, who grew with technology, and they're disillusioned by the system, the society, it's very easy for them to fall into these types of groups,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "More than $100M worth of bitcoin stolen in data breach | Hanomansing Tonight"
+        },
+        {
+          "type": "p",
+          "text": "\"They have to live somehow. So a lot of their breaches, there's a big financial motivation.\""
+        },
+        {
+          "type": "p",
+          "text": "The FBI hack was unusual in the sense that it was not financially motivated, but a retaliation for several claims made by the law enforcement agency — including that ShinyHunters is known to threaten family members of its targets and threaten to release embarrassing or compromising images of its victims."
+        },
+        {
+          "type": "p",
+          "text": "ShinyHunters denied ever using those tactics, in a public statement directed at the FBI."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Chinese hackers disrupted U.S. Justice Department, NASA, Federal Reserve, U.S. says",
+            "Canadian investigation launched into data breach that exposed millions of IDs"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"This was to prove that they were right — that you have to listen to us,\" Lin said."
+        },
+        {
+          "type": "p",
+          "text": "ShinyHunters have been associated with high-profile cyberattacks affecting companies including Telus, Microsoft, Ticketmaster, Pornhub and Rockstar Games."
+        },
+        {
+          "type": "p",
+          "text": "Last year, according to U.K. media reports, ShinyHunters members claimed responsibility for the theft of more than two million records from the country's Legal Aid Agency and threatened to publish the information unless one of its members was freed. The hack wreaked havoc on the legal system but the group did not follow through on its alleged threat after the deadline passed."
+        },
+        {
+          "type": "p",
+          "text": "Kaiser also says she has not tracked any specific ideological motive behind the group's actions, but says they have a penchant for picking \"incredibly large\" targets and wanting to show off what they can do."
+        },
+        {
+          "type": "p",
+          "text": "\"It's almost a more of a personal aggrandizing and being able to have those bragging rights,\" she said. \"That seems to motivate just as much as the money.\""
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Kevin Maimann is a senior writer for CBC News based in Edmonton. He has covered a wide range of topics for publications including VICE, the Toronto Star, Xtra Magazine and the Edmonton Journal. You can reach Kevin by email at kevin.maimann@cbc.ca."
+        },
+        {
+          "type": "p",
+          "text": "With files from Reuters"
         }
       ],
       "truncated": false,
@@ -6285,209 +6846,6 @@
         {
           "type": "p",
           "text": "Sarah Petz is a Toronto-based senior writer with the CBC News live pages team. Born and raised in Manitoba, her career has taken her across three provinces, multiple cities and to northern Uganda."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-1tibt9f",
-      "source": "cbc",
-      "title": "What drives ShinyHunters, the group that claimed responsibility for hacking the FBI?",
-      "summary": "The hacking group that claimed responsibility for stealing a massive trove of data from the FBI on Tuesday — including officials' job assignments, addresses and social security numbers — has been…",
-      "byline": "Kevin Maimann",
-      "section": "News/World",
-      "published": "2026-09-26T08:00:00.000Z",
-      "firstSeen": "2026-09-26T13:01:07.580Z",
-      "url": "https://www.cbc.ca/news/world/shinyhunters-data-breach-explainer-9.7356209?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/ae5fd5be-7281-4f6c-bbf1-700ace0b6f4d,1790289681951/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C229%2C4370%2C2458%29%3BResize%3D620",
-        "caption": "ShinyHunters claimed responsibility for a massive FBI data breach this week. It's the latest in a long line of high-profile cyberattacks targeting corporations, schools and government institutions. (Graeme Roy/The Canadian Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "World"
-        },
-        {
-          "type": "p",
-          "text": "The hacking group that claimed responsibility for stealing a massive trove of data from the FBI on Tuesday — including officials' job assignments, addresses and social security numbers — has been linked to dozens of cyberattacks targeting corporations, schools and government institutions. Here's what we know about ShinyHunters."
-        },
-        {
-          "type": "h",
-          "text": "The notorious hacking group is linked to dozens of major data breaches"
-        },
-        {
-          "type": "p",
-          "text": "The hacking group that claimed responsibility for stealing a massive trove of data from the FBI on Tuesday — including officials' job assignments, addresses and social security numbers — has been linked to dozens of cyberattacks targeting large companies and institutions."
-        },
-        {
-          "type": "p",
-          "text": "ShinyHunters has been active since at least 2019 and is known as one of the most prolific data theft and extortion groups, typically demanding ransom payments in exchange for not releasing the sensitive data it's obtained."
-        },
-        {
-          "type": "p",
-          "text": "But in the case of the recent breach, which a former FBI operative called \"foreign intelligence service goldmine,\" the group says it's not asking for money."
-        },
-        {
-          "type": "p",
-          "text": "ShinyHunters is giving the FBI one week to remove or \"correct\" a report from May that makes claims about the group that it says are false."
-        },
-        {
-          "type": "p",
-          "text": "The FBI is investigating the breach and the FBIJobs.gov portal was still down Thursday afternoon."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "FBI employee data allegedly hacked by ShinyHunters contains sensitive info about intelligence roles"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The hacking group caused chaos at universities around the world in May, including in Canada, with a cyberattack on Canvas, an online learning-management system that connects millions of students with their instructors."
-        },
-        {
-          "type": "p",
-          "text": "Here's what we do know about ShinyHunters."
-        },
-        {
-          "type": "h",
-          "text": "Who are they?"
-        },
-        {
-          "type": "p",
-          "text": "ShinyHunters is a loose collection of young hackers in multiple countries, according to researchers who spoke to CBC News."
-        },
-        {
-          "type": "p",
-          "text": "Cynthia Kaiser, head of Halcyon's Ransomware Research Center and former deputy assistant director of the FBI’s cyber division, says the group is made up of teenagers or people who \"act like teenagers.\""
-        },
-        {
-          "type": "p",
-          "text": "\"I think that ShinyHunters has historically demonstrated what would be seen as an immaturity with their communications — taunting of victims, doxxing of security researchers — actions that are really atypical of normal ransomware operations that run a lot more like businesses,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "Australia says OpenAI agent hacked government health data website"
-        },
-        {
-          "type": "p",
-          "text": "Kaiser says this is highlighted by the group attacking the FBI the same week it attacked rival \"ransomware gang\" Cl0P, and speculates that this week's attacks could cause the group's downfall."
-        },
-        {
-          "type": "p",
-          "text": "\"When you're targeting law enforcement, you're essentially kicking a bee's nest and hoping nothing comes back out at you.\""
-        },
-        {
-          "type": "p",
-          "text": "Sebastien Raoult, a French citizen who the U.S. Department of Justice says was a member of ShinyHunters, was arrested in Morocco in 2022 and extradited to the U.S. where he was sentenced in 2024 to three years in prison and ordered to pay more than $5 million US in restitution for wire fraud and aggravated identity theft. He was 22 years old at the time of his sentencing."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "A cyberattack hit universities worldwide, including top Canadian schools. Here's what we know",
-            "Telus probes cybersecurity incident that 'ShinyHunters' group claims responsibility for"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Experts tell CBC News it's notable that members seem to be proficient English speakers, separating them from other ransomware groups that tend to be Russian."
-        },
-        {
-          "type": "p",
-          "text": "Kaiser says ShinyHunters members overlap with other groups like Scattered Spider and LAPSUS$ — the three also claimed to work together last year in what cybersecurity analysts dubbed a \"cybercrime superpgroup\" — and the broader network includes members in the U.S., U.K. and Canada."
-        },
-        {
-          "type": "p",
-          "text": "Ian Lin, an ethical hacker and head of research and development at Toronto-based cybersecurity company Packetlabs, says it would be unwise for any organization to dismiss the threat that ShinyHunters poses, regardless of the way the group communicates publicly."
-        },
-        {
-          "type": "p",
-          "text": "\"They've shown incredible capability,\" Lin said."
-        },
-        {
-          "type": "p",
-          "text": "\"We have to take them very seriously.\""
-        },
-        {
-          "type": "h",
-          "text": "What do they want?"
-        },
-        {
-          "type": "p",
-          "text": "Lin, who hacks organizations to expose vulnerabilities and help them tighten their digital security, says ShinyHunters are chasing notoriety and fame, despite individual members being anonymous."
-        },
-        {
-          "type": "p",
-          "text": "\"Every time they compromise something, they really want a big bang,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "Primarily, though, he says the group seems to be mostly financially motivated and not driven by a particular ideology or worldview."
-        },
-        {
-          "type": "p",
-          "text": "\"When there's leaders that can rally a group of people who grew up with AI, who grew with technology, and they're disillusioned by the system, the society, it's very easy for them to fall into these types of groups,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "More than $100M worth of bitcoin stolen in data breach | Hanomansing Tonight"
-        },
-        {
-          "type": "p",
-          "text": "\"They have to live somehow. So a lot of their breaches, there's a big financial motivation.\""
-        },
-        {
-          "type": "p",
-          "text": "The FBI hack was unusual in the sense that it was not financially motivated, but a retaliation for several claims made by the law enforcement agency — including that ShinyHunters is known to threaten family members of its targets and threaten to release embarrassing or compromising images of its victims."
-        },
-        {
-          "type": "p",
-          "text": "ShinyHunters denied ever using those tactics, in a public statement directed at the FBI."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Chinese hackers disrupted U.S. Justice Department, NASA, Federal Reserve, U.S. says",
-            "Canadian investigation launched into data breach that exposed millions of IDs"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "\"This was to prove that they were right — that you have to listen to us,\" Lin said."
-        },
-        {
-          "type": "p",
-          "text": "ShinyHunters have been associated with high-profile cyberattacks affecting companies including Telus, Microsoft, Ticketmaster, Pornhub and Rockstar Games."
-        },
-        {
-          "type": "p",
-          "text": "Last year, according to U.K. media reports, ShinyHunters members claimed responsibility for the theft of more than two million records from the country's Legal Aid Agency and threatened to publish the information unless one of its members was freed. The hack wreaked havoc on the legal system but the group did not follow through on its alleged threat after the deadline passed."
-        },
-        {
-          "type": "p",
-          "text": "Kaiser also says she has not tracked any specific ideological motive behind the group's actions, but says they have a penchant for picking \"incredibly large\" targets and wanting to show off what they can do."
-        },
-        {
-          "type": "p",
-          "text": "\"It's almost a more of a personal aggrandizing and being able to have those bragging rights,\" she said. \"That seems to motivate just as much as the money.\""
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Kevin Maimann is a senior writer for CBC News based in Edmonton. He has covered a wide range of topics for publications including VICE, the Toronto Star, Xtra Magazine and the Edmonton Journal. You can reach Kevin by email at kevin.maimann@cbc.ca."
-        },
-        {
-          "type": "p",
-          "text": "With files from Reuters"
         }
       ],
       "truncated": false,
@@ -9258,106 +9616,6 @@
         {
           "type": "p",
           "text": "“In the end, this is not just Nichole’s story,” he said. “It is a found story, shaped by years of witnessing him and understanding too late what he was going through, while still singing beside him.” – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-imvi1s",
-      "source": "grd",
-      "title": "‘Let’s tell the truth’: Smithsonian head given standing ovation as he hits back at Trump attacks",
-      "summary": "<p>Outgoing secretary Lonnie Bunch rejects claims the institution is unpatriotic, telling audience ‘You cannot understand all without illuminating the dark corners’</p><p><a…",
-      "byline": "David Smith in Washington",
-      "section": "Washington DC",
-      "published": "2026-09-26T04:59:45.000Z",
-      "firstSeen": "2026-09-26T05:31:12.760Z",
-      "url": "https://www.theguardian.com/us-news/2026/sep/26/lets-tell-the-truth-smithsonian-head-given-standing-ovation-as-he-hits-back-at-trump-attacks",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/2f1b1a8cd626a60bef9e16e2ee65621945303143/380_125_2447_1959/master/2447.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=341d6f4a9bc3ce4978a8207bcd1e3ee0",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Lonnie Bunch, the outgoing secretary of the Smithsonian Institution, has defended the organisation against political interference, insisting that telling the unvarnished and complex truths of history is an act of “great love” for the country."
-        },
-        {
-          "type": "p",
-          "text": "Speaking on Friday at the National Museum of African American History and Culture in Washington, Bunch received a standing ovation from hundreds of audience members and rejected claims that the institution’s staff or exhibitions were unpatriotic."
-        },
-        {
-          "type": "p",
-          "text": "“The notion that somehow this museum or any part of the Smithsonian is done by people who don’t love America, don’t care about America, is unbelievably wrong,” the secretary said. “And what you see in this building is great love. Great respect.”"
-        },
-        {
-          "type": "p",
-          "text": "Bunch, who earlier this month announced that he will step down at the end of the year, was speaking at an event celebrating the 10th anniversary of the African American museum, where he was founding director."
-        },
-        {
-          "type": "p",
-          "text": "His remarks come amid escalating hostility from Donald Trump’s administration, which issued a report accusing Smithsonian leaders of being radical activists and ordered a wide-ranging review of museum content ahead of the US’s 250th anniversary."
-        },
-        {
-          "type": "p",
-          "text": "Last year Trump wrote on his Truth Social platform: “The Smithsonian is OUT OF CONTROL, where everything discussed is how horrible our Country is, how bad Slavery was, and how unaccomplished the downtrodden have been – Nothing about Success, nothing about Brightness, nothing about the Future.”"
-        },
-        {
-          "type": "p",
-          "text": "But on Friday Bunch argued that slavery is “foundational” to understanding the US. “When people say you talk too much about slavery or that they’re embarrassed by slavery, I wish I was as strong as my enslaved ancestor. I wish I could believe in America that they believed. I wish that I could dream a world anew that they dreamed."
-        },
-        {
-          "type": "p",
-          "text": "“So for me, it’s not saying, ‘Oh my god, I’m going to be embarrassed, I’m trying to hurt a country.’ I’m trying for people to understand, how did these people believe? How did they lay this foundation that we built upon? Because everything started there.”"
-        },
-        {
-          "type": "p",
-          "text": "He added: “So for me, this is really about saying, they believed in something that I don’t know why they believed – that if we could capture some of that essence, what could we do?”"
-        },
-        {
-          "type": "p",
-          "text": "Bunch, who began his career at the Smithsonian in 1978 and became its first Black secretary in 2019, insisted that museum curation must be grounded in independent scholarship rather than political pressure."
-        },
-        {
-          "type": "p",
-          "text": "“You cannot understand the greatness of a country without understanding the totality of a country,” he said. “You cannot understand all without illuminating the dark corners. Curating means let’s shine the light. Let’s tell the truth.”"
-        },
-        {
-          "type": "p",
-          "text": "The White House has accused cultural institutions of seeking to “rewrite our Nation’s history” and ordered that warning signs be placed outside the nearby National Museum of American History. Trump has also threatened to demolish the John F Kennedy Center for the Performing Arts in Washington after a judge ruled that he could not attach his name to it."
-        },
-        {
-          "type": "p",
-          "text": "The departing Bunch sought to assure his audience that the African American museum would endure. He said: “Every time I walk through this museum, especially on days when I was feeling like everybody was beating me up … ”"
-        },
-        {
-          "type": "p",
-          "text": "Moderator Laura Coates, a CNN anchor, interjected: “Did that happen recently?”"
-        },
-        {
-          "type": "p",
-          "text": "Bunch quipped: “Just once or twice. But I walk through and I go down and see Emmett Till’s casket and I find myself saying: ‘You can persevere.’ So for me, this is what makes me believe everything is possible. This is what makes me believe that, no matter what anybody says, you could never erase what’s in this building.”"
-        },
-        {
-          "type": "p",
-          "text": "He called the museum a “beacon of possibility” and a “place of resistance”, adding: “What I’m proudest of is that, though there’ll be pushes and attempts to try to do things, this museum will stand as long as there’s an America.”"
-        },
-        {
-          "type": "p",
-          "text": "The discussion also featured Shonda Rhimes, a television producer and board member, who pledged $1m to a newly launched legacy fund in Bunch’s honour, which was seeded by a $3.5m anonymous donation and a minimum goal of $10m."
-        },
-        {
-          "type": "p",
-          "text": "Acting museum director Shanita Brackett said the fund will “support this museum uniquely and solely”, adding: “It will help to ensure that we continue to reflect the values of inclusion, public engagement and independent scholarship without influence.”"
-        },
-        {
-          "type": "p",
-          "text": "The Smithsonian Institution operates outside the executive branch under a board of regents that includes supreme court chief justice John Roberts and vice-president JD Vance."
-        },
-        {
-          "type": "p",
-          "text": "After Bunch’s announcement that he was stepping down, Democratic senator Alex Padilla praised him for speaking “truth to power” in the face of Trump’s attacks, while the Heritage Foundation, a conservative thinktank, pledged to ensure Bunch’s successor did not treat the institution as a “culture-war battleground”."
         }
       ],
       "truncated": false,
@@ -13624,34 +13882,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-1y4ocbz",
-      "source": "cbc",
-      "title": "Why Trump’s potash threat against Canada isn’t as bizarre as it sounds",
-      "summary": "U.S. President Donald Trump is trying to lessen Canada's chokehold on potash supply with alternative imports from Belarus — but that's exposing a critical vulnerability in American agriculture.…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T20:41:58.000Z",
-      "firstSeen": "2026-09-25T21:01:14.648Z",
-      "url": "https://www.cbc.ca/player/play/9.7358956?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/0f32ed8a-d64a-4be7-ac83-21f9b6c7aaaf,1790368867630/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3B",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Why Trump’s potash threat against Canada isn’t as bizarre as it sounds | About That | CBC.ca Loaded"
-        },
-        {
-          "type": "p",
-          "text": "Why Trump’s potash threat against Canada isn’t as bizarre as it sounds | About That"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "dw-y9wdq4",
       "source": "dw",
       "title": "Lula or Bolsonaro as president? Brazil gears up to vote",
@@ -14622,28 +14852,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "abs-1qa07bq",
-      "source": "abs",
-      "title": "Marcos travels to Samar to inspect rehabilitation of Yolanda-hit facilities",
-      "summary": "President Ferdinand Marcos Jr. on Friday made his way to Samar to inspect the rehabilitation of several facilities that were once damaged by super typhoon Yolanda.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T16:53:09.000Z",
-      "firstSeen": "2026-09-25T17:01:10.358Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/26/marcos-travels-to-samar-to-inspect-rehabilitation-of-yolanda-hit-facilities-0053",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "President Ferdinand Marcos Jr. on Friday made his way to Samar to inspect the rehabilitation of several facilities that were once damaged by super typhoon Yolanda."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "grd-dc21v1",
       "source": "grd",
       "title": "Protests erupt as Netanyahu gives inflammatory UN speech - The Latest",
@@ -14666,28 +14874,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-1dcwkr",
-      "source": "abs",
-      "title": "WHO analysis shows El Niño could trigger a chain of health risks in PH",
-      "summary": "El Niño's impact goes beyond water shortages and agricultural losses.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T16:43:48.000Z",
-      "firstSeen": "2026-09-25T17:01:11.080Z",
-      "url": "https://www.abs-cbn.com/news/health-science/2026/9/26/who-analysis-shows-el-ni-o-could-trigger-a-chain-of-health-risks-in-ph-0043",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "El Niño's impact goes beyond water shortages and agricultural losses."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "bbc-1vpuei7",
@@ -16969,28 +17155,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-1obl21k",
-      "source": "abs",
-      "title": "Mary Jane Veloso released from prison after Marcos pardon",
-      "summary": "Mary Jane Veloso was released from prison Friday night after she was granted absolute pardon by President Ferdinand Marcos Jr.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T13:28:43.000Z",
-      "firstSeen": "2026-09-25T13:31:04.768Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/25/mary-jane-veloso-released-from-prison-2128",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Mary Jane Veloso was released from prison Friday night after she was granted absolute pardon by President Ferdinand Marcos Jr."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "grd-f1axzh",
