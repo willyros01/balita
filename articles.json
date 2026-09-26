@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-09-26T11:01:37.759Z",
+  "updated": "2026-09-26T11:31:23.101Z",
   "sources": [
     {
       "id": "inq",
@@ -59,7 +59,7 @@
       "summary": "LEGAZPI CITY — El Niño has caused P97.67 million in agricultural losses in Bicol, affecting 2,799 farmers and 1,239.62 hectares of farmland, the Department of Agriculture (DA) said. DA Bicol…",
       "byline": "jbarrion",
       "section": "Latest News Stories",
-      "published": "2026-09-26T11:01:21.568Z",
+      "published": "2026-09-26T11:31:14.125Z",
       "firstSeen": "2026-09-26T04:31:40.911Z",
       "url": "https://newsinfo.inquirer.net/2312037/el-nino-damage-to-bicol-farms-reaches-p97m",
       "image": {
@@ -84,7 +84,7 @@
       "summary": "MANILA, Philippines — Severe Tropical Storm Queenie is now nearing typhoon category, said the state weather bureau on Saturday, after gaining strength since early morning. According to the Philippine…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-09-26T11:01:21.568Z",
+      "published": "2026-09-26T11:31:14.125Z",
       "firstSeen": "2026-09-26T04:01:09.669Z",
       "url": "https://newsinfo.inquirer.net/2312033/pagasa-queenie-nears-typhoon-category",
       "image": {
@@ -109,7 +109,7 @@
       "summary": "MANILA, Philippines — The Visayas grid will be placed on yellow alert on Saturday late afternoon, Sept. 26, said the National Grid Corporation of the Philippines (NGCP). READ: NGCP: Mindanao reserves…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-09-26T11:01:19.847Z",
+      "published": "2026-09-26T11:31:14.121Z",
       "firstSeen": "2026-09-26T05:01:08.581Z",
       "url": "https://newsinfo.inquirer.net/2312050/visayas-grid-under-yellow-alert",
       "image": {
@@ -128,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-rxx21n",
-      "source": "inqn",
-      "title": "Bulusan park survey highlights rich diversity of bird species",
-      "summary": "MANILA, Philippines — Beneath the dense canopy of Bulusan Volcano Natural Park (BVNP) in Sorsogon, a varied community of birds continues to thrive, from colorful forest dwellers to species found only…",
-      "byline": "Dennis Maliwanag",
-      "section": "Latest News Stories",
-      "published": "2026-09-26T11:01:18.069Z",
-      "firstSeen": "2026-09-26T05:31:05.130Z",
-      "url": "https://newsinfo.inquirer.net/2312039/bulusan-park-survey-highlights-rich-diversity-of-bird-species",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/bulusan4-birds-26sept2026.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Beneath the dense canopy of Bulusan Volcano Natural Park (BVNP) in Sorsogon, a varied community of birds continues to thrive, from colorful forest dwellers to species found only in the Philippines. A three-day avian assessment across the park’s different elevation zones documented resident, endemic and ecologically sensitive species, according to the Department"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-11prdw2",
       "source": "inqn",
       "title": "Guiuan earns global recognition for environmental programs",
       "summary": "TACLOBAN CITY – Guiuan, Eastern Samar has earned international recognition for its environmental and sustainability initiatives, including coastal resource protection, solid waste management and…",
       "byline": "jbarrion",
       "section": "Latest News Stories",
-      "published": "2026-09-26T11:01:16.328Z",
+      "published": "2026-09-26T11:31:14.120Z",
       "firstSeen": "2026-09-26T06:01:09.888Z",
       "url": "https://newsinfo.inquirer.net/2312056/guiuan-earns-national-global-recognitions-for-environmental-programs",
       "image": {
@@ -178,13 +153,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-rxx21n",
+      "source": "inqn",
+      "title": "Bulusan park survey highlights rich diversity of bird species",
+      "summary": "MANILA, Philippines — Beneath the dense canopy of Bulusan Volcano Natural Park (BVNP) in Sorsogon, a varied community of birds continues to thrive, from colorful forest dwellers to species found only…",
+      "byline": "Dennis Maliwanag",
+      "section": "Latest News Stories",
+      "published": "2026-09-26T11:31:14.120Z",
+      "firstSeen": "2026-09-26T05:31:05.130Z",
+      "url": "https://newsinfo.inquirer.net/2312039/bulusan-park-survey-highlights-rich-diversity-of-bird-species",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/bulusan4-birds-26sept2026.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Beneath the dense canopy of Bulusan Volcano Natural Park (BVNP) in Sorsogon, a varied community of birds continues to thrive, from colorful forest dwellers to species found only in the Philippines. A three-day avian assessment across the park’s different elevation zones documented resident, endemic and ecologically sensitive species, according to the Department"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1c3yh9e",
       "source": "inqn",
       "title": "African swine fever on pigs confirmed in Agutaya, Palawan",
       "summary": "CALAPAN CITY— The Department of Agriculture–Bureau of Animal Industry confirmed a case of African swine fever (ASF) in Barangay Concepcion in Agutaya town, Palawan, the provincial government said…",
       "byline": "jbarrion",
       "section": "Latest News Stories",
-      "published": "2026-09-26T11:01:16.268Z",
+      "published": "2026-09-26T11:31:12.323Z",
       "firstSeen": "2026-09-26T06:31:02.703Z",
       "url": "https://newsinfo.inquirer.net/2312061/african-swine-fever-on-pigs-confirmed-in-agutaya-palawan",
       "image": {
@@ -209,7 +209,7 @@
       "summary": "MANILA, Philippines — The Department of Health (DOH) on Saturday activated code white alert amid the potential effects of Severe Tropical Storm Queenie. According to the DOH in an advisory, code…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-09-26T11:01:10.062Z",
+      "published": "2026-09-26T11:31:10.535Z",
       "firstSeen": "2026-09-26T08:01:11.191Z",
       "url": "https://newsinfo.inquirer.net/2312066/doh-raises-code-white-alert-amid-sts-queenie",
       "image": {
@@ -234,7 +234,7 @@
       "summary": "MANILA, Philippines — Slope is the biggest contributor to landslide susceptibility in the Upper Marikina River Basin Protected Landscape (UMRBPL), a 2026 study revealed, highlighting the need for…",
       "byline": "Dennis Maliwanag",
       "section": "Latest News Stories",
-      "published": "2026-09-26T11:01:09.603Z",
+      "published": "2026-09-26T11:31:07.209Z",
       "firstSeen": "2026-09-26T08:01:11.108Z",
       "url": "https://newsinfo.inquirer.net/2312065/study-over-80-of-upper-marikina-watershed-vulnerable-to-landslides",
       "image": {
@@ -259,7 +259,7 @@
       "summary": "MANILA, Philippines — Malacañang on Saturday called on Vice President Sara Duterte to learn how to respond to accusations using evidence, instead of relying on &#8216;red herring&#8217; and &#8216;ad…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-09-26T11:01:09.046Z",
+      "published": "2026-09-26T11:31:05.164Z",
       "firstSeen": "2026-09-26T09:01:06.453Z",
       "url": "https://newsinfo.inquirer.net/2312074/palace-to-sara-duterte-respond-with-evidence-stop-using-fallacies",
       "image": {
@@ -284,7 +284,7 @@
       "summary": "MANILA, Philippines — What renders the 1987 Constitution futile is when Filipinos begin defending acts of corruptions by “nefarious political idols” and normalizing unlawful execution of innocent…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-09-26T11:01:09.045Z",
+      "published": "2026-09-26T11:31:05.151Z",
       "firstSeen": "2026-09-26T10:31:07.806Z",
       "url": "https://newsinfo.inquirer.net/2312079/defense-of-nefarious-political-idols-makes-constitution-useless-palace",
       "image": {
@@ -309,7 +309,7 @@
       "summary": "COTABATO CITY — Even if they are no longer sitting in the regional legislature, former members of parliament (MPs) organized themselves and offered help in shaping the future of the Bangsamoro…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-09-26T11:01:08.950Z",
+      "published": "2026-09-26T11:31:05.093Z",
       "firstSeen": "2026-09-26T11:01:08.950Z",
       "url": "https://newsinfo.inquirer.net/2312081/ex-barmm-mps-form-group-to-help-start-new-regional-government",
       "image": {
@@ -320,6 +320,537 @@
         {
           "type": "p",
           "text": "COTABATO CITY — Even if they are no longer sitting in the regional legislature, former members of parliament (MPs) organized themselves and offered help in shaping the future of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM). The former MPs said they intend the new group to be their platform for them to contribute to the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "abs-1efzr0g",
+      "source": "abs",
+      "title": "Volleyball: Jurado leads UST past CSB in Unity Cup opener",
+      "summary": "Regina Jurado led University of Santo Tomas to a 25-21, 25-12, 25-18 sweep of College of Saint Benilde in their first game in the 2026 Shakey's Super League (SSL) Unity Cup on Saturday.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T11:27:26.000Z",
+      "firstSeen": "2026-09-26T11:31:05.093Z",
+      "url": "https://www.abs-cbn.com/sports/volleyball/2026/9/26/volleyball-jurado-leads-ust-past-csb-in-unity-cup-opener-1927",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Regina Jurado led University of Santo Tomas to a 25-21, 25-12, 25-18 sweep of College of Saint Benilde in their first game in the 2026 Shakey's Super League (SSL) Unity Cup on Saturday."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-je6cpr",
+      "source": "inq",
+      "title": "Kayla Sanchez vows to keep pushing after Asian Games heartbreak",
+      "summary": "READ: Follow Inquirer Sports&#8217; special coverage of the Aichi-Nagoya Asian Games 2026 TOKYO — Kayla Sanchez knows heartbreak can arrive in milliseconds. For Sanchez, it came after a blistering,…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T11:17:04.000Z",
+      "firstSeen": "2026-09-26T11:31:05.093Z",
+      "url": "https://sports.inquirer.net/698179/kayla-sanchez-vows-to-keep-pushing-after-asian-games-heartbreak",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/09/Asian-Games-2026_team-Philippines_swimming_Kayla-Sanchez-2-620x413.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "READ: Follow Inquirer Sports&#8217; special coverage of the Aichi-Nagoya Asian Games 2026 TOKYO — Kayla Sanchez knows heartbreak can arrive in milliseconds. For Sanchez, it came after a blistering, national record-breaking swim that still left her just outside the podium at the Asian Games 2026. But what comes next is not retreat or regret, but a meticulously plotted rise toward the biggest stage of all–the 2028 Los Angeles Olympics. “I allow myself to be sad and to be angry, but at a swim meet you don’t have much time,” said Sanchez, whose 24.75-second swim here placed her fourth in the women’s [&hellip;]... Keep on reading: Kayla Sanchez vows to keep pushing after Asian Games heartbreak"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-1fvmgrf",
+      "source": "abs",
+      "title": "UAAP: UST women clobber NU for first win",
+      "summary": "University of Santo Tomas is on the board in the UAAP Season 89 women's football tournament after a comfortable 3-0 win over newcomer National University, Saturday at the UP Diliman Football Stadium.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T11:15:48.000Z",
+      "firstSeen": "2026-09-26T11:31:05.151Z",
+      "url": "https://www.abs-cbn.com/sports/othersports/2026/9/26/uaap-ust-women-clobber-nu-for-first-win-1915",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "University of Santo Tomas is on the board in the UAAP Season 89 women's football tournament after a comfortable 3-0 win over newcomer National University, Saturday at the UP Diliman Football Stadium."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1dco5t7",
+      "source": "inq",
+      "title": "Austria 'ghetto' language classes leave children to repeat school",
+      "summary": "VIENNA, Austria—For two years after he first arrived in Austria, Iraqi pupil Abdlrahman Aljanabi didn&#8217;t follow maths, science and other subjects like the rest of his peers. Instead, he was…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T11:10:51.000Z",
+      "firstSeen": "2026-09-26T11:31:05.151Z",
+      "url": "https://globalnation.inquirer.net/339442/austria-ghetto-language-classes-leave-children-to-repeat-school",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/09/AFP__20260926__C7WU8BJ__v1__HighRes__AustriaEducationMigration-620x488.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "VIENNA, Austria—For two years after he first arrived in Austria, Iraqi pupil Abdlrahman Aljanabi didn&#8217;t follow maths, science and other subjects like the rest of his peers. Instead, he was pulled out of his class every day for several hours to learn German under a flagship program meant to bring newcomers like him up to par with the national language. But an assessment has shown the program &#8212; long decried by critics as &#8220;ghetto&#8221; classes &#8212; leaves a number of pupils to repeat at least one school year. This situation contributes to a relatively high number of over-age pupils in the [&hellip;]... Keep on reading: Austria 'ghetto' language classes leave children to repeat school"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-1bss5ux",
+      "source": "grd",
+      "title": "UN adds 61 companies to settlements blacklist over alleged Palestinian human rights violations",
+      "summary": "<p>Human rights council names and shames businesses with ties to illegal Israeli settlements in West Bank</p><p>The UN human rights office has added 61 more companies to a blacklist of firms that it…",
+      "byline": "Associated Press",
+      "section": "West Bank",
+      "published": "2026-09-26T11:10:09.000Z",
+      "firstSeen": "2026-09-26T11:31:05.093Z",
+      "url": "https://www.theguardian.com/world/2026/sep/26/un-companies-israeli-settlements-blacklist-alleged-palestinian-rights-violations",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/78ec353b9ef83cae8bcea567c643971a96806ddf/1193_252_4510_3607/master/4510.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=58f23eface064b6b28697cfc78131c49",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The UN human rights office has added 61 more companies to a blacklist of firms that it says are involved in violating Palestinian human rights through business ties to Israeli settlements in the occupied West Bank."
+        },
+        {
+          "type": "p",
+          "text": "The vast majority of the total 214 companies, which are based in 11 countries, are Israeli. Five of the 158 companies listed last year were removed in the latest update."
+        },
+        {
+          "type": "p",
+          "text": "The blacklist, first published in 2020, was born of a vote by the UN’s human rights council, which has no ability to force companies to act. Its main goal is to name and shame businesses with ties to the settlements."
+        },
+        {
+          "type": "p",
+          "text": "It is unclear how the inclusion on the list has affected the companies financially."
+        },
+        {
+          "type": "p",
+          "text": "“This report is another reminder to companies that they have human rights responsibilities and are expected to conduct due diligence to ensure that they do not become involved in human rights violations or abuses,” said Volker Türk, the UN human rights chief, in a statement."
+        },
+        {
+          "type": "p",
+          "text": "Israel said it “categorically rejects” the publication. “This database is meant to serve as a blacklist against businesses that have committed no wrongdoing,” the Israeli diplomatic mission in Geneva said in a statement. “We call on friends not to yield to this ugly attempt to blacklist Israeli firms.”"
+        },
+        {
+          "type": "p",
+          "text": "The UN office said it had advised the companies of their listing and given them a right of reply."
+        },
+        {
+          "type": "p",
+          "text": "The latest report comes as Israeli settlements in Palestinian areas have faced new scrutiny."
+        },
+        {
+          "type": "p",
+          "text": "Earlier this month, Britain banned trade with Israeli settlements in the occupied West Bank, where it says “settler terrorists” are carrying out “ethnic cleansing” of Palestinians. France and Canada announced they would take similar action."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-qy053x",
+      "source": "inq",
+      "title": "Asian Games: PH's Jessica Laurance proud of 100m final debut",
+      "summary": "READ: Follow Inquirer Sports&#8217; special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–Jessica Laurance may have finished last in the women’s 100-meter final at the Asian Games…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T11:06:02.000Z",
+      "firstSeen": "2026-09-26T11:31:05.161Z",
+      "url": "https://sports.inquirer.net/698174/asian-games-phs-jessica-laurance-proud-of-100m-final-debut",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/09/AP26267383166595-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "READ: Follow Inquirer Sports&#8217; special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–Jessica Laurance may have finished last in the women’s 100-meter final at the Asian Games athletics on Friday, but the Filipino sprinter remained proud of making the championship race in her debut. Laurance clocked 11.58 seconds at Mizuho Park Athletic Stadium, finishing eighth in the eight-woman final. China’s Yujie Chen won gold in a Games-record 11.06 seconds while Shanti Pereira of Singapore came in second. “I am proud that I even made the final,” Laurance said in a report released by POC Media Pool. “I was hoping for [&hellip;]... Keep on reading: Asian Games: PH's Jessica Laurance proud of 100m final debut"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-1qry8fd",
+      "source": "grd",
+      "title": "Work intensifying on UK laws to stamp out concert ticket touts, say sources",
+      "summary": "<p>Artists including Tinie Tempah and the Smiths’ drummer Mike Joyce ramp up pressure on government to keep its pledge to outlaw for-profit resales</p><p>The government has stepped up work on new…",
+      "byline": "Rob Davies",
+      "section": "Music industry",
+      "published": "2026-09-26T11:00:35.000Z",
+      "firstSeen": "2026-09-26T11:31:05.817Z",
+      "url": "https://www.theguardian.com/business/2026/sep/26/work-intensifying-uk-laws-stamp-out-concert-ticket-touts",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/4fd72db9704698ace7bc4742736969b322a421f1/318_0_4001_3200/master/4001.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=b849d7999ba2d0bfd8cae1969f4d9d05",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The government has stepped up work on new laws to stop ticket touts fleecing fans, as the prime minister came under pressure from artists including the drummer from the Smiths, one of his favourite bands."
+        },
+        {
+          "type": "p",
+          "text": "Keir Starmer said last year that the government would “stop fans from being ripped off” by outlawing the for-profit resale of tickets on sites such as Viagogo and StubHub, a pledge Labour first made in its 2024 election manifesto."
+        },
+        {
+          "type": "p",
+          "text": "Despite support from a host of globally renowned artists, including Radiohead, Dua Lipa and Coldplay, the measure was not included in this year’s king’s speech, prompting concern among music industry figures that the proposal had been shelved."
+        },
+        {
+          "type": "p",
+          "text": "But multiple sources told the Guardian that the Department for Digital, Culture, Media and Sport (DCMS) has assembled a sizeable “bill team”, a group of civil servants who are drafting the policy and will help shepherd it through parliament."
+        },
+        {
+          "type": "p",
+          "text": "They are understood to be considering ways to mitigate the risk that touts and resale platforms simply base themselves offshore to bypass any new legislation."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/c7bdc61bca8409b98242d2afc897f0ce176eb302/2723_0_3909_4886/master/3909.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Dua Lipa performs in Hamburg. The singer has been vocal on the need to tackle the for-profit resale of concert tickets. Photograph: Gregor Fischer/Redferns for ABA"
+        },
+        {
+          "type": "p",
+          "text": "The culture secretary, Lisa Nandy, told the House of Commons this month that Andy Burnham “feels particularly passionate” about the issue and the government would treat it as a priority. Nandy is due to give a speech at Labour conference on Wednesday, at which she could provide further detail."
+        },
+        {
+          "type": "p",
+          "text": "On Friday, industry figures and artists including the rapper Tinie Tempah and the Smiths’ drummer Mike Joyce called on the prime minister to act fast, citing new evidence of touts targeting small venues in Greater Manchester."
+        },
+        {
+          "type": "p",
+          "text": "Research examined 300 events across 13 venues where tickets were being touted on Viagogo, including Band On The Wall, Gorilla, YES, Rebellion, New Century and the White Hotel."
+        },
+        {
+          "type": "p",
+          "text": "All were advertised at significantly over cost price, while some did not feature information about the seller, an apparent breach of competition rules. Under government plans, companies would face much tougher penalties for failing to enforce these rules."
+        },
+        {
+          "type": "p",
+          "text": "Other tickets appeared to be “speculative”, meaning that they had been fraudulently listed by touts who do not have them but hope to procure some once they have agreed a sale."
+        },
+        {
+          "type": "p",
+          "text": "The most expensive was £5,899 for Mica Millar’s show at New Century – a 19,728% mark-up."
+        },
+        {
+          "type": "p",
+          "text": "Tickets to a 40th anniversary celebration of the Smiths’ The Queen Is Dead, featuring a conversation between Joyce and the producer Stephen Street, were being touted for £549 each."
+        },
+        {
+          "type": "p",
+          "text": "Joyce said it was “time to stop this for good”, while Tempah said fans and artists deserved better than to see tickets “siphoned away by people who contribute nothing to live music but are happy to profit from it”."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/6d936c5e6e8fa493e414681436405f852a723c5e/0_150_1810_2261/master/1810.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Tickets for Mica Millar’s Manchester show were advertised at a 19,728% mark-up. Photograph: pr"
+        },
+        {
+          "type": "p",
+          "text": "Just three touts – based in Latvia, North America and Germany – were responsible for more than 75% of the listings, research by the music industry group FanFair Alliance found. Viagogo dispute the claim, saying the proportion held by the trio was significantly lower."
+        },
+        {
+          "type": "p",
+          "text": "Viagogo also listed tickets for tiny, obscure events, including an evening with the “world’s greatest psychic” in Inverness, a rum tasting in Devizes, and stargazing in Tavistock."
+        },
+        {
+          "type": "p",
+          "text": "The company said actual sale prices were much lower than the high-priced listings identified by FanFair Alliance."
+        },
+        {
+          "type": "p",
+          "text": "“Viagogo takes its obligations under the law seriously and is fully compliant in the UK. Our policies prohibit speculative listings,” it added."
+        },
+        {
+          "type": "p",
+          "text": "If the government does go ahead with a ban on ticket touting, it would bring the UK in line with Ireland, which outlawed touting in 2021."
+        },
+        {
+          "type": "p",
+          "text": "At present, the unauthorised resale of football tickets is illegal across the UK."
+        },
+        {
+          "type": "p",
+          "text": "Resale of concert or theatre tickets without authorisation is permitted, although individual touts have been prosecuted and jailed in rare instances where they have been judged to have committed fraud."
+        },
+        {
+          "type": "p",
+          "text": "Fans lost £60m to touts between Labour’s announcement of the policy and April this year, the telecoms company and venue sponsor O2 has estimated, with fans of acts including Olivia Dean, Bad Bunny and Ariana Grande “fleeced” by markups of up to 1,000%."
+        },
+        {
+          "type": "p",
+          "text": "The Guardian has repeatedly exposed exploitative tactics in secondary ticketing, including speculative selling and the use by touts of specialist software to hoover up tickets and flip them for profit, often via sites such as StubHub and Viagogo."
+        },
+        {
+          "type": "p",
+          "text": "A DCMS spokesperson said: “We are fully committed to stamping out ticket touting for good. For too long, fans have been ripped off and we’re determined to right that wrong."
+        },
+        {
+          "type": "p",
+          "text": "“That’s why we are bringing forward draft legislation in this parliamentary session to ensure that our measures are truly effective, enforceable and future-proof and fans get the protection and security they have always deserved.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-mq10va",
+      "source": "grd",
+      "title": "We followed five people in Gaza from dawn to dusk – this is what the headlines don’t tell us",
+      "summary": "<p>Behind the stories of bombings and mass deaths, the everyday challenges facing Palestinians living under siege portray a quieter tragedy we rarely hear </p><p>What does it take to make a morning…",
+      "byline": "Tess McClure",
+      "section": "Global development",
+      "published": "2026-09-26T11:00:34.000Z",
+      "firstSeen": "2026-09-26T11:31:05.151Z",
+      "url": "https://www.theguardian.com/global-development/ng-interactive/2026/sep/26/we-followed-five-people-in-gaza-from-dawn-to-dusk-this-is-what-the-headlines-dont-tell-us",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/b5e9c0f57b790973858bb94154dabe47981423d7/0_0_3839_3072/master/3839.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=2da1a550c08aa4056d630122bb261597",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "What does it take to make a morning cup of tea in Gaza?"
+        },
+        {
+          "type": "p",
+          "text": "For Alaa Hessi, in her final month of pregnancy, this small ritual begins with a calculation of gas rations. Her family gets a ration of 6kg of gas every three months – enough to heat a pot for 18 precious minutes a day. That’s needed for cooking – so for tea, a fire must be built instead."
+        },
+        {
+          "type": "p",
+          "text": "For 12-year-old Ramadan, the process begins with a hunt for anything flammable, in an environment where there is almost no wood left. He scouts through the sand dunes where he lives, snaps off a few twigs from a thorn bush, and feeds the flames with pieces of discarded plastic that wash up on the beach."
+        },
+        {
+          "type": "p",
+          "text": "Before you boil the kettle, though, there is the matter of the water – with none running, the question is whether a water truck visits your area that day, and if not, how far you must walk to find it. Then there is transporting that water – how will Ramadan store it, given all of his family’s large water containers have been chewed through by rats? And how does a small boy carry the weight of it – enough liquid for a family to wash, brush teeth, cook with and drink through the next 30C summer day?"
+        },
+        {
+          "type": "p",
+          "text": "Finally, the water is boiling, but still there is the question of whether you even have tea or coffee or sugar to brew. Holding the paper bag of rationed sugar sparks a memory of what those goods have sometimes cost to acquire. Crouched over the teapot, Ramadan recalls last year’s famine, when aid points became death traps, and he and his brother risked everything to sprint for a bag of flour or sugar. He remembers the boys he saw shot beside him, because they moved too soon or too late."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/ad21b13be9df749125de5a046062caa02952e929/0_0_4080_3072/master/4080.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Ramadan on the beach at Al-Nuwairi, near Nuseirat, where he lives in a tent among the dunes. Photograph: Amjed Tantesh/The Guardian"
+        },
+        {
+          "type": "p",
+          "text": "Most of the headlines we encounter about Gaza are the extreme events: bombings, mass deaths, targeted assassinations. These demand attention."
+        },
+        {
+          "type": "p",
+          "text": "There are some things, however, that rarely make the headlines, but have come to define life in Gaza. They are grinding, cruel realities that only really emerge when you inspect the minutia of a day – like a cup of tea. Over the course of this week, we documented the daily routines and mundane tasks of five ordinary Palestinians: a child, a pregnant woman, a teacher, a skateboarder and a grandmother. We followed them from sunrise to dusk, through the small, ordinary moments that rarely make international news – and through them, hoped to get a different, deeper understanding of what life is like now for Gaza’s people."
+        },
+        {
+          "type": "p",
+          "text": "There is a lot you can understand from the anatomy of a day in Gaza. One thing that comes sharply into focus is the effect of dismantling or withholding those things – higher education, books, arts, museums, hobbies, musical instruments – that take human life beyond pure survival."
+        },
+        {
+          "type": "p",
+          "text": "Israel continues to control everything that passes into Gaza, deciding how many calories it will allocate to its citizens, how much gas can be eked out to heat a minimum of hot meals."
+        },
+        {
+          "type": "p",
+          "text": "Along with restricting the essentials required for life, the blockade bans a plethora of ordinary objects from entering Gaza, classing them as “dual use” items that could be used by Hamas. The blacklist and its criteria are opaque, arbitrary and ever-changing. At various times they have blocked the import of ventilator machines, medications for cancer, wedding dresses, sewing machines, toys, musical instruments, spices, dates and crutches."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/cf29dc1ec2d8ad9319c5de85642587f6be492113/0_0_2669_1500/master/2669.png?width=445&dpr=1&s=none&crop=none",
+          "caption": "Rajab al-Reefi, leader of Gaza Skate Team, helps other team-members to repair some boards. Photograph: Amjed Tantesh/The Guardian"
+        },
+        {
+          "type": "p",
+          "text": "From the story of Rajab al-Reefi’s day, we learn how the ban on skateboards has reverberated through his life. The 30-year-old has spent the past five years running Gaza Skate Team, a youth club that teaches children how to skateboard. During the war, their weekly gatherings became a lifeline and outlet for displaced children. Even after their skatepark was demolished, the team continued, posting videos of landing tricks on the rubble, kickflips executed on collapsed beams of concrete and tangled metal pylons."
+        },
+        {
+          "type": "p",
+          "text": "But skateboards only have a lifespan of a couple of years: one by one, their layers snapped, wheel bearings wore out, parts salvaged from one broken board could no longer be fitted to another. With none left, the club went on a salvage mission, to dig some equipment from the rubble of a bombed building. Now, they have a handful of working boards again, and the girls are back to skating. But even these boards are on their last legs. When they wear out, there is nothing coming to replace them."
+        },
+        {
+          "type": "p",
+          "text": "A skateboard is not essential to live – its absence will not make headlines like the systematic deprivation of food. But their absence illuminates the nature of the blockade in a fuller way: its random cruelties, the curtailing of opportunities for lightness, fun, self expression."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/6d449ff135351c501162978fec7fe89719b515cb/0_0_4096_3072/master/4096.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Mansoura Ibrahim Mohammed Abdel Dayem in front of the flat-bed truck that is now her home. Photograph: Amjed Tantesh/The Guardian"
+        },
+        {
+          "type": "p",
+          "text": "Still, against the odds, each person finds ways in their day to keep hold of the things that make them feel human. Prof Mahmoud Seydam wires a solar panel to power a laptop, uploading lectures over WhatsApp and taking oral presentations instead of written exams – battling to provide an education with no paper, no notebooks, no university campus. Alaa Hessi does her best to prepare a safe crib for her baby, in a tent pitched above the rubble where her three children were killed in a strike. Mansoura Ibrahim Mohammed Abdel Dayem, living in the back of a truck, tells her grandchildren stories of their history. Ramadan watches the ocean and dreams of becoming a lifeguard."
+        },
+        {
+          "type": "p",
+          "text": "You can read all five of their days here."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1fv5yzq",
+      "source": "grd",
+      "title": "Thomas Jefferson letter goes on the market – containing a prescient warning for Trump today",
+      "summary": "<p>Third US president wrote in 1787 about importance of peace, paying off debt and supporting agriculture</p><p>A remarkably prescient letter written by Thomas Jefferson, the third US president,…",
+      "byline": "Richard Luscombe",
+      "section": "US politics",
+      "published": "2026-09-26T11:00:34.000Z",
+      "firstSeen": "2026-09-26T11:31:07.575Z",
+      "url": "https://www.theguardian.com/us-news/2026/sep/26/thomas-jefferson-letter-trump-warning",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/6ccf9dce212d0daa811c7cecb5de1f3ffba58ba6/0_0_1672_1338/master/1672.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=d464c8c148d35ac18cd03bb2d1b15c92",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A remarkably prescient letter written by Thomas Jefferson, the third US president, advising how the newly created country could prosper, has been put up for sale by a private collector. The handwritten document from 1787 warns specifically against many of the missteps Donald Trump has taken to drag down his own second term of office."
+        },
+        {
+          "type": "p",
+          "text": "Written in Paris, where Jefferson was the fledgling government’s minister to France, the note to David Rittenhouse, a friend and fellow member of the American Philosophical Society, muses on the priorities and principles he believed future presidents should follow."
+        },
+        {
+          "type": "p",
+          "text": "Previously on display at Texas A&M University, the letter and a book described as “a major European scientific work”, an accompanying gift from Jefferson to Rittenhouse, have a guide price of $285,000 through the Raab Collection, a Pennsylvania-based dealer in historical artifacts and documents."
+        },
+        {
+          "type": "p",
+          "text": "“Peace should be our plan, and the payment of our debts, improvement of our constitutions and extension of agriculture our principal objects,” Jefferson wrote, sharing his thoughts about that year’s landmark federal convention in Philadelphia, later known as the constitutional convention, which debated and signed the US constitution."
+        },
+        {
+          "type": "p",
+          "text": "Almost 240 years later, Trump, who has frequently hailed Jefferson as one of his political heroes, and installed a lifesize bronze statue of him in the White House Rose Garden in July to mark the US semiquincentennial, appears to have eschewed every element of his predecessor’s advice."
+        },
+        {
+          "type": "p",
+          "text": "His hugely unpopular war in Iran endures; the national debt has surpassed $40tn for the first time; Trump’s “blitzkrieg” on the constitution continues; and he is at odds with American farmers over his administration’s treatment of the agricultural sector."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/21369258489b38d6108b23db407fe347a35743e4/0_0_1800_1200/master/1800.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The book, ‘a major European scientific work’, that Jefferson also sent to Rittenhouse. Photograph: Raab Collection"
+        },
+        {
+          "type": "p",
+          "text": "Nathan Raab, president of the Raab Collection, said it was difficult not to draw parallels between Jefferson’s caution contained in a highly personal document drafted barely a decade after the dawn of the new nation, and the volatility of politics in 2026."
+        },
+        {
+          "type": "p",
+          "text": "“Leaving out the various partisan positions, the prescience here is that the same issues that the founding fathers were dealing with during the constitutional convention of the founding of our country are issues that still make headlines today,” he said."
+        },
+        {
+          "type": "p",
+          "text": "“Things change, yet things stay the same, and here we are confronting many of the same issues that were on the lips of our founding fathers, or the tip of their quills, back in 1787."
+        },
+        {
+          "type": "p",
+          "text": "“These are fundamental issues that, really, have faced our country for a long time. Of all the issues that have come and gone – isolation, war, peace – on the other end spending and debt have remained.”"
+        },
+        {
+          "type": "p",
+          "text": "Jefferson’s letter covers more ground than only his thoughts on the nation’s future direction. He shares with Rittenhouse, a fellow scientist and avid astronomer who built precision telescopes and early models of the solar system, his love of “the west”, and fear of another conflict with England four years after the end of the revolutionary war."
+        },
+        {
+          "type": "p",
+          "text": "“Digging out of a hole of debt, funding not only the war debts but also the creation of this new country, was something that was very much an issue,” Raab said."
+        },
+        {
+          "type": "p",
+          "text": "“What I love about this letter is it’s kind of a general warning. He’s not saying, ‘So and so said this, and therefore we must counter with this message.’ He’s giving in one broad stroke what he feels should be the priorities of the convention and the country."
+        },
+        {
+          "type": "p",
+          "text": "“He kept in contact with people who were involved in the convention and was in the loop as much as you could be when a letter took three weeks or so to reach England. But he certainly didn’t have updated information, which is illustrated by the fact that the day he wrote this letter, the convention finished."
+        },
+        {
+          "type": "p",
+          "text": "“He had no way of knowing. He wouldn’t know for weeks.”"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/3e9b45f8654902267c8b7947d4dd59c547d1d74e/0_0_1800_1200/master/1800.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The book and letter were put up for sale by the Pennsylvania-based Raab Collection.  Photograph: Raab Collection"
+        },
+        {
+          "type": "p",
+          "text": "Raab’s company has handled numerous Jefferson documents previously, including the sale in 2024 of a letter written in 1802 revealing his precarious financial situation, and last year’s uncovering of a note he wrote to Virginia’s then governor Benjamin Harrison in 1783 expounding the rights of citizens to bear arms in revolutionary causes."
+        },
+        {
+          "type": "p",
+          "text": "But Raab said he has never seen anything as impressive as the letter and book given to Rittenhouse."
+        },
+        {
+          "type": "p",
+          "text": "“This is at the very top,” he said. “The breadth of knowledge that [Jefferson] brought to this letter, the many subjects in which he is completely conversant. He’s talking to a prominent scientist as well."
+        },
+        {
+          "type": "p",
+          "text": "“The important warning that he offers at the end is just so relevant today, it’s impossible to miss. I think it’s intentional that he saved that to the end of the letter. And the idea that Jefferson, a very famous book buyer and collector, is sending books to another founding father, David Rittenhouse, and the book is still together with the letter, that’s just incredible.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1ryvsl1",
+      "source": "inq",
+      "title": "Palace to VP Sara: Level up, reply with evidence, avoid fallacies",
+      "summary": "Malacañang on Saturday advised Vice President Sara Duterte to “level up” her defense and support her responses to allegations with evidence. ... Keep on reading: Palace to VP Sara: Level up, reply…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T11:00:00.000Z",
+      "firstSeen": "2026-09-26T11:31:06.171Z",
+      "url": "https://cebudailynews.inquirer.net/770014/palace-to-vp-sara-level-up-reply-with-evidence-avoid-fallacies",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/09/claire-castro-sara-duterte-1200x740-1-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Malacañang on Saturday advised Vice President Sara Duterte to “level up” her defense and support her responses to allegations with evidence. ... Keep on reading: Palace to VP Sara: Level up, reply with evidence, avoid fallacies"
         }
       ],
       "truncated": true,
@@ -594,6 +1125,86 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "bbc-gq41yf",
+      "source": "bbc",
+      "title": "Republic of Ireland news conference delayed before controversial Israel game",
+      "summary": "The Republic of Ireland delay the pre-match news conference planned for Sunday's Uefa Nations League game against Israel in Hungary - a fixture campaigners have called on them to boycott.",
+      "byline": "Kevin Sharkey",
+      "section": "",
+      "published": "2026-09-26T10:44:37.000Z",
+      "firstSeen": "2026-09-26T11:31:05.093Z",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c962jjl18g3ro?at_medium=RSS&at_campaign=rss",
+      "image": {
+        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3180/live/6ba201b0-b98e-11f1-90f2-0d8b78b18143.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Republic of Ireland have delayed the pre-match news conference planned for Sunday's Uefa Nations League game against Israel in Hungary - a fixture campaigners have called on them to boycott."
+        },
+        {
+          "type": "p",
+          "text": "Heimir Hallgrimsson's team are scheduled to meet Israel in Debrecen at 19:45 BST, with the return fixture in Backa Topola, Serbia on 4 October."
+        },
+        {
+          "type": "p",
+          "text": "They have faced calls to withdraw from the games because of the ongoing Israel-Gaza war with a \"Stop The Game\" campaign - organised by the pressure group Irish Sport for Palestine - gathering pace."
+        },
+        {
+          "type": "p",
+          "text": "Former Republic of Ireland manager Brian Kerr and ex-international James McClean are among those to have backed calls for a boycott."
+        },
+        {
+          "type": "p",
+          "text": "However, there are also Irish supporters, perhaps less vocal, who have always believed that the match should be played with supporters in attendance."
+        },
+        {
+          "type": "p",
+          "text": "Following Thursday's 1-0 defeat by Kosovo, midfielder Jason Knight opined he didn't think \"the game should be going ahead\", while winger Chiedozie Ogbene urged the public to not \"put the pressure on us\" regarding their approach to the scheduled game."
+        },
+        {
+          "type": "p",
+          "text": "Hallgrimsson and a player were scheduled to meet the media at 09:15 BST (10.15 local time), before training, but the conference was delayed shortly beforehand."
+        },
+        {
+          "type": "p",
+          "text": "A Uefa official entered the room to inform waiting media teams that the press conference was postponed until after training, which would have been about 11:30 BST (12.30 local time)."
+        },
+        {
+          "type": "p",
+          "text": "But shortly afterwards, the Uefa official returned to the media room to announce that the Republic of Ireland's training session had also been postponed, with no time given for when it might take place. There is also no confirmed time for the news conference."
+        },
+        {
+          "type": "p",
+          "text": "The fixture has been embroiled in controversy since the two teams were drawn to play each other in Group B3."
+        },
+        {
+          "type": "p",
+          "text": "A team meeting took place on Friday for players to air their views on Sunday's game and the return fixture in Serbia."
+        },
+        {
+          "type": "p",
+          "text": "The players were expected to release a statement at Saturday's news conference, but the delay has added further uncertainty, with some reports of at least one player wishing to withdraw from the squad."
+        },
+        {
+          "type": "p",
+          "text": "It has since emerged the news conference, scheduled to take place at the stadium, is now set to be staged at the team hotel, with Uefa unable to provide information regarding the delay."
+        },
+        {
+          "type": "p",
+          "text": "The armed Palestinian group Hamas attacked Israel on 7 October 2023, killing about 1,200 people and taking 251 hostages."
+        },
+        {
+          "type": "p",
+          "text": "In response, Israel launched a massive military offensive in Gaza, during which more than 73,000 people have been killed, according to the territory's Hamas-run health ministry, whose figures are considered reliable by the United Nations."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
       "id": "dw-1io5sgo",
       "source": "dw",
       "title": "A HRW report shows how South Korean women face systemic barriers to climbing the career ladder",
@@ -823,7 +1434,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-1rl98i8",
@@ -898,7 +1509,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "rap-hly6rm",
@@ -2477,31 +3088,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-3fruyf",
-      "source": "inq",
-      "title": "Asian Games men's volleyball: PH battles South Korea",
-      "summary": "The Philippines begins its campaign in the Aichi-Nagoya 20th Asian Games men's volleyball against South Korea on Sunday.... Keep on reading: Asian Games men's volleyball: PH battles South Korea",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T08:45:00.000Z",
-      "firstSeen": "2026-09-26T09:01:06.532Z",
-      "url": "https://cebudailynews.inquirer.net/769979/asian-games-mens-volleyball-ph-battles-south-korea",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/09/joshua-retamarcurated-620x388.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Philippines begins its campaign in the Aichi-Nagoya 20th Asian Games men's volleyball against South Korea on Sunday.... Keep on reading: Asian Games men's volleyball: PH battles South Korea"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-eagc7h",
       "source": "abs",
       "title": "Asiad: Marathoner Salaño battles sickness to cross finish line",
@@ -2544,81 +3130,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-1s899z1",
-      "source": "inq",
-      "title": "Eva Patalinjug hopes to see culture, stories of Miss Asia Pacific Int'l delegates",
-      "summary": "Beauty queen and lawyer Eva Patalinjug has welcomed the delegates of the 2026 Miss Asia Pacific International pageant to Cebu, and reminded them of the value of culture and connection in their quest…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T08:30:10.000Z",
-      "firstSeen": "2026-09-26T08:31:04.233Z",
-      "url": "https://entertainment.inquirer.net/684979/eva-patalinjug-hopes-to-see-culture-stories-of-miss-asia-pacific-intl-delegates",
-      "image": {
-        "src": "https://entertainment.inquirer.net/files/2026/09/92D98F53-D90E-475F-9005-4E553428BD7B-700x388.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Beauty queen and lawyer Eva Patalinjug has welcomed the delegates of the 2026 Miss Asia Pacific International pageant to Cebu, and reminded them of the value of culture and connection in their quest for the crown. The former Binibining Pilipinas and Mutya ng Pilipinas titleholder, the president of the 58-year-old international pageant organization, addressed the delegates and guests at the Sashing Ceremony held in Cebu City on Sept. 25. There, the 38 delegates from around the world received their official sashes bearing the names of their respective countries and territories. Patalinjug told them of the deeper significance of the event. &#8220;Today, [&hellip;]... Keep on reading: Eva Patalinjug hopes to see culture, stories of Miss Asia Pacific Int'l delegates"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
-      "id": "inq-10i57vx",
-      "source": "inq",
-      "title": "Pope warns ‘machine paradise’ could undermine humanity",
-      "summary": "Pope Leo XIV warned Friday that a “paradise of machines” risked undermining humanity as he opened a trip to France by posing fundamental questions about what it means to be human in the age of…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T08:30:00.000Z",
-      "firstSeen": "2026-09-26T08:31:04.290Z",
-      "url": "https://cebudailynews.inquirer.net/769970/pope-warns-machine-paradise-could-undermine-humanity",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/09/download-2026-09-26T155547.351-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Pope Leo XIV warned Friday that a “paradise of machines” risked undermining humanity as he opened a trip to France by posing fundamental questions about what it means to be human in the age of artificial intelligence, a nuclear arms race and other threats to life itself. ... Keep on reading: Pope warns ‘machine paradise’ could undermine humanity"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-c0ro50",
-      "source": "inq",
-      "title": "Palace to Sara Duterte: Respond with evidence, stop using fallacies",
-      "summary": "MANILA, Philippines — Malacañang on Saturday called on Vice President Sara Duterte to learn how to respond to accusations using evidence, instead of relying on &#8216;red herring&#8217; and &#8216;ad…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T08:26:41.000Z",
-      "firstSeen": "2026-09-26T09:01:07.164Z",
-      "url": "https://newsinfo.inquirer.net/2312074/palace-to-sara-duterte-respond-with-evidence-stop-using-fallacies",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/04/claire-castro-sara-duterte-620x349.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Malacañang on Saturday called on Vice President Sara Duterte to learn how to respond to accusations using evidence, instead of relying on &#8216;red herring&#8217; and &#8216;ad hominem&#8217; fallacies. Palace press officer Claire Castro made the call after Duterte earlier denied accusations of receiving money from dismissed policeman Rodulfo Gracioso Jr., former security officer of former House Speaker Lord Allan Velasco. READ: Sara Duterte denies receiving money from Velasco&#8217;s ex-aide Instead of providing evidence, Duterte simply attributed the allegations to the current administration&#8217;s alleged despair to remove her. The vice president accused President Ferdinand Marcos Jr. of being “desperate” [&hellip;]... Keep on reading: Palace to Sara Duterte: Respond with evidence, stop using fallacies"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-8szkue",
@@ -3299,6 +3810,202 @@
       "source_of_text": "page"
     },
     {
+      "id": "cbc-p2673",
+      "source": "cbc",
+      "title": "Why is it so difficult for Ukraine to take down Russia's jet-powered drones?",
+      "summary": "Russia's jet-powered drones being used to carry out strikes on Kyiv and other parts of Ukraine are often able to evade air defences because they fly at higher altitudes and faster speeds. To stop…",
+      "byline": "Briar Stewart",
+      "section": "News/World",
+      "published": "2026-09-26T08:00:00.000Z",
+      "firstSeen": "2026-09-26T08:31:11.491Z",
+      "url": "https://www.cbc.ca/news/world/ukraine-jet-drone-9.7358784?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/c245f83b-d766-461e-ac8b-90b29c1a2830,1790387057043/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C130%2C3037%2C1708%29%3BResize%3D620",
+        "caption": "Firefighters work around the debris of what appears to be a jet-powered drone engine following a Russian strike on Kyiv Friday. (Angela Johnston/CBC)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "World·New"
+        },
+        {
+          "type": "p",
+          "text": "Russia's jet-powered drones being used to carry out strikes on Kyiv and other parts of Ukraine are often able to evade air defences because they fly at higher altitudes and faster speeds. To stop these new models, faster interceptors are needed, but that technology is still in the trial phase, Ukrainian officials say."
+        },
+        {
+          "type": "h",
+          "text": "Half of drones currently being launched at Ukraine are jet-powered, senior official suggests"
+        },
+        {
+          "type": "p",
+          "text": "When a Russian drone slammed into a high-rise residential building in Kyiv around 8 a.m. Friday, killing a 14-year-old boy and injuring several others, the remnants of a jet engine were plainly visible among the broken glass and blackened debris on the pavement."
+        },
+        {
+          "type": "p",
+          "text": "Russia's latest battlefield innovation — jet-powered drones — has been used to carry out strikes on the Ukrainian capital, including attacks targeting offices, data centres and warehouses."
+        },
+        {
+          "type": "p",
+          "text": "The weapons, which have been pummelling Kyiv and other parts of Ukraine for weeks, have often been able to evade Ukrainian air defences because they fly at higher altitudes and at much higher speeds, reaching more than 600 km/h."
+        },
+        {
+          "type": "p",
+          "text": "\"It's not easy to intercept. You need to intercept [at] a similar speed or faster,\" said Volodymyr Khomenko, head of the Explosive Ordnance Disposal Department of the National Police of Ukraine."
+        },
+        {
+          "type": "p",
+          "text": "\"For faster drones, we need faster interceptors.\""
+        },
+        {
+          "type": "p",
+          "text": "24 hours in Kyiv: Living through Russian drone strikes"
+        },
+        {
+          "type": "h",
+          "text": "What are jet-powered drones?"
+        },
+        {
+          "type": "p",
+          "text": "According to Ukrainian officials, Russia began testing its jet-powered strike drones two years ago in the Chernihiv region, north of Kyiv and near the border with Belarus."
+        },
+        {
+          "type": "p",
+          "text": "Unlike earlier models of Shahed drones, which were based on Iranian designs and included piston engines, the new versions are equipped with turbojet engines. Ukrainian military intelligence officials have said some of those engines are being sourced from China."
+        },
+        {
+          "type": "p",
+          "text": "There are three models of Geran jet-powered drones, with the latest being the Geran-5. Its design differs significantly from earlier versions. Instead of a triangular shape, it looks more like a cruise missile, with aerodynamic fins."
+        },
+        {
+          "type": "p",
+          "text": "The Geran-5 can cruise at about 600 km/h, roughly three times the speed of the earlier Shahed models that began attacking Ukrainian cities in 2022."
+        },
+        {
+          "type": "h",
+          "text": "How often is Russia using them?"
+        },
+        {
+          "type": "p",
+          "text": "Khomenko told CBC News that he believes about half of the drones currently being launched at Ukraine are jet-powered, while the other half are older models. But he says the balance is shifting rapidly."
+        },
+        {
+          "type": "p",
+          "text": "Ukraine's Air Force said Russia fired 2,800 jet-powered drones at Ukraine in August, almost twice as many as in July."
+        },
+        {
+          "type": "p",
+          "text": "In recent weeks, Russia has been sending the drones in small waves, often resulting in multihour air-raid alerts in Kyiv. Air defences can be heard throughout the city alongside the sound of explosions."
+        },
+        {
+          "type": "p",
+          "text": "Unlike older models, which emit a buzzing sound that's been compared to a motorcycle, the jet-powered drones are quieter. Instead, residents often report hearing a whooshing sound as they fly through the air."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ukraine's largest steel plant to shutter amid recurring Russian strikes",
+            "Russian drones are stalking Ukrainian trains and trying to hobble the country's rail system"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "When a drone crashed into the high-rise apartment building on Friday, Alice Boyko told CBC News she didn't think she heard the air-raid siren until after the explosion. She lives in the same building that was struck, but her apartment is on the opposite side."
+        },
+        {
+          "type": "p",
+          "text": "\"To be honest, I was more afraid of the missiles, but now I worry about drones, too."
+        },
+        {
+          "type": "p",
+          "text": "\"You never think that this is going to happen to you.\""
+        },
+        {
+          "type": "h",
+          "text": "Why are they so hard for air defences to intercept?"
+        },
+        {
+          "type": "p",
+          "text": "Ukraine's Air Force has said that it's intercepting about 60 per cent of the jet-powered drones, compared with more than 90 per cent of earlier models."
+        },
+        {
+          "type": "p",
+          "text": "During air-raid alerts in Kyiv, mobile units armed with heavy machine guns and shoulder-mounted surface-to-air missile systems track threats in the sky. Above them, fighter jets, including F-16s, try to shoot the drones down."
+        },
+        {
+          "type": "p",
+          "text": "Ukraine has also developed a large fleet of interceptor drones during the war. But the models currently in the field are not fast enough to intercept the jet-powered drones."
+        },
+        {
+          "type": "p",
+          "text": "Borys Dolyna, a commander of a Ukrainian interceptor-drone company, told CBC News that the jet-powered drones move so quickly that they can be difficult to see even on the video feeds from interceptor drones. In some cases, he says, they appear as little more than a small pixel on the screen."
+        },
+        {
+          "type": "p",
+          "text": "He says he's seen jet-powered drones several times, but their speed was so great that his team had no chance of intercepting them."
+        },
+        {
+          "type": "h",
+          "text": "What is Ukraine doing about it?"
+        },
+        {
+          "type": "p",
+          "text": "Ukrainian President Volodymyr Zelenskyy has said the country is trying to accelerate production of newly designed interceptors capable of bringing down the Russian drones."
+        },
+        {
+          "type": "p",
+          "text": "While officials have reported a number of successful interceptions, the technology is still in the trial phase."
+        },
+        {
+          "type": "p",
+          "text": "Cory Woods, a Canadian working as a drone-interceptor pilot in Ukraine who is normally deployed in the eastern part of the country closer to the front, says drone warfare is evolving so rapidly that it has become what he describes as a \"cat-and-mouse game.\""
+        },
+        {
+          "type": "p",
+          "text": "\"Every time the enemy makes an innovation and alters their technology or their tactics, we have to respond and change ours,\" he said in an interview with CBC News from Kyiv."
+        },
+        {
+          "type": "p",
+          "text": "\"Once they pick up on that, they change it again, and so it's constantly going back and forth.\""
+        },
+        {
+          "type": "p",
+          "text": "However, Woods says that if Ukraine is to seriously blunt Russia's ability to use strike drones across the country, its military must have weapons capable of targeting the factories where the drones are made and the sites where they're launched."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ukraine fires more than 1,000 drones at Russia, including hundreds launched at Moscow",
+            "The moment a Russian drone bypassed Ukrainian air defences"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"There's no point in hitting the arrow if you let the archer live,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "\"Russia has massive manufacturing capabilities. They've been gearing up for this for years. They've stockpiled a lot.\""
+        },
+        {
+          "type": "p",
+          "text": "One of Russia's deadly jet-powered drones crashed in this backyard"
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Briar Stewart is a CBC correspondent, based in London. During her nearly two decades with CBC, she has reported across Canada and internationally. She can be reached at briar.stewart@cbc.ca or on X @briarstewart."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
       "id": "cbc-9cewee",
       "source": "cbc",
       "title": "What is the truth about Diana? Her brother offers his view, ‘once and for all’",
@@ -3466,247 +4173,6 @@
         {
           "type": "p",
           "text": "Swan Song may indeed prove to be Spencer's last public words on his sister, but with that milestone anniversary of her death next year, there is no sense others will stop offering their own narratives of Diana any time soon."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-10e3e4f",
-      "source": "cbc",
-      "title": "Mothers crossing the Mexico-U.S. border risk everything to reunite with their children",
-      "summary": "While the migrant caravans may have disappeared from Tijuana, and this Mexican border city is no longer the waiting room for entry into the U.S., there are still those seeking to cross. Many who risk…",
-      "byline": "Jorge Barrera",
-      "section": "News/World",
-      "published": "2026-09-26T08:00:00.000Z",
-      "firstSeen": "2026-09-26T08:31:06.280Z",
-      "url": "https://www.cbc.ca/news/world/mexico-us-border-human-smuggling-9.7355869?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/8f8136d0-1966-478f-b91c-84e7732bc21c,1790289087409/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C13%2C1685%2C947%29%3BResize%3D620",
-        "caption": "Dina Ramos, seen at the Madre Asunta shelter in Tijuana, Mexico, on Sept. 16, was caught days earlier trying to cross the Mexican border to get back to her six children who were all born in the U.S. (Alessandro Molatore/CBC)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Maria says the smugglers formed a human ladder and told her to climb up by grabbing their shoulders and the steel bars of the border wall between Mexico and California."
-        },
-        {
-          "type": "p",
-          "text": "The human smugglers picked a spot along the border wall near Tecate, a municipality about 50 kilometres east of Tijuana. It was June, and Maria was trying to return to the U.S. to be reunited with her twin sons and husband in California. She was with a group of about five others also trying to cross."
-        },
-        {
-          "type": "p",
-          "text": "Maria says a young man was the first to scale up the human ladder and over the border wall. She was told to go up next and started to climb."
-        },
-        {
-          "type": "p",
-          "text": "\"Then I heard and saw that [U.S. Border Patrol] trucks started to arrive,\" said Maria, in an interview earlier this month with CBC News at the Instituto Madre Asunta shelter for women and children in Tijuana."
-        },
-        {
-          "type": "p",
-          "text": "Mexican moms willing to risk it all to see their kids in the U.S."
-        },
-        {
-          "type": "p",
-          "text": "Maria says she fell back on the Mexican side and landed among shrubs with thorns and the group started running. She says she doesn't know what happened to the young man who made it over the wall."
-        },
-        {
-          "type": "p",
-          "text": "CBC News is not using Maria’s full name because she fears repercussions for her attempts to enter the U.S. twice in the past 10 months."
-        },
-        {
-          "type": "p",
-          "text": "While migrant caravans from Tijuana have disappeared and this Mexican border city of about 2.3 million is no longer the waiting room for entry into the U.S., there are still people seeking to cross."
-        },
-        {
-          "type": "p",
-          "text": "Many who risk the journey have been separated from their families by deportation, including mothers who are trying to get back to their children, advocates say. And they're choosing more dangerous, clandestine routes that cost tens of thousands of dollars with narrow margins of success."
-        },
-        {
-          "type": "p",
-          "text": "She says she fell back on the Mexican side and landed among shrubs with thorns and the group started running. She doesn’t know what happened to the young man who had made it over the wall."
-        },
-        {
-          "type": "p",
-          "text": "Maria says her husband, who is still in California, arranged for her failed attempt to cross the border in June, but she doesn't know how much he paid. \"The only thing I know is that we owe money.\""
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Mexican woman fighting deportation in Montreal fears for autistic son",
-            "Canada’s Mexico visa requirements limit country’s tourism potential, says tour operator"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Vitalina Pietrobiassi, the director of the shelter run by the Catholic order of Scalabrinian Missionaries, says the Mexico-U.S. border is a place of \"pain\" and \"separation\" for many."
-        },
-        {
-          "type": "p",
-          "text": "\"The women who are deported come here to find a way out of their desperation,\" said Pietrobiassi."
-        },
-        {
-          "type": "h",
-          "text": "Smugglers charge up to $25,000 US"
-        },
-        {
-          "type": "p",
-          "text": "Next door, Raul Ochoa is the executive director at House of the Migrant, a shelter for men also run by the Scalabrinians. He says that based on conversations he's had, human smugglers in the area are now charging between $15,000 to $25,000 US to move people across the border."
-        },
-        {
-          "type": "p",
-          "text": "The low end of the smuggling price spectrum may mean following a guide to a remote spot where surveillance is weak, Ochoa says, adding that paying top dollar could get you guaranteed passage through a port of entry under an arrangement with a U.S. Customs and Border Protection agent."
-        },
-        {
-          "type": "p",
-          "text": "Crossing into the U.S. right now has a low probability of success, he says, even if one has the money to pay human smugglers known as coyotes."
-        },
-        {
-          "type": "p",
-          "text": "\"The border is basically sealed, there is a lot of security, and the price to pay a coyote is extremely high.\""
-        },
-        {
-          "type": "p",
-          "text": "Dina Ramos is also staying at the Instituto Madre Asunta. Ramos, a mother of six children who were all born in the U.S. where she lived undocumented for more than 20 years, says she was caught by U.S. authorities on Sept. 13, while trying to slip across the border."
-        },
-        {
-          "type": "p",
-          "text": "Ramos would not share details of her crossing attempt, but says she was trying to get back to her family in the U.S. after she returned to Mexico in July to see her ailing parents."
-        },
-        {
-          "type": "p",
-          "text": "\"My children are over there, on the other side, and that's what hurts,\" she said."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Migrants and advocates call on Ottawa for permanent status, with 11 rallies across the country"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Ramos says she's desperate to be with her children and plans to find another way across the border."
-        },
-        {
-          "type": "p",
-          "text": "\"One does many things for love,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "\"I am going to ask for direction from God. I have faith in Him and He is the only one that can help me.\""
-        },
-        {
-          "type": "h",
-          "text": "Applying to come to Canada"
-        },
-        {
-          "type": "p",
-          "text": "Ramos was one of more than 10,000 people intercepted since last October by U.S. border authorities in the San Diego Sector. The sector covers roughly 96 km of land border from the Pacific Ocean west of Tijuana to the Tecate region."
-        },
-        {
-          "type": "p",
-          "text": "This figure is a sharp drop from the approximately 320,000 apprehensions recorded in that area between October 2023 and September 2024, according to U.S. border data."
-        },
-        {
-          "type": "p",
-          "text": "U.S. Department of Homeland Security and U.S. Customs and Border Protection issued a statement on Sept. 16 saying that apprehensions along the U.S.-Mexico border had dropped by more than 90 per cent since December 2023."
-        },
-        {
-          "type": "p",
-          "text": "Tijuana immigration lawyer Soraya Vazquez, deputy director of Al Otro Lado, an organization that provides legal and humanitarian support to migrants and refugees, says many of the people still willing to risk crossing the border are deportees trying to get back to their families."
-        },
-        {
-          "type": "p",
-          "text": "\"It's something that is still happening, most of all, yes, with deported mothers who left their families, their children,\" said Vazquez. \"They will always have a yearning to return.\""
-        },
-        {
-          "type": "p",
-          "text": "For Maria, staying in Tijuana is not an option. She says she wants to get back to her twin sons — one is set to join the U.S. Marines — and her husband."
-        },
-        {
-          "type": "p",
-          "text": "Maria, originally from the state of Mexico, has lived undocumented in the U.S. for years. She says she has managed to cross irregularly between the two countries twice. In December 2024 she received word that her oldest son had suffered a massive heart attack at age 29, and she rushed back to Mexico. He died before she arrived and she stayed for a year after."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "U.S. deporting thousands of Mexican migrants to Central American countries"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "She says the family considered moving to Canada because her U.S.-born twins would have no issues entering the country."
-        },
-        {
-          "type": "p",
-          "text": "Maria hired an immigration lawyer in Mexico City who she says got her an appointment with the Canadian embassy in the fall of 2025. At that appointment, she says, a Canadian official took her photo, fingerprints and interviewed her."
-        },
-        {
-          "type": "p",
-          "text": "\"The person who interviewed me told me, 'Good luck,' and that he believed I was a good person,\" Maria said."
-        },
-        {
-          "type": "p",
-          "text": "But she says Canadian officials rejected her application and she was never told why. So, in December 2025, she decided to put her life in the hands of human smugglers and cross into the U.S. through the Mexican border state of Sonora, which borders Arizona."
-        },
-        {
-          "type": "h",
-          "text": "'The dream ends here'"
-        },
-        {
-          "type": "p",
-          "text": "Maria says she was with a group of about half a dozen people who walked for three days through the desert and mountainous borderlands. On the third day, at about 2 or 3 a.m., they believed they had successfully managed to make it across."
-        },
-        {
-          "type": "p",
-          "text": "\"And then all these flashlights turned on,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "\"It was immigration and they told us, 'Stop walking, don't advance, stand there.' They had dogs.\""
-        },
-        {
-          "type": "p",
-          "text": "On the ground at the border wall between the U.S. and Mexico"
-        },
-        {
-          "type": "p",
-          "text": "Maria says she'd been travelling with another mother and her 14-year-old son. She says the mother told her she was trying to save the boy who no longer wanted to go school and was getting involved with people linked to crime."
-        },
-        {
-          "type": "p",
-          "text": "\"She cried. All that effort, all those bruises, all those falls, it stays here, the dream ends here,\" said Maria."
-        },
-        {
-          "type": "p",
-          "text": "They were all handcuffed and made to walk what Maria says felt like a long distance to a bus that took them to the Central Arizona Florence Correctional Center about 100 km southeast of Phoenix, Ariz."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "In the Arizona desert, a race to help migrants who have just crossed the border"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Maria was assigned a lawyer who recommended she plead guilty at her court hearing before a judge in Tucson, Ariz. After her plea, Maria was deported back to Mexico about a week before Christmas. She'd spent about two weeks incarcerated."
-        },
-        {
-          "type": "p",
-          "text": "Despite her two failed attempts, Maria says she plans to try again to get to her sons."
-        },
-        {
-          "type": "p",
-          "text": "\"It's tough. At first, it's a nightmare, but that nightmare can turn into a dream,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "\"A dream I want to reach in the future … to be with my family, to be united.\""
         }
       ],
       "truncated": false,
@@ -3966,195 +4432,240 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-p2673",
+      "id": "cbc-10e3e4f",
       "source": "cbc",
-      "title": "Why is it so difficult for Ukraine to take down Russia's jet-powered drones?",
-      "summary": "Russia's jet-powered drones being used to carry out strikes on Kyiv and other parts of Ukraine are often able to evade air defences because they fly at higher altitudes and faster speeds. To stop…",
-      "byline": "Briar Stewart",
+      "title": "Mothers crossing the Mexico-U.S. border risk everything to reunite with their children",
+      "summary": "While the migrant caravans may have disappeared from Tijuana, and this Mexican border city is no longer the waiting room for entry into the U.S., there are still those seeking to cross. Many who risk…",
+      "byline": "Jorge Barrera",
       "section": "News/World",
       "published": "2026-09-26T08:00:00.000Z",
-      "firstSeen": "2026-09-26T08:31:11.491Z",
-      "url": "https://www.cbc.ca/news/world/ukraine-jet-drone-9.7358784?cmp=rss",
+      "firstSeen": "2026-09-26T08:31:06.280Z",
+      "url": "https://www.cbc.ca/news/world/mexico-us-border-human-smuggling-9.7355869?cmp=rss",
       "image": {
-        "src": "https://i.cbc.ca/ais/c245f83b-d766-461e-ac8b-90b29c1a2830,1790387057043/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C130%2C3037%2C1708%29%3BResize%3D620",
-        "caption": "Firefighters work around the debris of what appears to be a jet-powered drone engine following a Russian strike on Kyiv Friday. (Angela Johnston/CBC)"
+        "src": "https://i.cbc.ca/ais/8f8136d0-1966-478f-b91c-84e7732bc21c,1790289087409/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C13%2C1685%2C947%29%3BResize%3D620",
+        "caption": "Dina Ramos, seen at the Madre Asunta shelter in Tijuana, Mexico, on Sept. 16, was caught days earlier trying to cross the Mexican border to get back to her six children who were all born in the U.S. (Alessandro Molatore/CBC)"
       },
       "blocks": [
         {
           "type": "p",
-          "text": "World·New"
+          "text": "Maria says the smugglers formed a human ladder and told her to climb up by grabbing their shoulders and the steel bars of the border wall between Mexico and California."
         },
         {
           "type": "p",
-          "text": "Russia's jet-powered drones being used to carry out strikes on Kyiv and other parts of Ukraine are often able to evade air defences because they fly at higher altitudes and faster speeds. To stop these new models, faster interceptors are needed, but that technology is still in the trial phase, Ukrainian officials say."
-        },
-        {
-          "type": "h",
-          "text": "Half of drones currently being launched at Ukraine are jet-powered, senior official suggests"
+          "text": "The human smugglers picked a spot along the border wall near Tecate, a municipality about 50 kilometres east of Tijuana. It was June, and Maria was trying to return to the U.S. to be reunited with her twin sons and husband in California. She was with a group of about five others also trying to cross."
         },
         {
           "type": "p",
-          "text": "When a Russian drone slammed into a high-rise residential building in Kyiv around 8 a.m. Friday, killing a 14-year-old boy and injuring several others, the remnants of a jet engine were plainly visible among the broken glass and blackened debris on the pavement."
+          "text": "Maria says a young man was the first to scale up the human ladder and over the border wall. She was told to go up next and started to climb."
         },
         {
           "type": "p",
-          "text": "Russia's latest battlefield innovation — jet-powered drones — has been used to carry out strikes on the Ukrainian capital, including attacks targeting offices, data centres and warehouses."
+          "text": "\"Then I heard and saw that [U.S. Border Patrol] trucks started to arrive,\" said Maria, in an interview earlier this month with CBC News at the Instituto Madre Asunta shelter for women and children in Tijuana."
         },
         {
           "type": "p",
-          "text": "The weapons, which have been pummelling Kyiv and other parts of Ukraine for weeks, have often been able to evade Ukrainian air defences because they fly at higher altitudes and at much higher speeds, reaching more than 600 km/h."
+          "text": "Mexican moms willing to risk it all to see their kids in the U.S."
         },
         {
           "type": "p",
-          "text": "\"It's not easy to intercept. You need to intercept [at] a similar speed or faster,\" said Volodymyr Khomenko, head of the Explosive Ordnance Disposal Department of the National Police of Ukraine."
+          "text": "Maria says she fell back on the Mexican side and landed among shrubs with thorns and the group started running. She says she doesn't know what happened to the young man who made it over the wall."
         },
         {
           "type": "p",
-          "text": "\"For faster drones, we need faster interceptors.\""
+          "text": "CBC News is not using Maria’s full name because she fears repercussions for her attempts to enter the U.S. twice in the past 10 months."
         },
         {
           "type": "p",
-          "text": "24 hours in Kyiv: Living through Russian drone strikes"
-        },
-        {
-          "type": "h",
-          "text": "What are jet-powered drones?"
+          "text": "While migrant caravans from Tijuana have disappeared and this Mexican border city of about 2.3 million is no longer the waiting room for entry into the U.S., there are still people seeking to cross."
         },
         {
           "type": "p",
-          "text": "According to Ukrainian officials, Russia began testing its jet-powered strike drones two years ago in the Chernihiv region, north of Kyiv and near the border with Belarus."
+          "text": "Many who risk the journey have been separated from their families by deportation, including mothers who are trying to get back to their children, advocates say. And they're choosing more dangerous, clandestine routes that cost tens of thousands of dollars with narrow margins of success."
         },
         {
           "type": "p",
-          "text": "Unlike earlier models of Shahed drones, which were based on Iranian designs and included piston engines, the new versions are equipped with turbojet engines. Ukrainian military intelligence officials have said some of those engines are being sourced from China."
+          "text": "She says she fell back on the Mexican side and landed among shrubs with thorns and the group started running. She doesn’t know what happened to the young man who had made it over the wall."
         },
         {
           "type": "p",
-          "text": "There are three models of Geran jet-powered drones, with the latest being the Geran-5. Its design differs significantly from earlier versions. Instead of a triangular shape, it looks more like a cruise missile, with aerodynamic fins."
-        },
-        {
-          "type": "p",
-          "text": "The Geran-5 can cruise at about 600 km/h, roughly three times the speed of the earlier Shahed models that began attacking Ukrainian cities in 2022."
-        },
-        {
-          "type": "h",
-          "text": "How often is Russia using them?"
-        },
-        {
-          "type": "p",
-          "text": "Khomenko told CBC News that he believes about half of the drones currently being launched at Ukraine are jet-powered, while the other half are older models. But he says the balance is shifting rapidly."
-        },
-        {
-          "type": "p",
-          "text": "Ukraine's Air Force said Russia fired 2,800 jet-powered drones at Ukraine in August, almost twice as many as in July."
-        },
-        {
-          "type": "p",
-          "text": "In recent weeks, Russia has been sending the drones in small waves, often resulting in multihour air-raid alerts in Kyiv. Air defences can be heard throughout the city alongside the sound of explosions."
-        },
-        {
-          "type": "p",
-          "text": "Unlike older models, which emit a buzzing sound that's been compared to a motorcycle, the jet-powered drones are quieter. Instead, residents often report hearing a whooshing sound as they fly through the air."
+          "text": "Maria says her husband, who is still in California, arranged for her failed attempt to cross the border in June, but she doesn't know how much he paid. \"The only thing I know is that we owe money.\""
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "Ukraine's largest steel plant to shutter amid recurring Russian strikes",
-            "Russian drones are stalking Ukrainian trains and trying to hobble the country's rail system"
+            "Mexican woman fighting deportation in Montreal fears for autistic son",
+            "Canada’s Mexico visa requirements limit country’s tourism potential, says tour operator"
           ]
         },
         {
           "type": "p",
-          "text": "When a drone crashed into the high-rise apartment building on Friday, Alice Boyko told CBC News she didn't think she heard the air-raid siren until after the explosion. She lives in the same building that was struck, but her apartment is on the opposite side."
+          "text": "Vitalina Pietrobiassi, the director of the shelter run by the Catholic order of Scalabrinian Missionaries, says the Mexico-U.S. border is a place of \"pain\" and \"separation\" for many."
         },
         {
           "type": "p",
-          "text": "\"To be honest, I was more afraid of the missiles, but now I worry about drones, too."
-        },
-        {
-          "type": "p",
-          "text": "\"You never think that this is going to happen to you.\""
+          "text": "\"The women who are deported come here to find a way out of their desperation,\" said Pietrobiassi."
         },
         {
           "type": "h",
-          "text": "Why are they so hard for air defences to intercept?"
+          "text": "Smugglers charge up to $25,000 US"
         },
         {
           "type": "p",
-          "text": "Ukraine's Air Force has said that it's intercepting about 60 per cent of the jet-powered drones, compared with more than 90 per cent of earlier models."
+          "text": "Next door, Raul Ochoa is the executive director at House of the Migrant, a shelter for men also run by the Scalabrinians. He says that based on conversations he's had, human smugglers in the area are now charging between $15,000 to $25,000 US to move people across the border."
         },
         {
           "type": "p",
-          "text": "During air-raid alerts in Kyiv, mobile units armed with heavy machine guns and shoulder-mounted surface-to-air missile systems track threats in the sky. Above them, fighter jets, including F-16s, try to shoot the drones down."
+          "text": "The low end of the smuggling price spectrum may mean following a guide to a remote spot where surveillance is weak, Ochoa says, adding that paying top dollar could get you guaranteed passage through a port of entry under an arrangement with a U.S. Customs and Border Protection agent."
         },
         {
           "type": "p",
-          "text": "Ukraine has also developed a large fleet of interceptor drones during the war. But the models currently in the field are not fast enough to intercept the jet-powered drones."
+          "text": "Crossing into the U.S. right now has a low probability of success, he says, even if one has the money to pay human smugglers known as coyotes."
         },
         {
           "type": "p",
-          "text": "Borys Dolyna, a commander of a Ukrainian interceptor-drone company, told CBC News that the jet-powered drones move so quickly that they can be difficult to see even on the video feeds from interceptor drones. In some cases, he says, they appear as little more than a small pixel on the screen."
+          "text": "\"The border is basically sealed, there is a lot of security, and the price to pay a coyote is extremely high.\""
         },
         {
           "type": "p",
-          "text": "He says he's seen jet-powered drones several times, but their speed was so great that his team had no chance of intercepting them."
-        },
-        {
-          "type": "h",
-          "text": "What is Ukraine doing about it?"
+          "text": "Dina Ramos is also staying at the Instituto Madre Asunta. Ramos, a mother of six children who were all born in the U.S. where she lived undocumented for more than 20 years, says she was caught by U.S. authorities on Sept. 13, while trying to slip across the border."
         },
         {
           "type": "p",
-          "text": "Ukrainian President Volodymyr Zelenskyy has said the country is trying to accelerate production of newly designed interceptors capable of bringing down the Russian drones."
+          "text": "Ramos would not share details of her crossing attempt, but says she was trying to get back to her family in the U.S. after she returned to Mexico in July to see her ailing parents."
         },
         {
           "type": "p",
-          "text": "While officials have reported a number of successful interceptions, the technology is still in the trial phase."
-        },
-        {
-          "type": "p",
-          "text": "Cory Woods, a Canadian working as a drone-interceptor pilot in Ukraine who is normally deployed in the eastern part of the country closer to the front, says drone warfare is evolving so rapidly that it has become what he describes as a \"cat-and-mouse game.\""
-        },
-        {
-          "type": "p",
-          "text": "\"Every time the enemy makes an innovation and alters their technology or their tactics, we have to respond and change ours,\" he said in an interview with CBC News from Kyiv."
-        },
-        {
-          "type": "p",
-          "text": "\"Once they pick up on that, they change it again, and so it's constantly going back and forth.\""
-        },
-        {
-          "type": "p",
-          "text": "However, Woods says that if Ukraine is to seriously blunt Russia's ability to use strike drones across the country, its military must have weapons capable of targeting the factories where the drones are made and the sites where they're launched."
+          "text": "\"My children are over there, on the other side, and that's what hurts,\" she said."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "Ukraine fires more than 1,000 drones at Russia, including hundreds launched at Moscow",
-            "The moment a Russian drone bypassed Ukrainian air defences"
+            "Migrants and advocates call on Ottawa for permanent status, with 11 rallies across the country"
           ]
         },
         {
           "type": "p",
-          "text": "\"There's no point in hitting the arrow if you let the archer live,\" he said."
+          "text": "Ramos says she's desperate to be with her children and plans to find another way across the border."
         },
         {
           "type": "p",
-          "text": "\"Russia has massive manufacturing capabilities. They've been gearing up for this for years. They've stockpiled a lot.\""
+          "text": "\"One does many things for love,\" she said."
         },
         {
           "type": "p",
-          "text": "One of Russia's deadly jet-powered drones crashed in this backyard"
+          "text": "\"I am going to ask for direction from God. I have faith in Him and He is the only one that can help me.\""
         },
         {
           "type": "h",
-          "text": "ABOUT THE AUTHOR"
+          "text": "Applying to come to Canada"
         },
         {
           "type": "p",
-          "text": "Briar Stewart is a CBC correspondent, based in London. During her nearly two decades with CBC, she has reported across Canada and internationally. She can be reached at briar.stewart@cbc.ca or on X @briarstewart."
+          "text": "Ramos was one of more than 10,000 people intercepted since last October by U.S. border authorities in the San Diego Sector. The sector covers roughly 96 km of land border from the Pacific Ocean west of Tijuana to the Tecate region."
+        },
+        {
+          "type": "p",
+          "text": "This figure is a sharp drop from the approximately 320,000 apprehensions recorded in that area between October 2023 and September 2024, according to U.S. border data."
+        },
+        {
+          "type": "p",
+          "text": "U.S. Department of Homeland Security and U.S. Customs and Border Protection issued a statement on Sept. 16 saying that apprehensions along the U.S.-Mexico border had dropped by more than 90 per cent since December 2023."
+        },
+        {
+          "type": "p",
+          "text": "Tijuana immigration lawyer Soraya Vazquez, deputy director of Al Otro Lado, an organization that provides legal and humanitarian support to migrants and refugees, says many of the people still willing to risk crossing the border are deportees trying to get back to their families."
+        },
+        {
+          "type": "p",
+          "text": "\"It's something that is still happening, most of all, yes, with deported mothers who left their families, their children,\" said Vazquez. \"They will always have a yearning to return.\""
+        },
+        {
+          "type": "p",
+          "text": "For Maria, staying in Tijuana is not an option. She says she wants to get back to her twin sons — one is set to join the U.S. Marines — and her husband."
+        },
+        {
+          "type": "p",
+          "text": "Maria, originally from the state of Mexico, has lived undocumented in the U.S. for years. She says she has managed to cross irregularly between the two countries twice. In December 2024 she received word that her oldest son had suffered a massive heart attack at age 29, and she rushed back to Mexico. He died before she arrived and she stayed for a year after."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "U.S. deporting thousands of Mexican migrants to Central American countries"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "She says the family considered moving to Canada because her U.S.-born twins would have no issues entering the country."
+        },
+        {
+          "type": "p",
+          "text": "Maria hired an immigration lawyer in Mexico City who she says got her an appointment with the Canadian embassy in the fall of 2025. At that appointment, she says, a Canadian official took her photo, fingerprints and interviewed her."
+        },
+        {
+          "type": "p",
+          "text": "\"The person who interviewed me told me, 'Good luck,' and that he believed I was a good person,\" Maria said."
+        },
+        {
+          "type": "p",
+          "text": "But she says Canadian officials rejected her application and she was never told why. So, in December 2025, she decided to put her life in the hands of human smugglers and cross into the U.S. through the Mexican border state of Sonora, which borders Arizona."
+        },
+        {
+          "type": "h",
+          "text": "'The dream ends here'"
+        },
+        {
+          "type": "p",
+          "text": "Maria says she was with a group of about half a dozen people who walked for three days through the desert and mountainous borderlands. On the third day, at about 2 or 3 a.m., they believed they had successfully managed to make it across."
+        },
+        {
+          "type": "p",
+          "text": "\"And then all these flashlights turned on,\" she said."
+        },
+        {
+          "type": "p",
+          "text": "\"It was immigration and they told us, 'Stop walking, don't advance, stand there.' They had dogs.\""
+        },
+        {
+          "type": "p",
+          "text": "On the ground at the border wall between the U.S. and Mexico"
+        },
+        {
+          "type": "p",
+          "text": "Maria says she'd been travelling with another mother and her 14-year-old son. She says the mother told her she was trying to save the boy who no longer wanted to go school and was getting involved with people linked to crime."
+        },
+        {
+          "type": "p",
+          "text": "\"She cried. All that effort, all those bruises, all those falls, it stays here, the dream ends here,\" said Maria."
+        },
+        {
+          "type": "p",
+          "text": "They were all handcuffed and made to walk what Maria says felt like a long distance to a bus that took them to the Central Arizona Florence Correctional Center about 100 km southeast of Phoenix, Ariz."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "In the Arizona desert, a race to help migrants who have just crossed the border"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Maria was assigned a lawyer who recommended she plead guilty at her court hearing before a judge in Tucson, Ariz. After her plea, Maria was deported back to Mexico about a week before Christmas. She'd spent about two weeks incarcerated."
+        },
+        {
+          "type": "p",
+          "text": "Despite her two failed attempts, Maria says she plans to try again to get to her sons."
+        },
+        {
+          "type": "p",
+          "text": "\"It's tough. At first, it's a nightmare, but that nightmare can turn into a dream,\" she said."
+        },
+        {
+          "type": "p",
+          "text": "\"A dream I want to reach in the future … to be with my family, to be united.\""
         }
       ],
       "truncated": false,
@@ -6759,122 +7270,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "grd-pyp7qz",
-      "source": "grd",
-      "title": "Labour must reunite progressive voters to win the next election, says Lucy Powell",
-      "summary": "<p>The deputy leader wants the party to take advantage of a split on the right and not be embarrassed to show its values</p><p>Labour must “reunite the progressive voter coalition” if it is to take…",
-      "byline": "Jessica Elgot Deputy political editor",
-      "section": "Labour",
-      "published": "2026-09-26T05:00:29.000Z",
-      "firstSeen": "2026-09-26T05:31:05.208Z",
-      "url": "https://www.theguardian.com/politics/2026/sep/26/labour-must-reunite-progressive-voters-to-win-the-next-election-says-lucy-powell",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/5dabb769302d1d0cf97dd3c25fbc985d6ee61b05/60_0_2917_2334/master/2917.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=3a25036df3915ac4bb9a4b2d5a31ca8a",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Labour must “reunite the progressive voter coalition” if it is to take advantage of a split on the right and win the next election, the party’s deputy leader has said."
-        },
-        {
-          "type": "p",
-          "text": "Lucy Powell, who won the race to be deputy leader 12 months ago with a warning that Labour was losing the fight to be heard as Reform UK surged, said the government now had a second chance under Andy Burnham."
-        },
-        {
-          "type": "p",
-          "text": "In an interview with the Guardian, Powell said the party had clearly required a “change of leader” to revive its fortunes and tell a better story, after becoming “too technical and pessimistic”."
-        },
-        {
-          "type": "p",
-          "text": "Labour’s improved poll ratings have led to speculation this week that Andy Burnham will call a snap election, but the prime minister rejected that on Friday and said the next contest would be in 2029."
-        },
-        {
-          "type": "p",
-          "text": "However, the Labour conference will get underway this weekend with polls beginning to show for the first time in almost two years that Labour might be within touching distance of winning a majority at the next election – 12 months on from polls that suggested Reform UK could win a huge victory."
-        },
-        {
-          "type": "p",
-          "text": "Powell said Labour was beginning to get a hearing again and should not be embarrassed to show its values clearly."
-        },
-        {
-          "type": "p",
-          "text": "“If you look at the evidence from recent elections – right across the board – it’s clear that whichever party manages to unite its voter coalition is the one that wins. And for us on the left, that means bringing our centre-left bloc back together,” she said. But she added that “includes some who have considered Reform as they have lost faith in the status quo”."
-        },
-        {
-          "type": "p",
-          "text": "She said Labour would bring progressive voters who had turned to the Greens, SNP or Plaid Cymru back to trusting Labour over the coming months and years – saying they had not always seen Labour as the best chance to defeat right-wing politics. “I’ve always thought there was a clear majority in this country who didn’t want the kind of politics of Reform and that divisive blaming of others – they didn’t like it,” she said."
-        },
-        {
-          "type": "p",
-          "text": "“The challenge has been that sentiment has not all come to Labour and the progressive coalition was very, very fragmented. And part of our task and challenge is to reunite that progressive alliance and that voter coalition."
-        },
-        {
-          "type": "p",
-          "text": "“I think we can. We’ve got red shoots of hope coming through. There are a lot more choices for people [when it comes to political parties] … but the task is to rise above that and to be the leaders of the progressive change.”"
-        },
-        {
-          "type": "p",
-          "text": "Ahead of her conference speech, the education secretary said she will use her new role to announce an expansion of anti-harassment work in schools, having called in her deputy leadership race for Labour to be more explicitly progressive especially calling out racism and misogyny."
-        },
-        {
-          "type": "p",
-          "text": "She will say schools must go further than the strategy announced earlier this year to tackle misogyny, where pupils will learn about deepfakes, image-based abuse and online harassment."
-        },
-        {
-          "type": "p",
-          "text": "Powell said schools would be required to “embed healthy relationships and belonging into every part of school life, not just RSHE [relationships, sex and health education] lessons” and show they were helping to create real-world, authentic community."
-        },
-        {
-          "type": "p",
-          "text": "“We simply cannot just teach our way out of misogyny,” she said. “Schools with strengthened RSHE teaching but no wider culture shift will not shift attitudes.”"
-        },
-        {
-          "type": "p",
-          "text": "She said Labour was now “on the front foot” and the party would talk more boldly about choices like workers’ rights and free childcare hours."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "“Let’s not be embarrassed about that, that’s what we are,” she said. “We lift children out of poverty, we take the difficult decisions in order to do that. I think at times we’ve been a bit worried about the reaction rather than just being clear about why we’re doing that.”"
-        },
-        {
-          "type": "p",
-          "text": "“There was a real strong desire for that clearer political communication. Of purpose, of story, of values. Andy knew that that’s what he needed to do. That was what the moment required,” she said."
-        },
-        {
-          "type": "p",
-          "text": "Powell said it would be obvious under Burnham what Labour’s values were – suggesting he would not make the same missteps on issues like welfare."
-        },
-        {
-          "type": "p",
-          "text": "“If we’re not for pensioner poverty, and we’re not addressing that, and we are not supporting people who need the safety net, then what are we for?” She added that the government under Starmer had “lost sight of some of the politics and the purpose” once they came into power."
-        },
-        {
-          "type": "p",
-          "text": "“We have to be clear-sighted about what we’re doing, who we’re doing it for and clearly articulate that every single day.”"
-        },
-        {
-          "type": "p",
-          "text": "“It’s really encouraging to see that people are coming back. Andy’s shown that we can win in places like Makerfield against Reform, and in some key council byelections we previously lost to the Greens in May.”"
-        },
-        {
-          "type": "p",
-          "text": "Powell declined to agree directly with the chancellor, John Healey, that Burnham’s government was offering “continuity”. “We are on the same manifesto, but look I think people want change. We have to seize that opportunity of that second hearing to really punch home with that Labour story and the underpinning of why we’re doing what we’re going.”"
-        },
-        {
-          "type": "p",
-          "text": "Powell said she wanted to use the social media ban for under-16s as a moment to think about how to help young people to build real life communities that would replace the online world “so that people aren’t just accessing all their content and all their thoughts from social media … We’ve kind of ended up with this highly connected world where actually isolation has become a bigger feature.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "grd-c01yng",
@@ -9488,78 +9883,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "grd-mcg5tw",
-      "source": "grd",
-      "title": "Trump cancels nearly $1bn in funding approved by Congress",
-      "summary": "<p>President using rare power to revoke expenditure with bipartisan approval to aid immigrant services</p><p>Donald Trump is canceling nearly $1bn in spending approved by Congress, the White House…",
-      "byline": "Guardian staff and agencies",
-      "section": "Donald Trump",
-      "published": "2026-09-26T01:00:34.000Z",
-      "firstSeen": "2026-09-26T01:31:02.647Z",
-      "url": "https://www.theguardian.com/us-news/2026/sep/25/trump-cancels-congress-funding",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/66b8011421aaab32e41eec06e7b7f6103e22e10d/858_0_7200_5760/master/7200.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7bbb12a1b41a84988884bbce534d8ea7",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Donald Trump is canceling nearly $1bn in spending approved by Congress, the White House announced on Friday, using a rare and contested power to axe funding for immigrant services and diversity-focused initiatives."
-        },
-        {
-          "type": "p",
-          "text": "Trump’s office of management and budget described the funding cut as focused on “the most harmful government spending”."
-        },
-        {
-          "type": "p",
-          "text": "Most of the cuts are focused on services for immigrants, including non-profits that serve refugees and unaccompanied minors accused of being in the country illegally. The administration says the funds are no longer necessary because illegal border crossings have diminished considerably."
-        },
-        {
-          "type": "p",
-          "text": "A White House press release announcing the funding rescissions notes that some of the organizations are led by people who worked in the administration of Democratic president Barack Obama."
-        },
-        {
-          "type": "p",
-          "text": "Trump’s move was condemned by senator Susan Collins, a Republican in a tough re-election campaign and chair of the Senate appropriations committee."
-        },
-        {
-          "type": "p",
-          "text": "Collins said in a statement the action came without warning or consultation. She also said she would work to address with colleagues “these illegal actions”."
-        },
-        {
-          "type": "p",
-          "text": "“Not only is the delay itself an impoundment that was not reported to Congress, but also it is a usurpation of Congress’s appropriations powers,” Collins said. “OMB is an agency of the executive branch. It does not get to decide which programs are worth funding.”"
-        },
-        {
-          "type": "p",
-          "text": "“This is theft from the American people, plain and simple,” Patty Murray, the Washington Democratic senator, who is vice-chair of the appropriations committee said in a statement. “These are funds Congress has delivered on a bipartisan basis and should be helping people – not cut off by a president more focused on building a ballroom than investing in families. Every Republican who voted for these bills should be furious, because [Russell] Vought is saying their votes don’t count.”"
-        },
-        {
-          "type": "p",
-          "text": "Typically, Congress can review the president’s proposed spending cuts before they take effect. But Trump made that all but impossible by announcing them with just five days left in the federal fiscal year. The government accountability office has called the maneuver, known as a “pocket rescission,” illegal."
-        },
-        {
-          "type": "p",
-          "text": "Collins called it the latest attempt by OMB to “undermine Congress’s constitutional power of the purse”."
-        },
-        {
-          "type": "p",
-          "text": "A year ago, Trump issued a pocket rescission for the first time in 50 years by blocking $4.9bn in congressionally approved foreign aid. The US supreme court declined to block those rescissions, saying that Trump’s authority over foreign affairs weighed heavily in its decision. This year, Trump is targeting domestic spending."
-        },
-        {
-          "type": "p",
-          "text": "The use of a pocket rescission fits part of a broader pattern by the Trump administration to exact greater control over the US government, eroding the power of Congress."
-        },
-        {
-          "type": "p",
-          "text": "The administration has also fired federal workers, imposed a historic increase in tariffs, and started the war in Iran without going through Congress, putting the burden on the judicial branch to determine the limits of presidential power."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "abs-1m6xsmh",
@@ -12347,6 +12670,210 @@
       "source_of_text": "page"
     },
     {
+      "id": "bbc-fa2hzg",
+      "source": "bbc",
+      "title": "What is kratom, the 'gas station heroin' alarming officials in the US?",
+      "summary": "Kratom, found during an investigation into the deaths of two college students, has been sold in the US for around a decade.",
+      "byline": "Brandon Drenon and Madeline Halpert",
+      "section": "",
+      "published": "2026-09-25T20:06:39.000Z",
+      "firstSeen": "2026-09-26T11:31:05.151Z",
+      "url": "https://www.bbc.co.uk/news/articles/cjn5ddzekwnro?at_medium=RSS&at_campaign=rss",
+      "image": {
+        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2af/live/bf4743d0-b910-11f1-a7d5-4340f404ef0f.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Image source, Getty Images"
+        },
+        {
+          "type": "p",
+          "text": "ByBrandon Drenon and Madeline Halpert"
+        },
+        {
+          "type": "p",
+          "text": "Jeffrey Deaver, a 58-year-old retired timber cutter in the state of Washington, has taken kratom for four years to help with severe chronic hip and knee pain."
+        },
+        {
+          "type": "p",
+          "text": "He discovered the herbal product when he couldn't find relief from doctors and while waiting for surgeries. Scared at first, he \"started small\", but then took more until his pain went away."
+        },
+        {
+          "type": "p",
+          "text": "\"It was like a miracle,\" Deaver said. \"I could sleep. I could function."
+        },
+        {
+          "type": "p",
+          "text": "\"I just don't know what I'd do without it.\""
+        },
+        {
+          "type": "p",
+          "text": "Kratom - an herb with opioid-like effects - has grown in popularity in the US over the last decade, and is typically purchased over-the-counter and consumed in pill or liquid form."
+        },
+        {
+          "type": "p",
+          "text": "This week, investigators found packaged kratom in the possession of two deceased University of Mississippi students. Although their deaths were not attributed to kratom, officials are now issuing warnings about its consumption."
+        },
+        {
+          "type": "p",
+          "text": "For years, anti-kratom advocates have pushed for bans, and in some countries, like the UK, it's illegal. But Kratom is not regulated by the US Food and Drug Administration and is legal in some states, including Mississippi."
+        },
+        {
+          "type": "p",
+          "text": "Here's what we know about it:"
+        },
+        {
+          "type": "h",
+          "text": "What is kratom?"
+        },
+        {
+          "type": "p",
+          "text": "Kratom is a tree that is native to Southeast Asia in countries like Thailand, Malaysia and Indonesia."
+        },
+        {
+          "type": "p",
+          "text": "It's been used for centuries for its stimulant properties, grounded and consumed similar to tea."
+        },
+        {
+          "type": "p",
+          "text": "As its popularity spread around the globe, it entered the US market as a supplement around 2016."
+        },
+        {
+          "type": "p",
+          "text": "\"That's really where the problems began,\" said Dr Shane Speights, dean of the New York Institute of Technology College of Osteopathic Medicine at Arkansas State University."
+        },
+        {
+          "type": "p",
+          "text": "In the US kratom is mostly sold in highly concentrated forms either via pill, powder or liquid, Speights said."
+        },
+        {
+          "type": "p",
+          "text": "It's also widely available - found everywhere from convenience stores and petrol stations to vape shops."
+        },
+        {
+          "type": "p",
+          "text": "Also, because of the supplement classification, kratom products are not federally regulated."
+        },
+        {
+          "type": "p",
+          "text": "\"There's no way to know exactly what you're getting,\" Speight said. \"You could go and create something in your basement, market it as a supplement, and nobody's really going to check and see what's in it.\""
+        },
+        {
+          "type": "h",
+          "text": "What is kratom used for?"
+        },
+        {
+          "type": "p",
+          "text": "Kratom is often marketed as a safe, natural herbal supplement that helps with pain management, anxiety and depression."
+        },
+        {
+          "type": "p",
+          "text": "In lower doses, its stimulant properties create a \"caffeine-kind of buzz\", Speights explained."
+        },
+        {
+          "type": "p",
+          "text": "Because of its opioid-like effects, it has also been used with the goal of curbing addictions to actual opioids like fentanyl."
+        },
+        {
+          "type": "p",
+          "text": "Those properties stem from the way the plant's compounds - like 7-Hydroxymitragynine - activate various hormones, including dopamine."
+        },
+        {
+          "type": "h",
+          "text": "What are the effects and how dangerous is it?"
+        },
+        {
+          "type": "p",
+          "text": "\"It's almost like taking a narcotic,\" Speights said. \"At higher doses, it can create more euphoria and give you more of a general high.\""
+        },
+        {
+          "type": "p",
+          "text": "Hallucinations are possible, too."
+        },
+        {
+          "type": "p",
+          "text": "The higher doses also pose greater risk for adverse side effects."
+        },
+        {
+          "type": "p",
+          "text": "That includes central nervous system (CNS) depression - which is \"where the deaths come in,\" Speights said."
+        },
+        {
+          "type": "p",
+          "text": "CNS can result in cardiovascular collapse and loss of breathing."
+        },
+        {
+          "type": "p",
+          "text": "Withdrawal symptoms and addiction are also risks, said Jana Wu, director of clinical integration at the addiction treatment centre Mountainside."
+        },
+        {
+          "type": "p",
+          "text": "\"It affects marriages, relationships,\" she said. \"I've seen people lose jobs, spend thousands of dollars a month on it.\""
+        },
+        {
+          "type": "p",
+          "text": "Because it's easy to develop a high tolerance to the herb, users may need to take an increasing amount to achieve the same effect over time."
+        },
+        {
+          "type": "p",
+          "text": "\"I've worked with people that were taking like up to 20 pills a day,\" Wu said."
+        },
+        {
+          "type": "p",
+          "text": "Experts told the BBC that the biggest dangers come from the fact that kratom is not federally regulated."
+        },
+        {
+          "type": "p",
+          "text": "\"Is there a safe dose?\" Speights said. \"My answer is going to be no because - I'm going to go back to this - we don't know what's in it.\""
+        },
+        {
+          "type": "h",
+          "text": "Is kratom legal?"
+        },
+        {
+          "type": "p",
+          "text": "Kratom is banned in 11 states: Alabama, Arkansas, Connecticut, Indiana, Kansas, Louisiana, Massachusetts, North Dakota, Tennessee, Vermont and Wisconsin."
+        },
+        {
+          "type": "p",
+          "text": "Massachusetts was the last state to make it illegal, issuing a temporary emergency order in August."
+        },
+        {
+          "type": "p",
+          "text": "Ten years earlier, the US Drug Enforcement Agency (DEA) had moved to classify kratom as a Schedule 1, the most dangerous level for drugs, calling it \"an imminent hazard to public safety\"."
+        },
+        {
+          "type": "p",
+          "text": "But the effort failed a few months later, after the justice department said it received \"numerous comments from members of the public challenging\" the attempt."
+        },
+        {
+          "type": "p",
+          "text": "That leaves states to take action, like Arizona, which recently sued a company selling kratom beverage products."
+        },
+        {
+          "type": "p",
+          "text": "Groups opposed to kratom want states to do more, saying \"gas-station drugs are poisoning our communities\"."
+        },
+        {
+          "type": "p",
+          "text": "Pro-kratom groups like the American Kratom Association are pushing for bans against synthetics \"posing as natural kratom\"."
+        },
+        {
+          "type": "p",
+          "text": "Internationally, kratom is banned in the UK. In Europe, the laws vary by country."
+        },
+        {
+          "type": "p",
+          "text": "In Malaysia, where the kratom tree is native, consumption and sale are banned under the Poisons Act of 1952."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
       "id": "cbc-7b9r5x",
       "source": "cbc",
       "title": "Marineland belugas that died in Chicago had chronic inflammatory disease, preliminary necropsy findings show",
@@ -12837,78 +13364,6 @@
         {
           "type": "p",
           "text": "Griffin Jaeger is a reporter and producer with CBC's entertainment unit. He also formerly hosted and produced content for The National’s digital platforms. You can reach him at griffin.jaeger@cbc.ca"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "bbc-1r5qakh",
-      "source": "bbc",
-      "title": "Trump's plans for massive arch move ahead",
-      "summary": "Opposition to building the 250-foot arch, and using it for military purposes, is growing with one Democrat blasting Trump's plans as \"foolhardy\".",
-      "byline": "Grace Eliza Goodwin",
-      "section": "",
-      "published": "2026-09-25T18:27:46.000Z",
-      "firstSeen": "2026-09-25T20:01:17.610Z",
-      "url": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo?at_medium=RSS&at_campaign=rss",
-      "image": {
-        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e12/live/3a464990-b4f8-11f1-947c-4906c0564be0.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Earlier this week Trump announced that the proposed \"Triumphal Arch\" would double as a complex to store military equipment, complete with the ability to deploy snipers and drones from the roof and plaza."
-        },
-        {
-          "type": "p",
-          "text": "In a letter to the Pentagon and Federal Aviation Administration (FAA), Duckworth said they \"must reject this foolhardy plan and instead focus on increasing the safety of the airspace\"."
-        },
-        {
-          "type": "p",
-          "text": "The arch is to be built just outside Arlington National Cemetery in Virginia, and about 4mi (6km) from Ronald Reagan Washington National Airport, the site of the deadly 2025 midair crash between a military helicopter and commercial plane."
-        },
-        {
-          "type": "p",
-          "text": "\"The American people cannot afford to stand witness to Trump's risky plan to place a 250-foot (72m) structure along a busy approach path, especially if he follows through on plans to station snipers on the arch and fly drones,\" Duckworth wrote in the letter, which was obtained by the BBC's US partner, CBS News."
-        },
-        {
-          "type": "p",
-          "text": "The FAA, however, ruled last week that the massive structure would not pose a risk to flights coming into and out of the airport."
-        },
-        {
-          "type": "p",
-          "text": "On Thursday, the Advisory Council on Historic Preservation, led by Trump appointees, announced it was ending required consultations with local officials about how the structure might affect 42 historic properties in the area."
-        },
-        {
-          "type": "p",
-          "text": "The council said in the announcement that the National Park Service, which oversees federal landmarks, had proposed a plan for mitigating potential harms to those properties, but local historic preservation officers \"raised concerns with the purpose and need of the Triumphal Arch\". They also questioned whether the service had adequately identified possible harms and planned sufficient actions to address them."
-        },
-        {
-          "type": "p",
-          "text": "Federal and state officials are not required to reach an agreement on a project's harm-mitigation plans, and those consultations are allowed to be terminated if both sides can't agree. The council expects to submit a final report on the process early next month."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, Democratic Virginia Congressman Don Beyer says excavation work on the site where the arch will stand has already begun."
-        },
-        {
-          "type": "p",
-          "text": "Beyer, who is leading congressional opposition to the arch, said he found workers operating heavy equipment when he visited the site on Thursday who told him they were \"conducting archaeological work to evaluate the composition of the soil\"."
-        },
-        {
-          "type": "p",
-          "text": "That is \"deeply troubling\", Beyer said, particularly because the administration is required to give 48 hours notice before work can begin."
-        },
-        {
-          "type": "p",
-          "text": "\"The Administration appears to be pushing ahead with activity at the site even while it still has not done the basic work necessary to understand the consequences of this project,\" Beyer wrote."
-        },
-        {
-          "type": "p",
-          "text": "A rendering of the design from earlier this year includes a golden, winged Lady Liberty on the top of the arch, flanked by two gold eagles, and with the phrases \"One Nation Under God\" and \"Liberty and Justice for All\" inscribed in gold on either side of the structure."
         }
       ],
       "truncated": false,
@@ -14326,98 +14781,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "bbc-g5wfi9",
-      "source": "bbc",
-      "title": "Students strike across Germany in protest against military service",
-      "summary": "A law establishing voluntary military service came into effect in January, but protest organisers fear compulsory service could follow.",
-      "byline": "Bethany Bell",
-      "section": "",
-      "published": "2026-09-25T15:36:22.000Z",
-      "firstSeen": "2026-09-25T16:31:07.911Z",
-      "url": "https://www.bbc.co.uk/news/articles/cxnvlnve52qdo?at_medium=RSS&at_campaign=rss",
-      "image": {
-        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/58af/live/7383ad60-b8ef-11f1-a430-4d16ee157c41.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "School strikes are taking place across Germany to protest against the possible reintroduction of compulsory military service."
-        },
-        {
-          "type": "p",
-          "text": "One of the organisers of the strike, Bela Breitner, from School Strike Against Compulsory Military Service said the federal government was \"serious about gradually reintroducing compulsory military service\"."
-        },
-        {
-          "type": "p",
-          "text": "At one protest in Hamburg, demonstrators waved flags and held up banners emblazoned with the words \"We won't take part in your wars\"."
-        },
-        {
-          "type": "p",
-          "text": "German Chancellor Friedrich Merz has made boosting Germany's military a priority following Russia's invasion of Ukraine."
-        },
-        {
-          "type": "p",
-          "text": "A new law introducing voluntary military service came into force in January, with the aim of recruiting volunteers to increase the number of soldiers."
-        },
-        {
-          "type": "p",
-          "text": "However, if the security situation worsens or if too few volunteers come forward, a form of compulsory military service could be considered by Germany's Parliament, the Bundestag."
-        },
-        {
-          "type": "p",
-          "text": "Under the law, all 18-year-olds in Germany are being sent a questionnaire asking if they are interested and willing to join the armed forces."
-        },
-        {
-          "type": "p",
-          "text": "One protester, 16-year-old Elias Bernhard, from Hamburg, said that the responses to the questionnaires \"show that young people do not want to join the Bundeswehr [Germany's army]\"."
-        },
-        {
-          "type": "p",
-          "text": "\"That is why I am out on the streets today. That is why we are serious about striking until compulsory military service is off the table. We will carry on.\""
-        },
-        {
-          "type": "p",
-          "text": "The questionnaire is mandatory for men and voluntary for women. All 18-year-old men will have to take a medical exam to assess their fitness for possible military service."
-        },
-        {
-          "type": "p",
-          "text": "The organisers of the protests, say the trigger came after some 18-year-olds in the northern German towns of Kiel and Flensburg, were sent official invitations for medical exams, even though they expressed no interest in joining the army on their registration forms."
-        },
-        {
-          "type": "p",
-          "text": "The group says over a hundred demonstrations are planned across Germany, including in Kiel, Hamburg, Berlin and Frankfurt."
-        },
-        {
-          "type": "p",
-          "text": "A spokesperson for the Defence Ministry told the BBC that under the law, the obligation to undergo a medical examination applies \"to all men liable for military service who were born after 31 December 2007\"."
-        },
-        {
-          "type": "p",
-          "text": "This also applies to people who have stated that they have no interest in compulsory military service. The spokesperson said that since July around 1,000 18-year-old men, who showed no interest in the army, have had the medical exam."
-        },
-        {
-          "type": "p",
-          "text": "During the Cold War, Germany, like many other European countries, had a large army. But it reduced its armed forces during the 1990s after the fall of the Iron Curtain."
-        },
-        {
-          "type": "p",
-          "text": "Germany's former Chancellor, Angela Merkel, ended compulsory military service in 2011."
-        },
-        {
-          "type": "p",
-          "text": "But now, in the face of perceived threats from Russia and heavy pressure from Germany's traditional ally, the US, Merz has vowed to transform the Bundeswehr into Europe's strongest conventional army."
-        },
-        {
-          "type": "p",
-          "text": "The Bundeswehr currently has around 186,700 troops. By the early 2030s, Germany wants to raise the number to 260,000, supplemented by around 200,000 reservists, in order to meet new Nato force targets and strengthen Germany's defences."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "dw-1kh14um",
       "source": "dw",
       "title": "Pakistan's Sharif rails against India, praises Trump at UNGA",
@@ -15541,28 +15904,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-1midxcm",
-      "source": "abs",
-      "title": "China swimmer makes Asian Games history as Thai wins 100m sprint",
-      "summary": "Towering teenager Zhang Zhanshuo became the first swimmer in history to win seven golds at a single Asian Games on Friday, as Thai sprinter Puripol Boonson powered to victory on the track in the 100m.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T14:49:27.000Z",
-      "firstSeen": "2026-09-25T15:01:21.836Z",
-      "url": "https://www.abs-cbn.com/sports/othersports/2026/9/25/china-swimmer-makes-asian-games-history-as-thai-wins-100m-sprint-2249",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Towering teenager Zhang Zhanshuo became the first swimmer in history to win seven golds at a single Asian Games on Friday, as Thai sprinter Puripol Boonson powered to victory on the track in the 100m."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "dw-i10n0i",
       "source": "dw",
       "title": "'Lithuanian skies are NATO skies': DW speaks with Lithuanian premier Mindaugas Sinkevicius",
@@ -15697,28 +16038,6 @@
         {
           "type": "p",
           "text": "WATCH: Oliver, pinatawad ang pagkukulang ni Enrico | Someone, Someday"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-pov3vn",
-      "source": "abs",
-      "title": "LOTTO RESULTS: Setyembre 25, 2026",
-      "summary": "Narito ang mga winning combination para sa 4D Lotto, Megalotto 6/45 at Ultra Lotto 6/58 para sa araw ng Biyernes, Setyembre 25, 2026, base sa 9 p.m. draw ng Philippine Charity Sweepstakes Office…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-25T14:25:26.000Z",
-      "firstSeen": "2026-09-25T14:31:09.166Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/25/lotto-results-setyembre-25-2026-2225",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Narito ang mga winning combination para sa 4D Lotto, Megalotto 6/45 at Ultra Lotto 6/58 para sa araw ng Biyernes, Setyembre 25, 2026, base sa 9 p.m. draw ng Philippine Charity Sweepstakes Office (PCSO)."
         }
       ],
       "truncated": true,
@@ -17167,90 +17486,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "grd-xob28b",
-      "source": "grd",
-      "title": "Saudi Arabia intercepts wave of Houthi missiles as oil climbs to one-week high",
-      "summary": "<p>The ⁠Saudi-led coalition in Yemen said the missiles were ⁠aimed at Taif and the Yanbu area on the Red Sea, the main alternative route for Saudi oil</p><p>Saudi Arabia says it intercepted six…",
-      "byline": "Guardian staff and agencies",
-      "section": "Middle East and north Africa",
-      "published": "2026-09-25T02:54:27.000Z",
-      "firstSeen": "2026-09-25T03:01:08.954Z",
-      "url": "https://www.theguardian.com/world/2026/sep/25/saudi-arabia-intercepts-houthi-missiles-oil-prices-climbs",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/0cced5f15101e20b40aa39b9e15cbeff90445226/614_0_4174_3339/master/4174.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=b1a7ede42f7f16b3698704fa37066e7d",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Saudi Arabia says it intercepted six ballistic missiles fired by Yemen’s Iran-backed Houthis, with the latest attacks pushing oil prices ⁠to a one-week high over fears of spiralling supply disruptions."
-        },
-        {
-          "type": "p",
-          "text": "The ⁠Saudi-led coalition in Yemen said the missiles were ⁠aimed at Taif in western Saudi ​Arabia and the Yanbu area on the Red Sea, with the Houthis claiming their attacks were aimed at “a sensitive target” in the capital Riyadh and on Saudi Aramco facilities in Tanbu."
-        },
-        {
-          "type": "p",
-          "text": "Oil prices climbed about 3%, but trade was volatile and prices came off session highs after reports the US and Iran discussed reopening the strait of Hormuz."
-        },
-        {
-          "type": "p",
-          "text": "The escalating attacks threaten Saudi Arabia’s ⁠ability to export oil through the Red Sea at a time when the strait of Hormuz is disrupted and the kingdom’s east-west pipeline is only now resuming operations after drone strikes earlier ​this month. The Houthis declared a naval blockade on the kingdom in July, opening a ‌second theatre in the US-Iran war."
-        },
-        {
-          "type": "p",
-          "text": "It was ‌not clear whether there was any damage or casualties in either Taif or Yanbu, the main alternative route for Saudi oil."
-        },
-        {
-          "type": "p",
-          "text": "The Houthis seized the whole Yemeni western coast in a lightning offensive nearly two weeks ago that brought them to the shores of the Red Sea’s strategic Bab el-Mandeb waterway."
-        },
-        {
-          "type": "p",
-          "text": "Yemen’s internationally recognised government pressed world leaders on Thursday for help defeating the militants, saying that their new perch along one of the world’s busiest waterways presents an international economic risk."
-        },
-        {
-          "type": "p",
-          "text": "While claiming that their blockade only applies to Saudi shipping and there remains no threat to commercial shipping on the Red Sea, the Houths have also warned other nations not to get involved."
-        },
-        {
-          "type": "p",
-          "text": "But the vice-president of the internationally recognised government council urged world leaders at the UN general assembly not to trust the Houthis’ assurances – and to see a bigger picture in the crisis around the strait."
-        },
-        {
-          "type": "p",
-          "text": "“The Houthi militias’ use of the safety of navigation as a tool for blackmail threatens not only Yemen. It is taking hostage the entire global economy,” said vice-president, Abdullah Abdulkader al Alimi-Bawzer."
-        },
-        {
-          "type": "p",
-          "text": "Arguing that protecting the strait “is the responsibility of every economy that depends on secure supply chains, energy security and freedom of navigation,” he urged the international community to keep weapons and technology from getting into the rebels’ hands."
-        },
-        {
-          "type": "p",
-          "text": "The Saudi-backed government’s forces had earlier repelled overnight attacks by the Houthis on a key supply route to Yemen’s third-biggest city Taiz from the southern port city of Aden where the internationally recognised administration is based, government sources said."
-        },
-        {
-          "type": "p",
-          "text": "The Houthis ⁠have kept up pressure along a steep, winding mountain pass known as Hejat al-Abd, a lifeline for government forces and the ​only route for goods and residents to reach Taiz and travel ​abroad. Seizing parts of the road could allow the Houthis to ​tighten their grip around the city and deal another blow to the government, which has struggled to regain the initiative since losing the western coast."
-        },
-        {
-          "type": "p",
-          "text": "Riyadh’s foreign ministry said on Friday that Saudi ⁠Arabia, Turkey and ⁠Pakistan would ⁠hold ​an urgent ⁠meeting of their chiefs ⁠of ​staff ‌to ‌discuss ways to ‌support repel the Houthi attacks under their joint ‌defence agreement. Under the defence pact, all three countries agreed that an armed attack on any one of them would be treated as an attack on all three."
-        },
-        {
-          "type": "p",
-          "text": "Officials in Pakistan are said to be deeply worried about being dragged into the never-ending war unfolding across the Middle East."
-        },
-        {
-          "type": "p",
-          "text": "With Reuters and the Associated Press"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-jo6gtb",
       "source": "bbc",
       "title": "The world’s two most powerful men just met. How did it go?",
@@ -17276,447 +17511,6 @@
         {
           "type": "p",
           "text": "The BBC’s China correspondent Laura Bicker unpacks how the trip panned out for Beijing and Washington."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "bbc-16e41yg",
-      "source": "bbc",
-      "title": "From Nagaland to a path to the Oscars: Indian film brings a rarely seen world to global cinema",
-      "summary": "After a major win at Toronto, Angh, a film from northeastern India, is now on a path towards the Oscars.",
-      "byline": "Zoya Mateen",
-      "section": "",
-      "published": "2026-09-24T23:41:10.000Z",
-      "firstSeen": "2026-09-25T00:01:49.012Z",
-      "url": "https://www.bbc.co.uk/news/articles/cv2dwk3z7x5eo?at_medium=RSS&at_campaign=rss",
-      "image": {
-        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7c4/live/d45fc990-b839-11f1-b1d1-571ed4d7ff2c.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "There is something pleasingly improbable about Angh."
-        },
-        {
-          "type": "p",
-          "text": "The film comes from Nagaland, a mountainous state of fewer than two million people on India's northeastern frontier, and is in Konyak, a tribal language unfamiliar to most Indians, never mind audiences abroad. It was director Theja Rio's first feature and most of its cast faced a camera for the first time."
-        },
-        {
-          "type": "p",
-          "text": "And yet, at the Toronto International Film Festival this month, this quiet film won the Platform Prize, a major juried award."
-        },
-        {
-          "type": "p",
-          "text": "The award is intended to recognise films with a particularly distinctive directorial voice. The jury praised Rio's \"refreshing perspective\" and the film's portrait of a world rarely encountered on the international screen."
-        },
-        {
-          "type": "p",
-          "text": "The win also gives Angh an unusual route towards the 2027 Academy Awards. Under new rules, winners of designated prizes at six international festivals can qualify for consideration in the International Feature Film category without relying solely on their country's official submission."
-        },
-        {
-          "type": "p",
-          "text": "This does not make Angh an Oscar nominee. But it does place a Konyak-language film from one of India's smallest states inside a global conversation from which such stories have been almost entirely absent."
-        },
-        {
-          "type": "p",
-          "text": "Rio still sounds slightly startled by it. When we speak in Delhi, roughly 72 hours after the win, he has barely had a moment to breathe - Toronto, flights, interviews, more interviews."
-        },
-        {
-          "type": "p",
-          "text": "\"There were a lot of good films in the competition\", he says, including films by far more seasoned directors. His producers were confident."
-        },
-        {
-          "type": "p",
-          "text": "\"They thought we were going to win. I wasn't.\""
-        },
-        {
-          "type": "p",
-          "text": "He is also less solemn than Angh might suggest. Before cinema, he wanted to be a rapper - \"a kid from Compton instead of a kid from Nagaland\", as he puts it. His tastes still range happily from Black Thought, the lead rapper of American hip-hop group The Roots, to his favourite filmmaker, the Iranian director Abbas Kiarostami."
-        },
-        {
-          "type": "p",
-          "text": "But for his first feature, he turned close to home."
-        },
-        {
-          "type": "p",
-          "text": "Set in the early 1960s, Angh follows Anghba, the ageing hereditary chief of a Konyak village, and his young son, as the world around them changes. The Konyaks are one of Nagaland's 17 major tribes, concentrated in the eastern district of Mon, where such chiefs are known as Anghs. Even today, some older men bear facial tattoos associated with the Konyaks' historical practice of headhunting."
-        },
-        {
-          "type": "p",
-          "text": "Anghba and his son are among the last in their region to hold to an ancestral faith as Christianity spreads."
-        },
-        {
-          "type": "p",
-          "text": "Then an American missionary, played by Scottish actor Douglas Henshall, arrives. The father resists but the son is now curious."
-        },
-        {
-          "type": "p",
-          "text": "Rio says the idea for the film came a few years ago, when he was visiting Mon for another project. What struck him was how closely different generations seemed to live alongside one another there."
-        },
-        {
-          "type": "p",
-          "text": "Within a single family, he says, a grandfather might be a former headhunter, his face still tattooed; two generations later, his grandson might play guitar in a rock band."
-        },
-        {
-          "type": "p",
-          "text": "\"It feels like you've jumped on a time machine,\" Rio says. \"The past and the present sort of coexist together.\""
-        },
-        {
-          "type": "p",
-          "text": "The year also matters. Nagaland, which was earlier part of Assam state, formally became an Indian state in December 1963, during a period of profound political and social change."
-        },
-        {
-          "type": "p",
-          "text": "By then, Christianity had been spreading among Naga communities for decades, bringing changes extending beyond religious belief into customs, rituals and everyday life."
-        },
-        {
-          "type": "p",
-          "text": "Dr B Amo Konyak, a scholar of Konyak society, says the changes during this period were almost like a disappearance."
-        },
-        {
-          "type": "p",
-          "text": "Some practices were lost; others \"survived in fragments\" - in the memories of elders, in family heirlooms. What had once been part of everyday life became heritage."
-        },
-        {
-          "type": "p",
-          "text": "But Dr Konyak says culture did not simply stop. People carried parts of it into new religious and social worlds. Traditions survived, but changed meaning as they changed form."
-        },
-        {
-          "type": "p",
-          "text": "It's this moment of transition that Rio wanted to capture."
-        },
-        {
-          "type": "p",
-          "text": "\"The past 50 or 60 years have brought extraordinary churn,\" he says, widening the distance between generations."
-        },
-        {
-          "type": "p",
-          "text": "In Angh, he explores this through the relationship between the father and son who \"intimately love and care about each other very deeply\", even as their worlds begin to pull apart."
-        },
-        {
-          "type": "p",
-          "text": "Critic Siddhant Adlakha was struck by the ambiguity the film captures. \"Progress and tradition can be nonlinear, even entwined,\" he says, \"rather than strictly opposing forces.\""
-        },
-        {
-          "type": "p",
-          "text": "The film is yet to reach a wider audience, but its brief trailer offers a glimpse of how Rio constructed this world. Mist hangs over steep green hills; figures move through forests and village paths; fire and lamplight pick faces out of the darkness."
-        },
-        {
-          "type": "p",
-          "text": "The landscape is beautiful but not merely picturesque - a small world held together by ritual, family and geography, while something larger presses in from beyond its edges."
-        },
-        {
-          "type": "p",
-          "text": "Adlakha singles out the quiet close-ups of Anghlong Konyak, the first-time actor who plays the chief, and the \"gentleness\" with which Rio captures his \"subdued rage\"."
-        },
-        {
-          "type": "p",
-          "text": "What the camera saw mattered almost as much as where it was looking from."
-        },
-        {
-          "type": "p",
-          "text": "Konyak people have long been viewed from the outside."
-        },
-        {
-          "type": "p",
-          "text": "Dr Konyak points to explorers, colonial officials, missionaries and photographers drawn to tattooed faces, ornaments, weapons and headhunting, while the lives behind them often receded from view."
-        },
-        {
-          "type": "p",
-          "text": "Rio was conscious of inheriting that history. \"There have been several films and documentaries made about Nagaland,\" he says, \"but these sort of films tend to follow the gaze of the explorer rather than the subject.\""
-        },
-        {
-          "type": "p",
-          "text": "With Angh, he wanted to reverse that gaze, asking viewers to \"step inside the shoes of these characters\"."
-        },
-        {
-          "type": "p",
-          "text": "The change is subtle but consequential. The Konyaks are no longer an exotic remnant of the past, but people living through what Dr Konyak describes as \"love, grief, conflict, faith, uncertainty and generational change\"."
-        },
-        {
-          "type": "p",
-          "text": "Konyak advisers worked on dialogue, costume and production design, and much of the cast was drawn from first-time Konyak performers. The forest, too, belongs to the people moving through it. Adlakha says Rio treats it \"not just as a setting, but as a home with a history\", much as an urban filmmaker might treat Mumbai or New York."
-        },
-        {
-          "type": "p",
-          "text": "Rio and cinematographer Adam Pietkiewicz shot Angh on 16mm film, drawing on photographs and footage of missionaries and Naga communities from the 1950s and 60s."
-        },
-        {
-          "type": "p",
-          "text": "They wanted to recreate the grain, texture and atmosphere of those archival images, while shifting the point of view from outsider to subject."
-        },
-        {
-          "type": "p",
-          "text": "It was an evocative choice - and a logistical headache."
-        },
-        {
-          "type": "p",
-          "text": "Unlike digital footage, the exposed film could not simply be reviewed on set. Every four or five days, the cans had to be sent to Mumbai for processing, while the crew carried on shooting without knowing exactly what they had captured."
-        },
-        {
-          "type": "p",
-          "text": "There were more prosaic problems too."
-        },
-        {
-          "type": "p",
-          "text": "During a night shoot with Henshall, an old Second World War Jeep was supposed to be driven into frame. It behaved perfectly through rehearsals. But when the cameras began rolling, the engine refused to start. After repeated attempts, the crew managed to capture just one take of the Jeep entering the frame."
-        },
-        {
-          "type": "p",
-          "text": "\"It was a very difficult night,\" Rio says."
-        },
-        {
-          "type": "p",
-          "text": "Angh may be Rio's first feature, but its journey places it within a widening map of Indian cinema, especially in the northeast."
-        },
-        {
-          "type": "p",
-          "text": "Adlakha points to filmmakers such as Assam's Rima Das and Meghalaya's Dominic Sangma whose work, he says, reveals \"how complex and multifaceted the idea of Indian cinema happens to be\"."
-        },
-        {
-          "type": "p",
-          "text": "Rio thinks Nagaland still remains at the edge of that scene. Its film industry is, as he puts it, \"at a very nascent stage\", with little of the reach enjoyed by India's established filmmaking centres."
-        },
-        {
-          "type": "p",
-          "text": "But he hopes some of the attention around Angh travels back with it."
-        },
-        {
-          "type": "p",
-          "text": "There are, he says, \"so many talented filmmakers with so many beautiful stories that are yet to be told\"."
-        },
-        {
-          "type": "p",
-          "text": "For now, though, Rio is looking forward to something more ordinary - getting back to Nagaland."
-        },
-        {
-          "type": "p",
-          "text": "\"I want to play football with my friends.\""
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-1fcl519",
-      "source": "grd",
-      "title": "Susan Sarandon and Hannah Einbinder arrested at anti-Netanyahu protest in New York",
-      "summary": "<p>Actors detained at Jewish Voice for Peace demonstration against Israeli prime minister’s address to the UN general assembly</p><p>Oscar-winning actor Susan Sarandon and Hacks star Hannah Einbinder…",
-      "byline": "Guardian staff and agencies",
-      "section": "New York",
-      "published": "2026-09-24T23:23:34.000Z",
-      "firstSeen": "2026-09-24T23:31:06.004Z",
-      "url": "https://www.theguardian.com/us-news/2026/sep/25/susan-sarandon-hannah-einbinder-arrested-anti-netanyahu-protest-new-york",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/820b3127e99cff519fdf5f10e9d47749102a5e40/1488_0_3858_3088/master/3858.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=4e629a3d2d6d7907a1295f5d0c274b8c",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Oscar-winning actor Susan Sarandon and Hacks star Hannah Einbinder were among people detained by police in New York on Thursday as they moved in to break up a protest against Benjamin Netanyahu."
-        },
-        {
-          "type": "p",
-          "text": "Agence France-Presse footage shows NYPD officers cuffing Thelma & Louise star Sarandon at the demo in the city as the Israeli prime minister was readying to address the United Nations general assembly."
-        },
-        {
-          "type": "p",
-          "text": "The New York Post reported Einbinder had also been marched away from the demonstration organised by Jewish Voice for Peace, where protesters held banners that read “Stop Arming Israel” and “End the Genocide.”"
-        },
-        {
-          "type": "p",
-          "text": "A spokesperson for the NYPD said officers had responded to reports of an “unscheduled demonstration” where people were blocking an intersection."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/2263a78c4d58c52968124a9b22a646c92ddb8928/848_0_4016_3213/master/4016.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Hannah Einbinder (R) with Saturday Night Live star Sarah Sherman (L) at the protest. Photograph: Eric Cox/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "“Members of the NYPD Community Affairs Bureau issued … warnings, advising participants that they should leave,” the spokesperson said."
-        },
-        {
-          "type": "p",
-          "text": "“They continued to block the intersection. Multiple individuals who didn’t comply were taken into custody,” she said, without providing the number of people arrested."
-        },
-        {
-          "type": "p",
-          "text": "Democratic congressional candidate Darializa Avila Chevalier and New York ⁠City council member Chi Ossé were also among those arrested."
-        },
-        {
-          "type": "p",
-          "text": "Inside the general assembly, dozens of envoys from across the world walked out as Netanyahu began his speech, where he assailed both enemies and allies that have crossed him in recent months, including Britain and France, which have recently moved to recognise the state of Palestine."
-        },
-        {
-          "type": "p",
-          "text": "“They accuse Israel, tiny Israel, of colonialism – some colonialism. And who’s accusing us? Among them are people in Britain and in France. For God’s sakes, they invented the term,” he told the assembly."
-        },
-        {
-          "type": "p",
-          "text": "Sarandon, whose movie hits also include The Rocky Horror Picture Show, Dead Man Walking and The Witches of Eastwick, is no stranger to protests over Israel’s war in Gaza."
-        },
-        {
-          "type": "p",
-          "text": "The US actor told journalists at the Venice film festival this month she was losing work because of her outspoken views."
-        },
-        {
-          "type": "p",
-          "text": "“I’ve still had movies taken away recently because there are agencies that are telling people not to hire me still. But that’s the power structure,” she said."
-        },
-        {
-          "type": "p",
-          "text": "“I think there has been a change in terms of the understanding of the situation and the general public, but there are still very strongly held positions within my industry that are held by Zionists and who have not relaxed their feelings towards me."
-        },
-        {
-          "type": "p",
-          "text": "“But I found my family, I found my people, and I’m OK,” she added."
-        },
-        {
-          "type": "p",
-          "text": "Einbinder has previously said the cost of not speaking up about Palestine is greater than losing her Hollywood career, citing industry backlash to actors such as Sarandon and Melissa Barrera."
-        },
-        {
-          "type": "p",
-          "text": "“I think what they know is what I know, which is that the cost of not speaking is higher,” she told Cannes film festival earlier this year."
-        },
-        {
-          "type": "p",
-          "text": "“There is a greater toll in not speaking and you’ve just got to have your priorities straight. I am under no impression that my small career could ever measure up in comparison to even one human life. It’s an obligation and I will always do it.”"
-        },
-        {
-          "type": "p",
-          "text": "Agence France-Presse contributed to this report"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "bbc-y1bq4w",
-      "source": "bbc",
-      "title": "Hundreds of thousands expected in Paris for Pope's visit",
-      "summary": "The highpoint of his time in Paris will be a giant Mass attended by more than half a million people.",
-      "byline": "Hugh Schofield",
-      "section": "",
-      "published": "2026-09-24T23:17:00.000Z",
-      "firstSeen": "2026-09-24T23:31:05.531Z",
-      "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
-      "image": {
-        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d70/live/7b6d6240-b7f6-11f1-8ef6-b9665ffdab6f.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Pope Leo XIV embarks on a four-day visit to France on Friday, with the highpoint being a giant Mass attended by more than half a million people in central Paris."
-        },
-        {
-          "type": "p",
-          "text": "For Saturday's afternoon celebration, an altar has been built on the Place de la Concorde and a large area around the Champs-Élysées sealed off by police."
-        },
-        {
-          "type": "p",
-          "text": "Some 600,000 Catholic faithful are expected to cram the avenue up to the Arc de Triomphe and beyond."
-        },
-        {
-          "type": "p",
-          "text": "Large crowds are also due at other stages in the Pope's itinerary, reflecting an enthusiasm that the Church attributes to growing spiritual thirst among the French and other Europeans."
-        },
-        {
-          "type": "p",
-          "text": "President Emmanuel Macron will greet the Pope at Orly airport on Friday morning, and then hold talks with him at the Élysée Palace on geopolitical issues and artificial intelligence (AI). He will also deliver a speech with the Pope in Metz."
-        },
-        {
-          "type": "p",
-          "text": "However, the president will not be at any of the Pope's Masses, largely to avoid breaching France's strict separation of state and religion."
-        },
-        {
-          "type": "p",
-          "text": "Instead, the Champs-Élysées Mass will be attended by his wife Brigitte and Prime Minister Sébastien Lecornu. Several candidates for next year's presidential election are also due, including Marine Le Pen of the nationalist right, centrists Edouard Philippe and Gabriel Attal, and conservative Bruno Retailleau."
-        },
-        {
-          "type": "p",
-          "text": "There were reports of tensions between Macron and the Vatican team sent to make arrangements, with the president allegedly frustrated in his wish for a more ceremonial aspect to the visit."
-        },
-        {
-          "type": "p",
-          "text": "This was dismissed this week by Élysée officials, who said it was customary to offer a visiting head of state – which the Pope is – a range of high-profile events, such as a cavalry escort down the Champs-Élysées. But they said it was never expected that the Pope would actually take the offer up."
-        },
-        {
-          "type": "p",
-          "text": "They did confirm that Pope Leo turned down Macron's idea of a meeting with artisans who helped rebuild the fire-devastated Notre-Dame cathedral. This was because his agenda was too tight, they said."
-        },
-        {
-          "type": "p",
-          "text": "After a Popemobile ride through crowds to Notre-Dame cathedral on Friday afternoon, Pope Leo XIV will be joined in the evening by 80,000 young people at the Stade de France in northern Paris."
-        },
-        {
-          "type": "p",
-          "text": "On Sunday 150,000 have signed up to attend mass in the Pyrenean sanctuary of Lourdes."
-        },
-        {
-          "type": "p",
-          "text": "On Monday the Pope will be in Metz, in northeast France, where he will pay tribute to Robert Schuman (1886-1963), a founding father of the European Union and a fervent Catholic who is today a candidate for beatification."
-        },
-        {
-          "type": "p",
-          "text": "The Pope will also meet a group of migrants in Paris, and in Lourdes some victims of sexual abuse by members of the Catholic clergy."
-        },
-        {
-          "type": "p",
-          "text": "Born in Chicago in 1955, Pope Leo XIV was originally called Robert Prevost – a French name."
-        },
-        {
-          "type": "p",
-          "text": "In fact his paternal grandmother was born in Le Havre in Normandy in 1894. When she married in the US many years later she and her Italian husband took the name Prevost, which had been her mother's maiden-name."
-        },
-        {
-          "type": "p",
-          "text": "France has a historically complex relationship with the Catholic Church of Rome. The country was long known as the \"Eldest Daughter of the Church\" because supposedly, but inaccurately, it was the first kingdom to convert to Christianity. Actually Armenia, Georgia and Ethiopia preceded it."
-        },
-        {
-          "type": "p",
-          "text": "In the 14th Century the papacy came in exile to Avignon in southern France, and over following centuries French armies periodically intervened in Italian politics, where popes were secular rulers as well as heads of the Church."
-        },
-        {
-          "type": "p",
-          "text": "Napoleon held two popes in captivity."
-        },
-        {
-          "type": "p",
-          "text": "Recent popes have all come to France, most notably John-Paul II, who came several times between 1980 and 2004, and Pope Francis who came three times, but avoided Paris, going instead to Strasbourg, Marseilles and Corsica."
-        },
-        {
-          "type": "p",
-          "text": "Today France has secularised with the rest of Europe, and less than half of the population identifies as Catholic."
-        },
-        {
-          "type": "p",
-          "text": "The number of regular worshippers has fallen from 35% of the population in 1960 to less than 5% today, while the number of priests has shrunk by two-thirds from 25,000 in 1990 to fewer than 9,000."
-        },
-        {
-          "type": "p",
-          "text": "But in recent years there have been signs of a growing interest in religious tradition, with the number of adult baptisms more than doubling in five years to hit 10,000 in 2025."
-        },
-        {
-          "type": "p",
-          "text": "\"France has indeed secularised, but there is a void where God and values used to be,\" said Cardinal François Bustillo, Bishop of Ajaccio."
-        },
-        {
-          "type": "p",
-          "text": "\"People are searching for something. Maybe they go to India or Tibet or the Amazon. And now the Pope comes here from Rome, bringing a reminder to people of their own roots."
-        },
-        {
-          "type": "p",
-          "text": "\"It was John-Paul II who awoke the East. Now Leo XIV will awake the West,\" he said."
         }
       ],
       "truncated": false,
@@ -18902,95 +18696,6 @@
         {
           "type": "p",
           "text": "Some believe a deal may not have been reached yet and the suspension may not be announced until the Asia-Pacific Economic Cooperation conference next month."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-942s2r",
-      "source": "grd",
-      "title": "Indian billionaire’s payments firm plots biggest London flotation in years",
-      "summary": "<p>Sunil Bharti Mittal’s Airtel Money targets $9bn IPO in boost for ailing UK stock market</p><p>A payments business that operates across Africa and is ultimately controlled by an Indian billionaire…",
-      "byline": "Joanna Partridge",
-      "section": "London Stock Exchange",
-      "published": "2026-09-23T11:08:01.000Z",
-      "firstSeen": "2026-09-23T11:31:41.767Z",
-      "url": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/0cb421007ba094b5dcf6229414bc0d79c7772fbc/473_554_4258_3408/master/4258.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=5254ffb8b9b799fc2cfb1971ca25b8df",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A payments business that operates across Africa and is ultimately controlled by an Indian billionaire has announced its intention to float on the struggling London Stock Exchange."
-        },
-        {
-          "type": "p",
-          "text": "Airtel Money, the mobile money arm of Airtel Africa, is planning one of the biggest UK listings in years, in a boost for the shrinking London market that has faced a string of recent departures."
-        },
-        {
-          "type": "p",
-          "text": "The company is understood to be hoping to raise about $800m (£601m) from the initial public offering (IPO) and is targeting a valuation of $8bn to $9bn, which would make it one of London’s largest listings in recent years."
-        },
-        {
-          "type": "p",
-          "text": "Airtel Money has 53 million monthly active users across 13 countries in sub-Saharan Africa, including Uganda, Zambia and the Democratic Republic of Congo."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/75e477048ff815e971aff4522105ef0585959bd2/1662_133_4550_4704/master/4550.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Sunil Bharti Mittal controls Bharti Enterprises. Photograph: Ludovic Marin/AFP/Getty Images"
-        },
-        {
-          "type": "p",
-          "text": "It operates through a network of branches and kiosks, which enable customers to load money on to their phones, withdraw cash and access other money services, and the company generated revenues of just under $1.4bn in the last financial year."
-        },
-        {
-          "type": "p",
-          "text": "Airtel Money’s parent company is Airtel Africa, a telecoms provider that is part of the Indian conglomerate Bharti Enterprises, which is ultimately controlled by the billionaire Sunil Bharti Mittal. Airtel Africa is already listed on the FTSE 100 but said it wanted Airtel Money to be listed separately."
-        },
-        {
-          "type": "p",
-          "text": "“From a company perspective, [the listing] gives us flexibility for the future,” said Airtel Money’s chief executive, Ian Ferrao."
-        },
-        {
-          "type": "p",
-          "text": "“We evaluated multiple [stock] exchanges, including the Middle East because we’ve got a headquarters in Dubai, along with European and North American exchanges. Ultimately, shareholders felt that London was the right choice. We still believe there is deep capital available … all the global institutional investors are here.”"
-        },
-        {
-          "type": "p",
-          "text": "Ferrao added: “Most importantly there’s a deep understanding of emerging markets in the London market and Africa specifically.”"
-        },
-        {
-          "type": "p",
-          "text": "Airtel Money said it would announce more details about the float in early October, including the indicative price range and number of shares to be offered, with final pricing to follow later in the month."
-        },
-        {
-          "type": "p",
-          "text": "Airtel Africa had originally targeted a listing in the first six months of 2026 but delayed it to the second half of the year, blaming unfavourable market conditions as a result of the US-Israeli war on Iran. Several other companies also pushed back planned IPOs amid the market volatility caused by the conflict."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "Airtel Africa owns just under 78% of Airtel Money and will remain a long-term investor after the IPO. Minority stakes are held by TPG, ​Mastercard, the Qatar Investment Authority and Chimetech Holding."
-        },
-        {
-          "type": "p",
-          "text": "Revenue in Airtel Money’s most recent quarter to 30 June climbed 38% to £399m, according to Airtel Africa."
-        },
-        {
-          "type": "p",
-          "text": "The decision to float Airtel Money in the UK could mark a turning point for the City, which has struggled to attract listings in recent times and has also been hit by departures, partly as a result of overseas takeovers of UK companies."
-        },
-        {
-          "type": "p",
-          "text": "Airtel Money’s planned listing could be one of the biggest debuts since the international payments company Wise floated in 2021 with a valuation of £8.75bn. Wise has since moved its main listing from London to New York."
         }
       ],
       "truncated": false,
