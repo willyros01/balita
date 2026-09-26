@@ -1,0 +1,136 @@
+{
+  "id": "rap-o2crh0",
+  "source": "rap",
+  "title": "OpenAI works to understand full scope of agent activity as user data leak emerges",
+  "summary": "OpenAI grapples with rogue agent incidents as privacy risks mount, revealing challenges in controlling AI behavior and prompting calls for industry caution.",
+  "byline": "Reuters",
+  "section": "Technology",
+  "published": "2026-09-26T04:30:00.000Z",
+  "firstSeen": "2026-09-26T05:01:08.694Z",
+  "url": "https://www.rappler.com/technology/openai-works-understand-full-scope-agent-activity-user-data-leak/",
+  "image": {
+    "src": "https://www.rappler.com/tachyon/2026/09/2026-09-24T234900Z_1930453634_RC2ALNA5L3CJ_RTRMADP_3_AI-OPENAI-CYBERSECURITY-scaled.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "SAN FRANCISCO/WASHINGTON, US – Two months after OpenAI disclosed the accidental hacking of Hugging Face, the ChatGPT maker is still working to understand the full scope of its rogue agent activity, two people briefed on the matter told Reuters."
+    },
+    {
+      "type": "p",
+      "text": "The latest example came on Friday when OpenAI said its agents had leaked 53 images from ChatGPT users. OpenAI declined to say if the images were AI-generated or identified real people. It also declined to say when the images were posted."
+    },
+    {
+      "type": "p",
+      "text": "The disclosure and researcher reports on Friday of other previously unknown activity involving several US agencies reveal a new area of privacy risk for the company, and illustrate how difficult it is even for an AI firm at the cutting edge of the technology to inventory all the unauthorized activity tied to its agents. OpenAI’s ongoing battle also reflects a yawning gap between the strength of the models the company is testing and its capacity to oversee or even track their actions."
+    },
+    {
+      "type": "p",
+      "text": "As of mid-September, one person briefed on the matter estimated that OpenAI had found roughly two dozen incidents of its agents acting in undesirable ways. But the number has continued rising as OpenAI teams sift through internal logs of the agents’ activities and find previously unknown cases, the two people close to the company said."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said its review would take months to complete given the scale of the work."
+    },
+    {
+      "type": "p",
+      "text": "The company also said it had notified dozens of third parties about improper activity."
+    },
+    {
+      "type": "p",
+      "text": "Most of the leaked images have been taken down and OpenAI said it was lobbying hosting providers to remove the rest."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI’s agents had access to these images because the company relies on anonymized user data for part of its model-training process, according to the company, former employees and outside researchers. Enterprise data is not eligible for training, while ChatGPT consumers need to opt out of allowing the company to use their data for training."
+    },
+    {
+      "type": "p",
+      "text": "Before user posts are used for training, they go through an anonymization process that strips out metadata, names and other contact information and should make it difficult to trace back to any individual user, the company said."
+    },
+    {
+      "type": "p",
+      "text": "But the practice carries risks because there is a chance that the data may not be fully stripped of personally identifiable information and that it might leak in the course of the model’s work, three people familiar with OpenAI’s practices said."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said late on Friday its models accessed information from the websites of the US Securities and Exchange Commission and the US Census Bureau during research and training activity, but found no evidence of unauthorized access, compromised accounts or security breaches."
+    },
+    {
+      "type": "p",
+      "text": "Separately, AI research nonprofit Transluce said agents appearing to originate from OpenAI made an unsuccessful attempt to hack a US Department of Education civil rights website."
+    },
+    {
+      "type": "p",
+      "text": "Transluce said the incident was part of broader AI agent activity probing government websites using tactics including exposed credentials, anti-bot bypasses and fake accounts."
+    },
+    {
+      "type": "p",
+      "text": "In the two months since OpenAI first announced that its agents broke containment, there have been more than 15 different OpenAI-related incidents of varying levels of severity disclosed by the company, by outside researchers, or — just on Wednesday — by Australian Prime Minister Anthony Albanese at the United Nations, who said OpenAI agents broke into a government health data portal in June."
+    },
+    {
+      "type": "p",
+      "text": "Past incidents have varied in nature, ranging from spam-like messages left on internet sites all the way to the break-in at Hugging Face, which involved a swarm of agents abusing previously unknown software vulnerabilities to escape their networks and penetrate the AI repository as they hunted for answers to a test. OpenAI also said its agents took aim at its own infrastructure."
+    },
+    {
+      "type": "p",
+      "text": "Albanese told reporters in New York that OpenAI uncovered the activity in August, and disclosed it on September 10 via an email to a general government inbox. He said he directly told OpenAI CEO Sam Altman that this disclosure process was unacceptable."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said some of the sites involved are operated by government, universities and public agencies because the models that are conducting research seek out reputable sources of public information."
+    },
+    {
+      "type": "p",
+      "text": "The July 21 announcement that ​OpenAI’s agents had slipped out of control and hacked Hugging Face sparked widespread worries within the AI industry over its ability to control the more powerful AI models under development now. Since then, Anthropic, Alphabet’s Google and Meta have said they’ve found similar behavior by their agents after the Hugging Face incident prompted them to search."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI has acknowledged a general need for more transparency around rogue AI behavior. On September 16, the company published a new framework for disclosing such incidents, saying it would err on the side of transparency “even when significance is uncertain.”"
+    },
+    {
+      "type": "p",
+      "text": "Even so, two people familiar with OpenAI’s investigation into its agents’ activity described it as locked down and shaped by company lawyers. The process has been unusually compartmentalized for a company that some former employees say was more open about these issues in the past, the people said."
+    },
+    {
+      "type": "p",
+      "text": "Roughly 100 people were in some way involved in the process to understand the Hugging Face hack, three people briefed on the matter said. During that process, evidence of other incidents surfaced."
+    },
+    {
+      "type": "p",
+      "text": "Reuters has previously reported that OpenAI investigators looking into the Hugging Face breach were discouraged by the company’s lawyers from expanding the scope of the investigation to include other incidents. OpenAI said its lawyers did not discourage deeper investigation."
+    },
+    {
+      "type": "p",
+      "text": "Many incidents have been uncovered by outside researchers rather than OpenAI directly. In several episodes, the agents took problematic actions that went unnoticed by the company for months."
+    },
+    {
+      "type": "p",
+      "text": "Earlier this month, a small group of investigators discovered that the company’s agents had hijacked a mostly defunct German wiki site to share tactics to cheat on some tasks, bypass OpenAI’s restrictions and mask their behavior."
+    },
+    {
+      "type": "p",
+      "text": "This week, the AI research firm Transluce said it discovered that OpenAI agents had bypassed the Australian Institute of Health and Welfare’s anti-bot controls. The firm also found two other cases that it linked to OpenAI agents. Those incidents were separate from the activity disclosed by Albanese."
+    },
+    {
+      "type": "p",
+      "text": "In a statement, OpenAI said “much of the activity described in Transluce’s report overlaps with cases at varying stages of investigation in our ongoing review of misaligned model activity.” The company said it is prioritizing the most severe cases in its review."
+    },
+    {
+      "type": "p",
+      "text": "Since the Hugging Face hack, researchers across the AI industry have grown worried that companies will not be able to predict or control their technology. Some have taken the path of former Anthropic researcher Jacob Coxon, who publicly resigned this month in a viral social-media thread that said the AI labs are “gambling with our lives.”"
+    },
+    {
+      "type": "p",
+      "text": "In response to those concerns, Altman and his counterpart at Anthropic, CEO Dario Amodei, called for the industry to “pace” the development of AI and move cautiously in its pursuit of “recursive self improvement.” Altman doubled down on that message this week while addressing the United Nations."
+    },
+    {
+      "type": "p",
+      "text": "Even so, both companies rolled out new models on Tuesday. – Rappler.com"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
