@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-09-27T12:57:12.215Z",
+  "updated": "2026-09-27T13:01:35.198Z",
   "sources": [
     {
       "id": "inq",
@@ -53,63 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-1ibkik2",
-      "source": "inqn",
-      "title": "18 dengue deaths reported in Camarines Sur",
-      "summary": "LEGAZPI CITY — Eighteen people have died of dengue in Camarines Sur, where 1,233 confirmed cases were recorded from January to Sept. 24, Gov. Luis Raymund “LRay” Villafuerte said on Sunday, Sept. 27.…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:56.033Z",
-      "firstSeen": "2026-09-27T07:01:08.292Z",
-      "url": "https://newsinfo.inquirer.net/2312349/18-dengue-deaths-reported-in-camarines-sur",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Camarines-Sur-map-filephoto-091322.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LEGAZPI CITY — Eighteen people have died of dengue in Camarines Sur, where 1,233 confirmed cases were recorded from January to Sept. 24, Gov. Luis Raymund “LRay” Villafuerte said on Sunday, Sept. 27. Villafuerte said the provincial government was strengthening dengue prevention, surveillance and medical response, particularly in areas where cases were increasing. READ: Dengue"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-gb3mky",
-      "source": "inqn",
-      "title": "Albay suspends in-person classes Sept. 29-30 over transport strike",
-      "summary": "MANILA, Philippines — Face-to-face classes were suspended in Albay province for Tuesday, Sept. 29, and Wednesday, Sept. 30, due to a transport strike by groups protesting soaring fuel prices. In an…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:56.033Z",
-      "firstSeen": "2026-09-27T07:01:08.364Z",
-      "url": "https://newsinfo.inquirer.net/2312347/albay-suspends-in-person-classes-sept-29-30-over-transport-strike",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/BICOL-REGION-MAP-09082022.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Face-to-face classes were suspended in Albay province for Tuesday, Sept. 29, and Wednesday, Sept. 30, due to a transport strike by groups protesting soaring fuel prices. In an advisory issued on Sunday, Albay Gov. Noel Rosal said classes at all levels in both private and public schools in the province would shift"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-11ldidu",
       "source": "inqn",
       "title": "PNP sees more time to prepare after deferment of barangay, SK polls",
       "summary": "MANILA, Philippines—With the next barangay and Sangguniang Kabataan elections moved to November 2028, the Philippine National Police (PNP) said it will use the extra time to strengthen its election…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:56.033Z",
+      "published": "2026-09-27T13:01:19.044Z",
       "firstSeen": "2026-09-27T06:01:09.587Z",
       "url": "https://newsinfo.inquirer.net/2312345/pnp-sees-more-time-to-prepare-after-deferment-of-barangay-sk-polls",
       "image": {
@@ -134,7 +84,7 @@
       "summary": "LEGAZPI CITY — The Albay provoncial government has ordered the suspension of in-person classes on Tuesday and Wednesday (Sept. 29 and 30) due to a two-day transport strike. Albay Gov. Noel Rosal said…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:56.033Z",
+      "published": "2026-09-27T13:01:19.044Z",
       "firstSeen": "2026-09-27T05:31:38.589Z",
       "url": "https://newsinfo.inquirer.net/2312333/albay-in-person-classes-suspended-on-sept-29-30-due-to-transport-strike",
       "image": {
@@ -153,13 +103,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1ibkik2",
+      "source": "inqn",
+      "title": "18 dengue deaths reported in Camarines Sur",
+      "summary": "LEGAZPI CITY — Eighteen people have died of dengue in Camarines Sur, where 1,233 confirmed cases were recorded from January to Sept. 24, Gov. Luis Raymund “LRay” Villafuerte said on Sunday, Sept. 27.…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-09-27T13:01:19.043Z",
+      "firstSeen": "2026-09-27T07:01:08.292Z",
+      "url": "https://newsinfo.inquirer.net/2312349/18-dengue-deaths-reported-in-camarines-sur",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Camarines-Sur-map-filephoto-091322.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LEGAZPI CITY — Eighteen people have died of dengue in Camarines Sur, where 1,233 confirmed cases were recorded from January to Sept. 24, Gov. Luis Raymund “LRay” Villafuerte said on Sunday, Sept. 27. Villafuerte said the provincial government was strengthening dengue prevention, surveillance and medical response, particularly in areas where cases were increasing. READ: Dengue"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-gb3mky",
+      "source": "inqn",
+      "title": "Albay suspends in-person classes Sept. 29-30 over transport strike",
+      "summary": "MANILA, Philippines — Face-to-face classes were suspended in Albay province for Tuesday, Sept. 29, and Wednesday, Sept. 30, due to a transport strike by groups protesting soaring fuel prices. In an…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-09-27T13:01:19.043Z",
+      "firstSeen": "2026-09-27T07:01:08.364Z",
+      "url": "https://newsinfo.inquirer.net/2312347/albay-suspends-in-person-classes-sept-29-30-over-transport-strike",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/BICOL-REGION-MAP-09082022.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Face-to-face classes were suspended in Albay province for Tuesday, Sept. 29, and Wednesday, Sept. 30, due to a transport strike by groups protesting soaring fuel prices. In an advisory issued on Sunday, Albay Gov. Noel Rosal said classes at all levels in both private and public schools in the province would shift"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1nn04cm",
       "source": "inqn",
       "title": "Walang Gutom Kitchen to open in Catbalogan in October",
       "summary": "TACLOBAN CITY — A government-run kitchen that will provide free meals to people experiencing involuntary hunger in Eastern Visayas is set to open in Catbalogan City, Samar, in the first week of…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:56.003Z",
+      "published": "2026-09-27T13:01:17.194Z",
       "firstSeen": "2026-09-27T07:31:05.578Z",
       "url": "https://newsinfo.inquirer.net/2312363/walang-gutom-kitchen-to-open-in-catbalogan-in-october",
       "image": {
@@ -184,7 +184,7 @@
       "summary": "MANILA, Philippines — Some 337,476 private sector workers in Central Visayas are set to benefit from the PHP42 wage increase approved by the National Wages and Productivity Commission (NWPC), the…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:53.625Z",
+      "published": "2026-09-27T13:01:15.395Z",
       "firstSeen": "2026-09-27T08:01:09.061Z",
       "url": "https://newsinfo.inquirer.net/2312370/over-337000-central-visayas-workers-to-benefit-from-p42-wage-hike",
       "image": {
@@ -209,7 +209,7 @@
       "summary": "MANILA, Philippines — Davao City Mayor Sebastian &#8220;Baste&#8221; Duterte will receive no special arrangements for his expected appearance as a witness in the impeachment trial of his sister, Vice…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:52.435Z",
+      "published": "2026-09-27T13:01:13.634Z",
       "firstSeen": "2026-09-27T08:01:08.964Z",
       "url": "https://newsinfo.inquirer.net/2312377/no-special-arrangement-for-baste-dutertes-appearance-at-impeachment-trial",
       "image": {
@@ -234,7 +234,7 @@
       "summary": "MANILA, Philippines — Typhoon Queenie exited the Philippine area of responsibility (PAR) on Sunday afternoon, according to the state weather bureau. In its latest update, the Philippine Atmospheric,…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:52.429Z",
+      "published": "2026-09-27T13:01:10.065Z",
       "firstSeen": "2026-09-27T09:01:09.214Z",
       "url": "https://newsinfo.inquirer.net/2312394/typhoon-queenie-exits-par",
       "image": {
@@ -259,7 +259,7 @@
       "summary": "ILIGAN CITY — Several performers collapsed due to extreme heat during the Diyandi Festival here on Sunday, held in celebration of the city’s patronal fiesta in honor of Saint Michael the Archangel.…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:50.865Z",
+      "published": "2026-09-27T13:01:08.305Z",
       "firstSeen": "2026-09-27T09:01:09.214Z",
       "url": "https://newsinfo.inquirer.net/2312403/extreme-heat-downs-several-performers-during-iligans-diyandi-festival",
       "image": {
@@ -278,63 +278,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1fv63w2",
-      "source": "inqn",
-      "title": "Shared fiber conduit rules must ensure reliable connectivity – group",
-      "summary": "MANILA, Philippines — Consumer advocacy group CitizenWatch Philippines supports the proposal to establish national rules for shared underground conduits but said the policy must result in more…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:49.875Z",
-      "firstSeen": "2026-09-27T10:01:11.414Z",
-      "url": "https://newsinfo.inquirer.net/2312413/shared-fiber-conduit-rules-must-ensure-reliable-connectivity-group",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/12/INTERNET-SPEED-composite-image.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Consumer advocacy group CitizenWatch Philippines supports the proposal to establish national rules for shared underground conduits but said the policy must result in more reliable connectivity for Filipinos. The Private Sector Advisory Council’s Digital Infrastructure Sector recently presented to President Ferdinand Marcos Jr. the “One Canal Policy,” which would require telecommunications and"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1doaonr",
-      "source": "inqn",
-      "title": "Sara Duterte trial: Bribery charge may be dropped over 2027 budget talks",
-      "summary": "MANILA, Philippines — Prosecutors may drop the bribery charge in Vice President Sara Duterte’s impeachment trial if they cannot present evidence before the Senate turns to the 2027 national budget,…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:48.632Z",
-      "firstSeen": "2026-09-27T10:01:11.413Z",
-      "url": "https://newsinfo.inquirer.net/2312414/sara-duterte-trial-bribery-charge-may-be-dropped-over-2027-budget-talks",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Sara-Duterte-bail-QC-trial-grave-threat-charges-05September2026_7.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Prosecutors may drop the bribery charge in Vice President Sara Duterte’s impeachment trial if they cannot present evidence before the Senate turns to the 2027 national budget, prosecution spokesperson Benjamin Tolosa Jr. said Sunday. He said prosecutors aim to finish presenting evidence against Duterte by mid-October, when the Senate is expected to"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1bxq1h5",
       "source": "inqn",
       "title": "Mindanao bus operator to raise fares starting Sept. 28",
       "summary": "PAGADIAN CITY, Zamboanga del Sur — Rural Transit Mindanao Inc. (RTMI) will implement higher bus fares starting Monday, Sept. 28, with commuters paying an additional P50 per ride on a particular…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:47.009Z",
+      "published": "2026-09-27T13:01:06.394Z",
       "firstSeen": "2026-09-27T10:31:06.431Z",
       "url": "https://newsinfo.inquirer.net/2312418/mindanao-bus-operator-to-raise-fares-starting-sept-28",
       "image": {
@@ -353,23 +303,48 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-xvq6gq",
+      "id": "inqn-1doaonr",
       "source": "inqn",
-      "title": "Cagayan de Oro buy-bust yields P6.8-M alleged shabu",
-      "summary": "CAGAYAN DE ORO CITY — Police seized around a kilogram of suspected shabu worth P6.8 million and arrested a high-value suspect in a sting operation in Barangay Indahag here late Saturday afternoon.…",
+      "title": "Sara Duterte trial: Bribery charge may be dropped over 2027 budget talks",
+      "summary": "MANILA, Philippines — Prosecutors may drop the bribery charge in Vice President Sara Duterte’s impeachment trial if they cannot present evidence before the Senate turns to the 2027 national budget,…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:47.004Z",
-      "firstSeen": "2026-09-27T11:31:02.604Z",
-      "url": "https://newsinfo.inquirer.net/2312455/cagayan-de-oro-buy-bust-yields-p6-8-m-alleged-shabu",
+      "published": "2026-09-27T13:01:06.394Z",
+      "firstSeen": "2026-09-27T10:01:11.413Z",
+      "url": "https://newsinfo.inquirer.net/2312414/sara-duterte-trial-bribery-charge-may-be-dropped-over-2027-budget-talks",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Cagayan-de-Oro-Map-Filephoto-090622.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Sara-Duterte-bail-QC-trial-grave-threat-charges-05September2026_7.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "CAGAYAN DE ORO CITY — Police seized around a kilogram of suspected shabu worth P6.8 million and arrested a high-value suspect in a sting operation in Barangay Indahag here late Saturday afternoon. The joint operation, led by the Regional Police Drug Enforcement Unit 10 (RPDEU-10) in coordination with the Philippine Drug Enforcement Agency (PDEA), took"
+          "text": "MANILA, Philippines — Prosecutors may drop the bribery charge in Vice President Sara Duterte’s impeachment trial if they cannot present evidence before the Senate turns to the 2027 national budget, prosecution spokesperson Benjamin Tolosa Jr. said Sunday. He said prosecutors aim to finish presenting evidence against Duterte by mid-October, when the Senate is expected to"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1fv63w2",
+      "source": "inqn",
+      "title": "Shared fiber conduit rules must ensure reliable connectivity – group",
+      "summary": "MANILA, Philippines — Consumer advocacy group CitizenWatch Philippines supports the proposal to establish national rules for shared underground conduits but said the policy must result in more…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-09-27T13:01:06.394Z",
+      "firstSeen": "2026-09-27T10:01:11.414Z",
+      "url": "https://newsinfo.inquirer.net/2312413/shared-fiber-conduit-rules-must-ensure-reliable-connectivity-group",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/12/INTERNET-SPEED-composite-image.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Consumer advocacy group CitizenWatch Philippines supports the proposal to establish national rules for shared underground conduits but said the policy must result in more reliable connectivity for Filipinos. The Private Sector Advisory Council’s Digital Infrastructure Sector recently presented to President Ferdinand Marcos Jr. the “One Canal Policy,” which would require telecommunications and"
         }
       ],
       "truncated": true,
@@ -384,7 +359,7 @@
       "summary": "MANILA, Philippines — The National Capital Region Police Office (NCRPO) ensured public safety and assistance to commuters who may be affected by the transport strike from Monday to Wednesday. NCRPO…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T12:56:47.003Z",
+      "published": "2026-09-27T13:01:06.393Z",
       "firstSeen": "2026-09-27T11:31:02.543Z",
       "url": "https://newsinfo.inquirer.net/2312466/ncrpo-readies-security-assistance-during-3-day-transport-strike",
       "image": {
@@ -401,6 +376,31 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-xvq6gq",
+      "source": "inqn",
+      "title": "Cagayan de Oro buy-bust yields P6.8-M alleged shabu",
+      "summary": "CAGAYAN DE ORO CITY — Police seized around a kilogram of suspected shabu worth P6.8 million and arrested a high-value suspect in a sting operation in Barangay Indahag here late Saturday afternoon.…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-09-27T13:01:06.393Z",
+      "firstSeen": "2026-09-27T11:31:02.604Z",
+      "url": "https://newsinfo.inquirer.net/2312455/cagayan-de-oro-buy-bust-yields-p6-8-m-alleged-shabu",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Cagayan-de-Oro-Map-Filephoto-090622.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CAGAYAN DE ORO CITY — Police seized around a kilogram of suspected shabu worth P6.8 million and arrested a high-value suspect in a sting operation in Barangay Indahag here late Saturday afternoon. The joint operation, led by the Regional Police Drug Enforcement Unit 10 (RPDEU-10) in coordination with the Philippine Drug Enforcement Agency (PDEA), took"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-ehhwyr",
@@ -690,7 +690,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-9p1ej2",
@@ -740,7 +740,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "why": "direct HTTP 403"
     },
     {
       "id": "cbc-1lzsual",
@@ -4007,92 +4007,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "dw-3aj2fk",
-      "source": "dw",
-      "title": "Northern Ireland: Pro-UK march to go through Catholic area",
-      "summary": "Northern Ireland: Pro-UK march to go through Catholic area",
-      "byline": "Felix Tamsut",
-      "section": "",
-      "published": "2026-09-27T09:00:00.000Z",
-      "firstSeen": "2026-09-27T09:31:05.342Z",
-      "url": "https://www.dw.com/en/northern-ireland-pro-uk-march-to-go-through-catholic-area/a-79447441?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79447515_6.jpg",
-        "caption": "The Orange Order march will go through the largely Catholic streetImage: Paul Mcerlane/dpa/picture alliance"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Northern Ireland's Protestant, pro-British Orange Order was set to parade through a mainly Catholic and nationalist area on Sunday."
-        },
-        {
-          "type": "p",
-          "text": "It's the first time the march has been allowed to go through the area since 1997. Overnight, a court ruling allowed it to take place after a series of last-minute legal challenges that reached Belfast's High Court."
-        },
-        {
-          "type": "p",
-          "text": "Thirty-five members of the Orange Order are to march silently through Garvaghy Road in the town of Portadown, without any bands or other Order supporters participating."
-        },
-        {
-          "type": "p",
-          "text": "About 2,000 people gathered on the street Sunday morning in a counterprotest to prevent the march."
-        },
-        {
-          "type": "p",
-          "text": "UK Prime Minister Andy Burnham called for \"calm on all sides.\" In a BBC interview, he said \"big gains\" had been made in Northern Ireland \"and we don't want to see things go backwards.\""
-        },
-        {
-          "type": "p",
-          "text": "Northern Ireland First Minister Michelle O'Neill, a member of the Irish republican Sinn Fein party, spoke against the decision to allow the march to take place."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79447614_$%7BformatId%7D.jpg",
-          "caption": "Pro-Irish protesters are expected to protest against the marchImage: Cathal McNaughton/REUTERS"
-        },
-        {
-          "type": "p",
-          "text": "\"Our message tonight is clear. There is no going back. Not tomorrow. Not ever,\" she said, also voicing her support for the local residents to protest against the march, which she labeled \"unwanted\" and \"sectarian.\""
-        },
-        {
-          "type": "p",
-          "text": "Carla Lockhart, an MP from the pro-British Democratic Unionist Party, said local residents have nothing to fear from \"thirty five men walking down a road silently and with no bands and in an orderly fashion.\""
-        },
-        {
-          "type": "h",
-          "text": "History of conflict"
-        },
-        {
-          "type": "p",
-          "text": "Garvaghy Road was one of the epicenters of the conflict between the Catholic, pro-Irish republicans and the Protestant, pro-British unionists in the late 1990s."
-        },
-        {
-          "type": "p",
-          "text": "Back then, clashes between residents and the marchers repeatedly triggered disorder, also known as the Drumcree dispute."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79447548_$%7BformatId%7D.jpg",
-          "caption": "Some 2,000 people joined a  counterprotest against the Orange Order marchImage: Cathal McNaughton/REUTERS"
-        },
-        {
-          "type": "p",
-          "text": "As part of the Good Friday Agreement, a deal signed in 1998 that largely ended three decades of conflict between the two sides known as the Troubles, an entity was established to regulate contentious processions named The Parades Commission."
-        },
-        {
-          "type": "p",
-          "text": "The Commission repeatedly rejected the Orange Order's requests to march through the area, with a High Court ruling quashing the rejection this year due to a procedural error. The Order then issued a fresh application, which was approved."
-        },
-        {
-          "type": "h",
-          "text": "Northern Ireland still troubled"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-11wloql",
       "source": "cbc",
       "title": "Could a single Maritime power grid make electricity more reliable?",
@@ -4250,6 +4164,92 @@
         {
           "type": "p",
           "text": "With files from This is P.E.I."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "dw-3aj2fk",
+      "source": "dw",
+      "title": "Northern Ireland: Pro-UK march to go through Catholic area",
+      "summary": "Northern Ireland: Pro-UK march to go through Catholic area",
+      "byline": "Felix Tamsut",
+      "section": "",
+      "published": "2026-09-27T09:00:00.000Z",
+      "firstSeen": "2026-09-27T09:31:05.342Z",
+      "url": "https://www.dw.com/en/northern-ireland-pro-uk-march-to-go-through-catholic-area/a-79447441?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79447515_6.jpg",
+        "caption": "The Orange Order march will go through the largely Catholic streetImage: Paul Mcerlane/dpa/picture alliance"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Northern Ireland's Protestant, pro-British Orange Order was set to parade through a mainly Catholic and nationalist area on Sunday."
+        },
+        {
+          "type": "p",
+          "text": "It's the first time the march has been allowed to go through the area since 1997. Overnight, a court ruling allowed it to take place after a series of last-minute legal challenges that reached Belfast's High Court."
+        },
+        {
+          "type": "p",
+          "text": "Thirty-five members of the Orange Order are to march silently through Garvaghy Road in the town of Portadown, without any bands or other Order supporters participating."
+        },
+        {
+          "type": "p",
+          "text": "About 2,000 people gathered on the street Sunday morning in a counterprotest to prevent the march."
+        },
+        {
+          "type": "p",
+          "text": "UK Prime Minister Andy Burnham called for \"calm on all sides.\" In a BBC interview, he said \"big gains\" had been made in Northern Ireland \"and we don't want to see things go backwards.\""
+        },
+        {
+          "type": "p",
+          "text": "Northern Ireland First Minister Michelle O'Neill, a member of the Irish republican Sinn Fein party, spoke against the decision to allow the march to take place."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79447614_$%7BformatId%7D.jpg",
+          "caption": "Pro-Irish protesters are expected to protest against the marchImage: Cathal McNaughton/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "\"Our message tonight is clear. There is no going back. Not tomorrow. Not ever,\" she said, also voicing her support for the local residents to protest against the march, which she labeled \"unwanted\" and \"sectarian.\""
+        },
+        {
+          "type": "p",
+          "text": "Carla Lockhart, an MP from the pro-British Democratic Unionist Party, said local residents have nothing to fear from \"thirty five men walking down a road silently and with no bands and in an orderly fashion.\""
+        },
+        {
+          "type": "h",
+          "text": "History of conflict"
+        },
+        {
+          "type": "p",
+          "text": "Garvaghy Road was one of the epicenters of the conflict between the Catholic, pro-Irish republicans and the Protestant, pro-British unionists in the late 1990s."
+        },
+        {
+          "type": "p",
+          "text": "Back then, clashes between residents and the marchers repeatedly triggered disorder, also known as the Drumcree dispute."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79447548_$%7BformatId%7D.jpg",
+          "caption": "Some 2,000 people joined a  counterprotest against the Orange Order marchImage: Cathal McNaughton/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "As part of the Good Friday Agreement, a deal signed in 1998 that largely ended three decades of conflict between the two sides known as the Troubles, an entity was established to regulate contentious processions named The Parades Commission."
+        },
+        {
+          "type": "p",
+          "text": "The Commission repeatedly rejected the Orange Order's requests to march through the area, with a High Court ruling quashing the rejection this year due to a procedural error. The Order then issued a fresh application, which was approved."
+        },
+        {
+          "type": "h",
+          "text": "Northern Ireland still troubled"
         }
       ],
       "truncated": false,
@@ -14363,50 +14363,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-1134lrk",
-      "source": "abs",
-      "title": "Volleyball: Bangayan torches Arellano, keeps UE in hunt for semis spot",
-      "summary": "Van Bangayan was unstoppable as the University of the East overcame Arellano University to stay in the hunt for a Final 4 spot in the 2026 V-League Collegiate Challenge on Saturday.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T12:40:26.000Z",
-      "firstSeen": "2026-09-26T13:01:07.580Z",
-      "url": "https://www.abs-cbn.com/sports/volleyball/2026/9/26/volleyball-bangayan-torches-arellano-keeps-ue-in-hunt-for-semis-spot-2040",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Van Bangayan was unstoppable as the University of the East overcame Arellano University to stay in the hunt for a Final 4 spot in the 2026 V-League Collegiate Challenge on Saturday."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-17c8yuu",
-      "source": "abs",
-      "title": "Alex Eala arrives in Nagoya, gets first round bye at Asian Games tennis",
-      "summary": "Filipina tennis ace Alex Eala has arrived in Nagoya, Japan on Saturday ahead of the women's singles tennis event at the 20th Asian Games.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T12:34:14.000Z",
-      "firstSeen": "2026-09-26T13:01:07.648Z",
-      "url": "https://www.abs-cbn.com/sports/othersports/2026/9/26/alex-eala-arrives-in-nagoya-gets-first-round-bye-at-asian-games-tennis-2034",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Filipina tennis ace Alex Eala has arrived in Nagoya, Japan on Saturday ahead of the women's singles tennis event at the 20th Asian Games."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "abs-1k1x1g",
