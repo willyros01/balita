@@ -1,0 +1,119 @@
+{
+  "id": "cbc-1woco0f",
+  "source": "cbc",
+  "title": "OpenAI pauses training of latest models after AI agents probed U.S. government sites in unexpected ways",
+  "summary": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.",
+  "byline": "CBC",
+  "section": "News/Business",
+  "published": "2026-09-27T14:16:04.000Z",
+  "firstSeen": "2026-09-27T14:31:03.002Z",
+  "url": "https://www.cbc.ca/news/business/openai-pause-training-after-probes-9.7360166?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/c117d8df-6441-463b-b295-34b6e4d3711e,1790517059579/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C417%2C8015%2C4508%29%3BResize%3D620",
+    "caption": "OpenAI said in a statement that it will resume training 'only when we are confident that we have additional safeguards' in place. (Andrej Ivanov/AFP/Getty Images)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Business·New"
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount."
+    },
+    {
+      "type": "h",
+      "text": "No private info accessed but incidents were concerning enough to notify authorities"
+    },
+    {
+      "type": "p",
+      "text": "The decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents from the summer in which OpenAI agents searching U.S. federal government websites acted in unexpected ways beyond what was asked of them while gathering and distributing information."
+    },
+    {
+      "type": "p",
+      "text": "Separately, AI evaluator Transluce said agents that appeared to come from OpenAI tried unsuccessfully to hack into a U.S. Department of Education website, a detail that OpenAI has not confirmed."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said in a statement that it will resume training \"only when we are confident that we have additional safeguards\" in place, adding that it expects it will have to \"hit pause\" again as AI develops and other issues emerge."
+    },
+    {
+      "type": "p",
+      "text": "AI labs are facing pressure from lawmakers and tech experts to slow development so they can build guardrails to stop agents from acting on their own, hacking websites and disclosing non-public information. The heads of both OpenAI and rival Anthropic have called for a slowdown, too."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI reveals unexpected AI activity on U.S. government websites"
+    },
+    {
+      "type": "h",
+      "text": "AI fears overblown, Trump says"
+    },
+    {
+      "type": "p",
+      "text": "It's the second time in three months that OpenAI has halted development of its models. The first came in July after disclosure of a cyberattack targeting AI startup Hugging Face, a now notorious incident that raised fears the industry was losing control."
+    },
+    {
+      "type": "p",
+      "text": "In a meeting with Chinese President Xi Jinping this week, U.S. President Donald Trump agreed to share information on AI dangers and co-ordinate efforts to keep it safe. Trump believes AI fears are overblown, though, and later suggested that he plans no crackdown of his own."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "China, U.S. agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The U.S. is not going to be \"putting on brakes,\" Trump told reporters outside the White House. \"They want to stop our progress because we're leading China by a lot, and we're going to keep it that way.\""
+    },
+    {
+      "type": "h",
+      "text": "No private info accessed, reports"
+    },
+    {
+      "type": "p",
+      "text": "The latest OpenAI incidents did not appear to involve the disclosure of any non-public information but were concerning enough for the company to warn the federal agencies involved."
+    },
+    {
+      "type": "p",
+      "text": "In the Department of Education incident, OpenAI agents found API \"developer keys\" to access government data, though ultimately only publicly available information was gathered."
+    },
+    {
+      "type": "p",
+      "text": "In another case involving the U.S. Securities and Exchange Commission (SEC), agents found information freely available to all but then posted it elsewhere on the internet, an act that went beyond what they were instructed to do."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "OpenAI says its bots have interacted with multiple U.S. government sites in unexpected AI activity",
+        "Australia says OpenAI agent hacked government website"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "SEC spokesperson Kurt Hopfenspirger said Saturday that \"no nonpublic information was accessed.\""
+    },
+    {
+      "type": "p",
+      "text": "The U.S. Department of Education said earlier that it found \"no evidence of any impact to our website or databases.\""
+    },
+    {
+      "type": "p",
+      "text": "Several other AI companies have disclosed incidents of their models going rogue and even hacking websites."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI CEO Sam Altman said in a social media post Friday that the Hugging Face incident \"is still the most severe event we've seen.\""
+    },
+    {
+      "type": "p",
+      "text": "OpenAI previously shared six other reports of \"unexpected or concerning\" behaviour in AI models and introduced a framework for tracking, probing and disclosing instances."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
