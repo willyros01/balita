@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-09-27T09:01:39.823Z",
+  "updated": "2026-09-27T09:31:34.150Z",
   "sources": [
     {
       "id": "inq",
@@ -53,63 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-1036661",
-      "source": "inqn",
-      "title": "Typhoon Queenie intensifies while about to exit PAR",
-      "summary": "MANILA, Philippines — Typhoon Queenie (international name: Surigae) has further intensified but is already about to exit the Philippine area of responsibility (PAR), the state weather bureau reported…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:29.093Z",
-      "firstSeen": "2026-09-27T04:01:07.623Z",
-      "url": "https://newsinfo.inquirer.net/2312308/typhoon-queenie-intensifies-while-about-to-exit-par",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Typhoon-Queenie-intensifies-while-about-to-exit-PAR.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Typhoon Queenie (international name: Surigae) has further intensified but is already about to exit the Philippine area of responsibility (PAR), the state weather bureau reported on Sunday. In its 11 a.m. weather bulletin, the Philippine Atmospheric, Geophysical, and Astronomical Services Administration (Pagasa) said Queenie is now packing a maximum sustained wind speed"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-121ickf",
-      "source": "inqn",
-      "title": "Narvacan, Ilocos Sur stages inaugural Bagnet Festival",
-      "summary": "SAN ILDEFONSO, Ilocos Sur — The municipality of Narvacan formally opened its first Bagnet Festival on Saturday, Sept. 26, as part of its celebration of Tourism Month. The annual festival seeks to…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:29.093Z",
-      "firstSeen": "2026-09-27T03:31:03.382Z",
-      "url": "https://newsinfo.inquirer.net/2312294/narvacan-ilocos-sur-stages-inaugural-bagnet-festival",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Narvacan-town-in-Ilocos-Sur-opens-inaugural-Bagnet-Festival.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN ILDEFONSO, Ilocos Sur — The municipality of Narvacan formally opened its first Bagnet Festival on Saturday, Sept. 26, as part of its celebration of Tourism Month. The annual festival seeks to showcase Narvacan’s culture, local products and culinary tradition while promoting unity and community participation, Mayor Edna Cabalo Sanidad said. The festival kicked off"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-q96i1w",
       "source": "inqn",
       "title": "LTO summons rider-vlogger over helmet violation",
       "summary": "MANILA, Philippines — The Land Transportation Office (LTO) has summoned a student vlogger for allegedly driving a motorcycle without a helmet. In the show-cause order (SCO) dated Sept. 26 and made…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:29.093Z",
+      "published": "2026-09-27T09:31:23.383Z",
       "firstSeen": "2026-09-27T03:31:03.382Z",
       "url": "https://newsinfo.inquirer.net/2312297/lto-summons-rider-vlogger-over-helmet-violation",
       "image": {
@@ -134,7 +84,7 @@
       "summary": "MANILA – President Ferdinand R. Marcos Jr. has declared special non-working days in five municipalities in Isabela, Cebu, Palawan, Nueva Vizcaya and Davao del Sur to allow residents to participate in…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:29.093Z",
+      "published": "2026-09-27T09:31:23.383Z",
       "firstSeen": "2026-09-27T03:01:11.034Z",
       "url": "https://newsinfo.inquirer.net/2312292/marcos-declares-local-holidays-in-5-towns-across-ph",
       "image": {
@@ -153,13 +103,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-121ickf",
+      "source": "inqn",
+      "title": "Narvacan, Ilocos Sur stages inaugural Bagnet Festival",
+      "summary": "SAN ILDEFONSO, Ilocos Sur — The municipality of Narvacan formally opened its first Bagnet Festival on Saturday, Sept. 26, as part of its celebration of Tourism Month. The annual festival seeks to…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-09-27T09:31:23.342Z",
+      "firstSeen": "2026-09-27T03:31:03.382Z",
+      "url": "https://newsinfo.inquirer.net/2312294/narvacan-ilocos-sur-stages-inaugural-bagnet-festival",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Narvacan-town-in-Ilocos-Sur-opens-inaugural-Bagnet-Festival.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN ILDEFONSO, Ilocos Sur — The municipality of Narvacan formally opened its first Bagnet Festival on Saturday, Sept. 26, as part of its celebration of Tourism Month. The annual festival seeks to showcase Narvacan’s culture, local products and culinary tradition while promoting unity and community participation, Mayor Edna Cabalo Sanidad said. The festival kicked off"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-u20fsh",
       "source": "inqn",
       "title": "Central Visayas workers to get P42 daily wage hike by October",
       "summary": "MANILA, Philippines &#8211; Private sector workers in Central Visayas will receive a P42 increase in their daily minimum wage starting Oct. 14, according to the Department of Labor and Employment.…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:29.092Z",
+      "published": "2026-09-27T09:31:21.542Z",
       "firstSeen": "2026-09-27T05:01:06.879Z",
       "url": "https://newsinfo.inquirer.net/2312323/central-visayas-workers-to-get-p42-daily-wage-hike-by-october",
       "image": {
@@ -184,7 +159,7 @@
       "summary": "CALAPAN CITY — Four people were arrested and 33 live animals were recovered during an operation against illegal wildlife trading in Taytay, Palawan, authorities said Sunday. The operation was…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:29.092Z",
+      "published": "2026-09-27T09:31:21.542Z",
       "firstSeen": "2026-09-27T04:01:07.576Z",
       "url": "https://newsinfo.inquirer.net/2312304/33-animals-recovered-in-palawan-anti-illegal-wildlife-trade-operation",
       "image": {
@@ -203,13 +178,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1036661",
+      "source": "inqn",
+      "title": "Typhoon Queenie intensifies while about to exit PAR",
+      "summary": "MANILA, Philippines — Typhoon Queenie (international name: Surigae) has further intensified but is already about to exit the Philippine area of responsibility (PAR), the state weather bureau reported…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-09-27T09:31:21.542Z",
+      "firstSeen": "2026-09-27T04:01:07.623Z",
+      "url": "https://newsinfo.inquirer.net/2312308/typhoon-queenie-intensifies-while-about-to-exit-par",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Typhoon-Queenie-intensifies-while-about-to-exit-PAR.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Typhoon Queenie (international name: Surigae) has further intensified but is already about to exit the Philippine area of responsibility (PAR), the state weather bureau reported on Sunday. In its 11 a.m. weather bulletin, the Philippine Atmospheric, Geophysical, and Astronomical Services Administration (Pagasa) said Queenie is now packing a maximum sustained wind speed"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-fjablc",
       "source": "inqn",
       "title": "Day-long brownout hits parts of South Cotabato, Sultan Kudarat",
       "summary": "TUPI, South Cotabato — A day-long power supply interruption on Sunday struck parts of South Cotabato and Sultan Kudarat due to preventive maintenance operations. This prompted some residents in areas…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:29.015Z",
+      "published": "2026-09-27T09:31:19.782Z",
       "firstSeen": "2026-09-27T04:31:03.172Z",
       "url": "https://newsinfo.inquirer.net/2312310/day-long-brownout-hits-parts-of-south-cotabato-sultan-kudarat",
       "image": {
@@ -228,13 +228,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-6fswx2",
+      "source": "inqn",
+      "title": "PNP goal: Raise Unified 911 efficiency from 96.15% to 100%",
+      "summary": "MANILA, Philippines—The Philippine National Police (PNP) leadership has challenged its personnel to achieve a 100-percent efficiency rate in handling Unified 911 calls, up from 96.15 percent recorded…",
+      "byline": "postie",
+      "section": "Latest News Stories",
+      "published": "2026-09-27T09:31:19.743Z",
+      "firstSeen": "2026-09-27T05:31:38.655Z",
+      "url": "https://newsinfo.inquirer.net/2312332/cops-challenged-to-raise-unified-911-efficiency-from-96-15-to-100",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/06/Police-car-crime-scene-stock.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—The Philippine National Police (PNP) leadership has challenged its personnel to achieve a 100-percent efficiency rate in handling Unified 911 calls, up from 96.15 percent recorded in the first eight months of 2026. “An efficiency rate of 96.15 percent is a strong performance, but for a service as critical as Unified 911, every second"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-4bu9rk",
       "source": "inqn",
       "title": "Impeach court expecting swift SC ruling on petitions vs vote threshold",
       "summary": "MANILA, Philippines – The Senate impeachment court is optimistic that the Supreme Court would immediately decide on the petitions challenging its decision to reduce the number of votes needed to…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:27.215Z",
+      "published": "2026-09-27T09:31:19.743Z",
       "firstSeen": "2026-09-27T05:01:05.674Z",
       "url": "https://newsinfo.inquirer.net/2312330/impeach-court-expecting-swift-sc-ruling-on-petitions-vs-vote-threshold",
       "image": {
@@ -259,7 +284,7 @@
       "summary": "TACLOBAN CITY – President Ferdinand R. Marcos Jr. visited the headquarters of the Philippine Army’s 8th Infantry Division (8ID) in Catbalogan City, Samar on Friday and expressed full support for…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:27.215Z",
+      "published": "2026-09-27T09:31:19.743Z",
       "firstSeen": "2026-09-27T04:31:03.171Z",
       "url": "https://newsinfo.inquirer.net/2312312/marcos-meets-with-eastern-visayas-troops-lauds-security-peace-efforts",
       "image": {
@@ -278,38 +303,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-6fswx2",
-      "source": "inqn",
-      "title": "PNP goal: Raise Unified 911 efficiency from 96.15% to 100%",
-      "summary": "MANILA, Philippines—The Philippine National Police (PNP) leadership has challenged its personnel to achieve a 100-percent efficiency rate in handling Unified 911 calls, up from 96.15 percent recorded…",
-      "byline": "postie",
-      "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:27.214Z",
-      "firstSeen": "2026-09-27T05:31:38.655Z",
-      "url": "https://newsinfo.inquirer.net/2312332/cops-challenged-to-raise-unified-911-efficiency-from-96-15-to-100",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/06/Police-car-crime-scene-stock.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—The Philippine National Police (PNP) leadership has challenged its personnel to achieve a 100-percent efficiency rate in handling Unified 911 calls, up from 96.15 percent recorded in the first eight months of 2026. “An efficiency rate of 96.15 percent is a strong performance, but for a service as critical as Unified 911, every second"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-n7flmf",
       "source": "inqn",
       "title": "Lacson hits DPWH chief&#8217;s remark on Taguig projects",
       "summary": "MANILA, Philippines — Sen. Panfilo “Ping” Lacson on Sunday dared Public Works and Highways Secretary Vince Dizon to explain how an infrastructure project in Taguig City, which supposedly contained…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:25.544Z",
+      "published": "2026-09-27T09:31:17.961Z",
       "firstSeen": "2026-09-27T05:31:38.646Z",
       "url": "https://newsinfo.inquirer.net/2312336/lacson-hits-dpwh-chiefs-remark-on-taguig-projects",
       "image": {
@@ -334,7 +334,7 @@
       "summary": "LEGAZPI CITY — The Albay provoncial government has ordered the suspension of in-person classes on Tuesday and Wednesday (Sept. 29 and 30) due to a two-day transport strike. Albay Gov. Noel Rosal said…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:25.414Z",
+      "published": "2026-09-27T09:31:16.141Z",
       "firstSeen": "2026-09-27T05:31:38.589Z",
       "url": "https://newsinfo.inquirer.net/2312333/albay-in-person-classes-suspended-on-sept-29-30-due-to-transport-strike",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "MANILA, Philippines—With the next barangay and Sangguniang Kabataan elections moved to November 2028, the Philippine National Police (PNP) said it will use the extra time to strengthen its election…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:23.682Z",
+      "published": "2026-09-27T09:31:14.768Z",
       "firstSeen": "2026-09-27T06:01:09.587Z",
       "url": "https://newsinfo.inquirer.net/2312345/pnp-sees-more-time-to-prepare-after-deferment-of-barangay-sk-polls",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "MANILA, Philippines — Face-to-face classes were suspended in Albay province for Tuesday, Sept. 29, and Wednesday, Sept. 30, due to a transport strike by groups protesting soaring fuel prices. In an…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:18.215Z",
+      "published": "2026-09-27T09:31:14.342Z",
       "firstSeen": "2026-09-27T07:01:08.364Z",
       "url": "https://newsinfo.inquirer.net/2312347/albay-suspends-in-person-classes-sept-29-30-over-transport-strike",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "LEGAZPI CITY — Eighteen people have died of dengue in Camarines Sur, where 1,233 confirmed cases were recorded from January to Sept. 24, Gov. Luis Raymund “LRay” Villafuerte said on Sunday, Sept. 27.…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:14.706Z",
+      "published": "2026-09-27T09:31:12.561Z",
       "firstSeen": "2026-09-27T07:01:08.292Z",
       "url": "https://newsinfo.inquirer.net/2312349/18-dengue-deaths-reported-in-camarines-sur",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "TACLOBAN CITY — A government-run kitchen that will provide free meals to people experiencing involuntary hunger in Eastern Visayas is set to open in Catbalogan City, Samar, in the first week of…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:09.947Z",
+      "published": "2026-09-27T09:31:07.557Z",
       "firstSeen": "2026-09-27T07:31:05.578Z",
       "url": "https://newsinfo.inquirer.net/2312363/walang-gutom-kitchen-to-open-in-catbalogan-in-october",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "MANILA, Philippines — Some 337,476 private sector workers in Central Visayas are set to benefit from the PHP42 wage increase approved by the National Wages and Productivity Commission (NWPC), the…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:09.216Z",
+      "published": "2026-09-27T09:31:06.490Z",
       "firstSeen": "2026-09-27T08:01:09.061Z",
       "url": "https://newsinfo.inquirer.net/2312370/over-337000-central-visayas-workers-to-benefit-from-p42-wage-hike",
       "image": {
@@ -484,7 +484,7 @@
       "summary": "MANILA, Philippines — Davao City Mayor Sebastian &#8220;Baste&#8221; Duterte will receive no special arrangements for his expected appearance as a witness in the impeachment trial of his sister, Vice…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:09.215Z",
+      "published": "2026-09-27T09:31:05.346Z",
       "firstSeen": "2026-09-27T08:01:08.964Z",
       "url": "https://newsinfo.inquirer.net/2312377/no-special-arrangement-for-baste-dutertes-appearance-at-impeachment-trial",
       "image": {
@@ -503,13 +503,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1hq615p",
+      "source": "inqn",
+      "title": "Typhoon Queenie exits PAR",
+      "summary": "MANILA, Philippines — Typhoon Queenie exited the Philippine area of responsibility (PAR) on Sunday afternoon, according to the state weather bureau. In its latest update, the Philippine Atmospheric,…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-09-27T09:31:05.342Z",
+      "firstSeen": "2026-09-27T09:01:09.214Z",
+      "url": "https://newsinfo.inquirer.net/2312394/typhoon-queenie-exits-par",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/image-40.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Typhoon Queenie exited the Philippine area of responsibility (PAR) on Sunday afternoon, according to the state weather bureau. In its latest update, the Philippine Atmospheric, Geophysical, and Astronomical Services Administration (Pagasa) said Queenie, with the international name Surigae, was monitored outside the PAR as of 2 p.m. READ: Typhoon Queenie intensifies while"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1co100w",
       "source": "inqn",
       "title": "Extreme heat downs several performers during Iligan’s Diyandi Festival",
       "summary": "ILIGAN CITY — Several performers collapsed due to extreme heat during the Diyandi Festival here on Sunday, held in celebration of the city’s patronal fiesta in honor of Saint Michael the Archangel.…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:09.214Z",
+      "published": "2026-09-27T09:31:05.341Z",
       "firstSeen": "2026-09-27T09:01:09.214Z",
       "url": "https://newsinfo.inquirer.net/2312403/extreme-heat-downs-several-performers-during-iligans-diyandi-festival",
       "image": {
@@ -525,26 +550,343 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-1hq615p",
-      "source": "inqn",
-      "title": "Typhoon Queenie exits PAR",
-      "summary": "MANILA, Philippines — Typhoon Queenie exited the Philippine area of responsibility (PAR) on Sunday afternoon, according to the state weather bureau. In its latest update, the Philippine Atmospheric,…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-09-27T09:01:09.214Z",
-      "firstSeen": "2026-09-27T09:01:09.214Z",
-      "url": "https://newsinfo.inquirer.net/2312394/typhoon-queenie-exits-par",
+      "id": "gma-1msyb9d",
+      "source": "gma",
+      "title": "PhilHealth: 123 facilities offer heart surgery under Z Benefits",
+      "summary": "Philippine Health Insurance Corp. (PhilHealth) has 123 hospitals and other healthcare facilities that provide heart surgery under its Z Benefit program as of June 30, 2026, President and Chief…",
+      "byline": "MARIEL CELINE SERQUIÑA, GMA News",
+      "section": "",
+      "published": "2026-09-27T09:14:43.000Z",
+      "firstSeen": "2026-09-27T09:31:05.341Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1003886/philhealth-123-facilities-offer-heart-surgery-under-z-benefits/story/",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/image-40.png",
+        "src": "https://images.gmanews.tv/webpics/2026/08/Screenshot_2026-08-10_at_8_2026_08_10_20_23_33.png",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — Typhoon Queenie exited the Philippine area of responsibility (PAR) on Sunday afternoon, according to the state weather bureau. In its latest update, the Philippine Atmospheric, Geophysical, and Astronomical Services Administration (Pagasa) said Queenie, with the international name Surigae, was monitored outside the PAR as of 2 p.m. READ: Typhoon Queenie intensifies while"
+          "text": "Published September 27, 2026 5:14pm"
+        },
+        {
+          "type": "p",
+          "text": "Philippine Health Insurance Corp. (PhilHealth) has 123 hospitals and other healthcare facilities that provide heart surgery under its Z Benefit program as of June 30, 2026, President and Chief Executive Officer Dr. Beverly Ho said Sunday."
+        },
+        {
+          "type": "p",
+          "text": "Ho made this disclosure during the World Heart Day celebration in Manila, where she presented the health benefits offered by PhilHealth."
+        },
+        {
+          "type": "p",
+          "text": "“This is an important network, but we recognize that we need more, more providers, particularly in areas where access to specialized cardiac care remains limited,” she said."
+        },
+        {
+          "type": "p",
+          "text": "Ho said PhilHealth looks forward to continuing its partnership with the Philippine Heart Association and the cardiac care community."
+        },
+        {
+          "type": "p",
+          "text": "The Z Benefit packages cover healthcare services and rates for “Case Type Z,” or serious illnesses that may require long hospital stays and could lead to poor outcomes without early treatment."
+        },
+        {
+          "type": "p",
+          "text": "The packages include benefits for coronary artery bypass graft (CABG) surgery, total correction of tetralogy of Fallot and surgery for ventricular septal defect in children, among others."
+        },
+        {
+          "type": "p",
+          "text": "“PhilHealth is continuing to expand our cardiovascular benefits in response to the evolving healthcare needs, and among the areas in the pipeline is the expansion of coverage for emergency CABG surgery, recognizing that in cardiovascular emergencies, timely intervention can be life-saving and life-changing,” Ho said."
+        },
+        {
+          "type": "p",
+          "text": "CABG surgery is an operation used to improve blood flow to the heart when the coronary arteries are blocked or narrowed."
+        },
+        {
+          "type": "p",
+          "text": "“We are also looking towards expanding coverage for congenital heart disorders, particularly to further support children and families who require specialized cardiac care,” she added."
+        },
+        {
+          "type": "p",
+          "text": "World Heart Day is observed every September 29 as the World Health Organization, its member states and other stakeholders renew their commitment to reducing preventable and premature deaths from cardiovascular diseases."
+        },
+        {
+          "type": "p",
+          "text": "WHO has also referred to September 29 as World Heart Day in its previous observances. — MCG, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "dw-1q6txf9",
+      "source": "dw",
+      "title": "UK reports 'major incident,' arrests near Fairford air base",
+      "summary": "Multiple buildings were evacuated in the UK town of Whelford, near an air base used by the US military, with UK police saying bomb disposal teams were checking vehicles on the scene. Several men had…",
+      "byline": "Darko Janjevic",
+      "section": "",
+      "published": "2026-09-27T09:14:00.000Z",
+      "firstSeen": "2026-09-27T09:31:05.341Z",
+      "url": "https://www.dw.com/en/uk-reports-major-incident-arrests-near-fairford-air-base/a-79447992?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79447715_6.jpg",
+        "caption": "The US Air Force has used the British base for attacks against IranImage: Toby Shepheard/REUTERS"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "British authorities evacuated buildings and deployed military bomb disposal teams over a \"major incident\" in the town of Whelford on Sunday morning."
+        },
+        {
+          "type": "p",
+          "text": "The town is located near the Fairford air base, which is used by the US military. Around 30 emergency vehicles were seen in the area, including police cars, ambulances, and fire engines."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79447803_$%7BformatId%7D.jpg",
+          "caption": "UK police blocked roads leading to the Fairford airbaseImage: Toby Shepheard/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "Police said the bomb disposal units were \"currently examining a number of vehicles\" in Whelford. Residents of multiple properties in the village have been taken to a nearby leisure center."
+        },
+        {
+          "type": "p",
+          "text": "\"A cordon is currently in place but we'd like to reassure people that we believe this incident is contained,\" British police said."
+        },
+        {
+          "type": "p",
+          "text": "Police also said several men were \"arrested on suspicion of offences the ​Explosives Act\" but would not confirm the arrests were connected to the incident near the base."
+        },
+        {
+          "type": "h",
+          "text": "Officials stay tight-lipped"
+        },
+        {
+          "type": "p",
+          "text": "A spokesperson for ​the US Air Force refused to discuss specific steps when contacted by the Reuters news agency, saying only that both US and British forces \"remain vigilant and will take ⁠appropriate ​actions to ensure the safety and security of our ​US service members, civilians, contractors, and their families.\""
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79447775_$%7BformatId%7D.jpg",
+          "caption": "This Fairford base gates was blocked by construction machinery Image: Toby Shepheard/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "The background for the incident was not immediately clear."
+        },
+        {
+          "type": "p",
+          "text": "The UK has allowed the US to use Fairford for its war against Iran, with Iran's Revolutionary Guards warning UK officials against the move this summer. The evacuations also come at a time of heightened tensions in Northern Ireland, and less than two months after Germany discovered an explosive-laden drone at the Leipzig airport, which its authorities attributed to Russia."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-qw7qv3",
+      "source": "inq",
+      "title": "Mutya ng Pilipinas Andrea Endicio crowned Miss Polo Universe 2026 in Dubai",
+      "summary": "Another Mutya ng Pilipinas titleholder has won an international crown for the Philippines. Andrea Endicio topped the inaugural Miss Polo Universe pageant held in Dubai, United Arab Emirates, on Sept.…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T09:09:18.000Z",
+      "firstSeen": "2026-09-27T09:31:05.341Z",
+      "url": "https://entertainment.inquirer.net/685040/mutya-ng-pilipinas-andrea-endicio-crowned-miss-polo-universe-2026-in-dubai",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/09/MPU2026-700x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Another Mutya ng Pilipinas titleholder has won an international crown for the Philippines. Andrea Endicio topped the inaugural Miss Polo Universe pageant held in Dubai, United Arab Emirates, on Sept. 26 (27 in Manila). The courtside reporter and veteran of national beauty contests bested eight other aspirants, including a candidate representing the Filipino community in the UAE, at the international pageant’s second staging held at Movenpick Grand Al Bustan. Endicio also bagged the lion’s share of special awards in the evening. She was Best in National Costume, Best in Production Number, Best in Evening Gown, Miss Photogenic, Face of Luxurist, and [&hellip;]... Keep on reading: Mutya ng Pilipinas Andrea Endicio crowned Miss Polo Universe 2026 in Dubai"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-3ffseb",
+      "source": "inq",
+      "title": "Cebu basketball: MCCBL Season 2 ushers in major changes, more excitement",
+      "summary": "CEBU CITY, Philippines — The Metro Cebu Collegiate Basketball League (MCCBL) enters its second season with a bigger field, longer format, and more venues as it continues to provide a competitive…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T09:07:28.000Z",
+      "firstSeen": "2026-09-27T09:31:05.342Z",
+      "url": "https://cebudailynews.inquirer.net/770253/cebu-basketball-mccbl-season-2-ushers-in-major-changes-more-excitement",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/09/Metro-Cebu-Collegiate-Basketball-League-620x465.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CEBU CITY, Philippines — The Metro Cebu Collegiate Basketball League (MCCBL) enters its second season with a bigger field, longer format, and more venues as it continues to provide a competitive platform for schools and universities outside the Cebu Schools Athletic Foundation, Inc. (Cesafi). Season 2 officially tips off on October 10 at the Cordova Sports Complex, with the league expanding with more teams. Joining the league are Indiana Aerospace University (IAU) and Cordova-Catholic Cooperative School (CCCS). FOR BASKETBALL FANS: Cebu’s Pasilang marks historic medal finish for Gilas women’s 3×3 The six founding members are the defending champion St. Cecilia&#8217;s College [&hellip;]... Keep on reading: Cebu basketball: MCCBL Season 2 ushers in major changes, more excitement"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-1l5ra4n",
+      "source": "abs",
+      "title": "'Nangungutang na': Bryan Bagunas laments lack of financial support for Alas Men",
+      "summary": "Alas Pilipinas captain Bryan Bagunas lamented the lack of financial support for the squad ahead of their campaign in the men's volleyball tournament of the 20th Asian Games Aichi-Nagoya 2026.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T09:06:57.000Z",
+      "firstSeen": "2026-09-27T09:31:05.341Z",
+      "url": "https://www.abs-cbn.com/sports/volleyball/2026/9/27/-nangungutang-na-bryan-bagunas-laments-lack-of-financial-support-for-alas-men-1706",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Alas Pilipinas captain Bryan Bagunas lamented the lack of financial support for the squad ahead of their campaign in the men's volleyball tournament of the 20th Asian Games Aichi-Nagoya 2026."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1m2kmwc",
+      "source": "inq",
+      "title": "PH bet starts strong at Miss Asia Pacific International 2026",
+      "summary": "Gabrielle Galapia has given Filipinos more reason to cheer for her as she aims to give the Philippines its sixth Miss Asia Pacific International win. The Kapampangan lass amassed the most votes among…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T09:02:14.000Z",
+      "firstSeen": "2026-09-27T09:31:05.344Z",
+      "url": "https://entertainment.inquirer.net/685052/ph-bet-starts-strong-at-miss-asia-pacific-international-2026",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/09/MAPI-darling-700x425.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gabrielle Galapia has given Filipinos more reason to cheer for her as she aims to give the Philippines its sixth Miss Asia Pacific International win. The Kapampangan lass amassed the most votes among members of the media attending the Press Presentation at Nustar Resort in Cebu City on Sept. 26 to receive the &#8220;Darling of the Press&#8221; award. &#8220;With her radiant presence, confidence, and undeniable charm, the Philippines captured the hearts of the members of the press,&#8221; the Miss Asia Pacific International pageant posted on social media. Cebuano journalists and members of Manila-based online pageant platforms attended the event, where the [&hellip;]... Keep on reading: PH bet starts strong at Miss Asia Pacific International 2026"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "dw-3aj2fk",
+      "source": "dw",
+      "title": "Northern Ireland: Pro-UK march to go through Catholic area",
+      "summary": "Northern Ireland: Pro-UK march to go through Catholic area",
+      "byline": "Felix Tamsut",
+      "section": "",
+      "published": "2026-09-27T09:00:00.000Z",
+      "firstSeen": "2026-09-27T09:31:05.342Z",
+      "url": "https://www.dw.com/en/northern-ireland-pro-uk-march-to-go-through-catholic-area/a-79447441?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79447515_6.jpg",
+        "caption": "The Orange Order march will go through the largely Catholic streetImage: Paul Mcerlane/dpa/picture alliance"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Northern Ireland's Protestant, pro-British Orange Order was set to parade through a mainly Catholic and nationalist area on Sunday."
+        },
+        {
+          "type": "p",
+          "text": "It's the first time the march has been allowed to go through the area since 1997. Overnight, a court ruling allowed it to take place after a series of last-minute legal challenges that reached Belfast's High Court."
+        },
+        {
+          "type": "p",
+          "text": "Thirty-five members of the Orange Order are to march silently through Garvaghy Road in the town of Portadown, without any bands or other Order supporters participating."
+        },
+        {
+          "type": "p",
+          "text": "About 2,000 people gathered on the street Sunday morning in a counterprotest to prevent the march."
+        },
+        {
+          "type": "p",
+          "text": "UK Prime Minister Andy Burnham called for \"calm on all sides.\" In a BBC interview, he said \"big gains\" had been made in Northern Ireland \"and we don't want to see things go backwards.\""
+        },
+        {
+          "type": "p",
+          "text": "Northern Ireland First Minister Michelle O'Neill, a member of the Irish republican Sinn Fein party, spoke against the decision to allow the march to take place."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79447614_$%7BformatId%7D.jpg",
+          "caption": "Pro-Irish protesters are expected to protest against the marchImage: Cathal McNaughton/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "\"Our message tonight is clear. There is no going back. Not tomorrow. Not ever,\" she said, also voicing her support for the local residents to protest against the march, which she labeled \"unwanted\" and \"sectarian.\""
+        },
+        {
+          "type": "p",
+          "text": "Carla Lockhart, an MP from the pro-British Democratic Unionist Party, said local residents have nothing to fear from \"thirty five men walking down a road silently and with no bands and in an orderly fashion.\""
+        },
+        {
+          "type": "h",
+          "text": "History of conflict"
+        },
+        {
+          "type": "p",
+          "text": "Garvaghy Road was one of the epicenters of the conflict between the Catholic, pro-Irish republicans and the Protestant, pro-British unionists in the late 1990s."
+        },
+        {
+          "type": "p",
+          "text": "Back then, clashes between residents and the marchers repeatedly triggered disorder, also known as the Drumcree dispute."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79447548_$%7BformatId%7D.jpg",
+          "caption": "Some 2,000 people joined a  counterprotest against the Orange Order marchImage: Cathal McNaughton/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "As part of the Good Friday Agreement, a deal signed in 1998 that largely ended three decades of conflict between the two sides known as the Troubles, an entity was established to regulate contentious processions named The Parades Commission."
+        },
+        {
+          "type": "p",
+          "text": "The Commission repeatedly rejected the Orange Order's requests to march through the area, with a High Court ruling quashing the rejection this year due to a procedural error. The Order then issued a fresh application, which was approved."
+        },
+        {
+          "type": "h",
+          "text": "Northern Ireland still troubled"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-omt9bi",
+      "source": "inq",
+      "title": "Extreme heat downs several performers during Iligan’s Diyandi Festival",
+      "summary": "ILIGAN CITY — Several performers collapsed due to extreme heat during the Diyandi Festival here on Sunday, held in celebration of the city’s patronal fiesta in honor of Saint Michael the Archangel.…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T08:55:50.000Z",
+      "firstSeen": "2026-09-27T09:31:06.125Z",
+      "url": "https://newsinfo.inquirer.net/2312403/extreme-heat-downs-several-performers-during-iligans-diyandi-festival",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Extreme-heat-downs-several-performers-during-Iligans-Diyandi-fest-620x382.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ILIGAN CITY — Several performers collapsed due to extreme heat during the Diyandi Festival here on Sunday, held in celebration of the city’s patronal fiesta in honor of Saint Michael the Archangel. Six contingents joined the Kasadya Street Dancing and Showdown Competition at the Anahaw Amphitheater. READ: Diyandi Festival toasts cultural harmony in Iligan Rio Jimenez, deputy head for operations of the City Disaster Risk Reduction and Management Office (CDRRMO), said extreme heat exhausted an undetermined number of performers and audience members. He said at least 10 members of each contingent were immediately given first aid after their performances. Three individuals [&hellip;]... Keep on reading: Extreme heat downs several performers during Iligan’s Diyandi Festival"
         }
       ],
       "truncated": true,
@@ -602,6 +944,86 @@
         {
           "type": "p",
           "text": "The two mass shootings came days after 11 people were killed in the city of Durban when gunmen stormed a house in the KwaMakhutha township."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-cyd7ys",
+      "source": "star",
+      "title": "Palace tells Sara Duterte to ‘level up’ defense over cash claims",
+      "summary": "Malaca&ntilde;ang called out Vice President Sara Duterte over her recent public statements, urging her to address the allegations raised against her with concrete evidence rather than resorting to…",
+      "byline": "Ian Laqui",
+      "section": "",
+      "published": "2026-09-27T08:39:00.000Z",
+      "firstSeen": "2026-09-27T09:31:05.341Z",
+      "url": "https://www.philstar.com/headlines/2026/09/27/2559300/palace-tells-sara-duterte-level-up-defense-over-cash-claims",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/06/14/5_2026-06-14_21-56-49.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 27, 2026 | 4:39pm"
+        },
+        {
+          "type": "p",
+          "text": "Presidential Communications Office (PCO) Undersecretary Claire Castro held a briefing at Malacañang on February 18, 2026."
+        },
+        {
+          "type": "p",
+          "text": "STAR / Noel Pabalate"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Malacañang called out Vice President Sara Duterte over her recent public statements, urging her to address the allegations raised against her with concrete evidence rather than resorting to personal attacks and rhetorical evasions."
+        },
+        {
+          "type": "p",
+          "text": "This came after Duterte, in her statement, said she does not know former police officer Rodulfo Gracioso and accused the Marcos administration of being “desperate” to bring her down."
+        },
+        {
+          "type": "p",
+          "text": "In a message to reporters, Palace Press Secretary Claire Castro advised her to familiarize herself with basic logical fallacies."
+        },
+        {
+          "type": "p",
+          "text": "“Maturuan sana ang Bise Presidente na matuto siyang sumagot ng may ebidensiya sa mga inaakusa sa kanya bago magturo ng iba,” Castro said."
+        },
+        {
+          "type": "p",
+          "text": "(Hopefully, the Vice President can learn to answer the accusations against her with evidence before pointing fingers at others.)"
+        },
+        {
+          "type": "p",
+          "text": "“Uulit-ulitin natin para tumimo sa isipan... She needs to level up her defending skills so she can appear credible, if only for once,\" she added."
+        },
+        {
+          "type": "p",
+          "text": "(We will keep repeating this so it sinks in... She needs to level up her defending skills so she can appear credible, if only for once.)"
+        },
+        {
+          "type": "p",
+          "text": "Castro’s remarks came in response to Duterte, who had denied allegations that she knew or accepted money from Gracioso, a former security aide for then-House Speaker Lord Allan Velasco, while turning the accusations back against her critics."
+        },
+        {
+          "type": "p",
+          "text": "“The desperation of the administration to bring me down, push for Charter Change, prevent the 2028 elections, and cling to power is becoming increasingly diabolical,” Duterte said."
+        },
+        {
+          "type": "p",
+          "text": "Gracioso previously alleged that he made more than 20 deliveries of cash-filled suitcases totaling more than P2 billion to Vice President Sara Duterte and over P1 billion to detained former President Rodrigo Duterte."
+        },
+        {
+          "type": "p",
+          "text": "The National Bureau of Investigation said that it is currently probing Gracioso’s claims."
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, Velasco’s lawyer dismissed Gracioso’s claims of alleged unlawful acts by Velasco and his wife, calling the claims fabricated, logically inconsistent, and contradicted by verifiable facts."
         }
       ],
       "truncated": false,
@@ -697,7 +1119,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-1sje7ln",
@@ -2360,7 +2782,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "dw-1vqzw85",
@@ -3652,56 +4074,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-u4xwm3",
-      "source": "inq",
-      "title": "Propaganda in Russian schools prepares students to die",
-      "summary": "Earlier this year, several schools in Novosibirsk, a city of 1.6 million in southern Siberia, received a textbook on patriotism from the authorities. According to students, with whom DW spoke to on…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-27T06:50:53.000Z",
-      "firstSeen": "2026-09-27T07:01:08.364Z",
-      "url": "https://globalnation.inquirer.net/339561/propaganda-in-russian-schools-prepares-students-to-die",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/09/Patriotism-has-become-a-core-part-of-the-national-curriculum-since-2022-Image-Konstanin-KokoshkinPivcariopicture-alliance-620x271.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Earlier this year, several schools in Novosibirsk, a city of 1.6 million in southern Siberia, received a textbook on patriotism from the authorities. According to students, with whom DW spoke to on condition of anonymity, in the book the authors urge children to prepare themselves to die for their country. Furthermore, they equate homosexuality with pedophilia and Disney cartoons with pornography, and give instructions on how women should use their &#8220;charms.&#8221; Europeans are described as &#8220;thieves, murderers and liars.&#8221; The textbook, which provides &#8220;materials for spiritual, moral, and patriotic upbringing&#8221; is supposed to be used as part of &#8220;patriotism lessons&#8221; that [&hellip;]... Keep on reading: Propaganda in Russian schools prepares students to die"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-1j5a4sp",
-      "source": "inq",
-      "title": "CBRT: City lawyers recommend pause on payments pending DOTr move",
-      "summary": "The Cebu City Legal Office has recommended that the Cebu Bus Rapid Transit Project Management Office (CBRT-PMO) pause the processing of payments for properties affected by the CBRT project along F.…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-27T06:50:00.000Z",
-      "firstSeen": "2026-09-27T07:01:08.364Z",
-      "url": "https://cebudailynews.inquirer.net/770214/cbrt-city-lawyers-recommend-pause-on-payments-pending-dotr-move",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/07/cbrt-1-620x349.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Cebu City Legal Office has recommended that the Cebu Bus Rapid Transit Project Management Office (CBRT-PMO) pause the processing of payments for properties affected by the CBRT project along F. Vestil Street in Barangay Mambaling while it seeks guidance from the Department of Transportation (DOTr).... Keep on reading: CBRT: City lawyers recommend pause on payments pending DOTr move"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-1hnadqa",
       "source": "abs",
       "title": "Pope to meet with victims of clerical sex abuse during France trip",
@@ -3798,56 +4170,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-v1jxeg",
-      "source": "inq",
-      "title": "US-China rivalry remains frozen after Trump-Xi summit",
-      "summary": "When US President Donald Trump rolled out the red carpet for Chinese leader Xi Jinping at Andrews Air Force Base on Wednesday evening, it was a rare diplomatic gesture that has only happened a…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-27T06:43:04.000Z",
-      "firstSeen": "2026-09-27T07:01:08.369Z",
-      "url": "https://globalnation.inquirer.net/339570/us-china-rivalry-remains-frozen-after-trump-xi-summit",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/09/The-last-US-president-to-greet-a-world-leader-at-Andrews-Air-Force-Base-was-John-F.-Kennedy-in-1962-Image-Alex-BrandonAP-Photodpapicture-alliance-620x349.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "When US President Donald Trump rolled out the red carpet for Chinese leader Xi Jinping at Andrews Air Force Base on Wednesday evening, it was a rare diplomatic gesture that has only happened a handful of times in US history. Generally, world leaders are received by the president at the White House. Xi&#8217;s VIP reception underlines the importance Trump places on his personal rapport with China&#8217;s most powerful leader in a generation. After 90 minutes of bilateral talks in the Oval Office, Trump spent Thursday afternoon showing his &#8220;good friend&#8221; Xi his various White House construction projects, including the helipad completed [&hellip;]... Keep on reading: US-China rivalry remains frozen after Trump-Xi summit"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-fbg6vn",
-      "source": "inq",
-      "title": "New South Wales deploys more drones as shark surveillance ramps up",
-      "summary": "SYDNEY &#8212; Drone patrols in New South Wales detected an average of 20 sharks a day at patrolled beaches over winter as aerial surveillance is ramped up for the school holidays. Drone operators…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-27T06:32:48.000Z",
-      "firstSeen": "2026-09-27T07:01:09.907Z",
-      "url": "https://globalnation.inquirer.net/339586/new-south-wales-deploys-more-drones-as-shark-surveillance-ramps-up",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/09/New-South-Wales-eyes-in-the-sky-spotting-a-dozen-sharks-every-day-620x349.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SYDNEY &#8212; Drone patrols in New South Wales detected an average of 20 sharks a day at patrolled beaches over winter as aerial surveillance is ramped up for the school holidays. Drone operators detected 1,225 sharks from July 1 to August 31, according to newly released data. The sightings prompted 360 shark safety measures, including evacuating people from the water, sounding alarms to alert swimmers and surfers, and deploying inflatable boats and jet skis. Statewide drone operations by Surf Life Saving NSW recorded 49,000 flights, logging 16,150 flight hours and covering 343,000km. READ: Shark attack in Australia leaves woman dead, man [&hellip;]... Keep on reading: New South Wales deploys more drones as shark surveillance ramps up"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-ubfl9i",
@@ -11294,94 +11616,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "star-xbxdlz",
-      "source": "star",
-      "title": "Lacson calls for ‘fair’ verdict in Duterte trial",
-      "summary": "Sen. Panfilo Lacson has called for a &ldquo;fair&rdquo; and &ldquo;evidence-based&rdquo; verdict in the impeachment trial of Vice President Sara Duterte.",
-      "byline": "Marc Jayson Cayabyab",
-      "section": "",
-      "published": "2026-09-26T16:00:00.000Z",
-      "firstSeen": "2026-09-26T16:31:06.864Z",
-      "url": "https://www.philstar.com/headlines/2026/09/27/2559204/lacson-calls-fair-verdict-duterte-trial",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/09/26/9_2026-09-26_22-42-43.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 27, 2026 | 12:00am"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Sen. Panfilo Lacson has called for a “fair” and “evidence-based” verdict in the impeachment trial of Vice President Sara Duterte."
-        },
-        {
-          "type": "p",
-          "text": "Lacson made the remark during the Philippine Constitution Association’s 65th anniversary celebration in Makati yesterday when asked what kind of decision would help bring stability after a politically polarizing impeachment trial."
-        },
-        {
-          "type": "p",
-          "text": "“A fair decision will bring stability to the country. As long as the decision is fair and based on evidence as presented without any political color, then it will bring stability to the country,” Lacson said."
-        },
-        {
-          "type": "p",
-          "text": "He pointed out that the trial has yet to wrap up the prosecution’s presentation of evidence before the defense takes its turn."
-        },
-        {
-          "type": "p",
-          "text": "“The defense has not yet presented their evidence. We only hear one side of the story. We need to hear the other side,” Lacson said."
-        },
-        {
-          "type": "p",
-          "text": "The senator said fast-tracking the trial should mean maximizing the limited trial time without compromising evidence."
-        },
-        {
-          "type": "p",
-          "text": "The Senate impeachment court will have a full week of proceedings this week, with whole-day trial dates set in the first half of October."
-        },
-        {
-          "type": "p",
-          "text": "The verdict, which is expected to be heard by year-end, should be guided by the Constitution and by the weight of evidence, not by political considerations or public opinion, Lacson said."
-        },
-        {
-          "type": "p",
-          "text": "In his speech, Lacson said accountability as enshrined in the 1987 Constitution is a tool to fight corruption and ensure honesty and integrity among public servants in the wake of the flood control mess."
-        },
-        {
-          "type": "p",
-          "text": "He was referring to the Constitution’s provision that “Public office is a public trust,” which he said is a principle that cannot be compromised or negotiated."
-        },
-        {
-          "type": "p",
-          "text": "Lacson threw shade at public officials who cry political persecution when investigated for malfeasance, instead of facing the allegations with confidence and conviction."
-        },
-        {
-          "type": "h",
-          "text": "Constitutional crisis?"
-        },
-        {
-          "type": "p",
-          "text": "A law expert, meanwhile, has warned of a possible constitutional crisis amid the filing of petitions before the Supreme Court questioning the legality of the Senate impeachment court’s decision to lower the number of votes needed to convict the Vice President."
-        },
-        {
-          "type": "p",
-          "text": "In an interview with dzMM, San Beda University-Manila Graduate School of Law Dean Rev. Fr. Ranhilio Aquino said the petitions filed by former executive secretary Vic Rodriguez and lawyer Ernesto Francisco Jr. were premature."
-        },
-        {
-          "type": "p",
-          "text": "“The cases are premature because the decision of the Senate has not been used yet. It has not yet been applied on the respondent, Vice President Duterte,” Ranhilio said."
-        },
-        {
-          "type": "p",
-          "text": "“To be able to bring a case in court, you should be the one affected in the decision of the Senate. Of course, they can use grounds like citizen suits, lawyer suits, and public interest suits. But basically, the rule is that you cannot file a case in the Supreme Court that you are not directly affected,” Ranhilio added. — Bella Cariaso"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1w9bf7p",
       "source": "abs",
       "title": "Assumption High School Batch '86 Teams Up with Leon Gallery for an Upcoming Charity Art Exhibition",
@@ -13162,95 +13396,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "gma-jwebaf",
-      "source": "gma",
-      "title": "DOLE launches skills certification program for TUPAD workers",
-      "summary": "The Department of Labor and Employment (DOLE) on Saturday launched SkillPass, a skills certification program for Tulong Panghanapbuhay sa Ating Disadvantaged/Displaced Workers (TUPAD) beneficiaries…",
-      "byline": "LYJAH TIFFANY BONZO, GMA News",
-      "section": "",
-      "published": "2026-09-26T12:13:14.000Z",
-      "firstSeen": "2026-09-26T12:24:07.890Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1003812/dole-launches-skills-certification-program-for-tupad-workers/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2020/12/dole_building_2020_12_03_21_41_57.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published September 26, 2026 8:13pm"
-        },
-        {
-          "type": "p",
-          "text": "The Department of Labor and Employment (DOLE) on Saturday launched SkillPass, a skills certification program for Tulong Panghanapbuhay sa Ating Disadvantaged/Displaced Workers (TUPAD) beneficiaries aimed at expanding their training and employment opportunities."
-        },
-        {
-          "type": "p",
-          "text": "TUPAD is the agency’s community-based assistance package that provides temporary emergency employment for displaced, underemployed, and seasonal workers."
-        },
-        {
-          "type": "p",
-          "text": "“A key TUPAD innovation is SkillPass, which helps beneficiaries turn their temporary work experience into a record of certifiable skills they can use for their next opportunity. It documents the work they performed and the competencies or certifications they earned,” DOLE said in a press release."
-        },
-        {
-          "type": "p",
-          "text": "DOLE said that beneficiaries can use the competency credentials compiled in their SkillPass to apply for formal jobs, start a small business, seek employment overseas, or pursue further technical training."
-        },
-        {
-          "type": "p",
-          "text": "“The beneficiary’s work and skills records will be consolidated into a SkillPass certification, issued within 15 days following their TUPAD engagement. Beneficiaries will then be referred to appropriate employment, livelihood, or skills training opportunities based on their qualifications and goal,” the agency said."
-        },
-        {
-          "type": "p",
-          "text": "Program participants will also undergo profiling to determine the most suitable career, employment, or enterprise path for them."
-        },
-        {
-          "type": "p",
-          "text": "This profiling and job-matching process will be carried out in coordination with various partners, including the Technical Education and Skills Development Authority (TESDA) and Public Employment Service Offices (PESO)."
-        },
-        {
-          "type": "p",
-          "text": "“Priority areas include digital services, green construction, agriculture and post-harvest activities, care work, food service, transport, equipment maintenance, and other nationally or locally in-demand occupations,” DOLE added."
-        },
-        {
-          "type": "p",
-          "text": "Trabahong-Dagat"
-        },
-        {
-          "type": "p",
-          "text": "The Labor Department likewise introduced Trabahong-Dagat and Blue Enterprise Development on Saturday."
-        },
-        {
-          "type": "p",
-          "text": "It is a work-to-skills employment and livelihood initiative for TUPAD workers, especially in coastal communities, initially rolling out in Zambales and the Zamboanga Peninsula."
-        },
-        {
-          "type": "p",
-          "text": "The program is open to registered fisherfolk and their families, coastal youth, first-time jobseekers, and graduates of fisheries, maritime, or TESDA courses. It also extends to displaced or seasonal workers and members of legitimate fisherfolk organizations, labor unions, and cooperatives."
-        },
-        {
-          "type": "p",
-          "text": "DOLE said the program will feature the following three tracks:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Dagat Skills and Services - maritime and fishing-related operations",
-            "Isda Skills and Production - aquaculture and fisheries development",
-            "Blue Enterprise Development - aimed at helping turn technical skills into viable small businesses"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The Trabahong-Dagat and Blue Enterprise Development program will be implemented in collaboration with partner agencies, including the Bureau of Fisheries and Aquatic Resources, MARINA, PESOs, and the Philippine Coast Guard. — VBL, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1qj3f9b",
       "source": "abs",
       "title": "UAAP: National U posts second straight win, hands UP first loss",
@@ -13533,6 +13678,28 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
+      "id": "abs-1lcp5iy",
+      "source": "abs",
+      "title": "UAAP: FEU spoils Hubalde’s debut as UE interim coach",
+      "summary": "Far Eastern University spoiled Paulo Hubalde’s debut as interim coach of University of the East with a win in UAAP Season 89 men’s basketball on Saturday at the Mall of Asia Arena.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T11:36:33.000Z",
+      "firstSeen": "2026-09-27T09:31:05.342Z",
+      "url": "https://www.abs-cbn.com/sports/basketball/2026/9/26/uaap-feu-spoils-hubalde-s-debut-as-ue-interim-coach-1650",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Far Eastern University spoiled Paulo Hubalde’s debut as interim coach of University of the East with a win in UAAP Season 89 men’s basketball on Saturday at the Mall of Asia Arena."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
       "id": "abs-1efzr0g",
       "source": "abs",
       "title": "Volleyball: Jurado leads UST past CSB in Unity Cup opener",
@@ -13750,166 +13917,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "dw-9pr8nm",
-      "source": "dw",
-      "title": "South Korea's gender pay gap grows as women get older",
-      "summary": "A new report shows how in South Korea, women on average earn less and have fewer employment opportunities throughout their lives.",
-      "byline": "Yousra Drioua",
-      "section": "",
-      "published": "2026-09-26T10:44:00.000Z",
-      "firstSeen": "2026-09-26T13:01:08.519Z",
-      "url": "https://www.dw.com/en/south-korea-s-gender-pay-gap-grows-as-women-get-older/a-79431285?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/58904020_6.jpg",
-        "caption": "Caregiving responsibilities still fall on women, pushing them into lower-paid jobs when they try to return to work. Image: DW"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "At 27, a woman in South Korea earns 8% less than male peers. By her late 50s, she earns 50% less. This is according to government wage data published in a recent Human Rights Watch (HRW) report."
-        },
-        {
-          "type": "p",
-          "text": "South Korea is a global technology and industrial powerhouse, but its gender pay gap has remained the highest in the Organization for Economic Cooperation and Development (OECD) since comparable records began in 1992."
-        },
-        {
-          "type": "p",
-          "text": "\"The gender division of labor inside the home leads directly to a gender division of labor in the labor market,\" Min Hee Kim, a Korean activist for women labor struggles, told DW."
-        },
-        {
-          "type": "p",
-          "text": "The problem, she argues, is not simply that women are paid less than men. As women age, the kinds of work available to them narrows and the consequences of lower pay, career breaks and precarious jobs accumulate."
-        },
-        {
-          "type": "p",
-          "text": "For the report, \"Too Old and a Woman,\" HRW interviewed 41 South Korean women aged 28 to 87 about their working lives."
-        },
-        {
-          "type": "h",
-          "text": "Structural barriers to women's careers"
-        },
-        {
-          "type": "p",
-          "text": "Discrimination has changed form rather than disappeared, Kim said. Until the 1980s, it was legal for employers to fire women simply for getting married, a practice known as \"marriage-based dismissal,\" where employers assumed a married woman would soon leave to raise children anyway."
-        },
-        {
-          "type": "p",
-          "text": "Today, \"it is difficult to openly say, 'We won't hire you because you're a woman,'\" Kim added. But caregiving responsibilities still fall on women, pushing them into lower-paid jobs when they try to return to work."
-        },
-        {
-          "type": "p",
-          "text": "According to the HRW report, women's university attainment has passed men's since the 1980s. Higher education would suggest equal opportunity after graduation, but the job market says otherwise."
-        },
-        {
-          "type": "p",
-          "text": "One year after graduating, women already earn 22% less than men, according to a 2024 study."
-        },
-        {
-          "type": "p",
-          "text": "Many women told HRW that after leaving work for marriage or children, chances of returning to the workforce were limited to a handful of jobs such as call centers, cleaning or caregiving."
-        },
-        {
-          "type": "p",
-          "text": "Women who opt to focus on their career told HRW they hit a glass ceiling at work. Women held 18% of manager jobs in 2024, and only five of 38 senior civil servants were women."
-        },
-        {
-          "type": "h",
-          "text": "Brains, beauty and barriers: the global job market"
-        },
-        {
-          "type": "h",
-          "text": "Wages peak and drop off"
-        },
-        {
-          "type": "p",
-          "text": "Women's wages peak in their late 30s and then steadily decline, according to Labor Ministry survey data cited by HRW."
-        },
-        {
-          "type": "p",
-          "text": "South Korea's Gender Ministry told HRW that career interruptions, along with occupational segregation and discrimination within organizations, drive the gap."
-        },
-        {
-          "type": "p",
-          "text": "J. Mi-sook, 53, told HRW that her three years of experience weren't recognized by her next employer, so she started at entry level on a lower salary."
-        },
-        {
-          "type": "p",
-          "text": "The longer women spend outside the workforce, the less experience they accumulate on their resumes, which results in less pay and less work stability."
-        },
-        {
-          "type": "p",
-          "text": "Kim pointed to structural discrimination, a concept from the report that HRW describes as discrimination so embedded in social practices and institutions that even the people harmed by it may not recognize it as a problem."
-        },
-        {
-          "type": "p",
-          "text": "\"When you are alone, it is easy to think, 'It's because I'm not capable enough,' or 'It's because I'm getting older,'\" she said. It's only when women who've had similar experiences meet and talk, she added, that they realize, \"this wasn't just my problem.\""
-        },
-        {
-          "type": "h",
-          "text": "It gets harder as you get older"
-        },
-        {
-          "type": "p",
-          "text": "Park Jae-soon, 61, was forced to retire at 60 from a utility company and now works part-time as a care worker. Her annual income fell from 55 million won ($40,500/€35,600) to 15.6 million won, a 72% drop."
-        },
-        {
-          "type": "p",
-          "text": "HRW argues the mandatory retirement age and the \"peak wage\" system, which lets employers cut older workers' pay in the years before retirement, should both be abolished."
-        },
-        {
-          "type": "p",
-          "text": "According to data cited in the report, women received 53% of men's National Old Age Pension on average in October 2025, a 47% gap."
-        },
-        {
-          "type": "p",
-          "text": "\"I think what is important here is that this is not simply a problem of middle-aged women having difficulty finding jobs,\" Kim said."
-        },
-        {
-          "type": "p",
-          "text": "\"The work that women have traditionally done inside the home, like cleaning, cooking, caregiving and managing other people's emotions, is classified as 'work suitable for women' when it enters the labor market, and then low wages are assigned to it,\" she added."
-        },
-        {
-          "type": "h",
-          "text": "How South Korea's cosmetic industry drives career success"
-        },
-        {
-          "type": "h",
-          "text": "From first paycheck to pension"
-        },
-        {
-          "type": "p",
-          "text": "HRW argues the disadvantage builds stage by stage, from a woman's first paycheck up until her pension."
-        },
-        {
-          "type": "p",
-          "text": "\"Career interruption among women in their 30s is already a pension issue,\" Kim said. \"Part-time work among women in their 40s is a pension issue, and low wages among women in their 50s are already a pension issue,\" she added."
-        },
-        {
-          "type": "p",
-          "text": "South Korea's government has said it will pursue a phased increase in the statutory retirement age from 60 to 65."
-        },
-        {
-          "type": "p",
-          "text": "\"This cannot be solved with just one policy. Equal pay for equal work needs to be actually implemented, wage structures need to be transparent, and care needs to be treated as a public responsibility rather than something that is pushed onto individual families and women,\" Kim said."
-        },
-        {
-          "type": "p",
-          "text": "The rights activist said the report is an important starting point, but believes its picture is incomplete."
-        },
-        {
-          "type": "p",
-          "text": "Most interviewees were recruited through civic organizations and largely in Seoul, she noted, while disabled women, migrant workers and others may experience a different combination of age and gender discrimination."
-        },
-        {
-          "type": "p",
-          "text": "\"The important question is not simply, 'How much discrimination do women face?'\" she said. \"It is which women, in what positions, become increasingly distanced from which resources and rights as they grow older.\""
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-19oixka",
       "source": "abs",
       "title": "Volleyball: Adamson overcomes Lyceum for winning start to Unity Cup campaign",
@@ -13990,28 +13997,6 @@
         {
           "type": "p",
           "text": "University of the East survived a late fightback by the Ateneo de Manila University for an 84-76 win in the UAAP Season 89 16-and-under basketball tournament on Saturday at the DLSZ Sports Pavilion in Muntinlupa."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-nwti39",
-      "source": "abs",
-      "title": "Erwan Heussaff says Filipino products featured on FEATR are now available at his restaurant's deli",
-      "summary": "Erwan Heussaff describes the initiative as a 'full circle' moment, noting that viewers have often asked where they could purchase the local products highlighted in FEATR’s videos.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T10:06:12.000Z",
-      "firstSeen": "2026-09-26T10:31:07.965Z",
-      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/9/26/erwan-heussaff-says-filipino-products-featured-on-featr-are-now-available-at-his-restaurant-s-deli-1806",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Erwan Heussaff describes the initiative as a 'full circle' moment, noting that viewers have often asked where they could purchase the local products highlighted in FEATR’s videos."
         }
       ],
       "truncated": true,
@@ -14175,28 +14160,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-4z3nyn",
-      "source": "abs",
-      "title": "UAAP: Bahay making most out of Alas’ trust in guards — ‘I take it seriously’",
-      "summary": "Louie Alas has long put a premium on his guards, and the veteran tactician is carrying that philosophy into his first season with Ateneo de Manila University.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T09:09:28.000Z",
-      "firstSeen": "2026-09-26T09:31:03.720Z",
-      "url": "https://www.abs-cbn.com/sports/basketball/2026/9/26/uaap-bahay-making-most-out-of-alas-trust-in-guards-i-take-it-seriously-1709",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Louie Alas has long put a premium on his guards, and the veteran tactician is carrying that philosophy into his first season with Ateneo de Manila University."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "dw-1v9aw5p",
@@ -18020,116 +17983,6 @@
         {
           "type": "p",
           "text": "Meanwhile, in Iberia, the relentless heat of summer is extending into meteorological autumn, with temperatures rising into the high 30s celsius on 23 September. Alvega, in Portugal, recorded a maximum temperature of 41.7C, smashing many July records from previous decades."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-ao8p7c",
-      "source": "dw",
-      "title": "Italy to ban burqa in schools, limit foreign pupils",
-      "summary": "Prime Minister Giorgia Meloni’s government has passed new school rules capping the number of students who don't speak fluent Italian and banning face coverings.",
-      "byline": "Dharvi Vaid Dhulia",
-      "section": "",
-      "published": "2026-09-25T08:10:00.000Z",
-      "firstSeen": "2026-09-25T08:31:05.013Z",
-      "url": "https://www.dw.com/en/italy-to-ban-burqa-in-schools-limit-foreign-pupils/a-79423432?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79422393_6.jpg",
-        "caption": "Meloni said the burqa ban was 'a matter of security' Image: Alessandra Tarantino/AP Photo/picture alliance"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Italy's conservative government on Thursday approved a new decree banning face-covering Islamic veils — including burqas and niqabs — in schools and putting a limit on the number of students with a poor command of the Italian language in each classroom."
-        },
-        {
-          "type": "p",
-          "text": "Italian Prime Minister, Giorgia Meloni, called her Cabinet's measures \"tools of common sense that do not divide,\" adding that they will help integration by avoiding what the right-wing leader called \"ghetto classes.\""
-        },
-        {
-          "type": "p",
-          "text": "She went on to say the rules would lead to all students receiving the \"same opportunities.\""
-        },
-        {
-          "type": "p",
-          "text": "Opposition parties and other critics have denounced the move by Meloni's government, with some calling it a \"witch hunt” and others accusing the government of turning immigration into more of a political issue ahead of next year's general election."
-        },
-        {
-          "type": "h",
-          "text": "What do Italy's new school rules entail?"
-        },
-        {
-          "type": "p",
-          "text": "The measures take effect right away but still require parliamentary approval within 60 days. Meloni's coalition currently holds a majority in the country's legislature."
-        },
-        {
-          "type": "p",
-          "text": "Here is what the decree includes:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "A per-classroom cap of 30% for foreign students who lack sufficient proficiency in Italian",
-            "In primary schools, the limit applies to pupils without Italian citizenship who were not born in Italy or did not attend at least two years of preschool",
-            "In lower and upper secondary schools, the same limit applies to students without Italian citizenship who have not attended the country's school system for at least three years",
-            "Failure to comply with the decree is punishable by a fine of up to €1,000 euros ($1,140)"
-          ]
-        },
-        {
-          "type": "h",
-          "text": "Face-coverings banned in schools"
-        },
-        {
-          "type": "p",
-          "text": "The decree bans burqas and niqabs in schools but will continue to allow hijabs."
-        },
-        {
-          "type": "p",
-          "text": "Meloni said the burqa ban was \"a matter of security.\""
-        },
-        {
-          "type": "p",
-          "text": "\"When a woman — or worse, a young girl — is forced to cover her face, she is being denied fundamental rights and the very integration that is so often loudly championed,\" Meloni was quoted as saying in a television interview."
-        },
-        {
-          "type": "p",
-          "text": "Italian Education Minister Giuseppe Valditara said the decree would affect about 1,000 classrooms, which come up to 0.3% of the nationwide tally."
-        },
-        {
-          "type": "p",
-          "text": "According to official data, pupils without Italian citizenship comprised 11.2% of Italy's school population from 2022 to 2023, while classes with over 30% foreign students stood at 7.6% of the total."
-        },
-        {
-          "type": "h",
-          "text": "What do critics say?"
-        },
-        {
-          "type": "p",
-          "text": "Opponents of the decree are worried that the new measure could force students to attend schools far from the neighborhoods where they live."
-        },
-        {
-          "type": "p",
-          "text": "Reports have also highlighted concerns among school authorities regarding how the rules would work in areas with large migrant populations."
-        },
-        {
-          "type": "p",
-          "text": "Independent child rights organization Save the Children had on Wednesday called on the Italian government to weigh the measure \"with the utmost political responsibility,” adding that it risked creating discriminatory effects."
-        },
-        {
-          "type": "p",
-          "text": "\"Such a criterion would create ‘first-class' and 'second-class' students,\" the organization said in its statement."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, opposition leader Elly Schlein railed against the decree, accusing Meloni's government of \"a new witch hunt at the expense of children.\""
-        },
-        {
-          "type": "p",
-          "text": "Meloni is at the head of the most right-wing government that Italy has seen since World War II."
         }
       ],
       "truncated": false,
