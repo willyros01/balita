@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-09-27T02:31:29.764Z",
+  "updated": "2026-09-27T03:01:36.241Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-7jsuhw",
+      "source": "inqn",
+      "title": "2nd NCR wage order in effect as 1st order still in court",
+      "summary": "MANILA, Philippines — A second wage order for an estimated 1.1 million workers in Metro Manila took effect on Saturday even as an earlier wage order remained pending in court despite its injunction…",
+      "byline": "NewsPublish",
+      "section": "Headlines",
+      "published": "2026-09-27T03:01:21.874Z",
+      "firstSeen": "2026-09-26T21:31:06.251Z",
+      "url": "https://newsinfo.inquirer.net/2312182/2nd-ncr-wage-order-in-effect-as-1st-order-still-in-court",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/07/wages-salary-peso-labor-worker-employee-21July2026.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — A second wage order for an estimated 1.1 million workers in Metro Manila took effect on Saturday even as an earlier wage order remained pending in court despite its injunction being barred by law. On Sept. 7, the Regional Tripartite Wages and Productivity Board in the National Capital Region (NCR) issued Wage"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-rkfypy",
       "source": "inqn",
       "title": "El Niño affecting 14 regions, agriculture sustains P6.87-B damage",
       "summary": "MANILA, Philippines — The El Niño phenomenon, which began to be felt in the Philippines since June, is now affecting 14 of the country’s 18 regions, with its agriculture sector sustaining some P6.87…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-09-27T02:31:13.578Z",
+      "published": "2026-09-27T03:01:21.874Z",
       "firstSeen": "2026-09-26T21:31:06.252Z",
       "url": "https://newsinfo.inquirer.net/2312179/el-nino-affecting-14-regions-agriculture-sustains-p-6-87-b-damage",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "PAGADIAN CITY, Zamboanga del Sur — Following decades of armed conflict and security challenges, the Province of Sulu was officially declared having a state of Stable Internal Peace and Security…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-09-27T02:31:13.578Z",
+      "published": "2026-09-27T03:01:21.874Z",
       "firstSeen": "2026-09-26T21:01:09.049Z",
       "url": "https://newsinfo.inquirer.net/2312237/sulu-declared-stable-in-peace-security",
       "image": {
@@ -109,7 +134,7 @@
       "summary": "MANILA, Philippines — The Department of Social Welfare and Development (DSWD) vowed to improve its storage of prepositioned food packs after the Commission on Audit (COA) found several “deficiencies”…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-09-27T02:31:13.578Z",
+      "published": "2026-09-27T03:01:21.874Z",
       "firstSeen": "2026-09-26T21:01:09.049Z",
       "url": "https://newsinfo.inquirer.net/2312165/dswd-to-improve-storage-of-relief-goods",
       "image": {
@@ -134,7 +159,7 @@
       "summary": "PANGANTUCAN, Bukidnon — The Jesuit-run Pangantucan Community High School has announced a total ban on cellular phones and gadgets on school premises starting Monday, Sept. 28, following a recent…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-09-27T02:31:13.578Z",
+      "published": "2026-09-27T03:01:21.874Z",
       "firstSeen": "2026-09-26T21:01:09.050Z",
       "url": "https://newsinfo.inquirer.net/2312233/bukidnon-school-bans-mobile-phones-after-hoax-threat",
       "image": {
@@ -159,7 +184,7 @@
       "summary": "MANILA, Philippines — To support Filipino hog raisers, the Department of Agriculture (DA) on Friday said it is seeking to restore pre-African swine fever tariff levels for imported pork through…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-09-27T02:31:13.578Z",
+      "published": "2026-09-27T03:01:21.874Z",
       "firstSeen": "2026-09-26T21:01:09.631Z",
       "url": "https://newsinfo.inquirer.net/2312186/da-backs-phased-pork-tariff-hikes",
       "image": {
@@ -184,7 +209,7 @@
       "summary": "KIBAWE, Bukidnon — For decades, outdoor water adventure seekers chasing the ultimate river rush in Mindanao have often looked north toward Cagayan de Oro City, long celebrated as the country’s…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-09-27T02:31:13.578Z",
+      "published": "2026-09-27T03:01:21.874Z",
       "firstSeen": "2026-09-26T21:01:11.226Z",
       "url": "https://newsinfo.inquirer.net/2312130/riding-pulangis-wild-rapids-in-bukidnon",
       "image": {
@@ -209,7 +234,7 @@
       "summary": "The National Historical Commission of the Philippines installed a historical marker at the Benguet State University in La Trinidad, Benguet. In its early years, the university began as a farm school…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-09-27T02:31:13.578Z",
+      "published": "2026-09-27T03:01:21.874Z",
       "firstSeen": "2026-09-26T20:31:05.880Z",
       "url": "https://newsinfo.inquirer.net/2312128/this-weeks-milestones-sept-27-to-oct-3",
       "image": {
@@ -228,38 +253,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-7jsuhw",
-      "source": "inqn",
-      "title": "2nd NCR wage order in effect as 1st order still in court",
-      "summary": "MANILA, Philippines — A second wage order for an estimated 1.1 million workers in Metro Manila took effect on Saturday even as an earlier wage order remained pending in court despite its injunction…",
-      "byline": "NewsPublish",
-      "section": "Headlines",
-      "published": "2026-09-27T02:31:12.231Z",
-      "firstSeen": "2026-09-26T21:31:06.251Z",
-      "url": "https://newsinfo.inquirer.net/2312182/2nd-ncr-wage-order-in-effect-as-1st-order-still-in-court",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/07/wages-salary-peso-labor-worker-employee-21July2026.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — A second wage order for an estimated 1.1 million workers in Metro Manila took effect on Saturday even as an earlier wage order remained pending in court despite its injunction being barred by law. On Sept. 7, the Regional Tripartite Wages and Productivity Board in the National Capital Region (NCR) issued Wage"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-e3k84i",
       "source": "inqn",
       "title": "Inquirer feted in UST media awards",
       "summary": "MANILA, Philippines — The Philippine Daily Inquirer (PDI) was one of the media organizations and personalities recognized in this year’s revival of the USTV+ Awards, honors conferred by the…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-09-27T02:31:10.291Z",
+      "published": "2026-09-27T03:01:21.112Z",
       "firstSeen": "2026-09-26T21:31:06.251Z",
       "url": "https://newsinfo.inquirer.net/2312161/inquirer-feted-in-ust-media-awards",
       "image": {
@@ -284,7 +284,7 @@
       "summary": "MANILA, Philippines — The Commission on Higher Education (CHEd) has closed 26 teacher education programs in 11 teacher education institutions (TEIs) for failing to comply with quality standards. CHEd…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-09-27T02:31:09.718Z",
+      "published": "2026-09-27T03:01:20.217Z",
       "firstSeen": "2026-09-26T21:31:06.251Z",
       "url": "https://newsinfo.inquirer.net/2312171/ched-closes-26-teacher-education-programs",
       "image": {
@@ -309,7 +309,7 @@
       "summary": "MANILA, Philippines — The Philippines reclaimed its status as the world’s second-largest banana exporter in 2025, as local production recovered after a disease spread and other factors, according to…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-09-27T02:31:07.927Z",
+      "published": "2026-09-27T03:01:19.175Z",
       "firstSeen": "2026-09-26T22:01:10.390Z",
       "url": "https://newsinfo.inquirer.net/2312160/ph-back-as-worlds-no-2-banana-exporter",
       "image": {
@@ -334,7 +334,7 @@
       "summary": "MANILA, Philippines — The Supreme Court has handed the government what may be considered a rare victory in its four-decade campaign to recover the Marcoses’ alleged ill-gotten wealth, ruling that the…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-09-27T02:31:05.246Z",
+      "published": "2026-09-27T03:01:16.593Z",
       "firstSeen": "2026-09-26T22:01:10.390Z",
       "url": "https://newsinfo.inquirer.net/2312176/sc-pcgg-doesnt-owe-damages-over-funds-seized-from-kokoy-firms",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "MANILA, Philippines — Several groups have come together to raise red flags over a new law extending the term of office of barangay and Sangguniang Kabataan (SK) officials to November 2028, saying…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-09-27T02:31:03.375Z",
+      "published": "2026-09-27T03:01:13.943Z",
       "firstSeen": "2026-09-26T22:01:10.389Z",
       "url": "https://newsinfo.inquirer.net/2312170/new-law-on-barangay-sk-polls-terms-under-fire",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — Ferry operators in the vital Calapan–Batangas route have implemented fare increases, citing the rise in petroleum prices. Starlite Ferries raised its Roll-on/Roll-off…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T02:31:02.863Z",
+      "published": "2026-09-27T03:01:11.109Z",
       "firstSeen": "2026-09-27T01:01:06.833Z",
       "url": "https://newsinfo.inquirer.net/2312280/calapan-batangas-ferry-fares-rise-operators-cite-fuel-price-surge",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "CALAPAN CITY— The Philippine Coast Guard (PCG) continued its search and rescue operations on Saturday for the eight missing passengers of the ill-fated M/V June Aster in the waters and shoreline of…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T02:31:02.841Z",
+      "published": "2026-09-27T03:01:11.106Z",
       "firstSeen": "2026-09-27T01:19:02.659Z",
       "url": "https://newsinfo.inquirer.net/2312282/coast-guard-continues-search-for-8-missing-palawan-ferry-passengers",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "MANILA, Philippines — Typhoon Queenie (international name: Surigae) is forecast to exit the Philippine area of responsibility (PAR) on Sunday noon or afternoon, according to the state weather bureau.…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-09-27T02:31:02.754Z",
+      "published": "2026-09-27T03:01:11.104Z",
       "firstSeen": "2026-09-27T02:01:06.881Z",
       "url": "https://newsinfo.inquirer.net/2312285/typhoon-queenie-may-exit-par-sunday-pagasa",
       "image": {
@@ -450,7 +450,531 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-1b0bk38",
+      "source": "inqn",
+      "title": "Marcos declares local holidays in 5 towns across PH",
+      "summary": "MANILA – President Ferdinand R. Marcos Jr. has declared special non-working days in five municipalities in Isabela, Cebu, Palawan, Nueva Vizcaya and Davao del Sur to allow residents to participate in…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-09-27T03:01:11.034Z",
+      "firstSeen": "2026-09-27T03:01:11.034Z",
+      "url": "https://newsinfo.inquirer.net/2312292/marcos-declares-local-holidays-in-5-towns-across-ph",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Holiday-non-working-stock-11September2026.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA – President Ferdinand R. Marcos Jr. has declared special non-working days in five municipalities in Isabela, Cebu, Palawan, Nueva Vizcaya and Davao del Sur to allow residents to participate in their respective local celebrations. Under Proclamation No. 1450, Marcos declared Sept. 28 (Monday) a special non-working day in the Municipality of Luna, Isabela, in"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-11dvvo6",
+      "source": "abs",
+      "title": "What’s new in travel: Hotel Okura, South Palms, Hyatt Regency and more",
+      "summary": "From a new Michelin key in Manila to international hospitality awards, family-friendly stays and travel deals, hotels and resorts are rolling out plenty of reasons to plan the next getaway.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T03:00:03.000Z",
+      "firstSeen": "2026-09-27T03:01:11.034Z",
+      "url": "https://www.abs-cbn.com/lifestyle/food-travel/2026/9/27/what-s-new-in-travel-hotel-okura-south-palms-hyatt-regency-and-more-1100",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "From a new Michelin key in Manila to international hospitality awards, family-friendly stays and travel deals, hotels and resorts are rolling out plenty of reasons to plan the next getaway."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "rap-y09kyx",
+      "source": "rap",
+      "title": "[Tambay] Eggie Apostol, Recah Trinidad: Pagpupugay sa mga alamat ng peryodismo",
+      "summary": "Tulad na nasabi sa mga Greek epic, pumanaw na ang dalawang alamat ng Philippine journalism, pero magpakailanman babanggitin ang kanilang pangalan",
+      "byline": "Chito de la Vega",
+      "section": "Editors' Pick",
+      "published": "2026-09-27T03:00:00.000Z",
+      "firstSeen": "2026-09-27T03:01:11.034Z",
+      "url": "https://www.rappler.com/people/tambay-tribute-eugenia-apostol-recah-trinidad-legends-journalism-philippines/",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Noong nakaraang linggo sinakluban ng pagluluksâ ng mga Filipinong peryodista sa magkasunod na pagpanaw ng dalawang haligi ng industriya. Pahintulutan po ninyo ang abang tambay na ito na saluduhan sila — si Eugenia “Eggie” Apostol at Recah Trinidad."
+        },
+        {
+          "type": "p",
+          "text": "* * *"
+        },
+        {
+          "type": "p",
+          "text": "May urban legend noong early ’80s sa mga estudyanteng manginginom ng UST AB tulad ng tambay na ito. Sa Piso-piso kami nagpapalipas ng oras kapag may break sa pagitan ng mga klase. Kaniya-kaniyang dukot sa allowance para ambag sa pambilí ng pangpawi ng uhaw. Malamig na San Miguel Beer ang paboritong serbesa. Pero ang mga babae kong kaklase Red Horse ang tinutungga. Mas malakas pa sila uminom kaysa sa aming mga lalaki."
+        },
+        {
+          "type": "p",
+          "text": "Doon sa Piso-piso sa kalye Asturias halos katapat ng UST Dapitan gate ko unang nadinig ang pangalang Recah Trinidad. Yung henerasyon daw nila kasi ng mga taga-UST AB noong ’70s ang nagbansag sa Piso-piso. Mga literati ang pagkakakilanlan sa grupo nila Recah."
+        },
+        {
+          "type": "p",
+          "text": "Yari lang ng kahoy ang estrukturang puwesto ng Piso-piso, tulad ng mga tipikal na aksesorya o bahay-paupahan sa Maynila nung panahong ito. Lumalangitngit ang nilalakarang sahig. Kahoy na walang tapete ang mesa. Kahoy din ang mga upuan. Malapad at bukas na bukas ang kupas na bintanang capiz para makapasok ang preskong hangin Maynila."
+        },
+        {
+          "type": "p",
+          "text": "Mga dormitoryo, karinderya, sari-sari store at shop ng sastre’t modista ang makikita paglabas ng Dapitan gate. Walang pa yung mga mamahaling coffee shop at burger joints. Noong panahon iyon, dalawang restoran ang de-aircon ang malapit sa Dapitan gate, yung Janet’s at Food Pan. Parehong hindi ako nakakain sa dalawang iyan dahil hindi afford ng allowance ko."
+        },
+        {
+          "type": "p",
+          "text": "Dahil tinapos na ni Marcos Sr. ang Martial Law noong dulo ng 1980 pinayagang mag-organisa muli ang mga student council. Ipinagbawal kasi noong Batas Militar ang mga student council, tulad ng pagsupil sa malayang pamamahayag. Pero ang totoo, sa papel lang nawala ang Batas Militar — pakitang-tao ng rehimeng Marcos dahil iyan ang kasama sa mga kondisyon para paunlakan ni Pope John Paul II ang imbitasyon na dumalaw sa Pinas."
+        },
+        {
+          "type": "p",
+          "text": "Namulat ako sa pakikibaka noong panahon iyon dahil sa pagbabasa ng mosquito press, kasama na dito yung Mr. & Ms. magazine. Dahil yung mga malalaking mainstream media (TV, radyo, telebisyon) ay pag-aari ng mga crony ni Marcos, panay puri sa diktador ang mababasa, mapapakinggan, mapapanood dito. Ang nag-uulat o nagbibigay ng opinyon sa mga kabuktutan ng diktadurya ay yung mga maliliit na media na binansagang mosquito press. Doon sa Mr. & Ms. ko binabasa ang mga kolum nila Rene Saguisag, SP Lopez, Max Soliven. Yung nanay ko, palibhasa single parent ng tatlong growing boys, ginugupit ang pahina ng magasin para sa mga suggested ulam for the week."
+        },
+        {
+          "type": "p",
+          "text": "Ang editor at may-ari ng Mr. & Ms. ay si Eugenia D. Apostol."
+        },
+        {
+          "type": "p",
+          "text": "Kung tutuusin, mapanganib ang sumulat at magbasa ng mga anti-Marcos na artikulo noon. Maaari kang makulong. Kung susuwertihin, mawawalan ka lang ng trabaho. Kahit ganoon ang sitwasyon, tuloy pa rin ang paninindigan ni Ms Apostol sa Mr. & Ms. Si Recah naman naging unang editor ng Tempo, ang tabloid ng pro-Marcos na grupo ng pahayagang Bulletin Today. Panay din ang sundot ni Recah sa gobyerno sa mga editorial ng Tempo. Di nagtagal, sinibak sa trabaho si Recah. Sumunod sa kanya ang iba pang mga editor ng Tempo, kasama ang kanyang “sparring partner” na si Al S. Mendoza."
+        },
+        {
+          "type": "p",
+          "text": "Nag-umpisa ako sa Philippine Daily Inquirer noong 1986, katatapos lang noon ng EDSA People Power at sinipa na ng taumbayan ang pamilya Marcos. Si Cory Aquino na ang pangulo."
+        },
+        {
+          "type": "p",
+          "text": "Maliit na pahayagan lang ang Inquirer noon. Ang opisína nito ay nasa 13th corner Railroad Street, Port Area. Building iyon ng Star publications ng pamilya ni Betty Go-Belmonte."
+        },
+        {
+          "type": "p",
+          "text": "Para sa isang uhúging sportswriter tulad ko, mind-blowing ang maging bahagi ng Inquirer at makasama ang mga idol mong manunulat. (Ang isa pang bigatin na naabutan ko sa Inquirer, bagaman hindi ko nakadaupang-palad ay ang National Artist na si Nick Joaquin. Ang kolum niyang “Small Beer” ay nasa page 1 ng PDI. Kaibigan ni Recah at Al si Ginoong Joaquin.)"
+        },
+        {
+          "type": "p",
+          "text": "Tatlong grupo ang nag-ambagan para mabuo ang Philippine Daily Inquirer. Pangunahing layunin nila ang mabigyan ng boses ang oposisyon para sa pinatawag ni Marcos sa snap elections. Ang building at ang printing press (na nasa loob ng gusaling iyon) ang ambag ng grupo nila Betty Go. Yung grupong civil society na nakilala naming mga reporter noon ay pinamumunuan nila Dr. Florangel Braid, Danilo Venida, at Anicia Mejia, bitbit ang financial backing at administrative know-how. Si Eggie Apostol ang nagdala ng office equipment, at editorial staff. Doon sa pioneering PDI group kasama ang Big 3 na mga kolumnísta na sila Max Soliven, Art Borjal, at Louie Beltran, na siyang naging unang editor in chief."
+        },
+        {
+          "type": "p",
+          "text": "Maliit lang na kumpanya nag-umpisa ang PDI. Masikip na opisina, maingay, kulang sa gamit. Parang pamilya ang pagpapatakbo. Kaya’t yung mga reporter, Tita Eggie at Tita Betty ang tawag kay Mrs. Apostol at Mrs. Belmonte."
+        },
+        {
+          "type": "p",
+          "text": "Ang pangarap sana ng mga orihinal na bumuo ng PDI ay maging isa itong kooperatibang mga peryodísta ang magpapatakbo. Yun nga lang, medyo nalihis ito. Ikanga sa Ingles: “life happened.”"
+        },
+        {
+          "type": "p",
+          "text": "Bandang July 1986 lumipat ang Inquirer sa bagong opisina, ang dating Madrid Restaurant sa EDSA, Mandaluyong (katabi ng noo’y Polymedic Hospital at ngayo’y VRP Medical Center). Noong araw na lumipat ang PDI sa Madrid ang araw din na pinaalam ni Tita Betty na aalis na siya ng Inquirer. (Sa ibang araw na yung kuwento ko tungkol diyan.) Kasama niyang umalis yung Big 3 na mga kolumnista."
+        },
+        {
+          "type": "p",
+          "text": "Si Tita Eggie at ang grupo ng civil society ang namuno muna kaya tuloy pa din yung pangarap na maging kooperatiba. Noong 1987, sa bisperas ng sana’y unang company-sponsored Valentine’s Party na gaganapin sa bagong opisina sa Madrid, inanúnsiyó ng mga reporter na binuo nila ang PDI Employees’ Union. Kasabay nito sinabi sa management ng bagong silang na union na nais nilang bumuo ng collective bargaining agreement."
+        },
+        {
+          "type": "p",
+          "text": "Bagaman nginingitian pa rin niya kami, tumamlay ang pakikiharap sa amin ni Tita Eggie. Noong unang CBA ng PDI, nakumpirma namin na kahit may tampo sa amin si Tita Eggie, ang puso niya ay nasa kapakanan ng mga peryodista. Halos patapos na ang negosasyon sa CBA, nung may dalawang probisyon na pinadagdag sa kasunduan sila Tita Eggie at yung grupo nila Dr. Braid. Una, ang magkaroon ng health insurance ang mga empleyado na tutustusan ng kumpanya. Ikalawa, ang magkaroon ng profit-sharing."
+        },
+        {
+          "type": "p",
+          "text": "Noon at magpa-hanggang ngayon, bihira ang kumpanyang kusang nagbibigay ng bahagi ng kinita sa mga manggagawa. Hindi ito hiningi ng PDIEU. Management sa ilalim ni Tita Eggie at nung grupong civil society ang nagdagdag nito sa CBA."
+        },
+        {
+          "type": "p",
+          "text": "Natural, wala kaming tutol. Kahit alam namin na noong panahon iyon, halos walang kinikita ang PDI."
+        },
+        {
+          "type": "p",
+          "text": "Taga-sambot ako nung araw ng kolum ni Ka Recah. Dinidikta niya ito sa telepono (landline, dahil hindi pa naimbento noon ang cellphone), at agad ko naman tinitipa sa typewriter. Dito ko unang nakasalamuhà ang alamat."
+        },
+        {
+          "type": "p",
+          "text": "Bukod sa sports kolum niyang “Bare Eye,” minsan idinidikta rin sa akin ni Ka Recah ang kanyang sinusumiteng mga artikulo. Sa aking pagbabalík-tanáw, proud ako na napagdaanan ko ito. Naiisip ko din na ang suwerte ko."
+        },
+        {
+          "type": "p",
+          "text": "Malapitan kong namalas kung gaano kagaling na manunulat si Recah. Nasa hanay siya ng mga bukod-tanging journalist na — baga sa Ingles “among the rarefied group worthy of the title ‘auteurs’.” Minsan pinayuhan niya akong magbasa ng mga akda ng Amerikanong nobelistang si Ernest Hemingway. Ang sabi ko kay Ka Recah nakabasa nako ng ilang nobela ni Hemingway, at napansin kong magkahawig sila ng estílo."
+        },
+        {
+          "type": "p",
+          "text": "Mapili at mabusisi siya sa mga salitang ginagamit niya. Minsan tapos na ang aming diktahan at naibaba na ang telepono. Tatawag pa ulit si Ka Recah at may papalitang salita o paragraph. Kailan ko lang nalaman na akma pala ang bansag namin sa kanya na “wordsmith.” Ginawaran pala si Recah noong 1978 ng Carlos Palanca Award for English poetry."
+        },
+        {
+          "type": "p",
+          "text": "Gayunman, tumatak sa akin ang kababaang-loob ni Recah. Nilalarawan niya sa sarili niya na isa lamang “typist who is racing the rat.” Pinong-pino siya tumuligsa sa kanyang kolum sa mga isyu o personalidad na hindi niya sinasang-ayunan. Ika nga, punyal ang kanyang pangtarak sa kanyang kolum, hindi siya gumagamit ng maso."
+        },
+        {
+          "type": "p",
+          "text": "Dahil sa kanyang kakaibang pangalan (kasi nga Recah, na tila babaeng Rico), madalas ay makatanggap siya tuwing Valentine’s Day ng mga bouquet ng rosas at kahon ng tsokolate. Nagpapasalamat siya sa nagbigay, sabay sabi na may ireregalo na siya sa “resident China doll” nila — ang kanyang maybahay na si Fe Lacsamana."
+        },
+        {
+          "type": "p",
+          "text": "Sumilip ang pagiging literati ni Ka Recah nung binyagang niyang “Point Laureate” ang PBA player na si Ronnie Magsanoc. Malapit din niyang kaibigan ang kilalang pintor na si Danny Dalena ng Pakil, Laguna. Madalas dumalaw si Dalena kanila Ka Recah at Al Mendoza sa opisina ng Inquirer. Unang tingin mo pa lang kay Dalena, alam mo agad na artist siya dahil sa trademark niyang suot na sombrero at kahoy na bakya."
+        },
+        {
+          "type": "p",
+          "text": "Isa pang malapit na kaibigan ni Recah ay si Ramon Tulfo. Magkasama na sila nung araw sa Bulletin Today at maging sa Inquirer."
+        },
+        {
+          "type": "p",
+          "text": "Taong 2024, huli kong nakita si Ka Recah. Lamay iyon ng panganay niyang si Chino na nasawi sa atake sa puso. Napasakit sa isang magulang ang mamatayan ng anak. Niyakap ako ni boss, at bumulong sa tenga ko ng may makirot na tinig: “Hindi ko na naabutang buhay, Tochi.”"
+        },
+        {
+          "type": "p",
+          "text": "Nung nagretiro ako sa Inquirer matapos ang mahigit tatlong dekadang paninilbihan, sinulat ko sa isang social media post na ang highlight sa mahabang listahan ko ng good memories ay ang makapaglakad sa lilim ng mga anino ng mga higante ng Philippine journalism. Si Recah at Tita Eggie ang mga nangunguna sa listahan kong iyon."
+        },
+        {
+          "type": "p",
+          "text": "Dahil sa kanilang mga ambag sa pagsulong ng malayang pamamahayag, nababagay kay Tita Eggie at Recah ang nasabi ng bida sa pelikulang halaw sa Greek epic ni Homer — “sasambitin ang kanilang pangalan habang panahon.” – Rappler.com"
+        },
+        {
+          "type": "p",
+          "text": "Si Chito de la Vega ay Tambay ng Rappler dalawang beses kada buwan. Kasama rin siya sa mga anchor-host ng programang Balita Kwento Serbisyo ng DZME 1530."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "feed"
+    },
+    {
+      "id": "abs-cl2s6b",
+      "source": "abs",
+      "title": "PNP reminds owners on responsible gun handling, storage after school shootings",
+      "summary": "The Philippine National Police urged firearm owners to practice responsible handling and secure storage of guns as school shooting incidents surge across the country in recent months.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T02:55:05.000Z",
+      "firstSeen": "2026-09-27T03:01:11.104Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/9/27/pnp-reminds-owners-on-responsible-gun-handling-storage-after-school-shootings-1055",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Philippine National Police urged firearm owners to practice responsible handling and secure storage of guns as school shooting incidents surge across the country in recent months."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-3uv2oj",
+      "source": "inq",
+      "title": "Sexbomb Girls’ Cynthia Yapchingco mourns death of partner Susan Lim",
+      "summary": "SexBomb Girls member Cynthia Yapchingco is mourning the death of her partner, concert producer Susan O. Lim. In a social media post on Saturday, Sept. 26, Yapchingco shared a solo photo of Lim and a…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T02:53:35.000Z",
+      "firstSeen": "2026-09-27T03:01:11.033Z",
+      "url": "https://entertainment.inquirer.net/685002/sexbomb-girls-cynthia-yapchingco-mourns-death-of-partner-susan-lim",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/09/Screenshot-2026-09-27-at-9.01.38-AM-700x348.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SexBomb Girls member Cynthia Yapchingco is mourning the death of her partner, concert producer Susan O. Lim. In a social media post on Saturday, Sept. 26, Yapchingco shared a solo photo of Lim and a photo from their wedding as she paid tribute to her late wife. “No words could ever capture what she meant to me… or the heartbreak of saying goodbye,” Yapchingco wrote. “One of my greatest blessings will always be our love and journey of us together.” Yapchingco recalled how their relationship endured “for better or for worse” and described laughter as healing and love as “the greatest [&hellip;]... Keep on reading: Sexbomb Girls’ Cynthia Yapchingco mourns death of partner Susan Lim"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-18kaauf",
+      "source": "abs",
+      "title": "BTS Jimin impersonator apologizes and temporarily suspends activities",
+      "summary": "BTS Jimin impersonator Pachi Jimin apologized and temporarily suspended his activities after receiving an official document from BigHit Music concerning his impersonation and use of the stage name.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T02:50:41.000Z",
+      "firstSeen": "2026-09-27T03:01:11.107Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/9/27/bts-jimin-impersonator-apologizes-and-temporarily-suspends-activities-1050",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BTS Jimin impersonator Pachi Jimin apologized and temporarily suspended his activities after receiving an official document from BigHit Music concerning his impersonation and use of the stage name."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-zmfif0",
+      "source": "inq",
+      "title": "UAAP Season 89: Reinhard Jumamoy dazzles again as NU stuns UP",
+      "summary": "CEBU CITY, Philippines — Reinhard Jumamoy appears to have found his groove at just the right time. After putting together a stunning performance in National University’s win against the University of…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T02:43:00.000Z",
+      "firstSeen": "2026-09-27T03:01:11.104Z",
+      "url": "https://cebudailynews.inquirer.net/770096/uaap-season-89-reinhard-jumamoy-dazzles-again-as-nu-stuns-up",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/09/09-27-Reinhard-Jumamoy-620x413.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CEBU CITY, Philippines — Reinhard Jumamoy appears to have found his groove at just the right time. After putting together a stunning performance in National University’s win against the University of the East last September 19, the Jumamoy duplicated his heroics on Saturday, leading the Bulldogs to a 72-64 wire-to-wire upset of the University of [&hellip;]... Keep on reading: UAAP Season 89: Reinhard Jumamoy dazzles again as NU stuns UP"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-10fml75",
+      "source": "abs",
+      "title": "1 dead, 3 injured in Batangas road crash",
+      "summary": "A 54-year-old man died and three others were injured on Saturday after a modern public utility vehicle collided with a tricycle in Barangay Palsahingin, San Pascual, Batangas, police said.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T02:42:59.000Z",
+      "firstSeen": "2026-09-27T03:01:12.333Z",
+      "url": "https://www.abs-cbn.com/news/regions/2026/9/27/1-dead-3-injured-in-batangas-road-crash-1042",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A 54-year-old man died and three others were injured on Saturday after a modern public utility vehicle collided with a tricycle in Barangay Palsahingin, San Pascual, Batangas, police said."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-8sy1rt",
+      "source": "abs",
+      "title": "Taylor Swift reveals inspiration behind new single ‘Patient Zero’",
+      "summary": "Taylor Swift revealed that the idea for the track came from a conversation she had with a group of friends.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T02:42:19.000Z",
+      "firstSeen": "2026-09-27T03:01:14.747Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/music/2026/9/27/taylor-swift-reveals-inspiration-behind-new-single-patient-zero-1042",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Taylor Swift revealed that the idea for the track came from a conversation she had with a group of friends."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-7hb5xu",
+      "source": "abs",
+      "title": "Chloe San Jose celebrates Carlos Yulo’s two gold medals at the Asian Games",
+      "summary": "Chloe San Jose expresses pride for Carlos Yulo, who bagged 2 gold medals at Asian Games",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T02:37:31.000Z",
+      "firstSeen": "2026-09-27T03:01:18.287Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/9/27/chloe-san-jose-celebrates-carlos-yulo-s-two-gold-medals-at-the-asian-games-1037",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Chloe San Jose expresses pride for Carlos Yulo, who bagged 2 gold medals at Asian Games"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1pbpsz9",
+      "source": "inq",
+      "title": "China sends two giant pandas to US",
+      "summary": "BEIJING &#8212; China sent two giant pandas to the United States on Sunday, state media said, after a Washington summit that was heavy on symbolism and light on major breakthroughs. The pandas&#8217;…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T02:36:16.000Z",
+      "firstSeen": "2026-09-27T03:01:11.104Z",
+      "url": "https://globalnation.inquirer.net/339544/china-sends-two-giant-pandas-to-us",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/09/China-sends-two-giant-pandas-to-US-620x414.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BEIJING &#8212; China sent two giant pandas to the United States on Sunday, state media said, after a Washington summit that was heavy on symbolism and light on major breakthroughs. The pandas&#8217; transfer had been already agreed but the departure was announced Thursday during Chinese President Xi Jinping visit to Washington. The black and white mammals are immensely popular around the world, and China loans them out as part of a &#8220;panda diplomacy&#8221; program to foster foreign ties. READ: China, US to open AI ‘communication channel’ after summit Ping Ping and Fu Shuang departed from Chengdu Shuangliu International Airport on a [&hellip;]... Keep on reading: China sends two giant pandas to US"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-j2nmgq",
+      "source": "inq",
+      "title": "Marcos declares local holidays in 5 towns across PH",
+      "summary": "MANILA – President Ferdinand R. Marcos Jr. has declared special non-working days in five municipalities in Isabela, Cebu, Palawan, Nueva Vizcaya and Davao del Sur to allow residents to participate in…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T02:35:51.000Z",
+      "firstSeen": "2026-09-27T03:01:11.108Z",
+      "url": "https://newsinfo.inquirer.net/2312292/marcos-declares-local-holidays-in-5-towns-across-ph",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Holiday-non-working-stock-11September2026-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA – President Ferdinand R. Marcos Jr. has declared special non-working days in five municipalities in Isabela, Cebu, Palawan, Nueva Vizcaya and Davao del Sur to allow residents to participate in their respective local celebrations. Under Proclamation No. 1450, Marcos declared Sept. 28 (Monday) a special non-working day in the Municipality of Luna, Isabela, in celebration of its 77th founding anniversary. Sept. 29 (Tuesday) was declared a special non-working day in the Municipality of Argao, Cebu, through Proclamation No. 1451, to mark Araw ng Argao. In Palawan, Oct. 1 (Thursday) was declared a special non-working day in the Municipality of Aborlan [&hellip;]... Keep on reading: Marcos declares local holidays in 5 towns across PH"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-1ovsuso",
+      "source": "abs",
+      "title": "DJ Martin D of MOR 101.9 passes away at 56",
+      "summary": "DJ Martin D, one of the pioneers of MOR 101.9, has passed away.",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-27T02:32:36.000Z",
+      "firstSeen": "2026-09-27T03:01:20.095Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/9/27/dj-martin-d-of-mor-101-9-passes-away-at-56-1031",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "DJ Martin D, one of the pioneers of MOR 101.9, has passed away."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "gma-apmqso",
+      "source": "gma",
+      "title": "Pacquiao dares 'traitorous Filipinos' to visit Pag-asa Island",
+      "summary": "Newly appointed National Anti-Poverty Commission (NAPC) lead convenor Manny Pacquiao dared Filipinos, who have questionable allegiance to the country, to come and visit Pag-asa Island amid the…",
+      "byline": "GMA News",
+      "section": "",
+      "published": "2026-09-27T02:29:14.000Z",
+      "firstSeen": "2026-09-27T03:01:11.104Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1003845/pacquiao-dares-traitorous-filipinos-to-visit-pag-asa-island/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/09/manny_pacquiao_pag-asa_island_092726_2026_09_27_10_21_52.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published September 27, 2026 10:29am"
+        },
+        {
+          "type": "p",
+          "text": "Newly appointed National Anti-Poverty Commission (NAPC) lead convenor Manny Pacquiao dared Filipinos, who have questionable allegiance to the country, to come and visit Pag-asa Island amid the tensions between China and the Philippines."
+        },
+        {
+          "type": "p",
+          "text": "In Jonathan Andal’s report in “24 Oras Weekend” on Saturday, some residents of Pag-asa Island are already used to the Chinese vessels surrounding them."
+        },
+        {
+          "type": "p",
+          "text": "“We are not afraid because I don’t think they will harm us given that we are civilians,” said Myra Gonzales."
+        },
+        {
+          "type": "p",
+          "text": "But there are others who cannot help but worry about their situation."
+        },
+        {
+          "type": "p",
+          "text": "“I wish there’s a Filipino vessel on standby. For us fishermen, we cannot help but worry,” said Fernan Lozada, a fisherman and local government employee."
+        },
+        {
+          "type": "p",
+          "text": "For his part, Pacquiao condemned the presence of Chinese ships inside Philippine territory."
+        },
+        {
+          "type": "p",
+          "text": "“Naiinsulto tayo, kasi in our territory, nandiyan sila. Parang nabu-bully tayo,” he said during his first visit to the island which is located 500 kilometers west of Puerto Princesa City in Palawan."
+        },
+        {
+          "type": "p",
+          "text": "(It’s insulting that they are in our territory. It seems that they are bullying us.)"
+        },
+        {
+          "type": "p",
+          "text": "“Doon sa mga Pilipino na medyo traydor, dapat pumunta kayo dito para ma-experience niyo ba,” Pacquiao added."
+        },
+        {
+          "type": "p",
+          "text": "(To those Filipinos who are slightly traitorous, you should visit here and experience what it’s like.)"
+        },
+        {
+          "type": "p",
+          "text": "Alongside Pacquiao, Presidential Adviser for Maritime Concerns Andres Centino, House Deputy Majority Leader Keith Flores, Aklan Representative Jesus Marquez, and other government personnel also visited Pag-asa Island to extend assistance to the municipality."
+        },
+        {
+          "type": "p",
+          "text": "“I cannot express how happy I am. This is the first time that almost all government agencies sent representatives to visit us,” said Kalayaan Mayor Billy Alindogan."
+        },
+        {
+          "type": "p",
+          "text": "Compared to conditions on the island a few years ago, Kalayaan has seen development. The airport now has a cemented runway along with a hangar and terminal."
+        },
+        {
+          "type": "p",
+          "text": "The seaport was also improved. There are also newly built school buildings."
+        },
+        {
+          "type": "p",
+          "text": "A rural health unit is also being built to serve residents."
+        },
+        {
+          "type": "p",
+          "text": "During the recent visit of government officials, Alindogan took the opportunity to relay his requests for their town such as typhoon-resilient housing, a drainage system, and an evacuation center."
+        },
+        {
+          "type": "p",
+          "text": "The Kalayaan Mayor also sought for a water filtration system and a new municipal hall."
+        },
+        {
+          "type": "p",
+          "text": "“We will talk to the House Speaker regarding the requests of the mayor,” said Flores. —Vince Angelo Ferreras/RF, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "abs-cdljj4",
@@ -761,7 +1285,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-8czhgj",
@@ -786,7 +1310,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-1i6wrfb",
@@ -1488,7 +2012,99 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "star-7yoap1",
+      "source": "star",
+      "title": "‘Queenie’ strengthens as it nears PAR exit",
+      "summary": "Typhoon Queenie (international name: Surigae) slightly intensified as it accelerated north-northeastward, state weather bureau PAGASA said Sunday.",
+      "byline": "Kristine Daguno-Bersamina",
+      "section": "",
+      "published": "2026-09-27T01:45:00.000Z",
+      "firstSeen": "2026-09-27T03:01:11.034Z",
+      "url": "https://www.philstar.com/weather/2026/09/27/2559268/queenie-strengthens-it-nears-par-exit",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/09/27/queenie-440am-september-27jpeg_2026-09-27_09-51-49.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "September 27, 2026 | 9:45am"
+        },
+        {
+          "type": "p",
+          "text": "Satellite rendering shows Severe Tropical Storm Queenie (international name: Surigae) taken as of 4:40 a.m. of Sept. 27, 2026."
+        },
+        {
+          "type": "p",
+          "text": "PAGASA via Facebook"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Typhoon Queenie (international name: Surigae) slightly intensified as it accelerated north-northeastward, state weather bureau PAGASA said Sunday."
+        },
+        {
+          "type": "p",
+          "text": "In its 5 a.m. bulletin, PAGASA said Queenie was carrying maximum sustained winds of 130 kilometers per hour near the center, with gusts of up to 160 kph."
+        },
+        {
+          "type": "p",
+          "text": "It is moving north-northeastward at 15 kph."
+        },
+        {
+          "type": "p",
+          "text": "The center of Queenie was estimated at 685 kilometers northeast of Itbayat, Batanes as of 4 a.m. Sunday."
+        },
+        {
+          "type": "p",
+          "text": "PAGASA said strong to storm-force winds extend outward up to 300 kilometers from Queenie's center."
+        },
+        {
+          "type": "h",
+          "text": "Sea conditions"
+        },
+        {
+          "type": "p",
+          "text": "PAGASA said moderate seas of up to 2 meters are expected over the northern seaboard of Batanes in the next 24 hours."
+        },
+        {
+          "type": "p",
+          "text": "Mariners of motorbancas and similarly sized vessels were advised to take precautionary measures while venturing out to sea and, if possible, avoid navigation under these conditions."
+        },
+        {
+          "type": "p",
+          "text": "Other coastal waters are expected to have wave heights of less than 2 meters."
+        },
+        {
+          "type": "h",
+          "text": "Track, intensity"
+        },
+        {
+          "type": "p",
+          "text": "Queenie will move generally northeastward over the majority of the forecast period."
+        },
+        {
+          "type": "p",
+          "text": "On the forecast track, the center of Queenie may exit the Philippine area of responsibility between noon and afternoon Sunday."
+        },
+        {
+          "type": "p",
+          "text": "Outside the PAR, it will accelerate northeastward toward the sea south of mainland Japan."
+        },
+        {
+          "type": "p",
+          "text": "PAGASA said Queenie will intensify further while moving over the sea south of the Okinawa Islands."
+        },
+        {
+          "type": "p",
+          "text": "After reaching peak intensity, Queenie is expected to weaken by Monday, September 28."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inq-6jsb2a",
@@ -1513,7 +2129,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "gma-2nn7l3",
@@ -2459,31 +3075,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1spr4dc",
-      "source": "inqn",
-      "title": "3 arrested, P15.3-M &#8216;shabu&#8217; seized in Butuan City raid",
-      "summary": "SAN FRANCISCO, Agusan del Sur — Three alleged high-value drug personalities were arrested and more than P15.3 million worth of suspected shabu seized in a buy-bust operation in Butuan City early…",
-      "byline": "dsanchez",
-      "section": "Latest News Stories",
-      "published": "2026-09-27T00:41:21.000Z",
-      "firstSeen": "2026-09-26T16:42:15.110Z",
-      "url": "https://newsinfo.inquirer.net/2312204/3-arrested-p15-3-m-shabu-seized-in-butuan-city-raid",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/02/Illegal-drugs-1.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN FRANCISCO, Agusan del Sur — Three alleged high-value drug personalities were arrested and more than P15.3 million worth of suspected shabu seized in a buy-bust operation in Butuan City early Saturday, Sept. 26, police said. Brig. Gen. Rolindo Suguilon, Police Regional Office-Caraga (PRO 13) director, identified the arrested suspects as alias “Berto,” 48, of Barangay"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inq-1lowcpt",
       "source": "inq",
       "title": "The Witcher 3: Songs of the Past makes Letten worth the return",
@@ -2728,31 +3319,6 @@
         {
           "type": "p",
           "text": "UNITED NATIONS, United States &#8212; Russian Foreign Minister Sergei Lavrov on Saturday accused Europe of blocking efforts to resolve the conflict in Ukraine, after another round of strikes left 16 dead on both sides. Both Moscow and Kyiv have stepped up attacks after the deadliest summer since 2022 &#8212; the year Russia launched its invasion, starting Europe&#8217;s worst war since World War Two. But Lavrov, who met with US Secretary of State Marco Rubio this week in New York, instead took aim at Europe, saying it was actively trying to block talks supported by US President Donald Trump&#8217;s government. &#8220;Europe is [&hellip;]... Keep on reading: Russia accuses Europe of blocking Ukraine talks, as strikes drag on"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-1f129yo",
-      "source": "inq",
-      "title": "Pope prays at Lourdes after huge Paris mass",
-      "summary": "LOURDES, France &#8211; Pope Leo XIV prayed for France on Saturday at its holy shrine in Lourdes, after riding along the Champs Elysees in the popemobile and holding an emotional open-air mass in…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-27T00:09:03.000Z",
-      "firstSeen": "2026-09-27T00:31:03.910Z",
-      "url": "https://globalnation.inquirer.net/339491/pope-prays-at-lourdes-after-huge-paris-mass",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/09/AFP__20260926__C9FL363__v1__HighRes__FranceVaticanReligionPope-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LOURDES, France &#8211; Pope Leo XIV prayed for France on Saturday at its holy shrine in Lourdes, after riding along the Champs Elysees in the popemobile and holding an emotional open-air mass in front of hundreds of thousands of worshippers in Paris. The leader of the world&#8217;s 1.4 billion Catholics is on a four-day trip to France, a secular country with deep Catholic roots, on the first official papal visit there in nearly two decades. In the southwestern pilgrimage town the US pontiff prayed at the Grotto of Massabielle, where Catholic tradition holds that the Virgin Mary appeared in 1858 to a [&hellip;]... Keep on reading: Pope prays at Lourdes after huge Paris mass"
         }
       ],
       "truncated": true,
@@ -3048,81 +3614,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-1ofmg5a",
-      "source": "inq",
-      "title": "P42 wage hike for Central Visayas workers",
-      "summary": "CEBU CITY, Philippines — Minimum wage earners in Central Visayas are set to receive a P42 increase in their daily wage starting October 14. The National Wages and Productivity Commission (NWPC)…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T23:45:59.000Z",
-      "firstSeen": "2026-09-27T00:01:08.377Z",
-      "url": "https://cebudailynews.inquirer.net/770054/p42-wage-hike-for-central-visayas-workers",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2025/10/peso-wage-hike-06092025-2048x1363-1-620x413.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CEBU CITY, Philippines — Minimum wage earners in Central Visayas are set to receive a P42 increase in their daily wage starting October 14. The National Wages and Productivity Commission (NWPC) approved the region’s new wage order on Saturday, September 26, granting minimum wage earners the much-awaited pay increase. The wage order will take effect on October 14 following its publication and the required 15-day waiting period. READ: Central Visayas wage hike decision eyed in September as hearings begin Wage increase The approved increase will bring the daily minimum wage in Class A areas to P582, while the rate for Class [&hellip;]... Keep on reading: P42 wage hike for Central Visayas workers"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-7nb4sa",
-      "source": "inq",
-      "title": "Barangay, SK polls reset, longer terms criticized",
-      "summary": "MANILA, Philippines — Several groups have expressed concern over a new law extending the terms of barangay and Sangguniang Kabataan (SK) officials until November 2028, arguing that the move could…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T23:05:00.000Z",
-      "firstSeen": "2026-09-26T23:31:06.380Z",
-      "url": "https://cebudailynews.inquirer.net/770061/barangay-sk-polls-reset-longer-terms-criticized",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/09/09-27-Macalintal-and-Simbulan-620x382.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Several groups have expressed concern over a new law extending the terms of barangay and Sangguniang Kabataan (SK) officials until November 2028, arguing that the move could strengthen political networks ahead of the national elections scheduled for the same year. The measure is expected to face a legal challenge before the Supreme [&hellip;]... Keep on reading: Barangay, SK polls reset, longer terms criticized"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-z3oeso",
-      "source": "inq",
-      "title": "Trump rejects Iran proposal for deal to reopen Hormuz",
-      "summary": "WASHINGTON &#8211; US President Donald Trump on Saturday rejected a truce deal proposed by Iran that Tehran said could have reopened the Strait of Hormuz to shipping within a week. The waterway is…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T23:03:14.000Z",
-      "firstSeen": "2026-09-26T23:31:06.381Z",
-      "url": "https://globalnation.inquirer.net/339489/trump-rejects-iran-proposal-for-deal-to-reopen-hormuz",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/09/Keeping-the-vital-shipping-lane-through-the-Strait-of-Hormuz-open-is-a-priority-for-the-US-Image-Atta-KenareAFP-620x349.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "WASHINGTON &#8211; US President Donald Trump on Saturday rejected a truce deal proposed by Iran that Tehran said could have reopened the Strait of Hormuz to shipping within a week. The waterway is key to the world&#8217;s energy supply and is now central to the conflict between the US and Iran, which is at a stalemate after nearly seven months. &#8220;I reject their proposal,&#8221; Trump told reporters outside the White House. &#8220;They made a proposal but I&#8217;ve rejected it.&#8221; &#8220;They want to make a deal where they open the Strait immediately because they&#8217;re losing so badly. They want to make a deal [&hellip;]... Keep on reading: Trump rejects Iran proposal for deal to reopen Hormuz"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-1kac4lu",
@@ -7262,70 +7753,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "star-ozqnzj",
-      "source": "star",
-      "title": "House ends plenary debates on 2027 budget",
-      "summary": "The House of Representatives has concluded its debates on the proposed P7.2 trillion national budget for2027, likely clearing the way for its passage on second reading early next month.",
-      "byline": "Delon Porcalla",
-      "section": "",
-      "published": "2026-09-26T16:00:00.000Z",
-      "firstSeen": "2026-09-26T16:31:20.983Z",
-      "url": "https://www.philstar.com/headlines/2026/09/27/2559222/house-ends-plenary-debates-2027-budget",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/09/26/3_2026-09-26_23-02-38.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "September 27, 2026 | 12:00am"
-        },
-        {
-          "type": "p",
-          "text": "Administration and opposition lawmakers scrutinized the details of the budgets of 240 departments, agencies and government-owned-and-controlled corporations, including 113 state universities and colleges, from Sept. 15 to 25."
-        },
-        {
-          "type": "p",
-          "text": "Philstar.com / File"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The House of Representatives has concluded its debates on the proposed P7.2 trillion national budget for2027, likely clearing the way for its passage on second reading early next month."
-        },
-        {
-          "type": "p",
-          "text": "Rep. Mikaela Suansing, chairperson of the House committee on appropriations, assured her colleagues and the public that House Bill 10858 or the 2027 General Appropriations Act carries enough safeguards to ensure the rules and standards governing the use and evaluation of funds would be religiously followed."
-        },
-        {
-          "type": "p",
-          "text": "The Nueva Ecija congresswoman also underscored the importance of establishing clear reportorial requirements and continuing coordination with the Department of Budget and Management, including on the Local Government Support Fund."
-        },
-        {
-          "type": "p",
-          "text": "She also reassured the general public the GAA is disaster-ready. “The 2027 budget is El Niño ready. We will do our best; I give you my assurance,” Suansing said, citing projections by experts of severe drought from October this year to the first quarter of 2027."
-        },
-        {
-          "type": "p",
-          "text": "The Department of Budget and Management has placed the proposed 2027 unprogrammed appropriations at P111.984 billion, equivalent to about 1.6 percent of the Total Expenditure Program — the lowest proposed share since 1991 and the lowest proposed amount at the NEP or national expenditure program level since 2019."
-        },
-        {
-          "type": "p",
-          "text": "House Minority Leader Marcelino Libanan, in his “turno en contra” speech, thanked the majority coalition for their patience and understanding."
-        },
-        {
-          "type": "p",
-          "text": "“There is nothing wrong with spending discipline. Government should eliminate waste, duplication, and projects that cannot be implemented. But restraint should protect essential investments in people and productive capacity,” Libanan of the 4Ps party-list pointed out."
-        },
-        {
-          "type": "p",
-          "text": "“We recognize the reduction in Unprogrammed Appropriations. We recognize the need for fiscal discipline. We recognize the programs and infrastructure investments that can contribute to growth. And we appreciate the Majority’s willingness to subject this budget to sustained scrutiny,” he said. — Daphne Galvez"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1w9bf7p",
       "source": "abs",
       "title": "Assumption High School Batch '86 Teams Up with Leon Gallery for an Upcoming Charity Art Exhibition",
@@ -11305,70 +11732,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "rap-126y4mp",
-      "source": "rap",
-      "title": "Record-breaking Albert Ian delos Santos earns Asian Games bronze",
-      "summary": "Filipino weightlifter Albert Ian delos Santos shatters his junior world and junior continental records on the way to an Asian Games bronze medal",
-      "byline": "Delfin Dioquino",
-      "section": "Editors' Pick",
-      "published": "2026-09-26T08:49:28.000Z",
-      "firstSeen": "2026-09-26T09:01:06.453Z",
-      "url": "https://www.rappler.com/sports/asian-games-weightlifting-albert-ian-delos-santos-bronze-september-26-2026/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/09/albert-ian-delos-santos-september-26-2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "POWER. Weightlifter Albert Ian delos Santos in action for the Philippines in the 2026 Asian Games."
-        },
-        {
-          "type": "p",
-          "text": "PSC-POC Media Pool"
-        },
-        {
-          "type": "p",
-          "text": "Filipino weightlifter Albert Ian delos Santos shatters his junior world and junior continental records on the way to an Asian Games bronze medal"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – Young weightlifter Albert Ian delos Santos has made a habit of breaking records."
-        },
-        {
-          "type": "p",
-          "text": "And he did so again in the 2026 Asian Games on the way to the bronze medal in the men’s 70kg division at the Nagoya City Trade and Industry Center in Japan on Saturday, September 26."
-        },
-        {
-          "type": "p",
-          "text": "The youngest in the final at 20 years old, the Zamboangueño showed he can hold his own against the best in the continent as he shattered his own junior world and junior Asian marks in clean and jerk (183kg) and total lift (324kg) to earn his place on the podium."
-        },
-        {
-          "type": "p",
-          "text": "Delos Santos ran fourth after the snatch portion with a clearance of 141kg but overtook Uzbekistan’s Adkhamjon Ergashev for the bronze by eclipsing his previous junior world and junior continental records in clean and jerk (180kg) and total lift (321kg), which he established in the Asian Youth and Junior Weightlifting Championships in August."
-        },
-        {
-          "type": "p",
-          "text": "North Korea’s Ri Won Ju claimed the gold with hardly any resistance with 349kg, while Japan’s Masanori Miyamoto bagged the silver with 342kg."
-        },
-        {
-          "type": "p",
-          "text": "Ergashev managed just 318kg and settled for fourth."
-        },
-        {
-          "type": "p",
-          "text": "Delos Santos broke through for the Philippine weightlifting team after Rosegie Ramos and Elreen Ando fell short of medals."
-        },
-        {
-          "type": "p",
-          "text": "Ramos finished fourth in the women’s 53kg class, while Ando placed fifth in the women’s 61kg division. – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1ucus8f",
       "source": "abs",
       "title": "Milan Fashion Week’s Stunning Duo: Tian Xiwei and Song Weilong Turn Heads at the Gucci Show",
@@ -14421,6 +14784,28 @@
       "source_of_text": "page"
     },
     {
+      "id": "abs-gm5ozi",
+      "source": "abs",
+      "title": "SC petitions on voting threshold of 'no surprise' to prosecution — Luistro",
+      "summary": "The House prosecution panel expects the impeachment trial of Vice President Sara Duterte to continue despite two petitions filed before the Supreme Court questioning the Senate impeachment court’s…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T05:37:16.000Z",
+      "firstSeen": "2026-09-27T03:01:21.111Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/9/26/sc-petitions-on-voting-threshold-of-no-surprise-to-prosecution-luistro-1004",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The House prosecution panel expects the impeachment trial of Vice President Sara Duterte to continue despite two petitions filed before the Supreme Court questioning the Senate impeachment court’s ruling on the voting threshold for conviction."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
       "id": "abs-89y3dz",
       "source": "abs",
       "title": "VP Duterte denies getting money from Velasco's self-proclaimed bagman",
@@ -14435,6 +14820,28 @@
         {
           "type": "p",
           "text": "Vice President Sara Duterte on Saturday said she does not know a certain Rodulfo Gracioso Jr. and has not received any money from him."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-5h0e6o",
+      "source": "abs",
+      "title": "'Sana dumating': Prosecution says prepared to question Baste Duterte",
+      "summary": "Davao City Mayor Sebastian “Baste” Duterte is expected to take the witness stand in the impeachment trial of his sister, Vice President Sara Duterte, on Monday, Sept. 28, with the House prosecution…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-26T05:22:09.000Z",
+      "firstSeen": "2026-09-27T03:01:21.874Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/9/26/-sana-dumating-prosecution-says-prepared-to-question-baste-duterte-1005",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Davao City Mayor Sebastian “Baste” Duterte is expected to take the witness stand in the impeachment trial of his sister, Vice President Sara Duterte, on Monday, Sept. 28, with the House prosecution panel saying it is prepared to question him as a hostile witness."
         }
       ],
       "truncated": true,
@@ -14807,111 +15214,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "gma-7pwewu",
-      "source": "gma",
-      "title": "DICT probes possible data breach involving 48 firms in accreditation program",
-      "summary": "Company, employment, and security data may have been exposed in a possible data breach involving 48 firms participating in an accreditation program of the Department of Information and Communications…",
-      "byline": "GMA News",
-      "section": "",
-      "published": "2026-09-26T04:38:35.000Z",
-      "firstSeen": "2026-09-26T05:01:08.693Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1003779/dict-probes-possible-data-breach-involving-48-firms-in-accreditation-program/story/",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published September 26, 2026 12:38pm"
-        },
-        {
-          "type": "p",
-          "text": "Company, employment, and security data may have been exposed in a possible data breach involving 48 firms participating in an accreditation program of the Department of Information and Communications Technology (DICT), the agency reported."
-        },
-        {
-          "type": "p",
-          "text": "The DICT said the potential exposure relates to 410 files associated with the 48 companies, which are part in the DICT Trusted Assessment Provider (DTAP) program."
-        },
-        {
-          "type": "p",
-          "text": "The DTAP engages with local cybersecurity service providers to help review and strengthen online systems before these are made available to the public."
-        },
-        {
-          "type": "p",
-          "text": "In a statement on Friday, the agency said, \"The Department of Information and Communications Technology (DICT) acknowledges the report of a possible data exposure involving a DICT Trusted Assessment Provider (DTAP).\""
-        },
-        {
-          "type": "p",
-          "text": "The amount of data is about 600 megabytes, or approximately 770 megabytes when uncompressed."
-        },
-        {
-          "type": "p",
-          "text": "\"The reported files may include corporate registration records, permits, certifications, cybersecurity credentials, employment documents, and DICT performance evaluations,\" the statement read."
-        },
-        {
-          "type": "p",
-          "text": "Probers are verifying if the exposure did occur, its source, nature, and the extent of compromised data."
-        },
-        {
-          "type": "p",
-          "text": "The National Computer Emergency Response Team (NCERT) under the DICT Cybersecurity Bureau is investigating the incident."
-        },
-        {
-          "type": "p",
-          "text": "\"DICT assures the public and its accredited assessment providers that the matter is being actively managed. The Department calls on the media and the public to exercise appropriate caution in sharing or reporting unverified information while the investigation is ongoing,\" the agency said."
-        },
-        {
-          "type": "p",
-          "text": "If the data breach is verified, the DICT said it would take appropriate action and notify affected parties in line with the Republic Act 10173 or the Data Privacy Act of 2012. — VDV, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "abs-16kxj6k",
-      "source": "abs",
-      "title": "'Queenie' nearing typhoon strength",
-      "summary": "Severe tropical cyclone Queenie (international name: Surigae) is nearing typhoon strength, the state weather bureau said.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T04:20:11.000Z",
-      "firstSeen": "2026-09-26T04:31:40.911Z",
-      "url": "https://www.abs-cbn.com/news/weather-traffic/2026/9/26/-queenie-nearing-typhoon-strength-1220",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Severe tropical cyclone Queenie (international name: Surigae) is nearing typhoon strength, the state weather bureau said."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-kb2r65",
-      "source": "abs",
-      "title": "As NBA eyes Rome, two rivals emerge to duel for favor",
-      "summary": "In a city founded, according to ancient myth, on fratricide, two modern sporting twins are waging an undeclared war to rule the Eternal City and perhaps Europe.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T03:54:51.000Z",
-      "firstSeen": "2026-09-26T04:01:09.670Z",
-      "url": "https://www.abs-cbn.com/sports/basketball/2026/9/26/as-nba-eyes-rome-two-rivals-emerge-to-duel-for-favor-1154",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "In a city founded, according to ancient myth, on fratricide, two modern sporting twins are waging an undeclared war to rule the Eternal City and perhaps Europe."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "dw-1b1jztt",
       "source": "dw",
       "title": "White House bars CNN from covering upcoming Trump trip, broadcaster says",
@@ -14974,116 +15276,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-19fnk2c",
-      "source": "abs",
-      "title": "What to Try at SM North EDSA's First Ube Craze Festival",
-      "summary": "Ube Craze gathers 20 popular food and beverage brands for 17 days of ube celebration.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T03:50:02.000Z",
-      "firstSeen": "2026-09-26T04:01:09.767Z",
-      "url": "https://www.abs-cbn.com/food/2026/9/26/what-to-try-at-sm-north-edsa-s-first-ube-craze-festival-1150",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Ube Craze gathers 20 popular food and beverage brands for 17 days of ube celebration."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-vy6q3j",
-      "source": "abs",
-      "title": "This New Seafood Dining Destination Brings the ‘Dampa’ Experience to the Mall",
-      "summary": "For those nostalgic for the \"dampa,\" and for the younger generations who missed out on the then-dining craze, Seafood 8 by Olio’s at Gateway Mall 2 in Araneta City is something worth checking out.…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T03:46:15.000Z",
-      "firstSeen": "2026-09-26T04:01:10.737Z",
-      "url": "https://www.abs-cbn.com/food/2026/9/26/seafood-8-by-olio-s-grand-opening-at-gateway-mall-2-1145",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "For those nostalgic for the \"dampa,\" and for the younger generations who missed out on the then-dining craze, Seafood 8 by Olio’s at Gateway Mall 2 in Araneta City is something worth checking out. It’s the dampa food experience, curated and elevated by Chef Oli Buenviaje."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1hnm032",
-      "source": "abs",
-      "title": "Mbappe injured as Zidane wins on France debut, Italy lose on Mancini return",
-      "summary": "Zinedine Zidane's debut as France coach was overshadowed by an injury to captain Kylian Mbappe in a 1-0 win away to Turkey on Friday, while Roberto Mancini's first game back in charge of Italy ended…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T03:39:16.000Z",
-      "firstSeen": "2026-09-26T04:01:11.398Z",
-      "url": "https://www.abs-cbn.com/sports/othersports/2026/9/26/mbappe-injured-as-zidane-wins-on-france-debut-italy-lose-on-mancini-return-1139",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Zinedine Zidane's debut as France coach was overshadowed by an injury to captain Kylian Mbappe in a 1-0 win away to Turkey on Friday, while Roberto Mancini's first game back in charge of Italy ended in a 2-0 defeat to Belgium."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-hllz0x",
-      "source": "abs",
-      "title": "NBA 'on schedule' with Europe league plans: Silver",
-      "summary": "The NBA is \"very much on schedule\" with plans to launch a new European league in 2027, commissioner Adam Silver said Wednesday before the start of the NBA Finals.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T03:34:52.000Z",
-      "firstSeen": "2026-09-26T04:01:13.314Z",
-      "url": "https://www.abs-cbn.com/sports/basketball/2026/6/4/nba-on-schedule-with-europe-league-plans-silver-1157",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The NBA is \"very much on schedule\" with plans to launch a new European league in 2027, commissioner Adam Silver said Wednesday before the start of the NBA Finals."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-qs64zj",
-      "source": "abs",
-      "title": "Taylor Swift’s ‘Patient Zero’ most-streamed song on Spotify by a female artist in a single day in 2026",
-      "summary": "Taylor Swift achieved two Spotify milestones with the release of ' The Life of a Showgirl: The Encore.'",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-26T03:25:41.000Z",
-      "firstSeen": "2026-09-26T03:31:05.525Z",
-      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/9/26/taylor-swift-s-patient-zero-most-streamed-song-on-spotify-by-a-female-artist-in-a-single-day-1125",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Taylor Swift achieved two Spotify milestones with the release of ' The Life of a Showgirl: The Encore.'"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "bbc-1n88nmb",
