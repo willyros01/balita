@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-09-28T23:31:35.241Z",
+  "updated": "2026-09-28T23:55:34.293Z",
   "sources": [
     {
       "id": "inq",
@@ -53,38 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-1wb786t",
-      "source": "inqn",
-      "title": "Police assist commuters as transport strike begins",
-      "summary": "MANILA, Philippines — The Philippine National Police deployed personnel and vehicles to assist commuters and maintain peace and order as transport group Manibela held the first of its three-day…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-09-28T23:31:19.520Z",
-      "firstSeen": "2026-09-28T21:01:09.109Z",
-      "url": "https://newsinfo.inquirer.net/2313183/police-assist-commuters-as-transport-strike-begins",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Members-of-transport-group-Manibela-strike-protest-28September2026_4.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Philippine National Police deployed personnel and vehicles to assist commuters and maintain peace and order as transport group Manibela held the first of its three-day strike ahead of the beginning of Piston’s two-day strike beginning Tuesday. The transport groups are protesting Monday’s fare hike which is below what they had sought"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-bd94k9",
       "source": "inqn",
       "title": "PCG files raps vs MV June Aster skipper",
       "summary": "PUERTO PRINCESA CITY— The Philippine Coast Guard (PCG) filed a complaint against Captain Roel Sarmiento for alleged falsification of a public document in connection with the Sept. 9 fire that gutted…",
       "byline": "mmercado",
       "section": "Headlines",
-      "published": "2026-09-28T23:31:19.520Z",
+      "published": "2026-09-28T23:55:19.943Z",
       "firstSeen": "2026-09-28T21:01:09.109Z",
       "url": "https://newsinfo.inquirer.net/2313093/pcg-files-raps-vs-mv-june-aster-skipper",
       "image": {
@@ -109,7 +84,7 @@
       "summary": "PANTUKAN, DAVAO DE ORO, Philippines — Bananas are not only a staple crop in the Davao Region but also a major export earner, with Cavendish and other varieties accounting for nearly half of the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-28T23:31:19.520Z",
+      "published": "2026-09-28T23:55:19.943Z",
       "firstSeen": "2026-09-28T21:01:09.770Z",
       "url": "https://newsinfo.inquirer.net/2313095/davao-banana-industry-links-farms-to-asian-markets",
       "image": {
@@ -134,7 +109,7 @@
       "summary": "CITY OF SAN FERNANDO, Philippines — Former Philippine Daily Inquirer correspondent Eric Jimenez died of complications from chronic kidney disease on Sunday, according to his family. He was 57. A…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-28T23:31:19.520Z",
+      "published": "2026-09-28T23:55:19.943Z",
       "firstSeen": "2026-09-28T21:01:13.038Z",
       "url": "https://newsinfo.inquirer.net/2313096/ex-inquirer-correspondent-eric-jimenez-dies-at-57",
       "image": {
@@ -159,7 +134,7 @@
       "summary": "COTABATO CITY, BARMM, Philippines — The Philippine government and the Moro Islamic Liberation Front (MILF) have agreed to accelerate the stalled decommissioning of the front’s fighters and weapons…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-28T23:31:19.520Z",
+      "published": "2026-09-28T23:55:19.943Z",
       "firstSeen": "2026-09-28T20:31:06.842Z",
       "url": "https://newsinfo.inquirer.net/2313090/govt-milf-agree-to-hasten-stalled-decommissioning-process",
       "image": {
@@ -184,7 +159,7 @@
       "summary": "MANILA, Philippines — ACT Teachers party-list Rep. Antonio Tinio has joined calls to investigate the proposed joint venture agreement (JVA) between the South Cotabato II Electric Cooperative…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-09-28T23:31:19.520Z",
+      "published": "2026-09-28T23:55:19.943Z",
       "firstSeen": "2026-09-28T17:31:07.816Z",
       "url": "https://newsinfo.inquirer.net/2313233/tinio-presses-need-to-probe-socoteco-ii-deal-will-consumers-benefit",
       "image": {
@@ -203,13 +178,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1wb786t",
+      "source": "inqn",
+      "title": "Police assist commuters as transport strike begins",
+      "summary": "MANILA, Philippines — The Philippine National Police deployed personnel and vehicles to assist commuters and maintain peace and order as transport group Manibela held the first of its three-day…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-09-28T23:55:19.885Z",
+      "firstSeen": "2026-09-28T21:01:09.109Z",
+      "url": "https://newsinfo.inquirer.net/2313183/police-assist-commuters-as-transport-strike-begins",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Members-of-transport-group-Manibela-strike-protest-28September2026_4.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Philippine National Police deployed personnel and vehicles to assist commuters and maintain peace and order as transport group Manibela held the first of its three-day strike ahead of the beginning of Piston’s two-day strike beginning Tuesday. The transport groups are protesting Monday’s fare hike which is below what they had sought"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-v39bsa",
       "source": "inqn",
       "title": "Veloso, family get P50,000 aid from gov’t",
       "summary": "MANILA, Philippines — The government has provided financial and livelihood assistance to Mary Jane Veloso and her family after President Marcos granted her an absolute pardon, allowing her to reunite…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-28T23:31:19.438Z",
+      "published": "2026-09-28T23:55:18.221Z",
       "firstSeen": "2026-09-28T21:31:06.995Z",
       "url": "https://newsinfo.inquirer.net/2313177/veloso-family-get-p50000-aid-from-govt",
       "image": {
@@ -234,7 +234,7 @@
       "summary": "MANILA, Philippines — A committee at the University of the Philippines (UP) Diliman on Monday condemned the “continuous red-tagging, harassment and intimidation” of its constituents, especially…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-28T23:31:19.438Z",
+      "published": "2026-09-28T23:55:18.221Z",
       "firstSeen": "2026-09-28T21:31:06.996Z",
       "url": "https://newsinfo.inquirer.net/2313175/up-body-calls-out-ntf-elcac-for-red-tagging-students-constituents",
       "image": {
@@ -259,7 +259,7 @@
       "summary": "MANILA, Philippines — Halfway through her five-minute acceptance speech as an awardee of the Ramon Magsaysay Award Foundation (RMAF) in 2006, Eugenia “Eggie” Duran Apostol revealed something with an…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-28T23:31:19.438Z",
+      "published": "2026-09-28T23:55:18.221Z",
       "firstSeen": "2026-09-28T21:01:09.046Z",
       "url": "https://newsinfo.inquirer.net/2313174/eggie-apostol-from-people-power-to-education-revolution",
       "image": {
@@ -284,7 +284,7 @@
       "summary": "MANILA, Philippines — The National Bureau of Investigation will invite Vice President Sara Duterte, former Speaker Lord Allan Velasco and other people implicated by a dismissed policeman in a series…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-28T23:31:16.656Z",
+      "published": "2026-09-28T23:55:18.220Z",
       "firstSeen": "2026-09-28T21:31:06.995Z",
       "url": "https://newsinfo.inquirer.net/2313168/nbi-plans-to-quiz-vp-ex-speaker-velasco-about-alleged-bagman",
       "image": {
@@ -309,7 +309,7 @@
       "summary": "MANILA, Philippines — Sen. Panfilo Lacson on Monday urged Public Works Secretary Vince Dizon to tell the truth about 68 infrastructure projects the Department of Public Works and Highways (DPWH) had…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-28T23:31:15.561Z",
+      "published": "2026-09-28T23:55:18.116Z",
       "firstSeen": "2026-09-28T22:01:09.684Z",
       "url": "https://newsinfo.inquirer.net/2313182/dizon-urged-tell-truth-on-ghost-projects",
       "image": {
@@ -334,7 +334,7 @@
       "summary": "MANILA, Philippines — The prosecution and defense clashed anew on Monday over Vice President Sara Duterte’s bank records as the Senate impeachment court pressed into questions about her business…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-28T23:31:12.370Z",
+      "published": "2026-09-28T23:55:07.399Z",
       "firstSeen": "2026-09-28T22:01:09.684Z",
       "url": "https://newsinfo.inquirer.net/2313172/sara-dutertes-bank-records-gencorp-deals-fuel-clash",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "MANILA, Philippines — Election lawyer Romulo Macalintal has mounted a fresh legal challenge before the Supreme Court (SC) to declare Republic Act (RA) No. 12326 unconstitutional and stop the deferral…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-09-28T23:31:11.422Z",
+      "published": "2026-09-28T23:55:03.846Z",
       "firstSeen": "2026-09-28T22:01:09.643Z",
       "url": "https://newsinfo.inquirer.net/2313179/barangay-youth-polls-reset-questioned-in-sc",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "TUGUEGARAO CITY, CAGAYAN, Philippines — A worker died of suffocation while two others were rescued after they were trapped in a deep well they were digging on Monday (Sept. 28) at Barangay Balzain in…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-09-28T23:31:08.963Z",
+      "published": "2026-09-28T23:55:03.507Z",
       "firstSeen": "2026-09-28T22:31:05.749Z",
       "url": "https://newsinfo.inquirer.net/2313255/worker-dies-from-suffocation-two-others-saved-in-tuguegarao",
       "image": null,
@@ -406,7 +406,7 @@
       "summary": "CALAPAN CITY, ORIENTAL MINDORO, Philippines — A bird of prey has been rescued after it was found floating in the waters off Santa Fe town in Romblon province and was immediately turned over to…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-09-28T23:31:08.295Z",
+      "published": "2026-09-28T23:55:02.834Z",
       "firstSeen": "2026-09-28T22:31:05.703Z",
       "url": "https://newsinfo.inquirer.net/2313257/raptor-rescued-from-sea-in-romblon",
       "image": {
@@ -425,13 +425,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-13wn8lj",
+      "source": "inqn",
+      "title": "Baste Duterte to testify on Day 31 of VP impeachment trial",
+      "summary": "MANILA, Philippines — Davao City Mayor Sebastian “Baste” Duterte is expected to take the witness stand on Tuesday, the 31st day of the impeachment trial of his sister, Vice President Sara Duterte.…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-09-28T23:55:01.977Z",
+      "firstSeen": "2026-09-28T23:01:09.402Z",
+      "url": "https://newsinfo.inquirer.net/2313141/baste-duterte-expected-to-testify-on-day-31-of-vp-impeachment-trial",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Sebastian-Baste-Duterte-23September2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Davao City Mayor Sebastian “Baste” Duterte is expected to take the witness stand on Tuesday, the 31st day of the impeachment trial of his sister, Vice President Sara Duterte. The mayor’s supposed appearance on Monday was moved to Tuesday and Wednesday after the impeachment court granted his request for more time to"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-zxcc3f",
       "source": "inqn",
       "title": "ITCZ to bring rains over Palawan, parts of Visayas, Mindanao Tuesday",
       "summary": "MANILA, Philippines — The intertropical convergence zone (ITCZ) will bring rains in Palawan and parts of Visayas and Mindanao while the rest of Luzon will see cloudy skies on Tuesday, according to…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-09-28T23:31:08.282Z",
+      "published": "2026-09-28T23:55:01.977Z",
       "firstSeen": "2026-09-28T23:01:09.456Z",
       "url": "https://newsinfo.inquirer.net/2313260/itcz-to-bring-rains-over-palawan-parts-of-visayas-mindanao-tuesday",
       "image": {
@@ -450,29 +475,494 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-13wn8lj",
+      "id": "inqn-1ln97t8",
       "source": "inqn",
-      "title": "Baste Duterte to testify on Day 31 of VP impeachment trial",
-      "summary": "MANILA, Philippines — Davao City Mayor Sebastian “Baste” Duterte is expected to take the witness stand on Tuesday, the 31st day of the impeachment trial of his sister, Vice President Sara Duterte.…",
-      "byline": "cbuban",
+      "title": "WATCH: Sara Duterte Impeachment trial &#124; Sept. 29, 2026",
+      "summary": "MANILA, Philippines – On Day 31 of Vice President Sara Duterte&#8217;s impeachment trial, her brother, Davao City Mayor Sebastian “Baste” Duterte is expected to take the witness stand Tuesday, with…",
+      "byline": "jcristobal",
       "section": "Latest News Stories",
-      "published": "2026-09-28T23:31:08.232Z",
-      "firstSeen": "2026-09-28T23:01:09.402Z",
-      "url": "https://newsinfo.inquirer.net/2313141/baste-duterte-expected-to-testify-on-day-31-of-vp-impeachment-trial",
+      "published": "2026-09-28T23:55:01.884Z",
+      "firstSeen": "2026-09-28T23:55:01.884Z",
+      "url": "https://newsinfo.inquirer.net/2313268/watch-sara-duterte-impeachment-trial-sept-29-2026",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Sebastian-Baste-Duterte-23September2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/09/VP-IMPEACHMENT-TRIAL-0929.png",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — Davao City Mayor Sebastian “Baste” Duterte is expected to take the witness stand on Tuesday, the 31st day of the impeachment trial of his sister, Vice President Sara Duterte. The mayor’s supposed appearance on Monday was moved to Tuesday and Wednesday after the impeachment court granted his request for more time to"
+          "text": "MANILA, Philippines – On Day 31 of Vice President Sara Duterte&#8217;s impeachment trial, her brother, Davao City Mayor Sebastian “Baste” Duterte is expected to take the witness stand Tuesday, with his testimony expected to focus on the city government transactions with GenCorp Industries Inc., a company declared by the vice president as a business interest"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "bbc-3d3t5e",
+      "source": "bbc",
+      "title": "Journalist to be crowned king in Uganda after bitter succession dispute",
+      "summary": "Kijanangoma is being crowned amid a dispute over a young heir whom the royal clan does not recognise.",
+      "byline": "Basillioh Rukanga, Bella Twine",
+      "section": "",
+      "published": "2026-09-28T23:44:49.000Z",
+      "firstSeen": "2026-09-28T23:55:01.977Z",
+      "url": "https://www.bbc.co.uk/news/articles/cx7v4glz50elo?at_medium=RSS&at_campaign=rss",
+      "image": {
+        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/094c/live/97ee2750-bb49-11f1-a430-4d16ee157c41.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Prince Edward Rukidi Kijanangoma Nyabongo II, who is set to be crowned king of Uganda's Tooro kingdom later, has long been a familiar face in the country."
+        },
+        {
+          "type": "p",
+          "text": "For many Ugandans, he was known not as the heir to the throne, but as a storyteller, as a long-serving anchor and editor at the state broadcaster."
+        },
+        {
+          "type": "p",
+          "text": "But Kijanangoma, 56, has now become the subject of media attention himself - his rise to the Tooro throne sparking controversy and widespread reactions beyond the country."
+        },
+        {
+          "type": "p",
+          "text": "Tooro is one of Uganda's four main officially recognised historical kingdoms. For the last 31 years, it has been headed by King Oyo Nyimba Kabamba Iguru Rukidi IV, who was once known as a \"boy king\", after ascending to the throne as an infant."
+        },
+        {
+          "type": "p",
+          "text": "Oyo became king in 1995 at the age of just three, following the death of his father. Then the world's youngest monarch, he ruled until he died last month from cancer, aged just 34."
+        },
+        {
+          "type": "p",
+          "text": "The coronation is a day for celebration, involving traditional practices starting from midnight. The new king then walks about 4km (2.5 miles) to the official Karuziika royal palace where he is crowned."
+        },
+        {
+          "type": "p",
+          "text": "A mock fight follows, to signify that kingship does not come easy, and he is then blessed by members of the royal Babiito clan, the Tooro kingdom's Information Minister Charles Mwanguhya told the BBC Focus on Africa podcast."
+        },
+        {
+          "type": "p",
+          "text": "He performs other ceremonies that signifies his assumption of the throne, before he sits on the throne and an actual crown placed on his head to signify his new authority, his new position as the new Tooro king."
+        },
+        {
+          "type": "p",
+          "text": "But the selection of Kijanangoma as king was far from straightforward."
+        },
+        {
+          "type": "p",
+          "text": "According to tradition, a recognised son of the late king should succeed him. Close members of the royal family said Oyo had left a young son and a will with instructions that the child should be next on the throne."
+        },
+        {
+          "type": "p",
+          "text": "But the son has never been revealed to the public and nor was he recognised by the committee of 21 Babiito clan members who choose the king and eventually selected Kijanangoma."
+        },
+        {
+          "type": "p",
+          "text": "The late King Oyo was never publicly married, and little is known about his wife or their son."
+        },
+        {
+          "type": "p",
+          "text": "Nonetheless his mother, Queen Best Kemigisa, argued that the late king's will ought to have been respected."
+        },
+        {
+          "type": "p",
+          "text": "However, the royal succession committee ignored her wishes, insisting their selection process was conducted in accordance with Tooro customs and traditions."
+        },
+        {
+          "type": "p",
+          "text": "The new king has thus found himself at the centre of a succession dispute, with Kemigisa and her close relatives unhappy with the outcome."
+        },
+        {
+          "type": "p",
+          "text": "Kemigisa referred to Kijanangoma's selection as the \"announcement of a second king\" being \"made after the will of King Oyo was read to members of the royal family\"."
+        },
+        {
+          "type": "p",
+          "text": "\"As a mother, that was extraordinarily painful,\" she said, describing celebrations for the next king taking place \"only metres from where my son's body lay\"."
+        },
+        {
+          "type": "p",
+          "text": "The queen later said Oyo's son, who was in the US state of Texas, had been due to return home but that could not happen amid a \"tense and polarised succession dispute\"."
+        },
+        {
+          "type": "p",
+          "text": "\"No child should be placed in circumstances where returning to his father's homeland could mean being drawn into hostility and conflict,\" Kemigisa asserted in a post on X."
+        },
+        {
+          "type": "p",
+          "text": "But according to the Tooro kingdom's information minister, the son being talked about \"hasn't been presented anywhere, which means there is a growing acceptance that sad as it may be, King Oyo didn't leave a son behind\"."
+        },
+        {
+          "type": "p",
+          "text": "While King Oyo inherited the crown from his father, Mwanguhya told the BBC \"the crown has moved to a different line within the ruling clan\"."
+        },
+        {
+          "type": "p",
+          "text": "A king must come from the Babiito clan, specifically the lineage of King George David Matthew Kamurasi Rukidi III, according to royal palace sources."
+        },
+        {
+          "type": "p",
+          "text": "Kijanangoma and the late King Oyo are cousins. Both are grandsons of Rukidi III, the 11th king, or Omukama, who ruled the Tooro kingdom from 1928 to 1965."
+        },
+        {
+          "type": "p",
+          "text": "Kijanangoma was among several people who were considered for the role, including Prince George Desmond Kamurasi, who plays football for one of the UK's best-known amateur clubs."
+        },
+        {
+          "type": "p",
+          "text": "According to the succession committee, the South East Dons captain and goalkeeper declined the offer of the throne, citing other responsibilities."
+        },
+        {
+          "type": "p",
+          "text": "After he was formally announced, Kijanangoma promised that the palace would be open to the people, while vowing to focus on unity and development."
+        },
+        {
+          "type": "p",
+          "text": "\"I ask you for one thing - they have given me this title as king but I cannot work alone, I have to work with you,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "Uganda's traditional kings have no formal political authority, but they retain cultural influence and command significant loyalty in the communities they lead."
+        },
+        {
+          "type": "p",
+          "text": "The country is home to four main kingdoms, the largest and most prominent being Buganda in the central region, which encompasses the capital Kampala."
+        },
+        {
+          "type": "p",
+          "text": "The kingdoms were abolished in 1967, but the government under President Yoweri Museveni restored them in the early 1990s."
+        },
+        {
+          "type": "p",
+          "text": "The government said this was to promote cultural pride and national unity, but the move has also been interpreted as a way of appeasing communities and fostering political loyalty."
+        },
+        {
+          "type": "p",
+          "text": "Amid the succession dispute, the government backed the Babiito clan's choice of Kijanangoma. Attorney General Sam Mayanja said the Tooro kingdom was cleared to go ahead with the coronation, as there had not been a formal complaint against him."
+        },
+        {
+          "type": "p",
+          "text": "The date of the coronation was announced by the government and Museveni is scheduled to attend."
+        },
+        {
+          "type": "p",
+          "text": "The president's son and the head of the military, Muhoozi Kainerugaba, has also publicly supported Kijanangoma. \"Long may he reign,\" he posted on X."
+        },
+        {
+          "type": "p",
+          "text": "Kijanangoma's very name points to his royal heritage."
+        },
+        {
+          "type": "p",
+          "text": "His father, the first Kijanangoma, was born in the year King Rukidi III became king. The king gave him the name, which means the \"one who comes with the royal drum\"."
+        },
+        {
+          "type": "p",
+          "text": "The drum of royalty, foretold two generations earlier, is now returning to its bearer."
+        },
+        {
+          "type": "p",
+          "text": "Kijanangoma was born in 1970 and raised at their family home at Kidukuru village in Fort Portal, about 300 km (186 miles) from Kampala."
+        },
+        {
+          "type": "p",
+          "text": "He left the village to pursue further studies and graduated with a mass communication degree from Uganda's prestigious Makerere University in 1999."
+        },
+        {
+          "type": "p",
+          "text": "He worked as a broadcaster in a career spanning more than two decades, including in neighbouring Rwanda and at home, with the Uganda Broadcasting Corporation."
+        },
+        {
+          "type": "p",
+          "text": "The years spent engaging with the public, the interactions with leaders and the exposure to national affairs in his work as a journalist may yet serve him well as he returns to the community he came from, this time as their leader."
+        },
+        {
+          "type": "p",
+          "text": "After he was named king, Kijanangoma said he would use the connections he had built up over 21 years working as a journalist \"to get good things for our people\"."
+        },
+        {
+          "type": "p",
+          "text": "His mother, Assimwe Yusta Kijanangoma, is confident that he is well prepared for his new role. She says his upbringing was deeply rooted in tradition."
+        },
+        {
+          "type": "p",
+          "text": "\"I really raised him with the teachings of the old kingdom of a cane and instructions and scolding. I laugh with him, and other times I scold him,\" she told the BBC."
+        },
+        {
+          "type": "p",
+          "text": "She added: \"Eddy is well-mannered, he does not fight, or shout, even when wronged, he says a few words and does not go so much into it.\""
+        },
+        {
+          "type": "p",
+          "text": "She feels good for her son, although she admits to having mixed emotions, especially as her son is taking over after the death of a \"great man\"."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "rap-jhgtb0",
+      "source": "rap",
+      "title": "Should Sara Duterte have listed all her guns in her SALNs?",
+      "summary": "Senator-judges couldn't care less about Vice President Sara Duterte's gun records, but prosecutors say they are just presenting a 'complete picture' of her true wealth",
+      "byline": "Dwight de Leon",
+      "section": "Explainers",
+      "published": "2026-09-28T23:43:04.000Z",
+      "firstSeen": "2026-09-28T23:55:01.884Z",
+      "url": "https://www.rappler.com/newsbreak/explainers/should-sara-duterte-listed-guns-saln/",
+      "image": {
+        "src": "https://www.youtube.com/embed/sFuikXXpgfE",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Accompanied by her brother, Davao City 1st District Rep. Paolo Duterte, Vice President Sara Duterte arrives at the Quezon City RTC on September 11, 2026, to attend arraignment proceedings for a grave threat case."
+        },
+        {
+          "type": "p",
+          "text": "Jire Carreon/Rappler"
+        },
+        {
+          "type": "p",
+          "text": "Senator-judges couldn't care less about Vice President Sara Duterte's gun records, but prosecutors say they are just presenting a 'complete picture' of her true wealth"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Senator-judges showed reluctance to allow testimony regarding Vice President Sara Duterte's gun collection, as many lawmakers are gun enthusiasts themselves.",
+            "The prosecution argued that the 2025 SALN rules require individual declaration of firearms, but the defense claimed these rules cannot be applied retroactively to Duterte's SALNs.",
+            "Despite skepticism from senator-judges, the prosecution maintained that the disclosure of Duterte's gun collection is crucial to revealing her true wealth and ensuring transparency."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "Senator-judges were reluctant to allow the prosecution’s offer of testimony on Vice President Sara Duterte’s gun collection, and apparently, it’s a matter that hit too close to home."
+        },
+        {
+          "type": "p",
+          "text": "Many lawmakers are gun enthusiasts themselves – Senate Majority Leader Migz Zubiri even proudly declared himself to be pro-gun at open court on Monday, September 28. Senate President Pro Tempore Tito Sotto said he and other senators usually put their weapons under “personal properties,” implying that he himself didn’t itemize his guns in his SALNs."
+        },
+        {
+          "type": "p",
+          "text": "From where senators are standing, it’s a non-issue that Duterte did not declare her firearms one by one in her SALNs."
+        },
+        {
+          "type": "p",
+          "text": "So did the prosecution just waste a vital day in the court?"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2024/03/duterte-guns-carousel.jpg?fit=449%2C449",
+          "caption": "The Duterte dynasty: Powered by guns"
+        },
+        {
+          "type": "p",
+          "text": "Prosecutor Bel Zamora argued that Section 32 of the the 2025 omnibus SALN rules require the individual declaration of firearms. The defense team, however, quickly brushed off that argument, arguing that such guidelines cannot be applied retroactively."
+        },
+        {
+          "type": "p",
+          "text": "“The 2025 CSC rules… do not have application to the SALNs of the Vice President as those will be applicable only for submission beginning 2026,” defense lawyer Carlo Narvasa argued."
+        },
+        {
+          "type": "p",
+          "text": "The 2025 CSC rules consolidate and replace five previous CSC resolutions, including a 2013 resolution that provided guidelines for filling out a SALN form."
+        },
+        {
+          "type": "p",
+          "text": "Indeed, CSC Resolution No. 1300173 in 2013 did not explicitly state that firearms should be specifically declared in one’s SALN. It did say though: “Personal properties collectively acquired or are of minimal value may be declared generally or collectively.”"
+        },
+        {
+          "type": "p",
+          "text": "What constitutes “minimal value” is unclear, and the prosecution’s witness from the Philippine National Police Firearms and Explosives Office, Police Major Joericson Sangalang, doesn’t have the acquisition cost of Duterte’s firearms as well. PNP FEO can only estimate based on market value – Duterte and her husband Mans Carpio’s gun collection could cost around P7 million."
+        },
+        {
+          "type": "p",
+          "text": "What’s certain though is that Duterte and her spouse have 51 registered firearms, including 22 from Duterte herself. There are no records with the PNP to indicate that these were donations."
+        },
+        {
+          "type": "p",
+          "text": "Some public officials and employees faced legal obstacles in the past for failing to disclose their guns in their SALNs."
+        },
+        {
+          "type": "p",
+          "text": "Prosecutor Terry Ridon cited customs official Recaflor de Leon who, in 2015, was suspended without pay by the Ombudsman for failing to declare his three licensed firearms from 2003 to 2011."
+        },
+        {
+          "type": "p",
+          "text": "A press release from the Department of Finance, the complainant in the case, said De Leon should have itemized his personal properties because as per SALN instructions in 2008, there should be a breakdown for items under the category “others” if the value exceeds P100,000."
+        },
+        {
+          "type": "p",
+          "text": "In 2018, the Ombudsman charged former police chief Alan Purisima with perjury before the Sandiganbayan for failing to disclose his wife’s properties, as well as his firearms from 2011 to 2012."
+        },
+        {
+          "type": "p",
+          "text": "“The disclosure and declaration is required under Section 7 of Republic Act No. 3019 (Anti-Graft Law) as amended and Section 8 of Republic Act 6713 (Code of Conduct and Ethical Standards for Public Officials and Employees),” the charge sheets at the time said."
+        },
+        {
+          "type": "p",
+          "text": "RA 3019 instructs public officers to file a true, detailed SALN, while RA 6713 says a SALN shall contain information on personal property and acquisition cost, and “all other assets such as investments, cash on hand or in banks, stocks, bonds, and the like.”"
+        },
+        {
+          "type": "p",
+          "text": "In the same year, the Ombudsman indicted former Marantao, Lanao del Sur mayor Mohammadali Abboh Abinal for not disclosing his firearms and vehicles from 2007 to 2012."
+        },
+        {
+          "type": "p",
+          "text": "Despite unfavorable remarks from senator-judges – with Raffy Tulfo even describing the offer of testimony on Duterte’s guns as a “waste of time” – the prosecution asserted that the vice president’s gun collection was an important matter."
+        },
+        {
+          "type": "p",
+          "text": "“Even though they say it’s only P7 million, when you submit your SALN, you are certifying under oath that it’s all that you own,” private prosecutor Lorna Kapunan said in a Rappler interview. “This is where we will attempt to show to the public and the impeachment court that there is a pattern on the part of the Vice President of hiding her wealth.”"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/sFuikXXpgfE/sddefault.jpg",
+          "caption": "Should Sara Duterte have listed all her guns in her SALNs?"
+        },
+        {
+          "type": "p",
+          "text": "Prosecutor Ridon’s justification was along the same lines."
+        },
+        {
+          "type": "p",
+          "text": "“We wanted to be able to present a most complete picture of the true wealth of the Vice President,” Ridon said during a press conference. “It’s part of the truth-telling of the prosecution on this matter.” – Rappler.com"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1s2bsvx",
+      "source": "abs",
+      "title": "Pope says concerns about AI 'should be taken seriously'",
+      "summary": "Pope Leo XIV on Monday warned concerns about artificial intelligence \"should be taken seriously\" but added he was not in \"panic mode.\"",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-28T23:40:23.000Z",
+      "firstSeen": "2026-09-28T23:55:01.884Z",
+      "url": "https://www.abs-cbn.com/news/world/2026/9/29/pope-says-concerns-about-ai-should-be-taken-seriously-0740",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pope Leo XIV on Monday warned concerns about artificial intelligence \"should be taken seriously\" but added he was not in \"panic mode.\""
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "gma-14pgc96",
+      "source": "gma",
+      "title": "PUV drivers, operators hold transport strike, call for lower fuel prices, higher fare hike",
+      "summary": "Public utility drivers and operators held a transport strike on Tuesday as they called for lower prices of fuel products and higher fare increase.",
+      "byline": "GMA News",
+      "section": "",
+      "published": "2026-09-28T23:34:13.000Z",
+      "firstSeen": "2026-09-28T23:55:01.977Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1004061/puv-drivers-operators-hold-transport-strike-call-for-lower-fuel-prices-higher-fare-hike/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/09/piston_2026_09_29_07_02_15.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published September 29, 2026 7:34am Updated September 29, 2026 7:44am"
+        },
+        {
+          "type": "p",
+          "text": "Public utility drivers and operators held a transport strike on Tuesday as they called for lower prices of fuel products and higher fare increase."
+        },
+        {
+          "type": "p",
+          "text": "Transport group PISTON on Tuesday started its two-day transport strike."
+        },
+        {
+          "type": "p",
+          "text": "On Aurora Boulevard in Cubao, Quezon City, members of transport group PISTON gathered for their protest action, according to a report by Ivan Mayrina on Unang Balita."
+        },
+        {
+          "type": "p",
+          "text": "Among PISTON's demands are to bring the price of diesel back to P55 per liter, remove the excise tax and value-added tax (VAT) on petroleum products, and repeal the Oil Deregulation Law."
+        },
+        {
+          "type": "p",
+          "text": "The PISTON members urged other jeepney drivers to join them in their protest action. Some joined them while others continued plying their routes."
+        },
+        {
+          "type": "p",
+          "text": "As of 6:06 a.m. however, fewer jeepneys were seen on Aurora Boulevard."
+        },
+        {
+          "type": "p",
+          "text": "One PISTON member, Celso Nabora, said the fare hike that took effect on Monday was not enough when compared to the rise in the prices of fuel products over the past months — despite the rollback in fuel prices on Tuesday."
+        },
+        {
+          "type": "p",
+          "text": "\"Sobrang pagtataas ng mga produktong petrolyo. Ang saya-saya po ng pagtataas eh. Ang laking insulto sa aming mga driver (ng fare hike). Ano naman magagawa ng piso?\" he said."
+        },
+        {
+          "type": "p",
+          "text": "(The price hikes on fuel products are too high. They were way too high. The fare hike was a big insult to us drivers. What will one peso increase do?)"
+        },
+        {
+          "type": "p",
+          "text": "Nabora said they are not asking for a very high fare increase, but only for the right amount."
+        },
+        {
+          "type": "p",
+          "text": "\"Hindi kami humihiling ng dagdag pasahe na napakataas. Ilagay sa tama na lebel,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "(We are not asking for a hefty fare hike. But they should put it at the right level.)"
+        },
+        {
+          "type": "p",
+          "text": "\"Ang kailangan natin hindi pagtataas sana eh. Ibaba nila ang presyo ng produktong petrolyo,\" Nabora added."
+        },
+        {
+          "type": "p",
+          "text": "(What we need is for prices of fuel products to be lowered, not for fares to be increased.)"
+        },
+        {
+          "type": "p",
+          "text": "Nabora also apologized to commuters who may experience difficulty finding rides because of the strike, asking for their understanding as drivers push for their demands."
+        },
+        {
+          "type": "p",
+          "text": "Police were deployed in the area to monitor the protest and help maintain traffic flow. No tension or major disturbance was reported so far."
+        },
+        {
+          "type": "p",
+          "text": "Members of PISTON also conducted a protest action in Pasig City, according to Super Radyo dzBB reporter Mark Makalalad."
+        },
+        {
+          "type": "p",
+          "text": "PISTON is set to hold a larger mobilization on Tuesday, including a motorcade and a mass gathering at Welcome Rotonda before proceeding to Mendiola in Manila."
+        },
+        {
+          "type": "p",
+          "text": "The transport strike comes a day after another transport group, Manibela, staged its own protest over rising fuel prices and other concerns on Monday. —with a report from Joviland Rita/KG, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inqn-ua5gmr",
@@ -624,6 +1114,31 @@
       "source_of_text": "page"
     },
     {
+      "id": "inq-ztz6te",
+      "source": "inq",
+      "title": "WATCH: Sara Duterte Impeachment trial | Sept. 29, 2026",
+      "summary": "MANILA, Philippines – On Day 31 of Vice President Sara Duterte&#8217;s impeachment trial, her brother, Davao City Mayor Sebastian “Baste” Duterte is expected to take the witness stand Tuesday, with…",
+      "byline": "",
+      "section": "",
+      "published": "2026-09-28T23:30:00.000Z",
+      "firstSeen": "2026-09-28T23:55:01.884Z",
+      "url": "https://newsinfo.inquirer.net/2313268/watch-sara-duterte-impeachment-trial-sept-29-2026",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/VP-IMPEACHMENT-TRIAL-0929-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – On Day 31 of Vice President Sara Duterte&#8217;s impeachment trial, her brother, Davao City Mayor Sebastian “Baste” Duterte is expected to take the witness stand Tuesday, with his testimony expected to focus on the city government transactions with GenCorp Industries Inc., a company declared by the vice president as a business interest in her 2024 and 2025 SALNs. The court earlier granted Baste Duterte’s request for more time to gather, organize, authenticate and reproduce subpoenaed documents, including records covering the city government’s transactions with GenCorp. /dp READ: Highlights: Day 30 of Sara Duterte impeachment trial | Sept. 28, [&hellip;]... Keep on reading: WATCH: Sara Duterte Impeachment trial | Sept. 29, 2026"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "abs-1fnzci9",
       "source": "abs",
       "title": "Trump denies he offered Iran sanctions relief, release of frozen funds",
@@ -668,7 +1183,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-dgz3ke",
@@ -951,31 +1466,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inqn-1qsgeis",
-      "source": "inqn",
-      "title": "Barbers: SALN disclosure, not value of VP Duterte guns, the issue",
-      "summary": "MANILA, Philippines — The point of the House prosecution panel was not the value of the firearms of Vice President Sara Duterte and her husband, Manases Carpio, but whether they were properly…",
-      "byline": "Alexander Magno",
-      "section": "Latest News Stories",
-      "published": "2026-09-28T23:01:22.000Z",
-      "firstSeen": "2026-09-28T15:31:08.693Z",
-      "url": "https://newsinfo.inquirer.net/2313157/barbers-saln-disclosure-not-value-of-vp-duterte-guns-the-issue",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/RobertAceBarbers-23Sep2026-1.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The point of the House prosecution panel was not the value of the firearms of Vice President Sara Duterte and her husband, Manases Carpio, but whether they were properly disclosed in her sworn statement of assets, liabilities, and net worth, former Rep. Robert Ace Barbers, House prosecution adviser and spokesperson, said on"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-cin3dc",
       "source": "abs",
       "title": "Feng shui predictions ni Master Hanz Cua para sa Setyembre 29, 2026",
@@ -1042,7 +1532,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-1r64kte",
@@ -1377,7 +1867,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-1ivbtih",
@@ -1402,7 +1892,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "gma-156u9jm",
@@ -2934,31 +3424,6 @@
         {
           "type": "p",
           "text": "From “Pleasures of a Tangled Life” by Jan Morris to “L’heure de femmes” by Adèle Bréau, Carlos Zafon’s “The Shadow of the Wind,” and more, these great novels not only touched me, but have changed me... Keep on reading: The pleasures of a tangled life"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-rgfm63",
-      "source": "inq",
-      "title": "Police assist commuters as transport strike begins",
-      "summary": "MANILA, Philippines — The Philippine National Police deployed personnel and vehicles to assist commuters and maintain peace and order as transport group Manibela held the first of its three-day…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-28T20:55:00.000Z",
-      "firstSeen": "2026-09-28T21:01:09.046Z",
-      "url": "https://newsinfo.inquirer.net/2313183/police-assist-commuters-as-transport-strike-begins",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Members-of-transport-group-Manibela-strike-protest-28September2026_4-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Philippine National Police deployed personnel and vehicles to assist commuters and maintain peace and order as transport group Manibela held the first of its three-day strike ahead of the beginning of Piston’s two-day strike beginning Tuesday. The transport groups are protesting Monday’s fare hike which is below what they had sought [&hellip;]... Keep on reading: Police assist commuters as transport strike begins"
         }
       ],
       "truncated": true,
@@ -10901,90 +11366,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "rap-1pjbdrz",
-      "source": "rap",
-      "title": "Romualdez files bail petition in P7.44-B plunder case",
-      "summary": "The Leyte congressman has been detained since September 14 due to his plunder case related to the flood control mess",
-      "byline": "Jairo Bolledo",
-      "section": "National News",
-      "published": "2026-09-28T10:21:01.000Z",
-      "firstSeen": "2026-09-28T10:31:04.179Z",
-      "url": "https://www.rappler.com/philippines/martin-romualdez-petition-bail-plunder-case-sandiganbayan/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/09/Martin-Romualdez-3.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "ROMUALDEZ. File photo of former speaker Martin Romualdez."
-        },
-        {
-          "type": "p",
-          "text": "Aaron Favila/AP/Sandiganbayan pool"
-        },
-        {
-          "type": "p",
-          "text": "The Leyte congressman has been detained since September 14 due to his plunder case related to the flood control mess"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – Leyte 1st District Representative and former House speaker Martin Romualdez filed a petition for bail with the Sandiganbayan 3rd Division on Monday, September 28, for his plunder case."
-        },
-        {
-          "type": "p",
-          "text": "“Wherefore, premises considered, accused Ferdinand Martin Gomez Romualdez respectfully prays that this Honorable Court: Set the instant Petition for Bail for hearing, at which the Prosecution shall be required to present its evidence to show that the evidence of guilt against accused Ferdinand Martin Gomez Romualdez is strong, and accused Romualdez shall be afforded the opportunity to controvert the same,” said Romualdez’s petition."
-        },
-        {
-          "type": "p",
-          "text": "Romualdez, cousin of President Ferdinand Marcos Jr., is facing a plunder charge before the anti-graft court Sandiganbayan."
-        },
-        {
-          "type": "p",
-          "text": "The Office of the Ombudsman alleged that Romualdez allegedly acquired ill-gotten wealth amounting to P7.44-billion from kickbacks from flood control and other infrastructure projects."
-        },
-        {
-          "type": "p",
-          "text": "He was arrested on September 7, but was only detained in the New Quezon City Jail in Payatas, Quezon City, on September 14, after spending a week in two different hospitals."
-        },
-        {
-          "type": "p",
-          "text": "In his petition, Romualdez argued that there is no proof that he allegedly committed or joined the alleged criminal acts under Section 1(d)(2) or Section 1(d)(6) of the plunder law."
-        },
-        {
-          "type": "p",
-          "text": "He also said that the testimony of state witnesses and former Department of Public Works and Highways (DPWH) officials Roberto Bernardo and Henry Alcantara may describe alleged dealings of his co-accused Zaldy Co with DPWH officials and contractors, but not proof of his alleged participation or knowledge in the alleged kickback scheme."
-        },
-        {
-          "type": "p",
-          "text": "“The recantations and the contradicting affidavits materially weaken the delivery evidence on which the alleged series principally depends,” Romualdez added."
-        },
-        {
-          "type": "p",
-          "text": "There have been recantations of testimony in Romualdez’s case, including that of former Marine Orly Guteza in August. Guteza alleged that that he was coerced by Senator Rodante Marcoleta and former lawmaker Mike Defensor to falsely implicate Romualdez in the alleged kickback scheme."
-        },
-        {
-          "type": "p",
-          "text": "Despite these recantations, the Ombudsman believes that their case against Romualdez is still strong."
-        },
-        {
-          "type": "p",
-          "text": "For grave offenses like plunder, bail is not automatic. An accused like Romualdez needs to file a petition for bail before the court."
-        },
-        {
-          "type": "p",
-          "text": "The tribunal will hold hearings where the prosecution will present evidence to establish that the evidence of guilt is strong against the accused. The purpose of presentation is not yet to prove that the accused is guilty, but rather if the accused deserves to be allowed to post bail while the trial is ongoing."
-        },
-        {
-          "type": "p",
-          "text": "If the the court rules that the evidence of guilt is strong, then the petition for bail will be denied. – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-q66ke8",
       "source": "abs",
       "title": "Tulfo raises concerns over ‘connections’ influencing government promotions",
@@ -11995,70 +12376,6 @@
         {
           "type": "p",
           "text": "Protracted government formation is not unusual in Sweden. It took 37 days to establish a government following the 2022 election and 134 days after the vote in 2018."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "gma-pavod4",
-      "source": "gma",
-      "title": "Senate impeachment court issues stern warning on Ridon",
-      "summary": "The Senate impeachment court issued a stern warning on House prosecutor Terry Ridon of Bicol Saro party-list over his comments on the ongoing impeachment trial of Vice President Sara Duterte.",
-      "byline": "LLANESCA T. PANTI, GMA News",
-      "section": "",
-      "published": "2026-09-28T09:11:29.000Z",
-      "firstSeen": "2026-09-28T09:31:05.040Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1004001/senate-impeachment-court-issues-stern-warning-on-ridon/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/04/rep_terry_ridon_041626_2026_04_16_19_24_50.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published September 28, 2026 5:11pm"
-        },
-        {
-          "type": "p",
-          "text": "The Senate impeachment court issued a stern warning on House prosecutor Terry Ridon of Bicol Saro party-list over his comments on the ongoing impeachment trial of Vice President Sara Duterte."
-        },
-        {
-          "type": "p",
-          "text": "The court noted that while Rule 18 of the Impeachment rules bans parties from commenting on the merits of the case, Ridon’s comments were made in good faith and ultimately deferred to the senator-judges’ evaluation of the evidence."
-        },
-        {
-          "type": "p",
-          "text": "“The Court gives due weight to Rep. Ridon's explanation that he acted in good faith and his recognition that the ultimate determination ultimately belongs to the senator-judges. The Court likewise notes Rep. Ridon's assertion that he understands the distinction between reporting what transpired in the proceedings, explaining procedural developments, and commenting on matters that are for the Court's determination,” the Senate court said."
-        },
-        {
-          "type": "p",
-          "text": "“Accordingly, the Court hereby issues a stern warning to Rep. Terry Ridon to exercise greater restraint in future public statements concerning the merits of the pending impeachment trial,” it added."
-        },
-        {
-          "type": "p",
-          "text": "The impeachment court also said that while Rule 18 allows parties to inform the public of what occurred in the proceedings, it does not allow evaluation of evidence proves or why it supports a party's position."
-        },
-        {
-          "type": "p",
-          "text": "“While an impeachment trial involves matters of public concern and the public entitled to be informed of its developments, its nature as both a legal and political proceeding demands greater not lesser restraint from counsel who are bound by the Code of Professional Responsibility and Accountability,” the court said."
-        },
-        {
-          "type": "p",
-          "text": "“This [decision] is to ensure that any decision made by senator-judges is based not on statements publicized outside the court but upon evidence and arguments presented and tested within its established parameters,” the court added."
-        },
-        {
-          "type": "p",
-          "text": "In response, Ridon vowed to comply with the court's ruling and thanked it for being gracious."
-        },
-        {
-          "type": "p",
-          "text": "\"We accept the warning, and we thank the Senate impeachment court for their graciousness,\" Ridon said."
-        },
-        {
-          "type": "p",
-          "text": "\"We are committed to exercise greater strength on particular details of the Impeachment proceedings moving forward, but we will continue on with our work as lead prosecutor for unexplained wealth,\" Ridon added. — RSJ, GMA News"
         }
       ],
       "truncated": false,
@@ -14199,28 +14516,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-11yocgl",
-      "source": "abs",
-      "title": "Asiad: Alas Men to miss quarterfinals after straight-set loss to China",
-      "summary": "Alas Pilipinas Men dropped their second straight match in Pool D, falling to China in three sets, 21-25, 20-25, 22-25, in the men's volleyball tournament of the 20th Asian Games Aichi-Nagoya 2026 on…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-28T06:16:16.000Z",
-      "firstSeen": "2026-09-28T06:31:04.591Z",
-      "url": "https://www.abs-cbn.com/sports/volleyball/2026/9/28/asiad-alas-men-to-miss-quarterfinals-after-straight-set-loss-to-china-1411",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Alas Pilipinas Men dropped their second straight match in Pool D, falling to China in three sets, 21-25, 20-25, 22-25, in the men's volleyball tournament of the 20th Asian Games Aichi-Nagoya 2026 on Monday at Park Arena Komaki."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "abs-jt676t",
