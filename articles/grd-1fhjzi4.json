@@ -1,0 +1,132 @@
+{
+  "id": "grd-1fhjzi4",
+  "source": "grd",
+  "title": "Revealed: the five-par email OpenAI used to inform Australia about agent attack",
+  "summary": "<p>Executive to front parliamentary committee on AI as ministers reveal how brief message telling them about hack was signed off ‘best’</p><ul><li><p><a…",
+  "byline": "Josh Taylor Technology reporter",
+  "section": "OpenAI",
+  "published": "2026-09-29T10:38:31.000Z",
+  "firstSeen": "2026-09-29T11:01:09.703Z",
+  "url": "https://www.theguardian.com/technology/2026/sep/29/openai-apology-rogue-agent-hacked-medicare-australian-government-websites",
+  "image": {
+    "src": "https://i.guim.co.uk/img/media/382f5ce9a99ca59f0295e666583b6b694b2ebb34/0_0_5000_4000/master/5000.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=791d4d21f2548bf6d76fadd4457b467a",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "OpenAI has apologised to Australians for its agent attack on Medicare, and will front parliament next week as the tech company revealed more details about its June hack of Australian government websites."
+    },
+    {
+      "type": "p",
+      "text": "Ministers on Tuesday evening released a brief, five paragraph email which OpenAI used to inform the Australian government about the attack. The email was sent to a public inbox monitored by Services Australia on 10 September – nearly three months after the AI agent accessed the website on 18 June – and was signed off with the closing “best”."
+    },
+    {
+      "type": "p",
+      "text": "The Labor government has publicly voiced its fury at the manner in which OpenAI disclosed the incident. The email itself, obtained by Guardian Australia, advised Services Australia that “an OpenAI model identified a way to make the server carry out instructions sent through the public reporting interface, without a private account or password”."
+    },
+    {
+      "type": "p",
+      "text": "In a blog post released on Tuesday morning (Aest), OpenAI said it should have handled its response better."
+    },
+    {
+      "type": "p",
+      "text": "“We also should have handled our response better. We are sorry and working to do better in the future.”"
+    },
+    {
+      "type": "p",
+      "text": "The company also provided more detail on the incident revealed by the Australian prime minister, Anthony Albanese, last week."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said it became aware of agent activity on Australian government websites in mid-August after the company reviewed earlier training incidents after the Hugging Face attack in July."
+    },
+    {
+      "type": "p",
+      "text": "The agents gained non-public access to a Services Australia portal for Medicare statistics, and OpenAI said the agent was able to run commands, retrieve internal files, credentials, and write files, but no patient or client records were accessed."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI’s email to Services Australia pointed the government to the “affected URL”, a Medicare statistics page on the human services website, as well as specifying an “affected report” – a CSV file, commonly used for spreadsheets."
+    },
+    {
+      "type": "p",
+      "text": "“We recommend that the team responsible for the service investigate the vulnerability and assess the changes needed to prevent it. We would be glad to brief your security team and provide supporting evidence as available,” OpenAI wrote."
+    },
+    {
+      "type": "p",
+      "text": "“Best, OpenAl Security Team”."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI was contacted for comment."
+    },
+    {
+      "type": "p",
+      "text": "The NSW Bureau of Crime Statistics and Research’s public crime mapping tool was also accessed, with application configuration, operational jobs and logs and website metadata provided to the agency."
+    },
+    {
+      "type": "p",
+      "text": "The agent discovered an exposed access key to query the Victorian agency for health information’s reporting system to access aggregate survey statistics."
+    },
+    {
+      "type": "p",
+      "text": "For the Australian Institute of Health and Welfare, OpenAI agents retrieved aggregate statistics, but separate attempts to bypass access controls were unsuccessful and the information obtained was publicly available."
+    },
+    {
+      "type": "p",
+      "text": "Services Australia and the Victorian health department were informed on 10 September, while the NSW bureau of crime stastistics was informed on 18 September."
+    },
+    {
+      "type": "p",
+      "text": "The Australian Institute of Health and Welfare was not informed until 24 September, as OpenAI deemed it did not meet disclosure thresholds."
+    },
+    {
+      "type": "p",
+      "text": "“Since then we’ve worked closely with Australian government agencies to share what we’ve learned to date,” OpenAI said. “If we identify any additional affected agencies, we will notify them promptly and directly with the information available and provide updates as further facts emerge.”"
+    },
+    {
+      "type": "p",
+      "text": "The incident occurred after one model was tasked to research government spending per person on medicines for skin conditions in Victoria. The model had difficulty obtaining that information, and OpenAI said “it took actions that we had not authorised it to take” including accessing Services Australia’s Medicare statistics reporting service."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said it would commit resources and expertise to affected agencies, and provide Australian government agencies with support to build cyberdefences on critical infrastructure."
+    },
+    {
+      "type": "p",
+      "text": "Australian government agencies and industries will also be given credits out of OpenAI’s US$1bn (AU$1.4bn) Daybreak fund, which lets those organisations use frontier AI for cyberdefence, and to harden their systems by reviewing code and system configurations for potential vulnerabilities that can then be patched."
+    },
+    {
+      "type": "p",
+      "text": "The company said it would also establish a taskforce with Australian expertise to develop practical policy recommendations on managing risk with AI agents."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI’s chief strategy officer, Jason Kwon, will appear at the joint select committee on AI on Tuesday 6 October. Guardian Australia reported on Monday that Anthropic would also appear at this hearing, but not at a Senate inquiry into AI and datacentres this week."
+    },
+    {
+      "type": "p",
+      "text": "Albanese, who was in the United States last week when he announced the hack, said at the time he had spoken with OpenAI’s chief executive, Sam Altman, “to express Australia’s extreme concern about this incident”."
+    },
+    {
+      "type": "p",
+      "text": "On Tuesday, Albanese said OpenAI had been “very constructive and open in engaging” since the incident, as had Anthropic. He said AI can improve economic growth and productivity but it also carries risks."
+    },
+    {
+      "type": "p",
+      "text": "“And we’ve seen those risks exposed – not just in what occurred in Australia, but the revelation that has occurred in the United States and other countries as well.”"
+    },
+    {
+      "type": "p",
+      "text": "The federal government has flagged it could introduce mandatory reporting rules for AI-related data breaches, after the revelation OpenAI used a public-facing email address three months after the hack to report the incident to Services Australia."
+    },
+    {
+      "type": "p",
+      "text": "The company said on Tuesday it had “a lot of work ahead” to rebuild trust with Australians but said it was making “meaningful changes”."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
