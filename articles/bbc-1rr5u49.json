@@ -1,0 +1,140 @@
+{
+  "id": "bbc-1rr5u49",
+  "source": "bbc",
+  "title": "Chinese AI tool told researchers how to make bioweapons",
+  "summary": "Mindgard said it discovered in July that Kimi models K2.6 and K3 Swarm could evade developer's safety limits.",
+  "byline": "Chris Vallance",
+  "section": "",
+  "published": "2026-09-29T23:15:29.000Z",
+  "firstSeen": "2026-09-30T00:01:08.352Z",
+  "url": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_medium=RSS&at_campaign=rss",
+  "image": {
+    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/925f/live/79ba4b60-bc25-11f1-bd53-1b67dc8fba34.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Image source, Getty Images"
+    },
+    {
+      "type": "p",
+      "text": "ByChris Vallance"
+    },
+    {
+      "type": "p",
+      "text": "Senior technology reporter"
+    },
+    {
+      "type": "p",
+      "text": "Chinese AI developer Moonshot is conducting an internal review after researchers were able to persuade two of its popular Kimi models to tell them how to make biological weapons and carry out assassinations."
+    },
+    {
+      "type": "p",
+      "text": "Mindgard, which tests the security of AI systems, told the BBC it discovered in July that Kimi K2.6 and K3 Swarm could evade safety limits put in place by developers."
+    },
+    {
+      "type": "p",
+      "text": "It arose during a process called \"jailbreaking\", where researchers use a series of complex instructions to see if AI tools ignore guardrails - which Mindgard said should have stopped Kimi from discussing concerning topics."
+    },
+    {
+      "type": "p",
+      "text": "Moonshot told the BBC it welcomed third-party input \"as a key pillar for building better and safer AI\"."
+    },
+    {
+      "type": "p",
+      "text": "The company also told the BBC it was in discussion with Mindgard about its findings."
+    },
+    {
+      "type": "p",
+      "text": "Mindgard's founder Peter Garraghan told the BBC World Service programme Tech Life that its findings about Kimi K2.6 and K3 Swarm were concerning."
+    },
+    {
+      "type": "p",
+      "text": "\"Once the jailbreak works it will talk about any topic, it will even freely offer up recommendations about other topics that are also nefarious and it will be inventive and creative,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "Jailbreaks present a different kind of risk to those seen with the recent slew of high-profile AI incidents."
+    },
+    {
+      "type": "p",
+      "text": "These have seen autonomous AI tools known as agents, developed by US firms including OpenAI, Meta and Anthropic, hack some online services."
+    },
+    {
+      "type": "p",
+      "text": "While jailbreaks are complex processes that can take a lot of time and determination some experts fear hackers and other bad actors could try to use them to cause harm."
+    },
+    {
+      "type": "p",
+      "text": "Anthropic recently said it had identified and disrupted attempts to use one of its AI model for \"malicious activity\" that could support the development of biological weapons."
+    },
+    {
+      "type": "h",
+      "text": "Cyber-attack launchpad"
+    },
+    {
+      "type": "p",
+      "text": "Mindgard has not proven whether the answers supplied by Kimi on concerning topics would work."
+    },
+    {
+      "type": "p",
+      "text": "But it argued guardrails should have prevented the models in question from entering into discussion with users on such subjects."
+    },
+    {
+      "type": "p",
+      "text": "The firm said it was also confident a jailbroken Kimi 2.6 could allow hackers to run code on its computing resources and connect to the internet - making it a potential launchpad for cyber-attacks."
+    },
+    {
+      "type": "p",
+      "text": "Garraghan defended Mindgard's decision to publicly discuss its jailbreak of Moonshot's systems, saying it had informed the developer and was not revealing key details about how it got the firm's models to ignore guardrails."
+    },
+    {
+      "type": "p",
+      "text": "Mindgard alerted Moonshot to the jailbreak in an email on 27 July, following up about a week later."
+    },
+    {
+      "type": "p",
+      "text": "It then published a blog about the issue on 12 September."
+    },
+    {
+      "type": "p",
+      "text": "But the company said Moonshot only made contact recently, after it was approached by the BBC for comment."
+    },
+    {
+      "type": "p",
+      "text": "In part of an email to Mindgard asking for more details, shared with the BBC by Moonshot, it said its model had generally shown \"a high refusal rate for these types of requests\" in internal evaluations."
+    },
+    {
+      "type": "h",
+      "text": "Preventing jailbreaks"
+    },
+    {
+      "type": "p",
+      "text": "The findings come as the AI industry continues to be split on whether closed, proprietary models - like those powering ChatGPT and Anthropic's Claude systems - or open-source tools are the best or safest way forward."
+    },
+    {
+      "type": "p",
+      "text": "Kimi is an open-weight model, meaning someone could in theory take the model and run it themselves on their own computing infrastructure."
+    },
+    {
+      "type": "p",
+      "text": "Prof Alan Woodward, of the University of Surrey, told the BBC there was a risk open-source models might end up in the wrong hands, but they could also be harnessed for cyber-defence."
+    },
+    {
+      "type": "p",
+      "text": "He noted that AI firm Hugging Face used a Chinese open-source model to understand a hack later revealed to have been carried out by OpenAI agents."
+    },
+    {
+      "type": "p",
+      "text": "Prof Woodward said international regulation was unlikely to match the pace of AI development, saying: \"It's taken us decades to agree on the format of telephone numbers.\""
+    },
+    {
+      "type": "p",
+      "text": "Like Mindgard founder Garraghan, Prof Woodward believes there should be a greater focus on identifying and prosecuting humans who misuse AI."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
