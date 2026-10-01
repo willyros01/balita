@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-01T02:31:34.558Z",
+  "updated": "2026-10-01T03:01:36.366Z",
   "sources": [
     {
       "id": "inq",
@@ -53,48 +53,23 @@
   ],
   "articles": [
     {
-      "id": "inqn-1fj19tr",
+      "id": "inqn-frouh3",
       "source": "inqn",
-      "title": "SC junks 3 petitions vs impeach court ‘2/3’ ruling",
-      "summary": "MANILA, Philippines — The Supreme Court on Wednesday dismissed three petitions seeking to invalidate the Senate impeachment court’s Sept. 23 decision to lower the number of votes needed to convict…",
+      "title": "Marcos EO taps tech like blockchain for gov’t spending transparency",
+      "summary": "MANILA, Philippines — President Marcos has signed an order institutionalizing an online system monitoring public spending as part of the government’s bid to use blockchain and other emerging…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:23.813Z",
-      "firstSeen": "2026-09-30T21:31:05.821Z",
-      "url": "https://newsinfo.inquirer.net/2314742/sc-junks-3-petitions-vs-impeach-court-2-3-ruling",
+      "published": "2026-10-01T03:01:23.895Z",
+      "firstSeen": "2026-09-30T22:01:30.103Z",
+      "url": "https://newsinfo.inquirer.net/2314741/marcos-eo-taps-tech-like-blockchain-for-govt-spending-transparency",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/1301935.jpeg",
+        "src": "https://newsinfo.inquirer.net/files/2024/12/Marcos-signs-P6.3-trillion-2025-national-budget.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — The Supreme Court on Wednesday dismissed three petitions seeking to invalidate the Senate impeachment court’s Sept. 23 decision to lower the number of votes needed to convict Vice President Sara Duterte, clearing the way for the trial to proceed under the revised voting rule. The high court, sitting en banc, junked the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-afaeze",
-      "source": "inqn",
-      "title": "Dengue outbreak declared in Agusan del Sur",
-      "summary": "SAN FRANCISCO, AGUSAN DEL SUR, Philippines — Health authorities in Agusan del Sur have declared a dengue outbreak after the number of reported cases in the province reached 674 in just over seven…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:23.813Z",
-      "firstSeen": "2026-09-30T21:31:05.869Z",
-      "url": "https://newsinfo.inquirer.net/2314694/dengue-outbreak-declared-in-agusan-del-sur",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/05/Dengue.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN FRANCISCO, AGUSAN DEL SUR, Philippines — Health authorities in Agusan del Sur have declared a dengue outbreak after the number of reported cases in the province reached 674 in just over seven months this year. In a public advisory on Tuesday, the Provincial Health Office (PHO) said the province is “experiencing an increasing burden"
+          "text": "MANILA, Philippines — President Marcos has signed an order institutionalizing an online system monitoring public spending as part of the government’s bid to use blockchain and other emerging technologies to promote transparency. This comes as a measure seeking to expand citizen access to government expenditure data is still stalled in Congress. The President signed Executive"
         }
       ],
       "truncated": true,
@@ -109,7 +84,7 @@
       "summary": "MANILA, Philippines — The civil society-led Truth Commission is taking steps to build a registry that would harmonize the total death toll in the so-called war on drugs during the Duterte…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:23.751Z",
+      "published": "2026-10-01T03:01:23.755Z",
       "firstSeen": "2026-09-30T22:01:30.103Z",
       "url": "https://newsinfo.inquirer.net/2314757/truth-commission-working-on-unified-registry-of-drug-war-killings",
       "image": {
@@ -134,7 +109,7 @@
       "summary": "MANILA, Philippines — Investigators from the Office of the Ombudsman may no longer face unnecessary delays when they need to examine data on the Philippine Government Electronic Procurement System…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:23.751Z",
+      "published": "2026-10-01T03:01:23.755Z",
       "firstSeen": "2026-09-30T22:01:30.103Z",
       "url": "https://newsinfo.inquirer.net/2314750/dbm-ombudsman-pact-can-hasten-graft-probes",
       "image": {
@@ -153,163 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-frouh3",
-      "source": "inqn",
-      "title": "Marcos EO taps tech like blockchain for gov’t spending transparency",
-      "summary": "MANILA, Philippines — President Marcos has signed an order institutionalizing an online system monitoring public spending as part of the government’s bid to use blockchain and other emerging…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:23.751Z",
-      "firstSeen": "2026-09-30T22:01:30.103Z",
-      "url": "https://newsinfo.inquirer.net/2314741/marcos-eo-taps-tech-like-blockchain-for-govt-spending-transparency",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/12/Marcos-signs-P6.3-trillion-2025-national-budget.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — President Marcos has signed an order institutionalizing an online system monitoring public spending as part of the government’s bid to use blockchain and other emerging technologies to promote transparency. This comes as a measure seeking to expand citizen access to government expenditure data is still stalled in Congress. The President signed Executive"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1ql88p",
-      "source": "inqn",
-      "title": "NUP airs party ‘discontent’ as House tackles 2027 budget",
-      "summary": "MANILA, Philippines — There is growing “discontent” among House members over the draft 2027 national budget, a party leader aligned with the majority bloc said on Wednesday. Speaking to reporters,…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:21.953Z",
-      "firstSeen": "2026-09-30T22:01:30.103Z",
-      "url": "https://newsinfo.inquirer.net/2314756/nup-airs-party-discontent-as-house-tackles-2027-budget",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2023/05/NATIONAL-UNITY-PARTY-NUP-LOGO.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — There is growing “discontent” among House members over the draft 2027 national budget, a party leader aligned with the majority bloc said on Wednesday. Speaking to reporters, Deputy Speaker Ronaldo Puno said that within his National Unity Party (NUP), lawmakers have expressed frustration and demanded changes to the P7.2-trillion spending bill, which"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-5lypez",
-      "source": "inqn",
-      "title": "Military eyes info leak in foiled Rore mission",
-      "summary": "MANILA, Philippines — The Armed Forces of the Philippines is reviewing its security protocols and looking into all possibilities, including whether information may have been compromised, after…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:20.318Z",
-      "firstSeen": "2026-09-30T22:01:10.255Z",
-      "url": "https://newsinfo.inquirer.net/2314755/military-eyes-info-leak-in-foiled-rore-mission",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/News1301877.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Armed Forces of the Philippines is reviewing its security protocols and looking into all possibilities, including whether information may have been compromised, after Chinese vessels intercepted a Philippine resupply mission to Ayungin (Second Thomas) Shoal much farther away from the military outpost than in previous operations. AFP spokesperson for the West"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1dt0ac4",
-      "source": "inqn",
-      "title": "‘Very unhealthy’ air reported in parts of NCR",
-      "summary": "MANILA, Philippines — Some areas in Metro Manila recorded “very unhealthy” air quality levels on Wednesday because of the lingering transboundary haze that may be connected to ongoing fires in…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:20.318Z",
-      "firstSeen": "2026-09-30T22:01:12.290Z",
-      "url": "https://newsinfo.inquirer.net/2314749/very-unhealthy-air-reported-in-parts-of-ncr",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/haze-metro-manila-2September2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Some areas in Metro Manila recorded “very unhealthy” air quality levels on Wednesday because of the lingering transboundary haze that may be connected to ongoing fires in Indonesia. According to the Environmental Management Bureau (EMB) of the Department of Environment and Natural Resources (DENR), high PM2.5 levels—which refer to fine particulate matter"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1kp945c",
-      "source": "inqn",
-      "title": "Tropical storm&#8217;s trough to affect parts of Visayas, Mindanao Thursday",
-      "summary": "MANILA, Philippines — The trough of the tropical storm outside the Philippine area of responsibility (PAR) will affect parts of Visayas and Mindanao while Luzon will experience hot and humid weather…",
-      "byline": "jvicente",
-      "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:20.153Z",
-      "firstSeen": "2026-09-30T22:31:04.071Z",
-      "url": "https://newsinfo.inquirer.net/2314845/tropical-storms-trough-to-affect-parts-of-visayas-mindanao-thursday",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Screenshot-2026-10-01-at-6.08.25-AM.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The trough of the tropical storm outside the Philippine area of responsibility (PAR) will affect parts of Visayas and Mindanao while Luzon will experience hot and humid weather on Thursday, according to the state weather bureau. In the 5 a.m. weather forecast of the Philippine Atmospheric, Geophysical, and Astronomical Services Administration, weather"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-rjaxqr",
-      "source": "inqn",
-      "title": "Telcos ‘gravely concerned’ over NTC sanctions vs firms",
-      "summary": "MANILA, Philippines — Several of the country’s largest telecommunications companies have rallied behind the three mobile network operators slapped with P100,000 daily fines over “poor” mobile…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:20.153Z",
-      "firstSeen": "2026-09-30T22:01:10.255Z",
-      "url": "https://newsinfo.inquirer.net/2314751/telcos-gravely-concerned-over-ntc-sanctions-vs-firms",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/07/Phone-scam-23July2025.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Several of the country’s largest telecommunications companies have rallied behind the three mobile network operators slapped with P100,000 daily fines over “poor” mobile broadband service, raising concerns over how the government imposed the penalties. In a statement on Wednesday, the Philippine Chamber of Telecommunication Operators (PCTO) expressed “grave concern” over the National"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1hht10d",
       "source": "inqn",
       "title": "DILG goes after crime gang recruiting minors",
       "summary": "MANILA, Philippines — Interior Secretary Jonvic Remulla said on Wednesday that they have started gathering information on members of the criminal group, True Brown Style (TBS), which has become a…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:20.153Z",
+      "published": "2026-10-01T03:01:22.114Z",
       "firstSeen": "2026-09-30T22:01:10.255Z",
       "url": "https://newsinfo.inquirer.net/2314753/dilg-goes-after-crime-gang-recruiting-minors",
       "image": {
@@ -334,7 +159,7 @@
       "summary": "MANILA, Philippines — Inherited property that is passed on to another after heirs deliberately waive their rights may be considered a lawful donation as long as the requirements under the law are…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:20.153Z",
+      "published": "2026-10-01T03:01:22.114Z",
       "firstSeen": "2026-09-30T22:01:10.255Z",
       "url": "https://newsinfo.inquirer.net/2314754/sc-waived-inheritance-may-count-as-donation",
       "image": {
@@ -353,23 +178,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-3pqtsu",
+      "id": "inqn-5lypez",
       "source": "inqn",
-      "title": "Senate shifts impeachment trial to full-day sked ahead of budget break",
-      "summary": "MANILA, Philippines – The impeachment trial of Vice President Sara Duterte will become a whole day event starting Thursday as the Senate impeachment court expedites the proceedings and gives itself…",
-      "byline": "mareyes",
+      "title": "Military eyes info leak in foiled Rore mission",
+      "summary": "MANILA, Philippines — The Armed Forces of the Philippines is reviewing its security protocols and looking into all possibilities, including whether information may have been compromised, after…",
+      "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:18.423Z",
-      "firstSeen": "2026-09-30T23:01:13.720Z",
-      "url": "https://newsinfo.inquirer.net/2314634/senate-shifts-impeachment-trial-to-full-day-sked-ahead-of-budget-break",
+      "published": "2026-10-01T03:01:22.114Z",
+      "firstSeen": "2026-09-30T22:01:10.255Z",
+      "url": "https://newsinfo.inquirer.net/2314755/military-eyes-info-leak-in-foiled-rore-mission",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/30sept2026-impeach9.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/10/News1301877.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines – The impeachment trial of Vice President Sara Duterte will become a whole day event starting Thursday as the Senate impeachment court expedites the proceedings and gives itself time to for legislative functions. The schedule adjustment comes as the trial of the vice president coincides with the Congress’ deliberations and debates for the"
+          "text": "MANILA, Philippines — The Armed Forces of the Philippines is reviewing its security protocols and looking into all possibilities, including whether information may have been compromised, after Chinese vessels intercepted a Philippine resupply mission to Ayungin (Second Thomas) Shoal much farther away from the military outpost than in previous operations. AFP spokesperson for the West"
         }
       ],
       "truncated": true,
@@ -378,23 +203,98 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-lz5pmi",
+      "id": "inqn-1dt0ac4",
       "source": "inqn",
-      "title": "WATCH: Sara Duterte impeachment trial &#124; Oct. 1, 2026",
-      "summary": "MANILA, Philippines – The impeachment trial of Vice President Sara Duterte shifts to a full-day schedule Thursday as the Senate impeachment court moves to speed up proceedings before taking a break…",
-      "byline": "jcristobal",
+      "title": "‘Very unhealthy’ air reported in parts of NCR",
+      "summary": "MANILA, Philippines — Some areas in Metro Manila recorded “very unhealthy” air quality levels on Wednesday because of the lingering transboundary haze that may be connected to ongoing fires in…",
+      "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:13.185Z",
-      "firstSeen": "2026-10-01T00:31:04.955Z",
-      "url": "https://newsinfo.inquirer.net/2314850/watch-sara-duterte-impeachment-trial-oct-1-2026",
+      "published": "2026-10-01T03:01:22.114Z",
+      "firstSeen": "2026-09-30T22:01:12.290Z",
+      "url": "https://newsinfo.inquirer.net/2314749/very-unhealthy-air-reported-in-parts-of-ncr",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/VP-IMPEACHMENT-TRIAL.png",
+        "src": "https://newsinfo.inquirer.net/files/2026/09/haze-metro-manila-2September2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines – The impeachment trial of Vice President Sara Duterte shifts to a full-day schedule Thursday as the Senate impeachment court moves to speed up proceedings before taking a break for the 2027 national budget deliberations. The court will hear the case from 10 a.m. to 5 p.m. on weekdays until Oct. 15, with"
+          "text": "MANILA, Philippines — Some areas in Metro Manila recorded “very unhealthy” air quality levels on Wednesday because of the lingering transboundary haze that may be connected to ongoing fires in Indonesia. According to the Environmental Management Bureau (EMB) of the Department of Environment and Natural Resources (DENR), high PM2.5 levels—which refer to fine particulate matter"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1ql88p",
+      "source": "inqn",
+      "title": "NUP airs party ‘discontent’ as House tackles 2027 budget",
+      "summary": "MANILA, Philippines — There is growing “discontent” among House members over the draft 2027 national budget, a party leader aligned with the majority bloc said on Wednesday. Speaking to reporters,…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-10-01T03:01:22.114Z",
+      "firstSeen": "2026-09-30T22:01:30.103Z",
+      "url": "https://newsinfo.inquirer.net/2314756/nup-airs-party-discontent-as-house-tackles-2027-budget",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2023/05/NATIONAL-UNITY-PARTY-NUP-LOGO.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — There is growing “discontent” among House members over the draft 2027 national budget, a party leader aligned with the majority bloc said on Wednesday. Speaking to reporters, Deputy Speaker Ronaldo Puno said that within his National Unity Party (NUP), lawmakers have expressed frustration and demanded changes to the P7.2-trillion spending bill, which"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1kp945c",
+      "source": "inqn",
+      "title": "Tropical storm&#8217;s trough to affect parts of Visayas, Mindanao Thursday",
+      "summary": "MANILA, Philippines — The trough of the tropical storm outside the Philippine area of responsibility (PAR) will affect parts of Visayas and Mindanao while Luzon will experience hot and humid weather…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-10-01T03:01:21.955Z",
+      "firstSeen": "2026-09-30T22:31:04.071Z",
+      "url": "https://newsinfo.inquirer.net/2314845/tropical-storms-trough-to-affect-parts-of-visayas-mindanao-thursday",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Screenshot-2026-10-01-at-6.08.25-AM.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The trough of the tropical storm outside the Philippine area of responsibility (PAR) will affect parts of Visayas and Mindanao while Luzon will experience hot and humid weather on Thursday, according to the state weather bureau. In the 5 a.m. weather forecast of the Philippine Atmospheric, Geophysical, and Astronomical Services Administration, weather"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-rjaxqr",
+      "source": "inqn",
+      "title": "Telcos ‘gravely concerned’ over NTC sanctions vs firms",
+      "summary": "MANILA, Philippines — Several of the country’s largest telecommunications companies have rallied behind the three mobile network operators slapped with P100,000 daily fines over “poor” mobile…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-10-01T03:01:21.955Z",
+      "firstSeen": "2026-09-30T22:01:10.255Z",
+      "url": "https://newsinfo.inquirer.net/2314751/telcos-gravely-concerned-over-ntc-sanctions-vs-firms",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/07/Phone-scam-23July2025.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Several of the country’s largest telecommunications companies have rallied behind the three mobile network operators slapped with P100,000 daily fines over “poor” mobile broadband service, raising concerns over how the government imposed the penalties. In a statement on Wednesday, the Philippine Chamber of Telecommunication Operators (PCTO) expressed “grave concern” over the National"
         }
       ],
       "truncated": true,
@@ -409,7 +309,7 @@
       "summary": "LUCENA CITY – Two crew members were injured after a fire of still undetermined origin broke out aboard a motor tanker at a port at Calaca City in Batangas on Wednesday night (Sept. 30). In a report,…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:09.713Z",
+      "published": "2026-10-01T03:01:20.177Z",
       "firstSeen": "2026-10-01T01:01:07.203Z",
       "url": "https://newsinfo.inquirer.net/2314864/2-crew-members-injured-in-tanker-fire-at-batangas-port",
       "image": {
@@ -428,13 +328,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-lz5pmi",
+      "source": "inqn",
+      "title": "WATCH: Sara Duterte impeachment trial &#124; Oct. 1, 2026",
+      "summary": "LIVE UPDATES: Sara Duterte impeachment trial | Oct. 1, 2026 MANILA, Philippines – The impeachment trial of Vice President Sara Duterte shifts to a full-day schedule Thursday as the Senate impeachment…",
+      "byline": "jcristobal",
+      "section": "Latest News Stories",
+      "published": "2026-10-01T03:01:20.177Z",
+      "firstSeen": "2026-10-01T00:31:04.955Z",
+      "url": "https://newsinfo.inquirer.net/2314850/watch-sara-duterte-impeachment-trial-oct-1-2026",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/VP-IMPEACHMENT-TRIAL.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LIVE UPDATES: Sara Duterte impeachment trial | Oct. 1, 2026 MANILA, Philippines – The impeachment trial of Vice President Sara Duterte shifts to a full-day schedule Thursday as the Senate impeachment court moves to speed up proceedings before taking a break for the 2027 national budget deliberations. The court will hear the case from 10"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-3pqtsu",
+      "source": "inqn",
+      "title": "Senate shifts impeachment trial to full-day sked ahead of budget break",
+      "summary": "MANILA, Philippines – The impeachment trial of Vice President Sara Duterte will become a whole day event starting Thursday as the Senate impeachment court expedites the proceedings and gives itself…",
+      "byline": "mareyes",
+      "section": "Latest News Stories",
+      "published": "2026-10-01T03:01:20.177Z",
+      "firstSeen": "2026-09-30T23:01:13.720Z",
+      "url": "https://newsinfo.inquirer.net/2314634/senate-shifts-impeachment-trial-to-full-day-sked-ahead-of-budget-break",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/30sept2026-impeach9.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – The impeachment trial of Vice President Sara Duterte will become a whole day event starting Thursday as the Senate impeachment court expedites the proceedings and gives itself time to for legislative functions. The schedule adjustment comes as the trial of the vice president coincides with the Congress’ deliberations and debates for the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-17d5pj5",
       "source": "inqn",
       "title": "What to expect from weather, tropical cyclone formations in October",
       "summary": "MANILA, Philippines — The state weather bureau has issued the weather conditions and tropical cyclone formations expected for October this year. In the 5 a.m. weather forecast of the Philippine…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:05.036Z",
+      "published": "2026-10-01T03:01:18.604Z",
       "firstSeen": "2026-10-01T01:01:07.114Z",
       "url": "https://newsinfo.inquirer.net/2314860/pagasa-what-to-expect-for-weather-tropical-cyclone-formations-in-october",
       "image": {
@@ -459,7 +409,7 @@
       "summary": "GENERAL SANTOS CITY — A nationwide campus tour is reaching out to young Filipinos to discuss the West Philippine Sea, government accountability and the 2028 elections, as organizers seek to encourage…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:04.033Z",
+      "published": "2026-10-01T03:01:18.006Z",
       "firstSeen": "2026-10-01T01:28:46.989Z",
       "url": "https://newsinfo.inquirer.net/2314861/genzennial-tour-brings-natl-issues-vote-discussions-to-gensan-youth",
       "image": {
@@ -484,7 +434,7 @@
       "summary": "COTABATO CITY – Anti-narcotics operatives arrested a high-value target, seizing P3.4 million worth of suspected shabu from him during a drug buy-bust operation in Bongao, Tawi-Tawi on Wednesday…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:04.030Z",
+      "published": "2026-10-01T03:01:13.242Z",
       "firstSeen": "2026-10-01T01:31:03.748Z",
       "url": "https://newsinfo.inquirer.net/2314871/p3-4-m-shabu-seized-suspect-arrested-in-tawi-tawi-buy-bust",
       "image": {
@@ -509,7 +459,7 @@
       "summary": "ILIGAN CITY — The provincial government of Lanao del Sur has extended the four-day workweek schedule for its workforce in keeping with the government&#8217;s energy austerity measures amid high fuel…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:04.030Z",
+      "published": "2026-10-01T03:01:10.796Z",
       "firstSeen": "2026-10-01T02:31:04.030Z",
       "url": "https://newsinfo.inquirer.net/2314874/lanao-del-sur-extends-4-day-workweek-schedule",
       "image": {
@@ -534,7 +484,7 @@
       "summary": "MANILA, Philippines — Mapua Malayan Colleges Laguna suspended its face-to-face classes and shifted to online classes on Thursday, October 1, due to a reported security concern in its campus. READ:…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-10-01T02:31:03.951Z",
+      "published": "2026-10-01T03:01:09.471Z",
       "firstSeen": "2026-10-01T02:31:03.951Z",
       "url": "https://newsinfo.inquirer.net/2314873/mapua-laguna-suspends-onsite-classes-thursday-over-security-concern",
       "image": {
@@ -551,6 +501,776 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1pgw1mq",
+      "source": "inqn",
+      "title": "NCAP to be reimplemented in parts of Metro Manila by October 5",
+      "summary": "MANILA, Philippines — The No Contact Apprehension Policy (NCAP) will be reimplemented in the City of Manila, Muntinlupa, City, Parañaque City, Quezon City, San Juan City and Valenzuela City starting…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-01T03:01:09.441Z",
+      "firstSeen": "2026-10-01T03:01:09.441Z",
+      "url": "https://newsinfo.inquirer.net/2314882/ncap-to-be-reimplemented-in-parts-of-metro-manila-by-october-5",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The No Contact Apprehension Policy (NCAP) will be reimplemented in the City of Manila, Muntinlupa, City, Parañaque City, Quezon City, San Juan City and Valenzuela City starting Monday, October 5. READ: SC lifts TRO, dismisses 3 petitions vs NCAP Under the reimplementation, the standardized fines will apply under cities covered by the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-h9cgnh",
+      "source": "inqn",
+      "title": "Over 1,200 bamboo planted in Aurora protected landscape",
+      "summary": "OLONGAPO CITY — More than 1,200 bamboo culms were planted at a National Greening Program site at the Talaytay Protected Landscape in the Aurora town of Dinalungan as part of efforts to restore…",
+      "byline": "cavendano",
+      "section": "Latest News Stories",
+      "published": "2026-10-01T03:01:09.355Z",
+      "firstSeen": "2026-10-01T03:01:09.355Z",
+      "url": "https://newsinfo.inquirer.net/2314879/over-1200-bamboo-planted-in-aurora-protected-landscape",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/1000028674-1.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OLONGAPO CITY — More than 1,200 bamboo culms were planted at a National Greening Program site at the Talaytay Protected Landscape in the Aurora town of Dinalungan as part of efforts to restore degraded forest areas. In a statement on Thursday, the Department of Environment and Natural Resources (DENR) in Central Luzon said the planting"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-1erk5q2",
+      "source": "abs",
+      "title": "'Minsan pumapalpak kayo': Tulfo scolds prosecution over impeachment witnesses",
+      "summary": "Senator-judge Raffy Tulfo on Thursday told prosecutors in the impeachment trial of Vice President Sara Duterte to be more discerning in their choice of witnesses.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-01T02:54:35.000Z",
+      "firstSeen": "2026-10-01T03:01:09.355Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/10/1/tulfo-scolds-prosecution-over-impeachment-witnesses-minsan-pumapalpak-kayo-1050",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Senator-judge Raffy Tulfo on Thursday told prosecutors in the impeachment trial of Vice President Sara Duterte to be more discerning in their choice of witnesses."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "gma-zbdmuc",
+      "source": "gma",
+      "title": "Filing of extradition petition for Quiboloy to US on final stages -- Vida",
+      "summary": "Justice Secretary Fredderick Vida on Thursday said the Department of Justice (DOJ) will soon file the petition for the extradition of Kingodm of Jesus Christ (KOJC) founder Apollo Quiboloy to the…",
+      "byline": "JOAHNA LEI CASILAO, GMA News",
+      "section": "",
+      "published": "2026-10-01T02:53:41.000Z",
+      "firstSeen": "2026-10-01T03:01:09.431Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1004380/filing-of-extradition-petition-for-quiboloy-to-us-on-final-stages-vida/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2025/02/quibs_2025_02_11_23_29_26.GIF",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published October 1, 2026 10:53am"
+        },
+        {
+          "type": "p",
+          "text": "Justice Secretary Fredderick Vida on Thursday said the Department of Justice (DOJ) will soon file the petition for the extradition of Kingodm of Jesus Christ (KOJC) founder Apollo Quiboloy to the United States."
+        },
+        {
+          "type": "p",
+          "text": "“Quiboloy, we’re in the final stages already. Nag legal scrapping na lang kami. We’re almost ready to file that petition,” VIda said at a press briefing."
+        },
+        {
+          "type": "p",
+          "text": "The petition will be filed with a local trial court, according to the DOJ."
+        },
+        {
+          "type": "p",
+          "text": "In August, the United States (US) Government requested the country to extradite Quiboloy over sex trafficking and racketeering charges he is facing in the US."
+        },
+        {
+          "type": "p",
+          "text": "“Of course, the Philippines would comply with its obligations under its extradition treaty with the United States and, of course, we are now governed by the Supreme Court rules of extradition,” he said."
+        },
+        {
+          "type": "p",
+          "text": "Chief State Counsel Dennis Chan previously expressed confidence that the DOJ’s petition will be granted as long as the requirements under the extradition treaty are met."
+        },
+        {
+          "type": "p",
+          "text": "Quiboloy is facing a non-bailable qualified human trafficking charge under Section 4(a) of the Anti-Trafficking in Persons Act of 2003, as amended, before the Pasig court."
+        },
+        {
+          "type": "p",
+          "text": "The Davao City-based religious leader is also facing charges under Section 5(b) and Section 10(a) of the Special Protection of Children Against Abuse, Exploitation, and Discrimination Act."
+        },
+        {
+          "type": "p",
+          "text": "Quiboloy, who pleaded not guilty shortly after his August 2024 arrest, is currently detained at the Pasig City Jail. — RSJ, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1hos3rg",
+      "source": "inq",
+      "title": "NCAP to be reimplemented in parts of Metro Manila by October 5",
+      "summary": "MANILA, Philippines — The No Contact Apprehension Policy (NCAP) will be reimplemented in the City of Manila, Muntinlupa, City, Parañaque City, Quezon City, San Juan City and Valenzuela City starting…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-01T02:50:00.000Z",
+      "firstSeen": "2026-10-01T03:01:09.354Z",
+      "url": "https://newsinfo.inquirer.net/2314882/ncap-to-be-reimplemented-in-parts-of-metro-manila-by-october-5",
+      "image": {
+        "src": "https://www.inquirer.net/wp-content/uploads/2016/08/inquirer_def_img.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The No Contact Apprehension Policy (NCAP) will be reimplemented in the City of Manila, Muntinlupa, City, Parañaque City, Quezon City, San Juan City and Valenzuela City starting Monday, October 5. READ: SC lifts TRO, dismisses 3 petitions vs NCAP Under the reimplementation, the standardized fines will apply under cities covered by the NCAP in line with the Metro Manila Traffic Code of 2023. The NCAP provides for the digital recording of traffic violations through a closed-circuit television and high-speed cameras. In August 2022, the Supreme Court issued a temporary restraining order against the implementation of the NCAP of [&hellip;]... Keep on reading: NCAP to be reimplemented in parts of Metro Manila by October 5"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "rap-1lwovf6",
+      "source": "rap",
+      "title": "ShinyHunters website goes offline after FBI deadline expires",
+      "summary": "The ShinyHunters group says on September 22 it had stolen data ;on almost ALL FBI Agents, and individuals who filed an application with the FBI for a job'",
+      "byline": "Reuters",
+      "section": "Technology",
+      "published": "2026-10-01T02:49:45.000Z",
+      "firstSeen": "2026-10-01T03:01:09.355Z",
+      "url": "https://www.rappler.com/technology/shinyhunters-website-goes-offline-fbi-deadline-expiration/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2024/10/hacker-us-election-website-adobestock.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The ShinyHunters group says on September 22 it had stolen data ;on almost ALL FBI Agents, and individuals who filed an application with the FBI for a job'"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "ShinyHunters, a cyber extortion group, claimed responsibility for hacking thousands of FBI agents' personal data and set a deadline for the FBI to retract a statement about them, after which their website went offline.",
+            "The stolen data reportedly included sensitive personal information about FBI agents and job applicants, and the group stated they had no intention of publishing the data."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "The website used by ShinyHunters, the group that claimed responsibility for a recent hack of thousands of FBI agents’ personal and sensitive data, went offline on Wednesday, September 30, a day after the group’s deadline for the FBI to retract or modify a statement about the group’s tactics and track record expired."
+        },
+        {
+          "type": "p",
+          "text": "ShinyHunters, a prolific cyber extortion group with a long record of targeting major corporations around the world, told Reuters and other news organizations on September 22 that it had stolen data “on almost ALL FBI Agents, and individuals who filed an application with the FBI for a job.”"
+        },
+        {
+          "type": "p",
+          "text": "A Reuters analysis of a sample of the data shared by the hackers subsequently revealed that the data contained extensive personally identifiable information, sensitive job role information, and psychiatric and medical information."
+        },
+        {
+          "type": "p",
+          "text": "Reuters could not determine why the site was offline. ShinyHunters could not be reached for comment.The hackers said they targeted the FBI in response to a May 2026 FBI advisory about the group that the hackers felt misrepresented their prior actions. They gave the FBI a week to either “correct or simply REMOVE” the advisory."
+        },
+        {
+          "type": "p",
+          "text": "The advisory remains online. ShinyHunters later said it had no intention of publishing the data it stole and that it accomplished its goals."
+        },
+        {
+          "type": "p",
+          "text": "The FBI said on September 23 that it was “actively and aggressively investigating” the breach. The agency declined to comment on Wednesday on whether it had taken any actions to force the hackers’ site offline. Brett Leatherman, assistant director of the FBI’s Cyber Division, urged the hackers in a video published on the agency’s website on September 29 to get in touch with the FBI “while the choice is still yours.”"
+        },
+        {
+          "type": "p",
+          "text": "Dutch police announced this week that on September 15 they had arrested a Dutch man in connection with an investigation into ShinyHunters. The hacking group told Reuters the man had “no association” with them and mocked the Dutch police as “incompetent.” – Rappler.com"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "rap-17rk7ld",
+      "source": "rap",
+      "title": "Dennis Uy loses Donatela resort after foreclosure, another blow to shrinking empire",
+      "summary": "The luxury Bohol resort has been turned over to Landbank as Dennis Uy’s company struggles to overcome its overwhelming debt burden",
+      "byline": "Lance Spencer Yu",
+      "section": "Business",
+      "published": "2026-10-01T02:48:39.000Z",
+      "firstSeen": "2026-10-01T03:01:09.442Z",
+      "url": "https://www.rappler.com/business/dennis-uy-donatela-resort-foreclosure/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2025/08/TL-DENNIS-UY-AUG-22-2025.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LUXURY. A promotional image of Donatela Resort's Pool Villa."
+        },
+        {
+          "type": "p",
+          "text": "Donatela Resort website"
+        },
+        {
+          "type": "p",
+          "text": "The luxury Bohol resort has been turned over to Landbank as Dennis Uy’s company struggles to overcome its overwhelming debt burden"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Dennis Uy's luxury Donatela Resort and Sanctuary in Panglao, Bohol, has permanently closed following foreclosure due to unsustainable debt.",
+            "The resort, which catered to high-end travelers, was part of PH Resorts Group Holdings' broader restructuring efforts amid significant financial losses and liabilities.",
+            "PHR's financial struggles are highlighted by negative stockholders' equity and a substantial net loss, further complicating Uy's ambitious expansion during the Duterte administration."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Dennis Uy’s luxury Donatela Resort and Sanctuary in Panglao, Bohol, has permanently closed after the property was foreclosed, marking another retreat for the businessman whose debt-fueled empire expanded rapidly during the Duterte administration."
+        },
+        {
+          "type": "p",
+          "text": "PH Resorts Group Holdings (PHR) disclosed that its wholly owned subsidiary, Donatela Hotel Panglao Corporation, permanently ceased operating the resort at the end of September 30."
+        },
+        {
+          "type": "p",
+          "text": "Donatela Resort and Sanctuary was an exclusive luxury retreat in Panglao, Bohol, set on a sprawling tropical estate with private villas, landscaped gardens, a spa, and a cliffside restaurant overlooking the sea. The boutique resort catered to high-end travelers seeking privacy and seclusion."
+        },
+        {
+          "type": "p",
+          "text": "The problem was all that luxury was built on debt that Uy’s company was never able to meet."
+        },
+        {
+          "type": "p",
+          "text": "The land and improvements comprising the hotel had been mortgaged to United Coconut Planters Bank, which has since been absorbed by Land Bank of the Philippines, and were subjected to extrajudicial foreclosure proceedings. Donatela was to turn over possession of the property to Landbank by the end of September."
+        },
+        {
+          "type": "p",
+          "text": "Donatela was considerably smaller than Uy’s failed flagship Emerald Bay casino project, but it still represented a sizable chunk of what remained of PHR’s asset base. The land, buildings, and other improvements pledged to Landbank for the Donatela loan had a carrying value of about P1.44 billion as of June 2026, about half of PHR’s P2.79 billion in total consolidated assets."
+        },
+        {
+          "type": "p",
+          "text": "Its closure comes as PHR attempts a much broader restructuring of a business hollowed out by years of losses and liabilities. Just a week earlier, in a September 23 disclosure, PHR laid out plans to transfer its stake in PH Travel and Leisure Holdings – through which it owns Donatela and its other operating subsidiaries – back to parent Udenna Corporation."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2025/08/TL-DENNIS-UY-AUG-22-2025.jpg?fit=449%2C449",
+          "caption": "[Vantage Point] The rise and fall of Dennis Uy"
+        },
+        {
+          "type": "p",
+          "text": "“The Board determined that a comprehensive restructuring, involving the transfer of PH Travel to Udenna together with the rationalization of intercompany balances, offered the most direct and expeditious path to restoring PHR to a sustainable financial position, while providing a platform for future growth,” PHR said in its September 23 disclosure."
+        },
+        {
+          "type": "p",
+          "text": "There is a lot of restoring to do. PHR’s consolidated stockholders’ equity was negative P5.953 billion as of June 30, while current liabilities exceeded current assets by around P4.01 billion. PHR is targeting a return to positive stockholders’ equity within two years after the restructuring. Restructuring, Uy’s company hoped, would remove most of the liabilities weighing on PHR and leave it operating largely as a listed holding company with no active business operations."
+        },
+        {
+          "type": "p",
+          "text": "PHR’s 2025 financial statements show that strain clearly, with auditor SGV flagging a “material uncertainty” that could cast significant doubt on the parent company’s ability to continue as a going concern after it posted a P6.2-billion net loss, accumulated a P9.15-billion deficit, and recorded negative operating cash flow."
+        },
+        {
+          "type": "p",
+          "text": "The Donatela foreclosure adds to the unraveling of the ambitions Uy built during the Duterte years. Uy, a major campaign donor of former president Rodrigo Duterte, snapped up everything from fuel, shipping, telecommunications, food, property, and gaming between 2016 to 2019. His meteoric rise drew scrutiny over his political ties to the administration, and the expansion itself leaned on borrowed capital."
+        },
+        {
+          "type": "p",
+          "text": "Since then, PHR already lost control of the land and unfinished development behind its much larger Emerald Bay casino project in Cebu after its repurchase option expired in 2025, contributing to billions of pesos in losses. Its provisional gaming license was later revoked. – Rappler.com"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2024/05/TL-peso-dollar-economy-may-24-2024.jpg?fit=449%2C449",
+          "caption": "[Finterest] How debt can build and crush an empire"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-3szlqi",
+      "source": "inq",
+      "title": "Asian Games: Amaya Cojuangco ends PH archery drought with silver",
+      "summary": "READ: Follow Inquirer Sports&#8217; special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines — Team Philippines’ Amaya Cojuangco delivered the silver medal in the archery women’s…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-01T02:47:14.000Z",
+      "firstSeen": "2026-10-01T03:01:09.441Z",
+      "url": "https://sports.inquirer.net/699409/asian-games-amaya-cojuangco-ends-ph-archery-drought-with-silver",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/10/20170818MB-06-620x423.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "READ: Follow Inquirer Sports&#8217; special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines — Team Philippines’ Amaya Cojuangco delivered the silver medal in the archery women’s compound individual event at the Asian Games 2026 on Thursday, falling to Indonesia’s Nurisa Dian Ashrifah, 139-137, at Ozakaki Chuo Sogo Park. Cojuangco pushed Ashrifah to the limit, but the Indonesian hit a 10 with her final arrow to clinch her country’s first Asian Games gold in archery. It capped a strong run for Cojuangco, who also upset No. 66-ranked Park Jungyoon of South Korea, 142-141, in the semifinals after beating Iran’s Bita Asheghzadeh [&hellip;]... Keep on reading: Asian Games: Amaya Cojuangco ends PH archery drought with silver"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-u3zopi",
+      "source": "inq",
+      "title": "Xyriel Manabat, Juan Karlos Labajo win top acting honors at CinePanalo 2026",
+      "summary": "Xyriel Manabat and Juan Karlos Labajo took home the top acting honors at the 2026 CinePanalo Film Festival, with Manabat winning Panalong Aktres for “Stuck on You” and Labajo named Panalong Aktor for…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-01T02:44:47.000Z",
+      "firstSeen": "2026-10-01T03:01:09.467Z",
+      "url": "https://entertainment.inquirer.net/685465/xyriel-manabat-juan-karlos-labajo-win-top-acting-honors-at-cinepanalo-2026",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/10/WhatsApp-Image-2026-10-01-at-10.26.53-700x394.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Xyriel Manabat and Juan Karlos Labajo took home the top acting honors at the 2026 CinePanalo Film Festival, with Manabat winning Panalong Aktres for “Stuck on You” and Labajo named Panalong Aktor for “Mono No Aware.” Manabat accepted her award during the festival’s awarding ceremony on Thursday night, Sept. 30, where she thanked the organizers for providing opportunities to filmmakers and artists. “Salamat po sa lahat ng bumubuo ng CinePanalo Film Festival. Hindi lang po kayo panalo sa larangan ng sinehan. Panalong panalo rin po kayo sa larangan ng pagbibigay ng plataporma at inclusivity,” she said. “Salamat kasi binibigyan niyo po [&hellip;]... Keep on reading: Xyriel Manabat, Juan Karlos Labajo win top acting honors at CinePanalo 2026"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-1k70clb",
+      "source": "abs",
+      "title": "Magkapatid na senior patay matapos pagsasaksakin ng pamangkin sa Cagayan",
+      "summary": "Patay ang magkapatid na senior citizen matapos silang pagsasaksakin ng kanilang 32-anyos na pamangkin sa kanilang bahay sa Barangay Paruddun Norte, Aparri, Cagayan, pasado alas-4 ng hapon noong…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-01T02:44:14.000Z",
+      "firstSeen": "2026-10-01T03:01:09.442Z",
+      "url": "https://www.abs-cbn.com/news/regions/2026/10/1/magkapatid-na-senior-patay-matapos-pagsasaksakin-ng-pamangkin-sa-cagayan-1044",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Patay ang magkapatid na senior citizen matapos silang pagsasaksakin ng kanilang 32-anyos na pamangkin sa kanilang bahay sa Barangay Paruddun Norte, Aparri, Cagayan, pasado alas-4 ng hapon noong Lunes, Setyembre 28."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "rap-1j29u64",
+      "source": "rap",
+      "title": "Google announces Gemini 4 flagship AI model after months of delays",
+      "summary": "The new AI model, 'Argon,'' is larger in size than Google's previous line of advanced \"Pro\" models, a company spokesperson says",
+      "byline": "Reuters",
+      "section": "Technology",
+      "published": "2026-10-01T02:40:38.000Z",
+      "firstSeen": "2026-10-01T03:01:10.202Z",
+      "url": "https://www.rappler.com/technology/google-gemini-4-flagship-ai-model-argon/",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "GOOGLE. A Google logo is seen at a company research facility in Mountain View, California, U.S., May 13, 2025"
+        },
+        {
+          "type": "p",
+          "text": "Carlos Barria/Reuters"
+        },
+        {
+          "type": "p",
+          "text": "The new AI model, 'Argon,'' is larger in size than Google's previous line of advanced \"Pro\" models, a company spokesperson says"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Google announced its new AI model 'Argon' as part of the Gemini 4 generation, aiming to compete with rivals Anthropic and OpenAI.",
+            "The model is larger and more performant than previous models, showing strong results on industry benchmarks, although it still lags behind in some coding metrics.",
+            "Google has decided not to release the previously planned Gemini 3.5 Pro and has undergone leadership changes in its AI lab amid delays in its AI model development."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "SAN FRANCISCO, USA – Alphabet’s Google on Wednesday, September 30, announced a new top-tier artificial intelligence model to anchor its Gemini 4 generation of models in a fresh bid to catch up to rivals Anthropic and OpenAI in the AI race."
+        },
+        {
+          "type": "p",
+          "text": "The new model, “Argon,” is larger in size than Google’s previous line of advanced “Pro” models, a company spokesperson said."
+        },
+        {
+          "type": "p",
+          "text": "“It’s our most performant model yet built for complex workloads, and we see it comparable to frontier models like (OpenAI’s) Astra and (Anthropic’s) Opus on key coding and cyber benchmarks,” the spokesperson said."
+        },
+        {
+          "type": "p",
+          "text": "Google said it was providing the model to select cybersecurity partners and was participating in the Trump administration’s voluntary process for pre-release model access. It did not provide a timeline for the model’s public release."
+        },
+        {
+          "type": "p",
+          "text": "The model posted better marks than Astra and Opus in terms of self-reported performance on several industry benchmarks, per a company press release. Still, Argon remained behind on certain other metrics, including two of the four coding-related benchmarks Google included in the release."
+        },
+        {
+          "type": "p",
+          "text": "Google no longer plans to release Gemini 3.5 Pro, which CEO Sundar Pichai originally said would be released in June, according to the company spokesperson."
+        },
+        {
+          "type": "p",
+          "text": "In the intervening time, Google overhauled its DeepMind AI lab, with its founder and CEO Demis Hassabis stepping aside and several leaders of its Gemini model leaving the company."
+        },
+        {
+          "type": "p",
+          "text": "The months of delays to its AI model have caused the company to fall behind Anthropic and OpenAI, which continued to push the research frontier with new releases to its top models."
+        },
+        {
+          "type": "p",
+          "text": "Pichai in July pushed back on the notion that Google was losing ground in the AI race. But Google in recent months has shifted its messaging from touting Gemini’s cutting-edge capabilities to highlighting its cost advantage compared to competitor models. – Rappler.com"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-shi9fq",
+      "source": "inq",
+      "title": "Dennis Trillo intrigues with cryptic 'hugas kamay' remark",
+      "summary": "Dennis Trillo got netizens talking anew after he shared a cryptic remark about washing one&#8217;s hands in a &#8220;sewer,&#8221; after Patrick Garcia&#8217;s tell-all about his past relationship…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-01T02:39:45.000Z",
+      "firstSeen": "2026-10-01T03:01:10.510Z",
+      "url": "https://entertainment.inquirer.net/685462/dennis-trillo-intrigues-with-cryptic-hugas-kamay-remark",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/10/91C88C77-715D-4404-B62B-03B79FD7E631-700x466.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dennis Trillo got netizens talking anew after he shared a cryptic remark about washing one&#8217;s hands in a &#8220;sewer,&#8221; after Patrick Garcia&#8217;s tell-all about his past relationship with Jennylyn Mercado. Trillo — who married Mercado in 2021 and soon after legally adopted her and Garcia&#8217;s child Alex Jazz — shared the post via his TikTok page on Wednesday, Sept. 30. &#8220;Kapag naghugas ka ng kamay sa kanal, lalo lang dudumi,&#8221; he wrote as his Memo No. 01, with the post featuring the song &#8220;Tabing Ilog&#8221; by Barbie&#8217;s Cradle. While he did not name anyone, some netizens have linked the remark to [&hellip;]... Keep on reading: Dennis Trillo intrigues with cryptic 'hugas kamay' remark"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-4twx2o",
+      "source": "inq",
+      "title": "iPhone 18 preorder events start this October",
+      "summary": "It&#8217;s the start of October, which means that the iPhone 18 pilgrimage has begun. Here are some preorder events happening in official stores near you. Power Mac Center Premier Apple partner Power…",
+      "byline": "Jayvee Fernandez",
+      "section": "",
+      "published": "2026-10-01T02:38:36.000Z",
+      "firstSeen": "2026-10-01T03:01:11.585Z",
+      "url": "https://technology.inquirer.net/149529/iphone-18-preorder-events-start-october-2",
+      "image": {
+        "src": "https://technology.inquirer.net/files/2026/10/Apple-iPhone-18-Pro-color-lineup-260909-470x336.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It’s the start of October, which means that the iPhone 18 pilgrimage has begun. Here are some preorder events happening in official stores near you."
+        },
+        {
+          "type": "h",
+          "text": "Power Mac Center"
+        },
+        {
+          "type": "p",
+          "text": "Premier Apple partner Power Mac Center (PMC) opens pre-orders for the newest iPhone 18 Pro series, with an exclusive event happening at Greenbelt 3 and SM Mall of Asia on October 1, 2026, leading to the nationwide pre-order opening on October 2. Be among the first to pre-order the latest iPhone and secure your chance at taking home premium freebies to complete your new-iPhone experience."
+        },
+        {
+          "type": "image",
+          "src": "https://technology.inquirer.net/files/2026/10/Power-Mac-Center-iPhone-18-Pro-Series-Preorder-1200x740.png",
+          "caption": "iphone 18 preorders power mac center"
+        },
+        {
+          "type": "p",
+          "text": "“Power Mac Center is once again opening pre-orders for the new iPhone with a lineup of experiences and surprises together with our valued partners. After more than three decades in the industry, we continue to believe that premium technology is accessible and possible for all, giving people the freedom to enjoy it in their everyday life,” said PMC Director for Marketing and Product Management Joey Alvarez."
+        },
+        {
+          "type": "p",
+          "text": "Pre-order iPhone 18 Pro at Power Mac Center in 3 ways"
+        },
+        {
+          "type": "p",
+          "text": "PMC’s “iPhone for All” initiative highlights the many ways Filipinos can experience the latest iPhone across the different ways technology has become part of everyday life. Whether you’re a new Apple fan or simply upgrading, start your new-iPhone journey in three ways:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "The pre-order events will be at Greenbelt 3, 2nd Level and at SM Mall of Asia – 2nd Level, Cyberzone, Entertainment Mall. Activities start on October 1, at 12 p.m. and the door opens on October 2, at 12:01 a.m. Customers who will join the pre-order events in Greenbelt 3 and SM Mall of Asia will get:"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "○ Pre-order kits and UpTrade Boost"
+        },
+        {
+          "type": "p",
+          "text": "○ Exciting freebies"
+        },
+        {
+          "type": "p",
+          "text": "○ Chance to win raffle prizes at each location"
+        },
+        {
+          "type": "p",
+          "text": "○ Customers can also participate in booth activities from partner brands."
+        },
+        {
+          "type": "p",
+          "text": "○ Enjoy exclusive care and service benefits for your latest iPhone 18 Pro from Mobile Care’s expert support team."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Nationwide pre-order will commence in stores on October 2, 2026 starting at 12:01 a.m. at Apple Premium Partner stores. Meanwhile, PMC stores nationwide will accept pre-orders during mall hours."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "○ In-store pre-order customers will get pre-order kits and UpTrade Boost."
+        },
+        {
+          "type": "p",
+          "text": "○ There will be early access for customers who will line up for partner-exclusive offers at select locations: BPI at Greenbelt 3; UnionBank at SM Megamall, The Annex at SM City North EDSA, and Molito Lifestyle Center; and Billease at SM City Tuguegarao."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Customers who prefer online transactions can visit PMC’s official Web Store at powermaccenter.com and the NEW official Lazada Flagship Store starting October 2, 2026 at 12:01 AM. Online pre-order customers will likewise get exciting pre-order kits."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Customers may use their 1 Infinite loyalty points as payment. Bank offers are also available. Do note that pre-order ends on October 15, 2026. Visit the following locations on October 15, 2026 to explore and enjoy booths with partner brands: Greenbelt 3, SM Mall of Asia, SM City Iloilo, SM Lanang, SM Megamall, and The Annex at SM North EDSA. Full pre-order mechanics are available at the website."
+        },
+        {
+          "type": "p",
+          "text": "Highly anticipated iPhone midnight launch"
+        },
+        {
+          "type": "p",
+          "text": "To celebrate the iPhone 18 Pro series, Power Mac Center will be holding midnight launches in six key locations: Greenbelt 3, SM Mall of Asia, SM Megamall, and The Annex at SM City North EDSA in Luzon, SM City Iloilo in the Visayas, and SM Lanang in Mindanao. Customers who want to be part of the exciting midnight launch must choose these stores as their branch of pickup to ensure the availability of their preferred devices."
+        },
+        {
+          "type": "p",
+          "text": "● Midnight launch participants can get exclusive gifts when they avail in Greenbelt 3, SM Mall of Asia, SM City Iloilo, and SM Lanang."
+        },
+        {
+          "type": "p",
+          "text": "● The first 75 customers can get additional freebies when they avail at Greenbelt 3 and SM Mall of Asia."
+        },
+        {
+          "type": "p",
+          "text": "● The first 50 customers at SM City Iloilo and SM Lanang will enjoy additional freebies."
+        },
+        {
+          "type": "p",
+          "text": "● Midnight selling participants at SM Megamall and The Annex at SM City North EDSA can get a voucher for a Non-Apple Accessory. The first 25 customers will also be taking home additional freebies."
+        },
+        {
+          "type": "p",
+          "text": "The parties start on October 15, 2026 at 10 p.m. until October 16, 2026 at midnight."
+        },
+        {
+          "type": "image",
+          "src": "https://technology.inquirer.net/files/2026/10/Screenshot-2026-10-01-103021-1200x740.png",
+          "caption": "iphone 18 preorder beyond the box"
+        },
+        {
+          "type": "h",
+          "text": "Beyond the Box"
+        },
+        {
+          "type": "p",
+          "text": "The iPhone 18 preorder page can be found here:"
+        },
+        {
+          "type": "p",
+          "text": "Preorders begin on October 2, at 12:01 AM (right after midnight). The website allows for direct purchase and trade in for older iPhone models as far back as the iPhone 13."
+        },
+        {
+          "type": "p",
+          "text": "Additionally, the iPhone Duo will be available for preorder starting October 16 2026, and will be available for pick up on October 30 2026."
+        },
+        {
+          "type": "image",
+          "src": "https://technology.inquirer.net/files/2026/10/831001333_1702815258513826_2660164113731517993_n.jpg",
+          "caption": ""
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1kft4qp",
+      "source": "abs",
+      "title": "El Nino: A deadly 'postcard from the future'",
+      "summary": "The current El Nino could cause 451,000 excess heat deaths. Researchers warn it offers a glimpse of temperatures that may become normal within 20 years.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-01T02:37:15.000Z",
+      "firstSeen": "2026-10-01T03:01:10.202Z",
+      "url": "https://www.abs-cbn.com/news/weather-traffic/2026/10/1/el-nino-a-deadly-postcard-from-the-future-1037",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The current El Nino could cause 451,000 excess heat deaths. Researchers warn it offers a glimpse of temperatures that may become normal within 20 years."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "grd-253cqi",
+      "source": "grd",
+      "title": "Microsoft’s datacentres and Optus owner among firms paying zero tax on billion-dollar Australian revenues",
+      "summary": "<p>ATO database names big companies – including Microsoft subsidiary and Netflix – that pay little corporate tax but notes there could be legitimate reasons</p><ul><li><p><a…",
+      "byline": "Jonathan Barrett Business editor",
+      "section": "Tax",
+      "published": "2026-10-01T02:30:06.000Z",
+      "firstSeen": "2026-10-01T03:01:09.431Z",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/01/microsoft-optus-singtel-netflix-corporations-paying-no-tax-australia-ato",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/f6aa137835cd001a29eb8e463081376efb26100c/437_0_3558_2848/master/3558.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e16870a652bebf60caf270a2e789a54c",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Microsoft’s datacentre business and the Optus parent Singtel are among a string of major corporations generating billions of dollars in revenue in Australia while paying zero income tax."
+        },
+        {
+          "type": "p",
+          "text": "Well-known multinationals including Netflix also only pay tax on a small fraction of their turnover, according to the Australian Taxation Office."
+        },
+        {
+          "type": "p",
+          "text": "The ATO’s transparency database for 2024-25 shows more than one-quarter of big companies, often based overseas, regularly pay no or little corporate tax in Australia."
+        },
+        {
+          "type": "p",
+          "text": "This includes the Brazilian-owned JBS Global Meat Holdings, which generated more than $4.8bn in revenue but paid zero tax, in a recurring pattern for the global food company."
+        },
+        {
+          "type": "p",
+          "text": "While the ATO does not typically publish tax information of individuals or companies, it is required by parliament to do so for all entities that generate at least $100m in Australian income."
+        },
+        {
+          "type": "p",
+          "text": "The report did not provide detail as to why individual companies paid zero tax but noted there could be legitimate reasons for it – including making a loss, or using deductions and offsets to lower the taxable income."
+        },
+        {
+          "type": "p",
+          "text": "Overseas companies often reduce their taxable income by making payments to related entities located in lower-taxing jurisdictions. The practice is known as profit shifting and can attract the scrutiny of regulators."
+        },
+        {
+          "type": "p",
+          "text": "The ATO’s acting deputy commissioner Michelle Sams said the agency was increasingly focused on making sure digital businesses and supply chains paid their share of tax."
+        },
+        {
+          "type": "p",
+          "text": "“We look very closely if there’s no tax being paid in significant industries, including things like datacentres, to make sure that the level of tax being paid reflects the economic activity that’s happening in Australia,” Sams said."
+        },
+        {
+          "type": "p",
+          "text": "Microsoft’s datacentre business generated $2.3bn in revenue from Australia during the financial year but reported no taxable income. The company’s computer and software business paid $160.6m in tax after generating more than $9.2bn in revenue in Australia."
+        },
+        {
+          "type": "p",
+          "text": "Microsoft was contacted for comment."
+        },
+        {
+          "type": "p",
+          "text": "Netflix’s local operation, which regularly pays little tax in Australia, paid the ATO $8.4m after generating more than $1.4bn in local revenue. TikTok Australia paid $17.3m in tax after recording $686.6m in revenue."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "An ATO ruling designed to clamp down on profit shifting is expected to raise significant sums from technology companies. But it is expected to face legal challenges."
+        },
+        {
+          "type": "p",
+          "text": "Parliament also passed revamped media bargaining laws in August, clearing the way for levies on global tech platforms that fail to strike deals with Australian news outlets over the use of their journalism."
+        },
+        {
+          "type": "p",
+          "text": "Singtel went from a regular taxpayer in Australia before 2020 to a company that now regularly reports zero taxable income."
+        },
+        {
+          "type": "p",
+          "text": "In 2024-25, it generated more than $8.3bn in total income but didn’t pay tax."
+        },
+        {
+          "type": "p",
+          "text": "An Optus spokesperson has previously said its negative tax position was due to infrastructure investments and operating expenses."
+        },
+        {
+          "type": "p",
+          "text": "The New Zealand dairy giant Fonterra was another major earner, with more than $2.4bn in total income, that didn’t pay tax – as was Sony Australia ($1.6bn in revenue) and the online retailer Kogan ($642m)."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "abs-1uw5syl",
@@ -721,7 +1441,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-15zk0m5",
@@ -1109,7 +1829,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "dw-1tkbflq",
@@ -1250,7 +1970,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-a1fyh6",
@@ -1514,7 +2234,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "gma-14jva0j",
@@ -3291,31 +4011,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-1wdheh4",
-      "source": "inq",
-      "title": "What happened on board the rerouted flydubai plane?",
-      "summary": "JERUSALEM &#8212; A plane heading to Tel Aviv from Dubai was forced to make an emergency landing in Saudi Arabia on Wednesday, after one of the pilots allegedly tried to crash the plane and kill…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-01T00:05:59.000Z",
-      "firstSeen": "2026-10-01T00:31:05.009Z",
-      "url": "https://globalnation.inquirer.net/340092/what-happened-on-board-the-rerouted-flydubai-plane",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/What-happened-on-board-the-rerouted-flydubai-plane-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "JERUSALEM &#8212; A plane heading to Tel Aviv from Dubai was forced to make an emergency landing in Saudi Arabia on Wednesday, after one of the pilots allegedly tried to crash the plane and kill everyone onboard. Flight FZ 1703 took off from Dubai at 0305 GMT. Here&#8217;s what we know about what unfolded on board: 0521 GMT. Sudden loss of altitude The aircraft suddenly plummeted a little over two hours into the flight. READ: Israeli warplanes deployed as FlyDubai pilots’ fight sparks hijack scare The plane dropped from nearly 34,000 feet at 0521 GMT to less than 17,000 feet at [&hellip;]... Keep on reading: What happened on board the rerouted flydubai plane?"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-t9p4xp",
       "source": "abs",
       "title": "California roller coaster shut after brain damage claims",
@@ -3454,81 +4149,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-jnskx8",
-      "source": "inq",
-      "title": "LIVE UPDATES: Sara Duterte impeachment trial | Oct. 1, 2026",
-      "summary": "MANILA, Philippines – On Day 32 of Vice President Sara Duterte&#8217;s impeachment trial, the court will hold full-day schedule as it moves to speed up proceedings before taking a break for the 2027…",
-      "byline": "jcristobal",
-      "section": "",
-      "published": "2026-10-01T00:00:00.000Z",
-      "firstSeen": "2026-10-01T00:31:05.021Z",
-      "url": "https://www.inquirer.net/491370/live-updates-sara-duterte-impeachment-trial-oct-1-2026/",
-      "image": {
-        "src": "https://www.inquirer.net/wp-content/uploads/2026/10/Sara-Impeachment-Trial-Live-Updates-OCT1-B-620x349.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Special Coverage"
-        },
-        {
-          "type": "p",
-          "text": "INQUIRER.net / Updated as of: 08:19 AM October 01, 2026"
-        },
-        {
-          "type": "h",
-          "text": "Latest updates"
-        },
-        {
-          "type": "image",
-          "src": "https://www.inquirer.net/wp-content/uploads/2026/10/Sara-Impeachment-Trial-Live-Updates-OCT1-B-1200x740.png",
-          "caption": "LIVE UPDATES: Sara Duterte impeachment trial | Oct. 1, 2026"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – On Day 32 of Vice President Sara Duterte’s impeachment trial, the court will hold full-day schedule as it moves to speed up proceedings before taking a break for the 2027 national budget deliberations."
-        },
-        {
-          "type": "p",
-          "text": "WATCH: Sara Duterte impeachment trial | Oct. 1, 2026"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "The court will sit from 10 a.m. to 5 p.m. on weekdays until Oct. 15, with the House prosecution expected to present witnesses on Duterte’s alleged hidden wealth, including former Sen. Antonio Trillanes IV, AMLC Executive Director Ronel Buenaventura and a Davao property registrar."
-          ]
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "The trial will then temporarily pause as Congress focuses on deliberations and debates on the 2027 national budget.",
-            "Trillanes previously presented alleged bank records involving Duterte and members of her family that he said were not reflected in her statements of assets, liabilities and net worth.",
-            "He previously alleged that Duterte received P22.3 million in checks supposedly linked to alleged drug lord Samuel Uy."
-          ]
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "AMLC Executive Director Ronel Buenaventura is expected to testify on the council’s records involving Duterte. He previously submitted documents to the House justice panel involving Duterte’s financial transactions worth P6.7 billion, including about P4.4 billion in alleged inflows."
-          ]
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Davao Register of Deeds, lawyer Kathy Florence Baldonado, or her deputy, lawyer Marco Pineda, may also take the witness stand to testify on property records involving Duterte’s husband, lawyer Manases Carpio./dp"
-          ]
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "grd-10pobbe",
@@ -3769,111 +4389,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "rap-1n9wbw9",
-      "source": "rap",
-      "title": "BFP &#8216;secured&#8217; majority to elect BARMM chief minister – spox",
-      "summary": "Negotiations to form the majority were immediately underway after the hotly contested race that resulted in a hung parliament",
-      "byline": "Iya Gozum",
-      "section": "Mindanao",
-      "published": "2026-09-30T23:47:14.000Z",
-      "firstSeen": "2026-10-01T00:01:11.208Z",
-      "url": "https://www.rappler.com/philippines/elections/bfp-secured-majority-elect-barmm-chief-minister-spokesperson/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/09/CHIEF-MINISTER.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – The Bangsamoro Federalist Party (BFP) has already “secured” enough seats to form a majority in the first elected Bangsamoro parliament and elect a chief minister, BFP spokesperson Naguib Sinarimbo told Rappler."
-        },
-        {
-          "type": "p",
-          "text": "Negotiations took place immediately right after the hotly contested race that resulted in a hung parliament. BFP got 32 seats, closely followed by the United Bangsamoro Justice Party (UBJP) with 30 seats, and BARMM Grand Coalition (BGC) with 15 seats."
-        },
-        {
-          "type": "p",
-          "text": "“While ‘yung work among political parties of creating a majority has started, ngayon nangyayari na ‘yon,” Sinarimbo said in a Rappler Talk interview. “And in our case, we’re confident we have the number.”"
-        },
-        {
-          "type": "p",
-          "text": "(The work among political parties of creating a majority has started. And in our case, we’re confident we have the number.)"
-        },
-        {
-          "type": "p",
-          "text": "“We already secured the majority to be able to elect the chief minister come October 30,” he added."
-        },
-        {
-          "type": "p",
-          "text": "The elected members of parliament will hold their first session on October 30. BFP’s chairman Abdulraof Macacua, who is currently the interim chief minister, is the party’s bet to lead the Bangsamoro government."
-        },
-        {
-          "type": "p",
-          "text": "Asked of his chances of becoming the region’s first elected chief minister after his proclamation on September 15, Macacua said: “Titingnan natin (We will see). Because being the chief minister, the majority will decide on that.”"
-        },
-        {
-          "type": "p",
-          "text": "Leaders of the BARMM Grand Coalition have met recently with the two biggest parties. Sulu Vice Governor Abdusakur Tan posted a photo with UBJP leaders – Ahod “Al Haj Murad” Ebrahim and Mohagher Iqbal – on Monday, September 28."
-        },
-        {
-          "type": "p",
-          "text": "Tan’s province was excluded from BARMM as a result of a Supreme Court ruling, but the official’s group remained active in the predominantly Muslim region’s politics."
-        },
-        {
-          "type": "p",
-          "text": "“This high-level convergence highlights the power of dialogue and solidarity—working hand-in-hand toward a peaceful, inclusive, and prosperous future for the entire Muslim region,” said Tan."
-        },
-        {
-          "type": "p",
-          "text": "A day after, BGC leaders met with BFP which included Macacua and Sinarimbo."
-        },
-        {
-          "type": "p",
-          "text": "“Hindi kailangang magkapareho tayo palagi sa ating mga pananaw para makapagtrabaho nang magkasama,” Basilan Governor Mujiv Hataman said. (We don’t always have to agree on views to work together.)"
-        },
-        {
-          "type": "p",
-          "text": "These early, talks are a harbinger of what is to come. Governance through the parliamentary system would necessitate many negotiations, said Sinarimbo."
-        },
-        {
-          "type": "p",
-          "text": "“Kasi ‘yung parliamentary system, ang nature niya talaga ay kailangan makipagkasundo ka sa ibang mga partido at ibang political actors in the region,” said Sinarimbo."
-        },
-        {
-          "type": "p",
-          "text": "(The parliamentary system’s nature requires collaboration with other parties and other political actors in the region.)"
-        },
-        {
-          "type": "p",
-          "text": "“It cannot be an exclusivist party,” he said."
-        },
-        {
-          "type": "p",
-          "text": "After the election of the regional chief minister, urgent matters that require the parliament’s focus are passing the 2027 budget and organizing the BARMM cabinet. Cabinet members, who will head ministries, will be selected from the members of parliament."
-        },
-        {
-          "type": "p",
-          "text": "Sinarimbo said the system creates a challenge in finding members who have the skill set to both legislate and hold Cabinet positions."
-        },
-        {
-          "type": "p",
-          "text": "“It’s difficult with the parliamentary system because there is fusion of legislative and executive work,” Sinarimbo said in Filipino. “It’s difficult to find individuals who have the skills to both do legislation and execution.”"
-        },
-        {
-          "type": "p",
-          "text": "Under RA 12317, the new set of officials elected in September 2026 will serve until June 30, 2031."
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2026/09/CHIEF-MINISTER.jpg?fit=449%2C449",
-          "caption": "Who will be BARMM’s first elected chief minister?"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "feed"
-    },
-    {
       "id": "bbc-1wcpki1",
       "source": "bbc",
       "title": "The children dying in India's remote tribal heartland",
@@ -4104,31 +4619,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-fo6m5o",
-      "source": "inq",
-      "title": "Cebu governor warns against hog smuggling amid active ASF cases",
-      "summary": "CEBU CITY, Philippines — Cebu Gov. Pamela Baricuatro has warned against the illegal entry of hogs into the province as authorities investigate the source of recently confirmed African Swine Fever…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-30T23:34:44.000Z",
-      "firstSeen": "2026-10-01T00:01:11.207Z",
-      "url": "https://cebudailynews.inquirer.net/771353/cebu-governor-warns-against-hog-smuggling-amid-active-asf-cases",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/10/Hog-smuggling-620x349.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CEBU CITY, Philippines — Cebu Gov. Pamela Baricuatro has warned against the illegal entry of hogs into the province as authorities investigate the source of recently confirmed African Swine Fever (ASF) cases in Ginatilan town in southwestern Cebu. Baricuatro said the provincial government was still looking into how the virus reached two barangays in the southern Cebu town, where infections were confirmed this September. She said she discussed the situation with Negros Oriental Gov. Manuel “Chaco” Sagarbarria, including the possibility that illegally transported hogs might have made their way into Cebu despite border controls. “He was wondering why there was a [&hellip;]... Keep on reading: Cebu governor warns against hog smuggling amid active ASF cases"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "bbc-16ez1qx",
@@ -4429,31 +4919,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-l7slu6",
-      "source": "inq",
-      "title": "FlyDubai flight attack: Copilot stabs captain on flight to Israel",
-      "summary": "TEL AVIV, Israel — A copilot stabbed a captain Wednesday on a flight to Israel before passengers burst into the cockpit and wrestled with the attacker as the plane descended sharply and passengers…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-30T23:17:24.000Z",
-      "firstSeen": "2026-09-30T23:31:04.646Z",
-      "url": "https://cebudailynews.inquirer.net/771352/flydubai-flight-attack-copilot-stabs-captain-on-flight-to-israel",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/10/AP26273571271630-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TEL AVIV, Israel — A copilot stabbed a captain Wednesday on a flight to Israel before passengers burst into the cockpit and wrestled with the attacker as the plane descended sharply and passengers screamed, witnesses said. The jetliner was stabilized and made an emergency landing in Saudi Arabia. It was not clear what motivated the attack, which led Israel to scramble warplanes amid concerns about a possible hijacking. Israeli Prime Minister Benjamin Netanyahu said Saudi Arabia arrested the copilot, who was not identified. The shaken passengers from the FlyDubai flight from Dubai to Tel Aviv landed Wednesday evening in Israel on [&hellip;]... Keep on reading: FlyDubai flight attack: Copilot stabs captain on flight to Israel"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "bbc-uildkw",
@@ -5178,31 +5643,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-1mayccj",
-      "source": "inq",
-      "title": "Antoinette Jadaone unveils Ilaya Ilaya Studios",
-      "summary": "Contemporary filmmaker Antoinette Jadaone launched Ilaya Ilaya Studios, while revealing its slate of projects for 2027.... Keep on reading: Antoinette Jadaone unveils Ilaya Ilaya Studios",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-30T23:00:00.000Z",
-      "firstSeen": "2026-10-01T01:29:01.389Z",
-      "url": "https://lifestyle.inquirer.net/582622/ilaya-ilaya-studios-antoinette-jadaone/",
-      "image": {
-        "src": "https://lifestyle.inquirer.net/files/2026/09/DSC7234-scaled-e1790816896652-620x388.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Contemporary filmmaker Antoinette Jadaone launched Ilaya Ilaya Studios, while revealing its slate of projects for 2027.... Keep on reading: Antoinette Jadaone unveils Ilaya Ilaya Studios"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "star-1eblwpq",
@@ -11544,100 +11984,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "rap-pe7zcd",
-      "source": "rap",
-      "title": "It takes a village: Lady’s Choice leads a parent-kid-school partnership for healthier kids",
-      "summary": "The Baon Buddies School Takeover brings families and educators together to make proper nutrition easier to practice every day",
-      "byline": "Anica Borromeo",
-      "section": "BrandRap",
-      "published": "2026-09-30T14:08:34.000Z",
-      "firstSeen": "2026-09-30T14:31:07.781Z",
-      "url": "https://www.rappler.com/brandrap/ladys-choice-baon-buddies/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/09/Ladys-Choice-scaled.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Baon Buddies School Takeover brings families and educators together to make proper nutrition easier to practice every day"
-        },
-        {
-          "type": "p",
-          "text": "Editor’s note: This content is sponsored by Lady’s Choice Philippines and was handled by BrandRap, the sales and marketing arm of Rappler. No member of the news and editorial team participated in the publishing of this piece."
-        },
-        {
-          "type": "p",
-          "text": "Raising healthy kids has never been the work of parents alone. Children move between different environments every day — from the breakfast table to the classroom, the school canteen, and the people they spend their day with. Each one can influence the habits they form around food and nutrition."
-        },
-        {
-          "type": "p",
-          "text": "This means that while healthier choices may begin at home, they become easier to practice when the circles they move in reinforce them, too. Parents can prepare nutritious meals, and schools can reinforce nutrition education, but kids also need to understand the choices that keep them fueled throughout the day."
-        },
-        {
-          "type": "p",
-          "text": "It is this shared responsibility that sits at the heart of Lady’s Choice’s 2026 Baon Buddies School Takeover, bringing parents, kids, and schools together to make proper nutrition something they can practice consistently wherever they are."
-        },
-        {
-          "type": "p",
-          "text": "The campaign is built around a parent-kid-school partnership designed to support children’s nutrition beyond just the school day."
-        },
-        {
-          "type": "p",
-          "text": "School takes up a lot of children’s time and energy. Between classes, playtime, and extracurricular activities, a school day can stretch beyond the hours spent sitting inside the classroom. Lady’s Choice’s campaign is rooted in the insight that meals and snacks should do more than simply fill children up; they should also help support them through the demands of the day."
-        },
-        {
-          "type": "p",
-          "text": "That is why the Baon Buddies School Takeover brings the conversation on nutrition directly into schools. As part of the campaign, Lady’s Choice introduced its Baon Buddies, Sandy and Elsie, in school activations that make nutrition education more engaging for both parents and children. The program includes nutrition awareness explainers, sandwich-making workshops, an “Omega-sigla” quiz bee, and sandwich sampling."
-        },
-        {
-          "type": "p",
-          "text": "Instead of treating healthy eating as another lesson children have to “learn”, the activities show that nutrition can be educational and enjoyable at the same time."
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2026/09/Ladys-Choice-scaled.jpeg?fit=1024%2C1024",
-          "caption": "SAMA SAMA SA NUTRISYON AT SIGLA. Kids in Upper Bicutan Elementary School participate in a sandwich making workshop."
-        },
-        {
-          "type": "p",
-          "text": "For parents, baon can easily become another item on their morning agenda — but involving children in what goes into their lunchbox can also help turn food into a conversation. What do you like eating? What can we prepare for tomorrow? What gives you enough energy for the school day?"
-        },
-        {
-          "type": "p",
-          "text": "This kind of participation matters because healthy routines are easier to sustain when children understand and have a role in them."
-        },
-        {
-          "type": "p",
-          "text": "The Lady’s Choice Baon Buddies campaign brings this conversation into schools through a nationwide roadshow as part of its effort to reach 70,000 school sampling hits. The roadshow is done in collaboration with the Department of Education in celebration of Nutrition Month, positioning schools not just as mere venues, but as partners in making nutrition awareness part of children’s learning."
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2026/09/Baon-Buddies-scaled.jpeg?fit=1024%2C1024",
-          "caption": "BAON BUDDIES. Making healthy eating more fun starts with meeting kids where they are."
-        },
-        {
-          "type": "p",
-          "text": "Highlighted in Lady’s Choice’s back-to-school campaign are its Meaty Spreads, including chicken, ham, bacon, tuna, and plain variants, made with real meat and farm-fresh eggs that contain Omega-3 and 6 nutrients, as part of a proper diet and healthy lifestyle."
-        },
-        {
-          "type": "p",
-          "text": "The campaign then brings these products into different parts of a child’s day — from breakfast, baon, and to merienda — through sandwich sampling, recipe videos, and digital content that give parents more ideas for preparing everyday meals and snacks."
-        },
-        {
-          "type": "p",
-          "text": "Lady’s Choice taps into these different moments so healthy eating becomes something children can easily recognize. By showing how nutritious sandwiches and snacks can fit into different mealtimes, the campaign helps make better food choices feel easier to practice —supporting its larger goal of getting parents, kids, and schools to work together in building healthier everyday habits."
-        },
-        {
-          "type": "p",
-          "text": "Watch how moms and students gave their baon a tasty twist during the Baon Buddies Takeover in Upper Bicutan Elementary School here. – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "dw-11vctk0",
       "source": "dw",
       "title": "Iran's nuclear program remains shrouded in mystery as the regime debates ditching non-proliferation",
@@ -11815,266 +12161,6 @@
         {
           "type": "p",
           "text": "\"Those who claim with absolute certainty that 'they have made their decision' are either bluffing or mostly advancing their own political agendas: hardliners in Iran on one side, and hardliners in Israel and the United States on the other,\" he added."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "rap-kjjphq",
-      "source": "rap",
-      "title": "SC junks petitions vs conviction voting threshold &#124; The wRap",
-      "summary": "Today’s headlines: Sara Duterte, Poa and Panelo, Alex Eala",
-      "byline": "Rappler.com",
-      "section": "Editors' Pick",
-      "published": "2026-09-30T14:00:00.000Z",
-      "firstSeen": "2026-09-30T16:01:09.666Z",
-      "url": "https://www.rappler.com/video/daily-wrap/september-30-2026/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/09/THE-WRAP-LS-MAIN-70.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Supreme Court of the Philippines"
-        },
-        {
-          "type": "p",
-          "text": "Sep 30, 2026 10:00 PM PHT"
-        },
-        {
-          "type": "p",
-          "text": "Rappler.com"
-        },
-        {
-          "type": "image",
-          "src": "https://img.youtube.com/vi/o5HPN94FtqA/sddefault.jpg",
-          "caption": "SC junks petitions vs conviction voting threshold | The wRap"
-        },
-        {
-          "type": "p",
-          "text": "Today’s headlines: Sara Duterte, Poa and Panelo, Alex Eala"
-        },
-        {
-          "type": "p",
-          "text": "Here are today’s headlines – the latest news in the Philippines and around the world:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Supreme Court junks petitions vs adjusted impeachment voting threshold"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The Supreme Court dismisses the petitions questioning the Senate impeachment court’s ruling that adjusted the voting threshold for Vice President Sara Duterte’s impeachment conviction."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Why was there a misunderstanding between Michael Poa and Paolo Panelo?"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Vice President Sara Duterte’s defense lawyer Michael Poa and Duterte’s newly appointed spokesperson Paolo Panelo disagree over a remark about impeachment proceedings."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "The Gracioso affidavit: Ex-cop claims he delivered millions to Sara Duterte"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Former police corporal Rodulfo Gracioso Jr. claims he delivered suitcases containing millions of pesos to Vice President Sara Duterte on different occasions."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Iran urges US voters to vote out Trump’s allies in election"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Iran’s Islamic Revolutionary Guard Corps urges Americans to vote out US President Donald Trump’s allies in Congress."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Chasing her ‘best version,’ Alex Eala reaches Asian Games semis for sure medal"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Filipina tennis ace Alex Eala advances to the semifinal of the 2026 Asian Games after beating Chinese Taipei’s Joanna Garland, on Wednesday, September 30. – Rappler.com"
-        },
-        {
-          "type": "h",
-          "text": "Related Topics"
-        },
-        {
-          "type": "p",
-          "text": "Alex Eala Asian Games Sara Duterte Sara Duterte impeachment Tennis US-Israel war on Iran"
-        },
-        {
-          "type": "h",
-          "text": "Alex Eala"
-        },
-        {
-          "type": "p",
-          "text": "Sports"
-        },
-        {
-          "type": "h",
-          "text": "Chasing her ‘best version,’ Alex Eala reaches Asian Games semis for sure medal"
-        },
-        {
-          "type": "p",
-          "text": "Top 5 News Today"
-        },
-        {
-          "type": "h",
-          "text": "Sara Duterte, Mans Carpio own 51 guns | The wRap"
-        },
-        {
-          "type": "h",
-          "text": "Alex Eala opens quest for Asian Games gold, Olympic berth with dominant win"
-        },
-        {
-          "type": "h",
-          "text": "Alex Eala suffers surprise Singapore Open exit as world No. 180 Russian scores shocker"
-        },
-        {
-          "type": "p",
-          "text": "More on Alex Eala"
-        },
-        {
-          "type": "h",
-          "text": "Asian Games"
-        },
-        {
-          "type": "h",
-          "text": "EJ Obiena ‘reborn’ after record-breaking Asian Games triumph"
-        },
-        {
-          "type": "h",
-          "text": "Carlo Paalam earns shot at ending PH’s 16-year wait for Asian Games boxing gold"
-        },
-        {
-          "type": "h",
-          "text": "Baste Duterte says Sara didn’t intervene for Gencorp | The wRap"
-        },
-        {
-          "type": "p",
-          "text": "More on Asian Games"
-        },
-        {
-          "type": "h",
-          "text": "Sara Duterte"
-        },
-        {
-          "type": "p",
-          "text": "Philippine News"
-        },
-        {
-          "type": "h",
-          "text": "LIVE UPDATES: Impeachment trial of Vice President Sara Duterte"
-        },
-        {
-          "type": "h",
-          "text": "Supreme Court junks petitions vs adjusted impeachment voting threshold"
-        },
-        {
-          "type": "p",
-          "text": "Fact Check"
-        },
-        {
-          "type": "h",
-          "text": "FACT CHECK: No SC order dismissing ongoing impeachment proceedings vs VP Sara"
-        },
-        {
-          "type": "p",
-          "text": "Inside Track"
-        },
-        {
-          "type": "h",
-          "text": "Why was there a misunderstanding between Michael Poa and Paolo Panelo?"
-        },
-        {
-          "type": "p",
-          "text": "More on Sara Duterte"
-        },
-        {
-          "type": "h",
-          "text": "Sara Duterte impeachment"
-        },
-        {
-          "type": "p",
-          "text": "Newsbreak Podcasts and Videos"
-        },
-        {
-          "type": "h",
-          "text": "Fact Check wRap: False news about the impeachment trial in September"
-        },
-        {
-          "type": "p",
-          "text": "More on Sara Duterte impeachment"
-        },
-        {
-          "type": "h",
-          "text": "Tennis"
-        },
-        {
-          "type": "h",
-          "text": "Carlos Yulo wins Philippines’ first gold at Asian Games 2026 | The wRap"
-        },
-        {
-          "type": "p",
-          "text": "More on Tennis"
-        },
-        {
-          "type": "h",
-          "text": "US-Israel war on Iran"
-        },
-        {
-          "type": "p",
-          "text": "US & Canada"
-        },
-        {
-          "type": "h",
-          "text": "Iran urges US voters to vote out Trump’s allies in election"
-        },
-        {
-          "type": "p",
-          "text": "Middle East"
-        },
-        {
-          "type": "h",
-          "text": "US forces exit Iraq, emboldening Iran’s proxies and Islamic State"
-        },
-        {
-          "type": "p",
-          "text": "Europe"
-        },
-        {
-          "type": "h",
-          "text": "UK examines foreign state involvement in suspected airbase plot, releases suspects"
-        },
-        {
-          "type": "h",
-          "text": "US, Iran separately talk with mediators in latest bid to end war"
-        },
-        {
-          "type": "p",
-          "text": "More on US-Israel war on Iran"
         }
       ],
       "truncated": false,
@@ -15835,50 +15921,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-ubb0kn",
-      "source": "abs",
-      "title": "Palace: First lady's interaction with MANIBELA chair shows gov't sincerity",
-      "summary": "Malacañang said the interaction between First Lady Liza Araneta-Marcos and Manibela Chairman Mar Valbuena at a rice distribution event in Quezon City on Tuesday showed government's \"sincerity” to the…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-30T09:08:15.000Z",
-      "firstSeen": "2026-09-30T09:31:10.526Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/30/palace-first-lady-s-interaction-with-manibela-chair-shows-gov-t-sincerity-1708",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Malacañang said the interaction between First Lady Liza Araneta-Marcos and Manibela Chairman Mar Valbuena at a rice distribution event in Quezon City on Tuesday showed government's \"sincerity” to the transport sector."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-nrxg05",
-      "source": "abs",
-      "title": "Tulfo accuses PRC of corruption over surgeon cases, alleged exam leaks",
-      "summary": "Senator Raffy Tulfo on Wednesday accused the Professional Regulation Commission (PRC) of corruption over its handling of cases involving a plastic surgeon allegedly linked to the deaths of patients,…",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-30T09:07:41.000Z",
-      "firstSeen": "2026-09-30T09:31:16.051Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/30/tulfo-accuses-prc-of-corruption-over-surgeon-cases-alleged-exam-leaks-1707",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Senator Raffy Tulfo on Wednesday accused the Professional Regulation Commission (PRC) of corruption over its handling of cases involving a plastic surgeon allegedly linked to the deaths of patients, as well as alleged leakage of board examinations."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "dw-do0skw",
       "source": "dw",
       "title": "South Korea: Lost shark draws over half a million visitors",
@@ -15986,76 +16028,6 @@
         {
           "type": "p",
           "text": "The incident is also somewhat reminiscent of the German frenzy this year over a beached humpback whale, who was in turn given the place-based nickname of \"Timmy\" — after the Timmendorfer Strand beach on the Baltic coast — the site of its first stranding."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "abs-1usonjy",
-      "source": "abs",
-      "title": "5 of Co’s ex-personnel to testify in Romualdez bail hearing — lawyer",
-      "summary": "Five of the former personnel of ex-lawmaker Zaldy Co will testify in the bail hearing of Leyte Rep. Martin Romualdez, lawyer Levito Baligod said on Wednesday.",
-      "byline": "",
-      "section": "",
-      "published": "2026-09-30T09:06:15.000Z",
-      "firstSeen": "2026-09-30T09:31:19.265Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/30/5-of-co-s-ex-personnel-to-testify-in-romualdez-bail-hearing-lawyer-1706",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Five of the former personnel of ex-lawmaker Zaldy Co will testify in the bail hearing of Leyte Rep. Martin Romualdez, lawyer Levito Baligod said on Wednesday."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "gma-1ahznao",
-      "source": "gma",
-      "title": "Sandiganbayan suspends Tarlac solon for 90 days over graft",
-      "summary": "The Sandiganbayan Sixth Division has placed Tarlac 3rd Rep. Noel Rivera under a 90-day preventive suspension due to a pending graft case involving his alleged links to a construction firm that won…",
-      "byline": "LLANESCA T. PANTI, GMA News",
-      "section": "",
-      "published": "2026-09-30T09:01:53.000Z",
-      "firstSeen": "2026-09-30T09:31:06.707Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1004289/sandiganbayan-suspends-tarlac-solon-for-90-days-over-graft/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2016/01/Sandiganbayan-2_2016_01_10_18_53_51.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published September 30, 2026 5:01pm"
-        },
-        {
-          "type": "p",
-          "text": "The Sandiganbayan Sixth Division has placed Tarlac 3rd Rep. Noel Rivera under a 90-day preventive suspension due to a pending graft case involving his alleged links to a construction firm that won government contracts."
-        },
-        {
-          "type": "p",
-          "text": "In a Resolution dated September 29 but released on September 30, the anti-graft court said the suspension is anchored on Section 13 of the Anti-Graft and Corrupt Practices Act, which states that any public official facing a criminal case involving fraud upon government or public funds or property should be suspended from office."
-        },
-        {
-          "type": "p",
-          "text": "The Sandiganbayan said that it already ruled that the two counts of graft cases filed by Ombudsman prosecutors are valid criminal informations last September 6 by denying Rivera’s motions to quash due to lack of merit."
-        },
-        {
-          "type": "p",
-          "text": "“The arguments as to the validity of the Informations raised by accused Rivera in his instant Comment are merely substantial reiterations of those in his previous Motions to Quash. The Court already considered the same and found them to be without merit when it denied the said Motions to Quash in the said Resolutions. Thus, there is no more question as to the validity of the Informations,” the court said."
-        },
-        {
-          "type": "p",
-          "text": "“The requisites for suspension under Section 13 of Republic Act No. 3019 have been met. The Court must order the suspension of accused Rivera. Accordingly, the Court hereby orders the suspension pendente lite of accused Noel Nudo Rivera as a member of the House of Representatives, and from any other public position he may now or hereafter hold for a period of 90 days from receipt of this Resolution,” the Sandiganbayan added."
-        },
-        {
-          "type": "p",
-          "text": "The anti-graft court also ordered that the Speaker of the House be furnished with the September 29 copy of the Resolution for immediate implementation.—LDF, GMA News"
         }
       ],
       "truncated": false,
@@ -18356,136 +18328,6 @@
         {
           "type": "p",
           "text": "The protests on Tuesday came the same day as professionals from public sectors - including teachers and firefighters - also demonstrated against planned budget cuts in France."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-b8rmoi",
-      "source": "grd",
-      "title": "Australia news live: Home Affairs orders ‘rapid’ stocktake of government cyber-systems after OpenAI hack",
-      "summary": "<p>Follow the day’s news live</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a>…",
-      "byline": "Martin Farrer",
-      "section": "Australia news",
-      "published": "2026-09-29T20:49:24.000Z",
-      "firstSeen": "2026-09-29T21:01:08.637Z",
-      "url": "https://www.theguardian.com/australia-news/live/2026/sep/30/labor-anthony-albanese-coalition-polling-new-greens-leader-openai-hack-ntwnfb",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/8007b60b1e387a16da7a334789bae1dd8b761d83/626_0_6259_5010/master/6259.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ac74664f8902fa128c02a471af238fc1",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "h",
-          "text": "Home Affairs orders rapid review of government-wide cyber systems after OpenAI hack"
-        },
-        {
-          "type": "p",
-          "text": "OpenAI’s Medicare breach has prompted a government-wide assessment of cyber systems to bolster Australia’s public sector against further AI threats – deliberate or not."
-        },
-        {
-          "type": "p",
-          "text": "Home affairs directed all government departments and agencies to undertake a “rapid” stocktake of legacy systems, to formulate risk management for legacy technology and to report their compliance back to the department."
-        },
-        {
-          "type": "p",
-          "text": "The directive prioritises systems of government significance – the government’s critical systems – with a review due by the end of the year, while other systems will be assessed by March."
-        },
-        {
-          "type": "p",
-          "text": "The acting home affairs minister, Richard Marles, said AI is “changing the environment in which we operate at extraordinary speed.”"
-        },
-        {
-          "type": "quote",
-          "text": "double quotation markWe can’t wait for an old system to fail before replacing it. We need to identify vulnerabilities and deal with them before they can be exploited."
-        },
-        {
-          "type": "p",
-          "text": "Key events"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "8m agoAlbanese to announce next stage of Melbourne airport rail link",
-            "12m agoHome Affairs orders rapid review of government-wide cyber systems after OpenAI hack",
-            "14m agoWelcome"
-          ]
-        },
-        {
-          "type": "h",
-          "text": "Albanese to announce next stage of Melbourne airport rail link"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/uploads/2022/03/03/Benita_Kolovos.png?width=300&quality=85&auto=format&fit=max&s=5eab712ba445dc6cf12cdc0f9a1eff16",
-          "caption": "Benita Kolovos"
-        },
-        {
-          "type": "p",
-          "text": "Benita Kolovos"
-        },
-        {
-          "type": "p",
-          "text": "Early works are beginning on the second stage of the long-awaited train line to Melbourne Airport – a 7.6km stretch of the train line from Albion, in Sunshine West, to Keilor East, where a new station will be built."
-        },
-        {
-          "type": "p",
-          "text": "Anthony Albanese will be in Melbourne today with Victorian premier, Ben Carroll, to announce that site investigations, procurement and development work will begin in the coming weeks."
-        },
-        {
-          "type": "p",
-          "text": "Built alongside the Jacana freight corridor, this stage of the project will feature a 500m rail bridge to carry trains over the Maribyrnong River."
-        },
-        {
-          "type": "p",
-          "text": "Community engagement and early designs will follow next year, with major construction to begin in 2028 and finish in 2031."
-        },
-        {
-          "type": "p",
-          "text": "The first stage of Melbourne Airport Rail, which involves the creation of the “Sunshine superhub” and the construction of new stations at Tottenham and Albion, is expected to be completed in 2030."
-        },
-        {
-          "type": "p",
-          "text": "A man has been charged with murder after the deaths of two men at Gurranang, about 25km north of Grafton in northern New South Wales, police said."
-        },
-        {
-          "type": "p",
-          "text": "About 3pm on Sunday 13 September, police were called to a house following reports the body of a 79-year-old man had been found."
-        },
-        {
-          "type": "p",
-          "text": "Officers visited the house again on Monday when they found the body of a 59-year-old man in a shed on the property."
-        },
-        {
-          "type": "p",
-          "text": "Detectives arrested a 32-year-old man at a hospital in Grafton yesterday afternoon."
-        },
-        {
-          "type": "p",
-          "text": "He was taken to Grafton police station where he was charged with two counts of murder and stealing a motor vehicle."
-        },
-        {
-          "type": "p",
-          "text": "He was refused bail to appear before court today."
-        },
-        {
-          "type": "h",
-          "text": "Welcome"
-        },
-        {
-          "type": "p",
-          "text": "Good morning and welcome to our live news blog. I’m Martin Farrer with the top overnight stories and then it’ll be Nick Visser with the main action."
-        },
-        {
-          "type": "p",
-          "text": "The prime minister, Anthony Albanese, will be in Melbourne today with Victorian premier, Ben Carroll, to announce early works are beginning on the second stage of the long-awaited train line to Melbourne airport. More coming up."
-        },
-        {
-          "type": "p",
-          "text": "A man has been charged with murder after the deaths of two men at Gurranang, about 25km north of Grafton in northern New South Wales, police said. More on that soon."
         }
       ],
       "truncated": false,
