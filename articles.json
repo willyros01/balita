@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-04T16:01:37.178Z",
+  "updated": "2026-10-04T16:31:25.622Z",
   "sources": [
     {
       "id": "inq",
@@ -59,7 +59,7 @@
       "summary": "SAN FRANCISCO, Agusan del Sur — Police arrested six people in five separate anti-drug operations across the Caraga region on Saturday. In a statement on Sunday, the Police Regional Office-Caraga…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:24.595Z",
+      "published": "2026-10-04T16:31:15.564Z",
       "firstSeen": "2026-10-04T11:01:09.588Z",
       "url": "https://newsinfo.inquirer.net/2316751/6-arrested-in-caraga-anti-drug-stings",
       "image": {
@@ -84,7 +84,7 @@
       "summary": "MANILA, Philippines &#8211; Former Sen. Antonio “Sonny” Trillanes IV’s allegations involving China-linked funds and other financial transactions cannot simply be disregarded because he will no longer…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:24.594Z",
+      "published": "2026-10-04T16:31:14.930Z",
       "firstSeen": "2026-10-04T11:01:09.525Z",
       "url": "https://newsinfo.inquirer.net/2316789/trillanes-allegations-cant-be-disregarded-must-be-checked-prosec",
       "image": {
@@ -109,7 +109,7 @@
       "summary": "MANILA, Philippines &#8211; The full amount of Vice President Sara Z. Duterte’s alleged unexplained wealth has yet to emerge as prosecutors continue to piece together evidence on properties, firearms…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:24.594Z",
+      "published": "2026-10-04T16:31:14.930Z",
       "firstSeen": "2026-10-04T11:01:09.584Z",
       "url": "https://newsinfo.inquirer.net/2316781/prosec-piecing-together-evidence-on-vps-alleged-unexplained-wealth-ridon",
       "image": {
@@ -134,7 +134,7 @@
       "summary": "MANILA, Philippines — As the country marks World Teachers’ Day on Monday, the Department of Education (DepEd) recognized a community-based teacher in Pampanga for nearly two decades of work providing…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:24.594Z",
+      "published": "2026-10-04T16:31:14.930Z",
       "firstSeen": "2026-10-04T11:01:09.584Z",
       "url": "https://newsinfo.inquirer.net/2316780/teacher-named-deped-hero-for-helping-out-of-school-youth-for-20-years",
       "image": {
@@ -153,13 +153,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-156z9vq",
+      "source": "inqn",
+      "title": "Speaker Dy mourns death of 2 students in Cauayan City fun run",
+      "summary": "MANILA, Philippines &#8211; House Speaker and Isabela Rep. Faustino G. Dy III on Sunday extended his sympathies to the family of the two students who died during a fun run at the Cauayan South…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-04T16:31:14.601Z",
+      "firstSeen": "2026-10-04T11:31:04.390Z",
+      "url": "https://newsinfo.inquirer.net/2316812/speaker-dy-mourns-death-of-2-students-in-cauayan-city-fun-run",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/2-students-die-after-electrocution-during-color-bubble-run-in-Cauayan-City-3October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines &#8211; House Speaker and Isabela Rep. Faustino G. Dy III on Sunday extended his sympathies to the family of the two students who died during a fun run at the Cauayan South Central School. The fatalities, aged 7 and 8, were electrocuted during a bubble fun run on Saturday, Oct. 3. “Lubos akong"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1ve7kpa",
       "source": "inqn",
       "title": "ACT: 16 teachers, students hurt in Malacañang protest dispersal",
       "summary": "MANILA, Philippines — Sixteen teachers and students were injured following tensions with police at a protest outside Malacañang on Sunday, a day before World Teachers’ Day, the Alliance of Concerned…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:24.573Z",
+      "published": "2026-10-04T16:31:14.601Z",
       "firstSeen": "2026-10-04T12:01:05.427Z",
       "url": "https://newsinfo.inquirer.net/2316811/act-16-teachers-students-hurt-in-malacanang-protest-dispersal",
       "image": {
@@ -184,7 +209,7 @@
       "summary": "PAGADIAN CITY, Zamboanga del Sur — Basilan State College has reached a historic milestone, having been elevated to university status. It was formally declared the Basilan State University (BasSU)…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:24.573Z",
+      "published": "2026-10-04T16:31:14.601Z",
       "firstSeen": "2026-10-04T11:31:04.484Z",
       "url": "https://newsinfo.inquirer.net/2316792/basilan-now-has-a-state-university",
       "image": {
@@ -203,113 +228,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-rm9me2",
-      "source": "inqn",
-      "title": "Education reform group calls for better pay, staffing, benefits for teachers",
-      "summary": "MANILA, Philippines—As the nation observes World Teachers’ Day 2026 on Monday, an education reform group called on the government to address teachers’ concerns over salaries, workloads, staffing,…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:24.572Z",
-      "firstSeen": "2026-10-04T12:01:04.971Z",
-      "url": "https://newsinfo.inquirer.net/2316827/education-reform-group-calls-for-better-pay-staffing-benefits-for-teachers",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/06/Teachers-04June2024.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—As the nation observes World Teachers’ Day 2026 on Monday, an education reform group called on the government to address teachers’ concerns over salaries, workloads, staffing, benefits and the full implementation of the Magna Carta for Public School Teachers. “Quality education begins with teachers who are respected, protected, adequately compensated, supported, and empowered,” said"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-156z9vq",
-      "source": "inqn",
-      "title": "Speaker Dy mourns death of 2 students in Cauayan City fun run",
-      "summary": "MANILA, Philippines &#8211; House Speaker and Isabela Rep. Faustino G. Dy III on Sunday extended his sympathies to the family of the two students who died during a fun run at the Cauayan South…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:24.572Z",
-      "firstSeen": "2026-10-04T11:31:04.390Z",
-      "url": "https://newsinfo.inquirer.net/2316812/speaker-dy-mourns-death-of-2-students-in-cauayan-city-fun-run",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/2-students-die-after-electrocution-during-color-bubble-run-in-Cauayan-City-3October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8211; House Speaker and Isabela Rep. Faustino G. Dy III on Sunday extended his sympathies to the family of the two students who died during a fun run at the Cauayan South Central School. The fatalities, aged 7 and 8, were electrocuted during a bubble fun run on Saturday, Oct. 3. “Lubos akong"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-196hb0l",
-      "source": "inqn",
-      "title": "Couple in their 80s killed in North Cotabato home",
-      "summary": "COTABATO CITY – An octogenarian couple, both retired teachers, were brutally killed inside their home in Banisilan, North Cotabato before dawn Sunday, police said. Colonel Ramel Hojilla, Cotabato…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:22.818Z",
-      "firstSeen": "2026-10-04T12:31:03.023Z",
-      "url": "https://newsinfo.inquirer.net/2316832/couple-in-their-80s-killed-in-north-cotabato-home",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2020/11/police-line-crime-scene-canva-stock-photo.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COTABATO CITY – An octogenarian couple, both retired teachers, were brutally killed inside their home in Banisilan, North Cotabato before dawn Sunday, police said. Colonel Ramel Hojilla, Cotabato police provincial director, identified the victims as Edwin Galeno, 81, and his wife Elsa, 82. Quoting a report from the Banisilan municipal police station, Hojilla said the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1onnnfz",
-      "source": "inqn",
-      "title": "Ridon defends move to drop VP bribery rap; respects Palace view",
-      "summary": "MANILA, Philippines – Bicol Saro party-list Rep. Terry Ridon responded on Sunday to the Palace’s concern that withdrawing an impeachment article might “shortchange” the public, saying that evidence…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:22.818Z",
-      "firstSeen": "2026-10-04T13:01:06.224Z",
-      "url": "https://newsinfo.inquirer.net/2316837/ridon-defends-move-to-drop-vp-bribery-rap-respects-palace-view",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/ridon-03sept2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – Bicol Saro party-list Rep. Terry Ridon responded on Sunday to the Palace’s concern that withdrawing an impeachment article might “shortchange” the public, saying that evidence has already been presented with the Senate sitting as an impeachment court. In a statement, Ridon said he respects Palace press officer Claire Castro’s remark, as he"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1hqayck",
       "source": "inqn",
       "title": "Luistro to formalize dropping of bribery rap in VP impeach trial – Chua",
       "summary": "MANILA, Philippines – Batangas Rep. Gerville Luistro is expected to deliver the prosecution team’s manifestation formally dropping the bribery charge in Vice President Sara Duterte’s impeachment…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:22.818Z",
+      "published": "2026-10-04T16:31:14.208Z",
       "firstSeen": "2026-10-04T12:31:03.023Z",
       "url": "https://newsinfo.inquirer.net/2316829/luistro-to-formalize-dropping-of-bribery-rap-in-vp-impeach-trial-chua",
       "image": {
@@ -328,23 +253,73 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-irz4z3",
+      "id": "inqn-rm9me2",
       "source": "inqn",
-      "title": "Prosec to formalize position on bribery rap in impeach trial &#8211; Luistro",
-      "summary": "MANILA, Philippines – Batangas Rep. Gerville Luistro on Sunday said the prosecution team will formally state its position before the Senate impeachment court following the prosecution panel&#8217;s…",
-      "byline": "postie",
+      "title": "Education reform group calls for better pay, staffing, benefits for teachers",
+      "summary": "MANILA, Philippines—As the nation observes World Teachers’ Day 2026 on Monday, an education reform group called on the government to address teachers’ concerns over salaries, workloads, staffing,…",
+      "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:22.773Z",
-      "firstSeen": "2026-10-04T14:01:07.866Z",
-      "url": "https://newsinfo.inquirer.net/2316865/luistro-says-team-will-formalize-stance-on-bribery-charge-in-senate",
+      "published": "2026-10-04T16:31:14.208Z",
+      "firstSeen": "2026-10-04T12:01:04.971Z",
+      "url": "https://newsinfo.inquirer.net/2316827/education-reform-group-calls-for-better-pay-staffing-benefits-for-teachers",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/07/Luistro-06July2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2024/06/Teachers-04June2024.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines – Batangas Rep. Gerville Luistro on Sunday said the prosecution team will formally state its position before the Senate impeachment court following the prosecution panel&#8217;s reported plan to drop an impeachment charge against Vice President Sara Duterte. Manila Rep. Joel Chua bared early Sunday that prosecutors will no longer present the bribery charge"
+          "text": "MANILA, Philippines—As the nation observes World Teachers’ Day 2026 on Monday, an education reform group called on the government to address teachers’ concerns over salaries, workloads, staffing, benefits and the full implementation of the Magna Carta for Public School Teachers. “Quality education begins with teachers who are respected, protected, adequately compensated, supported, and empowered,” said"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1onnnfz",
+      "source": "inqn",
+      "title": "Ridon defends move to drop VP bribery rap; respects Palace view",
+      "summary": "MANILA, Philippines – Bicol Saro party-list Rep. Terry Ridon responded on Sunday to the Palace’s concern that withdrawing an impeachment article might “shortchange” the public, saying that evidence…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-04T16:31:13.765Z",
+      "firstSeen": "2026-10-04T13:01:06.224Z",
+      "url": "https://newsinfo.inquirer.net/2316837/ridon-defends-move-to-drop-vp-bribery-rap-respects-palace-view",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/ridon-03sept2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Bicol Saro party-list Rep. Terry Ridon responded on Sunday to the Palace’s concern that withdrawing an impeachment article might “shortchange” the public, saying that evidence has already been presented with the Senate sitting as an impeachment court. In a statement, Ridon said he respects Palace press officer Claire Castro’s remark, as he"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-196hb0l",
+      "source": "inqn",
+      "title": "Couple in their 80s killed in North Cotabato home",
+      "summary": "COTABATO CITY – An octogenarian couple, both retired teachers, were brutally killed inside their home in Banisilan, North Cotabato before dawn Sunday, police said. Colonel Ramel Hojilla, Cotabato…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-04T16:31:13.763Z",
+      "firstSeen": "2026-10-04T12:31:03.023Z",
+      "url": "https://newsinfo.inquirer.net/2316832/couple-in-their-80s-killed-in-north-cotabato-home",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2020/11/police-line-crime-scene-canva-stock-photo.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "COTABATO CITY – An octogenarian couple, both retired teachers, were brutally killed inside their home in Banisilan, North Cotabato before dawn Sunday, police said. Colonel Ramel Hojilla, Cotabato police provincial director, identified the victims as Edwin Galeno, 81, and his wife Elsa, 82. Quoting a report from the Banisilan municipal police station, Hojilla said the"
         }
       ],
       "truncated": true,
@@ -359,7 +334,7 @@
       "summary": "COTABATO CITY &#8211; The BARMM Grand Coalition (BGC), the regional political party in the Bangsamoro Autonomous Region in Muslim Mindanao that holds the “key” for a party to dominate the first…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:22.773Z",
+      "published": "2026-10-04T16:31:12.800Z",
       "firstSeen": "2026-10-04T13:31:03.762Z",
       "url": "https://newsinfo.inquirer.net/2316857/barmm-grand-coalition-no-alliance-with-any-party-yet",
       "image": {
@@ -378,13 +353,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-irz4z3",
+      "source": "inqn",
+      "title": "Prosec to formalize position on bribery rap in impeach trial &#8211; Luistro",
+      "summary": "MANILA, Philippines – Batangas Rep. Gerville Luistro on Sunday said the prosecution team will formally state its position before the Senate impeachment court following the prosecution panel&#8217;s…",
+      "byline": "postie",
+      "section": "Latest News Stories",
+      "published": "2026-10-04T16:31:11.965Z",
+      "firstSeen": "2026-10-04T14:01:07.866Z",
+      "url": "https://newsinfo.inquirer.net/2316865/luistro-says-team-will-formalize-stance-on-bribery-charge-in-senate",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/07/Luistro-06July2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Batangas Rep. Gerville Luistro on Sunday said the prosecution team will formally state its position before the Senate impeachment court following the prosecution panel&#8217;s reported plan to drop an impeachment charge against Vice President Sara Duterte. Manila Rep. Joel Chua bared early Sunday that prosecutors will no longer present the bribery charge"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1ntx57p",
       "source": "inqn",
       "title": "Palace: No nationwide class suspension for Teachers’ Day on Oct. 5",
       "summary": "MANILA, Philippines — Malacañang warned the public on Sunday against a fabricated graphic circulating online claiming that classes have been suspended on Oct. 5, Monday, for the celebration of…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:19.195Z",
+      "published": "2026-10-04T16:31:11.963Z",
       "firstSeen": "2026-10-04T14:20:19.372Z",
       "url": "https://newsinfo.inquirer.net/2316875/palace-no-nationwide-class-suspension-for-teachers-day-on-oct-5",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "SAN FRANCISCO, Agusan del Sur — A known pro-Duterte vlogger, according to local media reports, was shot dead while driving along a national highway in Carrascal, Surigao del Sur Sunday morning. The…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:10.231Z",
+      "published": "2026-10-04T16:31:11.051Z",
       "firstSeen": "2026-10-04T14:01:07.800Z",
       "url": "https://newsinfo.inquirer.net/2316849/pro-duterte-vlogger-shot-dead-in-surigao-del-sur-reports",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "MANILA, Philippines—No player won the Ultra Lotto 6/58 and Super Lotto 6/49 jackpot prizes on Sunday, October 4, according to the Philippine Charity Sweepstakes Office. Ultra Lotto 6/58 draw result:…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:05.185Z",
+      "published": "2026-10-04T16:31:09.619Z",
       "firstSeen": "2026-10-04T14:20:19.304Z",
       "url": "https://newsinfo.inquirer.net/2316874/ultra-lotto-6-58-super-lotto-6-49-draw-results-on-sunday-oct-4",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "MANILA, Philippines — Sen. Loren Legarda admitted she was wrong to join the group led by now Senate Minority Leader Alan Peter Cayetano when he snatched the Senate presidency after a leadership coup…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:04.814Z",
+      "published": "2026-10-04T16:31:06.698Z",
       "firstSeen": "2026-10-04T15:01:08.412Z",
       "url": "https://newsinfo.inquirer.net/2316906/legarda-regrets-siding-with-minority-group-says-lacson",
       "image": {
@@ -478,38 +478,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1us0j8i",
-      "source": "inqn",
-      "title": "Gatchalian to sleepy impeachment attendees: Monitor trial at home",
-      "summary": "MANILA, Philippines — While he urged Filipinos to closely follow the impeachment trial of Vice President Sara Duterte, Senate President Sherwin Gatchalian urged those who may be too tired or sleepy…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:04.813Z",
-      "firstSeen": "2026-10-04T15:31:04.019Z",
-      "url": "https://newsinfo.inquirer.net/2316912/gatchalian-to-sleepy-impeachment-attendees-monitor-trial-at-home",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/1301935.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — While he urged Filipinos to closely follow the impeachment trial of Vice President Sara Duterte, Senate President Sherwin Gatchalian urged those who may be too tired or sleepy to just stay and monitor the proceedings at home to avoid falling asleep inside the session hall. “If they’re sleepy, they shouldn’t come. They"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1vrvxio",
       "source": "inqn",
       "title": "ICYMI: Sara Duterte impeachment trial Week 13 highlights",
       "summary": "MANILA, Philippines – The week&#8217;s dominant development came Sunday when Manila Rep. Joel Chua confirmed that the prosecution panel would no longer pursue Article III, the bribery charge alleging…",
       "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-10-04T16:01:04.813Z",
+      "published": "2026-10-04T16:31:02.968Z",
       "firstSeen": "2026-10-04T15:31:04.028Z",
       "url": "https://newsinfo.inquirer.net/2316911/icymi-sara-duterte-impeachment-trial-week-13-highlights",
       "image": {
@@ -534,7 +509,7 @@
       "summary": "Ahead of today’s observance of World Teachers’ Day, Alliance of Concerned Teachers (ACT) Philippines and Teachers Dignity Coalition (TDC) staged separate protests in Manila to demand the long-overdue…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-04T16:01:04.771Z",
+      "published": "2026-10-04T16:31:02.964Z",
       "firstSeen": "2026-10-04T15:31:03.960Z",
       "url": "https://newsinfo.inquirer.net/2316927/teachers-groups-demand-anew-p50000-pay-more-funds",
       "image": {
@@ -551,6 +526,1056 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-1us0j8i",
+      "source": "inqn",
+      "title": "Gatchalian to sleepy impeachment attendees: Monitor trial at home",
+      "summary": "MANILA, Philippines — While he urged Filipinos to closely follow the impeachment trial of Vice President Sara Duterte, Senate President Sherwin Gatchalian urged those who may be too tired or sleepy…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-10-04T16:31:02.964Z",
+      "firstSeen": "2026-10-04T15:31:04.019Z",
+      "url": "https://newsinfo.inquirer.net/2316912/gatchalian-to-sleepy-impeachment-attendees-monitor-trial-at-home",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/1301935.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — While he urged Filipinos to closely follow the impeachment trial of Vice President Sara Duterte, Senate President Sherwin Gatchalian urged those who may be too tired or sleepy to just stay and monitor the proceedings at home to avoid falling asleep inside the session hall. “If they’re sleepy, they shouldn’t come. They"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-13td55o",
+      "source": "abs",
+      "title": "Teachers, police clash near Malacañang ahead of World Teachers' Day",
+      "summary": "A confrontation ensued Sunday between several teachers and police officers during a protest rally ahead of World Teachers' Day on Monday.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-04T16:25:05.000Z",
+      "firstSeen": "2026-10-04T16:31:02.964Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/10/5/teachers-police-clash-near-malaca-ang-ahead-of-world-teachers-day-0025",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A confrontation ensued Sunday between several teachers and police officers during a protest rally ahead of World Teachers' Day on Monday."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1h46qvj",
+      "source": "inq",
+      "title": "Love Knots, October 5, 2026",
+      "summary": "... Keep on reading: Love Knots, October 5, 2026",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-04T16:15:00.000Z",
+      "firstSeen": "2026-10-04T16:31:02.964Z",
+      "url": "https://entertainment.inquirer.net/685842/love-knots-october-5-2026",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/10/LoveKnots10052026-700x244.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "... Keep on reading: Love Knots, October 5, 2026"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-copj1x",
+      "source": "inq",
+      "title": "Tuldok, October 5, 2026",
+      "summary": "... Keep on reading: Tuldok, October 5, 2026",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-04T16:10:00.000Z",
+      "firstSeen": "2026-10-04T16:31:02.964Z",
+      "url": "https://entertainment.inquirer.net/685845/tuldok-october-5-2026",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/10/ItoTuldok10052026-700x223.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "... Keep on reading: Tuldok, October 5, 2026"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "bbc-d8ltyy",
+      "source": "bbc",
+      "title": "Indian police accused of sexual harassment against journalists at protest",
+      "summary": "The allegations were made after police detained dozens of protesters demanding the resignation of the election chief over changes to voter rolls.",
+      "byline": "Parul Gupta",
+      "section": "",
+      "published": "2026-10-04T16:07:34.000Z",
+      "firstSeen": "2026-10-04T16:31:02.964Z",
+      "url": "https://www.bbc.co.uk/news/articles/c9e8lvm6nrr3o?at_medium=RSS&at_campaign=rss",
+      "image": {
+        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2fb/live/20fd0ca0-bffa-11f1-a64c-550be9e3c66b.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Three female journalists have accused police officers in India of sexual harassment during street protests in the capital Delhi."
+        },
+        {
+          "type": "p",
+          "text": "The claims were made on Saturday after the force detained scores of young people calling for the resignation of the chief election commissioner."
+        },
+        {
+          "type": "p",
+          "text": "Thousands of protesters gathered in Delhi and Mumbai cities for a third day on Sunday demanding that Gyanesh Kumar step down over large-scale changes to voter rolls."
+        },
+        {
+          "type": "p",
+          "text": "In a post on social media, Delhi Police said its New Delhi District had received the complaint, and it had been transferred to its crime branch for a \"fair and impartial\" inquiry."
+        },
+        {
+          "type": "p",
+          "text": "The Election Commission says the exercise is intended to remove duplicate and ineligible entries - and so far, 130 million names have been struck off the voters' list."
+        },
+        {
+          "type": "p",
+          "text": "Videos online show people being physically dragged away from the Jantar Mantar protest site in central Delhi."
+        },
+        {
+          "type": "p",
+          "text": "The accusations by the women journalists include inappropriate touching by some police."
+        },
+        {
+          "type": "p",
+          "text": "Opposition leader Rahul Gandhi said women fear for their safety and the home ministry must \"answer for this\"."
+        },
+        {
+          "type": "p",
+          "text": "\"Police dragged me by my hair,\" Aahna Singh, an activist and student at Jawaharlal Nehru University told Reuters news agency during the protests."
+        },
+        {
+          "type": "p",
+          "text": "She said the police were resorting to \"brutality\"."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-cy45sp",
+      "source": "abs",
+      "title": "On the feast of St. Francis of Assisi, pet blessings come with a bigger call: Care for animals, protect the environment",
+      "summary": "As Catholics marked the Feast of St. Francis of Assisi on October 4, pet owners in Quezon City gathered with their beloved companions for a blessing, while animal welfare advocates used the occasion…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-04T16:05:32.000Z",
+      "firstSeen": "2026-10-04T16:31:02.964Z",
+      "url": "https://www.abs-cbn.com/lifestyle/people-culture-events/2026/10/5/on-feast-of-st-francis-of-assisi-pet-blessings-come-with-a-bigger-call-0005",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As Catholics marked the Feast of St. Francis of Assisi on October 4, pet owners in Quezon City gathered with their beloved companions for a blessing, while animal welfare advocates used the occasion to highlight responsible pet ownership and a broader call to care for all living creatures."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-76xygl",
+      "source": "inq",
+      "title": "Crazy Jhenny, October 5, 2026",
+      "summary": "... Keep on reading: Crazy Jhenny, October 5, 2026",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-04T16:05:00.000Z",
+      "firstSeen": "2026-10-04T16:31:02.967Z",
+      "url": "https://entertainment.inquirer.net/685848/crazy-jhenny-october-5-2026",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/10/CrazyJhenny10052026-700x214.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "... Keep on reading: Crazy Jhenny, October 5, 2026"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-mbxhyc",
+      "source": "inq",
+      "title": "Lotto results for Oct. 4, 2026",
+      "summary": "Here are the lotto draw results of the Philippine Charity Sweepstakes Office (PCSO) for Sunday, Oct. 4, 2026. Check these out. READ MORE: Lotto results for Oct. 3, 2026 Lotto results for Oct. 2, 2026…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-04T16:01:00.000Z",
+      "firstSeen": "2026-10-04T16:31:03.541Z",
+      "url": "https://cebudailynews.inquirer.net/772225/lotto-results-for-oct-4-2026",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2025/07/pcso-lotto-logo-filephoto-10222-4-2-2-620x349.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Here are the lotto draw results of the Philippine Charity Sweepstakes Office (PCSO) for Sunday, Oct. 4, 2026. Check these out. READ MORE: Lotto results for Oct. 3, 2026 Lotto results for Oct. 2, 2026 PCSO lotto games and results The PCSO holds five 6-pick number games, the Lotto 6/42, MegaLotto 6/45, SuperLotto 6/49, GrandLotto [&hellip;]... Keep on reading: Lotto results for Oct. 4, 2026"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-nriwwy",
+      "source": "abs",
+      "title": "Israel targets top Hamas leader in deadly Gaza strike on anniversary",
+      "summary": "Israel said on Saturday that it attempted to kill Hamas's top leader in the Gaza Strip in an airstrike on an apartment that local officials said killed five people, four of them women.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-04T16:00:43.000Z",
+      "firstSeen": "2026-10-04T16:31:03.541Z",
+      "url": "https://www.abs-cbn.com/news/world/2026/10/5/israel-targets-top-hamas-leader-in-deadly-gaza-strike-on-anniversary-0000",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Israel said on Saturday that it attempted to kill Hamas's top leader in the Gaza Strip in an airstrike on an apartment that local officials said killed five people, four of them women."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "star-1iuasz6",
+      "source": "star",
+      "title": "ICC amends e-court protocol ahead of Duterte trial",
+      "summary": "Less than two months before the start of the crimes against humanity trial of former president Rodrigo Duterte, the International Criminal Court (ICC) has amended its protocol for digital evidence…",
+      "byline": "Janvic Mateo",
+      "section": "",
+      "published": "2026-10-04T16:00:00.000Z",
+      "firstSeen": "2026-10-04T16:31:02.964Z",
+      "url": "https://www.philstar.com/headlines/2026/10/05/2561035/icc-amends-e-court-protocol-ahead-duterte-trial",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/10/04/1_2026-10-04_23-36-17.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "October 5, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "The International Criminal Court is investigating killings linked to former president Rodrigo Duterte's anti-drug campaign, which rights groups say left thousands dead."
+        },
+        {
+          "type": "p",
+          "text": "Philstar.com / illustration"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Less than two months before the start of the crimes against humanity trial of former president Rodrigo Duterte, the International Criminal Court (ICC) has amended its protocol for digital evidence and other information on witnesses and victims."
+        },
+        {
+          "type": "p",
+          "text": "The ICC Registry, which is in charge of the administrative aspects of the court, submitted last week the amended E-Court Protocol that will be used during Duterte’s trial."
+        },
+        {
+          "type": "p",
+          "text": "“This Protocol defines the standards according to which the participants should prepare and provide evidence, potential evidence and material in electronic form with the Court,” read the document submitted to the ICC Trial Chamber III."
+        },
+        {
+          "type": "p",
+          "text": "“Furthermore, this Protocol defines metadata which should accompany the materials submitted. These standards are designed to minimize the document management and technology costs to the participants and the Court and to allow for the efficient management of proceedings,” it added."
+        },
+        {
+          "type": "p",
+          "text": "Trial judges earlier directed the ICC Registry to submit the amended E-Court Protocol after it granted the prosecution’s request to add a URL (uniform resource locator) metadata field for each of the open source or user-generated evidence submitted in the case."
+        },
+        {
+          "type": "p",
+          "text": "The prosecution said the additional field will allow parties to easily identify the URL or link “associated with the open source evidence at the time it was captured.”"
+        },
+        {
+          "type": "p",
+          "text": "The judges, however, denied the defense’s request for an additional “expert verification” field to accompany all forms of open source and user-generated evidence."
+        },
+        {
+          "type": "p",
+          "text": "“The (defense’s) requested amendment, if implemented, requires the Prosecution to prepare additional materials that contain information regarding the relevance and admissibility of open-source and user-generated evidence, before the Defense analyses evidence and raises any abovementioned issues,” read the Sept. 26 decision."
+        },
+        {
+          "type": "p",
+          "text": "Defense lawyer Peter Haynes argued that there is a need for extra caution to ensure that evidence is properly verified before it is submitted to the court."
+        },
+        {
+          "type": "p",
+          "text": "But the ICC prosecutor said adding a separate expert verification field is “unreasonable, unnecessary and against the interests of judicial efficiency.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-1in15e3",
+      "source": "star",
+      "title": "PCG commandant’s term should not be extended – DOJ",
+      "summary": "The three-year term of Philippine Coast Guard commandant Admiral Ronnie Gil Gavan should no longer be extended even through reappointment or temporary designation by President Marcos, the Department…",
+      "byline": "Ghio Ong",
+      "section": "",
+      "published": "2026-10-04T16:00:00.000Z",
+      "firstSeen": "2026-10-04T16:31:02.964Z",
+      "url": "https://www.philstar.com/headlines/2026/10/05/2561039/pcg-commandants-term-should-not-be-extended-doj",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "October 5, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The three-year term of Philippine Coast Guard (PCG) commandant Admiral Ronnie Gil Gavan should no longer be extended even through reappointment or temporary designation by President Marcos, the Department of Justice (DOJ) has declared."
+        },
+        {
+          "type": "p",
+          "text": "“It is the opinion of this Department that Admiral Ronnie Gil Gavan’s three-year maximum term as PCG Commandant, which began on 19 October 2023, expires on 19 October 2026 and may not be extended through executive action,” the three-page DOJ Legal Opinion No. 23 issued on Sept. 17 stated."
+        },
+        {
+          "type": "p",
+          "text": "The agency came up with its opinion following a request from Presidential Management Staff Secretary Elaine Masukat about “whether the three-year term of the Commandant of the Philippine Coast Guard may be extended.”"
+        },
+        {
+          "type": "p",
+          "text": "Citing Republic Act 9993 that created the PCG in 2009 and amended by RA 12122, the opinion signed by Justice Secretary Fredderick Vida maintains “the statutory language is clear… (and the) three-year period is expressly prescribed as the ‘maximum term.’ ”"
+        },
+        {
+          "type": "p",
+          "text": "It added the PCG law’s provision on the commandant’s three-year maximum term of office cannot be “circumvented through another form of executive action, such as reappointment.”"
+        },
+        {
+          "type": "p",
+          "text": "Moreover, a possible temporary designation “to address a vacancy in accordance with the law… cannot be invoked to allow Admiral Gavan to continue occupying beyond the three-year maximum prescribed” by the PCG law."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-185acin",
+      "source": "star",
+      "title": "Dropping VP bribery charges may be shortchanging Filipinos – Palace",
+      "summary": "Malaca&ntilde;ang yesterday questioned whether the House prosecution panel would be shortchanging the Filipino public if it decides to drop the bribery charges against Vice President Sara Duterte in…",
+      "byline": "Neil Jayson Servallos",
+      "section": "",
+      "published": "2026-10-04T16:00:00.000Z",
+      "firstSeen": "2026-10-04T16:31:03.350Z",
+      "url": "https://www.philstar.com/headlines/2026/10/05/2561044/dropping-vp-bribery-charges-may-be-shortchanging-filipinos-palace",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/10/04/claore_2026-10-04_23-44-08.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Headlines"
+        },
+        {
+          "type": "p",
+          "text": "October 5, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "While acknowledging that trial strategy rests entirely with the House prosecutors, Presidential Communications Undersecretary Claire Castro pointed out that the inclusion of the bribery allegation in the Articles of Impeachment meant the panel had sufficient evidence to back it up before the Senate impeachment court."
+        },
+        {
+          "type": "p",
+          "text": "The Philippine STAR / Noel Pabalate"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Malacañang yesterday questioned whether the House prosecution panel would be shortchanging the Filipino public if it decides to drop the bribery charges against Vice President Sara Duterte in her ongoing impeachment trial."
+        },
+        {
+          "type": "p",
+          "text": "“If they back out of the bribery charges against the Vice President, wouldn’t the Filipino people who want to know the whole truth be shortchanged or put at a disadvantage? Again, the decision is theirs,” Castro told reporters."
+        },
+        {
+          "type": "h",
+          "text": "‘Trillanes was not blocked’"
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, Senate President Sherwin Gatchalian defended impeachment court presiding officer Francis Escudero over the non-issuance of a subpoena to former senator Antonio Trillanes IV."
+        },
+        {
+          "type": "p",
+          "text": "Speaking to radio dzBB, Gatchalian said senator-judges were consulted on the matter while noting that Trillanes’ recent financial allegations could still serve as “leads” when government regulators take the stand this week in the impeachment trial."
+        },
+        {
+          "type": "p",
+          "text": "He also pushed back against Trillanes’ claim that Escudero single-handedly blocked him from testifying in the impeachment trial of the Vice President."
+        },
+        {
+          "type": "p",
+          "text": "“It wasn’t just the decision of the presiding officer. In fact, a lot of the presiding officer’s decisions were consulted with senator-judges,” Gatchalian said, adding that House prosecutors were free to present Trillanes voluntarily even without a subpoena."
+        },
+        {
+          "type": "p",
+          "text": "Asked about Trillanes’ press conference last week alleging that Chinese funds flowed into a foundation and a company linked to the Vice President and her husband Manases Carpio, Gatchalian said the disclosures could guide senator-judges when the Anti-Money Laundering Council (AMLC), Bureau of Internal Revenue, banks and insurance firms testify this week on the unexplained wealth charge."
+        },
+        {
+          "type": "p",
+          "text": "“What is important now is to validate whether the documents he has are the actual ones or not, whether they really came from the authorized government agencies,” Gatchalian said."
+        },
+        {
+          "type": "p",
+          "text": "While noting that senator-judges have the leeway to ask the AMLC about Trillanes’ claims, Gatchalian said direct handlers of the financial records in question must be presented first to avoid hearsay."
+        },
+        {
+          "type": "p",
+          "text": "He clarified that prosecutors can still call Trillanes to the witness stand afterwards."
+        },
+        {
+          "type": "h",
+          "text": "No more Article III"
+        },
+        {
+          "type": "p",
+          "text": "House prosecutors confirmed anew that they would drop the bribery charges against Duterte during the resumption of trial this week."
+        },
+        {
+          "type": "p",
+          "text": "“From our end and as we see it, we have been able to prove three articles already and we think that is enough, so at least trial will not continue into next year,” House prosecutor and Manila Rep. Joel Chua disclosed in a radio interview over the weekend."
+        },
+        {
+          "type": "p",
+          "text": "“We are confident the three articles are enough to render justice to the Filipino people,” fellow prosecutor and Lanao del Sur Rep. Zia Alonto Adiong noted. – Delon Porcalla"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Latest",
+            "Trending"
+          ]
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-2dig6a",
+      "source": "star",
+      "title": "First Philippines ambassador to Bhutan presents credentials to king",
+      "summary": "The first Philippine ambassador to Bhutan presented his credentials to King Jigme Khesar Namgyel WangchuckWangchuck, officially embarking on his duties.",
+      "byline": "Pia Lee-Brago",
+      "section": "",
+      "published": "2026-10-04T16:00:00.000Z",
+      "firstSeen": "2026-10-04T16:31:08.091Z",
+      "url": "https://www.philstar.com/headlines/2026/10/05/2561045/first-philippines-ambassador-bhutan-presents-credentials-king",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "October 5, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The first Philippine ambassador to Bhutan presented his credentials to King Jigme Khesar Namgyel WangchuckWangchuck, officially embarking on his duties."
+        },
+        {
+          "type": "p",
+          "text": "Ambassador Josel Ignacio paid courtesy calls on senior Bhutanese officials in Thimphu on Sept. 18 as the Philippines’ first non-resident ambassador to the kingdom, hours after presenting his credentials to the king."
+        },
+        {
+          "type": "p",
+          "text": "Ignacio was received in succession by officiating Prime Minister Lyonpo Lungten Dorji who is also minister for home affairs; and by Minister for foreign affairs and external trade Lyonpo D.N. Dhungyel, at the ministry’s headquarters, Gyalyong Tshokhang."
+        },
+        {
+          "type": "p",
+          "text": "In both encounters, both sides welcomed the establishment of diplomatic relations between the Philippines and Bhutan less than a year before, on Oct. 6, and the accreditation in either country of their respective envoys."
+        },
+        {
+          "type": "p",
+          "text": "Both Dorji and Dhungyel acknowledged the long-standing friendship and cooperative ties between the two countries, decades in advance of formal ties, especially the Philippines’ provision of technical training and education assistance to Bhutanese officials and students."
+        },
+        {
+          "type": "p",
+          "text": "They expressed appreciation for the participation of Filipino volunteer trainers in Bhutan’s “De-Suung” (Guardians of Peace) Skilling Program for its youth."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-lo9svz",
+      "source": "star",
+      "title": "Warning aired on foreign-funded destabilization",
+      "summary": "Foreign-funded destabilization plots to undermine or overthrow a sitting administration are not far-fetched, according to a spokesperson for the prosecution panel in the impeachment trial of Vice…",
+      "byline": "The Philippine Star",
+      "section": "",
+      "published": "2026-10-04T16:00:00.000Z",
+      "firstSeen": "2026-10-04T16:31:10.217Z",
+      "url": "https://www.philstar.com/headlines/2026/10/05/2561046/warning-aired-foreign-funded-destabilization",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/10/04/barbers_2026-10-04_23-51-40.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "October 5, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Former Surigao del Norte congressman Robert Ace Barbers raised the possibility following former senator Antonio Trillanes IV’s allegations about nearly P500 million incash inflows to entities linked to Duterte’s husband Manases Carpio."
+        },
+        {
+          "type": "p",
+          "text": "STAR / File"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Foreign-funded destabilization plots to undermine or overthrow a sitting administration are not far-fetched, according to a spokesperson for the prosecution panel in the impeachment trial of Vice President Sara Duterte."
+        },
+        {
+          "type": "p",
+          "text": "“This sounds like foreign-funded destabilization, if you put two and two together,” Barbers said. “I find ex-senator Trillanes’ revelations of China-sourced cash flows into local entities linked to VP Duterte and her spouse Manases Carpio disturbing.”"
+        },
+        {
+          "type": "p",
+          "text": "Trillanes, in a press conference on Oct. 2 at Club Filipino in San Juan, alleged that P319 million from the Chinese government and China-based corporations went to Cale88Foods Corp., a company linked to Duterte and her husband."
+        },
+        {
+          "type": "p",
+          "text": "Another P150 million was purportedly funneled to the Tapang at Malasakit Foundation, which was also associated with Duterte. These transactions total P456 million."
+        },
+        {
+          "type": "p",
+          "text": "The Vice President’s camp has dismissed Trillanes as a liar."
+        },
+        {
+          "type": "p",
+          "text": "“We’re talking about nearly half a billion pesos here. What is this money for?” Barbers asked. “Is this payment in exchange for staying silent on the WPS (West Philippine Sea) issue, where the CCG (China Coast Guard) has made a habit of harassing Filipino fishermen in our own territory?”"
+        },
+        {
+          "type": "p",
+          "text": "“Or is this in exchange for a favor to undermine our own government before fellow Filipinos – from the executive, legislature and judiciary to our law enforcement authorities? To quote VP: I have no trust in the courts, I have no trust in the police,” he added."
+        },
+        {
+          "type": "p",
+          "text": "Trillanes, an arch critic of the Duterte family, initially wanted to be a witness of the prosecution in the impeachment trial, but later decided to remove himself from the list, claiming “pressure” to keep him out of the trial."
+        },
+        {
+          "type": "p",
+          "text": "He has declined to elaborate on the supposed pressure."
+        },
+        {
+          "type": "p",
+          "text": "Barbers said Trillanes’ claims were consistent with the conduct of the Dutertes."
+        },
+        {
+          "type": "p",
+          "text": "“If it is proven that China is taking advantage of our political situation to further their geopolitical and expansionist goals, shame on them. But what is even more shameful are Filipinos who allow themselves to be used by foreigners for money,” Barbers said."
+        },
+        {
+          "type": "p",
+          "text": "Akbayan party-list also expressed similar concerns over the supposed funds from China."
+        },
+        {
+          "type": "p",
+          "text": "“We are hearing allegations of hundreds of millions flowing from China into the networks of powerful politicians. While our fishermen and frontliners in the WPS are being harassed, it appears that some are profiting from their silence,” Akbayan stated."
+        },
+        {
+          "type": "p",
+          "text": "“If proven, these allegations raise serious questions about corruption, accountability, national security and our sovereignty,” it declared."
+        },
+        {
+          "type": "p",
+          "text": "The impeachment court is already set to hear Anti-Money Laundering Council testimony concerning inward remittances to Cale88 from China and other countries."
+        },
+        {
+          "type": "p",
+          "text": "The prosecution is wrapping up the presentation of evidence on Article II, which covers allegations of unexplained wealth against Duterte."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-16077yz",
+      "source": "star",
+      "title": "PAGASA sees 2 cyclones ahead",
+      "summary": "Up to two tropical cyclones are expected to enter or develop inside the Philippine area of responsibility (PAR), according to the Philippine Atmospheric, Geophysical and Astronomical Services…",
+      "byline": "Josiah Antonio",
+      "section": "",
+      "published": "2026-10-04T16:00:00.000Z",
+      "firstSeen": "2026-10-04T16:31:11.051Z",
+      "url": "https://www.philstar.com/headlines/2026/10/05/2561047/pagasa-sees-2-cyclones-ahead",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/10/04/pagasa_2026-10-04_23-58-33.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "October 5, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Should they enter PAR, the cyclones will be named Rosal and Samuel, respectively."
+        },
+        {
+          "type": "p",
+          "text": "PAGASA"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Up to two tropical cyclones are expected to enter or develop inside the Philippine area of responsibility (PAR), according to the Philippine Atmospheric, Geophysical and Astronomical Services Administration."
+        },
+        {
+          "type": "p",
+          "text": "Based on the latest weather satellite, a typhoon, with international name Choi-wan, is still unlikely to enter PAR in the coming days."
+        },
+        {
+          "type": "p",
+          "text": "Choi-wan was last located 2,620 kilometers east of extreme Northern Luzon and was packing winds of 175 kms per hour and gusts of 215 kph while moving."
+        },
+        {
+          "type": "p",
+          "text": "State meteorologists predict fewer tropical cyclones due to El Niño."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-5brmhn",
+      "source": "star",
+      "title": "Ombudsman mulls more cases vs Yap brothers",
+      "summary": "Brothers Eric and Edvic Yap may face another lawsuit over anomalies in flood control projects, Ombudsman Jesus Crispin Remulla announced.",
+      "byline": "Ghio Ong",
+      "section": "",
+      "published": "2026-10-04T16:00:00.000Z",
+      "firstSeen": "2026-10-04T16:31:11.963Z",
+      "url": "https://www.philstar.com/headlines/2026/10/05/2561048/ombudsman-mulls-more-cases-vs-yap-brothers",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/10/05/ombudsman_2026-10-05_00-02-09.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "October 5, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "The cases planned against them by the Office of the Ombudsman would be related to projects in the province of Benguet, where Eric represents its lone district in the House of Representatives."
+        },
+        {
+          "type": "p",
+          "text": "Office of the Ombudsman Philippines / Facebook page"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Brothers Eric and Edvic Yap may face another lawsuit over anomalies in flood control projects, Ombudsman Jesus Crispin Remulla announced."
+        },
+        {
+          "type": "p",
+          "text": "“The first case we filed against Eric and Edvic Yap was in La Union. But now, I have a new one – it is happening right in Benguet,” Remulla said during the Executive Session program on dzRH on Saturday."
+        },
+        {
+          "type": "p",
+          "text": "He noted the cases against the Yap brothers were undergoing fact-finding."
+        },
+        {
+          "type": "p",
+          "text": "The ombudsman added witnesses – whom he called “his friends” – have come forward to support the case buildup."
+        },
+        {
+          "type": "p",
+          "text": "“The witnesses were with me the other day; my friends are the ones who will testify,” Remulla said."
+        },
+        {
+          "type": "p",
+          "text": "Edvic – who resigned as member of the House representing ACT-CIS party-list in February this year – is facing complaints from Department of Public Works and Highways (DPWH) Secretary Vince Dizon for graft and malversation with falsification of public documents."
+        },
+        {
+          "type": "p",
+          "text": "Dizon accused Eric of being a “person of interest” as beneficial owner of Silverwolves Construction Corp., which allegedly scored P16 billion worth of DPWH projects from 2022 to 2025."
+        },
+        {
+          "type": "p",
+          "text": "Last year, President Marcos announced 280 bank accounts, 22 insurance policies, three securities accounts and eight aircraft – all connected to Silverwolves and Sky Yard Aviation Corp. both linked to the Yaps – which were ordered frozen."
+        },
+        {
+          "type": "p",
+          "text": "Remulla alleged Edvic received money via bank transfer from disgraced contractors Curlee and Sarah Discaya before the pandemic."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-10lwcs8",
+      "source": "star",
+      "title": "COA: 28 out of 119 MMDA flood pumps ‘unserviceable’",
+      "summary": "Contrary to reports that all its flood pumping stations were fully functional, 28 out of 119 pumps in pumping stations managed by the Metropolitan Manila Development Authority (MMDA) were…",
+      "byline": "Ghio Ong",
+      "section": "",
+      "published": "2026-10-04T16:00:00.000Z",
+      "firstSeen": "2026-10-04T16:31:11.965Z",
+      "url": "https://www.philstar.com/headlines/2026/10/05/2561049/coa-28-out-119-mmda-flood-pumps-unserviceable",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/10/05/coa_2026-10-05_00-06-09.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "October 5, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "The photo of the Commission on Audit's office in Quezon City."
+        },
+        {
+          "type": "p",
+          "text": "The STAR / Michael Varcas"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Contrary to reports that all its flood pumping stations were fully functional, 28 out of 119 pumps in pumping stations managed by the Metropolitan Manila Development Authority (MMDA) were “unserviceable,” the Commission on Audit (COA) said."
+        },
+        {
+          "type": "p",
+          "text": "“Despite the reported 100 percent reliability of all pumping stations for Fiscal Year 2025, audit disclosed that 28 out of 119 pumps in large pumping stations were unserviceable, being under repair, replacement, or rehabilitation,” the COA said in the executive summary of its 2025 annual audit report for MMDA released last Oct. 1."
+        },
+        {
+          "type": "p",
+          "text": "The non-functional pumps “(indicated) that actual operational capacity is below expected performance levels.”"
+        },
+        {
+          "type": "p",
+          "text": "Out of the 28 pumps identified as “for repair,” four were from the Libertad pumping station, three from the Tripa de Gallina, two each from Abucay, Uli-Uli, Makati, San Francisco and Spine pumping station in Navotas, and one each from Tapayan, Aviles, Bangkulasi, Binondo, Catmon, Hagonoy, Maypajo, Pandacan, San Andres, Sta. Clara in Sta. Ana and Vitas."
+        },
+        {
+          "type": "p",
+          "text": "The defective pumps were either “for checking, under warranty, for repair, under rehabilitation, or defective motor control,” with repairs and rehabilitation carried out by the Department of Public Works and Highways’ Unified Project Management Office."
+        },
+        {
+          "type": "p",
+          "text": "The COA noted that three pumping stations did not meet the required threshold for being “operational” by “more than 50 percent,” namely Uli-Uli and Makati PS with “no operational pumps,” and Libertad PS with “only two out of six pumps operational.”"
+        },
+        {
+          "type": "p",
+          "text": "Only tagged as “fully operational” were pumping stations in Labasan, Balete, Balong Bato, Balut, Escolta, Quiapo, Salapan, Valencia and North Navotas, the state auditor noted."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-1tczo9o",
+      "source": "star",
+      "title": "DA to boost food stocks amid ‘super El Niño’",
+      "summary": "The Department of Agriculture is stocking up on food and farm inputs, expanding storage capacity, and deploying targeted interventions in areas expected to be hardest hit by the &ldquo;super El…",
+      "byline": "Josiah Antonio",
+      "section": "",
+      "published": "2026-10-04T16:00:00.000Z",
+      "firstSeen": "2026-10-04T16:31:12.800Z",
+      "url": "https://www.philstar.com/headlines/2026/10/05/2561050/da-boost-food-stocks-amid-super-el-nio",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "October 5, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Department of Agriculture (DA) is stocking up on food and farm inputs, expanding storage capacity, and deploying targeted interventions in areas expected to be hardest hit by the “super El Niño.”"
+        },
+        {
+          "type": "p",
+          "text": "The agency is ramping up preparations for an anticipated very strong El Niño, drawing on lessons from the last drought to protect farm production, secure food supplies and cushion farmers and fisherfolk from its impact."
+        },
+        {
+          "type": "p",
+          "text": "“We are now more prepared,” Agriculture Secretary Francisco Tiu Laurel Jr. said, noting the DA has already made advance purchases of key commodities, including rice, as well as fertilizer and other agricultural inputs."
+        },
+        {
+          "type": "p",
+          "text": "The government has provided the DA an additional P6.2 billion for fuel subsidies and other assistance to help farmers, fisherfolk and truckers of agricultural products cope with the higher fuel costs triggered by the conflict in the Middle East as well as the initial effects of El Niño later this year."
+        },
+        {
+          "type": "p",
+          "text": "El Niño is expected to last until the first half of 2027."
+        },
+        {
+          "type": "p",
+          "text": "The DA is shifting to foliar and soil ameliorants, including bio-based, non-urea products, while tailoring interventions to local conditions."
+        },
+        {
+          "type": "p",
+          "text": "Tiu Laurel stressed that El Niño does not mean all areas will be dry, with some places potentially receiving excess water."
+        },
+        {
+          "type": "p",
+          "text": "The agency plans to increase fertilizer application and seed intensity in areas where conditions warrant, but Tiu Laurel said the DA is preparing for the worst."
+        },
+        {
+          "type": "p",
+          "text": "“At the end of the day, we are looking at the worst-case scenario, so we expect that overall production will still be lower,” he said."
+        },
+        {
+          "type": "p",
+          "text": "Weather-related shocks this year, including El Niño, are expected to impact fishery, livestock, and crops as well as shave off around 700,000 metric tons of the projected palay output during the main harvest in the second half of the year."
+        },
+        {
+          "type": "p",
+          "text": "The DA is also building a bigger food buffer."
+        },
+        {
+          "type": "p",
+          "text": "Tiu Laurel said the National Food Authority now has 365 active warehouses, up from around 300, after renting an additional 165 facilities. The expanded storage network, including silos and other warehouses, is expected to help the country ride out potential supply disruptions."
+        },
+        {
+          "type": "p",
+          "text": "New cold storage facilities are being opened to increase the country’s capacity to extend shelf life of meat and vegetables."
+        },
+        {
+          "type": "p",
+          "text": "Cloud seeding has also begun in drought-hit areas, including Isabela and Negros. Tiu Laurel said the DA would deploy the measure when cloud formations have enough moisture to generate rain."
+        },
+        {
+          "type": "p",
+          "text": "On irrigation, Tiu Laurel said the DA continues to coordinate with the Office of the President, which oversees the program."
+        },
+        {
+          "type": "p",
+          "text": "The official cited one positive development: recent heavy monsoon rains have replenished major dams, giving irrigated areas a potentially adequate water supply for the next planting season."
+        },
+        {
+          "type": "p",
+          "text": "He added that fuller reservoirs, after weeks of incessant rains, provide some breathing room, but the lessons from the last El Niño have made clear that preparation must come well before the drought peaks."
+        },
+        {
+          "type": "p",
+          "text": "388,375 affected"
+        },
+        {
+          "type": "p",
+          "text": "In its latest situational report as of Oct. 2 , the Office of Civil Defense (OCD) said El Niño has affected 388,375 people in four regions; as well as 11 provinces, 51 cities and municipalities and 893 barangays."
+        },
+        {
+          "type": "p",
+          "text": "Region 13 (Caraga) has the highest number of affected people at 291,381 in 140 barangays, followed by Region 2 (Cagayan Valley) at 47,587 from 714 barangays and Region 4A (Calabarzon) with 191 persons affected."
+        },
+        {
+          "type": "p",
+          "text": "In Region 5 (Bicol), 49,216 people in 39 barangays are affected."
+        },
+        {
+          "type": "p",
+          "text": "The estimated cost of damage to agriculture is at P5,469,783,534.84, which has affected 199,857 farmers and fisherfolk, 221,933.72 hectares of crops and P35,328,770 worth of damage to livestock, poultry and fisheries."
+        },
+        {
+          "type": "p",
+          "text": "The government has provided P39,058,681.06 worth of assistance to those affected in Regions 2, 5, and Caraga."
+        },
+        {
+          "type": "h",
+          "text": "El Niño roadmap"
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, Sen. Erwin Tulfo called for an urgent, fully funded national roadmap to cushion the impact of the “super El Niño,” warning that the government cannot afford to wait before addressing potential water shortages, livelihood losses, and spiking food prices."
+        },
+        {
+          "type": "p",
+          "text": "Citing data from the DA showing P6.87 billion in agricultural damage affecting 223,214 farmers as of Sept. 26, the chairman of the Senate committee on social justice, welfare and rural development stressed the need to shift from reactive disaster response to early intervention."
+        },
+        {
+          "type": "p",
+          "text": "“Let us not wait for our fields to turn to ash, our taps to run dry, and our people to collapse from the heat before we scramble for solutions. We have the science. We have the warnings. It is time to stop managing disasters after they happen, and start executing a decisive, proactive survival strategy,” Tulfo said."
+        },
+        {
+          "type": "p",
+          "text": "While acknowledging the administration’s El Niño Task Force, the lawmaker urged authorities to look beyond farm irrigation and farmer assistance to prevent broader economic paralysis."
+        },
+        {
+          "type": "p",
+          "text": "“A task force must be more than a coordinating body. It must have a clear plan, clear responsibilities, and, most importantly, the resources to act before the crisis paralyzes our communities,” he added."
+        },
+        {
+          "type": "p",
+          "text": "Tulfo raised the matter on the Senate floor, where it was referred to the chamber’s ad hoc committee on reinvigorating investment and sustainable economic growth, a special panel tasked with tackling the country’s economic slowdown and rising living costs. – Pia Lee-Brago, Neil Jayson Servallos"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-1fju32y",
+      "source": "star",
+      "title": "DOE: Planning failure caused Visayas power shortfall",
+      "summary": "The Department of Energy has admitted that the Visayas lacks sufficient baseload generation to meet growing electricity demand, prompting recurring power alerts and exposing the region&rsquo;s…",
+      "byline": "Gilbert Bayoran",
+      "section": "",
+      "published": "2026-10-04T16:00:00.000Z",
+      "firstSeen": "2026-10-04T16:31:13.764Z",
+      "url": "https://www.philstar.com/headlines/2026/10/05/2561051/doe-planning-failure-caused-visayas-power-shortfall",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/10/05/doe_2026-10-05_00-12-59.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "October 5, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "Department of Energy."
+        },
+        {
+          "type": "p",
+          "text": "Philstar.com / Irra Lising"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Department of Energy (DOE) has admitted that the Visayas lacks sufficient baseload generation to meet growing electricity demand, prompting recurring power alerts and exposing the region’s vulnerability to the loss of even one major power plant."
+        },
+        {
+          "type": "p",
+          "text": "Energy Secretary Sharon Garin made the admission during the joint congressional hearing of the House committees on energy, Visayas development and legislative franchises on Oct. 3. She stressed that the government needs additional generation capacity to address the supply gap, which could persist until 2028."
+        },
+        {
+          "type": "p",
+          "text": "“Even with the absence of just a single power plant, we will go on alert and that is not good for business,” she said."
+        },
+        {
+          "type": "p",
+          "text": "She explained that while Negros can produce excess electricity during the day, much of the excess comes from solar generation. Demand, however, peaks in the evening when solar output declines."
+        },
+        {
+          "type": "p",
+          "text": "“Where then will the electricity come from at night?” Garin asked, pointing to the Visayas’ dependence on generation from other islands and on interconnection."
+        },
+        {
+          "type": "p",
+          "text": "“Negros alone cannot survive because there is not enough baseload,” she said."
+        },
+        {
+          "type": "p",
+          "text": "Garin also warned that an outage in Panay could immediately affect Negros because of the islands’ dependence on interconnection."
+        },
+        {
+          "type": "p",
+          "text": "She also pointed to Cebu’s rapidly growing electricity demand, which continues to outpace the delivery of new generation projects."
+        },
+        {
+          "type": "p",
+          "text": "“Cebu is growing exponentially and projects are not keeping up with the demand. We have to catch up. We still have time to catch up,” Garin said."
+        },
+        {
+          "type": "h",
+          "text": "Lawmakers probe outages"
+        },
+        {
+          "type": "p",
+          "text": "House committee on energy chair and Palawan 2nd district Rep. Jose Alvarez questioned why the Visayas continues to experience power alerts despite the interconnection of the Luzon, Visayas and Mindanao grids."
+        },
+        {
+          "type": "p",
+          "text": "He pointed to the simultaneous shutdown of several power plants as a major factor behind the crisis."
+        },
+        {
+          "type": "p",
+          "text": "“Why is excess power from Luzon and Mindanao not immediately delivered to Visayas?” he asked."
+        },
+        {
+          "type": "p",
+          "text": "Garin explained that the transmission grid continues to function, but Mindanao also faced generation problems during the period and entered red alert."
+        },
+        {
+          "type": "p",
+          "text": "South Cotabato 2nd district Rep. Ferdinand Hernandez then pointed to the return of several generating units as evidence of the critical role of generation availability in preventing grid alerts."
+        },
+        {
+          "type": "p",
+          "text": "“It is clear that transmission is not the issue. There is demand, and there is supply,” he added."
+        },
+        {
+          "type": "p",
+          "text": "ACT teachers party-list Rep. Antonio Tinio questioned the government’s planning after Garin told lawmakers that the country needs years to bring additional generation capacity online."
+        },
+        {
+          "type": "p",
+          "text": "“Obviously, there is failure in planning. You said three years is needed. This should have been projected before, but it wasn’t done. The baseload is insufficient so here we are,” he said."
+        },
+        {
+          "type": "h",
+          "text": "Batteries as immediate measure"
+        },
+        {
+          "type": "p",
+          "text": "Garin identified battery energy storage systems as an immediate measure to address the mismatch between daytime excess generation and evening peak demand."
+        },
+        {
+          "type": "p",
+          "text": "She said the DOE asked the National Grid Corp. of the Philippines to contract battery storage facilities as early as May."
+        },
+        {
+          "type": "p",
+          "text": "She explained that battery storage could capture excess daytime generation in the Visayas and release the stored electricity when demand rises in the evening."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "abs-mxef62",
@@ -644,7 +1669,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-961wyl",
@@ -3680,6 +4705,141 @@
       "source_of_text": "page"
     },
     {
+      "id": "cbc-1w5usf8",
+      "source": "cbc",
+      "title": "A swordfish was found on Haida Gwaii. Will more follow?",
+      "summary": "A University of British Columbia researcher says the finding is unusual but no longer unexpected due to warming waters worldwide, including in Canada.",
+      "byline": "Andrew Kurjata",
+      "section": "News/Canada/British Columbia",
+      "published": "2026-10-04T13:00:00.000Z",
+      "firstSeen": "2026-10-04T16:31:02.964Z",
+      "url": "https://www.cbc.ca/news/canada/british-columbia/swordfish-captain-quinn-haida-gwaii-9.7368033?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/bb1cb11b-efdd-4d20-843c-5dac1a96e8fc,1790990144822/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3BResize%3D620",
+        "caption": "Quinn Barabash, or Captain Quinn as he is known in his videos, shared his discovery of a swordfish off B.C.'s North Coast across his YouTube and social media channels. (Quinn Barabash)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "British Columbia"
+        },
+        {
+          "type": "p",
+          "text": "A University of British Columbia researcher says the finding is unusual but no longer unexpected due to warming waters worldwide, including in Canada."
+        },
+        {
+          "type": "h",
+          "text": "UBC researcher says finding is unusual but no longer unexpected as Canadian waters warm"
+        },
+        {
+          "type": "p",
+          "text": "The discovery of a decaying swordfish off British Columbia's North Coast could be a sign of things to come as ocean temperatures rise, a researcher specializing in global fisheries says."
+        },
+        {
+          "type": "p",
+          "text": "The fish was found by filmmaker and outdoorsman \"Captain\" Quinn Barabash while out with his oldest son and some friends on Sept. 27."
+        },
+        {
+          "type": "p",
+          "text": "A video on his YouTube channel captures his incredulity when one of his shipmates tells him what they've found."
+        },
+        {
+          "type": "p",
+          "text": "\"That's crazy,\" he exclaims, moving towards the roughly six-foot-long (two-metre) carcass."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "More stories from Northern B.C."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Swordfish aren't unheard of in Canadian waters: recent years have seen Atlantic fisheries report historically high hauls of the animal."
+        },
+        {
+          "type": "p",
+          "text": "But they are more commonly found in tropical and temperate waters, particularly in the Pacific."
+        },
+        {
+          "type": "p",
+          "text": "Barabash's video was taken off the west coast of Haida Gwaii, where he lives, approximately 800 kilometres northwest of Vancouver."
+        },
+        {
+          "type": "p",
+          "text": "In fact, he says he could only find two other documented sightings of swordfish in B.C., both far south and much closer to the Lower Mainland."
+        },
+        {
+          "type": "p",
+          "text": "He rates seeing the swordfish in northwest B.C. as one of his wilder encounters."
+        },
+        {
+          "type": "p",
+          "text": "\"It's one of those things that kind of, I don't know, breaks the barriers in your mind of what is possible and achievable out there,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "\"It's a wild open expanse, and once you go below the surface of the water, the mystery just increases.\""
+        },
+        {
+          "type": "h",
+          "text": "Global trend"
+        },
+        {
+          "type": "p",
+          "text": "Isabella Morgante, a PhD student at the University of British Columbia's Institute for the Oceans and Fisheries, shared Barabash's wide-eyed enthusiasm for the find, confirming it as highly unusual and \"really cool.\""
+        },
+        {
+          "type": "p",
+          "text": "But once she got over her initial surprise, she also said it made sense that a fish normally found in more temperate waters may have made its way up north."
+        },
+        {
+          "type": "p",
+          "text": "\"It's become an increasingly common event along the B.C. coastline to see these tropical species coming up to colder waters to seek refuge from the warming oceans,\" the researcher said."
+        },
+        {
+          "type": "p",
+          "text": "Through her work documenting the impacts of climate change on global fish patterns, she said there's a clear trend of people seeing sea creatures they aren't accustomed to."
+        },
+        {
+          "type": "p",
+          "text": "A recent analysis, conducted in part by UBC researchers, found warming oceans were having an outsized impact in tropical regions — leading to lowered catches and unusual distribution of certain species."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Great white shark found dead on Haida Gwaii",
+            "Canadians should prepare for a 5 C hotter future, report warns"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Morgante also noted that it is an El Niño year, which means higher sea surface temperatures in the Pacific Ocean."
+        },
+        {
+          "type": "p",
+          "text": "But the researcher said the underlying trend shows the shifts in species distribution are more than just seasonal, but part of an ongoing shift that people out on the water should prepare for."
+        },
+        {
+          "type": "p",
+          "text": "She said anyone who spots an unusual sea creature should do what Barbarash did: document it, take note of where it was found, and communicate the findings so researchers can record them."
+        },
+        {
+          "type": "p",
+          "text": "And Barabash says he's going to keep on looking for new discoveries."
+        },
+        {
+          "type": "p",
+          "text": "\"The ocean is full of mysteries,\" he said."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
       "id": "inq-1r04cf9",
       "source": "inq",
       "title": "UAAP: FEU gets share of top spot after beating UP",
@@ -3749,31 +4909,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-fm4j7k",
-      "source": "inq",
-      "title": "Bongbong Marcos gets ‘Unshaken’ in rare sit-down with Gary Valenciano",
-      "summary": "President Ferdinand “Bongbong” Marcos Jr. is set to open up about life beyond the presidency when he sits down with singer and host Gary Valenciano for the season finale of “Unshaken With Gary V.”…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-04T12:32:11.000Z",
-      "firstSeen": "2026-10-04T13:01:06.224Z",
-      "url": "https://entertainment.inquirer.net/685828/bongbong-marcos-gets-unshaken-in-rare-sit-down-with-gary-valenciano",
-      "image": {
-        "src": "https://entertainment.inquirer.net/files/2026/10/Screenshot-2026-10-04-at-4.37.12-PM-700x350.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "President Ferdinand “Bongbong” Marcos Jr. is set to open up about life beyond the presidency when he sits down with singer and host Gary Valenciano for the season finale of “Unshaken With Gary V.” The episode, which premieres on Monday, Oct. 5 at noon on YouTube and major podcast platforms, features Marcos in a more personal conversation with Valenciano. The two-hour-plus episode was recorded inside Valenciano’s private music studio, a roughly 20-square-meter space where the singer has worked on music over the years. Valenciano said the conversation explores the person behind the public figure instead of focusing on Marcos’ work as [&hellip;]... Keep on reading: Bongbong Marcos gets ‘Unshaken’ in rare sit-down with Gary Valenciano"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "abs-pibycl",
       "source": "abs",
       "title": "UAAP: La Salle sweeps UP, takes early lead in men's chess",
@@ -3796,31 +4931,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-xmmaa3",
-      "source": "inq",
-      "title": "Couple in their 80s killed in North Cotabato home",
-      "summary": "COTABATO CITY – An octogenarian couple, both retired teachers, were brutally killed inside their home in Banisilan, North Cotabato before dawn Sunday, police said. Colonel Ramel Hojilla, Cotabato…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-04T12:20:11.000Z",
-      "firstSeen": "2026-10-04T12:31:03.023Z",
-      "url": "https://newsinfo.inquirer.net/2316832/couple-in-their-80s-killed-in-north-cotabato-home",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2020/11/police-line-crime-scene-canva-stock-photo-300x169.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COTABATO CITY – An octogenarian couple, both retired teachers, were brutally killed inside their home in Banisilan, North Cotabato before dawn Sunday, police said. Colonel Ramel Hojilla, Cotabato police provincial director, identified the victims as Edwin Galeno, 81, and his wife Elsa, 82. Quoting a report from the Banisilan municipal police station, Hojilla said the couple’s neighbors in Barangay Poblacion 2 heard cries for help, but were afraid to come out and check what happened. They reported what they heard to village officials and the police. The attack was believed to have transpired between 3 a.m. to 4 a.m. Police [&hellip;]... Keep on reading: Couple in their 80s killed in North Cotabato home"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-5ebltz",
       "source": "abs",
       "title": "Global Esports exits VALORANT Champions Shanghai after heartbreaking loss to LOUD",
@@ -3841,31 +4951,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-19ovq9",
-      "source": "inq",
-      "title": "Ridon defends move to drop VP bribery rap; respects Palace view",
-      "summary": "MANILA, Philippines – Bicol Saro party-list Rep. Terry Ridon responded on Sunday to the Palace’s concern that withdrawing an impeachment article might “shortchange” the public, saying that evidence…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-04T12:13:16.000Z",
-      "firstSeen": "2026-10-04T13:01:06.229Z",
-      "url": "https://newsinfo.inquirer.net/2316837/ridon-defends-move-to-drop-vp-bribery-rap-respects-palace-view",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/ridon-03sept2026-620x368.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – Bicol Saro party-list Rep. Terry Ridon responded on Sunday to the Palace’s concern that withdrawing an impeachment article might “shortchange” the public, saying that evidence has already been presented with the Senate sitting as an impeachment court. In a statement, Ridon said he respects Palace press officer Claire Castro’s remark, as he noted that evidence of alleged wrongdoing against Vice President Sara Duterte has been laid out already to the Senate, which has televised the proceedings since July. “We respect the view of the President&#8217;s spokesperson on this matter,” he said in Filipino. “However, the previous and current [&hellip;]... Keep on reading: Ridon defends move to drop VP bribery rap; respects Palace view"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-l3lsee",
@@ -4108,31 +5193,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-i7d6ga",
-      "source": "inq",
-      "title": "Luistro to formalize dropping of bribery rap in VP impeach trial – Chua",
-      "summary": "MANILA, Philippines – Batangas Rep. Gerville Luistro is expected to deliver the prosecution team’s manifestation formally dropping the bribery charge in Vice President Sara Duterte’s impeachment…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-04T11:51:27.000Z",
-      "firstSeen": "2026-10-04T12:31:03.023Z",
-      "url": "https://newsinfo.inquirer.net/2316829/luistro-to-formalize-dropping-of-bribery-rap-in-vp-impeach-trial-chua",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/05/luistro-19may2026-620x351.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – Batangas Rep. Gerville Luistro is expected to deliver the prosecution team’s manifestation formally dropping the bribery charge in Vice President Sara Duterte’s impeachment trial, Manila Rep. Joel Chua said on Sunday. Chua said the prosecution panel “will make a manifestation tomorrow” concerning the decision to no longer pursue the bribery charge, which hinged on the testimony of former Department of Education (DepEd) officials who said they received cash envelopes through Duterte’s subordinate. “It will be manifested orally by Chair Jinky,” he said, referring to Luistro by her nickname. The decision to abandon the bribery charge against Duterte comes [&hellip;]... Keep on reading: Luistro to formalize dropping of bribery rap in VP impeach trial – Chua"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-pam2ye",
@@ -5565,86 +6625,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "star-hl7u5c",
-      "source": "star",
-      "title": "Chinese J-16 dangerously intercepts PH patrol aircraft over Bajo de Masinloc",
-      "summary": "A Chinese J-16 fighter jet repeatedly flew dangerously close to a Philippine C-208.",
-      "byline": "Ian Laqui",
-      "section": "",
-      "published": "2026-10-04T09:52:00.000Z",
-      "firstSeen": "2026-10-04T10:31:03.043Z",
-      "url": "https://www.philstar.com/headlines/2026/10/04/2560905/chinese-j-16-dangerously-intercepts-ph-patrol-aircraft-over-bajo-de-masinloc",
-      "image": {
-        "src": "https://media.philstar.com/photos/2024/11/12/scarborough-shoal2018-06-0810-21-572018-06-1019-12-32_2024-11-12_17-28-33.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Panatag or Scarborough Shoal is within the Philippines' 200-nautical mile Exclusive Economic Zone."
-        },
-        {
-          "type": "p",
-          "text": "Google Maps"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — A Chinese J-16 fighter jet intercepted a Philippine military aircraft and repeatedly flew dangerously close to it during a routine maritime patrol near Bajo de Masinloc, the Armed Forces of the Philippines (AFP) said Sunday, October 4."
-        },
-        {
-          "type": "p",
-          "text": "The AFP said its C-208 aircraft encountered two Chinese military aircraft during the October 3 patrol, with one clearly identified as a J-16 fighter jet."
-        },
-        {
-          "type": "p",
-          "text": "According to the military, the Chinese fighter repeatedly approached and positioned itself in extremely close proximity to the Philippine aircraft."
-        },
-        {
-          "type": "p",
-          "text": "The J-16 also maneuvered directly ahead of and around the C-208, creating what the AFP described as a serious aviation safety risk."
-        },
-        {
-          "type": "p",
-          "text": "\"This incident is part of a recurring pattern of unsafe and coercive behavior against Philippine government vessels and aircraft conducting lawful operations,\" the AFP said."
-        },
-        {
-          "type": "p",
-          "text": "\"The AFP will continue to document and expose such actions that place Philippine personnel and assets at unnecessary risk,\" it added."
-        },
-        {
-          "type": "p",
-          "text": "Despite the encounter, the AFP said its flight crew remained professional and completed its mission."
-        },
-        {
-          "type": "p",
-          "text": "\"The AFP aircraft was able to safely complete its assigned maritime patrol and return without further incident,\" the military said."
-        },
-        {
-          "type": "p",
-          "text": "\"The AFP will continue to conduct routine maritime and air patrols in the West Philippine Sea. The AFP remains vigilant and will continue to prioritize the safety of its personnel and aircraft while carrying out its mandate,\" it added."
-        },
-        {
-          "type": "p",
-          "text": "Recent encounters. The incident came about a month after Chinese fighter aircraft intercepted Philippine government planes conducting a regular maritime air patrol over Bajo de Masinloc in September."
-        },
-        {
-          "type": "p",
-          "text": "AFP spokesperson for the West Philippine Sea Rear Adm. Roy Vincent Trinidad said at the time that, in one instance, a Chinese fighter's targeting crosshairs were trained on a Philippine aircraft. He described the interceptions as \"coercive and aggressive actions.\""
-        },
-        {
-          "type": "p",
-          "text": "Tensions around the shoal have mostly involved encounters at sea. In July, China Coast Guard vessels fired water cannons and carried out dangerous maneuvers against Philippine Coast Guard and Bureau of Fisheries and Aquatic Resources vessels conducting a fuel-subsidy mission for Filipino fisherfolk near Bajo de Masinloc. The Philippine vessels were nevertheless able to complete the mission."
-        },
-        {
-          "type": "p",
-          "text": "Bajo de Masinloc, also known as Scarborough Shoal, lies about 124 nautical miles off Zambales and has remained a major flashpoint between Manila and Beijing in the West Philippine Sea."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "grd-igdufq",
       "source": "grd",
       "title": "Costa’s coffee shops return to profit with iced drinks and matcha on the menu",
@@ -6048,98 +7028,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "star-wahbx0",
-      "source": "star",
-      "title": "House prosecutors may drop bribery article vs Sara Duterte",
-      "summary": "Prosecutors said they believe the three other impeachment articles may already provide sufficient grounds to seek the vice president's conviction.",
-      "byline": "Ian Laqui",
-      "section": "",
-      "published": "2026-10-04T09:18:00.000Z",
-      "firstSeen": "2026-10-04T09:31:01.551Z",
-      "url": "https://www.philstar.com/headlines/2026/10/04/2560898/house-prosecutors-may-drop-bribery-article-vs-sara-duterte",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/07/13/sara-duterte-senate-press-conference_2026-07-13_07-50-30.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Vice President Sara Duterte arrives before the start of the impeachment trial at the Senate of the Philippines in Pasay, Metro Manila on July 7, 2026."
-        },
-        {
-          "type": "p",
-          "text": "Noel Celis, pool / AFP"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The House prosecution panel is moving toward dropping the bribery allegations under Article III of the impeachment case against Vice President Sara Duterte, with prosecutors saying the evidence under the three other articles may already be sufficient to seek her conviction."
-        },
-        {
-          "type": "p",
-          "text": "House prosecution spokesperson and Lanao del Sur 1st District Rep. Zia Alonto Adiong said Sunday, October 4, that discussions were still ongoing on whether the panel would no longer present Article III before the Senate impeachment court."
-        },
-        {
-          "type": "p",
-          "text": "\"Mukhang ang direction is hindi na siya ita-tackle. Maybe that's the direction pero hindi pa natin pina-finalize 'yan kasi ongoing pa rin ang discussion sa prosecution panel kung anong magiging susunod na hakbang pagkatapos ng Article 2,\" Adiong said in an interview with Super Radyo dzBB."
-        },
-        {
-          "type": "p",
-          "text": "(\"It looks like the direction is not to tackle it anymore. Maybe that's the direction, but we haven't finalized that yet because discussions within the prosecution panel are still ongoing on what the next step will be after Article II.\")"
-        },
-        {
-          "type": "p",
-          "text": "Article III accuses Duterte of bribery, graft and corruption, culpable violation of the Constitution and betrayal of public trust over allegations that she caused monetary gifts or payments to Department of Education officials."
-        },
-        {
-          "type": "p",
-          "text": "Duterte has denied such allegations, arguing the prosecution has failed to establish that the money came from her or that the payments were made to influence procurement and financial decisions during her tenure as education secretary."
-        },
-        {
-          "type": "p",
-          "text": "Asked whether the prosecution believes the three other articles are enough to secure Duterte's conviction, Adiong said that was \"one way of looking at it.\""
-        },
-        {
-          "type": "p",
-          "text": "\"That's one way of looking at it kasi bakit mo pa papahabain 'yung trial kung para sa amin naman ay napakita namin 'yung mga kinakailangan na ebidensiya?\" Adiong said."
-        },
-        {
-          "type": "p",
-          "text": "(\"That's one way of looking at it because why prolong the trial when, for us, we've already presented the necessary evidence?\")"
-        },
-        {
-          "type": "p",
-          "text": "In a separate radio interview Sunday, House prosecutor and Manila 3rd District Rep. Joel Chua was more definitive, saying the panel would no longer pursue the bribery article."
-        },
-        {
-          "type": "p",
-          "text": "\"Sa tingin namin, medyo tatlo na 'yung napapatunayan namin at tingin naman namin enough na para at least hindi na tayo abutin next year,\" Chua said on dzMM."
-        },
-        {
-          "type": "p",
-          "text": "(\"We believe we have been establishing the three other articles, and we think those are enough so that the trial, at least, will not stretch into next year.\")"
-        },
-        {
-          "type": "p",
-          "text": "The prosecution had already floated the possibility of dropping Article III in September as it sought to expedite the trial and focus on what it considered its strongest allegations."
-        },
-        {
-          "type": "p",
-          "text": "Articles tackled. The Senate impeachment court is currently hearing Article II, which accuses Duterte of amassing unexplained wealth and failing to fully disclose assets and business interests in her Statements of Assets, Liabilities and Net Worth."
-        },
-        {
-          "type": "p",
-          "text": "The prosecution also earlier presented evidence under Article IV, involving alleged threats against President Ferdinand Marcos Jr., First Lady Liza Marcos and former House Speaker Martin Romualdez, and Article I, involving the alleged misuse of confidential funds."
-        },
-        {
-          "type": "p",
-          "text": "Article I, meanwhile, covered the alleged misuse, misappropriation, and irregular liquidation of Duterte's confidential funds."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "grd-112gjd0",
       "source": "grd",
       "title": "Glasgow council workers face pay cuts in fire-and-rehire plan after union talks break down",
@@ -6221,78 +7109,6 @@
         {
           "type": "p",
           "text": "They called for “a properly funded settlement that delivers equal pay without leaving thousands of other workers behind”."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-v8am8k",
-      "source": "star",
-      "title": "Over 20% of La Union, Ilocos Sur coasts show erosion – UP study",
-      "summary": "Scientists say rapidly changing coastal areas should be carefully considered before new development is allowed.",
-      "byline": "Artemio Dumlao",
-      "section": "",
-      "published": "2026-10-04T09:07:00.000Z",
-      "firstSeen": "2026-10-04T09:31:01.618Z",
-      "url": "https://www.philstar.com/climate-and-environment/2026/10/04/2560901/over-20-la-union-ilocos-sur-coasts-show-erosion-study",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/10/04/shoreline-ilocos-sur_2026-10-04_17-07-35.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Mild to strong waves are observed along the shoreline of Barangay Sabangan in Santiago, Ilocos Sur on Monday, July 7, 2025 as Typhoon Bising slightly weakens while traversing the northwestern part of Taiwan."
-        },
-        {
-          "type": "p",
-          "text": "The STAR / Andy Zapata; Philstar.com screenshot"
-        },
-        {
-          "type": "p",
-          "text": "SAN FERNANDO CITY, La Union — More than one-fifth of assessed shoreline areas in La Union and Ilocos Sur showed erosion from 1977 to 2022, a University of the Philippines study found, warning against further coastline development."
-        },
-        {
-          "type": "p",
-          "text": "Research led by the state university's Marine Science Institute (UP-MSI) found that 22.4% of assessed shoreline areas in La Union and 22.2% in Ilocos Sur have eroded."
-        },
-        {
-          "type": "p",
-          "text": "The rates were lower in Ilocos Norte at 17.7% and Pangasinan at 11.1%."
-        },
-        {
-          "type": "p",
-          "text": "Fernando Siringan of UP-MSI presented the findings at the Region 1 Coastal Resilience and Biodiversity Protection Forum on September 22. He identified the coastal stretch from Bauang to Santo Tomas and Agoo in La Union as particularly prone to erosion."
-        },
-        {
-          "type": "p",
-          "text": "\"You should not put development there, as much as possible, and leave it alone,\" Siringan said of areas with rapidly changing shorelines."
-        },
-        {
-          "type": "p",
-          "text": "Researchers used historical maps and Landsat satellite images to track shoreline changes. The study notes erosion trends, possible causes and sediment movement along selected coastlines in the four Ilocos Region provinces to help guide local government planning."
-        },
-        {
-          "type": "p",
-          "text": "The study identified shifting river channels, quarrying along beaches and rivers, engineering works that restrict sediment flow, sea-level rise, land subsidence and typhoons as factors contributing to erosion. Siringan stressed that the causes and severity vary by location."
-        },
-        {
-          "type": "p",
-          "text": "Residents and environmental groups have raised concerns over dredging and magnetite extraction in parts of La Union and Ilocos Sur, warning these could worsen shoreline loss and affect fisheries."
-        },
-        {
-          "type": "p",
-          "text": "Siringan said coastal development decisions should combine scientific data and satellite observations with the experiences of communities that have witnessed long-term changes in beaches, rivers and flooding."
-        },
-        {
-          "type": "p",
-          "text": "His team's coastal erosion research began in La Union nearly three decades ago and later expanded across the Ilocos Region with support from the Department of Science and Technology and partnerships with Mariano Marcos State University and Don Mariano Marcos Memorial State University."
-        },
-        {
-          "type": "p",
-          "text": "A 2015 study led by Siringan for the Ilocos Sur provincial government similarly warned that such activities in vulnerable areas could further destabilize already eroding shorelines."
         }
       ],
       "truncated": false,
@@ -7181,70 +7997,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "star-ciqn5w",
-      "source": "star",
-      "title": "Young eagle rescued in Baguio village",
-      "summary": "A Baguio family sought help after finding a young eagle in their garden in Barangay Loakan Proper.",
-      "byline": "Artemio Dumlao",
-      "section": "",
-      "published": "2026-10-04T08:29:00.000Z",
-      "firstSeen": "2026-10-04T09:31:02.011Z",
-      "url": "https://www.philstar.com/climate-and-environment/2026/10/04/2560899/young-eagle-rescued-baguio-village",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/10/04/young-eagle_2026-10-04_16-31-50.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A young eagle rescued in Barangay Loakan Proper, Baguio City, is turned over to authorities for assessment and rehabilitation on Oct. 2, 2026."
-        },
-        {
-          "type": "p",
-          "text": "Baguio City Police"
-        },
-        {
-          "type": "p",
-          "text": "BAGUIO CITY, Philippines — A young eagle was rescued in Barangay Loakan Proper on Friday, October 2 and turned over to authorities for assessment and rehabilitation."
-        },
-        {
-          "type": "p",
-          "text": "Leticia Amoguis said her husband, Ed, found the bird at around 10 a.m. in the garden of a house their family was renting in Purok Bubon."
-        },
-        {
-          "type": "p",
-          "text": "Recognizing the bird as protected wildlife, the family immediately sought assistance."
-        },
-        {
-          "type": "p",
-          "text": "They first called Baguio 911 and, upon advice, contacted Baguio City Police Station 4."
-        },
-        {
-          "type": "p",
-          "text": "Police personnel responded and proceeded to the residence of William Guidangen, where they took custody of the bird."
-        },
-        {
-          "type": "p",
-          "text": "The eagle was later turned over for assessment and appropriate care as authorities work toward its eventual rehabilitation."
-        },
-        {
-          "type": "p",
-          "text": "Mayor Benjamin Magalong commended the Amoguis family, Baguio 911 and the Baguio City Police Office for their prompt response and efforts to keep the bird safe."
-        },
-        {
-          "type": "p",
-          "text": "Authorities reminded the public not to handle, keep or attempt to care for wild animals on their own."
-        },
-        {
-          "type": "p",
-          "text": "Injured, stranded or displaced wildlife should instead be reported to the proper authorities so the animals can receive appropriate assistance."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1gcvxz8",
       "source": "abs",
       "title": "Woman found dead after jeep gets swept by flood in Batangas spillway",
@@ -7970,138 +8722,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-1y2bdjo",
-      "source": "cbc",
-      "title": "Mark Carney for Nobel Peace Prize? Probably not, but his name's out there",
-      "summary": "If relations between Canada the U.S. are cool now, the temperature could plummet if Prime Minister Mark Carney were to win the 2026 Nobel Peace Prize this year.",
-      "byline": "CBC",
-      "section": "News/World",
-      "published": "2026-10-04T08:00:00.000Z",
-      "firstSeen": "2026-10-04T08:20:11.103Z",
-      "url": "https://www.cbc.ca/news/world/nobel-prize-canadians-carney-9.7366789?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/f245a4bd-c27a-4fad-b27b-5b598ddcb23c,1790977578212/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C344%2C6500%2C3656%29%3BResize%3D620",
-        "caption": "Canadian Prime Minister Mark Carney's name has been mentioned as a possible recipient of the prestigous Nobel Peace prize (Darryl Dyck/The Canadian Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "World·New"
-        },
-        {
-          "type": "p",
-          "text": "If relations between Canada the U.S. are cool now, the temperature could plummet if Prime Minister Mark Carney were to win the 2026 Nobel Peace Prize this year."
-        },
-        {
-          "type": "h",
-          "text": "Carney at one point was a favourite to win on the predictions market"
-        },
-        {
-          "type": "p",
-          "text": "\"[Donald] Trump will be unhappy whoever gets the Nobel,\" Nelson Wiseman, professor emeritus at the University of Toronto, told The Associated Press. \"If Carney got it, it would make relations with Canada rockier than they are.\""
-        },
-        {
-          "type": "p",
-          "text": "Carney's name has been mentioned as a possible recipient of the prestigous prize, an award Trump has made no secret he wants to win."
-        },
-        {
-          "type": "p",
-          "text": "On Oct. 9, the Norwegian Nobel Committee will announce the winner of the annual Peace Prize in Oslo."
-        },
-        {
-          "type": "p",
-          "text": "Last year, the award went to Venezuelan opposition leader María Corina Machado. Machado presented Trump with her medal at the White House in January. Although Trump accepted it, the Nobel Committee stressed that the prize itself remains hers."
-        },
-        {
-          "type": "p",
-          "text": "Trump has repeatedly said he has ended eight wars, but experts say his invasion of Iran and attack on Venezuela make him an unlikely recipient this year."
-        },
-        {
-          "type": "p",
-          "text": "Prizes in other categories will also be awarded that week, with several Canadians being discussed as possible recipients."
-        },
-        {
-          "type": "p",
-          "text": "The prize money this year is 12 million Swedish kronor (about $1.2 million US), whether awarded to an individual, small group of laureates or an organization. The deadline for nominations was Jan. 31. After months of discussions and evaluations, the committee votes in October."
-        },
-        {
-          "type": "h",
-          "text": "Nobel Peace Prize (Oct. 9)"
-        },
-        {
-          "type": "p",
-          "text": "Earlier this week, traders on the U.S.-based prediction market Kalshi put Carney's chances of winning at 14 per cent. His odds later fell."
-        },
-        {
-          "type": "p",
-          "text": "\"I don't think his chances are great,\" Haakon Gjerløw, acting director of the Peace Research Institute Oslo, told CBC News."
-        },
-        {
-          "type": "p",
-          "text": "His organization releases an annual list of potential candidates for the prize. Gjerløw said the Nobel laureate has to meet three broad criteria to win: international co-operation, disarmament and the promotion of peace."
-        },
-        {
-          "type": "p",
-          "text": "\"So it's whoever did the most for these three criteria over the past year,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "He said Carney's name has likely been floated because of his resistance to Trump, along with the prime minister's efforts to strengthen ties with Europe — both seen as signs of international co-operation."
-        },
-        {
-          "type": "p",
-          "text": "But Gjerløw pointed to other possible candidates, including the International Space Station."
-        },
-        {
-          "type": "p",
-          "text": "\"It would be a symbol of what we can achieve when we are able to co-operate as humanity,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "Gjerløw's other candidates include Mykola Kuleba and Save the Children, Sudan's Emergency Response Rooms, the Committee to Protect Journalists, and the International Court of Justice and the International Criminal Court."
-        },
-        {
-          "type": "h",
-          "text": "Nobel Prize for physiology or medicine (Oct. 5.)"
-        },
-        {
-          "type": "p",
-          "text": "When The Scientist magazine asked its readers to suggest potential Nobel Prize winners in science, Canadian researcher Dr. Daniel Drucker was among the names put forward."
-        },
-        {
-          "type": "p",
-          "text": "The endocrinologist won a 2025 Breakthrough Prize in Life Sciences for discovering the GLP-1 hormone used in diabetes and obesity medications — including Ozempic, Wegovy and Mounjaro — that have changed the lives of millions of people around the world."
-        },
-        {
-          "type": "p",
-          "text": "Prediction market Kalshi has also listed Drucker as one of the top contenders to win."
-        },
-        {
-          "type": "h",
-          "text": "Nobel Prize for Literature (Oct. 8)"
-        },
-        {
-          "type": "p",
-          "text": "Another Canadian being discussed is poet and essayist Anne Carson, who has frequently been mentioned as a strong Nobel contender. Carson is a two-time winner of the Griffin Poetry Prize, and author of Autobiography of Red, Antigonick and Red Doc>."
-        },
-        {
-          "type": "p",
-          "text": "However, one of Canada's most famous authors, Margaret Atwood, is also a contender according to Kalshi, but at lower odds. The Handmaid's Tale author has won two Booker prizes, and for years her name has been mentioned as a possible candidate for the Nobel Prize."
-        },
-        {
-          "type": "p",
-          "text": "The last Canadian to win in this category was Alice Munro in 2013."
-        },
-        {
-          "type": "p",
-          "text": "With files from The Associated Press"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-c10v8",
       "source": "cbc",
       "title": "Canada's spy agency shakes up hiring process to 'meet operational needs': documents",
@@ -8251,6 +8871,138 @@
         {
           "type": "p",
           "text": "\"Given that context, you've got a very important job for the service — so glad you decided to take it on.\""
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-1y2bdjo",
+      "source": "cbc",
+      "title": "Mark Carney for Nobel Peace Prize? Probably not, but his name's out there",
+      "summary": "If relations between Canada the U.S. are cool now, the temperature could plummet if Prime Minister Mark Carney were to win the 2026 Nobel Peace Prize this year.",
+      "byline": "CBC",
+      "section": "News/World",
+      "published": "2026-10-04T08:00:00.000Z",
+      "firstSeen": "2026-10-04T08:20:11.103Z",
+      "url": "https://www.cbc.ca/news/world/nobel-prize-canadians-carney-9.7366789?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/f245a4bd-c27a-4fad-b27b-5b598ddcb23c,1790977578212/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C344%2C6500%2C3656%29%3BResize%3D620",
+        "caption": "Canadian Prime Minister Mark Carney's name has been mentioned as a possible recipient of the prestigous Nobel Peace prize (Darryl Dyck/The Canadian Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "World·New"
+        },
+        {
+          "type": "p",
+          "text": "If relations between Canada the U.S. are cool now, the temperature could plummet if Prime Minister Mark Carney were to win the 2026 Nobel Peace Prize this year."
+        },
+        {
+          "type": "h",
+          "text": "Carney at one point was a favourite to win on the predictions market"
+        },
+        {
+          "type": "p",
+          "text": "\"[Donald] Trump will be unhappy whoever gets the Nobel,\" Nelson Wiseman, professor emeritus at the University of Toronto, told The Associated Press. \"If Carney got it, it would make relations with Canada rockier than they are.\""
+        },
+        {
+          "type": "p",
+          "text": "Carney's name has been mentioned as a possible recipient of the prestigous prize, an award Trump has made no secret he wants to win."
+        },
+        {
+          "type": "p",
+          "text": "On Oct. 9, the Norwegian Nobel Committee will announce the winner of the annual Peace Prize in Oslo."
+        },
+        {
+          "type": "p",
+          "text": "Last year, the award went to Venezuelan opposition leader María Corina Machado. Machado presented Trump with her medal at the White House in January. Although Trump accepted it, the Nobel Committee stressed that the prize itself remains hers."
+        },
+        {
+          "type": "p",
+          "text": "Trump has repeatedly said he has ended eight wars, but experts say his invasion of Iran and attack on Venezuela make him an unlikely recipient this year."
+        },
+        {
+          "type": "p",
+          "text": "Prizes in other categories will also be awarded that week, with several Canadians being discussed as possible recipients."
+        },
+        {
+          "type": "p",
+          "text": "The prize money this year is 12 million Swedish kronor (about $1.2 million US), whether awarded to an individual, small group of laureates or an organization. The deadline for nominations was Jan. 31. After months of discussions and evaluations, the committee votes in October."
+        },
+        {
+          "type": "h",
+          "text": "Nobel Peace Prize (Oct. 9)"
+        },
+        {
+          "type": "p",
+          "text": "Earlier this week, traders on the U.S.-based prediction market Kalshi put Carney's chances of winning at 14 per cent. His odds later fell."
+        },
+        {
+          "type": "p",
+          "text": "\"I don't think his chances are great,\" Haakon Gjerløw, acting director of the Peace Research Institute Oslo, told CBC News."
+        },
+        {
+          "type": "p",
+          "text": "His organization releases an annual list of potential candidates for the prize. Gjerløw said the Nobel laureate has to meet three broad criteria to win: international co-operation, disarmament and the promotion of peace."
+        },
+        {
+          "type": "p",
+          "text": "\"So it's whoever did the most for these three criteria over the past year,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "He said Carney's name has likely been floated because of his resistance to Trump, along with the prime minister's efforts to strengthen ties with Europe — both seen as signs of international co-operation."
+        },
+        {
+          "type": "p",
+          "text": "But Gjerløw pointed to other possible candidates, including the International Space Station."
+        },
+        {
+          "type": "p",
+          "text": "\"It would be a symbol of what we can achieve when we are able to co-operate as humanity,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "Gjerløw's other candidates include Mykola Kuleba and Save the Children, Sudan's Emergency Response Rooms, the Committee to Protect Journalists, and the International Court of Justice and the International Criminal Court."
+        },
+        {
+          "type": "h",
+          "text": "Nobel Prize for physiology or medicine (Oct. 5.)"
+        },
+        {
+          "type": "p",
+          "text": "When The Scientist magazine asked its readers to suggest potential Nobel Prize winners in science, Canadian researcher Dr. Daniel Drucker was among the names put forward."
+        },
+        {
+          "type": "p",
+          "text": "The endocrinologist won a 2025 Breakthrough Prize in Life Sciences for discovering the GLP-1 hormone used in diabetes and obesity medications — including Ozempic, Wegovy and Mounjaro — that have changed the lives of millions of people around the world."
+        },
+        {
+          "type": "p",
+          "text": "Prediction market Kalshi has also listed Drucker as one of the top contenders to win."
+        },
+        {
+          "type": "h",
+          "text": "Nobel Prize for Literature (Oct. 8)"
+        },
+        {
+          "type": "p",
+          "text": "Another Canadian being discussed is poet and essayist Anne Carson, who has frequently been mentioned as a strong Nobel contender. Carson is a two-time winner of the Griffin Poetry Prize, and author of Autobiography of Red, Antigonick and Red Doc>."
+        },
+        {
+          "type": "p",
+          "text": "However, one of Canada's most famous authors, Margaret Atwood, is also a contender according to Kalshi, but at lower odds. The Handmaid's Tale author has won two Booker prizes, and for years her name has been mentioned as a possible candidate for the Nobel Prize."
+        },
+        {
+          "type": "p",
+          "text": "The last Canadian to win in this category was Alice Munro in 2013."
+        },
+        {
+          "type": "p",
+          "text": "With files from The Associated Press"
         }
       ],
       "truncated": false,
@@ -8918,102 +9670,6 @@
         {
           "type": "p",
           "text": "He graduated with a degree in aviation management in 2023, the university said. It added he did not take any pilot training at the school."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-17mbo8v",
-      "source": "star",
-      "title": "Filipino shoppers ranked as Southeast Asia's 'savviest' online",
-      "summary": "Report says 36% qualify as savvy, with monthly spending 47% higher.",
-      "byline": "Philstar.com",
-      "section": "",
-      "published": "2026-10-04T06:02:00.000Z",
-      "firstSeen": "2026-10-04T06:31:01.290Z",
-      "url": "https://www.philstar.com/headlines/2026/10/04/2560887/filipino-shoppers-ranked-southeast-asias-savviest-online",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/10/04/filipinos-savvyshopper_2026-10-04_12-24-56.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Philippines posted the highest savvy-shopper share among six Southeast Asian markets, according to a Lazada-Cube report."
-        },
-        {
-          "type": "p",
-          "text": "Nic Law via Pexels"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Filipino online shoppers emerged as Southeast Asia's \"savviest\" consumers in a 2026 regional e-commerce report, with more than one in three falling into its top shopper segment."
-        },
-        {
-          "type": "p",
-          "text": "The 2026 eCommerce Savvy Shopper Report for the Philippines found that 36% of Filipino shoppers qualified as \"savvy,\" the highest share among six Southeast Asian markets covered."
-        },
-        {
-          "type": "p",
-          "text": "Another 22% were classified as \"near-savvy,\" bringing the combined share to 58%, also the largest pool in the region."
-        },
-        {
-          "type": "p",
-          "text": "The Philippines was followed by Indonesia, where 28% of shoppers were classified as savvy, Vietnam at 25%, Thailand at 22%, Malaysia at 20% and Singapore at 9%."
-        },
-        {
-          "type": "p",
-          "text": "Filipino savvy shoppers also stood out for how much more they spent."
-        },
-        {
-          "type": "p",
-          "text": "Their monthly spending was 47% higher than that of general shoppers, the biggest difference among the six markets."
-        },
-        {
-          "type": "p",
-          "text": "Vietnam followed with a 44% spending uplift, Malaysia with 36%, Thailand with 27%, Indonesia with 19% and Singapore with 13%."
-        },
-        {
-          "type": "p",
-          "text": "The report estimated the weighted spending gap associated with savvy shoppers in the Philippines at $3.3 billion in 2026. It said the estimate was based on annual e-commerce marketplace spending in Southeast Asia in 2026."
-        },
-        {
-          "type": "h",
-          "text": "What makes a shopper 'savvy'?"
-        },
-        {
-          "type": "p",
-          "text": "The report, jointly conducted by e-commerce company Lazada and market data firm Cube, assessed shopper savviness across four dimensions: verification, value optimization, digital fluency, and confidence and protection."
-        },
-        {
-          "type": "p",
-          "text": "These measured whether consumers choose the right products, get the best value, use available digital tools effectively and feel protected when something goes wrong with a purchase."
-        },
-        {
-          "type": "p",
-          "text": "Across Southeast Asia, the report found that shoppers were more willing to put in additional effort to secure better value than give up trust-related protections."
-        },
-        {
-          "type": "p",
-          "text": "Forty-three percent said they were willing to wait longer for delivery, 41% would spend more effort finding a deal and 36% would compare offers."
-        },
-        {
-          "type": "p",
-          "text": "By comparison, only 14% were willing to give up authenticity signals, while 13% would sacrifice purchase protection."
-        },
-        {
-          "type": "p",
-          "text": "The Philippines also stood out as the only Southeast Asian market in the report where Gen X and Gen Z shoppers were equally willing to pay more for stronger purchase protection."
-        },
-        {
-          "type": "p",
-          "text": "The report described this as an indication that trust cuts across generations rather than being limited to younger online consumers."
-        },
-        {
-          "type": "p",
-          "text": "The Philippines report, however, did not disclose key survey methodology, including its sample size, sampling and recruitment method, fieldwork period or the scoring thresholds used to classify shoppers as \"savvy\" or \"near-savvy.\""
         }
       ],
       "truncated": false,
@@ -10297,98 +10953,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "star-kox1qc",
-      "source": "star",
-      "title": "244 'mostly Chinese' workers arrested in largest 2026 POGO bust",
-      "summary": "Authorities raided two Zamboanga Sibugay sites and seized around 3,000 phones.",
-      "byline": "Philstar.com",
-      "section": "",
-      "published": "2026-10-04T03:04:00.000Z",
-      "firstSeen": "2026-10-04T03:31:03.338Z",
-      "url": "https://www.philstar.com/headlines/2026/10/04/2560881/244-mostly-chinese-workers-arrested-largest-2026-pogo-bust",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/10/04/bureau-immigration_2026-10-04_11-06-28.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "October 4, 2026 | 11:04am"
-        },
-        {
-          "type": "p",
-          "text": "The main building of the Bureau of Immigration in Intramuros, Manila as seen in June 2020."
-        },
-        {
-          "type": "p",
-          "text": "The STAR / Edd Gumban"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Authorities have arrested 244 foreign workers, most of them Chinese, in what the Bureau of Immigration described as the country's largest crackdown on illegal online gaming operators this year."
-        },
-        {
-          "type": "p",
-          "text": "The Bureau of Immigration, National Bureau of Investigation and Armed Forces of the Philippines carried out simultaneous raids on offshore gaming operators, known as POGOs on October 2 in Barangay Kimos in Siay and Barangay Tandiong Muslim in Alicia, both in Zamboanga Sibugay."
-        },
-        {
-          "type": "p",
-          "text": "At the Siay site, authorities apprehended 113 foreign nationals, consisting of 110 Chinese nationals, two Cambodians and one Hong Kong resident."
-        },
-        {
-          "type": "p",
-          "text": "Another 131 foreigners were apprehended in Alicia, most of them Chinese, along with nationals from Malaysia, Indonesia and Myanmar."
-        },
-        {
-          "type": "p",
-          "text": "The immigration bureau said the identities and nationalities of those detained were still being verified."
-        },
-        {
-          "type": "p",
-          "text": "The foreign nationals are being investigated for alleged immigration violations, including working without proper visas, being undocumented, illegal entry and alleged involvement in illegal POGO-related online activities."
-        },
-        {
-          "type": "p",
-          "text": "Authorities recovered 78 computer monitors, around 3,000 mobile phones, laptops and cellular SIM cards from the Casa de Coco Pension House compound, along with other technical equipment believed to have been used for online scams."
-        },
-        {
-          "type": "p",
-          "text": "The immigration bureau said the equipment pointed to an organised illegal online operation at the site."
-        },
-        {
-          "type": "p",
-          "text": "The government is also investigating possible human trafficking-related offences arising from the raids."
-        },
-        {
-          "type": "p",
-          "text": "\"We will continue to enforce our immigration laws against foreign nationals who violate the conditions of their stay and ensure that the Philippines is not used as a base for illegal activities,\" immigration chief Joel Viado said in the statement."
-        },
-        {
-          "type": "p",
-          "text": "The bureau described the raids as \"the largest POGO bust of 2026.\""
-        },
-        {
-          "type": "p",
-          "text": "Those apprehended will undergo deportation proceedings for alleged violations of Philippine immigration laws. Those issued deportation orders will also be placed on the immigration bureau's blacklist, barring them from re-entering the country."
-        },
-        {
-          "type": "p",
-          "text": "The Chinese embassy in Manila did not immediately respond to AFP's request for comment."
-        },
-        {
-          "type": "p",
-          "text": "Ban on POGOs. President Ferdinand Marcos Jr. declared all POGOs banned in July 2024 in his State of the Nation Address. He then formalized the prohibition through Executive Order 74 that November, ordering offshore gaming operations to cease by the end of the year."
-        },
-        {
-          "type": "p",
-          "text": "He later directed law enforcement agencies to intensify operations against POGOs that continued operating despite the ban. — reports from Ian Laqui and Agence France Presse"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-jyzu59",
       "source": "abs",
       "title": "Valenzuela puts NCAP implementation on hold amid road repairs",
@@ -10576,62 +11140,6 @@
         {
           "type": "h",
           "text": "Choquequirao: How easier access will impact the remote site"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-xd3ujf",
-      "source": "star",
-      "title": "'Choi-Wan' trough to affect Mindanao, parts of Visayas",
-      "summary": "Mindanao and parts of Visayas may see scattered rains and thunderstorms.",
-      "byline": "Ian Laqui",
-      "section": "",
-      "published": "2026-10-04T02:07:00.000Z",
-      "firstSeen": "2026-10-04T02:31:01.863Z",
-      "url": "https://www.philstar.com/weather/2026/10/04/2560875/choi-wan-trough-affect-mindanao-parts-visayas",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/08/08/4_2026-08-08_22-50-56.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "October 4, 2026 | 10:07am"
-        },
-        {
-          "type": "p",
-          "text": "Motorists and pedestrians are drenched by heavy rain in Quezon City as the enhanced southwest monsoon (Habagat) continues to batter Metro Manila and neighboring provinces with strong winds and heavy rainfall on August 8, 2026"
-        },
-        {
-          "type": "p",
-          "text": "Miguel De Guzman / The Philippine STAR"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The trough of a typhoon internationally named Choi-Wan may bring rains over Mindanao and parts of the Visayas on Sunday, October 4, state weather bureau PAGASA said."
-        },
-        {
-          "type": "p",
-          "text": "As of 5 a.m., Choi-Wan was estimated at 2,585 kilometers east of extreme Northern Luzon."
-        },
-        {
-          "type": "p",
-          "text": "The typhoon had maximum sustained winds of 155 kilometers per hour near the center and gusts of up to 190 kph. It was moving north-northeastward at 15 kph."
-        },
-        {
-          "type": "p",
-          "text": "Mindanao, Western Visayas, Negros Island Region, Central Visayas and Southern Leyte may experience cloudy skies with scattered rains and thunderstorms due to the trough of Choi-Wan."
-        },
-        {
-          "type": "p",
-          "text": "PAGASA warned of possible flash floods or landslides in these areas due to moderate to at times heavy rains."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, Metro Manila and the rest of the country may experience partly cloudy to cloudy skies with isolated rain showers or thunderstorms due to localized thunderstorms."
         }
       ],
       "truncated": false,
@@ -12642,310 +13150,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "star-z50ppk",
-      "source": "star",
-      "title": "ICC allows written testimony vs Duterte",
-      "summary": "The International Criminal Court has allowed the prosecution to introduce as evidence a prior testimony of one of its witnesses against former president Rodrigo Duterte.",
-      "byline": "Janvic Mateo",
-      "section": "",
-      "published": "2026-10-03T16:00:00.000Z",
-      "firstSeen": "2026-10-03T16:31:04.011Z",
-      "url": "https://www.philstar.com/headlines/2026/10/04/2560768/icc-allows-written-testimony-vs-duterte",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/10/03/9-16_2026-10-03_21-43-08.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "October 4, 2026 | 12:00am"
-        },
-        {
-          "type": "p",
-          "text": "Photos courtesy of the International Criminal Court show former president Rodrigo Duterte during his first in-person appearance before the tribunal since his arrest in March 2025."
-        },
-        {
-          "type": "p",
-          "text": "Photos / ICC | via Janvic Mateo"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The International Criminal Court has allowed the prosecution to introduce as evidence a prior testimony of one of its witnesses against former president Rodrigo Duterte."
-        },
-        {
-          "type": "p",
-          "text": "In a 15-page decision released on Friday, the ICC Trial Chamber III granted the prosecution’s first request to introduce the prior written testimony of the witness identified in the filings as “P-1100.”"
-        },
-        {
-          "type": "p",
-          "text": "“[The Chamber] is satisfied that the substance of P-1100’s evidence and the reports he produced appear relevant to the background and context in this case,” the ruling read."
-        },
-        {
-          "type": "p",
-          "text": "It rejected the defense’s opposition to the request, saying the witness testimony will not be offered as expert evidence and there is no indication the prosecution will use it to support conclusions beyond his personal knowledge."
-        },
-        {
-          "type": "p",
-          "text": "“The Chamber notes that witnesses often provide conclusions or opinions while testifying in court as well as in written statements,” the judges ruled."
-        },
-        {
-          "type": "p",
-          "text": "“Although P-1100’s prior recorded testimony contains some opinion statements, the defense will have the opportunity to question the witness, including to test the basis of P-1100’s knowledge, to probe the foundation for the interpretations he offers and to elicit the limits of what he is, and is not, able to say from personal observation,” it added."
-        },
-        {
-          "type": "p",
-          "text": "Defense lawyer Peter Haynes earlier objected to the introduction of P-1100’s prior witness testimony, saying it “is neither sufficiently relevant nor probative of the facts in dispute in this case.”"
-        },
-        {
-          "type": "p",
-          "text": "In his original request, ICC acting prosecutor Mame Mandiaye Niang described the testimony as “relevant, reliable and probative.” He also said that it would streamline his in-court testimony during trial."
-        },
-        {
-          "type": "p",
-          "text": "The judges agreed, but noted that the prosecution’s request for two hours to conduct a supplementary examination is excessive."
-        },
-        {
-          "type": "p",
-          "text": "“The prosecution shall therefore streamline its questioning so as to complete its examination of P-1100 within one hour,” it added."
-        },
-        {
-          "type": "p",
-          "text": "In its decision, the judges also authorized the prosecution to introduce five “associate materials” into evidence, although it rejected four others."
-        },
-        {
-          "type": "p",
-          "text": "“This ruling does not prevent the defense from making use of any of the documents for the purpose of cross-examination,” said the judges."
-        },
-        {
-          "type": "p",
-          "text": "Duterte’s trial is scheduled to begin on Nov. 30."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-1ihd77p",
-      "source": "star",
-      "title": "Sara wants copy of ex-cop’s affidavit",
-      "summary": "Vice President Sara Duterte wants to be provided first with a copy of the sworn affidavit of Rodulfo Gracioso Jr. before being required to face the National Bureau of Investigation to shed light on…",
-      "byline": "Bella Cariaso",
-      "section": "",
-      "published": "2026-10-03T16:00:00.000Z",
-      "firstSeen": "2026-10-03T16:31:04.083Z",
-      "url": "https://www.philstar.com/headlines/2026/10/04/2560773/sara-wants-copy-ex-cops-affidavit",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/10/03/7_2026-10-03_21-45-44.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "October 4, 2026 | 12:00am"
-        },
-        {
-          "type": "p",
-          "text": "Vice President Sara Duterte"
-        },
-        {
-          "type": "p",
-          "text": "AFP / Jam Sta. Rosa"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Vice President Sara Duterte wants to be provided first with a copy of the sworn affidavit of Rodulfo Gracioso Jr. before being required to face the National Bureau of Investigation to shed light on the allegations of the dismissed police officer that he delivered cash in suitcases to her and to some members of her family."
-        },
-        {
-          "type": "p",
-          "text": "In a statement, Duterte’s counsel Paul Lawrence Lim confirmed that Duterte received an invitation from the NBI for a conference at 10 a.m. on Oct. 5 on Gracioso’s allegations."
-        },
-        {
-          "type": "p",
-          "text": "“However, since no official copy of Mr. Gracioso’s affidavit was included with the invitation, we have requested the NBI for a faithful copy thereof and all its supporting documents, if any,” Lim said."
-        },
-        {
-          "type": "p",
-          "text": "NBI Director Melvin Matibag said they invited the Vice President to give her the chance to respond directly to Gracioso’s allegations."
-        },
-        {
-          "type": "p",
-          "text": "The NBI will also invite Davao City 1st district Rep. Paolo Duterte, as well as former speaker Lord Allan Velasco and his wife, Rowena, who have not returned from a trip to Japan."
-        },
-        {
-          "type": "p",
-          "text": "Matibag said the bureau wants to hear their denials and other explanations, particularly after some of those named by Gracioso claimed not knowing him."
-        },
-        {
-          "type": "p",
-          "text": "“In your letter, you mention an ongoing investigation into allegations made by a certain Mr. Rodulfo M. Gracioso Jr. and request for our client’s statements, documents and records that may help clarify the issues at hand. However, while your letter mentions an attached copy of Mr. Gracioso’s sinumpaang salaysay, none was attached thereto. Consequently, our client cannot provide any meaningful reply to your request at this time,” Lim and other Duterte lawyers Clifford Chua and Kimberly Resurreccion said in their letter to Matibag."
-        },
-        {
-          "type": "p",
-          "text": "They added that neither Duterte nor her counsels will appear before the NBI on Oct. 5, although they are willing to have their meeting moved to Oct. 8 “assuming our timely receipt of the requested documents.”"
-        },
-        {
-          "type": "p",
-          "text": "“Instead, we respectfully request that sufficient time be given our client and counsel to examine the sinumpaang salaysay and all accompanying documents to be provided her,” they said."
-        },
-        {
-          "type": "p",
-          "text": "Gracioso, who served as part of Velasco’s security detail, earlier alleged that he also delivered cash-filled suitcases to her brother Paolo and father former president Rodrigo Duterte on Velasco’s instructions."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-mr3whx",
-      "source": "star",
-      "title": "Public urged to save water while supply remains steady",
-      "summary": "As the country faces what could be a super El Ni&ntilde;o, consumers should save water while there is steady supply, National Water Resources Board executive director Sevillo David Jr. said yesterday.",
-      "byline": "Josiah Antonio",
-      "section": "",
-      "published": "2026-10-03T16:00:00.000Z",
-      "firstSeen": "2026-10-04T11:31:04.390Z",
-      "url": "https://www.philstar.com/headlines/2026/10/04/2560775/public-urged-save-water-while-supply-remains-steady",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/10/03/6_2026-10-03_21-48-04.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "October 4, 2026 | 12:00am"
-        },
-        {
-          "type": "p",
-          "text": "A resident fetches water from a manual pump along Macaraig Street in Manila on October 3, 2026. To prepare for the possible effects of a strengthening El Niño, authorities have urged the public to conserve water while there is still steady supply."
-        },
-        {
-          "type": "p",
-          "text": "Noel Pabalate"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — As the country faces what could be a super El Niño, consumers should save water while there is steady supply, National Water Resources Board executive director Sevillo David Jr. said yesterday."
-        },
-        {
-          "type": "p",
-          "text": "David said the demand for water is high especially during the dry season and they are expecting this as early as this year."
-        },
-        {
-          "type": "p",
-          "text": "The country is facing a “very strong” El Niño this month, which may extend until the first half of 2027."
-        },
-        {
-          "type": "p",
-          "text": "“Let’s be responsible in using water. As of right now, the supply is steady and we can give what the people need but it’s good that we trim our water consumption so what we can save will be used for the next months,” he said in an interview with One News."
-        },
-        {
-          "type": "p",
-          "text": "David said they have issued water conservation measures to reduce the demand for water."
-        },
-        {
-          "type": "p",
-          "text": "“When the demand is low, it can help manage the supply, particularly in the time when we can’t rely on rain water due to the ‘very strong’ El Niño,” the official said."
-        },
-        {
-          "type": "p",
-          "text": "“We should not brush off the effects of El Niño, especially on water supply,” he added."
-        },
-        {
-          "type": "p",
-          "text": "David said they are coordinating with local government units and other government agencies should the water supply go lower in the coming months."
-        },
-        {
-          "type": "p",
-          "text": "He also discouraged consumers from hoarding and panic-buying water as it affects water distribution and supply."
-        },
-        {
-          "type": "p",
-          "text": "“We have enough supply. Use your drums to catch rainwater and use it for other daily (activities) like flushing toilets. Using drums can help in catching water that dams cannot get,” he said."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-2hrzgr",
-      "source": "cbc",
-      "title": "Woman, 2 children dead after serious collision near Foam Lake, Sask.",
-      "summary": "A serious car crash left three people dead and four others injured. A 40-year old man from South Carolina was arrested and charged.",
-      "byline": "Randi LaRocque",
-      "section": "News/Canada/Saskatchewan",
-      "published": "2026-10-03T15:56:48.000Z",
-      "firstSeen": "2026-10-03T19:22:27.911Z",
-      "url": "https://www.cbc.ca/news/canada/saskatchewan/serious-collision-foam-lake-9.7368205?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/a79b3b2f-2adb-448e-afe7-4cd5428690ec,1755810756189/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1280%2C720%29%3BResize%3D620",
-        "caption": "RCMP have charged a 40-year-old man from South Carolina after the crash. (Charles Contant/Radio-Canada)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Saskatchewan·Updated"
-        },
-        {
-          "type": "p",
-          "text": "A serious car crash left three people dead and four others injured. A 40-year old man from South Carolina was arrested and charged."
-        },
-        {
-          "type": "h",
-          "text": "40-year-old man from Sumter, South Carolina, was arrested and charged"
-        },
-        {
-          "type": "p",
-          "text": "A serious collision near Foam Lake, Sask., Friday afternoon has left three people dead."
-        },
-        {
-          "type": "p",
-          "text": "On Friday afternoon, a truck was attempting to pass a semi and collided with an SUV on a grid road about nine kilometres west of Foam Lake, RCMP said in a Saturday news release. Foam Lake is about 150 kilometres northeast of Regina."
-        },
-        {
-          "type": "p",
-          "text": "A 40-year old woman, an eight-year old girl and a five-year old girl, all from Foam Lake, were in the SUV and were declared dead at the scene by EMS."
-        },
-        {
-          "type": "p",
-          "text": "An adult man was also in the SUV and was taken to hospital by STARS with serious injuries, the release said."
-        },
-        {
-          "type": "p",
-          "text": "The driver of the truck was taken to the hospital with non-life-threatening injuries, and two passengers were also taken to hospital. One passenger had non-life-threatening injuries, according to EMS, while the other had serious injuries, according to STARS, the release said."
-        },
-        {
-          "type": "p",
-          "text": "The semi driver not not report any physical injuries to police and his semi was not damaged."
-        },
-        {
-          "type": "p",
-          "text": "RCMP say 40-year-old Kelly Knopf from Sumter, South Carolina, was arrested and charged with three counts each of dangerous operation of a vehicle causing death and dangerous operation of a vehicle causing bodily harm."
-        },
-        {
-          "type": "p",
-          "text": "He is scheduled to appear in Yorkton Provincial Court on Monday."
-        },
-        {
-          "type": "p",
-          "text": "Wadena/Foam Lake RCMP continue to investigate with the assistance of a Saskatchewan RCMP collision reconstructionist."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Randi LaRocque is a Métis woman working as a reporter with CBC Saskatchewan. She can be reached at randi.larocque@cbc.ca"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-swfopq",
       "source": "bbc",
       "title": "Medical plane with 6 on board missing off Massachusetts coast",
@@ -12988,6 +13192,50 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
+    },
+    {
+      "id": "abs-1vlrbi7",
+      "source": "abs",
+      "title": "Jericho, Janine sing “Ang Huling El Bimbo” with Baseco Compound Residents | Everybody Sing",
+      "summary": "WATCH: Jericho, Janine sing \"Ang Huling El Bimbo\" | Everybody Sing",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-03T15:47:20.000Z",
+      "firstSeen": "2026-10-04T16:31:08.428Z",
+      "url": "https://www.abs-cbn.com/entertainment/studios/tv/2026/10/3/jericho-janine-sing-ang-huling-el-bimbo-with-baseco-compound-residents-everybody-sing-2347",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "WATCH: Jericho, Janine sing \"Ang Huling El Bimbo\" | Everybody Sing"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-ik2yb1",
+      "source": "abs",
+      "title": "Vice Ganda, nalaman ang sikat na trabaho sa Baseco Compound | Everybody Sing",
+      "summary": "WATCH: Vice Ganda, nalaman ang sikat na trabaho sa Baseco Compound | Everybody Sing",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-03T15:46:59.000Z",
+      "firstSeen": "2026-10-04T16:31:10.223Z",
+      "url": "https://www.abs-cbn.com/entertainment/studios/tv/2026/10/3/vice-ganda-nalaman-ang-sikat-na-trabaho-sa-baseco-compound-everybody-sing-2346",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "WATCH: Vice Ganda, nalaman ang sikat na trabaho sa Baseco Compound | Everybody Sing"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "abs-drw2x3",
@@ -13905,28 +14153,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "abs-171jgqw",
-      "source": "abs",
-      "title": "China's research vessel near Batanes can locate subsea cables, Tarriela says",
-      "summary": "The Philippine Coast Guard is still monitoring the activities of Chinese marine scientific vessel Jia Hai Ke that was seen loitering 37 nautical miles from the northwest of Itbayat, Zambales.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-03T09:08:28.000Z",
-      "firstSeen": "2026-10-04T10:01:14.805Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/10/3/china-s-research-vessel-near-batanes-can-locate-subsea-cables-tarriela-says-1708",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Philippine Coast Guard is still monitoring the activities of Chinese marine scientific vessel Jia Hai Ke that was seen loitering 37 nautical miles from the northwest of Itbayat, Zambales."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "grd-13mt21j",
       "source": "grd",
       "title": "Libyan unity talks upended as warlord’s son linked to drone attacks on fuel facilities",
@@ -14010,28 +14236,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-1tric8p",
-      "source": "abs",
-      "title": "Juliana Candelaria 'living in the moment' after bagging Asiad silver medal",
-      "summary": "Making her Asian Games debut at 18 years old, Juliana Candelaria headed into Nagoya simply wanting to do her best and take things one step at a time.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-03T08:56:16.000Z",
-      "firstSeen": "2026-10-04T09:31:02.287Z",
-      "url": "https://www.abs-cbn.com/sports/othersports/2026/10/3/juliana-candelaria-living-in-the-moment-after-bagging-asiad-silver-medal-1656",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Making her Asian Games debut at 18 years old, Juliana Candelaria headed into Nagoya simply wanting to do her best and take things one step at a time."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "dw-meip0w",
@@ -14734,251 +14938,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "cbc-2av74v",
-      "source": "cbc",
-      "title": "Canada bet billions on an EV boom. Was it too much, too soon?",
-      "summary": "The federal and provincial governments bet billions on the rapid rise of the electric vehicle industry. But major EV and battery projects in Ontario, Quebec and British Columbia have since been…",
-      "byline": "Colin Butler",
-      "section": "News/Canada",
-      "published": "2026-10-03T08:00:00.000Z",
-      "firstSeen": "2026-10-03T08:31:05.095Z",
-      "url": "https://www.cbc.ca/news/canada/canada-ev-battery-investments-9.7362430?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/b33c1c45-2119-4537-8c13-2ad6d5988dfe,1790704606438/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C4096%2C2304%29%3BResize%3D620",
-        "caption": "The steel frame of PowerCo's battery plant rises from the construction site in St. Thomas, Ont. Volkswagen's battery subsidiary now says production at the plant will begin in 2029, two years later than originally planned. (Patrick Morrell/CBC)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Canada·New"
-        },
-        {
-          "type": "p",
-          "text": "The federal and provincial governments bet billions on the rapid rise of the electric vehicle industry. But major EV and battery projects in Ontario, Quebec and British Columbia have since been delayed, cancelled, suspended, substantially changed — and in one case, gone bankrupt — as automakers and suppliers adjust to weaker-than-anticipated demand."
-        },
-        {
-          "type": "h",
-          "text": "Volkswagen battery plant in Ontario latest major project to be delayed"
-        },
-        {
-          "type": "p",
-          "text": "The latest is Volkswagen's massive PowerCo battery plant in St. Thomas, Ont., where production has been pushed back two years to 2029, because of \"evolving market demand.\""
-        },
-        {
-          "type": "p",
-          "text": "The setbacks are raising questions about whether Canada bet too big on how quickly the EV market would grow. Critics say demand may never reach the levels needed to support the scale of battery production governments sought to attract, while others argue these are temporary delays in the decades-long shift toward electrification."
-        },
-        {
-          "type": "h",
-          "text": "A million batteries, but for what?"
-        },
-        {
-          "type": "p",
-          "text": "Grieg Mordue, a former Toyota executive and retired McMaster University professor who studied the auto industry, says the St .Thomas plant illustrates two problems with Canada's EV investment strategy: scale and location."
-        },
-        {
-          "type": "p",
-          "text": "When the project was announced in 2023, PowerCo said the plant would eventually make enough battery cells for roughly one million EVs a year."
-        },
-        {
-          "type": "p",
-          "text": "Mordue says that seemed inefficient since Volkswagen's major assembly operations are in the southern United States and Mexico, meaning batteries produced in St. Thomas would have to travel long distances to reach the vehicles they're intended to power."
-        },
-        {
-          "type": "p",
-          "text": "Europe isn't the obvious destination either, he says, because Volkswagen (VW) already has battery production capacity there."
-        },
-        {
-          "type": "p",
-          "text": "Even together, VW's North American plants don't produce enough vehicles to provide an obvious market for a million batteries a year."
-        },
-        {
-          "type": "p",
-          "text": "\"They got a million batteries,\" he said. \"What are they going to do with them?\""
-        },
-        {
-          "type": "p",
-          "text": "VW and its PowerCo subsidiary did not respond to a request for comment."
-        },
-        {
-          "type": "p",
-          "text": "VW has said the plant remains a cornerstone of its North American battery strategy and is continuing construction even as it pushes production back."
-        },
-        {
-          "type": "p",
-          "text": "VW also said the delay will allow it to incorporate newer battery technology and scale production as demand develops."
-        },
-        {
-          "type": "p",
-          "text": "It could also have an upside for taxpayers, Mordue said — in the form of a smaller subsidy bill."
-        },
-        {
-          "type": "p",
-          "text": "Much of the support promised to Volkswagen is still tied to how many batteries the plant produces. With production now set for 2029 and with those incentives scheduled to start declining in 2030 and ending in 2032, Mordue says governments will likely pay \"a whole lot less\" than the original maximum."
-        },
-        {
-          "type": "p",
-          "text": "Innovation, Science and Economic Development Canada said in a statement that the federal government has so far contributed $700 million to the construction of the St. Thomas battery plant, noting Ontario is responsible for one third of the $13.2 billion governments have agreed to in production subsidies."
-        },
-        {
-          "type": "p",
-          "text": "\"The government remains engaged with PowerCo on their updated timelines,\" the statement said."
-        },
-        {
-          "type": "p",
-          "text": "Ontario's Ministry of Economic Development Job Creation and Trade did not respond by deadline."
-        },
-        {
-          "type": "h",
-          "text": "A bet on the long-term"
-        },
-        {
-          "type": "p",
-          "text": "Still, others argue that looking at today's EV demand misses the time scale on which investments such as St. Thomas were made."
-        },
-        {
-          "type": "p",
-          "text": "\"These investments are meant to last 50 to 70 years or more,\" Joanna Kyriazis, directory of policy and strategy at Clean Energy Canada told CBC News."
-        },
-        {
-          "type": "p",
-          "text": "She said the current slowdown should be seen as growing pains in an industry that is still transitioning, rather than evidence Canada built too much battery capacity."
-        },
-        {
-          "type": "p",
-          "text": "There are signs Canada's EV market may already be recovering after a slowdown."
-        },
-        {
-          "type": "p",
-          "text": "New restgistrations of battery-only EVs rose 37.4 per cent in the second quarter of 2026, compared with the same time last year, according to Statistics Canada. When hybrids are included, Canadians registered 58,811 new zero-emission vehicles during the quarter, up 26.7 per cent."
-        },
-        {
-          "type": "p",
-          "text": "Kyriazis says the investments are about keeping Canada relevant as the global auto industry undergoes a historic shift from gasoline-powered vehicles."
-        },
-        {
-          "type": "p",
-          "text": "\"It's not a question of maintaining a place in the North American auto indstury. It's — is Canada going to have an auto industry that survives in the 21st century at all?\" she said."
-        },
-        {
-          "type": "p",
-          "text": "\"There's a clear direction that the global auto sector is going and if Canada wants to have a competitve auto sector into the future, we've got to be able to make and sell competitively priced electric vehicles and the parts that go into them.\""
-        },
-        {
-          "type": "p",
-          "text": "Kyriazis says the potential market for these batteries also extends beyond electric vehicles. As electricity grids expand, batteries will increasingly be needed to store power and help balance supply and demand."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Gas prices and new incentives sparking more EV sales",
-            "Gas prices are dropping. You can thank the 'winter blend' for that"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The St. Thomas site and a NextStar plant in Windsor, she said, \"were looking at a short-term strategy of building batteries that would be used for grid-scale storage while EV update in North American started to sort of even out.\""
-        },
-        {
-          "type": "p",
-          "text": "Kyriazis argues the current U.S. retreat from electric vehicles could prove temporary and that Canada shouldn't base a decades-long industrial strategy on policies that could change again under a future administration."
-        },
-        {
-          "type": "p",
-          "text": "There is evidence the EV battery bet may have been early rather than fundamentally misplaced. The wider justification for building domestic battery capacity hasn't disappeared either."
-        },
-        {
-          "type": "p",
-          "text": "China produced more than 80 per cent of the world's battery cells last year, according to the International Energy Agency, leaving governments in North America and Europe to build domestic supply chains in an industry that remains heavily concentrated in Asia."
-        },
-        {
-          "type": "h",
-          "text": "Will buyers catch up?"
-        },
-        {
-          "type": "p",
-          "text": "University of Guelph economics professor Ross McKitrick is less convinced that time will solve the problem. He said EVs have an established market, but argues governments built their policy around expectations of demand far greater than what has so far emerged."
-        },
-        {
-          "type": "p",
-          "text": "\"What the government's been trying to do is force that market into existence,\" he said. \"The numbers just don't add up.\""
-        },
-        {
-          "type": "p",
-          "text": "McKitrick points to the billions governments offered manufacturers to build EVs and batteries, while simultaneously offering consumers incentives to buy the vehicles as evidence the industry wasn't able to sustain itself on the scale governments envisioned."
-        },
-        {
-          "type": "p",
-          "text": "In a 2024 paper published in the Canadian Journal of Economics, McKitrick warned that if Canada's EV sales requirements rise faster than buyers' willingness to purchase them, it could hurt automakers and the wider economy."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Want to buy a used EV? Here’s what to look out for",
-            "As more EVs hit the road, will we have the mechanics to keep them running?"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Ottawa scrapped EV sales requirements in 2026 and is moving repeal the broader federal mandate. It announced replacement emissions standards in February with consultations on the proposed regulations running until October 29."
-        },
-        {
-          "type": "p",
-          "text": "Electric vehicles still account for a minortiy of new vehicle sales in Canada, despite years of government incentives aimed at encouraging consumers to buy them."
-        },
-        {
-          "type": "p",
-          "text": "Electric vehicles accounted for 11.7 per cent of new light-duty vehicle sales in Canada in the first three months of 2026, according to Transport Canada, down from a peak of 15.4 per cent in 2024."
-        },
-        {
-          "type": "p",
-          "text": "\"At this point, it's a niche market,\" McKitrick said. \"Some households like the product and are willing to pay for it.\""
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Colin Butler is based in London, Ont., where he reports for Ontario and national audiences. He covers investigative, science, public policy and government accountability with a particular interest in using public records to uncover hidden stories."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "More by Colin Butler:"
-          ]
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "abs-1397idh",
-      "source": "abs",
-      "title": "UAAP: NU women weather Dela Rosa, Ateneo for win No. 2",
-      "summary": "National University weathered a tremendous effort from Kacey dela Rosa to turn back Ateneo de Manila University, 87-77, and stay unbeaten in the UAAP Season 89 women's basketball tournament on…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-03T07:47:35.000Z",
-      "firstSeen": "2026-10-04T08:20:11.103Z",
-      "url": "https://www.abs-cbn.com/sports/basketball/2026/10/3/uaap-nu-women-weather-dela-rosa-ateneo-for-win-no-2-1547",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "National University weathered a tremendous effort from Kacey dela Rosa to turn back Ateneo de Manila University, 87-77, and stay unbeaten in the UAAP Season 89 women's basketball tournament on Saturday at the PhilSports Arena in Pasig City."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "grd-14snap1",
