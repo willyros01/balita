@@ -1,0 +1,146 @@
+{
+  "id": "rap-1wyhgtl",
+  "source": "rap",
+  "title": "Cybersecurity at ‘machine speed’: AI accelerates both attacks and defenses",
+  "summary": "AI can help defenders keep pace with increasingly automated threats but giving machines more autonomy creates security risks of its own as well",
+  "byline": "Gelo Gonzales",
+  "section": "Tech Features",
+  "published": "2026-10-06T10:43:45.000Z",
+  "firstSeen": "2026-10-06T11:01:07.542Z",
+  "url": "https://www.rappler.com/technology/features/cybersecurity-machine-speed-ai-accelerates-attacks-defenses/",
+  "image": {
+    "src": "https://www.rappler.com/tachyon/2026/10/ai-reuters-2026-10-scaled.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "AI IN CYBERSECURITY. Both attackers and defenders of digital systems are increasingly deploying AI-powered systems."
+    },
+    {
+      "type": "p",
+      "text": "Gelo Gonzales/Rappler"
+    },
+    {
+      "type": "p",
+      "text": "AI can help defenders keep pace with increasingly automated threats but giving machines more autonomy creates security risks of its own as well"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Cybersecurity is evolving as attackers utilize AI for faster exploits, prompting defenders to adopt AI to keep pace, which introduces new risks.",
+        "AI systems, particularly agentic AI, are being developed to enhance security operations by quickly analyzing alerts and generating hypotheses, allowing for more efficient responses.",
+        "While AI can improve cybersecurity defenses, it also creates vulnerabilities; organizations must carefully manage AI access and permissions to mitigate risks."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This is AI-generated. Read the article for full context. Report any errors."
+    },
+    {
+      "type": "p",
+      "text": "MANILA, Philippines – Cybersecurity is entering a new cycle: attackers are using artificial intelligence (AI) to move faster, defenders are deploying AI to keep up, and those defensive systems are creating new risks of their own."
+    },
+    {
+      "type": "p",
+      "text": "That was one of the clearest messages from a summit hosted by US cybersecurity firm Fortinet, where speakers laid out how AI is reshaping both security operations and the systems that protect them."
+    },
+    {
+      "type": "p",
+      "text": "Society relies on a lot of digital systems. Most of us will rarely see these cybersecurity defenses in action. But even so, it is important that we understand the risks that these digital systems face now, so we can decide for ourselves whether the risks involved with a certain digital platform is acceptable or not for our various uses."
+    },
+    {
+      "type": "p",
+      "text": "Fortinet security operations strategist Andrew Molly said many organizations still rely heavily on manual triage and investigation, even as security environments generate more alerts, more telemetry, and more complexity. And the problem for cybersecurity teams and systems now, he argued, is no longer simply gathering more data. It is making sense of that data quickly enough."
+    },
+    {
+      "type": "p",
+      "text": "That means understanding not just individual alerts, but the relationships between logs, systems, behaviors, users, and threat intelligence, and doing so at a pace humans may struggle to sustain. The value of AI, in this context, is its ability to piece information together and help security teams arrive at a judgment faster. This becomes more important as attackers themselves begin operating at “machine speed.”"
+    },
+    {
+      "type": "p",
+      "text": "Cybersecurity news site Dark Reading reported in October that exploitation of some newly disclosed vulnerabilities begin within hours rather than days or weeks, with security researchers pointing to large language models as one factor accelerating vulnerability analysis and exploit development."
+    },
+    {
+      "type": "p",
+      "text": "Independent security researcher Justin O’Leary, quoted by Dark Reading, described one AI-assisted attack sequence as “nothing exotic, just faster.”"
+    },
+    {
+      "type": "p",
+      "text": "It is this compression of time that changes the balance for defenders."
+    },
+    {
+      "type": "p",
+      "text": "If an attacker can analyze a vulnerability, understand the surrounding environment, and begin testing attack paths much faster than before, organizations cannot depend entirely on humans manually reviewing alerts and piecing together incidents after the fact."
+    },
+    {
+      "type": "p",
+      "text": "One possible answer to this? Agentic AI."
+    },
+    {
+      "type": "p",
+      "text": "In one summit demonstration, an AI system took a security alert and generated several hypotheses about what may have happened. Specialized agents then gathered information to test those possibilities before the system produced a verdict and recommended next steps."
+    },
+    {
+      "type": "p",
+      "text": "The point was not simply to summarize an alert, but to perform structured investigation."
+    },
+    {
+      "type": "p",
+      "text": "Traditional security automation is programmed to follow a stricter “if A, then B” route. But agentic AI is being positioned as something more flexible, able to investigate, reason across different sources of information, use tools, and recommend or perform actions based on what it finds."
+    },
+    {
+      "type": "p",
+      "text": "In theory, that lets defenders move closer to the speed of automated attackers."
+    },
+    {
+      "type": "p",
+      "text": "But cybersecurity is not likely nor is it ideal to be deployed in a fully autonomous manner, Fortinet argues. More realistically, security operations will probably become a mix of fully automated responses and human-in-the-loop decisions."
+    },
+    {
+      "type": "p",
+      "text": "Some actions may be safe enough to automate. Others, particularly those that could disrupt critical systems or affect sensitive environments, may still require a human to approve the final step."
+    },
+    {
+      "type": "p",
+      "text": "But while AI agents may become invaluable for cybersecurity defenses, what’s ironic is that they also create vulnerabilities as well."
+    },
+    {
+      "type": "p",
+      "text": "The more authority organizations give AI systems, the more access those systems need. And once an AI agent can interact with databases, cloud services, network devices, internal applications, or security tools, that agent itself becomes something that must be secured from threats like malicious prompts and instructions that could allow sensitive data to leak."
+    },
+    {
+      "type": "p",
+      "text": "Fortinet application, cloud and AI security sales lead Shou Hau Leong raised this directly during the summit by asking whether organizations should treat AI agents as “digital employees.” Human employees are generally not supposed to receive access to every corporate system."
+    },
+    {
+      "type": "p",
+      "text": "Their permissions should reflect their roles, and the same principle should apply to AI agents, the firm argues. With the recent spate of seemingly automated hacking done by frontier AI models from OpenAI and Anthropic, the term “agentic AI” might strike fear in some."
+    },
+    {
+      "type": "p",
+      "text": "But as Deven Desai, associate director for law, policy, and ethics at the Machine Learning Center, Georgia Institute of Technology argues in an article, computer systems, including agentic AIs, don’t really “go rogue.”"
+    },
+    {
+      "type": "p",
+      "text": "The AI is merely attempting to complete a goal that a human provided it with, and therefore a human can specify a limit to what it can do. “If you don’t specify the limits of what software is allowed to do, you should not be surprised when the software pursues all possible options to achieve its goal,” she said."
+    },
+    {
+      "type": "p",
+      "text": "The same applies to AI agents being deployed as part of cybersecurity defenses."
+    },
+    {
+      "type": "p",
+      "text": "In the AI era, cybersecurity defenses need to deploy systems that can keep up with the AI-enabled attacks threat actors use. But those new systems including AI agents, if not configured properly, can themselves be a vulnerability. The cycle therefore leads back to the human: he or she has to specify what it can do, what it can access, and what it can’t. – Rappler.com"
+    },
+    {
+      "type": "image",
+      "src": "https://www.rappler.com/tachyon/2026/10/ai-reuters-2026-10-scaled.jpg?fit=449%2C449",
+      "caption": "Computer science has long understood what it takes to keep AI under control"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
