@@ -1,0 +1,104 @@
+{
+  "id": "bbc-sv8ohc",
+  "source": "bbc",
+  "title": "OpenAI admits response to Australian government hacks 'not good enough'",
+  "summary": "Top executive Jason Kwon tells hearing company has added \"more precautions\" to its training environments.",
+  "byline": "Lana Lam, Simon Atkinson",
+  "section": "",
+  "published": "2026-10-06T06:00:53.000Z",
+  "firstSeen": "2026-10-06T06:31:03.954Z",
+  "url": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo?at_medium=RSS&at_campaign=rss",
+  "image": {
+    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d74c/live/d3ce6cd0-c13e-11f1-a64c-550be9e3c66b.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "OpenAI has admitted its actions were \"not good enough\" after one of its rogue agents breached Australian government websites in June and said it had added more precautions to its training environments."
+    },
+    {
+      "type": "p",
+      "text": "The company's chief strategy officer Jason Kwon faced a parliamentary hearing into AI on Tuesday in Sydney, saying the breach \"should not have happened\" and it \"should have handled our response better\". It took weeks before Australia was notified via an email to a generic inbox."
+    },
+    {
+      "type": "p",
+      "text": "\"We are sorry and we know we have work to do to rebuild trust with the Australian people,\" Kwon said."
+    },
+    {
+      "type": "p",
+      "text": "Anthropic also appeared and said it had not found any cases of Australian breaches during a recent investigation."
+    },
+    {
+      "type": "p",
+      "text": "An OpenAI agent went \"rogue\" and \"infiltrated\" a private statistics portal containing \"non-sensitive\" data from Australia's universal healthcare scheme Medicare in June in what cyber-security experts said was the first hack of its kind."
+    },
+    {
+      "type": "p",
+      "text": "Asked why OpenAI had not directly contacted government ministers immediately after it found out about the breaches, Kwon acknowledged it was a mistake."
+    },
+    {
+      "type": "p",
+      "text": "\"In retrospect, we should have done what you're suggesting,\" Kwon said, in response to a question by the committee on why it had not dialled the mobile numbers of government ministers."
+    },
+    {
+      "type": "p",
+      "text": "\"The reason why it happened the way that it did is I think people were thinking about this as a technical situation and they wanted to contact the technical counterparties but it's not good enough.\""
+    },
+    {
+      "type": "p",
+      "text": "Kwon said the company has changed how it handles such incidents."
+    },
+    {
+      "type": "p",
+      "text": "\"Even if we don't fully understand the situation, we are just going to notify and start working through the situation collaboratively with the impacted party.\""
+    },
+    {
+      "type": "p",
+      "text": "OpenAI has also added \"more precautions\" to its training environments since the incidents, Kwon told the 12-member committee which is made up of Labor, Liberal and independent MPs and senators who are looking at AI and its impact on Australia."
+    },
+    {
+      "type": "p",
+      "text": "The company was also establishing a local taskforce in Australia to investigate \"how to better manage the risks associated with increasingly capable AI\"."
+    },
+    {
+      "type": "p",
+      "text": "Kwon told the committee that training models were now monitored in real time during tests, and an alarm was triggered if they interact with the internet in a way they were not meant to."
+    },
+    {
+      "type": "p",
+      "text": "This meant that it had been able to alert the New South Wales government to another hack last week within 48 hours."
+    },
+    {
+      "type": "p",
+      "text": "The company would also support a framework on mandatory disclosure of incidents, Kwon said, as it would set out \"clear expectations\"."
+    },
+    {
+      "type": "p",
+      "text": "\"We were trying to come up with a standard to apply to our voluntary actions… based on our learned experience here, we should have been probably talking to more people about how to do that well.\""
+    },
+    {
+      "type": "p",
+      "text": "Anthropic's head of safeguards Dave Orr said in the wake of OpenAI agents hacking tech platform Hugging Face in July, it had reviewed \"hundreds of millions of transcripts\" to detect any potential breaches of Australian government websites similar to OpenAI."
+    },
+    {
+      "type": "p",
+      "text": "\"We haven't found anything like this and we have looked,\" he told the committee."
+    },
+    {
+      "type": "p",
+      "text": "The public hearings, which will continue until Friday, also heard evidence from arts and media organisations about copyright and their concerns on how AI models use their materials."
+    },
+    {
+      "type": "p",
+      "text": "An opt-out model - where the onus would be on the artist to ask AI not to use their material for training purposes - was flawed and could means artists do not get paid for their content, the committee heard."
+    },
+    {
+      "type": "p",
+      "text": "\"In other words, Australia's artists will be the roadkill in the rush to this AI deal,\" said Annabelle Herd, chief executive of the Australian Recording Industry Association."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
