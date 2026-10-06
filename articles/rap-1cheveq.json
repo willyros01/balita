@@ -1,0 +1,73 @@
+{
+  "id": "rap-1cheveq",
+  "source": "rap",
+  "title": "Accenture contractor removed from FBI following damaging data breach, sources say",
+  "summary": "The breach triggers concern across the FBI and the wider intelligence community",
+  "byline": "Reuters",
+  "section": "Technology",
+  "published": "2026-10-06T05:08:56.000Z",
+  "firstSeen": "2026-10-06T05:31:05.296Z",
+  "url": "https://www.rappler.com/technology/accenture-contractor-removed-fbi-data-breach/",
+  "image": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "WASHINGTON, USA – The Federal Bureau of Investigation removed an Accenture contractor on Monday, October 5, over their role in a damaging data breach that exposed sensitive personal details of thousands of bureau employees, two sources familiar with the matter told Reuters."
+    },
+    {
+      "type": "p",
+      "text": "The development comes as the FBI is still trying to ascertain the ramifications of the breach, which some former bureau officials have described as a major blow to the organization’s operational security."
+    },
+    {
+      "type": "p",
+      "text": "In a statement to Reuters, a senior FBI official confirmed that an unidentified contractor had failed to properly update — or patch — the system they were responsible for."
+    },
+    {
+      "type": "p",
+      "text": "“To date, our review has determined that the incident occurred as the result of a security failure of a platform managed by a third-party organization — after a contractor failed to implement a security patch explicitly issued to secure the platform,” FBI cyber chief Brett Leatherman said in the statement. “As such, the FBI has removed the contractor and taken all necessary steps to both mitigate any further risk and protect our workforce.”"
+    },
+    {
+      "type": "p",
+      "text": "The FBI did not identify the platform or third-party organization, but the two sources familiar with the matter said the platform was Oracle’s PeopleSoft, a human resources platform that the hacking group ShinyHunters said it exploited to break into the FBI’s job site last month."
+    },
+    {
+      "type": "p",
+      "text": "Oracle did not immediately reply to a request for comment."
+    },
+    {
+      "type": "p",
+      "text": "The sources also said the third-party organization was Accenture. Reuters could not immediately identify the specific contractor or determine their current employment status."
+    },
+    {
+      "type": "p",
+      "text": "In a statement, Accenture said it was “proud to support the mission of the FBI and will continue to do so.” It did not answer questions about the contractor or their alleged failure to patch."
+    },
+    {
+      "type": "p",
+      "text": "In June, Google raised the alarm over a ShinyHunters-linked hack-and-extort campaign aimed at organizations using PeopleSoft ‌software. The same day, Oracle issued a security alert identifying a weakness in PeopleSoft and offering security fixes."
+    },
+    {
+      "type": "p",
+      "text": "Both companies urged organizations running PeopleSoft to “apply all Critical Patch Updates, Critical Security Patch Updates and Security Alerts without delay.”"
+    },
+    {
+      "type": "p",
+      "text": "Swift patching of vulnerable software is considered a key part of defending networks and devices against hackers, but the process can be laborious and difficult, particularly with enterprise software that serves large numbers of people."
+    },
+    {
+      "type": "p",
+      "text": "Reuters has not been able to determine whether or when those responsible for securing the FBI’s job site followed those recommendations, but ShinyHunters credited a vulnerability in PeopleSoft for facilitating its intrusion."
+    },
+    {
+      "type": "p",
+      "text": "The breach has triggered concern across the FBI and the wider intelligence community, exposing sensitive personal information, including granular descriptions of named employees’ counterintelligence jobs, street addresses of human intelligence operatives, and medical and psychiatric records of bureau workers."
+    },
+    {
+      "type": "p",
+      "text": "Last week, a key ShinyHunters suspect was detained in Jordan, Reuters reported. Sources told Reuters the alleged hacker was cooperating, a development that may help the bureau limit — or at the very least understand — the scope of the damage."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "feed"
+}
