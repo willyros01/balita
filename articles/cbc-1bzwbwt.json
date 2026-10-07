@@ -1,0 +1,183 @@
+{
+  "id": "cbc-1bzwbwt",
+  "source": "cbc",
+  "title": "What's the fire danger from lithium batteries?",
+  "summary": "Firefighters have raised alarms about hot, fast, hard-to-extinguish fires in lithium batteries from e-bikes in people's homes and huge storage batteries at a P.E.I. solar farm. Here's why lithium…",
+  "byline": "Emily Chung",
+  "section": "News/Science",
+  "published": "2026-10-07T08:00:00.000Z",
+  "firstSeen": "2026-10-07T08:31:12.067Z",
+  "url": "https://www.cbc.ca/news/science/lithium-battery-fire-faq-9.7371004?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/1.7073074,1717221266912/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3BResize%3D620",
+    "caption": "A 2024 e-bike fire in a Toronto subway car led to a seasonal e-bike transit ban. Lithium batteries, especially from e-bikes, are a growing cause of fires across Canada."
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Firefighters have raised alarms about hot, fast, hard-to-extinguish fires in lithium batteries from e-bikes in people's homes (including one in Toronto just this week) and huge storage batteries at a P.E.I. solar farm last month."
+    },
+    {
+      "type": "p",
+      "text": "Concerns about lithium battery fires have led to bans of electric bikes and cars in some buildings, public transit and ferries, causing problems for people who rely on them. They've also made some people hesitant about trying electric vehicles."
+    },
+    {
+      "type": "p",
+      "text": "This week is Fire Prevention Week, and lithium batteries are the official theme. Here's a closer look at why lithium battery fires are a challenge and what can be done to minimize the risks."
+    },
+    {
+      "type": "p",
+      "text": "Why lithium-ion batteries are so dangerous"
+    },
+    {
+      "type": "h",
+      "text": "How common are lithium battery fires?"
+    },
+    {
+      "type": "p",
+      "text": "Canadian fire departments don't track them in a consistent way, but a survey from the Canadian Association of Fire Chiefs estimates there were 1,500 fires started by lithium batteries in 600 communities across the country last year. Their numbers are growing exponentially with the numbers of lithium battery-powered devices, says Paul Boissoneault, president of the association and chief of the Oakville Fire Department."
+    },
+    {
+      "type": "p",
+      "text": "Lithium battery fires are most common for devices found in people's homes, especially e-bikes and e-scooters."
+    },
+    {
+      "type": "p",
+      "text": "EV and energy storage batteries are far rarer, as they're rigorously tested and have built-in safety features like temperature sensors and systems that cool battery cells as needed. Canada-wide statistics on EV fires aren't available, although U.S. data suggests they're extremely uncommon compared to fires in gas-powered vehicles."
+    },
+    {
+      "type": "p",
+      "text": "LISTEN | Separating fact from fiction about EV battery fires:"
+    },
+    {
+      "type": "p",
+      "text": "What On Earth28:30Separating fact from fiction about EV battery fires"
+    },
+    {
+      "type": "p",
+      "text": "Grid storage battery fires are even less common — a global database from the Electric Power Research Institute shows the one in P.E.I. was one of only six worldwide this year."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "As Summerside works to contain fire at solar farm, this expert says such fires are rare"
+      ]
+    },
+    {
+      "type": "h",
+      "text": "What causes lithium battery fires?"
+    },
+    {
+      "type": "p",
+      "text": "Batteries rely on the separation of their positive and negative terminals. That forces electrons to move through the device you're powering to get from one end of the battery to the other."
+    },
+    {
+      "type": "p",
+      "text": "A barrier material keeps the terminals separated. When a hole (effectively a short circuit) forms in that barrier, fire happens, said Randy Narine, a professional firefighter in Brampton, Ont., who studies lithium battery safety through his company Clean Core Research, in an interview with CBC's What on Earth?"
+    },
+    {
+      "type": "p",
+      "text": "That hole can be caused by wear and tear over time or from damage, such as a collision or someone dropping a battery from a smaller device, such as an e-bike."
+    },
+    {
+      "type": "p",
+      "text": "Lithium battery fires can also be started from overheating — due to overcharging or improper charging (such as with the wrong charger) or heat exposure from an external heat source, including a fire in a nearby battery cell in the same battery, since many batteries contain multiple cells."
+    },
+    {
+      "type": "p",
+      "text": "Regina fire chief gives reminder to check charging devices"
+    },
+    {
+      "type": "h",
+      "text": "What makes them dangerous compared to other fires?"
+    },
+    {
+      "type": "p",
+      "text": "They can burn \"hotter and faster\" than other fires, Boissoneault said. At a certain temperature, lithium batteries reach \"thermal runaway,\" where heat triggers and speeds up chemical reactions in the battery that generate more heat."
+    },
+    {
+      "type": "p",
+      "text": "This can lead to a \"massive chain reaction\" and a potentially explosive fire, Narine said."
+    },
+    {
+      "type": "p",
+      "text": "They make their own oxygen. One of the battery's terminals is made of a metal oxide that breaks down into metal and oxygen gas during a fire, further sustaining the fire. That means normal techniques to smother fires don't work."
+    },
+    {
+      "type": "p",
+      "text": "They generate toxic substances such as hydrogen fluoride as materials in the battery break down in the heat. They can also contaminate firefighters' clothing and equipment with toxic compounds such as formaldehyde and heavy metals that need to be removed afterward."
+    },
+    {
+      "type": "p",
+      "text": "They can reignite hours, days or weeks later, thanks to thermal runaway and their oxygen self-generation. Boissoneault said that can have implications for how the burned batteries are transported and stored after a fire."
+    },
+    {
+      "type": "p",
+      "text": "The fire at this P.E.I. solar farm is finally out. Officials warn it could reignite"
+    },
+    {
+      "type": "p",
+      "text": "Firefighters don't always feel prepared for them. Boissoneault said just 40 per cent of departments surveyed had formal training on dealing with lithium battery incidents, and even fewer said they had standard operating policies and the correct equipment to deal with such emergencies. Many also don't have a way to decontaminate their gear after a lithium fire."
+    },
+    {
+      "type": "h",
+      "text": "How can they be handled and extinguished?"
+    },
+    {
+      "type": "p",
+      "text": "EV fires are typically sprayed with huge amounts of water. Narine estimated a gas car fire can be extinguished with less than 2,000 litres of water, whereas it can take tens of thousands of litres to put out a lithium battery fire."
+    },
+    {
+      "type": "p",
+      "text": "While water can provide cooling and can sometimes be used to protect nearby materials from catching fire, it can't actually smother the battery fire."
+    },
+    {
+      "type": "p",
+      "text": "Why has a battery been burning for nearly 2 weeks at Summerside's solar farm?"
+    },
+    {
+      "type": "p",
+      "text": "In many cases, fire experts say, the fire just needs to burn out."
+    },
+    {
+      "type": "p",
+      "text": "That's particularly the case for large energy storage batteries, said experts at a fire safety panel at the Energy Storage Canada conference in Toronto in September."
+    },
+    {
+      "type": "p",
+      "text": "Adam Jakubowski, a firefighter and senior consultant with Energy Safety Response Group specializing in battery energy storage systems, said in many cases, putting water on a lithium battery fire simply prolongs a fire, which may reignite a week or month later. It can also lead to water runoff that could contaminate the environment."
+    },
+    {
+      "type": "p",
+      "text": "Toronto's fire chief calls e-bike batteries the 'greatest public fire safety risk'"
+    },
+    {
+      "type": "h",
+      "text": "What can you do to reduce the risk?"
+    },
+    {
+      "type": "p",
+      "text": "Buy batteries with certification labels such as CSA, cUL or CETL rather than cheaper ones that may not have safety features. Don't modify batteries to charge more quickly or hold more charge."
+    },
+    {
+      "type": "p",
+      "text": "Charge devices properly, on hard surfaces, away from any combustible materials, and unplug as soon as they're fully charged, Boissoneault says. Charge with the right charger for that device. \"Don't mix and match,\" says Jon McQuaid, vice-president of marketing communications and safety for Call2Recycle Canada, a non-profit focused on battery collection and recycling."
+    },
+    {
+      "type": "p",
+      "text": "Recycle them only at battery-recycling dropoff sites, not trash or regular recycling bins, McQuaid said. He advises taping over the terminals (even for tiny button batteries) first to protect from debris or other batteries that could cause a spark, \"which could then lead to a thermal runaway.\""
+    },
+    {
+      "type": "p",
+      "text": "Damaged batteries need to be placed in special \"damaged, defective or recalled\" battery containers at select battery dropoff sites."
+    },
+    {
+      "type": "p",
+      "text": "What can you do to prevent a lithium-ion battery fire in your home?"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
