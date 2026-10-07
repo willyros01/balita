@@ -3,23 +3,50 @@
   "source": "bbc",
   "title": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
   "summary": "The prize was given to the French and Japanese scientists for solving the mystery of life's asymmetry.",
-  "byline": "",
+  "byline": "Victoria Gill",
   "section": "",
-  "published": "2026-10-07T10:09:57.000Z",
+  "published": "2026-10-07T10:33:05.000Z",
   "firstSeen": "2026-10-07T10:31:11.797Z",
   "url": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
   "image": {
-    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d6d/live/265d5440-c232-11f1-be2f-0fbd447d6e43.png",
+    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caf1/live/a5f2fc60-c23b-11f1-be2f-0fbd447d6e43.png",
     "caption": ""
   },
   "blocks": [
     {
       "type": "p",
-      "text": "The prize was given to the French and Japanese scientists for solving the mystery of life's asymmetry."
+      "text": "The Nobel Prize in Chemistry has been awarded to French scientist Henri B. Kagan and Japan's Kenso Soai for providing a solution to the chemical mystery of life's asymmetry."
+    },
+    {
+      "type": "p",
+      "text": "The Nobel Committee explained: \"Molecules used by all life, such as the amino acids that are building of proteins, are what is known as chiral."
+    },
+    {
+      "type": "p",
+      "text": "\"This means that they have two versions that are mirror images of one another.\""
+    },
+    {
+      "type": "p",
+      "text": "The building blocks to make living organisms on Earth only works with one version. The two scientists answered the question of why life favours one of these mirror image molecules over the other."
+    },
+    {
+      "type": "p",
+      "text": "In organic chemistry, this property is known as \"chirality\" - where there are two symmetrical versions of a molecule, each with different properties."
+    },
+    {
+      "type": "p",
+      "text": "You can think of them as looking like our hands - each a mirror image of the other."
+    },
+    {
+      "type": "p",
+      "text": "When it comes to making drugs, this is particularly significant. One version of a molecule might have disease-fighting properties, while the other version does nothing."
+    },
+    {
+      "type": "p",
+      "text": "Henri Kagan and Kenso Soai worked out how to design chemical reactions so they produce much more of the correct, desired version."
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct returned no extractable article text"
+  "source_of_text": "page"
 }
