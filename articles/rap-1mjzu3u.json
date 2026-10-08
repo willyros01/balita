@@ -1,0 +1,72 @@
+{
+  "id": "rap-1mjzu3u",
+  "source": "rap",
+  "title": "Suspect behind South Korea bank hacks may be 26-year-old in China",
+  "summary": "CrowdStrike says the attacker used ARTEX, a recently released Chinese-developed open-source penetration-testing tool, alongside large language models",
+  "byline": "Reuters",
+  "section": "Asia Pacific",
+  "published": "2026-10-08T00:33:05.000Z",
+  "firstSeen": "2026-10-08T01:01:09.669Z",
+  "url": "https://www.rappler.com/technology/suspect-south-korea-bank-hacks-chinese/",
+  "image": {
+    "src": "https://www.rappler.com/tachyon/2024/10/2024-10-26T002952Z_1910493116_RC2ZRAA1YSXG_RTRMADP_3_USA-ELECTION-TRUMP-CHINA.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "HACKER. A man holds a laptop computer as cyber code is projected on him in this illustration picture taken on May 13, 2017."
+    },
+    {
+      "type": "p",
+      "text": "REUTERS/Kacper Pempel/Illustration/File Photo"
+    },
+    {
+      "type": "p",
+      "text": "CrowdStrike says the attacker used ARTEX, a recently released Chinese-developed open-source penetration-testing tool, alongside large language models"
+    },
+    {
+      "type": "p",
+      "text": "SEOUL, South Korea – The suspect behind recent cyberattacks targeting South Korea’s financial sector may be a 26-year-old based in China’s Guangdong province, US cybersecurity firm CrowdStrike said."
+    },
+    {
+      "type": "p",
+      "text": "In a report published on its website on Wednesday, October 7, CrowdStrike said it uncovered personal details linked to the suspected attacker while analyzing AI coding-tool sessions and infrastructure associated with a campaign targeting South Korean financial institutions from late September to early October."
+    },
+    {
+      "type": "p",
+      "text": "CrowdStrike said the attacker used ARTEX, a recently released Chinese-developed open-source penetration testing tool, alongside large language models, and assessed with “moderate confidence” that the actor was a Chinese speaker and likely financially motivated."
+    },
+    {
+      "type": "p",
+      "text": "The firm said one Claude Code session contained a request to create a security researcher resume describing results from the hacking activity."
+    },
+    {
+      "type": "p",
+      "text": "The prompt included details such as a Telegram account, age, education background and a location in Maoming, Guangdong, the report said."
+    },
+    {
+      "type": "p",
+      "text": "CrowdStrike said the same Telegram username appeared in other cyber activity, including vulnerability research involving a Telegram-based NFT marketplace and a separate suspected attack on a Chinese payment platform."
+    },
+    {
+      "type": "p",
+      "text": "The company said the personal details likely belonged to the actor responsible for the activity, but cautioned that currently available information could not definitively identify the attacker."
+    },
+    {
+      "type": "p",
+      "text": "Authorities in Seoul are investigating cyberattacks that affected multiple financial institutions after banks including Shinhan Bank and KB Kookmin Bank reported data breaches."
+    },
+    {
+      "type": "p",
+      "text": "South Korean police, who have launched a probe, did not immediately respond to a request for comment."
+    },
+    {
+      "type": "p",
+      "text": "South Korean President Lee Jae Myung said on Tuesday, October 6, that signs had emerged that AI was used in some of the hacking incidents and called for heightened cybersecurity measures. – Rappler.com"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}

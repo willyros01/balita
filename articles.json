@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-08T00:31:35.445Z",
+  "updated": "2026-10-08T01:01:38.480Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,63 @@
   ],
   "articles": [
     {
+      "id": "inqn-pt86x1",
+      "source": "inqn",
+      "title": "2 senators lead new bid vs trial threshold",
+      "summary": "MANILA, Philippines — The Senate impeachment court’s ruling that reduced the number of votes needed to convict or acquit Vice President Sara Duterte in her impeachment trial is being challenged again…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-08T01:01:24.069Z",
+      "firstSeen": "2026-10-07T22:01:18.537Z",
+      "url": "https://newsinfo.inquirer.net/2319608/2-senators-lead-new-bid-vs-trial-threshold",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Senators-Robinhood-Padilla-and-Christopher-Bong-Go-INQUIRER-FILE-1.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Senate impeachment court’s ruling that reduced the number of votes needed to convict or acquit Vice President Sara Duterte in her impeachment trial is being challenged again in the Supreme Court, this time by her allies from the chamber and from her father’s political party. Senators Robinhood Padilla and Christopher Lawrence"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-cyyvgy",
+      "source": "inqn",
+      "title": "COA ‘disallowance’ final: OVP must return P73M",
+      "summary": "MANILA, Philippines — Vice President Sara Duterte and two other officials of the Office of the Vice President (OVP) are obliged to return the P73.287 million in confidential funds that the OVP spent…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-08T01:01:24.069Z",
+      "firstSeen": "2026-10-07T21:31:06.373Z",
+      "url": "https://newsinfo.inquirer.net/2319606/coa-disallowance-final-ovp-must-return-p73m",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/commission-audit-logo-and-building-26august2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Vice President Sara Duterte and two other officials of the Office of the Vice President (OVP) are obliged to return the P73.287 million in confidential funds that the OVP spent in 11 days in December 2022 without proper documentation, according to state auditors. The Commission on Audit (COA) on Monday “affirmed with"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-qftlxh",
       "source": "inqn",
       "title": "Bohol farms reel from El Niño, suffer P173.7M in losses",
       "summary": "TAGBILARAN CITY, BOHOL, Philippines — Prolonged dry conditions linked to El Niño have caused an estimated P173.69 million in agricultural losses in Bohol, affecting 6,676 farmers in 24 of the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-08T00:31:22.929Z",
+      "published": "2026-10-08T01:01:24.069Z",
       "firstSeen": "2026-10-07T21:31:06.435Z",
       "url": "https://newsinfo.inquirer.net/2319586/bohol-farms-reel-from-el-nino-suffer-p173-7m-in-losses",
       "image": {
@@ -84,7 +134,7 @@
       "summary": "BAGUIO CITY, Philippines — The dreaded impact of a “super El Niño” may actually drive up tourism in this city as visitors flee to the country’s coolest mountain city to escape the projected heat…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-08T00:31:22.929Z",
+      "published": "2026-10-08T01:01:24.069Z",
       "firstSeen": "2026-10-07T21:31:06.959Z",
       "url": "https://newsinfo.inquirer.net/2319582/baguio-sees-tourism-boost-amid-prolonged-dry-spell",
       "image": {
@@ -109,7 +159,7 @@
       "summary": "REINA MERCEDES, ISABELA, Philippines — Vice Mayor Jeryll Harold Respicio of this town on Wednesday passed a P28,000 drug test at St. Luke’s Medical Center in Quezon City, then joked that Interior…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-08T00:31:22.929Z",
+      "published": "2026-10-08T01:01:24.069Z",
       "firstSeen": "2026-10-07T21:31:08.483Z",
       "url": "https://newsinfo.inquirer.net/2319580/isabela-vice-mayor-clears-drug-test-after-remulla-challenge",
       "image": {
@@ -134,7 +184,7 @@
       "summary": "ILIGAN CITY, Philippines — Jonathan Lacdagan Landong, a Higaonon, has spent 20 years teaching and serving the indigenous people’s (IP) community in Limonda village of Opol town, Misamis Oriental that…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-08T00:31:22.929Z",
+      "published": "2026-10-08T01:01:24.069Z",
       "firstSeen": "2026-10-07T18:01:07.171Z",
       "url": "https://newsinfo.inquirer.net/2319565/2-mindanao-teachers-persist-in-mission-of-educating-ip-children",
       "image": {
@@ -153,23 +203,73 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-cyyvgy",
+      "id": "inqn-j3tks9",
       "source": "inqn",
-      "title": "COA ‘disallowance’ final: OVP must return P73M",
-      "summary": "MANILA, Philippines — Vice President Sara Duterte and two other officials of the Office of the Vice President (OVP) are obliged to return the P73.287 million in confidential funds that the OVP spent…",
+      "title": "DILG: 58 TBS members nabbed in 2025",
+      "summary": "MANILA, Philippines — Fifty-eight True Brown Style (TBS) gang members were among the 200 individuals arrested during the Sept. 21, 2025 protests in Manila, which were marred by violence. “We looked…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-08T00:31:22.870Z",
-      "firstSeen": "2026-10-07T21:31:06.373Z",
-      "url": "https://newsinfo.inquirer.net/2319606/coa-disallowance-final-ovp-must-return-p73m",
+      "published": "2026-10-08T01:01:22.340Z",
+      "firstSeen": "2026-10-07T22:01:08.633Z",
+      "url": "https://newsinfo.inquirer.net/2319617/dilg-58-tbs-members-nabbed-in-2025",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/commission-audit-logo-and-building-26august2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/08/1271443.jpeg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — Vice President Sara Duterte and two other officials of the Office of the Vice President (OVP) are obliged to return the P73.287 million in confidential funds that the OVP spent in 11 days in December 2022 without proper documentation, according to state auditors. The Commission on Audit (COA) on Monday “affirmed with"
+          "text": "MANILA, Philippines — Fifty-eight True Brown Style (TBS) gang members were among the 200 individuals arrested during the Sept. 21, 2025 protests in Manila, which were marred by violence. “We looked at our investigations; out of the 200 we arrested last Sept. 21 in Mendiola, 58 were members of True Brown Style. So we see"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1fcvobr",
+      "source": "inqn",
+      "title": "SC: Concealment may void insurance policy",
+      "summary": "MANILA, Philippines — Withholding one’s personal information, including a health condition, when applying for insurance is considered a fraudulent act that could lead to the claim being rejected.…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-08T01:01:22.340Z",
+      "firstSeen": "2026-10-07T22:01:08.690Z",
+      "url": "https://newsinfo.inquirer.net/2319615/sc-concealment-may-void-insurance-policy",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/01/Front-Page1168331-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Withholding one’s personal information, including a health condition, when applying for insurance is considered a fraudulent act that could lead to the claim being rejected. This was the rationale of the Supreme Court in a Jan. 28 ruling released only on Tuesday that affirmed the cancellation of a claimant’s life insurance policy"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-nml640",
+      "source": "inqn",
+      "title": "COA flags MMDA for failing to insure P9.22-B assets",
+      "summary": "MANILA, Philippines — The Commission on Audit (COA) has found that over P9.22 billion worth of properties under the Metropolitan Manila Development Authority (MMDA) remain uninsured, which is a…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-08T01:01:22.340Z",
+      "firstSeen": "2026-10-07T22:01:08.698Z",
+      "url": "https://newsinfo.inquirer.net/2319614/coa-flags-mmda-for-failing-to-insure-p9-22-b-assets",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/04/metro-manila-development-authority-MMDA.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Commission on Audit (COA) has found that over P9.22 billion worth of properties under the Metropolitan Manila Development Authority (MMDA) remain uninsured, which is a violation of the law and exposes the government to financial risks. In its 2025 audit report, the COA said it reviewed the compliance of the MMDA"
         }
       ],
       "truncated": true,
@@ -184,7 +284,7 @@
       "summary": "MANILA, Philippines — Batangas Rep. Leandro Leviste remains at large following the issuance of an arrest warrant against him for alleged violation of the Public Service Act (PSA) involving his…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-08T00:31:22.839Z",
+      "published": "2026-10-08T01:01:22.340Z",
       "firstSeen": "2026-10-07T22:01:09.046Z",
       "url": "https://newsinfo.inquirer.net/2319610/nbi-leviste-a-fugitive-in-case-vs-solar-firm",
       "image": {
@@ -209,7 +309,7 @@
       "summary": "MANILA, Philippines — More than a decade after then Sen. Antonio Trillanes IV publicly alleged that Rodrigo Duterte maintained a large, undeclared account at the Bank of the Philippine Islands (BPI),…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-08T00:31:22.839Z",
+      "published": "2026-10-08T01:01:22.340Z",
       "firstSeen": "2026-10-07T22:01:10.723Z",
       "url": "https://newsinfo.inquirer.net/2319611/bank-confirms-duterte-father-daughter-account",
       "image": {
@@ -228,88 +328,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-pt86x1",
-      "source": "inqn",
-      "title": "2 senators lead new bid vs trial threshold",
-      "summary": "MANILA, Philippines — The Senate impeachment court’s ruling that reduced the number of votes needed to convict or acquit Vice President Sara Duterte in her impeachment trial is being challenged again…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-08T00:31:22.839Z",
-      "firstSeen": "2026-10-07T22:01:18.537Z",
-      "url": "https://newsinfo.inquirer.net/2319608/2-senators-lead-new-bid-vs-trial-threshold",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Senators-Robinhood-Padilla-and-Christopher-Bong-Go-INQUIRER-FILE-1.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Senate impeachment court’s ruling that reduced the number of votes needed to convict or acquit Vice President Sara Duterte in her impeachment trial is being challenged again in the Supreme Court, this time by her allies from the chamber and from her father’s political party. Senators Robinhood Padilla and Christopher Lawrence"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-nml640",
-      "source": "inqn",
-      "title": "COA flags MMDA for failing to insure P9.22-B assets",
-      "summary": "MANILA, Philippines — The Commission on Audit (COA) has found that over P9.22 billion worth of properties under the Metropolitan Manila Development Authority (MMDA) remain uninsured, which is a…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-08T00:31:21.106Z",
-      "firstSeen": "2026-10-07T22:01:08.698Z",
-      "url": "https://newsinfo.inquirer.net/2319614/coa-flags-mmda-for-failing-to-insure-p9-22-b-assets",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/04/metro-manila-development-authority-MMDA.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Commission on Audit (COA) has found that over P9.22 billion worth of properties under the Metropolitan Manila Development Authority (MMDA) remain uninsured, which is a violation of the law and exposes the government to financial risks. In its 2025 audit report, the COA said it reviewed the compliance of the MMDA"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1fcvobr",
-      "source": "inqn",
-      "title": "SC: Concealment may void insurance policy",
-      "summary": "MANILA, Philippines — Withholding one’s personal information, including a health condition, when applying for insurance is considered a fraudulent act that could lead to the claim being rejected.…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-08T00:31:21.037Z",
-      "firstSeen": "2026-10-07T22:01:08.690Z",
-      "url": "https://newsinfo.inquirer.net/2319615/sc-concealment-may-void-insurance-policy",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/01/Front-Page1168331-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Withholding one’s personal information, including a health condition, when applying for insurance is considered a fraudulent act that could lead to the claim being rejected. This was the rationale of the Supreme Court in a Jan. 28 ruling released only on Tuesday that affirmed the cancellation of a claimant’s life insurance policy"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-100tfgb",
       "source": "inqn",
       "title": "ITCZ, northeasterly wind flow to prevail over parts of PH on Thursday",
       "summary": "MANILA, Philippines — The intertropical convergence zone (ITCZ) and the northeasterly wind flow will continue to bring cloudy skies and rains over parts of the country on Thursday, according to the…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-10-08T00:31:19.260Z",
+      "published": "2026-10-08T01:01:20.899Z",
       "firstSeen": "2026-10-07T23:01:06.533Z",
       "url": "https://newsinfo.inquirer.net/2319705/itcz-northeasterly-wind-flow-to-prevail-over-parts-of-ph-on-thursday",
       "image": {
@@ -328,38 +353,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-j3tks9",
-      "source": "inqn",
-      "title": "DILG: 58 TBS members nabbed in 2025",
-      "summary": "MANILA, Philippines — Fifty-eight True Brown Style (TBS) gang members were among the 200 individuals arrested during the Sept. 21, 2025 protests in Manila, which were marred by violence. “We looked…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-08T00:31:19.260Z",
-      "firstSeen": "2026-10-07T22:01:08.633Z",
-      "url": "https://newsinfo.inquirer.net/2319617/dilg-58-tbs-members-nabbed-in-2025",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/1271443.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Fifty-eight True Brown Style (TBS) gang members were among the 200 individuals arrested during the Sept. 21, 2025 protests in Manila, which were marred by violence. “We looked at our investigations; out of the 200 we arrested last Sept. 21 in Mendiola, 58 were members of True Brown Style. So we see"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1i4mm99",
       "source": "inqn",
       "title": "VP Trial Day 36: BIR exec to testify before Senate impeach court",
       "summary": "MANILA, Philippines — An executive of the Bureau of Internal Revenue (BIR) is set to testify before the Senate impeachment court on Thursday as part of the trial’s proceedings on Vice President Sara…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-08T00:31:05.508Z",
+      "published": "2026-10-08T01:01:19.261Z",
       "firstSeen": "2026-10-07T23:31:40.660Z",
       "url": "https://newsinfo.inquirer.net/2319687/vp-trial-day-36-bir-exec-to-testify-before-senate-impeach-court",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — The Philippine Coconut Authority (PCA) is urging coconut farmers in Oriental Mindoro to adopt moisture-saving practices as prolonged heat and dry conditions…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-10-08T00:31:03.040Z",
+      "published": "2026-10-08T01:01:11.889Z",
       "firstSeen": "2026-10-07T23:31:40.650Z",
       "url": "https://newsinfo.inquirer.net/2319708/coconut-agency-urges-moisture-saving-measures-as-el-nino-threatens-farms",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "CALAPAN CITY — A fish kill episode has been reported along parts of the coastline of Odiongan, with the Municipal Agriculture Office (MAO) linking it to the extreme heat and rising seawater…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-10-08T00:31:03.038Z",
+      "published": "2026-10-08T01:01:11.532Z",
       "firstSeen": "2026-10-07T23:31:40.590Z",
       "url": "https://newsinfo.inquirer.net/2319710/el-nino-linked-to-fish-kill-in-parts-of-odiongan-romblon",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "MANILA, Philippines – On Day 36 of Vice President Sara Duterte’s impeachment trial, a Bureau of Internal Revenue (BIR) executive is set to testify before the Senate impeachment court on Duterte and…",
       "byline": "jcristobal",
       "section": "Latest News Stories",
-      "published": "2026-10-08T00:31:03.038Z",
+      "published": "2026-10-08T01:01:10.633Z",
       "firstSeen": "2026-10-08T00:31:03.038Z",
       "url": "https://newsinfo.inquirer.net/2319713/watch-sara-duterte-impeachment-trial-oct-8-2026",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "MANILA, Philippines — Fishers’ group Pambansang Lakas ng Kilusang Mamamalakaya ng Pilipinas (Pamalakaya) has asked the Commission on Human Rights (CHR) to investigate the alleged harassment and…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-10-08T00:31:03.037Z",
+      "published": "2026-10-08T01:01:09.747Z",
       "firstSeen": "2026-10-08T00:31:03.037Z",
       "url": "https://newsinfo.inquirer.net/2319717/chr-probe-sought-over-alleged-harassment-of-fishers-opapru-denies-role",
       "image": {
@@ -476,6 +476,865 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-behsh3",
+      "source": "inqn",
+      "title": "Thunderstorm advisory up in Metro Manila, other Luzon areas Thursday",
+      "summary": "MANILA, Philippines — Moderate to heavy rainshowers with lightning and strong winds are expected over Metro Manila and other parts of Luzon on Thursday morning, according to the state weather bureau.…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-10-08T01:01:09.669Z",
+      "firstSeen": "2026-10-08T01:01:09.669Z",
+      "url": "https://newsinfo.inquirer.net/2319719/thunderstorm-advisory-up-in-metro-manila-other-luzon-areas-thursday",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/06/raining3-06022025.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Moderate to heavy rainshowers with lightning and strong winds are expected over Metro Manila and other parts of Luzon on Thursday morning, according to the state weather bureau. READ: ITCZ, northeasterly wind flow to prevail over parts of PH on Thursday In its thunderstorm advisory issued at 7:10 a.m., the Philippine Atmospheric,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1cttlx7",
+      "source": "inq",
+      "title": "Mia Goth files for divorce from Shia LaBeouf after nearly 10 years of marriage",
+      "summary": "LOS ANGELES — Mia Goth has filed for divorce from Shia LaBeouf nearly 10 years after the two actors were married. The petition filed Tuesday, Oct. 6, in Los Angeles County Superior Court says the…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-08T00:58:30.000Z",
+      "firstSeen": "2026-10-08T01:01:09.669Z",
+      "url": "https://entertainment.inquirer.net/686179/mia-goth-files-for-divorce-from-shia-labeouf-after-nearly-10-years-of-marriage",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/10/AP26280715433961-700x467.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LOS ANGELES — Mia Goth has filed for divorce from Shia LaBeouf nearly 10 years after the two actors were married. The petition filed Tuesday, Oct. 6, in Los Angeles County Superior Court says the 32-year-old Goth and the 40-year-old LaBeouf have been separated since July 2025. The two met and became a couple while filming “Nymphomaniac: Vol. II” in 2012, and married in 2016. They had previously split and said they were divorcing in 2018, but remained legally married, reunited in 2020 and had a daughter in 2022. Goth is seeking primary legal and physical custody of the 4-year-old, with visitation rights for [&hellip;]... Keep on reading: Mia Goth files for divorce from Shia LaBeouf after nearly 10 years of marriage"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-9zxut",
+      "source": "grd",
+      "title": "Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut",
+      "summary": "<p>Sources say Firmus is slashing its price and may even shelve initial public offering altogether</p><p>The momentum behind Firmus Technologies’ <a…",
+      "byline": "Jonathan Barrett",
+      "section": "Australia news",
+      "published": "2026-10-08T00:57:58.000Z",
+      "firstSeen": "2026-10-08T01:01:09.739Z",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/08/ai-datacentre-firmus-slash-valuation-before-asx-listing",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/569eb02492eca0edba751bcd408cd19c78468a89/454_0_1977_1582/master/1977.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=572293b45cb9c0eebfec28e045eb131d",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The momentum behind Firmus Technologies’ high-flying valuation is showing severe cracks just weeks out from its anticipated ASX debut."
+        },
+        {
+          "type": "p",
+          "text": "Multiple sources briefed on the matter told Guardian Australia the AI datacentre company is slashing its valuation to entice sceptical investors – or may even shelve its initial public offering altogether."
+        },
+        {
+          "type": "p",
+          "text": "On Thursday, Firmus abruptly withdrew from its scheduled appearance at a parliamentary inquiry into artificial intelligence amid harried discussions to save what was billed as the largest IPO in Australia in decades."
+        },
+        {
+          "type": "h",
+          "text": "‘Fanciful’"
+        },
+        {
+          "type": "p",
+          "text": "Most of the alarm bells about Firmus have been centred on its near $44bn valuation for a company still in its start-up phase."
+        },
+        {
+          "type": "p",
+          "text": "Its backers were confident of obtaining this valuation just days ago, but are now frantically re-pricing to find a level that investors will be comfortable paying ahead of an anticipated ASX listing late this month."
+        },
+        {
+          "type": "p",
+          "text": "“The whole thing was getting fanciful,” said one investment manager briefed on the float."
+        },
+        {
+          "type": "p",
+          "text": "“It’s a business that’s losing hundreds of millions of dollars, and yet its valuation kept going up nonstop every couple of months.”"
+        },
+        {
+          "type": "p",
+          "text": "In the lead-up to its anticipated listing, Firmus raised money from large investors, including chip maker Nvidia, and Wall Street firms Blackstone, Jane Street and Coatue."
+        },
+        {
+          "type": "p",
+          "text": "Just over a year ago, Firmus was worth less than $2bn, according to the value placed on it by Nvidia and others as they took equity stakes."
+        },
+        {
+          "type": "p",
+          "text": "In just over a year, successive capital raising by many of the same core investors drove Firmus’s valuation from $1.85bn to $15bn about eight weeks ago."
+        },
+        {
+          "type": "p",
+          "text": "That increased to almost $44bn just days ago, although that figure is being heavily unwound due to tepid support."
+        },
+        {
+          "type": "h",
+          "text": "Key risk facing investors"
+        },
+        {
+          "type": "p",
+          "text": "Firmus has an enticing story to sell given it is designed to cash in on surging AI expenditure by building and operating liquid-cooled “AI factories” packed with Nvidia graphics processing units (GPUs), or chips."
+        },
+        {
+          "type": "p",
+          "text": "But the key risk facing investors isn’t whether AI will keep growing, it’s whether they are paying too much for a company facing many operational obstacles."
+        },
+        {
+          "type": "p",
+          "text": "Firmus only has two small operational sites alongside seven contracted and four planned facilities."
+        },
+        {
+          "type": "p",
+          "text": "While it has contracts in place with Meta, OpenAI and Nvidia, about 97% of the contracted revenue sits on sites that aren’t yet built, according to Minotaur Capital co-founder Armina Rosenberg."
+        },
+        {
+          "type": "p",
+          "text": "“You only get near the offer price if delivery, financing and renewals all go to plan,” said Rosenberg."
+        },
+        {
+          "type": "p",
+          "text": "Its high valuation, and anticipated future earnings to support it, rely on the prompt construction of that unbuilt pipeline, at the exact moment that local communities are rebelling against similar developments."
+        },
+        {
+          "type": "p",
+          "text": "While Firmus’s focus on Asia avoids the growing community backlash against datacentres in Australia – and the US – it comes with its own hurdles, such as power constraints and construction times, says Rosenberg."
+        },
+        {
+          "type": "h",
+          "text": "Not empty hype"
+        },
+        {
+          "type": "p",
+          "text": "Firmus’s high valuation also assumed that the current, heavy AI expenditure from the so-called hyperscalers, like Microsoft, Google and Meta, continues, unabated."
+        },
+        {
+          "type": "p",
+          "text": "When that expenditure slows, it will be the third-party datacentres that could be among the first to feel the cold."
+        },
+        {
+          "type": "p",
+          "text": "Drawing on economist Charles P Kindleberger’s classic five-stage bubble framework - displacement, boom, euphoria, distress, and revulsion - Morningstar analyst Lochlan Halloway warned that market sentiment surrounding Firmus had entered the euphoric phase."
+        },
+        {
+          "type": "p",
+          "text": "That doesn’t mean Firmus is empty hype, Halloway said, rather, the risk lies in whether investors are paying far too steep a price."
+        },
+        {
+          "type": "p",
+          "text": "Firmus’s plans to list on the ASX on 23 October, in what would have been the largest IPO since Telstra in 1997, are now in doubt."
+        },
+        {
+          "type": "p",
+          "text": "Investors were going to be asked to pay $11 per share. That price will either be radically reduced, thereby slashing its valuation, or the float will be withdrawn altogether."
+        },
+        {
+          "type": "p",
+          "text": "Firmus was contacted for comment."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Jonathan Barrett is Guardian Australia’s business editor."
+          ]
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-k80stl",
+      "source": "inq",
+      "title": "Thunderstorm advisory up in Metro Manila, other Luzon areas Thursday",
+      "summary": "MANILA, Philippines — Moderate to heavy rainshowers with lightning and strong winds are expected over Metro Manila and other parts of Luzon on Thursday morning, according to the state weather bureau.…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-08T00:56:21.000Z",
+      "firstSeen": "2026-10-08T01:01:09.747Z",
+      "url": "https://newsinfo.inquirer.net/2319719/thunderstorm-advisory-up-in-metro-manila-other-luzon-areas-thursday",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/06/raining3-06022025-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Moderate to heavy rainshowers with lightning and strong winds are expected over Metro Manila and other parts of Luzon on Thursday morning, according to the state weather bureau. READ: ITCZ, northeasterly wind flow to prevail over parts of PH on Thursday In its thunderstorm advisory issued at 7:10 a.m., the Philippine Atmospheric, Geophysical, and Astronomical Services Administration (Pagasa) said that Metro Manila and the following areas will experience the said weather conditions within the next two hours: Rizal Bataan Batangas Bulacan Cavite Laguna Nueva Ecija Pampanga Quezon READ: Drought forecast to hit more areas until March 2027 – [&hellip;]... Keep on reading: Thunderstorm advisory up in Metro Manila, other Luzon areas Thursday"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1kqrvrp",
+      "source": "inq",
+      "title": "Ia Coca: A decade of fashion",
+      "summary": "What makes a fashion designer? This question is often posed to anyone in the industry who dared to pick up needle and thread. But for Ia Coca, the secret to lasting success in this cutthroat industry…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-08T00:52:55.000Z",
+      "firstSeen": "2026-10-08T01:01:10.381Z",
+      "url": "https://cebudailynews.inquirer.net/773114/ia-coca-marks-a-decade-of-fashion-bridalwear-and-design",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/10/Flavours-of-France-at-Movenpick-Hotel-Mactan-offers-an-authentic-French-dining-experience-in-Cebu-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "What makes a fashion designer? This question is often posed to anyone in the industry who dared to pick up needle and thread. But for Ia Coca, the secret to lasting success in this cutthroat industry isn&#8217;t skill with fabric shears or a penchant for pattern but an ear—an ear for what clients really want. “I like to offer what expertise I can, an adjustment here or a particular cut to flatter their figure, but first and foremost I listen to my clients and add my touch later. That way, they can confidently say they&#8217;re wearing something they really dreamed of,” [&hellip;]... Keep on reading: Ia Coca: A decade of fashion"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1uiy5hc",
+      "source": "inq",
+      "title": "Russia warns of 'false' information as second plague case reported",
+      "summary": "MOSCOW &#8212; Russia warned Wednesday against &#8220;false&#8221; information as reports emerged of a second suspected case of plague in Siberia, with Washington and Brussels calling for…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-08T00:52:47.000Z",
+      "firstSeen": "2026-10-08T01:01:10.972Z",
+      "url": "https://globalnation.inquirer.net/341066/russia-warns-of-false-information-as-second-plague-case-reported",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/Russia-warns-of-false-information-as-second-plague-case-reported-620x414.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MOSCOW &#8212; Russia warned Wednesday against &#8220;false&#8221; information as reports emerged of a second suspected case of plague in Siberia, with Washington and Brussels calling for transparency and neighboring Mongolia tightening health surveillance. Russian news outlet People of Baikal reported last Friday that a 28-year-old woman employed at a plague research institute in Siberia&#8217;s Irkutsk region had died of the disease, possibly after contracting it from a broken test tube. International concern has meanwhile grown over the death and suspicions that a second employee at the institute fell ill. The United States, the European Union and the World Health Organization have [&hellip;]... Keep on reading: Russia warns of 'false' information as second plague case reported"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "dw-7eb5ry",
+      "source": "dw",
+      "title": "Brazil: Thousands of students march against Bolsonaro",
+      "summary": "After Flavio Bolsonaro came out on top in the first round of Brazil's presidential election, thousands of people joined student-led protests against the far-right in Rio de Janeiro.",
+      "byline": "Matt Ford",
+      "section": "",
+      "published": "2026-10-08T00:50:00.000Z",
+      "firstSeen": "2026-10-08T01:01:09.747Z",
+      "url": "https://www.dw.com/en/brazil-thousands-of-students-march-against-bolsonaro/a-79586626?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79586939_6.jpg",
+        "caption": "Thousands of students took to the streets of Rio de Janeiro in protest against Flavio BolsonaroImage: Pablo Porciuncula/AFP"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Thousands of people joined a student march in Rio de Janeiro, Brazil, on Wednesday to protest against the possibility of Flavio Bolsonaro becoming president after the far-right candidate came out on top in the first round of the country's presidential election on Sunday."
+        },
+        {
+          "type": "p",
+          "text": "Bolsonaro, the son of jailed former President Jair Bolsonaro, won around two million more votes than the incumbent president, the left-leaning Lula da Silva."
+        },
+        {
+          "type": "p",
+          "text": "But since neither reached the 50% hurdle to win the presidency, the pair will face off in a run-off on October 25, in which Bolsonaro is considered the favorite."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79586917_$%7BformatId%7D.jpg",
+          "caption": "'No to Flavio and yes to education,' read one signImage: Pablo Porciuncula/AFP"
+        },
+        {
+          "type": "p",
+          "text": "\"If Bolsonaro wins, Brazil will become a colony of the United States,\" said 20-year-old literature student Joao Victor Vieira, voicing the fear of many on the left in Brazil that Bolsonaro is too ideologically aligned with US President Donald Trump."
+        },
+        {
+          "type": "h",
+          "text": "Brazil: 'Never again Bolsonaro'"
+        },
+        {
+          "type": "p",
+          "text": "Other marchers held signs with messages such as \"Brazil isn't anyone's backyard,\" \"I don't vote for someone who sells Brazil,\" and \"Never again Bolsonaro\" – all against a soundtrack of drums, fireworks and chants."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79586801_$%7BformatId%7D.jpg",
+          "caption": "'Brazil is not the backyard of the US,' read one protester's signImage: Silvia Izquierdo/AP Photo/picture alliance"
+        },
+        {
+          "type": "p",
+          "text": "\"We're fighting for Brazil, not for Lula,\" said Talita Amaral, a 19-year-old environmental sciences student, wearing Brazil's iconic yellow and green football shirt, often worn by nationalist Bolsonaro supporters but which opponents have been aiming to reclaim for themselves."
+        },
+        {
+          "type": "p",
+          "text": "\"We don't have time to be sad, we need to be doing this, occupying the streets, sending messages in WhatsApp groups, trying to convince people,\" she told the Associated Press."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79586769_$%7BformatId%7D.jpg",
+          "caption": "'Fascists in jail, people in the streets,' this protester wrote on a Brazilian flagImage: Silvia Izquierdo/AP Photo/picture alliance"
+        },
+        {
+          "type": "p",
+          "text": "For Alice Carneiro, a 25-year-old maritime shipping administrator, the prospect of another Bolsonaro conjures fears of far-right policies which will discriminate against Brazil's minorities – such as her transgender wife."
+        },
+        {
+          "type": "p",
+          "text": "\"I'm here because I believe in democracy,\" she told the AFP news agency. \"Because I'm scared.\""
+        },
+        {
+          "type": "p",
+          "text": "Witnesses reported that the march was notably more crowded and animated than President Lula's rally on the same street on Friday, the culmination of a lackluster campaign ahead of the election."
+        },
+        {
+          "type": "p",
+          "text": "After the third, fourth and fifth places all went to right-wing candidates, who polled over eight million votes between them, Lula and the left appear to have a mountain to climb in the run-off."
+        },
+        {
+          "type": "p",
+          "text": "The incumbent's campaign has shifted its focus to social media, where the far-right dominates but Lula has largely been absent, arguing he \"like[s] to say only what is essential.\" But on Wednesday, the president convened leftist influencers who won legislative seats on Sunday to advise his campaign."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "gma-1yuur68",
+      "source": "gma",
+      "title": "Leviste intends to personally post bail amid arrest warrant, spox says",
+      "summary": "Batangas 1st District Representative Leandro Leviste intends to return to the Philippines and personally face the court to post bail amid an arrest warrant against him, his spokesperson said Thursday.",
+      "byline": "GMA News",
+      "section": "",
+      "published": "2026-10-08T00:49:19.000Z",
+      "firstSeen": "2026-10-08T01:01:09.739Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1005183/leviste-intends-to-personally-post-bail-amid-arrest-warrant-spox-says/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/10/leandro_leviste_2026_10_07_12_07_53.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Batangas 1st District Representative Leandro Leviste intends to return to the Philippines and personally face the court to post bail amid an arrest warrant against him, his spokesperson said Thursday."
+        },
+        {
+          "type": "p",
+          "text": "Interviewed on GMA News’ Unang Balita, Leviste’s spokesperson, Atty. Tony La Viña, was asked if the lawmaker will personally face the case and post bail."
+        },
+        {
+          "type": "p",
+          "text": "“Oo. In general ang sagot ko, sa kaso kasi medyo subjudice na kasi ‘yan. Pero ang masasabi ko lang ay actually napakaliit ng kaso na ito. Tulad ng sinabi niya, this is a very small case,” he said."
+        },
+        {
+          "type": "p",
+          "text": "(Yes. My answer to the case is in general because it is somewhat subjudice. But all I can say is that this case is actually very small. As he said, this is a very small case.)"
+        },
+        {
+          "type": "p",
+          "text": "“Almost insignificant. Bailable by 72,000 bail, very small penalty at lahat. So, in the scheme of things hindi naman ito ganun ka-importante from his point of view. Kaya naglabas nga siya ng statement na not to worry about him hindi naman siya abala dito hindi siya worried about this case,” he added."
+        },
+        {
+          "type": "p",
+          "text": "(Almost insignificant. Bailable by 72,000 bail, very small penalty and all, so in the scheme of things, it’s not that important from his point of view. That’s why he released a statement saying not to worry about him, he’s not worried about this case.)"
+        },
+        {
+          "type": "p",
+          "text": "Leviste is in France with his mother, Senator Loren Legarda, who has been on medical leave since August 3."
+        },
+        {
+          "type": "p",
+          "text": "Return"
+        },
+        {
+          "type": "p",
+          "text": "According to La Viña, Leviste has plans to return to the Philippines."
+        },
+        {
+          "type": "p",
+          "text": "“Of course. I mean, eventually, uuwi naman yan siya kasama ng nanay niya,” he said."
+        },
+        {
+          "type": "p",
+          "text": "(Of course. I mean, eventually, he will go home with his mother.)"
+        },
+        {
+          "type": "p",
+          "text": "“Right now lang talaga, kailangan siya ng nanay niya for the medical treatment of her mother. So, as far as I know, once tapos na yun. Uwi na siya. He is the only family of the mother,” he added."
+        },
+        {
+          "type": "p",
+          "text": "(Right now, his mother really needs him for her medical treatment. So, as far as I know, once that's done, he will go home. He is the only family of his mother.)"
+        },
+        {
+          "type": "p",
+          "text": "La Viña also said Leviste would challenge any attempt to cancel his passport."
+        },
+        {
+          "type": "p",
+          "text": "Asked about the possibility of an INTERPOL red notice, he said he did not expect it to apply to Leviste's case."
+        },
+        {
+          "type": "p",
+          "text": "“From what I know, hindi siya applicable kasi (it is not applicable because) that applies only to very serious crimes,” La Viña said."
+        },
+        {
+          "type": "p",
+          "text": "La Viña maintained that the case against Leviste was part of what he described as harassment or persecution against the lawmaker."
+        },
+        {
+          "type": "p",
+          "text": "He linked the cases to Leviste's campaign against alleged corruption in flood-control projects."
+        },
+        {
+          "type": "p",
+          "text": "The lawyer also defended Leviste's renewable-energy businesses, saying there was no wrongdoing in his solar franchise and service contracts."
+        },
+        {
+          "type": "p",
+          "text": "He said the solar franchise was not implemented because the Department of Energy (DOE) had yet to issue the necessary implementing rules and regulations (IRR) and identify the locations where it could operate."
+        },
+        {
+          "type": "p",
+          "text": "As for Leviste's service contracts, La Viña said some had been implemented while others had not, which he described as normal in the renewable-energy business."
+        },
+        {
+          "type": "p",
+          "text": "La Viña said he had no information on whether Leviste would return to the Philippines ahead of or together with Legarda."
+        },
+        {
+          "type": "p",
+          "text": "A Makati court has issued an arrest warrant against Leviste over an alleged violation of the Public Service Act."
+        },
+        {
+          "type": "p",
+          "text": "Bail was set at P72,000."
+        },
+        {
+          "type": "p",
+          "text": "EXPLAINER: What is the Public Service Act?"
+        },
+        {
+          "type": "p",
+          "text": "The DOE in May filed a complaint with the Department of Justice (DOJ) against Leviste and five officials of the Solar Para sa Bayan Corporation (SPBC) for alleged violations of the Public Service Act."
+        },
+        {
+          "type": "p",
+          "text": "According to the complaint, the firm failed to construct and provide electric power to customers and end users in remote, unviable, unserved, or underserved areas as provided under the company’s 2019 franchise, which Congress granted under Republic Act No. 11357."
+        },
+        {
+          "type": "p",
+          "text": "The complaint identified Leviste as the firm's chairman, president, chief executive officer, and director."
+        },
+        {
+          "type": "p",
+          "text": "Leviste has denied the allegations. —Joviland Rita/ VAL, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1sy1piv",
+      "source": "inq",
+      "title": "Talisay Chamber promotes local flavors, resorts to draw tourists",
+      "summary": "MANDAUE CITY, Cebu &#8211; Talisay City is known for its famous lechon, but this city in Metro Cebu has much more to offer its visitors. Macario Carl Cabusas II, president of the Talisay City Chamber…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-08T00:42:49.000Z",
+      "firstSeen": "2026-10-08T01:01:11.749Z",
+      "url": "https://cebudailynews.inquirer.net/773175/talisay-chamber-promotes-local-flavors-resorts-to-draw-tourists",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2020/07/13483301_511099452416253_1447625288686053879_o-300x201.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANDAUE CITY, Cebu &#8211; Talisay City is known for its famous lechon, but this city in Metro Cebu has much more to offer its visitors. Macario Carl Cabusas II, president of the Talisay City Chamber of Commerce and Industry Inc., said the city also has local delicacies and resorts that could help attract more visitors. A Talisay native himself, Cabusas recalled having consilva (a caramelized banana brittle dessert) and linusak (mashed pounded banana dessert) as snacks when he was younger. READ: P42 wage hike to hit MSMEs hardest – Talisay business group head Consilva is made from thinly sliced saba bananas [&hellip;]... Keep on reading: Talisay Chamber promotes local flavors, resorts to draw tourists"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-mfjdbn",
+      "source": "grd",
+      "title": "Margaret Hamilton, trailblazer whose software powered Apollo 11 moon landing, dies at 90",
+      "summary": "<p>MIT computer scientist led development of software for moon mission and earned Presidential Medal of Freedom</p><p>Margaret Hamilton, the computer pioneer whose software powered the first moon…",
+      "byline": "Uwa Ede-Osifo",
+      "section": "Space",
+      "published": "2026-10-08T00:40:37.000Z",
+      "firstSeen": "2026-10-08T01:01:09.749Z",
+      "url": "https://www.theguardian.com/science/2026/oct/07/margaret-hamilton-moon-computer-software",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/146bdf84911501986822f5cd74b6789159c42193/22_0_3125_2499/master/3125.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=871b5d32d55511e1821720f9d826d4dc",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Margaret Hamilton, the computer pioneer whose software powered the first moon landing, has died, the Massachusetts Institute of Technology (MIT) announced on Wednesday. She was 90."
+        },
+        {
+          "type": "p",
+          "text": "In an era before titles such as software engineer and computer scientist became mainstream, Hamilton, who died on 30 September, learned to program under the tutelage of a renowned MIT meteorologist."
+        },
+        {
+          "type": "p",
+          "text": "She continued to perfect the craft in an MIT laboratory, writing software that could detect enemy aircraft. When the institute received a Nasa contract to develop the Apollo onboard flight software, she jumped at the opportunity."
+        },
+        {
+          "type": "p",
+          "text": "“I was attracted both by the sheer idea and the fact that it had never been done before. I was the first programmer to join and the first woman they hired,” she told the Guardian in 2019."
+        },
+        {
+          "type": "p",
+          "text": "In 1969, minutes before the Apollo 11 spacecraft was set to make history by landing on the lunar surface, an onboard computer’s alarm rang, indicating an emergency."
+        },
+        {
+          "type": "p",
+          "text": "Faced with a decision of whether to abort the mission, the spacecraft continued on. The software was working just as Hamilton and her team intended."
+        },
+        {
+          "type": "p",
+          "text": "“It quickly became clear the software was not only informing everyone that there was a hardware-related problem but was compensating for it – restarting and re-establishing the highest priority tasks. The error detection and recovery mechanisms had come to the rescue,” Hamilton said."
+        },
+        {
+          "type": "p",
+          "text": "Barack Obama referenced the incident when he presented her with the Presidential Medal of Freedom in 2016."
+        },
+        {
+          "type": "p",
+          "text": "“Our astronauts didn’t have much time, but thankfully they had Margaret Hamilton,” he said."
+        },
+        {
+          "type": "p",
+          "text": "Hamilton is survived by her daughter, a son-in-law, two grandsons and four great grandchildren, according to MIT."
+        },
+        {
+          "type": "p",
+          "text": "Reflecting on the mission, in a 2009 interview with MIT News, Hamilton said: “Looking back, we were the luckiest people in the world; there was no choice but to be pioneers; no time to be beginners.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-97iyog",
+      "source": "cbc",
+      "title": "Winnipeg sex offender who flew under family's radar by changing name gets 15 years for abusing child",
+      "summary": "A convicted sex offender who sexually abused a 13-year-old boy whose family didn't know about the man's criminal past because he'd changed his name has been sentenced to 15 years in prison.",
+      "byline": "Caitlyn Gowriluk",
+      "section": "News/Canada/Manitoba",
+      "published": "2026-10-08T00:38:24.000Z",
+      "firstSeen": "2026-10-08T01:01:09.739Z",
+      "url": "https://www.cbc.ca/news/canada/manitoba/ryan-knight-gabourie-sentencing-9.7372402?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/059d3917-7073-4434-a013-636eb9f9faf3,1791417501335/full/max/0/default.jpg?im=Crop%2Crect%3D%287%2C0%2C1108%2C623%29%3BResize%3D620",
+        "caption": "Ryan James Knight, seen here in a 2024 photo, was sentenced in Winnipeg on Wednesday. He was convicted earlier this year of sexual interference and making child sexual abuse and exploitation material. (Submitted by Danielle Gzebb)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Manitoba·New"
+        },
+        {
+          "type": "p",
+          "text": "A convicted sex offender who sexually abused a 13-year-old boy whose family didn't know about the man's criminal past because he'd changed his name has been sentenced to 15 years in prison."
+        },
+        {
+          "type": "h",
+          "text": "Ryan Knight 'leaving a trail of trauma' behind him, judge says"
+        },
+        {
+          "type": "p",
+          "text": "WARNING: This article contains details of child sexual abuse."
+        },
+        {
+          "type": "p",
+          "text": "Ryan James Knight pleaded guilty in July to sexual interference and making child sexual abuse and exploitation material from August 2024 to March 2025."
+        },
+        {
+          "type": "p",
+          "text": "Court heard Wednesday the boy's family had hired Knight, who was in his early 40s at the time, to renovate their basement. Knight then ended up hiring the child to do odd jobs around his own home down the street, where the repeated abuse happened."
+        },
+        {
+          "type": "p",
+          "text": "Several years before, Knight had changed his last name from Gabourie. That meant that when the boy's family tried to look into Knight, they didn't find that he'd been convicted roughly two decades earlier of breaking into children's homes and sexually assaulting them as their families slept."
+        },
+        {
+          "type": "p",
+          "text": "\"They were duped,\" provincial court Judge Kael McKenzie said as he handed down Knight's sentence, after a joint recommendation from lawyers."
+        },
+        {
+          "type": "p",
+          "text": "\"It's not just one person that you hurt. It's over and over and over again, and for a long time…. You're just leaving a trail of trauma behind you, and for decades now.\""
+        },
+        {
+          "type": "p",
+          "text": "The abuse came to light after Knight was out driving in a truck with the boy after midnight in March 2025, and ended up being pulled over by police. When officers found Knight had no familial relationship with the boy, they started an investigation that eventually uncovered Knight had been repeatedly sexually abusing the child."
+        },
+        {
+          "type": "p",
+          "text": "Undated pictures of Knight released by Manitoba Justice in January 2024. (Manitoba Justice)"
+        },
+        {
+          "type": "p",
+          "text": "The boy, who can't be identified because of a publication ban, told police Knight would take him to the movies and let him sleep over at his house, and that he occasionally lent the boy a cellphone and let him play on his computer, an agreed statement of facts read by Crown attorney Katie Dojack said."
+        },
+        {
+          "type": "p",
+          "text": "Investigators later seized electronics from Knight, which revealed child sexual abuse images of the boy. That led to police notifying the boy's parents that he'd been sexually assaulted and requesting to speak with him. The boy agreed but asked that his parents not be provided his video statement to watch."
+        },
+        {
+          "type": "p",
+          "text": "The boy told police he didn't initially disclose anything to Child and Family Services when they became involved because he didn't trust them and \"worried they would tell his dad,\" the agreed facts said."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Man charged with sexual assault of 2 teen boys after families built 'trusting relationship' with him: police"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"He told police that he was embarrassed to talk about the accused and that the accused had warned him not to tell anyone.\""
+        },
+        {
+          "type": "p",
+          "text": "During the investigation, the boy also told police Knight used to have another boy \"hanging out with him.\" That child was later confirmed to be 14."
+        },
+        {
+          "type": "p",
+          "text": "That boy's mother told police she'd known Knight for nine years, and her son occasionally slept over at his home. However, she cut off contact when her family members raised concerns and she noticed the boy was \"behaving differently.\""
+        },
+        {
+          "type": "p",
+          "text": "While police initially said Knight was charged with sexually abusing two teens, court records show other charges against him were stayed."
+        },
+        {
+          "type": "h",
+          "text": "Light in boy's eyes 'replaced by anger'"
+        },
+        {
+          "type": "p",
+          "text": "The father of the boy whose son Knight was convicted of abusing said the boy, \"who once openly showed his love for his family, has changed.\""
+        },
+        {
+          "type": "p",
+          "text": "\"Since what happened to him, he has often expressed anger toward us, and the light in his eyes seems to have been replaced by anger,\" the father wrote in a victim impact statement Dojack read."
+        },
+        {
+          "type": "p",
+          "text": "\"We hope that he will regain that spark, but we do not know whether he will.\""
+        },
+        {
+          "type": "p",
+          "text": "He said while he searched Knight's name online before hiring him, he only found one complaint about a job he'd done."
+        },
+        {
+          "type": "p",
+          "text": "\"I believe his change of last name prevented me from discovering that history,\" the father said."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Brandon man sentenced to 25 years for sexual abuse of foster children"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The boy's grandmother said she watched her grandson change from \"a happy-go-lucky child into a very angry and sullen child.\""
+        },
+        {
+          "type": "p",
+          "text": "\"I watched the sparkly twinkle in his eyes disappear,\" she wrote in her victim impact statement. \"He didn't believe we could help him, because Ryan had convinced him that his family didn't care about him and wouldn't believe him.\""
+        },
+        {
+          "type": "p",
+          "text": "Prosecutor Dojack said sexual victimization can be especially shameful for boys \"because of social expectations that males are supposed to appear tough.\""
+        },
+        {
+          "type": "p",
+          "text": "\"Embarrassment, humiliation and homophobia form a particularly toxic and stigmatizing combination for male child victims,\" she said. \"I think that is certainly something to be considered here.\""
+        },
+        {
+          "type": "p",
+          "text": "Knight's lawyer, Theodore Mariash, told court his client's childhood was also marked by \"horrific abuse.\""
+        },
+        {
+          "type": "p",
+          "text": "When given the chance to speak for himself, Knight apologized for the harm he caused to people sitting in the courtroom gallery and for taking away their right to know about his past."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "'No shame in being a victim': lawyer, social worker confront childhood abuser in court during sentencing",
+            "Man sentenced to 25 years for 'horrendous' sexual abuse after survivors spoke out"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"I can't even imagine what it's like to learn who you had sitting at your dinner table,\" he said from the prisoner's box. \"And I'm really sorry for that. No one deserved anything I have done.\""
+        },
+        {
+          "type": "p",
+          "text": "Court heard Knight has a little over 13 years left on his sentence, with enhanced credit for time served. He's also subject to a list of conditions, including not contacting either of the children mentioned in the agreed facts."
+        },
+        {
+          "type": "p",
+          "text": "If you’re in immediate danger or fear for your safety or that of others around you, please call 911. For support in your area, you can look for crisis lines and local services via the Ending Sexual Violence Association of Canada database. ​​"
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Caitlyn Gowriluk has been writing for CBC Manitoba since 2019. Her work has also appeared in the Winnipeg Free Press, and in 2021 she was part of an award-winning team recognized by the Radio Television Digital News Association for its breaking news coverage of COVID-19 vaccines. Get in touch with her at caitlyn.gowriluk@cbc.ca."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Follow Caitlyn Gowriluk on X"
+          ]
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-w90300",
+      "source": "abs",
+      "title": "Pope says church must review attitude to 'sexuality and intimacy'",
+      "summary": "Pope Leo XIV on Wednesday called on the Roman Catholic Church to revise the way it helps families and handles failed marriages as he opened a major weeklong religious assembly.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-08T00:33:26.000Z",
+      "firstSeen": "2026-10-08T01:01:09.669Z",
+      "url": "https://www.abs-cbn.com/news/world/2026/10/8/pope-says-church-must-review-attitude-to-sexuality-and-intimacy-0833",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pope Leo XIV on Wednesday called on the Roman Catholic Church to revise the way it helps families and handles failed marriages as he opened a major weeklong religious assembly."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "rap-1mjzu3u",
+      "source": "rap",
+      "title": "Suspect behind South Korea bank hacks may be 26-year-old in China",
+      "summary": "CrowdStrike says the attacker used ARTEX, a recently released Chinese-developed open-source penetration-testing tool, alongside large language models",
+      "byline": "Reuters",
+      "section": "Asia Pacific",
+      "published": "2026-10-08T00:33:05.000Z",
+      "firstSeen": "2026-10-08T01:01:09.669Z",
+      "url": "https://www.rappler.com/technology/suspect-south-korea-bank-hacks-chinese/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2024/10/2024-10-26T002952Z_1910493116_RC2ZRAA1YSXG_RTRMADP_3_USA-ELECTION-TRUMP-CHINA.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "HACKER. A man holds a laptop computer as cyber code is projected on him in this illustration picture taken on May 13, 2017."
+        },
+        {
+          "type": "p",
+          "text": "REUTERS/Kacper Pempel/Illustration/File Photo"
+        },
+        {
+          "type": "p",
+          "text": "CrowdStrike says the attacker used ARTEX, a recently released Chinese-developed open-source penetration-testing tool, alongside large language models"
+        },
+        {
+          "type": "p",
+          "text": "SEOUL, South Korea – The suspect behind recent cyberattacks targeting South Korea’s financial sector may be a 26-year-old based in China’s Guangdong province, US cybersecurity firm CrowdStrike said."
+        },
+        {
+          "type": "p",
+          "text": "In a report published on its website on Wednesday, October 7, CrowdStrike said it uncovered personal details linked to the suspected attacker while analyzing AI coding-tool sessions and infrastructure associated with a campaign targeting South Korean financial institutions from late September to early October."
+        },
+        {
+          "type": "p",
+          "text": "CrowdStrike said the attacker used ARTEX, a recently released Chinese-developed open-source penetration testing tool, alongside large language models, and assessed with “moderate confidence” that the actor was a Chinese speaker and likely financially motivated."
+        },
+        {
+          "type": "p",
+          "text": "The firm said one Claude Code session contained a request to create a security researcher resume describing results from the hacking activity."
+        },
+        {
+          "type": "p",
+          "text": "The prompt included details such as a Telegram account, age, education background and a location in Maoming, Guangdong, the report said."
+        },
+        {
+          "type": "p",
+          "text": "CrowdStrike said the same Telegram username appeared in other cyber activity, including vulnerability research involving a Telegram-based NFT marketplace and a separate suspected attack on a Chinese payment platform."
+        },
+        {
+          "type": "p",
+          "text": "The company said the personal details likely belonged to the actor responsible for the activity, but cautioned that currently available information could not definitively identify the attacker."
+        },
+        {
+          "type": "p",
+          "text": "Authorities in Seoul are investigating cyberattacks that affected multiple financial institutions after banks including Shinhan Bank and KB Kookmin Bank reported data breaches."
+        },
+        {
+          "type": "p",
+          "text": "South Korean police, who have launched a probe, did not immediately respond to a request for comment."
+        },
+        {
+          "type": "p",
+          "text": "South Korean President Lee Jae Myung said on Tuesday, October 6, that signs had emerged that AI was used in some of the hacking incidents and called for heightened cybersecurity measures. – Rappler.com"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "abs-14kx0bt",
@@ -1672,108 +2531,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "grd-1uc2m1p",
-      "source": "grd",
-      "title": "Democrats sue to stop Trump from using taxpayer funds for self-promoting ads",
-      "summary": "<p>Ads promoting the president have cost more than $12m and his Super Pac has refused to reimburse taxpayers</p><ul><li><p><a…",
-      "byline": "Robert Mackey",
-      "section": "Democrats",
-      "published": "2026-10-07T22:58:45.000Z",
-      "firstSeen": "2026-10-07T23:31:41.115Z",
-      "url": "https://www.theguardian.com/us-news/2026/oct/07/democrats-sue-trump-taxpayer-funds-ads",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/bad53d7d437a13e2cb35c20b0164574d495cd66d/164_0_773_618/master/773.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=daf25908184ac951a4874ff2e77b4d84",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Democratic National Committee sued the Trump administration in federal court on Wednesday, asking a judge in Washington to stop the president from using taxpayer funds to air a series of ads promoting himself, arguing that the ads are illegal government-sponsored propaganda."
-        },
-        {
-          "type": "p",
-          "text": "The ads promoting Donald Trump, including one recycled from his 2024 presidential campaign, have cost taxpayers more than $12m so far, according to the media tracking firm AdImpact."
-        },
-        {
-          "type": "p",
-          "text": "Ken Martin, the DNC chair, said in a statement that Trump was misusing taxpayer dollars in “a last-ditch attempt to save Republicans in November. Americans deserve better than to have their hard-earned tax dollars used for Trump’s illegal schemes.”"
-        },
-        {
-          "type": "p",
-          "text": "After a bipartisan backlash to the use of public money to promote himself during the final month of the midterm campaign season, Trump claimed on Monday that he would direct the Maga Inc Super Pac he controls to pay for the ads instead."
-        },
-        {
-          "type": "p",
-          "text": "The next day, however, the White House said Trump’s political action committee would not reimburse taxpayers for the money it had already spent on the ads. Then, when the government unveiled a fifth ad in the series, celebrating Trump’s military intervention in Venezuela, it was also paid for by the US government."
-        },
-        {
-          "type": "p",
-          "text": "The DNC complaint, filed in the US district court for the District of Columbia, alleges the ads violate federal law, including a ban on congressionally appropriated money being used for “publicity or propaganda”."
-        },
-        {
-          "type": "p",
-          "text": "“President Trump personally directed this illegal activity. The White House office crafted the partisan campaign. The office of management and budget shifted $20m to pay for it. And US Customs and Border Protection (CBP) has carried it out. These unlawful actions are ultra vires and violate the Administrative Procedure Act (APA),” the complaint states."
-        },
-        {
-          "type": "p",
-          "text": "The suit also notes the first ad in the series features an image of Fifa’s president, Gianni Infantino, awarding Trump the so-called “Fifa peace prize” to support its case that the ads all violate a prohibition on the use of taxpayer funds for “self-aggrandizement”."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/b205053cb7acbaad45c5881faf8c99cc13f70292/0_0_3440_1932/master/3440.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "A screenshot from a White House ad for Donald Trump, showing him accepting the Fifa peace prize. Photograph: White House"
-        },
-        {
-          "type": "p",
-          "text": "The complaint also references new polling from Reuters/Ipsos released on Tuesday which found that an overwhelming majority of Americans, 86%, ​called it inappropriate to use taxpayer funds for TV ads featuring the president around an election. The survey reported that 80% of Republicans called the ads inappropriate, with only 17% of the president’s party approving of them."
-        },
-        {
-          "type": "p",
-          "text": "According to the suit, the ads have been broadcast on ABC, NBC, MS Now, CBS, CNN, Fox News and Newsmax, and appeared during popular NFL and college football games, and news and entertainment shows in which the president has been criticized, including Meet the Press, Jimmy Kimmel Live! and Saturday Night Live."
-        },
-        {
-          "type": "p",
-          "text": "The federal lawsuit also includes details of another eight ads that have already been prepared for broadcast and were found “in a Dropbox account controlled by LMD Agency Inc, the government contractor bringing the ads to air”."
-        },
-        {
-          "type": "p",
-          "text": "The ads ready to be broadcast include: one that celebrates the UFC fights staged at the White House on Trump’s birthday in June; one titled “God Made Trump,” a fan-created hymn of praise to Trump that was shown during the Republican midterm convention; one titled “Resilience,” which includes images of Trump announcing his candidacy for the presidency in 2015, then being charged in Fulton county, Georgia, in 2023 for conspiring to overturn the results of the 2020 election, and video of the assassination attempt on him during the 2024 election campaign; one titled “King of the Jungle,” which shows a lion hunting in the wild and disparages Trump’s political enemies, including former president Barack Obama. In February, Trump shared a racist video on social media that portrayed him as a lion and Obama and his wife Michelle as apes."
-        },
-        {
-          "type": "p",
-          "text": "According to CNN, which gained access to the Dropbox last week, another ad in the series features attacks on Joe Biden, including the mocking image of the former president as an auto-pen installed by Trump on an exterior wall of the White House."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "inqn-1ac63lv",
-      "source": "inqn",
-      "title": "Comelec unit finds &#8216;inconsistencies&#8217; in Marcoleta&#8217;s statements",
-      "summary": "MANILA, Philippines — The Political Finance and Affairs Division (PFAD) of the Commission on Elections (Comelec) found “inconsistencies” between Sen. Rodante Marcoleta’s statements during his TV…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-07T22:51:04.000Z",
-      "firstSeen": "2026-10-07T15:31:10.756Z",
-      "url": "https://newsinfo.inquirer.net/2319600/comelec-unit-finds-inconsistencies-in-marcoletas-statements",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Marcoleta-18September2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Political Finance and Affairs Division (PFAD) of the Commission on Elections (Comelec) found “inconsistencies” between Sen. Rodante Marcoleta’s statements during his TV interview, where he admitted to receiving campaign donations from “friends,” and the verified position paper he submitted to the poll body. During Marcoleta’s trial before the Sandiganbayan Fourth Division"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "cbc-sa9fdz",
       "source": "cbc",
       "title": "Average asking rent down 2.9% in B.C. in September, marking 2 years of decreases: report",
@@ -2830,7 +3587,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-1c01acn",
@@ -3240,7 +3997,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-srtqgn",
@@ -3366,106 +4123,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-13nh17s",
-      "source": "inq",
-      "title": "Bank confirms Duterte father-daughter account",
-      "summary": "MANILA, Philippines — More than a decade after then Sen. Antonio Trillanes IV publicly alleged that Rodrigo Duterte maintained a large, undeclared account at the Bank of the Philippine Islands (BPI),…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-07T21:34:00.000Z",
-      "firstSeen": "2026-10-07T22:01:20.339Z",
-      "url": "https://newsinfo.inquirer.net/2319611/bank-confirms-duterte-father-daughter-account",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/04/rodrigo-duterte-sara-duterte-1-620x349.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — More than a decade after then Sen. Antonio Trillanes IV publicly alleged that Rodrigo Duterte maintained a large, undeclared account at the Bank of the Philippine Islands (BPI), the bank confirmed before the Senate impeachment court on Wednesday that the former President and his daughter, Vice President Sara Duterte, jointly held an [&hellip;]... Keep on reading: Bank confirms Duterte father-daughter account"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-7625sb",
-      "source": "inq",
-      "title": "2 senators lead new bid vs trial threshold",
-      "summary": "MANILA, Philippines — The Senate impeachment court’s ruling that reduced the number of votes needed to convict or acquit Vice President Sara Duterte in her impeachment trial is being challenged again…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-07T21:32:00.000Z",
-      "firstSeen": "2026-10-07T22:01:23.078Z",
-      "url": "https://newsinfo.inquirer.net/2319608/2-senators-lead-new-bid-vs-trial-threshold",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Senators-Robinhood-Padilla-and-Christopher-Bong-Go-INQUIRER-FILE-1-620x382.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Senate impeachment court’s ruling that reduced the number of votes needed to convict or acquit Vice President Sara Duterte in her impeachment trial is being challenged again in the Supreme Court, this time by her allies from the chamber and from her father’s political party. Senators Robinhood Padilla and Christopher Lawrence [&hellip;]... Keep on reading: 2 senators lead new bid vs trial threshold"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-9fltng",
-      "source": "inq",
-      "title": "COA ‘disallowance’ final: OVP must return P73M",
-      "summary": "MANILA, Philippines — Vice President Sara Duterte and two other officials of the Office of the Vice President (OVP) are obliged to return the P73.287 million in confidential funds that the OVP spent…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-07T21:30:00.000Z",
-      "firstSeen": "2026-10-07T22:01:23.078Z",
-      "url": "https://newsinfo.inquirer.net/2319606/coa-disallowance-final-ovp-must-return-p73m",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/commission-audit-logo-and-building-26august2026-620x352.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Vice President Sara Duterte and two other officials of the Office of the Vice President (OVP) are obliged to return the P73.287 million in confidential funds that the OVP spent in 11 days in December 2022 without proper documentation, according to state auditors. The Commission on Audit (COA) on Monday “affirmed with [&hellip;]... Keep on reading: COA ‘disallowance’ final: OVP must return P73M"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-17e5qor",
-      "source": "inq",
-      "title": "NLEX enters quarterfinals behind 60-point beating of Macau",
-      "summary": "The Macau Giant Pandas were hardly competitive going into the long break in the PBA Governors’ Cup. With their top players signed by other clubs, they were even more terrible. And NLEX took…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-07T21:25:30.000Z",
-      "firstSeen": "2026-10-07T22:01:23.078Z",
-      "url": "https://sports.inquirer.net/700406/nlex-enters-quarterfinals-behind-60-point-beating-of-macau",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/10/PBA-Image3-15-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Macau Giant Pandas were hardly competitive going into the long break in the PBA Governors’ Cup. With their top players signed by other clubs, they were even more terrible. And NLEX took advantage, cruising to a record-setting 138-78 rout of the league’s guest team on Wednesday to secure the first quarterfinal berth in the [&hellip;]... Keep on reading: NLEX enters quarterfinals behind 60-point beating of Macau"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "cbc-l2qsoy",
@@ -3770,31 +4427,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-1e0u31w",
-      "source": "inq",
-      "title": "PSC backs 108th Philippine Open with $1-million purse",
-      "summary": "The Philippine Sports Commission (PSC) has stepped in to help stage the 108th Philippine Open, putting up a $1-million purse (roughly P63 million) for Asia’s oldest national golf championship set…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-07T21:20:31.000Z",
-      "firstSeen": "2026-10-07T21:31:06.373Z",
-      "url": "https://sports.inquirer.net/700410/psc-backs-108th-philippine-open-with-1-million-purse",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/10/PSC-Chair-Patrick-Gregorio-620x413.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Philippine Sports Commission (PSC) has stepped in to help stage the 108th Philippine Open, putting up a $1-million purse (roughly P63 million) for Asia’s oldest national golf championship set Nov. 12 at Manila Southwoods in Carmona, Cavite. Some of the Asian Tour’s top players and the Philippines’ leading golfers are expected to compete in [&hellip;]... Keep on reading: PSC backs 108th Philippine Open with $1-million purse"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "cbc-uwscx9",
@@ -4312,50 +4944,6 @@
         {
           "type": "p",
           "text": "In the heart of Madrid, where campaigners have set up a giant protest camp, news of Abascal’s death was met with a moment of silence. Soon after, hundreds marched from the camp to the country’s parliament chanting: “Maricarmen lives on, the fight continues.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-ak3rse",
-      "source": "cbc",
-      "title": "Liberals look to amend 31 laws at once in attempt to reduce red tape",
-      "summary": "The Liberal government announced on Wednesday that it is introducing a new bill that would amend more than 30 laws in an effort to reduce red tape in the federal bureaucracy.",
-      "byline": "CBC",
-      "section": "News/Politics",
-      "published": "2026-10-07T20:55:26.000Z",
-      "firstSeen": "2026-10-07T21:01:13.350Z",
-      "url": "https://www.cbc.ca/news/politics/liberals-red-tape-reduction-bill-9.7373168?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/3a479473-602e-4e90-905c-2bd2e176c788,1791406070178/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C7771%2C4371%29%3BResize%3D620",
-        "caption": "President of the Treasury Board Shafqat Ali said last year that departments had identified hundreds of ways to reduce red tape. Now the government is putting forward legislation it says addresses those issues. (Justin Tang/The Canadian Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Politics·New"
-        },
-        {
-          "type": "p",
-          "text": "The Liberal government announced on Wednesday that it is introducing a new bill that would amend more than 30 laws in an effort to reduce red tape in the federal bureaucracy."
-        },
-        {
-          "type": "h",
-          "text": "Prime Minister Mark Carney ordered cross-departmental regulatory review in July 2025"
-        },
-        {
-          "type": "p",
-          "text": "The government says the new bill, S-7, includes \"targeted amendments to reduce unnecessary regulatory burden,\" according to a news release."
-        },
-        {
-          "type": "p",
-          "text": "The amendments cover a wide range of topics, including: fertilizer regulations, bankruptcy procedures, Canadian Dairy Commission appointments, animal waste management and how departments use electronic tools and adopt new technologies."
-        },
-        {
-          "type": "p",
-          "text": "The bill is being introduced after Prime Minister Mark Carney ordered a cross-departmental review of all federal regulations in July 2025. Treasury Board President Shafqat Ali said in September of last year that the drive had resulted in departments identifying hundreds of ways to cut red tape."
         }
       ],
       "truncated": false,
@@ -5967,213 +6555,6 @@
         {
           "type": "p",
           "text": "Additional reporting by the Press Association"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-1d3t8fm",
-      "source": "cbc",
-      "title": "WHO wants more answers from Russia about lab worker's death, as pneumonic plague concerns linger",
-      "summary": "A top official with the World Health Organization said Wednesday the UN health agency doesn't know how a lab worker in Siberia died amid concerns about plague, and is urging Russia to provide more…",
-      "byline": "Jamey Keaten",
-      "section": "News/Health",
-      "published": "2026-10-07T19:14:40.000Z",
-      "firstSeen": "2026-10-07T19:31:08.291Z",
-      "url": "https://www.cbc.ca/news/health/who-russia-plague-lab-worker-death-9.7372803?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/f8dd7374-5373-45a4-8f76-fe5d6caff8e8,1791393294142/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C428%2C8192%2C4608%29%3BResize%3D620",
-        "caption": "The Irkutsk Anti-Plague Research Institute of Siberia and the Far East, where a lab technician worked before her death on Oct. 2 from pneumonia. The World Health Organization is urging Russia to be more forthcoming with information about the case, as authorities insist her illness was not related to"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Health·New"
-        },
-        {
-          "type": "p",
-          "text": "A top official with the World Health Organization said Wednesday the UN health agency doesn't know how a lab worker in Siberia died amid concerns about plague, and is urging Russia to provide more information."
-        },
-        {
-          "type": "h",
-          "text": "UN health agency also checking unconfirmed reports of 2nd case linked to lab"
-        },
-        {
-          "type": "p",
-          "text": "· The Associated Press"
-        },
-        {
-          "type": "p",
-          "text": "· Posted: Oct 07, 2026 3:14 PM EDT | Last Updated: 15 minutes ago"
-        },
-        {
-          "type": "p",
-          "text": "A top official with the UN's health agency doesn't know how a lab worker in Siberia died amid concerns about plague, and she's urging Russia to provide more information."
-        },
-        {
-          "type": "p",
-          "text": "There have been questions and concerns about the death of the 28-year-old woman, identified in Russian media as Darya Shipilova, amid speculation she died of pneumonic plague and that her death may be connected pathogens she worked with at the Irkutsk Anti-Plague Research Institute of Siberia and the Far East."
-        },
-        {
-          "type": "p",
-          "text": "Maria Van Kerkhove, director of epidemic and pandemic management at the World Health Agency (WHO), said the agency doesn't know the cause of the woman's Oct. 2 death, and \"this is why we need more information.\""
-        },
-        {
-          "type": "p",
-          "text": "\"We don't understand how she was infected,\" Van Kerkhove said during a news briefing in Geneva."
-        },
-        {
-          "type": "p",
-          "text": "The WHO is also seeking more information about unconfirmed media reports of a second case of pneumonia of \"undetermined cause\" connected to the Irkutsk lab, in southeastern Siberia."
-        },
-        {
-          "type": "p",
-          "text": "WHO director general Dr. Tedros Adhanom Ghebreyesus said the agency could not verify the credibility of the reports but is seeking clarification from the relevant officials in Russia."
-        },
-        {
-          "type": "p",
-          "text": "In a tersely worded statement, Russia's official public health and consumer watchdog, Rospotrebnadzor, does not link the first case to pneumonic plague, saying only that \"extensive\" testing found no evidence the lab worker's illness was caused by any of the pathogens she worked with."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Did a Russian lab worker die from pneumonic plague? What we know — and don't know"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Russia has said she died of pneumonia — a \"typical\" acute respiratory viral infection — and its health authorities have found no cases of plague recently, the WHO has said, acknowledging that pneumonia is commonplace and that cases of COVID-19 and rhinovirus were present among the some 200 people monitored since that death."
-        },
-        {
-          "type": "p",
-          "text": "Pneumonic plague is a less common but severe form of plague that can spread from person to person."
-        },
-        {
-          "type": "p",
-          "text": "Plague is an infectious disease caused by a bacterium known as Yersinia pestis, or Y. pestis, that is carried by small mammals and generally spread by the fleas that feed off them. It can be treated with antibiotics but can be deadly if left untreated."
-        },
-        {
-          "type": "p",
-          "text": "Plague is endemic to Siberia, which was recently confirmed as the location of the first known prehistoric human outbreak of the disease."
-        },
-        {
-          "type": "p",
-          "text": "What we know about the suspected plague death in Russia"
-        },
-        {
-          "type": "h",
-          "text": "Russia insists no plague cases"
-        },
-        {
-          "type": "p",
-          "text": "Moscow previously informed the WHO that no case of plague has been registered in the Irkutsk region."
-        },
-        {
-          "type": "p",
-          "text": "Russian health authorities reported a full range of preventive measures had been carried out —including tracing the dead woman's contacts, medical monitoring and lab tests, the WHO said."
-        },
-        {
-          "type": "p",
-          "text": "The Russian note relayed to The Associated Press by the WHO said the test showed \"no presence of dangerous infectious disease pathogens in any of the contacts.\""
-        },
-        {
-          "type": "p",
-          "text": "The organization said it has requested further information to clarify the cause of the severe pneumonia, the pathogen that prompted the public health measures, and media reports of the second case."
-        },
-        {
-          "type": "p",
-          "text": "Kremlin spokesman Dmitry Peskov referred all questions to Rospotrebnadzor, which does not mention suspected plague in its reports."
-        },
-        {
-          "type": "p",
-          "text": "In its latest statement Tuesday, the agency said \"the sanitary and epidemiological situation in the Irkutsk region … is calm.\""
-        },
-        {
-          "type": "p",
-          "text": "Authorities were completing a \"complex of prophylactic measures and medical observation over contacts,\" it said, adding that so far they have found two cases of COVID-19 and two of rhinovirus."
-        },
-        {
-          "type": "h",
-          "text": "Mother not notified"
-        },
-        {
-          "type": "p",
-          "text": "The news outlet Lyudi Baikala identified Shipilova as the deceased lab worker and said she first was hospitalized with cold symptoms Sept. 29, in the nearby town of Shelekhov, and died three days later."
-        },
-        {
-          "type": "p",
-          "text": "It quoted colleagues as saying she was a highly qualified and diligent researcher, and emphasized that security rules at the facility are extremely strict."
-        },
-        {
-          "type": "p",
-          "text": "The report quoted Shipilova's neighbours as saying a team of disinfection experts did several cleanups of her apartment, leaving a strong antiseptic smell."
-        },
-        {
-          "type": "p",
-          "text": "Researchers work in the institute's lab in this undated photo released in 2019. (Irkutsk Anti-Plague Research Institute of Siberia and Far East/Handout/The Associated Press)"
-        },
-        {
-          "type": "p",
-          "text": "Shipilova's mother, who worked as a doctor in the past, described her daughter as hard-working and dedicated, according to independent Russian news outlet Glubina, adding that she had not received official documents describing the cause of death."
-        },
-        {
-          "type": "p",
-          "text": "Irkutsk Gov. Igor Kobzev said she died of a \"particularly dangerous infection\" and everyone who came into contact with her has remained under medical supervision."
-        },
-        {
-          "type": "p",
-          "text": "The hospital where she died was placed under quarantine, no longer admitting or discharging patients, although its outpatient clinic has continued operating, according to Mayor Maxim Modin."
-        },
-        {
-          "type": "h",
-          "text": "WHO urges transparency"
-        },
-        {
-          "type": "p",
-          "text": "Russian authorities have, however kept a tight lid on information and the speculation she died of pneumonic plague."
-        },
-        {
-          "type": "p",
-          "text": "While the case has grabbed international attention, Russian state TV and other national state-controlled media have steered clear of the subject. Some state-sponsored news outlets withdrew earlier reports about the case."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Russian officials say no cases of plague in city where lab technician died",
-            "At 'crucial' moment for pandemic preparedness, experts say world isn't ready"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Vasily Vlassov, professor at the department of health-care administration and economics at Russia's Higher School of Economics, says it's not clear whether more transparency was possible if those dealing with the situation didn't have enough certainty, and \"maybe, they still don't.\""
-        },
-        {
-          "type": "p",
-          "text": "Deceiving the public \"always turns out to be harmful,\" he said, and distrust of Russia's official narrative is \"natural\" and \"almost inevitable.\""
-        },
-        {
-          "type": "p",
-          "text": "Judy Twigg, professor of political science at Virginia Commonwealth University, notes that Russia criminalized \"false information\" about threats to public safety in 2020 amid the COVID-19 pandemic, \"so silence is the one safe move for everyone below the top.\""
-        },
-        {
-          "type": "p",
-          "text": "\"Personalist regimes without electoral accountability tend to treat bad news as a loyalty problem rather than focusing on the actual problem to be addressed,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "LISTEN | Ground zero for 'Black Death':"
-        },
-        {
-          "type": "p",
-          "text": "Quirks and Quarks8:08The Black Death was history’s most lethal plague. Now we know where it started"
-        },
-        {
-          "type": "p",
-          "text": "With files from Nick Logan"
         }
       ],
       "truncated": false,
@@ -14329,141 +14710,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "rap-fkrpfd",
-      "source": "rap",
-      "title": "Ferdinand Marcos Jr. unplugged: Why the President needs music",
-      "summary": "'I’ve come to the conclusion that my life was lived with a soundtrack. When I hear a song, I remember when I first heard it, what I was doing, how I was feeling. Every big event in my life there was…",
-      "byline": "Juno Reyes",
-      "section": "Editors' Pick",
-      "published": "2026-10-07T09:50:14.000Z",
-      "firstSeen": "2026-10-07T10:01:09.035Z",
-      "url": "https://www.rappler.com/people/newsmakers/ferdinand-marcos-jr-music-lover/",
-      "image": {
-        "src": "https://www.youtube.com/embed/tNlghgs9PJY",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "'I’ve come to the conclusion that my life was lived with a soundtrack. When I hear a song, I remember when I first heard it, what I was doing, how I was feeling. Every big event in my life there was an accompanying track ongoing,' Marcos says in an interview with Gary Valenciano"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "President Ferdinand Marcos Jr. has a history of music-related controversies, including using a presidential helicopter to attend a Coldplay concert, which he described as 'unmissable.'",
-            "Marcos views music as an essential part of his life, associating significant events with specific songs and expressing admiration for the Filipino audience's enthusiasm for live performances."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "This is AI-generated. Read the article for full context. Report any errors."
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – Back in September 2024, President Ferdinand Marcos Jr. had caused an uproar for hiring a band to play at his private birthday party."
-        },
-        {
-          "type": "p",
-          "text": "While the Philippines is known as a music-loving country, it wasn’t just any band, that Marcos hired — it was acclaimed British pop-rock outfit Duran Duran, which was flown in just for his 67th birthday celebration."
-        },
-        {
-          "type": "p",
-          "text": "But the Presidential Communications Office (PCO) had attested that the party, held at a Pasay City hotel, was thrown by “old friends,” and that the Duran Duran performance had merely come as a surprise to Marcos. Then-communications secretary Cesar Chavez had even told reporters in a message that the band’s appearance came “at no cost to the government.”"
-        },
-        {
-          "type": "p",
-          "text": "This wasn’t the President’s first music-related controversy, however."
-        },
-        {
-          "type": "p",
-          "text": "Just a few months before that, in January 2024, the son of the former dictator had also found himself in hot water when the public caught wind of him using the presidential chopper to get to British band Coldplay’s concert at the Philippine Arena in Bulacan."
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2024/01/Marcos-Coldplay-Concert-January-20-2024.jpg?fit=449%2C449",
-          "caption": "Coldplay concert ‘unmissable’ for chopper-riding, ‘music lover’ Marcos"
-        },
-        {
-          "type": "p",
-          "text": "It was “unmissable,” he had told reporters in a chance interview several days after the show."
-        },
-        {
-          "type": "p",
-          "text": "“It was, by the way, fantastic. Ask anybody who attended the concert. The show they performed was spectacular. I haven’t seen anything like it,” he said."
-        },
-        {
-          "type": "p",
-          "text": "It seems, then, that the country’s biggest music fan happens to hold the state’s highest position. And Marcos was always one to make his affinity for music known."
-        },
-        {
-          "type": "p",
-          "text": "Around the time of the 2022 presidential elections, an old clip of him playing the saxophone had gone viral. He had revealed in an interview with Gary Valenciano that premiered on October 5 that this, along with the flute, were instruments he had picked up in his youth. He had even gone on to join several orchestras."
-        },
-        {
-          "type": "image",
-          "src": "https://img.youtube.com/vi/tNlghgs9PJY/sddefault.jpg",
-          "caption": "Ferdinand Marcos Jr. unplugged: Why the President needs music"
-        },
-        {
-          "type": "p",
-          "text": "Marcos had first studied music while he was pursuing his secondary education in England in the ’70s. He was a self-confessed troublemaker then, and was sent to his housemaster to receive his punishment."
-        },
-        {
-          "type": "p",
-          "text": "“He said, ‘You’re here all the time. You’re always in trouble. Go find yourself a hobby so that you can occupy your time by doing something constructive,’” he recalled."
-        },
-        {
-          "type": "image",
-          "src": "https://img.youtube.com/vi/T_GLUO4s0VE/sddefault.jpg",
-          "caption": "Ferdinand Marcos Jr. unplugged: Why the President needs music"
-        },
-        {
-          "type": "p",
-          "text": "Back then, he had been listening to a lot of music anyway, so it only seemed like the natural choice. What had served as his musical awakening, he shared, was Lou Reed’s “Walk on the Wild Side,” which he had heard another student play out loud while he was making his rounds before class. Aside from playing the flute and the saxophone, he would later also study music theory."
-        },
-        {
-          "type": "p",
-          "text": "“It’s a fascinating thing because unlike any other art form, music doesn’t exist anywhere else except in your brain. Think about it. A sculpture you can touch, a painting, you can look at and you can see the brushstrokes. All the other forms. This is just sound and it only becomes music because your brain interprets it as music. But the universality of it, everyone understands,” Marcos told Valenciano in the interview."
-        },
-        {
-          "type": "p",
-          "text": "The President views music as an integral part of his life — as something he cannot live without. If anyone were to take it away from him, he tells Valenciano, he wouldn’t know how to manage."
-        },
-        {
-          "type": "p",
-          "text": "“I just don’t know how I would get through the day,” he explained. “It’s the only thing that can change my mood. There are two things that can change my mood. Music’s one of them. The other one’s my children.”"
-        },
-        {
-          "type": "p",
-          "text": "Even Marcos’ big life events have specific songs associated with them. He and this art form have long been intertwined. “I’ve come to the conclusion that my life was lived with a soundtrack. When I hear a song, I remember when I first heard it, what I was doing, how I was feeling. Every big event in my life there was an accompanying track ongoing.”"
-        },
-        {
-          "type": "p",
-          "text": "But even as a big music fan, the President can’t seem to figure out why Filipinos excel so much at holding a note. He said that whenever his foreign friends would ask him why his countrymen were such good singers, he had never been able to give a proper answer."
-        },
-        {
-          "type": "p",
-          "text": "Apparently, what he does know, though, is that Filipinos make the best concert audiences."
-        },
-        {
-          "type": "p",
-          "text": "“I’ve heard it from Elton John, I’ve heard it from Sting. I’ve heard it from The Corrs. I’ve heard it from many of these artists that come. And they said, ‘The audience does all the work for me. I don’t have to sing. I don’t have to perform because the audience is singing for us,’” Marcos explained."
-        },
-        {
-          "type": "p",
-          "text": "Most Filipinos are lauded for always enthusiastically singing the lyrics back to the performing artist as loud as they can. It’s become a big indication of who the Filipino people are as enjoyers of music."
-        },
-        {
-          "type": "p",
-          "text": "In Marcos’ case, perhaps much of his repertoire as a music fan reflects in his willingness to do anything to catch his favorite bands perform live — even if it means flying a high-profile music act in for a private show or riding the presidential chopper to the Philippine Arena to beat the evening traffic, much to the ire of taxpayers. – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-1e7e2e9",
       "source": "bbc",
       "title": "Sri Lanka's ex-first lady arrested over alleged misuse of children's hospital donations",
@@ -14862,98 +15108,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "gma-1275of7",
-      "source": "gma",
-      "title": "Tito Sotto floats 'Tinikling' scheme using manager's checks",
-      "summary": "Senator-Judge Vicente “Tito” Sotto III on Wednesday floated a supposed scheme wherein manager\"s checks that are unutilized or have become stale are being returned to the issuing bank, possibly to…",
-      "byline": "GISELLE OMBAY, GMA News",
-      "section": "",
-      "published": "2026-10-07T09:31:19.000Z",
-      "firstSeen": "2026-10-07T10:01:09.030Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1005114/tito-sotto-floats-tinikling-scheme-using-manager-s-checks/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/09/Screenshot_2026-09-01_133800_2026_09_01_13_42_19.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published October 7, 2026 5:31pm"
-        },
-        {
-          "type": "p",
-          "text": "Senator-Judge Vicente “Tito” Sotto III on Wednesday floated a supposed scheme wherein manager’s checks that are unutilized or have become stale are being returned to the issuing bank, possibly to avoid audits."
-        },
-        {
-          "type": "p",
-          "text": "This was revealed on the Day 35 of the impeachment trial, where witnesses from banks and financial firms were presented by the House prosecution panel to testify on Article 2 of the impeachment case against Vice President Sara Duterte, alleging her unexplained wealth."
-        },
-        {
-          "type": "p",
-          "text": "“I’d just like to ask if you’re familiar with the term used by my banker friend, who told me that ‘yun daw pag-issue ng manager’s check, pagkatapos hindi ginamit, later on after the 31st of December, ibabalik, ang tawag daw do’n ‘Tinikling,’” Sotto asked Marwin Galvez, division head for Central Manila branches of Bank of the Philippine Islands (BPI)."
-        },
-        {
-          "type": "p",
-          "text": "(I’d just like to ask if you’re familiar with the term used by my banker friend, who told me that the practice of issuing a manager’s check, when it’s unused and is returned later after December 31st, is called Tinikling?)"
-        },
-        {
-          "type": "p",
-          "text": "“Gano’n daw ang ginagawa nung mga ibang umiiwas,” he added."
-        },
-        {
-          "type": "p",
-          "text": "(That’s supposedly what some people do to evade something.)"
-        },
-        {
-          "type": "p",
-          "text": "The bank official said that he is not familiar with the term."
-        },
-        {
-          "type": "p",
-          "text": "“Alam ko lang po ‘yung sayaw na Tinikling, Your Honor,” Galvez expressed."
-        },
-        {
-          "type": "p",
-          "text": "(I only know the Tinikling dance, Your Honor.)"
-        },
-        {
-          "type": "p",
-          "text": "During the direct examination of Galvez, the prosecution flagged a P41.7 million worth of manager’s check linked to former president Rodrigo Duterte and VP Sara Duterte that was supposedly “floating” for years and was not being reflected in year-end balances."
-        },
-        {
-          "type": "p",
-          "text": "Galvez confirmed the existence of such a joint peso time deposit opened on January 22, 2010, in the bank’s Julia Vargas Branch under the name “Rodrigo Roa Duterte or Rodrigo Roa Duterte and Sara Z. Duterte,” with a principal amount of P40,650,000."
-        },
-        {
-          "type": "p",
-          "text": "He said that the time deposit had 12 rollover periods or renewals. At the last renewal in February 2011, he said the amount already increased to P41.7 million, including the interest."
-        },
-        {
-          "type": "p",
-          "text": "In March 2011, the BPI official said a credit and debit memo showed that a manager’s check was purchased for P41.7 million. The manager’s check, however, remained unutilized after the validity period of six months."
-        },
-        {
-          "type": "p",
-          "text": "Private prosecutor James Bryan Alih said that the prosecution intended to prove a \"pattern,\" that a transaction in 2011 moved around for several more years and was later on used to purchase insurance policies."
-        },
-        {
-          "type": "p",
-          "text": "“Ang punto lang naman po eventually is that ‘yung manager’s check na pinapaikot, hindi nakikita sa year-end balance kasi naka-float ‘yung pera na ‘yun. ‘Yun lang naman ‘yung gusto naming i-establish as a baseline,” Alih said."
-        },
-        {
-          "type": "p",
-          "text": "(The only point is that the manager's check that is being circulated is not reflected in the year-end balance because the money is already floating. That's all we want to establish as a baseline.) — RSJ, GMA News"
-        },
-        {
-          "type": "p",
-          "text": "Follow facebook.com/gmanewsonline for real-time news and developments in the Philippines and around the world."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "dw-vyn5w5",
@@ -15810,102 +15964,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "grd-ukke45",
-      "source": "grd",
-      "title": "‘Lawyers should be running to courts’ to stop coal approvals after landmark ruling, NSW MP says",
-      "summary": "<p>High court finding in favour of Hunter Valley community group sets precedent other environmentalists should follow, advocate says</p><p>A landmark decision in Australia’s first climate change high…",
-      "byline": "Donna Lu, Lisa Cox, and Adam Morton",
-      "section": "Australia news",
-      "published": "2026-10-07T07:24:31.000Z",
-      "firstSeen": "2026-10-07T08:01:06.866Z",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/07/mount-pleasant-hunter-valley-coalmine-high-court-ruling-community-advocates",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/af17a75965e743d5d75c5504fdeb959bc5689ab2/424_641_2548_2039/master/2548.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0452c73e0d928f81fa1d5e79ababc872",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A landmark decision in Australia’s first climate change high court case has been described as a clear message to governments and fossil fuel companies that exported greenhouse gas emissions “cannot simply be ignored”."
-        },
-        {
-          "type": "p",
-          "text": "On Wednesday morning, the nation’s highest court ruled that the approval of MACH Energy’s Mount Pleasant coalmine expansion in NSW’s Hunter Valley was invalid, in a judgment that sets a precedent for fossil fuel projects in the state."
-        },
-        {
-          "type": "p",
-          "text": "The coal company brought the high court case after a local community group, the Denman Aberdeen Muswellbrook Scone Healthy Environment Group (Dams Heg), halted the coalmine expansion on climate grounds in the NSW court of appeal."
-        },
-        {
-          "type": "p",
-          "text": "In a 3-2 split ruling, the high court found the state’s Independent Planning Commission (IPC) failed to consider imposing conditions to minimise greenhouse gas emissions that would be generated by the mine when the coal is sold and burnt overseas. Known as scope 3 emissions, these are not counted in Australia’s domestic tally."
-        },
-        {
-          "type": "p",
-          "text": "Commenting on the judgment, the deputy Greens leader, Steph Hodgins-May, said: “For too long, big coal and gas companies have tried to pretend that the emissions from their products are someone else’s problem once they leave Australian shores. They’re not."
-        },
-        {
-          "type": "p",
-          "text": "“When Australian coal is burned overseas, the climate damage doesn’t magically disappear at the port. It comes back to communities here through worsening heat, drought, bushfires and floods."
-        },
-        {
-          "type": "p",
-          "text": "“This judgment sends a clear message to governments and fossil fuel companies that the climate impacts of their projects cannot simply be ignored or pushed down the line.”"
-        },
-        {
-          "type": "p",
-          "text": "NSW Greens MP Sue Higginson, formerly a public interest environmental lawyer, also said the high court judgment could lead to “significant legal difficulty” for the Hunter Valley Operations (HVO) coalmine extension, which was approved by the IPC a week ago."
-        },
-        {
-          "type": "p",
-          "text": "In greenlighting the HVO extension – the biggest in the state’s history – the IPC ruled that emissions from the mine would “contribute to climate change impacts on the people, economy and environment of the Hunter region, NSW and globally”, but that their impacts had been outweighed by economic benefits to the region."
-        },
-        {
-          "type": "p",
-          "text": "For both the HVO and Mount Pleasant coal developments, 98% of the emissions were scope 3 emissions, Higginson said. “HVO’s environmental impact statement didn’t even account for scope 3 emissions at all, and the high court has been crystal clear that consent authorities must ensure emissions are minimised to the greatest extent practicable. It seems clear that the approval of HVO fails this test."
-        },
-        {
-          "type": "p",
-          "text": "“Lawyers should be running to the courts right now with this judgment in hand, ready to stop coal approvals in their tracks,” she said."
-        },
-        {
-          "type": "p",
-          "text": "In a joint statement, the Liberal leader, Angus Taylor, and the Nationals leader, Matt Canavan, described the decision as a threat to “Australia’s standing as a reliable energy exporter” and said the federal and NSW governments “must act immediately to fix the law”."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "“A project extension the Independent Planning Commission approved in 2022, after years of assessment, has been sent back to square one,” they said, arguing that the Minns government should amend NSW’s Environmental Planning and Assessment Act to “make clear that overseas emissions from Australia’s exported resources are not a consideration in project approvals”."
-        },
-        {
-          "type": "p",
-          "text": "The climate change minister, Chris Bowen, who is in Fiji chairing climate negotiations, said: “The law of the land is law of the land, as interpreted by the high court, and we respect that."
-        },
-        {
-          "type": "p",
-          "text": "“If others don’t, if others are so biased in their approach that they don’t respect the law of the land, that’s a matter for them. It says a bit about their approach, but that’s about as all I’m going to say because it’s a court case and I’m not in Australia at the moment.”"
-        },
-        {
-          "type": "p",
-          "text": "Murray Watt, the federal environment minister, said on Wednesday afternoon that while he had not had an opportunity to review the judgment in full, “the decision from the high court is in relation to a New South Wales government decision based on New South Wales legislation”."
-        },
-        {
-          "type": "p",
-          "text": "“It doesn’t automatically transfer to commonwealth decisions or commonwealth legislation,” he told News24."
-        },
-        {
-          "type": "p",
-          "text": "The NSW government was contacted for comment."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "abs-1vehq2g",
@@ -17987,122 +18045,6 @@
         {
           "type": "p",
           "text": "This article was adapted from German."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-g59o6c",
-      "source": "dw",
-      "title": "Germany shaken by espionage and treason allegations",
-      "summary": "The former head of Germany's foreign intelligence service, the BND, has been accused of spying for a foreign country. Never before has a German official of August Hanning's stature been accused of…",
-      "byline": "Christoph Hasselbach",
-      "section": "",
-      "published": "2026-10-06T14:45:00.000Z",
-      "firstSeen": "2026-10-06T18:01:13.440Z",
-      "url": "https://www.dw.com/en/germany-shaken-by-espionage-and-treason-allegations/a-79566578?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79565318_6.jpg",
-        "caption": "Former BND chief August Hanning has been arrested on espionage chargesImage: Michael Kappeler/dpa/picture alliance"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "If the allegations are confirmed, it would be an espionage case of historic proportions for Germany: August Hanning, former head of the Federal Intelligence Service (BND), has been arrested, with the federal prosecutor accusing him of espionage, treason and attempted treason."
-        },
-        {
-          "type": "p",
-          "text": "August Hanning, now 80, headed the BND from 1998 to 2005. But even before then, he had enjoyed a meteoric rise within the security apparatus. After leaving the BND, he served as state secretary in the Federal Interior Ministry, then moved into the private sector and worked as a security consultant."
-        },
-        {
-          "type": "p",
-          "text": "According to the federal prosecutor's office, his informant was his former chief-of-staff, named in the statement only as Manfred D.*, who went on to hold this position under Hanning's successors from March 2012 to March 2026. D. thus had access to a great deal of classified information."
-        },
-        {
-          "type": "h",
-          "text": "Former German spy chief arrested for espionage"
-        },
-        {
-          "type": "h",
-          "text": "Classified information from the chancellor's office"
-        },
-        {
-          "type": "p",
-          "text": "Manfred D. is alleged to have passed on nearly 2,000 BND documents — some of them highly sensitive — to Hanning over the course of several years in exchange for money. Hanning is then said to have used the information in his private consultancy business."
-        },
-        {
-          "type": "p",
-          "text": "The most serious allegation is that Hanning is said to have maintained close contact with an employee of a foreign intelligence service for years and to have leaked classified information to him. It is not known which country was involved, but reports say it is not Russia."
-        },
-        {
-          "type": "p",
-          "text": "Investigators also mention an analysis that Hanning is said to have prepared for an employee of another foreign intelligence service. However, it is not certain whether the analysis ever reached that person."
-        },
-        {
-          "type": "p",
-          "text": "The classified information also concerned the routine meetings of the heads of German security agencies at the chancellery. Topics included, among other things, the Iranian nuclear program and analyses of the Russian armed forces."
-        },
-        {
-          "type": "p",
-          "text": "Since intelligence from foreign partner agencies is also said to have been shared in this context, this could also undermine their trust in the German BND and lead to difficulties in future intelligence cooperation with Germany."
-        },
-        {
-          "type": "p",
-          "text": "Hanning came under scrutiny in an entirely different context"
-        },
-        {
-          "type": "p",
-          "text": "\"A good agent is one who doesn't draw attention to himself,\" Hanning was once quoted as saying. When he finally drew attention to himself, it was in an entirely different context."
-        },
-        {
-          "type": "p",
-          "text": "In September 2025, the Hamburg state police searched Hanning's home and offices in connection with the famous case of the kidnapping involving Christina Block, heiress to the steakhouse restaurant chain Block House. State prosecutors in Hamburg accused her of having ordered the kidnapping of her two youngest children in late 2023 due to a custody dispute."
-        },
-        {
-          "type": "p",
-          "text": "A little over a year before the operation to bring the children back, there is said to have already been a failed kidnapping attempt. At the time, there were suspicions that Hanning was involved, which he denies."
-        },
-        {
-          "type": "p",
-          "text": "But during a search in 2025, investigators found an electronic storage device containing top-secret BND documents. The police handed the documents over to the federal prosecutor's office, which launched a covert investigation against Hanning and Manfred D. in May 2026. The most recent documents found so far are said to date from June 2022."
-        },
-        {
-          "type": "h",
-          "text": "Greens demand consequences"
-        },
-        {
-          "type": "p",
-          "text": "Throughout its history, the BND has seen a number of espionage cases, some of them spectacular. In the 1960s, Heinz Felfe headed the \"Counterintelligence: Soviet Union\" division while simultaneously working for the Soviet secret service, the KGB."
-        },
-        {
-          "type": "p",
-          "text": "In 2014, a BND employee was exposed as a spy for the US CIA. There is also an ongoing trial against a BND agent accused of betraying secrets to Russia's FSB in September and October 2022 — that is, after the start of the war in Ukraine. Yet never before has a former official of August Hanning's stature been at the center of suspicion of espionage."
-        },
-        {
-          "type": "p",
-          "text": "\"The BND launched extensive internal investigations early on and without delay, which corroborated the suspicions,\" said current BND President Martin Jäger. \"For the BND and for me, there can be no compromises when it comes to internal security.\""
-        },
-        {
-          "type": "p",
-          "text": "However, there was some fierce criticism from the political sphere. Günter Krings of the conservative governing party, the Christian Democratic Union (CDU), told the Rheinische Post newspaper: \"The mere suspicion that a former BND chief is selling secrets is damaging to trust in our security agencies.\""
-        },
-        {
-          "type": "p",
-          "text": "Konstantin von Notz of the environmentalist Green Party and deputy chair of the parliamentary committee that oversees the intelligence services said: \"These are serious and grave allegations that have been leveled against August Hanning.\" Speaking on behalf of his party, he called for greater scrutiny of lobbying activities by former top officials and those with the highest security clearances. \"These are clearly also a gateway for hostile intelligence services,\" von Notz said. The federal government must put an immediate stop to these \"illegitimate practices.\""
-        },
-        {
-          "type": "p",
-          "text": "Clara Bünger, domestic policy spokesperson for the socialist Left Party group in the Bundestag, went even further: \"The investigations against former BND chief Hanning show once again: The intelligence services themselves are a security risk.\""
-        },
-        {
-          "type": "p",
-          "text": "This article was originally written in German."
-        },
-        {
-          "type": "p",
-          "text": "*Editor's note: DW follows the German press code, which stresses the importance of protecting the privacy of suspected criminals or victims and urges us to refrain from revealing full names in such cases."
         }
       ],
       "truncated": false,
