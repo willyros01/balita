@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-09T00:01:19.183Z",
+  "updated": "2026-10-09T00:16:00.339Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-1lgj7mh",
+      "source": "inqn",
+      "title": "120 child laborers rescued in BARMM",
+      "summary": "COTABATO CITY, BARMM, Philippines — At least 120 children forced into labor because of poverty were rescued in this city and in Datu Odin Sinsuat, Maguindanao del Norte, in the Bangsamoro Autonomous…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-09T00:15:45.930Z",
+      "firstSeen": "2026-10-08T21:31:05.193Z",
+      "url": "https://newsinfo.inquirer.net/2320268/120-child-laborers-rescued-in-barmm",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Bangsamoro-Labor-Minister-Muslimin-Sema-scaled.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "COTABATO CITY, BARMM, Philippines — At least 120 children forced into labor because of poverty were rescued in this city and in Datu Odin Sinsuat, Maguindanao del Norte, in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM), labor officials said. The Bangsamoro Ministry of Labor and Employment (Mole) deployed teams to rescue the children from"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1jd6t8y",
       "source": "inqn",
       "title": "El Niño strains farms, water resources in other parts of Visayas",
       "summary": "TACLOBAN CITY, LEYTE, Philippines — The continuing El Niño phenomenon is taking a toll on agriculture, water resources, public health and livelihoods in other parts of the Visayas, with Northern…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-09T00:01:08.601Z",
+      "published": "2026-10-09T00:15:45.930Z",
       "firstSeen": "2026-10-08T21:31:05.700Z",
       "url": "https://newsinfo.inquirer.net/2320264/el-nino-strains-farms-water-resources-in-other-parts-of-visayas",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "MANILA, Philippines — A lawmaker has called out water concessionaire Maynilad Water Services Inc. for the company’s allegedly poor service, noting that they mention a lot of reasons while still…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-09T00:01:08.601Z",
+      "published": "2026-10-09T00:15:45.930Z",
       "firstSeen": "2026-10-08T19:31:08.102Z",
       "url": "https://newsinfo.inquirer.net/2320388/solon-hits-maynilad-for-poor-service-while-they-continue-to-earn",
       "image": {
@@ -109,7 +134,7 @@
       "summary": "MANILA, Philippines — President Marcos’ decision to certify as urgent a bill that would facilitate a sustainable reintegration program for overseas Filipino workers (OFWs) would prepare the…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-09T00:01:08.601Z",
+      "published": "2026-10-09T00:15:45.930Z",
       "firstSeen": "2026-10-08T18:31:07.185Z",
       "url": "https://newsinfo.inquirer.net/2320382/marcos-certifying-program-for-ofw-as-urgent-to-help-reintegration",
       "image": {
@@ -128,113 +153,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-ek8u8q",
-      "source": "inqn",
-      "title": "Authorities foil 53 attacks hatched after Cotabato school shooting",
-      "summary": "MANILA, Philippines — Authorities stopped 53 school shootings being planned in South Cotabato right after the Sept. 18 shooting at Banga National High School that left three students dead, including…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-09T00:01:08.429Z",
-      "firstSeen": "2026-10-08T22:01:13.017Z",
-      "url": "https://newsinfo.inquirer.net/2320340/authorities-foil-53-attacks-hatched-after-cotabato-school-shooting",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Banga-National-High-School-in-South-Cotabato-22September2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Authorities stopped 53 school shootings being planned in South Cotabato right after the Sept. 18 shooting at Banga National High School that left three students dead, including the 16-year-old shooter. “That night, that week, there were 53 planned school shootings in South Cotabato, and we stopped all of that,” Interior Secretary Jonvic"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1to4ddx",
-      "source": "inqn",
-      "title": "‘Politics-centered’ 2027 budget looms in House, says watchdog",
-      "summary": "MANILA, Philippines — The government’s budget for next year is morphing into a “politics-centered” spending plan, a budget watchdog warned on Thursday as it accused lawmakers of channeling funds into…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-09T00:01:08.429Z",
-      "firstSeen": "2026-10-08T22:01:20.920Z",
-      "url": "https://newsinfo.inquirer.net/2320325/politics-centered-2027-budget-looms-in-house-says-watchdog",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/1306035.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The government’s budget for next year is morphing into a “politics-centered” spending plan, a budget watchdog warned on Thursday as it accused lawmakers of channeling funds into projects susceptible to political patronage and appearing to have redistributed funding based on political motives. The budget bill passed on second reading by the House"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-kqqt4i",
-      "source": "inqn",
-      "title": "DOJ cites process before tagging Leviste ‘fugitive’",
-      "summary": "MANILA, Philippines — The Department of Justice (DOJ) on Thursday withheld calling Batangas Rep. Leandro Leviste a “fugitive from justice” in connection with his criminal case, saying only the court…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-09T00:01:08.429Z",
-      "firstSeen": "2026-10-08T22:01:23.618Z",
-      "url": "https://newsinfo.inquirer.net/2320328/doj-cites-process-before-tagging-leviste-fugitive",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/Melvin-Matibag-Leandro-Leviste.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Department of Justice (DOJ) on Thursday withheld calling Batangas Rep. Leandro Leviste a “fugitive from justice” in connection with his criminal case, saying only the court may officially put that tag on an accused. The DOJ’s clarification was directed at the statement made by National Bureau of Investigation Director Melvin Matibag"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-8x3igv",
-      "source": "inqn",
-      "title": "PDEA hands out P9.15M in rewards to 28 informants",
-      "summary": "MANILA, Philippines — The Philippine Drug Enforcement Agency (PDEA) rewarded 28 civilian informants with a total of P9.15 million for information that officials said led to major drug seizures, the…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-09T00:01:08.429Z",
-      "firstSeen": "2026-10-08T22:01:23.618Z",
-      "url": "https://newsinfo.inquirer.net/2320324/pdea-hands-out-p9-15m-in-rewards-to-28-informants",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/pdea-informants-09oct2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Philippine Drug Enforcement Agency (PDEA) rewarded 28 civilian informants with a total of P9.15 million for information that officials said led to major drug seizures, the dismantling of a clandestine laboratory and the eradication of marijuana plantations nationwide. “These informants may remain behind the scenes, but the information they provided have"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-9g4mfd",
       "source": "inqn",
       "title": "Mark Villar joins majority, chairs public works panel",
       "summary": "MANILA, Philippines — Sen. Mark Villar on Thursday crossed over to the Senate majority, bringing the bloc’s membership to 14 and securing his chairmanship of the powerful public works committee, a…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-09T00:01:08.429Z",
+      "published": "2026-10-09T00:15:44.193Z",
       "firstSeen": "2026-10-08T22:01:23.618Z",
       "url": "https://newsinfo.inquirer.net/2320336/mark-villar-joins-majority-chairs-public-works-panel",
       "image": {
@@ -259,7 +184,7 @@
       "summary": "MANILA, Philippines — The net income after tax of Vice President Sara Duterte and her husband, lawyer Manases Carpio, from 2007 to 2025 amounting to more than P85 million does not add up to her…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-09T00:01:08.429Z",
+      "published": "2026-10-09T00:15:44.193Z",
       "firstSeen": "2026-10-08T21:31:05.141Z",
       "url": "https://newsinfo.inquirer.net/2320316/gap-between-vps-saln-tax-records-shown-in-impeach-trial",
       "image": {
@@ -284,7 +209,7 @@
       "summary": "ILOILO CITY, Philippines — Bishops from the province of Capiz have expressed solidarity with the Diocese of Kalibo in raising concerns over the opening and operation of a casino in Boracay, urging…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-09T00:01:08.429Z",
+      "published": "2026-10-09T00:15:44.193Z",
       "firstSeen": "2026-10-08T21:31:05.193Z",
       "url": "https://newsinfo.inquirer.net/2320271/church-leaders-speak-out-vs-casino-hub-in-boracay",
       "image": {
@@ -303,38 +228,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1lgj7mh",
-      "source": "inqn",
-      "title": "120 child laborers rescued in BARMM",
-      "summary": "COTABATO CITY, BARMM, Philippines — At least 120 children forced into labor because of poverty were rescued in this city and in Datu Odin Sinsuat, Maguindanao del Norte, in the Bangsamoro Autonomous…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-09T00:01:08.429Z",
-      "firstSeen": "2026-10-08T21:31:05.193Z",
-      "url": "https://newsinfo.inquirer.net/2320268/120-child-laborers-rescued-in-barmm",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Bangsamoro-Labor-Minister-Muslimin-Sema-scaled.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COTABATO CITY, BARMM, Philippines — At least 120 children forced into labor because of poverty were rescued in this city and in Datu Odin Sinsuat, Maguindanao del Norte, in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM), labor officials said. The Bangsamoro Ministry of Labor and Employment (Mole) deployed teams to rescue the children from"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-q6fa26",
       "source": "inqn",
       "title": "DILG eyes P9-B savings in P15-B fire truck procurement deal",
       "summary": "MANILA, Philippines — The Department of the Interior and Local Government (DILG) will procure 1,500 new fire trucks in 2027 at a projected cost of P15 billion to address a shortage in fire-fighting…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-09T00:01:08.376Z",
+      "published": "2026-10-09T00:15:44.192Z",
       "firstSeen": "2026-10-08T22:01:09.270Z",
       "url": "https://newsinfo.inquirer.net/2320331/dilg-eyes-p9-b-savings-in-p15-b-fire-truck-procurement-deal",
       "image": {
@@ -359,7 +259,7 @@
       "summary": "MANILA, Philippines — The Office of the Ombudsman on Thursday warned public officials against using gas allocations meant for government vehicles for their own private cars, saying that a local…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-09T00:01:08.376Z",
+      "published": "2026-10-09T00:15:44.192Z",
       "firstSeen": "2026-10-08T22:01:11.230Z",
       "url": "https://newsinfo.inquirer.net/2320335/ombudsman-warns-public-execs-vs-using-govt-gas-for-private-vehicles",
       "image": {
@@ -378,13 +278,113 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-ek8u8q",
+      "source": "inqn",
+      "title": "Authorities foil 53 attacks hatched after Cotabato school shooting",
+      "summary": "MANILA, Philippines — Authorities stopped 53 school shootings being planned in South Cotabato right after the Sept. 18 shooting at Banga National High School that left three students dead, including…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-09T00:15:44.192Z",
+      "firstSeen": "2026-10-08T22:01:13.017Z",
+      "url": "https://newsinfo.inquirer.net/2320340/authorities-foil-53-attacks-hatched-after-cotabato-school-shooting",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Banga-National-High-School-in-South-Cotabato-22September2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Authorities stopped 53 school shootings being planned in South Cotabato right after the Sept. 18 shooting at Banga National High School that left three students dead, including the 16-year-old shooter. “That night, that week, there were 53 planned school shootings in South Cotabato, and we stopped all of that,” Interior Secretary Jonvic"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1to4ddx",
+      "source": "inqn",
+      "title": "‘Politics-centered’ 2027 budget looms in House, says watchdog",
+      "summary": "MANILA, Philippines — The government’s budget for next year is morphing into a “politics-centered” spending plan, a budget watchdog warned on Thursday as it accused lawmakers of channeling funds into…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-09T00:15:44.192Z",
+      "firstSeen": "2026-10-08T22:01:20.920Z",
+      "url": "https://newsinfo.inquirer.net/2320325/politics-centered-2027-budget-looms-in-house-says-watchdog",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/1306035.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The government’s budget for next year is morphing into a “politics-centered” spending plan, a budget watchdog warned on Thursday as it accused lawmakers of channeling funds into projects susceptible to political patronage and appearing to have redistributed funding based on political motives. The budget bill passed on second reading by the House"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-kqqt4i",
+      "source": "inqn",
+      "title": "DOJ cites process before tagging Leviste ‘fugitive’",
+      "summary": "MANILA, Philippines — The Department of Justice (DOJ) on Thursday withheld calling Batangas Rep. Leandro Leviste a “fugitive from justice” in connection with his criminal case, saying only the court…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-09T00:15:44.192Z",
+      "firstSeen": "2026-10-08T22:01:23.618Z",
+      "url": "https://newsinfo.inquirer.net/2320328/doj-cites-process-before-tagging-leviste-fugitive",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/Melvin-Matibag-Leandro-Leviste.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Department of Justice (DOJ) on Thursday withheld calling Batangas Rep. Leandro Leviste a “fugitive from justice” in connection with his criminal case, saying only the court may officially put that tag on an accused. The DOJ’s clarification was directed at the statement made by National Bureau of Investigation Director Melvin Matibag"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-8x3igv",
+      "source": "inqn",
+      "title": "PDEA hands out P9.15M in rewards to 28 informants",
+      "summary": "MANILA, Philippines — The Philippine Drug Enforcement Agency (PDEA) rewarded 28 civilian informants with a total of P9.15 million for information that officials said led to major drug seizures, the…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-09T00:15:44.192Z",
+      "firstSeen": "2026-10-08T22:01:23.618Z",
+      "url": "https://newsinfo.inquirer.net/2320324/pdea-hands-out-p9-15m-in-rewards-to-28-informants",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/pdea-informants-09oct2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Philippine Drug Enforcement Agency (PDEA) rewarded 28 civilian informants with a total of P9.15 million for information that officials said led to major drug seizures, the dismantling of a clandestine laboratory and the eradication of marijuana plantations nationwide. “These informants may remain behind the scenes, but the information they provided have"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-m5g0lv",
       "source": "inqn",
       "title": "Up to 6 million ‘fake’ PWDs? Use of bogus discount cards alarms DOJ",
       "summary": "MANILA, Philippines — The chief prosecutor of the Department of Justice (DOJ) on Thursday warned individuals who acquired identification cards for people with disability (PWD) through illegal means…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-09T00:01:08.374Z",
+      "published": "2026-10-09T00:15:42.545Z",
       "firstSeen": "2026-10-08T22:01:09.261Z",
       "url": "https://newsinfo.inquirer.net/2320320/up-to-6-million-fake-pwds-use-of-bogus-discount-cards-alarms-doj",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "MANILA, Philippines — Inquirer.net assignment editor and longtime judiciary reporter Ma. Theresa “Tetch” Torres-Tupas was among the journalists honored by Icons of Change in 2026, joining a list that…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-09T00:01:06.627Z",
+      "published": "2026-10-09T00:15:40.531Z",
       "firstSeen": "2026-10-08T22:01:09.201Z",
       "url": "https://newsinfo.inquirer.net/2320338/inquirer-net-editor-tupas-among-intl-icons-of-change-awardees",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "BAYAMBANG, Pangasinan – Onsite classes in this central Pangasinan town are suspended on Friday, Oct. 9, to allow teachers to attend a municipal-wide celebration of World Teachers’ Day. Schools will…",
       "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-10-09T00:01:06.576Z",
+      "published": "2026-10-09T00:15:38.732Z",
       "firstSeen": "2026-10-08T23:00:56.157Z",
       "url": "https://newsinfo.inquirer.net/2320427/pangasinan-town-suspends-onsite-classes-for-teachers-day-event",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "MANILA, Philippines — The prosecution’s presentation of the Bureau of Internal Revenue (BIR) as a witness in Vice President Sara Duterte’s impeachment trial is expected to conclude on Friday, with a…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-09T00:01:01.229Z",
+      "published": "2026-10-09T00:15:31.611Z",
       "firstSeen": "2026-10-08T23:30:52.626Z",
       "url": "https://newsinfo.inquirer.net/2320394/vp-trial-day-37-bir-exec-to-finish-testifying-before-senate-impeach-court",
       "image": {
@@ -484,7 +484,7 @@
       "summary": "SINGAPORE — President Marcos on Thursday highlighted the easing of foreign ownership restrictions in certain industries as he sought to attract international investors to the Philippines. Marcos said…",
       "byline": "cbuban",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-09T00:00:59.587Z",
+      "published": "2026-10-09T00:15:30.445Z",
       "firstSeen": "2026-10-08T23:00:58.231Z",
       "url": "https://globalnation.inquirer.net/341198/marcos-pitches-eased-foreign-ownership-rules-to-investors-in-singapore",
       "image": {
@@ -509,7 +509,7 @@
       "summary": "MANILA, Philippines — A new low-pressure area (LPA) formed outside the Philippine area of responsibility (PAR) on Friday but is unlikely to develop into a tropical cyclone within the next 24 hours,…",
       "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-10-09T00:00:59.323Z",
+      "published": "2026-10-09T00:15:30.241Z",
       "firstSeen": "2026-10-08T23:30:52.575Z",
       "url": "https://newsinfo.inquirer.net/2320432/lpa-forms-outside-par-unlikely-to-develop-into-cyclone-pagasa",
       "image": {
@@ -534,7 +534,7 @@
       "summary": "SINGAPORE — President Marcos met with executives of US logistics giant FedEx in Singapore on Thursday, where the company raised the possibility of further expanding its Philippine operations amid an…",
       "byline": "cbuban",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-09T00:00:58.568Z",
+      "published": "2026-10-09T00:15:29.778Z",
       "firstSeen": "2026-10-08T23:00:56.197Z",
       "url": "https://globalnation.inquirer.net/341202/marcos-fedex-discuss-possible-further-ph-expansion",
       "image": {
@@ -559,7 +559,7 @@
       "summary": "LEGAZPI CITY — The National Irrigation Administration (NIA) in Bicol is adjusting planting schedules and irrigation strategies to help farmers cope with potential water shortages as El Niño threatens…",
       "byline": "jcristobal",
       "section": "Latest News Stories",
-      "published": "2026-10-09T00:00:57.676Z",
+      "published": "2026-10-09T00:15:29.777Z",
       "firstSeen": "2026-10-09T00:00:57.676Z",
       "url": "https://newsinfo.inquirer.net/2320438/nia-adjusts-irrigation-plans-as-el-nino-threatens-bicol-farms",
       "image": {
@@ -578,13 +578,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-3jyyxq",
+      "source": "inqn",
+      "title": "2 homegrown technologies advance toward wider use in South Luzon",
+      "summary": "CALAPAN CITY, Oriental Mindoro — Two locally developed technologies for weather monitoring and waste management are moving closer to wider commercial and institutional use following agreements signed…",
+      "byline": "jcristobal",
+      "section": "Latest News Stories",
+      "published": "2026-10-09T00:15:29.730Z",
+      "firstSeen": "2026-10-09T00:00:57.574Z",
+      "url": "https://newsinfo.inquirer.net/2320440/2-homegrown-technologies-advance-toward-wider-use-in-south-luzon",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/1000029283.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CALAPAN CITY, Oriental Mindoro — Two locally developed technologies for weather monitoring and waste management are moving closer to wider commercial and institutional use following agreements signed during a regional innovation summit on Oct. 8. The Department of Science and Technology (DOST) in Mimaropa said the agreements, signed during the 2026 South Luzon Innovation and"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
       "id": "inqg-1l95odw",
       "source": "inqg",
       "title": "Marcos sees Pax Silica as boost to PH role in int’l chip industry",
       "summary": "SINGAPORE — President Marcos said on Thursday that he was “terribly excited” about the US-led Pax Silica initiative, which he sees as an opportunity for the Philippines to expand its role in the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-09T00:00:57.574Z",
+      "published": "2026-10-09T00:15:29.730Z",
       "firstSeen": "2026-10-08T23:00:56.157Z",
       "url": "https://globalnation.inquirer.net/341204/marcos-sees-pax-silica-as-boost-to-ph-role-in-intl-chip-industry",
       "image": {
@@ -603,29 +628,296 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-3jyyxq",
-      "source": "inqn",
-      "title": "2 homegrown technologies advance toward wider use in South Luzon",
-      "summary": "CALAPAN CITY, Oriental Mindoro — Two locally developed technologies for weather monitoring and waste management are moving closer to wider commercial and institutional use following agreements signed…",
-      "byline": "jcristobal",
-      "section": "Latest News Stories",
-      "published": "2026-10-09T00:00:57.574Z",
-      "firstSeen": "2026-10-09T00:00:57.574Z",
-      "url": "https://newsinfo.inquirer.net/2320440/2-homegrown-technologies-advance-toward-wider-use-in-south-luzon",
+      "id": "cbc-1er9tf7",
+      "source": "cbc",
+      "title": "B.C. teen rescued from 'Widowmaker' mountain trail says AI isn't to blame",
+      "summary": "Bryce Gowryluk, 16, was lifted from Crown Mountain by helicopter Saturday after accidentally taking what's called \"the Widowmaker\" climbing route.",
+      "byline": "Natalie Stechyson",
+      "section": "News/Canada",
+      "published": "2026-10-09T00:05:22.000Z",
+      "firstSeen": "2026-10-09T00:15:29.730Z",
+      "url": "https://www.cbc.ca/news/canada/hiker-ai-stuck-mountain-9.7373964?cmp=rss",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/1000029283.jpg",
+        "src": "https://i.cbc.ca/ais/6e65c551-ca4d-4711-bef3-d0afa182a22e,1791489958459/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C544%2C1170%2C658%29%3BResize%3D620",
+        "caption": "Bryce Gowryluk, 16, was lifted from Crown Mountain by helicopter Saturday after accidentally taking what's called 'the Widowmaker' climbing route. The Vancouver teen is pictured here on a hike in September 2026. (Joelle Gowryluk)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Canada·New"
+        },
+        {
+          "type": "p",
+          "text": "Bryce Gowryluk, 16, was lifted from Crown Mountain by helicopter Saturday after accidentally taking what's called \"the Widowmaker\" climbing route."
+        },
+        {
+          "type": "h",
+          "text": "Bryce Gowryluk, 16, was lifted from Crown Mountain by helicopter Saturday"
+        },
+        {
+          "type": "p",
+          "text": "A B.C. teen making global headlines after being rescued from the side of a mountain says AI is not the reason he became stranded."
+        },
+        {
+          "type": "p",
+          "text": "Bryce Gowryluk, 16, an experienced hiker from Vancouver, is frustrated by this week's news stories claiming he used Anthropic's AI chatbot, Claude, to plan the alpine scramble that ended in a helicopter extraction from what's called \"the Widowmaker\" climbing route on Crown Mountain."
+        },
+        {
+          "type": "p",
+          "text": "\"People are really taking it out of context, because people think that I planned … or was coerced by the AI to go on the Widowmaker, which is not true,\" Gowryluk told CBC News."
+        },
+        {
+          "type": "p",
+          "text": "\"I just feel like people who are judging the situation are really unfair in their stance.\""
+        },
+        {
+          "type": "p",
+          "text": "Volunteer rescue organization North Shore Rescue posted on Facebook Sunday that they responded to a call the day before about a hiker stranded on Crown Mountain, at the base of the final, vertical climbing wall of the route known as the Widowmaker."
+        },
+        {
+          "type": "p",
+          "text": "They eventually located him by helicopter. A rescue tech belayed down to the hiker and moved him to \"a suitable extraction point,\" and they airlifted him out."
+        },
+        {
+          "type": "p",
+          "text": "The harrowing photos, and a rescuer's comments that the teen used AI to plan his route, quickly went viral."
+        },
+        {
+          "type": "p",
+          "text": "A photo posted by North Shore Rescue on Sunday shows a teen who had to be rescued from the side of Crown Mountain, north of Vancouver, the day before. (North Shore Rescue/Facebook)"
+        },
+        {
+          "type": "p",
+          "text": "Gowryluk says he spent three days planning what was meant to be about the eight-hour hike Saturday from the top of Grouse Mountain to Crown Mountain and back. He consulted AllTrails and Google Maps, and admits he cross-referenced some information about the terrain using Claude, but says he mostly used the AI agent to help him with his packing list."
+        },
+        {
+          "type": "p",
+          "text": "He left home around 7:30 a.m., took the bus to Grouse Mountain, rode the gondola to the top and walked to the alpine trailhead. His route was meant to eventually take him through a rugged scramble, but instead he mistakenly turned onto an unmarked route called the \"Widowmaker Arete.\""
+        },
+        {
+          "type": "p",
+          "text": "\"There's no warnings,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "At first, he says, the terrain was \"nothing too extreme,\" so he assumed he was on the right path — until it became too steep and too smooth to count as a scramble at all. Going back down, backwards, wasn't an option, and neither was staying still on the rock face, he said."
+        },
+        {
+          "type": "p",
+          "text": "\"That's when I realized something has gone terribly wrong,\" Gowryluk said, but he kept climbing, focused on putting his hands and feet wherever they would fit."
+        },
+        {
+          "type": "p",
+          "text": "\"I knew that fear would just lead me to panic, and panic would lead me to my death.\""
+        },
+        {
+          "type": "p",
+          "text": "He finally made his way to a ledge wide enough to stand on and called his mom."
+        },
+        {
+          "type": "p",
+          "text": "LISTEN | Rescuer recalls getting to teen stranded on mountain:"
+        },
+        {
+          "type": "p",
+          "text": "As It Happens6:32Rescuer cautions against 'blindly following' AI directions after chatbot leads teen hiker astray"
+        },
+        {
+          "type": "h",
+          "text": "'I think I made a wrong turn'"
+        },
+        {
+          "type": "p",
+          "text": "Joelle Gowryluk says her phone rang in the early afternoon."
+        },
+        {
+          "type": "p",
+          "text": "Bryce is an air cadet with survivalist training and is a certified belayer, she said, and so Joelle felt her son was well prepared for yet another hike — especially in a busy area like Grouse on a sunny, clear day."
+        },
+        {
+          "type": "p",
+          "text": "But when she answered the phone and asked what was going on, Bryce said, \"I think I made a wrong turn,\" Joelle said."
+        },
+        {
+          "type": "p",
+          "text": "\"He wasn't frantic. He just said, 'Mom, I have to call the North Shore Rescue. I can't go any further. I've climbed too high and I can't get back down.'\""
+        },
+        {
+          "type": "p",
+          "text": "North Shore Rescue search manager Paul Markey said they were dispatched by the police to rescue Gowryluk, who he described as \"an adventurous sort.\" And regardless of whether it was via chatbot or his own navigation, Markey says Gowryluk found himself on a significantly challenging alpine climbing route without the proper equipment."
+        },
+        {
+          "type": "p",
+          "text": "\"He was perched on a ledge,\" Markey told CBC Radio's As it Happens."
+        },
+        {
+          "type": "p",
+          "text": "\"He was very scared, as would [be] anybody in that particular position.\""
+        },
+        {
+          "type": "p",
+          "text": "They flew to him quickly, Markey said, and hoisted two rescuers down to him from the helicopter. Then they got him to an area where he could safely be hoisted back up, and brought him back down to the base of the mountain."
+        },
+        {
+          "type": "p",
+          "text": "\"It was definitely, a really try-not-to-freak out experience,\" Gowryluk said, recalling dangling from the helicopter by a harness."
+        },
+        {
+          "type": "p",
+          "text": "A still image taken from a video provided by Bryce Gowryluk of Vancouver shows the helicopter that rescued him from Crown Mountain on Saturday. (Bryce Gowryluk)"
+        },
+        {
+          "type": "h",
+          "text": "Experts warn about relying on AI"
+        },
+        {
+          "type": "p",
+          "text": "Bryce came home that day \"pretty shocked,\" Joelle Gowryluk recalled. Typically, he returns from the mountains very happy and very tired, she said, \"but a good tired.\""
+        },
+        {
+          "type": "p",
+          "text": "Climbing is positive for his mental health, she added, saying she'll continue to encourage him to hike and climb safely — and always with another person — and hopes other teens will consider it, too. But she worries about the media attention that she feels has focused on Bryce's use of AI while downplaying his experience."
+        },
+        {
+          "type": "p",
+          "text": "\"He's no stranger to these North Shore mountains,\" she said."
+        },
+        {
+          "type": "p",
+          "text": "When CBC asked Bryce Gowryluk when he might head back for another mountain hike, he replied, \"probably Saturday.\""
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Maritime experts urge use of verified weather reports after kayaker capsizes in B.C. waters",
+            "Rescues in the Rockies cost millions each year. Who pays for them?"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "While the hiker and rescuer give different reports for how AI was involved in Gowryluk's ill-fated trip, it's just one recent example where chatbots were involved in people finding themselves in dangerous situations."
+        },
+        {
+          "type": "p",
+          "text": "In September, for instance, maritime first responders warned people not to rely on AI for weather reports after rescuing a man whose kayak capsized on B.C.'s south coast."
+        },
+        {
+          "type": "p",
+          "text": "He had tried to use an AI chatbot to determine the safest time to paddle."
+        },
+        {
+          "type": "p",
+          "text": "Markey says the North Shore Rescue probably gets about 150 calls per year, but that Gowryluk's was the first call they'd ever had about someone potentially led into a dangerous area by AI. He's worried it will just be the first of many, he added, and cautioned climbers from \"blindly following\" a route suggested by artificial intelligence."
+        },
+        {
+          "type": "p",
+          "text": "\"Claude has never been onto that mountain,\" Markey said."
+        },
+        {
+          "type": "p",
+          "text": "Bryce Gowryluk, now 16, is pictured hiking as a child. Bryce is an experienced hiker, an air cadet with survivalist training and a certified belayer. (Joelle Gowryluk)"
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Natalie Stechyson has been a writer and editor at CBC News since 2021. She covers stories on social trends, families, gender, human interest, as well as general news. She's worked as a journalist since 2009, with stints at the Globe and Mail and Postmedia News, among others. Before joining CBC News, she was the parents editor at HuffPost Canada, where she won a silver Canadian Online Publishing Award for her work on pregnancy loss. You can reach her at natalie.stechyson@cbc.ca."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Instagram"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "With files from Theo van Beusekom"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-2htovk",
+      "source": "grd",
+      "title": "Plans for Sydney’s controversial new public square in doubt after NSW government intervention",
+      "summary": "<p>State planning minister declares project ‘state significant’, wresting approval process away from local council</p><p>Plans for a grand new public square in centre of Sydney are in doubt after the…",
+      "byline": "Penry Buckley",
+      "section": "Sydney",
+      "published": "2026-10-08T23:59:53.000Z",
+      "firstSeen": "2026-10-09T00:15:29.730Z",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/09/sydney-public-square-controversy-state-government-intervention",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/d32a2ac8a9ef8abe3685488be4af487397a51547/1463_0_5609_4488/master/5609.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=698529beed5ebf073a5566158339a260",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "CALAPAN CITY, Oriental Mindoro — Two locally developed technologies for weather monitoring and waste management are moving closer to wider commercial and institutional use following agreements signed during a regional innovation summit on Oct. 8. The Department of Science and Technology (DOST) in Mimaropa said the agreements, signed during the 2026 South Luzon Innovation and"
+          "text": "Plans for a grand new public square in centre of Sydney are in doubt after the New South Wales planning minister declared the project “state significant”, wresting the approval process away from the City of Sydney."
+        },
+        {
+          "type": "p",
+          "text": "The lord mayor, Clover Moore, released renders in August for the plaza opposite Sydney’s town hall. The design for the space, which the council had expected to be completed by 2031, include a semi-circular clearing projecting eastwards towards Hyde park, with a fountain and a grove of native trees."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/5c661f553c5457ef30c7b7b2ce5bc706301ce760/1991_1402_3850_3083/master/3850.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Artists render of the proposed Sydney Town Square redevelopment. Illustration: JPW and ASPECT Studios"
+        },
+        {
+          "type": "p",
+          "text": "The plans have been the source of a battle between Moore and the NSW premier, Chris Minns, who has said he does not support the project, describing it as “too expensive, majorly disruptive for Sydney”, and said it would close down businesses in the area. It had also become a flashpoint in a culture war, ridiculed in the Sydney tabloid The Daily Telegraph, which published AI-generated images of the new square heaving with protesters."
+        },
+        {
+          "type": "p",
+          "text": "The council began finalising discussions with the owners of the last of seven buildings needed to be acquired and bulldozed for the project in recent months. The demolition and construction was expected to cost $150m."
+        },
+        {
+          "type": "p",
+          "text": "But on Friday, the planning minister, Paul Scully announced he had declared the project a state significant development (SSD), after seeking advice from the NSW Independent Planning Commission, taking the decision for approval away from the council."
+        },
+        {
+          "type": "p",
+          "text": "“This process will allow for a rigorous whole-of-government assessment by the department and provide an opportunity for individuals, the community, and other stakeholders to have their say on any development application,” he said."
+        },
+        {
+          "type": "p",
+          "text": "They have also been opposed by Woolworths, whose town hall location occupies one of the buildings that would be demolished under the plans."
+        },
+        {
+          "type": "p",
+          "text": "Scully said the IPC would make the determination on any proposal submitted by the City of Sydney. Under the SSD pathway, the planning minister himself is the consent authority, unless the IPC is delegated to take on that role."
+        },
+        {
+          "type": "p",
+          "text": "In a surprise statement on Friday, Moore welcomed the decision to declare the project state significant, saying, “I could not agree more”."
+        },
+        {
+          "type": "p",
+          "text": "“Regardless of who assesses it, we remain confident in the merits of the proposal and see no planning reason why it should not ultimately be supported.”"
+        },
+        {
+          "type": "p",
+          "text": "“The City owns the buildings, has responsibly saved the money over a 40 year period to deliver the project debt-free, and has had some of the world’s leading designers and architects work on the plans.”"
+        },
+        {
+          "type": "p",
+          "text": "“This has, however, been an unusual intervention. The government generally takes planning decisions away from councils to speed up development, not slow it down, and in this case it stepped in before a development application even existed.”"
+        },
+        {
+          "type": "p",
+          "text": "More details to come."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "gma-ihndt3",
@@ -804,6 +1096,28 @@
       "source_of_text": "page"
     },
     {
+      "id": "abs-4idk3w",
+      "source": "abs",
+      "title": "USS Abraham Lincoln returns after 'epic' 10-month deployment",
+      "summary": "The USS Abraham Lincoln is the flagship of a carrier strike group that saw eight suicide attempts among US sailors during its 10-month deployment, according to the Navy. Its deployment included more…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-08T23:52:18.000Z",
+      "firstSeen": "2026-10-09T00:15:29.730Z",
+      "url": "https://www.abs-cbn.com/news/world/2026/10/9/uss-abraham-lincoln-returns-after-epic-10-month-deployment-0752",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The USS Abraham Lincoln is the flagship of a carrier strike group that saw eight suicide attempts among US sailors during its 10-month deployment, according to the Navy. Its deployment included more than 260 continuous days without a port call."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
       "id": "inq-18ue8az",
       "source": "inq",
       "title": "Marcoleta plunder trial, first day: Prosecution rests case vs senator",
@@ -826,7 +1140,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "dw-19p1igg",
@@ -1446,15 +1760,15 @@
       "source_of_text": "page"
     },
     {
-      "id": "dw-1fm3507",
+      "id": "dw-fsfj59",
       "source": "dw",
-      "title": "Man injured after New York shooting involving DHS agents",
-      "summary": "The shooting happened in the afternoon in the Bronx, with details still emerging. The incident involved the US Department of Homeland Security, the parent agency of US Immigration and Customs…",
+      "title": "New York Mayor Mamdani condemns 'unconscionable' shooting as he demands that Trump end ICE raids in the city",
+      "summary": "The shooting happened in the afternoon in the Bronx, with details still emerging. New York's mayor Zohran Mamdani condemned the incident and urged Donald Trump to end ICE actions in the city.",
       "byline": "Wesley Dockery",
       "section": "",
       "published": "2026-10-08T23:25:00.000Z",
-      "firstSeen": "2026-10-08T23:30:52.626Z",
-      "url": "https://www.dw.com/en/man-injured-after-new-york-shooting-involving-dhs-agents/a-79606159?maca=en-rss-en-all-1573-rdf",
+      "firstSeen": "2026-10-09T00:15:29.777Z",
+      "url": "https://www.dw.com/en/new-york-mayor-mamdani-condemns-unconscionable-shooting-as-he-demands-that-trump-end-ice-raids-in-the-city/a-79606159?maca=en-rss-en-all-1573-rdf",
       "image": {
         "src": "https://static.dw.com/image/79606366_6.jpg",
         "caption": "Members of law enforcement have gathered at the scene of the shooting Image: David Dee Delgado/REUTERS"
@@ -1470,11 +1784,15 @@
         },
         {
           "type": "p",
-          "text": "The shooting occurred in the afternoon in the Marble Hill neighborhood of the Bronx, which is one of New York's five boroughs."
+          "text": "The shooting occurred at around 4 p.m. local time (2100 GMT) in the Marble Hill neighborhood of the Bronx, which is one of New York's five boroughs."
         },
         {
           "type": "p",
           "text": "Details are still emerging, but the New York Police Department has denied that its personnel were involved in the shooting."
+        },
+        {
+          "type": "p",
+          "text": "\"The individual who was shot is at a nearby hospital and is currently conscious and receiving medical attention,\" the NYPD said in a statement."
         },
         {
           "type": "p",
@@ -1485,45 +1803,61 @@
           "text": "US President Donald Trump's administration has scaled up ICE raids in major US cities to detain and deport people who are in the US illegally."
         },
         {
-          "type": "image",
-          "src": "https://static.dw.com/image/79606310_$%7BformatId%7D.jpg",
-          "caption": "Protesters have also shown up at the scene of the shooting to show their dismay towards ICE Image: Charly Triballeau/AFP"
-        },
-        {
           "type": "p",
           "text": "Local media in New York said ICE was involved in the latest shooting in the Bronx, which has sparked protests."
         },
         {
+          "type": "image",
+          "src": "https://static.dw.com/image/79606310_$%7BformatId%7D.jpg",
+          "caption": "People at the scene of the shooting protested against ICE raidsImage: Charly Triballeau/AFP"
+        },
+        {
           "type": "h",
-          "text": "New York Governor Hochul: New Yorkers deserve explanation"
+          "text": "Mamdani says he is contacting Trump to end ICE actions in NYC"
         },
         {
           "type": "p",
-          "text": "New York Governor Kathy Hochul said she was briefed on the incident."
+          "text": "New York City Zohran Mamdani condemned the shooting and said he is calling President Trump."
         },
         {
           "type": "p",
-          "text": "\"We expect federal authorities to provide a full and transparent accounting of the circumstances surrounding the incident,\" Hochul said in a statement posted on X. \"New Yorkers deserve to know exactly what happened and why.\""
+          "text": "\"This is an unconscionable and incredible serious situation,\" Mamdani said in a post on X. \"I have called the President; when we speak I will demand that he ends all ICE enforcement actions in our city. I will not stand by while ICE agent terrorize our communities."
+        },
+        {
+          "type": "p",
+          "text": "New York Governor Kathy Hochul earlier said she has been briefed on the incident."
+        },
+        {
+          "type": "p",
+          "text": "\"We expect federal authorities to provide a full and transparent accounting of the circumstances surrounding the incident,\" Hochul said in a statement posted on X."
+        },
+        {
+          "type": "p",
+          "text": "\"New Yorkers deserve to know exactly what happened and why.\""
         },
         {
           "type": "p",
           "text": "DHS has not yet publicly commented on the incident."
         },
         {
+          "type": "h",
+          "text": "ICE, CBP fatal shootings raise alarm in second Trump term"
+        },
+        {
           "type": "p",
-          "text": "Deadly ICE and Border Patrol shootings have drawn controversy during Trump's second term, particularly regarding the training and oversight of the agents."
+          "text": "Deadly ICE and Border Patrol shootings have drawn major controversy during Trump's second term, particularly regarding the training and oversight of the agents."
+        },
+        {
+          "type": "p",
+          "text": "An ICE agent killed a 37-year-old US citizen, Renee Good, during their operations in Minnepolis in January, triggering demonstrations there and in several other US cities."
+        },
+        {
+          "type": "p",
+          "text": "Later that month, Alex Pretti, another US citizen, was killed by two US Customs and Border Protection officers agents in Minneapolis following an altercation."
         },
         {
           "type": "h",
           "text": "Minnesota killing spurs backlash over ICE enforcement"
-        },
-        {
-          "type": "p",
-          "text": "An ICE agent killed a 37-year-old US citizen, Renee Good, during their operations in Minnepolis in January, triggering demonstrations not only there but also other US cities."
-        },
-        {
-          "type": "p",
-          "text": "Later that same month, Alex Pretti, another US citizen, was killed by two US Customs and Border Protection officers agents in Minneapolis following an altercation."
         }
       ],
       "truncated": false,
@@ -10926,62 +11260,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-wvs8ja",
-      "source": "cbc",
-      "title": "Venezuela's ousted president Nicolás Maduro to face new U.S. charges",
-      "summary": "",
-      "byline": "Mark Gollom",
-      "section": "News/World",
-      "published": "2026-10-08T14:04:14.000Z",
-      "firstSeen": "2026-10-08T14:31:09.709Z",
-      "url": "https://www.cbc.ca/news/world/livestory/maduro-flores-charges-venezuela-us-9.7373745?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/ca7803d8-7b0d-4525-999d-bc97e1d2172e,1791460660760/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C159%2C5275%2C2967%29%3BResize%3D620",
-        "caption": "Maduro in the streets of Caracas on Dec. 10, 2025. (Cristian Hernandez/The Associated Press)"
-      },
-      "blocks": [
-        {
-          "type": "h",
-          "text": "Flores and Maduro's defences"
-        },
-        {
-          "type": "p",
-          "text": "The couple's attorneys have previously asked for the case to be dismissed on the grounds that they have immunity as the leader and first lady of a foreign country."
-        },
-        {
-          "type": "p",
-          "text": "Lawyers for Flores, 69, have also argued that she has medical issues that cannot be treated effectively in jail, and that she could instead be allowed to live under 24-hour guard at a residence in New York."
-        },
-        {
-          "type": "p",
-          "text": "The United States, on the other hand, will likely argue it does not recognize Maduro as the legitimate leader of Venezuela, and hasn't since 2019, when it said his re-election was fraudulent."
-        },
-        {
-          "type": "p",
-          "text": "\"I could see the Department of Justice convincing a judge of their position that he actually isn't a true head of state and he was not properly elected, and I think most nations in the world would agree with that,\" Margaret Donovan, a Yale Law School lecturer and former U.S. federal prosecutor, told CBC News in January."
-        },
-        {
-          "type": "p",
-          "text": "Still, the defence is a natural choice given some parallels with the U.S.'s own leadership, according to Donovan"
-        },
-        {
-          "type": "p",
-          "text": "\"Of course, we have a leader here in the United States … who is very keen on having immunity from criminal offences when you are the head of state,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "Toward the end of the couple's first brief court appearance in January, where both Maduro and Flores pleaded not guilty, Maduro's defence lawyer Barry J. Pollack said his client \"is head of a sovereign state and entitled to the privilege\" that the status ensures."
-        },
-        {
-          "type": "p",
-          "text": "-With files from The Associated Press"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "rap-f8do3c",
       "source": "rap",
       "title": "Mark Villar joins Senate majority &#124; The wRap",
@@ -16563,106 +16841,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "grd-1v70kd1",
-      "source": "grd",
-      "title": "NSW police commissioner made last-minute bid to hold closed-door hearings into Sydney anti-Herzog protest",
-      "summary": "<p>Police watchdog says Mal Lanyon’s timing in raising the issue was ‘regrettable’ and led to delays</p><ul><li><p>Get our <a…",
-      "byline": "Penry Buckley and Jordyn Beazley",
-      "section": "New South Wales",
-      "published": "2026-10-08T05:30:47.000Z",
-      "firstSeen": "2026-10-08T06:01:05.445Z",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/08/nsw-police-commissioner-lanyon-bid-stop-public-inquiry-sydney-anti-herzog-protest-ntwnfb",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/ef605120f597681a144b4d74f85467f6b85fe5c4/447_99_2376_1901/master/2376.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=f9de79cab8772884f4f01a8b69bd29cd",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The New South Wales police commissioner made a last-minute bid to hold hearings into Sydney’s anti-Herzog protest behind closed doors, delaying the inquiry, the police watchdog has revealed."
-        },
-        {
-          "type": "p",
-          "text": "The Law Enforcement Conduct Commission (Lecc) has said that its inquiry into the February protest at Sydney’s town hall, launched after widespread allegations of police brutality, would go ahead this month with a mix of public and private examinations, saying the timing of issues raised by police commissioner, Mal Lanyon, was “regrettable”."
-        },
-        {
-          "type": "p",
-          "text": "Lecc launched an investigation after the protest on 9 February, during which numerous protesters – and 10 officers – were injured, including demonstrators in their 70s and 80s. Viral video footage showed police punching multiple protesters, and grabbing Muslim worshippers while they undertook their sunset prayers."
-        },
-        {
-          "type": "p",
-          "text": "Thirty people were charged in the months after the protest, but four have since had their charges dropped. More than 20 of those charged are due to face a joint hearing next July."
-        },
-        {
-          "type": "p",
-          "text": "In a decision made public on Thursday, the Lecc chief commissioner, Peter Johnson SC, revealed that legal representatives for Lanyon had indicated for the “first time” on 9 September that he wished to be heard on the issue of public and private examinations. The bid was made less than two weeks before the public hearings between September and November were due to start. Some hearings were also expected to be heard in private."
-        },
-        {
-          "type": "p",
-          "text": "“The timing of these issues being raised by the Commissioner of Police is more than regrettable given its impact on the orderly progress of the investigation, the preparation for examinations and the efficient and effective use of public resources by both the Commission and the NSWPF and the associated cost and disruption flowing from the delay,” Johnson said."
-        },
-        {
-          "type": "p",
-          "text": "Johnson said the start date of public hearings, 21 September, was subsequently delayed to “a date to be fixed” to allow a private hearing for submissions on the issue."
-        },
-        {
-          "type": "p",
-          "text": "Lawyers acting on behalf of Lanyon submitted that Lecc’s opening address and the examination of witnesses should occur in private and not be livestreamed. They argued that the Lecc Act does not have the power to hear “broad ranging open submissions” and said Lecc should not take the “unconventional approach of hearing opening submissions in public part way through an investigation that is already underway”."
-        },
-        {
-          "type": "p",
-          "text": "But Lecc argued that it does have the power to decide when public examinations are appropriate. The counsel assisting submitted that public examinations were necessary because “there was already significant information concerning the events of 9 February 2026 in the public domain, including footage of use of force by police” and that senior police officers had advanced in public an “official narrative of what took place”."
-        },
-        {
-          "type": "p",
-          "text": "“Public comments made by senior police increase the need for independent scrutiny,” the commissioner wrote."
-        },
-        {
-          "type": "p",
-          "text": "The counsel assisting had pointed to specific features of the investigation as reason for why only private examinations were not appropriate. This included the “significant public concern” after the protest, including in parts of the Islamic community in Western Sydney."
-        },
-        {
-          "type": "p",
-          "text": "On Thursday, the watchdog said its inquiry into the protest would begin with a public address by counsel assisting on 19 October, followed by five weeks of private hearings. Lecc expects senior officers will then appear at public examinations."
-        },
-        {
-          "type": "p",
-          "text": "It said its Operation Makalu inquiry would analyse the use of OC spray, as well as the “improper use of arrest powers and the police use of force” at the protest. It will consider police planning ahead of the protest and “any opportunities for improvement in the policing of protests”."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "In his decision, the commissioner determined that private examinations would be held on “issues of fact” while public examinations would be held to deal with systemic issues, but only after the private examinations have been held."
-        },
-        {
-          "type": "p",
-          "text": "In September, Palestinian Australian Eyad Shadid launched a civil case in the NSW district court, alleging he was assaulted, battered and falsely imprisoned by police near Sydney’s town hall. He alleged in his statement of claim that NSW police committed misfeasance in public office and subjected him to a malicious prosecution."
-        },
-        {
-          "type": "p",
-          "text": "In a statement, NSW Greens justice spokesperson, Sue Higginson, described the push to hold hearings in private as “an extraordinary attempt by the police to suppress the public examination of allegations of serious misconduct by uniformed police officers, and to prevent public scrutiny of the political decisions and command structures that led to police violence against protesters”."
-        },
-        {
-          "type": "p",
-          "text": "At a NSW parliamentary inquiry in May, Johnson said police had become “overly defensive” in response to requests for information in its investigations, describing the relationship between the agencies as “difficult”. He said the Lecc had received a record number of complaints, more than 800, as part of its investigation into the Herzog protest."
-        },
-        {
-          "type": "p",
-          "text": "In a statement following Johnson’s comments, NSW police said it “complied with the requirements of the LECC Act in a cooperative manner”."
-        },
-        {
-          "type": "p",
-          "text": "NSW police said in a statement it acknowledged the decision to hold private hearings and awaited the findings."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-q6j070",
       "source": "abs",
       "title": "Senate ratifies PH visiting forces agreement with France",
@@ -17279,28 +17457,6 @@
         {
           "type": "p",
           "text": "PAL said it is cancelling PR654 and PR655 Manila-Riyadh-Manila flights as international airports in the Saudi Arabian capital were attacked on October 8."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-h7tmzh",
-      "source": "abs",
-      "title": "Radisson Blu Cebu marks 10th year of Something Blu bridal fair",
-      "summary": "Radisson Blu Cebu will mark the 10th anniversary of its annual Something Blu bridal fair with a promotion that will give one couple a wedding reception and other wedding essentials.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-08T04:32:11.000Z",
-      "firstSeen": "2026-10-08T05:01:09.498Z",
-      "url": "https://www.abs-cbn.com/lifestyle/food-travel/2026/10/8/radisson-blu-cebu-marks-10th-year-of-something-blu-bridal-fair-1232",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Radisson Blu Cebu will mark the 10th anniversary of its annual Something Blu bridal fair with a promotion that will give one couple a wedding reception and other wedding essentials."
         }
       ],
       "truncated": true,
