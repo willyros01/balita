@@ -1,0 +1,88 @@
+{
+  "id": "cbc-1a5reat",
+  "source": "cbc",
+  "title": "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case",
+  "summary": "An Anthropic artificial intelligence model submitted a false tip to a Philadelphia police website about an unsolved homicide case, authorities and Anthropic said.",
+  "byline": "CBC",
+  "section": "News/World",
+  "published": "2026-10-10T16:33:06.000Z",
+  "firstSeen": "2026-10-10T17:00:58.302Z",
+  "url": "https://www.cbc.ca/news/world/ai-agents-false-homicide-tip-anthropic-claude-9.7377169?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/a628416c-83c9-446e-9029-0e9e7364d3f1,1791648960557/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C113%2C5000%2C2812%29%3BResize%3D620",
+    "caption": "In a report Friday, Anthropic said one of its Claude models submitted a fake tip about a homicide case to the Philadelphia Polic Department. (Patrick Sison/The Associated Press)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "World·New"
+    },
+    {
+      "type": "p",
+      "text": "An Anthropic artificial intelligence model submitted a false tip to a Philadelphia police website about an unsolved homicide case, authorities and Anthropic said."
+    },
+    {
+      "type": "h",
+      "text": "Latest example of AI agents meddling with government websites amid growing calls for regulation"
+    },
+    {
+      "type": "p",
+      "text": "It's the latest example of AI models acting on their own and manipulating government and other websites in ways testers did not intend. In a report Friday, Anthropic also disclosed a separate incident when its AI model submitted forms to an undisclosed government website instead of stopping before submission."
+    },
+    {
+      "type": "p",
+      "text": "The incident in Philadelphia occurred on July 18 when the AI model Claude Haiku 4.5 was tasked with generating and performing example tasks on randomly selected webpages, Anthropic said."
+    },
+    {
+      "type": "p",
+      "text": "Claude filled out a form on police site PhillyUnsolvedMurders.com indicating it might have information regarding an unsolved murder listed on the site."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "OpenAI says its bots have interacted with multiple U.S. government sites in unexpected AI activity",
+        "AI agents tried to hack Library and Archives Canada website, research firm says"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Philadelphia police said in a statement they were unaware of the incident until Anthropic notified them on Wednesday. Then they found the submission in the website's tip records and confirmed it was marked spam and never forwarded to police."
+    },
+    {
+      "type": "h",
+      "text": "Latest incident of rogue agents"
+    },
+    {
+      "type": "p",
+      "text": "There are rising concerns about AI companies' unchecked AI agents meddling with everything from U.S. government websites to health-care data. Critics have been calling for more regulation."
+    },
+    {
+      "type": "p",
+      "text": "In September, another AI company, OpenAI, disclosed six reports of \"unexpected or concerning\" behaviour in artificial-intelligence models."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI reveals unexpected AI activity on U.S. government websites"
+    },
+    {
+      "type": "p",
+      "text": "\"Unsolved cases involve real victims, grieving families and investigators working to secure answers,\" the Philadelphia Police Department said in a statement. \"Technology companies must take all appropriate steps necessary to prevent their systems from submitting false information to law enforcement.\""
+    },
+    {
+      "type": "p",
+      "text": "Anthropic said in its report that most of the reported behaviours are forms of what it calls persistence \"in which Claude, when it cannot complete a task as given, works around a restriction instead of stopping.\""
+    },
+    {
+      "type": "p",
+      "text": "The company said it was modifying its training to \"reduce the likelihood of further misbehaviour.\""
+    },
+    {
+      "type": "p",
+      "text": "Anthropic said it briefed the White House on cases that involved U.S. government agencies at the federal, state and local levels, and notified each agency involved."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
