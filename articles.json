@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-10T01:01:17.120Z",
+  "updated": "2026-10-10T01:31:18.290Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-d4wrfj",
+      "source": "inqn",
+      "title": "Soldier dies from head injuries after Sept. 8 Basilan ambush",
+      "summary": "PAGADIAN CITY, ZAMBOANGA DEL SUR — A soldier wounded in Thursday night’s ambush in Lamitan City, Basilan, died early on Friday, a military official confirmed. Army Brig. Gen. Frederick Sales,…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-10T01:31:03.898Z",
+      "firstSeen": "2026-10-09T21:30:53.543Z",
+      "url": "https://newsinfo.inquirer.net/2320817/soldier-dies-from-head-injuries-after-sept-8-basilan-ambush",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Basilan-map-filephoto-091522.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PAGADIAN CITY, ZAMBOANGA DEL SUR — A soldier wounded in Thursday night’s ambush in Lamitan City, Basilan, died early on Friday, a military official confirmed. Army Brig. Gen. Frederick Sales, commander of the Army’s 1101st Infantry Brigade, told the Inquirer that the victim succumbed to severe head injuries at dawn on Friday. The soldier was"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1xisnbb",
       "source": "inqn",
       "title": "Baguio to pilot World Bank-backed jeepney modernization model",
       "summary": "BAGUIO CITY, Philippines — The World Bank Group (WBG) on Friday proposed a new jeepney modernization model that would let local governments contract transport groups for public service, shifting the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-10T01:01:06.310Z",
+      "published": "2026-10-10T01:31:03.898Z",
       "firstSeen": "2026-10-09T21:30:58.658Z",
       "url": "https://newsinfo.inquirer.net/2320816/baguio-to-pilot-world-bank-backed-jeepney-modernization-model",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "MANILA, Philippines — Being able to spend over P300,000 in a day to buy shoes and having a dinner in Tokyo, Japan, worth P200,000, are not the hallmarks of living a simple life, members of the…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-10T01:01:06.310Z",
+      "published": "2026-10-10T01:31:03.898Z",
       "firstSeen": "2026-10-09T21:00:56.287Z",
       "url": "https://newsinfo.inquirer.net/2320951/vp-told-massive-splurge-for-shoes-p200000-japan-dinner-not-simple-life",
       "image": {
@@ -103,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-d4wrfj",
-      "source": "inqn",
-      "title": "Soldier dies from head injuries after Sept. 8 Basilan ambush",
-      "summary": "PAGADIAN CITY, ZAMBOANGA DEL SUR — A soldier wounded in Thursday night’s ambush in Lamitan City, Basilan, died early on Friday, a military official confirmed. Army Brig. Gen. Frederick Sales,…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-10T01:01:04.551Z",
-      "firstSeen": "2026-10-09T21:30:53.543Z",
-      "url": "https://newsinfo.inquirer.net/2320817/soldier-dies-from-head-injuries-after-sept-8-basilan-ambush",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Basilan-map-filephoto-091522.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PAGADIAN CITY, ZAMBOANGA DEL SUR — A soldier wounded in Thursday night’s ambush in Lamitan City, Basilan, died early on Friday, a military official confirmed. Army Brig. Gen. Frederick Sales, commander of the Army’s 1101st Infantry Brigade, told the Inquirer that the victim succumbed to severe head injuries at dawn on Friday. The soldier was"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-fdg91m",
       "source": "inqg",
       "title": "Magnitude 7.7 earthquake shakes Panama",
       "summary": "PANAMA CITY — A powerful magnitude 7.7 earthquake shook Panama on Friday morning, collapsing buildings near its epicenter and prompting evacuations across the country. The quake, which was felt as…",
       "byline": "cbuban",
       "section": "Americas",
-      "published": "2026-10-10T01:01:04.551Z",
+      "published": "2026-10-10T01:31:03.898Z",
       "firstSeen": "2026-10-09T21:30:51.434Z",
       "url": "https://globalnation.inquirer.net/341293/magnitude-7-7-earthquake-shakes-panama",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "MANILA, Philippines — Judges at a trial chamber of the International Criminal Court (ICC) have declared that former President Rodrigo Duterte is physically and mentally well and would be able to…",
       "byline": "cbuban",
       "section": "Europe",
-      "published": "2026-10-10T01:01:04.511Z",
+      "published": "2026-10-10T01:31:03.882Z",
       "firstSeen": "2026-10-09T22:01:00.916Z",
       "url": "https://globalnation.inquirer.net/341272/icc-duterte-physically-mentally-fit-to-face-trial",
       "image": {
@@ -184,7 +184,7 @@
       "summary": "TACLOBAN CITY, LEYTE, Philippines — Catbalogan City has been declared to have a “Stable Internal Peace and Security Condition,” joining other cities in Eastern Visayas that have achieved the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-10T01:01:04.510Z",
+      "published": "2026-10-10T01:31:03.879Z",
       "firstSeen": "2026-10-09T21:30:52.120Z",
       "url": "https://newsinfo.inquirer.net/2320819/catbalogan-now-insurgency-free-joins-other-eastern-visayas-cities",
       "image": {
@@ -203,38 +203,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-jmo9ut",
-      "source": "inqn",
-      "title": "3 dead, 1 hurt as landslide destroys house in Cebu City",
-      "summary": "CEBU CITY, Philippines — Renante Bonghanoy had planned to give toy trucks to his two young grandchildren. Instead, the 52-year-old grandfather returned home on Friday to the devastating news that his…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-10T01:01:02.745Z",
-      "firstSeen": "2026-10-09T21:30:51.477Z",
-      "url": "https://newsinfo.inquirer.net/2320815/3-dead-1-hurt-as-landslide-destroys-house-in-cebu-city",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/cebu-landslide-9oct2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CEBU CITY, Philippines — Renante Bonghanoy had planned to give toy trucks to his two young grandchildren. Instead, the 52-year-old grandfather returned home on Friday to the devastating news that his wife, Judith, 60, and their grandchildren, Xian Kyre Caballero, 5, and Kyden Andamon, 6, had been killed when a landslide buried their house in"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-1me4u3j",
       "source": "inqg",
       "title": "Nobel winner joke: ‘I may share this prize with Trump’",
       "summary": "OSLO, Norway — South African champion of international law Navi Pillay, who was awarded this year’s Nobel peace prize, joked she might “share the prize” with US President Donald Trump if people kept…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-10T01:01:02.745Z",
+      "published": "2026-10-10T01:31:03.878Z",
       "firstSeen": "2026-10-09T22:00:56.365Z",
       "url": "https://globalnation.inquirer.net/341277/nobel-winner-joke-i-may-share-this-prize-with-trump",
       "image": {
@@ -253,13 +228,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-jmo9ut",
+      "source": "inqn",
+      "title": "3 dead, 1 hurt as landslide destroys house in Cebu City",
+      "summary": "CEBU CITY, Philippines — Renante Bonghanoy had planned to give toy trucks to his two young grandchildren. Instead, the 52-year-old grandfather returned home on Friday to the devastating news that his…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-10T01:31:02.547Z",
+      "firstSeen": "2026-10-09T21:30:51.477Z",
+      "url": "https://newsinfo.inquirer.net/2320815/3-dead-1-hurt-as-landslide-destroys-house-in-cebu-city",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/cebu-landslide-9oct2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CEBU CITY, Philippines — Renante Bonghanoy had planned to give toy trucks to his two young grandchildren. Instead, the 52-year-old grandfather returned home on Friday to the devastating news that his wife, Judith, 60, and their grandchildren, Xian Kyre Caballero, 5, and Kyden Andamon, 6, had been killed when a landslide buried their house in"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-hvgb64",
       "source": "inqg",
       "title": "Palace confirms Marcos again going to Singapore F1 race",
       "summary": "SINGAPORE — President Marcos will again watch the Formula 1 (F1) Singapore Grand Prix during his working visit here, Malacañang said on Friday, citing opportunities to meet business leaders and…",
       "byline": "cbuban",
       "section": "Asia & Pacific",
-      "published": "2026-10-10T01:01:00.968Z",
+      "published": "2026-10-10T01:31:02.547Z",
       "firstSeen": "2026-10-09T22:00:55.535Z",
       "url": "https://globalnation.inquirer.net/341280/palace-confirms-marcos-again-going-to-singapore-f1-race",
       "image": {
@@ -284,7 +284,7 @@
       "summary": "MANILA, Philippines — Vice President Sara Duterte had a whopping P817 million in alleged undeclared assets and unexplained wealth in the first four years since taking office in 2022, a forensic…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-10T01:00:59.153Z",
+      "published": "2026-10-10T01:31:02.096Z",
       "firstSeen": "2026-10-09T21:30:51.434Z",
       "url": "https://newsinfo.inquirer.net/2320864/analyst-vp-sara-didnt-declare-p817-million-wealth",
       "image": {
@@ -309,7 +309,7 @@
       "summary": "MANILA, Philippines — The Department of Health (DOH) on Friday said the risk of pneumonic plague in the Philippines remains “very low” as it monitors the investigation into the death of a laboratory…",
       "byline": "cbuban",
       "section": "Asia & Pacific",
-      "published": "2026-10-10T01:00:55.639Z",
+      "published": "2026-10-10T01:31:02.081Z",
       "firstSeen": "2026-10-09T22:00:55.475Z",
       "url": "https://globalnation.inquirer.net/341282/doh-plague-risk-to-ph-very-low",
       "image": {
@@ -334,7 +334,7 @@
       "summary": "MANILA, Philippines — It is well within the authority of courts to order banks to provide an explanation of the transactions of a deceased person’s account, including deductions, to ascertain the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-10T01:00:55.598Z",
+      "published": "2026-10-10T01:31:00.306Z",
       "firstSeen": "2026-10-09T22:00:55.976Z",
       "url": "https://newsinfo.inquirer.net/2320871/sc-affirms-courts-say-on-bank-funds-of-deceased",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "MANILA, Philippines — A trial chamber of the International Criminal Court (ICC) has allowed the prosecution to add more killing incidents, except for one involving a high-value target, to the charges…",
       "byline": "cbuban",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-10T01:00:53.714Z",
+      "published": "2026-10-10T01:30:58.499Z",
       "firstSeen": "2026-10-09T22:30:52.133Z",
       "url": "https://globalnation.inquirer.net/341298/subject-icc-oks-inclusion-of-7-new-incidents-to-duterte-charges",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "MANILA, Philippines — The Philippine Mental Health Association Inc. (PMHA) on Friday said a blanket social media ban for minors is not a solution to preventing violent cases such as school shootings…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-10T01:00:53.712Z",
+      "published": "2026-10-10T01:30:54.921Z",
       "firstSeen": "2026-10-09T22:00:55.535Z",
       "url": "https://newsinfo.inquirer.net/2320875/mental-health-group-socmed-ban-on-minors-a-nonsolution",
       "image": {
@@ -403,63 +403,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-boq9id",
-      "source": "inqn",
-      "title": "Fishers call for aid amid health impact of El Niño",
-      "summary": "MANILA, Philippines — Fishers’ group Pambansang Lakas ng Kilusang Mamamalakaya ng Pilipinas (Pamalakaya) on Friday called for fuel subsidies and economic aid for fisherfolk amid the possible adverse…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-10T01:00:53.710Z",
-      "firstSeen": "2026-10-09T22:00:55.475Z",
-      "url": "https://newsinfo.inquirer.net/2320868/fishers-call-for-aid-amid-health-impact-of-el-nino",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Pamalakaya-Pilipinas-fishermen-logo-21124.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Fishers’ group Pambansang Lakas ng Kilusang Mamamalakaya ng Pilipinas (Pamalakaya) on Friday called for fuel subsidies and economic aid for fisherfolk amid the possible adverse effects of El Niño. In a statement, the group explained that fishing becomes more difficult and costly during the dry season because fish and other marine life"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-mg8med",
-      "source": "inqg",
-      "title": "Protests in New York as Trump admin defends ICE shooting",
-      "summary": "NEW YORK, United States—Protesters gathered in New York on Friday after Immigration and Customs Enforcement (ICE) officers shot a Dominican man in an incident that has provoked a showdown between the…",
-      "byline": "arlenelim",
-      "section": "Americas",
-      "published": "2026-10-10T01:00:53.710Z",
-      "firstSeen": "2026-10-10T00:00:58.831Z",
-      "url": "https://globalnation.inquirer.net/341308/protests-in-new-york-as-trump-admin-defends-ice-shooting",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/AFP__20261009__D2P8879__v1__HighRes__UsImmigrationIce-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "NEW YORK, United States—Protesters gathered in New York on Friday after Immigration and Customs Enforcement (ICE) officers shot a Dominican man in an incident that has provoked a showdown between the city&#8217;s Democratic mayor and the Trump administration. Oscar Bergal, 28, was wounded in the neck during an ICE operation in the Bronx on Thursday, while"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "inqg-1f7vc78",
       "source": "inqg",
       "title": "Trump hails Russia deal to release diesel as midterms loom",
       "summary": "WASHINGTON D.C., United States—US President Donald Trump said Friday that he had secured Russia&#8217;s agreement for a major release of diesel, as he eased war sanctions on Moscow in a push to lower…",
       "byline": "arlenelim",
       "section": "Americas",
-      "published": "2026-10-10T01:00:53.710Z",
+      "published": "2026-10-10T01:30:53.234Z",
       "firstSeen": "2026-10-09T23:00:55.811Z",
       "url": "https://globalnation.inquirer.net/341301/trump-hails-russia-deal-to-release-diesel-as-midterms-loom",
       "image": {
@@ -478,13 +428,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-boq9id",
+      "source": "inqn",
+      "title": "Fishers call for aid amid health impact of El Niño",
+      "summary": "MANILA, Philippines — Fishers’ group Pambansang Lakas ng Kilusang Mamamalakaya ng Pilipinas (Pamalakaya) on Friday called for fuel subsidies and economic aid for fisherfolk amid the possible adverse…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-10T01:30:53.232Z",
+      "firstSeen": "2026-10-09T22:00:55.475Z",
+      "url": "https://newsinfo.inquirer.net/2320868/fishers-call-for-aid-amid-health-impact-of-el-nino",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Pamalakaya-Pilipinas-fishermen-logo-21124.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Fishers’ group Pambansang Lakas ng Kilusang Mamamalakaya ng Pilipinas (Pamalakaya) on Friday called for fuel subsidies and economic aid for fisherfolk amid the possible adverse effects of El Niño. In a statement, the group explained that fishing becomes more difficult and costly during the dry season because fish and other marine life"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1p6lq1v",
       "source": "inqn",
       "title": "From Donki to Nike: Analyst says VP had ‘unusual’ purchases in 2025",
       "summary": "MANILA, Philippines — Just like any other ordinary tourist, Vice President Sara Duterte appears to be an avid fan of Japan’s discount store Don Quijote, as an analyst called by the prosecution panel…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-10T01:00:53.709Z",
+      "published": "2026-10-10T01:30:53.200Z",
       "firstSeen": "2026-10-09T23:00:55.810Z",
       "url": "https://newsinfo.inquirer.net/2320942/from-donki-to-nike-analyst-says-vp-had-unusual-purchases-in-2025",
       "image": {
@@ -500,7 +475,82 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-mg8med",
+      "source": "inqg",
+      "title": "Protests in New York as Trump admin defends ICE shooting",
+      "summary": "NEW YORK, United States—Protesters gathered in New York on Friday after Immigration and Customs Enforcement (ICE) officers shot a Dominican man in an incident that has provoked a showdown between the…",
+      "byline": "arlenelim",
+      "section": "Americas",
+      "published": "2026-10-10T01:30:53.200Z",
+      "firstSeen": "2026-10-10T00:00:58.831Z",
+      "url": "https://globalnation.inquirer.net/341308/protests-in-new-york-as-trump-admin-defends-ice-shooting",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/AFP__20261009__D2P8879__v1__HighRes__UsImmigrationIce-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NEW YORK, United States—Protesters gathered in New York on Friday after Immigration and Customs Enforcement (ICE) officers shot a Dominican man in an incident that has provoked a showdown between the city&#8217;s Democratic mayor and the Trump administration. Oscar Bergal, 28, was wounded in the neck during an ICE operation in the Bronx on Thursday, while"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-jzmm7r",
+      "source": "inqn",
+      "title": "Lightning kills construction worker in Zamboanga del Sur",
+      "summary": "PAGADIAN CITY, Zamboanga del Sur—A 51-year-old construction worker died on the spot after being struck by lightning while working at a dump in Labangan town in this province, Friday afternoon, Oct.…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-10-10T01:30:53.080Z",
+      "firstSeen": "2026-10-10T01:30:53.080Z",
+      "url": "https://newsinfo.inquirer.net/2320961/lightning-kills-construction-worker-in-zamboanga-del-sur",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Lightning-kills-construction-worker-in-Zamboanga-del-Sur-10october2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PAGADIAN CITY, Zamboanga del Sur—A 51-year-old construction worker died on the spot after being struck by lightning while working at a dump in Labangan town in this province, Friday afternoon, Oct. 9. The Municipal Disaster Risk Reduction and Management Office (MDRRMO) identified the victim as Dominador Labora, a resident of Purok Santan, Upper Pulacan, Labangan."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-12d7tgc",
+      "source": "inqg",
+      "title": "After fresh US attack, ICC asserts it is not politically motivated",
+      "summary": "MANILA, Philippines—The International Criminal Court (ICC) states that its work as a court of last resort is not politically motivated. At the same time, it called on its own members to make sure…",
+      "byline": "postie",
+      "section": "Europe",
+      "published": "2026-10-10T01:30:53.080Z",
+      "firstSeen": "2026-10-10T01:30:53.080Z",
+      "url": "https://globalnation.inquirer.net/341312/after-fresh-us-attack-icc-asserts-it-is-not-politically-motivated",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/09/ICC-chief-Akane-vows-to-continue-job-no-matter-what-amid-US-sanctions-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—The International Criminal Court (ICC) states that its work as a court of last resort is not politically motivated. At the same time, it called on its own members to make sure that it is able to continue discharging its mandate in the wake of fresh sanctions from the United States. Judge Tomoko Akane,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-1vr9a",
@@ -509,7 +559,7 @@
       "summary": "Unexpected expenses rarely wait for payday. A medical bill, home repair, school expense, or temporary cash-flow gap can leave Filipinos looking for a quick source of funds. For qualified SSS members,…",
       "byline": "",
       "section": "",
-      "published": "2026-10-10T01:00:53.708Z",
+      "published": "2026-10-10T01:30:53.079Z",
       "firstSeen": "2026-10-09T10:00:54.705Z",
       "url": "https://business.inquirer.net/?p=615090",
       "image": {
@@ -526,6 +576,257 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "abs-4nsdw3",
+      "source": "abs",
+      "title": "Here's why Seth Fedelin and Francine Diaz finally shared an onscreen kiss in ‘A Cake to Remember’",
+      "summary": "Seth Fedelin and Francine Diaz explain why they saved their first onscreen kiss for the iWant vertical drama 'A Cake to Remember.'",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-10T01:27:40.000Z",
+      "firstSeen": "2026-10-10T01:30:53.080Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/movies-series/2026/10/10/here-s-why-seth-fedelin-and-francine-diaz-finally-shared-an-onscreen-kiss-in-a-cake-to-remember-0927",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Seth Fedelin and Francine Diaz explain why they saved their first onscreen kiss for the iWant vertical drama 'A Cake to Remember.'"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1q2dzg9",
+      "source": "inq",
+      "title": "Lightning kills construction worker in Zamboanga del Sur",
+      "summary": "PAGADIAN CITY, Zamboanga del Sur—A 51-year-old construction worker died on the spot after being struck by lightning while working at a dump in Labangan town in this province, Friday afternoon, Oct.…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-10T01:20:54.000Z",
+      "firstSeen": "2026-10-10T01:30:53.200Z",
+      "url": "https://newsinfo.inquirer.net/2320961/lightning-kills-construction-worker-in-zamboanga-del-sur",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Lightning-kills-construction-worker-in-Zamboanga-del-Sur-10october2026-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PAGADIAN CITY, Zamboanga del Sur—A 51-year-old construction worker died on the spot after being struck by lightning while working at a dump in Labangan town in this province, Friday afternoon, Oct. 9. The Municipal Disaster Risk Reduction and Management Office (MDRRMO) identified the victim as Dominador Labora, a resident of Purok Santan, Upper Pulacan, Labangan. Initial investigation by the Labangan Municipal Police Station revealed that the incident occurred around 3 p.m. at Purok 7, Barangay Bokong, near the National Irrigation Administration (NIA) Dam. Labora was working alongside three co-workers at the site when sudden lightning struck him, causing severe fatal injuries. [&hellip;]... Keep on reading: Lightning kills construction worker in Zamboanga del Sur"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-rj6brd",
+      "source": "inq",
+      "title": "Charlie Puth on non-sellout of Manila concert: Do we not talk anymore?",
+      "summary": "Charlie Puth has expressed surprise that his upcoming Manila concert is the only stop on his Asia tour that has yet to sell out. The American singer-songwriter took to TikTok to raise his queries…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-10T01:04:14.000Z",
+      "firstSeen": "2026-10-10T01:30:53.230Z",
+      "url": "https://entertainment.inquirer.net/686321/charlie-puth-on-non-sellout-of-manila-concert-do-we-not-talk-anymore",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/10/Screenshot-2026-10-09-at-3.36.59-PM-700x304.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Charlie Puth has expressed surprise that his upcoming Manila concert is the only stop on his Asia tour that has yet to sell out. The American singer-songwriter took to TikTok to raise his queries about the ticket situation for his Manila concert scheduled on Oct. 14. “The only show not sold out on the Asia stadium / arena tour is….. The Philippines?!?” read the text in a video Puth posted on TikTok. “Do we not talk anymore for real, Philippines?” he added in the caption, referencing his 2016 hit “We Don’t Talk Anymore.” LOOK: Charlie Puth announces birth of first child [&hellip;]... Keep on reading: Charlie Puth on non-sellout of Manila concert: Do we not talk anymore?"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "rap-1yvq8ic",
+      "source": "rap",
+      "title": "[Vantage Point] Landbank’s P182-million belated retreat",
+      "summary": "Prolonged financial paralysis is never a harmless administrative technicality",
+      "byline": "Val A. Villanueva",
+      "section": "Business",
+      "published": "2026-10-10T01:01:03.000Z",
+      "firstSeen": "2026-10-10T01:30:53.081Z",
+      "url": "https://www.rappler.com/voices/thought-leaders/vantage-point-landbank-million-belated-retreat/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2026/08/LANDBANK-LTO-AUG-8-2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Landbank has finally moved to deposit over P182 million in disputed funds with the court after nearly six years of freezing the account of PPI-JKG Philippines Inc., raising questions about its delayed action.",
+            "The bank's decision to withhold the funds was influenced by an internal legal directive despite having verified documentation of the account holder's authority, leading to significant commercial harm for PPI-JKG.",
+            "Landbank's recent court motion to consign the funds does not address the years of financial damage caused by its inaction, and there are concerns about its adherence to proper banking protocols compared to other institutions."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "This column and mounting legal pressure could have pushed Landbank to consign over P182 million in court after a nearly six-year freeze. But surrendering custody today cannot erase the unmitigated commercial injury caused yesterday—nor explain why a state lender sat on client funds for so long under the guise of neutrality."
+        },
+        {
+          "type": "p",
+          "text": "Landbank has finally chosen to act. On August 10, nearly six years after it froze PPI-JKG Philippines Inc.’s corporate bank account and initiated an interpleader, Landbank asked the Manila Regional Trial Court to let it deposit the disputed funds with the court."
+        },
+        {
+          "type": "p",
+          "text": "Only after Vantage Point (click here or click story below) exposed this ongoing paralysis did the state lender suddenly declare itself “ready, willing and able” to surrender physical custody of the balance. Landbank may attempt to frame the timing as purely coincidental. Readers, however, can decide for themselves whether that self-serving explanation deserves any credence."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/08/LANDBANK-LTO-AUG-8-2026.jpg?fit=449%2C449",
+          "caption": "[Vantage Point] When Landbank’s prudence becomes punishment"
+        },
+        {
+          "type": "p",
+          "text": "The obvious question remains: Why only now? Landbank possessed the clear legal mechanism to deposit the funds the moment it filed its complaint for interpleader on October 2, 2020. Instead, it retained P182,760,217.77 inside its vaults for almost six years while insisting in open court that it harbored no beneficial interest in the money."
+        },
+        {
+          "type": "p",
+          "text": "The institutional intervention began on September 23, 2020, when Christian Calalang wrote to Landbank claiming majority authority over PPI-JKG and requesting an immediate suspension of all corporate transactions pending an accounting."
+        },
+        {
+          "type": "p",
+          "text": "That exact same day, PPI-JKG president Annabelle Arcilla submitted an official request for a P182-million manager’s check payable to Omniprime Marketing Inc. to meet pressing commercial obligations."
+        },
+        {
+          "type": "p",
+          "text": "Landbank initially processed the application, formally debited the amount from the company’s account, but then withheld the physical release of the manager’s check immediately upon receiving Calalang’s letter."
+        },
+        {
+          "type": "p",
+          "text": "The December 15, 2023 court testimony of Landbank Pearl Drive branch manager Nenita Camposano reveals the extraordinary nature of that stoppage."
+        },
+        {
+          "type": "p",
+          "text": "Under cross-examination, Camposano confirmed that Arcilla’s transaction was already completed, that Arcilla had signed the received portion of the manager’s-check form, and that the only remaining operational step was handing over the check for deposit with Asia United Bank. Camposano then abruptly changed course after consulting Landbank Legal."
+        },
+        {
+          "type": "p",
+          "text": "She identified Cesar Cabañez as the in-house lawyer she contacted. In her sworn testimony, she confirmed telling Cabañez that Arcilla was the fully documented, registered account signatory. Asked what Cabañez instructed, she answered: “He told me to not release the check”."
+        },
+        {
+          "type": "p",
+          "text": "Under further questioning, she agreed that he issued that binding legal directive without ever seeing the corporate documents and board resolutions she held in her hands."
+        },
+        {
+          "type": "p",
+          "text": "Landbank neither called nor emailed the Securities and Exchange Commission (SEC) that day to verify whether Calalang was indeed PPI-JKG’s legitimate majority shareholder or president."
+        },
+        {
+          "type": "p",
+          "text": "That courtroom testimony dismantles any suggestion that the branch arrived at a balanced, prudent judgment based on verifiable facts. Asked about the devastating commercial injury caused by the stoppage, Camposano answered: “It was not my decision”. She admitted on the stand that this was the very first time in her banking career that she refused to release a recognized depositor’s funds without a formal court order."
+        },
+        {
+          "type": "p",
+          "text": "She also acknowledged under oath that losing an account holding P182 million would inevitably impair the branch’s current-account and savings-account (CASA) performance targets, though she denied wanting the money retained for that specific reason."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "[Vantage Point] DOTr: Jaime Bautista’s cross (Part 1)",
+            "[Vantage Point] DOTr: Jaime Bautista’s cross (Part 2)",
+            "[Vantage Point] Conclusion | DOTr: Jaime Bautista’s cross"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "I am certainly not inferring illicit motive from that admission. But it underscores the urgent need for Landbank’s senior leadership to explain who made the call, upon what verified records, and with what internal consideration of the bank’s own institutional targets."
+        },
+        {
+          "type": "p",
+          "text": "Its recent four-page motion explains none of this. Landbank merely reiterates that Calalang and Arcilla asserted conflicting claims over corporate representation. While that might have justified a brief administrative pause to seek clarity, it cannot justify how an emergency precaution turned into a six-year commercial deprivation."
+        },
+        {
+          "type": "p",
+          "text": "Landbank continues to maintain it has “no actual or personal interest” in the account. Precisely. Under Rule 62 of the Rules of Court, a special civil action for interpleader is provided so that an innocent stakeholder can consign disputed property with the court and step aside while rival claimants litigate."
+        },
+        {
+          "type": "p",
+          "text": "If Landbank truly stood as a disinterested stakeholder, why did an internal bank lawyer urge Arcilla to “settle” with Calalang, when it was Arcilla who was the recognized, documented client of the branch?"
+        },
+        {
+          "type": "p",
+          "text": "Furthermore, if Landbank harbored no beneficial interest, why did it hold the money for nearly six years rather than consign it when the litigation commenced? While the funds sat idle in Landbank’s books, vendors remained unpaid, financing charges escalated, and binding contractual commitments accumulated."
+        },
+        {
+          "type": "p",
+          "text": "The bank continually cites the legal doctrine of shielding itself from possible “double vexation or double liability”. Yet repeatedly invoking that legal doctrine does not mean the competing claims possessed equal evidentiary weight. Landbank possessed Arcilla’s formal account-opening records, verified signature cards, and established corporate mandate."
+        },
+        {
+          "type": "p",
+          "text": "Calalang presented only a private letter accompanied by disputed corporate claims—wholly devoid of a temporary restraining order, an injunction, a final judicial decree, or an Anti-Money Laundering Council (AMLC) freeze order."
+        },
+        {
+          "type": "p",
+          "text": "Arcilla responded within twenty-four hours with a formal secretary’s certificate repudiating his authority, followed later by an amended General Information Sheet (GIS) establishing her status as president and 75% owner."
+        },
+        {
+          "type": "p",
+          "text": "The contrasting behavior of other universal banks makes Landbank’s conduct impossible to justify. Records and representations supplied to Vantage Point reveal that Asia United Bank, Security Bank, and UnionBank all received comparable intervention letters from Calalang. Unlike Landbank, those institutions strictly adhered to established Know-Your-Customer (KYC) rules and honored the company’s verified signatories."
+        },
+        {
+          "type": "p",
+          "text": "Philippine National Bank likewise protected roughly P8 million in company funds from Calalang’s extrajudicial demands. Those banks recognized that Calalang was not an authorized signatory on the corporate accounts and held no court order, and they properly released the funds to Arcilla."
+        },
+        {
+          "type": "p",
+          "text": "This does not prove that every institution received identical documentation, but it demands an answer to a disturbing question: What did Landbank know that four other major banks did not—or what did those private banks diligently verify that Landbank chose to ignore?"
+        },
+        {
+          "type": "p",
+          "text": "Landbank’s requested relief creates an additional irregularity. In its motion, the bank notes that the account contains P182,760,217.77, yet it petitions the court for permission to deposit an even P182 million."
+        },
+        {
+          "type": "p",
+          "text": "What happens to the remaining P760,217.77? After immobilizing the company’s working capital for nearly six years, Landbank now seeks to consign the bulk of the balance to the court and secure a blanket judicial discharge from all further liability."
+        },
+        {
+          "type": "p",
+          "text": "Arcilla has vigorously opposed this maneuver because consigning the funds at this late date would merely shift the freeze from Landbank’s vaults to the judiciary’s registry. Instead, she seeks the release of the funds under a court-approved counter-bond—a recognized procedural remedy that would allow PPI-JKG to fund its ongoing government license-plate production commitments while completely securing whatever lawful stake Calalang might establish in the future."
+        },
+        {
+          "type": "p",
+          "text": "Vantage Point tried but failed to reach Arcilla, but a confidential source close to her confirmed that, beyond utilizing her own capital, she personally secured a US$4-million loan in May 2019 at an average of 7% annual interest to fund the license-plate project. Because confidential loan files were not disclosed, her accounting cannot be independently audited under Philippine bank secrecy statutes."
+        },
+        {
+          "type": "p",
+          "text": "Nevertheless, releasing that P182-million check in September 2020 would have eliminated approximately 86% of the original loan balance. Applying her timeline, interest rate, and prevailing dollar-peso exchange metrics, compounding interest charges and currency depreciation have added an estimated P141 million in financing costs onto the company by September 2026."
+        },
+        {
+          "type": "p",
+          "text": "That figure is an unadjudicated estimate, but it illustrates why prolonged financial paralysis is never a harmless administrative technicality."
+        },
+        {
+          "type": "p",
+          "text": "Landbank’s latest court motion confirms that consignation was an available remedy all along. Moving the capital today cannot erase the years of commercial injury inflicted yesterday. – Rappler.com"
+        },
+        {
+          "type": "p",
+          "text": "Below are some Vantage Point pieces you might have missed:"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "abs-1md79j2",
@@ -548,6 +849,263 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "rap-d7sqvw",
+      "source": "rap",
+      "title": "Passed from hand to hand, Paete&#8217;s taká tradition looks to its next generation",
+      "summary": "While Paete, Laguna is renowned for its woodcarvers, its papier-mâché craft remains far less recognized",
+      "byline": "Arabella Grace Sta Ana",
+      "section": "Artists",
+      "published": "2026-10-10T01:00:00.000Z",
+      "firstSeen": "2026-10-10T01:30:53.200Z",
+      "url": "https://www.rappler.com/people/artists/paete-laguna-taka-tradition-next-generation/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2026/10/taka-paete-laguna-2.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LAGUNA, Philippines – Horse-shaped forms sat on a table inside a cafe in Paete, surrounded by glue, brushes, oil, and strips of paper. Around them, participants in the Matutong Magtaká workshop were learning how taká is made, one layer at a time. Guiding them was Ka Ichu, a magtataká who has spent decades making taká by hand."
+        },
+        {
+          "type": "p",
+          "text": "Taká is Paete’s traditional papier-mâché craft. The workshop was among the activities of the Taká ng Paete Festival and Exhibition on September 27. Taká ng Paete is an initiative that local artist Rizia Adao and her family launched in 2022 under the advocacy #KeepTheTakaAlive."
+        },
+        {
+          "type": "p",
+          "text": "But the people who have kept the craft going are growing older. Ka Ichu said many magtataká her age already have great-grandchildren, and the younger members of their families no longer want to take it up."
+        },
+        {
+          "type": "p",
+          "text": "“Yung mga apo nila, yung mga anak nila, ayaw na. Kasi hindi madali gawin,” she said.(Their grandchildren, their children, no longer want to do it. Because it isn’t easy to make.)"
+        },
+        {
+          "type": "p",
+          "text": "Around the table that day, though, people had come to learn."
+        },
+        {
+          "type": "p",
+          "text": "Paete is widely known as a town of woodcarvers or mag-uukit. Taká rarely comes up in the same breath."
+        },
+        {
+          "type": "p",
+          "text": "Pieces of taká are often seen as souvenirs, decorations, or goods sold in town. Less visible are the people who make them, and the long process behind each piece."
+        },
+        {
+          "type": "p",
+          "text": "Rizia sees this whenever she faces a crowd during her workshops. She asks who knows ukit, and people raise their hands. When she asks about taká, hardly anyone does."
+        },
+        {
+          "type": "p",
+          "text": "“Pero pag sinabi ko na yung name na ‘taká,’ wala nang nagtataas ng kamay. So that’s the recognition na need ng taká,” she said."
+        },
+        {
+          "type": "p",
+          "text": "(But when I say the word ‘taká,’ no one raises a hand. So that’s the recognition taká needs.)"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/10/taka-paete-laguna-4.jpg",
+          "caption": "UNFINISHED. Unpainted taká animals, including a pig, a goat, and chicks, sit on a shelf in their plain brown finish. Photo by Arabella Grace Sta. Ana/Rappler"
+        },
+        {
+          "type": "p",
+          "text": "Rizia said there may be just as many magtataká in Paete as there are woodcarvers, if not more, despite the difference in recognition. Yet beyond the town and the people already familiar with it, the craft fades from view. The Ukit Taká Festival has started to help, she said, as more people now see taká through social media."
+        },
+        {
+          "type": "p",
+          "text": "Behind Taká ng Paete is a family that has lived with the craft for much of their lives. Rizia’s parents, Ka Jong and Ka Ichu, have been making papier-mâché for almost four decades, and Rizia grew up surrounded by it."
+        },
+        {
+          "type": "p",
+          "text": "Ka Ichu was already making taká before her pieces reached buyers. By her recollection, it took shape as a business around the 1990s. She started with large ducks, mallards shaped in different poses with their wings spread, using molds she got from another maker in the area. She and her family even attached the wings themselves."
+        },
+        {
+          "type": "p",
+          "text": "Soon after, they began displaying their pieces in town. Buyers who came to look included exporters from Manila, who asked her to bring samples. She delivered them, and orders followed, slowly at first. By around 1991, she recalled, the orders had grown enough that they needed their own gawaan, or production space."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/10/taka-paete-laguna-3.jpg",
+          "caption": "KEEPING TRADITION. Ka Jong and Ka Ichu have been making papier-mâché in Paete for almost four decades. Photo from Rizia Adao"
+        },
+        {
+          "type": "p",
+          "text": "Local buyers came first. She supplied large decorative pieces to Rustan’s and SM, sourcing at the start from other taká producers in Paete since they did not yet have a production of their own. Taká was in its heyday then."
+        },
+        {
+          "type": "p",
+          "text": "“Kasi talaga naman noon, parang boom na yung taká noon eh,” she said."
+        },
+        {
+          "type": "p",
+          "text": "(Back them, taká was really booming.)"
+        },
+        {
+          "type": "p",
+          "text": "Prices were better, she recalled, and materials were cheaper. By 1992, she was supplying exporters. The orders were good from then until 2000 and stayed fairly strong until around 2005, before things began to slow down."
+        },
+        {
+          "type": "p",
+          "text": "Some unfinished pieces were exported to Europe, including the UK, shipped in a plain brown finish. Abroad, they were sold as do-it-yourself kits with paint and brushes, with students among the target buyers."
+        },
+        {
+          "type": "p",
+          "text": "What she misses most from those years are the papier-mâché leaves and flowers, attached to sticks and painted into flower arrangements. She would like to bring them back. Buyers have since moved toward animals, she said."
+        },
+        {
+          "type": "p",
+          "text": "When lockdowns began, Ka Ichu said, they still had export orders to finish. They went to the workshop one at a time and asked the barangay for passes, since the space was open-air. Their priority, she said, was their workers, who were paid through bank transfers."
+        },
+        {
+          "type": "p",
+          "text": "It was after the pandemic that the difficulty of the work was felt the most."
+        },
+        {
+          "type": "p",
+          "text": "Competition added to the pressure. Ka Ichu said buyers began moving toward items that were difficult to copy, while other importers imitated pieces and lowered prices. She relayed an exporter’s view that cheaper and faster production from China had pulled prices down, a comparison to fast fashion and slow craft."
+        },
+        {
+          "type": "p",
+          "text": "For makers, that leaves little room to set a price."
+        },
+        {
+          "type": "p",
+          "text": "“Kasi may mga target price, target na ito lang yung kaya ibayad,” she noted."
+        },
+        {
+          "type": "p",
+          "text": "(Because there are target prices, buyers who can only pay this much.)"
+        },
+        {
+          "type": "p",
+          "text": "They want to raise the value of taká, she said, but there is a limit."
+        },
+        {
+          "type": "p",
+          "text": "Rizia described what she sees as a disconnect between the value the makers produce and what actually reaches them. Based on her own experience, she said only about 10 percent of a piece’s selling price goes to the makers, while the rest goes to middlemen and business people."
+        },
+        {
+          "type": "p",
+          "text": "This, she shared, is part of the reason the younger generation hesitates. There are young people who want to learn the craft. They just will not take it up as a livelihood if it does not pay enough."
+        },
+        {
+          "type": "p",
+          "text": "Rizia herself paints on taká, but she points out that the creative process begins long before the painting. A magtataká prepares, shapes, layers, dries, and finishes the forms that she paints on."
+        },
+        {
+          "type": "p",
+          "text": "Her exhibit at GITNA Art Studio, which she curated, puts those makers at the center. Pictures of the magtataká are displayed in the exhibit, so visitors meet the people behind the pieces as well as the finished work."
+        },
+        {
+          "type": "p",
+          "text": "It is also tied to her Taká Registry Project, an ongoing effort to document Philippine papier-mâché as an art form, including its people, processes, and traditions."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/10/taka-paete-laguna-5.jpg",
+          "caption": "ARTISTS. Photographs of the magtataká on display at the Taká ng Paete exhibit at GITNA Art Studio in Paete, Laguna. Photo by Arabella Grace Sta. Ana/Rappler"
+        },
+        {
+          "type": "p",
+          "text": "For some of the magtataká, being part of the exhibit changed how they saw their own work. Ka Ichu said many of them long had a low appreciation of their craft since they were paid minimally."
+        },
+        {
+          "type": "p",
+          "text": "“Kasi nga, ang baba nung amount, ang baba nung binabayad sa amin,” she said."
+        },
+        {
+          "type": "p",
+          "text": "(Since the amount is low, what we get paid is low.)"
+        },
+        {
+          "type": "p",
+          "text": "After Rizia invited them, Ka Ichu heard something new from her fellow magtataká: “Ah, artist pala rin kami (Ah, so we’re artists too).”"
+        },
+        {
+          "type": "p",
+          "text": "Rizia recalled that the exhibit opening left many of them in tears, seeing the craft and the people behind it side by side."
+        },
+        {
+          "type": "p",
+          "text": "Rizia hopes taká will receive enough recognition and value, as other crafts in the Philippines have, so that the younger generation would want to take it up, and see it’s valuable enough to be paid enough."
+        },
+        {
+          "type": "p",
+          "text": "Not everyone was sure of that at the start. According to Rizia, Ka Ichu hesitated when they began teaching workshops, wondering if anyone still wanted to learn taká. Ka Ichu herself said she was against the idea at first. Today, she shared, she is glad that their stock is finding its way to people and that schools have started to show interest."
+        },
+        {
+          "type": "p",
+          "text": "How the craft is passed on and who will take it up next remain open questions."
+        },
+        {
+          "type": "p",
+          "text": "But at the workshop, participants pressed paper onto the forms under Ka Ichu’s guidance, going through a process that generations of Paete artisans had learned through years of work and repetition."
+        },
+        {
+          "type": "p",
+          "text": "For at least that afternoon, taká was passing into new hands. – Rappler.com"
+        },
+        {
+          "type": "p",
+          "text": "Arabella Grace Sta. Ana is a Rappler intern studying BA Philosophy at UP Los Baños."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "feed"
+    },
+    {
+      "id": "inq-o8oyya",
+      "source": "inq",
+      "title": "Villagers save ailing PH serpent eagle in Zamboanga del Norte",
+      "summary": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — Environment authorities have taken custody of an ailing Philippine serpent eagle (Spilornis holospilus) after residents rescued the bird when it…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-10T00:58:00.000Z",
+      "firstSeen": "2026-10-10T01:30:54.549Z",
+      "url": "https://cebudailynews.inquirer.net/773835/villagers-save-ailing-ph-serpent-eagle-in-zamboanga-del-norte",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/10/10-10-eagle-zamboanga-del-norte-620x474.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — Environment authorities have taken custody of an ailing Philippine serpent eagle (Spilornis holospilus) after residents rescued the bird when it repeatedly fell to the ground in Barangay Manil, Leon B. Postigo, Zamboanga del Norte, on Wednesday, October 7. Community Environment and Natural Resources Officer (CENRO) Maribel Acama said residents [&hellip;]... Keep on reading: Villagers save ailing PH serpent eagle in Zamboanga del Norte"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1f4rirf",
+      "source": "inq",
+      "title": "After fresh US attack, ICC asserts it is not politically motivated",
+      "summary": "MANILA, Philippines—The International Criminal Court (ICC) states that its work as a court of last resort is not politically motivated. At the same time, it called on its own members to make sure…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-10T00:54:43.000Z",
+      "firstSeen": "2026-10-10T01:31:00.306Z",
+      "url": "https://globalnation.inquirer.net/341312/after-fresh-us-attack-icc-asserts-it-is-not-politically-motivated",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/09/ICC-chief-Akane-vows-to-continue-job-no-matter-what-amid-US-sanctions-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—The International Criminal Court (ICC) states that its work as a court of last resort is not politically motivated. At the same time, it called on its own members to make sure that it is able to continue discharging its mandate in the wake of fresh sanctions from the United States. Judge Tomoko Akane, the ICC president, on Saturday maintained that the tribunal based in The Hague is independent and impartial. Her action comes after the US Department of State announced moves aimed at restricting US companies from transacting with the court. This is on top of the sanctions the [&hellip;]... Keep on reading: After fresh US attack, ICC asserts it is not politically motivated"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqn-iqp08v",
@@ -853,7 +1411,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "bbc-140fp4a",
@@ -3092,31 +3650,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-1qy21yj",
-      "source": "inq",
-      "title": "Palace confirms Marcos again going to Singapore F1 race",
-      "summary": "SINGAPORE — President Marcos will again watch the Formula 1 (F1) Singapore Grand Prix during his working visit here, Malacañang said on Friday, citing opportunities to meet business leaders and…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-09T21:38:00.000Z",
-      "firstSeen": "2026-10-09T22:01:04.501Z",
-      "url": "https://globalnation.inquirer.net/341280/palace-confirms-marcos-again-going-to-singapore-f1-race",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/Marcos-F1-invite-to-cost-PH-___almost-no-expense-___-envoy-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SINGAPORE — President Marcos will again watch the Formula 1 (F1) Singapore Grand Prix during his working visit here, Malacañang said on Friday, citing opportunities to meet business leaders and potential investors who may also be at the sports event. Palace press officer Claire Castro repeated an earlier explanation that Marcos was invited to the [&hellip;]... Keep on reading: Palace confirms Marcos again going to Singapore F1 race"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-tgnwdr",
       "source": "inqn",
       "title": "PCG: Dark water in Occ. Mindoro&#8217;s Mamburao coast not from oil spill",
@@ -3266,180 +3799,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-17cxrnc",
-      "source": "inq",
-      "title": "Nobel winner joke: ‘I may share this prize with Trump’",
-      "summary": "OSLO, Norway — South African champion of international law Navi Pillay, who was awarded this year’s Nobel peace prize, joked she might “share the prize” with US President Donald Trump if people kept…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-09T21:36:00.000Z",
-      "firstSeen": "2026-10-09T22:01:04.501Z",
-      "url": "https://globalnation.inquirer.net/341277/nobel-winner-joke-i-may-share-this-prize-with-trump",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/Navi-Pillay-10OCT2026-620x477.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "OSLO, Norway — South African champion of international law Navi Pillay, who was awarded this year’s Nobel peace prize, joked she might “share the prize” with US President Donald Trump if people kept applauding her. “If you clap a little bit more I may share this prize with Trump,” Pillay said in a video posted [&hellip;]... Keep on reading: Nobel winner joke: ‘I may share this prize with Trump’"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-os8c06",
-      "source": "inq",
-      "title": "PH Navy man’s med evac delayed by China blockade for 10 hours",
-      "summary": "MANILA, Philippines — A medical emergency evacuation of a Philippine Navy sailor from BRP Sierra Madre at Ayungin (Second Thomas) Shoal was delayed by more than 10 hours when the China Coast Guard…",
-      "byline": "cbuban",
-      "section": "",
-      "published": "2026-10-09T21:34:00.000Z",
-      "firstSeen": "2026-10-09T22:01:04.501Z",
-      "url": "https://www.inquirer.net/492422/ph-navy-mans-med-evac-delayed-by-china-blockade-for-10-hours/",
-      "image": {
-        "src": "https://www.inquirer.net/wp-content/uploads/2026/10/navy-china-10oct2026-620x465.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — A medical emergency evacuation of a Philippine Navy sailor from BRP Sierra Madre at Ayungin (Second Thomas) Shoal was delayed by more than 10 hours when the China Coast Guard blocked rescue efforts by responding Philippine vessels, officials said on Friday."
-        },
-        {
-          "type": "p",
-          "text": "Retired Rear Adm. Roy Vincent Trinidad, Armed Forces of the Philippines spokesperson for the West Philippine Sea, said the sailor, who was suffering from abdominal pain, was eventually flown by helicopter to Puerto Princesa City for treatment around 9:45 a.m. on Friday."
-        },
-        {
-          "type": "h",
-          "text": "Suspended mission"
-        },
-        {
-          "type": "p",
-          "text": "Chinese forces, including coast guard and naval vessels, and their maritime militia, have virtually blocked all access to the shoal where the Sierra Madre had been run aground to serve as one of the AFP’s outposts in the West Philippine Sea."
-        },
-        {
-          "type": "p",
-          "text": "The latest Chinese action came barely two weeks after the AFP suspended a rotation and resupply mission to the Sierra Madre on Sept. 24 following aggressive maneuvers and warnings from Chinese vessels."
-        },
-        {
-          "type": "p",
-          "text": "Philippine Coast Guard (PCG) spokesperson for the West Philippine Sea, Rear Adm. Jay Tarriela, accused China of disregarding the medical emergency as its vessels repeatedly blocked the emergency evacuation on Thursday."
-        },
-        {
-          "type": "p",
-          "text": "“They never cared about the medical emergency. They never cared about our sick personnel on board BRP Sierra Madre,” Tarriela said at a press briefing Friday."
-        },
-        {
-          "type": "p",
-          "text": "The PCG official said China Coast Guard (CCG) vessels obstructed the rescue mission despite explanations over the radio by Philippine personnel that the sailor needed urgent medical attention and might have difficulty boarding a smaller vessel."
-        },
-        {
-          "type": "p",
-          "text": "“This goes beyond geopolitics, this goes beyond the territorial claim,” Tarriela said, stressing that assisting people facing medical emergencies was a moral obligation regardless of maritime disputes. China claims the shoal, about 194 kilometers west of Palawan and well within the exclusive economic zone of the Philippines."
-        },
-        {
-          "type": "h",
-          "text": "Water cannon activated"
-        },
-        {
-          "type": "p",
-          "text": "The PCG’s BRP Cabra received a request from the AFP’s Western Command to help evacuate the sailor. It reached about 17 km north of Ayungin by 7:30 a.m. on Thursday when it first encountered a CCG ship."
-        },
-        {
-          "type": "p",
-          "text": "The CCG ship then activated its water cannon while it approached the Cabra. Although the water cannon did not directly hit the Cabra, the Chinese ship’s actions threatened and prevented the PCG vessel from sailing closer to the Sierra Madre."
-        },
-        {
-          "type": "p",
-          "text": "But the CCG repeatedly blocked the vessel’s approach, Tarriela said."
-        },
-        {
-          "type": "p",
-          "text": "He said the Cabra radioed the Chinese ship to explain that the sailor needed medical evacuation and that transferring him aboard a smaller boat could be difficult because of his condition."
-        },
-        {
-          "type": "h",
-          "text": "Smaller boat used"
-        },
-        {
-          "type": "p",
-          "text": "The PCG also said that the Sierra Madre might have insufficient fuel for its smaller boat following a recently aborted resupply mission."
-        },
-        {
-          "type": "p",
-          "text": "According to Tarriela, the CCG insisted that BRP Sierra Madre use its own rubber boat to transport the patient, saying Chinese personnel had observed Filipino troops fishing, which supposedly indicated that they had enough fuel."
-        },
-        {
-          "type": "p",
-          "text": "The Chinese also warned the Philippine vessel that it would bear the consequences of proceeding, he said."
-        },
-        {
-          "type": "p",
-          "text": "Unable to move closer to the shoal, the Cabra deployed a rigid-hull inflatable boat (RHIB) to get the sailor from the Sierra Madre. However, the CCG ship also launched its own RHIB and continued interfering with the Philippine team’s movements."
-        },
-        {
-          "type": "p",
-          "text": "By 5 p.m., around 10 hours later, the sailor was finally boarded on the Cabra."
-        },
-        {
-          "type": "p",
-          "text": "Tarriela said the operation could have taken only one to two hours had the Chinese allowed the Cabra to approach the Sierra Madre."
-        },
-        {
-          "type": "p",
-          "text": "The sailor was transferred from the Cabra to the Navy’s BRP Valentin Diaz, which docked at Naval Detachment Oyster Bay where he was boarded on a Philippine Air Force Black Hawk helicopter for the flight to Puerto Princesa."
-        },
-        {
-          "type": "h",
-          "text": "Earlier case of obstruction"
-        },
-        {
-          "type": "p",
-          "text": "In May 2024, Chinese vessels were also allegedly obstructed a medical evacuation at Ayungin, alongside interference with a Philippine operation to deliver supplies to the Sierra Madre."
-        },
-        {
-          "type": "p",
-          "text": "The repeated encounters between Philippine and Chinese vessels have raised concerns over the safety of Filipino troops stationed at the remote outpost, where medical emergencies require coordination among the military, coast guard and other government agencies. /cb"
-        },
-        {
-          "type": "p",
-          "text": "For comprehensive coverage, in-depth analysis, visit our special page for West Philippine Sea updates. Stay informed with articles, videos, and expert opinions."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "inq-18wfdsp",
-      "source": "inq",
-      "title": "ICC: Duterte physically, mentally fit to face trial",
-      "summary": "MANILA, Philippines — Judges at a trial chamber of the International Criminal Court (ICC) have declared that former President Rodrigo Duterte is physically and mentally well and would be able to…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-09T21:32:00.000Z",
-      "firstSeen": "2026-10-09T22:01:06.277Z",
-      "url": "https://globalnation.inquirer.net/341272/icc-duterte-physically-mentally-fit-to-face-trial",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/09/duterte-icc-hearing20-16sept2026-e1789575783123-620x435.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Judges at a trial chamber of the International Criminal Court (ICC) have declared that former President Rodrigo Duterte is physically and mentally well and would be able to follow the proceedings and defend himself once he is put on trial starting next month. The latest ruling on the health status of Duterte [&hellip;]... Keep on reading: ICC: Duterte physically, mentally fit to face trial"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "grd-9hl8x6",
       "source": "grd",
       "title": "Three men found guilty of murders of Australian surfer brothers and US friend in Mexico",
@@ -3514,31 +3873,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inqn-1q7gzlp",
-      "source": "inqn",
-      "title": "Laguna Water marks 17th year with El Niño awareness program",
-      "summary": "MANILA, Philippines — In celebration of its 17th anniversary, Manila Water Non-East Zone operating unit Laguna Water launched an expanded implementation of its Daloy ng Saya program months ahead of…",
-      "byline": "Alexander Magno",
-      "section": "Latest News Stories",
-      "published": "2026-10-09T21:25:56.000Z",
-      "firstSeen": "2026-10-09T13:30:53.541Z",
-      "url": "https://newsinfo.inquirer.net/2320789/laguna-water-marks-17th-year-with-el-nino-awareness-program",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/LagunaWater-DaloyNgSaya-09Oct2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — In celebration of its 17th anniversary, Manila Water Non-East Zone operating unit Laguna Water launched an expanded implementation of its Daloy ng Saya program months ahead of its traditional year-end schedule, enabling the company to reach more learners through a strategic partnership with the Sangguniang Panlalawigan ng Laguna. Daloy ng Saya has served"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "cbc-148oj3h",
@@ -13570,123 +13904,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "rap-s58ppb",
-      "source": "rap",
-      "title": "Appellate court justices, SolGen among candidates for next SC justice",
-      "summary": "This year, Marcos will pick his second Supreme Court justice appointee to replace retiring Associate Justice Amy Lazaro Javier",
-      "byline": "Jairo Bolledo",
-      "section": "National News",
-      "published": "2026-10-09T11:36:20.000Z",
-      "firstSeen": "2026-10-09T12:00:59.137Z",
-      "url": "https://www.rappler.com/philippines/list-candidates-supreme-court-associate-justice-judicial-bar-council-october-2026/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2022/10/supreme-court-en-banc-october-14-2022-003.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "HIGHEST COURT. File photo of the Supreme Court of the Philippines."
-        },
-        {
-          "type": "p",
-          "text": "This year, Marcos will pick his second Supreme Court justice appointee to replace retiring Associate Justice Amy Lazaro Javier"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "The Judicial and Bar Council (JBC) has released a list of 19 candidates for the Supreme Court associate justice position, which will be vacated by retiring Associate Justice Amy Lazaro Javier on November 16.",
-            "New applicants include various legal professionals, while previous candidates from 2025 will not participate in the upcoming public interviews scheduled for October 13 and 15.",
-            "The selection process will lead to a shortlist of at least three applicants for President Ferdinand Marcos Jr. to choose from, marking his second appointment to the Supreme Court."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "This is AI-generated. Read the article for full context. Report any errors."
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – Familiar names, including incumbent justices of the Court of Appeals (CA), are among the candidates for the next Supreme Court (SC) associate justice, based on the list made public by the Judicial and Bar Council (JBC) on Friday, October 9."
-        },
-        {
-          "type": "p",
-          "text": "In total, there are 19 bets for the position that will be vacated by Associate Justice Amy Lazaro Javier who will retire on November 16."
-        },
-        {
-          "type": "p",
-          "text": "The new applicants are:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Aldwin Flora Alegre (Deputy Commissioner, Bureau of Immigration)",
-            "Jason Rueda Barlis (Chairperson, Legal Education Board)",
-            "Geraldine Faith Abracia Econg (Presiding Justice, Sandiganbayan)",
-            "Lily Villareal Biton (Associate Justice, Court of Appeals)",
-            "Gamaliel Asis Cordoba (Chairperson, Commission on Audit)",
-            "Solomon Mateo Hermosura (Government Corporate Counsel)",
-            "German Quintos Lichauco II (Senior partner, Siguion Reyna, Montecillo, and Ongsiako law office)",
-            "Ernesto Perez Maceda Jr. (Commissioner, Commission on Elections)"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "These applicants will face the JBC in public interviews scheduled on October 13 and 15. This is part of the council’s selection process."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, the JBC also released the names of the other candidates this year, who had applied in 2025. They will not take part in the October 13 and 15 schedule because their past interviews are still valid:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Nina Antonio Valenzuela (Associate Justice, CA)",
-            "Fernanda Lampas Peralta (Presiding Justice, CA)",
-            "Ramon Mariño Bato Jr. (Associate Justice, CA)",
-            "Ronaldo Roberto Baquizal Martin (Associate Justice, CA)",
-            "Darlene Marie Basco Berberabe (Solicitor General)",
-            "Karl Belandres Miranda (Associate Justice, Sandiganbayan)",
-            "Ramon Alcala Cruz (Associate Justice, CA)",
-            "Walter Santos Ong (Associate Justice, CA)",
-            "Maria Elisa Sempio Diy (Associate Justice, CA)",
-            "Myra Virtucio Garcia Fernandez (Associate Justice, CA)",
-            "Maria Rowena Modesto San Pedro (Associate Justice, Court of Tax Appeals)"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Section 7(1), Article VIII of the 1987 Constitution sets the requirement for an SC justice: “No person shall be appointed Member of the Supreme Court or any lower collegiate court unless he is a natural-born citizen of the Philippines. A Member of the Supreme Court must be at least forty years of age, and must have been for fifteen years or more a judge of a lower court or engaged in the practice of law in the Philippines.”"
-        },
-        {
-          "type": "p",
-          "text": "On top of this, a JBC 2020 rule states that an SC justice must serve a minimum of 2.5 years. This means that the eldest age of a candidate should be 67.5 years old, since the mandatory retirement age for justices is 70 years old."
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2022/10/supreme-court-en-banc-october-14-2022-003.jpg?fit=449%2C449",
-          "caption": "IN NUMBERS: Things to know about the Philippine Supreme Court and its justices"
-        },
-        {
-          "type": "p",
-          "text": "The retirement of Lazaro Javier, an appointee of former president Rodrigo Duterte, will pave the way for President Ferdinand Marcos Jr.’s second appointment to the SC after Associate Justice Raul Villanueva in 2025."
-        },
-        {
-          "type": "p",
-          "text": "From the nominees, the JBC will make a short list of at least three applicants that will be transmitted to Malacañang. Marcos, as the appointing authority, will make the final choice based on the JBC list."
-        },
-        {
-          "type": "p",
-          "text": "Chief Justice Alexander Gesmundo is also set to retire on November 6. The JBC will hold the same selection process to screen the candidates for the next chief magistrate. – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-v46o0p",
       "source": "bbc",
       "title": "France promises 3,000 extra teachers in first step to calm student protests",
@@ -14453,102 +14670,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "rap-bngefo",
-      "source": "rap",
-      "title": "Former ICC judge Navi Pillay wins 2026 Nobel Peace Prize",
-      "summary": "Navi Pillay is a former International Criminal Court judge who oversaw a UN report that concluded that Israel committed genocide in Gaza",
-      "byline": "Reuters",
-      "section": "Global Affairs",
-      "published": "2026-10-09T10:36:16.000Z",
-      "firstSeen": "2026-10-09T11:01:00.157Z",
-      "url": "https://www.rappler.com/people/newsmakers/former-icc-judge-navi-pillay-winner-2026-nobel-peace-prize/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/10/2026-10-09T100015Z_123462808_RC2MZNAELNSJ_RTRMADP_3_NOBEL-PRIZE-PEACE.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "NOBEL PEACE PRIZE WINNER. An illustration of Peace Prize laureate Navanethem \"Navi\" Pillay after the announcement of the Nobel Peace Prize for 2026 at the Norwegian Nobel Institute, in Oslo, Norway October 9, 2026."
-        },
-        {
-          "type": "p",
-          "text": "NTB/Javad Parsa/via REUTERS"
-        },
-        {
-          "type": "p",
-          "text": "Navi Pillay is a former International Criminal Court judge who oversaw a UN report that concluded that Israel committed genocide in Gaza"
-        },
-        {
-          "type": "p",
-          "text": "OSLO, Sweden – Navi Pillay, a former International Criminal Court judge who oversaw a UN report that concluded that Israel committed genocide in Gaza, won the Nobel Peace Prize on Friday, October 9, “for her efforts to promote peace and international law.”"
-        },
-        {
-          "type": "p",
-          "text": "This year’s Nobel Peace Prize underlined the importance of maintaining an organised international order, the committee said in its citation."
-        },
-        {
-          "type": "p",
-          "text": "“The system of international law is under tremendous pressure, and its institutions are under attack,” it said."
-        },
-        {
-          "type": "p",
-          "text": "“We see a shift towards power politics at the expense of legal frameworks and global respect for law and justice. Whenever might overtakes right, it undermines stability, trust and peaceful co-existence.”"
-        },
-        {
-          "type": "p",
-          "text": "Born in Durban, in South Africa’s Natal province, in a family of Indian Tamil origin, Navi Pillay, 85, has been a judge on several international courts, including the International Criminal Court and the International Criminal Tribunal for Rwanda."
-        },
-        {
-          "type": "p",
-          "text": "She was also chair of the UN Commission of Inquiry on the Occupied Palestinian Territory that concluded last year that Israel has committed genocide in Gaza. Israel dismissed the report as “scandalous”."
-        },
-        {
-          "type": "p",
-          "text": "She has also served as United Nations High Commissioner for Human Rights."
-        },
-        {
-          "type": "p",
-          "text": "In 1967 she became the first woman to start a law practice in Natal and the first non-white woman to serve on South Africa’s High Court."
-        },
-        {
-          "type": "p",
-          "text": "Pillay held states and national leaders accountable and brought hope to victims of violence and conflict, and demonstrated a firm moral compass in her long career, said the committee."
-        },
-        {
-          "type": "p",
-          "text": "“A common thread runs from her early work defending Nelson Mandela and others who stood up against apartheid to her service as a judge in some of the key international court cases of our time,” said the citation."
-        },
-        {
-          "type": "p",
-          "text": "The Hague-based ICC has been the target of an escalating campaign by US President Donald Trump, who last month urged countries to leave it."
-        },
-        {
-          "type": "p",
-          "text": "Washington has already imposed targeted sanctions on several prosecutors and judges at the court and, according to sources, is considering wider sanctions in retaliation for the targeting of Israeli leaders."
-        },
-        {
-          "type": "p",
-          "text": "The committee was not directly criticising Trump by rewarding Pillay, according to Haakon Gjerloew, acting director of the Peace Research Institute Oslo."
-        },
-        {
-          "type": "p",
-          "text": "“I think it’s generally rather a promotion of an international legal world order. Of course, he might react to someone who has been part of the ICC, but it’s not a direct attack on Trump,” Gjerloew said."
-        },
-        {
-          "type": "p",
-          "text": "The peace prize is the fifth Nobel awarded this week, after literature, chemistry, physics and medicine. Venezuelan opposition leader Maria Corina Machado won in 2025."
-        },
-        {
-          "type": "p",
-          "text": "The Nobel Peace Prize, worth 12 million Swedish crowns, or about $1.2 million, is due to be presented in Oslo on December 10, the anniversary of the death of Swedish industrialist Alfred Nobel, who founded the awards in his 1895 will. – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "abs-1ut0tdt",
@@ -16904,28 +17025,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-2uakp5",
-      "source": "abs",
-      "title": "Banks may be required to explain withdrawals from a dead person’s account—Supreme Court",
-      "summary": "The SC stated that probate courts, though having limited powers, may provisionally determine whether a property belongs to a deceased person’s estate.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-09T07:16:25.000Z",
-      "firstSeen": "2026-10-09T07:30:51.707Z",
-      "url": "https://www.abs-cbn.com/news/business/2026/10/9/banks-may-be-required-to-explain-withdrawals-from-a-dead-person-s-account-supreme-court-1516",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The SC stated that probate courts, though having limited powers, may provisionally determine whether a property belongs to a deceased person’s estate."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "abs-17ou99o",
       "source": "abs",
       "title": "Vice Ganda, may nabalitaang KORAPSYON sa SK | It’s Showtime",
@@ -18416,31 +18515,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inqg-cq1d02",
-      "source": "inqg",
-      "title": "Marcos, FedEx discuss possible further PH expansion",
-      "summary": "SINGAPORE — President Marcos met with executives of US logistics giant FedEx in Singapore on Thursday, where the company raised the possibility of further expanding its Philippine operations amid an…",
-      "byline": "cbuban",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-10-09T01:03:08.000Z",
-      "firstSeen": "2026-10-09T23:01:08.460Z",
-      "url": "https://globalnation.inquirer.net/341202/marcos-fedex-discuss-possible-further-ph-expansion",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/FedEx-2-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SINGAPORE — President Marcos met with executives of US logistics giant FedEx in Singapore on Thursday, where the company raised the possibility of further expanding its Philippine operations amid an ongoing upgrade of its Clark Gateway Hub in Pampanga. FedEx Airline and International President and CEO Richard Smith said the company may need another expansion"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "grd-2htovk",
