@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-12T19:01:20.248Z",
+  "updated": "2026-10-12T19:31:13.944Z",
   "sources": [
     {
       "id": "inq",
@@ -59,7 +59,7 @@
       "summary": "LEGAZPI CITY — Broadcast journalist Adrian “Golden Boy” Loterte was shot by unidentified gunmen in Daraga town in Albay on Monday afternoon, Oct. 12, prompting police to form a special investigation…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:11.387Z",
+      "published": "2026-10-12T19:31:05.231Z",
       "firstSeen": "2026-10-12T13:00:56.501Z",
       "url": "https://newsinfo.inquirer.net/2322266/albay-broadcaster-shot-police-hunt-gunmen",
       "image": {
@@ -78,63 +78,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-ilscoa",
-      "source": "inqn",
-      "title": "Sandiganbayan suspends Jinggoy Estrada for 90 days over plunder case",
-      "summary": "MANILA, Philippines — The Sandiganbayan Fifth Division on Monday ordered the 90-day preventive suspension of Sen. Jinggoy Estrada over a plunder case involving alleged irregularities in P573 million…",
-      "byline": "dsanchez",
-      "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:11.241Z",
-      "firstSeen": "2026-10-12T14:01:05.025Z",
-      "url": "https://newsinfo.inquirer.net/2322345/sandiganbayan-suspends-jinggoy-estrada-due-to-plunder-case",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/IMG_0235.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Sandiganbayan Fifth Division on Monday ordered the 90-day preventive suspension of Sen. Jinggoy Estrada over a plunder case involving alleged irregularities in P573 million worth of infrastructure projects under the Department of Public Works and Highways (DPWH) for 2025. The five-page resolution penned by Associate Justice Zaldy Trespeses, chair of the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1yh3uuc",
-      "source": "inqn",
-      "title": "Bangsamoro group urges Marcos to meet MILF chair by Oct. 30",
-      "summary": "MANILA, Philippines — Bangsamoro civic group AMANA BARMM has urged President Ferdinand Marcos Jr. to meet Moro Islamic Liberation Front (MILF) chair Al Haj Murad Ebrahim before the Bangsamoro…",
-      "byline": "dsanchez",
-      "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:11.241Z",
-      "firstSeen": "2026-10-12T14:31:04.677Z",
-      "url": "https://newsinfo.inquirer.net/2322336/bangsamoro-group-urges-marcos-to-meet-milf-chair-by-oct-30",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/12/Regions909203-e1756955920412.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Bangsamoro civic group AMANA BARMM has urged President Ferdinand Marcos Jr. to meet Moro Islamic Liberation Front (MILF) chair Al Haj Murad Ebrahim before the Bangsamoro Parliament opens on Oct. 30, saying the talks could help advance the decades-long peace process. In a statement on Monday, the group said a meeting between"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-641mm3",
       "source": "inqn",
       "title": "Police seek owner of P1.92-M cyanide found in Sarangani",
       "summary": "KORONADAL CITY — Police are trying to identify those behind at least two tons of sodium cyanide, a highly poisonous chemical, worth P1.92 million, found in an abandoned truck in the coastal town of…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:11.241Z",
+      "published": "2026-10-12T19:31:04.984Z",
       "firstSeen": "2026-10-12T13:00:56.436Z",
       "url": "https://newsinfo.inquirer.net/2322288/police-seek-owner-of-p1-92-m-cyanide-found-in-sarangani",
       "image": {
@@ -153,13 +103,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1yh3uuc",
+      "source": "inqn",
+      "title": "Bangsamoro group urges Marcos to meet MILF chair by Oct. 30",
+      "summary": "MANILA, Philippines — Bangsamoro civic group AMANA BARMM has urged President Ferdinand Marcos Jr. to meet Moro Islamic Liberation Front (MILF) chair Al Haj Murad Ebrahim before the Bangsamoro…",
+      "byline": "dsanchez",
+      "section": "Latest News Stories",
+      "published": "2026-10-12T19:31:04.937Z",
+      "firstSeen": "2026-10-12T14:31:04.677Z",
+      "url": "https://newsinfo.inquirer.net/2322336/bangsamoro-group-urges-marcos-to-meet-milf-chair-by-oct-30",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2024/12/Regions909203-e1756955920412.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Bangsamoro civic group AMANA BARMM has urged President Ferdinand Marcos Jr. to meet Moro Islamic Liberation Front (MILF) chair Al Haj Murad Ebrahim before the Bangsamoro Parliament opens on Oct. 30, saying the talks could help advance the decades-long peace process. In a statement on Monday, the group said a meeting between"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-ilscoa",
+      "source": "inqn",
+      "title": "Sandiganbayan suspends Jinggoy Estrada for 90 days over plunder case",
+      "summary": "MANILA, Philippines — The Sandiganbayan Fifth Division on Monday ordered the 90-day preventive suspension of Sen. Jinggoy Estrada over a plunder case involving alleged irregularities in P573 million…",
+      "byline": "dsanchez",
+      "section": "Latest News Stories",
+      "published": "2026-10-12T19:31:04.936Z",
+      "firstSeen": "2026-10-12T14:01:05.025Z",
+      "url": "https://newsinfo.inquirer.net/2322345/sandiganbayan-suspends-jinggoy-estrada-due-to-plunder-case",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/IMG_0235.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Sandiganbayan Fifth Division on Monday ordered the 90-day preventive suspension of Sen. Jinggoy Estrada over a plunder case involving alleged irregularities in P573 million worth of infrastructure projects under the Department of Public Works and Highways (DPWH) for 2025. The five-page resolution penned by Associate Justice Zaldy Trespeses, chair of the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-qib60g",
       "source": "inqn",
       "title": "VP trial: Analyst stands by ₱1.049B gap in GenCorp reporting",
       "summary": "MANILA, Philippines —Lawyer Alexander Cabrera, a forensic financial analyst, stood by his report on Monday identifying unreported financial transactions involving companies linked to Vice President…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:09.516Z",
+      "published": "2026-10-12T19:31:03.296Z",
       "firstSeen": "2026-10-12T14:01:00.022Z",
       "url": "https://newsinfo.inquirer.net/2322316/vp-trial-analyst-stands-by-%e2%82%b11-049b-gap-in-gencorp-reporting",
       "image": {
@@ -184,7 +184,7 @@
       "summary": "LEGAZPI CITY — Local broadcaster Adrian “Golden Boy” Loterte died in a hospital shortly after 5 p.m. on Monday, Oct. 12, after he was shot in Barangay San Roque, Daraga, Albay, prompting the town…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:09.516Z",
+      "published": "2026-10-12T19:31:03.296Z",
       "firstSeen": "2026-10-12T14:01:01.864Z",
       "url": "https://newsinfo.inquirer.net/2322334/albay-broadcaster-succumbs-to-injuries-after-gun-attack",
       "image": {
@@ -203,113 +203,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-70gj3t",
-      "source": "inqn",
-      "title": "Villanueva: Cale88 made P150M in 2024 with no employees",
-      "summary": "MANILA, Philippines — Cale88, a banana chip export corporation established in 2021, with Vice President Sara Duterte’s husband, Manases Carpio, as a 47.5-percent owner, reported P150 million in sales…",
-      "byline": "Alexander Magno",
-      "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:09.515Z",
-      "firstSeen": "2026-10-12T14:30:52.052Z",
-      "url": "https://newsinfo.inquirer.net/2322374/villanueva-cale88-made-p150m-in-2024-with-no-employees",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Senator-Judge-Joel-Villanueva-INQUIRER-PHOTO-NINO-JESUS-ORBETA-6oct26.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Cale88, a banana chip export corporation established in 2021, with Vice President Sara Duterte’s husband, Manases Carpio, as a 47.5-percent owner, reported P150 million in sales in 2024 — and yet it did not have a single employee. Senator-Judge Joel Villanueva pointed this out on Monday in his clarificatory questioning of lawyer-accountant Alexander"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1lex7b5",
-      "source": "inqn",
-      "title": "Mt. Kanlaon emits ash plumes for third day",
-      "summary": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — Local government officials remained on alert as Mt. Kanlaon continued to emit ash plumes following a moderately explosive eruption on Saturday. The…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:09.515Z",
-      "firstSeen": "2026-10-12T14:30:52.110Z",
-      "url": "https://newsinfo.inquirer.net/2322373/mt-kanlaon-emits-ash-plumes-for-third-day",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Kanlaon-10October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — Local government officials remained on alert as Mt. Kanlaon continued to emit ash plumes following a moderately explosive eruption on Saturday. The Philippine Institute of Volcanology and Seismology (Phivolcs) recorded three ash emission events on Monday (Oct. 12), although no ashfall was reported, according to Phivolcs science research analyst"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1i4t2vr",
-      "source": "inqn",
-      "title": "PCSO lotto results Oct. 12: No winner of ₱265.5-M jackpot",
-      "summary": "MANILA, Philippines — No ticket holder won the ₱265.5-million Grand Lotto 6/55 jackpot or the ₱105.81-million Mega Lotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on…",
-      "byline": "dsanchez",
-      "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:09.515Z",
-      "firstSeen": "2026-10-12T14:00:57.823Z",
-      "url": "https://newsinfo.inquirer.net/2322360/pcso-lotto-results-oct-12-no-winner-of-265-5m-jackpot",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/10/pcso-lotto-logo-filephoto-10222-4.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — No ticket holder won the ₱265.5-million Grand Lotto 6/55 jackpot or the ₱105.81-million Mega Lotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Monday, Oct. 12, 2026. The Grand Lotto 6/55 draw produced the winning combination 05-41-23-28-20-51, with a jackpot prize of ₱265.5 million. No bettor matched all six"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1or0qzu",
-      "source": "inqn",
-      "title": "Manila Water, MWPV-Cebu earn podium finishes at ASEAN Energy Awards 2026",
-      "summary": "MANILA, Philippines — Manila Water Company, Inc. (Manila Water) and Manila Water Philippine Ventures Cebu (MWPVC) have once again brought Philippine water utilities to the international energy stage,…",
-      "byline": "Alexander Magno",
-      "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:09.515Z",
-      "firstSeen": "2026-10-12T14:00:57.910Z",
-      "url": "https://newsinfo.inquirer.net/2322353/manila-water-mwpv-cebu-earn-podium-finishes-at-asean-energy-awards-2026",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/KingVerzola-RubyRoseMercado-12Oct2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Manila Water Company, Inc. (Manila Water) and Manila Water Philippine Ventures Cebu (MWPVC) have once again brought Philippine water utilities to the international energy stage, earning podium finishes at the ASEAN Energy Awards (AEA) 2026. Manila Water’s 2.5 MWp Solar Project, recognized as the largest consolidated solar installation in the Philippine water"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1mehiaw",
       "source": "inqn",
       "title": "‘Kutseros’ preserving Vigan heritage get rice aid",
       "summary": "VIGAN CITY, ILOCOS SUR, Philippines — The provincial government distributed rice assistance to “kutseros,” or horse-drawn carriage drivers, on Monday (Oct. 12) in recognition of their contribution to…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:09.514Z",
+      "published": "2026-10-12T19:31:03.295Z",
       "firstSeen": "2026-10-12T15:01:02.557Z",
       "url": "https://newsinfo.inquirer.net/2322349/kutseros-preserving-vigan-heritage-get-rice-aid",
       "image": {
@@ -334,7 +234,7 @@
       "summary": "MANILA, Philippines — Financial forensic analyst Atty. Alexander Cabrera has assured Senator-judge Robinhood “Robin” Padilla that he can come up with a competent report even in a limited amount of…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:09.514Z",
+      "published": "2026-10-12T19:31:03.295Z",
       "firstSeen": "2026-10-12T15:31:07.339Z",
       "url": "https://newsinfo.inquirer.net/2322403/cabrera-tells-padilla-we-can-do-a-good-job-even-if-were-in-a-hurry",
       "image": {
@@ -353,13 +253,113 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-70gj3t",
+      "source": "inqn",
+      "title": "Villanueva: Cale88 made P150M in 2024 with no employees",
+      "summary": "MANILA, Philippines — Cale88, a banana chip export corporation established in 2021, with Vice President Sara Duterte’s husband, Manases Carpio, as a 47.5-percent owner, reported P150 million in sales…",
+      "byline": "Alexander Magno",
+      "section": "Latest News Stories",
+      "published": "2026-10-12T19:31:03.295Z",
+      "firstSeen": "2026-10-12T14:30:52.052Z",
+      "url": "https://newsinfo.inquirer.net/2322374/villanueva-cale88-made-p150m-in-2024-with-no-employees",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Senator-Judge-Joel-Villanueva-INQUIRER-PHOTO-NINO-JESUS-ORBETA-6oct26.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Cale88, a banana chip export corporation established in 2021, with Vice President Sara Duterte’s husband, Manases Carpio, as a 47.5-percent owner, reported P150 million in sales in 2024 — and yet it did not have a single employee. Senator-Judge Joel Villanueva pointed this out on Monday in his clarificatory questioning of lawyer-accountant Alexander"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1lex7b5",
+      "source": "inqn",
+      "title": "Mt. Kanlaon emits ash plumes for third day",
+      "summary": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — Local government officials remained on alert as Mt. Kanlaon continued to emit ash plumes following a moderately explosive eruption on Saturday. The…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-10-12T19:31:03.295Z",
+      "firstSeen": "2026-10-12T14:30:52.110Z",
+      "url": "https://newsinfo.inquirer.net/2322373/mt-kanlaon-emits-ash-plumes-for-third-day",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Kanlaon-10October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — Local government officials remained on alert as Mt. Kanlaon continued to emit ash plumes following a moderately explosive eruption on Saturday. The Philippine Institute of Volcanology and Seismology (Phivolcs) recorded three ash emission events on Monday (Oct. 12), although no ashfall was reported, according to Phivolcs science research analyst"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1i4t2vr",
+      "source": "inqn",
+      "title": "PCSO lotto results Oct. 12: No winner of ₱265.5-M jackpot",
+      "summary": "MANILA, Philippines — No ticket holder won the ₱265.5-million Grand Lotto 6/55 jackpot or the ₱105.81-million Mega Lotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on…",
+      "byline": "dsanchez",
+      "section": "Latest News Stories",
+      "published": "2026-10-12T19:31:03.295Z",
+      "firstSeen": "2026-10-12T14:00:57.823Z",
+      "url": "https://newsinfo.inquirer.net/2322360/pcso-lotto-results-oct-12-no-winner-of-265-5m-jackpot",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/10/pcso-lotto-logo-filephoto-10222-4.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — No ticket holder won the ₱265.5-million Grand Lotto 6/55 jackpot or the ₱105.81-million Mega Lotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Monday, Oct. 12, 2026. The Grand Lotto 6/55 draw produced the winning combination 05-41-23-28-20-51, with a jackpot prize of ₱265.5 million. No bettor matched all six"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1or0qzu",
+      "source": "inqn",
+      "title": "Manila Water, MWPV-Cebu earn podium finishes at ASEAN Energy Awards 2026",
+      "summary": "MANILA, Philippines — Manila Water Company, Inc. (Manila Water) and Manila Water Philippine Ventures Cebu (MWPVC) have once again brought Philippine water utilities to the international energy stage,…",
+      "byline": "Alexander Magno",
+      "section": "Latest News Stories",
+      "published": "2026-10-12T19:31:03.295Z",
+      "firstSeen": "2026-10-12T14:00:57.910Z",
+      "url": "https://newsinfo.inquirer.net/2322353/manila-water-mwpv-cebu-earn-podium-finishes-at-asean-energy-awards-2026",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/KingVerzola-RubyRoseMercado-12Oct2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Manila Water Company, Inc. (Manila Water) and Manila Water Philippine Ventures Cebu (MWPVC) have once again brought Philippine water utilities to the international energy stage, earning podium finishes at the ASEAN Energy Awards (AEA) 2026. Manila Water’s 2.5 MWp Solar Project, recognized as the largest consolidated solar installation in the Philippine water"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-138ssty",
       "source": "inqn",
       "title": "Highlights: Day 38 of Sara Duterte impeachment trial &#124; Oct. 12, 2026",
       "summary": "MANILA, Philippines – Day 38 of the trial on Monday centered on the cross-examination of prosecution forensic financial analyst Alexander Cabrera, who conceded that his report showing P817 million in…",
       "byline": "Dona Policar",
       "section": "Uncategorized",
-      "published": "2026-10-12T19:01:09.441Z",
+      "published": "2026-10-12T19:31:03.186Z",
       "firstSeen": "2026-10-12T15:01:00.008Z",
       "url": "https://newsinfo.inquirer.net/2322395/highlights-day-38-of-sara-duterte-impeachment-trial-oct-12-2026",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "CEBU CITY, Philippines — More local government units in Metro Cebu suspended in-person classes on Monday, Oct. 12, after air quality deteriorated to &#8220;very unhealthy&#8221; levels once again.…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:09.440Z",
+      "published": "2026-10-12T19:31:03.137Z",
       "firstSeen": "2026-10-12T15:00:58.663Z",
       "url": "https://newsinfo.inquirer.net/2322354/air-pollution-spreads-to-more-cebu-areas",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "MANILA, Philippines — The Philippine Daily Inquirer (PDI) has been recognized by the Philippine Coast Guard (PCG) for its support to the missions and objectives of the agency. The award was given to…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:07.712Z",
+      "published": "2026-10-12T19:31:01.555Z",
       "firstSeen": "2026-10-12T15:30:52.974Z",
       "url": "https://newsinfo.inquirer.net/2322421/pdi-recognized-by-pcg-during-first-stakeholders-night",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "MANILA, Philippines — Megastar Sharon Cuneta and her daughter, Frankie “Kakie” Pangilinan, attended the impeachment trial of Vice President Sara Duterte at the Senate on Monday, the 38th day of the…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:05.991Z",
+      "published": "2026-10-12T19:30:59.744Z",
       "firstSeen": "2026-10-12T16:00:57.651Z",
       "url": "https://newsinfo.inquirer.net/2322423/sharon-cuneta-daughter-kakie-attend-duterte-impeachment-trial",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "MANILA, Philippines — The House prosecution’s forensic accounting expert witness, lawyer-accountant Alexander Cabrera, stood by his finding on Monday that Vice President Sara Duterte had a 20-percent…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:02.383Z",
+      "published": "2026-10-12T19:30:56.143Z",
       "firstSeen": "2026-10-12T15:00:58.563Z",
       "url": "https://newsinfo.inquirer.net/2322400/analyst-stands-by-vp-dutertes-20-gencorp-interest",
       "image": {
@@ -478,63 +478,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-7tbfhi",
-      "source": "inqn",
-      "title": "WALANG PASOK: Class suspensions for Tuesday, Oct. 13, 2026",
-      "summary": "MANILA, Philippines — At least eight local government units (LGUs) in Bulacan province have suspended their classes on Tuesday (Oct. 13) due to the expected widespread water interruptions caused by…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:00.439Z",
-      "firstSeen": "2026-10-12T18:30:54.494Z",
-      "url": "https://newsinfo.inquirer.net/2322512/walang-pasok-class-suspensions-for-tuesday-oct-13-2026",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/11/walang-pasok-07November2025.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — At least eight local government units (LGUs) in Bulacan province have suspended their classes on Tuesday (Oct. 13) due to the expected widespread water interruptions caused by the maintenance and shutdown of the Bulacan Bulk Water Supply of the Metropolitan Waterworks and Sewerage System (MWSS) from Tuesday to Wednesday. READ: Water supply cuts"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
-      "id": "inqn-jn612j",
-      "source": "inqn",
-      "title": "Northern Samar dengue cases double to 966",
-      "summary": "TACLOBAN CITY, LEYTE, Philippines — Dengue cases in Northern Samar have more than doubled this year compared with the same period in 2025, prompting Gov. Harris Ongchuan to order intensified…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:00.439Z",
-      "firstSeen": "2026-10-12T17:01:06.549Z",
-      "url": "https://newsinfo.inquirer.net/2322393/northern-samar-dengue-cases-double-to-966",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/02/dengue-mosquito-stock-18February2025.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TACLOBAN CITY, LEYTE, Philippines — Dengue cases in Northern Samar have more than doubled this year compared with the same period in 2025, prompting Gov. Harris Ongchuan to order intensified surveillance, mosquito-control operations and public awareness campaigns to prevent further infections. The province recorded 966 dengue cases in 2026, more than twice the 447 cases"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1hoad2n",
       "source": "inqn",
       "title": "Cargo ship rescues 2 Pangasinan fishers adrift for 2 days",
       "summary": "SUBIC BAY FREEPORT, Philippines — Two fishers from Dasol, Pangasinan, were rescued by a passing cargo ship after drifting at sea for two days when their fishing boat was struck by a dolphin, the…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-12T19:01:00.439Z",
+      "published": "2026-10-12T19:30:54.188Z",
       "firstSeen": "2026-10-12T17:01:06.549Z",
       "url": "https://newsinfo.inquirer.net/2322413/cargo-ship-rescues-2-pangasinan-fishers-adrift-for-2-days",
       "image": {
@@ -553,13 +503,88 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-jn612j",
+      "source": "inqn",
+      "title": "Northern Samar dengue cases double to 966",
+      "summary": "TACLOBAN CITY, LEYTE, Philippines — Dengue cases in Northern Samar have more than doubled this year compared with the same period in 2025, prompting Gov. Harris Ongchuan to order intensified…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-10-12T19:30:54.185Z",
+      "firstSeen": "2026-10-12T17:01:06.549Z",
+      "url": "https://newsinfo.inquirer.net/2322393/northern-samar-dengue-cases-double-to-966",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/02/dengue-mosquito-stock-18February2025.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TACLOBAN CITY, LEYTE, Philippines — Dengue cases in Northern Samar have more than doubled this year compared with the same period in 2025, prompting Gov. Harris Ongchuan to order intensified surveillance, mosquito-control operations and public awareness campaigns to prevent further infections. The province recorded 966 dengue cases in 2026, more than twice the 447 cases"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1o1glcc",
+      "source": "inqg",
+      "title": "Marcos thanks outgoing Spanish envoy for bolstering PH-Spain ties",
+      "summary": "MANILA, Philippines — President Ferdinand Marcos Jr. on Monday received outgoing Spanish Ambassador to the Philippines Miguel Utray in a farewell call at Malacañan Palace. In a press release, the…",
+      "byline": "dsanchez",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-10-12T19:30:54.185Z",
+      "firstSeen": "2026-10-12T14:30:52.052Z",
+      "url": "https://globalnation.inquirer.net/341735/marcos-spanish-envoy-story",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/marcos-spain-12oct2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — President Ferdinand Marcos Jr. on Monday received outgoing Spanish Ambassador to the Philippines Miguel Utray in a farewell call at Malacañan Palace. In a press release, the Presidential Communications Office (PCO) said Marcos thanked Utray for his contributions to strengthening cooperation between the Philippines and Spain during his four-year tour of duty"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-7tbfhi",
+      "source": "inqn",
+      "title": "WALANG PASOK: Class suspensions for Tuesday, Oct. 13, 2026",
+      "summary": "MANILA, Philippines — At least eight local government units (LGUs) in Bulacan province have suspended their classes on Tuesday (Oct. 13) due to the expected widespread water interruptions caused by…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-10-12T19:30:54.135Z",
+      "firstSeen": "2026-10-12T18:30:54.494Z",
+      "url": "https://newsinfo.inquirer.net/2322512/walang-pasok-class-suspensions-for-tuesday-oct-13-2026",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/11/walang-pasok-07November2025.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — At least eight local government units (LGUs) in Bulacan province have suspended their classes on Tuesday (Oct. 13) due to the expected widespread water interruptions caused by the maintenance and shutdown of the Bulacan Bulk Water Supply of the Metropolitan Waterworks and Sewerage System (MWSS) from Tuesday to Wednesday. READ: Water supply cuts"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
       "id": "inqg-gohrti",
       "source": "inqg",
       "title": "‘Direct assault on accountability’: CenterLaw hits US’ sanctions vs ICC",
       "summary": "MANILA, Philippines — Lawyers of the victims of the Duterte administration’s war on drugs condemned what it described as the US government’s “dangerous assault on global justice, accountability, and…",
       "byline": "cbuban",
       "section": "Europe",
-      "published": "2026-10-12T19:01:00.439Z",
+      "published": "2026-10-12T19:30:54.135Z",
       "firstSeen": "2026-10-12T17:01:06.549Z",
       "url": "https://globalnation.inquirer.net/341740/direct-assault-on-accountability-centerlaw-hits-us-sanctions-vs-icc",
       "image": {
@@ -578,29 +603,296 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqg-1o1glcc",
-      "source": "inqg",
-      "title": "Marcos thanks outgoing Spanish envoy for bolstering PH-Spain ties",
-      "summary": "MANILA, Philippines — President Ferdinand Marcos Jr. on Monday received outgoing Spanish Ambassador to the Philippines Miguel Utray in a farewell call at Malacañan Palace. In a press release, the…",
-      "byline": "dsanchez",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-10-12T19:01:00.439Z",
-      "firstSeen": "2026-10-12T14:30:52.052Z",
-      "url": "https://globalnation.inquirer.net/341735/marcos-spanish-envoy-story",
+      "id": "grd-1xx98la",
+      "source": "grd",
+      "title": "Andy Burnham promises ‘serious dialogue’ over UK’s relationship with EU",
+      "summary": "<p>PM hails next month’s ‘reset’ summit as first step to closer ties, but tensions over trade may prove problematic</p><p>Andy Burnham has promised a “serious dialogue” over the UK’s future place in…",
+      "byline": "Pippa Crerar, Jennifer Rankin and Lisa O’Carroll",
+      "section": "Brexit",
+      "published": "2026-10-12T19:15:11.000Z",
+      "firstSeen": "2026-10-12T19:30:54.135Z",
+      "url": "https://www.theguardian.com/politics/2026/oct/12/andy-burnham-britain-eu-brexit-reset",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/marcos-spain-12oct2026.jpg",
+        "src": "https://i.guim.co.uk/img/media/4f35bcb22f26f903a948fe30d7c424e08792d669/436_0_6880_5504/master/6880.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e7414fb7ab668087868af8505da5bea7",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — President Ferdinand Marcos Jr. on Monday received outgoing Spanish Ambassador to the Philippines Miguel Utray in a farewell call at Malacañan Palace. In a press release, the Presidential Communications Office (PCO) said Marcos thanked Utray for his contributions to strengthening cooperation between the Philippines and Spain during his four-year tour of duty"
+          "text": "Andy Burnham has promised a “serious dialogue” over the UK’s future place in Europe, saying the existing relationship is “not good enough” as he framed next month’s Brussels summit as a possible first step to EU membership."
+        },
+        {
+          "type": "p",
+          "text": "The prime minister said Britain must take a “clear-eyed rational look” at its long-term relationship with the bloc to boost economic growth and control immigration, which needed to go beyond Labour’s existing red lines."
+        },
+        {
+          "type": "p",
+          "text": "The next “reset” summit will take place on 20 November, ending months of uncertainty, with the two sides seeking to sign deals on food and drink, youth mobility and emissions trading, which Burnham hopes could provide a £10bn-a-year boost to the economy."
+        },
+        {
+          "type": "p",
+          "text": "One EU diplomat said a deal on the three “significant but modest” issues needed to be approved as a test of the UK’s good faith so that both sides could get on with the “real reset” in the longer term relationship."
+        },
+        {
+          "type": "p",
+          "text": "But the UK remains braced for a possible row over protectionist “Made in Europe” trade rules amid industry fears they could lock out UK manufacturers, prompting the prime minister to pledge he would raise concerns with his EU counterparts."
+        },
+        {
+          "type": "p",
+          "text": "Burnham was also forced to clarify that he did not think Russian interference in the 2016 Brexit campaign had affected the final result, after he raised questions about the legitimacy of the outcome in comments at the weekend."
+        },
+        {
+          "type": "p",
+          "text": "In a statement to MPs, the first since the party conference recess, an otherwise confident-sounding Burnham said it would be a “major dereliction of duty” for his government to turn away from exploring closer relations with the EU."
+        },
+        {
+          "type": "p",
+          "text": "“We should not turn our backs on this opportunity and I hope all sides of this house will get behind the government’s efforts to land a positive outcome,” he said."
+        },
+        {
+          "type": "p",
+          "text": "“I believe our chances of doing so will be enhanced by being open to a discussion about our relationship with the EU in the longer term. If we are serious about promoting growth, controlling immigration, upholding our values and security, it is a conversation we must have."
+        },
+        {
+          "type": "p",
+          "text": "“Sticking with the status quo is not good enough for Britain. Worse, it would be a major dereliction of duty to turn away. We need to take a calm, clear-eyed, rational look at the world as it is today to consider what is best for our country."
+        },
+        {
+          "type": "p",
+          "text": "“Our immediate priority is securing a successful outcome at the summit, and I believe we should then set up a serious dialogue about the different options for our relationship in the long term.”"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/af41c503f0ae370f2c3a71232b03899a78e7e0ae/0_0_3888_2556/master/3888.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Nigel Farage speaks to reporters outside the Houses of Parliament in the days after the UK voted to leave the EU.  Photograph: Matt Dunham/AP"
+        },
+        {
+          "type": "p",
+          "text": "Burnham denied he was reopening the Brexit debate, insisting he did respect the referendum result, but added that he wanted to take a “pragmatic approach” to boost economic growth and improve cooperation on migration."
+        },
+        {
+          "type": "p",
+          "text": "He was forced on to the back foot over his remarks to a podcast on Sunday that Russia had interfered over Brexit, rejecting suggestions from Kemi Badenoch, the Conservative leader, that he may have been loose with his language."
+        },
+        {
+          "type": "p",
+          "text": "“It is a matter of record that Russian actors sought to interfere in the 2019 general election, and we think it is inconceivable that this was the first time,” he said."
+        },
+        {
+          "type": "p",
+          "text": "Burnham had said on Sunday it was clear that Russia had interfered in the 2016 Brexit referendum after he sought answers when he arrived in No 10. He did not disclose who gave him the assessment, what evidence it was based on or, crucially, whether any interference had affected the result."
+        },
+        {
+          "type": "p",
+          "text": "Downing Street said the prime minister “absolutely” accepted the Brexit referendum result and believed it to be legitimate, while the foreign minister Stephen Doughty said it was clear Russia had attempted to interfere but had failed."
+        },
+        {
+          "type": "p",
+          "text": "In his statement, Burnham told MPs they had been right to raise the question of the “loss of immigration control” that came with Brexit, as Labour grapples with continuing public concern over the issue, and suggested Brussels recognised this."
+        },
+        {
+          "type": "p",
+          "text": "The UK is excluded from Eurodac, a database which holds biometric and ID data to identify asylum seekers and irregular migrants, and exited the Dublin regulation, a legal mechanism to return refugees to the European country through which they had first entered or transited."
+        },
+        {
+          "type": "p",
+          "text": "But while the prime minister told MPs a return to free movement was “not on the table” in his discussions with the EU, and said he would honour Keir Starmer’s manifesto red lines, he was unable to rule it out for a post-election future."
+        },
+        {
+          "type": "p",
+          "text": "Sources on both sides believe they will be able to get other issues over the line at the summit next month, suggesting that a food and phytosanitary agreement would have been reached in July if the summit had gone ahead on its original date."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/7739dc9212c4dc0ac9847e1a941aea627e48ec1d/0_0_5269_3513/master/5269.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Barley fields in Flamborough, East Yorkshire. Photograph: Rebecca Cole/The Guardian"
+        },
+        {
+          "type": "p",
+          "text": "Issues still to be resolved include a transition period for grains grown in the UK using recently approved fungicides not yet licensed in the EU. This would allow farmers harvesting this year to sell stockpiles next year even with the different regulations."
+        },
+        {
+          "type": "p",
+          "text": "The thorniest issue remains the youth mobility programme, allowing EU and British citizens under 30 to live, work or study in each other’s countries for up to three years. The two sides are at odds over the overall numbers, as well as the tuition fees students would pay at British universities."
+        },
+        {
+          "type": "p",
+          "text": "The biggest current risk to the UK of not aligning more fully with the EU is being locked out of the new Made in Europe initiative – aimed primarily at imports from China in strategic sectors such as renewable energy, nuclear and electric cars – which will block British-made components being used in EU supply chains."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/87c84617fc54ec91387a2ecb05c7f1e58b3e5174/0_0_3899_2600/master/3899.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "An assembly line at the Volkswagen Sachsen GmbH plant, Europe’s largest and first all-electric vehicle manufacturing facility, in Zwickau, Germany. Photograph: Bloomberg/Getty Images"
+        },
+        {
+          "type": "p",
+          "text": "EU sources have insisted there can be no agreement on the issue with the UK at the summit, because the bloc is yet to agree its own position on the proposals. EU lawmakers hope to agree a position on a key proposal, the Industrial Accelerator Act, in December."
+        },
+        {
+          "type": "p",
+          "text": "But Brussels is, at least, open to discussing the issue, and it may be part of the summit statement – a joint text agreed by both sides. The UK has the support of the Netherlands, Poland and Italy for inclusion in the scheme, but France in particular has posed a stumbling block."
+        },
+        {
+          "type": "p",
+          "text": "Burnham acknowledged that Made in Europe presented “risks” to British manufacturing, perhaps in an attempt to address some concerns inside government that Downing Street hasn’t been prioritising the issue."
+        },
+        {
+          "type": "p",
+          "text": "He said: “It is important that we get to an arrangement here that works for both the UK and the EU. After all, we’re both trying to deal with the same issue, which is Chinese exports and the damaging effect that is having on our industry.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-10z42cv",
+      "source": "abs",
+      "title": "Korean Actress Kim Yong Ji Is Married! See Her Artsy Outdoor Wedding at a Hanok Ceremony Hall",
+      "summary": "The actress from \"The King: Eternal Monarch\" and \"Tale of the Nine Tailed\" tied the knot with her non-showbiz partner, with a celebration that blended traditional and modern elements.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-12T19:10:30.000Z",
+      "firstSeen": "2026-10-12T19:30:54.135Z",
+      "url": "https://www.abs-cbn.com/weddings/2026/10/12/korean-actress-kim-yong-ji-is-married-see-her-artsy-outdoor-wedding-2330",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The actress from \"The King: Eternal Monarch\" and \"Tale of the Nine Tailed\" tied the knot with her non-showbiz partner, with a celebration that blended traditional and modern elements."
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "dw-2y8sbn",
+      "source": "dw",
+      "title": "UK: Iran 'highly likely' to be behind RAF Fairford incident",
+      "summary": "Prime Minister Andy Burnham told parliament there were \"strong indications\" of Iranian involvement. The government summoned Iran's ambassador. The scare at RAF Fairford led to the withdrawal of USAF…",
+      "byline": "Mark Hallam",
+      "section": "",
+      "published": "2026-10-12T19:02:00.000Z",
+      "firstSeen": "2026-10-12T19:30:54.185Z",
+      "url": "https://www.dw.com/en/uk-iran-highly-likely-to-be-behind-raf-fairford-incident/a-79645941?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79646339_6.jpg",
+        "caption": "PM Andy Burnham said it would 'almost certainly' be Iran's IRGC that was pulling the stringsImage: House of Commons/PA Images/picture alliance"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The British government has accused Iran of involvement in a security alert outside a UK/US airbase in southern England last month, summoning the ambassador and announcing sanctions against two individuals."
+        },
+        {
+          "type": "p",
+          "text": "Five British nationals were arrested in the vicinity of the RAF Fairford airbase on September 27 on suspicion of terrorism and explosives offenses. They were later released on bail under strict conditions, and another arrest followed days later."
+        },
+        {
+          "type": "p",
+          "text": "Police had already said they were considering the possibility of a foreign state actor's involvement, not least given RAF Fairford's importance to the US Air Force as one of the European bases that handles heavy bombers like B-1's and B-52's, with ample range to reach Iran."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79543618_$%7BformatId%7D.jpg",
+          "caption": "Some of the more advanced US bombers at RAF Fairford were ordered home after the incident [FILE: September 29, 2026]Image: Toby Shepheard/REUTERS"
+        },
+        {
+          "type": "h",
+          "text": "What did Prime Minister Andy Burnham tell parliament?"
+        },
+        {
+          "type": "p",
+          "text": "Prime Minister Andy Burnham told lawmakers in the House of Commons on Monday that the UK might yet put further sanctions on Iran in response."
+        },
+        {
+          "type": "p",
+          "text": "He said there were indications of Iran coordinating the potential plot."
+        },
+        {
+          "type": "p",
+          "text": "\"I can confirm our assessment that it is highly likely to have been coordinated in Iran, almost certainly directed by Iran's Islamic Revolutionary Guard (IRGC),\" he said. \"We will not tolerate these threats on our soil.\""
+        },
+        {
+          "type": "p",
+          "text": "The degree of competence exhibited and the threat posed by the group of young British nationals from London is not entirely clear but seems potentially limited."
+        },
+        {
+          "type": "p",
+          "text": "Preliminary reports suggest that despite a widespread security alert and bomb squad deployment, investigators ultimately did not find viable explosives in the vans. They did, however, find accelerants like petroleum."
+        },
+        {
+          "type": "p",
+          "text": "\"We will crack down on Iran's use of criminal networks, using our full range of powers to target them and their funding streams, and we will bring further sanctions to restrict the capacity of Iran and the IRGC to do us harm,\" Burnham said."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79646325_$%7BformatId%7D.jpg",
+          "caption": "Burnham told the Commons that Iran could potentially face further sanctionsImage: House of Commons/PA Wire/dpa/picture alliance"
+        },
+        {
+          "type": "h",
+          "text": "Foreign Secretary Miliband says Iranian ambassador summoned"
+        },
+        {
+          "type": "p",
+          "text": "Foreign Secretary Ed Miliband said on Monday that his department had summoned Iran's ambassador to \"reiterate\" the message that Britain \"will not tolerate attacks on our soil.\""
+        },
+        {
+          "type": "p",
+          "text": "Iran's state news agency IRNA reported Ambassador Ali Moussavi as \"categorically rejecting the accusations\" and calling on the British government \"to present evidence supporting its allegations if it possesses any.\""
+        },
+        {
+          "type": "p",
+          "text": "Miliband said that two individuals would be subject to an immediate asset freeze, travel ban and director disqualification."
+        },
+        {
+          "type": "p",
+          "text": "He named Ruhollah Bazghandi, head of counterespionage operations in the IRGC and Shahram Ali Reza Tamarzadeh Jakki, an alleged facilitator for the Zindashti criminal network."
+        },
+        {
+          "type": "p",
+          "text": "Miliband said they were being sanctioned for \"their role in facilitating or engaging in hostile activity on behalf of the Iranian regime, with the clear intent of threatening, planning or conducting attacks overseas.\""
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79466175_$%7BformatId%7D.jpg",
+          "caption": "How viable or dangerous the attack plot really was remains something of an open question, what's certain is that the young men were able to cause a major disturbance and an international incident [FILE: September 27, 2026]Image: Alastair Grant/AP Photo/picture alliance"
+        },
+        {
+          "type": "h",
+          "text": "Joint statement from 29 countries condemns 'Iran's use of violent attacks'"
+        },
+        {
+          "type": "p",
+          "text": "Shortly afterwards, a total of 29 countries issued a joint statement denouncing \"in the strongest terms Iran's use of violent attacks.\""
+        },
+        {
+          "type": "p",
+          "text": "It said these included \"the acts of lethal plotting, arson, sabotage, cyber-attacks, and other hybrid activities against us and our partners.\""
+        },
+        {
+          "type": "p",
+          "text": "All of the so-called \"Five Eyes\" alliance and most European NATO members were listed among the signatories, including but not limited to the US, Britain, Australia, Canada, France, Germany, Spain and Ireland."
+        },
+        {
+          "type": "p",
+          "text": "In the aftermath of the September 27 incident at Fairford, the high-tech US B-1 bombers left the airbase. The older and larger contingent of B-52's remained there."
+        },
+        {
+          "type": "p",
+          "text": "RAF Fairford is one of several airbases in southern England with a large US usage footprint. It's located around two hours' drive west of London, in a rural area north of Swindon."
+        },
+        {
+          "type": "p",
+          "text": "As with most such bases, it can trace its roots back to the second World War when Nazi Germany occupied most of mainland Europe and Allied powers were operating air raids and preparing for the D-Day landings out of Britain."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "grd-dk6a4a",
@@ -5721,126 +6013,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "grd-dvdmgb",
-      "source": "grd",
-      "title": "How significant are Burnham’s remarks on Kremlin interference in Brexit vote?",
-      "summary": "<p>Prime minister has reopened the debate over whether Russia did seek to influence the 2016 referendum</p><p>Andy Burnham unexpectedly reopened an old Brexit debate when he said he had been told…",
-      "byline": "Dan Sabbagh Defence and security editor",
-      "section": "Andy Burnham",
-      "published": "2026-10-12T14:48:51.000Z",
-      "firstSeen": "2026-10-12T15:00:58.651Z",
-      "url": "https://www.theguardian.com/politics/2026/oct/12/andy-burnham-kremlin-eu-referendum-brexit",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/88dd654a116d85c0ab9e14938abf9268c53ca3a8/632_0_3192_2552/master/3192.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=70c1b5ba3c7690d06f3ada5b9e509789",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Andy Burnham unexpectedly reopened an old Brexit debate when he said he had been told after becoming prime minister that Russia had interfered in the 2016 EU referendum."
-        },
-        {
-          "type": "p",
-          "text": "It was a contentious issue in the second half of the previous decade, but one that had largely been forgotten about as the UK finally adjusted to the reality of leaving the EU. Now Burnham’s comments have given the topic a fresh impetus."
-        },
-        {
-          "type": "h",
-          "text": "What did the prime minister say, and why could it be significant?"
-        },
-        {
-          "type": "p",
-          "text": "The Russia topic came up as part of a wide-ranging interview Burnham gave to The Rest is Politics, excerpts of which were released on Sunday, in which he appeared to suggest he had been given new information about the Brexit vote."
-        },
-        {
-          "type": "p",
-          "text": "“I asked the question coming to Downing Street: ‘Was there interference in the 2016 referendum from Russia?’ And I’ve had the clear answer that yes, there was,” he said."
-        },
-        {
-          "type": "p",
-          "text": "The prime minister did not say whom he had asked, or set out in detail what the answer was. But his comments suggest he had been given new information of some kind, though he then switched to talking about Russian disinformation in general."
-        },
-        {
-          "type": "p",
-          "text": "“These things are important now to put clearly on the record, and I believe, help voters in Germany and France understand that some of this politics is instigated via our enemies, namely Russia,” he said."
-        },
-        {
-          "type": "p",
-          "text": "“And, I think we’ve been too much on the back foot on that, actually. And we haven’t informed people sufficiently about the extent to which people are seeking to disrupt the political process from overseas.”"
-        },
-        {
-          "type": "h",
-          "text": "What could Burnham have been told?"
-        },
-        {
-          "type": "p",
-          "text": "It is hard to decipher from what the prime minister has said so far."
-        },
-        {
-          "type": "p",
-          "text": "A possibility is that he was given a summary of a recent assessment by the UK’s intelligence agencies, in effect a formal conclusion by them. Another is that it was a relatively informal conversation with officials, where opinions were simply exchanged."
-        },
-        {
-          "type": "p",
-          "text": "The difference is significant – if there was a fresh assessment it would run counter to the previous position, established under a succession of Conservative governments in the aftermath of the Brexit vote."
-        },
-        {
-          "type": "h",
-          "text": "What was the conclusion of previous inquiries?"
-        },
-        {
-          "type": "p",
-          "text": "There were no serious official investigations into Russian interference attempts in 2016, not least because the Conservatives had no appetite to order them. As time passed, it became increasingly difficult to do so."
-        },
-        {
-          "type": "p",
-          "text": "The topic was addressed by parliament’s cross-party intelligence and security committee in its Russia report, published in July 2020, which took evidence in secret from the UK’s intelligence agencies before publishing a partly redacted report."
-        },
-        {
-          "type": "p",
-          "text": "It concluded that the government “had not seen or sought evidence of successful interference in UK democratic processes”. No formal post-referendum assessment had been made, the committee added, and more generally the UK intelligence community was accused of taking its “eye off the ball” when it came to the Russian threat."
-        },
-        {
-          "type": "h",
-          "text": "What could have happened in 2016?"
-        },
-        {
-          "type": "p",
-          "text": "This is an old controversy with three main aspects. First that a “troll army” of state-linked Russian accounts tweeted about the referendum in the run-up to the vote, though estimates of numbers have varied wildly from 54 to 150,000 (many of which were deleted)."
-        },
-        {
-          "type": "p",
-          "text": "Second that Russian English-language media outlets RT and Sputnik published a large amount of anti-EU and pro-Brexit content, which had a wide reach. The digital campaign group 89up said the two broadcasters had published 261 articles that achieved 134m potential page impressions."
-        },
-        {
-          "type": "p",
-          "text": "The third aspect, and the most contentious, were claims that Arron Banks, a donor to the pro-Brexit campaigner Nigel Farage, had links to Russia. Leaked emails showed he met Alexander Yakovenko, then the Russian ambassador to the UK, three times – a figure he later revised up to four – and that he was offered the chance to participate in a goldmining deal in Russia."
-        },
-        {
-          "type": "p",
-          "text": "A subsequent investigation by the National Crime Agency into £8m-worth of loans Banks provided to Brexit campaigns run by Farage concluded the money was legitimately his and there was no evidence of wrongdoing."
-        },
-        {
-          "type": "p",
-          "text": "But the EU referendum was also a complex, closely fought campaign in which many points of view were in play. The idea that one country, with an interest in weakening the UK and the EU, could have had a decisive influence in a vote of 33.5 million people is debatable."
-        },
-        {
-          "type": "h",
-          "text": "What’s going on then?"
-        },
-        {
-          "type": "p",
-          "text": "The prime minister is making a broader argument that Britain needs to reconsider its relationship with the EU, arguing Brexit has not delivered what was promised. Highlighting that there could have been Russian efforts to interfere with the vote raises questions about the outcome, though Downing Street insisted on Monday it regarded the result as legitimate."
-        },
-        {
-          "type": "p",
-          "text": "Burnham is due to make a Commons statement on Monday afternoon on Brexit and Europe, where he will also have the opportunity to say if the intelligence agencies have made a fresh assessment about whether there was Kremlin interference in 2016. If he fails to do so, he risks being accused of exaggeration."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "inqg-l7k1nd",
@@ -14204,112 +14376,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "dw-bq2v6q",
-      "source": "dw",
-      "title": "Hurricane Simon batters Mexico's Pacific Coast",
-      "summary": "Hurricane Simon is currently running parallel to Mexico's Pacific Coast, bringing heavy rainfall and strong winds to vulnerable towns.",
-      "byline": "Mahima Kapoor",
-      "section": "",
-      "published": "2026-10-12T06:50:00.000Z",
-      "firstSeen": "2026-10-12T07:00:56.425Z",
-      "url": "https://www.dw.com/en/hurricane-simon-batters-mexico-s-pacific-coast/a-79636873?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79636811_6.jpg",
-        "caption": "Authorities have established emergency shelters for those affected by the hurricaneImage: Daniel Becerril/REUTERS"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Hurricane Simon lashed vulnerable resorts and towns along Mexico's Pacific Coast on Sunday as it moved parallel to the shoreline, despite weakening to a category 3 storm."
-        },
-        {
-          "type": "p",
-          "text": "\"Additional weakening is forecast but Simon is still expected to be a strong hurricane as it passes near the coast of west-central Mexico tonight,\" the US National Hurricane Center's advisory said."
-        },
-        {
-          "type": "p",
-          "text": "Simon is expected to move farther offshore on Monday before turning back towards Mexico's coast on Wednesday, it said."
-        },
-        {
-          "type": "h",
-          "text": "On high alert"
-        },
-        {
-          "type": "p",
-          "text": "Mexican authorities have placed 28 municipalities across the states of Jalisco and Colima under the highest cyclone alert level. Another 93 municipalities were under high ‌alert, according to civil protection bulletins."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79636765_$%7BformatId%7D.jpg",
-          "caption": "Strong winds are battering the coastal states on the Pacific end of MexicoImage: Daniel Becerril/REUTERS"
-        },
-        {
-          "type": "p",
-          "text": "The hurricane's center closed in on the Puerto Vallarta area, where its most damaging winds and rains were expected to hit around midnight and continue through Monday morning. Puerto Vallarta is a popular tourist destination in Jalisco. Apart from the resorts, several Mexicans live in communities inland and uphill, in houses that may not be able to weather the storm."
-        },
-        {
-          "type": "h",
-          "text": "How to protect houses from natural disasters"
-        },
-        {
-          "type": "p",
-          "text": "Experts believe the entire area between Mexico's western coast and the Sierra Madre mountains could be affected."
-        },
-        {
-          "type": "p",
-          "text": "\"We're expecting catastrophic wind and life-threatening storm surge impacts along that west-central coast of Mexico where the hurricane warning is currently in effect,\" senior hurricane center specialist, Philippe Papin said."
-        },
-        {
-          "type": "p",
-          "text": "\"They're also getting very heavy rainfall associated with the storm that's likely going to produce life-threatening flooding and mudslides in areas of higher terrain along the Mexican coastline, and there will be significant swells.\""
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79636787_$%7BformatId%7D.jpg",
-          "caption": "heavy rainfall overnight has increased the risk of flooding and muslidesImage: Daniel Becerril/REUTERS"
-        },
-        {
-          "type": "p",
-          "text": "In Manzanillo, residents waded through flooded streets on Sunday morning as soldiers helped rescue locals from the overnight rainfall."
-        },
-        {
-          "type": "p",
-          "text": "\"The beds, the refrigerators, the stoves, all the furniture got wet. The whole house flooded,\" Cecilia Palomar told Reuters outside her home."
-        },
-        {
-          "type": "h",
-          "text": "How do tropical storms form?"
-        },
-        {
-          "type": "p",
-          "text": "\"My mother doesn't want ‌to leave. We took her to my brother's, to higher ground. She's an elderly woman, but ‌she doesn't ​want to leave. She doesn't want to be away from her home.\""
-        },
-        {
-          "type": "h",
-          "text": "Airport closed, authorities urge caution"
-        },
-        {
-          "type": "p",
-          "text": "Puerto Vallarta International Airport was closed temporarily while authorities suspended non-essential activities."
-        },
-        {
-          "type": "p",
-          "text": "They also established emergency shelters in threatened coastal communities."
-        },
-        {
-          "type": "p",
-          "text": "Earlier on Sunday, Mexican President Claudia Sheinbaum had urged residents of coastal communities in Jalisco, Colima, Nayarit and Michoacan to remain indoors ahead of the storm."
-        },
-        {
-          "type": "p",
-          "text": "Hurricane Simon has come days after Hurricane Polo struck Mexico's Baja California Peninsula as a Category 2 storm, knocking down power lines and flooding the streets."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-11jlj13",
       "source": "bbc",
       "title": "Indian opposition leaders march to top court to demand election chief resign",
@@ -14655,28 +14721,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-u04w6q",
-      "source": "abs",
-      "title": "Prosecution says won't call Duterte as impeachment witness",
-      "summary": "The prosecution said on Monday it would no longer call Vice President Sara Duterte to testify in her impeachment trial.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-12T05:18:36.000Z",
-      "firstSeen": "2026-10-12T05:30:49.191Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/10/12/prosecution-says-won-t-call-duterte-as-impeachment-witness-1318",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The prosecution said on Monday it would no longer call Vice President Sara Duterte to testify in her impeachment trial."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "abs-am37ws",
