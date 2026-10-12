@@ -1,0 +1,152 @@
+{
+  "id": "cbc-1d9877f",
+  "source": "cbc",
+  "title": "Cyberattack defrosts French supermarket freezers, spoiling food at 100s of stores",
+  "summary": "Hackers raised the temperature of refrigerators and freezers at hundreds of French supermarkets to as high as 50 C overnight, causing fires ‌and spoiling food.",
+  "byline": "CBC",
+  "section": "News/World",
+  "published": "2026-10-12T21:51:20.000Z",
+  "firstSeen": "2026-10-12T22:00:56.462Z",
+  "url": "https://www.cbc.ca/news/world/france-supermarket-freezers-overheated-cyberattack-9.7378180?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/673400cf-c580-4373-bb5d-7726f9751eb4,1791839722791/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C312%2C6000%2C3375%29%3BResize%3D620",
+    "caption": "A woman walks past empty frozen-food refrigerators at an Intermarché supermarket in Névez, France, on Monday, following a cyberattack affecting the French supermarket chains. (Fred Tanneau/AFP/Getty Images)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "World·New"
+    },
+    {
+      "type": "p",
+      "text": "Hackers raised the temperature of refrigerators and freezers at hundreds of French supermarkets to as high as 50 C overnight, causing fires ‌and spoiling food."
+    },
+    {
+      "type": "h",
+      "text": "Freezer temperatures were remotely raised to as high as 50 C at stores across France"
+    },
+    {
+      "type": "p",
+      "text": "The Paris prosecutor's office said on Monday that a \"large-scale\" attack was \"affecting connected refrigerators in several major food retailers across France,\" leading to food losses and fires."
+    },
+    {
+      "type": "p",
+      "text": "Prime Minister Sebastien Lecornu has instructed France's National Cybersecurity Agency (ANSSI) to investigate, a person in his office said."
+    },
+    {
+      "type": "p",
+      "text": "France was co-ordinating with European counterparts because other countries could also be affected, the person said, adding that authorities were assessing whether other French companies were at risk."
+    },
+    {
+      "type": "p",
+      "text": "Félix Aimé, a senior ​cyber threat intelligence analyst at Sekoia Threat Detection and Research, said Spain, Portugal, Poland, Germany and Belgium ​had also been affected."
+    },
+    {
+      "type": "p",
+      "text": "Carrefour said 80 of its supermarkets were hit, while Monoprix, which operates about 490 stores in France, said five per cent of its stores were affected."
+    },
+    {
+      "type": "p",
+      "text": "A frozen food aisle at a supermarket near Nantes, closed after a cyberattack targeted refrigeration systems at French supermarket chains, causing food losses and fires at several stores. (Stephane Mahe/Reuters)"
+    },
+    {
+      "type": "h",
+      "text": "All affected food thrown out"
+    },
+    {
+      "type": "p",
+      "text": "Les Mousquetaires, owner of retailer Intermarché, said fridges at around 150 of its stores were heated up to 50 ​C for six hours overnight. A spokesperson said all affected food had been discarded to eliminate health risks."
+    },
+    {
+      "type": "p",
+      "text": "Paris resident Geert de Clercq ⁠witnessed staff at an Intermarché in central Paris ⁠throwing cartfuls of defrosted frozen foods into a giant trash container, with molten ice ‌cream sloshing out of broken tubs on the street."
+    },
+    {
+      "type": "p",
+      "text": "Coopérative U CEO Dominique Schelcher said his supermarket group had also been targeted."
+    },
+    {
+      "type": "p",
+      "text": "\"Targeting equipment essential to the preservation of fresh products and to the food supply of the French people is of extreme gravity and is unprecedented,\" he wrote on X."
+    },
+    {
+      "type": "p",
+      "text": "Food retailers E.Leclerc and Auchan did not respond to requests for comment."
+    },
+    {
+      "type": "p",
+      "text": "There was no immediate estimate of industry-wide losses, but Intermarché CEO Thierry Cotillard told BFM TV ⁠the \"unprecedented\" attack would represent losses amounting to \"tens of millions of euros nationwide in a single day.\""
+    },
+    {
+      "type": "p",
+      "text": "Christel Delberghe, director general at European retail association Eurocommerce, said, \"This incident underlines the importance of resilience across the entire supply chain.\""
+    },
+    {
+      "type": "p",
+      "text": "AI can make cyberattacks faster and smarter"
+    },
+    {
+      "type": "h",
+      "text": "Control panels accessible over internet"
+    },
+    {
+      "type": "p",
+      "text": "Supermarket cold aisles are typically run by control panels that manage an entire store's fridges and freezers and can be accessed over ‌the internet, which lets maintenance companies adjust them from anywhere."
+    },
+    {
+      "type": "p",
+      "text": "The source close to Lecornu said ANSSI had identified a vulnerability in software supplied by Danish company Danfoss."
+    },
+    {
+      "type": "p",
+      "text": "Danfoss said it was \"aware of incidents in France affecting a limited number of refrigeration management systems.\""
+    },
+    {
+      "type": "p",
+      "text": "The affected units \"were running outdated firmware,\" Danfoss said, adding that it had \"long advised customers to keep supported systems updated with the latest firmware and to migrate legacy systems to current-generation solutions.\""
+    },
+    {
+      "type": "p",
+      "text": "Want to protect yourself from today’s cybersecurity and AI threats? Here are a few tips"
+    },
+    {
+      "type": "p",
+      "text": "On Aug. 9, cybersecurity firm ​Claroty's Team82 published research detailing vulnerabilities in the Danfoss AK-SM 800A controller. According to the report, software updates issued by Danfoss addressed issues that could have allowed attackers to bypass authentication controls and execute code on compromised devices."
+    },
+    {
+      "type": "p",
+      "text": "The attacks resemble disruptions ⁠reported at about a dozen U.S. military commissaries in late August that led to food losses after fridges were affected."
+    },
+    {
+      "type": "h",
+      "text": "Dutch security issue"
+    },
+    {
+      "type": "p",
+      "text": "Dutch ​retailer Ahold Delhaize, which operates the Netherlands's largest supermarket chain Albert Heijn and has major operations in the U.S., said it was dealing with a \"security issue\" on its network and ​had taken several systems offline as a precaution."
+    },
+    {
+      "type": "p",
+      "text": "A message ⁠on the retailer's smartphone app said it was unable to deliver groceries because of a \"cybersecurity incident.\""
+    },
+    {
+      "type": "p",
+      "text": "Online orders account for about 10 per cent of Albert Heijn sales. Physical stores remained open, while Dutch news agency ANP reported that rival retailers had seen a surge in delivery orders."
+    },
+    {
+      "type": "p",
+      "text": "Ahold Delhaize said there was no reason to see a link between the incidents in France and its supermarkets."
+    },
+    {
+      "type": "p",
+      "text": "Ahold is the fourth-largest grocery retailer in the U.S. Websites for its Stop & Shop, Giant, Hannaford and Food Lion chains displayed notices saying \"site temporarily down.\""
+    },
+    {
+      "type": "p",
+      "text": "It was unclear whether other operations had been ⁠affected."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
