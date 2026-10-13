@@ -53,7 +53,7 @@ sub('reader.js','onTap(back, () => close(ctx));',`
   back.addEventListener("pointerdown", returnToHeadlines);
   onTap(back, returnToHeadlines);`);
 sub('reader.js','  window.scrollTo(0, feedScrollY);',
-  '  requestAnimationFrame(() => window.scrollTo(0, feedScrollY));');
+  '  window.requestAnimationFrame(() => window.scrollTo(0, feedScrollY));');
 sub('app.js','/* ---------------- stories ---------------- */',`/* Android system Back routes to the same in-app navigation as the visible
    Back button; never let WebView leave the bundled app unexpectedly. */
 if (window.WireAndroid) {
