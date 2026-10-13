@@ -9,7 +9,7 @@ import android.content.Intent;
 import android.os.Build;
 import androidx.core.app.NotificationCompat;
 import com.amazon.A3L.messaging.A3LMessagingService;
-import com.google.firebase.messaging.RemoteMessage;
+import com.amazon.A3L.messaging.RemoteMessage;
 import java.util.Map;
 public final class WireMessagingService extends A3LMessagingService {
   private static final String CHANNEL="wire_breaking";
