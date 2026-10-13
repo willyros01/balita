@@ -1,0 +1,68 @@
+{
+  "id": "rap-1l1e0m9",
+  "source": "rap",
+  "title": "AI models may soon self-replicate without access to data centers, Anthropic warns",
+  "summary": "In its experiments, Anthropic looks at whether AI models could find vulnerable devices, copy themselves into those devices, and continue spreading without human help",
+  "byline": "Reuters",
+  "section": "Technology",
+  "published": "2026-10-13T06:24:53.000Z",
+  "firstSeen": "2026-10-13T06:30:55.654Z",
+  "url": "https://www.rappler.com/technology/ai-models-soon-self-replicate-without-data-centers-access-anthropic/",
+  "image": {
+    "src": "https://www.rappler.com/tachyon/2026/10/ai-reuters-2026-10-scaled.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "AI. 'AI Artificial Intelligence' words, a keyboard and a robotics hand in this illustration taken, September 23, 2026"
+    },
+    {
+      "type": "p",
+      "text": "Dado Ruvic/Reuters"
+    },
+    {
+      "type": "p",
+      "text": "In its experiments, Anthropic looks at whether AI models could find vulnerable devices, copy themselves into those devices, and continue spreading without human help"
+    },
+    {
+      "type": "p",
+      "text": "Anthropic said on Monday, October 12, its experiments suggested small AI models may be months away from being capable enough to self-replicate on commercial internet-of-things (IoT) devices, such as smart ovens and off-brand Android TV boxes."
+    },
+    {
+      "type": "p",
+      "text": "In its experiments, Anthropic looked at whether AI models could find vulnerable devices, copy themselves into those devices, and continue spreading without human help."
+    },
+    {
+      "type": "p",
+      "text": "It found that small models under 30 billion parameters could complete the many steps needed for replication."
+    },
+    {
+      "type": "p",
+      "text": "However, the firm found that such AI models also struggled to complete the entire sequence from start to finish."
+    },
+    {
+      "type": "p",
+      "text": "In its simplified tests, where some security steps were removed, Anthropic found that GLM-5.2 and stronger models were capable of end-to-end replication."
+    },
+    {
+      "type": "p",
+      "text": "Replicating models would be hard to shut down as there is no central switch-off point and, unlike non-AI malware, they could also figure out unfamiliar devices on their own, targeting data center processors, Anthropic warned."
+    },
+    {
+      "type": "p",
+      "text": "The firm focused on IoT devices like Android TVs, smart appliances, and other internet-connected gadgets in its research as these are typically poorly secured."
+    },
+    {
+      "type": "p",
+      "text": "The AI major also warned that if small models improved at their historical rate, they would be able to autonomously replicate by the end of this year, with small weight-based replicators following suit soon after."
+    },
+    {
+      "type": "p",
+      "text": "Anthropic also said such autonomous AI systems were likely to replicate slowly and rely on widely available, relatively insecure computing resources. It added that systems should be strengthened to make it harder for such AI agents to spread. – Rappler.com"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
