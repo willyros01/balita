@@ -59,3 +59,13 @@ Android-only build patches `reader.js` to use a deterministic pointerdown/click 
 - Official Amazon A3L Messaging 1.1.1 SDK is downloaded over HTTPS during the native-enabled build. It is not committed to this repository. The native Android Firebase configuration is also injected on the runner and removed, never committed.
 - Native build needs GitHub Actions secrets **`WIRE_GOOGLE_SERVICES_JSON_B64`** (entire Firebase Android `google-services.json` base64) and **`WIRE_ADM_API_KEY`** (Amazon Developer Console API key for package `io.github.willyros01.wire` signed by SHA256 `662478ca576fec4f6914e7e446d017f359353970e76bfd4ec8d1318d2bb04866`). The ADM OAuth sender additionally needs **`WIRE_ADM_CLIENT_ID`** and **`WIRE_ADM_CLIENT_SECRET`** on the production fetch workflow.
 - **BLOCKED without vendor credentials and real-device tests**: Native A3L compilation, real ADM/FCM token issuance, delivery in foreground/background/killed app, notification tap → exact article → source Back, opt out; keep production push unchanged in meantime.
+
+## Verification after Android Back repair — October 12/13, 2026
+
+- User reported intermittent on-screen Back failure while viewing detailed news on Fire HD 8.
+- Back patch uses single-action pointerdown/click with reader-view state guard, Android hardware Back listener, deferred scroll restoration and exact source return.
+- GitHub Actions run `38340060586` **SUCCESS**, source SHA `67b7e6eb76bcd56855d250ca70984cd3b1056485`. Native Android source checks, native sender unit tests, Android Java compilation, signed APK signature and artifact checks passed.
+- Artifact `11786628798`; APK SHA256 `0191ff2cd50246121e84cb83175503be70247f99832077a6a81d705423bd4267`; bytes `4238244`; persistent signing certificate SHA256 `662478ca576fec4f6914e7e446d017f359353970e76bfd4ec8d1318d2bb04866`.
+- Cuberoot publisher run `38340416421` **SUCCESS** and deployed metadata `downloads/wire-build.json` now identifies exactly that source, SHA and signing identity. Cuberoot Pages run `38340437668` follows publisher.
+- Download `https://www.cuberoot-systems.com/downloads/wire.apk?build=38340060586`; device acceptance of Back and offline behavior remains pending.
+- Native push receiver, opt-in, delivery routing and server provider logic are implemented **as source on the android branch**, with unit tests passing, but A3L native SDK integration is not compiled or activated in this beta because both Fire/Google provider credentials are missing. `main` news fetch and web push have not changed. Do not claim notification feature PASS until Amazon/Firebase credentials, A3L compile, server adapter deployment and Fire + Google on-device tests all pass.
