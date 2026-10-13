@@ -87,7 +87,13 @@ async function subscriptions(accessToken){
     for(const doc of body.documents || []){
       const token = field(doc, "token", "stringValue");
       const enabled = field(doc, "enabled", "booleanValue");
-      if(token && enabled !== false) found.push({ name: doc.name, token });
+      if(token && enabled !== false){
+        // Omitted provider is the existing Web Push schema. Never misroute
+        // an unknown/ADM token to Google's Android FCM API.
+        const provider=field(doc,"provider","stringValue") || "web";
+        if(provider==="web" || provider==="fcm")found.push({name:doc.name,token,provider});
+        else console.warn("Skipped unsupported native notification provider.");
+      }
     }
     pageToken = body.nextPageToken || "";
   }while(pageToken);
@@ -110,25 +116,29 @@ async function removeSubscription(accessToken, name){
   }
 }
 
+/* The web payload remains byte-equivalent to the previous production
+ * implementation. Android FCM uses data-only delivery so our Java receiver
+ * displays exactly one notification and owns exact-ID tap routing. */
+export function messageFor(subscription,article,sourceName,sentAt){
+  const provider=subscription.provider||"web";
+  if(provider!=="web"&&provider!=="fcm")throw Error("Unsupported push provider");
+  const data={
+    articleId:String(article.id),
+    sourceName:String(sourceName || article.source).slice(0,40),
+    title:String(article.title).slice(0,220),
+    sentAt
+  };
+  return {message:{
+    token:subscription.token,
+    data,
+    ...(provider==="web"
+      ? {webpush:{headers:{TTL:"1800",Urgency:"normal"}}}
+      : {android:{ttl:"1800s",priority:"NORMAL"}})
+  }};
+}
 async function sendOne(accessToken, subscription, article, sourceName){
   const sentAt = new Date().toISOString();
-  const message = {
-    message: {
-      token: subscription.token,
-      data: {
-        articleId: String(article.id),
-        sourceName: String(sourceName || article.source).slice(0, 40),
-        title: String(article.title).slice(0, 220),
-        sentAt
-      },
-      webpush: {
-        headers: {
-          TTL: "1800",
-          Urgency: "normal"
-        }
-      }
-    }
-  };
+  const message = messageFor(subscription,article,sourceName,sentAt);
 
   let res;
   try{

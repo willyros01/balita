@@ -68,6 +68,9 @@ jobs:
       - name: Install
         run: npm install --no-audit --no-fund
 
+      - name: Verify native FCM and existing web notification routing
+        run: node --test breaking-notify.test.mjs
+
       # Exchanges GitHub's five-minute identity for a short-lived Google
       # access token. There is no stored service-account key.
       - name: Authenticate notification sender
