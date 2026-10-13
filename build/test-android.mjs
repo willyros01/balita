@@ -41,7 +41,8 @@ const filesystem={
 let online=true, wrong=false;
 const feed={version:'0.17.20',updated:'2026-10-12T20:00:00Z',sources:[{id:'bbc'}],articles:[{id:'bbc-abc123',source:'bbc',title:'Example'}]};
 const context={
- window:{Capacitor:{isNativePlatform:()=>true,getPlatform:()=> 'android',Plugins:{Filesystem:filesystem}}},
+ window:{Capacitor:{isNativePlatform:()=>true,getPlatform:()=> 'android',Plugins:{Filesystem:filesystem}},addEventListener:()=>{}},
+ document:{addEventListener:()=>{},visibilityState:'visible'},
  AbortController, setTimeout,clearTimeout,JSON,Promise,console,
  fetch:async url=>{remote++;if(!online)throw Error('Offline');return {ok:true,json:async()=>url.includes('/articles/')?{id:wrong?'bad':'bbc-abc123'}:feed}}
 };
