@@ -22,6 +22,7 @@ on:
     types: [fetch-news]
 
   push:
+    branches: [main] # Never run the news fetcher from Android APK development
     paths:                # a code or feed change should take effect at once
       - "sources.json"
       - "fetch-feeds.mjs"
@@ -51,6 +52,7 @@ concurrency:
 
 jobs:
   fetch:
+    if: github.ref == 'refs/heads/main' # OIDC sender also admits main only
     runs-on: ubuntu-latest
     timeout-minutes: 12
 
