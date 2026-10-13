@@ -33,7 +33,7 @@ sub('app.js','function registerWorker(){\n','function registerWorker(){\n  if(wi
 // Android-only navigation: use immediate pointerdown for the in-page Back
 // control, plus click for keyboard/accessibility, guarded by actual view state.
 // The native hardware Back listener uses the SAME reader.close() function.
-sub('reader.js','onTap(back, () => close(ctx));',\`
+sub('reader.js','onTap(back, () => close(ctx));',`
   const returnToHeadlines = (event) => {
     if (event.type === "pointerdown" && event.button !== 0) return;
     if (document.body.dataset.view !== "reader") return; // duplicates are harmless
@@ -41,10 +41,10 @@ sub('reader.js','onTap(back, () => close(ctx));',\`
     close(ctx);
   };
   back.addEventListener("pointerdown", returnToHeadlines);
-  back.addEventListener("click", returnToHeadlines);\`);
+  back.addEventListener("click", returnToHeadlines);`);
 sub('reader.js','  window.scrollTo(0, feedScrollY);',
   '  requestAnimationFrame(() => window.scrollTo(0, feedScrollY));');
-sub('app.js','/* ---------------- stories ---------------- */',\`/* Android system Back routes to the same in-app navigation as the visible
+sub('app.js','/* ---------------- stories ---------------- */',`/* Android system Back routes to the same in-app navigation as the visible
    Back button; never let WebView leave the bundled app unexpectedly. */
 if (window.WireAndroid) {
   const nativeApp = window.Capacitor?.Plugins?.App;
@@ -56,7 +56,7 @@ if (window.WireAndroid) {
     else window.Capacitor?.Plugins?.App?.minimizeApp?.();
   });
 }
-/* ---------------- stories ---------------- */\`);
+/* ---------------- stories ---------------- */`);
 
 fs.copyFileSync('android-src/android-adapter.js','www/android-adapter.js');
 fs.copyFileSync('android-src/notifications.js','www/notifications.js');
