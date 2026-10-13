@@ -10,6 +10,8 @@ on:
       - "build/AndroidIcons.java"
       - "build/android-sign.sh"
       - "build/android-build.sh"
+      - "build/wadm.sh"
+      - "build/install-wire-push.mjs"
       - "capacitor.config.json"
       - "package.json"
       - ".github/workflows/android-apk.yml"
@@ -24,7 +26,7 @@ concurrency:
 
 jobs:
   check:
-    name: Verify Wire reader and FCM native compilation
+    name: Verify Wire reader and ADM/FCM native compilation
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
@@ -42,18 +44,21 @@ jobs:
           node build/prepare-android.mjs
           node build/test-android.mjs
           node --test android-src/native-sender.test.mjs
-          node --check build/install-wire-fcm.mjs
+          node --check build/install-wire-push.mjs
+          bash -n build/wadm.sh
           bash -n build/android-build.sh
           bash -n build/android-sign.sh
-      - name: Compile Google FCM Android native receiver
+      - name: Compile native A3L ADM and FCM receiver
         env:
           WIRE_GOOGLE_SERVICES_JSON_B64: ${{ secrets.WIRE_GOOGLE_SERVICES_JSON_B64 }}
+          WIRE_ADM_API_KEY: ${{ secrets.WIRE_ADM_API_KEY }}
         run: |
           npx cap add android
           npx cap sync android
-          node build/install-wire-fcm.mjs
+          bash build/wadm.sh
           test -s android/app/google-services.json
-          grep -F 'com.google.firebase.MESSAGING_EVENT' android/app/src/main/AndroidManifest.xml
+          test -s android/app/src/main/assets/api_key.txt
+          grep -F 'com.amazon.A3L.messaging.intent.MESSAGE' android/app/src/main/AndroidManifest.xml
           java build/AndroidIcons.java icon-512.png android/app/src/main/res
           cd android
           chmod +x ./gradlew
@@ -68,6 +73,7 @@ jobs:
       WIRE_SIGNING_KEYSTORE_BASE64: ${{ secrets.WIRE_SIGNING_KEYSTORE_BASE64 }}
       WIRE_SIGNING_PASSWORD: ${{ secrets.WIRE_SIGNING_PASSWORD }}
       WIRE_GOOGLE_SERVICES_JSON_B64: ${{ secrets.WIRE_GOOGLE_SERVICES_JSON_B64 }}
+      WIRE_ADM_API_KEY: ${{ secrets.WIRE_ADM_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - name: Require the permanent Wire signing secrets

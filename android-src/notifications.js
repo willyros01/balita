@@ -1,5 +1,5 @@
-/* Google Android native FCM opt-in. Amazon Fire ADM remains unavailable.
- * No administrator or Google sender credentials are ever shipped in the APK.
+/* Native opt-in for Amazon Fire ADM or Google Android FCM via A3L.
+ * ADM OAuth secrets and Google sender credentials are never bundled in the APK.
  */
 import { PUSH_FIREBASE } from './config.js';
 import { VERSION } from './version.js';
@@ -85,23 +85,25 @@ export function setup({announce,onTap}){
  if(!button||!status)return;
  const plugin=native();
  let supported=false;
+ let detectedProvider='';
  const paint=()=>{
    button.disabled=busy||!supported;
    button.setAttribute('aria-pressed',String(supported&&getEnabled()));
    button.textContent=busy?'Please wait…':supported?
      getEnabled()?'Turn off':'Turn on':'Unavailable on this device';
    status.textContent=busy?'Updating…':!supported?
-     'Google Android FCM only. Amazon Fire needs ADM (not available yet).':
-     getEnabled()?'Native FCM notifications on. Background alerts enabled.':
-       'Native FCM notifications off. Tap Turn on to receive breaking news, including in background.';
+     'This device does not support Amazon ADM or Google FCM notifications.':
+     getEnabled()?'Native '+(tokenType||detectedProvider).toUpperCase()+' notifications on.':
+       'Native '+detectedProvider.toUpperCase()+' notifications off. Tap Turn on to receive breaking news, including in background.';
  };
  button.disabled=true;
- status.textContent='Checking Google Android notification support…';
+ status.textContent='Checking native notifications for this device…';
  if(!plugin||!PUSH_FIREBASE?.apiKey||!plugin.available){
    paint();return;
  }
  void plugin.available().then(info=>{
-   supported=Boolean(info?.supported&&info?.provider==='fcm');
+   detectedProvider=['adm','fcm'].includes(info?.provider)?info.provider:'';
+   supported=Boolean(info?.supported&&detectedProvider);
    paint();
    if(supported&&getEnabled())void refresh();
  }).catch(()=>{supported=false;paint();});

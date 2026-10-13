@@ -3,6 +3,8 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.content.Intent;
 import android.os.Build;
 import androidx.core.app.NotificationCompat;
@@ -17,6 +19,7 @@ public final class WireMessagingService extends A3LMessagingService {
   }
   @Override public void onMessageReceived(Context context,RemoteMessage message){
     final Map<String,String> data=message.getData();
+    if(data==null)return;
     final String id=data.get("articleId");
     if(id==null||!id.matches("[a-zA-Z0-9-]{1,100}"))return;
     final String sentAt=data.get("sentAt");
@@ -25,6 +28,8 @@ public final class WireMessagingService extends A3LMessagingService {
       long delta=System.currentTimeMillis()-java.time.Instant.parse(sentAt).toEpochMilli();
       if(delta<0||delta>1800000L)return;
     }catch(Exception err){return;}
+    if(Build.VERSION.SDK_INT>=33 &&
+       context.checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS)!=PackageManager.PERMISSION_GRANTED)return;
     NotificationManager manager=(NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
     if(manager==null)return;
     if(Build.VERSION.SDK_INT>=26){
@@ -33,6 +38,7 @@ public final class WireMessagingService extends A3LMessagingService {
       manager.createNotificationChannel(channel);
     }
     Intent intent=new Intent(context,MainActivity.class);
+    intent.setAction("io.github.willyros01.wire.OPEN."+id);
     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_SINGLE_TOP);
     intent.putExtra("wireArticleId",id);
     intent.putExtra("wireSentAt",sentAt);
@@ -46,6 +52,6 @@ public final class WireMessagingService extends A3LMessagingService {
       .setContentTitle(title).setContentText(source==null?"Wire":source)
       .setStyle(new NotificationCompat.BigTextStyle().bigText(title))
       .setAutoCancel(true).setContentIntent(pending);
-    manager.notify(id.hashCode(),note.build());
+    manager.notify(id,0,note.build());
   }
 }

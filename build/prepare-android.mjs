@@ -66,7 +66,7 @@ if (window.WireAndroid) {
 
 /* Version is Android-only. Production Web Wire stays at its own version. */
 sub('version.js','export const VERSION    = "0.17.54";',
-  'export const VERSION    = "0.17.56";');
+  'export const VERSION    = "0.17.57";');
 sub('version.js','export const BUILD_DATE = "2026-09-23";',
   'export const BUILD_DATE = "2026-10-13";');
 fs.copyFileSync('android-src/android-adapter.js','www/android-adapter.js');

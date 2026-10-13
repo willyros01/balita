@@ -7,6 +7,9 @@ const need=p=>{if(!fs.existsSync(p)||fs.statSync(p).size===0)throw Error('Native
 need(root+'/libs/A3LMessaging-1.1.1.aar');
 need(root+'/google-services.json');
 need(root+'/src/main/assets/api_key.txt');
+const admKey=fs.readFileSync(root+'/src/main/assets/api_key.txt','utf8');
+if(admKey!==admKey.trim()||/\s/.test(admKey)||admKey.length<32)
+ throw Error('Amazon ADM API key must be one unbroken non-empty line');
 const config=JSON.parse(fs.readFileSync(root+'/google-services.json','utf8'));
 if(config.project_info?.project_id!=='wire-news-6da5a'||
   !(config.client||[]).some(c=>c.client_info?.android_client_info?.package_name==='io.github.willyros01.wire'))
@@ -53,4 +56,4 @@ patch(root+'/build.gradle','dependencies {',
   "    implementation 'com.google.firebase:firebase-messaging:23.0.0'");
 patch('android/build.gradle','dependencies {',
   "dependencies {\n        classpath 'com.google.gms:google-services:4.4.2'");
-console.log('Wire native A3L registered; ADM/FCM service will be compiled');
+console.log('PASS Wire A3L/ADM/FCM receiver, token bridge and device config installed');

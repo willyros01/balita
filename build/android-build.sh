@@ -9,11 +9,10 @@ npx cap add android
 npx cap sync android
 test -s icon-512.png
 
-# Google Android FCM is explicitly enabled. Amazon ADM stays separate.
-# The config is validated before compilation; missing/invalid secret fails closed.
-node build/install-wire-fcm.mjs
-trap 'rm -f android/app/google-services.json android/app/wire-signing.p12 android/app/wire-sign.gradle' EXIT
-echo "PASS: Native FCM compiled for Google Android; no on-screen polling and no Amazon ADM."
+# Amazon A3L selects ADM on Fire OS and FCM on Google Android.
+# Exactly the same vendor-prep step runs in both CI native compile and signer.
+bash build/wadm.sh
+trap 'rm -f android/app/google-services.json android/app/src/main/assets/api_key.txt android/app/wire-signing.p12 android/app/wire-sign.gradle' EXIT
 java build/AndroidIcons.java icon-512.png android/app/src/main/res
 node <<'JS'
 const fs=require('fs');
@@ -22,7 +21,7 @@ const content=fs.readFileSync(p,'utf8');
 const code=100000+Number(process.env.GITHUB_RUN_NUMBER||1);
 if(!Number.isSafeInteger(code)||code<=0||code>2100000000)throw Error('invalid Android versionCode');
 if(!/^\s*versionCode\s+\d+/m.test(content)||!/^\s*versionName\s+["'][^"']+["']/m.test(content))throw Error('Android Gradle version fields changed');
-fs.writeFileSync(p,content.replace(/^(\s*versionCode\s+)\d+/m,'$1'+code).replace(/^(\s*versionName\s+)["'][^"']+["']/m,'$1"0.17.56"'));
+fs.writeFileSync(p,content.replace(/^(\s*versionCode\s+)\d+/m,'$1'+code).replace(/^(\s*versionName\s+)["'][^"']+["']/m,'$1"0.17.57"'));
 JS
 bash build/android-sign.sh
 trap 'rm -f android/app/wire-signing.p12 android/app/wire-sign.gradle' EXIT
