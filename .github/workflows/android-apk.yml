@@ -44,6 +44,8 @@ jobs:
           node build/prepare-android.mjs
           node build/test-android.mjs
           node --test android-src/native-sender.test.mjs
+          node --test android-src/foreground-alerts.test.mjs
+          node --test android-src/foreground-ui.test.mjs
           node --check build/install-wire-push.mjs
           bash -n build/wadm.sh
           bash -n build/android-build.sh

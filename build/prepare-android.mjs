@@ -65,8 +65,39 @@ if (window.WireAndroid) {
 /* ---------------- stories ---------------- */`);
 
 /* Version is Android-only. Production Web Wire stays at its own version. */
+
+/* Fallback only: never modify/replace native ADM or FCM configuration. */
+sub('index.html','<section class="breaking" aria-labelledby="breaking-title">',`
+<section class="breaking wire-foreground-setting" aria-labelledby="foreground-title">
+  <div class="breaking-copy">
+    <h2 id="foreground-title">Alerts while Wire is open</h2>
+    <p id="foreground-status">Optional on-screen alerts. No background alerts.</p>
+  </div>
+  <button class="primary breaking-toggle" id="foreground-toggle" type="button" aria-pressed="false">Turn on</button>
+</section>
+<section class="breaking" aria-labelledby="breaking-title">`);
+sub('app.js','import * as notifications from "./notifications.js";',
+  'import * as notifications from "./notifications.js";\\nimport * as foreground from "./foreground.js";'.replace('\\n','\n'));
+sub('app.js','  notifications.setup({ announce, onTap });',`
+  notifications.setup({ announce, onTap });
+  foreground.setup({
+    announce, onTap,
+    snapshot: () => ({ articles: state.articles }),
+    refreshNews: async () => { await loadArticles(); ctx.refresh(); },
+    openArticle: id => {
+      const story = state.articles.find(a => a.id === id);
+      if(!story) return false;
+      state.filter = story.source;
+      ctx.refresh();
+      ctx.openArticle(id);
+      return true;
+    }
+  });`);
+fs.copyFileSync('android-src/foreground-alerts.mjs','www/foreground-alerts.mjs');
+fs.copyFileSync('android-src/foreground.js','www/foreground.js');
+fs.appendFileSync('www/app.css',fs.readFileSync('android-src/foreground-alert.css','utf8'));
 sub('version.js','export const VERSION    = "0.17.54";',
-  'export const VERSION    = "0.17.57";');
+  'export const VERSION    = "0.17.58";');
 sub('version.js','export const BUILD_DATE = "2026-09-23";',
   'export const BUILD_DATE = "2026-10-13";');
 fs.copyFileSync('android-src/android-adapter.js','www/android-adapter.js');

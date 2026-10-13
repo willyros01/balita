@@ -1,0 +1,29 @@
+/* Android-only on-screen alert: high contrast, large touch targets.
+ * font size tracks Wire's accessible A+ scale up to 50px. */
+.wire-foreground-alert[hidden]{display:none!important}
+.wire-foreground-alert{
+ position:fixed;bottom:max(12px,env(safe-area-inset-bottom));left:12px;right:12px;
+ z-index:90;margin:auto;max-width:760px;max-height:65vh;overflow:auto;
+ box-sizing:border-box;border:4px solid #FFD66A;border-radius:16px;
+ padding:0.8em;color:#fff;background:#142A3D;
+ box-shadow:0 0 0 2px #101820,0 9px 30px #0009;
+ font-family:var(--font-body);font-size:max(22px,var(--base));line-height:1.4;
+}
+.wire-foreground-alert strong{display:block;font-size:1em;letter-spacing:.03em;color:#FFD66A}
+.wire-foreground-headline{font-size:1em;font-weight:700;margin:.5em 0}
+.wire-foreground-buttons{display:flex;flex-wrap:wrap;gap:.5em}
+.wire-foreground-buttons button{
+ font:inherit;font-size:1em;font-weight:700;min-height:2.3em;
+ flex:1 1 8em;padding:.4em .6em;color:#101820;
+ background:#fff;border:3px solid #fff;border-radius:12px;
+ touch-action:manipulation;cursor:pointer
+}
+.wire-foreground-buttons button:first-child{background:#FFD66A;border-color:#FFD66A}
+.wire-foreground-buttons button:focus-visible{outline:4px solid #fff;outline-offset:4px}
+/* The toggle/status must be legible even on Fire HD 8 at enlarged settings. */
+body .breaking p{font-size:max(20px,.85em)}
+body .breaking h2{font-size:max(24px,1em)}
+body .breaking-toggle{font-size:max(22px,1em);min-height:3em}
+
+body[data-view="reader"] .wire-foreground-alert,
+body[data-view="manage"] .wire-foreground-alert{display:none!important}
