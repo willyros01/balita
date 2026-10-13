@@ -24,7 +24,7 @@ concurrency:
 
 jobs:
   check:
-    name: Verify Wire Android reader and native compilation
+    name: Verify Wire reader and FCM native compilation
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
@@ -42,15 +42,18 @@ jobs:
           node build/prepare-android.mjs
           node build/test-android.mjs
           node --test android-src/native-sender.test.mjs
-          node --test android-src/foreground-alerts.test.mjs
-          node --test android-src/foreground-ui.test.mjs
-          node --check build/install-wire-push.mjs
+          node --check build/install-wire-fcm.mjs
           bash -n build/android-build.sh
           bash -n build/android-sign.sh
-      - name: Compile native Android reader without publishing debug signer
+      - name: Compile Google FCM Android native receiver
+        env:
+          WIRE_GOOGLE_SERVICES_JSON_B64: ${{ secrets.WIRE_GOOGLE_SERVICES_JSON_B64 }}
         run: |
           npx cap add android
           npx cap sync android
+          node build/install-wire-fcm.mjs
+          test -s android/app/google-services.json
+          grep -F 'com.google.firebase.MESSAGING_EVENT' android/app/src/main/AndroidManifest.xml
           java build/AndroidIcons.java icon-512.png android/app/src/main/res
           cd android
           chmod +x ./gradlew
@@ -65,8 +68,6 @@ jobs:
       WIRE_SIGNING_KEYSTORE_BASE64: ${{ secrets.WIRE_SIGNING_KEYSTORE_BASE64 }}
       WIRE_SIGNING_PASSWORD: ${{ secrets.WIRE_SIGNING_PASSWORD }}
       WIRE_GOOGLE_SERVICES_JSON_B64: ${{ secrets.WIRE_GOOGLE_SERVICES_JSON_B64 }}
-      WIRE_ADM_API_KEY: ${{ secrets.WIRE_ADM_API_KEY }}
-      WIRE_ENABLE_NATIVE_PUSH: ${{ vars.WIRE_ENABLE_NATIVE_PUSH }}
     steps:
       - uses: actions/checkout@v4
       - name: Require the permanent Wire signing secrets

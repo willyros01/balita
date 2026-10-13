@@ -1,6 +1,5 @@
-/* Native Wire push opt-in. Runs only when WirePush A3L bridge is compiled.
- * Both Fire/ADM and Google/FCM publish same Firestore document schema.
- * No administrator OAuth/ADM server secrets are ever shipped in this APK.
+/* Google Android native FCM opt-in. Amazon Fire ADM remains unavailable.
+ * No administrator or Google sender credentials are ever shipped in the APK.
  */
 import { PUSH_FIREBASE } from './config.js';
 import { VERSION } from './version.js';
@@ -85,22 +84,29 @@ export function setup({announce,onTap}){
  const status=document.getElementById('breaking-status');
  if(!button||!status)return;
  const plugin=native();
- if(!plugin||!PUSH_FIREBASE?.apiKey){
-   button.disabled=true;
-   button.textContent='Not available yet';
-   status.textContent='Native notifications need Fire/Google credentials. News reading works.';
-   return;
- }
+ let supported=false;
  const paint=()=>{
-   button.disabled=busy;button.setAttribute('aria-pressed',String(getEnabled()));
-   button.textContent=busy?'Please wait…':getEnabled()?'Turn off':'Turn on';
-   status.textContent=busy?'Updating…':getEnabled()?
-     'Notifications on'+(tokenType?' ('+tokenType.toUpperCase()+')':'')+'.':
-     'Notifications off.';
+   button.disabled=busy||!supported;
+   button.setAttribute('aria-pressed',String(supported&&getEnabled()));
+   button.textContent=busy?'Please wait…':supported?
+     getEnabled()?'Turn off':'Turn on':'Unavailable on this device';
+   status.textContent=busy?'Updating…':!supported?
+     'Google Android FCM only. Amazon Fire needs ADM (not available yet).':
+     getEnabled()?'Native FCM notifications on. Background alerts enabled.':
+       'Native FCM notifications off. Tap Turn on to receive breaking news, including in background.';
  };
- paint();
+ button.disabled=true;
+ status.textContent='Checking Google Android notification support…';
+ if(!plugin||!PUSH_FIREBASE?.apiKey||!plugin.available){
+   paint();return;
+ }
+ void plugin.available().then(info=>{
+   supported=Boolean(info?.supported&&info?.provider==='fcm');
+   paint();
+   if(supported&&getEnabled())void refresh();
+ }).catch(()=>{supported=false;paint();});
  onTap(button,async()=>{
-   if(busy)return;
+   if(busy||!supported)return;
    busy=true;paint();
    try{
      if(getEnabled()){
@@ -121,17 +127,17 @@ export function setup({announce,onTap}){
  // If revoked at OS level, show failure instead of pretending ON.
  let lastRefresh=0;
  const refresh=async()=>{
-   if(!getEnabled()||busy||Date.now()-lastRefresh<5*60000)return;
+   if(!getEnabled()||!supported||busy||Date.now()-lastRefresh<5*60000)return;
    lastRefresh=Date.now();
    try{
-     const address=await plugin.register();
+     const address=await plugin.register({silent:true});
      await setSubscription(true,address);
      paint();
    }catch(e){status.textContent='Native notification registration needs attention: '+String(e.message||e);}
  };
  // Do not automatically request permission on first launch. This
  // is only a previously enabled user's token-renewal path.
- if(getEnabled())void refresh();
+ if(getEnabled()&&supported)void refresh();
  document.addEventListener('visibilitychange',()=>{
    if(document.visibilityState==='visible'&&getEnabled())void refresh();
  });

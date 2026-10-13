@@ -64,37 +64,13 @@ if (window.WireAndroid) {
 }
 /* ---------------- stories ---------------- */`);
 
-
-/* Android-only foreground news alert; no native push, no Firebase credentials. */
-sub('index.html','<h2 id="breaking-title">Breaking-news notifications</h2>',
-  '<h2 id="breaking-title">Breaking news while Wire is open</h2>');
-sub('app.js','  notifications.setup({ announce, onTap });',`
-  notifications.setup({
-    announce, onTap,
-    snapshot: () => ({ articles: state.articles }),
-    refreshNews: async () => { await loadArticles(); ctx.refresh(); },
-    openArticle: id => {
-      const story = state.articles.find(article => article.id === id);
-      if(!story) return false;
-      state.filter = story.source; // Back returns to the correct outlet
-      ctx.refresh();
-      ctx.openArticle(id);
-      return true;
-    }
-  });`);
+/* Version is Android-only. Production Web Wire stays at its own version. */
 sub('version.js','export const VERSION    = "0.17.54";',
-  'export const VERSION    = "0.17.55";');
+  'export const VERSION    = "0.17.56";');
 sub('version.js','export const BUILD_DATE = "2026-09-23";',
   'export const BUILD_DATE = "2026-10-13";');
-fs.copyFileSync('android-src/foreground-alerts.mjs','www/foreground-alerts.mjs');
-fs.copyFileSync('android-src/notifications-foreground.js','www/notifications.js');
-fs.appendFileSync('www/app.css',fs.readFileSync('android-src/foreground-alert.css','utf8'));
-fs.appendFileSync('www/app.css',
-  '\nbody[data-view="reader"] .wire-foreground-alert, body[data-view="manage"] .wire-foreground-alert{display:none!important}\n');
-
 fs.copyFileSync('android-src/android-adapter.js','www/android-adapter.js');
-// www/notifications.js was already installed from the foreground-only module.
-// Keep the native ADM/FCM implementation on android-src for a later gated build.
+fs.copyFileSync('android-src/notifications.js','www/notifications.js');
 // Explicitly prevent shipping an old news feed in the APK. Always use live main.
 if(fs.existsSync('www/articles.json')||fs.existsSync('www/articles'))throw Error('Stale news bundled');
 const live=fs.readFileSync('www/app.js','utf8');
