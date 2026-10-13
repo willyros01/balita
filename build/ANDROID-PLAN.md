@@ -33,3 +33,14 @@ Status: Android 0.17.54 reader APK preparation. The existing `main` branch and i
 - Generated key is PKCS12 alias `wire`, RSA 3072, SHA256 `662478ca576fec4f6914e7e446d017f359353970e76bfd4ec8d1318d2bb04866`; delivered outside GitHub as private backup + value files.
 - After owner enters both secrets, retry only the failed signing job, verify signer and artifact, then separately decide whether to release a reader-only APK or wait for full native notifications.
 - **Native FCM/ADM implementation remains gated:** Amazon A3L SDK AAR and ADM developer security profile/API key/OAuth client credentials and Android Firebase `google-services.json` are required, and must be integrated/verified. **No live native notifications are claimed**, and existing `main` push sender is unchanged.
+
+## Signed reader beta and Cuberoot publication — verified 2026-10-12/13
+- GitHub Actions run `38335679403`, rerun attempt 2: **SUCCESS** for native Android compile, deterministic Android reader checks, permanent signed APK verification and artifact upload.
+- GitHub Actions artifact `wire-android-signed-reader-apk`, ID `11784669728`, compiled from source `c716430298967b7a545d69f41acd8cdd63aa8056`.
+- APK signer SHA256 `662478ca576fec4f6914e7e446d017f359353970e76bfd4ec8d1318d2bb04866`; APK SHA256 `bf78a5eb0e79cb74199ac688c17702a7982cedc9e5670ea298d82eeb42d3b4e2`.
+- Cuberoot publisher run `38338400986`: **SUCCESS**, copying the exact signed artifact (4,230,178 bytes) to `downloads/wire.apk`; website release descriptor `downloads/wire-build.json`. Certificate and SHA256 checked before publication.
+- Cuberoot Pages deployment `38338424779`: **SUCCESS**.
+- Public reader-beta APK: `https://www.cuberoot-systems.com/downloads/wire.apk?build=38335679403`.
+- Website includes a dynamically verified Wire reader-beta download button. No repository URL exposed to end users.
+- **Physical Fire HD 8 tests remain pending:** install/open, load news feed, open one article, Back returns to publisher group, large fonts, rotation, airplane-mode cache and reopen. Passing CI does not establish these device results.
+- **Native notifications still NOT IMPLEMENTED:** Android button clearly disabled. Separate A3L/ADM/FCM credentials, server routing and Fire + Google Android acceptance testing are required. Live `balita/main` news workflow and web notifications remain unchanged.
