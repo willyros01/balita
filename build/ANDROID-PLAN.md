@@ -24,3 +24,12 @@ Status: Android 0.17.54 reader APK preparation. The existing `main` branch and i
 - `android-apk.yml` validates and compiles a non-published APK before the permanently signed build. Missing signing secrets fail closed, never publish a random-key APK.
 - Public Cuberoot website publication requires an explicitly implemented, verified exact-artifact publisher. It is NOT configured by this reader build.
 - Do not uninstall existing Web Wire or change its settings. Android beta test acceptance: install, large font, source filtering, scroll, article Back, refresh, network loss/offline cached story, orientation, UI resume. Notifications separately FAIL/PENDING until native credentials delivered and real-device tests pass.
+
+## Initial Android build result — 2026-10-12
+- Source commit `c716430298967b7a545d69f41acd8cdd63aa8056`.
+- GitHub Actions workflow run **38335679403**.
+- **PASS:** package generation, Android reader compatibility tests (live main feed address, article identity, offline data validation, Android branch fetch guard) and native Gradle Java compilation.
+- **BLOCKED by design:** signing job refused to continue because new private Actions secrets `WIRE_SIGNING_KEYSTORE_BASE64` and `WIRE_SIGNING_PASSWORD` have not yet been configured. **No permanently signed APK artifact exists yet.**
+- Generated key is PKCS12 alias `wire`, RSA 3072, SHA256 `662478ca576fec4f6914e7e446d017f359353970e76bfd4ec8d1318d2bb04866`; delivered outside GitHub as private backup + value files.
+- After owner enters both secrets, retry only the failed signing job, verify signer and artifact, then separately decide whether to release a reader-only APK or wait for full native notifications.
+- **Native FCM/ADM implementation remains gated:** Amazon A3L SDK AAR and ADM developer security profile/API key/OAuth client credentials and Android Firebase `google-services.json` are required, and must be integrated/verified. **No live native notifications are claimed**, and existing `main` push sender is unchanged.
