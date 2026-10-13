@@ -41,6 +41,8 @@ jobs:
           npm install --no-audit --no-fund
           node build/prepare-android.mjs
           node build/test-android.mjs
+          node --test android-src/native-sender.test.mjs
+          node --check build/install-wire-push.mjs
           bash -n build/android-build.sh
           bash -n build/android-sign.sh
       - name: Compile native Android reader without publishing debug signer
@@ -60,6 +62,8 @@ jobs:
     env:
       WIRE_SIGNING_KEYSTORE_BASE64: ${{ secrets.WIRE_SIGNING_KEYSTORE_BASE64 }}
       WIRE_SIGNING_PASSWORD: ${{ secrets.WIRE_SIGNING_PASSWORD }}
+      WIRE_GOOGLE_SERVICES_JSON_B64: ${{ secrets.WIRE_GOOGLE_SERVICES_JSON_B64 }}
+      WIRE_ADM_API_KEY: ${{ secrets.WIRE_ADM_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - name: Require the permanent Wire signing secrets

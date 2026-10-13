@@ -44,3 +44,18 @@ Status: Android 0.17.54 reader APK preparation. The existing `main` branch and i
 - Website includes a dynamically verified Wire reader-beta download button. No repository URL exposed to end users.
 - **Physical Fire HD 8 tests remain pending:** install/open, load news feed, open one article, Back returns to publisher group, large fonts, rotation, airplane-mode cache and reopen. Passing CI does not establish these device results.
 - **Native notifications still NOT IMPLEMENTED:** Android button clearly disabled. Separate A3L/ADM/FCM credentials, server routing and Fire + Google Android acceptance testing are required. Live `balita/main` news workflow and web notifications remain unchanged.
+
+## October 2026 Android Back and native notifications implementation
+
+### Back button
+Android-only build patches `reader.js` to use a deterministic pointerdown/click handler (single actual-view transition), restores headline scroll in requestAnimationFrame, and wires Capacitor App's native Back event to the same `reader.close(ctx)`. The existing Web/iOS code in `main` remains unchanged.
+
+### Native notifications (A3L receiver, provider detection, registration, routing code staged)
+- Android Java `WirePushPlugin` uses A3L Messaging to identify **ADM vs FCM by available service**, obtains the correct registration token, and requests OS notification permission on Android 13+.
+- `WireMessagingService` handles delivery from either provider; publishes a local notification only for a valid 30-minute article ID, never an arbitrary URL. An explicit notification tap passes articleId+sentAt into MainActivity. The JavaScript adapter opens that exact article and Back returns to its source.
+- `android-src/notifications.js` supports per-install opt-in, Firebase anonymous identity over HTTPS, Firestore `pushSubscriptions/{uid}`, and explicit removal on opt-out. The provider field is `adm` or `fcm`. Web subscriptions without a provider remain `web`. The token is not reused across installations.
+- `android-src/native-sender.mjs` supplies provider-specific FCM Android TTL=1800s vs legacy webpush TTL=1800 and ADM `expiresAfter=1800` with Amazon OAuth. `breaking-notify.mjs` is patched **on the Android development branch only**, with guarded Firestore `provider` parsing; **do not copy this into live main before full acceptance**, because the server requires ADM OAuth credentials and valid registered tokens.
+- The Android APK build **fails closed** on partial native credentials, does not fabricate token registration, and compiles the reader-only beta when neither native credential exists.
+- Official Amazon A3L Messaging 1.1.1 SDK is downloaded over HTTPS during the native-enabled build. It is not committed to this repository. The native Android Firebase configuration is also injected on the runner and removed, never committed.
+- Native build needs GitHub Actions secrets **`WIRE_GOOGLE_SERVICES_JSON_B64`** (entire Firebase Android `google-services.json` base64) and **`WIRE_ADM_API_KEY`** (Amazon Developer Console API key for package `io.github.willyros01.wire` signed by SHA256 `662478ca576fec4f6914e7e446d017f359353970e76bfd4ec8d1318d2bb04866`). The ADM OAuth sender additionally needs **`WIRE_ADM_CLIENT_ID`** and **`WIRE_ADM_CLIENT_SECRET`** on the production fetch workflow.
+- **BLOCKED without vendor credentials and real-device tests**: Native A3L compilation, real ADM/FCM token issuance, delivery in foreground/background/killed app, notification tap → exact article → source Back, opt out; keep production push unchanged in meantime.

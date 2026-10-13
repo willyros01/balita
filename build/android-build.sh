@@ -8,6 +8,33 @@ node build/test-android.mjs
 npx cap add android
 npx cap sync android
 test -s icon-512.png
+
+# Optional full native A3L provider integration. One signed APK supports ADM
+# on Amazon Fire and FCM on Google Android only when BOTH provider configs exist.
+# Never substitute dummy Android credentials; never enable a partial SDK.
+if [ -n "$WIRE_GOOGLE_SERVICES_JSON_B64" ] || [ -n "$WIRE_ADM_API_KEY" ]; then
+  if [ -z "$WIRE_GOOGLE_SERVICES_JSON_B64" ] || [ -z "$WIRE_ADM_API_KEY" ]; then
+    echo "::error title=Incomplete native push configuration::Both Google Android JSON and Amazon ADM API key are required."
+    exit 1
+  fi
+  install -d -m 0700 android/app/libs android/app/src/main/assets
+  printf '%s' "$WIRE_GOOGLE_SERVICES_JSON_B64" | base64 --decode > android/app/google-services.json
+  printf '%s' "$WIRE_ADM_API_KEY" > android/app/src/main/assets/api_key.txt
+  TMP_A3L="$(mktemp -d)"
+  trap 'rm -rf "$TMP_A3L"; rm -f android/app/google-services.json android/app/src/main/assets/api_key.txt android/app/wire-signing.p12 android/app/wire-sign.gradle' EXIT
+  curl --fail --location --silent --show-error --retry 3 \
+    https://amzndevresources.com/a3l/sdk/A3LMessaging_SDK_1.1.1.zip \
+    --output "$TMP_A3L/a3l.zip"
+  unzip -tqq "$TMP_A3L/a3l.zip"
+  unzip -q "$TMP_A3L/a3l.zip" -d "$TMP_A3L/extract"
+  AAR="$(find "$TMP_A3L/extract" -type f -name 'A3LMessaging-1.1.1.aar' | head -1)"
+  test -n "$AAR"
+  install -m 0600 "$AAR" android/app/libs/A3LMessaging-1.1.1.aar
+  node build/install-wire-push.mjs
+  echo "A3L native provider adapter enabled (still requires on-device acceptance testing)."
+else
+  echo "::notice title=Reader-only beta::A3L registration disabled until Wire Google/ADM credentials are provided."
+fi
 java build/AndroidIcons.java icon-512.png android/app/src/main/res
 node <<'JS'
 const fs=require('fs');

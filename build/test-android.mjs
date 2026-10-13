@@ -21,6 +21,9 @@ assert.match(read('www/reader.js'),/requestAnimationFrame\(\(\) => window\.scrol
 assert.match(read('www/notifications.js'),/Native Android notifications are not configured yet/);
 assert.match(read('www/android-adapter.js'),/https:\/\/willyros01\.github\.io\/balita\//);
 assert.match(read('www/android-adapter.js'),/wire-news-last-good\.json/);
+assert.match(read('www/android-adapter.js'),/installRouteHandler/);
+assert.match(read('www/android-adapter.js'),/takeRoute\(\)/);
+assert.match(read('www/app.js'),/installRouteHandler\(route => resolveAndOpenRoute\(route\)\)/);
 assert.equal(fs.existsSync('www/articles.json'),false);
 assert.equal(fs.existsSync('www/articles'),false);
 assert.equal(fs.existsSync('www/fetch-feeds.mjs'),false);

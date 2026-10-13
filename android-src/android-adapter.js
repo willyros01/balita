@@ -65,8 +65,32 @@
       return cached?.articles?.find(a=>a.id===articleId)||null;
     }
   }
-  // Planned push adapter later invokes app's exact article route.
-  // No fake FCM/ADM registration and no fabricated notification delivery.
+  // A notification may only open an article following an explicit tap.
+  // Routes are delivered by the compiled WirePush plugin, not by FCM web code.
+  let routeHandler=null,routeCheckBusy=false;
+  async function pollTappedRoute(){
+    if(!routeHandler||routeCheckBusy||!window.Capacitor?.Plugins?.WirePush)return;
+    routeCheckBusy=true;
+    try{
+      const route=await window.Capacitor.Plugins.WirePush.takeRoute();
+      if(!route?.articleId||!ensureArticleId(route.articleId))return;
+      const when=Date.parse(route.sentAt||'');
+      if(!Number.isFinite(when)||Date.now()-when>1800000||Date.now()-when<0)return;
+      await routeHandler({articleId:route.articleId,sentAt:route.sentAt});
+    }catch(e){console.warn('Could not process native notification tap',e);}
+    finally{routeCheckBusy=false;}
+  }
+  function installRouteHandler(callback){
+    if(typeof callback!=='function')throw Error('Notification route handler must be a function');
+    routeHandler=callback;
+    void pollTappedRoute();
+  }
+  document.addEventListener('visibilitychange',()=>{
+    if(document.visibilityState==='visible')void pollTappedRoute();
+  });
+  window.addEventListener('focus',()=>void pollTappedRoute());
+  // Capacitor App emits resume after an existing process receives a notification tap.
+  window.Capacitor?.Plugins?.App?.addListener?.('resume',()=>void pollTappedRoute());
   window.WireAndroid=Object.freeze({loadFeed,loadArticle,newsBase:ROOT,
-      platform:fs?'android':'unsupported'});
+      installRouteHandler,platform:fs?'android':'unsupported'});
 })();

@@ -28,6 +28,12 @@ sub('app.js','const res = await fetch(feedUrl, { cache: "no-store" });\n    if(!
   'const data = await window.WireAndroid.loadFeed();');
 sub('app.js','const response = await fetch(url, { cache: "no-store" });\n    if(!response.ok) return null;\n\n    const article = await response.json();',
   'const article = await window.WireAndroid.loadArticle(articleId);\n    if(!article) return null;');
+
+// Only after the feed is ready may an explicit native notification tap
+// resolve its exact article ID. Cold-start and resume paths share this.
+sub('app.js','  await loadArticles();\n\n  /* Only sends the reader back',
+  '  await loadArticles();\n  if(window.WireAndroid?.installRouteHandler) window.WireAndroid.installRouteHandler(route => resolveAndOpenRoute(route));\n\n  /* Only sends the reader back');
+
 sub('app.js','function registerWorker(){\n','function registerWorker(){\n  if(window.WireAndroid) return; // no service worker under Capacitor localhost\n');
 
 // Android-only navigation: use immediate pointerdown for the in-page Back

@@ -8,6 +8,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { pathToFileURL } from "node:url";
+import { providerOf, nativePayload, routeSend, admAccessToken } from "./android-src/native-sender.mjs";
 
 const PROJECT_ID = "wire-news-6da5a";
 const ARTICLES_FILE = "articles.json";
@@ -87,7 +88,12 @@ async function subscriptions(accessToken){
     for(const doc of body.documents || []){
       const token = field(doc, "token", "stringValue");
       const enabled = field(doc, "enabled", "booleanValue");
-      if(token && enabled !== false) found.push({ name: doc.name, token });
+      const provider = field(doc, "provider", "stringValue") || "web";
+      if(token && enabled !== false){
+        // Reject unknown types, never route a foreign token to FCM.
+        try{ found.push({ name: doc.name, token, provider: providerOf({provider}) }); }
+        catch(err){ console.warn("Skipped unknown notification provider."); }
+      }
     }
     pageToken = body.nextPageToken || "";
   }while(pageToken);
@@ -110,44 +116,34 @@ async function removeSubscription(accessToken, name){
   }
 }
 
+let admTokenCache="";
 async function sendOne(accessToken, subscription, article, sourceName){
-  const sentAt = new Date().toISOString();
-  const message = {
-    message: {
-      token: subscription.token,
-      data: {
-        articleId: String(article.id),
-        sourceName: String(sourceName || article.source).slice(0, 40),
-        title: String(article.title).slice(0, 220),
-        sentAt
-      },
-      webpush: {
-        headers: {
-          TTL: "1800",
-          Urgency: "normal"
-        }
-      }
-    }
-  };
-
-  let res;
+  const data=nativePayload(article,sourceName);
+  let admToken="";
   try{
-    res = await api(
-      `https://fcm.googleapis.com/v1/projects/${PROJECT_ID}/messages:send`,
-      accessToken,
-      { method: "POST", body: JSON.stringify(message) }
-    );
+    if(subscription.provider==="adm"){
+      if(!process.env.WIRE_ADM_CLIENT_ID||!process.env.WIRE_ADM_CLIENT_SECRET){
+        console.warn("ADM credentials not set; cannot send to this Fire device.");
+        return false;
+      }
+      if(!admTokenCache) admTokenCache=await admAccessToken(
+        fetch,process.env.WIRE_ADM_CLIENT_ID,process.env.WIRE_ADM_CLIENT_SECRET);
+      admToken=admTokenCache;
+    }
+    const result=await routeSend({
+      provider:subscription.provider,token:subscription.token,data,fetcher:fetch,
+      googleAccessToken:accessToken,projectId:PROJECT_ID,admToken
+    });
+    if(result.ok)return true;
+    if(result.unregistered)await removeSubscription(accessToken,subscription.name);
+    console.warn("One notification "+subscription.provider+" delivery failed (HTTP "+
+      (result.status||"unknown")+").");
+    return false;
   }catch(err){
-    console.warn("One notification delivery failed because FCM was unreachable.");
+    // Each destination is isolated; failures cannot suppress web delivery.
+    console.warn("One notification "+subscription.provider+" delivery failed.");
     return false;
   }
-  if(res.ok) return true;
-
-  let body = {};
-  try{ body = await res.json(); }catch(err){ /* status still identifies the failure */ }
-  if(unregistered(res.status, body)) await removeSubscription(accessToken, subscription.name);
-  console.warn(`One notification delivery failed (HTTP ${res.status}).`);
-  return false;
 }
 
 async function main(){
