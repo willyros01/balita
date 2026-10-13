@@ -12,7 +12,7 @@ test -s icon-512.png
 # Optional full native A3L provider integration. One signed APK supports ADM
 # on Amazon Fire and FCM on Google Android only when BOTH provider configs exist.
 # Never substitute dummy Android credentials; never enable a partial SDK.
-if [ -n "$WIRE_GOOGLE_SERVICES_JSON_B64" ] || [ -n "$WIRE_ADM_API_KEY" ]; then
+if [ "${WIRE_ENABLE_NATIVE_PUSH:-0}" = "1" ]; then
   if [ -z "$WIRE_GOOGLE_SERVICES_JSON_B64" ] || [ -z "$WIRE_ADM_API_KEY" ]; then
     echo "::error title=Incomplete native push configuration::Both Google Android JSON and Amazon ADM API key are required."
     exit 1
@@ -33,7 +33,7 @@ if [ -n "$WIRE_GOOGLE_SERVICES_JSON_B64" ] || [ -n "$WIRE_ADM_API_KEY" ]; then
   node build/install-wire-push.mjs
   echo "A3L native provider adapter enabled (still requires on-device acceptance testing)."
 else
-  echo "::notice title=Reader-only beta::A3L registration disabled until Wire Google/ADM credentials are provided."
+  echo "::notice title=Foreground-alert beta::A3L system push disabled; on-screen alerts run while Wire is open."
 fi
 java build/AndroidIcons.java icon-512.png android/app/src/main/res
 node <<'JS'
@@ -43,7 +43,7 @@ const content=fs.readFileSync(p,'utf8');
 const code=100000+Number(process.env.GITHUB_RUN_NUMBER||1);
 if(!Number.isSafeInteger(code)||code<=0||code>2100000000)throw Error('invalid Android versionCode');
 if(!/^\s*versionCode\s+\d+/m.test(content)||!/^\s*versionName\s+["'][^"']+["']/m.test(content))throw Error('Android Gradle version fields changed');
-fs.writeFileSync(p,content.replace(/^(\s*versionCode\s+)\d+/m,'$1'+code).replace(/^(\s*versionName\s+)["'][^"']+["']/m,'$1"0.17.54"'));
+fs.writeFileSync(p,content.replace(/^(\s*versionCode\s+)\d+/m,'$1'+code).replace(/^(\s*versionName\s+)["'][^"']+["']/m,'$1"0.17.55"'));
 JS
 bash build/android-sign.sh
 trap 'rm -f android/app/wire-signing.p12 android/app/wire-sign.gradle' EXIT

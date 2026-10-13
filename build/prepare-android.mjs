@@ -64,6 +64,34 @@ if (window.WireAndroid) {
 }
 /* ---------------- stories ---------------- */`);
 
+
+/* Android-only foreground news alert; no native push, no Firebase credentials. */
+sub('index.html','<h2 id="breaking-title">Breaking-news notifications</h2>',
+  '<h2 id="breaking-title">Breaking news while Wire is open</h2>');
+sub('app.js','  notifications.setup({ announce, onTap });',`
+  notifications.setup({
+    announce, onTap,
+    snapshot: () => ({ articles: state.articles }),
+    refreshNews: async () => { await loadArticles(); ctx.refresh(); },
+    openArticle: id => {
+      const story = state.articles.find(article => article.id === id);
+      if(!story) return false;
+      state.filter = story.source; // Back returns to the correct outlet
+      ctx.refresh();
+      ctx.openArticle(id);
+      return true;
+    }
+  });`);
+sub('version.js','export const VERSION    = "0.17.54";',
+  'export const VERSION    = "0.17.55";');
+sub('version.js','export const BUILD_DATE = "2026-09-23";',
+  'export const BUILD_DATE = "2026-10-13";');
+fs.copyFileSync('android-src/foreground-alerts.mjs','www/foreground-alerts.mjs');
+fs.copyFileSync('android-src/notifications-foreground.js','www/notifications.js');
+fs.appendFileSync('www/app.css',fs.readFileSync('android-src/foreground-alert.css','utf8'));
+fs.appendFileSync('www/app.css',
+  '\nbody[data-view="reader"] .wire-foreground-alert, body[data-view="manage"] .wire-foreground-alert{display:none!important}\n');
+
 fs.copyFileSync('android-src/android-adapter.js','www/android-adapter.js');
 fs.copyFileSync('android-src/notifications.js','www/notifications.js');
 // Explicitly prevent shipping an old news feed in the APK. Always use live main.
