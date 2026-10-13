@@ -1,0 +1,9 @@
+{
+  "appId": "io.github.willyros01.wire",
+  "appName": "Wire",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  }
+}

@@ -1,0 +1,86 @@
+name: Wire Android signed APK
+
+on:
+  push:
+    branches: [android]
+    paths:
+      - "android-src/**"
+      - "build/prepare-android.mjs"
+      - "build/test-android.mjs"
+      - "build/AndroidIcons.java"
+      - "build/android-sign.sh"
+      - "build/android-build.sh"
+      - "capacitor.config.json"
+      - "package.json"
+      - ".github/workflows/android-apk.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wire-android-apk
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Verify Wire Android reader and native compilation
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - name: Check Android reader and isolated main news workflow
+        run: |
+          npm install --no-audit --no-fund
+          node build/prepare-android.mjs
+          node build/test-android.mjs
+          bash -n build/android-build.sh
+          bash -n build/android-sign.sh
+      - name: Compile native Android reader without publishing debug signer
+        run: |
+          npx cap add android
+          npx cap sync android
+          java build/AndroidIcons.java icon-512.png android/app/src/main/res
+          cd android
+          chmod +x ./gradlew
+          ./gradlew --no-daemon :app:compileDebugJavaWithJavac
+
+  apk:
+    name: Sign permanent Wire Android APK
+    needs: [check]
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      WIRE_SIGNING_KEYSTORE_BASE64: ${{ secrets.WIRE_SIGNING_KEYSTORE_BASE64 }}
+      WIRE_SIGNING_PASSWORD: ${{ secrets.WIRE_SIGNING_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require the permanent Wire signing secrets
+        run: |
+          if [ -z "$WIRE_SIGNING_KEYSTORE_BASE64" ] || [ -z "$WIRE_SIGNING_PASSWORD" ]; then
+            echo "::error title=Signing credentials needed::Set WIRE_SIGNING_KEYSTORE_BASE64 and WIRE_SIGNING_PASSWORD in Actions secrets; no transient APK may be published."
+            exit 1
+          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - name: Build and verify permanently signed Wire APK
+        run: bash build/android-build.sh
+      - name: Upload signed Wire APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: wire-android-signed-reader-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
