@@ -27,7 +27,7 @@ test("rejects stale, future, invalid times and unapproved sources",()=>{
  {id:"gma-empty",title:"JUST IN: Today",source:"gma"},a("mb","BREAKING: Wrong source",1,"mb")];
  const result=discover(input,[],T);
  assert.equal(result.alerts.length,0);
- assert.equal(result.seen.length,2);
+ assert.equal(result.seen.length,3); // all three approved articles are tracked even when invalid/stale
 });
 test("bounded and deterministic history; duplicates only alert once",()=>{
  const ids=Array.from({length:2000},(_,i)=>"bbc-"+i);
