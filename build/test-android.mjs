@@ -6,7 +6,7 @@ const read=p=>fs.readFileSync(p,'utf8');
 assert.match(read('.github/workflows/feeds.yml'),/branches:\s*\[main\]/);
 assert.match(read('.github/workflows/feeds.yml'),/if:\s*github\.ref == 'refs\/heads\/main'/);
 const pkg=JSON.parse(read('package.json'));
-for(const dep of ['@capacitor/core','@capacitor/android','@capacitor/filesystem'])
+for(const dep of ['@capacitor/core','@capacitor/android','@capacitor/filesystem','@capacitor/app'])
  assert.ok(pkg.dependencies[dep],dep+' missing');
 const cfg=JSON.parse(read('capacitor.config.json'));
 assert.equal(cfg.appId,'io.github.willyros01.wire');
@@ -14,6 +14,10 @@ assert.equal(cfg.webDir,'www');
 assert.match(read('www/app.js'),/window\.WireAndroid\.loadFeed\(\)/);
 assert.match(read('www/app.js'),/window\.WireAndroid\.loadArticle\(articleId\)/);
 assert.match(read('www/app.js'),/if\(window\.WireAndroid\) return;/);
+assert.match(read('www/app.js'),/addListener\("backButton"/);
+assert.match(read('www/app.js'),/reader\.close\(ctx\)/);
+assert.match(read('www/reader.js'),/pointerdown", returnToHeadlines/);
+assert.match(read('www/reader.js'),/requestAnimationFrame\(\(\) => window\.scrollTo\(0, feedScrollY\)\)/);
 assert.match(read('www/notifications.js'),/Native Android notifications are not configured yet/);
 assert.match(read('www/android-adapter.js'),/https:\/\/willyros01\.github\.io\/balita\//);
 assert.match(read('www/android-adapter.js'),/wire-news-last-good\.json/);

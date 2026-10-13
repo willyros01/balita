@@ -29,6 +29,35 @@ sub('app.js','const res = await fetch(feedUrl, { cache: "no-store" });\n    if(!
 sub('app.js','const response = await fetch(url, { cache: "no-store" });\n    if(!response.ok) return null;\n\n    const article = await response.json();',
   'const article = await window.WireAndroid.loadArticle(articleId);\n    if(!article) return null;');
 sub('app.js','function registerWorker(){\n','function registerWorker(){\n  if(window.WireAndroid) return; // no service worker under Capacitor localhost\n');
+
+// Android-only navigation: use immediate pointerdown for the in-page Back
+// control, plus click for keyboard/accessibility, guarded by actual view state.
+// The native hardware Back listener uses the SAME reader.close() function.
+sub('reader.js','onTap(back, () => close(ctx));',\`
+  const returnToHeadlines = (event) => {
+    if (event.type === "pointerdown" && event.button !== 0) return;
+    if (document.body.dataset.view !== "reader") return; // duplicates are harmless
+    event.preventDefault();
+    close(ctx);
+  };
+  back.addEventListener("pointerdown", returnToHeadlines);
+  back.addEventListener("click", returnToHeadlines);\`);
+sub('reader.js','  window.scrollTo(0, feedScrollY);',
+  '  requestAnimationFrame(() => window.scrollTo(0, feedScrollY));');
+sub('app.js','/* ---------------- stories ---------------- */',\`/* Android system Back routes to the same in-app navigation as the visible
+   Back button; never let WebView leave the bundled app unexpectedly. */
+if (window.WireAndroid) {
+  const nativeApp = window.Capacitor?.Plugins?.App;
+  if (!nativeApp?.addListener) throw Error("Missing Capacitor App Back handler");
+  nativeApp.addListener("backButton", () => {
+    const view = document.body.dataset.view;
+    if (view === "reader") reader.close(ctx);
+    else if (view === "manage") ctx.show("feed");
+    else window.Capacitor?.Plugins?.App?.minimizeApp?.();
+  });
+}
+/* ---------------- stories ---------------- */\`);
+
 fs.copyFileSync('android-src/android-adapter.js','www/android-adapter.js');
 fs.copyFileSync('android-src/notifications.js','www/notifications.js');
 // Explicitly prevent shipping an old news feed in the APK. Always use live main.
