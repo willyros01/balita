@@ -93,7 +93,8 @@ fs.appendFileSync('www/app.css',
   '\nbody[data-view="reader"] .wire-foreground-alert, body[data-view="manage"] .wire-foreground-alert{display:none!important}\n');
 
 fs.copyFileSync('android-src/android-adapter.js','www/android-adapter.js');
-fs.copyFileSync('android-src/notifications.js','www/notifications.js');
+// www/notifications.js was already installed from the foreground-only module.
+// Keep the native ADM/FCM implementation on android-src for a later gated build.
 // Explicitly prevent shipping an old news feed in the APK. Always use live main.
 if(fs.existsSync('www/articles.json')||fs.existsSync('www/articles'))throw Error('Stale news bundled');
 const live=fs.readFileSync('www/app.js','utf8');
