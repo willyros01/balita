@@ -40,14 +40,18 @@ sub('app.js','function registerWorker(){\n','function registerWorker(){\n  if(wi
 // control, plus click for keyboard/accessibility, guarded by actual view state.
 // The native hardware Back listener uses the SAME reader.close() function.
 sub('reader.js','onTap(back, () => close(ctx));',`
-  const returnToHeadlines = (event) => {
-    if (event.type === "pointerdown" && event.button !== 0) return;
-    if (document.body.dataset.view !== "reader") return; // duplicates are harmless
-    event.preventDefault();
+  // Fire HD 8 may deliver pointerup without a click when the WebView reflows.
+  // Keep the previously accepted early pointerdown and restore Wire's shared
+  // pointerup/click fallback; the reader state guard ensures one close only.
+  const returnToHeadlines = event => {
+    if (event.type === "pointerdown" && event.pointerType === "mouse" &&
+        event.button !== 0) return;
+    if (document.body.dataset.view !== "reader") return;
+    if (event.cancelable) event.preventDefault();
     close(ctx);
   };
   back.addEventListener("pointerdown", returnToHeadlines);
-  back.addEventListener("click", returnToHeadlines);`);
+  onTap(back, returnToHeadlines);`);
 sub('reader.js','  window.scrollTo(0, feedScrollY);',
   '  requestAnimationFrame(() => window.scrollTo(0, feedScrollY));');
 sub('app.js','/* ---------------- stories ---------------- */',`/* Android system Back routes to the same in-app navigation as the visible
@@ -96,8 +100,9 @@ sub('app.js','  notifications.setup({ announce, onTap });',`
 fs.copyFileSync('android-src/foreground-alerts.mjs','www/foreground-alerts.mjs');
 fs.copyFileSync('android-src/foreground.js','www/foreground.js');
 fs.appendFileSync('www/app.css',fs.readFileSync('android-src/foreground-alert.css','utf8'));
+fs.appendFileSync('www/app.css', '\\n/* Fire HD 8 Back: preserve a large hit target; avoid gesture-related cancellation. */\\n.back { touch-action: manipulation; min-height: max(var(--tap), 3.2rem); }\\n'.replaceAll('\\n','\n'));
 sub('version.js','export const VERSION    = "0.17.54";',
-  'export const VERSION    = "0.17.58";');
+  'export const VERSION    = "0.17.59";');
 sub('version.js','export const BUILD_DATE = "2026-09-23";',
   'export const BUILD_DATE = "2026-10-13";');
 fs.copyFileSync('android-src/android-adapter.js','www/android-adapter.js');

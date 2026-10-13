@@ -121,3 +121,10 @@ Android-only build patches `reader.js` to use a deterministic pointerdown/click 
 - On-screen fallback automatically pauses and quietly baselines if native push is enabled on the device, preventing duplicate in-app and system alerts; no background or killed-app delivery is claimed for the fallback.
 - No changes to balita/main, production fetcher or web push. All changes are restricted to android-src/, Android package script, tests, and Android release version. The native ADM/FCM bridge remains unchanged.
 - CI includes pure deterministic filters and jsdom UI opt-in, read, dismiss, deduplication tests; native A3L/FCM compilation, APK signature, Cuberoot published artifact and physical testing still required before claiming this new APK is accepted.
+
+## 2026-10-13 — Fire HD 8 Back touch regression repair (Android 0.17.59)
+- **Physical acceptance evidence:** owner reports native ADM notification receipt **PASS**, but intermittent article Back button **FAIL** in 0.17.58. Do not mislabel full ADM routing or Back as PASS until separately device tested.
+- The previously working Android Back patch in build/prepare-android.mjs bound early `pointerdown` and `click` only. Wire's standard `ui.onTap` explicitly handles `pointerup` because browser reflow can suppress `click`. This missing fallback could leave an article Back unresponsive on touch devices.
+- Android-only patch preserves immediate pointerdown, restores shared `onTap(back, ...)` pointerup/click handler and guards a single close by actual reader view. Native hardware Back still routes to `reader.close(ctx)`. The web main branch, ADM receiver, tokens and sender are unchanged.
+- Android Back touch target is at least 3.2 rem high with `touch-action: manipulation`; existing large font and contrast controls remain.
+- New `android-src/back.test.mjs` drives the GENERATED Android reader in jsdom: isolated pointerup without click, combined pointerdown/up/click, keyboard click, nonprimary mouse, reopening another article, exact publisher Back, and scroll restoration. Mandatory CI test. Run build/sign/publish only after checks pass; user must confirm physical Fire Back and ADM still work.
