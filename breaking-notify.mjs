@@ -8,6 +8,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { pathToFileURL } from "node:url";
+import { accessToken as getAdmToken, sendADM } from "./adm.mjs";
 
 const PROJECT_ID = "wire-news-6da5a";
 const ARTICLES_FILE = "articles.json";
@@ -91,7 +92,7 @@ async function subscriptions(accessToken){
         // Omitted provider is the existing Web Push schema. Never misroute
         // an unknown/ADM token to Google's Android FCM API.
         const provider=field(doc,"provider","stringValue") || "web";
-        if(provider==="web" || provider==="fcm")found.push({name:doc.name,token,provider});
+        if(provider==="web" || provider==="fcm" || provider==="adm")found.push({name:doc.name,token,provider});
         else console.warn("Skipped unsupported native notification provider.");
       }
     }
@@ -136,8 +137,36 @@ export function messageFor(subscription,article,sourceName,sentAt){
       : {android:{ttl:"1800s",priority:"NORMAL"}})
   }};
 }
+let admTokenPromise=null;
+async function getCachedAdmToken(){
+  if(!admTokenPromise){
+    admTokenPromise=getAdmToken(fetch,
+      process.env.WIRE_ADM_CLIENT_ID,process.env.WIRE_ADM_CLIENT_SECRET)
+      .catch(err=>{admTokenPromise=null;throw err;});
+  }
+  return admTokenPromise;
+}
 async function sendOne(accessToken, subscription, article, sourceName){
   const sentAt = new Date().toISOString();
+  if(subscription.provider==="adm"){
+    try{
+      const token=await getCachedAdmToken();
+      const data={
+        articleId:String(article.id),
+        sourceName:String(sourceName || article.source).slice(0,40),
+        title:String(article.title).slice(0,220),
+        sentAt
+      };
+      const result=await sendADM(fetch,subscription.token,token,data);
+      if(result.unregistered)await removeSubscription(accessToken,subscription.name);
+      if(!result.ok)console.warn("One Amazon ADM delivery failed (HTTP "+result.status+").");
+      return result.ok;
+    }catch(err){
+      // Keep existing web and Google-Android FCM deliveries independent.
+      console.warn("One Amazon ADM delivery failed; other devices are unaffected.");
+      return false;
+    }
+  }
   const message = messageFor(subscription,article,sourceName,sentAt);
 
   let res;

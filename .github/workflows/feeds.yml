@@ -68,8 +68,8 @@ jobs:
       - name: Install
         run: npm install --no-audit --no-fund
 
-      - name: Verify native FCM and existing web notification routing
-        run: node --test breaking-notify.test.mjs
+      - name: Verify ADM, FCM, and existing web notification routing
+        run: node --test breaking-notify.test.mjs adm.test.mjs
 
       # Exchanges GitHub's five-minute identity for a short-lived Google
       # access token. There is no stored service-account key.
@@ -120,6 +120,8 @@ jobs:
         run: node breaking-notify.mjs
         env:
           GOOGLE_ACCESS_TOKEN: ${{ steps.google-auth.outputs.access_token }}
+          WIRE_ADM_CLIENT_ID: ${{ secrets.WIRE_ADM_CLIENT_ID }}
+          WIRE_ADM_CLIENT_SECRET: ${{ secrets.WIRE_ADM_CLIENT_SECRET }}
           # Manual test runs may bypass the marker for one Inquirer story.
           # Scheduled, external, and push runs always remain strict.
           WIRE_TEST_INQUIRER: ${{ github.event_name == 'workflow_dispatch' && inputs.test_inquirer && '1' || '0' }}
