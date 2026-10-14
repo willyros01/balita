@@ -1,0 +1,223 @@
+{
+  "id": "cbc-106289v",
+  "source": "cbc",
+  "title": "A fridge hack spoiled food in hundreds of French supermarkets. Cybersecurity experts say it's a wake-up call",
+  "summary": "The cyberattack on French supermarkets earlier this week that left hundreds of fridges worth of food spoiled should be a wake-up call about the vulnerabilities of digitized systems and devices that…",
+  "byline": "Abby Hughes",
+  "section": "News/Business",
+  "published": "2026-10-14T08:00:00.000Z",
+  "firstSeen": "2026-10-14T08:31:00.281Z",
+  "url": "https://www.cbc.ca/news/business/france-fridge-hack-smart-devices-food-system-9.7379613?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/efeeeac2-0ae0-4de8-9f37-6d7ef572df16,1791930798301/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C375%2C4240%2C2385%29%3BResize%3D620",
+    "caption": "Boxes of perished goods outside an Intermarché supermarket in Paris on Tuesday, the day after a cyberattack targeted refrigeration systems at French supermarket chains. (Lucien Libert/Reuters)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Business·New"
+    },
+    {
+      "type": "p",
+      "text": "The cyberattack on French supermarkets earlier this week that left hundreds of fridges worth of food spoiled should be a wake-up call about the vulnerabilities of digitized systems and devices that are connected to the internet, cybersecurity experts say."
+    },
+    {
+      "type": "h",
+      "text": "Hackers may have targeted out-of-date firmware that remotely controls fridge temperatures"
+    },
+    {
+      "type": "p",
+      "text": "The cyberattack on French supermarkets earlier this week that ultimately spoiled hundreds of fridges worth of food should be a wake-up call about the vulnerabilities of digitized systems and devices that are connected to the internet, cybersecurity experts say."
+    },
+    {
+      "type": "p",
+      "text": "\"The more we rely on connected technology, the more we need to keep in mind the crucial aspect that is their security and privacy,\" said Montreal-based cybersecurity expert Steven Lachance."
+    },
+    {
+      "type": "p",
+      "text": "The attack appeared to target centralized control systems that allow the temperature of fridges to be changed remotely. Hackers were able to access those controls and jack up fridge temperatures at hundreds of grocery stores — in some cases as high as 50 C — causing their contents to spoil, and potentially causing fires."
+    },
+    {
+      "type": "p",
+      "text": "The Paris prosecutor's office said Tuesday that its cybercrime unit was investigating the large-scale attack to determine the extent of the damage and pin down the hackers behind it. No group has claimed responsibility so far, nor was there a ransom demand, according to Reuters."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Cyberattack defrosts French supermarket freezers, spoiling food at 100s of stores"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Here's what you need to know about the supermarket cyberattack and what it shows about the vulnerability of our tech — from commercial systems to household devices."
+    },
+    {
+      "type": "h",
+      "text": "What happened in France?"
+    },
+    {
+      "type": "p",
+      "text": "Toronto-based tech and cybersecurity analyst Ritesh Kotak says the fridges in stores are usually connected to the internet through a centralized panel that allows metrics like temperature to be monitored and adjusted remotely."
+    },
+    {
+      "type": "p",
+      "text": "Dominique Schelcher, CEO of Coopérative U, one of the affected French grocery store chains, said on social media that its fridges are connected to the internet in this way in order to monitor temperatures around the clock \"in the event of an anomaly.\""
+    },
+    {
+      "type": "p",
+      "text": "On Monday, France's national cybersecurity agency, ANSSI, said it was aware of numerous refrigerator control panels being compromised."
+    },
+    {
+      "type": "p",
+      "text": "ANSSI said the remote monitoring systems targeted were made by a Dutch company called Danfoss. The cybersecurity agency later said similar systems made by Copeland and Dixell were also targeted."
+    },
+    {
+      "type": "p",
+      "text": "View of empty refrigerators at the frozen food aisle inside an Intermarché supermarket in Paris on Tuesday. The placard reads: \"Important information. Our store has been hacked, and our refrigeration system has been affected.\" (Lucien Libert/Reuters)"
+    },
+    {
+      "type": "p",
+      "text": "Danfoss told news agencies on Monday that the affected units were running \"outdated firmware,\" or had \"reached end of life and no longer receive software or security updates.\""
+    },
+    {
+      "type": "p",
+      "text": "Cybersecurity firm ​Claroty published a report in August detailing a vulnerability with Danfoss's firmware that could allow hackers to bypass the standard login process and gain access in order to make changes remotely. Danfoss released a patch to fix the vulnerability shortly afterwards and urged users to install it."
+    },
+    {
+      "type": "p",
+      "text": "\"These vulnerabilities should be considered serious,\" the company said in its security advisory at the time."
+    },
+    {
+      "type": "p",
+      "text": "The exact mechanism used to hack the fridge controllers in France is still unknown, but experts say it appears as though a failure to implement Danfoss's updates, as well as interfaces being left open to the internet, enabled it."
+    },
+    {
+      "type": "p",
+      "text": "Kotak says out-of-date firmware in particular would have made the hack easy to pull off."
+    },
+    {
+      "type": "p",
+      "text": "Firmware updates are sent out once a vulnerability has been detected — so when customers are made aware they need to implement an update, hackers become aware of the problem, too."
+    },
+    {
+      "type": "p",
+      "text": "AI can make cyberattacks faster and smarter"
+    },
+    {
+      "type": "p",
+      "text": "\"As a hacker, you will be able to know exactly what those vulnerabilities are and write code to exploit those exact vulnerabilities,\" Kotak said."
+    },
+    {
+      "type": "p",
+      "text": "For that reason, Kotak says, implementing security updates quickly is really important."
+    },
+    {
+      "type": "h",
+      "text": "Are such attacks on the food system common?"
+    },
+    {
+      "type": "p",
+      "text": "French Finance Minister Roland Lescure told the country's parliament on Tuesday that about 700 of the country's 10,000 supermarkets were affected."
+    },
+    {
+      "type": "p",
+      "text": "He said there was no risk to France's food supplies but acknowledged the attack \"touches the heart of our food security.\""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Hacker took 100,000 documents in 2025 'cyber incident,' Kingston Police say",
+        "Shock and surprise after FBI arrests Canadian cybersecurity expert in ShinyHunters hacking case"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "But Kotak points out this is not the first such attack on the food distribution system. In 2021, for example, JBS — a major global supplier of meats — was hit by a cyberattack that temporarily shut down operations in Canada, the U.S. and Australia."
+    },
+    {
+      "type": "p",
+      "text": "In 2025, United Natural Foods, Inc. — one of the biggest distributors of organic food — experienced an attack that led to significant shortages at Whole Foods."
+    },
+    {
+      "type": "p",
+      "text": "Also Tuesday, Dutch supermarket giant Ahold Delhaize said it was working to restore systems it had shut down following a security incident that began on Sunday night — one the Dutch cybersecurity watchdog NCSC said it did not believe was linked to the French supermarket hack."
+    },
+    {
+      "type": "p",
+      "text": "\"This is something that unfortunately we're going to see more of,\" Kotak said. \"What's happened in France needs to be a wake-up call that we need to take this seriously.\""
+    },
+    {
+      "type": "p",
+      "text": "Cyberattack hits universities around the world including Canada"
+    },
+    {
+      "type": "p",
+      "text": "The food system's importance makes it a big potential target for an attack, he adds — and with processing, packaging and logistics becoming increasingly digitized, more possible avenues open up for hackers to try to gain access."
+    },
+    {
+      "type": "p",
+      "text": "Kotak says helping food businesses become more digitally literate — so they employ safety-related updates and respond quickly when cyber incidents arise — is part of the solution."
+    },
+    {
+      "type": "p",
+      "text": "\"Cybersecurity … cannot be something that's a checkbox exercise. It needs to be something that's continuously being invested [in]\" Kotak said."
+    },
+    {
+      "type": "h",
+      "text": "What kind of devices are vulnerable?"
+    },
+    {
+      "type": "p",
+      "text": "Lachance, the Montreal-based expert, says the situation in France should serve as a reminder that any devices connected to the internet could in theory be hacked."
+    },
+    {
+      "type": "p",
+      "text": "As internet connectivity becomes baked into more kinds of devices — both at a commercial level and a residential level with \"smart\" appliances, including thermostats, fridges, dishwashers and even lightbulbs — they can become vulnerable, he says."
+    },
+    {
+      "type": "p",
+      "text": "\"There is the convenience of this centralized control,\" Lachance said. But, \"the security vulnerabilities that come with them [are] a growing problem and I suspect it's just going to become worse.\""
+    },
+    {
+      "type": "p",
+      "text": "International team of researchers looked at how IoT devices interact with home networks"
+    },
+    {
+      "type": "p",
+      "text": "Lachance says devices that can record audio and video pose the most obvious privacy risks. Hacks have already happened, including a situation where hackers took control of some Ring cameras and used the tech to harass homeowners."
+    },
+    {
+      "type": "p",
+      "text": "But hackers might also try to infiltrate smart devices in order to harvest passwords, or to gain access to other devices on the same network, Lachance says."
+    },
+    {
+      "type": "p",
+      "text": "He says a solution is simply steering clear of smart devices, or keeping them disconnected from the internet in cases where that connectivity isn't necessary — especially in cheaper or lower-end devices, where he says security updates might not be prioritized by manufacturers."
+    },
+    {
+      "type": "p",
+      "text": "For any devices that can record video or audio, Lachance recommends storing that data locally rather than making it accessible remotely."
+    },
+    {
+      "type": "p",
+      "text": "\"That's just the door waiting to be … broken in,\" he said."
+    },
+    {
+      "type": "h",
+      "text": "ABOUT THE AUTHOR"
+    },
+    {
+      "type": "p",
+      "text": "Abby Hughes is a writer with CBC News based in Toronto. Originally from Orillia, Ont., she studied journalism at Toronto Metropolitan University. She covers news from the worlds of business, entertainment, health, science and education, and her favourite stories focus on the real people in those areas — the customers, fans, patients, citizens and students. You can reach her with story ideas at abby.hughes@cbc.ca."
+    },
+    {
+      "type": "p",
+      "text": "With files from Reuters and the Associated Press"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
