@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-14T00:37:21.419Z",
+  "updated": "2026-10-14T00:51:26.091Z",
   "sources": [
     {
       "id": "inq",
@@ -59,7 +59,7 @@
       "summary": "DAGUPAN CITY, PANGASINAN, Philippines — Aside from changing weather conditions and neap tides, human practices, such as overstocking and overfeeding may have contributed to the massive fish kill that…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T00:37:08.980Z",
+      "published": "2026-10-14T00:51:18.973Z",
       "firstSeen": "2026-10-13T20:31:21.960Z",
       "url": "https://newsinfo.inquirer.net/2323240/overstocking-overfeeding-of-bangus-eyed-in-dagupan-fish-kill",
       "image": {
@@ -84,7 +84,7 @@
       "summary": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — The Armed Forces of the Philippines has intensified security measures in Basilan following the recent ambushes that wounded about two dozen soldiers,…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T00:37:08.811Z",
+      "published": "2026-10-14T00:51:18.952Z",
       "firstSeen": "2026-10-13T20:31:21.959Z",
       "url": "https://newsinfo.inquirer.net/2323235/basilan-execs-deny-lockdown-amid-heightened-security",
       "image": {
@@ -103,38 +103,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1wxnnw5",
-      "source": "inqn",
-      "title": "CCTV footage offers leads in Albay broadcaster’s killing",
-      "summary": "LEGAZPI CITY, ALBAY, Philippines — Security cameras captured the gunmen who shot and killed Albay broadcaster Adrian “Golden Boy” Loterte on Monday, providing investigators with footage to help…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-14T00:37:07.222Z",
-      "firstSeen": "2026-10-13T21:01:00.733Z",
-      "url": "https://newsinfo.inquirer.net/2323241/cctv-footage-offers-leads-in-albay-broadcasters-killing",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Golden-Boy-Loterte-14October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LEGAZPI CITY, ALBAY, Philippines — Security cameras captured the gunmen who shot and killed Albay broadcaster Adrian “Golden Boy” Loterte on Monday, providing investigators with footage to help identify and track down the suspects, police said Tuesday. At a briefing at Camp Ola here on Tuesday, police said closed-circuit television (CCTV) footage showed the suspects"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-155g0w6",
       "source": "inqn",
       "title": "House bill renews Cebu Pacific franchise for 50 years",
       "summary": "MANILA, Philippines — The House of Representatives has approved on final reading a measure seeking to renew for another 50 years the franchise granted to Cebu Air Inc., operating as Cebu Pacific.…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T00:37:07.158Z",
+      "published": "2026-10-14T00:51:18.885Z",
       "firstSeen": "2026-10-13T21:01:00.371Z",
       "url": "https://newsinfo.inquirer.net/2323281/house-bill-renews-cebu-pacific-franchise-for-50-years",
       "image": {
@@ -153,13 +128,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1wxnnw5",
+      "source": "inqn",
+      "title": "CCTV footage offers leads in Albay broadcaster’s killing",
+      "summary": "LEGAZPI CITY, ALBAY, Philippines — Security cameras captured the gunmen who shot and killed Albay broadcaster Adrian “Golden Boy” Loterte on Monday, providing investigators with footage to help…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-14T00:51:18.885Z",
+      "firstSeen": "2026-10-13T21:01:00.733Z",
+      "url": "https://newsinfo.inquirer.net/2323241/cctv-footage-offers-leads-in-albay-broadcasters-killing",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Golden-Boy-Loterte-14October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LEGAZPI CITY, ALBAY, Philippines — Security cameras captured the gunmen who shot and killed Albay broadcaster Adrian “Golden Boy” Loterte on Monday, providing investigators with footage to help identify and track down the suspects, police said Tuesday. At a briefing at Camp Ola here on Tuesday, police said closed-circuit television (CCTV) footage showed the suspects"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-12ipyf7",
+      "source": "inqn",
+      "title": "Sandigan chief: Plunder harder to prove under Arroyo doctrine",
+      "summary": "MANILA, Philippines — Sandiganbayan Presiding Justice Geraldine Faith Econg said on Tuesday that the Supreme Court needs to review the doctrine that made it tougher to prove that a public official…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-14T00:51:18.884Z",
+      "firstSeen": "2026-10-13T21:30:51.369Z",
+      "url": "https://newsinfo.inquirer.net/2323285/sandigan-chief-plunder-harder-to-prove-under-arroyo-doctrine",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Sandiganbayan-Presiding-Justice-Geraldine-Faith-Econg-14October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Sandiganbayan Presiding Justice Geraldine Faith Econg said on Tuesday that the Supreme Court needs to review the doctrine that made it tougher to prove that a public official committed plunder. Econg, who is among the candidates for a vacancy in the high tribunal, told a panel of the Judicial and Bar Council"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-518gxw",
       "source": "inqn",
       "title": "3rd ‘maleta boy’ testifies in Romualdez plunder case",
       "summary": "MANILA, Philippines — Another one of the so-called “maleta boys” testified on Tuesday at the bail hearing of the plunder case against Leyte Rep. Martin Romualdez, claiming he took part in the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T00:37:07.157Z",
+      "published": "2026-10-14T00:51:18.884Z",
       "firstSeen": "2026-10-13T21:30:51.858Z",
       "url": "https://newsinfo.inquirer.net/2323290/3rd-maleta-boy-testifies-in-romualdez-plunder-case",
       "image": {
@@ -184,7 +209,7 @@
       "summary": "MANILA, Philippines — Sen. Robinhood Padilla has filed a bill seeking to establish a recognition program for elected and appointed public officials who voluntarily undergo drug testing. Senate Bill…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T00:37:07.157Z",
+      "published": "2026-10-14T00:51:18.884Z",
       "firstSeen": "2026-10-13T21:30:53.231Z",
       "url": "https://newsinfo.inquirer.net/2323288/robin-drug-test-volunteers-in-govt-deserve-award",
       "image": {
@@ -209,7 +234,7 @@
       "summary": "MANILA, Philippines — The Sandiganbayan Special Second Division on Tuesday acquitted Iloilo Rep. Janette Garin of graft and technical malversation charges over the allegedly anomalous procurement of…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T00:37:07.157Z",
+      "published": "2026-10-14T00:51:18.884Z",
       "firstSeen": "2026-10-13T21:30:56.770Z",
       "url": "https://newsinfo.inquirer.net/2323289/garin-4-others-cleared-in-p3-b-dengvaxia-deal",
       "image": {
@@ -234,7 +259,7 @@
       "summary": "MANILA, Philippines — Citing freedom of speech, the Supreme Court has cleared former Senate President Vicente “Tito” Sotto III of indirect contempt after he criticized it for its July 25, 2025 ruling…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T00:37:07.157Z",
+      "published": "2026-10-14T00:51:18.884Z",
       "firstSeen": "2026-10-13T21:01:00.339Z",
       "url": "https://newsinfo.inquirer.net/2323292/sc-dismisses-indirect-contempt-raps-vs-sotto",
       "image": {
@@ -253,113 +278,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-otemte",
-      "source": "inqn",
-      "title": "SWS: Marcos’ trust rating slightly up; Duterte still high",
-      "summary": "MANILA, Philippines — The trust rating of President Marcos slightly increased in September, based on the latest Social Weather Stations (SWS) survey commissioned by the Stratbase Group. The survey,…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-14T00:37:07.011Z",
-      "firstSeen": "2026-10-13T21:30:51.368Z",
-      "url": "https://newsinfo.inquirer.net/2323282/sws-marcos-trust-rating-slightly-up-duterte-still-high",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/President-Ferdinand-R-Marcos-Jr-14October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The trust rating of President Marcos slightly increased in September, based on the latest Social Weather Stations (SWS) survey commissioned by the Stratbase Group. The survey, which polled 1,500 respondents from Sept. 21 to Sept. 27, found that 36 percent of Filipinos had “much trust” in Marcos, up from 34 percent in"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-12ipyf7",
-      "source": "inqn",
-      "title": "Sandigan chief: Plunder harder to prove under Arroyo doctrine",
-      "summary": "MANILA, Philippines — Sandiganbayan Presiding Justice Geraldine Faith Econg said on Tuesday that the Supreme Court needs to review the doctrine that made it tougher to prove that a public official…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-14T00:37:07.011Z",
-      "firstSeen": "2026-10-13T21:30:51.369Z",
-      "url": "https://newsinfo.inquirer.net/2323285/sandigan-chief-plunder-harder-to-prove-under-arroyo-doctrine",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Sandiganbayan-Presiding-Justice-Geraldine-Faith-Econg-14October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Sandiganbayan Presiding Justice Geraldine Faith Econg said on Tuesday that the Supreme Court needs to review the doctrine that made it tougher to prove that a public official committed plunder. Econg, who is among the candidates for a vacancy in the high tribunal, told a panel of the Judicial and Bar Council"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-rlbg6s",
-      "source": "inqn",
-      "title": "Higher fuel costs drive up Meralco power rates in October",
-      "summary": "MANILA, Philippines — Consumers should expect electricity rates to increase by P0.3191 per kilowatt-hour (kWh) this month due to higher generation costs, the Manila Electric Co. (Meralco) said on…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-14T00:37:05.212Z",
-      "firstSeen": "2026-10-13T21:49:10.459Z",
-      "url": "https://newsinfo.inquirer.net/2323291/higher-fuel-costs-drive-up-meralco-power-rates-in-october",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/04/Meralco-file-09april2025.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Consumers should expect electricity rates to increase by P0.3191 per kilowatt-hour (kWh) this month due to higher generation costs, the Manila Electric Co. (Meralco) said on Tuesday. This means that residential customers consuming 200 kWh will have to pay an additional P64 in their power bills. The overall rate for a typical"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-yw005s",
-      "source": "inqn",
-      "title": "NBI ‘graft’ findings vs Davao flood works contractor reach DOJ",
-      "summary": "MANILA, Philippines — The National Bureau of Investigation on Tuesday recommended to the Department of Justice (DOJ) the filing of graft complaints against public works officials and officers of a…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-14T00:37:03.436Z",
-      "firstSeen": "2026-10-13T21:49:09.875Z",
-      "url": "https://newsinfo.inquirer.net/2323284/nbi-graft-findings-vs-davao-flood-works-contractor-reach-doj",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/NBI-duterte-14October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The National Bureau of Investigation on Tuesday recommended to the Department of Justice (DOJ) the filing of graft complaints against public works officials and officers of a construction company that cornered P7 billion worth of flood control projects in Davao City from 2018 to 2024. NBI Director Melvin Matibag said the referral"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1lazsx4",
       "source": "inqn",
       "title": "New DICT head De Claro defends predecessor",
       "summary": "MANILA, Philippines — The new chief of the Department of Information and Communications Technology (DICT) said he would conduct a thorough review of all projects, budgets and procurements made by the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T00:37:03.412Z",
+      "published": "2026-10-14T00:51:17.115Z",
       "firstSeen": "2026-10-13T21:49:09.818Z",
       "url": "https://newsinfo.inquirer.net/2323276/new-dict-head-de-claro-defends-predecessor",
       "image": {
@@ -378,13 +303,88 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-yw005s",
+      "source": "inqn",
+      "title": "NBI ‘graft’ findings vs Davao flood works contractor reach DOJ",
+      "summary": "MANILA, Philippines — The National Bureau of Investigation on Tuesday recommended to the Department of Justice (DOJ) the filing of graft complaints against public works officials and officers of a…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-14T00:51:17.115Z",
+      "firstSeen": "2026-10-13T21:49:09.875Z",
+      "url": "https://newsinfo.inquirer.net/2323284/nbi-graft-findings-vs-davao-flood-works-contractor-reach-doj",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/NBI-duterte-14October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The National Bureau of Investigation on Tuesday recommended to the Department of Justice (DOJ) the filing of graft complaints against public works officials and officers of a construction company that cornered P7 billion worth of flood control projects in Davao City from 2018 to 2024. NBI Director Melvin Matibag said the referral"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-rlbg6s",
+      "source": "inqn",
+      "title": "Higher fuel costs drive up Meralco power rates in October",
+      "summary": "MANILA, Philippines — Consumers should expect electricity rates to increase by P0.3191 per kilowatt-hour (kWh) this month due to higher generation costs, the Manila Electric Co. (Meralco) said on…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-14T00:51:17.115Z",
+      "firstSeen": "2026-10-13T21:49:10.459Z",
+      "url": "https://newsinfo.inquirer.net/2323291/higher-fuel-costs-drive-up-meralco-power-rates-in-october",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/04/Meralco-file-09april2025.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Consumers should expect electricity rates to increase by P0.3191 per kilowatt-hour (kWh) this month due to higher generation costs, the Manila Electric Co. (Meralco) said on Tuesday. This means that residential customers consuming 200 kWh will have to pay an additional P64 in their power bills. The overall rate for a typical"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-otemte",
+      "source": "inqn",
+      "title": "SWS: Marcos’ trust rating slightly up; Duterte still high",
+      "summary": "MANILA, Philippines — The trust rating of President Marcos slightly increased in September, based on the latest Social Weather Stations (SWS) survey commissioned by the Stratbase Group. The survey,…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-14T00:51:17.115Z",
+      "firstSeen": "2026-10-13T21:30:51.368Z",
+      "url": "https://newsinfo.inquirer.net/2323282/sws-marcos-trust-rating-slightly-up-duterte-still-high",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/President-Ferdinand-R-Marcos-Jr-14October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The trust rating of President Marcos slightly increased in September, based on the latest Social Weather Stations (SWS) survey commissioned by the Stratbase Group. The survey, which polled 1,500 respondents from Sept. 21 to Sept. 27, found that 36 percent of Filipinos had “much trust” in Marcos, up from 34 percent in"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-von4mf",
       "source": "inqn",
       "title": "Big gamble? What to make of that House team move",
       "summary": "MANILA, Philippines — The prosecution’s decision to drop three of the four impeachment charges against Vice President Sara Duterte drew criticism on Tuesday, with analysts describing it as an…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T00:36:59.834Z",
+      "published": "2026-10-14T00:51:15.317Z",
       "firstSeen": "2026-10-13T22:00:59.131Z",
       "url": "https://newsinfo.inquirer.net/2323279/big-gamble-what-to-make-of-that-house-team-move",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "MANILA, Philippines — The Senate impeachment court on Tuesday allowed the House prosecution panel to withdraw three of the four articles of impeachment against Vice President Sara Duterte, leaving…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T00:36:58.048Z",
+      "published": "2026-10-14T00:51:11.822Z",
       "firstSeen": "2026-10-13T22:00:59.131Z",
       "url": "https://newsinfo.inquirer.net/2323280/from-4-to-1-impeach-court-oks-reduced-raps-vs-sara-duterte",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "MANILA, Philippines — A total of 76 foreign nationals believed to be involved in Philippine offshore gaming operator or Pogo-related activities have been arrested by immigration agents in Quezon…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T00:36:54.413Z",
+      "published": "2026-10-14T00:51:08.187Z",
       "firstSeen": "2026-10-13T21:01:00.339Z",
       "url": "https://globalnation.inquirer.net/341932/76-aliens-involved-in-online-scam-operations-arrested",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "MANILA, Philippines — The northeasterly wind flow and the intertropical convergence zone (ITCZ) will continue to bring rain to parts of the country, while a tropical depression being monitored…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-10-14T00:36:54.411Z",
+      "published": "2026-10-14T00:51:08.184Z",
       "firstSeen": "2026-10-13T23:20:00.851Z",
       "url": "https://newsinfo.inquirer.net/2323376/itcz-northeasterly-wind-to-bring-rain-in-parts-of-ph-on-wednesday",
       "image": {
@@ -478,35 +478,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-296sut",
-      "source": "inqn",
-      "title": "NIA completes 170 solar-powered irrigation projects in Calabarzon",
-      "summary": "LUCENA CITY — The National Irrigation Administration (NIA) has completed 170 solar-powered irrigation projects across Calabarzon as part of efforts to ensure a reliable and cost-efficient water…",
-      "byline": "jvicente",
-      "section": "Latest News Stories",
-      "published": "2026-10-14T00:36:54.410Z",
-      "firstSeen": "2026-10-13T23:30:53.945Z",
-      "url": "https://newsinfo.inquirer.net/2323386/nia-completes-170-solar-powered-irrigation-projects-in-calabarzon",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — The National Irrigation Administration (NIA) has completed 170 solar-powered irrigation projects across Calabarzon as part of efforts to ensure a reliable and cost-efficient water supply for farmers amid the threat of prolonged dry conditions due to a &#8220;super El Niño,&#8221; according to the agency&#8217;s office in Region IV-A on Tuesday (October 13)."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "inqn-d94g9b",
       "source": "inqn",
       "title": "Mimaropa police nabs 509 most wanted fugitives from January to October",
       "summary": "CALAPAN CITY , Oriental Mindoro — The Mimaropa police has arrested a total of 509 &#8220;most wanted persons&#8221; across the region from January 1 to October 12, including the second most wanted…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-10-14T00:36:54.410Z",
+      "published": "2026-10-14T00:51:08.181Z",
       "firstSeen": "2026-10-13T23:20:00.808Z",
       "url": "https://newsinfo.inquirer.net/2323381/mimaropa-police-nabs-509-most-wanted-fugitive-from-january-to-october",
       "image": {
@@ -525,38 +503,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-181bfux",
-      "source": "inqg",
-      "title": "Pope Leo diagnosed with lung cancer, Vatican says after surgery",
-      "summary": "ROME — Pope Leo XIV underwent surgery Tuesday that confirmed that he has lung cancer, and doctors removed the lower lobe of his right lung, the Vatican said. Tests confirmed a diagnosis of lung…",
-      "byline": "dlejano",
-      "section": "Global Scale",
-      "published": "2026-10-14T00:36:54.410Z",
-      "firstSeen": "2026-10-14T00:30:54.261Z",
-      "url": "https://globalnation.inquirer.net/341956/pope-leo-diagnosed-with-lung-cancer-vatican-says-after-surgery",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/Pope-Leo-diagnosed-with-lung-cancer-Vatican-says-after-surgery-e1791937561291.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "ROME — Pope Leo XIV underwent surgery Tuesday that confirmed that he has lung cancer, and doctors removed the lower lobe of his right lung, the Vatican said. Tests confirmed a diagnosis of lung adenocarcinoma, the Vatican said in a medical bulletin after the surgery. It said the diagnosis had been suspected by preoperative tests"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "inqg-1rf77wy",
       "source": "inqg",
       "title": "Issue over evidence limit lingers as Rodrigo Duterte trial nears",
       "summary": "MANILA, Philippines — A little over a month before the trial of former President Rodrigo Duterte for crimes against humanity begins at the International Criminal Court (ICC), the opposing parties…",
       "byline": "cbuban",
       "section": "Europe",
-      "published": "2026-10-14T00:36:54.410Z",
+      "published": "2026-10-14T00:51:08.181Z",
       "firstSeen": "2026-10-13T21:30:51.369Z",
       "url": "https://globalnation.inquirer.net/341939/issue-over-evidence-limit-lingers-as-rodrigo-duterte-trial-nears",
       "image": {
@@ -573,6 +526,283 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-181bfux",
+      "source": "inqg",
+      "title": "Pope Leo diagnosed with lung cancer, Vatican says after surgery",
+      "summary": "ROME — Pope Leo XIV underwent surgery Tuesday that confirmed that he has lung cancer, and doctors removed the lower lobe of his right lung, the Vatican said. Tests confirmed a diagnosis of lung…",
+      "byline": "dlejano",
+      "section": "Global Scale",
+      "published": "2026-10-14T00:51:08.084Z",
+      "firstSeen": "2026-10-14T00:30:54.261Z",
+      "url": "https://globalnation.inquirer.net/341956/pope-leo-diagnosed-with-lung-cancer-vatican-says-after-surgery",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/Pope-Leo-diagnosed-with-lung-cancer-Vatican-says-after-surgery-e1791937561291.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ROME — Pope Leo XIV underwent surgery Tuesday that confirmed that he has lung cancer, and doctors removed the lower lobe of his right lung, the Vatican said. Tests confirmed a diagnosis of lung adenocarcinoma, the Vatican said in a medical bulletin after the surgery. It said the diagnosis had been suspected by preoperative tests"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-296sut",
+      "source": "inqn",
+      "title": "NIA completes 170 solar-powered irrigation projects in Calabarzon",
+      "summary": "LUCENA CITY — The National Irrigation Administration (NIA) has completed 170 solar-powered irrigation projects across Calabarzon as part of efforts to ensure a reliable and cost-efficient water…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-10-14T00:51:08.083Z",
+      "firstSeen": "2026-10-13T23:30:53.945Z",
+      "url": "https://newsinfo.inquirer.net/2323386/nia-completes-170-solar-powered-irrigation-projects-in-calabarzon",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LUCENA CITY — The National Irrigation Administration (NIA) has completed 170 solar-powered irrigation projects across Calabarzon as part of efforts to ensure a reliable and cost-efficient water supply for farmers amid the threat of prolonged dry conditions due to a &#8220;super El Niño,&#8221; according to the agency&#8217;s office in Region IV-A on Tuesday (October 13)."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "abs-o6edeu",
+      "source": "abs",
+      "title": "Jane de Leon's Glow Up Sparks Buzz Online. Here's What We Know About Her New Look",
+      "summary": "The 27-year-old actress was spotted in her most exquisite glam to date. Sporting sharp contouring, a sculpted nose bridge, and a picture-perfect glow, she left the internet jaw-dropped.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-14T00:39:36.000Z",
+      "firstSeen": "2026-10-14T00:51:08.084Z",
+      "url": "https://www.abs-cbn.com/beauty/2026/10/14/jane-de-leon-s-latest-look-sparks-buzz-online-see-her-glow-up-0800",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The 27-year-old actress was spotted in her most exquisite glam to date. Sporting sharp contouring, a sculpted nose bridge, and a picture-perfect glow, she left the internet jaw-dropped."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "rap-y6zq0k",
+      "source": "rap",
+      "title": "Iran shifting tactics to step up attacks on shipping before US vote, officials say",
+      "summary": "Tehran is moving toward a closure of the strait to vessels violating its restrictions, with one official adding, 'It will be complete closure soon'",
+      "byline": "Reuters",
+      "section": "Middle East",
+      "published": "2026-10-14T00:38:55.000Z",
+      "firstSeen": "2026-10-14T00:51:08.084Z",
+      "url": "https://www.rappler.com/world/middle-east/iran-shifting-tactics-attacks-shipping-us-elections/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2026/03/Untitled-design-8.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "STRAIT. Ships and tankers in the Strait of Hormuz off the coast of Musandam, Oman on April 18, 2026."
+        },
+        {
+          "type": "p",
+          "text": "Tehran is moving toward a closure of the strait to vessels violating its restrictions, with one official adding, 'It will be complete closure soon'"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Iran is employing new tactics to target ships in the Strait of Hormuz to influence oil prices and the upcoming US midterm elections.",
+            "The Iranian strategy includes increased attacks on vessels violating its restrictions and the use of unarmed spotters to identify targets.",
+            "Iran plans to expand its operations beyond the Strait of Hormuz, threatening vessels in the Gulf of Oman and surrounding areas, with intentions to fully close the strait to violators."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "Iran is deploying new tactics to target ships sailing through the Strait of Hormuz as it seeks to keep oil prices high and influence the US midterm elections, two senior Iranian officials told Reuters."
+        },
+        {
+          "type": "p",
+          "text": "Tehran has tried to exert control over the Strait of Hormuz since the US and Israel launched strikes against Iran on February 28. It has restricted passage through the waterway, which carried about a fifth of global oil and liquefied natural gas trade before the war, in an effort to gain leverage over Washington."
+        },
+        {
+          "type": "p",
+          "text": "Its threats and attacks have severely curtailed traffic through the strait, driving up oil prices, though some oil has continued to transit."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/03/Untitled-design-8.jpg?fit=449%2C449",
+          "caption": "Iran says US response to its proposal to reopen Hormuz ‘insufficient’"
+        },
+        {
+          "type": "p",
+          "text": "The two officials declined to provide details of the new strategy, but one said that Iran had started using different offensive tactics against vessels it considered in violation of its restrictions about 10 days ago, adding that this had led to an increase in attacks on such ships."
+        },
+        {
+          "type": "p",
+          "text": "The strategy included a change in the type as well as the pace of attacks, with one goal being to influence the outcome of the US vote, they said."
+        },
+        {
+          "type": "p",
+          "text": "“The aim is to frustrate efforts by the United States and its allies to bring down global oil prices,” one of the two officials said."
+        },
+        {
+          "type": "p",
+          "text": "The decision to adopt the new strategy had been taken at the highest levels of Iran’s leadership and was fully coordinated across the country’s ruling system, the officials said."
+        },
+        {
+          "type": "p",
+          "text": "A US military official, speaking on condition of anonymity, confirmed that Iran had changed tactics in one significant way: after the US destroyed much of Iran’s radar capabilities, Iran’s Islamic Revolutionary Guard Corps (IRGC) had started using unarmed spotters in small boats to identify potential targets, including US naval vessels, the official said."
+        },
+        {
+          "type": "p",
+          "text": "Last week, in a previously unreported incident, the US military determined that Iranian spotters were operating from a dhow, calling in targets to the IRGC, the official said. US forces confronted the vessel, told its occupants to abandon ship and then destroyed it. There were no casualties, the US official said."
+        },
+        {
+          "type": "p",
+          "text": "Unwilling to risk its remaining fast boats, Iran had been unable to prevent a ramp-up in oil exports through the strait, the official said, particularly after US strikes devastated its navy."
+        },
+        {
+          "type": "p",
+          "text": "The war — and its $3 billion monthly price tag — has become a key issue on the US campaign trail for November’s midterm elections, which will decide control of Congress."
+        },
+        {
+          "type": "p",
+          "text": "US President Donald Trump has been weighing next steps against Iran, but has said he will not attack again before the vote."
+        },
+        {
+          "type": "p",
+          "text": "The US has meanwhile been pressing its own naval blockade of Iranian ports and extending sanctions as it tries to pile economic pressure on Tehran to reach a deal to end the conflict."
+        },
+        {
+          "type": "p",
+          "text": "The standoff over Hormuz has left global energy markets exposed to further disruption, with the threat of attacks and high shipping and insurance costs complicating efforts to restore normal traffic."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/03/How-the-Strait-of-Hormuz-crisis-triggers-a-ripple-effect-on-Filipino-families-communities.jpg?fit=449%2C449",
+          "caption": "The Middle East crisis: From the Strait of Hormuz to your dining table"
+        },
+        {
+          "type": "p",
+          "text": "In recent days, attacks on commercial ships still sailing through the strait have surged to their highest level since the war began, according to independent data."
+        },
+        {
+          "type": "p",
+          "text": "There have been at least five incidents in the past 48 hours involving tankers and other commercial ships around the Hormuz area, including drone strikes, according to data analysis from maritime security sources and incidents reported to British navy-affiliated agency United Kingdom Maritime Trade Operations (UKMTO)."
+        },
+        {
+          "type": "p",
+          "text": "That approximately mirrored the rate of attacks on October 3-5, pointing to a new escalation, according to data from the UN shipping agency, the International Maritime Organization."
+        },
+        {
+          "type": "p",
+          "text": "“There is a tempo increase in strikes, which looks deliberate,” one maritime security source said."
+        },
+        {
+          "type": "p",
+          "text": "As part of the new strategy, Tehran will also expand the geographical scope of its operations beyond the Strait of Hormuz to the Gulf of Oman and waters further afield, the officials said."
+        },
+        {
+          "type": "p",
+          "text": "Analysis by maritime security sources based on attacks reported to UKMTO and maritime security companies in the region suggest this may already be happening. They show Iran targeting ships in areas beyond the Strait of Hormuz, including waters off the coast of Qatar and the United Arab Emirates, in recent days."
+        },
+        {
+          "type": "p",
+          "text": "The second Iranian official added that Tehran would not allow Trump to bring down oil prices before the November elections."
+        },
+        {
+          "type": "p",
+          "text": "“Just when they think they are getting close to the point where prices will fall, we will push them away from it. This is a game of chess,” the second official said."
+        },
+        {
+          "type": "p",
+          "text": "“Such vessels would be safe nowhere, even outside the Strait of Hormuz.”"
+        },
+        {
+          "type": "p",
+          "text": "The Pentagon and Iran’s Foreign Ministry did not immediately respond to requests for comment."
+        },
+        {
+          "type": "p",
+          "text": "Both Iranian officials said Tehran is moving toward a situation in which no vessel violating its restrictions would be able to pass through the strait. “It will be complete closure soon,” one of the officials said."
+        },
+        {
+          "type": "p",
+          "text": "In its latest report on Sunday, the US Navy-led Joint Maritime Information Center (JMIC) said the threat to merchant shipping in the Strait of Hormuz remained “severe”, the second-highest level."
+        },
+        {
+          "type": "p",
+          "text": "“IRGC attacks, attempted attacks, and/or harassment activity persisted including UAV overflight, targeted surveillance of merchant shipping, and occasional VHF hailing,” JMIC said. – Rappler.com"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/03/fuel-price-increase-manila-march-17-2026-001-scaled.jpg?fit=449%2C449",
+          "caption": "Gasoline prices up again, diesel prices down on October 13"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1f4xzdr",
+      "source": "abs",
+      "title": "“ASAP XP” brings a bigger Sunday concert experience at 7 PM starting October 18",
+      "summary": "“ASAP XP” lights up the evening from 7 PM to 8:45 PM starting October 18, bringing more music, dance, and exciting collaborations to cap your weekend.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-14T00:38:55.000Z",
+      "firstSeen": "2026-10-14T00:51:08.182Z",
+      "url": "https://www.abs-cbn.com/entertainment/studios/tv/2026/10/14/-asap-xp-brings-a-bigger-sunday-concert-experience-at-7-pm-starting-october-18-0838",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "“ASAP XP” lights up the evening from 7 PM to 8:45 PM starting October 18, bringing more music, dance, and exciting collaborations to cap your weekend."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-jvypck",
+      "source": "abs",
+      "title": "Gabbi Garcia on nine-year relationship with Khalil Ramos: 'The best years of my life'",
+      "summary": "Gabbi Garcia explains that while marriage is part of their future plans, they are currently focused on their respective careers and are waiting for the right time to take the next step.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-14T00:37:52.000Z",
+      "firstSeen": "2026-10-14T00:51:08.930Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/10/14/gabbi-garcia-on-nine-year-relationship-with-khalil-ramos-the-best-years-of-my-life-0837",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gabbi Garcia explains that while marriage is part of their future plans, they are currently focused on their respective careers and are waiting for the right time to take the next step."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "abs-y9ab0z",
@@ -617,6 +847,31 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-12z3mdq",
+      "source": "inq",
+      "title": "Pope Leo diagnosed with lung cancer, Vatican says after surgery",
+      "summary": "ROME — Pope Leo XIV underwent surgery Tuesday that confirmed that he has lung cancer, and doctors removed the lower lobe of his right lung, the Vatican said. Tests confirmed a diagnosis of lung…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-14T00:30:07.000Z",
+      "firstSeen": "2026-10-14T00:51:08.083Z",
+      "url": "https://globalnation.inquirer.net/341956/pope-leo-diagnosed-with-lung-cancer-vatican-says-after-surgery",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/Pope-Leo-diagnosed-with-lung-cancer-Vatican-says-after-surgery-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ROME — Pope Leo XIV underwent surgery Tuesday that confirmed that he has lung cancer, and doctors removed the lower lobe of his right lung, the Vatican said. Tests confirmed a diagnosis of lung adenocarcinoma, the Vatican said in a medical bulletin after the surgery. It said the diagnosis had been suspected by preoperative tests and was confirmed during surgery. The statement made no mention of treatment going forward, and the Vatican said doctors were not currently speaking of chemotherapy or other therapies pending the results of other tests. The Vatican press office noted the medical statement spoke of the &#8220;radical&#8221; [&hellip;]... Keep on reading: Pope Leo diagnosed with lung cancer, Vatican says after surgery"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-g3pruq",
@@ -4063,31 +4318,6 @@
         {
           "type": "p",
           "text": "A diploma bears one name. In a Filipino house, it belongs to everyone. Before it reaches the living room wall, a whole household has gone to school: the mother counting the sari-sari store’s earnings after dark; the father watching his children grow older on a phone screen abroad; the sister closing her books so a [&hellip;]... Keep on reading: The house that went to school"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-5no9br",
-      "source": "inq",
-      "title": "Of verbs and collective intelligence",
-      "summary": "Last Saturday, my Department of Communication colleagues and I met for lunch—not to debrief or decompress, but to put our heads together and work on revisions to our undergraduate program. It’s a…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-13T21:15:00.000Z",
-      "firstSeen": "2026-10-13T21:30:51.369Z",
-      "url": "https://opinion.inquirer.net/195676/of-verbs-and-collective-intelligence",
-      "image": {
-        "src": "https://opinion.inquirer.net/files/2024/03/INEZ-PONCE-DE-LEON-QUESTION-THE-BOX-06MARCH2024_2-300x163.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Last Saturday, my Department of Communication colleagues and I met for lunch—not to debrief or decompress, but to put our heads together and work on revisions to our undergraduate program. It’s a practice we’ve followed for years, whether we’re applying for accreditation or reviewing our courses. We meet over coffee or pizza, brainstorm edits, and [&hellip;]... Keep on reading: Of verbs and collective intelligence"
         }
       ],
       "truncated": true,
@@ -13714,110 +13944,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "rap-bi1nid",
-      "source": "rap",
-      "title": "Four years on, Marcos&#8217; door for comms chiefs still revolving",
-      "summary": "Is sixth time the charm for President Marcos in this rather volatile Cabinet post?",
-      "byline": "Bea Cupin",
-      "section": "Editors' Pick",
-      "published": "2026-10-13T11:29:51.000Z",
-      "firstSeen": "2026-10-13T11:30:54.470Z",
-      "url": "https://www.rappler.com/newsbreak/inside-track/four-years-marcos-communications-chief-changing-secretary/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2025/05/newsbreak-inside-track.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LINO CAYETANO. TV director and producer Lino Cayetano during the 2025 election campaign. He ran for Taguig 1st District congressman."
-        },
-        {
-          "type": "p",
-          "text": "Lino Cayetano's Facebook page"
-        },
-        {
-          "type": "p",
-          "text": "Is sixth time the charm for President Marcos in this rather volatile Cabinet post?"
-        },
-        {
-          "type": "p",
-          "text": "Just over a year after announcing a new communications secretary, President Ferdinand Marcos Jr. found himself in familiar territory: having to explain the appointment of yet another chief of the Presidential Communications Office (PCO)."
-        },
-        {
-          "type": "p",
-          "text": "Is the sixth time the charm? Lino Cayetano, former Taguig City mayor and PTV-4 general manager, will be taking on a post that’s been occupied by five different people in the past four years of Marcos."
-        },
-        {
-          "type": "p",
-          "text": "Here’s how Marcos framed Dave Gomez’s exit and Cayetano’s entry in an interview with media on Tuesday, October 13: “The reason that we keep turning, we have this high turnover is because the job keeps changing in terms of what we are trying to put forward.”"
-        },
-        {
-          "type": "p",
-          "text": "Marcos added: “In the beginning, we were talking about policy and now we are talking about — then we started talking about what we had to do in terms of implementation. And then we started having to talk — now we are having to talk about getting more towards the more political aspects of the communications job.”"
-        },
-        {
-          "type": "p",
-          "text": "“So, it keeps changing and that’s why we have to keep restructuring it and to be able to satisfy what… especially the demands that you make upon our Presidential Communications group. So yes, that’s what’s behind that.”"
-        },
-        {
-          "type": "p",
-          "text": "Let’s take a small step back and drill down on a line the President uttered: “Now we are having to talk about getting more towards the more political aspects of the communications job.”"
-        },
-        {
-          "type": "p",
-          "text": "Political? If we’re referring to political pedigree and experience, then new Communications Secretary Lino Cayetano would certainly have much to boast of."
-        },
-        {
-          "type": "p",
-          "text": "Cayetano is the youngest in the current generation of his clan in politics. He also happens to be estranged from his older siblings, Pia and Alan Peter, who are both senators. All three (plus another sibling) are the children of the late former senator Rene Cayetano."
-        },
-        {
-          "type": "p",
-          "text": "The youngest of the Cayetano clan in politics has held various posts in government — from barangay (village) chief, to district representative, to mayor. He tried to return to Congress in the 2025 polls but lost to a candidate who was backed by his sister-in-law Lani, Senator Alan Peter’s wife."
-        },
-        {
-          "type": "p",
-          "text": "The older Cayetanos belong to the minority in the Senate that’s identified with Vice President Sara Duterte, Marcos’ erstwhile ally."
-        },
-        {
-          "type": "p",
-          "text": "Lino Cayetano was also a film and TV director before joining politics full-time."
-        },
-        {
-          "type": "p",
-          "text": "But what political aspect of the communications job must the new PCO chief pay attention to?"
-        },
-        {
-          "type": "p",
-          "text": "With just under two years left in the administration, two things would probably be foremost in the minds of Malacañang and the new communications chief: the Marcos administration’s legacy and, in relation to that, setting a favorable environment ahead of the 2028 presidential elections."
-        },
-        {
-          "type": "p",
-          "text": "Cayetano would be the first communications chief under Marcos to have held an elected position in the past. The first communications secretary under Marcos was vlogger Trixie Cruz-Angeles, who was eased out in the first three months of the Marcos administration."
-        },
-        {
-          "type": "p",
-          "text": "She was followed by Cheloy Garafil, who chaired the Manila Economic and Cultural Office (MECO) before being appointed secretary general of the House of Representatives."
-        },
-        {
-          "type": "p",
-          "text": "Cesar Chavez, a radio broadcaster and long-time political communications operative, held the post for just over six months. Before Gomez, former ABS-CBN journalist Jay Ruiz was the administration’s primary communications person for four months."
-        },
-        {
-          "type": "p",
-          "text": "Gomez, who once worked at Philip Morris International Philippines, at least held on to the position for over a year — despite never having faced the Commission on Appointments (CA). That he was bypassed by the CA is part of why he had to be replaced. Talk, for a while, has been that he would have had a hard time hurdling the CA anyway, precisely because of his previous role in a tobacco giant company."
-        },
-        {
-          "type": "p",
-          "text": "Will Lino Cayetano at least get close to the length of Garafil’s term (almost two years) — which is to say, will he stay on until the end of this administration? If the President’s statements are any indication, that’ll all depend on the “demands that you make upon our Presidential Communications group.” – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "gma-17ewd2k",
       "source": "gma",
       "title": "Prosecution: No denial of due process over withdrawal of three charges vs. Sara Duterte",
@@ -16532,28 +16658,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-1j3hefg",
-      "source": "abs",
-      "title": "Duterte misunderstood Marcos' statements on China money—Castro",
-      "summary": "The Palace also clarified that there are no prohibitions on trade deals with China",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-13T06:22:28.000Z",
-      "firstSeen": "2026-10-13T06:30:53.023Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/10/13/duterte-misunderstood-marcos-statements-on-china-money-castro-1422",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Palace also clarified that there are no prohibitions on trade deals with China"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "abs-o53dfl",
       "source": "abs",
       "title": "Co’s ex-bodyguard testifies delivering cash-filled suitcases to 4 residences linked to Romualdez",
@@ -16590,28 +16694,6 @@
         {
           "type": "p",
           "text": "The defense team in the impeachment trial of Vice President Sara Duterte said it was “unfair” and warned of a possible mistrial as the prosecution expressed its intent to drop three articles of impeachment after evidence for two had been presented."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-10nuilj",
-      "source": "abs",
-      "title": "Special task group activated for slain Albay broadcaster Adrian 'Golden Boy' Loterte",
-      "summary": "Police authorities in Bicol have launched a high-priority investigation and activated a special task group following the fatal shooting of media personality Adrian “Golden Boy” Loterte outside his…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-13T05:56:28.000Z",
-      "firstSeen": "2026-10-14T00:36:54.413Z",
-      "url": "https://www.abs-cbn.com/news/regions/2026/10/13/special-task-group-activated-for-slain-albay-broadcaster-0801",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Police authorities in Bicol have launched a high-priority investigation and activated a special task group following the fatal shooting of media personality Adrian “Golden Boy” Loterte outside his business establishment in Barangay San Roque, Daraga, Albay, on Monday."
         }
       ],
       "truncated": true,
@@ -16678,28 +16760,6 @@
         {
           "type": "p",
           "text": "The prosecution panel told the Senate court on Tuesday it was dropping three of its four charges in the impeachment trial of Vice President Sara Duterte."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-5182ty",
-      "source": "abs",
-      "title": "SC dismisses indirect contempt complaint vs Sotto",
-      "summary": "The case stemmed from Sotto’s public statements on the decision in Duterte vs House of Representatives involving the impeachment proceedings.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-13T05:18:30.000Z",
-      "firstSeen": "2026-10-13T05:31:03.871Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/10/13/sc-dismisses-indirect-contempt-complaint-vs-sotto-1318",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The case stemmed from Sotto’s public statements on the decision in Duterte vs House of Representatives involving the impeachment proceedings."
         }
       ],
       "truncated": true,
