@@ -16,10 +16,10 @@ assert.match(read('www/app.js'),/window\.WireAndroid\.loadArticle\(articleId\)/)
 assert.match(read('www/app.js'),/if\(window\.WireAndroid\) return;/);
 assert.match(read('www/app.js'),/addListener\("backButton"/);
 assert.match(read('www/app.js'),/reader\.close\(ctx\)/);
-assert.doesNotMatch(read('www/reader.js'),/addEventListener\\("pointerdown"/);
-assert.match(read('www/reader.js'),/touchend", returnToHeadlines/);
-assert.match(read('www/reader.js'),/window\\.setTimeout/);
-assert.match(read('www/reader.js'),/querySelector\\("\\.back"\\)/);
+assert.ok(!read('www/reader.js').includes('back.addEventListener("pointerdown"'));
+assert.ok(read('www/reader.js').includes('back.addEventListener("touchend"'));
+assert.ok(read('www/reader.js').includes('window.setTimeout('));
+assert.ok(read('www/reader.js').includes('el.querySelector(".back") === back'));
 assert.match(read('www/app.css'),/touch-action: manipulation/);
 assert.match(read('www/reader.js'),/requestAnimationFrame\(\(\) => window\.scrollTo\(0, feedScrollY\)\)/);
 assert.match(read('www/notifications.js'),/Amazon Fire ADM or Google Android FCM/);
