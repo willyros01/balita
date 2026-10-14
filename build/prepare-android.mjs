@@ -59,11 +59,11 @@ sub('reader.js','onTap(back, () => close(ctx));',`
   onTap(back, returnToHeadlines); // pointerup and keyboard/accessibility click
   back.addEventListener("touchend", returnToHeadlines, { passive: false });
 `);
-sub('reader.js','  el.innerHTML = "";', '  el.innerHTML = "";\\n  el.dataset.articleId = id;'.replace('\\n','\n'));
+sub('reader.js','  el.innerHTML = "";', '  el.innerHTML = "";\\n  el.dataset.articleId = id;\\n  el.dataset.returnSource = wireReturnSource;'.replaceAll('\\n','\n'));
 sub('reader.js','  const src = ctx.sourceOf(a.source);',`  const src = ctx.sourceOf(a.source);
   // Preserve the All Sources list while opening; only select this
   // publisher after Back, once the original finger gesture is over.
-  el.dataset.returnSource = src && ctx.state.filter === "ALL" ? src.id : "";
+  const wireReturnSource = src && ctx.state.filter === "ALL" ? src.id : "";
 `);
 sub('reader.js','  const returnSource = ctx.state.filter === "ALL" ? null : ctx.sourceOf(ctx.state.filter);',
   '  const returnSource = el.dataset.returnSource ? ctx.sourceOf(el.dataset.returnSource) : ctx.state.filter === "ALL" ? null : ctx.sourceOf(ctx.state.filter);');
