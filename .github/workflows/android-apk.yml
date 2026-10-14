@@ -19,6 +19,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
   group: wire-android-apk
@@ -101,3 +102,55 @@ jobs:
           path: android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 14
+  publication:
+    name: Hand off signed APK to Cuberoot auto-publisher
+    needs: [apk]
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Verify this run uploaded a signed APK artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts"
+          PASS=0
+          for attempt in 1 2 3 4 5; do
+            curl --fail --silent --show-error --retry 2 --retry-delay 1 \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H 'Accept: application/vnd.github+json' "$URL" -o artifacts.json
+            if node --input-type=commonjs - <<'JS'
+          const fs=require('fs');
+          const items=JSON.parse(fs.readFileSync('artifacts.json','utf8')).artifacts||[];
+          const a=items.filter(x=>x.name==='wire-android-signed-reader-apk'&&!x.expired&&x.size_in_bytes>1000000);
+          if(a.length!==1)process.exit(1);
+          console.log('Verified signed artifact handoff:',a[0].id,'bytes:',a[0].size_in_bytes);
+          JS
+            then PASS=1; break; fi
+            sleep 3
+          done
+          if [ "$PASS" != 1 ]; then
+            echo '::error title=No signed APK artifact::Cuberoot must not publish this build'
+            exit 1
+          fi
+      - name: Verify automatic Cuberoot publishing is configured
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --retry 3 --retry-delay 2 \
+            -H 'Cache-Control: no-cache' \
+            "https://raw.githubusercontent.com/willyros01/Cuberoot/main/.github/workflows/publish-wire-apk.yml?run=${GITHUB_RUN_ID}" \
+            -o publisher.yml
+          grep -Fq 'name: Publish Wire Android APK' publisher.yml
+          grep -Fq "cron: '*/5 * * * *'" publisher.yml
+          grep -Fq 'run: bash build/publish-wire.sh' publisher.yml
+          echo 'Verified automatic Cuberoot publisher: five-minute scheduled checks.'
+      - name: Record automatic publishing handoff
+        run: |
+          echo '::notice title=Wire APK handoff complete::Cuberoot fetches the latest SUCCESSFUL signed Android build automatically. Its publisher and GitHub Pages deployment run independently after this workflow succeeds.'
+          {
+            echo '### Cuberoot Wire APK — publishing handoff'
+            echo "Signed artifact: verified for run $GITHUB_RUN_ID"
+            echo 'Cuberoot publisher: configured for automatic checks every 5 minutes (GitHub scheduling may be delayed).'
+            echo "After Cuberoot publishes, verify its manifest and Pages deployment before announcing release: https://www.cuberoot-systems.com/downloads/wire.apk?build=$GITHUB_RUN_ID"
+            echo 'Failed builds never replace the previous APK.'
+          } >> "$GITHUB_STEP_SUMMARY"
