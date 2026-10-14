@@ -1,0 +1,133 @@
+{
+  "id": "rap-1qu9fb3",
+  "source": "rap",
+  "title": "Investigators hunt French supermarket fridge hackers, no claim of responsibility",
+  "summary": "The absence of a claim of responsibility by hacktivists or a ransom demand by cybercriminals puzzles French investigators",
+  "byline": "Reuters",
+  "section": "Europe",
+  "published": "2026-10-14T04:54:59.000Z",
+  "firstSeen": "2026-10-14T05:00:58.321Z",
+  "url": "https://www.rappler.com/technology/investigators-hunt-french-supermarket-fridge-hackers/",
+  "image": {
+    "src": "https://www.rappler.com/tachyon/2026/10/supermarket-fridges-october-13-2026-reuters.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "REFRIGERATORS. View of empty refrigerators at the frozen food aisle inside an Intermarche supermarket in Paris the day after a cyberattack targeted refrigeration systems at French supermarket chains, causing food losses and fires at several stores, France, October 13, 2026."
+    },
+    {
+      "type": "p",
+      "text": "Lucien Libert/Reuters"
+    },
+    {
+      "type": "p",
+      "text": "The absence of a claim of responsibility by hacktivists or a ransom demand by cybercriminals puzzles French investigators"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "French investigators are searching for hackers who compromised cooling units at hundreds of supermarkets, with no group claiming responsibility for the cyberattack.",
+        "The breach was linked to outdated software from Danfoss, which affected the refrigeration systems of several supermarket chains, leading to significant food waste.",
+        "Cybersecurity experts highlighted the importance of basic cyber hygiene, noting that many vulnerable systems remain accessible online, posing ongoing risks."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This is AI-generated. Read the article for full context. Report any errors."
+    },
+    {
+      "type": "p",
+      "text": "PARIS, France – French investigators on Tuesday, October 13, were hunting the hackers who seized control of cooling units at hundreds of supermarkets in a cyberattack that underlined the vulnerabilities of connected systems, with no group publicly claiming responsibility."
+    },
+    {
+      "type": "p",
+      "text": "The investigation comes as Dutch supermarket company Ahold Delhaize grapples with a separate cybersecurity incident that disrupted online services, although Dutch authorities said they saw no connection between the two events."
+    },
+    {
+      "type": "p",
+      "text": "The absence of a claim of responsibility by hacktivists or a ransom demand by cybercriminals has puzzled French investigators, according to a source with knowledge of the probe. Typically, such groups tend to quickly seek to monetize their hacks or claim credit for them for political ends."
+    },
+    {
+      "type": "p",
+      "text": "The cyberattack, which manually overrode the temperatures at fridges in supermarket groups including Carrefour, Monoprix, Intermarche, and Cooperative U, appears to have been easy to pull off, three cyber experts told Reuters."
+    },
+    {
+      "type": "p",
+      "text": "Staff at some Paris supermarkets threw boxes full of perished meat and frozen goods into giant trash containers on Tuesday. At least 350 supermarkets — a small fraction of the total number in France — were caught up in the strike."
+    },
+    {
+      "type": "p",
+      "text": "France’s cybersecurity agency has said the breach affected fridges that relied on software by Danish firm Danfoss, as well as Copeland and Dixell software."
+    },
+    {
+      "type": "p",
+      "text": "Danfoss said on Monday that many of the affected units had “reached end of life and no longer receive software or security updates” or were “running outdated firmware.” It said it had “advised customers to keep supported systems updated with the latest firmware and to migrate legacy systems to current-generation solutions”."
+    },
+    {
+      "type": "p",
+      "text": "The company declined further comment on Tuesday."
+    },
+    {
+      "type": "p",
+      "text": "Copeland, which owns Dixell, acknowledged the “vulnerability.”"
+    },
+    {
+      "type": "p",
+      "text": "“We are currently working with impacted customers to mitigate the risk,” the company said, adding that it would strengthen cybersecurity."
+    },
+    {
+      "type": "p",
+      "text": "In Danfoss’ case, the serious vulnerabilities present in older versions of its firmware have been known for months."
+    },
+    {
+      "type": "p",
+      "text": "On August 9, cybersecurity firm Claroty detailed weaknesses — since patched — in the Danfoss AK-SM 800A controller that could have allowed intruders to bypass authentication and run code on compromised devices."
+    },
+    {
+      "type": "p",
+      "text": "Although the precise mechanism by which attackers compromised the refrigerators has not been publicly disclosed, cybersecurity experts said all signs pointed to a basic stunt enabled both by the failure to adopt Danfoss’ updates and by exposing device interfaces to the internet."
+    },
+    {
+      "type": "p",
+      "text": "“This is about basic cyber hygiene,” said Ken Munro, a partner at the British cybersecurity firm Pen Test Partners. “Get it wrong and you get a smelly mess of defrosted food.”"
+    },
+    {
+      "type": "p",
+      "text": "He said the well-known vulnerabilities meant the attackers were essentially pushing at an open door, something that meant the hack could easily be “kids messing around”."
+    },
+    {
+      "type": "p",
+      "text": "“If this was a nation state, why affect only a subset of French fridges? There are plenty of other nations with fridges on the internet,” he said. “No ransom or demand suggests a lack of appreciation of the potential commercial losses that the fridge owners may experience.”"
+    },
+    {
+      "type": "p",
+      "text": "Plenty of fridges remain reachable via the internet. Using the internet scanning service Shodan, Reuters found at least 4,500 Danfoss interfaces still viewable on Tuesday."
+    },
+    {
+      "type": "p",
+      "text": "Reuters could not independently establish how many of them were running vulnerable software, but French internet scanning company Onyphe said only a small minority of the devices appeared to be running the latest version of the software."
+    },
+    {
+      "type": "p",
+      "text": "Outdated and vulnerable versions were “still widely represented among publicly accessible interfaces”, Onyphe said."
+    },
+    {
+      "type": "p",
+      "text": "Separately, Dutch retailer Ahold Delhaize said on Tuesday it had begun “starting a controlled re-launch of certain systems” following a cybersecurity issue that began on Sunday evening."
+    },
+    {
+      "type": "p",
+      "text": "The Dutch cybersecurity watchdog NCSC said it did not believe the incident was linked to the French supermarket hack."
+    },
+    {
+      "type": "p",
+      "text": "Ahold operates the Albert Heijn chain in the Netherlands and several major US chains including Stop & Shop and Giant Food. Websites for stores in both countries remained offline late Tuesday afternoon, with online ordering and delivery services unavailable. – Rappler.com"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
