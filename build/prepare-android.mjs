@@ -36,22 +36,39 @@ sub('app.js','  await loadArticles();\n\n  /* Only sends the reader back',
 
 sub('app.js','function registerWorker(){\n','function registerWorker(){\n  if(window.WireAndroid) return; // no service worker under Capacitor localhost\n');
 
-// Android-only navigation: use immediate pointerdown for the in-page Back
-// control, plus click for keyboard/accessibility, guarded by actual view state.
-// The native hardware Back listener uses the SAME reader.close() function.
+// Android-only: end the complete finger gesture BEFORE switching screens.
+// 0.17.59 navigated on pointerdown, exposing a news card underneath pointerup;
+// that second event could reopen an article. Keep the reader through the
+// original pointerup/touchend/click and navigate on the next event-loop task.
 sub('reader.js','onTap(back, () => close(ctx));',`
-  // Fire HD 8 may deliver pointerup without a click when the WebView reflows.
-  // Keep the previously accepted early pointerdown and restore Wire's shared
-  // pointerup/click fallback; the reader state guard ensures one close only.
+  let pendingBack = false;
   const returnToHeadlines = event => {
-    if (event.type === "pointerdown" && event.pointerType === "mouse" &&
-        event.button !== 0) return;
-    if (document.body.dataset.view !== "reader") return;
+    if (event.type === "click" && event.button !== undefined && event.button !== 0) return;
+    if (document.body.dataset.view !== "reader" || pendingBack) return;
     if (event.cancelable) event.preventDefault();
-    close(ctx);
+    event.stopPropagation();
+    pendingBack = true;
+    window.setTimeout(() => {
+      pendingBack = false;
+      if (document.body.dataset.view === "reader" &&
+          document.getElementById("reader") === el &&
+          el.querySelector(".back") === back &&
+          el.dataset.articleId === id) close(ctx);
+    }, 0);
   };
-  back.addEventListener("pointerdown", returnToHeadlines);
-  onTap(back, returnToHeadlines);`);
+  onTap(back, returnToHeadlines); // pointerup and keyboard/accessibility click
+  back.addEventListener("touchend", returnToHeadlines, { passive: false });
+`);
+sub('reader.js','  el.innerHTML = "";', '  el.innerHTML = "";\\n  el.dataset.articleId = id;'.replace('\\n','\n'));
+sub('reader.js','  const src = ctx.sourceOf(a.source);',`  const src = ctx.sourceOf(a.source);
+  // Return from All Sources to this article's own publisher headlines.
+  if (src && ctx.state.filter === "ALL") {
+    ctx.state.filter = src.id;
+    ctx.refresh();
+    const card = Array.from(document.querySelectorAll("[data-article-id]"))
+      .find(node => node.dataset.articleId === id);
+    feedScrollY = card ? Math.max(0, card.offsetTop - 16) : 0;
+  }`);
 sub('reader.js','  window.scrollTo(0, feedScrollY);',
   '  window.requestAnimationFrame(() => window.scrollTo(0, feedScrollY));');
 sub('app.js','/* ---------------- stories ---------------- */',`/* Android system Back routes to the same in-app navigation as the visible
@@ -102,7 +119,7 @@ fs.copyFileSync('android-src/foreground.js','www/foreground.js');
 fs.appendFileSync('www/app.css',fs.readFileSync('android-src/foreground-alert.css','utf8'));
 fs.appendFileSync('www/app.css', '\\n/* Fire HD 8 Back: preserve a large hit target; avoid gesture-related cancellation. */\\n.back { touch-action: manipulation; min-height: max(var(--tap), 3.2rem); }\\n'.replaceAll('\\n','\n'));
 sub('version.js','export const VERSION    = "0.17.54";',
-  'export const VERSION    = "0.17.59";');
+  'export const VERSION    = "0.17.60";');
 sub('version.js','export const BUILD_DATE = "2026-09-23";',
   'export const BUILD_DATE = "2026-10-13";');
 fs.copyFileSync('android-src/android-adapter.js','www/android-adapter.js');

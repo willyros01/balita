@@ -3,84 +3,101 @@ import assert from 'node:assert/strict';
 import {JSDOM} from 'jsdom';
 import {open} from '../www/reader.js';
 
-// Fire HD 8 regression: WebView may emit pointerup without click after reflow.
-// Test the GENERATED Android reader, not untouched production reader.js.
-function harness(){
-  const dom=new JSDOM('<body data-view="feed"><article id="reader" tabindex="-1"></article></body>',{
-    url:'https://localhost',pretendToBeVisual:true
-  });
-  const saved={window:globalThis.window,document:globalThis.document};
-  globalThis.window=dom.window;
-  globalThis.document=dom.window.document;
-  let y=210,closed=0;
-  Object.defineProperty(dom.window,'scrollY',{get:()=>y,configurable:true});
-  dom.window.scrollTo=(_x,next)=>{y=next;};
-  dom.window.requestAnimationFrame=cb=>cb();
-  const ctx={
-    state:{filter:'bbc',articles:[{
-      id:'bbc-wire-1',source:'bbc',title:'A marked article',
-      published:'2026-10-13T22:00:00Z',summary:'Example story'
-    }]},
-    sourceOf:id=>id==='bbc'?{id:'bbc',name:'BBC World',color:'#222',tag:'BBC'}:null,
-    show:view=>{dom.window.document.body.dataset.view=view;if(view==='feed')closed++;},
-    announce:()=>{}
-  };
-  const back=()=>{
-    open(ctx,'bbc-wire-1');
-    assert.equal(dom.window.document.body.dataset.view,'reader');
-    const button=dom.window.document.querySelector('#reader .back');
-    assert.ok(button);
-    assert.match(button.textContent,/BBC World headlines/);
-    return button;
-  };
-  const fire=(el,type,pointerType='touch',button=0)=>{
-    const evt=new dom.window.Event(type,{bubbles:true,cancelable:true});
-    Object.defineProperties(evt,{pointerType:{value:pointerType},button:{value:button}});
-    el.dispatchEvent(evt);
-  };
-  return {dom,ctx,back,fire,getCloseCount:()=>closed,scroll:()=>y,done:()=>{
-    globalThis.window=saved.window;globalThis.document=saved.document;
-    dom.window.close();
-  }};
+// Tests of the GENERATED Android reader, including an entire Fire touch:
+// the old pointerdown patch changed to feed before pointerup, allowing
+// the remaining finger event to open the feed card underneath.
+function setup(filter='bbc'){
+ const dom=new JSDOM('<body data-view="feed"><button id="card"></button><article id="reader" tabindex="-1"></article></body>',{url:'https://localhost',pretendToBeVisual:true});
+ const saved={window:globalThis.window,document:globalThis.document};
+ globalThis.window=dom.window;globalThis.document=dom.window.document;
+ let scroll=210,closed=0,refreshes=0;
+ const tasks=[];
+ Object.defineProperty(dom.window,'scrollY',{get:()=>scroll,configurable:true});
+ dom.window.scrollTo=(_x,y)=>{scroll=y;};
+ dom.window.requestAnimationFrame=cb=>cb();
+ dom.window.setTimeout=cb=>{tasks.push(cb);return tasks.length;};
+ const ctx={
+  state:{filter,articles:[{id:'bbc-wire-1',source:'bbc',title:'Fire test story',published:'2026-10-13T22:00:00Z',summary:'Text'}]},
+  sourceOf:id=>id==='bbc'?{id:'bbc',name:'BBC World',color:'#222',tag:'BBC'}:null,
+  show:view=>{dom.window.document.body.dataset.view=view;if(view==='feed')closed++;},
+  refresh:()=>{refreshes++;},announce:()=>{}
+ };
+ const openStory=()=>{
+  open(ctx,'bbc-wire-1');assert.equal(dom.window.document.body.dataset.view,'reader');
+  const back=dom.window.document.querySelector('.back');
+  assert.ok(back);assert.match(back.textContent,/BBC World headlines/);
+  return back;
+ };
+ const fire=(target,type,pointerType='touch',button=0)=>{
+  const evt=new dom.window.Event(type,{bubbles:true,cancelable:true});
+  Object.defineProperties(evt,{pointerType:{value:pointerType},button:{value:button}});
+  target.dispatchEvent(evt);
+ };
+ const flush=()=>{let limit=12;while(tasks.length){if(--limit===0)throw Error('back timer loop');tasks.shift()();}};
+ const card=dom.window.document.querySelector('#card');
+ card.addEventListener('pointerup',()=>{if(dom.window.document.body.dataset.view==='feed')openStory();});
+ return {dom,ctx,openStory,fire,flush,card,closed:()=>closed,scroll:()=>scroll,refreshes:()=>refreshes,
+  done:()=>{globalThis.window=saved.window;globalThis.document=saved.document;dom.window.close();}};
 }
-test('Fire-only pointerup without click returns to publisher headlines',()=>{
- const t=harness();try{
-  const btn=t.back();
-  t.fire(btn,'pointerup');
+test('pointerdown alone never navigates; pointercancel does not navigate',()=>{
+ const t=setup();try{
+  const b=t.openStory();t.fire(b,'pointerdown');t.fire(b,'pointercancel');t.flush();
+  assert.equal(t.dom.window.document.body.dataset.view,'reader');assert.equal(t.closed(),0);
+ }finally{t.done();}
+});
+test('a complete touch cannot release over a now-exposed feed card',()=>{
+ const t=setup();try{
+  const b=t.openStory();t.fire(b,'pointerdown');
+  const released=t.dom.window.document.body.dataset.view==='feed'?t.card:b;
+  t.fire(released,'pointerup');t.flush();
   assert.equal(t.dom.window.document.body.dataset.view,'feed');
-  assert.equal(t.getCloseCount(),1);
-  assert.equal(t.ctx.state.filter,'bbc');
-  assert.equal(t.scroll(),210);
+  assert.equal(t.closed(),1);assert.equal(t.scroll(),210);
  }finally{t.done();}
 });
-test('pointerdown, pointerup, click from one touch closes exactly once',()=>{
- const t=harness();try{
-  const btn=t.back();
-  for(const type of ['pointerdown','pointerup','click'])t.fire(btn,type);
-  assert.equal(t.getCloseCount(),1);
-  assert.equal(t.dom.window.document.body.dataset.view,'feed');
+test('Fire pointerup works when no click is delivered',()=>{
+ const t=setup();try{
+  t.fire(t.openStory(),'pointerup');
+  assert.equal(t.dom.window.document.body.dataset.view,'reader');t.flush();
+  assert.equal(t.dom.window.document.body.dataset.view,'feed');assert.equal(t.closed(),1);
  }finally{t.done();}
 });
-test('keyboard/accessibility click works without any pointer event',()=>{
- const t=harness();try{
-  const btn=t.back();
-  t.fire(btn,'click','',0);
-  assert.equal(t.getCloseCount(),1);
- }finally{t.done();}
+test('Fire touchend works without pointerup or click',()=>{
+ const t=setup();try{t.fire(t.openStory(),'touchend');t.flush();assert.equal(t.closed(),1);}finally{t.done();}
 });
-test('nonprimary mouse button does not close reader',()=>{
- const t=harness();try{
-  const btn=t.back();
-  t.fire(btn,'pointerdown','mouse',2);
+test('pointerdown pointerup touchend click make one return only',()=>{
+ const t=setup();try{
+  const b=t.openStory();
+  for(const ev of ['pointerdown','pointerup','touchend','click'])t.fire(b,ev);
   assert.equal(t.dom.window.document.body.dataset.view,'reader');
-  t.fire(btn,'pointerdown','touch',0);
-  assert.equal(t.getCloseCount(),1);
+  t.flush();assert.equal(t.closed(),1);
  }finally{t.done();}
 });
-test('after reopening another article, fresh Back control works again',()=>{
- const t=harness();try{
-  t.fire(t.back(),'pointerup');
-  t.fire(t.back(),'pointerup');
-  assert.equal(t.getCloseCount(),2);
+test('keyboard click alone returns to headlines',()=>{
+ const t=setup();try{t.fire(t.openStory(),'click','',0);t.flush();assert.equal(t.closed(),1);}finally{t.done();}
+});
+test('nonprimary mouse pointerup and click cannot close',()=>{
+ const t=setup();try{
+  const b=t.openStory();t.fire(b,'pointerup','mouse',2);t.fire(b,'click','mouse',2);t.flush();
+  assert.equal(t.closed(),0);assert.equal(t.dom.window.document.body.dataset.view,'reader');
+ }finally{t.done();}
+});
+test('old queued Back cannot close a subsequently reopened article',()=>{
+ const t=setup();try{
+  t.fire(t.openStory(),'pointerup');t.openStory();t.flush();
+  assert.equal(t.closed(),0);assert.equal(t.dom.window.document.body.dataset.view,'reader');
+ }finally{t.done();}
+});
+test('each fresh Back works after opening another article',()=>{
+ const t=setup();try{
+  t.fire(t.openStory(),'pointerup');t.flush();
+  t.fire(t.openStory(),'pointerup');t.flush();
+  assert.equal(t.closed(),2);
+ }finally{t.done();}
+});
+test('All Sources opens publisher headlines for Back rather than mixed feed',()=>{
+ const t=setup('ALL');try{
+  t.fire(t.openStory(),'pointerup');t.flush();
+  assert.equal(t.ctx.state.filter,'bbc');assert.equal(t.refreshes(),1);
+  assert.equal(t.closed(),1);
  }finally{t.done();}
 });

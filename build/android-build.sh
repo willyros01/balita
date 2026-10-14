@@ -21,7 +21,7 @@ const content=fs.readFileSync(p,'utf8');
 const code=100000+Number(process.env.GITHUB_RUN_NUMBER||1);
 if(!Number.isSafeInteger(code)||code<=0||code>2100000000)throw Error('invalid Android versionCode');
 if(!/^\s*versionCode\s+\d+/m.test(content)||!/^\s*versionName\s+["'][^"']+["']/m.test(content))throw Error('Android Gradle version fields changed');
-fs.writeFileSync(p,content.replace(/^(\s*versionCode\s+)\d+/m,'$1'+code).replace(/^(\s*versionName\s+)["'][^"']+["']/m,'$1"0.17.59"'));
+fs.writeFileSync(p,content.replace(/^(\s*versionCode\s+)\d+/m,'$1'+code).replace(/^(\s*versionName\s+)["'][^"']+["']/m,'$1"0.17.60"'));
 JS
 bash build/android-sign.sh
 trap 'rm -f android/app/wire-signing.p12 android/app/wire-sign.gradle' EXIT
