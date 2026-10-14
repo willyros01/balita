@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-14T22:01:30.212Z",
+  "updated": "2026-10-14T22:31:14.034Z",
   "sources": [
     {
       "id": "inq",
@@ -53,48 +53,23 @@
   ],
   "articles": [
     {
-      "id": "inqn-1v31v2u",
+      "id": "inqn-1cb7rwv",
       "source": "inqn",
-      "title": "Ridon to Carpio’s massive shoe bill: Only oligarchs are sports patrons",
-      "summary": "MANILA, Philippines — Bicol Saro party-list Rep. Terry Ridon has asked whether Vice President Sara Duterte’s husband Manases Carpio considers himself an oligarch, as the reason that he gave for huge…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-14T22:01:19.752Z",
-      "firstSeen": "2026-10-14T18:01:01.042Z",
-      "url": "https://newsinfo.inquirer.net/2324105/ridon-to-carpios-massive-shoe-bill-only-oligarchs-are-sports-patrons",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Terry-Ridon-14September2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Bicol Saro party-list Rep. Terry Ridon has asked whether Vice President Sara Duterte’s husband Manases Carpio considers himself an oligarch, as the reason that he gave for huge sports apparel purchases—supporting basketball teams—is often reserved for big business players. Ridon, in an interview on the sidelines of Duterte’s impeachment trial, maintained that"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-ckdw89",
-      "source": "inqn",
-      "title": "DepEd honors student who fought off Banga shooter",
-      "summary": "KORONADAL CITY, SOUTH COTABATO, Philippines — A 14-year-old student who fought off the gunman during a gun attack at Banga National High School in Banga, South Cotabato, last month said he was only…",
+      "title": "BARMM leaders firm up coalition to rule region",
+      "summary": "DAVAO CITY, Philippines — The incoming leadership of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) has vowed to mobilize the support of “all political actors that have significant…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T22:01:19.404Z",
-      "firstSeen": "2026-10-14T21:31:02.102Z",
-      "url": "https://newsinfo.inquirer.net/2323990/deped-honors-student-who-fought-off-banga-shooter",
+      "published": "2026-10-14T22:30:59.597Z",
+      "firstSeen": "2026-10-14T21:30:58.566Z",
+      "url": "https://newsinfo.inquirer.net/2323996/barmm-leaders-firm-up-coalition-to-rule-region",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Regions1308728.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Regions1308860.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "KORONADAL CITY, SOUTH COTABATO, Philippines — A 14-year-old student who fought off the gunman during a gun attack at Banga National High School in Banga, South Cotabato, last month said he was only concerned about keeping his classmates safe. Bryan Ezel Pamonag bared this during his recognition by the Department of Education (DepEd) during the"
+          "text": "DAVAO CITY, Philippines — The incoming leadership of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) has vowed to mobilize the support of “all political actors that have significant influence” in a bid to build a strong foundation for the regional government. On Wednesday, BARMM interim Chief Minister Abdulraof Macacua, who heads the Bangsamoro Federalist"
         }
       ],
       "truncated": true,
@@ -109,7 +84,7 @@
       "summary": "BAGUIO CITY, Philippines — Heeding the wishes of President Marcos, the city government is set to spend close to a billion pesos for the makeover of Maharlika Livelihood Complex, the summer capital’s…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T22:01:17.606Z",
+      "published": "2026-10-14T22:30:59.597Z",
       "firstSeen": "2026-10-14T21:31:00.373Z",
       "url": "https://newsinfo.inquirer.net/2323992/baguio-sets-p950m-to-fix-citys-first-shopping-mall",
       "image": {
@@ -128,13 +103,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-ckdw89",
+      "source": "inqn",
+      "title": "DepEd honors student who fought off Banga shooter",
+      "summary": "KORONADAL CITY, SOUTH COTABATO, Philippines — A 14-year-old student who fought off the gunman during a gun attack at Banga National High School in Banga, South Cotabato, last month said he was only…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-14T22:30:59.597Z",
+      "firstSeen": "2026-10-14T21:31:02.102Z",
+      "url": "https://newsinfo.inquirer.net/2323990/deped-honors-student-who-fought-off-banga-shooter",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Regions1308728.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "KORONADAL CITY, SOUTH COTABATO, Philippines — A 14-year-old student who fought off the gunman during a gun attack at Banga National High School in Banga, South Cotabato, last month said he was only concerned about keeping his classmates safe. Bryan Ezel Pamonag bared this during his recognition by the Department of Education (DepEd) during the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1v31v2u",
+      "source": "inqn",
+      "title": "Ridon to Carpio’s massive shoe bill: Only oligarchs are sports patrons",
+      "summary": "MANILA, Philippines — Bicol Saro party-list Rep. Terry Ridon has asked whether Vice President Sara Duterte’s husband Manases Carpio considers himself an oligarch, as the reason that he gave for huge…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-10-14T22:30:59.597Z",
+      "firstSeen": "2026-10-14T18:01:01.042Z",
+      "url": "https://newsinfo.inquirer.net/2324105/ridon-to-carpios-massive-shoe-bill-only-oligarchs-are-sports-patrons",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Terry-Ridon-14September2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Bicol Saro party-list Rep. Terry Ridon has asked whether Vice President Sara Duterte’s husband Manases Carpio considers himself an oligarch, as the reason that he gave for huge sports apparel purchases—supporting basketball teams—is often reserved for big business players. Ridon, in an interview on the sidelines of Duterte’s impeachment trial, maintained that"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-ihbnye",
       "source": "inqn",
       "title": "DENR ‘worried’ over El Niño threat to marine env’t",
       "summary": "MANILA, Philippines —The Department of Environment and Natural Resources (DENR) is watching out for possible coral bleaching and other adverse impacts to the marine environment due to a “very strong”…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T22:01:17.605Z",
+      "published": "2026-10-14T22:30:57.824Z",
       "firstSeen": "2026-10-14T21:30:53.102Z",
       "url": "https://newsinfo.inquirer.net/2324059/denr-worried-over-el-nino-threat-to-marine-envt",
       "image": {
@@ -159,7 +184,7 @@
       "summary": "MANILA, Philippines — The Federation of Free Farmers (FFF) on Wednesday urged Department of Agriculture (DA) Secretary Francisco Tiu Laurel Jr. to show “delicadeza” and take a leave of absence while…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T22:01:17.605Z",
+      "published": "2026-10-14T22:30:57.824Z",
       "firstSeen": "2026-10-14T21:30:53.102Z",
       "url": "https://newsinfo.inquirer.net/2324048/da-chief-urged-to-take-leave-amid-rice-import-probe",
       "image": {
@@ -184,7 +209,7 @@
       "summary": "MANILA, Philippines — Human Rights Watch (HRW) on Tuesday flagged a relocation site in Pampanga province for being situated in a low-lying area prone to flooding, noting that the resettlement was…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T22:01:17.605Z",
+      "published": "2026-10-14T22:30:57.824Z",
       "firstSeen": "2026-10-14T21:30:53.103Z",
       "url": "https://newsinfo.inquirer.net/2324050/group-flags-flood-prone-relocation-site-in-pampanga",
       "image": {
@@ -203,38 +228,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1cb7rwv",
-      "source": "inqn",
-      "title": "BARMM leaders firm up coalition to rule region",
-      "summary": "DAVAO CITY, Philippines — The incoming leadership of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) has vowed to mobilize the support of “all political actors that have significant…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-14T22:01:17.605Z",
-      "firstSeen": "2026-10-14T21:30:58.566Z",
-      "url": "https://newsinfo.inquirer.net/2323996/barmm-leaders-firm-up-coalition-to-rule-region",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Regions1308860.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "DAVAO CITY, Philippines — The incoming leadership of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) has vowed to mobilize the support of “all political actors that have significant influence” in a bid to build a strong foundation for the regional government. On Wednesday, BARMM interim Chief Minister Abdulraof Macacua, who heads the Bangsamoro Federalist"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1rqe942",
       "source": "inqn",
       "title": "SWS: Sept involuntary hunger surges to 22.6%",
       "summary": "MANILA, Philippines — More Filipino families experienced involuntary hunger, rising to 22.6 percent in September from 20.3 percent in June, according to the latest Social Weather Stations (SWS)…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T22:01:15.805Z",
+      "published": "2026-10-14T22:30:57.821Z",
       "firstSeen": "2026-10-14T22:01:15.805Z",
       "url": "https://newsinfo.inquirer.net/2324044/sws-sept-involuntary-hunger-surges-to-22-6",
       "image": {
@@ -259,7 +259,7 @@
       "summary": "MANILA, Philippines — The government on Wednesday assured the public that water processed using filtration technology is safe to drink as it prepares to roll out water treatment kits next week to…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T22:01:12.287Z",
+      "published": "2026-10-14T22:30:56.031Z",
       "firstSeen": "2026-10-14T22:01:12.287Z",
       "url": "https://newsinfo.inquirer.net/2324047/dswd-to-roll-out-filtration-kits-assures-public-treated-water-is-safe",
       "image": {
@@ -284,7 +284,7 @@
       "summary": "A slim majority of Filipinos think Vice President Sara Duterte should testify in person before the Senate impeachment court, according to the latest Pulse Asia survey. The September 2026 Ulat ng…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T22:01:05.526Z",
+      "published": "2026-10-14T22:30:50.672Z",
       "firstSeen": "2026-10-14T22:01:05.526Z",
       "url": "https://newsinfo.inquirer.net/2324055/pulse-asia-51-want-sara-duterte-to-testify-before-impeach-court",
       "image": {
@@ -303,38 +303,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1oytnx7",
-      "source": "inqg",
-      "title": "ICC rejects Duterte bid to put cap on prosecution evidence",
-      "summary": "MANILA, Philippines — The judges of the International Criminal Court (ICC) have rejected the motion of the former President Rodrigo Duterte’s lawyers that sought to limit the volume of prosecution…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-10-14T22:01:05.052Z",
-      "firstSeen": "2026-10-14T21:30:53.102Z",
-      "url": "https://globalnation.inquirer.net/342077/icc-rejects-duterte-bid-to-put-cap-on-prosecution-evidence",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/News1308870.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The judges of the International Criminal Court (ICC) have rejected the motion of the former President Rodrigo Duterte’s lawyers that sought to limit the volume of prosecution evidence to just 10,000 items. They also ordered the prosecution to identify exculpatory material—or the kind that potentially can be used to absolve the accused—in"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "inqn-1p4cdx8",
       "source": "inqn",
       "title": "Sara Duterte sees 2027 budget used to ‘reward’ conviction vote",
       "summary": "MANILA, Philippines — Vice President Sara Duterte on Wednesday raised the specter of the 2027 national budget being used to pressure senator-judges in her impeachment trial and reward lawmakers who…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T22:01:05.052Z",
+      "published": "2026-10-14T22:30:50.657Z",
       "firstSeen": "2026-10-14T22:01:05.052Z",
       "url": "https://newsinfo.inquirer.net/2324053/sara-duterte-sees-2027-budget-used-to-reward-conviction-vote",
       "image": {
@@ -353,13 +328,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-1oytnx7",
+      "source": "inqg",
+      "title": "ICC rejects Duterte bid to put cap on prosecution evidence",
+      "summary": "MANILA, Philippines — The judges of the International Criminal Court (ICC) have rejected the motion of the former President Rodrigo Duterte’s lawyers that sought to limit the volume of prosecution…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-10-14T22:30:50.657Z",
+      "firstSeen": "2026-10-14T21:30:53.102Z",
+      "url": "https://globalnation.inquirer.net/342077/icc-rejects-duterte-bid-to-put-cap-on-prosecution-evidence",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/News1308870.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The judges of the International Criminal Court (ICC) have rejected the motion of the former President Rodrigo Duterte’s lawyers that sought to limit the volume of prosecution evidence to just 10,000 items. They also ordered the prosecution to identify exculpatory material—or the kind that potentially can be used to absolve the accused—in"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1k9bqw",
       "source": "inqn",
       "title": "Prosecution: We saw VP team’s ploy to delay trial",
       "summary": "MANILA, Philippines — The House prosecution panel withdrew three articles of impeachment against Vice President Sara Duterte after determining that her defense team allegedly planned to stall or…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T22:01:05.004Z",
+      "published": "2026-10-14T22:30:50.598Z",
       "firstSeen": "2026-10-14T22:01:05.004Z",
       "url": "https://newsinfo.inquirer.net/2324042/prosecution-we-saw-vp-teams-ploy-to-delay-trial",
       "image": {
@@ -375,7 +375,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inqg-2sz7nc",
@@ -384,7 +384,7 @@
       "summary": "MANILA, Philippines — US President Donald Trump is attending the 49th Association of Southeast Asian Nations (Asean) Summit in Manila next month, but it’s uncertain if the controversial Pax Silica…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-10-14T22:01:05.004Z",
+      "published": "2026-10-14T22:30:50.598Z",
       "firstSeen": "2026-10-14T22:01:05.004Z",
       "url": "https://globalnation.inquirer.net/342080/trump-in-ph-next-month-for-asean-summit-palace",
       "image": {
@@ -395,6 +395,217 @@
         {
           "type": "p",
           "text": "MANILA, Philippines — US President Donald Trump is attending the 49th Association of Southeast Asian Nations (Asean) Summit in Manila next month, but it’s uncertain if the controversial Pax Silica deal will be signed during his visit. Palace press officer Claire Castro on Wednesday confirmed Trump’s attendance at the biannual gathering of the regional bloc"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "grd-1n3kfg4",
+      "source": "grd",
+      "title": "Ilhan Omar’s phone seized and relatives subpoenaed in criminal inquiry, source says",
+      "summary": "<p>Federal authorities issued more than a dozen grand jury subpoenas in inquiry into potential immigration fraud</p><ul><li><p><a…",
+      "byline": "Associated Press",
+      "section": "Ilhan Omar",
+      "published": "2026-10-14T22:22:14.000Z",
+      "firstSeen": "2026-10-14T22:30:50.598Z",
+      "url": "https://www.theguardian.com/us-news/2026/oct/14/ilhan-omar-phone-seized-relatives-subpoenaed",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/99e0f76a722d221d9650181d03e54a5fc22b6d4b/323_0_2853_2283/master/2853.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=8fc73354ca3c513da076235b84f799e7",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Federal authorities investigating the Minnesota representative Ilhan Omar seized the Democratic lawmaker’s phone and have issued more than a dozen grand jury subpoenas, including to some of her relatives, according to a person briefed on the inquiry."
+        },
+        {
+          "type": "p",
+          "text": "The subpoenas were issued for a grand jury collecting evidence in Minnesota as federal authorities probe potential fraud in Omar’s immigration paperwork, said the person, who spoke on the condition of anonymity because they were not authorized to discuss an ongoing investigation. The investigation led to federal agents searching Omar’s Washington DC home on Monday just weeks before the November midterms, in which Omar is seeking re-election."
+        },
+        {
+          "type": "p",
+          "text": "The scope of the investigation into Omar is unclear, though the secretary of the Department of Homeland Security, Markwayne Mullin, has suggested that authorities were examining potential crimes related to her family’s immigration paperwork."
+        },
+        {
+          "type": "p",
+          "text": "On Tuesday, Jeanine Pirro, the US attorney for the District of Columbia, said in a Fox News interview that “there are several investigations going on” related to Omar and that her office is also looking into issues concerning the lawmaker’s financial disclosures."
+        },
+        {
+          "type": "p",
+          "text": "“If there was a crime that was committed, it will be prosecuted,” Pirro said."
+        },
+        {
+          "type": "p",
+          "text": "The search of Omar’s home so close to next month’s midterm contests, which will determine control of the House and the Senate, was swiftly condemned by Democrats, who accused the administration of targeting the the representative for political purposes. Omar, in a statement on X, called the search an “attempt to target political enemies and weaponize federal law enforcement”."
+        },
+        {
+          "type": "p",
+          "text": "“For 10 years, Trump has targeted me with baseless lies and smear campaigns. This is just the latest escalation in his campaign of political intimidation,” she said. “I will not be silenced.”"
+        },
+        {
+          "type": "p",
+          "text": "A phone message seeking comment was left on Wednesday with a representative for Omar."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "Though the Republican focus on Omar’s background dates back years, the search notably took place three weeks before the November midterms, in which Omar is seeking re-election. The justice department has historically sought to avoid public investigative actions involving a candidate within 60 days of a primary or general election."
+        },
+        {
+          "type": "p",
+          "text": "Omar, who was first elected to the House in 2018, represents Minnesota’s fifth district, including Minneapolis. She is part of “the Squad” of progressive lawmakers who are a vibrant political force on the left wing of Congress but have also endured repeated attacks from Trump, dating back to his first term. She was one of the first two Muslim-American women in the House and the first African refugee to be elected to Congress."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-7kv7n7",
+      "source": "inq",
+      "title": "Malfoid and an unlikely boost for ‘Harry Potter’",
+      "summary": "Amid the J.K. Rowling hate train, Malfoid—the fan-made art of a female Draco—seems to be the one thing fans are happily agreeing upon... Keep on reading: Malfoid and an unlikely boost for ‘Harry…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-14T22:15:00.000Z",
+      "firstSeen": "2026-10-14T22:30:50.597Z",
+      "url": "https://lifestyle.inquirer.net/583636/malfoid-and-an-unlikely-boost-for-harry-potter/",
+      "image": {
+        "src": "https://lifestyle.inquirer.net/files/2026/10/1308628-e1791983529551-620x467.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Amid the J.K. Rowling hate train, Malfoid—the fan-made art of a female Draco—seems to be the one thing fans are happily agreeing upon... Keep on reading: Malfoid and an unlikely boost for ‘Harry Potter’"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-1osi1a9",
+      "source": "grd",
+      "title": "Will Trump’s economy sink Republicans in the US midterm elections? Our reporters answer your questions",
+      "summary": "<p>The high cost of living has Americans angrier than ever. Guardian reporters answer your questions about the economy before voters head to the polls</p><ul><li><p><a…",
+      "byline": "Lauren Aratani, Michael Sainato, Gaya Gupta and Heather Timmons",
+      "section": "US economy",
+      "published": "2026-10-14T22:10:13.000Z",
+      "firstSeen": "2026-10-14T22:30:50.657Z",
+      "url": "https://www.theguardian.com/community/live/2026/oct/14/us-economy-affordability-midterm-elections-republicans-trump",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/cbe7c9fb6ba442658aeaa7c92974e9addedd0b91/0_0_3000_2400/master/3000.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=901ad4cf18f230f8fb0c585a5fa56ddc",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Key events"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "19m agoWelcome to the conversation"
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Welcome to the conversation"
+        },
+        {
+          "type": "p",
+          "text": "Welcome to our latest US midterms live Q&A."
+        },
+        {
+          "type": "p",
+          "text": "With just over two weeks to election day on 3 November, the US economy is top of voters’ minds. Food and gas prices remain high, the job market is unstable, consumers are angrier than ever, and a new Fed chair, Kevin Warsh, took over this year."
+        },
+        {
+          "type": "p",
+          "text": "A team of business, labor and consumer rights reporters are here to answer your questions about the economy and how it could shape the midterm results. They’ve covered inflation, cost of living increases, tariffs, labor, policy proposals and more."
+        },
+        {
+          "type": "p",
+          "text": "Joining us on Thursday at 12pm ET on the Guardian US site: business reporter Lauren Aratani, labor reporter Michael Sainato, consumer and corporate rights reporter Heather Timmons, and business reporter Gaya Gupta."
+        },
+        {
+          "type": "p",
+          "text": "Sign in or sign up to join the conversation."
+        },
+        {
+          "type": "p",
+          "text": "The US politics team is hosting a series of reader Q&As leading up to the November US midterm elections. See our first three conversations, here:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The makeup of the Democratic party, plus key races to watch",
+            "Who are the groups financially backing the candidates in the midterms?",
+            "Will the Iran war cost Trump in the US midterm elections? Your questions answered"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Looking for more coverage ahead of the midterms? Sign up to The Stakes newsletter: your weekly guide to the US midterms"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1aiqeg6",
+      "source": "inq",
+      "title": "Josiela Mae Lagrimas from N. Samar is PH bet to Miss Intercontinental",
+      "summary": "MANILA, Philippines — The Philippines’ attempt at a third Miss Intercontinental victory now rests on the shoulders of Josiela Mae Lagrimas from Laoang, Northern Samar, who was crowned Mutya ng…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-14T22:08:18.000Z",
+      "firstSeen": "2026-10-14T22:30:50.657Z",
+      "url": "https://entertainment.inquirer.net/686901/josiela-mae-lagrimas-from-n-samar-is-ph-bet-to-miss-intercontinental",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/10/MNP26-intercon01-700x394.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Philippines’ attempt at a third Miss Intercontinental victory now rests on the shoulders of Josiela Mae Lagrimas from Laoang, Northern Samar, who was crowned Mutya ng Pilipinas-Intercontinental in ceremonies held at the Playtime FilOil Centre in San Juan City on Oct. 14. She bested 36 other aspirants from across the country and overseas Filipino communities to inherit the national crown from Miss Intercontinental fourth runner-up Christina Vanhefflin. Lagrimas will try to win the Miss Intercontinental title five years since Binibining Pilipinas Cinderella Faye Obeñita claimed the Philippines&#8217; second victory. Karen Gallman was the first Filipino woman to [&hellip;]... Keep on reading: Josiela Mae Lagrimas from N. Samar is PH bet to Miss Intercontinental"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-nz9412",
+      "source": "inq",
+      "title": "Watching the play 'Long Season' blossom",
+      "summary": "“Long Season” follows a Filipino migrant worker in a canning factory in Alaska in the 1900s. There, he experiences harsh conditions and discrimination at the hands of his American employers... Keep…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-14T22:00:00.000Z",
+      "firstSeen": "2026-10-14T22:30:50.669Z",
+      "url": "https://lifestyle.inquirer.net/583656/long-season-reading/",
+      "image": {
+        "src": "https://lifestyle.inquirer.net/files/2026/10/1308645-620x419.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "“Long Season” follows a Filipino migrant worker in a canning factory in Alaska in the 1900s. There, he experiences harsh conditions and discrimination at the hands of his American employers... Keep on reading: Watching the play 'Long Season' blossom"
         }
       ],
       "truncated": true,
@@ -451,6 +662,74 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-1aou6ui",
+      "source": "grd",
+      "title": "Luna, dog missing in Yellowstone for a month, is reunited with her owners",
+      "summary": "<p>Jack Russell terrier that escaped from family’s cabin in September was caught in a live trap</p><p>Luna, a Jack Russell terrier who eluded capture for over a month as concern for the dog’s…",
+      "byline": "Associated Press",
+      "section": "US news",
+      "published": "2026-10-14T21:50:15.000Z",
+      "firstSeen": "2026-10-14T22:30:52.728Z",
+      "url": "https://www.theguardian.com/us-news/2026/oct/14/luna-dog-missing-yellowstone-found",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/f9da8ff423203b2cf48f7120d4d7e7d4de7eb334/0_494_2855_2283/master/2855.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=a62d6edb259b7a38f5361d740f6c400d",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Luna, a Jack Russell terrier who eluded capture for over a month as concern for the dog’s survival mounted ahead of winter in Yellowstone national park, was caught in a live trap Wednesday and reunited with her owners."
+        },
+        {
+          "type": "p",
+          "text": "The 10-year-old dog had been spotted crossing intersections, strolling through employee housing and entering lodges through automatic doors at the sprawling national park that’s home to grizzly bears, wolves and other predators."
+        },
+        {
+          "type": "p",
+          "text": "Katie Boucher, the volunteer leading the rescue effort and a spokesperson for the dog’s California owners, said she found Luna in the trap baited with scraps from a T-shirt and pillowcase belonging to the family. Boucher took Luna to a veterinarian, who was examining her Wednesday afternoon."
+        },
+        {
+          "type": "p",
+          "text": "“She’s underweight, but that’s to be expected. She’s alert and in good spirits,” Boucher said. “I was crying all the way up here from the park.”"
+        },
+        {
+          "type": "p",
+          "text": "Luna escaped from her family’s cabin on 10 September. Boucher said the dog had spent her first year on the streets before being adopted and showed strong survival instincts during her foray into the wilderness."
+        },
+        {
+          "type": "p",
+          "text": "The day Luna escaped, the family left her in their cabin with a “Do Not Disturb” sign while they ventured out to explore the park. In what they believe was an accident, housekeeping apparently opened the room door and Luna got free."
+        },
+        {
+          "type": "p",
+          "text": "“The staff then proceeded to chase her around that area of the park for over two hours before the owners came back and discovered all the chaos and their dog missing,” Boucher said."
+        },
+        {
+          "type": "p",
+          "text": "Yellowstone was the first US national park and covers about 3,500 sq miles (some 9,000 sq km) including portions of Wyoming, Montana and Idaho."
+        },
+        {
+          "type": "p",
+          "text": "Luna’s family searched for their dog, but were told the white terrier probably died, possibly killed by a coyote, Boucher recounted. Days after leaving Yellowstone, the owners were advised Luna had been spotted, and contacted Boucher, president of the Norris Ark Training and Recovery Center in Norris, Montana, just north of the national park."
+        },
+        {
+          "type": "p",
+          "text": "Boucher tracked sightings of Luna and said the dog retraced her family’s steps from the day before she was lost, sneaking into eateries or lodges they had visited."
+        },
+        {
+          "type": "p",
+          "text": "Locals and tourists called out Luna’s name or chased her, triggering her fight-or-flight response and driving her further into the park, Boucher said. The volunteers set a live trap using the family’s scent to draw Luna in, avoiding food that could attract bears or other wildlife. “MISSING DOG” leaflets with two photos of the small dog on short stubby legs were handed out."
+        },
+        {
+          "type": "p",
+          "text": "Boucher said this was the last week she would have been able to search for Luna as the approach of colder weather could potentially limit how long she could stay in the park. She was sleeping at an RV park for seasonal employees that closes next Monday."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inqn-1iqnt34",
@@ -805,7 +1084,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-1rrqgv0",
@@ -940,66 +1219,6 @@
         {
           "type": "p",
           "text": "Asked what specific actions Beijing should take, Teodoro said China must retreat from assertions of sovereignty and jurisdiction over areas where it had no rights under international law and the United Nations Convention on the Law of the Sea. /cb"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-ngvpv7",
-      "source": "grd",
-      "title": "Pennsylvania woman allegedly kills husband and son before attempting suicide at resort",
-      "summary": "<p>Police arrested Metallica Rose Harrison, 27, after reports of a ‘distressed female’ at the Great Wolf Lodge resort</p><p>A Pennsylvania woman allegedly killed her husband and her three-year-old…",
-      "byline": "Guardian staff",
-      "section": "Pennsylvania",
-      "published": "2026-10-14T21:23:12.000Z",
-      "firstSeen": "2026-10-14T22:01:07.044Z",
-      "url": "https://www.theguardian.com/us-news/2026/oct/14/great-wolf-lodge-woman-allegedly-kills-husband-son",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/6369dfe7f4427dfa0998fa206d81e3044fe316b7/414_0_4101_3280/master/4101.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=c14b168b9c9285c4759bbcfc37ac81f0",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A Pennsylvania woman allegedly killed her husband and her three-year-old son at a resort in the Poconos Mountains of Pennsylvania this week before attempting suicide, according to local officials."
-        },
-        {
-          "type": "p",
-          "text": "Pocono Township police responded to reports of a “distressed female” at the Great Wolf Lodge resort, with the woman, identified as 27-year old Metallica Rose Harrison of Towanda, Pennsylvania, by police."
-        },
-        {
-          "type": "p",
-          "text": "According to a criminal complaint reviewed by local outlets, Harrison allegedly told police she “wanted to be with her husband and son”, who were both found dead in the room with stab wounds to their chests. Her husband has been identified as Charles Harrison in the criminal complaint. Her son was identified only as “TH.”"
-        },
-        {
-          "type": "p",
-          "text": "Investigators found a butcher’s knife and smaller knife on the premises."
-        },
-        {
-          "type": "p",
-          "text": "Harrison had cuts on her left wrist and neck and was taken to a local hospital, allegedly saying, according to the complaint: “Every day, I work so hard to be the best person, the best mother, the best wife. It wasn’t supposed to end like this. I was supposed to have my happy family. That’s what I envisioned since I was a child.”"
-        },
-        {
-          "type": "p",
-          "text": "The family had checked in to the resort on 21 September and were scheduled to check out on Tuesday, the complaint said."
-        },
-        {
-          "type": "p",
-          "text": "She has been charged with two counts of criminal homicide."
-        },
-        {
-          "type": "p",
-          "text": "“This case is an isolated domestic tragedy and there is no threat to the community,” Pocono Township police said."
-        },
-        {
-          "type": "p",
-          "text": "In a statement to the Guardian, the resort said: “We are deeply saddened and heartbroken by a tragic domestic incident that occurred yesterday in a guest room at our resort in the Pocono Mountains. It was an isolated family incident, and we’re cooperating fully with local law enforcement as they conduct their investigation. Our thoughts are with the family and loved ones of those affected.”"
-        },
-        {
-          "type": "p",
-          "text": "The Guardian has reached out to the Monroe county district attorney’s office for additional comment."
         }
       ],
       "truncated": false,
@@ -1197,7 +1416,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-2jdw3g",
@@ -1348,81 +1567,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "direct HTTP 403"
-    },
-    {
-      "id": "inq-15zzjvg",
-      "source": "inq",
-      "title": "US hypocrisy in ICC sanctions",
-      "summary": "In yet another proof that the world’s most powerful country has entrenched itself in the company of rogue states, the United States has imposed sanctions on the International Criminal Court (ICC) as…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-14T21:13:00.000Z",
-      "firstSeen": "2026-10-14T21:31:02.185Z",
-      "url": "https://opinion.inquirer.net/195694/us-hypocrisy-in-icc-sanctions",
-      "image": {
-        "src": "https://opinion.inquirer.net/files/2025/10/Flea-Market-Of-Ideas-Joel-Ruiz-Butuyan2-300x169.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "In yet another proof that the world’s most powerful country has entrenched itself in the company of rogue states, the United States has imposed sanctions on the International Criminal Court (ICC) as an institution. The US had previously sanctioned 17 judges, prosecutors, and senior staff of the ICC, but that wasn’t enough, apparently. It has [&hellip;]... Keep on reading: US hypocrisy in ICC sanctions"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-cskcfz",
-      "source": "inq",
-      "title": "A ban for convenience",
-      "summary": "The Senate approved on third and final reading Senate Bill No. 2424 or the proposed Safe Media Access and Responsible Technology for Kids in Digital Spaces (Smart Kids) Act, which would bar persons…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-14T21:11:00.000Z",
-      "firstSeen": "2026-10-14T21:31:03.902Z",
-      "url": "https://opinion.inquirer.net/195692/a-ban-for-convenience",
-      "image": {
-        "src": "https://opinion.inquirer.net/files/2024/04/safe-space-anna-cristina-tuazon-300x169.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Senate approved on third and final reading Senate Bill No. 2424 or the proposed Safe Media Access and Responsible Technology for Kids in Digital Spaces (Smart Kids) Act, which would bar persons below 18 years of age from “high-risk” digital platforms. This will be reconciled with the House’s version, which set a minimum age [&hellip;]... Keep on reading: A ban for convenience"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-eq4q8p",
-      "source": "inq",
-      "title": "Extinguishing pol dynasties’ ‘breeding ground’",
-      "summary": "Elections for the country’s most basic political unit have been postponed again, and we’ve lost count of how many times the barangay and Sangguniang Kabataan elections (BSKE) have been canceled or…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-14T21:09:00.000Z",
-      "firstSeen": "2026-10-14T21:31:03.904Z",
-      "url": "https://opinion.inquirer.net/195693/extinguishing-pol-dynasties-breeding-ground",
-      "image": {
-        "src": "https://opinion.inquirer.net/files/2024/07/MOVING-INTO-HIGH-GEAR-MICHAEL-LIM-UBAC-18July2024-300x169.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Elections for the country’s most basic political unit have been postponed again, and we’ve lost count of how many times the barangay and Sangguniang Kabataan elections (BSKE) have been canceled or postponed before. But this column won’t address the pros and cons of the postponement because lawyer Romulo Macalintal has already filed a petition for [&hellip;]... Keep on reading: Extinguishing pol dynasties’ ‘breeding ground’"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqn-1ay6vd6",
@@ -1589,82 +1733,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "grd-1t73iiy",
-      "source": "grd",
-      "title": "Ex-fiance of Nancy Mace and two others charged with sex crimes she detailed in House speech",
-      "summary": "<p>Republican representative described the assault in a nearly hourlong speech in February 2025 that named the men</p><p>Nancy Mace’s former fiance and two of his business associates were charged…",
-      "byline": "Associated Press",
-      "section": "South Carolina",
-      "published": "2026-10-14T20:49:48.000Z",
-      "firstSeen": "2026-10-14T21:00:56.579Z",
-      "url": "https://www.theguardian.com/us-news/2026/oct/14/ex-fiance-nancy-mace-sex-crimes-speech",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/c25a007cba0046626ba594ac635b5ac1039182f2/0_0_3300_2640/master/3300.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=26f95c44bc80a914ff791d75c2eacd68",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Nancy Mace’s former fiance and two of his business associates were charged with sex crimes and voyeurism on Wednesday over an episode the South Carolina representative described in detail during a speech last year on the House floor, about how crimes against women are not investigated thoroughly."
-        },
-        {
-          "type": "p",
-          "text": "John Douglas Osborne committed sex acts on a 23-year-old incapacitated and intoxicated woman while Mace’s ex-fiance Patrick Bryant and Eric Bernard Bowman watched, according to sworn statements by agents from the state law enforcement division, which brought the charges."
-        },
-        {
-          "type": "p",
-          "text": "The men talked about who would assault the woman beforehand, took photos and recorded the assault, which was also seen on a security system feed at the home in Sullivan’s Island, an affluent suburb of Charleston, state agents said. The woman had fallen into a pool and was passed out on a couch covering herself with a pillow, agents said."
-        },
-        {
-          "type": "p",
-          "text": "Another woman who happened to be watching the feed saw the assault and took pictures and wrote about it in a journal, police said. Mace and Bryant were not yet engaged at the time of the October 2018 assault."
-        },
-        {
-          "type": "p",
-          "text": "Osborne, 46, is charged with first-degree assault and battery and two counts of third-degree criminal sexual conduct. Bryant, 53, and Bowman, 46, are each charged with voyeurism."
-        },
-        {
-          "type": "p",
-          "text": "Along with the voyeurism charge, Bowman was also charged with obstruction of justice after agents said he did a factory reset on a phone he knew investigators were seeking in a search warrant, and by publishing the name of a victim of criminal sexual conduct after posting the victim’s name and a video of her on X."
-        },
-        {
-          "type": "p",
-          "text": "Bryant didn’t return a message seeking comment on Wednesday, and attorneys who have been listed as representing Bowman and Osborne in other cases did not immediately return messages."
-        },
-        {
-          "type": "p",
-          "text": "Mace, a Republican, described the assault at length in a nearly hourlong speech in February 2025 that named the men and described other photos and videos found when she looked at Bryant’s phone when they were still together."
-        },
-        {
-          "type": "p",
-          "text": "Mace said she “accidentally uncovered some of the most heinous crimes against women imaginable. We’re talking about rape, non-consensual photos, non-consensual videos of women and underage girls, and the premeditated, calculated exploitation of women and girls in my district”."
-        },
-        {
-          "type": "p",
-          "text": "At the time, Bryant completely denied the allegations. “I take this matter seriously and will cooperate fully with any necessary legal processes to clear my name,” he told The Associated Press."
-        },
-        {
-          "type": "p",
-          "text": "The State Law Enforcement Division didn’t say if their investigation into any of the men is continuing."
-        },
-        {
-          "type": "p",
-          "text": "After the arrests, Mace released a statement detailing the 25 bills she says will protect victims of sexual assault, harassment or discrimination, including in retaliatory defamation and libel lawsuits that may result from allegations they bring to light."
-        },
-        {
-          "type": "p",
-          "text": "The Republican, who is leaving the House this term after losing her bid to be South Carolina governor, introduced a proposal this week to require that anyone who brings such a case and loses must pay attorney fees for the defendant."
-        },
-        {
-          "type": "p",
-          "text": "“Protecting women and holding predators accountable isn’t a slogan. It’s been one of my top priorities in Congress. For too long, survivors have faced broken systems while predators exploited loopholes and walked free,” Mace said in her statement."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "bbc-3iohhz",
@@ -3836,98 +3904,6 @@
         {
           "type": "p",
           "text": "With files from The Canadian Press"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-1f4wshy",
-      "source": "grd",
-      "title": "Israel blocks construction of key Gaza base created by Trump peace board",
-      "summary": "<p>Source tells Guardian Israel has not permitted US-led project to house 150 international troops to move forward</p><p>Israel is refusing to allow a key military outpost project for Donald Trump’s…",
-      "byline": "Aram Roston in Washington",
-      "section": "US foreign policy",
-      "published": "2026-10-14T19:19:52.000Z",
-      "firstSeen": "2026-10-14T19:30:54.364Z",
-      "url": "https://www.theguardian.com/us-news/2026/oct/14/israel-trump-peace-board-gaza-base",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/b2a4ea1fb3b2cc584bb8c80be6d1f4d83881395a/625_0_6227_4985/master/6227.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=04133a77da6237deb703ede048301a7d",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Israel is refusing to allow a key military outpost project for Donald Trump’s Board of Peace to proceed in Gaza, the Guardian has learned."
-        },
-        {
-          "type": "p",
-          "text": "In early August, the Board of Peace, the international organization authorized in 2025 by the UN and chaired by the US president, issued its first construction contract for Gaza: Louisiana-based Arkel International would construct a military outpost for 150 international troops that would be the vanguard of an international stabilization force."
-        },
-        {
-          "type": "p",
-          "text": "Two months later, Israel has still not permitted the contract to move forward, according to a person with direct knowledge of the matter. Contractors and trucks are not being allowed to cross into Gaza and begin the work. “Israel won’t open the border,” they said."
-        },
-        {
-          "type": "p",
-          "text": "A Board of Peace spokesperson declined to comment. Neither the Israeli Defense Forces nor the Israeli government responded to requests for comment."
-        },
-        {
-          "type": "p",
-          "text": "Israel’s war in Gaza is one of the eight wars Trump claims to have resolved. He listed it again last week in a screed on social media, protesting that it was unfair he had not won the Nobel peace prize."
-        },
-        {
-          "type": "p",
-          "text": "The Board of Peace, formed in the wake of an October 2025 ceasefire in Gaza, is central to Trump’s claims to have ended the conflict."
-        },
-        {
-          "type": "p",
-          "text": "Arkel’s planned “mission support site temporary outpost” is decidedly rudimentary: a fortified position of about 100 meters by 100 meters, at a site that was once part of the controversial and now defunct Gaza Humanitarian Foundation project, according to the person familiar with the matter. The US-backed GHF operated in Gaza from May 2025 till October 2025 to deliver aid protected by private contractors."
-        },
-        {
-          "type": "p",
-          "text": "The base would host short rotating deployments of a well-armed force of 150 troops in Gaza, the person said. They would come from a larger component of 500 sent already from Morocco and Kosovo."
-        },
-        {
-          "type": "p",
-          "text": "But without this contract, the source said, the rest of the Board of Peace program cannot launch. Israel’s refusal to allow Arkel, the contractor, to build the base, essentially cuts the Board of Peace off at the legs."
-        },
-        {
-          "type": "p",
-          "text": "“You can’t get in without [an international stabilization force (ISF)]. You can’t rebuild,” the person said. “There’s no security. There’s no deliveries of construction equipment. You can’t even start putting utilities. You can’t start putting in basic life-support facilities you know because without the ISF you can’t go in.”"
-        },
-        {
-          "type": "p",
-          "text": "The person familiar with the matter said the Board of Peace believes that Israel’s government will let the project proceed after the Israeli elections, which are scheduled for 27 October."
-        },
-        {
-          "type": "p",
-          "text": "The controversial Board of Peace has a unique structure. Trump is designated as chair for life. Trump’s son-in-law, Jared Kushner, is an executive board member, as is real estate developer Steve Witkoff, who Trump has appointed as a mediator in various international disputes."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "Though many western democracies have kept their distance from the Board of Peace, 28 countries joined as founding members earlier this year. Kushner has unveiled renderings of a futuristic vision of Gaza, where the city was envisioned as a pristine luxury waterfront resort city with hi-tech skyscrapers looking out over the Mediterranean."
-        },
-        {
-          "type": "p",
-          "text": "On 23 September the group unveiled what it said was a six-month, $2.45bn plan, as the first step towards reconstruction with a 10-year estimated cost of $71bn."
-        },
-        {
-          "type": "p",
-          "text": "There were lofty promises and requests for contributions. “Today we can point to real progress,” announced Witkoff."
-        },
-        {
-          "type": "p",
-          "text": "A US senior adviser to the board, Aryeh Lightstone, announced a new fund would be started. “Your high net-worth donations will go directly to the Palestinian people,” he said. Lightstone has traveled in Trump circles since the president’s first term. He officiated as a rabbi at the 2020 wedding of Trump adviser Stephen Miller to Katie Miller."
-        },
-        {
-          "type": "p",
-          "text": "Israel has continued strikes in Gaza since the October ceasefire, killing approximately 1,400 people over that time, according to Gaza health authorities."
         }
       ],
       "truncated": false,
@@ -15012,7 +14988,7 @@
       "byline": "",
       "section": "",
       "published": "2026-10-14T07:29:44.000Z",
-      "firstSeen": "2026-10-14T22:01:05.004Z",
+      "firstSeen": "2026-10-14T22:30:50.598Z",
       "url": "https://www.abs-cbn.com/",
       "image": null,
       "blocks": [],
