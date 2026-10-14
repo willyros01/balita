@@ -61,13 +61,24 @@ sub('reader.js','onTap(back, () => close(ctx));',`
 `);
 sub('reader.js','  el.innerHTML = "";', '  el.innerHTML = "";\\n  el.dataset.articleId = id;'.replace('\\n','\n'));
 sub('reader.js','  const src = ctx.sourceOf(a.source);',`  const src = ctx.sourceOf(a.source);
-  // Return from All Sources to this article's own publisher headlines.
-  if (src && ctx.state.filter === "ALL") {
-    ctx.state.filter = src.id;
+  // Preserve the All Sources list while opening; only select this
+  // publisher after Back, once the original finger gesture is over.
+  el.dataset.returnSource = src && ctx.state.filter === "ALL" ? src.id : "";
+`);
+sub('reader.js','  const returnSource = ctx.state.filter === "ALL" ? null : ctx.sourceOf(ctx.state.filter);',
+  '  const returnSource = el.dataset.returnSource ? ctx.sourceOf(el.dataset.returnSource) : ctx.state.filter === "ALL" ? null : ctx.sourceOf(ctx.state.filter);');
+sub('reader.js','export function close(ctx){\\n  ctx.show("feed");'.replace('\\n','\n'),`export function close(ctx){
+  const el = document.getElementById("reader");
+  const sourceId = el && el.dataset.returnSource;
+  if (sourceId && ctx.sourceOf(sourceId)) {
+    ctx.state.filter = sourceId;
+    ctx.show("feed");
     ctx.refresh();
     const card = Array.from(document.querySelectorAll("[data-article-id]"))
-      .find(node => node.dataset.articleId === id);
+      .find(node => node.dataset.articleId === el.dataset.articleId);
     feedScrollY = card ? Math.max(0, card.offsetTop - 16) : 0;
+  } else {
+    ctx.show("feed");
   }`);
 sub('reader.js','  window.scrollTo(0, feedScrollY);',
   '  window.requestAnimationFrame(() => window.scrollTo(0, feedScrollY));');

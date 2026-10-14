@@ -96,7 +96,9 @@ test('each fresh Back works after opening another article',()=>{
 });
 test('All Sources opens publisher headlines for Back rather than mixed feed',()=>{
  const t=setup('ALL');try{
-  t.fire(t.openStory(),'pointerup');t.flush();
+  const b=t.openStory();
+  assert.equal(t.ctx.state.filter,'ALL');assert.equal(t.refreshes(),0);
+  t.fire(b,'pointerup');t.flush();
   assert.equal(t.ctx.state.filter,'bbc');assert.equal(t.refreshes(),1);
   assert.equal(t.closed(),1);
  }finally{t.done();}
