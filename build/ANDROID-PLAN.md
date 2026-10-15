@@ -1,3 +1,13 @@
+## Current Fire Android migration summary — 2026-10-15
+
+**Wire Android is development-FROZEN by owner** unless expressly restarted. `balita/android` preserves the current signed native reader, native Amazon **ADM** and Google FCM capability routing, and permanent signing. `balita/main` remains the **only production news-fetch/publish authority**. Do not edit or trigger feeds, native sender, Firebase, security profile, Wire API keys, Android builds or Cuberoot publishing during documentation maintenance.
+
+**Physical results:** Fire HD 8 **ADM notification receipt PASS** on version **0.17.58**. Its Back button intermittently **FAILED**, and further Android-only touch/back corrections (0.17.59 and later 0.17.60) were committed/tested according to chronological notes below; those automated tests do **not** constitute user-verified Back navigation on the latest installed version. Do not imply full **notification → correct article → Back to source headline** PASS until owner retests after installing the corresponding signed published build. Existing Wire ADM receipt must be preserved while FIDUNIO was repaired independently.
+
+The native reader consumes hosted `main` article JSON, maintains accessible large fonts and high contrast, keeps a private offline cache, and does not run a second fetcher. GitHub Actions signing/publisher and physical device validation are separate gates. Current source history remains below for exact run/commit identifiers.
+
+---
+
 # Wire Android migration — isolated reader build
 
 Status: Android 0.17.54 reader APK preparation. The existing `main` branch and its news-fetch workflow remain the ONLY production news source. No Android APK has been device-accepted.
