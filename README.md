@@ -1,3 +1,12 @@
+## Current Wire platform map — 2026-10-15 (documentation only)
+
+- `main` is the **production web/PWA source and sole production GitHub Actions news-fetch/publish sender**; continue to preserve reader accessibility, news expiry, publisher grouping, exact article IDs and browser notification behavior. Historic version details below are not Android device-acceptance claims.
+- `android` is the **separate signed Fire/Android reader**, with native Amazon **ADM** (or supported Google FCM) adapter. Its physical ADM receipt was user-confirmed on Fire HD 8; article **Back navigation** had subsequent failures and fixes, requiring a fresh owner device retest before claiming full notification→article→Back acceptance. See `android/build/ANDROID-PLAN.md`.
+- Do **not** run the news fetcher from Android, merge native A3L code into `main`, alter current Firebase/news-source publication, or modify the user-accepted working Wire notification service. Owner's development freeze allows documentation and non-development checks only.
+- Cuberoot distributes the existing signed Android artifact independently of the `main` web feed. A successful Android artifact or Cuberoot publisher is not a physical Fire functionality PASS.
+
+---
+
 # Wire
 
 News from anywhere, stripped of advertising and set for easy reading.
