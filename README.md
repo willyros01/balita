@@ -1,3 +1,9 @@
+## Wire Fire HD 8 Android branch — current record (2026-10-15)
+
+This existing `android` branch is the signed native reader and Amazon ADM/Google FCM adaptation for Wire, separate from `main` (the only live web/news-fetch authority). **Owner-confirmed ADM notification receipt PASS** on Fire HD 8 for 0.17.58; intermittent article Back failure and subsequent 0.17.59/0.17.60 Android-only touch fixes remain distinct from device acceptance. Read `build/ANDROID-PLAN.md`; do not claim end-to-end notification→article→Back PASS solely on CI. Wire app/backend are frozen; no builds or code changes are authorized by these notes.
+
+---
+
 # Wire
 
 News from anywhere, stripped of advertising and set for easy reading.
