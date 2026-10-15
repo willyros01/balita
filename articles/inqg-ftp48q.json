@@ -1,14 +1,17 @@
 {
   "id": "inqg-ftp48q",
   "source": "inqg",
-  "title": "North Korea test-fires cruise missiles from submarine: KCNA",
+  "title": "North Korea test-fires cruise missiles from submarine &#8211; KCNA",
   "summary": "SEOUL, South Korea &#8211; Pyongyang test-fired two types of cruise missile from a submarine, its state news agency said Thursday, after weeks of friction with Seoul over a landmine explosion along…",
   "byline": "ggaviola",
   "section": "Asia & Pacific",
-  "published": "2026-10-15T02:30:54.318Z",
+  "published": "2026-10-15T03:00:58.615Z",
   "firstSeen": "2026-10-15T02:30:54.318Z",
   "url": "https://globalnation.inquirer.net/342092/north-korea-test-fires-cruise-missiles-from-submarine-kcna",
-  "image": null,
+  "image": {
+    "src": "https://globalnation.inquirer.net/files/2026/10/N.-Korea-capable-of-overwhelming-US-homeland-missile-defense-___-expert-scaled.jpg",
+    "caption": ""
+  },
   "blocks": [
     {
       "type": "p",
@@ -18,5 +21,5 @@
   "truncated": true,
   "fx": 6,
   "source_of_text": "summary",
-  "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+  "why": "doorway HTTP 403; direct HTTP 403"
 }
