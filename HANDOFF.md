@@ -1,3 +1,9 @@
+## 2026-10-15 — Current web/Android separation
+
+The instructions below describe the **original web/PWA publishing model** and remain historical operational guidance. `balita/main` alone owns news fetch, `articles.json`, per-article endpoints and web/FCM/ADM sender. `balita/android` is a separately signed Fire/Android reader: its native ADM receipt passed on device, but later Back-button/touch-retarget fixes require separate acceptance. Never launch duplicate Android feed fetchers, change production sender while documenting native issues, or label a CI test equivalent to tapping an actual Fire tablet. Preserve owner's development freeze and current production baseline; docs updates only.
+
+---
+
 # HANDOFF — read this first
 
 A future session has no memory of how this was built. This file is the
