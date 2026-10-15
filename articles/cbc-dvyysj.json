@@ -1,0 +1,196 @@
+{
+  "id": "cbc-dvyysj",
+  "source": "cbc",
+  "title": "The 'leap second' could disappear. How a minor time adjustment became a major problem",
+  "summary": "For more than 50 years, humanity has used \"leap seconds\" to keep our clocks aligned with the rotation of the Earth. On Thursday, an international time-keeping body in France is expected to do away…",
+  "byline": "Kevin Maimann",
+  "section": "News/World",
+  "published": "2026-10-15T08:00:00.000Z",
+  "firstSeen": "2026-10-15T08:31:01.662Z",
+  "url": "https://www.cbc.ca/news/world/leap-second-decision-9.7381049?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/f1316151-1b49-47fb-9ca1-64a52995818e,1792015415867/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C225%2C4315%2C2427%29%3BResize%3D620",
+    "caption": "Clockmaker Scott Gow adjusts the hands of a clock at the Electric Time Company in Medfield, Mass., in 2024. An international body is voting Thursday to determine the future of 'leap second' time changes. (Charles Krupa/The Associated Press)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "World"
+    },
+    {
+      "type": "p",
+      "text": "For more than 50 years, humanity has used \"leap seconds\" to keep our clocks aligned with the rotation of the Earth. On Thursday, an international time-keeping body in France is expected to do away with leap seconds and let the clocks slip until they're out of alignment by a full hour — meaning it could be centuries, or even millennia, before another tweak is needed."
+    },
+    {
+      "type": "h",
+      "text": "International time-keeping body may vote to ditch the decades-long tradition Thursday"
+    },
+    {
+      "type": "p",
+      "text": "For more than 50 years, humanity has used \"leap seconds\" to keep our clocks aligned with the rotation of the Earth."
+    },
+    {
+      "type": "p",
+      "text": "On Thursday, an international timekeeping body in France is expected to do away with leap seconds and let the clocks slip until they're out of alignment by a full hour, which could take centuries or even millennia."
+    },
+    {
+      "type": "p",
+      "text": "The precise atomic time we use to track our days — developed in the 1950s and measured by tracking the natural vibrations of atoms — is slightly out of sync with solar time, which is based on the position of the sun in the sky relative to a specific location on Earth, because the planet's rotation has been gradually slowing."
+    },
+    {
+      "type": "p",
+      "text": "The leap second was introduced in 1972 as a way to correct the discrepancy. Ten seconds were added immediately, says Scott Beattie, lead of the frequency and time team at the National Research Council of Canada's Metrology Research Centre."
+    },
+    {
+      "type": "p",
+      "text": "Since then, the International Earth Rotation and Reference Systems Service, which tracks the difference between the solar day and atomic time, has monitored the discrepancy to determine when an extra second is needed."
+    },
+    {
+      "type": "p",
+      "text": "When that threshold is reached, the International Bureau of Weights and Measures adds a second at either the end of December or the end of June. Leap seconds have been added 27 times, most recently in 2016."
+    },
+    {
+      "type": "p",
+      "text": "Scott Beattie, lead of the frequency and time team at the National Research Council of Canada's Metrology Research Centre, says leap seconds are becoming increasingly difficult to manage as more systems rely on precise timekeeping. (National Research Council Canada)"
+    },
+    {
+      "type": "p",
+      "text": "If we didn't make those tiny adjustments, nothing would perceptibly change in our lifetimes. But eventually, Beattie says, \"you might get the brightest part of the day at midnight and the darkest part of day at noon.\""
+    },
+    {
+      "type": "p",
+      "text": "The concept is similar to leap years, whereby a day is added to the end of February every four years to keep the Gregorian calendar aligned with the seasons because the Earth's orbit around the sun takes about 365¼ days."
+    },
+    {
+      "type": "p",
+      "text": "Without leap years, our hottest months would eventually fall during what is now winter, and the colder months during summer, Beattie says."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Celebrating New Year's? You'll have to wait an extra second",
+        "2016 is getting a leap second"
+      ]
+    },
+    {
+      "type": "h",
+      "text": "What's the problem?"
+    },
+    {
+      "type": "p",
+      "text": "But the time has come when leap seconds seem to be causing more trouble than they're worth."
+    },
+    {
+      "type": "p",
+      "text": "\"The basic global agreement is that we want to do away with these abrupt leap seconds,\" Beattie said."
+    },
+    {
+      "type": "p",
+      "text": "That's because the small adjustment can be a headache for tech and telecommunications companies and infrastructure that relies on precise timekeeping."
+    },
+    {
+      "type": "p",
+      "text": "Sleep experts say permanent daylight time could negatively impact kids"
+    },
+    {
+      "type": "p",
+      "text": "Companies also have different ways of implementing leap seconds, such as changing their clock rates to stretch the extra second over several hours or an entire day."
+    },
+    {
+      "type": "p",
+      "text": "Beattie says that variation among networks creates a risk of system failures."
+    },
+    {
+      "type": "p",
+      "text": "The leap second was blamed for Reddit and LinkedIn crashes in 2012, for example, and brief outages at Cloudflare in 2016."
+    },
+    {
+      "type": "p",
+      "text": "\"The problem is that the needs for timing and network synchronicity are just going up and up, they're ever increasing,\" Beattie said. \"And so the risks are just increasing along with them, because all you need is for some system to not implement it properly and then you could have a cascade effect that could cause quite significant problems.\""
+    },
+    {
+      "type": "h",
+      "text": "Negative seconds?"
+    },
+    {
+      "type": "p",
+      "text": "There's another complicating twist."
+    },
+    {
+      "type": "p",
+      "text": "Over the last six years or so, the Earth's rotation has actually sped up, raising the possibility that a \"negative leap second\" — in which a second would be taken away — could be needed in the future."
+    },
+    {
+      "type": "p",
+      "text": "Tech giant Meta said in 2022 that a negative leap second could have a \"devastating effect\" on software, adding, \"In any case, every leap second is a major source of pain for people who manage hardware infrastructures.\""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Parts of northwestern Ontario moving to permanent daylight saving time in November",
+        "Seasonal time changes in N.W.T. officially end as of Nov. 1"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The proposed fix, which would take effect in May 2027, is instead to let those extra seconds add up to 3,600 — a full hour — before adjusting the clocks, pushing the issue many generations down the road."
+    },
+    {
+      "type": "p",
+      "text": "Not everyone is impressed by this approach."
+    },
+    {
+      "type": "p",
+      "text": "Paul Delaney, a York University physics and astronomy professor emeritus, says he was \"surprised\" to hear the proposal."
+    },
+    {
+      "type": "p",
+      "text": "\"It is a problem for an increasingly computerized, AI-oriented economy, and that's obviously what we have,\" he said. \"But that said, gosh, don't we still hire computer programmers to sort these sorts of things out? Some part of me says that we're throwing in the towel and saying, 'Oh, it's too difficult to do, and what the heck, it is just a second.'\""
+    },
+    {
+      "type": "h",
+      "text": "'Not a perfect system'"
+    },
+    {
+      "type": "p",
+      "text": "Samantha Lawler, an associate professor of astronomy at the University of Regina, says many factors affect the Earth's rotation speed, but it has tended to slow over time, in part because of the moon's effect on Earth's tides."
+    },
+    {
+      "type": "p",
+      "text": "But complex variables, including climate change and glacial melting, can cause changes in that trend."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "This is how fast Swiss glaciers, the 'water tower of Europe,' are melting away",
+        "Climate change past the point of no return, UN says, as worst impacts are now unavoidable"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "She says there is no perfect system for our clocks to account for these shifts and \"we'll be fine\" without leap seconds."
+    },
+    {
+      "type": "p",
+      "text": "\"This is a real human problem that we've been struggling with forever, as long as we've been watching the stars move across the sky and tracking when the sun rises and sets, and trying to get the patterns right,\" Lawler said."
+    },
+    {
+      "type": "p",
+      "text": "\"It's always going to be a little bit wrong, and I think we just have to accept that.\""
+    },
+    {
+      "type": "h",
+      "text": "ABOUT THE AUTHOR"
+    },
+    {
+      "type": "p",
+      "text": "Kevin Maimann is a senior writer for CBC News based in Edmonton. He has covered a wide range of topics for publications including VICE, the Toronto Star, Xtra Magazine and the Edmonton Journal. You can reach Kevin by email at kevin.maimann@cbc.ca."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
