@@ -1,3 +1,9 @@
+## 2026-10-15 — Android handoff and freeze (current)
+
+The original handoff below describes a web PWA; the current Fire HD 8 native migration is documented in `build/ANDROID-PLAN.md`. Native Amazon ADM notification **receipt passed** in Wire 0.17.58, but later Back-button navigation regression and Android-only follow-up corrections are **not independently physical-device accepted** in this snapshot. `main` solely owns news publication and notification sending; never start an Android feeder or change the working Wire ADM sender to diagnose another application. Android development remains explicitly frozen; keep signing, web endpoint, and existing APK untouched. Documentation-only edits allowed.
+
+---
+
 # HANDOFF — read this first
 
 A future session has no memory of how this was built. This file is the
