@@ -1,0 +1,121 @@
+{
+  "id": "dw-9i9a23",
+  "source": "dw",
+  "title": "Fact check: Misleading graph about alleged Russian bot activity",
+  "summary": "Did attacks on Russian data centers reduce bot activity around Germany's AfD? A viral graph claims they did. But it contains significant inconsistencies and provides no evidence to support the claim.",
+  "byline": "Max Gilbert",
+  "section": "",
+  "published": "2026-10-14T09:08:00.000Z",
+  "firstSeen": "2026-10-15T13:01:00.140Z",
+  "url": "https://www.dw.com/en/fact-check-misleading-graph-about-alleged-russian-bot-activity/a-79651769?maca=en-rss-en-all-1573-rdf",
+  "image": {
+    "src": "https://static.dw.com/image/79648644_6.jpg",
+    "caption": "The graph shows significant inconsistencies, and its data source is unclearImage: x.com/tomaszdechovsky"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "After Ukrainian drone attacks on data centers operated by the Russian technology company Yandex, claims began circulating online that the strikes had disrupted or even halted the activity of Russian propaganda bots. These accounts are often accused of spreading disinformation or artificially amplifying content on social media."
+    },
+    {
+      "type": "p",
+      "text": "During the Warsaw Security Forum, Ukrainian President Volodymyr Zelenskyy also suggested that the attacks on Yandex data centers had disrupted bot activity, saying \"there was less hate, less division, and fewer provocations [because] there were fewer bots.\""
+    },
+    {
+      "type": "p",
+      "text": "In response to BBC Verify, Zelenskyy's office said that, rather than referring to reduced bot activity, the president was \"talking about the atmosphere on social media.\" The office added that it had seen \"reports of fewer provocative and hateful comments\" from many social media users."
+    },
+    {
+      "type": "p",
+      "text": "So far, however, there is no clear evidence linking the attacks to a decline in bot activity."
+    },
+    {
+      "type": "p",
+      "text": "According to Josef Holnburger, managing director of the Center for Monitoring, Analysis and Strategy (CeMAS), there is currently \"no decline in Russian disinformation activities that could be explained by the attack on Yandex data centers.\" CeMAS systematically monitors such campaigns."
+    },
+    {
+      "type": "image",
+      "src": "https://static.dw.com/image/79643883_$%7BformatId%7D.jpg",
+      "caption": "Ukrainian President Volodymyr Zelenskyy suggested the attacks on Yandex data centers disrupted Russian activityImage: Ukrainian Presidential Press Service/AFP"
+    },
+    {
+      "type": "h",
+      "text": "European lawmaker shares graph without evidence on X"
+    },
+    {
+      "type": "p",
+      "text": "Nevertheless, a misleading graph has been circulated as supposed evidence. It was shared, for example, by Czech Member of the European Parliament Tomáš Zdechovský. His post was viewed more than four million times on X. He suggested that the graph might demonstrate a decline in \"online activity around AfD,\" although he did not specify what kind of activity he meant. In reality, the graph most likely demonstrates nothing at all."
+    },
+    {
+      "type": "p",
+      "text": "The German-language graph is titled \"Daily activity over 3 months.\" It appears to show activity remaining relatively stable before dropping sharply in early October, roughly coinciding with the attacks on Yandex data centers. However, nothing in the graph itself indicates that this relates to AfD-related online activity."
+    },
+    {
+      "type": "h",
+      "text": "No source and faulty scaling"
+    },
+    {
+      "type": "p",
+      "text": "The same applies to the graph's underlying data. It is unclear which data were used. No source is provided, nor is there any explanation of the data collection process or calculation method for the alleged \"activity,\" which initially ranges between 6,000 and 7,000 before falling below 3,000."
+    },
+    {
+      "type": "p",
+      "text": "Particularly striking is that the graph extends to October 15. Its final data point appears to correspond to October 14 – a date that was still in the future when the graph first appeared online on October 11. Data for a future date cannot exist."
+    },
+    {
+      "type": "p",
+      "text": "The graph also contains scaling errors on both the X and Y axes. For example, on the Y axis, the distance between 2,500 and 3,000 is smaller than the other 500-unit intervals. Because the Y-axis does not begin at zero, the decline is visually exaggerated. On the X-axis, equal periods of time are represented by unequal distances."
+    },
+    {
+      "type": "p",
+      "text": "It is also unclear which platforms were analyzed and how the variable \"activity\" was calculated. The absence of a known data source, the inaccurate scaling, and the inclusion of \"future\" values strongly suggest that this is not a meaningful graph based on factual data and sound statistical methods."
+    },
+    {
+      "type": "h",
+      "text": "AI involvement cannot be proven, but is possible"
+    },
+    {
+      "type": "p",
+      "text": "It is unclear whether AI was used to create the graph. Given the errors and the apparent \"hallucination\" of presenting future data, AI involvement cannot be ruled out."
+    },
+    {
+      "type": "p",
+      "text": "Misleading and error-filled graphs, some of which may have been AI-generated, appear regularly. German public broadcaster BR's #Faktenfuchs team recently reported on one such graph that falsely depicted industrial production in Germany (article in German). False or fabricated graphs can lend credibility to unsupported claims."
+    },
+    {
+      "type": "p",
+      "text": "The identity of the graph's creator remains unknown."
+    },
+    {
+      "type": "h",
+      "text": "What do Cloudflare data actually show?"
+    },
+    {
+      "type": "p",
+      "text": "Cloudflare data are also frequently cited in connection with claims of declining bot activity. However, according to CeMAS managing director Holnburger, there is a misunderstanding about what Cloudflare's report actually means."
+    },
+    {
+      "type": "p",
+      "text": "Cloudflare provides services to many websites that block traffic assessed as non-human. Automated web traffic is common and includes, for example, crawlers that check websites for freshly published content. Search engines, including Yandex, rely on these crawlers. Other bots may be used for spam in comment sections."
+    },
+    {
+      "type": "p",
+      "text": "In a message to #Faktenfuchs, Holnburger writes, \"a decline in bot activity on websites is something entirely different from a decline in inauthentic behavior by social bots on social networks.\""
+    },
+    {
+      "type": "p",
+      "text": "Referring to Cloudflare data, he added: \"When looking at overall activity from Russian IP addresses on servers using Cloudflare services, there is no major decline in bot activity.\" Furthermore, there is no reason to assume that the infrastructure used by disinformation-related social bots would be hosted on Yandex data centers. \"It is more likely that these systems are distributed across many different providers,\" Holnburger writes."
+    },
+    {
+      "type": "p",
+      "text": "The article was originally written in German and adapted into English by Alima de Graaf."
+    },
+    {
+      "type": "h",
+      "text": "Ukraine attacks 'Russia's Google.' What was the impact?"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
