@@ -1,0 +1,126 @@
+{
+  "id": "dw-1cmecc7",
+  "source": "dw",
+  "title": "Self-replicating AI: Is your fridge a cybersecurity risk?",
+  "summary": "Anthropic researchers warn that AI worms could soon target connected household devices and spread from one device to another. Cyberattacks on French supermarkets illustrate just how vulnerable such…",
+  "byline": "Thomas Latschan",
+  "section": "",
+  "published": "2026-10-15T18:52:00.000Z",
+  "firstSeen": "2026-10-15T19:01:00.974Z",
+  "url": "https://www.dw.com/en/self-replicating-ai-is-your-fridge-a-cybersecurity-risk/a-79662958?maca=en-rss-en-all-1573-rdf",
+  "image": {
+    "src": "https://static.dw.com/image/63141324_6.jpg",
+    "caption": "Reorder milk by touching a screen: Smart refrigerators can make life easier ― but they could soon become an entry point for AI-powered malwareImage: Richard Drew/AP/picture alliance"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "In the living room, a robot vacuum cleaner moves back and forth, the lights are dimmed by voice assistants, the heating is controlled via smartphone and the TV connects to the internet to access a favorite streaming service. These are all examples of the \"Internet of Things,\" in which connected electronic devices exchange data and communicate with one another."
+    },
+    {
+      "type": "p",
+      "text": "According to recent market research by industry association Bitkom, about half of all households in Germany use such or similar \"smart home\" applications — and the figure is rising."
+    },
+    {
+      "type": "p",
+      "text": "Now, the artificial intelligence company Anthropic has published a report warning that AI-powered malware could soon infiltrate connected household devices, copy itself to other devices and become active there."
+    },
+    {
+      "type": "image",
+      "src": "https://static.dw.com/image/79586311_$%7BformatId%7D.jpg",
+      "caption": "52% of German households use devices like this robot vacuum cleanerImage: Jean-François Frey/PHOTOPQR/L'ALSACE/MAXPPP/picture alliance"
+    },
+    {
+      "type": "p",
+      "text": "Computer viruses that copy themselves from one machine to another have existed for decades. They are also known as worms and follow a predefined sequence of instructions. They exploit known security vulnerabilities or poorly protected access points. However, once the vulnerabilities are patched up or suitable attack vectors are no longer available, a worm can no longer spread so easily."
+    },
+    {
+      "type": "p",
+      "text": "AI worms, however, would be far more complex and potentially much more harmful. They could solve problems autonomously and adapt to different devices, for example by coping with a different operating system or limited memory. They might also figure out for themselves how to operate on other devices or identify and circumvent new security updates"
+    },
+    {
+      "type": "h",
+      "text": "What is AI's biggest risk: Speed or autonomy?"
+    },
+    {
+      "type": "h",
+      "text": "Spreading via TVs"
+    },
+    {
+      "type": "p",
+      "text": "Anthropic researchers investigated whether AI models could also run on relatively inexpensive hardware. In an experiment, they distributed an AI model across 15 low-cost Android TV boxes, with each device handling part of the computation. This demonstrated that certain AI applications can run without a large data center."
+    },
+    {
+      "type": "p",
+      "text": "In a controlled test environment, the researchers set up eight additional simulated Android devices. The AI model was able to infiltrate one of them, replicate itself and infect other devices. In four out of five attempts, it reached all eight target devices. In the remaining attempt, it reached seven of the eight."
+    },
+    {
+      "type": "p",
+      "text": "If equipped with malware, such an AI model could potentially adapt relatively quickly to previously unknown environments and disrupt processes and operations. It could learn to circumvent various security measures rather than simply exploiting a single vulnerability. According to Anthropic's developers, this sort of \"AI worm\" could take roughly one to two days to establish itself on a new, previously unknown device."
+    },
+    {
+      "type": "h",
+      "text": "A botnet of household devices?"
+    },
+    {
+      "type": "p",
+      "text": "One particularly worrying possibility is that AI could link the infected devices into a large botnet. A single infected device has limited computing power, but the more devices are compromised, the faster the AI worm could spread. The malware would no longer depend on a central server that could simply be shut down."
+    },
+    {
+      "type": "p",
+      "text": "It might also continuously learn as it spreads. It is conceivable that it could jump to entirely different types of electronic devices, all running different software."
+    },
+    {
+      "type": "p",
+      "text": "Infected devices could be disconnected from the network and security vulnerabilities could still be patched. The malware's decentralized structure, however, would make it difficult to contain. Anthropic itself compares this potential development to a digital slime mold slowly spreading."
+    },
+    {
+      "type": "p",
+      "text": "Researchers at Anthropic deliberately made access to the test devices very easy and left out major digital safeguards. Even so, the company believes smaller AI models could reach the necessary level of capability later this year to spread in the real world."
+    },
+    {
+      "type": "h",
+      "text": "Overheating cooling systems"
+    },
+    {
+      "type": "p",
+      "text": "The potential consequences of cyberattacks on connected control systems has already been seen in an incident in France. Overnight into Monday, attackers tampered with refrigeration and freezer systems at numerous supermarkets. Temperatures in the affected units rose to as high as 50 degrees Celsius. Food spoiled, and some incidents also involved fires and technical damage."
+    },
+    {
+      "type": "p",
+      "text": "France's cybersecurity agency, CERT-FR, initially confirmed that remote-control systems made by Danish manufacturer Danfoss had been compromised. The warning was later extended to systems made by other manufacturers. Investigations into the circumstances of the attack are ongoing."
+    },
+    {
+      "type": "image",
+      "src": "https://static.dw.com/image/79651027_$%7BformatId%7D.jpg",
+      "caption": "Many perishable foods had to be discarded after the massive cyberattack on supermarkets in FranceImage: Fred Tanneau/AFP"
+    },
+    {
+      "type": "p",
+      "text": "Modern supermarkets use digital controllers to monitor and regulate refrigeration systems. Maintenance companies can access these systems remotely, for example to check temperatures. However, some of the security software was reportedly outdated, which the attackers may have exploited as an entry point for their cyberattack."
+    },
+    {
+      "type": "h",
+      "text": "A new dimension in cyberattacks?"
+    },
+    {
+      "type": "p",
+      "text": "It remains unclear who was behind the attacks in France and what motivated them. There is also no evidence so far that a self-replicating AI worm was used in the attacks on French refrigeration systems. However, Anthropic's latest research shows how significantly AI could facilitate the development of malware, potentially enabling attacks on connected devices with serious consequences and without requiring much computing power."
+    },
+    {
+      "type": "p",
+      "text": "Fearing further attacks, France's cybersecurity agency advised all companies to update their connected devices regularly, install essential security patches and, where possible, to disable unnecessary internet access altogether."
+    },
+    {
+      "type": "p",
+      "text": "This article was originally published in German."
+    },
+    {
+      "type": "h",
+      "text": "Will AI destroy humanity?"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
