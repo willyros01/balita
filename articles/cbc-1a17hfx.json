@@ -1,0 +1,197 @@
+{
+  "id": "cbc-1a17hfx",
+  "source": "cbc",
+  "title": "Israeli firm used ads to enable espionage, Canadian researchers say",
+  "summary": "An Israeli advertising agency has placed ads seen by millions of internet users that have left them open to spyware attacks, according to a new report from the University of Toronto's Citizen Lab.",
+  "byline": "Jillian Kestler-D'Amours",
+  "section": "News/World",
+  "published": "2026-10-16T00:23:12.000Z",
+  "firstSeen": "2026-10-16T01:00:59.666Z",
+  "url": "https://www.cbc.ca/news/world/israeli-firm-targeted-ads-espionage-9.7381922?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/d1f30178-4920-432c-8727-fe0710660459,1792090106720/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C587%2C5964%2C3354%29%3BResize%3D620",
+    "caption": "A new report by the Citizen Lab at the University of Toronto says ads placed by an Israeli firm have placed millions of internet users at risk of 'zero-click' spyware attacks. (Graeme Roy/The Canadian Press)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "World·New"
+    },
+    {
+      "type": "p",
+      "text": "An Israeli advertising agency has placed ads seen by millions of internet users that have left them open to spyware attacks, according to a new report from the University of Toronto's Citizen Lab."
+    },
+    {
+      "type": "h",
+      "text": "Ads left millions open to 'zero-click' spyware attacks, Citizen Lab says"
+    },
+    {
+      "type": "p",
+      "text": "· CBC News"
+    },
+    {
+      "type": "p",
+      "text": "· Posted: Oct 15, 2026 8:23 PM EDT | Last Updated: 37 minutes ago"
+    },
+    {
+      "type": "p",
+      "text": "The report, released on Thursday, alleges that Discover-Tech intentionally operates a platform that allows its \"partners to de-anonymize, fingerprint, and automatically infect devices\" with spyware."
+    },
+    {
+      "type": "p",
+      "text": "Those partners can then \"push malicious content to individual targeted users alongside advertisements,\" it says."
+    },
+    {
+      "type": "p",
+      "text": "Over a four-month period, Discover-Tech ads appeared on more than 120,000 websites and more than 75,000 apps in dozens of countries — endangering the security of \"national-security-sensitive networks,\" such as government ministries, armed forces and multilateral organizations such as NATO, according to the report, which was released alongside an affiliated investigation by U.S. cybersecurity firm Confiant."
+    },
+    {
+      "type": "p",
+      "text": "Ron Deibert, Citizen Lab's director, said the findings are a \"worst-nightmare\" scenario, with \"two poorly regulated and highly abused industries\" — targeted advertising and mercenary spyware — coming together."
+    },
+    {
+      "type": "p",
+      "text": "\"It's a recipe for disaster,\" Deibert told CBC News. \"It's global espionage that we've uncovered on a massive scale.\""
+    },
+    {
+      "type": "h",
+      "text": "'Zero-click' attacks"
+    },
+    {
+      "type": "p",
+      "text": "Rights groups have raised concerns for years about companies that sell spyware to anyone, oppressive governments in particular, wishing to spy on the public, journalists, political figures and other perceived critics."
+    },
+    {
+      "type": "p",
+      "text": "Experts also have speculated that what's known as the targeted ad ecosystem — where data brokers and advertising firms bid in real time to place ads on apps and websites — could be used for espionage."
+    },
+    {
+      "type": "p",
+      "text": "But Thursday's report marks the first time researchers have documented how \"zero-click\" spyware attacks can be enabled by targeted ads, Citizen Lab says."
+    },
+    {
+      "type": "p",
+      "text": "\"Zero-click\" means that users don't need to click on a link or actively do anything for their devices to be targeted with spyware."
+    },
+    {
+      "type": "p",
+      "text": "\"The moment [the ad] is rendered, their device can be hacked, so there's really no defence against this, short of not using a smart phone or [not] connecting to the internet,\" Deibert said. Such infections can be hard to detect."
+    },
+    {
+      "type": "p",
+      "text": "The report said some Discover-Tech ads also appeared on the websites of news outlets, including CBC, BBC and the New York Times. But Deibert says there's not much those organizations could have done to prevent it."
+    },
+    {
+      "type": "p",
+      "text": "OPP may have secretly used controversial tech that can spy on citizens"
+    },
+    {
+      "type": "p",
+      "text": "\"It's just the advertising ecosystem working as intended,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "Discover-Tech did not respond to CBC News's requests for comment via a contact form on the company's website."
+    },
+    {
+      "type": "p",
+      "text": "Chuck Thompson, the head of public affairs at CBC, said in an email that the public broadcaster's logs have \"no trace of having delivered any ads,\" from Discover-Tech. CBC escalated to Google, which operates systems for ad sellers, \"to verify and provide answers,\" he said."
+    },
+    {
+      "type": "h",
+      "text": "Al Jazeera targeted"
+    },
+    {
+      "type": "p",
+      "text": "Citizen Lab said it was able to confirm a targeted spyware attack on Al Jazeera: At least 45 of the Qatar-based news outlet's devices were infected with spyware via Discover-Tech's ads in 2024 and 2025, the report said."
+    },
+    {
+      "type": "p",
+      "text": "When spyware is implanted, the operator behind the hack can take control of the device. \"They can turn on the camera, turn on the microphone, and track someone's geolocation, so it's kind of like God-like capabilities,\" Deibert said."
+    },
+    {
+      "type": "p",
+      "text": "The researchers linked the zero-click attacks on Al Jazeera \"with high confidence\" to spyware from Candiru, an Israel-based firm that the report said has rebranded as Integrity Labs."
+    },
+    {
+      "type": "p",
+      "text": "LISTEN | How spyware abusers can easily hack your phone:"
+    },
+    {
+      "type": "p",
+      "text": "Ideas53:59Spyware abusers can easily hack your phone and surveil you"
+    },
+    {
+      "type": "p",
+      "text": "In 2021, the U.S. Department of Commerce sanctioned Candiru \"based on evidence that [it] developed and supplied spyware to foreign governments that used these tools to maliciously target government officials, journalists, businesspeople, activists, academics, and embassy workers.\""
+    },
+    {
+      "type": "p",
+      "text": "CBC News could not immediately find a way to reach Candiru on Thursday. The Reuters news agency also said its attempts were not successful."
+    },
+    {
+      "type": "p",
+      "text": "An Al Jazeera spokesperson condemned the targeting of its staff by such spyware as 'deliberate attack on journalists and on press freedom.' (Malak Harb/The Associated Press)"
+    },
+    {
+      "type": "p",
+      "text": "An Al Jazeera Media Network spokesperson told CBC News in an email that it \"strongly condemns the targeting of our staff with mercenary spyware.\""
+    },
+    {
+      "type": "p",
+      "text": "\"This is a deliberate attack on journalists and on press freedom,\" the spokesperson said, adding that while Al Jazeera would not speculate on who deployed the spyware, it is calling for \"a full, independent investigation to identify those responsible and hold them to account.\""
+    },
+    {
+      "type": "h",
+      "text": "Push for investigations"
+    },
+    {
+      "type": "p",
+      "text": "Qing Tan, an associate professor at Athabasca University in Alberta, said the Citizen Lab report raises \"very concerning\" questions, including around personal privacy. \"A majority of people don't realize this could happen to them, so this is a very big issue,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "Citizen Lab researchers said their findings should push ad vendors to \"significantly level up their cybersecurity and threat detection capacity to effectively cut off malicious advertisers.\""
+    },
+    {
+      "type": "p",
+      "text": "They also called on regulators around the world to \"investigate whether the rights of their citizens, as well as applicable privacy and security laws were violated.\""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "To censor the internet, 10 countries use Canadian filtering technology, researchers say",
+        "Ontario police may have secretly used controversial Israeli spyware, report finds",
+        "Your phone could easily be tapped by spyware abusers: cybersecurity expert"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The Office of the Privacy Commissioner of Canada did not immediately respond to emailed questions about whether it intends to investigate the report's allegations or take any immediate action."
+    },
+    {
+      "type": "p",
+      "text": "A Google spokesperson told CBC News in an emailed statement that it blocked Discover-Tech from its ad platforms \"for systematically violating\" the company's policies, and that it has set up warnings \"to help protect people if they navigate to websites linked to this group,\" they said."
+    },
+    {
+      "type": "p",
+      "text": "IAB Europe, a European association that develops frameworks for digital marketing and the advertising ecosystem, also said Thursday that Discover-Tech was suspended from its list of global vendors for violating its terms."
+    },
+    {
+      "type": "h",
+      "text": "ABOUT THE AUTHOR"
+    },
+    {
+      "type": "p",
+      "text": "Jillian Kestler-D'Amours is a senior writer at CBC based in Montreal. You can reach her at jillian.kestler-d.amours@cbc.ca."
+    },
+    {
+      "type": "p",
+      "text": "With files from CBC's Erin Collins"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
