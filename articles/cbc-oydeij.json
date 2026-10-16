@@ -3,20 +3,78 @@
   "source": "cbc",
   "title": "At least 16 people rescued off Mexico's Baja Coast, no sign of boat, says U.S. Coast Guard",
   "summary": "At least 16 people seen floating in the Pacific Ocean off Mexico's Baja California coast were rescued in the pre-dawn hours of Friday and authorities were searching for several others, a U.S. Coast…",
-  "byline": "",
+  "byline": "CBC",
   "section": "News/World",
   "published": "2026-10-16T16:23:15.000Z",
   "firstSeen": "2026-10-16T17:01:01.222Z",
   "url": "https://www.cbc.ca/news/world/mexico-ocean-rescue-coast-guard-9.7383598?cmp=rss",
-  "image": null,
+  "image": {
+    "src": "https://i.cbc.ca/ais/4fee0117-9dd7-4b1e-aaa0-c0636038b4a5,1792165834088/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C537%2C5158%2C2901%29%3BResize%3D620",
+    "caption": "U.S. Coast Guard personnel are seen in this Oct. 8 file photo. At least 16 people were rescued in the Pacific Ocean off Mexico's Baja California coast early Friday. (Eric Gay/The Associated Press)"
+  },
   "blocks": [
     {
       "type": "p",
+      "text": "World"
+    },
+    {
+      "type": "p",
       "text": "At least 16 people seen floating in the Pacific Ocean off Mexico's Baja California coast were rescued in the pre-dawn hours of Friday and authorities were searching for several others, a U.S. Coast Guard official said."
+    },
+    {
+      "type": "h",
+      "text": "One person who was rescued said as many as 27 people were on board"
+    },
+    {
+      "type": "p",
+      "text": "Petty Officer Chris Sappey said at about 1 a.m. PT, several people were spotted floating in the water about 225 kilometres west of Ensenada."
+    },
+    {
+      "type": "p",
+      "text": "It was unclear why the people were in the water and no vessel has been found, Sappey said. He said one person who was rescued said as many as 27 people were on board a boat. He had no further details about what the people were doing."
+    },
+    {
+      "type": "p",
+      "text": "\"There was no sight of a vessel in the water, just straight people in the water,\" Sappey said."
+    },
+    {
+      "type": "p",
+      "text": "Those being rescued were being taken to hospitals in San Diego, Sappey said."
+    },
+    {
+      "type": "p",
+      "text": "The U.S. Coast Guard was assisting Mexican authorities in the search efforts with a helicopter, a fixed-airwing plane and a cutter, Sappey said."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Mothers crossing the Mexico-U.S. border risk everything to reunite with their children",
+        "Hurricane Simon hits Mexico's Pacific coast, slamming towns and resorts"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Migrants are increasingly turning to the risky alternative offered by smugglers to travel by sea to avoid heavily guarded land borders, including off California's coast. Panga boats leave Mexico in the dead of night and sometimes chart hundreds of kilometers north."
+    },
+    {
+      "type": "p",
+      "text": "There have been several incidents in recent years of migrant vessels capsizing en route to California."
+    },
+    {
+      "type": "p",
+      "text": "In May 2025, at least three people died when a panga flipped off the coast, about 56 kilometres north of the U.S.-Mexico border. In 2023, eight people were killed when two migrant-smuggling boats approached a San Diego beach in heavy fog and one of them capsized in the surf. It was one of the deadliest maritime smuggling incidents in waters off the U.S. coast."
+    },
+    {
+      "type": "p",
+      "text": "A federal judge sentenced a San Diego man to 18 years in prison in 2022 for piloting a small vessel overloaded with 32 migrants that smashed apart in powerful surf off the coast, killing three people and injuring more than two dozen."
+    },
+    {
+      "type": "p",
+      "text": "Hurricane Simon slams Mexico's Pacific coast"
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct timed out after 8s"
+  "source_of_text": "page"
 }
