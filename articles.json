@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-19T19:01:29.489Z",
+  "updated": "2026-10-19T19:31:20.681Z",
   "sources": [
     {
       "id": "inq",
@@ -53,63 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-1inmkaq",
-      "source": "inqn",
-      "title": "Cayetanos slam LLDA for ‘special interest’ in Taguig projects",
-      "summary": "MANILA, Philippines — Senate Minority Leader Alan Peter Cayetano and his sister, Sen. Pia Cayetano, scrutinized the Laguna Lake Development Authority (LLDA) on Monday over its supposed focus on…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:20.481Z",
-      "firstSeen": "2026-10-19T11:30:59.835Z",
-      "url": "https://newsinfo.inquirer.net/2326519/cayetanos-slam-llda-for-special-interest-in-taguig-projects",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/News320595-1.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Senate Minority Leader Alan Peter Cayetano and his sister, Sen. Pia Cayetano, scrutinized the Laguna Lake Development Authority (LLDA) on Monday over its supposed focus on inspecting projects in Taguig City. The senators pointed out the LLDA’s seemingly “special interest” in Taguig City, led by Sen. Alan&#8217;s wife, Mayor Lani Cayetano, despite"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1ohbp73",
-      "source": "inqn",
-      "title": "P447,600 worth of suspected smuggled cigarettes seized in N. Mindanao",
-      "summary": "CAGAYAN DE ORO CITY — Northern Mindanao police seized nearly half a million pesos’ worth of suspected smuggled cigarettes during operations in Iligan City and Misamis Occidental on Sunday night, Oct.…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:18.757Z",
-      "firstSeen": "2026-10-19T12:01:08.110Z",
-      "url": "https://newsinfo.inquirer.net/2326531/p447600-worth-of-suspected-smuggled-cigarettes-seized-in-n-mindanao",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/P477K-suspected-smuggled-cigarettes-19October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CAGAYAN DE ORO CITY — Northern Mindanao police seized nearly half a million pesos’ worth of suspected smuggled cigarettes during operations in Iligan City and Misamis Occidental on Sunday night, Oct. 18. The Police Regional Office-10 (PRO-10) reported confiscating a total of 597 reams of illicit cigarettes valued at P477,600. In Iligan City, authorities flagged"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1qkjh3j",
       "source": "inqn",
       "title": "Cayetano: Taguig flood control project contractor ‘messed up’ in geotag",
       "summary": "MANILA, Philippines — Senate Minority Leader Alan Peter Cayetano said on Monday that the mix-up in the coordinates of a flood control project billed to Taguig City, which pointed to Leyte, was due to…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:18.682Z",
+      "published": "2026-10-19T19:31:09.871Z",
       "firstSeen": "2026-10-19T12:31:01.690Z",
       "url": "https://newsinfo.inquirer.net/2326557/cayetano-says-taguig-flood-control-project-contractor-messed-up-in-geotag",
       "image": {
@@ -134,7 +84,7 @@
       "summary": "PAGADIAN CITY, Zamboanga del Sur — The National Irrigation Administration Region 9 (Zamboanga Peninsula) has instructed its personnel to implement crop diversification strategies and administrative…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:18.682Z",
+      "published": "2026-10-19T19:31:09.871Z",
       "firstSeen": "2026-10-19T12:01:08.056Z",
       "url": "https://newsinfo.inquirer.net/2326535/nia-rolls-out-anti-el-nino-measures-in-zamboanga-peninsula",
       "image": {
@@ -153,13 +103,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1ohbp73",
+      "source": "inqn",
+      "title": "P447,600 worth of suspected smuggled cigarettes seized in N. Mindanao",
+      "summary": "CAGAYAN DE ORO CITY — Northern Mindanao police seized nearly half a million pesos’ worth of suspected smuggled cigarettes during operations in Iligan City and Misamis Occidental on Sunday night, Oct.…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-10-19T19:31:09.871Z",
+      "firstSeen": "2026-10-19T12:01:08.110Z",
+      "url": "https://newsinfo.inquirer.net/2326531/p447600-worth-of-suspected-smuggled-cigarettes-seized-in-n-mindanao",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/P477K-suspected-smuggled-cigarettes-19October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CAGAYAN DE ORO CITY — Northern Mindanao police seized nearly half a million pesos’ worth of suspected smuggled cigarettes during operations in Iligan City and Misamis Occidental on Sunday night, Oct. 18. The Police Regional Office-10 (PRO-10) reported confiscating a total of 597 reams of illicit cigarettes valued at P477,600. In Iligan City, authorities flagged"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-zj2m1",
       "source": "inqn",
       "title": "Landmark tree along Bukidnon highway uprooted amid heavy rains",
       "summary": "MALAYBALAY CITY, Bukidnon — A landmark tree that produced vibrant yellow blooms along the national highway each summer was uprooted Monday afternoon after heavy rains and strong winds from localized…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:17.080Z",
+      "published": "2026-10-19T19:31:08.165Z",
       "firstSeen": "2026-10-19T12:30:59.743Z",
       "url": "https://newsinfo.inquirer.net/2326578/landmark-tree-along-bukidnon-highway-uprooted-amid-heavy-rains",
       "image": {
@@ -178,13 +153,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-bxmqvt",
+      "source": "inqn",
+      "title": "Ex-NPA leader tagged as Surigao’s fourth most wanted falls in Butuan",
+      "summary": "SAN FRANCISCO, Agusan del Sur— An alleged former communist rebel leader wanted for multiple offenses was arrested in Butuan City on Saturday, Oct. 17, following a joint police and military manhunt,…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-10-19T19:31:08.072Z",
+      "firstSeen": "2026-10-19T12:30:59.644Z",
+      "url": "https://newsinfo.inquirer.net/2326594/ex-npa-leader-tagged-as-surigaos-fourth-most-wanted-falls-in-butuan",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/BUTUAN-AGUSAN-DEL-NORTE-MAP-09132022.jpg.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN FRANCISCO, Agusan del Sur— An alleged former communist rebel leader wanted for multiple offenses was arrested in Butuan City on Saturday, Oct. 17, following a joint police and military manhunt, authorities reported on Monday. The suspect, known by the aliases “Kenny” and “Tikoy,” ranks fourth on the list of most wanted persons in Surigao"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-yqecvy",
       "source": "inqn",
       "title": "Manila Water maximizes Cardona WTP for strong El Niño",
       "summary": "MANILA, Philippines — As Manila Water gears up for the anticipated strong El Niño conditions, which may persist up to the first semester of 2027, the company is maximizing the capacity of its Cardona…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:16.881Z",
+      "published": "2026-10-19T19:31:08.071Z",
       "firstSeen": "2026-10-19T13:30:58.988Z",
       "url": "https://newsinfo.inquirer.net/2326628/manila-water-maximizes-cardona-wtp-for-strong-el-nino",
       "image": {
@@ -209,7 +209,7 @@
       "summary": "MANILA, Philippines — The Department of Health (DOH) on Monday said it is eyeing to vaccinate over 2 million girls in Grades 4 and 5 nationwide against human papillomavirus (HPV) under its school…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:16.881Z",
+      "published": "2026-10-19T19:31:08.071Z",
       "firstSeen": "2026-10-19T13:01:07.437Z",
       "url": "https://newsinfo.inquirer.net/2326611/doh-eyes-hpv-vaccination-for-over-2-million-girls-nationwide",
       "image": {
@@ -234,7 +234,7 @@
       "summary": "CAGAYAN DE ORO CITY — Nine years after the liberation of Marawi from Islamic State-aligned militants, the Army’s 4th Infantry Division (4ID) honored the sacrifices of more than 1,500 military and…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:16.881Z",
+      "published": "2026-10-19T19:31:08.071Z",
       "firstSeen": "2026-10-19T13:01:07.487Z",
       "url": "https://newsinfo.inquirer.net/2326602/army-honors-marawi-siege-heroes",
       "image": {
@@ -253,23 +253,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-bxmqvt",
+      "id": "inqn-1wqqlll",
       "source": "inqn",
-      "title": "Ex-NPA leader tagged as Surigao’s fourth most wanted falls in Butuan",
-      "summary": "SAN FRANCISCO, Agusan del Sur— An alleged former communist rebel leader wanted for multiple offenses was arrested in Butuan City on Saturday, Oct. 17, following a joint police and military manhunt,…",
-      "byline": "mmercado",
+      "title": "PCSO lotto results Oct. 19: Still no winner for ₱284.69-M jackpot",
+      "summary": "MANILA, Philippines — No bettor won the ₱284.69-million Grand Lotto 6/55 jackpot or the ₱15-million MegaLotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Monday, Oct.…",
+      "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:16.881Z",
-      "firstSeen": "2026-10-19T12:30:59.644Z",
-      "url": "https://newsinfo.inquirer.net/2326594/ex-npa-leader-tagged-as-surigaos-fourth-most-wanted-falls-in-butuan",
+      "published": "2026-10-19T19:31:06.314Z",
+      "firstSeen": "2026-10-19T14:01:07.267Z",
+      "url": "https://newsinfo.inquirer.net/2326644/pcso-lotto-results-oct-19-still-no-winner-for-%e2%82%b1284-69-m-jackpot",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/BUTUAN-AGUSAN-DEL-NORTE-MAP-09132022.jpg.png",
+        "src": "https://newsinfo.inquirer.net/files/2025/05/lotto-pcso.jpeg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "SAN FRANCISCO, Agusan del Sur— An alleged former communist rebel leader wanted for multiple offenses was arrested in Butuan City on Saturday, Oct. 17, following a joint police and military manhunt, authorities reported on Monday. The suspect, known by the aliases “Kenny” and “Tikoy,” ranks fourth on the list of most wanted persons in Surigao"
+          "text": "MANILA, Philippines — No bettor won the ₱284.69-million Grand Lotto 6/55 jackpot or the ₱15-million MegaLotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Monday, Oct. 19, 2026. According to the PCSO results, the Grand Lotto 6/55 winning combination was 14-52-49-39-35-05, with a jackpot prize of ₱284.69 million. No ticket matched all"
         }
       ],
       "truncated": true,
@@ -284,7 +284,7 @@
       "summary": "MANILA, Philippines — Quezon City Mayor Joy Belmonte said the city has no outstanding debt, highlighting the local government&#8217;s financial standing in her eighth year as local executive.…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:15.152Z",
+      "published": "2026-10-19T19:31:06.314Z",
       "firstSeen": "2026-10-19T14:31:02.653Z",
       "url": "https://newsinfo.inquirer.net/2326659/belmonte-says-qc-debt-free",
       "image": {
@@ -309,7 +309,7 @@
       "summary": "MANILA, Philippines — Senate President Sherwin Gatchalian stressed the need for sustained military modernization and stronger cyberwarfare capabilities, saying the Armed Forces of the Philippines…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:15.152Z",
+      "published": "2026-10-19T19:31:06.314Z",
       "firstSeen": "2026-10-19T14:31:04.246Z",
       "url": "https://newsinfo.inquirer.net/2326653/stronger-cyberwarfare-capabilities-needed-vs-new-threats-gatchalian",
       "image": {
@@ -334,7 +334,7 @@
       "summary": "SAN ILDEFONSO, Ilocos Sur — A 19-year-old man was arrested after allegedly selling marijuana to an undercover police officer during a buy-bust operation in San Nicolas, Ilocos Norte, on Sunday, Oct.…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:15.152Z",
+      "published": "2026-10-19T19:31:06.314Z",
       "firstSeen": "2026-10-19T13:30:58.947Z",
       "url": "https://newsinfo.inquirer.net/2326637/teen-yields-marijuana-revolver-in-ilocos-norte-buy-bust",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "MANILA, Philippines — The National Union of Journalists of the Philippines (NUJP) condemned what it described as “use of violence” against a reporter of the alternative media outlet Bulatlat, who was…",
       "byline": "dsanchez",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:15.152Z",
+      "published": "2026-10-19T19:31:06.314Z",
       "firstSeen": "2026-10-19T14:31:08.888Z",
       "url": "https://newsinfo.inquirer.net/2326639/nujp-calls-for-accountability-as-cops-allegedly-harass-reporter",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "MANILA, Philippines — A prosecution witness told the Sandiganbayan on Monday that he personally saw four “maleta” (suitcases) in Co’s office back when he was still a businessman and not yet a member…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:15.080Z",
+      "published": "2026-10-19T19:31:06.313Z",
       "firstSeen": "2026-10-19T15:31:03.070Z",
       "url": "https://newsinfo.inquirer.net/2326679/witness-i-saw-maleta-in-cos-office-when-he-was-not-yet-solon",
       "image": {
@@ -403,38 +403,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1wqqlll",
-      "source": "inqn",
-      "title": "PCSO lotto results Oct. 19: Still no winner for ₱284.69-M jackpot",
-      "summary": "MANILA, Philippines — No bettor won the ₱284.69-million Grand Lotto 6/55 jackpot or the ₱15-million MegaLotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Monday, Oct.…",
-      "byline": "dsanchez",
-      "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:15.080Z",
-      "firstSeen": "2026-10-19T14:01:07.267Z",
-      "url": "https://newsinfo.inquirer.net/2326644/pcso-lotto-results-oct-19-still-no-winner-for-%e2%82%b1284-69-m-jackpot",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/05/lotto-pcso.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — No bettor won the ₱284.69-million Grand Lotto 6/55 jackpot or the ₱15-million MegaLotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Monday, Oct. 19, 2026. According to the PCSO results, the Grand Lotto 6/55 winning combination was 14-52-49-39-35-05, with a jackpot prize of ₱284.69 million. No ticket matched all"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-17osksq",
       "source": "inqn",
       "title": "DSWD releases aid to over 53,000 sugar farmers, workers in Negros",
       "summary": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — The Department of Social Welfare and Development (DSWD) has distributed P553.89 million in financial assistance to 53,829 sugarcane farmers and farm…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:13.385Z",
+      "published": "2026-10-19T19:31:06.303Z",
       "firstSeen": "2026-10-19T15:01:07.555Z",
       "url": "https://newsinfo.inquirer.net/2326670/dswd-releases-aid-to-over-53000-sugar-farmers-workers-in-negros",
       "image": {
@@ -459,7 +434,7 @@
       "summary": "MANILA, Philippines — The Office of the Ombudsman on Sunday said it dismissed all administrative charges against a Santa Maria town mayor which stemmed from alleged lapses in securing ballot boxes…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:09.736Z",
+      "published": "2026-10-19T19:31:02.902Z",
       "firstSeen": "2026-10-19T16:31:03.417Z",
       "url": "https://newsinfo.inquirer.net/2326685/ombudsman-clears-santa-maria-laguna-mayor-in-poll-related-raps",
       "image": {
@@ -484,7 +459,7 @@
       "summary": "MANILA, Philippines — Chinese Ambassador Jing Quan’s statement about the use of force, which was viewed by Philippine government officials as a threat, was not merely his personal opinion but…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:06.635Z",
+      "published": "2026-10-19T19:30:59.541Z",
       "firstSeen": "2026-10-19T16:01:08.639Z",
       "url": "https://newsinfo.inquirer.net/2326686/chinese-envoys-remarks-not-his-own-reflects-beijings-position-teodoro",
       "image": {
@@ -509,7 +484,7 @@
       "summary": "DFA summons Chinese envoy over ‘may easily win’ West PH Sea remark The Department of Foreign Affairs (DFA) on Monday summoned Chinese Ambassador Jing Quan over his remarks that China “may easily win”…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:06.114Z",
+      "published": "2026-10-19T19:30:59.128Z",
       "firstSeen": "2026-10-19T15:31:01.915Z",
       "url": "https://newsinfo.inquirer.net/2326687/inqtoday-dfa-summons-chinese-envoy-for-may-easily-win-remark",
       "image": {
@@ -528,38 +503,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-bgsrd6",
-      "source": "inqg",
-      "title": "Pagasa, KOICA advance $12.7M flood warning project",
-      "summary": "MANILA, Philippines — The Philippine weather bureau and a South Korean aid agency are advancing a five-year, $12.7-million project to improve flood forecasting and early warnings in Metro Manila and…",
-      "byline": "dsanchez",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-10-19T19:01:06.114Z",
-      "firstSeen": "2026-10-19T11:30:52.602Z",
-      "url": "https://globalnation.inquirer.net/342748/pagasa-koica-advance-12-7m-flood-warning-project",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/pagasa-logo-dam-levels-12324.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Philippine weather bureau and a South Korean aid agency are advancing a five-year, $12.7-million project to improve flood forecasting and early warnings in Metro Manila and surrounding areas of the Laguna Lake complex. The Project for the Development of Flood Forecasting and Early Warning System (FFEWS) for the Greater Metro Manila"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1ij1dwd",
       "source": "inqn",
       "title": "Pro-China officials, online trolls embolden Beijing to make daring acts",
       "summary": "MANILA, Philippines – Philippine officials and alleged online trolls who defend China could be giving Beijing more confidence to make daring acts and statements amid the escalating tensions in the…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-19T19:01:06.080Z",
+      "published": "2026-10-19T19:30:59.070Z",
       "firstSeen": "2026-10-19T18:01:09.414Z",
       "url": "https://newsinfo.inquirer.net/2326766/pro-china-officials-online-trolls-embolden-beijing-to-make-daring-acts",
       "image": {
@@ -584,7 +534,7 @@
       "summary": "MANILA, Philippines — Chinese Ambassador to the Philippines Jing Quan, in his appearance before Foreign Affairs Secretary Ma. Theresa Lazaro on Monday, protested against the remarks of government…",
       "byline": "dsanchez",
       "section": "Asia",
-      "published": "2026-10-19T19:01:06.080Z",
+      "published": "2026-10-19T19:30:59.070Z",
       "firstSeen": "2026-10-19T13:30:58.947Z",
       "url": "https://globalnation.inquirer.net/342755/chinese-embassy-ambassador-was-taken-out-of-context",
       "image": {
@@ -601,6 +551,275 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-1inmkaq",
+      "source": "inqn",
+      "title": "Cayetanos slam LLDA for ‘special interest’ in Taguig projects",
+      "summary": "MANILA, Philippines — Senate Minority Leader Alan Peter Cayetano and his sister, Sen. Pia Cayetano, scrutinized the Laguna Lake Development Authority (LLDA) on Monday over its supposed focus on…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-10-19T19:30:49.000Z",
+      "firstSeen": "2026-10-19T11:30:59.835Z",
+      "url": "https://newsinfo.inquirer.net/2326519/cayetanos-slam-llda-for-special-interest-in-taguig-projects",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/News320595-1.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Senate Minority Leader Alan Peter Cayetano and his sister, Sen. Pia Cayetano, scrutinized the Laguna Lake Development Authority (LLDA) on Monday over its supposed focus on inspecting projects in Taguig City. The senators pointed out the LLDA’s seemingly “special interest” in Taguig City, led by Sen. Alan&#8217;s wife, Mayor Lani Cayetano, despite"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-bgsrd6",
+      "source": "inqg",
+      "title": "Pagasa, KOICA advance $12.7M flood warning project",
+      "summary": "MANILA, Philippines — The Philippine weather bureau and a South Korean aid agency are advancing a five-year, $12.7-million project to improve flood forecasting and early warnings in Metro Manila and…",
+      "byline": "dsanchez",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-10-19T19:25:53.000Z",
+      "firstSeen": "2026-10-19T11:30:52.602Z",
+      "url": "https://globalnation.inquirer.net/342748/pagasa-koica-advance-12-7m-flood-warning-project",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/pagasa-logo-dam-levels-12324.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Philippine weather bureau and a South Korean aid agency are advancing a five-year, $12.7-million project to improve flood forecasting and early warnings in Metro Manila and surrounding areas of the Laguna Lake complex. The Project for the Development of Flood Forecasting and Early Warning System (FFEWS) for the Greater Metro Manila"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-1dudrg6",
+      "source": "grd",
+      "title": "Over three dozen Congress members’ offices targeted with white powder envelopes",
+      "summary": "<p>Envelopes containing powder come weeks before midterms as federal agents try to identify who is behind campaign</p><p>More than three dozen members of US Congress have had their offices targeted…",
+      "byline": "Joseph Gedeon in Washington",
+      "section": "US Congress",
+      "published": "2026-10-19T19:08:52.000Z",
+      "firstSeen": "2026-10-19T19:30:59.128Z",
+      "url": "https://www.theguardian.com/us-news/2026/oct/19/white-powder-envelopes-congress",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/34cec577f707db050b284bad9082c6f66bab7e43/851_0_4265_3413/master/4265.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=93674ef9682432f0735eead81331a57d",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "More than three dozen members of US Congress have had their offices targeted with envelopes containing white powder, less than three weeks before the 3 November midterms, as federal agents try to identify who is behind the campaign."
+        },
+        {
+          "type": "p",
+          "text": "The latest is the Virginia Democrat Suhas Subramanyam, whose Leesburg district office was evacuated on Monday after an envelope containing a suspicious substance arrived. He said the office was cleared quickly, adding that “acts of political intimidation have no place in our country”."
+        },
+        {
+          "type": "p",
+          "text": "Subramanyam’s office said preliminary tests showed the powder was not hazardous."
+        },
+        {
+          "type": "p",
+          "text": "Law enforcement sources told ABC News that more than 100 letters thought to contain white powder are circulating in the US mail system. The FBI, Capitol police and US Postal Inspection Service are investigating, according to a notice sent to Senate staff on Thursday."
+        },
+        {
+          "type": "p",
+          "text": "Election offices in at least 15 states had reported receiving or being targeted by suspicious mail by Thursday evening, according to the Tampa Free Press, which cited federal authorities. No suspect has been named, and federal authorities have not released a confirmed figure."
+        },
+        {
+          "type": "p",
+          "text": "The FBI did not immediately respond to a request for comment."
+        },
+        {
+          "type": "p",
+          "text": "Senators have been targeted across the political spectrum, and country. Letters addressed to the Democratic Senate minority leader, Chuck Schumer, and California senator Alex Padilla were intercepted by authorities, while Chris Murphy of Connecticut said the FBI, the Senate sergeant at arms and Capitol police alerted his team of a letter as well. Republicans in South Dakota, Texas and Nebraska were also targeted, with Mike Rounds saying his Sioux Falls office was evacuated, along with Pete Ricketts and Ted Cruz also reporting a suspicious letter."
+        },
+        {
+          "type": "p",
+          "text": "In the House, at least 10 people were exposed after white powder was sent to the offices of the New York Democrats Hakeem Jeffries, Ritchie Torres and Tom Suozzi. In California, Jimmy Panetta said a staffer opened an envelope at his Santa Cruz office, then cleared the room and called 911. He said such attempts to intimidate “will not deter us from doing our job”. In Massachusetts, five staffers left Seth Moulton’s Salem office while police investigated, and testing found no substances of concern."
+        },
+        {
+          "type": "p",
+          "text": "Investigators have described several common features connecting the suspicious letters sent to public officials and election centers."
+        },
+        {
+          "type": "p",
+          "text": "The FBI has stated that the recovered envelopes were processed through a north Texas mail processing center and carry a postmark or stamp reading “Thinking of You”. Senate staff and House offices were warned to watch for plain white envelopes featuring these distinct markings."
+        },
+        {
+          "type": "p",
+          "text": "The vast majority of these envelopes were intercepted by the US Postal Inspection Service and screening facilities before being delivered."
+        },
+        {
+          "type": "p",
+          "text": "In 2024, election officials were targeted in 17 states before the 2024 presidential election, and no suspect has been named in this case."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "dw-drv7fg",
+      "source": "dw",
+      "title": "France: Curfews issued in Paris, Nice after unrest",
+      "summary": "French authorities imposed curfews in parts of several cities on Monday night after cost-of-living and anti-government protests descended into rioting and looting over the weekend. DW has the latest.",
+      "byline": "Matt Ford",
+      "section": "",
+      "published": "2026-10-19T19:02:00.000Z",
+      "firstSeen": "2026-10-19T19:30:59.128Z",
+      "url": "https://www.dw.com/en/france-curfews-issued-in-paris-nice-after-unrest/live-79707186?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79707384_6.jpg",
+        "caption": "Workers are repairing the damage after rioters caused damage to shops and businesses in French cities over the weekend Image: Christophe Ena/AP Photo/picture alliance"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Live"
+        },
+        {
+          "type": "p",
+          "text": "French authorities imposed curfews in parts of several cities on Monday night after cost-of-living and anti-government protests descended into rioting and looting over the weekend. DW has the latest."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79707384_605.jpg",
+          "caption": "Workers are repairing the damage after rioters caused damage to shops and businesses in French cities over the weekend Image: Christophe Ena/AP Photo/picture alliance"
+        },
+        {
+          "type": "h",
+          "text": "What you need to know"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "France announces curfews for parts of Paris, northern cities and Nice after unrest",
+            "French cities experienced rioting and looting over the weekend amid anti-government protests.",
+            "Italy's Meloni considering curfew after riot in Milan",
+            "Albania's PM says 'red line' must be drawn' after anti-government demos and clashes"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Follow below for the latest on the protests and unrest in France and other parts of Europe on Monday, October 19:"
+        },
+        {
+          "type": "p",
+          "text": "Published October 19, 2026last updated October 19, 2026"
+        },
+        {
+          "type": "h",
+          "text": "Welcome to our coverage"
+        },
+        {
+          "type": "p",
+          "text": "Welcome to DW's coverage of the continuing civil unrest and protests in France and other European countries."
+        },
+        {
+          "type": "p",
+          "text": "Curfews were declared in several French cities on Monday evening, including in parts of Paris, as authorities looked to prevent a continuation of protests, rioting and looting."
+        },
+        {
+          "type": "p",
+          "text": "Stay tuned for more in this blog."
+        },
+        {
+          "type": "h",
+          "text": "Violent unrest rocks France after nationwide protests"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1uckrrg",
+      "source": "grd",
+      "title": "‘Crucial opportunity to act’ as study finds most of Europe’s wild bee species in decline",
+      "summary": "<p>As Cop17 kicks off, records since 1921 show more bee species declining than increasing in all parts of Europe except the Alps </p><p>Most of Europe’s wild bee species and about half of its hover…",
+      "byline": "Ajit Niranjan Europe environment correspondent",
+      "section": "Cop17 biodiversity summit",
+      "published": "2026-10-19T19:00:04.000Z",
+      "firstSeen": "2026-10-19T19:30:59.070Z",
+      "url": "https://www.theguardian.com/environment/2026/oct/19/study-europe-wild-bee-species-decline-",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/866c33745465d9af42c6e781c991b6d04313522e/289_77_1694_1356/master/1694.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=50f6437930656074ca2609be41ee32ba",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most of Europe’s wild bee species and about half of its hover fly species have declined over the last century, a study has found, as a UN biodiversity summit begins in Armenia."
+        },
+        {
+          "type": "p",
+          "text": "Records since 1921 show more bee species are declining than increasing in all parts of Europe except the Alpine region. The richness of bee and hover fly species suffered a persistent drop in the Atlantic and Continental regions, the study found, though trends in other regions were mixed or even positive."
+        },
+        {
+          "type": "p",
+          "text": "The data, which covers 88% of bee and hover fly species across the continent, suggests pollinator communities have been reshaped by the “gradual loss of sensitive species and the rise of a resilient few”, according to the scientists. They warned of “deeper functional disruptions” if existing trends were not addressed."
+        },
+        {
+          "type": "p",
+          "text": "Nearly 90% of wild flowering plants, as well as more than three-quarters of major food crop types, depend in part on animal pollination. The UN’s Food and Agriculture Organization has warned the decline of pollinators sets off a chain reaction that threatens wildlife and weakens the ability of ecosystems to withstand climate change and environmental stress."
+        },
+        {
+          "type": "p",
+          "text": "Carlos Martínez-Núñez, an ecologist at the Spanish National Research Council and lead author of the study, said the findings showed that biodiversity loss could remain hidden behind apparently stable species numbers, “giving us a crucial opportunity to act before further declines occur”."
+        },
+        {
+          "type": "p",
+          "text": "“The fact that some species are increasing today does not mean they will remain winners as climate change and habitat loss intensify,” he added."
+        },
+        {
+          "type": "p",
+          "text": "The findings come as diplomats gather in Yerevan for the 17th UN conference on biodiversity. The summit, known as Cop17, will focus on the conservation and sustainable use of the natural world, and the shared benefits of its genetic resources."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "The study found 91% of the species logged over the last century had also been recorded at least once in the modern period, between 2001 and 2020. Although this suggests as many as 9% of species could have been wiped out in Europe, many of the species not spotted recently occur only rarely in the historical record, and the researchers said they “do not expect widespread extinctions to have occurred yet”."
+        },
+        {
+          "type": "p",
+          "text": "However, the species’ occupancy – the probability of being found at a given site – had mostly fallen."
+        },
+        {
+          "type": "p",
+          "text": "Ainhoa ​​Magrach, an environmental researcher at the Basque Centre for Climate Change (BC3), who was not involved in the study, said it “confirms what has long been suspected: many pollinator species are losing populations, and the decline is not affecting all of them equally”."
+        },
+        {
+          "type": "p",
+          "text": "“Until now, most of the evidence came from a few north-western European countries, such as the UK, Belgium and the Netherlands,” she said. “This work shows that the pattern extends across the continent, although some regional differences exist.”"
+        },
+        {
+          "type": "p",
+          "text": "Wildlife is dying out at an unprecedented rate as humans destroy habitats, spray pesticides, and warp the weather with planet-heating pollution. Despite far-reaching consequences for humanity, including threats to food systems and further breakdown of the climate, governments have not met a single UN target on nature since the biodiversity convention was created in Rio in 1992."
+        },
+        {
+          "type": "p",
+          "text": "The Cop17 summit is expected to focus on assessing progress toward this decade’s targets, which include protecting 30% of land and sea, reforming $500bn (£375bn) of environmentally damaging subsidies and restoring 30% of the planet’s degraded ecosystems."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inqg-1wh5qy2",
@@ -626,6 +845,90 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-4vhcz5",
+      "source": "grd",
+      "title": "DoJ charges 28 green card holders in California over alleged voter fraud",
+      "summary": "<p>Crackdown marks latest escalation in the Trump justice department’s push to target alleged noncitizen voting</p><p>The US Department of Justice has filed criminal charges against 28 green card…",
+      "byline": "Sam Levin in Los Angeles",
+      "section": "Trump administration",
+      "published": "2026-10-19T18:52:06.000Z",
+      "firstSeen": "2026-10-19T19:31:01.301Z",
+      "url": "https://www.theguardian.com/us-news/2026/oct/19/california-illegal-voting-charges-doj",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/b99d1ebf8c18b34eeb2dfcc93ec1496cae8f1c2f/336_0_3328_2662/master/3328.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=5b1aef15f4265e5363cb344cd28378a3",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The US Department of Justice has filed criminal charges against 28 green card holders in California accused of fraudulently registering to vote and casting illegal ballots."
+        },
+        {
+          "type": "p",
+          "text": "The crackdown marks another escalation in the federal government’s ongoing efforts against alleged noncitizen voting, efforts that Democrats and voting rights groups say are part of a strategy by the Trump administration to sow doubt in the results of the upcoming midterm elections."
+        },
+        {
+          "type": "p",
+          "text": "The justice department announced Monday that 28 noncitizens from across California were facing charges, including making false statements in a naturalization application and fraudulently signing up to vote, felonies that could carry five years in prison. The defendants are lawful permanent residents, who have legal status in the US but are not citizens authorized to vote."
+        },
+        {
+          "type": "p",
+          "text": "A justice department spokesperson said 21 of the 28 defendants had cast unlawful ballots. Eleven of the defendants have already been taken into custody and arrests were ongoing, the justice department said. Prosecutors alleged the defendants lied under oath in voter registration applications."
+        },
+        {
+          "type": "p",
+          "text": "Voting by noncitizens is extremely rare, and election experts have raised concerns that the justice department’s crackdowns could disenfranchise US citizens."
+        },
+        {
+          "type": "p",
+          "text": "The arrests came days after the justice department sued California, demanding the courts block the state from tabulating certain ballots in the high-stakes November midterms. The justice department had previously sent Los Angeles county election officials a thumb drive that purportedly contained the names of noncitizens who were unlawfully registered to vote. The justice department demanded that California officials, within 48 hours, confirm whether those on the list were citizens and set aside the ballots of those who remained unconfirmed."
+        },
+        {
+          "type": "p",
+          "text": "The justice department’s lawsuit said it had sent California officials a list of more than 20,000 people who the federal government “believes are likely noncitizens” who were sent ballots by mail."
+        },
+        {
+          "type": "p",
+          "text": "California’s secretary of state, Shirley Weber, has condemned the justice department’s demands as “outrageous”, saying federal officials had for months made “vague and unsubstantiated allegations” about alleged voter fraud in the state. In a letter last week to the justice department, Weber, a Democrat, noted that the Department of Homeland Security (DHS) first claimed in July that more than 190,000 registered voters in the state “may be” noncitizens, but had since revised that number down to 20,000 while continuing to refuse to share details about its data and methodology."
+        },
+        {
+          "type": "p",
+          "text": "Weber said that “treating the thousands of voters on DOJ’s list as ineligible until proven otherwise” would violate federal law that prohibits states from systematically removing the names of ineligible voters from voter lists in the lead-up to a federal election."
+        },
+        {
+          "type": "p",
+          "text": "There are 23.1 million registered voters in California, according to recent state figures."
+        },
+        {
+          "type": "p",
+          "text": "Trent McCotter, the acting US deputy attorney general, acknowledged the government’s list of alleged noncitizen voters in California might not be accurate when pressed by a reporter to provide more details about the methodology."
+        },
+        {
+          "type": "p",
+          "text": "“There may be some names on there who, it turns out, ultimately are citizens. We’re not perfect, and that’s why we’ve asked California to cooperate with us,” McCotter said."
+        },
+        {
+          "type": "p",
+          "text": "On the government’s changing estimates about the volume of allegedly fraudulent registrants in the state, McCotter said: “Think of it like 190,000 is the ceiling, 20,000 is the floor. Twenty-thousand are the ones we’re the most confident about … 190,000 includes ‘medium confidence’, ‘lower confidence’ – kind of the initial cut that have not been manually verified yet.”"
+        },
+        {
+          "type": "p",
+          "text": "McCotter sent a letter to election officials on Friday threatening to prosecute any official that tabulated a ballot from a noncitizen. The threat is legally specious, experts say, and a blatant effort to intimidate officials."
+        },
+        {
+          "type": "p",
+          "text": "Some federal efforts to root out alleged noncitizen voters have faltered in other states. Last month, Nevada state officials said DHS had wrongly identified 185 people on the state’s voter rolls as noncitizens."
+        },
+        {
+          "type": "p",
+          "text": "The justice department said Monday that in recent weeks, federal prosecutors have filed charges against a total of 112 people across 20 states for alleged registration offenses and illegal voting."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inqg-1xrwzjy",
@@ -3213,70 +3516,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "grd-1f1axws",
-      "source": "grd",
-      "title": "Most Americans think Trump is using presidency to enrich himself, poll finds",
-      "summary": "<p>Poll finds 66% of Americans think Trump is using position for monetary gain as his approval rating hits a new low</p><p>Most Americans think Donald Trump is using the presidency to enrich himself,…",
-      "byline": "Shrai Popat in Washington",
-      "section": "Donald Trump",
-      "published": "2026-10-19T16:41:15.000Z",
-      "firstSeen": "2026-10-19T17:01:16.367Z",
-      "url": "https://www.theguardian.com/us-news/2026/oct/19/trump-presidency-rich-poll",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/82d19552e20c666ead393e96c05b3b264c0aed9d/669_481_3870_3096/master/3870.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=dcd77fd016eb2acb851e886592d6ef86",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Most Americans think Donald Trump is using the presidency to enrich himself, according to a new poll, as the US president’s approval rating falls to a new low ahead of November’s midterm elections."
-        },
-        {
-          "type": "p",
-          "text": "A new Washington Post-ABC poll put Trump’s approval rating at 33% as he continues to crisscross the country as part of his campaign blitz for embattled Republicans."
-        },
-        {
-          "type": "p",
-          "text": "Most Americans (66%) believe Trump is using the presidency to enrich himself, according to the survey – including 34% of Republicans. This is a 12-point jump from last September."
-        },
-        {
-          "type": "p",
-          "text": "While Trump returned to power in January 2025 and promised a “new golden age” for the US economy, 48% of respondents said they are financially worse off than when Trump returned to office in 2025. According to the Post, this represents the highest percentage saying this about any president in this series of polls since 1986."
-        },
-        {
-          "type": "p",
-          "text": "Most of those surveyed – 67% – also said Trump is not committed to protecting freedom of the press. This comes after a protracted battle to ban CNN, MS Now and Politico from the White House grounds. A federal judge has subsequently issued a preliminary injunction blocking the administration from enforcing the ban."
-        },
-        {
-          "type": "p",
-          "text": "Today’s new polling suggests Americans remain deeply pessimistic about the economy ahead of the midterms, with 75% rating conditions as either “not so good” or “poor”."
-        },
-        {
-          "type": "p",
-          "text": "The findings also highlight the challenge facing Republicans in November: 37% of respondents said they trust Democrats more on the economy, compared with 28% who said they trust Republicans."
-        },
-        {
-          "type": "p",
-          "text": "As Republicans across the country brace for a potentially tough set of results next month, 61% of Americans said Trump is not committed to free and fair elections, according to the poll. This number is up by five percentage points, compared to October 2025."
-        },
-        {
-          "type": "p",
-          "text": "It also comes after the Department of Justice sued California, after the state did not supply the administration with the citizenship status of about 20,000 people it claimed to be non-citizens. However, the justice department did not provide an explanation for how they created the list of names."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "Trump is due to head to Kansas on Monday to stump on behalf of Roger Marshall, an embattled Republican incumbent senator, before back-to-back events in North Carolina, South Carolina, Iowa, Florida, Georgia and Michigan over the coming days."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "inq-9r3puf",
       "source": "inq",
       "title": "Trump rallies on Republican turf as midterm fears mount",
@@ -3686,126 +3925,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "grd-ut9dzd",
-      "source": "grd",
-      "title": "New details emerge on two killed after woman drove through Kansas soccer game",
-      "summary": "<p>A boy, six, and woman, 35, were killed and 10 were injured after a woman drove on to the field at a youth soccer game</p><p>New details have emerged about two people – including a child – killed…",
-      "byline": "Richard Luscombe",
-      "section": "Kansas",
-      "published": "2026-10-19T16:23:41.000Z",
-      "firstSeen": "2026-10-19T17:01:17.280Z",
-      "url": "https://www.theguardian.com/us-news/2026/oct/19/kansas-deaths-soccer-game-vehicle-latest",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/2fe51131dfed9bcf4013e72ed52f52e46974304c/535_0_1350_1080/master/1350.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=6a375e5777c1e930afc49ea648dadfcd",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "New details have emerged about two people – including a child – killed when a woman drove a vehicle through a youth soccer game in Kansas, as officials on Monday continued to investigate the cause of the tragedy."
-        },
-        {
-          "type": "p",
-          "text": "Chris Adrian, a middle school soccer coach, said his family was heartbroken over losing his six-year-old son, Cole, who died after the incident at Wichita’s Stryker Sports Complex in which 10 others were hurt, some seriously."
-        },
-        {
-          "type": "p",
-          "text": "“Cole was an incredible kid and could put a smile on anyone’s face,” Adrian said in a text message reported by the New York Times."
-        },
-        {
-          "type": "p",
-          "text": "“He was the joy and light of our community. His pure heart was open to everyone. He had the best laugh. He was a friend with everyone, young or old.”"
-        },
-        {
-          "type": "p",
-          "text": "The other victim, 35-year-old Nicholas Schafer, was identified Sunday."
-        },
-        {
-          "type": "p",
-          "text": "Schafer and his wife, Ashley, celebrated their 14th anniversary in May, according to a Facebook post, and had three children. An online fundraiser set up by friends said the family had “suffered tremendous loss, immense pain, and devastation, forever changing their futures”."
-        },
-        {
-          "type": "p",
-          "text": "The two who died were unrelated and described as residents of McPherson, Kansas, about an hour north of Wichita."
-        },
-        {
-          "type": "p",
-          "text": "A 34-year-old woman from Garden City, Kansas, who was at the wheel of the Chevrolet pickup truck at the center of the case, was released without charges by the Wichita police department on Sunday, pending further investigation and toxicology tests."
-        },
-        {
-          "type": "p",
-          "text": "According to witnesses, the woman’s vehicle, also containing two of her three children, suddenly drove on to the field, having been parked in a space nearby."
-        },
-        {
-          "type": "p",
-          "text": "Wichita’s police chief, Joe Sullivan, said in a statement on Facebook that his investigators “will continue working to understand exactly what happened”."
-        },
-        {
-          "type": "p",
-          "text": "He said: “Our hearts are with the families of [Cole] and Nicholas as they face an unimaginable loss. What should have been a day of children playing soccer and families spending time together ended in tragedy."
-        },
-        {
-          "type": "p",
-          "text": "“We are also thinking about those who were injured, their loved ones and everyone who witnessed what happened. We know this tragedy has affected many people throughout our community, and we want those families to know they are not alone.”"
-        },
-        {
-          "type": "p",
-          "text": "Those injured, Sullivan said, included five children: two girls ages five and nine, a five-year-old boy, and two boys aged eight."
-        },
-        {
-          "type": "p",
-          "text": "Also injured were women aged 28, 59 and 65, and men aged 32 and 68. A 61-year-old woman was treated for medical complications unrelated to traumatic injuries."
-        },
-        {
-          "type": "p",
-          "text": "Police said they have spoken to more than 30 witnesses so far and appealed for anybody with video of the incident to come forward."
-        },
-        {
-          "type": "p",
-          "text": "Accounts of the tragedy were published on Monday by NBC News, which spoke to several people who were there."
-        },
-        {
-          "type": "p",
-          "text": "Erica Case said she was watching her nine-year-old son’s game on an adjacent field when she heard an engine revving and several “boom” sounds."
-        },
-        {
-          "type": "p",
-          "text": "“I saw the truck hitting things,” she said. “I saw debris flying in the air."
-        },
-        {
-          "type": "p",
-          "text": "“I don’t know if it was a cone, a chair or a person, but you could see matter flying as the truck was barreling through the soccer field at a decent rate of speed."
-        },
-        {
-          "type": "p",
-          "text": "“The moment that I recognized that that wasn’t gunshots, that that was bodies, I lost it, because it wasn’t just adults. It was also children.”"
-        },
-        {
-          "type": "p",
-          "text": "She said it took emergency services about 10 minutes to arrive, time in which bystanders raced to help those who were hurt. She said she saw one person giving CPR to one of the victims."
-        },
-        {
-          "type": "p",
-          "text": "David Griekspoor was at the complex with his brother and sister-in-law, watching his nephew play soccer."
-        },
-        {
-          "type": "p",
-          "text": "“It sounded like small gunfire – bap, bap, bap,” he told NBC. “You look up, and you just see the truck going through a line of people.”"
-        },
-        {
-          "type": "p",
-          "text": "The sports complex was closed for the remainder of the weekend after the incident."
-        },
-        {
-          "type": "p",
-          "text": "On Sunday night, some members of the Wichita youth soccer community held a vigil and memorial at an indoor sports facility across town."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "bbc-wglt0u",
@@ -14952,98 +15071,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "grd-fo1488",
-      "source": "grd",
-      "title": "France hit by debt sell-off as protests unnerve investors",
-      "summary": "<p>After Macron condemned ‘unbridled violence’, difference between French and German 10-year borrowing costs widens</p><ul><li><p><a…",
-      "byline": "Lauren Almeida",
-      "section": "France",
-      "published": "2026-10-19T07:32:59.000Z",
-      "firstSeen": "2026-10-19T08:01:02.270Z",
-      "url": "https://www.theguardian.com/world/2026/oct/19/france-hit-by-debt-sell-off-as-protests-unnerve-investors",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/ff2dc74cc6caff96ab8cb23e046cdf2ad57f24bc/404_72_1229_983/master/1229.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=3167ef4b892b87cebb6ae8c3258006bb",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "France was hit by a fresh wave of selling in its bond and stock markets on Monday after violent protests over the weekend left public buildings burned, hundreds of shops looted and thousands of arrests across the country."
-        },
-        {
-          "type": "p",
-          "text": "Almost 2,400 people have been arrested in France, the interior ministry said on Sunday, with police deploying teargas in confrontations with protesters."
-        },
-        {
-          "type": "p",
-          "text": "The French president, Emmanuel Macron, condemned the “unbridled violence” in a televised address on Sunday night."
-        },
-        {
-          "type": "p",
-          "text": "“Looking at these images, we all asked ourselves: what is going through their minds? How can French people do this to France?” he said."
-        },
-        {
-          "type": "p",
-          "text": "The chaos has spooked investors in France’s government debt, with the yield on its 10-year yield rising by seven basis points to 4.849%. Yields rise when prices fall."
-        },
-        {
-          "type": "p",
-          "text": "This widened the difference between the French and German 10-year borrowing costs – which is a metric for the risk premium attached to French debt."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, the two-year yield rose by 2.5 basis points to 3.571%."
-        },
-        {
-          "type": "p",
-          "text": "Violence erupted across the country after weeks of peaceful demonstrations over conditions in schools and the cost of living."
-        },
-        {
-          "type": "p",
-          "text": "While tens of thousands of people have attended peaceful marches to demand more teachers and repairs to decrepit schools, different groups have clashed with police in cities including Paris, Bordeaux, Nice and Marseille."
-        },
-        {
-          "type": "p",
-          "text": "Jim Reid of Deutsche Bank said the protests “won’t make it easy for the international community to be totally comfortable buying OATs [French government bonds]”."
-        },
-        {
-          "type": "p",
-          "text": "He said: “With France already facing a difficult fiscal backdrop and the 2027 election approaching, the weekend adds another layer of political risk for markets.”"
-        },
-        {
-          "type": "p",
-          "text": "The 30-year bond, which is a benchmark for the French government’s long-term cost of borrowing, rose by three basis points to 5.397%."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "The rise in borrowing costs will add further strain to France’s public finances, as the government also tries to pass a budget for next year to rein in its deficit."
-        },
-        {
-          "type": "p",
-          "text": "France’s debt-to-GDP stood at 1115.6% in 2025, while its budget deficit was 5.1%, compared with 94.3% and 4.3% for the UK respectively."
-        },
-        {
-          "type": "p",
-          "text": "The French government is preparing a budget that would involve cutting pensions spending and funding for government departments, excluding defence. However, there are growing fears that political pressure could derail these plans, which could push up borrowing and add more to the country’s debt pile."
-        },
-        {
-          "type": "p",
-          "text": "The euro also slipped slightly against the US dollar, down by 0.13% in early trading on Monday, falling to $1.122."
-        },
-        {
-          "type": "p",
-          "text": "The French Cac 40, which tracks the biggest companies listed in Paris, fell by 1% at the start of trading in Paris, compared with a 0.4% drop on the pan-European Stoxx Europe 600 index."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1jqm3qw",
       "source": "abs",
       "title": "NCRPO gears up for Undas 2026, expects more cemetery-goers",
@@ -19670,139 +19697,6 @@
         {
           "type": "p",
           "text": "Video editor: Zahra Fatima"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-re59q1",
-      "source": "dw",
-      "title": "How big is Russia's threat against Germany?",
-      "summary": "Experts believe that, so far, Germany has been ill-prepared — both militarily and mentally — for Russian provocations. They also warn against the idea that ending support for Ukraine would make…",
-      "byline": "Christoph Hasselbach",
-      "section": "",
-      "published": "2026-10-17T15:23:00.000Z",
-      "firstSeen": "2026-10-17T15:31:02.000Z",
-      "url": "https://www.dw.com/en/how-big-is-russia-s-threat-against-germany/a-79688426?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/76579180_6.jpg",
-        "caption": "Germans have been protesting both for and against supporting Ukraine in its war with RussiaImage: DW"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Warnings keep mounting about Russia's threat to Germany. On October 12, Sinan Selen, president of Germany's domestic intelligence agency, the BfV, said that Russia's covert attacks and destabilization efforts against Germany and other European countries are \"not a temporary development but a long-term hybrid attack.\""
-        },
-        {
-          "type": "p",
-          "text": "Even if the war in Ukraine were to end, said Selen, the Russian threat would not disappear. \"For Russia, this is about completely redrawing the map of Europe and redefining its own role within Europe and in global politics.\""
-        },
-        {
-          "type": "p",
-          "text": "He added that Russia's aggression would continue to be felt not only in Ukraine, but also in the Baltic states, in Poland and in Germany."
-        },
-        {
-          "type": "h",
-          "text": "Russia is tied down in Ukraine — for now"
-        },
-        {
-          "type": "p",
-          "text": "German Interior Minister Alexander Dobrindt has described the threat situation as one in which \"our country is not at war, but we are the daily target of hybrid warfare.\" Russia's goal, he said, is not to defeat Germany militarily \"but to subdue us politically and socially.\""
-        },
-        {
-          "type": "p",
-          "text": "Security experts, however, are not so sure that Russia is only interested in exercising political and social influence. Last year, political scientist Carlo Masala told the political talk show Maischberger that \"Russia is preparing for a major war.\" And he didn't mean just a cyberwar. Inspector General Carsten Breuer, the Bundeswehr's highest-ranking officer, agreed."
-        },
-        {
-          "type": "p",
-          "text": "For now, though, Russia remains tied up in its war against Ukraine. According to NATO Secretary General Mark Rutte, there is no immediate military threat to NATO territory. But according to military experts, European intelligence agencies, and the German Defense Ministry, Russia will have the personnel and equipment to wage a conventional war against NATO by 2029. The Russian defense industry is running at full speed, and Moscow plans to expand its armed forces to 1.5 million soldiers."
-        },
-        {
-          "type": "p",
-          "text": "At the moment, Russia has other objectives, believes Stefan Meister, an expert on Eastern Europe at the German Council on Foreign Relations (DGAP): \"I don't think Russia has any interest in a direct military conflict with NATO right now. It wants to test NATO and also display its capabilities,\" he tells DW."
-        },
-        {
-          "type": "h",
-          "text": "If Russia attacked NATO, would Germany be prepared?"
-        },
-        {
-          "type": "h",
-          "text": "An accidental military confrontation?"
-        },
-        {
-          "type": "p",
-          "text": "An example of Russia's hybrid war might be the failed attack with an explosive-laden drone against a Ukrainian transport aircraft at Leipzig-Halle Airport in August. Soon after, the German government stated that it was certain Russia was behind the attack."
-        },
-        {
-          "type": "p",
-          "text": "Security expert Nico Lange told DW at the time that Germany was very lucky the explosives did not detonate: \"Honestly, it was pure coincidence and not the result of German defensive measures.\""
-        },
-        {
-          "type": "p",
-          "text": "As for why Germany was targeted specifically, Lange said: \"I believe that Germany has always been a primary target of Russian influence and hybrid warfare. Russia believes that Germany is the key to European decision-making. Germany is now leading the way in supporting Ukraine.\""
-        },
-        {
-          "type": "p",
-          "text": "Moscow swiftly responded to the German government's accusation with an angry denial. Foreign Minister Sergey Lavrov said it was \"the beginning of a real war,\" though there was no immediate further escalation."
-        },
-        {
-          "type": "p",
-          "text": "Nevertheless, there is always the risk that things could spiral out of control following a Russian provocation and subsequent response, according to Stefan Meister: \"Accidentally shooting down an aircraft that they were trying to intimidate would trigger a counter-reaction. But I don't believe that Russia is currently aiming for a direct war but rather for provocations, polarization, and sowing uncertainty among the population.\""
-        },
-        {
-          "type": "h",
-          "text": "AfD says less money for Ukraine means more for Germany"
-        },
-        {
-          "type": "p",
-          "text": "Not everyone shares the assessment that Russia poses a threat to Germany — some believe that the threat can be averted."
-        },
-        {
-          "type": "p",
-          "text": "Despite the war in Ukraine, politicians from the far-right Alternative for Germany (AfD) and the populist left-wing Alliance for Social Justice and Economic Reason (BSW) want to improve relations with Russia, resume Russian energy supplies and end support for Ukraine."
-        },
-        {
-          "type": "p",
-          "text": "AfD co-leader Tino Chrupalla said in early September, \"People are fed up with this escalation against Russia, with the billions being squandered there on a system that is actually funded by German taxpayers' money.\""
-        },
-        {
-          "type": "p",
-          "text": "The message appears to have resonated among the population, especially in eastern Germany. The AfD saw strong gains in all three state elections in September. In Saxony-Anhalt, it became the strongest party by far and may even run the government there soon, which would be the first time that a far-right party has held power in Germany since the end of WWII."
-        },
-        {
-          "type": "p",
-          "text": "The CDU's security policy expert Roderich Kiesewetter disputed the claim made by the AfD and BSW that ending aid to Ukraine would mean greater security and more money for German schools and infrastructure: \"Spending on education, social policy, and infrastructure is only possible if we live in freedom and democracy — and, above all, in peace and security. Anyone who believes that we'll have more money for social programs if we stop supporting Ukraine and let Russia have its way is either gravely mistaken or is making themselves a tool of Russian propaganda.\""
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79434130_$%7BformatId%7D.jpg",
-          "caption": "German high school students have gone on strike to protest plans to reintroduce military conscriptionImage: Snowfield Photography/picture alliance"
-        },
-        {
-          "type": "h",
-          "text": "A decades-long pacifist mindset"
-        },
-        {
-          "type": "p",
-          "text": "The perceived security threat has led the German military, the Bundeswehr, to fast-track significant modernization through substantial investment. But it is struggling to find enough recruits for its planned expansion. Many young Germans have taken to the streets to protest against plans to reintroduce conscription. Defense Minister Boris Pistorius faced criticism from inside his own party, the center-left Social Democratic Party (SPD), for saying that Germany must become \"capable of waging war.\" Many found the statement to be too militaristic."
-        },
-        {
-          "type": "p",
-          "text": "Is Germany prepared for a military threat? \"Not at all. Germany is not well prepared militarily or in the civilian sector, and the population isn't mentally prepared for it either,\" said Meister. \"Just look at the demonstrations against conscription and the military that continue to take place, even though Germany needs a draft. For decades, we've grown up in this culture of pacifism, in a comfort zone. I believe there is very limited societal resilience, but above all, we are not at all mentally prepared for war.\""
-        },
-        {
-          "type": "p",
-          "text": "Chancellor Friedrich Merz and his conservative Christian Democratic Union (CDU) are under increasing political pressure — especially from the far right — to scale back support for Ukraine. But Merz never tires of emphasizing that Ukraine will continue to receive support under his chancellorship, calling it a matter of Germany's security. He recently visited Kyiv once again and, together with Ukrainian President Volodymyr Zelenskyy, surveyed the destruction caused by Russia."
-        },
-        {
-          "type": "p",
-          "text": "But this also means that the threat from Russia will continue and even intensify, says Stefan Meister: \"I believe we will see a massive increase in attacks such as the one in Leipzig, of provocations involving drones. We will see attacks on infrastructures and possibly also on specific individuals within the military-industrial complex. I believe this is the real, concrete danger facing Germany in the coming months.\""
-        },
-        {
-          "type": "p",
-          "text": "This article was translated from German."
         }
       ],
       "truncated": false,
