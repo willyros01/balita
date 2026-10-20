@@ -1,0 +1,88 @@
+{
+  "id": "grd-um71wp",
+  "source": "grd",
+  "title": "Power outage at Google datacentre in London causes widespread disruption",
+  "summary": "<p>Outage shows danger of growing reliance on small number of big companies for our digital infrastructure, say experts</p><p>It happened again. A power outage hit a datacentre in London, and things…",
+  "byline": "Aisha Down",
+  "section": "Datacentres - UK",
+  "published": "2026-10-20T16:50:31.000Z",
+  "firstSeen": "2026-10-20T17:31:03.321Z",
+  "url": "https://www.theguardian.com/uk-news/2026/oct/20/power-outage-google-datacentre-london-widespread-disruption",
+  "image": {
+    "src": "https://i.guim.co.uk/img/media/e4455495e92ab881db19e16dd3af7a07cccb239f/167_0_1666_1333/master/1666.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0d310638ae873fce113fb8ca0ee9cc0c",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "It happened again. A power outage hit a datacentre in London, and things cascaded from there: multiple banking services faltered, court hearings were put on hold and patients reported temporary glitches on the NHS app."
+    },
+    {
+      "type": "p",
+      "text": "The datacentre in question was in Google’s europe-west2-b zone, one of over a dozen “zones” that the US search giant maintains in Europe to service its clients."
+    },
+    {
+      "type": "p",
+      "text": "The outages – which have affected, according to the website Downdetector, Royal Mail, Revolut, HSBC and Lloyds bank, among others, are so far not of the scale of a similar cascade this time last year, which saw Amazon Web Services go down for nearly half a day."
+    },
+    {
+      "type": "p",
+      "text": "That outage hit a far bigger node – Amazon’s us-east1 – in a concentrated region of Virginia, which hosts the greatest density of datacentres on Earth. It saw cascading effects worldwide: taking out the Roblox game and Signal messaging app and causing smart mattresses worldwide to suddenly heat overnight and toast their occupants."
+    },
+    {
+      "type": "p",
+      "text": "It lasted about 15 hours."
+    },
+    {
+      "type": "p",
+      "text": "Today’s problems appeared to peak around 9am, and by mid-afternoon were somewhat resolved – according to reports submitted to Downdetector. Because Google Cloud stores data and runs operations for a number of businesses, there were widespread knock-on effects – mostly confined to UK businesses."
+    },
+    {
+      "type": "p",
+      "text": "Revolut confirmed “a service disruption affecting multiple services”, but added “all our customers’ money and data are safe”. Lloyd’s said its app was working, but “we understand some [people] are having issues with certain online services this morning”."
+    },
+    {
+      "type": "p",
+      "text": "HM Courts and Tribunal Services, which handles remote video hearings in courts across England and Wales, said it was “aware of an issue affecting Cloud Video Platform,” and was “working with our technology partners to restore service”."
+    },
+    {
+      "type": "p",
+      "text": "Like the far-bigger outage of last year, it’s a reminder of the physical infrastructure – often creaking and provisional – that underpins most of the virtual world."
+    },
+    {
+      "type": "p",
+      "text": "Michał ‘rysiek’ Woźniak, an internet infrastructure expert, said the outages were a reminder of the increasing concentration of the internet and vital services on the infrastructure of a few key companies – the “hyperscalers”."
+    },
+    {
+      "type": "p",
+      "text": "“Hyperscalers have become too big to not fail. But worse, they’ve become so deeply ingrained into the very fabric of our digital lives that switching away from them seems unimaginable.”"
+    },
+    {
+      "type": "p",
+      "text": "The Guardian has reported that British police keep vital data on Microsoft’s Azure cloud, despite being apparently aware that this exposes sensitive information to US government insiders, hostile foreign actors, and outages like today’s. Up to 60% of the UK government’s infrastructure is hosted on cloud services, mostly Amazon, Microsoft and Google."
+    },
+    {
+      "type": "p",
+      "text": "“I am sure Google’s engineers are doing everything they can to mitigate them, but it is unreasonable to have a handful of gigantic companies whose outages time and again cause public institutions or large swaths of the digital economy to stop working en masse,” said Woźniak."
+    },
+    {
+      "type": "p",
+      "text": "Last year’s AWS outage was later revealed to have been caused not by a power outage, but by a bug in automation software. A separate outage was caused by an AI tool that Amazon had adopted after laying off tens of thousands of staff last autumn."
+    },
+    {
+      "type": "p",
+      "text": "Woźniak pointed at an announcement earlier this year from Google indicating that it was also embracing AI, with 75% of all new code “now AI-generated and approved by engineers”."
+    },
+    {
+      "type": "p",
+      "text": "“One can only wonder how that affects the reliability and quality of Google’s services. Multiple large outages at another hyperscaler, AWS, a year ago have been linked to internal AI tooling.”"
+    },
+    {
+      "type": "p",
+      "text": "Google has been approached for comment."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
