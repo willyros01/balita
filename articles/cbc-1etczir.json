@@ -1,0 +1,111 @@
+{
+  "id": "cbc-1etczir",
+  "source": "cbc",
+  "title": "Canadian government sites among those offline after flaw identified in widely used computer language",
+  "summary": "Developers behind the PHP programming language released a fix on Wednesday after a security vulnerability was brought to light. The PHP developers urged people to implement the fix as quickly as…",
+  "byline": "Abby Hughes",
+  "section": "News/Business",
+  "published": "2026-10-21T19:50:12.000Z",
+  "firstSeen": "2026-10-21T20:01:07.913Z",
+  "url": "https://www.cbc.ca/news/business/canadian-government-sites-down-php-cybersecurity-9.7390368?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/ae705ffb-9b2f-4c91-b862-7e6c702b5c5f,1792610432577/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C82%2C5923%2C3331%29%3BResize%3D620",
+    "caption": "A person works on their laptop at a cafe in London, Britain, October 21, 2026. Government websites in Canada and Europe went dark on Wednesday as operators raced to patch two critical vulnerabilities in PHP, one of the most widely used programming languages on the web. (Toby Melville/Reuters)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Business·New"
+    },
+    {
+      "type": "p",
+      "text": "Developers behind the PHP programming language released a fix on Wednesday after a security vulnerability was brought to light. The PHP developers urged people to implement the fix as quickly as possible, and some governments took sites offline as a precautionary measure."
+    },
+    {
+      "type": "h",
+      "text": "Developers behind the PHP programming language urging companies to implement a fix quickly"
+    },
+    {
+      "type": "p",
+      "text": "Numerous websites, including Canadian government sites, went offline Wednesday in order to implement a fix after a vulnerability was found in PHP, a widely used programming language."
+    },
+    {
+      "type": "p",
+      "text": "PHP developers on Wednesday released urgent new fixes to vulnerabilities in their software, and encouraged website operators to implement the solution as soon as possible."
+    },
+    {
+      "type": "p",
+      "text": "\"If you run PHP, it is imperative that you update now,\" the PHP Foundation said in a news release."
+    },
+    {
+      "type": "p",
+      "text": "Artificial Intelligence Minister Evan Solomon said some federal government websites had been taken offline temporarily as a \"precautionary measure,\" and urged organizations whose websites run on PHP to implement the security update."
+    },
+    {
+      "type": "p",
+      "text": "\"We are taking this situation extremely seriously,\" Solomon said in a post on social media. \"The affected websites will be brought back online as soon as the fixes have been applied.\""
+    },
+    {
+      "type": "p",
+      "text": "The websites for the Canadian Centre for Cyber Security and Statistics Canada website appeared to be down for a period of time on Wednesday when CBC News attempted to access them."
+    },
+    {
+      "type": "p",
+      "text": "The Newfoundland and Labrador government site was offline on Wednesday following a newly disclosed cybersecurity vulnerability. Multiple Canadian government sites were down on Wednesday because of the vulnerability. (CBC)"
+    },
+    {
+      "type": "p",
+      "text": "The government sites for Newfoundland and Labrador and Prince Edward Island were also offline, displaying messages saying the shutdown was due to a global security incident."
+    },
+    {
+      "type": "p",
+      "text": "PHP is a language that dates back to the early 1990s and initially stood for \"Personal Home Page.\" It underpins huge parts of the public-facing web and is baked into sites like WordPress, ​Drupal, Joomla and Magento."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "AI agents tried to hack Library and Archives Canada website, research firm says"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "When a visitor loads a page that uses PHP, a server running the language assembles the content and sends it to the browser. ⁠It is free, open source software, maintained by volunteers."
+    },
+    {
+      "type": "p",
+      "text": "The flaw in PHP was discovered using artificial intelligence, Alphabet-owned cybersecurity company Wiz said in a blog post."
+    },
+    {
+      "type": "p",
+      "text": "How AI hacked the Australian government and almost got away with it | About That"
+    },
+    {
+      "type": "p",
+      "text": "The company said the vulnerable code had been present for more than a decade, and that they used multiple large language models to find the vulnerability and validate the patch for the problem while working with OpenAI on discovery and patching. They also co-ordinated with Automattic, AWS, Microsoft and others on the rollout of the patch, so they could give guidance to customers that cannot implement the fix immediately."
+    },
+    {
+      "type": "p",
+      "text": "PHP runs roughly 75 of websites whose programming language can be identified, according to web technology tracker W3Techs."
+    },
+    {
+      "type": "p",
+      "text": "Elsewhere around the world, cybersecurity agencies in Europe, Australia, Japan and Britain also urged PHP users to make the fix, while governments in France, the Netherlands and other European countries proactively took their websites offline to make the fix."
+    },
+    {
+      "type": "h",
+      "text": "ABOUT THE AUTHOR"
+    },
+    {
+      "type": "p",
+      "text": "Abby Hughes is a writer with CBC News based in Toronto. Originally from Orillia, Ont., she studied journalism at Toronto Metropolitan University. She covers news from the worlds of business, entertainment, health, science and education, and her favourite stories focus on the real people in those areas — the customers, fans, patients, citizens and students. You can reach her with story ideas at abby.hughes@cbc.ca."
+    },
+    {
+      "type": "p",
+      "text": "With files from Reuters"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
