@@ -1,0 +1,242 @@
+{
+  "id": "bbc-76b5pb",
+  "source": "bbc",
+  "title": "What is PHP and why did it spark a global cyber-security scramble?",
+  "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
+  "byline": "Osmond Chia",
+  "section": "",
+  "published": "2026-10-22T03:48:50.000Z",
+  "firstSeen": "2026-10-22T04:30:54.038Z",
+  "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+  "image": {
+    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c55/live/d85b8680-cda9-11f1-a64c-550be9e3c66b.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Image source, Reuters"
+    },
+    {
+      "type": "p",
+      "text": "ByOsmond Chia"
+    },
+    {
+      "type": "p",
+      "text": "Business reporter"
+    },
+    {
+      "type": "p",
+      "text": "For more than a decade, serious flaws had gone undetected in technology underpinning much of the internet."
+    },
+    {
+      "type": "p",
+      "text": "It took artificial intelligence (AI) to bring them to light and caused a global cyber-security alert."
+    },
+    {
+      "type": "p",
+      "text": "The vulnerabilities lie within a programming language called PHP, which has been used internationally since the 2000s to build websites."
+    },
+    {
+      "type": "p",
+      "text": "Governments and cyber-security agencies around the world scrambled to contain the fallout of this discovery on Wednesday, and have urged website operators to install a new emergency fix or consider taking their platforms offline."
+    },
+    {
+      "type": "p",
+      "text": "Cyber-security firm Wiz - one of the companies whose researchers uncovered the vulnerabilities - described the flaws as the \"most severe\" ever detected by AI."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI, whose technology was used to find the flaws, called the discovery \"one of the most impactful security issues in recent memory\"."
+    },
+    {
+      "type": "h",
+      "text": "What is the flaw?"
+    },
+    {
+      "type": "p",
+      "text": "Most people may not have heard of PHP - short for PHP: Hypertext Preprocessor - but they most certainly interact with it daily."
+    },
+    {
+      "type": "p",
+      "text": "PHP powers a vast number of platforms, including online shops, Wikipedia and WordPress – the content management system behind many websites like blogs."
+    },
+    {
+      "type": "p",
+      "text": "When you visit a website like Wikipedia, PHP is the code that collects information you need and presents it in a way you can read on the web, Paul Spain, chief executive of Gorilla Cyber Security, told the BBC."
+    },
+    {
+      "type": "p",
+      "text": "But due to a flaw that could allow attackers to take control of affected web servers without authentication and steal sensitive data, everything built on PHP was left exposed."
+    },
+    {
+      "type": "p",
+      "text": "AI could make such attacks easier and faster, Spain said, estimating that the flaw could affect \"millions and millions\" of websites."
+    },
+    {
+      "type": "p",
+      "text": "It would be \"disastrous\" if hackers or countries weaponised the flaw and seized private data from websites, said cyber-security researcher Jill Slay from the University of Adelaide."
+    },
+    {
+      "type": "h",
+      "text": "What websites have been affected?"
+    },
+    {
+      "type": "p",
+      "text": "The alert has disrupted services globally, from gaming platforms to government portals and online forums."
+    },
+    {
+      "type": "p",
+      "text": "That includes Wikimedia - the organisation behind the online encyclopaedia Wikipedia - which took down a number of its systems as a precautionary measure."
+    },
+    {
+      "type": "p",
+      "text": "Sites and pages have been taken offline by the Finnish government, Edinburgh council and the BBC, with the Netherlands' cyber-security agency also pulling its website."
+    },
+    {
+      "type": "image",
+      "src": "https://ichef.bbci.co.uk/ace/standard/999/cpsprodpb/c940/live/f769f700-cda9-11f1-9a39-31b474234113.jpg",
+      "caption": "Image caption, Websites like the University of Geneva's were taken offline on Wednesday"
+    },
+    {
+      "type": "p",
+      "text": "Image source, EPA"
+    },
+    {
+      "type": "p",
+      "text": "Websites like the University of Geneva's were taken offline on Wednesday"
+    },
+    {
+      "type": "p",
+      "text": "A number of Scotland's public organisations, including councils and health boards, have also taken their websites offline."
+    },
+    {
+      "type": "p",
+      "text": "Some experts warn the vulnerability could leave poorly maintained websites, particularly those belonging to smaller organisations with limited security resources, at greater risk."
+    },
+    {
+      "type": "p",
+      "text": "More attempts to exploit these flaws are likely in the coming weeks since the technical details are now being made public, cyber-security researcher Salil Kanhere from UNSW Sydney said."
+    },
+    {
+      "type": "h",
+      "text": "What happened after the flaws were exposed?"
+    },
+    {
+      "type": "p",
+      "text": "Developers of the PHP platform on Wednesday rolled out patches to fix the vulnerabilities that had been lurking in their software for years."
+    },
+    {
+      "type": "p",
+      "text": "\"All PHP users are strongly encouraged to update immediately,\" the company said."
+    },
+    {
+      "type": "p",
+      "text": "Authorities and security organisations around the world have echoed those warnings to website operators to secure their platforms."
+    },
+    {
+      "type": "p",
+      "text": "The US National Security Agency told all organisations that use PHP to take their systems offline if they were unable to patch them immediately, adding that the flaw could provide a \"direct path\" to exploit a system's database."
+    },
+    {
+      "type": "p",
+      "text": "\"These risks are serious enough to require immediate patching across United States Government departments and agencies,\" the agency said."
+    },
+    {
+      "type": "p",
+      "text": "The UK's National Cyber Security Centre gave similar advice and told organisations to check for \"backdoors installed by an attacker\"."
+    },
+    {
+      "type": "p",
+      "text": "Its counterparts in the EU and Australia have also issued similar alerts."
+    },
+    {
+      "type": "p",
+      "text": "Japanese Prime Minister Sanae Takaichi urged people to check if their publicly available websites ran on PHP."
+    },
+    {
+      "type": "image",
+      "src": "https://ichef.bbci.co.uk/ace/standard/942/cpsprodpb/99ea/live/ae372750-cdb9-11f1-bb56-8df8ff97d155.jpg",
+      "caption": "Image caption, Japan's Prime Minister Sanae Takaichi urged people to check if their publicly available websites ran on PHP"
+    },
+    {
+      "type": "p",
+      "text": "Image source, Bloomberg via Getty Images"
+    },
+    {
+      "type": "p",
+      "text": "Japan's Prime Minister Sanae Takaichi urged people to check if their publicly available websites ran on PHP"
+    },
+    {
+      "type": "p",
+      "text": "\"We have an urgent request for everyone to take action tonight,\" Takaichi wrote on X."
+    },
+    {
+      "type": "p",
+      "text": "\"If it is difficult to apply the fix patch promptly, temporarily suspending websites and similar measures can be considered an effective way to reduce risk,\" she said."
+    },
+    {
+      "type": "h",
+      "text": "How is AI finding weak spots?"
+    },
+    {
+      "type": "p",
+      "text": "The vulnerabilities were found by researchers at the security firms Calif and Wiz."
+    },
+    {
+      "type": "p",
+      "text": "The researchers used advanced AI tools that are able to analyse code and find flaws much faster than humans or older systems can."
+    },
+    {
+      "type": "p",
+      "text": "\"Modern software is incredibly complex, and some vulnerabilities can remain undetected for years,\" Kanhere said."
+    },
+    {
+      "type": "p",
+      "text": "\"The underlying bugs weren't new; what changed was our ability to find them,\" Kanhere said."
+    },
+    {
+      "type": "p",
+      "text": "Details of the discovery leaked online this week, forcing the PHP platform's developers to rush out its announcement of the security flaw and its huge scale."
+    },
+    {
+      "type": "p",
+      "text": "The incident \"highlights how AI can uncover security flaws\" but also how it can \"help attackers rapidly develop offensive tools and exploits,\" OpenAI said in a blog post."
+    },
+    {
+      "type": "p",
+      "text": "The ChatGPT-maker said it had released a program to check if the PHP platform is secure."
+    },
+    {
+      "type": "p",
+      "text": "\"Many of these flaws stem from the way software were built in the past, which were built for functionality and not with security in mind,\" said Ryan Ko, at the University of Queensland's Cyber Research Centre."
+    },
+    {
+      "type": "h",
+      "text": "What can people do to safeguard themselves?"
+    },
+    {
+      "type": "p",
+      "text": "Website owners are being urged to secure their websites with the latest version of PHP."
+    },
+    {
+      "type": "p",
+      "text": "The US National Security Agency has urged \"heightened awareness\" in the coming weeks and to closely monitor updates from software vendors."
+    },
+    {
+      "type": "p",
+      "text": "\"Vigilance in applying patches related to those systems is paramount,\" it said."
+    },
+    {
+      "type": "p",
+      "text": "The onus lies mainly on website operators, but users should stay alert for any security advice issued by affected services, such as requests to change passwords, Kanhere said."
+    },
+    {
+      "type": "p",
+      "text": "He warned people to be alert to any phishing messages exploiting the publicity around the incident too."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
