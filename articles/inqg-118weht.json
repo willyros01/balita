@@ -5,7 +5,7 @@
   "summary": "WASHINGTON, United States — Government agencies and companies around the world shut down websites Wednesday after two critical flaws came to light involving PHP, a programming language that is the…",
   "byline": "Dona Policar",
   "section": "World",
-  "published": "2026-10-22T00:30:52.596Z",
+  "published": "2026-10-22T01:00:58.892Z",
   "firstSeen": "2026-10-22T00:00:59.169Z",
   "url": "https://globalnation.inquirer.net/343340/websites-go-dark-as-ai-exposes-critical-security-flaws",
   "image": {
@@ -21,5 +21,5 @@
   "truncated": true,
   "fx": 6,
   "source_of_text": "summary",
-  "why": "doorway HTTP 403; direct HTTP 403"
+  "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
 }
