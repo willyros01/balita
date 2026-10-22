@@ -1,0 +1,77 @@
+{
+  "id": "inq-qttfry",
+  "source": "inq",
+  "title": "Dell’s Jason Encarnacion demystifies data centers",
+  "summary": "The conversation around data centers in the Philippines has gotten louder. As someone covering enterprise tech, there seems to be the noise over Pax Silica and the misconception of data centers being…",
+  "byline": "Jayvee Fernandez",
+  "section": "",
+  "published": "2026-10-22T10:38:14.000Z",
+  "firstSeen": "2026-10-22T11:00:59.916Z",
+  "url": "https://technology.inquirer.net/149933/dells-jason-encarnacion-demystifies-data-centers",
+  "image": {
+    "src": "https://technology.inquirer.net/files/2026/10/data-center-pexels-470x314.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "The conversation around data centers in the Philippines has gotten louder. As someone covering enterprise tech, there seems to be the noise over Pax Silica and the misconception of data centers being one monolithic thing. When in fact, not all data centers are the same, and Pax Silica is a supply chain, not a data center."
+    },
+    {
+      "type": "p",
+      "text": "There are two sides of digital infrastructure growth for the country: on one side, there’s the progressive argument: build more, build faster, become like Taiwan. On the other hand, there’s the pushback: the grid can barely handle the load, electricity is the most expensive in the region, and the environmental cost hasn’t been honestly reckoned with."
+    },
+    {
+      "type": "image",
+      "src": "https://technology.inquirer.net/files/2026/10/jason-encarnacion-dell-1200x740.jpg",
+      "caption": "Dell’s Jason Encarnacion at the VST ECS 2026 CXO Summit"
+    },
+    {
+      "type": "p",
+      "text": "Before the Philippines can debate how many data centers it should build, it needs to be clearer about what kind it already has, put up against what kind it actually needs."
+    },
+    {
+      "type": "h",
+      "text": "Not all data centers are the same"
+    },
+    {
+      "type": "p",
+      "text": "In a chat with Jason Encarnacion, Data Center Sales Lead for Dell Technologies Philippines, he makes the distinction early in the conversation. Not all data center builds are equivalent. The ones making headlines globally are the hyperscale campuses training large language models, consuming hundreds of megawatts, requiring purpose-built power infrastructure. What exists here, and what the market is genuinely asking for, is more specific: co-location facilities and managed data centers designed to host enterprise workloads, provide business continuity, and give organizations a stable, professionally managed environment for their infrastructure."
+    },
+    {
+      "type": "p",
+      "text": "The difference matters because the objections aimed at one type don’t necessarily apply to the other. A co-location facility serving a mid-sized finance company’s asset management systems is a fundamentally different operation than a GPU farm training a frontier AI model. They’re not the same."
+    },
+    {
+      "type": "p",
+      "text": "That said, Encarnacion doesn’t dismiss the environmental and energy questions. He acknowledges that responsible usage of power, energy resources, and environmental impact needs to be regulated, and that this applies equally to private and public operators. The Philippines is a tropical country with the highest electricity costs in Southeast Asia. Things like liquid cooling are a necessity. His position is measured: the country is at the threshold, progress is visible across the region, but it requires deliberate backing from both government and the private sector to do it responsibly."
+    },
+    {
+      "type": "h",
+      "text": "Problem first, tech later"
+    },
+    {
+      "type": "p",
+      "text": "Where Encarnacion is more direct is on the AI cost question. Infrastructure pricing has become volatile driven by hyperscaler dynamics, global supply chain pressures, and the GPU shortage that has yet to fully resolve. The IDC has some prediction of cooling in the first quarter of 2028, but this can change. His advice to enterprise IT leadership isn’t complicated: plan ahead. Forecast properly. Know what you’re going to need before you need it, because reactive procurement in this environment is expensive."
+    },
+    {
+      "type": "p",
+      "text": "He says that organizations that start with the infrastructure question before the use case question tend to overbuild, underfocus, and stall. The ones moving toward production, he suggests, are the ones that started with a specific industry problem. He outlines a few such as fraud management in banking, patient monitoring in healthcare, customer experience in retail. It’s a “problem first, tech stack later” solution."
+    },
+    {
+      "type": "h",
+      "text": "The thing with data governance"
+    },
+    {
+      "type": "p",
+      "text": "Data governance sits underneath all of it. Without data governance, an AI system is only as good as the data you feed it. In a market still working through what it means to manage enterprise data properly, that’s not a minor footnote. At the CXO Summit, many industry practitioners talked about shadow AI, which are the AI tools being used by employees without the visibility of the organization. These could be innocent free accounts on ChatGPT, Gemini, Claude, where users may upload sensitive company data to the cloud without knowing the ramifications. This is part of the data governance that Encarnacion is talking about, where the entire organization is aligned with the tools that can be used to protect company data."
+    },
+    {
+      "type": "p",
+      "text": "The Philippines doesn’t need to build the same data centers as the United States. It needs to build the right ones and operate the ones it already has with more discipline than the conversation currently suggests it does."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
