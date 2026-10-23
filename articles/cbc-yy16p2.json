@@ -1,0 +1,182 @@
+{
+  "id": "cbc-yy16p2",
+  "source": "cbc",
+  "title": "Crime Stoppers had 'potentially one of the most harmful data breaches' Canada has seen. What's next?",
+  "summary": "",
+  "byline": "Valérie Ouellet, Michelle Allan",
+  "section": "News/Canada",
+  "published": "2026-10-21T08:01:20.000Z",
+  "firstSeen": "2026-10-23T10:00:57.340Z",
+  "url": "https://www.cbc.ca/news/investigates/crime-stoppers-data-breach-whats-next-9.7392709?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/1.6566188,1661819614000/full/max/0/default.jpg?im=Crop%2Crect%3D%2816%2C0%2C1594%2C896%29%3BResize%3D620",
+    "caption": "A Crime Stoppers ad on the side of a train running through downtown Calgary shares the tip line people can call with information about crimes. (Crime Stoppers Calgary)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Investigates·New"
+    },
+    {
+      "type": "p",
+      "text": "Two days after an exclusive CBC investigation revealed the extent of the Crime Stoppers data hack in Canada, experts are now weighing the long-term implications of what could be among the country's most dangerous privacy failures."
+    },
+    {
+      "type": "h",
+      "text": "Canadian privacy laws lack teeth for tipsters to get real justice: expert"
+    },
+    {
+      "type": "p",
+      "text": "· CBC News"
+    },
+    {
+      "type": "p",
+      "text": "· Posted: Oct 23, 2026 5:16 AM EDT | Last Updated: 1 hour ago"
+    },
+    {
+      "type": "p",
+      "text": "\"It strikes me as potentially one of the most harmful data breaches we've ever seen in Canada,\" said Michael Geist, a law professor at the University of Ottawa and the Canada Research Chair in Internet and E-commerce Law."
+    },
+    {
+      "type": "p",
+      "text": "When it comes to the Canadian law, he says, both Crime Stoppers, the organization that collected the data, and Navigate360, the company it hired to manage it, could be held accountable."
+    },
+    {
+      "type": "p",
+      "text": "\"[How] Canadian privacy law functions is that the organization that collects the personal information is the one that's responsible,\" said Geist. \"And even where they use third parties or subcontractors as part of what takes place, it's on them to ensure that no matter who gains access to the information, it has that appropriate level of protection.\""
+    },
+    {
+      "type": "p",
+      "text": "However, enforcing those rules across borders — Navigate360 is U.S.-based — is notoriously difficult, he says, and the domestic penalties are weak."
+    },
+    {
+      "type": "p",
+      "text": "\"These kinds of incidents keep happening. There's a real urgency to addressing Canadian privacy law, which is woefully out of date,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "\"And at the top of the list has been really weak enforcement.\""
+    },
+    {
+      "type": "h",
+      "text": "Expert fears company doesn’t know leak's true scale"
+    },
+    {
+      "type": "p",
+      "text": "At the heart of the breach is Navigate360 and its tip management platform, P3. All Crime Stoppers chapters, including those in Canada and the U.S., relied on P3 to keep their data anonymous."
+    },
+    {
+      "type": "p",
+      "text": "The information was stolen last March by a hacktivist collective Internet Yiff Machine, who stated they wanted to disprove the company's claim that its platform was \"anonymous\" and \"secure.\" CBC News analyzed a copy of the hacked data and found that 1.5 million tips submitted to Canadian Crime Stoppers programs over the last 25 years were exposed, along with tens of thousands of unredacted personal details."
+    },
+    {
+      "type": "p",
+      "text": "CBC has reached out repeatedly to Navigate360 and shared the highlights of its investigation, but the company has not responded."
+    },
+    {
+      "type": "p",
+      "text": "Adding to the controversy are accounts provided by the Toronto and Guelph Wellington Crime Stoppers chapters, where Navigate360 appeared to change its narrative about how much data had been stolen and what was affected."
+    },
+    {
+      "type": "p",
+      "text": "According to a Wednesday statement from the Toronto chapter, Navigate360 initially told the organization that no Canadian data was taken, then said Toronto wasn't impacted, before finally revealing months later that years of Toronto data was compromised. Guelph Wellington shared a similar statement on Thursday."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "More than 1.5 million Canadian Crime Stoppers tips leaked, CBC exclusive finds"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Cybersecurity expert Ali Dehghantanha, who reviewed samples of the compromised data as part of CBC’s original investigation, said it was alarming that Navigate360's claims to Toronto Crime Stoppers appeared to change."
+    },
+    {
+      "type": "p",
+      "text": "\"They apparently received six different [accounts] in seven months from the vendor,\" he said, adding that this raises massive red flags about the company's ability to investigate the hack and fix the vulnerabilities that might have allowed it."
+    },
+    {
+      "type": "p",
+      "text": "Dehghantanha, who has conducted digital forensics investigations for over a decade, said he is also very surprised at how quickly Navigate360 seemed to have returned its system to an operational state following the hack."
+    },
+    {
+      "type": "p",
+      "text": "Crime Stoppers hack exposes personal information of tens of thousands of Canadians"
+    },
+    {
+      "type": "p",
+      "text": "Toronto Crime Stoppers said it was told about the leak on March 18; a week later on March 25, Navigate360 told the organization that the system was \"safe and fully operational.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It doesn't seem that there was a full investigation there,\" Dehghantanha said, \"that you could do and you could say, 'Oh, only these clients have been impacted.'\""
+    },
+    {
+      "type": "h",
+      "text": "Internal memo advises against calling privacy commissioner"
+    },
+    {
+      "type": "p",
+      "text": "Meanwhile, Geist says tipsters whose information has been leaked may be limited in their options for justice."
+    },
+    {
+      "type": "p",
+      "text": "\"In terms of actual compensation to the affected individuals, current privacy law doesn't really focus on that,\" he added. \"You've got to look to other mechanisms like class actions if what you're looking for is actual compensation.\""
+    },
+    {
+      "type": "p",
+      "text": "Beyond that, another avenue could be to launch a privacy commissioner investigation — but Geist warns that could take years, and any recommendations for the future would not be legally binding."
+    },
+    {
+      "type": "p",
+      "text": "Multiple Ontario cities suspend Crime Stoppers tip lines over massive data hack"
+    },
+    {
+      "type": "p",
+      "text": "He noted that even if Canada's privacy commissioner investigates the matter, it can only issue a \"non-binding finding\" directing a company to fix bad practices — it cannot force a company to compensate victims."
+    },
+    {
+      "type": "p",
+      "text": "Still, even with those limited powers, the privacy commissioner may have already been top of mind for the Canadian Crime Stoppers Association (CCSA) in the months following the hack, according to a copy of a June 18 internal memo obtained by CBC."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Police services across Ontario suspend use of Crime Stoppers after CBC investigation"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "\"We currently do not believe that you are required, nor should you contact the privacy commissioner in your region at this time,\" instructs CCSA president David Forster, saying his organization has \"previously assessed that they [the commissioner] do not have jurisdiction over Crime Stoppers.\""
+    },
+    {
+      "type": "p",
+      "text": "Crime Stoppers is best known for its public appeals, often partnering with police, for help with unsolved crimes and to advance investigations — all with the promise of anonymity for tipsters who contact them. (Tyson Koschik/CBC)"
+    },
+    {
+      "type": "p",
+      "text": "CBC has reached out to the CCSA for comment on the contents of the memo."
+    },
+    {
+      "type": "p",
+      "text": "In a public statement on Thursday, Forster offered reassurance to the public: \"Navigate360 has advised us that third-party cybersecurity experts investigated the breach, identified vulnerabilities and completed remediation.\"Those measures strengthen protections for current and future tips, he said."
+    },
+    {
+      "type": "p",
+      "text": "However, he noted: \"They cannot undo the exposure of information already taken, which remains a serious concern.\""
+    },
+    {
+      "type": "h",
+      "text": "ABOUT THE AUTHOR"
+    },
+    {
+      "type": "p",
+      "text": "Valérie Ouellet is a bilingual senior reporter with CBC’s Investigative Unit in Toronto. Her data-driven stories on women’s health, medical devices, international students and the correctional system have earned numerous awards and accolades, including the St. Clair Balfour Fellowship at Massey College and the CAJ Data Journalism Award. She also teaches data journalism and mentors reporters across Canada. Since joining CBC/Radio-Canada in 2010, she has reported from Saskatchewan, Ontario and Quebec in both official languages. You can contact her with tips to valerie.ouellet@cbc.ca."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
