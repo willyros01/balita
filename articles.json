@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-23T23:01:28.683Z",
+  "updated": "2026-10-23T23:31:28.600Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-1cu55o9",
+      "source": "inqn",
+      "title": "LTO to deploy over 100 personnel for ‘Undas’",
+      "summary": "MANILA, Philippines &#8212; The Land Transportation Office (LTO) will deploy more than 100 personnel under “Oplan Biyaheng Ayos–Undas 2026” to ensure road safety and orderly traffic with the expected…",
+      "byline": "NewsPublish",
+      "section": "Headlines",
+      "published": "2026-10-23T23:31:12.453Z",
+      "firstSeen": "2026-10-23T21:30:53.513Z",
+      "url": "https://newsinfo.inquirer.net/2329185/lto-to-deploy-over-100-personnel-for-undas-2",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2023/11/UNDAS-10282022.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines &#8212; The Land Transportation Office (LTO) will deploy more than 100 personnel under “Oplan Biyaheng Ayos–Undas 2026” to ensure road safety and orderly traffic with the expected surge in travelers. READ: Undas practices continue at home for those absent in cemeteries, columbaria The deployment will cover Manila-Cavite Expressway, South Luzon Expressway, Skyway, STAR"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-j3b6n3",
       "source": "inqn",
       "title": "NBI nabs 16-year-old ‘online groomer’ in Cebu",
       "summary": "CEBU CITY &#8212; A 16-year-old boy is now in the custody of state social workers after being accused of grooming minors online and encouraging them to engage in violent activities, including school…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-23T23:01:12.566Z",
+      "published": "2026-10-23T23:31:12.453Z",
       "firstSeen": "2026-10-23T21:30:59.721Z",
       "url": "https://newsinfo.inquirer.net/2329143/nbi-nabs-16-year-old-online-groomer-in-cebu",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "TAGBILARAN CITY, Bohol —The resumption of construction along Bohol’s iconic Loboc River has reignited concerns among residents, tourism operators and environmental advocates over the potential impact…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-23T23:01:12.566Z",
+      "published": "2026-10-23T23:31:12.453Z",
       "firstSeen": "2026-10-23T21:31:01.488Z",
       "url": "https://newsinfo.inquirer.net/2329144/in-bohol-loboc-river-works-resume-amid-renewed-concerns",
       "image": {
@@ -103,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-fcgt2b",
-      "source": "inqn",
-      "title": "Senate leaders say no need for House to recall budget",
-      "summary": "MANILA, Philippines &#8212; There is no need for the House of Representatives to recall its 2027 General Appropriations Bill (GAB) in response to a recent Supreme Court decision which declared as…",
-      "byline": "NewsPublish",
-      "section": "Headlines",
-      "published": "2026-10-23T23:01:12.565Z",
-      "firstSeen": "2026-10-23T21:30:52.487Z",
-      "url": "https://newsinfo.inquirer.net/2329188/senate-leaders-say-no-need-for-house-to-recall-budget",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2023/08/House-of-Representatives-filephoto-083023.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8212; There is no need for the House of Representatives to recall its 2027 General Appropriations Bill (GAB) in response to a recent Supreme Court decision which declared as unconstitutional key provisions of the 2024 to 2026 national budgets, according to two Senate leaders. Senate President Sherwin Gatchalian said the high court’s Oct."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-or4h6p",
       "source": "inqn",
       "title": "Diesel price hike seen on Oct. 27",
       "summary": "A new price hike for diesel is expected next week due to worsening geopolitical conflicts. In an advisory on Friday, Jetti Petroleum president Leo Bellas said diesel prices may increase by P2 to…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-23T23:01:12.565Z",
+      "published": "2026-10-23T23:31:12.393Z",
       "firstSeen": "2026-10-23T21:30:52.488Z",
       "url": "https://newsinfo.inquirer.net/2329193/diesel-price-hike-seen-on-oct-27",
       "image": {
@@ -153,23 +153,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1cu55o9",
+      "id": "inqn-fcgt2b",
       "source": "inqn",
-      "title": "LTO to deploy over 100 personnel for ‘Undas’",
-      "summary": "MANILA, Philippines &#8212; The Land Transportation Office (LTO) will deploy more than 100 personnel under “Oplan Biyaheng Ayos–Undas 2026” to ensure road safety and orderly traffic with the expected…",
+      "title": "Senate leaders say no need for House to recall budget",
+      "summary": "MANILA, Philippines &#8212; There is no need for the House of Representatives to recall its 2027 General Appropriations Bill (GAB) in response to a recent Supreme Court decision which declared as…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-23T23:01:12.565Z",
-      "firstSeen": "2026-10-23T21:30:53.513Z",
-      "url": "https://newsinfo.inquirer.net/2329185/lto-to-deploy-over-100-personnel-for-undas-2",
+      "published": "2026-10-23T23:31:10.733Z",
+      "firstSeen": "2026-10-23T21:30:52.487Z",
+      "url": "https://newsinfo.inquirer.net/2329188/senate-leaders-say-no-need-for-house-to-recall-budget",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2023/11/UNDAS-10282022.jpeg",
+        "src": "https://newsinfo.inquirer.net/files/2023/08/House-of-Representatives-filephoto-083023.png",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines &#8212; The Land Transportation Office (LTO) will deploy more than 100 personnel under “Oplan Biyaheng Ayos–Undas 2026” to ensure road safety and orderly traffic with the expected surge in travelers. READ: Undas practices continue at home for those absent in cemeteries, columbaria The deployment will cover Manila-Cavite Expressway, South Luzon Expressway, Skyway, STAR"
+          "text": "MANILA, Philippines &#8212; There is no need for the House of Representatives to recall its 2027 General Appropriations Bill (GAB) in response to a recent Supreme Court decision which declared as unconstitutional key provisions of the 2024 to 2026 national budgets, according to two Senate leaders. Senate President Sherwin Gatchalian said the high court’s Oct."
         }
       ],
       "truncated": true,
@@ -184,7 +184,7 @@
       "summary": "MANILA, Philippines &#8212; President Ferdinand Marcos Jr. on Friday said the government is expanding the use of solar-powered irrigation systems amid the threat of the Super El Niño anticipated by…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-23T23:01:09.327Z",
+      "published": "2026-10-23T23:31:10.718Z",
       "firstSeen": "2026-10-23T22:01:13.385Z",
       "url": "https://newsinfo.inquirer.net/2329191/marcos-govt-expanding-use-of-solar-irrigation",
       "image": {
@@ -209,7 +209,7 @@
       "summary": "JERUSALEM &#8212; The United States could strike Iran as soon as this weekend, a US envoy said Friday, after mounting threats by both Washington and Israel. &#8220;Could there be a strike this…",
       "byline": "mareyes",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-23T23:01:08.877Z",
+      "published": "2026-10-23T23:31:10.718Z",
       "firstSeen": "2026-10-23T19:31:02.478Z",
       "url": "https://globalnation.inquirer.net/343631/us-could-strike-iran-this-weekend-envoy-says",
       "image": {
@@ -234,7 +234,7 @@
       "summary": "MANILA, Philippines &#8212; The Department of Transportation (DOTr) on Friday announced it will bid out next year the P103.6-billion concession for Metro Rail Transit Line 3 (MRT-3). &#8220;Through…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-23T23:01:07.155Z",
+      "published": "2026-10-23T23:31:10.593Z",
       "firstSeen": "2026-10-23T22:01:08.279Z",
       "url": "https://newsinfo.inquirer.net/2329189/dotr-to-bid-out-mrt-3-concession",
       "image": {
@@ -259,7 +259,7 @@
       "summary": "HEBRON &#8212; Prime Minister Benjamin Netanyahu announced a major military operation in the occupied West Bank on Friday after Palestinian gunmen killed two soldiers in an attack near Hebron, days…",
       "byline": "mareyes",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-23T23:01:05.344Z",
+      "published": "2026-10-23T23:31:10.593Z",
       "firstSeen": "2026-10-23T20:30:57.020Z",
       "url": "https://globalnation.inquirer.net/343634/netanyahu-launches-major-west-bank-ops-after-israeli-soldiers-killed",
       "image": {
@@ -278,38 +278,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1y930mo",
-      "source": "inqn",
-      "title": "Pulong Duterte files P 20-M cyberlibel raps vs NBI chief, et al",
-      "summary": "MANILA, Philippines &#8212; Davao City Rep. Paolo “Pulong” Duterte on Friday filed libel and cyberlibel complaints against several individuals, a television network and its officials and journalists…",
-      "byline": "NewsPublish",
-      "section": "Headlines",
-      "published": "2026-10-23T23:01:01.788Z",
-      "firstSeen": "2026-10-23T22:01:06.189Z",
-      "url": "https://newsinfo.inquirer.net/2329177/pulong-duterte-files-p-20-m-cyberlibel-raps-vs-nbi-chief-et-al",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/News1315528.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8212; Davao City Rep. Paolo “Pulong” Duterte on Friday filed libel and cyberlibel complaints against several individuals, a television network and its officials and journalists over allegations of bribery that he said were “untrue” and meant to destroy his reputation. Duterte, who personally appeared at the Davao City Prosecutor’s Office, filed the complaints"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-tbpbct",
       "source": "inqg",
       "title": "Subic ‘scam hub’ raid finds 200 Vietnamese",
       "summary": "SUBIC BAY FREEPORT &#8212; Authorities raided a suspected online scam hub here and found about 200 Vietnamese nationals who were allegedly involved in online financial scams and other cyber-enabled…",
       "byline": "mareyes",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-23T23:00:59.879Z",
+      "published": "2026-10-23T23:31:07.149Z",
       "firstSeen": "2026-10-23T21:30:52.491Z",
       "url": "https://globalnation.inquirer.net/343624/subic-scam-hub-raid-finds-200-vietnamese",
       "image": {
@@ -328,13 +303,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1y930mo",
+      "source": "inqn",
+      "title": "Pulong Duterte files P 20-M cyberlibel raps vs NBI chief, et al",
+      "summary": "MANILA, Philippines &#8212; Davao City Rep. Paolo “Pulong” Duterte on Friday filed libel and cyberlibel complaints against several individuals, a television network and its officials and journalists…",
+      "byline": "NewsPublish",
+      "section": "Headlines",
+      "published": "2026-10-23T23:31:05.371Z",
+      "firstSeen": "2026-10-23T22:01:06.189Z",
+      "url": "https://newsinfo.inquirer.net/2329177/pulong-duterte-files-p-20-m-cyberlibel-raps-vs-nbi-chief-et-al",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/News1315528.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines &#8212; Davao City Rep. Paolo “Pulong” Duterte on Friday filed libel and cyberlibel complaints against several individuals, a television network and its officials and journalists over allegations of bribery that he said were “untrue” and meant to destroy his reputation. Duterte, who personally appeared at the Davao City Prosecutor’s Office, filed the complaints"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-mhv6wn",
+      "source": "inqg",
+      "title": "Rescuers search for seven people in Nairobi building collapse",
+      "summary": "NAIROBI, Kenya &#8212; Rescuers were searching for seven people feared trapped after a multi-storey building under construction collapsed in Kenya&#8217;s capital on Friday, the interior minister…",
+      "byline": "mareyes",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-10-23T23:31:03.573Z",
+      "firstSeen": "2026-10-23T21:30:52.487Z",
+      "url": "https://globalnation.inquirer.net/343636/rescuers-search-for-seven-people-in-nairobi-building-collapse",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/AFP__20261023__D49F4EJ__v1__HighRes__KenyaAccident.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NAIROBI, Kenya &#8212; Rescuers were searching for seven people feared trapped after a multi-storey building under construction collapsed in Kenya&#8217;s capital on Friday, the interior minister said. Videos shared online showed a dramatic crash and huge clouds of dust as the 16-storey building came down in the densely populated business and residential area of Eastleigh."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-pz7yqi",
       "source": "inqn",
       "title": "New PCO chief keeping Castro as she’s ‘a treasure in this gov’t’",
       "summary": "MANILA, Philippines &#8212; Palace press officer Claire Castro will remain the Marcos administration’s chief mouthpiece following a recent leadership change in the Presidential Communications Office…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-23T23:00:59.878Z",
+      "published": "2026-10-23T23:31:02.308Z",
       "firstSeen": "2026-10-23T22:01:00.707Z",
       "url": "https://newsinfo.inquirer.net/2329181/new-pco-chief-keeping-castro-as-shes-a-treasure-in-this-govt",
       "image": {
@@ -359,7 +384,7 @@
       "summary": "COTABATO CITY &#8212; A former member of parliament (MP) of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) denied allegations by law enforcement officials that he was behind the recent…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-23T23:00:59.876Z",
+      "published": "2026-10-23T23:31:01.633Z",
       "firstSeen": "2026-10-23T22:01:00.707Z",
       "url": "https://newsinfo.inquirer.net/2329184/barmm-ex-mp-denies-link-to-seized-laos-drug-cargo",
       "image": {
@@ -378,38 +403,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-mhv6wn",
-      "source": "inqg",
-      "title": "Rescuers search for seven people in Nairobi building collapse",
-      "summary": "NAIROBI, Kenya &#8212; Rescuers were searching for seven people feared trapped after a multi-storey building under construction collapsed in Kenya&#8217;s capital on Friday, the interior minister…",
-      "byline": "mareyes",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-10-23T23:00:59.876Z",
-      "firstSeen": "2026-10-23T21:30:52.487Z",
-      "url": "https://globalnation.inquirer.net/343636/rescuers-search-for-seven-people-in-nairobi-building-collapse",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/AFP__20261023__D49F4EJ__v1__HighRes__KenyaAccident.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "NAIROBI, Kenya &#8212; Rescuers were searching for seven people feared trapped after a multi-storey building under construction collapsed in Kenya&#8217;s capital on Friday, the interior minister said. Videos shared online showed a dramatic crash and huge clouds of dust as the 16-storey building came down in the densely populated business and residential area of Eastleigh."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "inqg-1esydu2",
       "source": "inqg",
       "title": "Protests expected in Rome, Milan under heavy security",
       "summary": "ROME, Italy—Security forces are deploying massively in Italy on Saturday for protests planned in eight cities including Rome and Milan after some demonstrations turned violent last weekend. The…",
       "byline": "arlenelim",
       "section": "Europe",
-      "published": "2026-10-23T23:00:59.876Z",
+      "published": "2026-10-23T23:31:01.633Z",
       "firstSeen": "2026-10-23T23:00:59.876Z",
       "url": "https://globalnation.inquirer.net/343639/protests-expected-in-rome-milan-under-heavy-security",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "MANILA, Philippines &#8212; The government on Friday placed a P50-million bounty on the head of Sen. Ronald “Bato” dela Rosa as the Philippine National Police gave its former chief one week to…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-23T23:00:59.875Z",
+      "published": "2026-10-23T23:31:01.591Z",
       "firstSeen": "2026-10-23T22:01:00.707Z",
       "url": "https://newsinfo.inquirer.net/2329182/hunt-for-bato-dela-rosa-sets-1-week-ultimatum-p50-m-bounty",
       "image": {
@@ -451,6 +451,435 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqg-1mjr4qz",
+      "source": "inqg",
+      "title": "Ebola vaccine trial begins in DR Congo",
+      "summary": "GENEVA, Switzerland—The first clinical trial of an Ebola vaccine in the outbreak gripping the Democratic Republic of Congo began Friday, the head of the World Health Organization said. The DR…",
+      "byline": "arlenelim",
+      "section": "Africa",
+      "published": "2026-10-23T23:31:01.591Z",
+      "firstSeen": "2026-10-23T23:31:01.591Z",
+      "url": "https://globalnation.inquirer.net/343641/ebola-vaccine-trial-begins-in-dr-congo",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/AFP__20261022__D4399EQ__v2__HighRes__DrcongoHealthVirusEbola-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "GENEVA, Switzerland—The first clinical trial of an Ebola vaccine in the outbreak gripping the Democratic Republic of Congo began Friday, the head of the World Health Organization said. The DR Congo&#8216;s worst-ever Ebola outbreak has passed the 9,700-case mark, with the number of deaths exceeding 4,600. Among the many problems facing the response is the lack"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "cbc-1otk6o6",
+      "source": "cbc",
+      "title": "Canadian cybersecurity exec arrested by FBI accused of working with criminals to defraud his own clients",
+      "summary": "A Toronto-area cybersecurity executive arrested by the FBI amid a high-profile hacking probe colluded with cybercriminals to extort money from his own clients, according to U.S. prosecutors. The…",
+      "byline": "Thomas Daigle",
+      "section": "News/World",
+      "published": "2026-10-23T23:23:19.000Z",
+      "firstSeen": "2026-10-23T23:31:01.591Z",
+      "url": "https://www.cbc.ca/news/world/edward-dubrovsky-court-hearing-9.7393755?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/73ab1962-3c0d-4557-9def-9a9388a4a7b9,1792782580048/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3BResize%3D620",
+        "caption": "Canadian cybersecurity expert Edward Dubrovsky was charged earlier this month in a U.S. federal court with an extortion conspiracy offence and \"interference with commerce by threats,\" according to a public docket. (Ed Dubrovsky/LinkedIn)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "World·New"
+        },
+        {
+          "type": "p",
+          "text": "A Toronto-area cybersecurity executive arrested by the FBI amid a high-profile hacking probe colluded with cybercriminals to extort money from his own clients, according to U.S. prosecutors. The explosive allegations laid out in a U.S. court provide a clearer indication of how Edward Dubrovsky is suspected of being involved with \"threat actors\" linked to the ShinyHunters cyber-gang."
+        },
+        {
+          "type": "h",
+          "text": "Edward Dubrovsky arrested earlier this month in Philadelphia amid FBI probe focused on ShinyHunters cyber-gang"
+        },
+        {
+          "type": "p",
+          "text": "A Toronto-area cybersecurity executive arrested by the FBI amid a high-profile hacking probe colluded with cybercriminals to extort money from his own clients, according to U.S. prosecutors."
+        },
+        {
+          "type": "p",
+          "text": "The explosive allegations laid out in a U.S. court provide a clearer indication of how Edward Dubrovsky is suspected of being involved with \"threat actors\" linked to the notorious ShinyHunters cyber-gang."
+        },
+        {
+          "type": "p",
+          "text": "ShinyHunters claimed responsibility last month for hacking an FBI jobs portal and stealing a massive trove of data. The group typically demands ransom payments in exchange for not releasing the sensitive data it's obtained."
+        },
+        {
+          "type": "p",
+          "text": "\"The defendant was actually working on behalf of the threat actors,\" assistant U.S. attorney Anthony Carissimi claimed before a federal magistrate judge in Philadelphia on Oct. 8, according to a court transcript obtained by CBC News."
+        },
+        {
+          "type": "p",
+          "text": "\"Given that those are the charges and that is what he's been arrested for, I suspect that his business will dry up,\" the federal prosecutor added."
+        },
+        {
+          "type": "p",
+          "text": "Dubrovsky will contest the charges, his court-appointed defence said."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Shock and surprise after FBI arrests Canadian cybersecurity expert in ShinyHunters hacking case"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Dubrovsky, 54, was detained earlier this month during a trip to Philadelphia for a cybersecurity conference. He was charged with an extortion conspiracy offence and \"interference with commerce by threats,\" according to a public docket."
+        },
+        {
+          "type": "p",
+          "text": "At the time, FBI director Kash Patel said the agency had arrested a \"suspected co-conspirator\" of ShinyHunters. The RCMP said it was aware a Canadian had been arrested in connection with the case."
+        },
+        {
+          "type": "p",
+          "text": "FBI director Kash Patel confirmed on Oct. 9 the agency had in recent days 'arrested another suspected co-conspirator of the ShinyHunters group,' the notorious cyber-gang linked to a hack targeting an FBI jobs portal. (Kylie Cooper/Reuters)"
+        },
+        {
+          "type": "p",
+          "text": "During Dubrovsky's 14-minute initial hearing in U.S. District Court, the federal prosecutor provided a brief overview of the case against the Canadian. He did not directly reference ShinyHunters or the FBI cyberattack."
+        },
+        {
+          "type": "p",
+          "text": "\"The reason [Dubrovsky] is sitting here is because he was engaging in essentially a fraud involving his own clients, his own business partners,\" Carissimi said."
+        },
+        {
+          "type": "p",
+          "text": "He said Dubrovsky was \"clearly engaged in cryptocurrency exchanges with, among other people, a criminal element.\""
+        },
+        {
+          "type": "p",
+          "text": "Carissimi told the court that Dubrovsky had been dealing in the cryptocurrency Monero, which the prosecutor said is \"renowned for being untraceable.\" He told the court that, while Dubrovsky has a Canadian passport, he's originally from Latvia and at one point also held an Israeli passport."
+        },
+        {
+          "type": "p",
+          "text": "Tim Wright, a court-appointed federal defender, described the allegations against Dubrovsky as \"completely untested.\""
+        },
+        {
+          "type": "p",
+          "text": "\"He wants to fight this to clear his name because of his reputation, because he's a businessman,\" Wright said."
+        },
+        {
+          "type": "p",
+          "text": "Canadian firm CyberSteward shared this picture of Edward Dubrovsky signing copies of his book Cyber Extortion: Strategic Response at the NetDiligence conference in Philadelphia on Oct. 6. (CyberSteward/LinkedIn)"
+        },
+        {
+          "type": "h",
+          "text": "Self-described 'globally recognized' expert"
+        },
+        {
+          "type": "p",
+          "text": "On his LinkedIn profile, Dubrovsky describes himself as a \"globally recognized cybersecurity expert\" who helps clients negotiate with ransomware attackers. He recently published the book Cyber Extortion: Strategic Response, intended for victimized companies."
+        },
+        {
+          "type": "p",
+          "text": "The day before his arrest, Toronto-based tech firm CyberSteward posted a picture of Dubrovsky signing copies of his new book at the NetDiligence conference in Philadelphia."
+        },
+        {
+          "type": "p",
+          "text": "Heather Osborne, NetDiligence's director of global events and programming, told CBC News in an email that \"to our knowledge,\" Dubrovsky's arrest \"did not occur at our event, which ended at 11:30 a.m. on Oct 7.\""
+        },
+        {
+          "type": "p",
+          "text": "CyberSteward has not responded to multiple requests for comment on the firm's ties to Dubrovsky, and his employment status."
+        },
+        {
+          "type": "p",
+          "text": "Wright, the defence lawyer, said in court that Dubrovsky had planned to attend another conference in Canada on Oct. 15, then return to the U.S. for an event in South Carolina."
+        },
+        {
+          "type": "p",
+          "text": "\"He is a very well known and well respected businessman in cybersecurity,\" Wright said."
+        },
+        {
+          "type": "p",
+          "text": "The FBI's criminal complaint remains under seal. The document would typically contain further details of the agency's investigation into a defendant and specifics of any alleged offence."
+        },
+        {
+          "type": "p",
+          "text": "U.S. Magistrate Judge Scott W. Reid ordered Dubrovsky held in custody until he is transported to Texas, where the charges were filed and where he will appear for a formal detention hearing."
+        },
+        {
+          "type": "p",
+          "text": "As of Friday, public records from the U.S. Federal Bureau of Prisons showed Dubrovsky was still being held at the Philadelphia detention centre where he was taken on Oct. 7."
+        },
+        {
+          "type": "p",
+          "text": "Canadian ransomware negotiator arrested in connection to FBI hacking case"
+        },
+        {
+          "type": "h",
+          "text": "'Every system' is vulnerable, Dubrovsky once told CBC"
+        },
+        {
+          "type": "p",
+          "text": "Dubrovsky previously served as managing director at CYPFER, the firm tasked with helping the city of Hamilton, Ont., recover from a 2024 cyberattack."
+        },
+        {
+          "type": "p",
+          "text": "The company recently told CBC News that Dubrovsky wasn't involved in the Hamilton file."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Cybersecurity firm hired by Hamilton says director arrested by FBI didn't handle city's ransomware response"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Once hired as a York University cybersecurity instructor, he appeared in Canadian media as a commentator on related issues and was previously interviewed by CBC News."
+        },
+        {
+          "type": "p",
+          "text": "\"Every organization uses vendors and service providers to do some of their business,\" Dubrovsky said in 2018, \"so every single system in the world has vulnerabilities.\""
+        },
+        {
+          "type": "p",
+          "text": "David Shipley, CEO of the Fredericton-based firm Beauceron Security, told CBC News in an interview earlier this month that Dubrovsky's case highlights his own longstanding reservations surrounding ransomware negotiators."
+        },
+        {
+          "type": "p",
+          "text": "\"We have seen people fall from grace before,\" Shipley recalled."
+        },
+        {
+          "type": "p",
+          "text": "He urged ransomware victims who have backed up their data to seek to restore uninfected files, rather than paying a ransom."
+        },
+        {
+          "type": "p",
+          "text": "\"There's no guarantee that paying [the attackers] gets you out of the pain,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "If you have a news tip related to this story, contact CBC News senior reporter Thomas Daigle by email: thomas.daigle@cbc.ca."
+        },
+        {
+          "type": "p",
+          "text": "With files from Kevin Maimann, Jeffery Tram, Aaron Saltzman and Reuters"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-yzz4cs",
+      "source": "inq",
+      "title": "Ebola vaccine trial begins in DR Congo",
+      "summary": "GENEVA, Switzerland—The first clinical trial of an Ebola vaccine in the outbreak gripping the Democratic Republic of Congo began Friday, the head of the World Health Organization said. The DR…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-23T23:11:52.000Z",
+      "firstSeen": "2026-10-23T23:31:01.591Z",
+      "url": "https://globalnation.inquirer.net/343641/ebola-vaccine-trial-begins-in-dr-congo",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/AFP__20261022__D4399EQ__v2__HighRes__DrcongoHealthVirusEbola-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "GENEVA, Switzerland—The first clinical trial of an Ebola vaccine in the outbreak gripping the Democratic Republic of Congo began Friday, the head of the World Health Organization said. The DR Congo&#8216;s worst-ever Ebola outbreak has passed the 9,700-case mark, with the number of deaths exceeding 4,600. Among the many problems facing the response is the lack of any approved vaccines or treatments for the Bundibugyo species of Ebola behind the epidemic. Ervebo, a vaccine approved for use against the more common Zaire strain of Ebola, will be put through a full-scale human trial in the DRC to see if it offers any [&hellip;]... Keep on reading: Ebola vaccine trial begins in DR Congo"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-fv0thw",
+      "source": "grd",
+      "title": "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
+      "summary": "<p>Kaylub Giamanco recounts the day he confronted the Silver Rail elementary school shooter, who killed three boys and one teacher</p><p>The Oregon father hailed as a hero for stopping a school…",
+      "byline": "Dani Anguiano",
+      "section": "Oregon",
+      "published": "2026-10-23T23:10:42.000Z",
+      "firstSeen": "2026-10-23T23:31:01.635Z",
+      "url": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/d93043fb24be50d446422ceada214e462bca0249/319_0_4052_3241/master/4052.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=74a2172573acb951eae2f4d1805307f9",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Oregon father hailed as a hero for stopping a school shooting last week spoke for the first time about the incident, describing his experience and how he told a 911 operator: “I have to go in. People are going to die.”"
+        },
+        {
+          "type": "p",
+          "text": "Kaylub Giamanco, a 36-year-old carpenter, has received national attention and praise for stopping the bloodshed at Silver Rail elementary in Bend, Oregon, where his children attend school."
+        },
+        {
+          "type": "p",
+          "text": "He fatally shot Griffin J John II, a 16-year-old former student at the school, who broke in and shot six people, killing Megan Lambert, a 25-year-old teacher, and three children, including five-year-old Rhoam Summer."
+        },
+        {
+          "type": "p",
+          "text": "In an interview with Oregon Public Broadcasting (OPB), his first since the 15 October shooting, he recounted that day. He told reporters that he was only in the area because he had decided to return home and eat lunch with his wife rather than the meal he brought to work that day."
+        },
+        {
+          "type": "p",
+          "text": "For a moment, Giamanco, who lives near the school, thought it was a prank when he saw a man in black armed with a gun headed toward Silver Rail, he said. Then he saw the man fire the gun and climb over a school fence. Giamanco pulled out a .40 caliber handgun from his center console and headed into the school parking lot, calling 911, before himself hopping over a fence to pursue the shooter."
+        },
+        {
+          "type": "p",
+          "text": "He quietly followed Griffin without the teenager seeing him, at one point crawling on his hands and knees when he heard “children pleading for their lives”."
+        },
+        {
+          "type": "p",
+          "text": "“I just started army crawling faster and faster and I told myself this is probably the last thing that I’m ever going to do,” he told OPB."
+        },
+        {
+          "type": "p",
+          "text": "Giamanco crawled through a broken window and toward the special education class Griffin had entered, where a teacher was fighting with the shooter. He came into the classroom and fired his gun. Griffin fell and was reaching for his weapon before Giamanco, who said he “was afraid of him shooting anybody else”, shot him two more times."
+        },
+        {
+          "type": "p",
+          "text": "He told OPB that he lies awake at night thinking of what he saw that day and the teenage perpetrator, and wonders if he could have done more."
+        },
+        {
+          "type": "p",
+          "text": "“I want to apologize for not saving their babies,” Giamanco told the outlet. “The gratitude for saving people’s children is awesome, but there were ones that I didn’t save.”"
+        },
+        {
+          "type": "p",
+          "text": "Giamanco said he wants to see safer schools with school resource officers at every site, and that he would like to raise funding to support school safety efforts."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1olm6ms",
+      "source": "inq",
+      "title": "NBI arrests 16-year-old suspected online groomer in Cebu",
+      "summary": "CEBU CITY — A 16-year-old boy accused of grooming minors online and urging them to participate in violent activities, including school shootings, has been placed under the custody of state social…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-23T23:05:00.000Z",
+      "firstSeen": "2026-10-23T23:31:01.633Z",
+      "url": "https://cebudailynews.inquirer.net/778277/nbi-arrests-16-year-old-suspected-online-groomer-in-cebu",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2024/10/IMG_5961-620x465.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CEBU CITY — A 16-year-old boy accused of grooming minors online and urging them to participate in violent activities, including school shootings, has been placed under the custody of state social workers, the National Bureau of Investigation in Central Visayas (NBI-7) said on Friday. According to the NBI, the teenager allegedly belonged to an online [&hellip;]... Keep on reading: NBI arrests 16-year-old suspected online groomer in Cebu"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-1rmt6ct",
+      "source": "grd",
+      "title": "Blue Planet III features cloudier footage to prove authenticity amid AI boom",
+      "summary": "<p>BBC series deliberately uses ‘more organic’ shots to assure viewers animals are not AI-generated, producers say</p><p>The <a…",
+      "byline": "Tara Conlan",
+      "section": "BBC",
+      "published": "2026-10-23T23:01:16.000Z",
+      "firstSeen": "2026-10-23T23:31:01.592Z",
+      "url": "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/ceaba2d2e573fa4bc480fbaee7cee88e2ce7c97b/620_0_4500_3600/master/4500.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=f0d25aae5ae109f551faef3ce97d9432",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The David Attenborough-narrated series Blue Planet III deliberately includes cloudier, less polished footage to counter AI fakery and assure viewers it is “authentic”, its producers have said."
+        },
+        {
+          "type": "p",
+          "text": "Nearly a decade after Blue Planet II shone a light on plastic pollution, and 25 years since the first Blue Planet aired, the hit BBC series is returning with more animal behaviour and cutting-edge technology, including the world’s first underwater CCTV camera – dubbed “stonefish” cam."
+        },
+        {
+          "type": "p",
+          "text": "Since the first Blue Planet, TVs and cameras have evolved to give viewers sharper, higher definition pictures. But the combination of the rise in AI and the extraordinary sequences and fantastical creatures captured by BBC Studios’ natural history unit for this series led producers to include what they called more “organic” footage and less polished shots, to show that the animals were not AI-generated."
+        },
+        {
+          "type": "p",
+          "text": "The executive producer, Elizabeth White, said AI, “makes us want to be even more authentic”, adding that the creatures filmed in the deep ocean “are probably more remarkable than AI could imagine and it’s completely real”."
+        },
+        {
+          "type": "p",
+          "text": "She said that in the past “the amount of plankton and things that are in the water in the sequences” would usually mean they might be excluded, and previously, “we might have framed out a boat or a buoy or gone: ‘Oh, actually … the water conditions are not really good enough for this.’”"
+        },
+        {
+          "type": "p",
+          "text": "But now such things are being left in as “we’re really leaning into that authenticity … As AI booms we will probably lean more into the more organic”, murkier and less polished footage."
+        },
+        {
+          "type": "p",
+          "text": "For the first time, the BBC’s specialist factual commissioning head, Jack Bootle, assured journalists at a press screening: “No gen AI was used in this series. Not a single frame. It’s all real photography.”"
+        },
+        {
+          "type": "p",
+          "text": "Bootle added that as we live in a “golden age of natural history-making … sometimes people feel like they’ve seen it all before [so] this series is bursting with novel behaviour”."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/dcf85ebc427ec7089bfcdba2a5677f9b5314a546/370_0_4143_3314/master/4143.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The hit BBC series returns with cutting-edge technology, including the world’s first underwater CCTV camera – dubbed ‘stonefish’. Photograph: BBC Studios/Jose Branco"
+        },
+        {
+          "type": "p",
+          "text": "That includes never-before-seen action of dolphins using sea sponges to block holes in coral to trap fish, captured using underwater CCTV – developed by the programme’s producer and director, Yoland Bosiger."
+        },
+        {
+          "type": "p",
+          "text": "Over the four years of filming across five oceans, BBC Studios “continually innovated”, said the series producer, Lara Bickerton, creating a “mini-dome” camera to follow an octopus, a “deep-sea selfie stick”, camera operators wearing leg-mounted scooters to create immersive TikTok-style diving footage and using lasers to film deep-sea creatures."
+        },
+        {
+          "type": "p",
+          "text": "Other remarkable animal behaviour captured in the programme includes grouper communicating with another species of fish; 200,000 crabs lining up in formation to feed; sea urchins using shells as sun hats; and footage involving penguins that echoes the Planet Earth II, ‘iguana v snakes’ sequence."
+        },
+        {
+          "type": "p",
+          "text": "Threats to the ocean as well as its resilience are addressed in the series. Episodes show how the climatecrisis is killing off the sea where anemone clown fish live and what they do to try to fix their homes, and the issue of plastics raised in Blue Planet II continues with a story about pollutants [and] forever chemicals, said White."
+        },
+        {
+          "type": "p",
+          "text": "Bosiger said Attenborough, who is 100 years old, was “very much involved” and made changes to scripts."
+        },
+        {
+          "type": "p",
+          "text": "White added: “What’s wonderful is he hasn’t lost his curiosity … he’s still that little boy … who gets excited … when you show him a new piece of footage.”"
+        },
+        {
+          "type": "p",
+          "text": "Asked if the BBC’s £500m cost-cutting drive would affect BBC Studios’ renowned natural history reputation, White said she could not comment on that but pointed out that Blue Planet III made savings by using more local crews on location than in previous series."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Blue Planet III starts Sunday 1 November on BBC1 and iPlayer"
+          ]
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "abs-16tctd",
@@ -473,6 +902,31 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1kwqf7x",
+      "source": "inq",
+      "title": "Protests expected in Rome, Milan under heavy security",
+      "summary": "ROME, Italy—Security forces are deploying massively in Italy on Saturday for protests planned in eight cities including Rome and Milan after some demonstrations turned violent last weekend. The…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-23T22:58:58.000Z",
+      "firstSeen": "2026-10-23T23:31:02.159Z",
+      "url": "https://globalnation.inquirer.net/343639/protests-expected-in-rome-milan-under-heavy-security",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/Italy-sends-troops-toughens-security-laws-after-Milan-clashes-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ROME, Italy—Security forces are deploying massively in Italy on Saturday for protests planned in eight cities including Rome and Milan after some demonstrations turned violent last weekend. The demonstrations come amid a wave of protests by students, truck drivers and farmers over budget cuts and cost of living issues like housing and fuel prices. Rome&#8217;s police force said in a statement it would &#8220;saturate both physical and virtual territory&#8221; and make use of drones and helicopters to monitor the demonstrations. It said it still &#8220;aimed to safeguard the full exercise of the right to express one&#8217;s views, including dissent, but strictly in [&hellip;]... Keep on reading: Protests expected in Rome, Milan under heavy security"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqn-1crhhza",
@@ -500,6 +954,168 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "cbc-af0r0g",
+      "source": "cbc",
+      "title": "Chiefs, Opposition call for Alberta government to drop appeal of decision that quashed separation petition",
+      "summary": "With the Alberta referendum now in the books, some First Nation chiefs are calling on the provincial government to drop its appeal of a judge’s decision to quash the citizen petition on separation.",
+      "byline": "Jennifer Keiller",
+      "section": "News/Canada/Calgary",
+      "published": "2026-10-23T22:56:18.000Z",
+      "firstSeen": "2026-10-23T23:31:03.670Z",
+      "url": "https://www.cbc.ca/news/canada/calgary/chiefs-call-government-drop-appeal-separation-petition-9.7394085?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/2f764567-e2d9-425f-b941-5202886ed92f,1792793880609/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C339%2C6244%2C3512%29%3BResize%3D620",
+        "caption": "Chief Allan Adam speaks in March outside of the Alberta legislature, calling on the province to stomp out the citizen petition on separation. With the referendum now done, Adam says the province should drop its appeal of a ruling on the petition. (Jason Franson/The Canadian Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Calgary·New"
+        },
+        {
+          "type": "p",
+          "text": "With the Alberta referendum now in the books, some First Nation chiefs are calling on the provincial government to drop its appeal of a judge’s decision to quash the citizen petition on separation."
+        },
+        {
+          "type": "h",
+          "text": "Province says it won't be doing that"
+        },
+        {
+          "type": "p",
+          "text": "“I mean, now that the referendum’s happened, the issue’s moot,” said Siksika Nation Chief Samuel Crowfoot. “[Premier Danielle Smith] said up and down that she's not going to pursue another referendum. Well, I think now’s the chance for her to put action to those words and to drop that appeal.”"
+        },
+        {
+          "type": "p",
+          "text": "Crowfoot says doing so could help repair the relationship between First Nations and the province — a relationship, he says, right now is “fractured.”"
+        },
+        {
+          "type": "p",
+          "text": "\"The people said it straight out: we are not going to go through a separation. So my question would be is: why hang on to a process that the Alberta people gave her no mandate to speak on?\" Athabasca Chipewyan First Nation Chief Allan Adam said."
+        },
+        {
+          "type": "p",
+          "text": "At issue is a petition led by pro-independence group Stay Free Alberta to prompt the province to consider a referendum question on separation. It garnered more than 300,000 signatures earlier this year."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "First Nation chief seeks formal explanation after ballot shortages in Alberta referendum"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "NDP Leader Naheed Nenshi echoed the chiefs' calls at a news conference Friday morning."
+        },
+        {
+          "type": "p",
+          "text": "“Certainly the First Nations are spending money on lawyers, we taxpayers are spending money on lawyers, let’s listen to what Albertans said on Monday and just drop it,” Nenshi said."
+        },
+        {
+          "type": "p",
+          "text": "The province, however, says it won't be doing that. Justice Minister Mickey Amery said in a statement the government believes the \"decision contained errors of law.\""
+        },
+        {
+          "type": "p",
+          "text": "\"Citizens should not have to meet a duty to consult to gather signatures from fellow citizens on a citizen initiative petition,\" Amery said."
+        },
+        {
+          "type": "h",
+          "text": "The legal picture so far"
+        },
+        {
+          "type": "p",
+          "text": "Four First Nations — Athabasca Chipewyan First Nation, Siksika Nation, Blood Tribe and Piikani Nation — challenged the process involving Stay Free Alberta’s citizen petition."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Judge overturns Elections Alberta’s approval of separation referendum petition"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In May, Justice Shaina Leonard ruled that there had been a failure to consult with the First Nations, and she overturned Elections Alberta’s approval of the petition."
+        },
+        {
+          "type": "p",
+          "text": "Because of that ruling, the government’s question on the Oct. 19 referendum ballot asked if Albertans supported the province starting the legal process to hold a second, binding referendum on separation."
+        },
+        {
+          "type": "p",
+          "text": "The government launched an appeal of Leonard’s decision. Mitch Sylvestre, who led the petition drive, is also appealing it."
+        },
+        {
+          "type": "p",
+          "text": "Crowfoot said he does not expect Sylvestre to drop his appeal."
+        },
+        {
+          "type": "p",
+          "text": "“So, we’ll handle Mitch’s, but Danielle should drop hers on the part of the government of Alberta,” he said."
+        },
+        {
+          "type": "p",
+          "text": "Mitch Sylvestre hold boxes of signatures before submitting them for a separation referendum to Elections Alberta in Edmonton on May 4, 2026. (Jason Franson/The Canadian Press)"
+        },
+        {
+          "type": "p",
+          "text": "For his part, Sylvestre says he would like to see the government continue its appeal."
+        },
+        {
+          "type": "p",
+          "text": "“I think, moving forward for democracy here in Alberta, it's very important that they have to appeal that,” Sylvestre said."
+        },
+        {
+          "type": "p",
+          "text": "“Because, I mean, this is a very contentious question, but there's gonna be other questions that somebody's going to disagree with. And, you know, all of a sudden, I can see that it won't be long they won't be able to ask any questions.”"
+        },
+        {
+          "type": "p",
+          "text": "According to unofficial results, Albertans voted 75 per cent in favour of the province remaining a part of Canada."
+        },
+        {
+          "type": "h",
+          "text": "What could happen next?"
+        },
+        {
+          "type": "p",
+          "text": "Because there are two appeals, the process would continue regardless if the government dropped its appeal, said Kathleen Mahoney, professor emeritus at the University of Calgary's faculty of law."
+        },
+        {
+          "type": "p",
+          "text": "Continuing its appeal could also give the government more clarity going forward, she said."
+        },
+        {
+          "type": "p",
+          "text": "“They may want to know exactly when in a government process that affects Indigenous rights a consultation has to take place,” she said."
+        },
+        {
+          "type": "p",
+          "text": "Constitutional experts have told CBC News that if an appeal is granted, the petition could indeed move forward."
+        },
+        {
+          "type": "p",
+          "text": "“If the [appeal] court agrees with the court below, it's over,” Mahoney said. “But if the court decides that the consultation could have taken place later in the process, well, then we're into a different scenario.”"
+        },
+        {
+          "type": "p",
+          "text": "In the latter case, it would trigger a requirement for the government to deal with the initial citizen petition, she said, but there is no timeline set for when that would need to happen."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Jennifer is a reporter with CBC Calgary. Previously, she worked for CTV News in Toronto. You can reach her at jennifer.keiller@cbc.ca"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
       "id": "inq-1hs43mv",
       "source": "inq",
       "title": "MegaLotto 6/45 jackpot: 3 bettors win P15M",
@@ -522,7 +1138,167 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "cbc-1ts4yrx",
+      "source": "cbc",
+      "title": "Calgary family finds box of Pokémon cards valued at roughly $48,000",
+      "summary": "A Calgary family is giving thanks after they discovered an old box of Pokémon cards worth roughly $48,000 during Thanksgiving dinner.",
+      "byline": "Bradley van Paridon",
+      "section": "News/Canada/Calgary",
+      "published": "2026-10-23T22:32:06.000Z",
+      "firstSeen": "2026-10-23T23:31:01.633Z",
+      "url": "https://www.cbc.ca/news/canada/calgary/calgary-pokemon-cards-9.7394033?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/3d6d2eb7-55ae-4b22-afdc-2bcde4b50050,1792794256507/full/max/0/default.jpg?im=Crop%2Crect%3D%28780%2C507%2C2714%2C1526%29%3BResize%3D620",
+        "caption": "A forgotten batch of Pokémon cards has netted a Calgary family roughly $48,000 after they sold the box to a collectibles business in California. (submitted by Kirk Ledene)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Calgary"
+        },
+        {
+          "type": "p",
+          "text": "A Calgary family is giving thanks after they discovered an old box of Pokémon cards worth roughly $48,000 during Thanksgiving dinner."
+        },
+        {
+          "type": "h",
+          "text": "'It felt like a little bit of an answered prayer,' said Colleen Ledene"
+        },
+        {
+          "type": "p",
+          "text": "Kirk Ledene was visiting his parents on the holiday when his mother asked him to go through some of his old boxes left in the basement."
+        },
+        {
+          "type": "p",
+          "text": "He went down and found an old wooden box he'd made in shop class. Inside were some old hockey trophies as well as items he'd purchased at an auction house he worked at in the early 2000s."
+        },
+        {
+          "type": "p",
+          "text": "And buried amongst the long-neglected items was an unopened box of Pokémon cards."
+        },
+        {
+          "type": "p",
+          "text": "He brought the finds upstairs to show his kids."
+        },
+        {
+          "type": "p",
+          "text": "“I showed the trophies off to the kids, and their jaws dropped when they saw the box in my hand,” said Kirk."
+        },
+        {
+          "type": "p",
+          "text": "An initial search online revealed the box in question — a Wizards of the Coast Night booster box from 1999 — could be worth tens of thousands of dollars."
+        },
+        {
+          "type": "p",
+          "text": "“It basically became like a piece of China, like don't touch it, don't breathe on it,” said Kirk."
+        },
+        {
+          "type": "p",
+          "text": "Colleen Ledene, Kirk’s wife, was skeptical at first. “The only thing we talked about at Thanksgiving dinner was this stupid box,” she said. “At first I was like, this is really silly.\""
+        },
+        {
+          "type": "p",
+          "text": "But she slowly started to realize it was actually a life-changing find."
+        },
+        {
+          "type": "p",
+          "text": "A Calgary couple found a box of Pokémon cards worth roughly $48,000 while sorting through old boxes over Thanksgiving. (Underwood/CBC)"
+        },
+        {
+          "type": "h",
+          "text": "Online world of collecting"
+        },
+        {
+          "type": "p",
+          "text": "Next, the family dove into the online world of collectible cards, something that was entirely foreign to them."
+        },
+        {
+          "type": "p",
+          "text": "They first reached out to auction houses and started to receive messages from interested buyers via social media after their son made a TikTok about the discovery."
+        },
+        {
+          "type": "p",
+          "text": "After a lot of messaging and searching across social media platforms the couple found a collectibles dealer in Los Angeles — Edward Heikali, who runs E&A Collectibles. Since starting the business in 2020, he has focused on sealed vintage items, just like the box of Pokémon cards the Ledenes found."
+        },
+        {
+          "type": "p",
+          "text": "“The value of it now is somewhere around the $40,000 US range and it's been steadily going up,” said Heikali."
+        },
+        {
+          "type": "p",
+          "text": "The value of such boxes is dictated by basic supply and demand and the possibility that the cards within are themselves valuable, said Heikali."
+        },
+        {
+          "type": "p",
+          "text": "He says stories like the Ledenes' happen quite often."
+        },
+        {
+          "type": "p",
+          "text": "“A lot of the business that we do is helping people like Colleen that find these things and they then find us,” said Heikali."
+        },
+        {
+          "type": "p",
+          "text": "For the Ledenes, choosing a buyer and deciding whether to ship or travel with the box to make the sale was a lot to think about."
+        },
+        {
+          "type": "p",
+          "text": "“There's so many, like, logistical things and you know, like, customs or tariffs and stuff you don't know about or you have to think about,” said Kirk."
+        },
+        {
+          "type": "p",
+          "text": "In the end they felt comfortable with Heikali and agreed to ship him the box via UPS."
+        },
+        {
+          "type": "p",
+          "text": "“We just trusted this guy a lot,” said Kirk. \"He would send all the forms that would be needed at customs so that just kind of relaxed both of us, making us know that he's done this a few times.”"
+        },
+        {
+          "type": "p",
+          "text": "The fact that Heikali operates a business and is not just an individual buyer also put their minds at ease."
+        },
+        {
+          "type": "h",
+          "text": "Timing could not be better"
+        },
+        {
+          "type": "p",
+          "text": "The box has now been shipped and the Ledenes are anxiously awaiting the wire transfer."
+        },
+        {
+          "type": "p",
+          "text": "Heikali says he'll look to sell the box to a collector or another business."
+        },
+        {
+          "type": "p",
+          "text": "“It'll likely go to someone who's going to open it himself or to a business that is going to open it on behalf of their customers,” said Heikali."
+        },
+        {
+          "type": "p",
+          "text": "For Kirk and Colleen, the timing of the discovery couldn’t be better."
+        },
+        {
+          "type": "p",
+          "text": "\"It felt like a little bit of an answered prayer ... just with everything going on in our life right now,\" Colleen said."
+        },
+        {
+          "type": "p",
+          "text": "They don't know exactly what they'll do with the windfall, but a down payment on a new house, a family trip, and a dinner out with the folks — to thank them for not throwing out the box years ago — are all in the cards."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Bradley van Paridon is a Calgary based journalist. He can be reached at bradley.van.paridon@cbc.ca"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "abs-9xfot9",
@@ -1874,81 +2650,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-1skpdxt",
-      "source": "inq",
-      "title": "NBI nabs 16-year-old ‘online groomer’ in Cebu",
-      "summary": "CEBU CITY &#8212; A 16-year-old boy is now in the custody of state social workers after being accused of grooming minors online and encouraging them to engage in violent activities, including school…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-23T21:17:00.000Z",
-      "firstSeen": "2026-10-23T21:31:01.488Z",
-      "url": "https://newsinfo.inquirer.net/2329143/nbi-nabs-16-year-old-online-groomer-in-cebu",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/12/Cebu-map-filephoto-091322-620x352.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CEBU CITY &#8212; A 16-year-old boy is now in the custody of state social workers after being accused of grooming minors online and encouraging them to engage in violent activities, including school shootings, the National Bureau of Investigation in Central Visayas (NBI-7) said on Friday. The teenager allegedly participated in an online group whose members [&hellip;]... Keep on reading: NBI nabs 16-year-old ‘online groomer’ in Cebu"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-157jado",
-      "source": "inq",
-      "title": "Harmony among vets and the young key to Foxies’ early Siklab success",
-      "summary": "Although Mylene Paat-Rezanova and Trisha Tubu share the same position as opposite hitters—a setup that would normally limit their individual opportunities—the two have found a way to thrive together…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-23T21:15:05.000Z",
-      "firstSeen": "2026-10-23T21:31:01.489Z",
-      "url": "https://sports.inquirer.net/703170/harmony-among-vets-and-the-young-key-to-foxies-early-siklab-success",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/10/1319108-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Although Mylene Paat-Rezanova and Trisha Tubu share the same position as opposite hitters—a setup that would normally limit their individual opportunities—the two have found a way to thrive together for Farm Fresh under the all-to-play format of the PVL All-Filipino Conference Siklab Series. The two have complemented each other, giving the Foxies a potent option [&hellip;]... Keep on reading: Harmony among vets and the young key to Foxies’ early Siklab success"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-19zfkcf",
-      "source": "inq",
-      "title": "We push away the unimaginable",
-      "summary": "As a child, I noticed girls the same way I noticed boys. I admired them, thought about them, wanted their attention. Long before I learned the words for how I felt, my heart had already figured…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-23T21:15:00.000Z",
-      "firstSeen": "2026-10-23T21:31:01.521Z",
-      "url": "https://opinion.inquirer.net/195883/we-push-away-the-unimaginable",
-      "image": {
-        "src": "https://opinion.inquirer.net/files/2025/12/1147005-300x168.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "As a child, I noticed girls the same way I noticed boys. I admired them, thought about them, wanted their attention. Long before I learned the words for how I felt, my heart had already figured itself out. The world around me had not. When I spoke too openly about finding girls beautiful, I was [&hellip;]... Keep on reading: We push away the unimaginable"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct HTTP 403"
     },
     {
       "id": "dw-zi98dr",
@@ -3854,90 +4555,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "grd-1gxt7vz",
-      "source": "grd",
-      "title": "‘Black October’: cybersecurity experts sound the alarm over new era of AI-enabled hacking",
-      "summary": "<p>After the discovery of a severe bug in the PHP programming language, executives warned of a coming ‘vulnerability tsunami’</p><p>Leaders in cybersecurity are sounding the alarm after the discovery…",
-      "byline": "Johana Bhuiyan",
-      "section": "Technology",
-      "published": "2026-10-23T18:48:48.000Z",
-      "firstSeen": "2026-10-23T19:01:00.704Z",
-      "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/cb4c18c4ae3df1d687b8488dfb57058ade00d1a7/731_0_3659_2927/master/3659.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=22240fd63146e88296ce67fe0124324c",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Leaders in cybersecurity are sounding the alarm after the discovery of a major vulnerability this week. They are predicting that artificial intelligence tools will expose more fundamental weaknesses in global internet infrastructure in the months to come."
-        },
-        {
-          "type": "p",
-          "text": "“I no longer think we’re going to be able to patch all bugs,” said Sam Altman on Thursday evening, joining the chorus of executives. In the midst of what’s being called “Black October”, for which researchers used AI to help identify critical flaws in a coding language that is used across millions of websites and may have been unpatched for years, tech executives are warning about the ways AI will be used both to identify and exploit security vulnerabilities at an unprecedented scale and pace."
-        },
-        {
-          "type": "p",
-          "text": "The next few months will see a “vulnerability tsunami”, according to Jason Clinton, Anthropic’s deputy chief information security officer. “There won’t be enough time to patch critical infrastructure,” Clinton said in a post on X on Thursday evening. Marc Benioff, the Salesforce CEO, agreed and called it a “code red”."
-        },
-        {
-          "type": "p",
-          "text": "AI is uniquely able to find and identify security flaws in a way and at a pace that will feel catastrophic because the security community will not be able to move quickly enough to address them, said Matthew Prince, the Cloudflare CEO. “It’s going to feel like the sky is falling. It’s going to feel like there’s nothing we can do."
-        },
-        {
-          "type": "p",
-          "text": "“The next two years are going to be incredibly, incredibly, incredibly fraught with new tools that have infinite patience to go look for vulnerabilities across the Internet,” he wrote in a post on X."
-        },
-        {
-          "type": "p",
-          "text": "While cybersecurity experts have been warning about a “vulnpocalypse”, or the ability for AI to more easily identify security bugs for months, it wasn’t until “Black October” that researchers were able to use AI to find a flaw as fundamental and critical as the one announced on 21 October."
-        },
-        {
-          "type": "p",
-          "text": "Massive bugs were found in a programming language called PHP, which may have left the millions of websites that run on it vulnerable to hackers for years. Some experts estimated 70% of all the sites on the internet were at risk of hacking."
-        },
-        {
-          "type": "p",
-          "text": "However, in the same way AI will be used to aid in identifying security vulnerabilities at an unprecedented pace, tech leaders worry it’ll also be used by malicious actors to exploit those bugs at an unprecedented pace."
-        },
-        {
-          "type": "p",
-          "text": "Attempts to exploit the PHP vulnerability have already begun."
-        },
-        {
-          "type": "p",
-          "text": "After the vulnerabilities were announced, government and private websites across the US and UK temporarily took down their sites to patch the bugs. The US National Security Agency (NSA) issued an alert recommending any site that runs on PHP implement the patches immediately. Malicious cyberactors may seek to further exploit these bugs to access servers without authorization, the NSA said."
-        },
-        {
-          "type": "p",
-          "text": "“Such an access vector could help attackers steal sensitive data, disrupt services or move deeper into a network,” the warning read."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "In a post on X, Prince said CloudFlare, a security provider, had seen evidence of thousands of people trying to exploit the PHP flaws in the 10 hours before it was announced."
-        },
-        {
-          "type": "p",
-          "text": "“That jumped to tens of thousands in the 45 minutes post announcement, hundreds of thousands within 2 hours, and millions now,” he wrote."
-        },
-        {
-          "type": "p",
-          "text": "In a blogpost, researchers at AI security platform Wiz said that this was “among the most severe vulnerabilities discovered in PHP, and arguably in software history”."
-        },
-        {
-          "type": "p",
-          "text": "“The underlying flaws had been present for decades, but demonstrating their exploitability required an exceptionally complex chain of steps, at the edge of what human researchers could practically achieve,” they wrote."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-1k49tyg",
       "source": "cbc",
       "title": "Trump to exempt some Canadian products from tariffs amid midterm pressure",
@@ -4563,306 +5180,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "cbc-1hfcuix",
-      "source": "cbc",
-      "title": "Miley Cyrus shaves fan's head after her breast cancer diagnosis",
-      "summary": "Miley Cyrus flew fan and musician Cash Jacobs — who has Stage 3 breast cancer — to her Los Angeles show to help shave her head. A video of the moment shared online has since surpassed 1.5 million…",
-      "byline": "Griffin Jaeger",
-      "section": "News/Entertainment",
-      "published": "2026-10-23T17:50:03.000Z",
-      "firstSeen": "2026-10-23T18:31:10.416Z",
-      "url": "https://www.cbc.ca/news/entertainment/miley-cyrus-shaves-fans-head-breast-cancer-chemo-9.7393493?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/d76aa38e-4cc5-4bfd-9530-a09d58c87397,1792774501027/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3BResize%3D620",
-        "caption": "In this series of screenshots taken from a social media video, pop singer Miley Cyrus helps fan and fellow musician Cash Jacobs shave her head ahead of Jacobs's chemotherapy treatment. (TikTok/cashjacobs_2)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Entertainment"
-        },
-        {
-          "type": "p",
-          "text": "Miley Cyrus flew fan and musician Cash Jacobs — who has Stage 3 breast cancer — to her Los Angeles show to help shave her head. A video of the moment shared online has since surpassed 1.5 million views."
-        },
-        {
-          "type": "h",
-          "text": "'You're gonna brave the storm,' Cyrus told her"
-        },
-        {
-          "type": "p",
-          "text": "Miley Cyrus stepped up to help a fellow musician and fan shave her head before chemotherapy."
-        },
-        {
-          "type": "p",
-          "text": "The moment came after Cash Jacobs — who has Stage 3 breast cancer — attended Cyrus's concert at the Hollywood Bowl in Los Angeles last week."
-        },
-        {
-          "type": "p",
-          "text": "Sharing a video of the moment on social media, Jacobs wrote: \"They say don't meet your idols. Well I did. And it was everything and more.\""
-        },
-        {
-          "type": "p",
-          "text": "Earlier that week, Jacobs posted a video on social media asking Cyrus to shave her head before chemotherapy and asking viewers to tag the pop star in hopes of getting her attention."
-        },
-        {
-          "type": "p",
-          "text": "Jacobs attended Cyrus's first show but didn't get to the Bass Persuades singer that night."
-        },
-        {
-          "type": "p",
-          "text": "However, she later revealed in another video that she had received a \"pretty promising email\" from Cyrus's team asking for her seat number and contact information."
-        },
-        {
-          "type": "p",
-          "text": "\"Miley, if you see this, would still like to meet you,\" Jacobs said after the show."
-        },
-        {
-          "type": "p",
-          "text": "\"10,000 out of 10 show. It was so good and I cried like a baby. I'm going to shave my head when I get home. I'd rather be around loved ones, family and do that.\""
-        },
-        {
-          "type": "p",
-          "text": "Instead, Cyrus flew Jacobs back to Los Angeles for her second show and met with her afterward to help shave her head. Jacobs shared footage of the moment on her socials, and it's garnered more than 1.5 million views."
-        },
-        {
-          "type": "h",
-          "text": "'You're gonna brave the storm'"
-        },
-        {
-          "type": "p",
-          "text": "\"Are we actually doing this?\" Cyrus asked Jacobs before sharing that she also \"shaved her head before.\""
-        },
-        {
-          "type": "p",
-          "text": "\"You can be soft and strong at the same time and you're gonna brave the storm,\" the Grammy winner told her."
-        },
-        {
-          "type": "p",
-          "text": "Before Cyrus got started, she thanked the universe for bringing them together and asked Jacobs if she felt ready. When Jacobs said she did, Cyrus got to hairstyling."
-        },
-        {
-          "type": "p",
-          "text": "\"This feels celebratory for you, like we're doing this in the most fun way possible,\" Cyrus told her, continuing to reassure Jacobs that she's \"got this\" and is \"so gorg.\""
-        },
-        {
-          "type": "p",
-          "text": "\"I think it's nice; you have a pretty head,\" the Hannah Montana alum said. \"You have a tiny head and tiny ears. It doesn't look awkward.\""
-        },
-        {
-          "type": "p",
-          "text": "As they finished, the two shared a hug."
-        },
-        {
-          "type": "p",
-          "text": "\"This made honestly this whole experience worth it getting to meet you,\" Cyrus told her. \"Thank you for asking me to do this. I am honoured to be the one that you asked to share this moment with you.\""
-        },
-        {
-          "type": "p",
-          "text": "The pair of Hollywood Bowl shows also marked Cyrus's first full headline performances since 2022 and the live debut of her No. 1 album, Bass Persuades."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Griffin Jaeger is a reporter and producer with CBC's entertainment unit. He also formerly hosted and produced content for The National’s digital platforms. You can reach him at griffin.jaeger@cbc.ca"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-29ktm5",
-      "source": "cbc",
-      "title": "Scientists put a dying coral next to a healthy one — and watched it heal before their eyes",
-      "summary": "Scientists at Stanford University in California stumbled on a promising discovery when two coral fragments in the lab — one bleached and one healthy — tipped over in a tank and touched.",
-      "byline": "Sheena Goodyear",
-      "section": "Radio/As It Happens",
-      "published": "2026-10-23T17:37:23.000Z",
-      "firstSeen": "2026-10-23T18:00:57.825Z",
-      "url": "https://www.cbc.ca/radio/asithappens/coral-reef-restoration-9.7392408?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/ae73babb-2a28-4e9c-a75c-7b83b6423a3e,1792706098468/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C781%2C439%29%3BResize%3D620",
-        "caption": "Scientists at Stanford University in California found that when a bleached coral fragment makes contact with a healthy one, the dying fragment can make a full recovery. (Danny Collins)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "As It Happens"
-        },
-        {
-          "type": "p",
-          "text": "Scientists at Stanford University in California stumbled on a promising discovery when two coral fragments in the lab — one bleached and one healthy — tipped over in a tank and touched."
-        },
-        {
-          "type": "h",
-          "text": "'This could open a door to possible reef restoration,' says Stanford researcher"
-        },
-        {
-          "type": "p",
-          "text": "The best medicine for a dying coral may be the power of touch."
-        },
-        {
-          "type": "p",
-          "text": "\"We watched the healthy coral send over these colourful beneficial algae over to the bleached corals, and we watched its colour restore basically in front of our eyes,\" ocean scientist Danny Collins told As It Happens guest host Dave Seglins."
-        },
-        {
-          "type": "p",
-          "text": "Within a couple weeks, he says, the dying coral had recovered \"to the point where it was indistinguishable from the healthy coral.\""
-        },
-        {
-          "type": "p",
-          "text": "\"We were blown away,\" Collins said. \"It does seem like this could open a door to possible reef restoration.\""
-        },
-        {
-          "type": "p",
-          "text": "The findings, published this month in the journal Science Advances, brings new hope at a time when the world's coral reefs are facing imminent collapse. But researchers caution the findings are limited to lab settings for now and that any efforts to restore coral must be paired with efforts to protect them."
-        },
-        {
-          "type": "p",
-          "text": "LISTEN | Interview with ocean scientist Danny Collins:"
-        },
-        {
-          "type": "p",
-          "text": "As It Happens5:38Scientists put a dying coral next to a healthy one, and watched it heal before their eyes"
-        },
-        {
-          "type": "p",
-          "text": "Healthy coral reef ecosystems are explosions of bright colour."
-        },
-        {
-          "type": "p",
-          "text": "But that colour doesn't come from the corals themselves, Collins said. Instead, it comes from beneficial algae, which are absorbed into the coral's tissues through photosynthesis and provide nutrition."
-        },
-        {
-          "type": "p",
-          "text": "\"The coral provides the housing and these algae provide the food. And this relationship really is the bedrock for why coral reefs ecosystems can be so productive,\" Collins said."
-        },
-        {
-          "type": "p",
-          "text": "This underwater photo taken in the Maldives in 2024 shows hard corals and a bleached branch of coral surrounded by fish. (Sarah Lai/AFP/Getty Images)"
-        },
-        {
-          "type": "p",
-          "text": "\"But as the water gets warmer, they both get stressed out. And as a result, these beneficial algae start to produce toxins that the coral doesn't really like. And in a kind of fascinating response, it kicks … the algae out of its tissues.\""
-        },
-        {
-          "type": "p",
-          "text": "That leaves corals whitened, starving and on the brink of death, a phenomenon known as coral bleaching."
-        },
-        {
-          "type": "p",
-          "text": "\"We've demonstrated that, you know, they aren't dead. And not only are they not dead, they've got a remarkable capacity and potential to rapidly recover,\" Collins said."
-        },
-        {
-          "type": "h",
-          "text": "Only works with genetically related corals"
-        },
-        {
-          "type": "p",
-          "text": "But this doesn't mean the problem of coral bleaching is solved, says Collins. The experiments have limitations."
-        },
-        {
-          "type": "p",
-          "text": "For one, there has to be direct contact. When the team put the coral fragments a few millimetres apart, there was no effect."
-        },
-        {
-          "type": "p",
-          "text": "\"It kind of sounds science fiction-esque, but the healthy coral and the bleach coral, their tissues actually fuse together,\" he said. \"They create a tissue bridge that kind of acts as a nutrient highway that allows for the healthy coral to then send over nutrients and this colourful algae over to the bleached coral.\""
-        },
-        {
-          "type": "p",
-          "text": "Scientists have found that when a bleached coral touches a healthy genetic clone, it recovers 'to the point where it was indistinguishable from the healthy coral,' says Stanford University's Danny Collins. (Dannny Collins)"
-        },
-        {
-          "type": "p",
-          "text": "What's more, it only works with genetically identical corals."
-        },
-        {
-          "type": "p",
-          "text": "\"When we put them with different genetic backgrounds, what we found was actually a fascinating immune and antagonistic response, where the corals actually rejected each other, similar to an organ donor or an organ transplant might be rejected in someone's body,\" Collins said."
-        },
-        {
-          "type": "p",
-          "text": "He says that's because it’s a \"colonial animal\" — a living organism made of thousands to millions of polyps."
-        },
-        {
-          "type": "p",
-          "text": "\"When corals of the same genetic background come in contact with each other, they recognize each other and actually can infuse,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "\"It's actually beneficial on a reef that you can have fusion, because if you're in a big wave and part of you gets knocked off, you can then kind of reconnect with yourself.\""
-        },
-        {
-          "type": "p",
-          "text": "Stanford University ocean scientist Danny Collins says his new research provides a possible pathway to coral restoration. (Submitted by Danny Collins)"
-        },
-        {
-          "type": "p",
-          "text": "About 96 per cent of the world's shallow-water reef systems are critically endangered and could disappear by 2075, the International Union for Conservation of Nature announced on the sidelines of a UN biodiversity conference in Albania on Thursday."
-        },
-        {
-          "type": "p",
-          "text": "This will have ripple effects for biodiversity, tourism and fisheries, the report notes, as coral reefs are ecosystems that support between a quarter and a third of all marine species."
-        },
-        {
-          "type": "h",
-          "text": "'Glimmer of light'"
-        },
-        {
-          "type": "p",
-          "text": "The Stanford research is a \"glimmer of light\" in a wave of bad news, says coral scientist Julia Cole, who was not involved in the study."
-        },
-        {
-          "type": "p",
-          "text": "\"I think it's super exciting,\" said Cole, chair of the Department of Earth and Environmental Sciences at the University of Michigan. \"The natural world can just surprise us sometimes.\""
-        },
-        {
-          "type": "p",
-          "text": "But she cautions there are hurdles to overcome."
-        },
-        {
-          "type": "p",
-          "text": "\"If you think about the scale of reefs as kilometres, or in the case of the biggest reefs, thousands of kilometres ... something that requires coral-to-coral contact, it would be a very meticulous and kind of overwhelming project.\""
-        },
-        {
-          "type": "p",
-          "text": "Collins says his team is working on ways to extract algae from healthy reefs, culture it in labs, and use it to protect at-risk reefs from expected bleaching events."
-        },
-        {
-          "type": "p",
-          "text": "\"We hope in the near future we can have some interventions that actually could be field deployable and possibly scalable,\" he said."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Corals in decline globally, nearly half a century of data shows",
-            "In good news for coral reefs, scientists identify where the toughest ones are"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Even if we can heal the bleached coral, Cole says warming oceans remain a threat."
-        },
-        {
-          "type": "p",
-          "text": "\"We know how to solve the warming climate that's causing these problems,\" she said. \"It comes back to getting serious about reducing greenhouse gas emissions, getting off of fossil fuels and transitioning to a clean-energy economy.\""
-        },
-        {
-          "type": "p",
-          "text": "Interview with Danny Collins produced by Livia Dyring"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1vrgeua",
       "source": "abs",
       "title": "Xyriel, Karina, Kaori at Elyson, isasabuhay ang mga kwentong kababalaghan sa iWant horror serye na “True Manila Encounters”",
@@ -5324,102 +5641,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "grd-14k66fw",
-      "source": "grd",
-      "title": "Reform braces for Farage standards verdict over undeclared £5m gift",
-      "summary": "<p>Party insiders say they expect initial verdict to be against leader and are preparing to appeal against adverse findings</p><p>Nigel Farage’s Reform is braced for a negative report from the…",
-      "byline": "Rowena Mason Whitehall editor",
-      "section": "Reform UK",
-      "published": "2026-10-23T16:45:14.000Z",
-      "firstSeen": "2026-10-23T17:01:02.729Z",
-      "url": "https://www.theguardian.com/politics/2026/oct/23/reform-braces-farage-standards-verdict-undeclared-5m-gift",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/4e3894392038014b4158c1acbb3a04cefe0364cb/871_0_7975_6384/master/7975.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ef9dd10f4c3788f7a4893846e621be20",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Nigel Farage’s Reform is braced for a negative report from the standards commissioner over his failure to declare a £5m gift from crypto billionaire Christopher Harborne, and plans to appeal against any adverse findings."
-        },
-        {
-          "type": "p",
-          "text": "The party is on tenterhooks over the report, with multiple Reform insiders saying they are readying for a fightback through the appeals process and fully expect the initial verdict to find against him."
-        },
-        {
-          "type": "p",
-          "text": "Any attempt by Farage to oppose a negative verdict could mean the process drags on for months, as an MP under investigation has the right to present further evidence to the standards committee as well as an appeal through the independent expert panel."
-        },
-        {
-          "type": "p",
-          "text": "After any appeals process, and if parliament agrees with a penalty of more than 10 days of suspension from the House of Commons, Farage could end up facing a second byelection in his Clacton constituency. This would require a recall petition, triggered by signatures from 10% of voters in the MP’s constituency over six weeks."
-        },
-        {
-          "type": "p",
-          "text": "Farage was interviewed by the standards commissioner, Daniel Greenberg, last month, with the party expecting to be notified of the verdict at any time."
-        },
-        {
-          "type": "p",
-          "text": "While it awaits the findings, Reform UK has been overhauling its HQ operations, having been destabilised by undercover investigations by both Channel 4 and ITV in recent weeks and sliding in the polls."
-        },
-        {
-          "type": "p",
-          "text": "The Channel 4 reporting with investigative group Verbatim has led to a police inquiry into alleged attempts to orchestrate illegal overseas donations, as well as the suspension of James Orr as head of policy and Dan Jukes as Farage’s communications chief. They deny wrongdoing and an internal party report has cleared them, but the matter remains under police investigation."
-        },
-        {
-          "type": "p",
-          "text": "The ITV reporting uncovered racist councillors and election candidates for the party caught on film making graphic threats of extreme violence and expressing racist and misogynistic views."
-        },
-        {
-          "type": "p",
-          "text": "One Reform insider said the ITV documentary in particular was extremely bad and showed the party’s vetting had not been up to scratch, despite its claims to have professionalised."
-        },
-        {
-          "type": "p",
-          "text": "But they said the party was well on its way to bringing in changes in its organisation. Harvey Griffiths, Reform’s new treasurer, has been taking a central role in handling day-to-day party business, while Tom Waterhouse, its general secretary, has taken on the role of getting to grips with vetting."
-        },
-        {
-          "type": "p",
-          "text": "There have also been departures. Aaron Lobo, its former head of operations, has moved to a new role running a Reform-focused TV channel which is hiring dozens of “journalists” to increase communications directly to voters."
-        },
-        {
-          "type": "p",
-          "text": "Amar Johal, a former government lawyer who had been working for the party as head of policy, has taken on the role of acting head of people operations, and is said to be a rising force within the party."
-        },
-        {
-          "type": "p",
-          "text": "Chris Bruni-Lowe, Farage’s polling guru and former campaign lead, is also returning to play a role as an informal sounding board on strategy for the party. Raheem Kassam, a former communications chief for Farage, now based in the US, has been playing an unofficial role as an attack dog mostly aimed at the Tories, including branding Kemi Badenoch a “Nigerian scammer”, which has been condemned by Conservative chair Kevin Hollinrake."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "While Jukes, who was a longtime aide to Farage, was considered a loss, the party’s communications are now being handled by Ed Sumner, its communications director, and Miles Goslett, a former journalist."
-        },
-        {
-          "type": "p",
-          "text": "The mood at Reform UK is said to be down but less bad than expected given its polling slide, partly because of the £72m from two donors, Harborne and Ben Delo. The Guardian reported undercover footage from Verbatim this week in which Orr suggested Harborne could be caught by the forthcoming overseas donor cap given he has only been a registered domestic voter in the UK since June. However, Reform UK has insisted the money will not have to be handed back."
-        },
-        {
-          "type": "p",
-          "text": "The party has begun a hiring spree since the windfall and is planning to take on 400 campaign managers in target seats. It has also sent a mailshot directly to voters – a move that may be repeated in the coming weeks."
-        },
-        {
-          "type": "p",
-          "text": "Farage has been under investigation over the £5m gift from Harborne since shortly after the Guardian revealed in May that the crypto billionaire had given him £5m just before the last election in 2024."
-        },
-        {
-          "type": "p",
-          "text": "The Reform leader has said it was a personal, not political, matter and the money did not need to be declared. The rules state that financial support related to an MP’s job needs to be registered if given in the 12 months before they enter parliament."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-xdf8qb",
       "source": "abs",
       "title": "Pinoy Big Brother Collab 3.0",
@@ -5427,7 +5648,7 @@
       "byline": "",
       "section": "",
       "published": "2026-10-23T16:41:08.000Z",
-      "firstSeen": "2026-10-23T23:00:59.876Z",
+      "firstSeen": "2026-10-23T23:31:01.591Z",
       "url": "https://www.abs-cbn.com/",
       "image": null,
       "blocks": [],
@@ -11299,157 +11520,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-1fgtqmm",
-      "source": "cbc",
-      "title": "Developer wants to build 500 modular homes on roof of struggling Sask. mall",
-      "summary": "The Prince Albert project reflects a national trend of denser, centrally located housing since the federal government increased incentives a few years ago, an expert says.",
-      "byline": "Maeve Ellis",
-      "section": "News/Canada/Saskatchewan",
-      "published": "2026-10-23T11:00:00.000Z",
-      "firstSeen": "2026-10-23T14:30:57.024Z",
-      "url": "https://www.cbc.ca/news/canada/saskatchewan/prince-albert-gateway-mall-500-modular-homes-9.7392495?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/ab30f383-2cb6-4aa5-94ac-6184a0cdcc97,1792715458824/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C2048%2C1152%29%3BResize%3D620",
-        "caption": "A conceptual rendering of Alrifai Real Estates' housing proposal for Gateway Mall in Prince Albert, Sask. (Submitted by Alrifai Real Estates)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Saskatchewan"
-        },
-        {
-          "type": "p",
-          "text": "The Prince Albert project reflects a national trend of denser, centrally located housing since the federal government increased incentives a few years ago, an expert says."
-        },
-        {
-          "type": "h",
-          "text": "Plan is 'not crazy, but it's pushing the limits,' expert says of Prince Albert project"
-        },
-        {
-          "type": "p",
-          "text": "Louai Alrifai says the future of a struggling mall in central Saskatchewan comes down to a math equation: \"700 cars and light trucks weigh around 3,000,000 pounds. Our modules weigh much less.\""
-        },
-        {
-          "type": "p",
-          "text": "Alrifai's firm bought the Gateway Mall in Prince Albert, Sask., earlier this year and has announced plans to build 500 modular housing units on its roof, replacing a parking lot."
-        },
-        {
-          "type": "p",
-          "text": "It's a reflection of a national trend toward building denser housing within city boundaries, according to one expert."
-        },
-        {
-          "type": "p",
-          "text": "Though there are cases of builders incorporating new homes into existing malls, CBC News could not identify another case of modular housing units going on top of one."
-        },
-        {
-          "type": "p",
-          "text": "Alrifai says his company focuses on properties others don't want. (Submitted by Louai Alrifai)"
-        },
-        {
-          "type": "p",
-          "text": "\"Due to the size of the land, it makes much more sense to go on the roof,\" said Alrifai, who is president and CEO of Alrifai Real Estates."
-        },
-        {
-          "type": "p",
-          "text": "He said the one-bedroom homes would each be about 329 square feet and geared toward students, young professionals and health-care workers."
-        },
-        {
-          "type": "p",
-          "text": "He expects them to be ready in 2027, with a monthly rent of $1,000, including utilities."
-        },
-        {
-          "type": "p",
-          "text": "Alrifai's company bought the mall building earlier this year. He said he plans to spend $40 million on the housing development and an additional $10 million on the interior of the mall, fixing a leakage issue and encouraging new stores and study spaces."
-        },
-        {
-          "type": "p",
-          "text": "\"I think people in Prince Albert are great, hardworking people and they deserve to improve their downtown,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "The company intends to build more parking spaces to replace what's on the roof. Greg Dionne, former mayor of Prince Albert, is an advisor for the firm."
-        },
-        {
-          "type": "p",
-          "text": "A conceptual rendering of what a unit might look like. The company says each will cover 329 square feet and will rent for $1,000 a month. (Supplied by Alrifai Real Estates)"
-        },
-        {
-          "type": "p",
-          "text": "Alrifai said they're preparing to submit formal plans to the city and have received a positive reception from city staff and officials."
-        },
-        {
-          "type": "p",
-          "text": "Michael Nelson, acting director of community development for the city, said Prince Albert needs more housing."
-        },
-        {
-          "type": "p",
-          "text": "\"We do have a shortfall on some housing units that we do want to help achieve and we're always open to new ideas and new developments.\""
-        },
-        {
-          "type": "p",
-          "text": "Nelson said a series of assessments and reviews will determine if Alrifai's plan is feasible."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Could re-imagining malls help solve the GTA housing crunch? Some developers are betting on it"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "\"I think anything's possible, it's just all the proper reviews and approvals have to be in place.\""
-        },
-        {
-          "type": "p",
-          "text": "Nelson said the company can apply for financial incentives. Alrifai said they're optimistic about receiving support, but the project is about more than money."
-        },
-        {
-          "type": "p",
-          "text": "\"I didn't buy Gateway Mall to collect rent only. I bought it to reposition the whole thing, to actually turn it into a true hub for the downtown of Prince Albert,\" he said."
-        },
-        {
-          "type": "h",
-          "text": "Expert sees national trend of denser housing"
-        },
-        {
-          "type": "p",
-          "text": "Scott Bell, a professor of geography and planning at the University of Saskatchewan, said he's never seen anything quite like this proposed project."
-        },
-        {
-          "type": "p",
-          "text": "\"It does seem novel. I have seen small house developments, I've seen redevelopment within city limits of different types. I've not seen one like this where it's using an existing structure and then placing housing units on top of that structure,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "Scott Bell is a professor of geography and planning at the University of Saskatchewan. (Submitted by Scott Bell)"
-        },
-        {
-          "type": "p",
-          "text": "Bell said there's been a rise in construction of dense housing within city limits over the past few years, since the federal government increased incentives to encourage it."
-        },
-        {
-          "type": "p",
-          "text": "He cited the federal Housing Accelerator Fund, which ties funding for cities to how much centrally located and dense housing is built."
-        },
-        {
-          "type": "p",
-          "text": "\"These look like tiny container homes, so melding that type of construction and house type with redevelopment is maybe pushing the next step for urban growth…. not crazy, but it's pushing the limits,\" Bell said."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Maeve Ellis is a reporter and associate producer with CBC News based in Saskatoon. You can reach her at maeve.ellis@cbc.ca or maeveellis_ on X. She would love to hear from anyone with Sask-related story ideas."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "inqg-qtrt1o",
       "source": "inqg",
       "title": "NBI dismantles alleged scam hub in Subic, secures 200 Vietnamese",
@@ -14430,31 +14500,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inqg-1cfzasl",
-      "source": "inqg",
-      "title": "Egyptian editor faces trial after hours of questioning",
-      "summary": "EGYPT — The editor-in-chief of one of Egypt&#8217;s last independent news outlets, Mada Masr, will stand trial after prosecutors questioned her for more than six hours, her lawyer said early…",
-      "byline": "Dona Policar",
-      "section": "Africa",
-      "published": "2026-10-23T07:06:09.000Z",
-      "firstSeen": "2026-10-22T23:30:53.280Z",
-      "url": "https://globalnation.inquirer.net/343522/egyptian-editor-faces-trial-after-hours-of-questioning",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/AP26295713531521.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "EGYPT — The editor-in-chief of one of Egypt&#8217;s last independent news outlets, Mada Masr, will stand trial after prosecutors questioned her for more than six hours, her lawyer said early Thursday. The Supreme State Prosecution referred Mada Masr’s Lina Attalah to trial on Thursday on a charge of establishing and managing a website without a"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "grd-1tzsi9a",
       "source": "grd",
       "title": "India slashes cost of cancer drugs after court rules mark-ups are ‘extortion’",
@@ -16624,28 +16669,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-vtwlho",
-      "source": "abs",
-      "title": "Trump says LeBron James showed disrespect during US national anthem",
-      "summary": "US President Donald Trump lashed out at NBA superstar LeBron James on Thursday for what he called disrespectful behavior during the playing of the national anthem.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-22T23:05:23.000Z",
-      "firstSeen": "2026-10-22T23:30:55.509Z",
-      "url": "https://www.abs-cbn.com/sports/basketball/2026/10/23/trump-says-lebron-james-showed-disrespect-during-us-national-anthem-0705",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "US President Donald Trump lashed out at NBA superstar LeBron James on Thursday for what he called disrespectful behavior during the playing of the national anthem."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "grd-1hze2i1",
