@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-23T17:01:19.939Z",
+  "updated": "2026-10-23T17:31:15.088Z",
   "sources": [
     {
       "id": "inq",
@@ -59,7 +59,7 @@
       "summary": "(Satellite image from Pagasa) MANILA, Philippines — Typhoon Rosal, with an international name ‘Champi,’ slightly intensified as it continued to move away from the country, the state weather bureau…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:09.223Z",
+      "published": "2026-10-23T17:31:05.970Z",
       "firstSeen": "2026-10-23T10:31:02.327Z",
       "url": "https://newsinfo.inquirer.net/2329040/typhoon-rosal-slightly-intensifies-off-batanes-as-it-moves-away-from-ph",
       "image": {
@@ -84,7 +84,7 @@
       "summary": "MANILA, Philippines — The Philippine National Police (PNP) on Friday gave Sen. Ronald “Bato” dela Rosa, who has been in hiding following the issuance of an International Criminal Court (ICC) arrest…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:09.223Z",
+      "published": "2026-10-23T17:31:05.970Z",
       "firstSeen": "2026-10-23T10:00:57.349Z",
       "url": "https://newsinfo.inquirer.net/2329034/pnp-to-sen-bato-dela-rosa-you-have-one-week-to-surrender",
       "image": {
@@ -103,13 +103,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-14ojibc",
+      "source": "inqn",
+      "title": "COA flags deficiencies in P17-B DOH infra projects",
+      "summary": "MANILA, Philippines—The Commission on Audit (COA) has found several deficiencies in the implementation of over P17.27 billion worth of Department of Health (DOH) infrastructure projects involving the…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-23T17:31:04.456Z",
+      "firstSeen": "2026-10-23T10:30:56.620Z",
+      "url": "https://newsinfo.inquirer.net/2329042/coa-flags-deficiencies-in-p17-b-doh-infra-projects",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/commission-audit-logo-and-building-26august2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—The Commission on Audit (COA) has found several deficiencies in the implementation of over P17.27 billion worth of Department of Health (DOH) infrastructure projects involving the construction and upgrading of health-care facilities across the country. It noted that the projects were either &#8220;delayed,&#8221; &#8220;idle or unutilized,&#8221; &#8220;underutilized,&#8221; &#8220;not used for its intended purpose,&#8221; &#8220;not"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-q6xupq",
       "source": "inqn",
       "title": "DOLE moves to shield delivery riders from heat-related penalties, perils",
       "summary": "MANILA, Philippines—Delivery riders may be protected from penalties for heat-related delays under a proposed labor advisory being drafted by the Department of Labor and Employment (Dole) to protect…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:09.129Z",
+      "published": "2026-10-23T17:31:04.456Z",
       "firstSeen": "2026-10-23T10:00:57.271Z",
       "url": "https://newsinfo.inquirer.net/2329038/dole-moves-to-shield-delivery-riders-from-heat-related-penalties-perils",
       "image": {
@@ -134,7 +159,7 @@
       "summary": "MANILA, Philippines—The Office of the Ombudsman is opening an “Investors’ Window” where business owners and investors can submit concerns about government officials or transactions that impede…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:09.129Z",
+      "published": "2026-10-23T17:31:04.456Z",
       "firstSeen": "2026-10-23T10:31:00.558Z",
       "url": "https://newsinfo.inquirer.net/2329043/ombudsman-opens-investors-window-vs-corruption-plaguing-businesses",
       "image": {
@@ -153,113 +178,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-14ojibc",
-      "source": "inqn",
-      "title": "COA flags deficiencies in P17-B DOH infra projects",
-      "summary": "MANILA, Philippines—The Commission on Audit (COA) has found several deficiencies in the implementation of over P17.27 billion worth of Department of Health (DOH) infrastructure projects involving the…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:09.128Z",
-      "firstSeen": "2026-10-23T10:30:56.620Z",
-      "url": "https://newsinfo.inquirer.net/2329042/coa-flags-deficiencies-in-p17-b-doh-infra-projects",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/commission-audit-logo-and-building-26august2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—The Commission on Audit (COA) has found several deficiencies in the implementation of over P17.27 billion worth of Department of Health (DOH) infrastructure projects involving the construction and upgrading of health-care facilities across the country. It noted that the projects were either &#8220;delayed,&#8221; &#8220;idle or unutilized,&#8221; &#8220;underutilized,&#8221; &#8220;not used for its intended purpose,&#8221; &#8220;not"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-infbsk",
-      "source": "inqn",
-      "title": "Court affirms ruling vs Revilla’s bid to inhibit justice who denied bail",
-      "summary": "MANILA, Philippines — The Sandiganbayan Third Division affirmed its earlier ruling to deny the move of former Sen. Bong Revilla to bar its chairperson, Associate Justice Karl Miranda, the sole judge…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:09.060Z",
-      "firstSeen": "2026-10-23T10:30:56.557Z",
-      "url": "https://newsinfo.inquirer.net/2329053/court-affirms-ruling-vs-revillas-bid-to-inhibit-justice-who-denied-bail",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/06/Commission-on-Audit-COA-officer-on-Monday-submitted-a-new-set-of-documents-to-the-Sandiganbayan-1st-Division-in-the-graft-trial-related-to-the-Pharmally-case.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Sandiganbayan Third Division affirmed its earlier ruling to deny the move of former Sen. Bong Revilla to bar its chairperson, Associate Justice Karl Miranda, the sole judge who denied his bail petition, from participating in the trial of his malversation case. In a ruling promulgated on Oct 22 but was only furnished"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-18597s8",
-      "source": "inqn",
-      "title": "PAF confirms incident involving 2 aircraft during Batangas training flight",
-      "summary": "MANILA, Philippines — Two SF-260 aircraft were involved in an incident during a training flight at Fernando Air Base in Lipa City, Batangas on Friday afternoon, the Philippine Air Force (PAF)…",
-      "byline": "postie",
-      "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:09.059Z",
-      "firstSeen": "2026-10-23T12:30:54.799Z",
-      "url": "https://newsinfo.inquirer.net/2329107/paf-confirms-incident-involving-2-aircraft-during-batangas-training-flight",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/12/Philippine-Air-Force-PAF-12August2024.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Two SF-260 aircraft were involved in an incident during a training flight at Fernando Air Base in Lipa City, Batangas on Friday afternoon, the Philippine Air Force (PAF) confirmed. PAF spokesperson Col. Alvin Capinguian said the incident occurred at 3:51 p.m., prompting the immediate activation of emergency response measures. He has yet"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-a3ixvs",
-      "source": "inqn",
-      "title": "China&#8217;s Long March 8A rocket debris may fall within PH waters",
-      "summary": "MANILA, Philippines — The Philippine Coast Guard on Friday warned that debris from China’s Long March 8A rocket may fall within Philippine waters. In an advisory, the Coast Guard District (CGD)…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:09.059Z",
-      "firstSeen": "2026-10-23T12:00:57.103Z",
-      "url": "https://newsinfo.inquirer.net/2329094/chinas-long-march-8a-rocket-debris-may-fall-within-ph-waters",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/01/Palawan-China-smoke-19January2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Philippine Coast Guard on Friday warned that debris from China’s Long March 8A rocket may fall within Philippine waters. In an advisory, the Coast Guard District (CGD) &#8211; Palawan advised all mariners, fishing vessels, passenger and cargo vessels to steer clear or exercise caution when traveling within the drop zones on"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-doat6q",
       "source": "inqn",
       "title": "INQToday: P50-M bounty for capture of Bato Dela Rosa – DILG",
       "summary": "P50-M bounty for capture of armed and dangerous Bato Dela Rosa – DILG Interior Secretary Jonvic Remulla announced on Friday that Sen. Ronald “Bato” dela Rosa is now considered armed and dangerous and…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:09.059Z",
+      "published": "2026-10-23T17:31:04.169Z",
       "firstSeen": "2026-10-23T12:00:57.164Z",
       "url": "https://newsinfo.inquirer.net/2329077/inqtoday-p50-m-bounty-for-capture-of-bato-dela-rosa-dilg",
       "image": {
@@ -284,7 +209,7 @@
       "summary": "MANILA, Philippines—The law firm representing Senator Ronald &#8220;Bato&#8221; dela Rosa on Friday questioned the legal basis of the P50-million bounty for the senator&#8217;s arrest. &#8220;Every…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:09.059Z",
+      "published": "2026-10-23T17:31:04.169Z",
       "firstSeen": "2026-10-23T12:30:58.595Z",
       "url": "https://newsinfo.inquirer.net/2329081/dela-rosas-lawyers-challenge-p50m-arrest-bounty-illegal-and-risky",
       "image": {
@@ -303,13 +228,88 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-infbsk",
+      "source": "inqn",
+      "title": "Court affirms ruling vs Revilla’s bid to inhibit justice who denied bail",
+      "summary": "MANILA, Philippines — The Sandiganbayan Third Division affirmed its earlier ruling to deny the move of former Sen. Bong Revilla to bar its chairperson, Associate Justice Karl Miranda, the sole judge…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-23T17:31:04.169Z",
+      "firstSeen": "2026-10-23T10:30:56.557Z",
+      "url": "https://newsinfo.inquirer.net/2329053/court-affirms-ruling-vs-revillas-bid-to-inhibit-justice-who-denied-bail",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/06/Commission-on-Audit-COA-officer-on-Monday-submitted-a-new-set-of-documents-to-the-Sandiganbayan-1st-Division-in-the-graft-trial-related-to-the-Pharmally-case.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Sandiganbayan Third Division affirmed its earlier ruling to deny the move of former Sen. Bong Revilla to bar its chairperson, Associate Justice Karl Miranda, the sole judge who denied his bail petition, from participating in the trial of his malversation case. In a ruling promulgated on Oct 22 but was only furnished"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-18597s8",
+      "source": "inqn",
+      "title": "PAF confirms incident involving 2 aircraft during Batangas training flight",
+      "summary": "MANILA, Philippines — Two SF-260 aircraft were involved in an incident during a training flight at Fernando Air Base in Lipa City, Batangas on Friday afternoon, the Philippine Air Force (PAF)…",
+      "byline": "postie",
+      "section": "Latest News Stories",
+      "published": "2026-10-23T17:31:04.168Z",
+      "firstSeen": "2026-10-23T12:30:54.799Z",
+      "url": "https://newsinfo.inquirer.net/2329107/paf-confirms-incident-involving-2-aircraft-during-batangas-training-flight",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2024/12/Philippine-Air-Force-PAF-12August2024.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Two SF-260 aircraft were involved in an incident during a training flight at Fernando Air Base in Lipa City, Batangas on Friday afternoon, the Philippine Air Force (PAF) confirmed. PAF spokesperson Col. Alvin Capinguian said the incident occurred at 3:51 p.m., prompting the immediate activation of emergency response measures. He has yet"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-a3ixvs",
+      "source": "inqn",
+      "title": "China&#8217;s Long March 8A rocket debris may fall within PH waters",
+      "summary": "MANILA, Philippines — The Philippine Coast Guard on Friday warned that debris from China’s Long March 8A rocket may fall within Philippine waters. In an advisory, the Coast Guard District (CGD)…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-23T17:31:04.168Z",
+      "firstSeen": "2026-10-23T12:00:57.103Z",
+      "url": "https://newsinfo.inquirer.net/2329094/chinas-long-march-8a-rocket-debris-may-fall-within-ph-waters",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/01/Palawan-China-smoke-19January2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Philippine Coast Guard on Friday warned that debris from China’s Long March 8A rocket may fall within Philippine waters. In an advisory, the Coast Guard District (CGD) &#8211; Palawan advised all mariners, fishing vessels, passenger and cargo vessels to steer clear or exercise caution when traveling within the drop zones on"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1gizkaa",
       "source": "inqn",
       "title": "Loren Legarda launches 10-point action plan vs Super El Niño",
       "summary": "[Updated Oct. 24, 2026, 12:13 a.m.] MANILA, Philippines — Sen. Loren Legarda has officially released a comprehensive, rapid-deployment 10-Point Policy Action Plan to counter an anticipated strong to…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:07.461Z",
+      "published": "2026-10-23T17:31:02.552Z",
       "firstSeen": "2026-10-23T13:01:04.158Z",
       "url": "https://newsinfo.inquirer.net/2329092/loren-legarda-launches-10-point-action-plan-vs-super-el-nino",
       "image": {
@@ -334,7 +334,7 @@
       "summary": "LUCENA CITY, Quezon — Sea travel for all vessels in northern parts of Quezon province resumed on late Friday afternoon, Oct. 23. This schedule comes after the Philippine Atmospheric, Geophysical and…",
       "byline": "jcristobal",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:07.330Z",
+      "published": "2026-10-23T17:31:02.480Z",
       "firstSeen": "2026-10-23T13:00:58.808Z",
       "url": "https://newsinfo.inquirer.net/2329122/sea-travel-resumes-in-northern-areas-of-quezon",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "BACOLOD CITY &#8211; Some 25 associations of backyard hog raisers in Negros Occidental province have joined a three-day “pork holiday” called by the Agricultural Sector Alliance of the Philippines…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:07.330Z",
+      "published": "2026-10-23T17:31:02.480Z",
       "firstSeen": "2026-10-23T13:00:59.606Z",
       "url": "https://newsinfo.inquirer.net/2329121/hog-raisers-in-negros-occidental-join-pork-holiday-over-mounting-losses",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "SAN ILDEFONSO, Ilocos Sur — Police arrested a 45-year-old man and seized 14.4 grams of suspected &#8220;shabu&#8221; (crystal meth) worth P98,532. The cops also reportedly seized from the suspect six…",
       "byline": "jcristobal",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:06.015Z",
+      "published": "2026-10-23T17:31:00.965Z",
       "firstSeen": "2026-10-23T13:00:58.724Z",
       "url": "https://newsinfo.inquirer.net/2329132/village-councilor-allegedly-caught-with-p98000-shabu-in-ilocos-norte",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "MANILA, Philippines — The University of Santo Tomas (UST) suspended in-person classes on Saturday, Oct. 24, following a bomb threat. In an advisory, the university ordered classes in all levels and…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:03.719Z",
+      "published": "2026-10-23T17:30:58.938Z",
       "firstSeen": "2026-10-23T14:01:09.194Z",
       "url": "https://newsinfo.inquirer.net/2329152/ust-suspends-saturday-classes-after-bomb-threat",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "MANILA, Philippines—Three players won the ₱15 million MegaLotto 6/45 jackpot on Friday, Oct. 23, 2026, while no player bagged the ₱430.86 million UltraLotto 6/58 jackpot, according to the Philippine…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:01.410Z",
+      "published": "2026-10-23T17:30:56.581Z",
       "firstSeen": "2026-10-23T14:01:09.134Z",
       "url": "https://newsinfo.inquirer.net/2329156/3-players-bag-15m-megalotto-6-45-jackpot-on-friday-oct-23",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "JAKARTA, Indonesia — Thousands of students across Indonesia have staged days of demonstrations protesting the government’s response to toxic haze that has blanketed multiple cities and spread to…",
       "byline": "ggaviola",
       "section": "Asia & Pacific",
-      "published": "2026-10-23T17:01:00.119Z",
+      "published": "2026-10-23T17:30:55.209Z",
       "firstSeen": "2026-10-23T12:00:57.103Z",
       "url": "https://globalnation.inquirer.net/343600/southeast-asias-worst-haze-in-over-a-decade-sparks-student-protests",
       "image": null,
@@ -481,7 +481,7 @@
       "summary": "MANILA, Philippines — Several Bangsamoro organizations, civil society, and leaders appealed to President Ferdinand Marcos Jr. to meet Moro Islamic Liberation Front (MILF) Chairperson Al Haj Murad…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:00.117Z",
+      "published": "2026-10-23T17:30:55.208Z",
       "firstSeen": "2026-10-23T15:01:01.697Z",
       "url": "https://newsinfo.inquirer.net/2329161/bangsamoro-group-urges-marcos-milf-chief-to-meet-before-oct-30",
       "image": {
@@ -506,7 +506,7 @@
       "summary": "MANILA, Philippines &#8212; The Department of Education (DepEd) has completed nearly 400 prefabricated school buildings designed to withstand super typhoons and strong earthquakes, significantly…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-10-23T17:01:00.059Z",
+      "published": "2026-10-23T17:30:55.168Z",
       "firstSeen": "2026-10-23T15:01:01.654Z",
       "url": "https://newsinfo.inquirer.net/2329165/deped-finishes-391-disaster-resilient-school-buildings-150-being-built",
       "image": {
@@ -531,7 +531,7 @@
       "summary": "JERUSALEM, Israel—Prime Minister Benjamin Netanyahu, Israel&#8217;s consummate political survivor, is facing the fight of his life in Tuesday&#8217;s elections. He is drawing on over three decades of…",
       "byline": "arlenelim",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-23T17:01:00.059Z",
+      "published": "2026-10-23T17:30:55.168Z",
       "firstSeen": "2026-10-23T13:00:58.724Z",
       "url": "https://globalnation.inquirer.net/343615/netanyahu-israels-longest-serving-pm-fights-for-political-survival",
       "image": {
@@ -548,6 +548,614 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "grd-6v9wni",
+      "source": "grd",
+      "title": "‘Realistic and reassuring’: UK public ‘responding calmly’ to Be Ready campaign",
+      "summary": "<p>Government’s emergency planning advice has sparked sales of essentials but no panic stockpiling, say prepping shop owners</p><p>When the UK government launched its “Protect and Survive” public…",
+      "byline": "Jessica Murray Social affairs correspondent",
+      "section": "Emergency planning",
+      "published": "2026-10-23T17:22:18.000Z",
+      "firstSeen": "2026-10-23T17:30:55.539Z",
+      "url": "https://www.theguardian.com/society/2026/oct/23/realistic-and-reassuring-uk-public-responding-calmly-to-be-ready-campaign",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/81450ec00e1a9bfb238cb29c46f0ec47505cece2/425_0_4078_3264/master/4078.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=c576a020338cbe46cf3829fe0270c196",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "When the UK government launched its “Protect and Survive” public information campaign in 1980 on how to survive a nuclear attack, it was met with a combination of scepticism, disbelief and derision."
+        },
+        {
+          "type": "p",
+          "text": "The advice included how to build a “fallout room” at home, how to whitewash windows to protect from a blast, and how to store a dead body for up to five days."
+        },
+        {
+          "type": "p",
+          "text": "You might expect this would have prompted widespread panic, but in fact it led to a political backlash, and was later lampooned on TV and music."
+        },
+        {
+          "type": "p",
+          "text": "It shows the risks governments take when launching such campaigns, and the fine balance that must be struck between hammering home a practical message without causing panic – or other unintended reactions."
+        },
+        {
+          "type": "p",
+          "text": "The government’s new Be Ready campaign is advising the public to stock up on three day’s worth of supplies for use in severe weather or cyber-attacks, so help can be directed to the most vulnerable first."
+        },
+        {
+          "type": "p",
+          "text": "In a concise, two-page document, it suggests people stock bottled water and non-perishable food for three days, a torch with spare batteries, a wind-up FM radio, first aid kit and a copy of their passport. To stave off panic buying, it advises people to check their cupboards first and build up items gradually on regular shopping trips."
+        },
+        {
+          "type": "p",
+          "text": "While there is no evidence the advice has triggered mass panic, the public is clearly responding. Jack Brown, who co-owns Sgt Prepper Shop, which stocks emergency food and survival tools, said he received a month’s worth of orders in the first 24 hours of the Be Ready campaign."
+        },
+        {
+          "type": "p",
+          "text": "“I thought my phone was glitching or being hacked with the number of orders coming in,” he said."
+        },
+        {
+          "type": "p",
+          "text": "Brown said the advice seemed sensible and proportionate. Three days was the “sweet spot”, he said, with most everyday emergencies like power cuts, a burst water main or flooding sorted within that timeframe."
+        },
+        {
+          "type": "p",
+          "text": "It is also “realistic, affordable and fits in a cupboard”, he said, adding that asking people to stock up on a month’s worth of supplies would feel overwhelming and most people would do nothing at all."
+        },
+        {
+          "type": "p",
+          "text": "A wind-up radio was also a sensible suggestion, and ones with a built-in torch and phone-charging USB port make them “one of the most useful bits of kit you can own”."
+        },
+        {
+          "type": "p",
+          "text": "Dr Sarita Robinson, associate dean for the school of psychology and humanities at the University of Lancashire, said there was little evidence to suggest these kinds of messaging campaigns cause panic."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/c5cfa14dce50b6b2ca38dfab4ea1c4d17277403e/0_491_2848_3560/master/2848.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "An original copy of Protect and Survive, a government booklet of advice on surviving a nuclear attack issued in 1980. Photograph: sjbooks/Alamy"
+        },
+        {
+          "type": "p",
+          "text": "“There’s this perception that if we tell people the truth we’re somehow going to panic them and it isn’t the case,” she said. “When we use accurate messaging about emergency situations, the public will engage with that proactively. It’s when we start to hide information and there’s a void of information, that’s when things can go wrong for government.”"
+        },
+        {
+          "type": "p",
+          "text": "She said Be Ready was “realistic, quite low level, and should be reassuring because it’s basically treating the public like the grownups they are”."
+        },
+        {
+          "type": "p",
+          "text": "Dan Goss, who runs Start Prepping UK, said traffic to his website was up 700% since news of the campaign emerged in August. He said he was glad to see the subject finally being taken seriously and spoken about in “plain language” by the government, and felt the risk of panic was low."
+        },
+        {
+          "type": "p",
+          "text": "“The level of uptake required for that would be huge – you would need to have an enormous number of people all take the government’s advice very seriously and all jump on it as a priority,” he said."
+        },
+        {
+          "type": "p",
+          "text": "“We’re definitely in a phase now where we’re seeing lots of more disruption to people’s lives – not necessarily apocalyptic disasters, but things that have a big impact on small areas, so this advice is very much needed.”"
+        },
+        {
+          "type": "p",
+          "text": "Robinson said the campaign showed how the perception of “prepping” has shifted, especially since the Covid-19 pandemic when most people will remember seeing empty supermarket shelves."
+        },
+        {
+          "type": "p",
+          "text": "“We did a study during Covid that showed people who did mild levels of prepping, such as having food, masks and hand gel in the house a few weeks before the pandemic, had lower anxiety and depression, and less stress,” she said."
+        },
+        {
+          "type": "p",
+          "text": "“The government really need to portray that this is just normal, everyday, very common in other countries, and isn’t wearing a tinfoil hat and building a nuclear bunker in your back garden.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1721c0z",
+      "source": "grd",
+      "title": "US and Israel are warned against launching fresh strikes on Iran",
+      "summary": "<p>Multinational ‘anti-war bloc’ uses Istanbul summit to call for a diplomatic solution to Middle East crisis</p><p>Foreign ministers at a summit of eight European and Middle Eastern countries have…",
+      "byline": "Patrick Wintour Diplomatic editor",
+      "section": "Middle East and north Africa",
+      "published": "2026-10-23T17:18:34.000Z",
+      "firstSeen": "2026-10-23T17:30:55.168Z",
+      "url": "https://www.theguardian.com/world/2026/oct/23/european-middle-eastern-ministers-summit-iran-us-israel",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/6ac9cf9fbfcf811f0a3f36368ba9e219fcb7b7de/367_0_2560_2048/master/2560.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=1e443ca4d1f01758bcb52a8d08db6dbd",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Foreign ministers at a summit of eight European and Middle Eastern countries have urged the US and Israel not to renews their attacks on Iran, warning a fresh outbreak of fighting would spread conflict and push oil prices even higher."
+        },
+        {
+          "type": "p",
+          "text": "The development of a new multinational “anti-war bloc” represents a challenge to the increasingly open plans by the US and Israel to relaunch strikes on Iran while talks on Tehran’s nuclear programme remain deadlocked."
+        },
+        {
+          "type": "p",
+          "text": "The Turkish foreign minister, Hakan Fidan, joint convener of the summit in Istanbul, said: “Military intervention in Iran is not any kind of solution. We agreed that a new military attack would spread the war and the conflict in the region. All the countries around the table do not want the war to spread even more, once again.”"
+        },
+        {
+          "type": "p",
+          "text": "Ministers also demanded an end to the Houthi assaults on Saudi Arabia, and an immediate opening of the strait of Hormuz currently blockaded by Iranian ships and drones."
+        },
+        {
+          "type": "p",
+          "text": "Jean-Noël Barrot, the French foreign minister, said another war between Iran and the US would be bad for both sides, and only worsen rising oil prices, which have hit their highest level since May. Ed Miliband, the UK foreign secretary, also urged both sides to embrace diplomacy."
+        },
+        {
+          "type": "p",
+          "text": "The Istanbul meeting, an unprecedented gathering of regional and European leaders initiated by Turkey and Germany, represented a rare chance for European ministers to have any input into the crises afflicting the Middle East, including in Yemen, Palestine and Iran. They have largely been left as bystanders, apart from sending air force protection to Saudi Arabia as it tries to fend off Houthi drone and missile assaults on its airports and energy installations."
+        },
+        {
+          "type": "p",
+          "text": "The Middle Eastern states were represented by Fidan, Egypt’s Badr Abdelatty, Pakistan’s Ishaq Dar and Saudi Arabia’s Faisal bin Farhan. Pakistan, Turkey and Saudi Arabia formed the Mecca defensive security pact in August, a grouping Egypt may join."
+        },
+        {
+          "type": "p",
+          "text": "The European side was represented by Barrot, Miliband, Germany’s Johann Wadephul and Italy’s Antonio Tajani. The agenda covered the Palestinian issue, including settlement expansion, settler violence and the two-state solution, as well as security in the strait of Hormuz, Yemen and efforts to end the Russia-Ukraine war and prevent spillover into the Black Sea."
+        },
+        {
+          "type": "p",
+          "text": "Wadephul said: “We are united by the impact these deadlocked conflicts are having on the economy and security of our countries and by the will to seek new ways to bring about solutions.”"
+        },
+        {
+          "type": "p",
+          "text": "He made no criticism of the US but accused “the Houthis and Iran of blackmailing world trade and continuing to stranglehold global supplies of energy and fertiliser”."
+        },
+        {
+          "type": "p",
+          "text": "“We are feeling the effects of the attacks on shipping routes and whether at the petrol pump or the supermarket,” he said. “Elsewhere there is threat of famine.”"
+        },
+        {
+          "type": "p",
+          "text": "Tajani said the aim of the meeting was to work for “de-escalation to guarantee freedom of navigation”."
+        },
+        {
+          "type": "p",
+          "text": "“I do not believe the problem can be solved from a purely military standpoint,” he added. “If we want to reopen Hormuz, which is vital for our economies, we must promote dialogue and make Iran understand that this attitude cannot continue.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1bri0az",
+      "source": "grd",
+      "title": "UK children just as likely to have suffered harm on social media despite crackdown",
+      "summary": "<p>Campaigners call lack of progress ‘staggering’, as Ofcom also admits little change in severity of harm to children encountering unsafe content</p><p>Landmark online safety measures have failed to…",
+      "byline": "Robert Booth UK technology editor",
+      "section": "Children",
+      "published": "2026-10-23T17:06:04.000Z",
+      "firstSeen": "2026-10-23T17:30:58.887Z",
+      "url": "https://www.theguardian.com/society/2026/oct/23/uk-children-just-as-likely-to-have-suffered-harm-on-social-media-despite-crackdown-ofcom-online-safety-act",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/d8ca7107a32ae75c0414d1c2341b3ee1dd62c0ff/761_0_6147_4918/master/6147.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=dc0b267477bb221eb70863df86fda2fe",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Landmark online safety measures have failed to limit the proportion of children suffering harm from social media, the UK’s online regulator has admitted, in an assessment branded “staggering” by campaigners."
+        },
+        {
+          "type": "p",
+          "text": "The proportion of children being fed unsafe content that often left them frightened, confused and upset, was almost unchanged, according to an Ofcom review of the first nine months of supposedly strict requirements on social media platforms such as TikTok and Instagram."
+        },
+        {
+          "type": "p",
+          "text": "Under the Online Safety Act, the tech giants had to protect children from harmful content including pornography, serious violence, suicide material, racism, misogyny and bullying, with a series of specific duties introduced in summer 2025."
+        },
+        {
+          "type": "p",
+          "text": "But Ofcom found that “at a total level there was no significant change in the proportion of children encountering harmful content over the first nine months after the children’s safety duties came into force in July 2025”."
+        },
+        {
+          "type": "p",
+          "text": "It called the finding “concerning” and said there was no evidence indicating a change in the severity of harm since the flagship regulations, under the Online Safety Act, took effect."
+        },
+        {
+          "type": "p",
+          "text": "Examples of harms included children being shown the murder of Charlie Kirk, graphic pornography and weapon-related content making them feel unsafe in their schools and neighbourhoods. Personalised recommendation feeds powered by “for you” algorithms were repeatedly found by Ofcom to be at the root of the continuing tide of harmful material."
+        },
+        {
+          "type": "p",
+          "text": "The findings come a week after a coroner concluded that access to the suicide-related material on TikTok may have played a significant part in the decision of Adriana Retyte, a 14-year-old pupil at Langley school in Norfolk, to take her own life in May."
+        },
+        {
+          "type": "p",
+          "text": "They come a day after Clavicular, 20, a popular social media influencer who promotes surgery and drugs as part of extreme male beauty regimes and has appeared with Andrew Tate, pleaded not guilty to rape in a US court, raising fresh concerns about the influence of “manosphere” content creators."
+        },
+        {
+          "type": "p",
+          "text": "Ofcom’s research included tracking the exposure of UK children aged eight to 17 to harmful content on user-to-user services, its impact and their use of safety tools and an analysis of children’s wellbeing after exposure to harmful content. The assessment has been shared with Lisa Nandy, the secretary of state for digital, culture, media and sport."
+        },
+        {
+          "type": "p",
+          "text": "NSPCC, a child protection charity, said the findings showed that children were being exposed to harmful content at an “alarming rate”, which it said was echoed in the flow of calls for help to Childline, its online and telephone support service. Rani Govender, the head of child safety online, said “progress is not happening nearly fast enough”."
+        },
+        {
+          "type": "p",
+          "text": "“Tech companies have had months to act, yet too many platforms are still built to keep children hooked with their algorithms continuing to push harmful content to their young users,” she said. “We urgently need stronger action from tech companies to rein in features that drive harm to children and stop putting business interests over their safety obligations.”"
+        },
+        {
+          "type": "p",
+          "text": "Dame Melanie Dawes, the watchdog’s chief executive, this week told MPs: “We do not see a safety culture from these large social media companies.” The regulator is already facing a wave of legal actions from tech companies challenging its powers including the Instagram operator Meta, as well as TikTok and X, owned by Elon Musk’s SpaceX group. It has warned it risks being “absolutely clobbered legally by deep-pocketed individuals and firms”."
+        },
+        {
+          "type": "p",
+          "text": "Children most commonly reported encountering pornographic content via personalised feeds, and girls, in particular, reported feeling confused or upset after seeing such content, Ofcom found. Suicide and eating disorder content was also driven mostly through personal feeds, with girls most likely to encounter both types of harmful material. The Ofcom review also found that “young men and boys consuming motivational and self-improvement content can rapidly become exposed to more extreme content which includes the promotion of misogyny and racism”. Misspelled hashtags and coded language are often used to bypass content moderation systems that would otherwise block harmful misogynistic content."
+        },
+        {
+          "type": "p",
+          "text": "Ian Russell, the father of Molly Russell, who took her life aged 14 in 2017 after viewing suicide material on social media, told the Guardian the lack of progress was “staggering but sadly not surprising”. He blamed “timidity and lack of action” from the regulator and said: “It is time that Ofcom stood up for children and investigated the major flaws in TikTok and Instagram’s design features, not just small technicalities that have been their focus so far.”"
+        },
+        {
+          "type": "p",
+          "text": "An Ofcom spokesperson said: “This is an industry that’s been unregulated and unaccountable for more than 20 years. And so while significant progress is being made – including the introduction of widespread age checks, stronger protections against grooming, and tougher safeguards against child sexual exploitation and abuse – we’re under no illusion that there is much for the industry still to do. We’ve shown that tech firms that don’t comply with their duties can expect enforcement action.”"
+        },
+        {
+          "type": "p",
+          "text": "It said the data did not cover the period from this spring when it said it stepped up pressure on Facebook, YouTube, Snap, Roblox and TikTok over child safety issues. It also said it recorded some reductions in harmful content on platforms including the games Minecraft and Call of Duty and YouTube, Pinterest and Facebook. In July it launched an investigation into TikTok over child safety concerns, including how it checks users are adults or children."
+        },
+        {
+          "type": "p",
+          "text": "The continuing risks to children come before a planned Australia-style social media ban in the UK for under-16s which is due, from next spring, to cover platforms such as Instagram, YouTube, TikTok, Snapchat, Facebook and X, but not messaging services such as WhatsApp and Signal."
+        },
+        {
+          "type": "p",
+          "text": "However campaigners have warned that must not overshadow the need to enforce protections under the Online Safety Act."
+        },
+        {
+          "type": "p",
+          "text": "“Children will continue to face risks on services covered by the act but not the proposed ban, including gaming and messaging platforms,” said Mitali Sud, a senior policy manager at Internet Matters, a child online safety campaign. “Sixteen- and 17-year-olds will still use social media. A social media ban cannot replace the need to make online services safer for children.”"
+        },
+        {
+          "type": "p",
+          "text": "A government spokesperson said platforms needed to do more to protect children from harmful content."
+        },
+        {
+          "type": "p",
+          "text": "“That’s why we are taking bold action to strengthen protections for children from risks of harm online – banning social media from offering their services to under-16s and protecting kids from harmful functionalities like livestreaming and stranger communications on a wide range of services, including gaming services,” they said."
+        },
+        {
+          "type": "p",
+          "text": "“When it comes to children’s safety, we are not and never will be bystanders. Platforms have both a moral and legal duty to protect children and we expect them to work with us to set a new normal for future generations.”"
+        },
+        {
+          "type": "p",
+          "text": "TikTok, Meta, X and Google were contacted for comment."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-o2s3u1",
+      "source": "grd",
+      "title": "As midterms loom, Trump and his allies try to change the subject",
+      "summary": "<p>Despite distraction and distortion, voters know what issues will be informing their votes in this election</p><ul><li><p><a…",
+      "byline": "Callum Jones",
+      "section": "US midterm elections 2026",
+      "published": "2026-10-23T17:00:09.000Z",
+      "firstSeen": "2026-10-23T17:30:59.455Z",
+      "url": "https://www.theguardian.com/us-news/2026/oct/22/midterm-elections-trump-changes-subject",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/0b2ea761fa10b0dd0c9f6da3e51d32d294dbc250/570_0_6397_5117/master/6397.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7ad32fbfd2ae7bf9c2c174b51b36323d",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Elections too often get pigeonholed. The hot take, or simplistic analysis, would have it that just one issue – often the issue the source so happens to be most animated about – will decide the entire result."
+        },
+        {
+          "type": "p",
+          "text": "Tens of millions of Americans will go to the polls next month. Will they be galvanized by affordability? Maybe it’s Iran. Or healthcare? Taxes, perhaps. Or crime."
+        },
+        {
+          "type": "p",
+          "text": "It depends, of course, on whom you ask. The US electorate is not a monolith. Just as different voters are grappling with different pressures and realities, they have different priorities and concerns."
+        },
+        {
+          "type": "p",
+          "text": "Take a look at our voter panel. For Justin Daniels, 45, in Detroit, Michigan, the most significant issue in this election is economic malaise. For Yajaira Martinez, 43, in Pharr, Texas, it’s labor. For Scott Akridge, 60, in Marietta, Georgia, it’s the administration’s brutal crackdown on immigration."
+        },
+        {
+          "type": "p",
+          "text": "The challenge for any one party trying to win over such a sprawling country is whether it can address enough of these concerns, and obtain the trust of enough voters, to build a coalition."
+        },
+        {
+          "type": "p",
+          "text": "Which makes the latest polling all the more disconcerting for Republicans, less than two weeks before election day."
+        },
+        {
+          "type": "p",
+          "text": "The headline takeaways from the most recent Washington Post-ABC News-Ipsos survey were damning enough: as my colleague Shrai Popat reported, most Americans think Donald Trump is using the US presidency to enrich himself, and his approval rating has fallen to a new low."
+        },
+        {
+          "type": "p",
+          "text": "Beneath the surface, though, the numbers are yet more dismal for Republicans."
+        },
+        {
+          "type": "p",
+          "text": "Presented with a dozen issues, from affordability and corruption to taxes and transgender issues, respondents were asked which of the two main parties they trust to do a better job of handling them. On all but one – crime – a greater share picked Democrats than Republicans."
+        },
+        {
+          "type": "p",
+          "text": "On the economy, as the White House continues to hail a “new golden age”, Republicans have lost ground significantly over the past six months. While they commanded a one-point lead over Democrats in April, they are now nine points behind on the issue voters consistently rank as a top concern."
+        },
+        {
+          "type": "p",
+          "text": "And on immigration, which Trump and his officials have put at the heart of his second presidency, the five-point Republican lead in April has reversed. Almost two years into the administration’s deadly and controversial crackdown, Democrats are now ahead by two points."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/0121f08fb3da6dad02881dc0995e96bc9d455f42/479_0_4490_3592/master/4490.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The Republican senator Roger Marshall, right, and the Democratic nominee Adam Hamilton debate in Kansas City, Missouri, on Wednesday. Photograph: Charlie Riedel/AP"
+        },
+        {
+          "type": "p",
+          "text": "In Kansas, where voters have not sent a Democrat to the US Senate since 1932, the party’s candidate, Adam Hamilton, has been pledging to turn down the heat, and ignore partisan battles, amid rising political polarization. Some recent polls have put him ahead."
+        },
+        {
+          "type": "p",
+          "text": "Midterm elections are almost always tough for Washington’s governing party. There is a conventional playbook for navigating this: senior figures fan out nationwide to reassure the people who backed them two years prior that they get it. They hear them. They’re on it. They just need more time."
+        },
+        {
+          "type": "p",
+          "text": "The president is indeed fanning out across the country. This week alone, he was in Kansas on Monday and North Carolina on Tuesday, before South Carolina on Wednesday, Iowa on Thursday and Florida on Friday. Georgia and Michigan follow this weekend. JD Vance is on a cross-country tour of his own."
+        },
+        {
+          "type": "p",
+          "text": "But this is where Trump and his allies depart from convention. Rather than acknowledge the golden age has yet to shine for much of the country – let alone concede that some of his priorities since taking office, like the beautification of Washington, or adding his name to the Kennedy Center, were not among the campaign promises his base had found so appealing in 2024 – Trump has opted for an altogether different response."
+        },
+        {
+          "type": "p",
+          "text": "He has tried to change the subject."
+        },
+        {
+          "type": "p",
+          "text": "This summer, as questions over Iran, the cost of living and hardline anti-immigration policies loomed large, the most powerful elected officials in the US tried to stoke fears that communism was rife inside the Democratic party."
+        },
+        {
+          "type": "p",
+          "text": "In September, the president dangled a $5,000 “Trump dividend” for every US citizen, a proposal that was widely criticized as a pre-election bribe."
+        },
+        {
+          "type": "p",
+          "text": "Now, in the final stretch of the campaign, those questions very much remain. Rather than address them, Republicans appear to be resorting to a volatile mix of distraction and distortion."
+        },
+        {
+          "type": "p",
+          "text": "Having spent much of the Iran war, which he launched in February, claiming it was about to end, the president is now pivoting to Ukraine – striking a stunning deal to buy Russian diesel, pausing some sanctions on Moscow and suggesting the Ukrainian president, Volodymyr Zelenskyy, should quit."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "And as France was gripped by fresh unrest this weekend, Vance entered the chat. Demonstrations that began as student protests against crumbling schools and the soaring cost of living were, in fact, evidence of “western liberals” having “imported the third world” into their countries, according to the vice-president."
+        },
+        {
+          "type": "p",
+          "text": "“And I hope Americans are paying attention. This is the future congressional Democrats seek for your country,” added Vance. Not to be outdone, Trump himself has used public appearances to echo such warnings in recent days, as my colleagues Joseph Gedeon and David Smith reported."
+        },
+        {
+          "type": "p",
+          "text": "Many Americans are paying close attention – not to France, necessarily, but to the issues that dominate their daily lives. In November, we’ll find out whom Americans trust to address them."
+        },
+        {
+          "type": "h",
+          "text": "Your questions answered"
+        },
+        {
+          "type": "p",
+          "text": "The US politics team hosted a series of reader Q&As leading up to the midterms. In our final session, Guardian immigration reporters answered your questions about how ICE and Trump’s mass deportation agenda could shape election results."
+        },
+        {
+          "type": "p",
+          "text": "See our other conversations here:"
+        },
+        {
+          "type": "p",
+          "text": "The makeup of the Democratic party, plus key races to watch"
+        },
+        {
+          "type": "p",
+          "text": "Who are the groups financially backing the candidates in the midterms?"
+        },
+        {
+          "type": "p",
+          "text": "Will the Iran war cost Trump in the US midterm elections? Your questions answered"
+        },
+        {
+          "type": "p",
+          "text": "Will Trump’s economy sink Republicans in the US midterm elections? Our reporters answered your questions"
+        },
+        {
+          "type": "h",
+          "text": "Meet the candidate: Mary Peltola"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/8c53e273ead0e6d0b1331b896e4a2ed4b04dc445/0_0_5000_3333/master/5000.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Mary Peltola at an primary election watch party on 18 August 2026 in Anchorage, Alaska. Photograph: Mark Thiessen/AP"
+        },
+        {
+          "type": "p",
+          "text": "Mary Peltola’s campaign to represent Alaska in the US Senate has taken her to parts of the huge state’s interior that are inaccessible by road and on the frontlines of the cost-of-living crisis she hopes will make her the first Democrat to win the seat in nearly two decades."
+        },
+        {
+          "type": "p",
+          "text": "She has been to towns where paper towels retail for $40, a half gallon of oat milk goes for $21 and the cost of a new freezer can be quadruple what it is in the state’s largest city, Anchorage, simply because it’s so complicated to get there. She’s heard of communities along the Arctic Ocean where power bills have climbed to $1,500 a month because they rely on generators for power and the Iran war has pushed the cost of diesel to new heights."
+        },
+        {
+          "type": "p",
+          "text": "“Nobody can afford that,” Peltola said in an interview."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-bhev8w",
+      "source": "cbc",
+      "title": "MapQuest now showing surveillance camera locations across Canada, U.S.",
+      "summary": "MapQuest users in Canada and the U.S. can now see where some surveillance cameras have been set up in their communities.",
+      "byline": "Anya Zoledziowski",
+      "section": "News",
+      "published": "2026-10-23T16:59:38.000Z",
+      "firstSeen": "2026-10-23T17:30:55.168Z",
+      "url": "https://www.cbc.ca/news/mapquest-surveillance-camera-canada-flock-9.7393090?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/bed42f89-93e9-4cb2-b741-448c19c4d90a,1792771670078/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C434%2C1206%2C678%29%3BResize%3D620",
+        "caption": "A screenshot of the MapQuest app shows several eyes marking surveillance cameras in Toronto on Thursday. (CBC)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "News·New"
+        },
+        {
+          "type": "p",
+          "text": "MapQuest users in Canada and the U.S. can now see where some surveillance cameras have been set up in their communities."
+        },
+        {
+          "type": "h",
+          "text": "Users wanted to know where police had set up licence plate readers, company says"
+        },
+        {
+          "type": "p",
+          "text": "The company introduced a \"surveillance layer\" earlier this week that uses animated eyes to mark where automated licence plate readers, or ALPRs, have been set up by police or others."
+        },
+        {
+          "type": "p",
+          "text": "\"We knew that there were a ton of cameras in use and documented in the U.S. and Canada,\" MapQuest general manager Doug Berger told CBC News. \"You would never know unless they were pointed out to you.\""
+        },
+        {
+          "type": "p",
+          "text": "The U.S.-based online mapping service recently went viral, three decades after it launched, after refusing to change the name of Lake Ontario to \"Lake America\" following U.S. President Donald Trump's executive order demanding the switch. (Apple and Google changed the lake's name for U.S. users.)"
+        },
+        {
+          "type": "p",
+          "text": "Some three million people in the U.S. and Canada downloaded the app following the move, according to Berger."
+        },
+        {
+          "type": "p",
+          "text": "\"The coolest part of that experience was people were — and still today people are — telling us exactly what they want,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "One of the requests was to be able to see surveillance camera locations, he said."
+        },
+        {
+          "type": "p",
+          "text": "MapQuest's Doug Berger on the app's new found popularity after standing strong on Lake Ontario name"
+        },
+        {
+          "type": "p",
+          "text": "Police have maintained that ALPRs are an effective tool for identifying criminals, stolen vehicles and missing persons, and that most data is quickly deleted."
+        },
+        {
+          "type": "p",
+          "text": "The data is \"used solely for law enforcement purposes by authorized personnel only,\" according to the Toronto Police Service, for example."
+        },
+        {
+          "type": "p",
+          "text": "But a recent CBC News report found that the growing popularity of ALPRs, especially in the U.S., has raised privacy concerns."
+        },
+        {
+          "type": "p",
+          "text": "\"There are concerns of misuse,\" the Canadian Civil Liberties Association's Tamir Israel said in August. \"It's been documented in the U.S. that these cameras have been misused by police officers to follow ex-partners around and that kind of thing.\""
+        },
+        {
+          "type": "p",
+          "text": "The map markings include cameras set up by Flock, the private company whose ALPRs have stirred controversy and vandalism across the U.S. Other companies behind public cameras include Genetec, PlateSmart, Neology and Verkada."
+        },
+        {
+          "type": "p",
+          "text": "Berger says highlighting ALPR locations is about transparency."
+        },
+        {
+          "type": "p",
+          "text": "\"We're not taking a political stance against the efficacy of them or anything, but we are bringing forth the visibility of them for people using the MapQuest app in an effort to be transparent,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "Camera locations are indicated on the MapQuest mobile app, which is only available to Canadian and U.S. users. The locations are based on open crowd-sourced data from OpenStreetMap."
+        },
+        {
+          "type": "p",
+          "text": "The locations of licence plate readers like this one in Cornwall, P.E.I., are crowd-sourced data from OpenStreetMap. (CBC)"
+        },
+        {
+          "type": "h",
+          "text": "'Strong visual'"
+        },
+        {
+          "type": "p",
+          "text": "In the app, an icon in the map's lower right corner symbolizes the layers, with one square on top of another. By tapping the icon, a user can select the \"surveillance\" feature. Within seconds, eyes that shift side to side pop on the screen."
+        },
+        {
+          "type": "p",
+          "text": "\"Our team had a lot of fun with that,\" Berger said, adding that the eye fit with a few additional Halloween-themed launches."
+        },
+        {
+          "type": "p",
+          "text": "\"The moving eye was spooky and fit nicely with the theme of the Halloween release,\" Berger said. \"At the moment, we don't see a reason to change it. It gives a good strong visual to go along with the fact that there are cameras.\""
+        },
+        {
+          "type": "p",
+          "text": "As for the sheer number of eyes that pop up in various neighbourhoods: \"It's pretty crazy,\" Berger said."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Côte Saint-Luc, Que., piloting automated licence plate reader cameras",
+            "Sudbury police adding new recruits, licence plate scanners",
+            "Police cameras may capture licence plates: P.E.I. privacy commissioner"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Berger encourages users to keep reaching out with additional requests. For example, new users have also asked the Los Angeles-based company to mark polling locations during elections. The company is trying to do that ahead of the U.S. midterms next month."
+        },
+        {
+          "type": "p",
+          "text": "It hopes to launch a similar feature in Canada for future elections, too, he says."
+        },
+        {
+          "type": "p",
+          "text": "\"It's very consistent with our belief in transparency,\" Berger said. \"It just makes so much sense in a map context.\""
+        },
+        {
+          "type": "p",
+          "text": "AI-powered surveillance cameras are spreading in Canada"
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Anya Zoledziowski is a Peabody-winning multimedia journalist from Edmonton who's covered social and climate justice, Indigenous affairs, gender, politics and more, and has been recognized by several national and international awards. She’s currently pursuing her PhD in journalism studies."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inqn-1l22pag",
@@ -809,7 +1417,7 @@
       "byline": "",
       "section": "",
       "published": "2026-10-23T16:41:08.000Z",
-      "firstSeen": "2026-10-23T17:01:00.059Z",
+      "firstSeen": "2026-10-23T17:30:55.168Z",
       "url": "https://www.abs-cbn.com/",
       "image": null,
       "blocks": [],
@@ -1213,115 +1821,6 @@
         {
           "type": "p",
           "text": "The Republic of Ireland’s weather agency, Met Éireann, issued six warnings of varying severity for Saturday, mostly affecting counties along the west coast."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-1ieakp8",
-      "source": "grd",
-      "title": "Which is really England’s oldest pub? Tree-ring dating helps settle debate",
-      "summary": "<p>Historic England archaeologist says some inns’ claims to date back 1,000 years are inaccurate and oldest is from 1430</p><p>With their low ceilings, timber beams and roaring fires, many of…",
-      "byline": "Helena Horton",
-      "section": "Heritage",
-      "published": "2026-10-23T16:17:00.000Z",
-      "firstSeen": "2026-10-23T16:31:17.483Z",
-      "url": "https://www.theguardian.com/culture/2026/oct/23/oldest-pubs-inns-historic-england-archaeologist",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/f858f6ca882ddf82c48a16dcf1c5badf56e85448/935_0_4681_3744/master/4681.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=6165dfdd57c070db36ac431596e23e10",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "With their low ceilings, timber beams and roaring fires, many of England’s inns lay claim to being the oldest in the land and to have been visited by Vikings and Saxons."
-        },
-        {
-          "type": "p",
-          "text": "But an archaeologist working for Historic England says not one of the more than two dozen pubs that make this claim is being accurate."
-        },
-        {
-          "type": "p",
-          "text": "While many claim origins dating back 1,000 years, Dr James Wright, a buildings archaeologist, said it was difficult to verify whether any pubs were built and used as inns or ale houses and kept in continuous use prior to the 1400s."
-        },
-        {
-          "type": "p",
-          "text": "After painstaking investigation, including tree-ring dating on the wooden beams of pubs – a process known as dendrochronology – Wright named the George Inn, of Norton St Philip, Somerset, which has been in continuous use as an inn since around 1430-1432, as the oldest pub in England."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/e2039693f26c30e62b2453e4a378c6c42128121c/299_0_3701_2668/master/3701.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Inside the George, set up in the 14th century by the monks of Hinton Priory. Photograph: PR"
-        },
-        {
-          "type": "p",
-          "text": "He told the Guardian: “Not one of the claimants to be the oldest pub (and there are over two dozen of them) are even vaguely close to being so in reality.”"
-        },
-        {
-          "type": "p",
-          "text": "Of the George, he said: “The architectural history of the George Inn’s stone and timber suggests that this building has been in continuous service for over 600 years.” He said the pub was set up in the 14th century by the monks of nearby Hinton Priory."
-        },
-        {
-          "type": "p",
-          "text": "Tree-ring dating had helped “to understand scientifically exactly how old the timbers are,” he said. “Because we know medieval carpenters didn’t muck around at all and they would fell the timber when it was green and build almost immediately afterwards, the actual date of felling gives us the near date of construction.”"
-        },
-        {
-          "type": "p",
-          "text": "Ye Olde Fighting Cocks in St Albans, Hertfordshire, claims to have been established around AD800, and the Bingley Arms in Bardsey, West Yorkshire, declares on its site: “It’s the original English pub – officially the oldest in Britain – dating back over 1,000 years to a time when Vikings were conquering parts of the country.” Similarly, the Royal Standard in Beaconsfield, Buckinghamshire, boasts that it was a favoured watering hole of King Alfred the Great’s West Saxons in around AD880."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/31edb64f40a0cee3f341a3fe9704359ade52b5b4/770_0_5096_3911/master/5096.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "The Royal Standard in Beaconsfield claims to have been frequented by King Alfred the Great’s West Saxons in the ninth century.  Photograph: Nathaniel Noir/Alamy"
-        },
-        {
-          "type": "p",
-          "text": "Wright said most of these claims seemed to be “modern marketing strategies”. “The Fighting Cocks is often said to date to AD793. This date was probably not arrived at until 1926 when it appeared on a postcard. Prior to that, it was speculated to date to 1030, 770 and 672,” he said. “There does not seem to be a basis in reality for any of those claims. Instead, the building started as a monastic dovecote, built around 1400. The earliest date when we can say for sure it was active as a public house is the first decade of the 19th century.”"
-        },
-        {
-          "type": "p",
-          "text": "Many of the pubs claiming to be the oldest say they were mentioned in the Domesday Book, but the historian said: “There are no pubs mentioned – at all – in the Domesday Book, so any pub claiming to be in it is having you on.”"
-        },
-        {
-          "type": "p",
-          "text": "Wright added: “The claims are likely to originate less in folklore and more in canny marketing strategies by landlords, tenants, breweries and pub companies. The claims potentially rely upon the public not being aware of how to accurately date historic buildings.”"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/eaac3c706925b9751f479245fb01f45bff9b4c82/0_0_5472_3648/master/5472.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "The King’s Head in Shrewsbury is a serious contender for the title of one of England’s oldest pubs. Photograph: Nick Hatton/Alamy"
-        },
-        {
-          "type": "p",
-          "text": "He provided the Guardian with a list of the pubs he believes to be the oldest in the country. His methodology was to determine that it was purpose-built as a public house, that it had been in continuous service and that there was archaeological, archival or dendrochronological evidence for the existence of significant primary fabric remaining from the original construction."
-        },
-        {
-          "type": "p",
-          "text": "“I did consider buildings which had been converted and others which had periodically changed in land use,” he said. “Even with those taken into consideration, there are only about 12 to 16 genuine contenders which have been doing trade since the medieval period. Of these, the oldest date to the 14th and 15th centuries.”"
-        },
-        {
-          "type": "h",
-          "text": "Revealed: Wright’s list of oldest pubs"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "George Inn, Norton St Philip, Somerset: late 14th century and 1430-32.",
-            "Bull Hotel, Ludlow, Shropshire: 14th and 15th centuries.",
-            "King’s Head, Shrewsbury, Shropshire: 1426, 1430-31.",
-            "New Inn, Gloucester, Gloucestershire: 1432.",
-            "White Hart Inn, Hook, Hampshire: 1419-51.",
-            "George Hotel, Dorchester-on-Thames, Oxfordshire: mid 15th century.",
-            "Angel Inn, Andover, Hampshire: 1445-55.",
-            "Kings Head, Aylesbury, Buckinghamshire: 1445-55.",
-            "Angel, Grantham, Lincolnshire: circa 1450.",
-            "George and Pilgrims Inn, Glastonbury, Somerset: 1461-83.",
-            "Saracen’s Head, Southwell, Lincolnshire: 1460s.",
-            "George Hotel, Odiham, Hampshire: 1486-87."
-          ]
         }
       ],
       "truncated": false,
@@ -2198,17 +2697,17 @@
       "source_of_text": "page"
     },
     {
-      "id": "star-1eugna6",
+      "id": "star-5w0oer",
       "source": "star",
-      "title": "Ping: Hold accountable officials in budget misuse",
-      "summary": "While acknowledging the limits of the Supreme Court ruling that recently struck down unprogrammed appropriations (UA), Sen. Panfilo Lacson wants government officials who acted in bad faith or…",
+      "title": "Sherwin: Recall of House budget bill unnecessary",
+      "summary": "Senate President Sherwin Gatchalian yesterday rejected calls from the Makabayan bloc in the House of Representatives to recall the chamber&rsquo;s budget bill for 2027, saying that the Senate would…",
       "byline": "Neil Jayson Servallos",
       "section": "",
       "published": "2026-10-23T16:00:00.000Z",
-      "firstSeen": "2026-10-23T16:31:26.484Z",
-      "url": "https://www.philstar.com/headlines/2026/10/24/2565362/ping-hold-accountable-officials-budget-misuse",
+      "firstSeen": "2026-10-23T17:30:55.168Z",
+      "url": "https://www.philstar.com/headlines/2026/10/24/2565376/sherwin-recall-house-budget-bill-unnecessary",
       "image": {
-        "src": "https://media.philstar.com/photos/2026/10/24/lacson_2026-10-24_00-26-32.jpg",
+        "src": "https://media.philstar.com/photos/2026/10/24/kam_2026-10-24_00-52-37.jpg",
         "caption": ""
       },
       "blocks": [
@@ -2218,91 +2717,327 @@
         },
         {
           "type": "p",
-          "text": "MANILA, Philippines — While acknowledging the limits of the Supreme Court (SC) ruling that recently struck down unprogrammed appropriations (UA), Sen. Panfilo Lacson wants government officials who acted in bad faith or committed graft using the invalidated budget items to be held accountable."
+          "text": "Senator Sherwin Gatchalian.."
         },
         {
           "type": "p",
-          "text": "“We need to run after those who misused budget provisions, which were deemed unconstitutional,” Lacson told reporters yesterday."
+          "text": "STAR / Ryan Baldemor"
         },
         {
           "type": "p",
-          "text": "The senator explained that under the legal doctrine of operative fact, the government cannot simply invalidate or recover funds that were already obligated or disbursed before the high court issued its decision."
+          "text": "MANILA, Philippines — Senate President Sherwin Gatchalian yesterday rejected calls from the Makabayan bloc in the House of Representatives to recall the chamber’s budget bill for 2027, saying that the Senate would make the necessary corrections to ensure constitutional compliance without risking a reenacted budget."
         },
         {
           "type": "p",
-          "text": "The operative fact doctrine is a rule recognized by the SC, wherein a law or an order can be declared unconstitutional but everything that happened while people were following it “in good faith” remains real and valid."
+          "text": "House Deputy Minority Leader Antonio Tinio and his Makabayan colleagues recently urged Congress to pull the House-approved version of the 2027 budget from the Senate, arguing that it contains provisions that mirror elements struck down by the Supreme Court, including questionable triggers for unprogrammed appropriations and prohibited lump-sum allocations."
         },
         {
           "type": "p",
-          "text": "“Funds that were unused can no longer be spent. But what about the funds already obligated or dispersed, how will you run after those? The ruling wasn’t out then, it wasn’t declared unconstitutional at the time,” Lacson said."
+          "text": "“I think it’s important and necessary so that the House can clean up its own mess, because if you look at the budget passed by the House, there are significant parts that could be declared unconstitutional as well,” Tinio explained. “We don’t want yet another budget that will be declared unconstitutional.”"
         },
         {
           "type": "p",
-          "text": "When asked to differentiate between good and bad faith in the utilization of the funds, Lacson pointed to the actual execution of the projects."
+          "text": "However, Gatchalian dismissed the necessity of recall, explaining that the Senate is already positioned to correct these flaws during its consolidation and committee report process."
         },
         {
           "type": "p",
-          "text": "“Bad faith refers to how the funds were spent,” he explained."
+          "text": "“Not necessary because we are entering the consolidation of the budget here so we can do the correction ourselves,” Gatchalian told reporters."
         },
         {
           "type": "p",
-          "text": "The SC recently ruled that Congress committed grave abuse of discretion by increasing the executive branch’s recommended budget for unprogrammed funds in the 2024 and 2025 General Appropriations Acts."
+          "text": "“Rest assured, the 2027 budget will be compliant with [the] Constitution,” Gatchalian said, adding that the 2027 budget would not mirror the unconstitutional provisions flagged by the high court in the 2024 and 2025 budgets."
         },
         {
           "type": "p",
-          "text": "Lacson, who was not part of the Senate when the assailed budgets were passed, heavily criticized the bloated allocations, noting that he had already been calling out the unprogrammed appropriations even outside the chamber."
+          "text": "Meanwhile, Sen. Panfilo Lacson warned that returning the budget bill to the House would likely result in a reenacted budget – a scenario that he described as “worse” because it operates on lump sums without itemized provisions."
         },
         {
           "type": "p",
-          "text": "“That’s why I called these the worst budgets ever, even counting the 2013 Development Acceleration Program that was declared unconstitutional. I think this is even worse,” Lacson said."
+          "text": "“That is not the solution. The solution is for the Senate to really scrutinize and cut all the fat sent in the GAB [General Appropriations Bill] of the House. That is the solution,” Lacson said."
+        },
+        {
+          "type": "p",
+          "text": "He suggested Makabayan bloc lawmakers should instead raise their concerns with their House colleagues who would eventually sit in the bicameral conference committee."
         },
         {
           "type": "h",
-          "text": "‘Power of the purse’"
+          "text": "Senate budget"
         },
         {
           "type": "p",
-          "text": "Despite the SC ruling that rendered the transfer of programs and projects to UA in the 2024 budget unconstitutional, outgoing Chief Justice Alexander Gesmundo maintained it was part of Congress’ job, having been given the power of the purse."
+          "text": "In a bid to set an example for fiscal discipline, Lacson revealed that the Senate plans to slash its own proposed budget by P2 billion."
         },
         {
           "type": "p",
-          "text": "Gesmundo was among the 13 justices who voted in favor of the decision penned by Senior Associate Justice Marvic Leonen, which flagged the increase in UA by 449.5 billion, making it a whopping P731.4 billion."
+          "text": "“In fact, we agreed with the Senate President the other day, me being the chairman of the committee on accounts, we will reduce our budget, the Senate budget, by about P2 billion from the NEP [National Expenditure Program],” Lacson disclosed."
         },
         {
           "type": "p",
-          "text": "“Congress has the power and, more importantly, the duty, to guard the purse by modifying or even changing the items in the President’s budget which Congress deems proper,” Gesmundo wrote in his 24-page concurring opinion."
+          "text": "He pointed out the contrast between the two chambers, noting that while the House added P5 billion to its own allocation, the Senate is taking the opposite route."
         },
         {
           "type": "p",
-          "text": "In proposing rules to ensure lawful implementation of the budget, Gesmundo said “Congress must be able to show that PAPs (programs and projects) are implementation-ready, at the very least.”"
+          "text": "Lacson gave assurance that the P2-billion cut – which will bring the Senate’s budget down to P5 billion from the proposed P7 billion – will not disrupt the chamber’s operations, as there are still unused funds available."
         },
         {
           "type": "p",
-          "text": "In transferring PAPs from programmed to unprogrammed funds, “Congress must ensure that, at the very least, such transfer does not effectively frustrate the government’s valid and existing obligations, whether locally or internationally.”"
+          "text": "Gatchalian said the Senate is also addressing red flags in the House version, particularly concerning infrastructure insertions, with some farm-to-market road projects proposed by the House having been plotted in the middle of the ocean."
+        },
+        {
+          "type": "p",
+          "text": "“There are coordinates there that is in the Benham Rise or in the Middle East. So we have to check. I’m sure it’s a typo,” Gatchalian said."
+        },
+        {
+          "type": "p",
+          "text": "The Senate President added they have already flagged the Department of Agriculture regarding these errors and duplicate project entries."
+        },
+        {
+          "type": "p",
+          "text": "Lacson noted that the Senate’s decision to invite civil society organizations as resource persons during the budget hearings has been instrumental in exposing these anomalies. – Delon Porcalla"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-1noc5oi",
+      "source": "star",
+      "title": "Diesel price hike looms; rollback for gasoline",
+      "summary": "Motorists should brace for another increase in diesel prices next week as escalating hostilities in the Middle East threaten to further disrupt global oil supplies.",
+      "byline": "Brix Lelis",
+      "section": "",
+      "published": "2026-10-23T16:00:00.000Z",
+      "firstSeen": "2026-10-23T17:30:55.212Z",
+      "url": "https://www.philstar.com/headlines/2026/10/24/2565378/diesel-price-hike-looms-rollback-gasoline",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/10/24/lelis_2026-10-24_01-07-07.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "October 24, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Motorists should brace for another increase in diesel prices next week as escalating hostilities in the Middle East threaten to further disrupt global oil supplies."
+        },
+        {
+          "type": "p",
+          "text": "Based on the first four days of trading in the Mean of Platts Singapore, the regional benchmark for refined petroleum products in the Asia-Pacific, diesel prices are projected to rise by P2 to P2.50 per liter."
+        },
+        {
+          "type": "p",
+          "text": "Gasoline prices, meanwhile, could drop by P1 to P1.50 per liter."
+        },
+        {
+          "type": "p",
+          "text": "The projected adjustments remain preliminary as they do not yet account for week-on-week changes in freight costs."
+        },
+        {
+          "type": "p",
+          "text": "Jetti Petroleum president Leo Bellas said oil prices rallied amid mounting supply concerns following intensified Houthi attacks on Saudi infrastructure and vessels."
+        },
+        {
+          "type": "p",
+          "text": "“Loadings outside of the Arab Gulf are now threatened as well, jeopardizing Gulf crude loadings and ship-to-ship transfers that helped support regional loadings,” Bellas said."
+        },
+        {
+          "type": "p",
+          "text": "Market anxiety has also been fueled by fears of further escalation in geopolitical tensions following the US midterm elections."
+        },
+        {
+          "type": "p",
+          "text": "For refined petroleum products, diesel prices have come under additional upward pressure from declining oil flows and intensified Ukrainian attacks on Russian refineries."
+        },
+        {
+          "type": "p",
+          "text": "“Meanwhile, rising gasoline inventories in Singapore pointed to an improving product availability in Asia,” Bellas said."
+        },
+        {
+          "type": "p",
+          "text": "He added that persistent tightness in diesel supplies has encouraged refiners to maintain crude processing rates, potentially helping sustain gasoline supply even as demand weakens."
+        },
+        {
+          "type": "p",
+          "text": "The Department of Energy is expected to announce the prescribed pump price adjustments on Monday."
         },
         {
           "type": "h",
-          "text": "2022, 2023 GAAs, too"
+          "text": "Strategic oil reserves"
         },
         {
           "type": "p",
-          "text": "A budget watchdog has questioned the constitutionality of previous national allocations, saying Congress increased total appropriations beyond the executive branch’s proposals by adding UA without reducing programmed spending, similar to the practice that led the SC to strike down the 2024 budget."
+          "text": "Amid continuing oil price volatility, lawmakers are pushing for the creation of a Philippine Strategic Petroleum Reserve System to help shield consumers and businesses from supply disruptions and sharp price increases."
         },
         {
           "type": "p",
-          "text": "In a social media post, People’s Budget Coalition co-convenor AJ Montesa said the 2022 and 2023 budgets could also be considered unconstitutional if the test applied by the SC to the 2024 budget was applied."
+          "text": "Camarines Sur Reps. Migz Villafuerte and Luigi Villafuerte urged yesterday their colleagues in the House of Representatives to support House Bill 9367, which seeks to establish the reserve system."
         },
         {
           "type": "p",
-          "text": "“(They) exceeded the constitutional ceiling for 2022 to 2023. However, since no one challenged them, the court never ruled on the matter,” he said."
+          "text": "The measure was also authored by Rep. Tsuyoshi Anthony Horibata and Bicol Saro party-list Rep. Terry Ridon."
         },
         {
           "type": "p",
-          "text": "Montesa said Congress in 2022 inserted P100 billion in the UA without reducing programmed appropriations by corresponding amounts."
+          "text": "The lawmakers explained that the country’s dependence on imported petroleum products leaves it vulnerable to global market fluctuations, underscoring the need for government-controlled fuel reserves."
         },
         {
           "type": "p",
-          "text": "“The UA effectively became a shadow budget,” he noted. – Ghio Ong, Aubrey Rose Inosante"
+          "text": "“Despite its heavy reliance on imported petroleum products, our country lacks a comprehensive legal framework establishing a government-controlled strategic petroleum reserve that will protect Filipinos and businesses from wild swings in the prices of diesel, gasoline and other petroleum products,” Luigi said."
+        },
+        {
+          "type": "p",
+          "text": "Migz, meanwhile, noted that countries with established strategic petroleum reserves could draw on their stocks during supply disruptions and periods of severe price volatility."
+        },
+        {
+          "type": "p",
+          "text": "“The Philippines has no comparable government-controlled strategic petroleum reserve to draw from during a major supply disruption and thus remains largely exposed to market volatility, relying instead on commercial inventories and external supply conditions,” he said."
+        },
+        {
+          "type": "p",
+          "text": "The proposed framework would cover the acquisition, storage, maintenance, rotation and emergency release of petroleum reserves. It would also allow the Department of Energy to work with private entities through public-private partnerships to develop and operate reserve facilities."
+        },
+        {
+          "type": "p",
+          "text": "The push for legislation comes as Maharlika Investment Corp. and the Philippine National Oil Co. have signed a memorandum of understanding to evaluate the development, financing and operation of a strategic tank farm in Bataan."
+        },
+        {
+          "type": "p",
+          "text": "The PNOC is targeting the facility’s operations to begin by 2028, with an initial capacity of one million barrels that could eventually expand to 15 million barrels."
+        },
+        {
+          "type": "h",
+          "text": "Illegal fuel"
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, Metro Manila police have intensified operations against illegal fuel trading amid concerns that unscrupulous sellers could exploit supply uncertainties."
+        },
+        {
+          "type": "p",
+          "text": "Metro Manila police officer-in-charge Brig. Gen. Christopher Abrahano ordered police intelligence units and station commanders to strengthen monitoring and validation of unauthorized fuel trading."
+        },
+        {
+          "type": "p",
+          "text": "The directive followed the arrest of four individuals by Quezon City police on Tuesday for allegedly selling 172 liters of petroleum products illegally beside a gasoline station in Payatas."
+        },
+        {
+          "type": "p",
+          "text": "“While the government is working to ensure a sufficient and stable fuel supply for our country, we will not allow illegal traders to take advantage of the situation for their own gain,” Abrahano said. – Delon Porcalla, EJ Macababbad"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-1uu7sdl",
+      "source": "star",
+      "title": "P50 milllion bounty up for Bato’s capture",
+      "summary": "Saying the gloves are off, the government has put up a P50-million bounty for any information that will lead to the capture of Sen. Ronald &ldquo;Bato&rdquo; dela Rosa, and gave him a week to…",
+      "byline": "Emmanuel Tupas",
+      "section": "",
+      "published": "2026-10-23T16:00:00.000Z",
+      "firstSeen": "2026-10-23T17:30:57.541Z",
+      "url": "https://www.philstar.com/headlines/2026/10/24/2565380/p50-milllion-bounty-batos-capture",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/10/24/bato_2026-10-24_01-03-29.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "October 24, 2026 | 12:00am"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Saying the gloves are off, the government has put up a P50-million bounty for any information that will lead to the capture of Sen. Ronald “Bato” dela Rosa, and gave him a week to surrender. In announcing the reward, Interior Secretary Jonvic Remulla said the senator, who is considered “armed and dangerous,” has been given all the courtesy to voluntarily surrender following an International Criminal Court (ICC) warrant of arrest issued in November 2025."
+        },
+        {
+          "type": "p",
+          "text": "Dela Rosa, a former Philippine National Police (PNP) chief, has been tagged a co-conspirator of former president Rodrigo Duterte in the crimes against humanity case before the ICC."
+        },
+        {
+          "type": "p",
+          "text": "Instead of showing up and taking responsibility for his actions, Remulla said Dela Rosa is a coward by remaining in hiding."
+        },
+        {
+          "type": "p",
+          "text": "“Senator Bato mistook my gesture of negotiation as a sign of weakness. It’s time for the gloves to come off. It’s time to bring justice to his victims,” Remulla told a news briefing at Camp Crame yesterday."
+        },
+        {
+          "type": "p",
+          "text": "“As of today, Senator Bato will be considered armed and dangerous. We are placing a bounty of P50 million for his capture,” Remulla said."
+        },
+        {
+          "type": "p",
+          "text": "With the reward, Dela Rosa is now the No. 1 most wanted fugitive in the country, followed by gambling tycoon Charlie “Atong” Ang, who has a P20-million bounty for his arrest in connection with the alleged kidnapping and killing of cockfight enthusiasts or sabungeros."
+        },
+        {
+          "type": "p",
+          "text": "The bounty for Dela Rosa was sourced from the intelligence funds of the DILG and the PNP, Remulla said."
+        },
+        {
+          "type": "p",
+          "text": "Remulla has designated PNP deputy chief for administration Lt. Gen. Wilson Lopez as the head of a special task force to arrest Dela Rosa."
+        },
+        {
+          "type": "p",
+          "text": "PNP chief Gen. Jose Melencio Nartatez Jr. said Dela Rosa has one week to surrender but maintained law enforcement operations to arrest the senator are ongoing."
+        },
+        {
+          "type": "p",
+          "text": "Apart from intelligence operatives, Nartatez said they are also utilizing tactical teams and other resources to locate and arrest Dela Rosa."
+        },
+        {
+          "type": "p",
+          "text": "“With or without ultimatum, with or without reward, the PNP is ready to implement whatever (needs) to be implemented. That is our commitment,” he said."
+        },
+        {
+          "type": "p",
+          "text": "Dela Rosa is allegedly being protected by a powerful armed group in a secluded area in Mindanao, the reason why Remulla is cautious about launching an operation to arrest the senator by force."
+        },
+        {
+          "type": "p",
+          "text": "The DILG chief said a bloodbath similar to the siege of Marawi in 2017 could ensue."
+        },
+        {
+          "type": "p",
+          "text": "For Nartatez, the possibility of casualties is always there but maintained they have contingency measures in place to ensure the lawmaker is caught."
+        },
+        {
+          "type": "p",
+          "text": "“For example, the coddlers are 10 (people), then we will need a hundred (operatives). It will be a calibrated one,” Nartatez said."
+        },
+        {
+          "type": "p",
+          "text": "The PNP has searched several areas in Mindanao and Luzon, including Metro Manila, where there have been reported sightings of Dela Rosa but all turned out negative. Nartatez said they could not see a pattern on Dela Rosa’s movements. Nartatez warned Dela Rosa’s coddlers to stop protecting Dela Rosa and hand him over to authorities or face criminal cases."
+        },
+        {
+          "type": "p",
+          "text": "Dela Rosa’s last public appearance was on May 14, when he was seen exiting the Senate premises alongside Sen. Robinhood Padilla, his colleague in the minority."
+        },
+        {
+          "type": "h",
+          "text": "Local warrant first"
+        },
+        {
+          "type": "p",
+          "text": "Dela Rosa’s counsel Israelito Torreon rejected the DILG’s bounty for his client, saying a local warrant must first exist."
+        },
+        {
+          "type": "p",
+          "text": "Torreon’s law firm made a lengthy post on social media yesterday, after the lawyer initially said “no comment” on the matter."
+        },
+        {
+          "type": "p",
+          "text": "“A reward system built on Philippine warrants cannot be used for a person who has no Philippine warrant,” the law firm of Torreon & Partners posted on Facebook."
+        },
+        {
+          "type": "p",
+          "text": "“The only document the government has is a warrant from the International Criminal Court. That is a foreign tribunal under a treaty the Philippines withdrew from effective March 17, 2019. No Philippine judge has examined that warrant, adopted it or issued one of his own,” Torreon claimed. – Ghio Ong"
         }
       ],
       "truncated": false,
@@ -2391,130 +3126,6 @@
         {
           "type": "p",
           "text": "Meanwhile, the P430,857,884.28 Ultra Lotto 6/58 jackpot remained unclaimed after no bettor matched the winning numbers 14-38-44-25-52-47. — VBL, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-ki3neq",
-      "source": "grd",
-      "title": "France to deploy 70,000 police on Saturday to prevent civil unrest",
-      "summary": "<p>Security forces to include elite units usually used for counter-terrorism after worst street violence in years</p><ul><li><p><a…",
-      "byline": "Jon Henley in Paris",
-      "section": "France",
-      "published": "2026-10-23T15:34:21.000Z",
-      "firstSeen": "2026-10-23T16:00:59.374Z",
-      "url": "https://www.theguardian.com/world/2026/oct/23/france-police-demonstrations-civil-unrest",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/b6ac2b9c5241141a833ecef0b1e0772c1adb957a/458_0_4583_3667/master/4583.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ae2af0554df68a1c1cfdaeb235c2d115",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "France will deploy about 70,000 police around the country on Saturday as the government seeks to prevent more civil unrest after some of the worst street violence in years erupted on the fringes of cost-of-living protests last weekend."
-        },
-        {
-          "type": "p",
-          "text": "The interior minister, Laurent Nuñez, said on ⁠Friday ⁠the security forces would include elite units usually used for counter-terrorism operations and hostage rescues, adding that there had been social media calls for violence from “ultra-left” groups."
-        },
-        {
-          "type": "p",
-          "text": "“We are not talking about ⁠a peaceful, friendly demonstration,” Nuñez ​told reporters after a meeting of senior ministers and officials chaired by the president, Emmanuel Macron. “We ​are ​ready tomorrow ​to be ‌extremely firm ​and ​not tolerate anything.”"
-        },
-        {
-          "type": "p",
-          "text": "Macron and his government are struggling to get on top of a crisis that has caught it off guard six months before presidential elections to choose his successor. The government has admitted it “lost control” over widespread rioting on Saturday."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/73207d76c1ad3850932a8b18dfa8d205dfe10da9/0_0_5891_3967/master/5891.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "A demonstrator reads a book on the street at a protest organised by student collectives and trade unions in Paris on 22 October. Photograph: Abdul Saboor/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "Largely peaceful demonstrations were hijacked by groups of determined rioters, degenerating into rampant violence and extensive looting in Paris, Marseille, Lyon and other cities. In Limoges, the town hall was set on fire and partly destroyed."
-        },
-        {
-          "type": "p",
-          "text": "“We will be uncompromising with rioters, looters and all who commit violence,” Nuñez said, adding that besides 10,000 more police, the operation would include water cannon, armoured vehicles, mounted police, helicopters and drones."
-        },
-        {
-          "type": "p",
-          "text": "Demonstrations are expected in several other countries this weekend, triggered by a broader, continent-wide wave of discontent over declining public services, housing affordability, public sector budget cuts and the spiralling cost of living."
-        },
-        {
-          "type": "p",
-          "text": "Protests over related grievances have been called for Saturday in Milan, Rome and Turin in Italy; in Vienna, Austria; and in Madrid, Barcelona and other cities in Spain, as well as in Lisbon and Porto in Portugal, Dublin in Ireland and Tirana in Albania."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/uploads/2026/10/18/Historic_Limoges_city_hall_collapses_after_being_set_ablaze--92612335-3225-4978-a736-52abdd9cb087-1.0.0000000.jpg?width=120&dpr=1&s=none&crop=5%3A4",
-          "caption": "Historic Limoges city hall collapses after being set ablaze"
-        },
-        {
-          "type": "p",
-          "text": "Protests are expected across France on Saturday, although several cities have banned demonstrations or forced them to change their planned routes to protect shops and public buildings, and forecast heavy rain and high winds could dampen turnout."
-        },
-        {
-          "type": "p",
-          "text": "The centres of Lyon and some other large cities will be off-limits to protesters, while authorities in Paris authorised a union march along a limited route in the east of the capital between the Places de la Bastille and Nation that will avoid the city centre."
-        },
-        {
-          "type": "p",
-          "text": "But requests for rallies in Paris organised by France’s main student union, UNEF, and the gilets jaunes movement, whose nationwide protests rocked France in 2018 and which plans 600 small-scale events around France on Saturday, were refused."
-        },
-        {
-          "type": "p",
-          "text": "UNEF said its rallies, which grew from high school protests last month against teacher shortages and dilapidated facilities, would go ahead regardless. Several of the best-known cultural institutions in Paris, including the Louvre, said they would close on Saturday."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/8787886b81005f8af60a7f72e047b10843d569e1/0_0_5657_3772/master/5657.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "People walk past a closed Monoprix store in Lyon, France, after protests turned violent. Photograph: Lisi Niesner/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "Authorities in Marseille had also banned all protests, but announced on Friday that a union-organised demonstration would be allowed on an “exceptional basis”. It will be the only authorised protest in the southern Bouches-du-Rhône department."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "Unionists and opposition leaders have criticised the government for refusing to allow more rallies on Saturday, a decision being challenged in court in several cities. Marylise Léon of the CFDT union federation accused Macron of an abuse of authority."
-        },
-        {
-          "type": "p",
-          "text": "“It’s ​counterproductive because there is a lot ​of anger and a demand to be considered and to be listened to,” Léon, the CFDT’s general secretary, told TF1 TV. “It’s not for the president to decide who can legitimately protest.”"
-        },
-        {
-          "type": "p",
-          "text": "La France Insoumise, the radical left party of Jean-Luc Mélenchon, said the government had “crossed the lines that separate a democracy from an authoritarian and police state”, adding that the bans would only “generate more chaos”."
-        },
-        {
-          "type": "p",
-          "text": "Adding to the tensions, the far-right leader Marine Le Pen, the frontrunner for next spring’s presidential elections, is due to host her National Rally (RN) party congress in Orléans, drawing thousands of supporters – and leftwing, anti-racist opponents."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/32d764b33cca2ae5c3124e1238a8ea39749829ae/0_0_5740_3827/master/5740.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "French police attending the aftermath of a shooting in Trappes, near Paris, in which one person was killed and four injured. Photograph: Yoan Valat/EPA"
-        },
-        {
-          "type": "p",
-          "text": "Nuñez was due to visit the city on Friday to “inspect the security arrangements” at the request of the prime minister’s office. The justice minister, Gérald Darmanin, said 217 people – half of them first-time offenders – had been jailed since Saturday."
-        },
-        {
-          "type": "p",
-          "text": "On Thursday, Macron called for “the utmost severity” against “acts of delinquency”, saying gangs of rioters had been mainly responsible for the looting but the worst violence was caused by “ultra-left” groups seeking to “bring down the republic”."
-        },
-        {
-          "type": "p",
-          "text": "Further stoking disquiet, one person was killed and four others injured – including a 12-year-old girl – in ⁠a shooting in the town of Trappes, west of Paris, on Friday in an attack that police said could have been racially motivated."
         }
       ],
       "truncated": false,
@@ -3704,184 +4315,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "grd-hcmyub",
-      "source": "grd",
-      "title": "Nobody Wants This creator says she disagrees with Adam Brody’s ‘free Palestine’ comments",
-      "summary": "<p>After Brody called out the ‘death and misery’ in Palestine, the Netflix hit’s Jewish creator said they don’t see eye to eye</p><p>The creator of the hit Netflix comedy Nobody Wants This has…",
-      "byline": "Owen Myers",
-      "section": "US television",
-      "published": "2026-10-23T14:33:52.000Z",
-      "firstSeen": "2026-10-23T15:01:07.098Z",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/23/nobody-wants-this-adam-brody-palestine-comments",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/1d1cbbd32d193e161c9aef5b8cbc04dfe577f010/300_0_3000_2400/master/3000.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=a06397a5265f767d87ec74d116b5565a",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The creator of the hit Netflix comedy Nobody Wants This has responded to star Adam Brody’s recent support of Palestine amid the Israel-Gaza war."
-        },
-        {
-          "type": "p",
-          "text": "“Everyone is entitled to a different opinion,” Erin Foster said in an interview with the Not Skinny Not Fat podcast when asked about Brody calling for a free Palestine."
-        },
-        {
-          "type": "p",
-          "text": "“You know, it’s complicated,” said Foster, who also has an acting role in the new season. “I think our work environment, our set is very similar to dinner tables around the world where people are having debate and discussion and disagreeing."
-        },
-        {
-          "type": "p",
-          "text": "“While I love Adam, I also disagree with him. And that’s OK.”"
-        },
-        {
-          "type": "p",
-          "text": "Nobody Wants This, which returns for its third season this week, chronicles the unexpected love story between agnostic podcast host Joanne Williams (Kristen Bell) and rabbi Noah Roklov (Brody)."
-        },
-        {
-          "type": "p",
-          "text": "The story was inspired by Foster’s own real-life love story after she converted to Judaism after meeting her husband."
-        },
-        {
-          "type": "p",
-          "text": "“As the creator of the show, all I can say is that I want our Jewish fans to know that I see you and I hear you and I understand how you feel,” Foster said. “The show has always been and always will be a love letter to Judaism. That is why I made this show. It’s because of how beautiful of an experience I’ve had becoming Jewish and being a Jewish person."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/e2db59fdcaa20723fd87c007e3cf4373efb6a303/241_0_2250_1800/master/2250.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Adam Brody and Erin Foster in Nobody Wants This. Photograph: COURTESY OF NETFLIX"
-        },
-        {
-          "type": "p",
-          "text": "“Sitting here right now at this time in the world where there is almost zero positive representation of Jewish people, I think it’s so important to have that.”"
-        },
-        {
-          "type": "p",
-          "text": "Last month, Brody opened up about his political views for the first time. “Put me down as thinking it’s a genocide. Put me down as wanting a free Palestine,” he told GQ. “It’s awful that it’s taken so much death and misery, but it does feel like it’s reaching a breaking point that it should have a while ago.”"
-        },
-        {
-          "type": "p",
-          "text": "Nobody Wants This’s third season sees Joanne and Noah move in together while their siblings continue to look for love. In a four-star review, the Guardian’s Jack Seale said the new episodes will make fans of the show “fall in love with it all over again”."
-        },
-        {
-          "type": "p",
-          "text": "Foster has often posted about the Israel-Gaza war on social media."
-        },
-        {
-          "type": "p",
-          "text": "“Nothing that is happening in Israel/Palestine is acceptable or comfortable to look at,” she wrote in 2021. “Innocent lives lost as casualties of war, as well as the atrocious lack of human rights that exist under a Hamas run government."
-        },
-        {
-          "type": "p",
-          "text": "“There is a chance for peace here, and it involves a two state resolution where both exist next to each other, respecting each other’s beliefs, and sharing the holy land that all three major religions call sacred. Palestinians deserve to live in peace without fear. So do Jews.”"
-        },
-        {
-          "type": "p",
-          "text": "An independent UN inquiry in June found that Israel continues to commit genocide by targeting children in Gaza."
-        },
-        {
-          "type": "p",
-          "text": "The Guardian has reached out to representatives for Foster, Netflix and Brody for comment."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-djlu9z",
-      "source": "grd",
-      "title": "Allegations against Thomas Markle Sr challenge media’s Meghan narrative",
-      "summary": "<p>Duchess of Sussex’s decision to cut ties with elderly father cast in new light as he faces sexual abuse image claims</p><ul><li><p><a…",
-      "byline": "Caroline Davies",
-      "section": "Meghan, the Duchess of Sussex",
-      "published": "2026-10-23T14:31:42.000Z",
-      "firstSeen": "2026-10-23T15:01:02.621Z",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/23/thomas-markle-sr-allegations-challenge-media-meghan-narrative",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/1ec31283b1aadf8f362ba5660c0c4f2a986ec2bb/592_0_2110_1688/master/2110.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=78e5d51adf46f96bed922db67c4e7e97",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The depiction of the Duchess of Sussex by certain sections of the media has often been one of a fame-hungry daughter casting off an elderly father in his declining years and keeping him from his grandchildren as she embraces the international celebrity stage."
-        },
-        {
-          "type": "p",
-          "text": "Their estrangement has been the subject of countless headlines since her marriage to Prince Harry. But her statement today, released after child sex image allegations made against Thomas Markle Sr, 82, suggests deeper, darker fears as the cause."
-        },
-        {
-          "type": "p",
-          "text": "“I hope it can now be understood that, despite certain media publications’ distortion over the years, any distance from my father and my choice to not allow him to have contact with our children, was for one reason: to protect them,” she said."
-        },
-        {
-          "type": "p",
-          "text": "It has been speculated that the source of the estrangement between Meghan and Markle Sr, an award-winning TV lighting director, was over his decision to collude with a photographer and be paid for setting up shots of him preparing to attend the Sussexes’ wedding at Windsor Castle where he was due to walk her down the aisle."
-        },
-        {
-          "type": "p",
-          "text": "In the end, Markle Sr pulled out due to health issues, and it was Harry’s father, now King Charles, who lent the bride his arm on her final steps to the altar of St George’s chapel after she walked the first part of the aisle alone."
-        },
-        {
-          "type": "p",
-          "text": "Since that day in May 2018, the relationship between daughter and father has never recovered. Now it appears the reasons why are contained in a letter from the same year, sent to the Metropolitan police and containing “troubling and disturbing allegations” against Markle Sr and shared with Meghan in the summer after her wedding."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/33215d4db9f8f71824e313272b8523a971becfd8/0_0_1777_1003/master/1777.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Thomas Markle Sr on ITV’s Good Morning Britain in June 2018. Photograph: Reuters"
-        },
-        {
-          "type": "p",
-          "text": "The precise nature of those allegations has not been clarified, though they were enough for Meghan to want to keep her own family at a distance from him, her statement makes clear."
-        },
-        {
-          "type": "p",
-          "text": "The fact she says that “the breadth of what has now been uncovered is more sickening than one could ever imagine”, suggests the 2018 letter did not go as far as what has now been alleged."
-        },
-        {
-          "type": "p",
-          "text": "Markle Sr has vigorously denied the latest allegations, which are made by his son Thomas Markle Jr, 60. First published by the Sun newspaper, they claim Markle Sr downloaded child sex images to computers and mobile phones found at his former home in the Philippines."
-        },
-        {
-          "type": "p",
-          "text": "He has called the accusations “sick lies” from a son with whom he has a troubled relationship, and claims to have had no access to the computers and phones in question in the two years since he left Mexico, where he was previously living, for the Philippines, according to the Daily Mail."
-        },
-        {
-          "type": "p",
-          "text": "Meghan clearly hopes to reframe the narrative of her estrangement from her father, which has often been shaped by his loquacious tendencies in many media interviews."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "When speaking to journalists, Markle Sr has frequently lamented the breakdown of his relationship with his youngest daughter (he has two other children, Samantha Markle and Thomas Jnr, from an earlier marriage). He has spoken of how he has been unable to reach Meghan, and of how he has never been allowed to meet his grandchildren, Prince Archie, seven, and Princess Lilibet, five."
-        },
-        {
-          "type": "p",
-          "text": "The media depiction has often leaned towards that of an uncaring daughter, whose father paid for her education, helped sow the seeds of her acting career and found himself abandoned in his time of need."
-        },
-        {
-          "type": "p",
-          "text": "For the most part, Meghan has not publicly acknowledged his many health woes – he has suffered a series of strokes and recently had a leg amputated due to complications with a blood clot – and she clearly believes this has been weaponised against her."
-        },
-        {
-          "type": "p",
-          "text": "However, in 2025, Meghan’s spokesperson confirmed that the duchess had “reached out” privately to her father when he was hospitalised and very unwell. He is now understood to be in a rehabilitation centre in Florida undergoing physiotherapy after the amputation of his leg."
-        },
-        {
-          "type": "p",
-          "text": "Whatever the outcome of this latest development, it adds a new dimension to the complicated, fractured relationship between Meghan and her family."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "dw-utceqv",
@@ -6093,126 +6526,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "cbc-1y751rd",
-      "source": "cbc",
-      "title": "Europe's killer heat this summer claims record 50,000 lives, study suggests",
-      "summary": "Blistering record heat in Europe this summer helped kill more than 50,000 people, with nearly two-thirds of that death toll blamed on human-caused climate change, a new study found.",
-      "byline": "CBC",
-      "section": "News/Science",
-      "published": "2026-10-23T12:53:28.000Z",
-      "firstSeen": "2026-10-23T13:30:55.945Z",
-      "url": "https://www.cbc.ca/news/science/europe-heat-deaths-2026-9.7392816?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/590d83b2-0648-4b4f-a762-6d4ac22f5066,1792757396585/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C450%2C8640%2C4860%29%3BResize%3D620",
-        "caption": "Paramedics take a patient to the emergency department of the Paris-Saclay Hospital, outside Paris, during a heat wave this past June. (Christophe Ena/The Associated Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Blistering record heat in Europe this summer helped kill more than 50,000 people, with nearly two-thirds of that death toll blamed on human-caused climate change, a new study found."
-        },
-        {
-          "type": "p",
-          "text": "Researchers modelled heat-related deaths for different age groups in 854 European cities during repeated heat waves in June, July and August and found that 50,391 people died from warmer temperatures, and of those, 32,619 died because of the extra heat caused by the burning of coal, oil and gas, according to a study in an upcoming issue of Nature Health."
-        },
-        {
-          "type": "p",
-          "text": "That's 71 per cent higher than the previous deadliest summer, which was 29,480 in 2022, according to the same researchers, who produced a study earlier this month tracking yearly summer heat-related deaths in those European cities. And this summer's death figures are underestimates because they don't count a deadly heat wave in May and they only look at deaths in those 854 cities, which hold about 40 per cent of Europe's population, study authors said."
-        },
-        {
-          "type": "p",
-          "text": "Millions across Europe facing record temperatures from major heat wave"
-        },
-        {
-          "type": "p",
-          "text": "About one-third of the deaths were from June 17 to July 1, a particularly intense heat wave when temperatures were 5.3 C above normal, said study co-author Garyfallos Konstantinoudis, a biostatistician at Imperial College London."
-        },
-        {
-          "type": "p",
-          "text": "\"Much of Western and Northern Europe, our infrastructure is just not designed to cope with the sort of temperatures that we are seeing now because of the effects of human-caused warming,\" said lead author Clair Barnes, a climate scientist at Imperial College London. She said some European cities this summer had temperatures 12 C warmer than normal."
-        },
-        {
-          "type": "p",
-          "text": "Of those 50,000, more than 32,000 died from the added heat of human-caused climate change, the study also found. Italy, France, Spain and Germany had the highest death tolls, the study said. Of all the European capitals, Rome had the highest heat death total from 2000 to 2025, according to the team's study earlier this month."
-        },
-        {
-          "type": "h",
-          "text": "An extra dose of heat from fossil fuel burning"
-        },
-        {
-          "type": "p",
-          "text": "This would've already been an abnormal natural hot spell on top of a huge amount of climate change, Barnes said. She said Europe is the fastest-warming continent — although the Arctic, which is not a continent, is warming even faster — and is 2.5 C hotter than pre-industrial times."
-        },
-        {
-          "type": "p",
-          "text": "\"Just the underlying warming from human activity, from mostly the burning of fossil fuels, it's increasing all of our temperatures by what sounds like quite a small amount,\" Barnes said. \"For many people, it's certainly the case that that extra two-and-a-half degrees [Celsius] of warming is what's going to tip those temperatures from uncomfortable to dangerous and potentially deadly.\""
-        },
-        {
-          "type": "p",
-          "text": "Raging fires in Europe force 300,000 from homes"
-        },
-        {
-          "type": "p",
-          "text": "More than half of the people who died in Europe's heat were age 85 or older, but the stifling temperatures also killed more than 800 people between the ages of 20 and 44, Konstantinoudis said."
-        },
-        {
-          "type": "h",
-          "text": "How the death numbers are calculated"
-        },
-        {
-          "type": "p",
-          "text": "The team used an established and accepted scientific method to figure out how many of the 50,000 heat deaths were from natural high summer heat and how many were due to what heat-trapping gases have done to the climate. They ran computer simulations of a world without climate change and compared it with the deaths that happened this summer. The difference is what was caused by global warming."
-        },
-        {
-          "type": "p",
-          "text": "The percentage of heat deaths attributable to global warming has grown from about 45 per cent in the early 2000s to 65 per cent now, Barnes said."
-        },
-        {
-          "type": "p",
-          "text": "\"Summers are getting hotter, and the analytical tools for attributing deaths to heat are getting more accurate,\" said Dr. Howard Frumkin, former director of the National Center for Environmental Health in the U.S., who wasn't part of the study. \"Together, these two trends yield increasingly high and increasingly accurate counts of heat-related deaths.\""
-        },
-        {
-          "type": "p",
-          "text": "El Niño-fuelled heat could kill half a million people by February: study"
-        },
-        {
-          "type": "p",
-          "text": "The scientific team also had to use statistical modelling to come up with the base count of 50,000 heat deaths because those deaths are underreported and often not listed in death certificates, despite being a major factor, Konstantinoudis said. Several outside experts agreed with him, calling the methods state-of-the-art."
-        },
-        {
-          "type": "p",
-          "text": "The researchers ran a complex mathematical equation that has been used in several previously peer-reviewed studies, Barnes said, which factors in specific age and temperatures for each of the 854 cities based on a localized optimal temperature that coincides with the fewest deaths. When it's warmer or colder, the equation calculates excess deaths above lowest-death conditions."
-        },
-        {
-          "type": "p",
-          "text": "Researchers then checked their calculations against real-time estimates from government agencies. Mostly — but not always — they matched fairly well, Konstantinoudis said. The team's methods for May and June British heat waves calculated 2,700 excess deaths and the United Kingdom health statistics agency said it was 2,800, he said."
-        },
-        {
-          "type": "h",
-          "text": "Cooling and adapting are needed, but they're not enough"
-        },
-        {
-          "type": "p",
-          "text": "\"We need to prepare for the heat we cannot now avoid, with urgent investments in heat early-warning systems, equitable access to low-carbon cooling, and neighborhood buddy systems that check on and support people most at risk — while rapidly reducing the fossil fuel use driving the crisis,\" said Canadian emergency room physician Dr. Courtney Howard, president-elect of the Canadian Medical Association, who wasn't part of the research."
-        },
-        {
-          "type": "p",
-          "text": "How extreme heat affects your body"
-        },
-        {
-          "type": "p",
-          "text": "Adapting is only part of the answer, said Dr. Jonathan Patz of the University of Wisconsin-Madison, who wasn't part of the research but also praised it."
-        },
-        {
-          "type": "p",
-          "text": "\"We can't just be mopping up the mess on the floor without thinking about turning the faucet off,\" said Patz, a professor of health and the environment. \"So we need prevention at different levels. We need better cooling and protecting vulnerable populations from inevitable increased frequency and extreme heat waves. But we also need to go to the root of the problem and absolutely address the burning of fossil fuels.\""
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "abs-z0jv23",
@@ -9330,70 +9643,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "star-uoc8o8",
-      "source": "star",
-      "title": "Philippine peso sinks to 31st record low at P63.615",
-      "summary": "The decline came a day after the BSP raised its benchmark rate to 5.5%.",
-      "byline": "Alyana Uy",
-      "section": "",
-      "published": "2026-10-23T10:50:00.000Z",
-      "firstSeen": "2026-10-23T11:30:59.506Z",
-      "url": "https://www.philstar.com/headlines/2026/10/23/2565242/philippine-peso-sinks-31st-record-low-p63615",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/10/23/peso-dollar-exchange_2026-10-23_18-50-52.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "October 23, 2026 | 6:50pm"
-        },
-        {
-          "type": "p",
-          "text": "Philippine peso bills in P1,000 denominations"
-        },
-        {
-          "type": "p",
-          "text": "bugking88 from Getty Images via Canva Pro"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Philippine peso sank to a fresh record low of P63.615 to $1 on Friday, October 23, marking the 31st time this year that it closed at an all-time low."
-        },
-        {
-          "type": "p",
-          "text": "The peso weakened by 9.5 centavos from Thursday's P63.52 finish, which had set the previous record."
-        },
-        {
-          "type": "p",
-          "text": "Bangko Sentral ng Pilipinas Governor Eli Remolona Jr. said Thursday that the central bank was not raising interest rates to support a particular exchange rate."
-        },
-        {
-          "type": "p",
-          "text": "The central bank, however, may step into the foreign-exchange market to curb sharp swings that could fuel inflation."
-        },
-        {
-          "type": "p",
-          "text": "\"We do intervene a little bit in the foreign exchange market, but that's mainly to avoid swings in the exchange rate that tend to be inflationary. We have estimates of how much the peso has to move before it becomes inflationary, and that's when we tend to intervene,\" Remolona said."
-        },
-        {
-          "type": "p",
-          "text": "His remarks followed the Monetary Board's decision to raise the BSP's benchmark interest rate by 50 basis points to 5.5%, its fourth consecutive increase."
-        },
-        {
-          "type": "p",
-          "text": "The BSP described the larger move as a response to broadening price pressures and further risks to the inflation outlook, rather than an attempt to defend the peso."
-        },
-        {
-          "type": "p",
-          "text": "A weaker currency can make dollar-priced imports, including fuel, more expensive in peso terms and add to inflation. That gives the central bank reason to limit disorderly exchange-rate swings even as it allows the market to determine the peso's level."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1cln8a8",
       "source": "abs",
       "title": "FIFA president Infantino feels 'great' after getting AFC support",
@@ -10196,86 +10445,6 @@
         {
           "type": "p",
           "text": "Under the 1987 Constitution, if Congress fails to pass the GAB for the incoming fiscal year, the GAA for the preceding fiscal year is deemed reenacted and remains in effect until a new appropriations law is passed. – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-f3037x",
-      "source": "star",
-      "title": "4 million travelers expected as airports brace for Undas rush",
-      "summary": "Airports are preparing for the Undas rush with additional immigration, general and security personnel from Oct. 30 to Nov. 3.",
-      "byline": "Alyana Uy",
-      "section": "",
-      "published": "2026-10-23T10:14:00.000Z",
-      "firstSeen": "2026-10-23T10:30:56.557Z",
-      "url": "https://www.philstar.com/headlines/2026/10/23/2565239/4-million-travelers-expected-airports-brace-undas-rush",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/10/23/naia-carousel_2026-10-23_18-17-19.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "October 23, 2026 | 6:14pm"
-        },
-        {
-          "type": "p",
-          "text": "Air travelers wait for their luggage at an arrivals bay carousel at Terminal 3 of the Ninoy Aquino International Airport on Oct. 19, 2026."
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Bureau of Immigration and the Civil Aviation Authority of the Philippines are set to deploy additional personnel from October 30 to November 3 as airports brace for the Undas passenger surge."
-        },
-        {
-          "type": "p",
-          "text": "CAAP expects passenger volume this year to reach 4 million, up from 3.7 million in 2025."
-        },
-        {
-          "type": "p",
-          "text": "Immigration spokesperson Anisha Hadji Hassan said rapid response teams will be on standby at each terminal in case more immigration officers are needed or eGates at the Ninoy Aquino International Airport experience downtime."
-        },
-        {
-          "type": "p",
-          "text": "\"For the maximum availability of our officers, we are currently implementing a leave ban. From Oct. 30 to Nov. 3, we are limiting the approval of vacation leaves so that if additional personnel are needed, we will have officers available for deployment,\" Hassan said in Filipino on Bagong Pilipinas Ngayon radio."
-        },
-        {
-          "type": "p",
-          "text": "CAAP Public Information Officer Bea Bernardo said more general and security personnel will also be deployed as heightened security measures are implemented, including stricter baggage checks and help desks."
-        },
-        {
-          "type": "p",
-          "text": "CAAP is also coordinating with other agencies to improve airport operations, she added."
-        },
-        {
-          "type": "p",
-          "text": "\"Under the DOTr's Oplan Biyaheng Ayos, all its attached agencies are working together to speed up processes and ensure the safety of passengers,\" Bernardo said in Filipino."
-        },
-        {
-          "type": "h",
-          "text": "Travel reminders"
-        },
-        {
-          "type": "p",
-          "text": "Passengers, meanwhile, are reminded to prepare ahead and monitor advisories from agencies operating at airports."
-        },
-        {
-          "type": "p",
-          "text": "\"Passengers should know about advisories in advance so their travels can be hassle-free,\" Hassan said."
-        },
-        {
-          "type": "p",
-          "text": "The advisories are posted on the agencies' websites. Immigration wait times are available on the BI website and Facebook page."
-        },
-        {
-          "type": "p",
-          "text": "Hassan also advised passengers to arrive at the airport early and prepare their documents in advance, including eTravel passes, which are available 72 hours before departure and arrival."
-        },
-        {
-          "type": "p",
-          "text": "For frequent travelers, Hassan recommended using eGates so immigration officers can \"focus on passengers who are potentially vulnerable or threats.\""
         }
       ],
       "truncated": false,
