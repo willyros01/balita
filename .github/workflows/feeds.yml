@@ -69,7 +69,7 @@ jobs:
         run: npm install --no-audit --no-fund
 
       - name: Verify ADM, FCM, and existing web notification routing
-        run: node --test breaking-notify.test.mjs adm.test.mjs
+        run: node --test breaking-notify.test.mjs adm.test.mjs publication-ready.test.mjs
 
       # Exchanges GitHub's five-minute identity for a short-lived Google
       # access token. There is no stored service-account key.
@@ -92,7 +92,7 @@ jobs:
           WIRE_DOOR_URL: ${{ secrets.WIRE_DOOR_URL }}
           WIRE_KEY: ${{ secrets.WIRE_KEY }}
 
-      # Never notify for an article that the installed app cannot fetch yet.
+      # Commit first; the sender then waits for exact files on live Pages.
       - name: Publish fetched stories before alerts
         run: |
           git config user.name  "balita-bot"

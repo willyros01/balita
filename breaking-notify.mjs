@@ -9,6 +9,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { pathToFileURL } from "node:url";
 import { accessToken as getAdmToken, sendADM } from "./adm.mjs";
+import { waitForPublishedArticles } from "./publication-ready.mjs";
 
 const PROJECT_ID = "wire-news-6da5a";
 const ARTICLES_FILE = "articles.json";
@@ -250,6 +251,11 @@ async function main(){
       : "A marked story was found, but no devices are subscribed. No alert sent.");
     return;
   }
+
+  // The feed is committed above, but GitHub Pages deploys asynchronously.
+  // Check the live feed AND each target article before sending to any device.
+  // A timeout throws before saveState, leaving these IDs eligible for retry.
+  await waitForPublishedArticles(selected.map(article => article.id));
 
   for(const article of selected){
     const notificationArticle = testInquirer
