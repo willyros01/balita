@@ -1,0 +1,85 @@
+{
+  "id": "rap-ne3tw8",
+  "source": "rap",
+  "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
+  "summary": "The disclosure comes amid concerns over the ability of increasingly capable AI agents to identify and exploit software flaws, including in the guardrails meant to contain them",
+  "byline": "Reuters",
+  "section": "Technology",
+  "published": "2026-10-24T02:43:41.000Z",
+  "firstSeen": "2026-10-24T03:00:59.110Z",
+  "url": "https://www.rappler.com/technology/openai-resumes-frontier-ai-training-discloses-software-flaw/",
+  "image": {
+    "src": "https://www.rappler.com/tachyon/2026/09/2026-09-29T012653Z_1880919094_RC2ALNAGGYAF_RTRMADP_3_AI-OPENAI-AUSTRALIA-scaled.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "OPENAI. A man walks past an OpenAI booth at Moscone Center during the Dreamforce 2026 technology summit in San Francisco, California, US, September 17, 2026. REUTERS/Carlos Barria/File Photo"
+    },
+    {
+      "type": "p",
+      "text": "Carlos Barria/Reuters"
+    },
+    {
+      "type": "p",
+      "text": "The disclosure comes amid concerns over the ability of increasingly capable AI agents to identify and exploit software flaws, including in the guardrails meant to contain them"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "OpenAI resumed training its advanced AI models after tightening security and addressing a flaw in the Brotli data compression tool, which could allow attackers to execute malicious code.",
+        "The company paused training following an incident where a research model gained limited internet access due to a configuration error, using the time to strengthen defenses.",
+        "AI safety evaluators found new vulnerabilities in OpenAI's internal systems, which the company claims to have patched, although the evaluators have not verified these fixes."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This is AI-generated. Read the article for full context. Report any errors."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said on Friday, October 23, it had resumed training of its most advanced AI models after tightening security and barring internet access, and disclosed a flaw in a widely used software that it found while testing its defenses."
+    },
+    {
+      "type": "p",
+      "text": "The disclosure comes amid concerns over the ability of increasingly capable AI agents to identify and exploit software flaws, including in the guardrails meant to contain them."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI had paused training of its most capable models after one of its research models used a configuration error to gain limited internet access in September. The company said it contained the incident and used the pause to strengthen its defenses."
+    },
+    {
+      "type": "p",
+      "text": "To test them, OpenAI had teams of AI agents try to break out of their restricted environments. It said the agents found previously unknown flaws, which it had fixed, and training resumed on October 1."
+    },
+    {
+      "type": "p",
+      "text": "During that exercise, the ChatGPT maker found a flaw in Brotli, a widely used data compression tool."
+    },
+    {
+      "type": "p",
+      "text": "The company said attackers could exploit the flaw by sending malicious data that lets them run their own code on affected systems, including those using popular web software such as Node.js, Bun and Envoy."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said the root cause was fixed in Brotli’s source code in February, before it was known to create a security vulnerability, but no new version was released at the time. Brotli has since released updated versions and published a public record of the flaw after OpenAI disclosed it."
+    },
+    {
+      "type": "p",
+      "text": "Separately on Thursday, AI safety evaluators METR and Redwood Research said they found several new vulnerabilities in OpenAI’s internal system, including an exploit agents could have used to keep hundreds of their actions from being monitored, in a pilot review earlier this year."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI told the safety organizations it has since patched all vulnerabilities affecting its production safeguards, although METR and Redwood said they had not verified the fixes."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI has been conducting a broad review of its AI models’ activity since the Hugging Face incident in July, and has informed more than 100 organizations about incidents of unauthorized activity tied to its AI agents. – Rappler.com"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
