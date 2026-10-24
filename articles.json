@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-24T08:31:19.660Z",
+  "updated": "2026-10-24T09:01:07.235Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-whteel",
+      "source": "inqn",
+      "title": "Student killed, 2 wounded in gun attack after Agusan del Sur concert",
+      "summary": "SAN FRANCISCO, Agusan del Sur — A 15-year-old student was killed while two others, including a 13-year-old boy, were wounded after an unidentified gunman opened fire in Talacogon town. This occurred…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-10-24T09:01:03.647Z",
+      "firstSeen": "2026-10-24T03:00:58.495Z",
+      "url": "https://newsinfo.inquirer.net/2329273/student-killed-2-wounded-in-gun-attack-after-agusan-del-sur-concert",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2023/07/CRIME-SCENE.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN FRANCISCO, Agusan del Sur — A 15-year-old student was killed while two others, including a 13-year-old boy, were wounded after an unidentified gunman opened fire in Talacogon town. This occurred as the victims were walking home from a municipal-sponsored concert early Saturday, Oct. 24. A report from the Agusan del Sur Police Provincial Office"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1669dvf",
       "source": "inqn",
       "title": "LIST: Cancelled ferry trips Saturday (Oct. 24) due to Typhoon Rosal",
       "summary": "MANILA, Philippines — Several ferry trips bound for Batangas and other provinces in the Southern Tagalog region were cancelled on Saturday morning, October 24, due to Typhoon Rosal, the Philippine…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.468Z",
+      "published": "2026-10-24T09:01:03.647Z",
       "firstSeen": "2026-10-24T04:30:49.953Z",
       "url": "https://newsinfo.inquirer.net/2329281/list-cancelled-ferry-trips-saturday-oct-24-due-to-typhoon-rosal",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "CEBU CITY, Philippines — An organization of domestic shipping operators is urging the Marcos administration to scrap the roll-on, roll-off (RoRo) terminal fees to reduce huge transportation costs.…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.467Z",
+      "published": "2026-10-24T09:01:03.646Z",
       "firstSeen": "2026-10-24T06:00:58.013Z",
       "url": "https://newsinfo.inquirer.net/2329328/shipping-group-seeks-removal-of-roro-terminal-fees-to-cut-logistics-costs",
       "image": {
@@ -109,7 +134,7 @@
       "summary": "SAN FRANCISCO, Agusan dl Sur — Indigenous communities across Butuan City converged on Friday to mark the National Indigenous Peoples (IP) Month. They are also celebrating the 29th anniversary of the…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.467Z",
+      "published": "2026-10-24T09:01:03.646Z",
       "firstSeen": "2026-10-24T05:30:52.081Z",
       "url": "https://newsinfo.inquirer.net/2329325/butuan-indigenous-people-mark-ip-day-with-lumad-rites-cultural-contests",
       "image": {
@@ -134,7 +159,7 @@
       "summary": "LUCENA CITY — A woman was arrested after allegedly being caught with more than P1 million worth of suspected &#8220;shabu&#8221; (crystal meth) in a buy-bust operation in Dasmariñas City, Cavite. The…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.467Z",
+      "published": "2026-10-24T09:01:03.646Z",
       "firstSeen": "2026-10-24T05:30:52.115Z",
       "url": "https://newsinfo.inquirer.net/2329315/drug-suspect-arrested-with-alleged-p1m-worth-of-shabu-in-cavite",
       "image": {
@@ -159,7 +184,7 @@
       "summary": "SAN FRANCISCO, Agusan del Sur — Police operatives arrested a 47-year-old alleged drug peddler during an entrapment operation here on Friday night, October 23. Law enforcers also confiscated P68,000…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.467Z",
+      "published": "2026-10-24T09:01:03.646Z",
       "firstSeen": "2026-10-24T05:30:53.737Z",
       "url": "https://newsinfo.inquirer.net/2329311/cops-nab-drug-suspect-seize-p68000-shabu-gun-in-agusan-del-sur-sting",
       "image": {
@@ -184,7 +209,7 @@
       "summary": "SUBIC BAY FREEPORT, Zambales — A shipment of 150 pregnant dairy cattle imported from Australia by the National Dairy Authority (NDA) has arrived in Subic. This cargo is part of the government&#8217;s…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.467Z",
+      "published": "2026-10-24T09:01:03.646Z",
       "firstSeen": "2026-10-24T05:00:58.756Z",
       "url": "https://newsinfo.inquirer.net/2329301/150-pregnant-dairy-cattle-from-australia-arrive-at-subic-port",
       "image": {
@@ -209,7 +234,7 @@
       "summary": "PAGADIAN CITY, Zamboanga del Sur—Anti-narcotics agents and naval intelligence personnel seized around one kilo of suspected &#8220;shabu&#8221; (crystal meth) worth an estimated P6.8 million. The…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.467Z",
+      "published": "2026-10-24T09:01:03.646Z",
       "firstSeen": "2026-10-24T05:00:58.825Z",
       "url": "https://newsinfo.inquirer.net/2329297/pdea-seizes-p6-8m-shabu-in-zamboanga-city-buy-bust",
       "image": {
@@ -234,7 +259,7 @@
       "summary": "OLONGAPO CITY—For small-scale fishers in Balayan Bay in Batangas, the annual fishing ban means two months away from their traditional fishing grounds. The prohibition period will take place just as…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.467Z",
+      "published": "2026-10-24T09:01:03.646Z",
       "firstSeen": "2026-10-24T05:01:00.346Z",
       "url": "https://newsinfo.inquirer.net/2329282/batangas-fishers-seek-livelihood-support-as-2-month-fishing-ban-nears",
       "image": {
@@ -259,7 +284,7 @@
       "summary": "MANILA, Philippines — Typhoon Rosal, internationally named “Champi,” exited the Philippine area of responsibility (PAR) on Saturday morning, October 24. The Philippine Atmospheric, Geophysical and…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.467Z",
+      "published": "2026-10-24T09:01:03.646Z",
       "firstSeen": "2026-10-24T03:30:56.069Z",
       "url": "https://newsinfo.inquirer.net/2329294/typhoon-rosal-exits-par-on-saturday-morning-october-24",
       "image": {
@@ -278,88 +303,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-whteel",
-      "source": "inqn",
-      "title": "Student killed, 2 wounded in gun attack after Agusan del Sur concert",
-      "summary": "SAN FRANCISCO, Agusan del Sur — A 15-year-old student was killed while two others, including a 13-year-old boy, were wounded after an unidentified gunman opened fire in Talacogon town. This occurred…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.467Z",
-      "firstSeen": "2026-10-24T03:00:58.495Z",
-      "url": "https://newsinfo.inquirer.net/2329273/student-killed-2-wounded-in-gun-attack-after-agusan-del-sur-concert",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2023/07/CRIME-SCENE.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN FRANCISCO, Agusan del Sur — A 15-year-old student was killed while two others, including a 13-year-old boy, were wounded after an unidentified gunman opened fire in Talacogon town. This occurred as the victims were walking home from a municipal-sponsored concert early Saturday, Oct. 24. A report from the Agusan del Sur Police Provincial Office"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1nusbcs",
-      "source": "inqn",
-      "title": "Mindanao rights lawyers laud SC rules backing grassroots advocacy",
-      "summary": "CAGAYAN DE ORO CITY — Human rights lawyers in Mindanao welcomed a Supreme Court (SC) issuance establishing formal institutional backing for developmental and public-interest legal practice across the…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.466Z",
-      "firstSeen": "2026-10-24T06:30:56.306Z",
-      "url": "https://newsinfo.inquirer.net/2329344/mindanao-rights-lawyers-laud-sc-rules-backing-grassroots-advocacy",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/01/Front-Page1168331-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CAGAYAN DE ORO CITY — Human rights lawyers in Mindanao welcomed a Supreme Court (SC) issuance establishing formal institutional backing for developmental and public-interest legal practice across the country. The Union of Peoples’ Lawyers in Mindanao (UPLM) hailed Administrative Matter No. 24-07-24, or the Rules on Institutionalizing Support for Developmental and Social Change Lawyering (DSC"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1sv74wr",
-      "source": "inqn",
-      "title": "Military war games lunched in Dinagat Islands",
-      "summary": "SAN FRANCISCO, Agusan del Sur— Some 600 soldiers took part in a four-day joint military exercises in Dinagat Islands starting Thursday, October 22, a drill designed to test and improve the readiness…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.466Z",
-      "firstSeen": "2026-10-24T06:30:56.317Z",
-      "url": "https://newsinfo.inquirer.net/2329332/military-war-games-lunched-in-dinagat-islands",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Military-war-games-kick-off-in-Dinagat-Islands-24October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN FRANCISCO, Agusan del Sur— Some 600 soldiers took part in a four-day joint military exercises in Dinagat Islands starting Thursday, October 22, a drill designed to test and improve the readiness of troops and local authorities on combat scenarios and man-made disasters. Spearheaded by the Armed Forces of the Philippines’ (AFP) Eastern Mindanao Command"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-195l7el",
       "source": "inqn",
       "title": "4 PAF pilots killed in Batangas plane crash; SF-260 fleet grounded",
       "summary": "MANILA, Philippines — Four Philippine Air Force (PAF) pilots were killed after two SF-260 aircraft crashed during a training flight in Batangas on Friday, the Air Force confirmed on Saturday. The PAF…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.466Z",
+      "published": "2026-10-24T09:01:03.645Z",
       "firstSeen": "2026-10-24T06:31:01.684Z",
       "url": "https://newsinfo.inquirer.net/2329371/4-paf-pilots-killed-in-batangas-plane-crash-sf-260-fleet-grounded-2",
       "image": {
@@ -384,7 +334,7 @@
       "summary": "SAN ILDEFONSO, Ilocos Sur— Police arrested a 33-year-old businessman in a drug buy-bust operation in Sarrat, Ilocos Norte, on Thursday. In a report on Friday, the Sarrat Municipal Police Station…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:05.249Z",
+      "published": "2026-10-24T09:01:03.060Z",
       "firstSeen": "2026-10-24T06:30:56.249Z",
       "url": "https://newsinfo.inquirer.net/2329352/businessman-arrested-in-ilocos-norte-drug-bust",
       "image": {
@@ -403,23 +353,48 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-wr6vw8",
+      "id": "inqn-1nusbcs",
       "source": "inqn",
-      "title": "3 suspects nabbed in Isulan drug sting, over P400,000 shabu seized",
-      "summary": "KORONADAL CITY — The police arrested three drug suspects and seized and estimated P439,892 worth of shabu in a buy-bust operation in Barangay Kenram, Isulan, Sultan Kudarat, on Friday. The Philippine…",
+      "title": "Mindanao rights lawyers laud SC rules backing grassroots advocacy",
+      "summary": "CAGAYAN DE ORO CITY — Human rights lawyers in Mindanao welcomed a Supreme Court (SC) issuance establishing formal institutional backing for developmental and public-interest legal practice across the…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:03.812Z",
-      "firstSeen": "2026-10-24T07:00:54.927Z",
-      "url": "https://newsinfo.inquirer.net/2329357/3-suspects-nabbed-in-isulan-drug-sting-over-p400000-shabu-seized",
+      "published": "2026-10-24T09:01:03.060Z",
+      "firstSeen": "2026-10-24T06:30:56.306Z",
+      "url": "https://newsinfo.inquirer.net/2329344/mindanao-rights-lawyers-laud-sc-rules-backing-grassroots-advocacy",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/PDEA-agebnts-arrest-3-in-Isulan-buy-bust-seize-over-P400k-in-meth-24October2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/01/Front-Page1168331-scaled.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "KORONADAL CITY — The police arrested three drug suspects and seized and estimated P439,892 worth of shabu in a buy-bust operation in Barangay Kenram, Isulan, Sultan Kudarat, on Friday. The Philippine Drug Enforcement Agency (PDEA) Region 12, through its Sultan Kudarat Provincial Office, led the operation at Purok Pagkakaisa with support from the Isulan Municipal"
+          "text": "CAGAYAN DE ORO CITY — Human rights lawyers in Mindanao welcomed a Supreme Court (SC) issuance establishing formal institutional backing for developmental and public-interest legal practice across the country. The Union of Peoples’ Lawyers in Mindanao (UPLM) hailed Administrative Matter No. 24-07-24, or the Rules on Institutionalizing Support for Developmental and Social Change Lawyering (DSC"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1sv74wr",
+      "source": "inqn",
+      "title": "Military war games lunched in Dinagat Islands",
+      "summary": "SAN FRANCISCO, Agusan del Sur— Some 600 soldiers took part in a four-day joint military exercises in Dinagat Islands starting Thursday, October 22, a drill designed to test and improve the readiness…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-24T09:01:03.060Z",
+      "firstSeen": "2026-10-24T06:30:56.317Z",
+      "url": "https://newsinfo.inquirer.net/2329332/military-war-games-lunched-in-dinagat-islands",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Military-war-games-kick-off-in-Dinagat-Islands-24October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN FRANCISCO, Agusan del Sur— Some 600 soldiers took part in a four-day joint military exercises in Dinagat Islands starting Thursday, October 22, a drill designed to test and improve the readiness of troops and local authorities on combat scenarios and man-made disasters. Spearheaded by the Armed Forces of the Philippines’ (AFP) Eastern Mindanao Command"
         }
       ],
       "truncated": true,
@@ -434,7 +409,7 @@
       "summary": "MANILA, Philippines — Veteran journalist Philip Lustre Jr. was arrested in Quezon City on Saturday morning by virtue of a warrant of arrest for cyberlibel issued by a Davao court. Police arrested…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:31:01.880Z",
+      "published": "2026-10-24T09:01:02.746Z",
       "firstSeen": "2026-10-24T07:00:54.866Z",
       "url": "https://newsinfo.inquirer.net/2329396/veteran-journalist-lustre-arrested-in-qc-for-cyber-libel",
       "image": {
@@ -453,13 +428,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-wr6vw8",
+      "source": "inqn",
+      "title": "3 suspects nabbed in Isulan drug sting, over P400,000 shabu seized",
+      "summary": "KORONADAL CITY — The police arrested three drug suspects and seized and estimated P439,892 worth of shabu in a buy-bust operation in Barangay Kenram, Isulan, Sultan Kudarat, on Friday. The Philippine…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-24T09:01:02.746Z",
+      "firstSeen": "2026-10-24T07:00:54.927Z",
+      "url": "https://newsinfo.inquirer.net/2329357/3-suspects-nabbed-in-isulan-drug-sting-over-p400000-shabu-seized",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/PDEA-agebnts-arrest-3-in-Isulan-buy-bust-seize-over-P400k-in-meth-24October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "KORONADAL CITY — The police arrested three drug suspects and seized and estimated P439,892 worth of shabu in a buy-bust operation in Barangay Kenram, Isulan, Sultan Kudarat, on Friday. The Philippine Drug Enforcement Agency (PDEA) Region 12, through its Sultan Kudarat Provincial Office, led the operation at Purok Pagkakaisa with support from the Isulan Municipal"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1ptfo70",
       "source": "inqn",
       "title": "Lightning reportedly strikes, kills student in Biliran",
       "summary": "TACLOBAN CITY — A 15-year-old student died after he was reportedly struck by lightning while hiking with companions at Mt. Sayao in Barangay Villa Consuelo, Naval, Biliran, on Friday afternoon. The…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:30:58.072Z",
+      "published": "2026-10-24T09:00:59.150Z",
       "firstSeen": "2026-10-24T07:30:55.251Z",
       "url": "https://newsinfo.inquirer.net/2329404/lightning-reportedly-strikes-kills-student-in-biliran",
       "image": {
@@ -484,7 +484,7 @@
       "summary": "TAIPEI, Taiwan—Emergency crews scrambled on Saturday to restore power to tens of thousands of households in Taiwan after Typhoon Champi&#8217;s fierce winds battered the island. This calamity happens…",
       "byline": "arlenelim",
       "section": "Asia & Pacific",
-      "published": "2026-10-24T08:30:56.026Z",
+      "published": "2026-10-24T09:00:56.638Z",
       "firstSeen": "2026-10-24T04:00:55.351Z",
       "url": "https://globalnation.inquirer.net/343644/typhoon-champi-knocks-out-power-to-thousands-in-taiwan",
       "image": {
@@ -509,7 +509,7 @@
       "summary": "MANILA, Philippines — A critically endangered kingfisher and several threatened and endemic wildlife species were recorded in Bicol Natural Park during biodiversity monitoring conducted in the second…",
       "byline": "Dennis Maliwanag",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:30:55.329Z",
+      "published": "2026-10-24T09:00:56.325Z",
       "firstSeen": "2026-10-24T07:30:55.143Z",
       "url": "https://newsinfo.inquirer.net/2329402/rare-wildlife-finds-a-haven-in-bicol-natural-park",
       "image": {
@@ -528,38 +528,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1chn9k8",
-      "source": "inqg",
-      "title": "Admission of &#8216;expert&#8217; report, 3 more witnesses in Duterte ICC case sought",
-      "summary": "MANILA, Philippines &#8211; The prosecution of the International Criminal Court (ICC) is banking on a report by an &#8220;expert&#8221; and prerecorded testimonies of three additional witnesses to…",
-      "byline": "ggaviola",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-10-24T08:30:54.508Z",
-      "firstSeen": "2026-10-24T07:00:54.866Z",
-      "url": "https://globalnation.inquirer.net/343648/admission-of-expert-report-3-more-witnesses-in-duterte-icc-case-sought",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/duterte-ICC-14October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8211; The prosecution of the International Criminal Court (ICC) is banking on a report by an &#8220;expert&#8221; and prerecorded testimonies of three additional witnesses to help build the evidence in the trial for crimes against humanity against former President Rodrigo Duterte. In a filing on Oct. 21 made public on Saturday, the prosecutors"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-18d6ny7",
       "source": "inqn",
       "title": "Senate minority urges gov’t to pursue dialogue with Bato dela Rosa",
       "summary": "MANILA, Philippines—Members of the Senate minority on Saturday urged authorities to hold a dialogue with Sen. Ronald “Bato” dela Rosa, following the announcement of a P50-million bounty for his…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-24T08:30:54.505Z",
+      "published": "2026-10-24T09:00:55.584Z",
       "firstSeen": "2026-10-24T08:00:57.869Z",
       "url": "https://newsinfo.inquirer.net/2329418/senate-minority-urges-govt-to-pursue-dialogue-with-bato-dela-rosa",
       "image": {
@@ -578,13 +553,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-1chn9k8",
+      "source": "inqg",
+      "title": "Admission of &#8216;expert&#8217; report, 3 more witnesses in Duterte ICC case sought",
+      "summary": "MANILA, Philippines &#8211; The prosecution of the International Criminal Court (ICC) is banking on a report by an &#8220;expert&#8221; and prerecorded testimonies of three additional witnesses to…",
+      "byline": "ggaviola",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-10-24T09:00:55.584Z",
+      "firstSeen": "2026-10-24T07:00:54.866Z",
+      "url": "https://globalnation.inquirer.net/343648/admission-of-expert-report-3-more-witnesses-in-duterte-icc-case-sought",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/duterte-ICC-14October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines &#8211; The prosecution of the International Criminal Court (ICC) is banking on a report by an &#8220;expert&#8221; and prerecorded testimonies of three additional witnesses to help build the evidence in the trial for crimes against humanity against former President Rodrigo Duterte. In a filing on Oct. 21 made public on Saturday, the prosecutors"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-179jg55",
+      "source": "inqn",
+      "title": "Over 41,000 affected by Super Typhoon Rosal in N. Luzon, Bicol &#8211; DSWD",
+      "summary": "ILOILO CITY — Some 41,868 people from 13,441 families have been affected by Super Typhoon Rosal in Northern Luzon and the Bicol region, according to the Department of Social Welfare and Development…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-24T09:00:55.525Z",
+      "firstSeen": "2026-10-24T08:30:54.447Z",
+      "url": "https://newsinfo.inquirer.net/2329426/over-41000-affected-by-super-typhoon-rosal-in-n-luzon-bicol-dswd",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Pagasa-rosal-24October2026_2.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ILOILO CITY — Some 41,868 people from 13,441 families have been affected by Super Typhoon Rosal in Northern Luzon and the Bicol region, according to the Department of Social Welfare and Development (DSWD). In its progress report as of 6 a.m. on Saturday, the DSWD said the affected population was spread across 91 barangays in"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
       "id": "inqg-booc0g",
       "source": "inqg",
       "title": "North Korean leader arrives in Chinese border city, Yonhap says",
       "summary": "SEOUL, South Korea &#8211; North Korean leader Kim Jong Un arrived in China&#8217;s border city of Dandong via a newly opened bridge linking the two countries, South Korea&#8217;s Yonhap news agency…",
       "byline": "ggaviola",
       "section": "Asia & Pacific",
-      "published": "2026-10-24T08:30:54.447Z",
+      "published": "2026-10-24T09:00:55.525Z",
       "firstSeen": "2026-10-24T07:30:55.144Z",
       "url": "https://globalnation.inquirer.net/343651/north-korean-leader-arrives-in-chinese-border-city-yonhap-says",
       "image": {
@@ -603,29 +628,358 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-179jg55",
-      "source": "inqn",
-      "title": "Over 41,000 affected by Super Typhoon Rosal in N. Luzon, Bicol &#8211; DSWD",
-      "summary": "ILOILO CITY — Some 41,868 people from 13,441 families have been affected by Super Typhoon Rosal in Northern Luzon and the Bicol region, according to the Department of Social Welfare and Development…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-24T08:30:54.447Z",
-      "firstSeen": "2026-10-24T08:30:54.447Z",
-      "url": "https://newsinfo.inquirer.net/2329426/over-41000-affected-by-super-typhoon-rosal-in-n-luzon-bicol-dswd",
+      "id": "inq-o5ue2x",
+      "source": "inq",
+      "title": "Dela Rosa’s ₱50M arrest bounty: ‘Illegal, risky,’ say solon’s lawyers",
+      "summary": "MANILA, Philippines—On Friday, the law firm representing Senator Ronald “Bato” dela Rosa questioned the legal basis of the P50-million bounty for the senator’s arrest. Torreon and Partners asked in a…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-24T08:48:00.000Z",
+      "firstSeen": "2026-10-24T09:00:55.525Z",
+      "url": "https://cebudailynews.inquirer.net/778503/dela-rosas-lawyers-challenge-p50m-arrest-bounty-illegal-and-risky",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Pagasa-rosal-24October2026_2.jpg",
+        "src": "https://cebudailynews.inquirer.net/files/2026/05/05-20-Bato-dela-Rosa-ICC-arrest-620x382.jpeg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "ILOILO CITY — Some 41,868 people from 13,441 families have been affected by Super Typhoon Rosal in Northern Luzon and the Bicol region, according to the Department of Social Welfare and Development (DSWD). In its progress report as of 6 a.m. on Saturday, the DSWD said the affected population was spread across 91 barangays in"
+          "text": "MANILA, Philippines—On Friday, the law firm representing Senator Ronald “Bato” dela Rosa questioned the legal basis of the P50-million bounty for the senator’s arrest. Torreon and Partners asked in a statement posted in their official Facebook page: “Every peso of a government reward must answer one question – for the arrest of whom, in what case, by order of what court?” “The DILG does not grant rewards by press conference. It grants them through Memorandum Circulars covering ‘Most Wanted Persons,” the lawyers explained. The senator’s defense team pointed out that the DILG’s own reward protocol requires a valid Philippine arrest warrant [&hellip;]... Keep on reading: Dela Rosa’s ₱50M arrest bounty: ‘Illegal, risky,’ say solon’s lawyers"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-ukhpcl",
+      "source": "grd",
+      "title": "Dónal Lunny, ‘colossus of Irish music’, dies aged 79",
+      "summary": "<p>Founding member of Planxty, Lunny went on to play for bands such as Moving Hearts, the Bothy Band and Coolfin</p><p>The Irish traditional musician Dónal Lunny has died at the age of 79 from…",
+      "byline": "Press Association",
+      "section": "Folk music",
+      "published": "2026-10-24T08:44:44.000Z",
+      "firstSeen": "2026-10-24T09:00:55.525Z",
+      "url": "https://www.theguardian.com/music/2026/oct/24/donal-lunny-colossus-irish-music-dies-aged-79",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/676bca94c0923123d0aee72342f1d47ec994bce6/165_47_1367_1093/master/1367.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=30e1b03af0a12b2c90b0f1a79f24c4e9",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Irish traditional musician Dónal Lunny has died at the age of 79 from cancer."
+        },
+        {
+          "type": "p",
+          "text": "Lunny rose to prominence in the band Rakes of Kildare alongside Christy Moore and his brother Frank. He went on to play in bands such as Planxty, Moving Hearts, the Bothy Band and Coolfin among others and toured the world."
+        },
+        {
+          "type": "p",
+          "text": "A post on his Facebook page confirmed that Lunny died in St James’s hospital in Dublin on Friday morning."
+        },
+        {
+          "type": "p",
+          "text": "“We are heartbroken to confirm that our beloved Dónal passed away peacefully this morning in Dublin following a short stay in St James’s hospital,” the post said. “Thank you for helping us to remember and celebrate his immense contribution to music, to culture and to so many people’s lives all over the world.”"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/2e64e7f290d5458e9c28be40fe1a99b46325f22f/0_0_4680_3210/master/4680.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Catherine Connolly said Lunny was ‘central to so many of the most influential moments of the last 60 years of Irish music’. Photograph: Niall Carson/PA"
+        },
+        {
+          "type": "p",
+          "text": "The Irish president, Catherine Connolly, expressed her “deepest condolences to the family, friends and many musical collaborators of Dónal Lunny”."
+        },
+        {
+          "type": "p",
+          "text": "In a statement, she said: “Dónal was one of Ireland’s greatest musical figures, a wonderfully talented musician and producer who was central to so many of the most influential moments of the last 60 years of Irish music."
+        },
+        {
+          "type": "p",
+          "text": "“Dónal will be particularly remembered for his long partnerships with fellow musicians such as Christy Moore and Andy Irvine and for the innovative music he has left behind both as a musician in groups including Planxty, the Bothy Band and Moving Hearts and also as a renowned producer."
+        },
+        {
+          "type": "p",
+          "text": "“This rich musical legacy, including his central role in the introduction of the bouzouki into Irish music, was appropriately recognised by his fellow artists in Dónal’s membership of Aosdána, as well as the well-deserved recognition which he received in being awarded a lifetime achievement award at the 2025 RTÉ Radio 1 Irish folk awards."
+        },
+        {
+          "type": "p",
+          "text": "“Beyond his music, Dónal will be remembered for his warmth and the strong connection which he had with audiences all over Ireland and beyond. He will be deeply missed.”"
+        },
+        {
+          "type": "p",
+          "text": "The post ended in Irish, saying his likes will not be seen again: “Ní bheidh a leithéid arís ann.”"
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/8572fb67078237e1f2a890b6c9c375e6b9b75c91/0_34_5191_3114/master/5191.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The Irish folk group Planxty in London in January 1973. From left: Andy Irvine, Liam O’Flynn, Dónal Lunny and Christy Moore.  Photograph: Michael Putland/Getty"
+        },
+        {
+          "type": "p",
+          "text": "Lunny was born in Tullamore, County Offaly, and was a multi-instrumentalist but was best known for his mastery of the bouzouki. He was a talented melody writer and considered central to the revival of traditional music as he produced 17 albums under his record label Mulligan Records."
+        },
+        {
+          "type": "p",
+          "text": "Paying tribute to the folk musician, the taoiseach, Micheál Martin, said he was “deeply saddened” to hear of his passing. “A colossus of Irish music, as a performer, songwriter and producer,” he wrote in a post on social media."
+        },
+        {
+          "type": "p",
+          "text": "“Uniquely gifted, Dónal carried traditional and folk music to new audiences through Planxty and his many other endeavours.”"
+        },
+        {
+          "type": "p",
+          "text": "Sinn Féin’s president, Mary Lou McDonald, also paid tribute online, saying: “Deeply saddened to hear of the passing of Dónal Lunny. A giant of Irish traditional music, Dónal helped shape the sound of Irish music for generations, bringing our rich musical heritage to audiences at home and around the world. His contribution to Irish music and culture will never be forgotten."
+        },
+        {
+          "type": "p",
+          "text": "“Ar dheis Dé go raibh a anam [may his soul rest in peace].”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1far59w",
+      "source": "inq",
+      "title": "Rica Peralejo backs netizen’s call for QR codes on public funds",
+      "summary": "Rica Peralejo has backed calls for more transparency in government spending, questioning why taxpayers should not be able to track public funds as easily as they are now required to verify their tax…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-24T08:43:38.000Z",
+      "firstSeen": "2026-10-24T09:00:55.584Z",
+      "url": "https://entertainment.inquirer.net/687785/rica-peralejo-backs-netizens-call-for-qr-codes-on-public-funds",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/10/Screenshot-2026-10-24-at-3.21.52-PM-700x316.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rica Peralejo has backed calls for more transparency in government spending, questioning why taxpayers should not be able to track public funds as easily as they are now required to verify their tax registration. Peralejo reposted a Threads post from a netizen who criticized the Bureau of Internal Revenue’s (BIR) registration requirements for online sellers and digital earners. The original post read: “BIR wants taxpayers to be transparent? Geh san yung sainyo, we’d love to scan where our taxes go, we demand QR codes din for public funds lol.” “Ya bakit nga hindi natin idemand ito,” Peralejo wrote in the caption [&hellip;]... Keep on reading: Rica Peralejo backs netizen’s call for QR codes on public funds"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-erydy0",
+      "source": "inq",
+      "title": "PVL: Savi Davison, PLDT overcome Capital1 for first win",
+      "summary": "MANILA, Philippines — Savi Davison came out firing with 28 points to end PLDT’s woes, outlasting Capital1, 21-25, 25-21, 25-21, 25-21, in the PVL All-Filipino Conference Siklab Series on Saturday at…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-24T08:39:43.000Z",
+      "firstSeen": "2026-10-24T09:00:56.136Z",
+      "url": "https://sports.inquirer.net/703257/pvl-savi-davison-pldt-overcome-capital1-for-first-win",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/10/IMG_0740_PVL-All-Filipino-Conference-Siklab-series-PLDT-Capital1_Savi-Davison-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Savi Davison came out firing with 28 points to end PLDT’s woes, outlasting Capital1, 21-25, 25-21, 25-21, 25-21, in the PVL All-Filipino Conference Siklab Series on Saturday at Filoil EcoOil Centre. After struggling in their second straight loss with five points last Tuesday against Akari, Davison unleashed 23 kills, four blocks, and an ace laced with 18 excellent receptions and 10 digs. “I feel like we all kinda came into this game knowing that we had something to come back from. And it&#8217;s more ourselves than anything,” said Davison. “I’m glad that we pushed each other during practice [&hellip;]... Keep on reading: PVL: Savi Davison, PLDT overcome Capital1 for first win"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-i7vgfx",
+      "source": "inq",
+      "title": "National Age Group Duathlon: Hechanova, Ciron cop 1-2 spots",
+      "summary": "National team members Eric Hechanova and John Patrick Ciron finished 1-2 in the National Age Group Duathlon held in the Municipality of Tudela on Camotes Island on Saturday, October 24. ... Keep on…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-24T08:35:00.000Z",
+      "firstSeen": "2026-10-24T09:00:57.639Z",
+      "url": "https://cebudailynews.inquirer.net/778493/national-age-group-duathlon-hechanova-ciron-cop-1-2-spots",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/10/862895140_1079980878207748_7906114064379842884_n-620x465.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "National team members Eric Hechanova and John Patrick Ciron finished 1-2 in the National Age Group Duathlon held in the Municipality of Tudela on Camotes Island on Saturday, October 24. ... Keep on reading: National Age Group Duathlon: Hechanova, Ciron cop 1-2 spots"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-1rmt6ct",
+      "source": "grd",
+      "title": "Blue Planet III features cloudier footage to prove authenticity amid AI boom",
+      "summary": "<p>BBC series deliberately uses ‘more organic’ shots to assure viewers animals are not AI-generated, producers say</p><p>The <a…",
+      "byline": "Tara Conlan",
+      "section": "BBC",
+      "published": "2026-10-24T08:32:56.000Z",
+      "firstSeen": "2026-10-24T09:00:55.584Z",
+      "url": "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/ceaba2d2e573fa4bc480fbaee7cee88e2ce7c97b/620_0_4500_3600/master/4500.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=f0d25aae5ae109f551faef3ce97d9432",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The David Attenborough-narrated series Blue Planet III deliberately includes cloudier, less polished footage to counter AI fakery and assure viewers it is “authentic”, its producers have said."
+        },
+        {
+          "type": "p",
+          "text": "Nearly a decade after Blue Planet II shone a light on plastic pollution, and 25 years since the first Blue Planet aired, the hit BBC series is returning with more animal behaviour and cutting-edge technology, including the world’s first underwater CCTV camera – dubbed “stonefish” cam."
+        },
+        {
+          "type": "p",
+          "text": "Since the first Blue Planet, TVs and cameras have evolved to give viewers sharper, higher definition pictures. But the combination of the rise in AI and the extraordinary sequences and fantastical creatures captured by BBC Studios’ natural history unit for this series led producers to include what they called more “organic” footage and less polished shots, to show that the animals were not AI-generated."
+        },
+        {
+          "type": "p",
+          "text": "The executive producer, Elizabeth White, said AI, “makes us want to be even more authentic”, adding that the creatures filmed in the deep ocean “are probably more remarkable than AI could imagine and it’s completely real”."
+        },
+        {
+          "type": "p",
+          "text": "She said that in the past “the amount of plankton and things that are in the water in the sequences” would usually mean they might be excluded, and previously, “we might have framed out a boat or a buoy or gone: ‘Oh, actually … the water conditions are not really good enough for this.’”"
+        },
+        {
+          "type": "p",
+          "text": "But now such things are being left in as “we’re really leaning into that authenticity … As AI booms we will probably lean more into the more organic”, murkier and less polished footage."
+        },
+        {
+          "type": "p",
+          "text": "For the first time, the BBC’s specialist factual commissioning head, Jack Bootle, assured journalists at a press screening: “No gen AI was used in this series. Not a single frame. It’s all real photography.”"
+        },
+        {
+          "type": "p",
+          "text": "Bootle added that as we live in a “golden age of natural history-making … sometimes people feel like they’ve seen it all before [so] this series is bursting with novel behaviour”."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/dcf85ebc427ec7089bfcdba2a5677f9b5314a546/370_0_4143_3314/master/4143.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The hit BBC series returns with cutting-edge technology, including the world’s first underwater CCTV camera – dubbed ‘stonefish’. Photograph: BBC Studios/Jose Branco"
+        },
+        {
+          "type": "p",
+          "text": "That includes never-before-seen action of dolphins using sea sponges to block holes in coral to trap fish, captured using underwater CCTV – developed by the programme’s producer and director, Yoland Bosiger."
+        },
+        {
+          "type": "p",
+          "text": "Over the four years of filming across five oceans, BBC Studios “continually innovated”, said the series producer, Lara Bickerton, creating a “mini-dome” camera to follow an octopus, a “deep-sea selfie stick”, camera operators wearing leg-mounted scooters to create immersive TikTok-style diving footage and using lasers to film deep-sea creatures."
+        },
+        {
+          "type": "p",
+          "text": "Other remarkable animal behaviour captured in the programme includes grouper communicating with another species of fish; 200,000 crabs lining up in formation to feed; sea urchins using shells as sun hats; and footage involving penguins that echoes the Planet Earth II, ‘iguana v snakes’ sequence."
+        },
+        {
+          "type": "p",
+          "text": "Threats to the ocean as well as its resilience are addressed in the series. One episode shows how warmer seas caused by the climate crisis are killing off sea anemone where clown fish live and how they try to fix their homes, and the issue of plastics raised in Blue Planet II continues with a story about pollutants [and] forever chemicals, said White."
+        },
+        {
+          "type": "p",
+          "text": "Bosiger said Attenborough, who is 100 years old, was “very much involved” and made changes to scripts."
+        },
+        {
+          "type": "p",
+          "text": "White added: “What’s wonderful is he hasn’t lost his curiosity … he’s still that little boy … who gets excited … when you show him a new piece of footage.”"
+        },
+        {
+          "type": "p",
+          "text": "Asked if the BBC’s £500m cost-cutting drive would affect BBC Studios’ renowned natural history reputation, White said she could not comment on that but pointed out that Blue Planet III made savings by using more local crews on location than in previous series."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Blue Planet III starts Sunday 1 November on BBC1 and iPlayer"
+          ]
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "gma-jq0dqn",
+      "source": "gma",
+      "title": "DA seeks return of 40% tariff on imported pork, two-month import holiday",
+      "summary": "The Department of Agriculture (DA) said Saturday it is seeking the return of a 40% tariff on imported pork and a two-month import holiday to give local hog raisers time to recover from falling…",
+      "byline": "LYJAH TIFFANY BONZO, GMA News",
+      "section": "",
+      "published": "2026-10-24T08:32:19.000Z",
+      "firstSeen": "2026-10-24T09:00:55.525Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1007026/da-seeks-return-of-40-tariff-on-imported-pork-two-month-import-holiday/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2025/12/pork_meat_2025_12_05_09_12_13.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published October 24, 2026 4:32pm"
+        },
+        {
+          "type": "p",
+          "text": "The Department of Agriculture (DA) said Saturday it is seeking the return of a 40% tariff on imported pork and a two-month import holiday to give local hog raisers time to recover from falling farmgate prices."
+        },
+        {
+          "type": "p",
+          "text": "Hog traders earlier this week held a three-day \"pig holiday,\" temporarily suspending their sale of pork. They urged the government to impose higher tariffs on pork imports, cancel pork import permits, and find a solution to stop the smuggling of foreign meat products."
+        },
+        {
+          "type": "p",
+          "text": "\"A two-month import holiday could temporarily reduce foreign supply and give local producers an opportunity to sell their hogs. Higher tariffs could also make imported pork more expensive,\" the DA said."
+        },
+        {
+          "type": "p",
+          "text": "\"However, the extent of any benefit would depend on implementation, market demand and the availability of domestic supply,\" it added."
+        },
+        {
+          "type": "p",
+          "text": "Reading a message from Agriculture Secretary Francisco Tiu Laurel Jr., DA Undersecretary Asis Perez assured hog raisers that the agency is committed to protecting the local industry from what it called unfair import competition."
+        },
+        {
+          "type": "p",
+          "text": "Perez said the Agriculture Department has been pushing for tariff increases well before the hog traders' protest, rejecting any impression that \"the proposals were prompted solely by the protest.\""
+        },
+        {
+          "type": "p",
+          "text": "\"The DA filed a petition concerning pork jowl imports in August and another in September seeking to raise pork tariffs to 40%... The agency has since attended two hearings, although the approval process remains ongoing,\" the agency said."
+        },
+        {
+          "type": "p",
+          "text": "It added that the proposed measures remain under review and require approval from other government entities, including the Tariff Commission."
+        },
+        {
+          "type": "p",
+          "text": "The Agriculture Department said it is also preparing to launch an investigation under the General Safeguards framework, which could allow legal restrictions on pork imports if they are found to be harming domestic producers."
+        },
+        {
+          "type": "p",
+          "text": "\"The DA's message was clear: it is backing local producers. Whether that support translates into timely relief now rests on the next steps in the approval process,\" the DA said."
+        },
+        {
+          "type": "p",
+          "text": "According to the Pork Producers Federation of the Philippines, the industry is losing P350 million a day or P7,000 per pig head because of frozen pork coming from abroad. — VDV, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "grd-74k1gn",
@@ -1085,189 +1439,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-1m2hjh2",
-      "source": "cbc",
-      "title": "Will the Alberta referendum feed a more polarized immigration debate?",
-      "summary": "Beside Alberta Premier Danielle Smith's own political future, the most unresolved questions raised by her referendum concern immigration.",
-      "byline": "Aaron Wherry",
-      "section": "News/Politics",
-      "published": "2026-10-24T08:00:00.000Z",
-      "firstSeen": "2026-10-24T08:30:54.447Z",
-      "url": "https://www.cbc.ca/news/politics/alberta-referendum-immigration-carney-poilievre-analysis-9.7393811?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/d67629af-c1ff-4345-8c03-ba3285c50dd6,1792795339143/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C315%2C6048%2C3402%29%3BResize%3D620",
-        "caption": "While Prime Minister Mark Carney raised some eyebrows when he repeated the 'no to the nine' slogan before Alberta's vote, he had also suggested he was inclined to give all provinces more input on immigration. (John Ulan/The Canadian Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Politics·Analysis"
-        },
-        {
-          "type": "p",
-          "text": "Beside Alberta Premier Danielle Smith's own political future, the most unresolved questions raised by her referendum concern immigration."
-        },
-        {
-          "type": "h",
-          "text": "Immigration was on the ballot in Alberta. Now attention turns to the Carney government"
-        },
-        {
-          "type": "p",
-          "text": "Referendums tend to raise as many questions as they answer. And so it may be for the 10-part questionnaire that Alberta Premier Danielle Smith put to her province — although with a series of no's Albertans have seemingly foreclosed on a number of possibilities."
-        },
-        {
-          "type": "p",
-          "text": "\"I am well aware that not every grievance Alberta has with Ottawa has been resolved,\" Smith told Albertans on Tuesday night. \"There are still many political and constitutional battles ahead of us.\""
-        },
-        {
-          "type": "p",
-          "text": "On the question of whether Alberta should remain in Canada the answer was not close. The 75 per cent of voters who chose the first option is decidedly more decisive than the 1980 referendum in Quebec."
-        },
-        {
-          "type": "p",
-          "text": "Of the 25 per cent who voted for another referendum, it is also fair to ask how many genuinely want secession. According to Abacus Data, making Alberta an independent country was the primary motivation for just 32 per cent of Albertans who favoured Option 2."
-        },
-        {
-          "type": "p",
-          "text": "Whatever Smith's appetite for future constitutional battles, Albertan voters also proved to be unenthusiastic: all four questions about whether Alberta should pursue constitutional amendments were answered with a \"no.\""
-        },
-        {
-          "type": "p",
-          "text": "Not even a question about abolishing the Senate — possibly the most-maligned public institution in Canada history — was able to muster even a simple majority of Albertans."
-        },
-        {
-          "type": "p",
-          "text": "\"There's a reason to be skeptical that some constitutional amendments would be worth the effort and ... what I'm seeing is that Albertans would just rather that we spend our time focusing on things where we can make some meaningful change,\" Smith said at a news conference on Wednesday (at the time, two of the four constitutional questions were being answered in the negative as results were still being tallied)."
-        },
-        {
-          "type": "p",
-          "text": "\"That's why I think the numbers were so different on the immigration questions versus … perhaps the constitutional ones.\""
-        },
-        {
-          "type": "p",
-          "text": "Beside Smith's own political future, the most unresolved questions raised by her referendum concern immigration — and one of the questions now is whether they will feed into a more polarized national debate on Canada's immigration policy."
-        },
-        {
-          "type": "h",
-          "text": "Immigration on the ballot in Alberta"
-        },
-        {
-          "type": "p",
-          "text": "Of Smith's 10 questions, four concerned either immigration or potential new rules for newcomers. On its official referendum website, Smith's government claimed that \"unsustainable immigration levels over the past 10 years\" had \"a profound impact\" on Alberta's ability \"to fund and effectively deliver social services like health care and education — directly impacting Albertans' access to these services and costing taxpayers billions of dollars.\""
-        },
-        {
-          "type": "p",
-          "text": "Alberta NDP Leader Naheed Nenshi argued Smith was \"scapegoating\" immigrants."
-        },
-        {
-          "type": "p",
-          "text": "\"The reality of the matter is even if you took all the young, healthy temporary foreign workers out of the health-care system, even if you denied public education to refugee children, it's not going to make the emergency room lineups any less,\" Nenshi told CBC's Power & Politics this week. \"It's not going to make your classrooms any smaller. It's not going to make anyone's life better.\""
-        },
-        {
-          "type": "p",
-          "text": "Just under 55 per cent of voters supported the proposition that the Alberta government should take \"increased control over immigration for the purposes of decreasing immigration to more sustainable levels.\""
-        },
-        {
-          "type": "p",
-          "text": "Danielle Smith says Alberta separatist UCP members can 'join a different party'"
-        },
-        {
-          "type": "p",
-          "text": "Three questions that floated possible limitations on how or when newcomers or temporary residents can access health care, education and other social services in Alberta were supported by narrower majorities of 52.4, 53.1 and 52 per cent."
-        },
-        {
-          "type": "p",
-          "text": "Smith's government has a majority in the Alberta legislature and it didn't need a referendum to pursue any of these initiatives. But the results — notably, none of the immigration questions won a majority in Calgary — may give Smith reason to hesitate."
-        },
-        {
-          "type": "p",
-          "text": "At her news conference on Wednesday, the premier suggested she was prepared to act quickly on the first question, but she would \"proceed with caution\" in response to questions two, three and four. She said she did not want to impact anyone who was already residing in Alberta."
-        },
-        {
-          "type": "p",
-          "text": "While Prime Minister Mark Carney raised some eyebrows when he repeated the \"no to the nine\" slogan before Alberta's vote, he had also suggested he was inclined to give all provinces more input on immigration."
-        },
-        {
-          "type": "p",
-          "text": "\"To be candid, I don't need a referendum to tell us to co-operate more with the provinces on immigration,\" Carney told Global News a few days before Alberta's vote. \"I think that's where we're headed.\""
-        },
-        {
-          "type": "p",
-          "text": "But Alberta's immigration questions also caught the attention of Conservative Leader Pierre Poilievre."
-        },
-        {
-          "type": "h",
-          "text": "An increasingly polarized debate"
-        },
-        {
-          "type": "p",
-          "text": "\"I thought it was inappropriate for the prime minister to tell Canadians and tell Albertans that they should vote to continue to give deluxe taxpayer benefits to people who are illegally here,\" Poilievre said. \"And for the prime minister to suggest that Albertans vote in favor of continued mass, unvetted, out of control immigration was a mistake.\""
-        },
-        {
-          "type": "p",
-          "text": "The Conservative Party also sent a fundraising appeal to supporters on Tuesday that promised a Conservative government would \"dramatically reduce immigration.\""
-        },
-        {
-          "type": "p",
-          "text": "The Carney government argues that it has immigration \"under control\" after steps were taken to curb the intake of international students and temporary workers. The Conservatives obviously disagree."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Conservatives accuse government of 'cooking the books' over immigration data presentation"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "But the Alberta referendum also landed between two triggers for renewed debate about immigration to Canada."
-        },
-        {
-          "type": "p",
-          "text": "First, in discussing immigration policy during an interview with the New York Times last month, Carney said, \"now the question starts to become: When do we resume some controlled increase in the population, which is the nature of Canada? So that will happen, and we just want to make sure that we've got it under control.\""
-        },
-        {
-          "type": "p",
-          "text": "Now the federal government is due to table its latest immigration levels plan, which sets out targets for the next few years for both permanent and temporary arrivals (technically, a new plan is due by Nov. 1, but last year's plan was included in the fall budget)."
-        },
-        {
-          "type": "p",
-          "text": "Speaking to reporters on Wednesday, Carney said his government \"will not budge from overall levels that are sustainable.\" But what constitutes \"sustainable\" is likely a matter of debate."
-        },
-        {
-          "type": "p",
-          "text": "At a news conference on Thursday, Conservative immigration critic Michelle Rempel Garner argued \"mass immigration\" was suppressing wages and driving up rents, to the benefit of corporate profiteers. Conservatives, she said, will \"vigorously oppose any attempt by Mark Carney to continue to raise and sustain high immigration levels\" and \"will push him to lower them.\""
-        },
-        {
-          "type": "p",
-          "text": "Claims that the \"Canadian consensus\" on immigration has been broken are sometimes overstated. Canadians still believe immigration is a net-positive for the economy, but they also believe recent immigration levels have been too high, driven in large part by concerns about the availability and affordability of housing."
-        },
-        {
-          "type": "p",
-          "text": "Polling by the Environics Institute has also shown a growing gap along the political spectrum, with Conservative voters much more inclined to say there is too much immigration. And the parties themselves may be getting further apart."
-        },
-        {
-          "type": "p",
-          "text": "That is not the most stable foundation on which to build significant new increases in immigration, however much such increases might be necessary."
-        },
-        {
-          "type": "p",
-          "text": "If the goal remains to be as open and welcoming as possible — if there is an economic imperative to being so — \"proceed with caution\" might be good advice for all sides."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Aaron Wherry has covered Parliament Hill since 2007 and has written for Maclean's, the National Post and the Globe and Mail. He is the author of Promise & Peril, a book about Justin Trudeau's years in power."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-d8yxz7",
       "source": "cbc",
       "title": "The Marineland belugas keep dying. Was it a mistake to move them?",
@@ -1518,6 +1689,189 @@
         {
           "type": "p",
           "text": "Beluga whales swim in a tank at Marineland in Niagara Falls on June 9, 2023. (Chris Young/The Canadian Press)"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-1m2hjh2",
+      "source": "cbc",
+      "title": "Will the Alberta referendum feed a more polarized immigration debate?",
+      "summary": "Beside Alberta Premier Danielle Smith's own political future, the most unresolved questions raised by her referendum concern immigration.",
+      "byline": "Aaron Wherry",
+      "section": "News/Politics",
+      "published": "2026-10-24T08:00:00.000Z",
+      "firstSeen": "2026-10-24T08:30:54.447Z",
+      "url": "https://www.cbc.ca/news/politics/alberta-referendum-immigration-carney-poilievre-analysis-9.7393811?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/d67629af-c1ff-4345-8c03-ba3285c50dd6,1792795339143/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C315%2C6048%2C3402%29%3BResize%3D620",
+        "caption": "While Prime Minister Mark Carney raised some eyebrows when he repeated the 'no to the nine' slogan before Alberta's vote, he had also suggested he was inclined to give all provinces more input on immigration. (John Ulan/The Canadian Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Politics·Analysis"
+        },
+        {
+          "type": "p",
+          "text": "Beside Alberta Premier Danielle Smith's own political future, the most unresolved questions raised by her referendum concern immigration."
+        },
+        {
+          "type": "h",
+          "text": "Immigration was on the ballot in Alberta. Now attention turns to the Carney government"
+        },
+        {
+          "type": "p",
+          "text": "Referendums tend to raise as many questions as they answer. And so it may be for the 10-part questionnaire that Alberta Premier Danielle Smith put to her province — although with a series of no's Albertans have seemingly foreclosed on a number of possibilities."
+        },
+        {
+          "type": "p",
+          "text": "\"I am well aware that not every grievance Alberta has with Ottawa has been resolved,\" Smith told Albertans on Tuesday night. \"There are still many political and constitutional battles ahead of us.\""
+        },
+        {
+          "type": "p",
+          "text": "On the question of whether Alberta should remain in Canada the answer was not close. The 75 per cent of voters who chose the first option is decidedly more decisive than the 1980 referendum in Quebec."
+        },
+        {
+          "type": "p",
+          "text": "Of the 25 per cent who voted for another referendum, it is also fair to ask how many genuinely want secession. According to Abacus Data, making Alberta an independent country was the primary motivation for just 32 per cent of Albertans who favoured Option 2."
+        },
+        {
+          "type": "p",
+          "text": "Whatever Smith's appetite for future constitutional battles, Albertan voters also proved to be unenthusiastic: all four questions about whether Alberta should pursue constitutional amendments were answered with a \"no.\""
+        },
+        {
+          "type": "p",
+          "text": "Not even a question about abolishing the Senate — possibly the most-maligned public institution in Canada history — was able to muster even a simple majority of Albertans."
+        },
+        {
+          "type": "p",
+          "text": "\"There's a reason to be skeptical that some constitutional amendments would be worth the effort and ... what I'm seeing is that Albertans would just rather that we spend our time focusing on things where we can make some meaningful change,\" Smith said at a news conference on Wednesday (at the time, two of the four constitutional questions were being answered in the negative as results were still being tallied)."
+        },
+        {
+          "type": "p",
+          "text": "\"That's why I think the numbers were so different on the immigration questions versus … perhaps the constitutional ones.\""
+        },
+        {
+          "type": "p",
+          "text": "Beside Smith's own political future, the most unresolved questions raised by her referendum concern immigration — and one of the questions now is whether they will feed into a more polarized national debate on Canada's immigration policy."
+        },
+        {
+          "type": "h",
+          "text": "Immigration on the ballot in Alberta"
+        },
+        {
+          "type": "p",
+          "text": "Of Smith's 10 questions, four concerned either immigration or potential new rules for newcomers. On its official referendum website, Smith's government claimed that \"unsustainable immigration levels over the past 10 years\" had \"a profound impact\" on Alberta's ability \"to fund and effectively deliver social services like health care and education — directly impacting Albertans' access to these services and costing taxpayers billions of dollars.\""
+        },
+        {
+          "type": "p",
+          "text": "Alberta NDP Leader Naheed Nenshi argued Smith was \"scapegoating\" immigrants."
+        },
+        {
+          "type": "p",
+          "text": "\"The reality of the matter is even if you took all the young, healthy temporary foreign workers out of the health-care system, even if you denied public education to refugee children, it's not going to make the emergency room lineups any less,\" Nenshi told CBC's Power & Politics this week. \"It's not going to make your classrooms any smaller. It's not going to make anyone's life better.\""
+        },
+        {
+          "type": "p",
+          "text": "Just under 55 per cent of voters supported the proposition that the Alberta government should take \"increased control over immigration for the purposes of decreasing immigration to more sustainable levels.\""
+        },
+        {
+          "type": "p",
+          "text": "Danielle Smith says Alberta separatist UCP members can 'join a different party'"
+        },
+        {
+          "type": "p",
+          "text": "Three questions that floated possible limitations on how or when newcomers or temporary residents can access health care, education and other social services in Alberta were supported by narrower majorities of 52.4, 53.1 and 52 per cent."
+        },
+        {
+          "type": "p",
+          "text": "Smith's government has a majority in the Alberta legislature and it didn't need a referendum to pursue any of these initiatives. But the results — notably, none of the immigration questions won a majority in Calgary — may give Smith reason to hesitate."
+        },
+        {
+          "type": "p",
+          "text": "At her news conference on Wednesday, the premier suggested she was prepared to act quickly on the first question, but she would \"proceed with caution\" in response to questions two, three and four. She said she did not want to impact anyone who was already residing in Alberta."
+        },
+        {
+          "type": "p",
+          "text": "While Prime Minister Mark Carney raised some eyebrows when he repeated the \"no to the nine\" slogan before Alberta's vote, he had also suggested he was inclined to give all provinces more input on immigration."
+        },
+        {
+          "type": "p",
+          "text": "\"To be candid, I don't need a referendum to tell us to co-operate more with the provinces on immigration,\" Carney told Global News a few days before Alberta's vote. \"I think that's where we're headed.\""
+        },
+        {
+          "type": "p",
+          "text": "But Alberta's immigration questions also caught the attention of Conservative Leader Pierre Poilievre."
+        },
+        {
+          "type": "h",
+          "text": "An increasingly polarized debate"
+        },
+        {
+          "type": "p",
+          "text": "\"I thought it was inappropriate for the prime minister to tell Canadians and tell Albertans that they should vote to continue to give deluxe taxpayer benefits to people who are illegally here,\" Poilievre said. \"And for the prime minister to suggest that Albertans vote in favor of continued mass, unvetted, out of control immigration was a mistake.\""
+        },
+        {
+          "type": "p",
+          "text": "The Conservative Party also sent a fundraising appeal to supporters on Tuesday that promised a Conservative government would \"dramatically reduce immigration.\""
+        },
+        {
+          "type": "p",
+          "text": "The Carney government argues that it has immigration \"under control\" after steps were taken to curb the intake of international students and temporary workers. The Conservatives obviously disagree."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Conservatives accuse government of 'cooking the books' over immigration data presentation"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "But the Alberta referendum also landed between two triggers for renewed debate about immigration to Canada."
+        },
+        {
+          "type": "p",
+          "text": "First, in discussing immigration policy during an interview with the New York Times last month, Carney said, \"now the question starts to become: When do we resume some controlled increase in the population, which is the nature of Canada? So that will happen, and we just want to make sure that we've got it under control.\""
+        },
+        {
+          "type": "p",
+          "text": "Now the federal government is due to table its latest immigration levels plan, which sets out targets for the next few years for both permanent and temporary arrivals (technically, a new plan is due by Nov. 1, but last year's plan was included in the fall budget)."
+        },
+        {
+          "type": "p",
+          "text": "Speaking to reporters on Wednesday, Carney said his government \"will not budge from overall levels that are sustainable.\" But what constitutes \"sustainable\" is likely a matter of debate."
+        },
+        {
+          "type": "p",
+          "text": "At a news conference on Thursday, Conservative immigration critic Michelle Rempel Garner argued \"mass immigration\" was suppressing wages and driving up rents, to the benefit of corporate profiteers. Conservatives, she said, will \"vigorously oppose any attempt by Mark Carney to continue to raise and sustain high immigration levels\" and \"will push him to lower them.\""
+        },
+        {
+          "type": "p",
+          "text": "Claims that the \"Canadian consensus\" on immigration has been broken are sometimes overstated. Canadians still believe immigration is a net-positive for the economy, but they also believe recent immigration levels have been too high, driven in large part by concerns about the availability and affordability of housing."
+        },
+        {
+          "type": "p",
+          "text": "Polling by the Environics Institute has also shown a growing gap along the political spectrum, with Conservative voters much more inclined to say there is too much immigration. And the parties themselves may be getting further apart."
+        },
+        {
+          "type": "p",
+          "text": "That is not the most stable foundation on which to build significant new increases in immigration, however much such increases might be necessary."
+        },
+        {
+          "type": "p",
+          "text": "If the goal remains to be as open and welcoming as possible — if there is an economic imperative to being so — \"proceed with caution\" might be good advice for all sides."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Aaron Wherry has covered Parliament Hill since 2007 and has written for Maclean's, the National Post and the Globe and Mail. He is the author of Promise & Peril, a book about Justin Trudeau's years in power."
         }
       ],
       "truncated": false,
@@ -2323,7 +2677,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-o4mt7f",
@@ -3785,31 +4139,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-15ht3hv",
-      "source": "inq",
-      "title": "Businessman arrested in Ilocos Norte drug bust",
-      "summary": "SAN ILDEFONSO, Ilocos Sur— Police arrested a 33-year-old businessman in a drug buy-bust operation in Sarrat, Ilocos Norte, on Thursday. In a report on Friday, the Sarrat Municipal Police Station…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-24T06:25:41.000Z",
-      "firstSeen": "2026-10-24T06:30:56.249Z",
-      "url": "https://newsinfo.inquirer.net/2329352/businessman-arrested-in-ilocos-norte-drug-bust",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Ilocos-Norte-map-filephoto-091122-300x171.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN ILDEFONSO, Ilocos Sur— Police arrested a 33-year-old businessman in a drug buy-bust operation in Sarrat, Ilocos Norte, on Thursday. In a report on Friday, the Sarrat Municipal Police Station seized five heat-sealed plastic sachets containing suspected &#8220;shabu&#8221; (crystal meth) weighing a total of 1.61 grams. Police also recovered drug-using paraphernalia, a mobile phone, a black sling bag, a pair of scissors, lighters, a motorcycle and the buy-bust money. The suspect was taken into police custody as authorities prepared to pursue the appropriate charges.... Keep on reading: Businessman arrested in Ilocos Norte drug bust"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "grd-1odfcbf",
       "source": "grd",
       "title": "Blaze engulfs Hitler’s ‘Eagle’s Nest’ mountain retreat in Bavaria",
@@ -3892,81 +4221,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-8dn1iq",
-      "source": "inq",
-      "title": "Mindanao rights lawyers laud SC rules backing grassroots advocacy",
-      "summary": "CAGAYAN DE ORO CITY — Human rights lawyers in Mindanao welcomed a Supreme Court (SC) issuance establishing formal institutional backing for developmental and public-interest legal practice across the…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-24T06:21:01.000Z",
-      "firstSeen": "2026-10-24T06:30:56.306Z",
-      "url": "https://newsinfo.inquirer.net/2329344/mindanao-rights-lawyers-laud-sc-rules-backing-grassroots-advocacy",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/01/Front-Page1168331-620x415.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CAGAYAN DE ORO CITY — Human rights lawyers in Mindanao welcomed a Supreme Court (SC) issuance establishing formal institutional backing for developmental and public-interest legal practice across the country. The Union of Peoples’ Lawyers in Mindanao (UPLM) hailed Administrative Matter No. 24-07-24, or the Rules on Institutionalizing Support for Developmental and Social Change Lawyering (DSC Rules), calling it a decisive move to embed pro-people legal work into the heart of the judicial system. According to the group, the new framework provides crucial institutional reinforcement for attorneys working directly with farmers, indigenous communities, laborers, and other marginalized sectors fighting for land, ancestral [&hellip;]... Keep on reading: Mindanao rights lawyers laud SC rules backing grassroots advocacy"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-jmqmj9",
-      "source": "inq",
-      "title": "Military war games lunched in Dinagat Islands",
-      "summary": "SAN FRANCISCO, Agusan del Sur— Some 600 soldiers took part in a four-day joint military exercises in Dinagat Islands starting Thursday, October 22, a drill designed to test and improve the readiness…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-24T06:12:00.000Z",
-      "firstSeen": "2026-10-24T06:30:56.315Z",
-      "url": "https://newsinfo.inquirer.net/2329332/military-war-games-lunched-in-dinagat-islands",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Military-war-games-kick-off-in-Dinagat-Islands-24October2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN FRANCISCO, Agusan del Sur— Some 600 soldiers took part in a four-day joint military exercises in Dinagat Islands starting Thursday, October 22, a drill designed to test and improve the readiness of troops and local authorities on combat scenarios and man-made disasters. Spearheaded by the Armed Forces of the Philippines’ (AFP) Eastern Mindanao Command (EastMinCom), the war games, dubbed “Exercise Surigao Sentinel 01-2026,” will involve live-fire tests, troop movements, and war game maneuvers across key staging areas in the province. Col. Rosa Ma. Cristina Rosete Manuel, Eastmincom spokesperson, said the war games will bring together military units, government agencies, and [&hellip;]... Keep on reading: Military war games lunched in Dinagat Islands"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-a81ynn",
-      "source": "inq",
-      "title": "4 PAF pilots killed in Batangas plane crash; SF-260 fleet grounded",
-      "summary": "MANILA, Philippines — Four Philippine Air Force (PAF) pilots were killed after two SF-260 aircraft crashed during a training flight in Batangas on Friday, the Air Force confirmed on Saturday. The PAF…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-24T06:08:18.000Z",
-      "firstSeen": "2026-10-24T06:31:00.205Z",
-      "url": "https://newsinfo.inquirer.net/2329371/4-paf-pilots-killed-in-batangas-plane-crash-sf-260-fleet-grounded-2",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/4-PAF-pilots-killed-in-collision-involving-2-trainer-aircraft-in-Batangas-24October2026_2-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Four Philippine Air Force (PAF) pilots were killed after two SF-260 aircraft crashed during a training flight in Batangas on Friday, the Air Force confirmed on Saturday. The PAF has temporarily grounded all its SF-260 aircraft as it investigates the cause of the crash. Both aircraft went down within the perimeter of Fernando Air Base in Lipa City at around 3:51 p.m. Friday, according to the PAF. “An investigation is underway to determine the cause of the accident, while all SF-260 aircraft have been temporarily grounded as a precautionary safety measure,” it said in a statement. The Air [&hellip;]... Keep on reading: 4 PAF pilots killed in Batangas plane crash; SF-260 fleet grounded"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "grd-ymp3mg",
@@ -4518,138 +4772,6 @@
         {
           "type": "p",
           "text": "Benitez said the agency had already ordered an immediate internal investigation to identify those responsible for any unauthorized actions or misrepresentations, and enforce appropriate administrative and, if warranted, criminal cases. — VDV, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-ki3neq",
-      "source": "grd",
-      "title": "France to deploy 70,000 police on Saturday to prevent civil unrest",
-      "summary": "<p>Security forces to include elite units usually used for counter-terrorism after worst street violence in years</p><p>France will deploy about 70,000 police around the country on Saturday as the…",
-      "byline": "Jon Henley in Paris",
-      "section": "France",
-      "published": "2026-10-24T05:46:58.000Z",
-      "firstSeen": "2026-10-24T06:00:58.100Z",
-      "url": "https://www.theguardian.com/world/2026/oct/23/france-police-demonstrations-civil-unrest",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/b6ac2b9c5241141a833ecef0b1e0772c1adb957a/458_0_4583_3667/master/4583.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ae2af0554df68a1c1cfdaeb235c2d115",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "France will deploy about 70,000 police around the country on Saturday as the government seeks to prevent more civil unrest after some of the worst street violence in years erupted on the fringes of cost-of-living protests last weekend."
-        },
-        {
-          "type": "p",
-          "text": "The interior minister, Laurent Nuñez, said on ⁠Friday ⁠the security forces would include elite units usually used for counter-terrorism operations and hostage rescues, adding that there had been social media calls for violence from “ultra-left” groups."
-        },
-        {
-          "type": "p",
-          "text": "“We are not talking about ⁠a peaceful, friendly demonstration,” Nuñez ​told reporters after a meeting of senior ministers and officials chaired by the president, Emmanuel Macron. “We ​are ​ready tomorrow ​to be ‌extremely firm ​and ​not tolerate anything.”"
-        },
-        {
-          "type": "p",
-          "text": "Major museums including the Louvre, Orsay Museum, Picasso Museum and Grand Palais – where a major Cézanne exhibit is on display – are closed Saturday. Art Basel, one of the world’s most prestigious contemporary art fairs, opened to the public Friday, but only for the day, with the threat of unrest prompting organisers to cancel the weekend program."
-        },
-        {
-          "type": "p",
-          "text": "Parisian shopkeepers have been barricading their stores all week. Near Place de la République in Paris, one of last weekend’s hotspots, a bank branch and other businesses were boarded up with wooden panels to deter potential looters."
-        },
-        {
-          "type": "p",
-          "text": "Macron and his government are struggling to get on top of a crisis that has caught it off guard six months before presidential elections to choose his successor. The government has admitted it “lost control” over widespread rioting on Saturday."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/73207d76c1ad3850932a8b18dfa8d205dfe10da9/0_0_5891_3967/master/5891.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "A demonstrator reads a book on the street at a protest organised by student collectives and trade unions in Paris on 22 October. Photograph: Abdul Saboor/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "Largely peaceful demonstrations were hijacked by groups of determined rioters, degenerating into rampant violence and extensive looting in Paris, Marseille, Lyon and other cities. In Limoges, the town hall was set on fire and partly destroyed."
-        },
-        {
-          "type": "p",
-          "text": "“We will be uncompromising with rioters, looters and all who commit violence,” Nuñez said, adding that besides 10,000 more police, the operation would include water cannon, armoured vehicles, mounted police, helicopters and drones."
-        },
-        {
-          "type": "p",
-          "text": "Demonstrations are expected in several other countries this weekend, triggered by a broader, continent-wide wave of discontent over declining public services, housing affordability, public sector budget cuts and the spiralling cost of living."
-        },
-        {
-          "type": "p",
-          "text": "Protests over related grievances have been called for Saturday in Milan, Rome and Turin in Italy; in Vienna, Austria; and in Madrid, Barcelona and other cities in Spain, as well as in Lisbon and Porto in Portugal, Dublin in Ireland and Tirana in Albania."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/uploads/2026/10/18/Historic_Limoges_city_hall_collapses_after_being_set_ablaze--92612335-3225-4978-a736-52abdd9cb087-1.0.0000000.jpg?width=120&dpr=1&s=none&crop=5%3A4",
-          "caption": "Historic Limoges city hall collapses after being set ablaze"
-        },
-        {
-          "type": "p",
-          "text": "Protests are expected across France on Saturday, although several cities have banned demonstrations or forced them to change their planned routes to protect shops and public buildings, and forecast heavy rain and high winds could dampen turnout."
-        },
-        {
-          "type": "p",
-          "text": "The centres of Lyon and some other large cities will be off-limits to protesters, while authorities in Paris authorised a union march along a limited route in the east of the capital between the Places de la Bastille and Nation that will avoid the city centre."
-        },
-        {
-          "type": "p",
-          "text": "But requests for rallies in Paris organised by France’s main student union, UNEF, and the gilets jaunes movement, whose nationwide protests rocked France in 2018 and which plans 600 small-scale events around France on Saturday, were refused."
-        },
-        {
-          "type": "p",
-          "text": "UNEF said its rallies, which grew from high school protests last month against teacher shortages and dilapidated facilities, would go ahead regardless. Several of the best-known cultural institutions in Paris, including the Louvre, said they would close on Saturday."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/8787886b81005f8af60a7f72e047b10843d569e1/0_0_5657_3772/master/5657.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "People walk past a closed Monoprix store in Lyon, France, after protests turned violent. Photograph: Lisi Niesner/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "Authorities in Marseille had also banned all protests, but announced on Friday that a union-organised demonstration would be allowed on an “exceptional basis”. It will be the only authorised protest in the southern Bouches-du-Rhône department."
-        },
-        {
-          "type": "p",
-          "text": "Unionists and opposition leaders have criticised the government for refusing to allow more rallies on Saturday, a decision being challenged in court in several cities. Marylise Léon of the CFDT union federation accused Macron of an abuse of authority."
-        },
-        {
-          "type": "p",
-          "text": "“It’s ​counterproductive because there is a lot ​of anger and a demand to be considered and to be listened to,” Léon, the CFDT’s general secretary, told TF1 TV. “It’s not for the president to decide who can legitimately protest.”"
-        },
-        {
-          "type": "p",
-          "text": "La France Insoumise, the radical left party of Jean-Luc Mélenchon, said the government had “crossed the lines that separate a democracy from an authoritarian and police state”, adding that the bans would only “generate more chaos”."
-        },
-        {
-          "type": "p",
-          "text": "Adding to the tensions, the far-right leader Marine Le Pen, the frontrunner for next spring’s presidential elections, is due to host her National Rally (RN) party congress in Orléans, drawing thousands of supporters – and leftwing, anti-racist opponents."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/32d764b33cca2ae5c3124e1238a8ea39749829ae/0_0_5740_3827/master/5740.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "French police attending the aftermath of a shooting in Trappes, near Paris, in which one person was killed and four injured. Photograph: Yoan Valat/EPA"
-        },
-        {
-          "type": "p",
-          "text": "Nuñez was due to visit the city on Friday to “inspect the security arrangements” at the request of the prime minister’s office. The justice minister, Gérald Darmanin, said 217 people – half of them first-time offenders – had been jailed since Saturday."
-        },
-        {
-          "type": "p",
-          "text": "On Thursday, Macron called for “the utmost severity” against “acts of delinquency”, saying gangs of rioters had been mainly responsible for the looting but the worst violence was caused by “ultra-left” groups seeking to “bring down the republic”."
-        },
-        {
-          "type": "p",
-          "text": "Further stoking disquiet, one person was killed and four others injured – including a 12-year-old girl – in ⁠a shooting in the town of Trappes, west of Paris, on Friday in an attack that police said could have been racially motivated."
         }
       ],
       "truncated": false,
@@ -5481,110 +5603,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "grd-pm9a1t",
-      "source": "grd",
-      "title": "John Healey pledges to use budget to harness power of AI to bolster Britain’s security",
-      "summary": "<p>Chancellor says government to commit hundreds of millions to develop ‘distinctively British’ approach to AI</p><p>John Healey has pledged to use Wednesday’s budget to harness the power of…",
-      "byline": "Richard Partington Senior economics correspondent",
-      "section": "Budget 2026",
-      "published": "2026-10-24T05:00:24.000Z",
-      "firstSeen": "2026-10-24T05:30:52.750Z",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/24/john-healey-pledges-to-use-budget-to-harness-power-of-ai-to-bolster-britains-security",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/13ceb52a43f1b6771519d70b1eb33680ffbec0ca/0_0_2750_2200/master/2750.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7c0a9667489edbac502049a00339a656",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "John Healey has pledged to use Wednesday’s budget to harness the power of artificial intelligence to bolster Britain’s security and prosperity against the risks in the accelerating global technology arms race."
-        },
-        {
-          "type": "p",
-          "text": "As he prepares for his debut budget, the chancellor said that Andy Burnham’s government would commit hundreds of millions of pounds to develop a “distinctively British” approach to AI that would capitalise on the benefits of the frontier technology."
-        },
-        {
-          "type": "p",
-          "text": "At a fork in the road as AI developments pose both existential threats and transformative economic potential, Healey said he would be making the biggest ever investment to guard against cyber risks and the disruptive potential of the technology."
-        },
-        {
-          "type": "p",
-          "text": "As part of the measures in his tax and spending statement, he promised fresh investment for Britain’s AI Security Institute and other critical institutions, alongside allocating public money to support the use of the technology for good."
-        },
-        {
-          "type": "p",
-          "text": "“AI will transform daily life: every firm, community, hospital, school and every aspect of our economy can benefit,” Healey said."
-        },
-        {
-          "type": "p",
-          "text": "“I understand and share the concerns of working people, so I am setting out a distinctively British approach to AI – one that doesn’t leave workers behind and defends our national interest, while ensuring the benefits of AI-enabled growth are felt right across the country.”"
-        },
-        {
-          "type": "p",
-          "text": "Three months into Burnham’s premiership, Healey is poised to deliver a budget against an increasingly volatile backdrop as the war in the Middle East sends shock waves through the global economy, putting pressure on public finances and reigniting the cost of living crisis."
-        },
-        {
-          "type": "p",
-          "text": "The chancellor has vowed to use his first budget to provide households and businesses with “breathing space” as the global surge in energy costs triggered by the war hits millions of families this winter. On Friday, the latest tensions in the Gulf sent the oil price to its highest level for six months, rising above $117 a barrel at one point."
-        },
-        {
-          "type": "p",
-          "text": "However he will also use the opportunity afforded by the critical speech to the Commons to flesh out Burnham’s policy priorities for government after he replaced Keir Starmer this summer, and to spell out a vision for Britain amid the increasingly turbulent global economic outlook."
-        },
-        {
-          "type": "p",
-          "text": "Aiming to harness the opportunities of AI to raise living standards, back UK businesses and support economic growth, the chancellor said he wanted to seize the opportunities of the technology as a central plank of Labour’s plan for growth."
-        },
-        {
-          "type": "p",
-          "text": "It comes after official figures show AI investment has helped the UK outperform gloomy economic forecasts as the Iran war pushes up inflation and drags down business confidence, powering the country to the strongest growth performance in the G7 in the first half of this year."
-        },
-        {
-          "type": "p",
-          "text": "However, there are growing fears over the security of the nation and critical industries as the technology opens up the danger of cyber-attacks, IT systems turning rogue and devastating job losses as companies invest in machines rather than humans."
-        },
-        {
-          "type": "p",
-          "text": "It comes as websites around the globe went dark this week after a serious vulnerability was found in a computer language used to build much of the world wide web, in a development made possible by rapid AI advances. It also emerged this week that Barclays is cutting 5,000 jobs as part of cost-saving plans identified by bosses as the rollout of AI across the bank helps it make efficiency gains."
-        },
-        {
-          "type": "p",
-          "text": "Healey said he wanted to use his budget to protect against risks while also nurturing homegrown businesses and talent, in order to cut Britain’s dependency on other countries that were also making strides in AI technology."
-        },
-        {
-          "type": "p",
-          "text": "New investments would be made in AI chip design capability in Edinburgh, alongside a new AI Centre of Excellence in Manchester that it said would enable the UK to harness the technology’s benefits."
-        },
-        {
-          "type": "p",
-          "text": "The government would also spend £10m a year to lead the UK’s work on understanding how AI will reshape jobs and industry, aiming to address concerns about potential job disruption."
-        },
-        {
-          "type": "p",
-          "text": "As part of the plan the Treasury said it would back up to £300m in public-private investment in a new AI Biosecurity Lab, designed to serve as a world-leading institution bringing together scientific expertise to protect people from emerging biological threats."
-        },
-        {
-          "type": "p",
-          "text": "It comes after the defence secretary, Wes Streeting, warned on Thursday that UK households should make preparations against the mounting risks from weather, cyber or other serious emergencies."
-        },
-        {
-          "type": "p",
-          "text": "The advice to stock up on supplies to last 72 hours, in a campaign called Be Ready, comes as Silicon Valley bosses sound the alarm over the increasingly existential threats AI could pose, and amid growing official concern over the impact of the climate crisis, technological dependency and hostile state threats."
-        },
-        {
-          "type": "p",
-          "text": "Dan Jarvis, the security minister, said: “I’m proud the UK has repeatedly been at the forefront of global efforts to use AI for the benefit of humankind."
-        },
-        {
-          "type": "p",
-          "text": "“Today’s investment will help the UK seize the opportunities AI presents to strengthen our national security, while staying one step ahead of those who seek to use AI to do us harm.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "rap-1rmili8",
       "source": "rap",
       "title": "What community means for a wine shop along Maginhawa Street",
@@ -5885,6 +5903,198 @@
         {
           "type": "h",
           "text": "Tracking the tense relationship between India and China"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-194wgq7",
+      "source": "cbc",
+      "title": "Brewers withstand Rays' comeback attempt to win Game 1 of World Series",
+      "summary": "Trevor Megill struck out Jonny DeLuca with runners on second and third to wiggle out of a ninth-inning jam as the Milwaukee Brewers escaped with a 3-2 victory over the Tampa Bay Rays in Game 1 of the…",
+      "byline": "Steve Megargee",
+      "section": "Sports/Baseball/MLB",
+      "published": "2026-10-24T04:46:17.000Z",
+      "firstSeen": "2026-10-24T09:00:55.525Z",
+      "url": "https://www.cbc.ca/sports/baseball/mlb/world-series-game-1-brewers-rays-mlb-9.7394292?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/c3e2ec15-3723-4f1a-b8d6-33c92869f2af,1792817008945/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C27%2C7324%2C4119%29%3BResize%3D620",
+        "caption": "Milwaukee Brewers left fielder Jackson Chourio celebrates his RBI base hit during the seventh inning of Game 1 of the MLB World Series on Friday in Milwaukee. The Brewers beat the visiting Tampa Bay Rays 3-2. (Ashley Landis/The Associated Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MLB·Recap"
+        },
+        {
+          "type": "p",
+          "text": "Trevor Megill struck out Jonny DeLuca with runners on second and third to wiggle out of a ninth-inning jam as the Milwaukee Brewers escaped with a 3-2 victory over the Tampa Bay Rays in Game 1 of the World Series."
+        },
+        {
+          "type": "h",
+          "text": "Milwaukee escapes 9th-inning jam to score 3-2 victory"
+        },
+        {
+          "type": "p",
+          "text": "· The Associated Press"
+        },
+        {
+          "type": "p",
+          "text": "· Posted: Oct 24, 2026 12:46 AM EDT | Last Updated: 4 hours ago"
+        },
+        {
+          "type": "p",
+          "text": "Trevor Megill struck out Jonny DeLuca with runners on second and third to wiggle out of a ninth-inning jam as the Milwaukee Brewers escaped with a 3-2 victory over the Tampa Bay Rays in Game 1 of the World Series on Friday night in Milwaukee."
+        },
+        {
+          "type": "p",
+          "text": "DeLuca's strikeout came after Tampa Bay's Liam Hicks had grounded into an apparent game-ending double play that was overturned after a video review. Replays determined that Brewers shortstop Cooper Pratt's right foot was slightly off the bag when he reached to catch a high throw from second baseman Brice Turang."
+        },
+        {
+          "type": "p",
+          "text": "\"You have a big range of emotions,\" Milwaukee captain Christian Yelich said. \"It's a big credit to Trev for locking back in right there and making some huge pitches after you have that emotional dump and then have to get back on it.\""
+        },
+        {
+          "type": "p",
+          "text": "Jacob Misiorowski allowed one run and four hits over five innings to earn the victory."
+        },
+        {
+          "type": "p",
+          "text": "Abner Uribe and Aaron Ashby combined for five strikeouts in three scoreless innings of relief before handing the ball to Megill."
+        },
+        {
+          "type": "p",
+          "text": "\"Not perfect, but good enough to get a win,\" Misiorowski said."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Brewers storm back to sweep NLCS, ending Dodgers' dream of World Series 3-peat"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Yelich hit an RBI triple to spark a two-run rally in the first that put the Brewers ahead for good and delighted a sellout crowd reveling in Milwaukee's first World Series game since 1982. Jackson Chourio and William Contreras each had two hits, including an RBI single. Contreras also threw out two runners trying to steal."
+        },
+        {
+          "type": "p",
+          "text": "This marks the first World Series featuring two teams seeking their first championship since 1980, when the Philadelphia Phillies beat the Kansas City Royals in six games. The only other major league clubs without a World Series title are the Colorado Rockies, San Diego Padres and Seattle Mariners."
+        },
+        {
+          "type": "p",
+          "text": "The Game 1 winner has gone on to win the World Series 62.8% of the time."
+        },
+        {
+          "type": "p",
+          "text": "Tampa Bay trailed 3-1 and hadn't put a runner on since the sixth inning until it mounted its comeback attempt in the ninth."
+        },
+        {
+          "type": "p",
+          "text": "Jonathan Aranda and Chandler Simpson hit consecutive one-out singles off Megill. A double steal involving pinch-runner Jorge Mateo and Simpson put the potential tying run in scoring position with Rays slugger Junior Caminero at the plate. Caminero walked on a 3-2 pitch in the dirt to load the bases."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Rays' Liam Hicks spent teenage years in Toronto area before baseball career blossomed"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Hicks hit a grounder to the right side, and Turang ranged well to his left to field the ball before throwing to Pratt to start what initially was ruled a game-ending double play."
+        },
+        {
+          "type": "p",
+          "text": "Fireworks went off, players poured onto the field and Milwaukee fans roared — before the crowd hushed as it watched the play again on the videoboard."
+        },
+        {
+          "type": "p",
+          "text": "A replay review determined Pratt's right foot came off the bag as he caught Turang's throw. Hicks was still out at first, but the Rays now had runners at second and third with the score 3-2."
+        },
+        {
+          "type": "p",
+          "text": "\"I thought Coop had him, and obviously I was wrong,\" Misiorowski said."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Peralta, Caminero and Diaz lead Rays to Game 6 win and trip to the World Series"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Megill finally closed the deal as DeLuca struck out swinging."
+        },
+        {
+          "type": "p",
+          "text": "\"You just have to lock it back in,\" Yelich said. \"It's the World Series — you have to do what you have to do to make things happen.\""
+        },
+        {
+          "type": "p",
+          "text": "By sweeping the two-time defending World Series champion Los Angeles Dodgers in the National League Championship Series, the Brewers had time to set up their rotation the way they wanted by handing the Game 1 start to Misiorowski, the hard-throwing NL Cy Young Award favorite."
+        },
+        {
+          "type": "p",
+          "text": "Misiorowski opened the game by throwing the fastest pitch ever delivered in a World Series, a 103.5 mph ball to Yandy Diaz. The right-hander finished with a season-low three strikeouts."
+        },
+        {
+          "type": "p",
+          "text": "\"Look, he's so talented. He's such a special pitcher. I felt like for him to be out of the game at five innings, there's a small win in that,\" Rays manager Kevin Cash said. \"The problem is when you knock him out of the game, you've got just an elite bullpen that can match up and come in the ballgame like they did and kept us quiet there.\""
+        },
+        {
+          "type": "p",
+          "text": "While Milwaukee started with its ace, Tampa Bay countered with Nick Martinez to give two-time All-Star pitchers Drew Rasmussen and Freddy Peralta an extra day of rest. Martinez struck out five and allowed two runs over five innings, but a slow start proved costly."
+        },
+        {
+          "type": "p",
+          "text": "Chourio lined a single to right field on Martinez's first pitch, and Yelich drove him home with a one-out triple to center. DeLuca covered 85 feet to track down Yelich's drive but just missed making a diving catch as the ball glanced off his glove."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "More MLB coverage"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"I thought Jonny covered a lot of ground right there to even make that play close,\" Cash said. \"I don't think we did too many things wrong. They did some things right. Squared some balls up.\""
+        },
+        {
+          "type": "p",
+          "text": "Yelich was batting third in the lineup for the first time since Aug. 3. The three-time All-Star and 2018 NL MVP posted the lowest on-base percentage (.315) and OPS (.692) of his career, but he has stepped up his since being named the first team captain in franchise history the final week of the regular season."
+        },
+        {
+          "type": "p",
+          "text": "He was the seventh player to triple in his first World Series plate appearance, and the first since Kansas City's Lynn Jones in 1985, according to the Elias Sports Bureau."
+        },
+        {
+          "type": "p",
+          "text": "Contreras knocked home Yelich with a line-drive single to left that was deflected by shortstop Taylor Walls with the infield playing in."
+        },
+        {
+          "type": "p",
+          "text": "Tampa Bay got a run back in the fourth."
+        },
+        {
+          "type": "p",
+          "text": "Aranda drew a leadoff walk and advanced to third when Caminero doubled on a one-out liner with a 112.7 mph exit velocity that sailed over center fielder Garrett Mitchell and off his outstretched glove. Aranda came home on Hicks' groundout to the right side."
+        },
+        {
+          "type": "p",
+          "text": "Milwaukee extended the lead to 3-1 in the seventh. Pratt drew a leadoff walk from Steven Matz and scored from second when Chourio greeted Kevin Kelly with a two-out single."
+        },
+        {
+          "type": "p",
+          "text": "That insurance run proved critical."
+        },
+        {
+          "type": "p",
+          "text": "\"The guys settled in right away and did a great job,\" Yelich said. \"We still have a ways to go, but it's nice to get that first one.\""
         }
       ],
       "truncated": false,
@@ -10055,168 +10265,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "cbc-af0r0g",
-      "source": "cbc",
-      "title": "Chiefs, Opposition call for Alberta government to drop appeal of decision that quashed separation petition",
-      "summary": "With the Alberta referendum now in the books, some First Nation chiefs are calling on the provincial government to drop its appeal of a judge’s decision to quash the citizen petition on separation.",
-      "byline": "Jennifer Keiller",
-      "section": "News/Canada/Calgary",
-      "published": "2026-10-23T22:56:18.000Z",
-      "firstSeen": "2026-10-23T23:31:03.670Z",
-      "url": "https://www.cbc.ca/news/canada/calgary/chiefs-call-government-drop-appeal-separation-petition-9.7394085?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/2f764567-e2d9-425f-b941-5202886ed92f,1792793880609/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C339%2C6244%2C3512%29%3BResize%3D620",
-        "caption": "Chief Allan Adam speaks in March outside of the Alberta legislature, calling on the province to stomp out the citizen petition on separation. With the referendum now done, Adam says the province should drop its appeal of a ruling on the petition. (Jason Franson/The Canadian Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Calgary·New"
-        },
-        {
-          "type": "p",
-          "text": "With the Alberta referendum now in the books, some First Nation chiefs are calling on the provincial government to drop its appeal of a judge’s decision to quash the citizen petition on separation."
-        },
-        {
-          "type": "h",
-          "text": "Province says it won't be doing that"
-        },
-        {
-          "type": "p",
-          "text": "“I mean, now that the referendum’s happened, the issue’s moot,” said Siksika Nation Chief Samuel Crowfoot. “[Premier Danielle Smith] said up and down that she's not going to pursue another referendum. Well, I think now’s the chance for her to put action to those words and to drop that appeal.”"
-        },
-        {
-          "type": "p",
-          "text": "Crowfoot says doing so could help repair the relationship between First Nations and the province — a relationship, he says, right now is “fractured.”"
-        },
-        {
-          "type": "p",
-          "text": "\"The people said it straight out: we are not going to go through a separation. So my question would be is: why hang on to a process that the Alberta people gave her no mandate to speak on?\" Athabasca Chipewyan First Nation Chief Allan Adam said."
-        },
-        {
-          "type": "p",
-          "text": "At issue is a petition led by pro-independence group Stay Free Alberta to prompt the province to consider a referendum question on separation. It garnered more than 300,000 signatures earlier this year."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "First Nation chief seeks formal explanation after ballot shortages in Alberta referendum"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "NDP Leader Naheed Nenshi echoed the chiefs' calls at a news conference Friday morning."
-        },
-        {
-          "type": "p",
-          "text": "“Certainly the First Nations are spending money on lawyers, we taxpayers are spending money on lawyers, let’s listen to what Albertans said on Monday and just drop it,” Nenshi said."
-        },
-        {
-          "type": "p",
-          "text": "The province, however, says it won't be doing that. Justice Minister Mickey Amery said in a statement the government believes the \"decision contained errors of law.\""
-        },
-        {
-          "type": "p",
-          "text": "\"Citizens should not have to meet a duty to consult to gather signatures from fellow citizens on a citizen initiative petition,\" Amery said."
-        },
-        {
-          "type": "h",
-          "text": "The legal picture so far"
-        },
-        {
-          "type": "p",
-          "text": "Four First Nations — Athabasca Chipewyan First Nation, Siksika Nation, Blood Tribe and Piikani Nation — challenged the process involving Stay Free Alberta’s citizen petition."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Judge overturns Elections Alberta’s approval of separation referendum petition"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "In May, Justice Shaina Leonard ruled that there had been a failure to consult with the First Nations, and she overturned Elections Alberta’s approval of the petition."
-        },
-        {
-          "type": "p",
-          "text": "Because of that ruling, the government’s question on the Oct. 19 referendum ballot asked if Albertans supported the province starting the legal process to hold a second, binding referendum on separation."
-        },
-        {
-          "type": "p",
-          "text": "The government launched an appeal of Leonard’s decision. Mitch Sylvestre, who led the petition drive, is also appealing it."
-        },
-        {
-          "type": "p",
-          "text": "Crowfoot said he does not expect Sylvestre to drop his appeal."
-        },
-        {
-          "type": "p",
-          "text": "“So, we’ll handle Mitch’s, but Danielle should drop hers on the part of the government of Alberta,” he said."
-        },
-        {
-          "type": "p",
-          "text": "Mitch Sylvestre hold boxes of signatures before submitting them for a separation referendum to Elections Alberta in Edmonton on May 4, 2026. (Jason Franson/The Canadian Press)"
-        },
-        {
-          "type": "p",
-          "text": "For his part, Sylvestre says he would like to see the government continue its appeal."
-        },
-        {
-          "type": "p",
-          "text": "“I think, moving forward for democracy here in Alberta, it's very important that they have to appeal that,” Sylvestre said."
-        },
-        {
-          "type": "p",
-          "text": "“Because, I mean, this is a very contentious question, but there's gonna be other questions that somebody's going to disagree with. And, you know, all of a sudden, I can see that it won't be long they won't be able to ask any questions.”"
-        },
-        {
-          "type": "p",
-          "text": "According to unofficial results, Albertans voted 75 per cent in favour of the province remaining a part of Canada."
-        },
-        {
-          "type": "h",
-          "text": "What could happen next?"
-        },
-        {
-          "type": "p",
-          "text": "Because there are two appeals, the process would continue regardless if the government dropped its appeal, said Kathleen Mahoney, professor emeritus at the University of Calgary's faculty of law."
-        },
-        {
-          "type": "p",
-          "text": "Continuing its appeal could also give the government more clarity going forward, she said."
-        },
-        {
-          "type": "p",
-          "text": "“They may want to know exactly when in a government process that affects Indigenous rights a consultation has to take place,” she said."
-        },
-        {
-          "type": "p",
-          "text": "Constitutional experts have told CBC News that if an appeal is granted, the petition could indeed move forward."
-        },
-        {
-          "type": "p",
-          "text": "“If the [appeal] court agrees with the court below, it's over,” Mahoney said. “But if the court decides that the consultation could have taken place later in the process, well, then we're into a different scenario.”"
-        },
-        {
-          "type": "p",
-          "text": "In the latter case, it would trigger a requirement for the government to deal with the initial citizen petition, she said, but there is no timeline set for when that would need to happen."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Jennifer is a reporter with CBC Calgary. Previously, she worked for CTV News in Toronto. You can reach her at jennifer.keiller@cbc.ca"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-18pw0hc",
       "source": "cbc",
       "title": "Group files Competition Bureau complaint over Israeli real estate events in Toronto, Montreal",
@@ -12676,7 +12724,7 @@
       "byline": "ggaviola",
       "section": "Latest Global Nation Stories",
       "published": "2026-10-23T16:48:34.000Z",
-      "firstSeen": "2026-10-23T09:00:58.987Z",
+      "firstSeen": "2026-10-24T09:01:03.646Z",
       "url": "https://globalnation.inquirer.net/343594/pope-cancels-assisi-trip-on-doctors-advice-as-he-recovers-from-surgery",
       "image": null,
       "blocks": [
@@ -14627,86 +14675,6 @@
         {
           "type": "p",
           "text": "Meanwhile, a separate audit of almost 15,000 buildings by the National Building Inspectorate found that 4.8% were very dangerous while 72.3% were classified as unsafe."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "gma-190rot3",
-      "source": "gma",
-      "title": "DOLE sets safety guidelines for delivery riders amid El Niño",
-      "summary": "The Department of Labor and Employment (DOLE) has set guidelines for delivery riders amid the effects of Super El Niño.",
-      "byline": "GMA News",
-      "section": "",
-      "published": "2026-10-23T14:06:18.000Z",
-      "firstSeen": "2026-10-23T14:30:58.406Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1006965/dole-sets-safety-guidelines-for-delivery-riders-amid-el-ni-o/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/10/delivery_riders_2026_10_23_21_57_50.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published October 23, 2026 10:06pm"
-        },
-        {
-          "type": "p",
-          "text": "The Department of Labor and Employment (DOLE) has set guidelines for delivery riders amid the effects of Super El Niño."
-        },
-        {
-          "type": "p",
-          "text": "In a \"24 Oras\" report from Bernadette Reyes on Friday, DOLE met with representatives of online platforms to discuss the welfare of their riders amid the heat brought by the drought. DOLE Secretary Francis Tolentino asked the companies to support their riders."
-        },
-        {
-          "type": "p",
-          "text": "“Napagkasunduan kung paano ang proteksyon sa mga rider… na hindi ma-pe-penalize ang mga riders at di rin mai-inconvenience ang mga customers,” Tolentino said."
-        },
-        {
-          "type": "p",
-          "text": "(We have made an agreement on how to protect the riders… that does not penalize them and inconvenience the customers.)"
-        },
-        {
-          "type": "p",
-          "text": "Some of the guidelines set included allowing delivery time to be extended and scheduling deliveries when it is not too hot. If the heat is too intense, then deliveries could be suspended altogether."
-        },
-        {
-          "type": "p",
-          "text": "There will also be no penalties if the delivery is cancelled because the rider is in danger."
-        },
-        {
-          "type": "p",
-          "text": "“Lalabas sa app nila na ganito kainit, puwedeng hindi tanggapin ang delivery, at aabisuhan din yung customer na ma-late dahil sa sobrang init,” Tolentino said."
-        },
-        {
-          "type": "p",
-          "text": "(Their app will indicate how hot it is outside. They may decline the delivery, and customers will also be notified that their orders may be delayed due to the extreme heat.)"
-        },
-        {
-          "type": "p",
-          "text": "The company representatives said that they will ensure the safety of riders."
-        },
-        {
-          "type": "p",
-          "text": "“The safety and welfare of riders is our number one priority,” said lawyer Marien Lucenario, the Public Affairs Manager of Grab Philippines."
-        },
-        {
-          "type": "p",
-          "text": "“We are also going to make sure our partner riders are safe and taken care of during El Niño,” InDrive Country Public Policy and Government Affairs Manager Reini Evangelista said."
-        },
-        {
-          "type": "p",
-          "text": "DOLE is also studying including riders from ride-hailing apps in the guidelines."
-        },
-        {
-          "type": "p",
-          "text": "However, some riders are still worried about canceling their bookings, as it may affect their standing on the app."
-        },
-        {
-          "type": "p",
-          "text": "“‘Pag nag-cancel kami, kami mawawalan ng booking, yung account namin hihina… wala kami magagawa pag mainit kailangan pa rin namin maghanap buhay,” delivery rider Michael Remion said. (If we cancel, we will lose the booking; our account will weaken…we cannot do anything if it is too hot; we need to make a living.) —Jean Mangaluz/LDF, GMA News"
         }
       ],
       "truncated": false,
