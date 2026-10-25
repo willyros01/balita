@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-25T11:31:22.990Z",
+  "updated": "2026-10-25T12:01:20.116Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,63 @@
   ],
   "articles": [
     {
+      "id": "inqn-14n1pw9",
+      "source": "inqn",
+      "title": "Cool weather expected in PH despite Super El Niño — Pagasa",
+      "summary": "CALASIAO, Pangasinan — Residents of Northern Luzon and other parts of the country can expect chilly weather in December and January despite a potentially strong El Niño forecast from October through…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-10-25T12:01:11.110Z",
+      "firstSeen": "2026-10-25T06:00:54.205Z",
+      "url": "https://newsinfo.inquirer.net/2329866/cool-weather-expected-in-ph-despite-super-el-nino-pagasa",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2011/11/Benguet-weather.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CALASIAO, Pangasinan — Residents of Northern Luzon and other parts of the country can expect chilly weather in December and January despite a potentially strong El Niño forecast from October through the first half of 2027, according to the Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa). Jose Estrada Jr., chief of Pagasa&#8217;s Dagupan City"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1kqmusa",
+      "source": "inqn",
+      "title": "PSHS Main, Lapu-Lapu schools suspend Oct. 26 in-person classes",
+      "summary": "MANILA, Philippines — Face-to-face classes for Oct. 26 are suspended at the Philippine Science High School (PSHS) Main Campus in Quezon City and several schools in Lapu-Lapu City, Cebu. In an…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-10-25T12:01:09.312Z",
+      "firstSeen": "2026-10-25T06:00:54.204Z",
+      "url": "https://newsinfo.inquirer.net/2329876/pshs-main-lapu-lapu-schools-suspend-oct-26-in-person-classes",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2018/03/walang-pasok-generic.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Face-to-face classes for Oct. 26 are suspended at the Philippine Science High School (PSHS) Main Campus in Quezon City and several schools in Lapu-Lapu City, Cebu. In an advisory, the PSHS Main Campus said classes would be suspended from October 26 to 27, 2026, due to “increasing reports of rising illness among"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1m4yd8x",
       "source": "inqn",
       "title": "Teenager arrested over death of 17-year-old live-in partner in Isulan",
       "summary": "KORONADAL CITY — Police arrested a 19-year-old suspect on Sunday morning, Oct. 25, in connection with the death of his live-in partner, a 17-year-old student who was declared dead on arrival at a…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:10.439Z",
+      "published": "2026-10-25T12:01:09.311Z",
       "firstSeen": "2026-10-25T06:30:52.166Z",
       "url": "https://newsinfo.inquirer.net/2329893/teenager-arrested-over-death-of-17-year-old-live-in-partner-in-isulan",
       "image": {
@@ -84,7 +134,7 @@
       "summary": "IBA, Zambales — The Bureau of Customs (BOC) vowed to intensify its campaign against smuggling after seizing four shipping containers loaded with untaxed cigarettes worth an estimated P175 million at…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:10.439Z",
+      "published": "2026-10-25T12:01:09.311Z",
       "firstSeen": "2026-10-25T06:30:52.219Z",
       "url": "https://newsinfo.inquirer.net/2329878/boc-vows-crackdown-on-smuggling-after-zambales-cigarette-haul",
       "image": {
@@ -103,113 +153,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1kqmusa",
-      "source": "inqn",
-      "title": "PSHS Main, Lapu-Lapu schools suspend Oct. 26 in-person classes",
-      "summary": "MANILA, Philippines — Face-to-face classes for Oct. 26 are suspended at the Philippine Science High School (PSHS) Main Campus in Quezon City and several schools in Lapu-Lapu City, Cebu. In an…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:10.439Z",
-      "firstSeen": "2026-10-25T06:00:54.204Z",
-      "url": "https://newsinfo.inquirer.net/2329876/pshs-main-lapu-lapu-schools-suspend-oct-26-in-person-classes",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2018/03/walang-pasok-generic.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Face-to-face classes for Oct. 26 are suspended at the Philippine Science High School (PSHS) Main Campus in Quezon City and several schools in Lapu-Lapu City, Cebu. In an advisory, the PSHS Main Campus said classes would be suspended from October 26 to 27, 2026, due to “increasing reports of rising illness among"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-14n1pw9",
-      "source": "inqn",
-      "title": "Cool weather expected in PH despite Super El Niño — Pagasa",
-      "summary": "CALASIAO, Pangasinan — Residents of Northern Luzon and other parts of the country can expect chilly weather in December and January despite a potentially strong El Niño forecast from October through…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:10.439Z",
-      "firstSeen": "2026-10-25T06:00:54.205Z",
-      "url": "https://newsinfo.inquirer.net/2329866/cool-weather-expected-in-ph-despite-super-el-nino-pagasa",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2011/11/Benguet-weather.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CALASIAO, Pangasinan — Residents of Northern Luzon and other parts of the country can expect chilly weather in December and January despite a potentially strong El Niño forecast from October through the first half of 2027, according to the Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa). Jose Estrada Jr., chief of Pagasa&#8217;s Dagupan City"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-1ab953m",
-      "source": "inqg",
-      "title": "Is Iran ready for another major US attack after midterm elections?",
-      "summary": "Officials in Tehran are preparing for renewed strikes following media reports that the United States and Israel have been examining new options for escalating their war against Iran. The US midterm…",
-      "byline": "dlejano",
-      "section": "Global Scale",
-      "published": "2026-10-25T11:31:10.439Z",
-      "firstSeen": "2026-10-25T04:01:02.355Z",
-      "url": "https://globalnation.inquirer.net/343728/is-iran-ready-for-another-major-us-attack-after-midterm-elections",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/Analysts-say-Irans-regime-is-preparing-to-clamp-down-on-unrest-unleashed-by-possible-US-strikes-FILE-2022-Image-Morteza-NikoubazlNurPhotopicture-alliance.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Officials in Tehran are preparing for renewed strikes following media reports that the United States and Israel have been examining new options for escalating their war against Iran. The US midterm elections on November 3 and Israel&#8217;s October 27 election have injected a political factor into how both countries are approaching the conflict, which they launched in"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1e6ufyl",
-      "source": "inqn",
-      "title": "Gatchalian to enforcers: Carry out safe arrest of Dela Rosa",
-      "summary": "MANILA, Philippines — Senate President Sherwin Gatchalian on Sunday called on law enforcers to ensure the safe conduct of arrest of Sen. Ronald “Bato” Dela Rosa. “To our law enforcers, they must…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:10.383Z",
-      "firstSeen": "2026-10-25T09:01:01.118Z",
-      "url": "https://newsinfo.inquirer.net/2329954/gatchalian-to-enforcers-carry-out-safe-arrest-of-dela-rosa",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Sherwin-Gatchalian-13September2026_2.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Senate President Sherwin Gatchalian on Sunday called on law enforcers to ensure the safe conduct of arrest of Sen. Ronald “Bato” Dela Rosa. “To our law enforcers, they must conduct a safe arrest of Senator Bato. No violence should happen,” Gatchalian said in an interview with radio dzBB. “It&#8217;s important that Senator"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-14mrtrw",
       "source": "inqn",
       "title": "Cagayan pays tribute to PAF pilot killed in midair collision",
       "summary": "SAN ILDEFONSO, ILOCOS SUR, Philippines — The provincial government of Cagayan, led by Gov. Edgar “Egay” Aglipay, has expressed its condolences to the family of 1st Lt. Angeleo Adrian Peñaflor, a…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:10.383Z",
+      "published": "2026-10-25T12:01:07.759Z",
       "firstSeen": "2026-10-25T08:00:54.787Z",
       "url": "https://newsinfo.inquirer.net/2329923/cagayan-pays-tribute-to-paf-pilot-killed-in-midair-collision",
       "image": {
@@ -234,7 +184,7 @@
       "summary": "MANILA, Philippines — Sen. Panfilo “Ping” Lacson dismissed claims that the government’s bounty and surrender ultimatum for Sen. Ronald “Bato” Dela Rosa were timed to prevent the latter from voting in…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:10.383Z",
+      "published": "2026-10-25T12:01:07.759Z",
       "firstSeen": "2026-10-25T07:30:52.405Z",
       "url": "https://newsinfo.inquirer.net/2329928/lacson-bounty-not-to-keep-dela-rosa-from-voting-in-impeach-court",
       "image": {
@@ -259,7 +209,7 @@
       "summary": "MANILA, Philippines — National Police Commission (Napolcom) Commissioner Rafael Vicente Calinisan warned that criminology interns who violate traffic rules, such as riding motorcycles without…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:10.383Z",
+      "published": "2026-10-25T12:01:07.759Z",
       "firstSeen": "2026-10-25T07:30:52.455Z",
       "url": "https://newsinfo.inquirer.net/2329924/napolcom-warns-criminology-interns-about-violating-traffic-rules",
       "image": {
@@ -278,38 +228,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-14rfgrf",
-      "source": "inqg",
-      "title": "Riyadh airport resumes flights following Houthi attacks",
-      "summary": "RIYADH &#8212; Riyadh&#8217;s international airport said flights would resume on Sunday after a two-week closure following strikes from Yemen&#8217;s Houthis on the Saudi capital, though the…",
-      "byline": "dlejano",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-10-25T11:31:10.383Z",
-      "firstSeen": "2026-10-25T05:01:06.907Z",
-      "url": "https://globalnation.inquirer.net/343790/riyadh-airport-resumes-flights-following-houthi-attacks",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/Riyadh-airport-resumes-flights-following-Houthi-attacks-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "RIYADH &#8212; Riyadh&#8217;s international airport said flights would resume on Sunday after a two-week closure following strikes from Yemen&#8217;s Houthis on the Saudi capital, though the Iran-backed group warned of more to come. The Flight Radar monitoring site showed a plane taking off from Riyadh airport early Sunday, heading to the Saudi city of Jeddah."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-3cwlqz",
       "source": "inqg",
       "title": "UK police gave Meghan Markle letter on allegations vs her father in 2019",
       "summary": "LONDON — British police confirmed Saturday that they passed a letter about alleged offending by the father of Meghan, Duchess of Sussex, to her in 2019, but said it did not share details with other…",
       "byline": "dlejano",
       "section": "Europe",
-      "published": "2026-10-25T11:31:10.383Z",
+      "published": "2026-10-25T12:01:07.759Z",
       "firstSeen": "2026-10-25T05:01:14.115Z",
       "url": "https://globalnation.inquirer.net/343765/uk-police-gave-meghan-markle-letter-on-allegations-vs-her-father-in-2019",
       "image": {
@@ -334,7 +259,7 @@
       "summary": "A sense of hope swept through Belgrade on Thursday evening as thousands gathered for the final rally of the Student List, the group of candidates put forward by the student movement that has been…",
       "byline": "dlejano",
       "section": "Europe",
-      "published": "2026-10-25T11:31:10.383Z",
+      "published": "2026-10-25T12:01:07.759Z",
       "firstSeen": "2026-10-25T04:30:54.362Z",
       "url": "https://globalnation.inquirer.net/343736/hope-tension-and-apprehension-as-serbia-approaches-crucial-election",
       "image": {
@@ -353,88 +278,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1gnrs4r",
-      "source": "inqg",
-      "title": "Asean Summit 2026: Several Pasay roads closed Oct. 24-Nov. 20",
-      "summary": "MANILA, Philippines — Several roads in Pasay City will be closed from Oct. 24 to Nov. 20 for the 49th Association of Southeast Asian Nations (Asean) Summit, according to the Pasay Traffic and Parking…",
-      "byline": "mmercado",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-10-25T11:31:10.383Z",
-      "firstSeen": "2026-10-25T04:01:02.295Z",
-      "url": "https://globalnation.inquirer.net/343768/asean-summit-2026-several-pasay-roads-closed-oct-24-nov-20",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/Pasay-road-closure-asean-summit.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Several roads in Pasay City will be closed from Oct. 24 to Nov. 20 for the 49th Association of Southeast Asian Nations (Asean) Summit, according to the Pasay Traffic and Parking Management Office (PTMPO). In an advisory, the PTMPO said road closures and traffic changes are expected around the Philippine International Convention"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-4w61ez",
-      "source": "inqn",
-      "title": "LTFRB to PUV operators, drivers: Honor fare discounts",
-      "summary": "MANILA, Philippines — The Land Transportation Franchising and Regulatory Board (LTFRB) on Sunday warned operators and drivers of public utility vehicles that they may face penalties for not honoring…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:08.659Z",
-      "firstSeen": "2026-10-25T09:30:53.485Z",
-      "url": "https://newsinfo.inquirer.net/2329960/ltfrb-to-puv-operators-drivers-honor-fare-discounts",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/03/IMG_1598-scaled.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Land Transportation Franchising and Regulatory Board (LTFRB) on Sunday warned operators and drivers of public utility vehicles that they may face penalties for not honoring fare discounts provided for students, senior citizens, and persons with disabilities. The 20 percent fare discount for senior citizens, students, and persons with disabilities is mandated"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-th0qjd",
-      "source": "inqn",
-      "title": "LTO: 51 out of 52 buses in Metro Manila terminals pass roadworthiness",
-      "summary": "MANILA, Philippines — The Land Transportation Office (LTO) on Sunday said that 51 out of 52 in several terminals in Metro Manila passed the road worthiness inspections in preparation for the influx…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:08.659Z",
-      "firstSeen": "2026-10-25T09:30:56.766Z",
-      "url": "https://newsinfo.inquirer.net/2329958/lto-51-out-of-52-buses-in-metro-manila-terminals-pass-roadworthiness",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2018/10/WhatsApp-Image-2018-10-29-at-12.40.05-PM.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Land Transportation Office (LTO) on Sunday said that 51 out of 52 in several terminals in Metro Manila passed the road worthiness inspections in preparation for the influx of passengers for Undas 2026. According to the LTO, roadworthiness inspections were held from Oct. 24-25, 2026. The LTO said that the 17"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-dftp59",
       "source": "inqn",
       "title": "Construction worker nabbed for alleged theft at Vigan cathedral",
       "summary": "VIGAN CITY, ILOCOS SUR, Philippines — Police arrested a 36-year-old construction worker after he allegedly stole church donations and other items from the St. Paul Metropolitan Cathedral in Barangay…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:08.659Z",
+      "published": "2026-10-25T12:01:07.510Z",
       "firstSeen": "2026-10-25T08:30:53.368Z",
       "url": "https://newsinfo.inquirer.net/2329939/construction-worker-nabbed-for-alleged-theft-at-vigan-cathedral",
       "image": {
@@ -459,7 +309,7 @@
       "summary": "LEGAZPI CITY, ALBAY, Philippines — The Department of Social Welfare and Development (DSWD) in Bicol provided P10,000 in cash assistance to each of the five families of people who died in a fire that…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:08.659Z",
+      "published": "2026-10-25T12:01:07.510Z",
       "firstSeen": "2026-10-25T08:30:53.404Z",
       "url": "https://newsinfo.inquirer.net/2329932/dswd-gives-p10000-each-to-families-of-5-sorsogon-fire-fatalities",
       "image": {
@@ -484,7 +334,7 @@
       "summary": "CAGAYAN DE ORO CITY, Philippines — For seven days, the barbed wires and concrete perimeters of Iligan City Jail in Lanao del Norte will witness a quiet conversation about reformation and second…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:08.659Z",
+      "published": "2026-10-25T12:01:07.510Z",
       "firstSeen": "2026-10-25T08:30:54.481Z",
       "url": "https://newsinfo.inquirer.net/2329929/beyond-bars-iligan-jail-makes-pitch-for-second-chances",
       "image": {
@@ -503,48 +353,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1vro2ze",
-      "source": "inqg",
-      "title": "&#8216;Call of Duty&#8217; North Korea invasion edition tops sales charts in South",
-      "summary": "SEOUL &#8212; The latest installment of the &#8220;Call of Duty&#8221; video game franchise, featuring a full-scale North Korean invasion of South Korea, has topped sales charts in the would-be…",
-      "byline": "dlejano",
-      "section": "Asia",
-      "published": "2026-10-25T11:31:08.659Z",
-      "firstSeen": "2026-10-25T06:30:52.166Z",
-      "url": "https://globalnation.inquirer.net/343802/call-of-duty-north-korea-invasion-edition-tops-sales-charts-in-south",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/Call-of-Duty-North-Korea-invasion-edition-tops-sales-charts-in-South-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SEOUL &#8212; The latest installment of the &#8220;Call of Duty&#8221; video game franchise, featuring a full-scale North Korean invasion of South Korea, has topped sales charts in the would-be target, even as real-life border tensions are ratcheting higher. &#8220;Call of Duty: Modern Warfare 4&#8221;, the latest edition of the globally popular franchise is set against"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-1uaikwn",
-      "source": "inqg",
-      "title": "South Korean fugitive faces deportation after arrest in Taguig – BI",
-      "summary": "MANILA, Philippines — A 41-year-old South Korean fugitive is facing deportation proceedings after being arrested in Taguig City over alleged involvement in illegal gambling activities, the Bureau of…",
+      "id": "inqn-1e6ufyl",
+      "source": "inqn",
+      "title": "Gatchalian to enforcers: Carry out safe arrest of Dela Rosa",
+      "summary": "MANILA, Philippines — Senate President Sherwin Gatchalian on Sunday called on law enforcers to ensure the safe conduct of arrest of Sen. Ronald “Bato” Dela Rosa. “To our law enforcers, they must…",
       "byline": "cbuban",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-10-25T11:31:08.659Z",
-      "firstSeen": "2026-10-25T06:30:52.219Z",
-      "url": "https://globalnation.inquirer.net/343808/south-korean-fugitive-faces-deportation-after-arrest-in-taguig-bi",
+      "section": "Latest News Stories",
+      "published": "2026-10-25T12:01:07.510Z",
+      "firstSeen": "2026-10-25T09:01:01.118Z",
+      "url": "https://newsinfo.inquirer.net/2329954/gatchalian-to-enforcers-carry-out-safe-arrest-of-dela-rosa",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2025/06/Bureau-of-Immigration-BI-10June2025.gif",
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Sherwin-Gatchalian-13September2026_2.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — A 41-year-old South Korean fugitive is facing deportation proceedings after being arrested in Taguig City over alleged involvement in illegal gambling activities, the Bureau of Immigration (BI) said on Sunday. According to BI, Lee Seunghyun was arrested last Oct. 13 in Barangay Western Bicutan following a request from the South Korean government"
+          "text": "MANILA, Philippines — Senate President Sherwin Gatchalian on Sunday called on law enforcers to ensure the safe conduct of arrest of Sen. Ronald “Bato” Dela Rosa. “To our law enforcers, they must conduct a safe arrest of Senator Bato. No violence should happen,” Gatchalian said in an interview with radio dzBB. “It&#8217;s important that Senator"
         }
       ],
       "truncated": true,
@@ -559,7 +384,7 @@
       "summary": "A bottle cap found drifting off Japan&#8217;s western coast carried a tiny ecosystem of 307 creatures from waters near the Philippines, a study by Japanese researchers has found. The cap, collected…",
       "byline": "dlejano",
       "section": "Asia",
-      "published": "2026-10-25T11:31:08.659Z",
+      "published": "2026-10-25T12:01:07.510Z",
       "firstSeen": "2026-10-25T05:30:51.598Z",
       "url": "https://globalnation.inquirer.net/343799/bottle-cap-found-off-japan-coast-carried-marine-ecosystem-from-ph",
       "image": {
@@ -584,7 +409,7 @@
       "summary": "An earthquake with a preliminary magnitude of 7.0 struck off the Ogasawara Islands, about 1,000 kilometers south of Tokyo, on Sunday morning, but it did not trigger a tsunami, the weather agency…",
       "byline": "dlejano",
       "section": "Asia",
-      "published": "2026-10-25T11:31:08.659Z",
+      "published": "2026-10-25T12:01:07.510Z",
       "firstSeen": "2026-10-25T05:01:05.058Z",
       "url": "https://globalnation.inquirer.net/343796/magnitude-7-quake-hits-off-islands-south-of-tokyo-no-tsunami-triggered",
       "image": {
@@ -609,7 +434,7 @@
       "summary": "DANDONG &#8212; North Korean leader Kim Jong Un returned home Saturday after a day-long trip to the Chinese border city of Dandong, vowing to &#8220;firmly carry forward&#8221; the two nations&#8217;…",
       "byline": "dlejano",
       "section": "Asia",
-      "published": "2026-10-25T11:31:08.659Z",
+      "published": "2026-10-25T12:01:07.510Z",
       "firstSeen": "2026-10-25T05:01:05.137Z",
       "url": "https://globalnation.inquirer.net/343793/n-koreas-kim-jong-un-returns-home-after-visit-to-chinese-border-city",
       "image": {
@@ -628,13 +453,138 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-14rfgrf",
+      "source": "inqg",
+      "title": "Riyadh airport resumes flights following Houthi attacks",
+      "summary": "RIYADH &#8212; Riyadh&#8217;s international airport said flights would resume on Sunday after a two-week closure following strikes from Yemen&#8217;s Houthis on the Saudi capital, though the…",
+      "byline": "dlejano",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-10-25T12:01:07.510Z",
+      "firstSeen": "2026-10-25T05:01:06.907Z",
+      "url": "https://globalnation.inquirer.net/343790/riyadh-airport-resumes-flights-following-houthi-attacks",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/Riyadh-airport-resumes-flights-following-Houthi-attacks-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "RIYADH &#8212; Riyadh&#8217;s international airport said flights would resume on Sunday after a two-week closure following strikes from Yemen&#8217;s Houthis on the Saudi capital, though the Iran-backed group warned of more to come. The Flight Radar monitoring site showed a plane taking off from Riyadh airport early Sunday, heading to the Saudi city of Jeddah."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-4w61ez",
+      "source": "inqn",
+      "title": "LTFRB to PUV operators, drivers: Honor fare discounts",
+      "summary": "MANILA, Philippines — The Land Transportation Franchising and Regulatory Board (LTFRB) on Sunday warned operators and drivers of public utility vehicles that they may face penalties for not honoring…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-10-25T12:01:05.893Z",
+      "firstSeen": "2026-10-25T09:30:53.485Z",
+      "url": "https://newsinfo.inquirer.net/2329960/ltfrb-to-puv-operators-drivers-honor-fare-discounts",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/03/IMG_1598-scaled.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Land Transportation Franchising and Regulatory Board (LTFRB) on Sunday warned operators and drivers of public utility vehicles that they may face penalties for not honoring fare discounts provided for students, senior citizens, and persons with disabilities. The 20 percent fare discount for senior citizens, students, and persons with disabilities is mandated"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-th0qjd",
+      "source": "inqn",
+      "title": "LTO: 51 out of 52 buses in Metro Manila terminals pass roadworthiness",
+      "summary": "MANILA, Philippines — The Land Transportation Office (LTO) on Sunday said that 51 out of 52 in several terminals in Metro Manila passed the road worthiness inspections in preparation for the influx…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-10-25T12:01:05.893Z",
+      "firstSeen": "2026-10-25T09:30:56.766Z",
+      "url": "https://newsinfo.inquirer.net/2329958/lto-51-out-of-52-buses-in-metro-manila-terminals-pass-roadworthiness",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2018/10/WhatsApp-Image-2018-10-29-at-12.40.05-PM.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Land Transportation Office (LTO) on Sunday said that 51 out of 52 in several terminals in Metro Manila passed the road worthiness inspections in preparation for the influx of passengers for Undas 2026. According to the LTO, roadworthiness inspections were held from Oct. 24-25, 2026. The LTO said that the 17"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1vro2ze",
+      "source": "inqg",
+      "title": "&#8216;Call of Duty&#8217; North Korea invasion edition tops sales charts in South",
+      "summary": "SEOUL &#8212; The latest installment of the &#8220;Call of Duty&#8221; video game franchise, featuring a full-scale North Korean invasion of South Korea, has topped sales charts in the would-be…",
+      "byline": "dlejano",
+      "section": "Asia",
+      "published": "2026-10-25T12:01:05.893Z",
+      "firstSeen": "2026-10-25T06:30:52.166Z",
+      "url": "https://globalnation.inquirer.net/343802/call-of-duty-north-korea-invasion-edition-tops-sales-charts-in-south",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/Call-of-Duty-North-Korea-invasion-edition-tops-sales-charts-in-South-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SEOUL &#8212; The latest installment of the &#8220;Call of Duty&#8221; video game franchise, featuring a full-scale North Korean invasion of South Korea, has topped sales charts in the would-be target, even as real-life border tensions are ratcheting higher. &#8220;Call of Duty: Modern Warfare 4&#8221;, the latest edition of the globally popular franchise is set against"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1uaikwn",
+      "source": "inqg",
+      "title": "South Korean fugitive faces deportation after arrest in Taguig – BI",
+      "summary": "MANILA, Philippines — A 41-year-old South Korean fugitive is facing deportation proceedings after being arrested in Taguig City over alleged involvement in illegal gambling activities, the Bureau of…",
+      "byline": "cbuban",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-10-25T12:01:05.893Z",
+      "firstSeen": "2026-10-25T06:30:52.219Z",
+      "url": "https://globalnation.inquirer.net/343808/south-korean-fugitive-faces-deportation-after-arrest-in-taguig-bi",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2025/06/Bureau-of-Immigration-BI-10June2025.gif",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — A 41-year-old South Korean fugitive is facing deportation proceedings after being arrested in Taguig City over alleged involvement in illegal gambling activities, the Bureau of Immigration (BI) said on Sunday. According to BI, Lee Seunghyun was arrested last Oct. 13 in Barangay Western Bicutan following a request from the South Korean government"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-jffdxf",
       "source": "inqn",
       "title": "20 hurt as passenger bus overturns in Ilocos Norte",
       "summary": "SAN ILDEFONSO, ILOCOS SUR, Philippines — Some 20 passengers and occupants of a pickup truck were injured after a public utility bus allegedly suffered brake failure and overturned along the national…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:08.581Z",
+      "published": "2026-10-25T12:01:05.762Z",
       "firstSeen": "2026-10-25T09:30:52.201Z",
       "url": "https://newsinfo.inquirer.net/2329951/20-hurt-as-passenger-bus-overturns-in-ilocos-norte",
       "image": {
@@ -659,7 +609,7 @@
       "summary": "&#8220;Laila&#8221; awoke in the middle of the night for a glass of water, checked her phone almost by accident, and saw an email that made her stomach drop. The US would stop funding the American…",
       "byline": "dlejano",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-25T11:31:08.581Z",
+      "published": "2026-10-25T12:01:05.762Z",
       "firstSeen": "2026-10-25T06:51:27.620Z",
       "url": "https://globalnation.inquirer.net/343743/afghan-women-could-lose-one-of-their-last-paths-to-a-higher-education",
       "image": {
@@ -684,7 +634,7 @@
       "summary": "For months, drone strikes by Ukraine have forced the suspension of flights to and from airports in Russia. Moscow&#8217;s Domodedovo, Sheremetyevo, Zhukovsky and Vnukovo airports have had to shut…",
       "byline": "dlejano",
       "section": "Europe",
-      "published": "2026-10-25T11:31:06.816Z",
+      "published": "2026-10-25T12:01:04.576Z",
       "firstSeen": "2026-10-25T06:51:27.620Z",
       "url": "https://globalnation.inquirer.net/343746/ukraine-tries-to-shut-moscows-airports-with-drone-strikes-on-russia",
       "image": {
@@ -709,7 +659,7 @@
       "summary": "KORONADAL CITY, Philippines — Six dugongs (sea cows) and five green sea turtles were spotted foraging off the coast of Kalamansig, Sultan Kudarat, during a marine wildlife monitoring activity this…",
       "byline": "jbarrion",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:03.183Z",
+      "published": "2026-10-25T12:01:04.290Z",
       "firstSeen": "2026-10-25T09:30:52.141Z",
       "url": "https://newsinfo.inquirer.net/2329948/6-dugongs-5-sea-turtles-spotted-off-sultan-kudarat-coast",
       "image": {
@@ -734,7 +684,7 @@
       "summary": "Japanese Foreign Ministry officials were in Moscow this week in an attempt to contact a journalist arrested in Russia&#8217;s far east on allegations of spying. Journalist Yuki Imai was arrested on…",
       "byline": "dlejano",
       "section": "Asia",
-      "published": "2026-10-25T11:31:01.442Z",
+      "published": "2026-10-25T12:01:03.963Z",
       "firstSeen": "2026-10-25T07:00:56.150Z",
       "url": "https://globalnation.inquirer.net/343751/japan-russia-ties-erode-as-journalist-sits-in-moscow-jail",
       "image": {
@@ -759,7 +709,7 @@
       "summary": "MANILA, Philippines — House prosecutor, Manila Rep. Joel Chua questioned the sincerity of Vice President Sara Duterte’s defense team’s complaints over the withdrawal of the articles on confidential…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:31:01.382Z",
+      "published": "2026-10-25T12:01:03.910Z",
       "firstSeen": "2026-10-25T10:30:52.669Z",
       "url": "https://newsinfo.inquirer.net/2329978/chua-vp-teams-objections-pang-socmed-reconsideration-not-sought",
       "image": {
@@ -784,7 +734,7 @@
       "summary": "Vietnam&#8217;s Communist Party chief and president, To Lam, arrived in Brussels on Wednesday for an official visit to the European Union (EU) and Belgium in another sign that relations continue to…",
       "byline": "dlejano",
       "section": "Global Scale",
-      "published": "2026-10-25T11:30:57.816Z",
+      "published": "2026-10-25T12:01:02.161Z",
       "firstSeen": "2026-10-25T07:30:52.455Z",
       "url": "https://globalnation.inquirer.net/343755/is-eu-putting-profits-over-human-rights-in-vietnam",
       "image": {
@@ -809,7 +759,7 @@
       "summary": "MANILA, Philippines — House prosecution adviser and spokesperson, former Rep. Robert Ace Barbers, believed that the Senate impeachment trial of Vice President Sara Duterte will conclude toward the…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:30:54.521Z",
+      "published": "2026-10-25T12:01:00.354Z",
       "firstSeen": "2026-10-25T10:30:52.567Z",
       "url": "https://newsinfo.inquirer.net/2329983/barbers-expects-vp-impeachment-trial-to-conclude-next-month",
       "image": {
@@ -834,7 +784,7 @@
       "summary": "MANILA, Philippines — A Filipino bound for Russia for an alleged security-related job offer was intercepted at the Mactan-Cebu International Airport, the Bureau of Immigration (BI) said on Sunday.…",
       "byline": "cbuban",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-25T11:30:52.928Z",
+      "published": "2026-10-25T12:00:54.911Z",
       "firstSeen": "2026-10-25T08:00:56.643Z",
       "url": "https://globalnation.inquirer.net/343831/filipino-bound-for-russia-intercepted-at-mactan-airport-bi",
       "image": {
@@ -859,7 +809,7 @@
       "summary": "MANILA, Philippines — President Sara Duterte would face questioning from House prosecutors if her defense lawyers decide to present her as a witness when the Senate impeachment trial resumes on Nov.…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:30:52.452Z",
+      "published": "2026-10-25T12:00:54.910Z",
       "firstSeen": "2026-10-25T11:01:04.835Z",
       "url": "https://newsinfo.inquirer.net/2329986/prosecution-welcomes-vp-as-defense-witness-ready-to-cross-examine-her",
       "image": {
@@ -878,29 +828,29 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1h8ve0g",
-      "source": "inqg",
-      "title": "Kim Jong-un &#8216;dead&#8217; again: Why rumors about N. Korean leaders never die",
-      "summary": "Rumors that North Korean leader Kim Jong-un died after suffering a brain hemorrhage have swept through social media and news outlets overseas in recent days, prompting South Korean officials to…",
-      "byline": "dlejano",
-      "section": "Asia",
-      "published": "2026-10-25T11:30:52.440Z",
-      "firstSeen": "2026-10-25T07:30:52.405Z",
-      "url": "https://globalnation.inquirer.net/343817/kim-jong-un-dead-again-why-rumors-about-n-korean-leaders-never-die",
+      "id": "inqn-1tp8vsl",
+      "source": "inqn",
+      "title": "Angara honors 18 DepEd staff for integrity and hard work",
+      "summary": "MANILA, Philippines — Eighteen teachers, school leaders and support staff were honored on Friday for doing their jobs with integrity. Education (DepEd) Secretary Sonny Angara told them that hard work…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-10-25T12:00:54.909Z",
+      "firstSeen": "2026-10-25T11:30:52.381Z",
+      "url": "https://newsinfo.inquirer.net/2329998/angara-honors-18-deped-staff-for-integrity-and-hard-work",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/news-p.v1.20261021.0be64db6d6dd47c8a3002c1790f59d4f_P1.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/09/SonnyAngara-23Sep2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "Rumors that North Korean leader Kim Jong-un died after suffering a brain hemorrhage have swept through social media and news outlets overseas in recent days, prompting South Korean officials to dismiss the claims as unsubstantiated, while Pyongyang released fresh photographs of its leader attending a public event. The latest round of speculation, which originated from"
+          "text": "MANILA, Philippines — Eighteen teachers, school leaders and support staff were honored on Friday for doing their jobs with integrity. Education (DepEd) Secretary Sonny Angara told them that hard work and discipline matter most “when no one is watching.” “Ang sipag at disiplina ay hindi lamang mga salitang magandang ilagay sa isang programa o sa"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inqn-18uqsli",
@@ -909,7 +859,7 @@
       "summary": "MANILA, Philippines — Akbayan party-list Rep. Perci Cendaña said on Sunday that the House prosecution panel’s decision to withdraw three of the four impeachment articles against Vice President Sara…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-10-25T11:30:52.440Z",
+      "published": "2026-10-25T12:00:54.909Z",
       "firstSeen": "2026-10-25T11:30:52.440Z",
       "url": "https://newsinfo.inquirer.net/2329992/cendana-dropping-3-of-4-charges-does-not-spare-vp-from-accountability",
       "image": {
@@ -934,7 +884,7 @@
       "summary": "A doctor of Korean medicine was fined 20 million won ($15,000) after a 92-year-old patient died from a tear in the heart muscle while receiving acupuncture treatment for back pain, the Daejeon…",
       "byline": "dlejano",
       "section": "Asia",
-      "published": "2026-10-25T11:30:52.381Z",
+      "published": "2026-10-25T12:00:54.909Z",
       "firstSeen": "2026-10-25T08:00:54.787Z",
       "url": "https://globalnation.inquirer.net/343821/s-korean-doctor-fined-over-patients-death-during-acupuncture",
       "image": {
@@ -953,23 +903,167 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-1tp8vsl",
-      "source": "inqn",
-      "title": "Angara honors 18 DepEd staff for integrity and hard work",
-      "summary": "MANILA, Philippines — Eighteen teachers, school leaders and support staff were honored on Friday for doing their jobs with integrity. Education (DepEd) Secretary Sonny Angara told them that hard work…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-10-25T11:30:52.381Z",
-      "firstSeen": "2026-10-25T11:30:52.381Z",
-      "url": "https://newsinfo.inquirer.net/2329998/angara-honors-18-deped-staff-for-integrity-and-hard-work",
+      "id": "inqg-1h8ve0g",
+      "source": "inqg",
+      "title": "Kim Jong-un &#8216;dead&#8217; again: Why rumors about N. Korean leaders never die",
+      "summary": "Rumors that North Korean leader Kim Jong-un died after suffering a brain hemorrhage have swept through social media and news outlets overseas in recent days, prompting South Korean officials to…",
+      "byline": "dlejano",
+      "section": "Asia",
+      "published": "2026-10-25T12:00:54.909Z",
+      "firstSeen": "2026-10-25T07:30:52.405Z",
+      "url": "https://globalnation.inquirer.net/343817/kim-jong-un-dead-again-why-rumors-about-n-korean-leaders-never-die",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/SonnyAngara-23Sep2026.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/10/news-p.v1.20261021.0be64db6d6dd47c8a3002c1790f59d4f_P1.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — Eighteen teachers, school leaders and support staff were honored on Friday for doing their jobs with integrity. Education (DepEd) Secretary Sonny Angara told them that hard work and discipline matter most “when no one is watching.” “Ang sipag at disiplina ay hindi lamang mga salitang magandang ilagay sa isang programa o sa"
+          "text": "Rumors that North Korean leader Kim Jong-un died after suffering a brain hemorrhage have swept through social media and news outlets overseas in recent days, prompting South Korean officials to dismiss the claims as unsubstantiated, while Pyongyang released fresh photographs of its leader attending a public event. The latest round of speculation, which originated from"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1gnrs4r",
+      "source": "inqg",
+      "title": "Asean Summit 2026: Several Pasay roads closed Oct. 24-Nov. 20",
+      "summary": "MANILA, Philippines — Several roads in Pasay City will be closed from Oct. 24 to Nov. 20 for the 49th Association of Southeast Asian Nations (Asean) Summit, according to the Pasay Traffic and Parking…",
+      "byline": "mmercado",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-10-25T11:49:12.000Z",
+      "firstSeen": "2026-10-25T04:01:02.295Z",
+      "url": "https://globalnation.inquirer.net/343768/asean-summit-2026-several-pasay-roads-closed-oct-24-nov-20",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/Pasay-road-closure-asean-summit.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Several roads in Pasay City will be closed from Oct. 24 to Nov. 20 for the 49th Association of Southeast Asian Nations (Asean) Summit, according to the Pasay Traffic and Parking Management Office (PTMPO). In an advisory, the PTMPO said road closures and traffic changes are expected around the Philippine International Convention"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1ab953m",
+      "source": "inqg",
+      "title": "Is Iran ready for another major US attack after midterm elections?",
+      "summary": "Officials in Tehran are preparing for renewed strikes following media reports that the United States and Israel have been examining new options for escalating their war against Iran. The US midterm…",
+      "byline": "dlejano",
+      "section": "Global Scale",
+      "published": "2026-10-25T11:47:56.000Z",
+      "firstSeen": "2026-10-25T04:01:02.355Z",
+      "url": "https://globalnation.inquirer.net/343728/is-iran-ready-for-another-major-us-attack-after-midterm-elections",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/Analysts-say-Irans-regime-is-preparing-to-clamp-down-on-unrest-unleashed-by-possible-US-strikes-FILE-2022-Image-Morteza-NikoubazlNurPhotopicture-alliance.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Officials in Tehran are preparing for renewed strikes following media reports that the United States and Israel have been examining new options for escalating their war against Iran. The US midterm elections on November 3 and Israel&#8217;s October 27 election have injected a political factor into how both countries are approaching the conflict, which they launched in"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1cbghg4",
+      "source": "inq",
+      "title": "Elena Rybakina crushes Leylah Fernandez to win Ningbo Open title",
+      "summary": "World number one Elena Rybakina won her fourth title of an outstanding season with a ruthless straight-sets victory over Leylah Fernandez in the Ningbo Open final on Sunday. The top seed and…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-25T11:46:52.000Z",
+      "firstSeen": "2026-10-25T12:00:54.909Z",
+      "url": "https://sports.inquirer.net/703474/elena-rybakina-crushes-leylah-fernandez-to-win-ningbo-open-title",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/10/AFP__20261024__D4AX6TF__v1__HighRes__TennisChnWta-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "World number one Elena Rybakina won her fourth title of an outstanding season with a ruthless straight-sets victory over Leylah Fernandez in the Ningbo Open final on Sunday. The top seed and defending champion cruised to a 6-2, 6-2 win in 73 minutes over the world number 30 from Canada. Rybakina, the Australian and US Open champion, collected her 15th WTA crown in all and went a long way towards securing the year-end number-one ranking. READ: Elena Rybakina ousts Diana Shnaider, books Ningbo Open final &#8220;Thank you all you guys for an amazing atmosphere,&#8221; the Moscow-born Kazakh said in her victory [&hellip;]... Keep on reading: Elena Rybakina crushes Leylah Fernandez to win Ningbo Open title"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-eb0bu0",
+      "source": "abs",
+      "title": "PBA: NLEX weathers Phoenix's fightback to draw first blood",
+      "summary": "The NLEX Road Warriors survived a late rally by Phoenix and held on for a 97-92 win in Game 1 of their quarterfinal series in the PBA Season 50 Governors' Cup, Sunday evening at the Ynares Center in…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-25T11:45:55.000Z",
+      "firstSeen": "2026-10-25T12:00:54.909Z",
+      "url": "https://www.abs-cbn.com/sports/basketball/2026/10/25/pba-nlex-weathers-phoenix-s-fightback-to-draw-first-blood-1945",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The NLEX Road Warriors survived a late rally by Phoenix and held on for a 97-92 win in Game 1 of their quarterfinal series in the PBA Season 50 Governors' Cup, Sunday evening at the Ynares Center in Antipolo."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-kjmiu2",
+      "source": "abs",
+      "title": "'Multwoh' becomes highest-grossing film of CinePanalo",
+      "summary": "'Multwoh,' a queer romance-horror film, has become the highest-grossing film to emerge from the Puregold CinePanalo Film Festival, the film’s team said Sunday.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-25T11:38:48.000Z",
+      "firstSeen": "2026-10-25T12:00:54.909Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/movies-series/2026/10/25/-multwoh-becomes-highest-grossing-film-of-cinepanalo-1938",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "'Multwoh,' a queer romance-horror film, has become the highest-grossing film to emerge from the Puregold CinePanalo Film Festival, the film’s team said Sunday."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-wzhemt",
+      "source": "inq",
+      "title": "CitizenWatch urges firms to treat digital trust as business asset",
+      "summary": "MANILA, Philippines — Consumer group CitizenWatch Philippines called on businesses and government agencies to enhance protections against online scams, highlighting that digital trust is essential…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-25T11:37:10.000Z",
+      "firstSeen": "2026-10-25T12:00:54.909Z",
+      "url": "https://business.inquirer.net/617926/citizenwatch-urges-firms-to-treat-digital-trust-as-business-asset",
+      "image": {
+        "src": "https://business.inquirer.net/files/2025/05/digital-transaction-fees-Payments-stock-06May2025-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Consumer group CitizenWatch Philippines called on businesses and government agencies to enhance protections against online scams, highlighting that digital trust is essential for customer confidence and participation in the digital economy. “Digital trust is not only a cybersecurity concern; it is a business asset,” said Atty. Kit Belmonte, former legislator and CitizenWatch co-convenor. “Customers are more likely to use digital services when they believe their data and transactions are protected. Companies and government should strengthen and embed trust in how they operate, making trust a shared responsibility across the companies and institutions that serve them.” READ: High cost [&hellip;]... Keep on reading: CitizenWatch urges firms to treat digital trust as business asset"
         }
       ],
       "truncated": true,
@@ -995,6 +1089,31 @@
         {
           "type": "p",
           "text": "MANILA, Philippines &#8212; Philippine police are investigating a laptop found alongside images of child abuse at the former home of Meghan Markle&#8217;s estranged father, with &#8220;full results&#8221; expected in a week, Department of the Interior and Local Government (DILG) told AFP. Thomas Markle, whose daughter is married to Britain&#8217;s Prince Harry, had been living in"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-sjrn3v",
+      "source": "inq",
+      "title": "Angara honors 18 DepEd staff for integrity and hard work",
+      "summary": "MANILA, Philippines — Eighteen teachers, school leaders and support staff were honored on Friday for doing their jobs with integrity. Education (DepEd) Secretary Sonny Angara told them that hard work…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-25T11:29:14.000Z",
+      "firstSeen": "2026-10-25T12:00:54.910Z",
+      "url": "https://newsinfo.inquirer.net/2329998/angara-honors-18-deped-staff-for-integrity-and-hard-work",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/SonnyAngara-23Sep2026-620x415.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Eighteen teachers, school leaders and support staff were honored on Friday for doing their jobs with integrity. Education (DepEd) Secretary Sonny Angara told them that hard work and discipline matter most “when no one is watching.” “Ang sipag at disiplina ay hindi lamang mga salitang magandang ilagay sa isang programa o sa isang plaque. They are values we must live by, especially when the work is difficult, when the recognition is absent, and when no one is watching,” Angara said at the 14th Ambassador Cabangon Chua Gintong Parangal para sa Edukasyon awards. “Thank you for reminding us that [&hellip;]... Keep on reading: Angara honors 18 DepEd staff for integrity and hard work"
         }
       ],
       "truncated": true,
@@ -2181,7 +2300,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-4ufqmk",
@@ -4584,31 +4703,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-vg1q2m",
-      "source": "inq",
-      "title": "DSWD gives P10,000 each to families of 5 Sorsogon fire fatalities",
-      "summary": "LEGAZPI CITY, ALBAY, Philippines — The Department of Social Welfare and Development (DSWD) in Bicol provided P10,000 in cash assistance to each of the five families of people who died in a fire that…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-25T08:09:54.000Z",
-      "firstSeen": "2026-10-25T08:30:53.994Z",
-      "url": "https://newsinfo.inquirer.net/2329932/dswd-gives-p10000-each-to-families-of-5-sorsogon-fire-fatalities",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/DSWD-gives-P10000-each-to-families-of-5-Sorsogon-fire-fatalities--620x413.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LEGAZPI CITY, ALBAY, Philippines — The Department of Social Welfare and Development (DSWD) in Bicol provided P10,000 in cash assistance to each of the five families of people who died in a fire that gutted the Sorsogon City Public Market on Saturday night, Oct. 24. Marygizelle Mesa, DSWD-Bicol regional information officer, said the agency had also arranged funeral assistance for the bereaved families and provided psychological first aid to help them cope with the loss of their loved ones. Social workers visited the families on Sunday, Oct. 25, to provide psychological first aid, while the agency’s Crisis Intervention Section satellite office [&hellip;]... Keep on reading: DSWD gives P10,000 each to families of 5 Sorsogon fire fatalities"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-p75ltn",
       "source": "abs",
       "title": "MarPolo Cabrera celebrates 10 years with 'Aking Mitolohiya' exhibit",
@@ -4629,31 +4723,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-1ukx7s9",
-      "source": "inq",
-      "title": "Beyond bars: Iligan jail makes pitch for second chances",
-      "summary": "CAGAYAN DE ORO CITY, Philippines — For seven days, the barbed wires and concrete perimeters of Iligan City Jail in Lanao del Norte will witness a quiet conversation about reformation and second…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-25T08:04:13.000Z",
-      "firstSeen": "2026-10-25T08:30:57.004Z",
-      "url": "https://newsinfo.inquirer.net/2329929/beyond-bars-iligan-jail-makes-pitch-for-second-chances",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Beyond-bars-Iligan-jail-makes-pitch-for-second-chances-620x465.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CAGAYAN DE ORO CITY, Philippines — For seven days, the barbed wires and concrete perimeters of Iligan City Jail in Lanao del Norte will witness a quiet conversation about reformation and second chances. Jail authorities on Sunday morning rolled out a convoy through the industrial city’s main roads, launching the local run of the National Correctional Consciousness Week (NACOCOW) 2026. The message they brought along was simple: a detention cell should serve as a workshop for a broken life, not its terminal stop. This year’s observance carries the theme “Makataong Paglilingkod, Makabuluhang Rehabilitasyon, Pagbabagong May Layunin.” Jail Supt. Carlo Obrique, warden [&hellip;]... Keep on reading: Beyond bars: Iligan jail makes pitch for second chances"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-1rn06d9",
@@ -4893,31 +4962,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-asqkml",
-      "source": "inq",
-      "title": "French protests: Over 400K march, defying Macron; Paris clashes erupt",
-      "summary": "Clashes erupted in Paris as a mass march drew to a close Saturday, with more than 400,000 people rallying across France over school funding and soaring living costs in a fresh challenge to President…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-25T08:00:00.000Z",
-      "firstSeen": "2026-10-25T08:31:00.910Z",
-      "url": "https://cebudailynews.inquirer.net/778824/more-than-400000-protest-across-france-challenging-macron-as-paris-clashes-erupt",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/10/download-2026-10-25T150934.691-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Clashes erupted in Paris as a mass march drew to a close Saturday, with more than 400,000 people rallying across France over school funding and soaring living costs in a fresh challenge to President Emmanuel Macron. Police made nearly 1,000 arrests, the government said.... Keep on reading: French protests: Over 400K march, defying Macron; Paris clashes erupt"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "cbc-1qb15ma",
@@ -14766,28 +14810,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-grh2kd",
-      "source": "abs",
-      "title": "UAAP: Pasaol mum after late two-pointer in FEU's 3-point loss to Ateneo",
-      "summary": "Janrey Pasaol was mum about his late floater in Far Eastern University's 75-72 loss to Ateneo de Manila University, the Tamaraws' third straight defeat in UAAP Season 89.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-24T11:42:25.000Z",
-      "firstSeen": "2026-10-24T12:00:57.097Z",
-      "url": "https://www.abs-cbn.com/sports/basketball/2026/10/24/uaap-pasaol-mum-after-late-two-pointer-in-feu-s-three-point-loss-to-ateneo-1942",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Janrey Pasaol was mum about his late floater in Far Eastern University's 75-72 loss to Ateneo de Manila University, the Tamaraws' third straight defeat in UAAP Season 89."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "dw-17oknd6",
       "source": "dw",
       "title": "Will Guinea-Bissau remain trapped in political chaos?",
@@ -17458,50 +17480,6 @@
         {
           "type": "p",
           "text": "Two-time Winter Olympian Michael Martinez is making a surprise comeback to the ice — a return that is driven by a bigger purpose than his own dreams."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1cr993u",
-      "source": "abs",
-      "title": "Torreon law firm questions legal basis of P50-M reward vs Dela Rosa; Senate minority urges 'peaceful resolution'",
-      "summary": "The Senate minority on Saturday urged the government to pursue dialogue with Senator Ronald “Bato” Dela Rosa and ensure due process in implementing the International Criminal Court’s (ICC) arrest…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-24T07:24:52.000Z",
-      "firstSeen": "2026-10-25T08:01:09.188Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/10/24/counsel-questions-legal-basis-of-reward-vs-bato-senate-minority-urges-peaceful-resolution-1524",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Senate minority on Saturday urged the government to pursue dialogue with Senator Ronald “Bato” Dela Rosa and ensure due process in implementing the International Criminal Court’s (ICC) arrest warrant against him, warning against a confrontation that could cost Filipino lives."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1by2gxi",
-      "source": "abs",
-      "title": "72-year-old journalist nabbed in QC over cyberlibel rap from Davao City",
-      "summary": "Authorities arrested a 72-year-old journalist in Quezon City on Saturday over a cyberlibel complaint from Davao City.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-24T07:12:46.000Z",
-      "firstSeen": "2026-10-25T06:30:54.590Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/10/24/72-year-old-journalist-nabbed-in-qc-over-cyberlibel-rap-from-davao-city-1345",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Authorities arrested a 72-year-old journalist in Quezon City on Saturday over a cyberlibel complaint from Davao City."
         }
       ],
       "truncated": true,
