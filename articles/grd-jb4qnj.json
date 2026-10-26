@@ -1,0 +1,64 @@
+{
+  "id": "grd-jb4qnj",
+  "source": "grd",
+  "title": "Anthropic’s Claude AI model accessed Georgia voter data in US",
+  "summary": "<p>Latest example of unauthorised behaviour shows AI model bypassed paywall to access data as part of statistics project </p><ul><li><p><a…",
+  "byline": "Dan Milmo Global technology editor",
+  "section": "AI (artificial intelligence)",
+  "published": "2026-10-26T11:03:33.000Z",
+  "firstSeen": "2026-10-26T11:31:49.378Z",
+  "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
+  "image": {
+    "src": "https://i.guim.co.uk/img/media/53e6ecce82d90c5106536d7c112f492e510cdf2b/333_0_3333_2667/master/3333.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e1b5db06b4c6c72fbb756aa29fbf914f",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Anthropic’s Claude model accessed voter data in the US state of Georgia, the AI company has confirmed, in the latest example of unauthorised behaviour by the technology."
+    },
+    {
+      "type": "p",
+      "text": "The AI model managed to bypass a paywall to reach data that is publicly available but is typically accessible only after paying a fee. Claude accessed aggregate vote counts as part of a statistics project at Anthropic, which is preparing for a $1.5tn (£1.1tn) flotation."
+    },
+    {
+      "type": "p",
+      "text": "“Claude did not access the state’s voter registration system, change any voting records, or pull any individual voter records,” Anthropic said, adding that it has since taken steps to block similar actions."
+    },
+    {
+      "type": "p",
+      "text": "Anthropic said the AI found a loophole in an old version of the state agency’s website, discovering that it issues a digital entry pass – an “access token” – to visitors, which resulted in it requesting a token and gaining access to the information."
+    },
+    {
+      "type": "p",
+      "text": "The AI developer said it had since put in place guardrails to prevent similar actions happening again. The incident was first reported by the news website Axios."
+    },
+    {
+      "type": "p",
+      "text": "Anthropic had pointed out the unauthorised behaviour earlier in the month, when it said in a blogpost it found examples of ​Claude “working around a restriction to reach data that ‌was ⁠gated by a token or a fee” and that some of these cases involved websites run by US ​government agencies. At the time, it said the incidents had “minimal real-world impact”."
+    },
+    {
+      "type": "p",
+      "text": "The unintended actions flagged by Anthropic included a model submitting a fake tip about an unsolved murder to the Philadelphia police department. The US state department also revealed this month that Anthropic model had filed 19 visa applications in August."
+    },
+    {
+      "type": "p",
+      "text": "Examples of unauthorised behaviour by AI agents – programs powered by AI models that carry out tasks autonomously – have been mounting since OpenAI, the company behind ChatGPT, revealed in July that its bots had hacked an AI startup."
+    },
+    {
+      "type": "p",
+      "text": "Since then, it has emerged that an OpenAI agent hacked the Australian healthcare system and the UK’s AI security institute revealed that Anthropic agents had carried out a hacking campaign against real people during a cybersecurity test."
+    },
+    {
+      "type": "p",
+      "text": "This month, the UK’s AI minister said he expected an AI-driven cyber-attack similar to the Australia hack, describing such an incident as likely, “if not inevitable”. Kanishka Narayan said the government will consider using the cyber ecurity and resilience bill as a vehicle for introducing AI safety regulations, including making it mandatory to report AI safety incidents."
+    },
+    {
+      "type": "p",
+      "text": "In the US, the White House’s newly formed Super Intelligence Force – a federal body overseeing AI development – is mandating that all AI companies report security incidents involving their technology."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
