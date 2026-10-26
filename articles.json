@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-26T22:01:22.294Z",
+  "updated": "2026-10-26T22:31:18.365Z",
   "sources": [
     {
       "id": "inq",
@@ -53,63 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-s3z9w2",
-      "source": "inqn",
-      "title": "‘Undas’ sideline sustains Koronadal families",
-      "summary": "KORONADAL CITY—For as little as P5 per grave, youths and adults living beside Koronadal City Public Cemetery earn extra money by cleaning tombs and lighting candles for visitors ahead of “Undas” (All…",
-      "byline": "NewsPublish",
-      "section": "Headlines",
-      "published": "2026-10-26T22:01:06.121Z",
-      "firstSeen": "2026-10-26T20:30:56.446Z",
-      "url": "https://newsinfo.inquirer.net/2330662/undas-sideline-sustains-koronadal-families",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Koronadal-City-Public-Cemetery-Undas-26October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "KORONADAL CITY—For as little as P5 per grave, youths and adults living beside Koronadal City Public Cemetery earn extra money by cleaning tombs and lighting candles for visitors ahead of “Undas” (All Saints’ Day and All Souls’ Day). The annual influx of cemetery visitors offers these residents a chance to earn money for their families’"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-11bdot3",
-      "source": "inqn",
-      "title": "Negros traders, labor groups assail wage increase",
-      "summary": "BACOLOD CITY—Labor and business leaders in Negros Occidental have expressed dissatisfaction with the daily minimum wage increase of P40 to P45 for private-sector workers in Western Visayas, with…",
-      "byline": "NewsPublish",
-      "section": "Headlines",
-      "published": "2026-10-26T22:01:06.120Z",
-      "firstSeen": "2026-10-26T21:00:59.251Z",
-      "url": "https://newsinfo.inquirer.net/2330659/negros-traders-labor-groups-assail-wage-increase",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/07/wages-salary-peso-labor-worker-employee-21July2026.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BACOLOD CITY—Labor and business leaders in Negros Occidental have expressed dissatisfaction with the daily minimum wage increase of P40 to P45 for private-sector workers in Western Visayas, with labor groups calling the adjustment inadequate and employers warning of higher operating costs and possible price increases. The wage adjustment, approved by the Regional Tripartite Wages and"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-3l6eto",
       "source": "inqn",
       "title": "Villegas urges Palace to stand firm on West Philippine Sea",
       "summary": "DAGUPAN CITY—Lingayen-Dagupan Archbishop Socrates Villegas urged the Marcos administration to remain “firm and unyielding” in defending the country’s sovereignty over the West Philippine Sea (WPS),…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-26T22:01:06.120Z",
+      "published": "2026-10-26T22:31:04.863Z",
       "firstSeen": "2026-10-26T21:01:08.253Z",
       "url": "https://newsinfo.inquirer.net/2330663/villegas-urges-palace-to-stand-firm-on-west-philippine-sea",
       "image": {
@@ -128,13 +78,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-s3z9w2",
+      "source": "inqn",
+      "title": "‘Undas’ sideline sustains Koronadal families",
+      "summary": "KORONADAL CITY—For as little as P5 per grave, youths and adults living beside Koronadal City Public Cemetery earn extra money by cleaning tombs and lighting candles for visitors ahead of “Undas” (All…",
+      "byline": "NewsPublish",
+      "section": "Headlines",
+      "published": "2026-10-26T22:31:04.863Z",
+      "firstSeen": "2026-10-26T20:30:56.446Z",
+      "url": "https://newsinfo.inquirer.net/2330662/undas-sideline-sustains-koronadal-families",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Koronadal-City-Public-Cemetery-Undas-26October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "KORONADAL CITY—For as little as P5 per grave, youths and adults living beside Koronadal City Public Cemetery earn extra money by cleaning tombs and lighting candles for visitors ahead of “Undas” (All Saints’ Day and All Souls’ Day). The annual influx of cemetery visitors offers these residents a chance to earn money for their families’"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-hvsxmg",
       "source": "inqn",
       "title": "Duque’s bid to bar 2 witnesses denied",
       "summary": "The Sandiganbayan’s First Division on Monday denied the move of former Health Secretary Francisco Duque III to bar Department of Health (DOH) Administrative Officers Dawnavi Lae Lacsado and Abegail…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-26T22:01:06.087Z",
+      "published": "2026-10-26T22:31:03.983Z",
       "firstSeen": "2026-10-26T21:00:59.249Z",
       "url": "https://newsinfo.inquirer.net/2330690/duques-bid-to-bar-2-witnesses-denied",
       "image": {
@@ -153,13 +128,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-11bdot3",
+      "source": "inqn",
+      "title": "Negros traders, labor groups assail wage increase",
+      "summary": "BACOLOD CITY—Labor and business leaders in Negros Occidental have expressed dissatisfaction with the daily minimum wage increase of P40 to P45 for private-sector workers in Western Visayas, with…",
+      "byline": "NewsPublish",
+      "section": "Headlines",
+      "published": "2026-10-26T22:31:03.983Z",
+      "firstSeen": "2026-10-26T21:00:59.251Z",
+      "url": "https://newsinfo.inquirer.net/2330659/negros-traders-labor-groups-assail-wage-increase",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/07/wages-salary-peso-labor-worker-employee-21July2026.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BACOLOD CITY—Labor and business leaders in Negros Occidental have expressed dissatisfaction with the daily minimum wage increase of P40 to P45 for private-sector workers in Western Visayas, with labor groups calling the adjustment inadequate and employers warning of higher operating costs and possible price increases. The wage adjustment, approved by the Regional Tripartite Wages and"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-13y3c9",
       "source": "inqg",
       "title": "Vatican confirms Pope Leo&#8217;s November trip to S. America",
       "summary": "VATICAN CITY, Holy See &#8211; Pope Leo&#8217;s trip to South America next month will go ahead as planned, the Vatican said Monday, confirming the papal visit nearly two weeks after the…",
       "byline": "ggaviola",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-26T22:01:06.086Z",
+      "published": "2026-10-26T22:31:03.954Z",
       "firstSeen": "2026-10-26T16:30:56.379Z",
       "url": "https://globalnation.inquirer.net/343988/vatican-confirms-pope-leos-november-trip-to-s-america",
       "image": null,
@@ -181,7 +181,7 @@
       "summary": "Discussions about Vice President Sara Duterte’s possible removal from office while her impeachment trial is ongoing are “uncalled for” and “premature,” some senators said on Monday. “It’s as if…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-26T22:01:05.173Z",
+      "published": "2026-10-26T22:31:03.119Z",
       "firstSeen": "2026-10-26T21:00:59.196Z",
       "url": "https://newsinfo.inquirer.net/2330686/ejercito-premature-to-talk-about-sara-dutertes-removal",
       "image": {
@@ -206,7 +206,7 @@
       "summary": "SAN FRANCISCO, United States &#8211; Microsoft is offering voluntary buyouts to about 60,000 employees, the company said on Monday, roughly a quarter of its workforce, as the tech giant seeks to cut…",
       "byline": "ggaviola",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-26T22:01:05.173Z",
+      "published": "2026-10-26T22:31:03.026Z",
       "firstSeen": "2026-10-26T17:30:55.462Z",
       "url": "https://globalnation.inquirer.net/343991/microsoft-offers-voluntary-exit-packages-to-60000-staff",
       "image": {
@@ -231,7 +231,7 @@
       "summary": "Less than a week before “Undas,” prices of flowers at the Dangwa Market in the City of Manila remain at P450 to P1,500 per bundle. But vendors expect the flower prices to rise further by Wednesday.…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-26T22:01:04.286Z",
+      "published": "2026-10-26T22:31:02.991Z",
       "firstSeen": "2026-10-26T21:31:03.428Z",
       "url": "https://newsinfo.inquirer.net/2330693/flower-prices-expected-to-increase-as-undas-nears-2",
       "image": {
@@ -256,7 +256,7 @@
       "summary": "UNITED STATES &#8211; US President Donald Trump claimed on Monday that Brazil&#8217;s elections were &#8220;rigged&#8221; and &#8220;so corrupt&#8221; after President Luiz Inacio Lula da Silva beat…",
       "byline": "ggaviola",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-26T22:01:04.286Z",
+      "published": "2026-10-26T22:31:02.154Z",
       "firstSeen": "2026-10-26T20:30:56.446Z",
       "url": "https://globalnation.inquirer.net/343993/trump-slams-rigged-brazil-election-after-ally-loses",
       "image": null,
@@ -278,7 +278,7 @@
       "summary": "National Bureau of Investigation Director Melvin Matibag on Monday sought the inhibition of the Davao City head prosecutor from the libel and cyberlibel case filed against him last week by Davao City…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-26T22:01:02.518Z",
+      "published": "2026-10-26T22:31:01.006Z",
       "firstSeen": "2026-10-26T21:31:03.386Z",
       "url": "https://newsinfo.inquirer.net/2330687/nbi-chief-wants-davao-head-prosecutor-out-of-pulongs-libel-case",
       "image": {
@@ -303,7 +303,7 @@
       "summary": "HALF MOON BAY, CALIFORNIA—When fall arrives, and leaves start changing color, Mike Valladao, a systems engineer at a cybersecurity company, slips into his alter ego, “Farmer Mike,” also known as the…",
       "byline": "NewsPublish",
       "section": "Americas",
-      "published": "2026-10-26T22:01:01.125Z",
+      "published": "2026-10-26T22:31:00.394Z",
       "firstSeen": "2026-10-26T21:00:59.196Z",
       "url": "https://globalnation.inquirer.net/343976/farmer-mike-brings-artistry-to-a-halloween-tradition",
       "image": {
@@ -328,7 +328,7 @@
       "summary": "Ombudsman Jesus Crispin Remulla on Monday said he would order the antigraft body to form a study group in a bid to pin down those who “gamed” the budget in the past few years. Remulla made this…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-26T22:00:58.929Z",
+      "published": "2026-10-26T22:30:56.789Z",
       "firstSeen": "2026-10-26T22:00:58.930Z",
       "url": "https://newsinfo.inquirer.net/2330688/remulla-ombudsman-to-pin-down-those-who-gamed-budget",
       "image": {
@@ -353,7 +353,7 @@
       "summary": "LOS ANGELES—As tech companies race to build the most powerful artificial intelligence (AI), some are also asking how to teach a chatbot right from wrong. Their answer? Religion. “These are not…",
       "byline": "NewsPublish",
       "section": "Europe",
-      "published": "2026-10-26T22:00:56.239Z",
+      "published": "2026-10-26T22:30:54.126Z",
       "firstSeen": "2026-10-26T21:31:04.006Z",
       "url": "https://globalnation.inquirer.net/343979/train-ai-on-religion-to-make-it-good-not-that-simple-some-say",
       "image": {
@@ -378,7 +378,7 @@
       "summary": "Malacañang on Monday distanced President Marcos from the P50-million bounty for the arrest of Sen. Ronald “Bato” dela Rosa, saying the reward was ordered solely by Interior Secretary Jonvic Remulla…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-26T22:00:56.093Z",
+      "published": "2026-10-26T22:30:53.668Z",
       "firstSeen": "2026-10-26T22:00:56.094Z",
       "url": "https://newsinfo.inquirer.net/2330698/palace-marcos-had-no-hand-in-p50-m-bounty-for-bato-dela-rosa",
       "image": {
@@ -397,38 +397,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1kv2j79",
-      "source": "inqg",
-      "title": "BI intercepts 3 Filipinos bound for Eastern Europe",
-      "summary": "Three Filipinos who were allegedly offered military work in Eastern Europe were intercepted at Davao International Airport before their scheduled departure, the Bureau of Immigration (BI) said on…",
-      "byline": "NewsPublish",
-      "section": "Headlines",
-      "published": "2026-10-26T22:00:55.346Z",
-      "firstSeen": "2026-10-26T21:31:03.428Z",
-      "url": "https://globalnation.inquirer.net/343974/bi-intercepts-3-filipinos-bound-for-eastern-europe",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2025/06/Bureau-of-Immigration-BI-10June2025.gif",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Three Filipinos who were allegedly offered military work in Eastern Europe were intercepted at Davao International Airport before their scheduled departure, the Bureau of Immigration (BI) said on Monday. In a statement, the BI said the three were stopped from leaving on Oct. 17 after agents found a mismatch, upon questioning, between the passengers’ stated"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-13yzgdl",
       "source": "inqn",
       "title": "Lawyer tags VP husband in cyberlibel rap vs journo",
       "summary": "The lawyer of Philip Lustre Jr. on Monday identified Manases Carpio, the husband of Vice President Sara Duterte, as the private complainant in the cyberlibel case filed against the 72-year-old…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-10-26T22:00:55.346Z",
+      "published": "2026-10-26T22:30:53.216Z",
       "firstSeen": "2026-10-26T22:00:55.346Z",
       "url": "https://newsinfo.inquirer.net/2330683/lawyer-tags-vp-husband-in-cyberlibel-rap-vs-journo",
       "image": {
@@ -447,13 +422,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-1kv2j79",
+      "source": "inqg",
+      "title": "BI intercepts 3 Filipinos bound for Eastern Europe",
+      "summary": "Three Filipinos who were allegedly offered military work in Eastern Europe were intercepted at Davao International Airport before their scheduled departure, the Bureau of Immigration (BI) said on…",
+      "byline": "NewsPublish",
+      "section": "Headlines",
+      "published": "2026-10-26T22:30:53.216Z",
+      "firstSeen": "2026-10-26T21:31:03.428Z",
+      "url": "https://globalnation.inquirer.net/343974/bi-intercepts-3-filipinos-bound-for-eastern-europe",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2025/06/Bureau-of-Immigration-BI-10June2025.gif",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Three Filipinos who were allegedly offered military work in Eastern Europe were intercepted at Davao International Airport before their scheduled departure, the Bureau of Immigration (BI) said on Monday. In a statement, the BI said the three were stopped from leaving on Oct. 17 after agents found a mismatch, upon questioning, between the passengers’ stated"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1ffh9vn",
+      "source": "inqn",
+      "title": "Dizon, Lopez swap posts in latest Cabinet revamp",
+      "summary": "President Marcos on Monday swapped the chiefs of the country’s two major infrastructure agencies, returning Vince Dizon to the Department of Transportation (DOTr) and transferring Giovanni “Banoy”…",
+      "byline": "NewsPublish",
+      "section": "Headlines",
+      "published": "2026-10-26T22:30:53.154Z",
+      "firstSeen": "2026-10-26T22:00:55.284Z",
+      "url": "https://newsinfo.inquirer.net/2330691/dizon-lopez-swap-posts-in-latest-cabinet-revamp",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Vince-Dizon-Giovanni-Lopez-27October2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "President Marcos on Monday swapped the chiefs of the country’s two major infrastructure agencies, returning Vince Dizon to the Department of Transportation (DOTr) and transferring Giovanni “Banoy” Lopez to the Department of Public Works and Highways (DPWH) to accelerate reforms in commuting and infrastructure. Dizon headed the DOTr from February to September 2025 before moving"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
       "id": "inqg-4np5hi",
       "source": "inqg",
       "title": "Democrats call for special counsel to probe Trump&#8217;s Epstein ties",
       "summary": "WASHINGTON &#8211; Democratic lawmakers called on Monday, eight days before crucial US midterm elections, for the appointment of a special counsel to probe President Donald Trump&#8217;s ties to…",
       "byline": "ggaviola",
       "section": "Americas",
-      "published": "2026-10-26T22:00:55.284Z",
+      "published": "2026-10-26T22:30:53.154Z",
       "firstSeen": "2026-10-26T21:31:03.386Z",
       "url": "https://globalnation.inquirer.net/343998/democrats-call-for-special-counsel-to-probe-trumps-epstein-ties",
       "image": {
@@ -472,23 +497,441 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-1ffh9vn",
-      "source": "inqn",
-      "title": "Dizon, Lopez swap posts in latest Cabinet revamp",
-      "summary": "President Marcos on Monday swapped the chiefs of the country’s two major infrastructure agencies, returning Vince Dizon to the Department of Transportation (DOTr) and transferring Giovanni “Banoy”…",
-      "byline": "NewsPublish",
-      "section": "Headlines",
-      "published": "2026-10-26T22:00:55.284Z",
-      "firstSeen": "2026-10-26T22:00:55.284Z",
-      "url": "https://newsinfo.inquirer.net/2330691/dizon-lopez-swap-posts-in-latest-cabinet-revamp",
+      "id": "inq-1fothyn",
+      "source": "inq",
+      "title": "Trump hits back at Obama over Saddam 'Cheesecake Factory' jab",
+      "summary": "UNITED STATES — US President Donald Trump hit back at Barack Obama on Monday after the former president jokingly said his successor&#8217;s White House looked as if it were a cheesecake restaurant…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-26T22:17:13.000Z",
+      "firstSeen": "2026-10-26T22:30:53.154Z",
+      "url": "https://cebudailynews.inquirer.net/779190/trump-hits-back-at-obama-over-saddam-cheesecake-factory-jab",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Vince-Dizon-Giovanni-Lopez-27October2026.jpg",
+        "src": "https://cebudailynews.inquirer.net/files/2026/10/AFP__20261025__D4C64B6__v1__HighRes__DonaldTrumpHoldsARallyInPerryGeorgiaAheadOfTheM-620x413.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "President Marcos on Monday swapped the chiefs of the country’s two major infrastructure agencies, returning Vince Dizon to the Department of Transportation (DOTr) and transferring Giovanni “Banoy” Lopez to the Department of Public Works and Highways (DPWH) to accelerate reforms in commuting and infrastructure. Dizon headed the DOTr from February to September 2025 before moving"
+          "text": "UNITED STATES — US President Donald Trump hit back at Barack Obama on Monday after the former president jokingly said his successor&#8217;s White House looked as if it were a cheesecake restaurant run by Saddam Hussein. &#8220;For you to say it&#8217;s a Cheesecake Factory, that just shows why you were a lousy president,&#8221; Trump said in a three-minute diatribe when asked about Obama&#8217;s comments over the weekend. &#8220;Guys like Obama, they would pass the front door, they would see the broken masonry&#8230; He doesn&#8217;t notice dirt and filth where the walls haven&#8217;t been cleaned for years,&#8221; Trump told reporters as he [&hellip;]... Keep on reading: Trump hits back at Obama over Saddam 'Cheesecake Factory' jab"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-djja7x",
+      "source": "grd",
+      "title": "Jordan attacks militants in Syria in retaliation for last week’s church attack",
+      "summary": "<p>Jordanian air force says it carried out strikes against ‘terrorist groups’ tied to killing of nine in Karak</p><p>Jordan has carried out airstrikes against armed groups in Syria in retaliation for…",
+      "byline": "Associated Press in Amman",
+      "section": "Jordan",
+      "published": "2026-10-26T22:08:38.000Z",
+      "firstSeen": "2026-10-26T22:30:53.216Z",
+      "url": "https://www.theguardian.com/world/2026/oct/26/jordan-attacks-militants-syria-retaliation-for-last-week-church-attack",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/64332ec0d49e7efed321c759c9a426f587b9848b/461_0_4610_3688/master/4610.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=24001820a6d5bb71f1395ce87d57319a",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jordan has carried out airstrikes against armed groups in Syria in retaliation for Friday’s attack on a Greek Orthodox church in the southern Jordanian city of Karak that killed nine people, the Jordanian air force has said in a statement."
+        },
+        {
+          "type": "p",
+          "text": "It said the operation “resulted in the killing and wounding of many members of these terrorist groups and the destruction of a number of their vehicles”. It did not specify who the groups were or the precise location of the strikes."
+        },
+        {
+          "type": "p",
+          "text": "Syrian state media reported that civilians had been killed in the strikes. The director of health in the southern province of Daraa, where the strikes took place, told the Syrian national news agency, Sana, that at least five civilians had been killed, including women and children and a 65-year-old man."
+        },
+        {
+          "type": "p",
+          "text": "Jordan’s armed forces said the operation was conducted in coordination with Damascus, but Syria’s government gave a contradictory account, saying it had launched an investigation into the ⁠Jordanian attacks, and stressed in a statement the importance of field and security coordination in border areas."
+        },
+        {
+          "type": "p",
+          "text": "Earlier Monday, Jordanian authorities arrested three men for last week’s attack, which also wounded more than two dozen people. The arrests followed a dawn shootout, and all three men were wounded, officials said."
+        },
+        {
+          "type": "p",
+          "text": "The attack struck the Greek Orthodox church during a funeral in Karak, about 55 miles (90km) south of the capital, Amman, on Friday. Karak is home to a minority Christian population."
+        },
+        {
+          "type": "p",
+          "text": "The attack shocked the nation, and Jordan declared three days of mourning for the victims. No group immediately claimed responsibility for the attack; the attackers’ motive remained unknown."
+        },
+        {
+          "type": "p",
+          "text": "Later on Monday, Jordan’t Public Security Directorate identified the three arrested men as brothers Hazzah Zaidan Mohammad and Mishal Zaidan Mohammad, and their brother-in-law Ahmad Sami Hussein. All three are Jordanian; they were taken into custody in Karak, south of Amman."
+        },
+        {
+          "type": "p",
+          "text": "The agency’s chief described the gunmen as “takfiri,” a term used for Sunni militants, but said they were not tied to any organised group."
+        },
+        {
+          "type": "p",
+          "text": "“They only represent themselves,” Maj Gen Obaidallah Abd Rabbo Al-Maayta told a news conference. He also said a large cache of munitions was found in the abandoned house where Jordanian forces apprehended the men."
+        },
+        {
+          "type": "p",
+          "text": "Jordan’s interior minister, Mazen al-Faraya, said the attack by the three men was the result of “a terroristic, extremist way of thinking”."
+        },
+        {
+          "type": "p",
+          "text": "“If this way of thinking is not resolved, we will see incidents like this again,” he told reporters."
+        },
+        {
+          "type": "p",
+          "text": "Jordan’s King Abdullah II had ordered authorities to respond with “an iron fist” against what he called the outlaws of Islam and anyone attempting to undermine the unity of the Jordanian people."
+        },
+        {
+          "type": "p",
+          "text": "“We vowed the terrorists would not escape punishment, and no proponent of dark ideologies that divide Jordanians will be tolerated,” he said in a statement on Monday."
+        },
+        {
+          "type": "p",
+          "text": "Relatives of the victims said the arrests brought them some relief."
+        },
+        {
+          "type": "p",
+          "text": "“Despite the profound and immense tragedy, what happened today has eased our grief, and the grief of the Jordanian people – not just for us, the families of the martyrs,” Khaled al-Borqan, himself a survivor of the attack and a relative of three of the people killed, told Al-Mamlaka."
+        },
+        {
+          "type": "p",
+          "text": "“Despite the sadness and pain, the news brought us joy,” Fares Halaseh, an uncle of one of the victims and a survivor of the attack, told the TV station."
+        },
+        {
+          "type": "p",
+          "text": "But the pain remains, he added. “We will not forget this agony for years to come.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-7zn1d",
+      "source": "cbc",
+      "title": "The U.S. put surveillance drones in the Great Lakes, and this border town mayor isn't happy",
+      "summary": "When Sarnia, Ont., Mayor Mike Bradley first spotted an unusual, unmanned vessel in the St. Clair River, he says he thought it looked \"like something from Mars.\" Then he found out it was one of…",
+      "byline": "Sheena Goodyear",
+      "section": "Radio/As It Happens",
+      "published": "2026-10-26T22:05:56.000Z",
+      "firstSeen": "2026-10-26T22:30:53.154Z",
+      "url": "https://www.cbc.ca/radio/asithappens/sarnia-mayor-great-lakes-drones-9.7396779?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/1.7064328,1703019796000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C1%2C1071%2C602%29%3BResize%3D620",
+        "caption": "Sarnia Mayor Mike Bradley says he was not informed about plans for the U.S. Coast Guard to put drones on the Great Lakes. (CBC News)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As It Happens·New"
+        },
+        {
+          "type": "p",
+          "text": "When Sarnia, Ont., Mayor Mike Bradley first spotted an unusual, unmanned vessel in the St. Clair River, he says he thought it looked \"like something from Mars.\" Then he found out it was one of several surveillance sail drones deployed to the Great Lakes this summer by the U.S. Coast Guard."
+        },
+        {
+          "type": "h",
+          "text": "'We have thousands of boaters,' says Sarnia, Ont., mayor. 'They're going to be photographed and watched'"
+        },
+        {
+          "type": "p",
+          "text": "When Sarnia, Ont., Mayor Mike Bradley first spotted an unusual, unmanned vessel in the St. Clair River, he says he thought it looked \"like something from Mars.\""
+        },
+        {
+          "type": "p",
+          "text": "Then he found out it was one of several surveillance sail drones deployed to the Great Lakes this summer by the U.S. Coast Guard to \"gather critical weather data for emergency response planning, track illicit activity and keep maritime borders safe.\""
+        },
+        {
+          "type": "p",
+          "text": "The U.S. Coast Guard, which operates under the U.S. Department of Homeland Security, told CBC in June the vessels aren't there to surveil Canadians. But Bradley isn't convinced."
+        },
+        {
+          "type": "p",
+          "text": "\"We have thousands of boaters on the river St. Clair, Lake Huron, Lake Erie, and now they're going to be photographed and watched,\" he told As It Happens host Nil Kӧksal."
+        },
+        {
+          "type": "p",
+          "text": "\"Even though they're saying right now it's benign, I don't have the trust down the road, especially with the rapidly deteriorating relationship with the U.S., that they won't use it for other purposes.\""
+        },
+        {
+          "type": "p",
+          "text": "CBC has reached out to the U.S. and Canadian Coast Guards for comment. Both said they could not respond by deadline."
+        },
+        {
+          "type": "p",
+          "text": "LISTEN | Interview with Sarnia, Ont., Mayor Mike Bradley :"
+        },
+        {
+          "type": "p",
+          "text": "As It Happens7:00Sarnia, Ont., mayor speaks out against U.S. surveillance drones in the Great Lakes"
+        },
+        {
+          "type": "p",
+          "text": "The vessels are called Voyager unmanned surface vehicles, and each one is affixed with 360-degree high-resolution cameras, advanced radar, and automatic identification systems."
+        },
+        {
+          "type": "p",
+          "text": "They are owned and operated by Saildrone, a private U.S. company whose $15.5-million US contract with the Coast Guard is funded by U.S. President Donald Trump's \"One Big, Beautiful Bill.\""
+        },
+        {
+          "type": "p",
+          "text": "“This Voyager fleet will help the Coast Guard maintain persistent, scalable maritime domain awareness across these expansive waters, identifying threats in real time and enabling focused, high-impact interdiction,\" Saildrone president John Mustin said in a press release."
+        },
+        {
+          "type": "p",
+          "text": "The U.S. Coast Guard now has two sail drones on Lake Erie as a part of a new program that launched in May. (U.S. Coast Guard)"
+        },
+        {
+          "type": "p",
+          "text": "York University researcher Petra Molnar says Canadians should be concerned that this data is being collected by a private company and sold to the U.S. government."
+        },
+        {
+          "type": "p",
+          "text": "“This is a very troubling arrangement from a privacy and accountability standpoint,\" Molnar, the author of The Walls Have Eyes: Surviving Migration in the Age of Artificial Intelligence, told the Guardian newspaper."
+        },
+        {
+          "type": "p",
+          "text": "\"We have very little public information about data retention, who can access what data is collected, or how people using the region recreationally [can] be swept up in a data system built for border enforcement.”"
+        },
+        {
+          "type": "p",
+          "text": "Saildrone did not respond to requests for comment from CBC."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "On America's northern border, the threats are not unidirectional",
+            "U.S. claims about higher drug trafficking from Canada don't match the data: fentanyl czar"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The U.S. Coast Guard has said drones are nothing for Canadians to worry about."
+        },
+        {
+          "type": "p",
+          "text": "\"They're just out there for awareness,\" Lt. Junior Grade Samuel Rodriguez Garcia told CBC Windsor in June, when the vessels were deployed in Lake Erie. \"Think of them as mobile cameras that kind of help us gain a better insight into what's going on live on scene.\""
+        },
+        {
+          "type": "p",
+          "text": "He said the vessels' cameras are monitored 24/7 by U.S. Coast Guard staff, who can also manually move the drones when necessary. But the footage isn't recorded, officials say."
+        },
+        {
+          "type": "p",
+          "text": "U.S. and Canadian agencies, including law enforcement, could have access to the drone technology after going through the proper channels, he said."
+        },
+        {
+          "type": "p",
+          "text": "The Canadian Coast Guard told CBC Windsor it works closely with its U.S. counterpart, but has no involvement with the drone sail program."
+        },
+        {
+          "type": "h",
+          "text": "Mayor says he was left in the dark"
+        },
+        {
+          "type": "p",
+          "text": "The U.S. Coast Guard first announced the Voyager project in May in a press release issued by the U.S. Department of War."
+        },
+        {
+          "type": "p",
+          "text": "But Bradley says this is the first he's heard of it."
+        },
+        {
+          "type": "p",
+          "text": "In fact, he says he only learned what the vessel in the St. Clair River was when he was contracted by the Detroit News, which has been reporting on the drones."
+        },
+        {
+          "type": "p",
+          "text": "As mayor of the largest city on Lake Huron, he says being kept in the dark is unacceptable."
+        },
+        {
+          "type": "p",
+          "text": "\"If the Canadian government knew and agreed to it, that, to me, is a big issue,\" he said. \"They should have let Canadian cities, Canadian mayors, know that this was happening.\""
+        },
+        {
+          "type": "p",
+          "text": "CBC reached out to Public Safety Canada for information about the drones, and was redirected to the Canada Border Services Agency (CBSA)."
+        },
+        {
+          "type": "p",
+          "text": "The CBSA did not respond to questions about Bradley's concerns, saying the RCMP is responsible for \"enforcing Canadian legislation between ports of entry, including on the water.\""
+        },
+        {
+          "type": "p",
+          "text": "The U.S. Coast Guard sail drones will be deployed in Lake Erie and be pulled from the water once ice forms. (U.S. Coast Guard)"
+        },
+        {
+          "type": "p",
+          "text": "Bradley says it's no coincidence the project comes during a period of heightened tension between Canada and the U.S."
+        },
+        {
+          "type": "p",
+          "text": "With both countries locked in an impasse in the trade war, Trump and other Republicans have repeatedly framed the Canadian border as a dangerous security threat."
+        },
+        {
+          "type": "p",
+          "text": "However, the numbers tell a different story. A U.S. Border Patrol officials told Congress in June that drug seizures and arrests of undocumented immigrants are both down along the U.S-Canada border."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Detroit tourism bureau halts advertising in Canada amid trade war, hopes Canadians won't 'hold grudge'",
+            "Searches of cellphones, laptops by U.S. customs up more than 32% so far this year"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bradley called the drones \"an answer to a problem that doesn't really exist.\" He called on the Canadian government to \"show some backbone\" and push back."
+        },
+        {
+          "type": "p",
+          "text": "\"The Elbows Up movement seems to have died away, and I was a big supporter of that because I know the American psyche so well from 40 years of dealing with them,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "\"If you don't stand up or push back they will just walk all over you.\""
+        },
+        {
+          "type": "p",
+          "text": "Interview with Mike Bradley produced by Chris Trowbridge"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-4tv11n",
+      "source": "inq",
+      "title": "The pit stops that got us through the Formula 1 Singapore Grand Prix",
+      "summary": "A mix of Singaporean staples and caffeinated pick-me-ups to fuel us through the three-day race weekend... Keep on reading: The pit stops that got us through the Formula 1 Singapore Grand Prix",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-26T22:00:00.000Z",
+      "firstSeen": "2026-10-26T22:30:53.216Z",
+      "url": "https://lifestyle.inquirer.net/584548/pit-stops-at-formula-1-singapore/",
+      "image": {
+        "src": "https://lifestyle.inquirer.net/files/2026/10/Martin-oct-27-e1793011924217-620x325.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A mix of Singaporean staples and caffeinated pick-me-ups to fuel us through the three-day race weekend... Keep on reading: The pit stops that got us through the Formula 1 Singapore Grand Prix"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-wixkn3",
+      "source": "grd",
+      "title": "Brazil: defeated Flávio Bolsonaro ordered to surrender passports",
+      "summary": "<p>Far-right senator banned from leaving country as supreme court judge’s ruling makes reference to money-laundering case</p><p>The far-right senator Flávio Bolsonaro was banned from leaving Brazil…",
+      "byline": "Tiago Rogero in Brasília",
+      "section": "Brazil",
+      "published": "2026-10-26T21:56:49.000Z",
+      "firstSeen": "2026-10-26T22:30:53.155Z",
+      "url": "https://www.theguardian.com/world/2026/oct/26/flavio-bolsonaro-brazil-lula-election",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/0de4d058b50f7c1ef96360807b8a7d704ff3313e/688_0_6880_5504/master/6880.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=5969f0d60c15699a3e9e3616e76012f9",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The far-right senator Flávio Bolsonaro was banned from leaving Brazil and ordered to surrender his passports just hours after his dramatic loss in the presidential election to the leftist president Luiz Inácio Lula da Silva."
+        },
+        {
+          "type": "p",
+          "text": "The ruling was issued by supreme court justice Alexandre de Moraes, the same justice who oversaw the trial of the senator’s father, the former president Jair Bolsonaro, for attempting a coup."
+        },
+        {
+          "type": "p",
+          "text": "Bolsonaro posted a video saying the decision was based on an interview his brother, Eduardo Bolsonaro, gave last Friday urging his brother to leave Brazil if he lost the election."
+        },
+        {
+          "type": "p",
+          "text": "The brief ruling, however, only refers to a criminal case in which the federal police are investigating Flávio Bolsonaro over his possible involvement in a money-laundering scheme. The ruling orders him not to have any contact with his friend Willer Tomaz, a lawyer linked to betting companies that police suspect were being used to launder about £680m."
+        },
+        {
+          "type": "p",
+          "text": "It also cancelled all of Bolsonaro’s passports, including the diplomatic one he holds as a congressman, and ordered him to hand them over within 24 hours."
+        },
+        {
+          "type": "p",
+          "text": "Bolsonaro was the first to speak publicly about the matter, before Brazilian media were even aware of the judge’s decision."
+        },
+        {
+          "type": "p",
+          "text": "In a video posted on social media, he said he had just left a visit to his father, who is under house arrest in Brasília, when “Lula’s federal police were at his door and in the middle of the street, and I was served with an order to hand over my passports and I am also prohibited from leaving the country”."
+        },
+        {
+          "type": "p",
+          "text": "He added that, although his brother – who is in self-imposed exile in the US – told a US podcast on Friday that he favoured the senator leaving Brazil if he lost the election, “I never said that”."
+        },
+        {
+          "type": "p",
+          "text": "When his Senate term ends early next year, Bolsonaro will be out of public office for the first time in 24 years, and therefore without the special jurisdiction afforded to officeholders."
+        },
+        {
+          "type": "p",
+          "text": "He is under investigation in another criminal case, too, over what happened to the £20m he was captured on tape asking a disgraced banker accused of corruption to provide for a biopic about his father."
+        },
+        {
+          "type": "p",
+          "text": "Like Jair Bolsonaro four years ago, the senator has still not conceded defeat to Lula."
+        },
+        {
+          "type": "p",
+          "text": "The Folha de S.Paulo newspaper also reported that Flávio Bolsonaro had been persuaded to drop his plan to seek to annul the election, which he had announced after the result was declared on Sunday night."
+        },
+        {
+          "type": "p",
+          "text": "Bolsonaro had claimed that the two-hour extension of voting – intended to allow voters who had been unable to access the mandatory free public transport to cast their ballots – had harmed the election, despite the fact that his own campaign had also argued for an extension."
+        },
+        {
+          "type": "p",
+          "text": "According to the newspaper, allies and lawyers told him his argument was legally weak."
+        },
+        {
+          "type": "p",
+          "text": "Bolsonaro had still not publicly reversed his demand for an annulment, and in the same video he said he would file another case to have Lula’s ticket disqualified over alleged abuse of economic power, a similar case to others his legal team brought during the campaign."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-ir5idp",
+      "source": "inq",
+      "title": "Dizon, Lopez swap posts in latest Cabinet revamp",
+      "summary": "President Marcos on Monday swapped the chiefs of the country’s two major infrastructure agencies, returning Vince Dizon to the Department of Transportation (DOTr) and transferring Giovanni “Banoy”…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-26T21:55:00.000Z",
+      "firstSeen": "2026-10-26T22:30:53.229Z",
+      "url": "https://newsinfo.inquirer.net/2330691/dizon-lopez-swap-posts-in-latest-cabinet-revamp",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Vince-Dizon-Giovanni-Lopez-27October2026-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "President Marcos on Monday swapped the chiefs of the country’s two major infrastructure agencies, returning Vince Dizon to the Department of Transportation (DOTr) and transferring Giovanni “Banoy” Lopez to the Department of Public Works and Highways (DPWH) to accelerate reforms in commuting and infrastructure. Dizon headed the DOTr from February to September 2025 before moving [&hellip;]... Keep on reading: Dizon, Lopez swap posts in latest Cabinet revamp"
         }
       ],
       "truncated": true,
@@ -784,7 +1227,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "why": "direct HTTP 403"
     },
     {
       "id": "inq-1nn7vxu",
@@ -1501,31 +1944,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-criyte",
-      "source": "inq",
-      "title": "Villegas urges Palace to stand firm on West Philippine Sea",
-      "summary": "DAGUPAN CITY—Lingayen-Dagupan Archbishop Socrates Villegas urged the Marcos administration to remain “firm and unyielding” in defending the country’s sovereignty over the West Philippine Sea (WPS),…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-26T20:35:00.000Z",
-      "firstSeen": "2026-10-26T21:01:00.084Z",
-      "url": "https://newsinfo.inquirer.net/2330663/villegas-urges-palace-to-stand-firm-on-west-philippine-sea",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Socrates-Villegas-26October2026_9-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "DAGUPAN CITY—Lingayen-Dagupan Archbishop Socrates Villegas urged the Marcos administration to remain “firm and unyielding” in defending the country’s sovereignty over the West Philippine Sea (WPS), “without provoking hostilities but without cowering in the face of threat.” In a pastoral message issued on Sunday, Villegas said he was lending his voice to fisherfolk in Pangasinan and [&hellip;]... Keep on reading: Villegas urges Palace to stand firm on West Philippine Sea"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-148xv4s",
       "source": "inqn",
       "title": "The Medical City Clark vows compliance with Anti-Hospital Deposit Law",
@@ -1543,56 +1961,6 @@
         {
           "type": "p",
           "text": "CLARK FREEPORT ZONE — The Medical City Clark (TMC Clark) has reaffirmed its commitment to comply with the Anti-Hospital Deposit Law, which prohibits hospitals from requiring deposits before providing basic emergency care to patients in emergency or serious condition. TMC Clark serves as the official medical facility and emergency trauma response hub for the Clark"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-n8dqva",
-      "source": "inq",
-      "title": "‘Consuelo de bobo,’ says Cone of Kings’ quarterfinal showdown vs Beermen",
-      "summary": "The two other quarterfinal series of the PBA Governors’ Cup start on Tuesday at Smart Araneta Coliseum, headlined by an early playoff showdown between powerhouse sister squads Barangay Ginebra and…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-26T20:30:44.000Z",
-      "firstSeen": "2026-10-26T21:01:09.522Z",
-      "url": "https://sports.inquirer.net/703637/consuelo-de-bobo-says-cone-of-kings-quarterfinal-showdown-vs-beermen",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/10/San-Miguel-Beer-26October2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The two other quarterfinal series of the PBA Governors’ Cup start on Tuesday at Smart Araneta Coliseum, headlined by an early playoff showdown between powerhouse sister squads Barangay Ginebra and San Miguel Beer. The Gin Kings and the Beermen Ginebra and San Miguel open their quest to win another championship to cap off the 50th [&hellip;]... Keep on reading: ‘Consuelo de bobo,’ says Cone of Kings’ quarterfinal showdown vs Beermen"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
-      "id": "inq-vfkplo",
-      "source": "inq",
-      "title": "‘Undas’ sideline sustains Koronadal families",
-      "summary": "KORONADAL CITY—For as little as P5 per grave, youths and adults living beside Koronadal City Public Cemetery earn extra money by cleaning tombs and lighting candles for visitors ahead of “Undas” (All…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-26T20:30:00.000Z",
-      "firstSeen": "2026-10-26T21:01:10.039Z",
-      "url": "https://newsinfo.inquirer.net/2330662/undas-sideline-sustains-koronadal-families",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Koronadal-City-Public-Cemetery-Undas-26October2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "KORONADAL CITY—For as little as P5 per grave, youths and adults living beside Koronadal City Public Cemetery earn extra money by cleaning tombs and lighting candles for visitors ahead of “Undas” (All Saints’ Day and All Souls’ Day). The annual influx of cemetery visitors offers these residents a chance to earn money for their families’ [&hellip;]... Keep on reading: ‘Undas’ sideline sustains Koronadal families"
         }
       ],
       "truncated": true,
@@ -3886,172 +4254,6 @@
         {
           "type": "p",
           "text": "Ebola outbreak now deadliest in Congo’s history"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-1no9e5t",
-      "source": "cbc",
-      "title": "Women 'risk being left behind' in AI push, advocates warn Canadian lawmakers",
-      "summary": "Canadian lawmakers heard from several experts on Monday morning as a parliamentary committee studies the impact of artificial intelligence on women, girls and 2SLGBTQ+ individuals.",
-      "byline": "Jillian Kestler-D'Amours",
-      "section": "News/Politics",
-      "published": "2026-10-26T19:07:01.000Z",
-      "firstSeen": "2026-10-26T19:31:00.778Z",
-      "url": "https://www.cbc.ca/news/politics/women-inclusion-ai-canada-9.7396357?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/5b54f6c2-9834-41e1-8658-3509fdb2876b,1793038427014/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C5000%2C2812%29%3BResize%3D620",
-        "caption": "An AI sign is seen at the World Artificial Intelligence Conference in Shanghai, China, in 2023. The Canadian government launched its AI strategy in June. (Aly Song/Reuters)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Politics·New"
-        },
-        {
-          "type": "p",
-          "text": "Canadian lawmakers heard from several experts on Monday morning as a parliamentary committee studies the impact of artificial intelligence on women, girls and 2SLGBTQ+ individuals."
-        },
-        {
-          "type": "h",
-          "text": "Parliamentary committee hears from experts on AI's impact on women, girls and 2SLGBTQ+ individuals"
-        },
-        {
-          "type": "p",
-          "text": "· CBC News"
-        },
-        {
-          "type": "p",
-          "text": "· Posted: Oct 26, 2026 3:07 PM EDT | Last Updated: 18 minutes ago"
-        },
-        {
-          "type": "p",
-          "text": "Canada must ensure its artificial intelligence strategy doesn't leave women and other vulnerable groups behind, advocates told lawmakers on Monday, amid concerns around AI's impact on historically disadvantaged communities and potential to perpetuate stereotypes."
-        },
-        {
-          "type": "p",
-          "text": "MPs heard from several experts during a House of Commons status of women committee meeting examining the impact of AI on women, girls and 2SLGBTQ+ individuals."
-        },
-        {
-          "type": "p",
-          "text": "\"We stand at a pivotal moment,\" said Indra Kubicek, CEO of Digital Moment, a Montreal-based charity that works on digital literacy, particularly among girls and under-represented groups."
-        },
-        {
-          "type": "p",
-          "text": "\"My concern is that women in historically under-represented communities risk being left behind not because they lack ability, but because we are not creating the conditions for their success.\""
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "These artists are turning AI art back on itself"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Kubicek said women from diverse backgrounds as well as 2SLGBTQ+ individuals must participate in AI development and governance to avoid replicating biases."
-        },
-        {
-          "type": "p",
-          "text": "\"AI is not neutral. It learns from historical data, reflecting existing inequalities. Without safeguards, we risk codifying those biases into systems influencing our lives,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "LISTEN | A rallying cry for 'algorithmic justice':"
-        },
-        {
-          "type": "p",
-          "text": "Ideas53:59A rallying cry for 'algorithmic justice' in the face of AI bias"
-        },
-        {
-          "type": "p",
-          "text": "The committee is conducting a study on AI's effects on women, girls and 2SLGBTQ+ individuals, as well as what measures the Canadian government — which unveiled its \"AI for All\" national strategy in June — should take to prevent discrimination."
-        },
-        {
-          "type": "p",
-          "text": "As part of its $2-billion plan, the government said it would update laws and standards to \"protect vulnerable groups from online violence and algorithmic biases.\""
-        },
-        {
-          "type": "p",
-          "text": "It said it would speed up AI's adoption in female-dominated sectors that are most vulnerable to disruptions, \"unlocking new economic opportunities, softening transition shocks and confronting AI-fuelled online abuse that disproportionately targets women.\""
-        },
-        {
-          "type": "p",
-          "text": "Prime Minister Mark Carney also signed a statement last month with other world leaders acknowledging the need to \"strengthen oversight\" amid \"serious risks to safety and security\" posed by advanced AI models."
-        },
-        {
-          "type": "h",
-          "text": "Women-dominated fields most affected"
-        },
-        {
-          "type": "p",
-          "text": "Human rights advocates and other observers have raised concerns over how AI systems will affect women and other vulnerable groups, including workers whose jobs could be replaced by the technology."
-        },
-        {
-          "type": "p",
-          "text": "A March report from the United Nations' International Labour Organization (ILO) found that while generative AI could increase productivity and improve job quality, women-dominated industries were disproportionately affected."
-        },
-        {
-          "type": "p",
-          "text": "Why are celebrities telling women to use more AI?"
-        },
-        {
-          "type": "p",
-          "text": "Around 29 per cent of female-dominated jobs are exposed to generative AI compared with 16 per cent of male-dominated ones, according to the report, which looked at occupations in more than 80 countries, not including Canada."
-        },
-        {
-          "type": "p",
-          "text": "Women were also over-represented in jobs at high risk of being replaced by AI automation, such as clerical and administrative roles."
-        },
-        {
-          "type": "p",
-          "text": "Separately, the UN Committee on the Elimination of Discrimination against Women (CEDAW) warned last week that AI systems \"may reproduce and amplify gender stereotypes\" and discrimination against women."
-        },
-        {
-          "type": "p",
-          "text": "\"This is of particular concern where AI is used in areas affecting women's rights,\" such as employment, education and health care, the committee said."
-        },
-        {
-          "type": "h",
-          "text": "More data needed"
-        },
-        {
-          "type": "p",
-          "text": "Amy Flood, executive director of Women's Health Collective Canada, said Monday that while AI presents a \"very extraordinary opportunity\" in health care, it also \"risks making already invisible populations even more invisible\" if it's developed with incomplete or biased data."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "After years of calls for data, study confirms Black Canadians face higher risk of maternal complications"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Flood noted that women have been under-represented in health research for decades, leading to \"persistent gaps\" in how reproductive health and other issues that disproportionately impact women are understood."
-        },
-        {
-          "type": "p",
-          "text": "\"AI is only as good as the data it's built on. When that data is incomplete or biased, AI can reinforce existing [in]equities, leading to poorer health outcomes for women and gender diverse populations,\" she said during the committee meeting."
-        },
-        {
-          "type": "p",
-          "text": "She urged the federal government to invest in a national data strategy."
-        },
-        {
-          "type": "p",
-          "text": "\"We can't build equitable AI systems using data that fails to adequately represent women,\" she said."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Jillian Kestler-D'Amours is a senior writer at CBC based in Montreal. You can reach her at jillian.kestler-d.amours@cbc.ca."
         }
       ],
       "truncated": false,
@@ -11594,7 +11796,7 @@
       "byline": "",
       "section": "",
       "published": "2026-10-26T12:39:42.000Z",
-      "firstSeen": "2026-10-26T22:00:55.285Z",
+      "firstSeen": "2026-10-26T22:30:53.154Z",
       "url": "https://www.abs-cbn.com/1756",
       "image": null,
       "blocks": [],
@@ -16838,352 +17040,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "grd-1517uoe",
-      "source": "grd",
-      "title": "Brazil keeps left: what Lula’s victory means for his country and beyond",
-      "summary": "<p>In today’s newsletter: As Luiz Inácio Lula da Silva secured victory in the presidential race, we look the implications for democracy, the environment and international relations</p><p>Good…",
-      "byline": "Libby Brooks",
-      "section": "Brazil",
-      "published": "2026-10-26T06:44:33.000Z",
-      "firstSeen": "2026-10-26T07:00:55.342Z",
-      "url": "https://www.theguardian.com/world/2026/oct/26/brazil-presidential-elections-luiz-inacio-lula-da-silva-flavio-bolsonaro",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/1106bb4a8ba03a7902cd91e87de8ac9bf5fd7fb3/540_0_4164_3333/master/4164.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e82e9d2735077a56f93f5caae8287601",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Good morning. Chances are you woke this morning to news of two momentous election results. In Serbia, a student-led movement has ousted the country’s long-serving leader, Aleksandar Vučić (which you can read more about here). And just hours ago, Brazil’s president staged a sensational turnaround against his far-right opponent after a nail-biting vote."
-        },
-        {
-          "type": "p",
-          "text": "Luiz Inácio Lula da Silva, known as Lula, won a forth nonconsecutive term as president, seeing off far-right senator Flávio Bolsonaro, who spearheaded the radical populist movement built by his father and former president, Jair. Jair Bolsonaro is serving a 27-year prison sentence for plotting a coup after he lost the 2022 election."
-        },
-        {
-          "type": "p",
-          "text": "After Bolsonaro’s surprise first-round victory earlier this month, the Workers’ party incumbent Lula pulled off a historic fightback – a consolidation of the democratic resurgence the country has enjoyed since he took office – and an early birthday present for the veteran leftist, who turns 81 on Tuesday."
-        },
-        {
-          "type": "p",
-          "text": "But with Bolsonaro refusing to accept the result, the victory is a tense one. I spoke to the Guardian’s Latin America correspondent Tom Phillips, who was in São Paulo at the Workers’ party vote count, to find out what the result means and what may lie ahead."
-        },
-        {
-          "type": "h",
-          "text": "Weekend roundup"
-        },
-        {
-          "type": "list",
-          "ordered": true,
-          "items": [
-            "UK news | Two people have been killed and more than 160,000 properties have been left without power as Storm Boelo continues to batter the UK.",
-            "Crime | British police are recording a growing number of crimes linked to cocaine, including assaults, domestic abuse and dangerous driving, as figures show consumption has surged across England.",
-            "France | Hundreds of thousands marched in cities across France on Saturday in largely peaceful protests to support schoolchildren’s demands for more teachers and repairs to dilapidated buildings, as Emmanuel Macron faces a social and political crisis in his final months as president.",
-            "UK politics | Prime minister Andy Burnham’s call for the UK to consider a return to free movement with Europe has been backed by senior cabinet ministers including Angela Rayner but risks causing concern among fellow red wall MPs.",
-            "Aviation | Three in four European airline pilots have taken microsleeps in the cockpit, while almost a quarter routinely fly despite being too fatigued to work, according to a report."
-          ]
-        },
-        {
-          "type": "h",
-          "text": "In depth: ‘This is the crescendo of Lula’s incredible, if sometimes controversial, 50-year political career’"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/62284191dd3a44340dd688aefa59ef304eaa1d75/458_0_4583_3667/master/4583.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "This morning’s results were an unprecedented turnaround, according to election analysts. Photograph: Amanda Perobelli/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "When the results were declared just after midnight UK time, the choice of Brazil’s 159 million voters was narrow, but clear. The 80-year-old leftist received 51.79% of the vote to his rival’s 48.21% – about 4.3m votes – in what Lula called “a defeat for denialism”."
-        },
-        {
-          "type": "p",
-          "text": "A visibly angry Bolsonaro has already refused to concede, citing a decision to extend voting for an extra two hours – although both sides had called for it, for different reasons."
-        },
-        {
-          "type": "p",
-          "text": "The outcome was an unprecedented turnaround after a populist surge in first-round voting at the beginning of the month left Brazil’s progressives reeling."
-        },
-        {
-          "type": "p",
-          "text": "In those early October elections, Flávio Bolsonaro received 56.1m votes to Lula’s 53.8m – 47.03% to 45.16% – putting the 45-year-old scion of the authoritarian clan in pole position: not once, since the return of democracy to Brazil in 1985, has the first-round runner-up managed to turn the game around and win the second ballot."
-        },
-        {
-          "type": "p",
-          "text": "In the intervening weeks, the polls tightened dramatically, putting Bolsonaro ahead by only fractions of a percentage point."
-        },
-        {
-          "type": "p",
-          "text": "“This is the crescendo of an incredible, if sometimes controversial, 50-year political career,” Tom says. I can hear crowds of Lula supporters cheering in the background as we speak, and fireworks exploding. “It saw Lula go from rural poverty to union leader to the first elected working-class leader of Brazil, who has helped millions of people escape poverty and rode a commodities boom in his first two terms”."
-        },
-        {
-          "type": "p",
-          "text": "For Brazil, a Lula win represents stability and the assurance that the country’s democratic future is secure, at least in the short term. “Over the past four years, Lula has reduced deforestation in the Amazon by more than 70%. He’s come to the help of the Indigenous people who live there. He’s cracked down on illegal mining,” Tom tells me. “It’s very positive news is that all this will continue.”"
-        },
-        {
-          "type": "p",
-          "text": "How did Lula turn things around?"
-        },
-        {
-          "type": "p",
-          "text": "“Bolsonarismo is a far-right movement … that has put down deep roots in Brazilian society,” Bernardo Mello Franco, a political columnist for the Rio broadsheet O Globo, told Tom earlier this month, pointing to a series of societal shifts have contributed to this."
-        },
-        {
-          "type": "p",
-          "text": "Evangelical Christianity has expanded across Brazil in recent decades, with church leaders throwing their support behind the socially conservative policies favoured by Bolsanaro Sr and Jr."
-        },
-        {
-          "type": "p",
-          "text": "Pro-gun Flavio Bolsonaro harnessed voter frustration at chronic levels of urban crime and violence. Despite being embedded in Brazilian politics for decades, he successfully portrayed himself as an anti-establishment outsider, using social media far more effectively than his rival."
-        },
-        {
-          "type": "p",
-          "text": "And others believe he had significant help: a dozen watchdogs and research groups have published reports alleging that Meta may have favoured the senator’s campaign. The controversy grew after Brazils’ electoral court ordered Meta not to give the candidates “unequal treatment”, while the company called the allegations “false and unfounded”."
-        },
-        {
-          "type": "p",
-          "text": "Progressives were galvanised after the first-round results revealed a record abstention rate of 21%, more common among Lula-supporting groups such as lower-income voters, and their focus sharpened on mobilisation. Millions joined a WhatsApp channel called “Lula’s army”, which sent out daily instructions on how to make supportive content go viral. The 80-year-old incumbent, who only took ownership of his first smartphone in recent days, started posting to Instagram and TikTok. For the first time, the president’s digital reach overtook that of Bolsonaro."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, the Bolsonaro campaign was hit by a succession of scandals. In a revelation that made the UK’s partygate seem tame by comparison, last week the Brazilian magazine Piauí claimed that at the height of the 2020 coronavirus outbreak, Flávio Bolsonaro attended a boat party along with sex workers and vaccine lobbyists hoping to cut deals with his father’s government."
-        },
-        {
-          "type": "p",
-          "text": "Amid speculation that a comeback might be possible, at a million-strong rally on Copacabana beach in Rio on Saturday, activists unfurled an enormous yellow and green banner declaring: “We are going to turn this around!”"
-        },
-        {
-          "type": "p",
-          "text": "And so he did."
-        },
-        {
-          "type": "p",
-          "text": "What role did Trump play in the election?"
-        },
-        {
-          "type": "p",
-          "text": "The US president has boasted about “lots of people that I got elected” in Latin America, styling himself as a kingmaker after a succession of right-wing candidates aligned with Washington have won power."
-        },
-        {
-          "type": "p",
-          "text": "Although Donald Trump did not openly endorse Flávio Bolsonaro, his influence loomed large. Last year, he denounced the supreme court trial of his ally Jair Bolsonaro as a “witch-hunt”, imposing extraordinary 50% tariffs on Brazilian imports as retribution for what he claimed was political persecution."
-        },
-        {
-          "type": "p",
-          "text": "Lula has styled himself as the country’s defender against Trump’s “colonial” designs. His victory consolidates a multilateral foreign policy and pragmatic approach to relations with the US, China and Russia. He has rejected invitations to join the controversial coalition of Latin American countries conducting military operations against drug cartels alongside the Pentagon, which would have resulted in much greater US involvement on Brazilian soil."
-        },
-        {
-          "type": "p",
-          "text": "Furthermore, a win for pro-democracy campaigners in one country may serve to bolster international counterparts. As our senior international correspondent Julian Borger sets out in this compelling piece, along with the Brazil vote, a series of high-stakes elections in Serbia yesterday, Israel on Tuesday and the US next week are closely interlinked, and Lula’s win may have global ramifications, as leaders across Latin America and the world congratulate him this morning."
-        },
-        {
-          "type": "p",
-          "text": "What does the result mean for the environment, in Brazil and beyond?"
-        },
-        {
-          "type": "p",
-          "text": "Last week, Tom travelled to Roraima, the northern state where Bolsonaro registered his best result nationwide. On his trip, he heard first-hand from Indigenous leaders and conservationists on why the populist’s success was causing panic."
-        },
-        {
-          "type": "p",
-          "text": "His father’s environmentally devastating administration facilitated an illegal gold rush – turbo-charged by record global gold prices – that ravaged the Yanomami Indigenous reserve on the northern reaches of the Amazon."
-        },
-        {
-          "type": "p",
-          "text": "When Lula beat Jair Bolsonaro in 2022, the left-winger launched an environmentalist mission to expel the illegal miners, taking on the multibillion dollar extraction industry. Alongside wider green policies, he reduced deforestation in the Amazon to record lows."
-        },
-        {
-          "type": "p",
-          "text": "“Tragically,” says Tom, “the environment only came up in the final presidential debate of this campaign.”"
-        },
-        {
-          "type": "p",
-          "text": "“Given that the Amazon makes up such a large portion of Brazil, and how important that region is to the global climate crisis, it’s amazing that it’s not been debated more. But people were voting more on economy, public security and culture war issues.”"
-        },
-        {
-          "type": "p",
-          "text": "In that final debate last Friday, Tom says that Lula “tried to show off the excellent, if incomplete, work that his government’s done in protecting the environment”."
-        },
-        {
-          "type": "p",
-          "text": "Many will be relieved at Bolsonaro’s loss, as his vision for the Amazon was almost identical to his father’s."
-        },
-        {
-          "type": "p",
-          "text": "While a Lula victory brings hope that these policies will continue, he will be working with a newly elected congress that features a record number of rightwing politicians hostile to Indigenous rights and environmental issues."
-        },
-        {
-          "type": "p",
-          "text": "How will Bolsonaro respond?"
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "The immediate aftermath of the election results is likely to be fraught, warns Tom, with Flávio Bolsonaro saying it was “impossible to concede the election result”."
-        },
-        {
-          "type": "p",
-          "text": "“The Bolsonaro response is exactly as I feared but I don’t think it will mean very much,” Tom says. “All these world leaders are now recognising Lula’s win and I don’t think Bolsonaro has a hope of overturning this result”."
-        },
-        {
-          "type": "p",
-          "text": "Tom suspects that in the coming days Bolsonaro will head to the States, to avoid ongoing criminal investigations. “That’s not to say there might not be violence from his supporters, but his political career is done. The fact they’ve lost is a sign that the name ‘Bolsonaro’ is toxic for a slight majority of Brazilian people.”"
-        },
-        {
-          "type": "h",
-          "text": "The week to come"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Tuesday | Israel goes to the polls on Tuesday, amid orders from prime minister Benjamin Netanyahu for a full lockdown of the occupied West Bank after recent checkpoint attacks. His government will be fighting for its survival.",
-            "Wednesday | On Wednesday Chancellor John Healey will deliver his first budget statement in the House of Commons, which is expected to give local authorities more spending powers, as a means to promote growth",
-            "Thursday and Friday | European and Canadian leaders will meet in Montreal for the 21st EU-Canada summit, to discuss security and strategic cooperation. It will be the first opportunity for leaders to iron out details over a proposed invitation for Canada to become the EU’s first ever “associate member”"
-          ]
-        },
-        {
-          "type": "h",
-          "text": "What else we’ve been enjoying"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/d18ef956b5887c2f251f09cfa3c696da583bb8b6/354_672_6203_4962/master/6203.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Actor and producer Greg Wise. Photograph: Cian Oba-Smith/The Guardian"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Greg Wise is bracingly open about his experience of IVF and how his struggle to conceive with his wife, fellow actor Emma Thompson, left him questioning his masculinity. Klara Kubiak, newsletters team",
-            "I enjoyed Ioan Marc Jones this morning, on how bell hooks revolutionised his worldview and got him to start telling the men in his life he loves them. Poppy Noor, acting head of newsletters",
-            "As someone who isn’t the biggest fan of feet, I found Chloe Mac Donnell’s piece about the current trend for ugly footwear equal parts fascinating and horrifying. Klara",
-            "I found Emma Beddington’s advice to teens wanting to know about the world of work – which includes the values of a pack of biscuits and realising that your boss sometimes just might be an idiot – in equal parts funny and wise. Poppy"
-          ]
-        },
-        {
-          "type": "h",
-          "text": "Sport"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/31b378cfef6e2c0561008cc9a10d401d87daa69f/314_75_2577_2062/master/2577.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Michael Carrick said ‘it’s a tough situation, there’s no hiding from it’ after Manchester United’s defeat by Bournemouth. Photograph: Gary Oakley/EPA"
-        },
-        {
-          "type": "p",
-          "text": "Football | Manchester United’s hierarchy are in crisis talks over whether or not to sack Michael Carrick as head coach after he oversaw another torrid defeat, against Bournemouth at Old ­Trafford on Sunday, that left his job in the balance."
-        },
-        {
-          "type": "p",
-          "text": "Formula One | The 20-year-old Kimi Antonelli won from Charles Leclerc and Max Verstappen and should become F1’s youngest world champion next week in Mexico"
-        },
-        {
-          "type": "p",
-          "text": "Cricket | Shadab Khan made an unbeaten 113 in a thrilling last-wicket stand with Haris Rauf as Pakistan, chasing 242, beat England in a thriller"
-        },
-        {
-          "type": "h",
-          "text": "The front pages"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/4bd46164c80b03a2a7ac2f426d830ff645843125/0_0_820_1020/master/820.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Photograph: The Guardian"
-        },
-        {
-          "type": "p",
-          "text": "“‘Red Wall’ MPs wary as Burnham calls for EU free movement debate”, is the Guardian’s front page today, while Metro writes “Get Brexit Redone”."
-        },
-        {
-          "type": "p",
-          "text": "The i Paper has “Streeting vows UK will ‘lead from the front’ as billions planned for defence boost”, the Times writes “Budget set to offer tax reprieve for pensioners” while the Express says “PM’s betrayal may ‘open door’ to EU migrants”."
-        },
-        {
-          "type": "p",
-          "text": "Elsewhere, the Telegraph has “BBC’s £400k payout over anti-Semitism” and the FT has “Luxury houses shed €250bn in value as China’s shoppers tighten their belts”. The Mirror leads on “Meghan Dad ‘net will widen’” and the Mail has “Markle ‘abuser of worst kind’”."
-        },
-        {
-          "type": "h",
-          "text": "Today in Focus"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/5d18e78d301848ee476161295fad0e090dc4951a/2_0_4998_4000/master/4998.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Who ultimately has benefited from the UAE’s investment in Manchester?  Illustration: Anaïs Mims/Getty"
-        },
-        {
-          "type": "p",
-          "text": "How Abu Dhabi bought Andy Burnham’s Manchester"
-        },
-        {
-          "type": "p",
-          "text": "Today in Focus presenter and city resident Helen Pidd walks through modern Manchester – where Burnham was mayor for nearly a decade – and charts its transformation wrought by Emirati money."
-        },
-        {
-          "type": "p",
-          "text": "Helen talks to North of England editor Josh Halliday too about how Abu Dhabi came to Manchester, alleged “sweetheart deals” it struck to own so much land, and a lack of transparency about it all even now."
-        },
-        {
-          "type": "h",
-          "text": "Cartoon of the day | Tom Gauld"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/af87040eaa08f50ce7b5510774731a355ba038cc/0_0_4661_2584/master/4661.png?width=445&dpr=1&s=none&crop=none",
-          "caption": "Illustration: Tom Gauld/The Guardian"
-        },
-        {
-          "type": "h",
-          "text": "The Upside"
-        },
-        {
-          "type": "p",
-          "text": "A bit of good news to remind you that the world’s not all bad"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/63b9af7209a505695cd1ba9b5f0ff2ec06943393/135_0_1841_1473/master/1841.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Cory’s shearwater fledglings on Corvo Island in the Azores.  Photograph: Andrea Zanenga"
-        },
-        {
-          "type": "p",
-          "text": "Every autumn, Corvo Island in the Azores turns off its public lighting for a few key days to help fledgling seabirds fly to the ocean guided by the stars."
-        },
-        {
-          "type": "p",
-          "text": "Since 2019, the 450 or so inhabitants of the smallest and most northerly island of Portugal’s Azores archipelago have switched off the lights for five nights to tackle the disastrous effects of artificial light on Cory’s shearwaters. The campaign started after the community noticed huge numbers of deaths among young shearwaters, who spend three months in their nests before attempting their first flight to the ocean. Many are fatally confused by the artificial glow of streetlights, and end up crashing on the streets of the island’s only village, Vila do Corvo. By going dark, the stars can be seen clearly, allowing the juvenile birds safe passage to the ocean."
-        },
-        {
-          "type": "p",
-          "text": "Sign up here for a weekly roundup of The Upside, sent to you every Sunday"
-        },
-        {
-          "type": "h",
-          "text": "Bored at work?"
-        },
-        {
-          "type": "p",
-          "text": "And finally, the Guardian’s puzzles are here to keep you entertained throughout the day. Until tomorrow."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Quick crossword",
-            "Cryptic crossword",
-            "Wordiply"
-          ]
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-7x1f3p",
       "source": "bbc",
       "title": "Who should win the men's Ballon d'Or? BBC Sport pundits have their say",
@@ -18362,94 +18218,6 @@
         {
           "type": "h",
           "text": "Serbia's student revolt: Will it bring about change?"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-aibxxp",
-      "source": "grd",
-      "title": "Emirati diplomat who helped deliver aid to Gaza enters UN secretary general race",
-      "summary": "<p>Lana Nusseibeh has Palestine’s endorsement but faces criticism over the UAE’s human rights record and alleged funding of the RSF in Sudan</p><p>An Emirati diplomat who as UAE ambassador to the UN…",
-      "byline": "Patrick Wintour Diplomatic editor",
-      "section": "United Nations",
-      "published": "2026-10-25T19:00:10.000Z",
-      "firstSeen": "2026-10-25T19:30:54.916Z",
-      "url": "https://www.theguardian.com/world/2026/oct/25/lana-nusseibeh-emirati-diplomat-enters-un-secretary-general-race",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/98a81df6f55fb9ab99a50af7c6007f18f3025042/917_0_4583_3667/master/4583.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ddb219e915e9bd6151638ac7fba75e45",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "An Emirati diplomat who as UAE ambassador to the UN helped secure the delivery of humanitarian aid to Gaza has entered the race as a late contender to succeed António Guterres as the world body’s secretary general."
-        },
-        {
-          "type": "p",
-          "text": "Lana Nusseibeh, who is of Palestinian heritage, is widely noted for her advocacy of the Palestinian cause and the two state solution and has won the endorsement of the state of Palestine."
-        },
-        {
-          "type": "p",
-          "text": "She is however facing criticism over the UAE’s contested role in arming the Rapid Support Forces in Sudan, a group that has been accused of genocide by two successive US administrations. Nusseibeh has been one of the leading UAE diplomats denying reports that the UAE supplied weapons to RSF leader Mohamed Hamdan “Hemedti” Dagalo in defiance of a UN arms sales ban."
-        },
-        {
-          "type": "p",
-          "text": "A grouping of Latin American and Caribbean states, CELAC, has also sent a letter of objection to the security council, claiming her late entry came just as a consensus was emerging behind their region holding the UN top job."
-        },
-        {
-          "type": "p",
-          "text": "Nusseibeh, who was educated at Cambridge University, was born in 1978 in Abu Dhabi, where her father, Zaki, had emigrated after the Arab-Israeli 1967 war made it difficult for him to return to his birthplace, Jerusalem. She is the niece of Sari Nusseibeh, a distinguished Palestinian intellectual and author of a widely admired book on Palestine, Once Upon a Country."
-        },
-        {
-          "type": "p",
-          "text": "She has justified her late – but widely predicted – entry into the race on the grounds that the UN security council appears to be close to deadlock on the six remaining candidates in the race, with no one as yet able to establish a clear lead after six rounds of voting, the latest on 16 October."
-        },
-        {
-          "type": "p",
-          "text": "The latest straw poll – the first in which it was revealed whether any of the five permanent members of the 15-strong UN security council objected to a candidate – ended with Rebeca Grynspan of Costa Rica holding the lead spot."
-        },
-        {
-          "type": "p",
-          "text": "But Gryspan faced objections from two unidentified permanent security council members, making it harder for her to claim she is a breakaway consensus candidate. She has support from nine security council members and objections from five. Guterres is due to stand down at the end of the year"
-        },
-        {
-          "type": "p",
-          "text": "Other candidates include the Argentine diplomat Rafael Grossi; the UN envoy from Guyana, Carolyn Rodrigues-Birkett; Olara Otunnu, a distinguished veteran Ugandan diplomat; and Ecuador’s former foreign minister María Fernanda Espinosa. Two previously declared candidates have pulled out."
-        },
-        {
-          "type": "p",
-          "text": "In her vision statement, Nusseibeh said: “At the heart of the UN sits a wager: that states will give up a little today to gain a great deal together over time."
-        },
-        {
-          "type": "p",
-          "text": "“States have not stopped needing to partner with one another, but they no longer trust that cooperation will yield sufficient returns. Rebuilding that trust, with faster, more certain, and more realistic results, is the work of the UN.”"
-        },
-        {
-          "type": "p",
-          "text": "Brett McGurk, who served in the Biden administration as a top national security adviser, backed Nusseibeh for her work on Gaza. “How did UAE become the largest global provider of humanitarian aid to Gaza, according to UN data? Because of Lana Nussaibeh – a diplomat who knows everyone and works with them … She would be an inspired choice for this impossible job,” he said."
-        },
-        {
-          "type": "p",
-          "text": "Nickolay Mladenov, the Bulgarian diplomat who heads Donald Trump’s Gaza Board of Peace, said Nusseibeh “has always understood that the UN works when someone is willing to systematically build the bridges nobody else wants to build.”"
-        },
-        {
-          "type": "p",
-          "text": "He added: “In the Security Council [as UAE representative] she did that quietly and consistently and with great professionalism. She now has the chance to take that same spirit and ethos to the UN secretariat.”"
-        },
-        {
-          "type": "p",
-          "text": "But there is a fierce backlash from human rights activists who point to the UAE’s domestic human rights record and its alleged funding of the RSF in Sudan, the group responsible for killing thousands, including in the capture of El Fasher in October last year."
-        },
-        {
-          "type": "p",
-          "text": "A January 2024 report by the UN panel of experts described allegations from sources in Chad and Darfur – including those of arms being smuggled into the RSF from the UAE – as credible."
-        },
-        {
-          "type": "p",
-          "text": "One of the strongest attacks on Nusseibeh’s candidacy has been mounted by Kenneth Roth, the former executive director of Human Rights Watch, over her denials of UAE provision of any “military, logistical, financial or political support to any faction in Sudan”. The UAE says it supports the formation of a civilian-led government in Sudan."
         }
       ],
       "truncated": false,
