@@ -1,0 +1,203 @@
+{
+  "id": "bbc-1tkhnoy",
+  "source": "bbc",
+  "title": "Data centre debate heats up ahead of US midterms - here's what you need to know",
+  "summary": "Data centres are the lifeblood of our digital world, but there are growing concerns about their environmental impact. The BBC explores their rise in charts.",
+  "byline": "Daniel Thomas, the Visual Journalism Team",
+  "section": "",
+  "published": "2026-10-25T23:44:34.000Z",
+  "firstSeen": "2026-10-26T06:01:07.630Z",
+  "url": "https://www.bbc.co.uk/news/articles/cq2e9we7w2ejo?at_medium=RSS&at_campaign=rss",
+  "image": {
+    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/68b2/live/52453c80-cc82-11f1-bc2e-018d645d8d21.png",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "ByDaniel Thomas and the Visual Journalism Team"
+    },
+    {
+      "type": "p",
+      "text": "Until a few years ago many of us may have been blissfully unaware of what a data centre was."
+    },
+    {
+      "type": "p",
+      "text": "These giant, warehouse-like buildings power virtually all our internet activity, from our web searches and emails to movie downloads and online banking."
+    },
+    {
+      "type": "p",
+      "text": "They are at the heart of the AI boom, housing the advanced computer chips and servers needed to run services like ChatGPT and Claude."
+    },
+    {
+      "type": "p",
+      "text": "But the speed at which they're growing, the enormous amount of electricity they consume and concerns about their environmental impact are fuelling a public backlash around the world."
+    },
+    {
+      "type": "p",
+      "text": "In the US, they've become a huge issue ahead of the midterm elections on 3 November, with both Republicans and opposition Democrats coming out against their development."
+    },
+    {
+      "type": "p",
+      "text": "It's putting opponents of data centre expansion on a collision course with US President Donald Trump, who has dismissed the pushback as a \"sick conspiracy\", even as public anger grows."
+    },
+    {
+      "type": "p",
+      "text": "Here's what you need to know about the data centre boom, and why opposition is growing."
+    },
+    {
+      "type": "h",
+      "text": "They are growing rapidly"
+    },
+    {
+      "type": "p",
+      "text": "There are about 12,250 data centres around the world, according to Data Center Map, external, a company that tracks both operational and pre-operational sites."
+    },
+    {
+      "type": "p",
+      "text": "That's up sharply from 2021, when there were around 8,000, external operational sites."
+    },
+    {
+      "type": "p",
+      "text": "As the chart below shows, data centres are most densely clustered in the US which has 4,767 sites. It is followed by Europe, where the UK and Germany lead."
+    },
+    {
+      "type": "p",
+      "text": "Data centres have typically been located near to cities where it's easier to access high voltage power lines or water resources for cooling. But as they get bigger, more are being built in rural areas."
+    },
+    {
+      "type": "image",
+      "src": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/6a39/live/149c7810-cc98-11f1-a64c-550be9e3c66b.png",
+      "caption": "Three globe maps show the density of data centres worldwide, with darker purple indicating higher concentrations. The United States has the largest number of data centres, with Virginia highlighted as the area with the highest density globally. Europe shows a broad cluster stretching across weste…"
+    },
+    {
+      "type": "image",
+      "src": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/a462/live/93470ca0-c7ae-11f1-a64c-550be9e3c66b.jpg",
+      "caption": "Treemap showing installed data centre capacity by region, measured in gigawatts (GW). The US has the largest capacity at 53.73GW, followed by China at 31.90GW. The EU has 11.92GW, the rest of the world 11.89GW, Japan and South Korea 6.58GW, India 3.55GW and the UK 2.59GW. The size of each block i…"
+    },
+    {
+      "type": "h",
+      "text": "They are getting bigger"
+    },
+    {
+      "type": "p",
+      "text": "Data centres vary wildly in size, ranging from ones that fit inside a garden shed to others covering vast expanses of land."
+    },
+    {
+      "type": "p",
+      "text": "The world's largest operational data centre is widely reported to be one run by China Telecom in Hohhot, Inner Mongolia, covering an area of approximately one million square metres (10.7 million sq ft). That is equivalent to about 140 Fifa football pitches."
+    },
+    {
+      "type": "p",
+      "text": "However, much larger sites are under construction as the graphic below shows."
+    },
+    {
+      "type": "image",
+      "src": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/e4fe/live/e7cf5400-cbcb-11f1-9a39-31b474234113.png",
+      "caption": "Graphic comparing the scale of major AI data centres. SpaceXAI’s planned Colossus complex (70,000 sq m) is shown as roughly twice the size of the Houses of Parliament. OpenAI-backed Stargate in Texas (3.5 sq km) is compared with New York's Central Park. Meta's proposed Hyperion complex in Louisia…"
+    },
+    {
+      "type": "p",
+      "text": "All these sites are being built exclusively to provide the immense computing power needed to run AI services."
+    },
+    {
+      "type": "p",
+      "text": "For instance, Colossus 2, which is part of the wider Colossus campus, will house hundreds of thousands of advanced AI chips made by tech giant Nvidia."
+    },
+    {
+      "type": "p",
+      "text": "It will also be used to train xAI's chatbot Grok. Elon Musk's company will use 41 methane gas turbines to help power the site, which activists say could \"significantly increase\" local air pollution, external. Local regulators say the turbines will meet air quality standards."
+    },
+    {
+      "type": "image",
+      "src": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/830d/live/63f9e6a0-cc83-11f1-9a39-31b474234113.png",
+      "caption": "Side-by-side satellite images show woodland in Tennessee in 2020 and the same site in 2026 after large-scale development for SpaceXAI’s Colossus 2 data centre. The 2020 image shows dense forest surrounding a small industrial facility. The 2026 image shows most of the woodland cleared and replaced…"
+    },
+    {
+      "type": "h",
+      "text": "They use more electricity than France"
+    },
+    {
+      "type": "p",
+      "text": "The pressure data centres put on local resources has sparked increasing concern. These facilities can use significant amounts of water to cool their systems, which could lead to water shortages, some experts say."
+    },
+    {
+      "type": "p",
+      "text": "Data centres worldwide are also thought to consume more electricity than the whole of France, as the chart below shows."
+    },
+    {
+      "type": "p",
+      "text": "This growing hunger for power is driving up carbon emissions, analysis shows, while putting pressure on local grids, which some fear could push up energy prices."
+    },
+    {
+      "type": "p",
+      "text": "With others worried about the noise data centres make and the space they take up, a public backlash is gathering steam."
+    },
+    {
+      "type": "p",
+      "text": "Some 16 US states have proposed laws to ban or temporarily block new facilities, and it could be a key issue in November's midterm elections."
+    },
+    {
+      "type": "p",
+      "text": "Outside the US, opposition to data centres has emerged in countries like Mexico, France, Indonesia and the UK."
+    },
+    {
+      "type": "h",
+      "text": "But they can boost jobs"
+    },
+    {
+      "type": "p",
+      "text": "But supporters say data centres are critical to national security, and the development of AI."
+    },
+    {
+      "type": "p",
+      "text": "They also say they are good for the economy, external, attracting investment, generating tax revenue and creating jobs in areas like construction."
+    },
+    {
+      "type": "p",
+      "text": "A recent report by the Brookings Center, external suggests data centres do create local jobs, although fewer than industry advocates claim."
+    },
+    {
+      "type": "p",
+      "text": "The type of data centre matters too. So-called hyperscale facilities - massive sites owned and run by tech giants like Amazon and Microsoft - have a bigger positive effect on jobs, it found."
+    },
+    {
+      "type": "p",
+      "text": "But \"colocation\" facilities, which lease space to remote tenants without a local presence, brought fewer benefits."
+    },
+    {
+      "type": "p",
+      "text": "As the debate over their merits intensifies, the data centre rollout continues."
+    },
+    {
+      "type": "p",
+      "text": "This year, the tech industry is expected to spend a combined $765bn, external ($544bn) on AI infrastructure in 2026, with this topping $1tn next year."
+    },
+    {
+      "type": "p",
+      "text": "But as concerns about the environmental impact grow, the tech industry is exploring alternatives."
+    },
+    {
+      "type": "p",
+      "text": "One idea is to put data centres in space, external or on the Moon, where they could harness abundant solar energy."
+    },
+    {
+      "type": "p",
+      "text": "Others predict that more AI processing could eventually be carried out by the hardware already inside our computers and smartphones, reducing the need for vast data centres altogether."
+    },
+    {
+      "type": "p",
+      "text": "Additional reporting and design by Erwan Rivault, Matt Faraci and Dominic Bailey."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Artificial intelligence"
+      ]
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
