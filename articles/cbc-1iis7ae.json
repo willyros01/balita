@@ -1,0 +1,132 @@
+{
+  "id": "cbc-1iis7ae",
+  "source": "cbc",
+  "title": "Elvis still taking care of business as lawsuit alleges Anthropic used his songs to train AI",
+  "summary": "Rights-holders of Elvis Presley's music catalog have sued Anthropic for more than $41 million US, accusing the artificial intelligence giant of tapping the King of Rock and Roll's songs without…",
+  "byline": "Jessica Wong",
+  "section": "News/Canada",
+  "published": "2026-10-26T19:42:25.000Z",
+  "firstSeen": "2026-10-27T06:01:02.687Z",
+  "url": "https://www.cbc.ca/news/canada/anthropic-elvis-presley-copyright-lawsuit-songs-9.7396530?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/ea9981c9-dc24-486a-832c-b30889333b96,1793041847686/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C182%2C7919%2C4454%29%3BResize%3D620",
+    "caption": "AI company Anthropic is facing another lawsuit alleging it used copyrighted content without consent for training its AI models, this time brought by rights-holders of Elvis Presley's music catalog. (Dado Ruvic/Reuters)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Canada"
+    },
+    {
+      "type": "p",
+      "text": "Rights-holders of Elvis Presley's music catalog have sued Anthropic for more than $41 million US, accusing the artificial intelligence giant of tapping the King of Rock and Roll's songs without consent to train its AI models and 'infringing copyrights at an unfathomable scale.'"
+    },
+    {
+      "type": "h",
+      "text": "King of Rock and Roll's hits remain influential and are still streamed today, say plaintiffs in copyright suit"
+    },
+    {
+      "type": "p",
+      "text": "Rights-holders of Elvis Presley's music catalog have sued Anthropic for more than $41 million US, accusing the artificial intelligence giant of tapping the King of Rock and Roll's songs without consent to train its AI models and \"infringing copyrights at an unfathomable scale.\""
+    },
+    {
+      "type": "p",
+      "text": "A coalition of music and entertainment companies, trusts and individuals who together own the rights to 274 songs recorded and made famous by American music icon Presley filed the legal complaint on Friday in the Northern District of California, calling for a jury trial."
+    },
+    {
+      "type": "p",
+      "text": "The lawsuit comes as the AI company filed papers Monday for what could be the biggest initial public offering of stock ever and amid wider warnings in recent months — including by Anthropic's CEO — about unfettered AI development as a potential risk to humanity."
+    },
+    {
+      "type": "p",
+      "text": "Though nearly a half century has passed since his death in 1977, Presley's music continues to be influential and are still streamed today, the plaintiffs said in the filing, listing off a hit parade, from All Shook Up and Can't Help Falling in Love to A Little Less Conversation, Don't Be Cruel and (You're the) Devil In Disguise."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Nearly 50 years since his death, Elvis Presley continues to captivate new generations",
+        "Anthropic agrees to pay $1.5B US to settle author class action over AI training"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The \"iconic collective catalog contains some of the most groundbreaking, revolutionary, influential, and enduring musical compositions in human history,\" the suit states."
+    },
+    {
+      "type": "p",
+      "text": "The plaintiffs claim Anthropic has knowingly and willfully infringed copyright throughout the development of its Claude generative AI system, accusing the company of scraping song lyrics from approved internet sites — deliberately stripping out included Copyright Management Information such as songwriter, composer and music publisher credits — to create a database of copied content it then used to train AI models."
+    },
+    {
+      "type": "p",
+      "text": "Pedestrians pass a tour bus with an image of Elvis Presley in 2024 shortly after Tennessee unveiled new legislation designed to protect songwriters, performers and other music industry professionals against the rise in artificial intelligence. (John Amis/The Associated Press)"
+    },
+    {
+      "type": "p",
+      "text": "Despite Anthropic having since introduced some changes aimed at preventing users of Claude from creating copyright-infringing musical content themselves, the lawsuit claims that the chatbot's outputs have continued to do exactly that."
+    },
+    {
+      "type": "p",
+      "text": "After prompting Claude to recreate specific songs \"for a modern audience,\" the plaintiffs wrote that the output included the following response:"
+    },
+    {
+      "type": "p",
+      "text": "\"These renders keep landing very close to the originals: same structure, same hooks reused with light rewording, and full sets of verses/choruses/bridges. That's edging past 'inspired by' into reproducing the copyrighted song, even when the words are swapped out,\" the filing notes."
+    },
+    {
+      "type": "p",
+      "text": "LISTEN | Elvis Presley, 22, talks to CBC Radio after Ottawa show:"
+    },
+    {
+      "type": "p",
+      "text": "Archives5:48Elvis Presley in 1957: \"You have to put on a show for people\""
+    },
+    {
+      "type": "p",
+      "text": "The Presley plaintiffs accuse Anthropic of direct copyright infringement, circumventing copyright protection measures and removing or altering copyright mangement information. They are seeking damages upwards of $41 million (all figures in US)."
+    },
+    {
+      "type": "p",
+      "text": "\"We disagree with the claims and intend to ⁠defend this case fully,\" an Anthropic spokesperson told Reuters."
+    },
+    {
+      "type": "h",
+      "text": "Lawsuits from creators, rights-holders"
+    },
+    {
+      "type": "p",
+      "text": "The lawsuit is the latest in a wave of legal action brought by writers, news outlets, visual artists, musicians and music publishers accusing AI tech companies of tapping copyrighted material to train their generative AI systems."
+    },
+    {
+      "type": "p",
+      "text": "B.C. author leads lawsuits alleging big tech used writers' works to train AI"
+    },
+    {
+      "type": "p",
+      "text": "The companies have argued their systems make fair use of copyrighted material to create new content."
+    },
+    {
+      "type": "p",
+      "text": "In 2023, a coalition of music publishers sued Anthropic, alleging the company infringed their copyright by using song lyrics from a vast range of hit artists — from the Rolling Stones and Bruno Mars, to the Beach Boys and Beyoncé — to train Claude."
+    },
+    {
+      "type": "p",
+      "text": "The Presley complaint notes an expert witness for the music publishers in that 2023 case found multiple instances of Claude responding to users with lyrics from copyrighted songs verbatim (or virtually so) — including when the prompt was indirect (for example, asking for a song \"in the style of\" a particular artist)."
+    },
+    {
+      "type": "p",
+      "text": "That federal case is pending in Northern District of California after a transfer from Tennessee was granted in in mid-2024."
+    },
+    {
+      "type": "p",
+      "text": "Also in 2023, a group of authors launched a class-action suit against Anthropic, accusing the company of using pirated copies of their books to train Claude without their permission. This past July, a U.S. judge approved a $1.5 billion settlement in the case."
+    },
+    {
+      "type": "p",
+      "text": "With files from Reuters"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
