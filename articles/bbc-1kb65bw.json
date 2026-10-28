@@ -1,0 +1,84 @@
+{
+  "id": "bbc-1kb65bw",
+  "source": "bbc",
+  "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
+  "summary": "AI has made some awesome scientific discoveries. But now, questions are being raised about its accuracy",
+  "byline": "Pallab Ghosh",
+  "section": "",
+  "published": "2026-10-28T01:01:02.000Z",
+  "firstSeen": "2026-10-28T08:58:57.724Z",
+  "url": "https://www.bbc.co.uk/news/articles/c6gelgxjwzdzo?at_medium=RSS&at_campaign=rss",
+  "image": {
+    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1f6/live/c49501d0-cdf4-11f1-a64c-550be9e3c66b.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A bank of white freezers hums away at a former watch factory in central London. Inside: dozens of small boxes with barcoded glass tubes, collectively containing one hundred billion genes. Just two boxes may hold 10 times more information than all the text on the internet, says Dr Oliver Vince, the facility's co-founder."
+    },
+    {
+      "type": "p",
+      "text": "His firm, Basecamp Research, plans to collect as much DNA as possible to create an artificial intelligence that can speak the language of biology, in the same way that US and Chinese tech firms have hoovered up written material online to create Large Language Models (LLMs), the basis of current AI systems."
+    },
+    {
+      "type": "p",
+      "text": "Vince, like many in business and academic research, believes AI will supercharge scientific research. But increasingly, it also comes with controversy."
+    },
+    {
+      "type": "p",
+      "text": "Last month, OpenAI, the creator of ChatGPT, said it had solved one of maths' great unsolved problems, relating to the famous Navier–Stokes equations. The company said its AI agents had cracked it in 88 hours. The body that runs a prize for whoever can solve the problem said it had \"apparently been settled\", but that its review would take time."
+    },
+    {
+      "type": "p",
+      "text": "But hours before the announcement, Tristan Buckmaster, a mathematician at New York University, went public with concerns. He formed an independent team with Levent Alpöge, a mathematician employed by day by the rival company Anthropic."
+    },
+    {
+      "type": "p",
+      "text": "They had been working towards the same goal, and kept their drafts in OpenAI's coding tool, Codex. Buckmaster said that his co-researcher was tipped off that news of their progress had \"reached\" OpenAI, though he did not specify how. He asked whether his research, stored in Codex, could have fed into OpenAI's own work, though he stressed he was \"not accusing anyone of anything\"."
+    },
+    {
+      "type": "p",
+      "text": "One threat is to scientific journals, the guardians of scientific integrity, which are seen to be failing to deal with a tsunami of AI-generated distortions."
+    },
+    {
+      "type": "p",
+      "text": "\"Generative AI has basically disrupted the whole scientific process,\" says Dalmeet Singh Chawla, a science journalist who has spent a decade reporting on research misconduct."
+    },
+    {
+      "type": "p",
+      "text": "He tells the BBC that publishers' integrity staff - the people who screen submissions for accuracy and reliability - will need to \"drastically increase [in number and effort] if they're anywhere near the fight\". He says: \"Right now, it seems like they're not.\""
+    },
+    {
+      "type": "p",
+      "text": "On the face of it, AI seems just the right tool to power scientific research. Scientists deal with huge amounts of information. Telescopes and particle accelerators, for example, collect billions of data points – too large for the brain to comprehend. AI can pick the scientific highlights from the surrounding humdrum."
+    },
+    {
+      "type": "p",
+      "text": "The poster child of scientific AI is the UK-based firm Google DeepMind, which in 2020 solved one of biology's biggest problems: how proteins in living things fold into their precise shapes."
+    },
+    {
+      "type": "p",
+      "text": "It may sound dull, but proteins are the tiny machines that make life work, and the shapes they fold into determine what they can do; from building cells and fighting infection to helping form the tissues and organs of the body."
+    },
+    {
+      "type": "p",
+      "text": "Before AI, scientists had to conduct time-consuming experiments in the lab. Then, Google DeepMind developed an AI model called AlphaFold that accurately predicted 200 million protein folds in just one year."
+    },
+    {
+      "type": "p",
+      "text": "The equivalent experimental work would have taken hundreds of millions of years in laboratories. The firm gave the results away for free to researchers. The head of DeepMind and the project's lead scientist were both awarded the Nobel Prize for Chemistry."
+    },
+    {
+      "type": "p",
+      "text": "It was big hugs all round."
+    },
+    {
+      "type": "p",
+      "text": "Dr Pushmeet Kohli, who leads DeepMind's science work, told me that AlphaFold could be seen as a \"watershed moment\"."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
