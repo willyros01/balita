@@ -2,24 +2,51 @@
   "id": "bbc-1sdpxl3",
   "source": "bbc",
   "title": "Rock collapse kills two in Turkey's Cappadocia, local media reports",
-  "summary": "One of the regions famous rock formations, known as \"fairy chimneys\", reportedly collapsed outside an open-air museum.",
-  "byline": "",
+  "summary": "One of the region's famous rock formations, known as \"fairy chimneys\", reportedly collapsed outside an open-air museum.",
+  "byline": "Jaroslav Lukiv",
   "section": "",
   "published": "2026-10-29T13:44:39.000Z",
   "firstSeen": "2026-10-29T14:01:08.658Z",
   "url": "https://www.bbc.co.uk/news/articles/cknv08nvzld4o?at_medium=RSS&at_campaign=rss",
   "image": {
-    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed8c/live/e21f62f0-d39d-11f1-abc7-23eff3a47521.jpg",
+    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/563f/live/a8275d60-d3a6-11f1-93e1-3b657b665bcf.jpg",
     "caption": ""
   },
   "blocks": [
     {
       "type": "p",
-      "text": "One of the regions famous rock formations, known as \"fairy chimneys\", reportedly collapsed outside an open-air museum."
+      "text": "At least two people have been killed and five injured after a rock formation collapsed at a tourist site in Turkey's historical region of Cappadocia, local media is reporting."
+    },
+    {
+      "type": "p",
+      "text": "One of the rock spires, which are known as fairy chimneys, reportedly disintegrated at the popular open-air museum in the central town of Göreme."
+    },
+    {
+      "type": "p",
+      "text": "Nevşehir provincial Governor Hüseyin Kök said the victims' bodies had been recovered from under the rubble, but the justice minister warned there could be \"other potential victims\" still trapped."
+    },
+    {
+      "type": "p",
+      "text": "The cause of Thursday's incident was not immediately known, however local media reported the collapse could have been triggered by heavy rain."
+    },
+    {
+      "type": "p",
+      "text": "Turkish media reported that the collapse happened near the entrance to the museum at about 15:15 local time (12:15 GMT)."
+    },
+    {
+      "type": "p",
+      "text": "In a later post on social media, Justice Minister Akın Gürlek said that \"according to initial assessments, two individuals have lost their lives in the incident, and five others have been injured\"."
+    },
+    {
+      "type": "p",
+      "text": "He added that a search and rescue operation was continuing at the site."
+    },
+    {
+      "type": "p",
+      "text": "The Cappadocia region attracts tourists from around the world, who want to see the ancient fairy chimneys - tall, cone-shaped rock formations that are created by volcanic activity."
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct returned no extractable article text"
+  "source_of_text": "page"
 }
