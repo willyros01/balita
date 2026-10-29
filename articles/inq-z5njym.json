@@ -1,0 +1,193 @@
+{
+  "id": "inq-z5njym",
+  "source": "inq",
+  "title": "Polymarket Protocol V2 upgrade explained",
+  "summary": "Disclaimer: This paid article is intended for US audiences. Prediction markets rely on more than the questions they let people trade on. The infrastructure behind each market determines how positions…",
+  "byline": "INQUIRER.net",
+  "section": "",
+  "published": "2026-10-29T06:05:59.000Z",
+  "firstSeen": "2026-10-29T06:31:04.516Z",
+  "url": "https://technology.inquirer.net/150080/polymarket-protocol-v2-upgrade-explained",
+  "image": {
+    "src": "https://technology.inquirer.net/files/2026/10/Polymarket-Protocol-V2-upgrade-explained-470x313.jpeg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Disclaimer: This paid article is intended for US audiences."
+    },
+    {
+      "type": "p",
+      "text": "Prediction markets rely on more than the questions they let people trade on. The infrastructure behind each market determines how positions are represented, how collateral is managed and how transactions are processed. Protocol V2 shows a significant change to that underlying system, replacing parts of its older architecture with a more unified framework."
+    },
+    {
+      "type": "image",
+      "src": "https://technology.inquirer.net/files/2026/10/Polymarket-Protocol-V2-upgrade-explained-1200x740.jpeg",
+      "caption": "Polymarket Protocol V2 upgrade explained"
+    },
+    {
+      "type": "p",
+      "text": "The big question is what this means in practice. The upgrade introduces a shared positions contract, a new collateral token and a router designed to connect different components of the trading system."
+    },
+    {
+      "type": "h",
+      "text": "Why the trading foundation is changing"
+    },
+    {
+      "type": "p",
+      "text": "Polymarket’s earlier infrastructure was built around a Gnosis-based framework dating to 2019. As the platform developed, its system incorporated different components for managing positions, collateral and market activity. While this architecture supported the platform’s growth, multiple infrastructure layers can make the underlying trading process more complex."
+    },
+    {
+      "type": "p",
+      "text": "Protocol V2 aims to create a more consistent foundation. It introduces a unified positions contract alongside revised collateral arrangements, market-specific exchanges and a router connecting the system’s components."
+    },
+    {
+      "type": "p",
+      "text": "These changes matter because trading involves more than placing an order. The platform must track positions, manage support assets and process transactions according to each market’s rules. A standardized infrastructure can simplify these interactions. However, the practical effects depend on how the new components work together."
+    },
+    {
+      "type": "h",
+      "text": "How unified positions reshape market access"
+    },
+    {
+      "type": "p",
+      "text": "One central change is the introduction of a single ERC-1155 positions contract. ERC-1155 is a token standard that allows multiple token types to be managed through one smart contract. This provides a common framework for representing positions across supported markets."
+    },
+    {
+      "type": "p",
+      "text": "The upgrade also introduces pUSD collateral, market-specific exchanges and a router connecting different parts of the trading system. Together, these components are designed to provide a more uniform structure than the previous framework."
+    },
+    {
+      "type": "p",
+      "text": "A shared positions contract can simplify how positions are organized, while the router connects trading activity with the appropriate market components. However, this doesn’t make positions in different markets interchangeable. Each remains linked to its specific questions, possible outcomes and conditions for resolution."
+    },
+    {
+      "type": "p",
+      "text": "Users should therefore look at what position represents before trading. Understanding the underlying market remains important, even when the infrastructure supporting multiple positions follows a more consistent design."
+    },
+    {
+      "type": "p",
+      "text": "Another addition is OracleAggregator, which is designed to connect different data sources, including UMA and Chainlink, to the process of resolving markets. Protocol V2 also introduces infrastructure intended to support the movement of positions, collateral and resolution information across blockchains. However, cross-chain functionality has not yet been activated, so traders should not assume the upgrade immediately allows trading across additional networks."
+    },
+    {
+      "type": "h",
+      "text": "Separating collateral from trade settlement"
+    },
+    {
+      "type": "p",
+      "text": "An important component of Protocol V2 is pUSD, Polymarket’s collateral token introduced during its April 2026 exchange upgrade. Rather than introducing a completely new token, Protocol V2 builds on this existing collateral system as part of its redesigned smart contract architecture."
+    },
+    {
+      "type": "p",
+      "text": "Collateral and settlement serve different purposes. Collateral supports trading activity by providing the assets required under platform rules. Settlement concerns how transactions are completed and the relevant assets are transferred or accounted for."
+    },
+    {
+      "type": "p",
+      "text": "Under the V2 structure described in upgrade coverage, pUSD serves as collateral while trading activity settles in native USDC. Although the tokens have a one-to-one backing relationship, they perform different functions."
+    },
+    {
+      "type": "p",
+      "text": "Traders shouldn’t automatically interpret pUSD as a separate speculative asset. Its stated purpose is connected to Polymarket’s collateral infrastructure rather than providing an additional market outcome to trade."
+    },
+    {
+      "type": "p",
+      "text": "However, one-to-one backing doesn’t guarantee that every transaction is risk-free. Smart contract vulnerabilities, operational problems and transaction errors can still create risks."
+    },
+    {
+      "type": "p",
+      "text": "Users should check current documentation for deposit, conversions, token approval and withdrawal procedures before trading. Understanding which token is required for each step can help prevent confusion when interacting with the platform’s contracts."
+    },
+    {
+      "type": "h",
+      "text": "Where different market rules still matter"
+    },
+    {
+      "type": "p",
+      "text": "A common positions contract doesn’t eliminate the need for different market mechanisms. Protocol V2 initially supports four market types: Binary, Atomic Negative Risk, Incremental Negative Risk and Combinatorial. Although these markets use shared infrastructure, they differ in how outcomes are structured, how positions interact and how resolution conditions are applied."
+    },
+    {
+      "type": "p",
+      "text": "Binary markets typically involve two possible outcomes, such as whether a specified event will happen. Negative-risk markets involve related outcomes where the structure of one possibility can affect the treatment of others. Combinatorial markets can involve more complex relationships between multiple conditions or outcomes."
+    },
+    {
+      "type": "p",
+      "text": "These formats require different assumptions. How positions can be combined, how exposure is represented, and what happens when a market resolves depend on its specific structure."
+    },
+    {
+      "type": "p",
+      "text": "Protocol V2’s shared infrastructure can make the underlying system more consistent without removing these distinctions. Standardizing how positions are shown doesn’t make every market’s rules the same."
+    },
+    {
+      "type": "p",
+      "text": "Traders should look at the market format before evaluating a position. A familiar interface or shared token infrastructure shouldn’t replace a careful review of the market’s conditions. Polymarket’s official documentation is the best reference for confirming how individual market types work."
+    },
+    {
+      "type": "h",
+      "text": "Navigating the transition to Protocol V2"
+    },
+    {
+      "type": "p",
+      "text": "Polymarket began testing Protocol V2 on a limited number of live markets in early October 2026, with the testing period scheduled to continue through October 30. The platform tentatively plans to begin using V2 for newly created markets on November 2, although the date could change. Existing positions held under the older Conditional Tokens Framework will not automatically migrate to V2. Regular website and app users are not expected to perform a technical migration, but they may need to approve new smart contracts when trading on V2 markets."
+    },
+    {
+      "type": "p",
+      "text": "Users should check current platform notices and official documentation rather than assume every market follows the same technical process. Particular attention should be paid to collateral requirements, token approvals and transaction procedures."
+    },
+    {
+      "type": "p",
+      "text": "Traders should also remain alert to scams, including fake websites and fraudulent promotional offers that imitate legitimate platforms. Verifying links and checking official sources can help reduce the risk of falling victim to these schemes."
+    },
+    {
+      "type": "p",
+      "text": "As the transition progresses, users should prioritize accurate information about the specific market they intend to trade. General descriptions of V2 provide useful context, but current documentation is needed to confirm implementation details."
+    },
+    {
+      "type": "h",
+      "text": "What the upgrade means for traders"
+    },
+    {
+      "type": "p",
+      "text": "Protocol V2 introduces a more unified trading foundation through a shared positions contract, pUSD collateral, market-specific exchanges and a router. However, market rules still differ. Traders should understand collateral and settlement, check the relevant market format, and verify whether legacy or V2 infrastructure applies before placing a trade."
+    },
+    {
+      "type": "p",
+      "text": "For everyday users, Protocol V2 is primarily an infrastructure change rather than a complete overhaul of the trading experience. Existing positions are not automatically transferred to the new contracts, and users may encounter additional approval prompts when trading on V2 markets. The upgrade also operates separately from promotional offers and account incentives. Traders exploring those aspects of the platform can consult a Polymarket promo code guide for information about available offers and eligibility requirements."
+    },
+    {
+      "type": "p",
+      "text": "As prediction markets evolve alongside technologies such as AI, building a more consistent trading infrastructure can help platforms manage increasingly complex market activity and user demands."
+    },
+    {
+      "type": "h",
+      "text": "Why a More Flexible Infrastructure Matters for Emerging Prediction Markets"
+    },
+    {
+      "type": "p",
+      "text": "Prediction markets are expanding beyond traditional political and financial events into entertainment, technology and competitive gaming. These categories introduce questions that can differ considerably in how outcomes are defined, verified and settled."
+    },
+    {
+      "type": "p",
+      "text": "Gaming provides an interesting example. Markets covering GTA 6 release delays, esports tournament results and Game of the Year awards have attracted considerable attention. An analysis of gaming in prediction markets shows how even seemingly straightforward questions can involve complex settlement conditions, especially when release deadlines, tournament rules, or award eligibility requirements are involved."
+    },
+    {
+      "type": "p",
+      "text": "This is where Polymarket’s Protocol V2 architecture becomes relevant. Its shared positions contract, market-specific exchanges and standardized infrastructure are designed to support different market structures within a more unified system. However, these technical improvements do not eliminate the need for precise resolution criteria or reliable information sources."
+    },
+    {
+      "type": "p",
+      "text": "For traders, the distinction remains important. A more consistent trading infrastructure may simplify how positions are managed, but it cannot determine whether a gaming rumor is accurate or guarantee that a market will resolve as expected. Understanding the rules behind each prediction remains just as important as understanding the technology supporting it."
+    },
+    {
+      "type": "p",
+      "text": "ADVT."
+    },
+    {
+      "type": "p",
+      "text": "This article is brought to you by Bazoom Group ApS."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
