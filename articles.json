@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-10-30T17:01:26.948Z",
+  "updated": "2026-10-30T17:31:24.801Z",
   "sources": [
     {
       "id": "inq",
@@ -53,38 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-wi8ggg",
-      "source": "inqn",
-      "title": "Ombudsman suspends 2 QC barangay execs for ‘undocumented’ transactions",
-      "summary": "MANILA, Philippines—The Office of the Ombudsman on Friday ordered the preventive suspension of a barangay captain and barangay treasurer in Quezon City. The directive comes after it was found that…",
-      "byline": "postie",
-      "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:14.178Z",
-      "firstSeen": "2026-10-30T12:30:57.553Z",
-      "url": "https://newsinfo.inquirer.net/2333180/ombudsman-suspends-2-qc-barangay-execs-for-undocumented-transactions",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/18sept2026-ombudsman9.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—The Office of the Ombudsman on Friday ordered the preventive suspension of a barangay captain and barangay treasurer in Quezon City. The directive comes after it was found that numerous transactions involving millions of public funds lacked the supporting documents. In a statement, the ombudsman said it suspended barangay captain Ronald Noga Tagle and"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1r5o5vm",
       "source": "inqn",
       "title": "Senate leaders vow removal of budget items not supported by documents",
       "summary": "MANILA, Philippines — Senate President Sherwin Gatchalian and Senator JV Ejercito have vowed to remove items in the 2027 proposed budget that do not have supporting documents from local government…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:14.178Z",
+      "published": "2026-10-30T17:31:12.134Z",
       "firstSeen": "2026-10-30T12:00:56.879Z",
       "url": "https://newsinfo.inquirer.net/2333163/senate-leaders-vow-removal-of-budget-items-not-supported-by-documents",
       "image": {
@@ -109,7 +84,7 @@
       "summary": "MANILA, Philippines — The first lady, Louise “Liza” Araneta-Marcos, and Education Secretary Sonny Angara, together with the Philippine Reclamation Authority (PRA), launched a nationwide school-based…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:14.178Z",
+      "published": "2026-10-30T17:31:12.134Z",
       "firstSeen": "2026-10-30T12:00:56.948Z",
       "url": "https://newsinfo.inquirer.net/2333161/liza-marcos-angara-launch-nationwide-school-hydroponics-project",
       "image": {
@@ -128,13 +103,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-wi8ggg",
+      "source": "inqn",
+      "title": "Ombudsman suspends 2 QC barangay execs for ‘undocumented’ transactions",
+      "summary": "MANILA, Philippines—The Office of the Ombudsman on Friday ordered the preventive suspension of a barangay captain and barangay treasurer in Quezon City. The directive comes after it was found that…",
+      "byline": "postie",
+      "section": "Latest News Stories",
+      "published": "2026-10-30T17:31:10.506Z",
+      "firstSeen": "2026-10-30T12:30:57.553Z",
+      "url": "https://newsinfo.inquirer.net/2333180/ombudsman-suspends-2-qc-barangay-execs-for-undocumented-transactions",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/18sept2026-ombudsman9.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—The Office of the Ombudsman on Friday ordered the preventive suspension of a barangay captain and barangay treasurer in Quezon City. The directive comes after it was found that numerous transactions involving millions of public funds lacked the supporting documents. In a statement, the ombudsman said it suspended barangay captain Ronald Noga Tagle and"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-hh1cz8",
       "source": "inqn",
       "title": "Cenda&#241;a reiterates: Nothing libelous with what I said about Quiboloy",
       "summary": "MANILA, Philippines — Akbayan party-list Rep. Percival Cendaña has maintained that there is nothing libelous in the statements he made about Kingdom of Jesus Christ (KOJC) founder Apollo Quiboloy.…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:12.590Z",
+      "published": "2026-10-30T17:31:10.420Z",
       "firstSeen": "2026-10-30T13:30:58.087Z",
       "url": "https://newsinfo.inquirer.net/2333204/cendana-reiterates-nothing-libelous-with-what-i-said-about-quiboloy",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "MANILA, Philippines — San Juan City was recognized as one of the awardees under the Top Performing City category during the Department of the Interior and Local Government’s (DILG) 2026 NCR…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:12.590Z",
+      "published": "2026-10-30T17:31:10.420Z",
       "firstSeen": "2026-10-30T12:44:58.148Z",
       "url": "https://newsinfo.inquirer.net/2333193/san-juan-city-recognized-at-2026-ncr-subaybayani-awards",
       "image": {
@@ -178,88 +178,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-28qcnb",
-      "source": "inqn",
-      "title": "SC: Male victims suffer equal trauma from sexual violence",
-      "summary": "MANILA, Philippines &#8211; Behind closed doors, in an air conditioned bedroom where an 11-year-old boy fell asleep during a family visit, a quiet violation eventually haunted him. Overwhelmed by…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:12.379Z",
-      "firstSeen": "2026-10-30T13:01:00.072Z",
-      "url": "https://newsinfo.inquirer.net/2333197/sc-male-victims-suffer-equal-trauma-from-sexual-violence",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/SUPREME-COURT-PH-09202022-05.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8211; Behind closed doors, in an air conditioned bedroom where an 11-year-old boy fell asleep during a family visit, a quiet violation eventually haunted him. Overwhelmed by fear of an older relative, the little boy complied when his 25-year-old paternal aunt ordered him to undress. He remained silent at first—bound by youth, curiosity,"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-117q3z9",
-      "source": "inqn",
-      "title": "PNP chief inspects transpo terminals, major cemetery ahead of Undas",
-      "summary": "MANILA, Philippines — Philippine National Police (PNP) chief Gen. Jose Melencio C. Nartatez Jr. inspected bus terminals in Cubao, Quezon City and the Manila North Cemetery on Friday, as the nation…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:12.378Z",
-      "firstSeen": "2026-10-30T14:01:00.929Z",
-      "url": "https://newsinfo.inquirer.net/2333233/pnp-chief-inspects-transpo-terminals-major-cemetery-ahead-of-undas",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/image-35-scaled.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Philippine National Police (PNP) chief Gen. Jose Melencio C. Nartatez Jr. inspected bus terminals in Cubao, Quezon City and the Manila North Cemetery on Friday, as the nation prepares for the Undas break. Nartatez assessed the security measures, as well as the conditions of the terminals in anticipation of the surge of"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-134p1y5",
-      "source": "inqn",
-      "title": "INQToday: Cubao bus terminal vendors hit by poor sales despite travel rush",
-      "summary": "MANILA, Philippines — Here are INQToday’s stories for Friday, Oct. 30, 2026, as of 6 p.m. Cubao bus terminal vendors hit by poor sales despite travel rush Despite the influx of passengers at a Cubao…",
-      "byline": "Alexander Magno",
-      "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:12.378Z",
-      "firstSeen": "2026-10-30T14:01:02.859Z",
-      "url": "https://newsinfo.inquirer.net/2333215/inqtoday-cubao-bus-terminal-vendors-hit-by-poor-sales-despite-travel-rush",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/INQToday-TitleCard-30Oct2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Here are INQToday’s stories for Friday, Oct. 30, 2026, as of 6 p.m. Cubao bus terminal vendors hit by poor sales despite travel rush Despite the influx of passengers at a Cubao bus terminal in Quezon City, food vendors noted that the increase in foot traffic had yet to translate into higher"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1wgek68",
       "source": "inqn",
       "title": "Prosecution on SWS survey: 70% want explanation from Sara Duterte",
       "summary": "MANILA, Philippines — While it is easy to conclude that the recent Social Weather Stations (SWS) survey indicated that the prosecution is losing in the court of public opinion, a panel member has…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:12.378Z",
+      "published": "2026-10-30T17:31:10.334Z",
       "firstSeen": "2026-10-30T14:01:05.762Z",
       "url": "https://newsinfo.inquirer.net/2333228/prosecution-on-sws-survey-70-want-explanation-from-sara-duterte",
       "image": {
@@ -284,7 +209,7 @@
       "summary": "MANILA, Philippines — The Civil Aviation Authority of the Philippines (Caap) on Friday issued a Notice to Airmen (Notam) for flights near Mayon Volcano in Albay. This came after Mayon recorded a…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:12.378Z",
+      "published": "2026-10-30T17:31:10.334Z",
       "firstSeen": "2026-10-30T14:31:08.711Z",
       "url": "https://newsinfo.inquirer.net/2333238/caap-to-airmen-avoid-flying-near-mayon-following-eruption",
       "image": {
@@ -309,7 +234,7 @@
       "summary": "MANILA, Philippines — Responsible preparation begins with what households can do today, while water service remains normal. A strong to very strong El Niño is present in the tropical Pacific and may…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:12.378Z",
+      "published": "2026-10-30T17:31:10.334Z",
       "firstSeen": "2026-10-30T13:01:00.023Z",
       "url": "https://newsinfo.inquirer.net/2333198/manila-water-shares-practical-ways-to-get-ready-for-el-nino",
       "image": {
@@ -328,13 +253,88 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-28qcnb",
+      "source": "inqn",
+      "title": "SC: Male victims suffer equal trauma from sexual violence",
+      "summary": "MANILA, Philippines &#8211; Behind closed doors, in an air conditioned bedroom where an 11-year-old boy fell asleep during a family visit, a quiet violation eventually haunted him. Overwhelmed by…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-30T17:31:10.334Z",
+      "firstSeen": "2026-10-30T13:01:00.072Z",
+      "url": "https://newsinfo.inquirer.net/2333197/sc-male-victims-suffer-equal-trauma-from-sexual-violence",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/SUPREME-COURT-PH-09202022-05.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines &#8211; Behind closed doors, in an air conditioned bedroom where an 11-year-old boy fell asleep during a family visit, a quiet violation eventually haunted him. Overwhelmed by fear of an older relative, the little boy complied when his 25-year-old paternal aunt ordered him to undress. He remained silent at first—bound by youth, curiosity,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-134p1y5",
+      "source": "inqn",
+      "title": "INQToday: Cubao bus terminal vendors hit by poor sales despite travel rush",
+      "summary": "MANILA, Philippines — Here are INQToday’s stories for Friday, Oct. 30, 2026, as of 6 p.m. Cubao bus terminal vendors hit by poor sales despite travel rush Despite the influx of passengers at a Cubao…",
+      "byline": "Alexander Magno",
+      "section": "Latest News Stories",
+      "published": "2026-10-30T17:31:10.333Z",
+      "firstSeen": "2026-10-30T14:01:02.859Z",
+      "url": "https://newsinfo.inquirer.net/2333215/inqtoday-cubao-bus-terminal-vendors-hit-by-poor-sales-despite-travel-rush",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/INQToday-TitleCard-30Oct2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Here are INQToday’s stories for Friday, Oct. 30, 2026, as of 6 p.m. Cubao bus terminal vendors hit by poor sales despite travel rush Despite the influx of passengers at a Cubao bus terminal in Quezon City, food vendors noted that the increase in foot traffic had yet to translate into higher"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-117q3z9",
+      "source": "inqn",
+      "title": "PNP chief inspects transpo terminals, major cemetery ahead of Undas",
+      "summary": "MANILA, Philippines — Philippine National Police (PNP) chief Gen. Jose Melencio C. Nartatez Jr. inspected bus terminals in Cubao, Quezon City and the Manila North Cemetery on Friday, as the nation…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-10-30T17:31:08.669Z",
+      "firstSeen": "2026-10-30T14:01:00.929Z",
+      "url": "https://newsinfo.inquirer.net/2333233/pnp-chief-inspects-transpo-terminals-major-cemetery-ahead-of-undas",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/image-35-scaled.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Philippine National Police (PNP) chief Gen. Jose Melencio C. Nartatez Jr. inspected bus terminals in Cubao, Quezon City and the Manila North Cemetery on Friday, as the nation prepares for the Undas break. Nartatez assessed the security measures, as well as the conditions of the terminals in anticipation of the surge of"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-9adp0w",
       "source": "inqn",
       "title": "New BARMM chief minister offers reconciliation, vows to serve all",
       "summary": "COTABATO CITY — Newly elected Bangsamoro Chief Minister Abdulraof Macacua on Friday called on all political leaders, including his opponents, to work with his administration in serving the Bangsamoro…",
       "byline": "clopez",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:10.739Z",
+      "published": "2026-10-30T17:31:08.589Z",
       "firstSeen": "2026-10-30T14:30:57.910Z",
       "url": "https://newsinfo.inquirer.net/2333259/new-barmm-chief-minister-offers-reconciliation-vows-to-serve-all",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "MANILA, Philippines &#8212; The Office of the Ombudsman on Friday said it ordered the preventive suspension of five project engineers of the Department of Public Works and Highways (DPWH) amid its…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:10.739Z",
+      "published": "2026-10-30T17:31:08.589Z",
       "firstSeen": "2026-10-30T14:30:57.947Z",
       "url": "https://newsinfo.inquirer.net/2333260/ombudsman-suspends-5-dpwh-engineers-over-anomalous-bulacan-projects",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "MANILA, Philippines—No bettor won the ₱460.91 million Ultra Lotto 6/58 jackpot or the ₱15 million Mega Lotto 6/45 jackpot on Friday, Oct. 30, 2026, according to the Philippine Charity Sweepstakes…",
       "byline": "clopez",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:10.739Z",
+      "published": "2026-10-30T17:31:08.589Z",
       "firstSeen": "2026-10-30T14:01:00.886Z",
       "url": "https://newsinfo.inquirer.net/2333242/ultra-lotto-6-58-mega-lotto-6-45-draw-results-on-friday-oct-30",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "LEGAZPI CITY, Albay — Four natural and historical sites in Albay province are being eyed for development as sustainable tourism destinations under bills sponsored by Rep. Raymond Adrian Salceda. The…",
       "byline": "clopez",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:10.599Z",
+      "published": "2026-10-30T17:31:06.733Z",
       "firstSeen": "2026-10-30T15:01:05.316Z",
       "url": "https://newsinfo.inquirer.net/2333262/solon-seeks-sustainable-tourism-development-at-4-albay-sites",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "MANILA, Philippines — North Luzon Expressway (NLEX) Corp. is preparing to implement counterflow operations as more motorists head north for Undas, with traffic expected to build from Friday…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:09.174Z",
+      "published": "2026-10-30T17:31:04.997Z",
       "firstSeen": "2026-10-30T15:30:54.921Z",
       "url": "https://newsinfo.inquirer.net/2333274/nlex-readies-counterflow-as-undas-traffic-builds",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "KYIV, Ukraine &#8211; The evacuation of stranded residents in Oleshky, a ravaged Ukrainian frontline city under Russian occupation, was beginning on Friday as part of a US-brokered ceasefire,…",
       "byline": "ggaviola",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-30T17:01:05.236Z",
+      "published": "2026-10-30T17:31:01.387Z",
       "firstSeen": "2026-10-30T10:30:55.808Z",
       "url": "https://globalnation.inquirer.net/344697/evacuation-begins-from-ravaged-russian-controlled-ukrainian-city",
       "image": {
@@ -484,7 +484,7 @@
       "summary": "ILIGAN CITY — A vehicle reportedly being used for barangay rescue operations was found transporting around P800,000 worth of suspected smuggled cigarettes when police intercepted it at a checkpoint…",
       "byline": "clopez",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:03.410Z",
+      "published": "2026-10-30T17:31:00.167Z",
       "firstSeen": "2026-10-30T16:00:58.635Z",
       "url": "https://newsinfo.inquirer.net/2333303/p800000-worth-of-cigarettes-found-inside-rescue-vehicle-in-iligan",
       "image": {
@@ -509,7 +509,7 @@
       "summary": "VATICAN CITY, Holy See—Pope Leo XIV warned Friday against giving artificial intelligence agents legal personhood or rights. He said the responsibility for their actions should lie firmly with their…",
       "byline": "arlenelim",
       "section": "Europe",
-      "published": "2026-10-30T17:01:01.873Z",
+      "published": "2026-10-30T17:30:59.925Z",
       "firstSeen": "2026-10-30T12:44:58.148Z",
       "url": "https://globalnation.inquirer.net/344708/pope-leo-warns-ai-agents-are-tools-not-persons",
       "image": {
@@ -534,7 +534,7 @@
       "summary": "PAGADIAN CITY, Zamboanga del Sur &#8211; &#8211; Authorities confiscated a wing van loaded with some 481 sacks of illegally sourced mineral ore during a joint operation by the Municipal Environment…",
       "byline": "clopez",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:01:01.152Z",
+      "published": "2026-10-30T17:30:59.771Z",
       "firstSeen": "2026-10-30T16:00:58.575Z",
       "url": "https://newsinfo.inquirer.net/2333306/cargo-van-with-illegal-mineral-ore-seized-in-zamboanga-del-norte",
       "image": {
@@ -559,7 +559,7 @@
       "summary": "LONDON &#8211; Britain&#8217;s competition watchdog Friday opened an investigation into whether Meta was imposing &#8220;exploitative&#8221; new terms allowing it to use media content for its own…",
       "byline": "ggaviola",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-30T17:00:59.840Z",
+      "published": "2026-10-30T17:30:57.787Z",
       "firstSeen": "2026-10-30T13:01:00.024Z",
       "url": "https://globalnation.inquirer.net/344716/uk-probes-meta-over-exploitative-new-terms-for-media",
       "image": {
@@ -584,7 +584,7 @@
       "summary": "TAGBILARAN CITY, Bohol — A newborn baby boy was found early Friday morning, Oct. 30, abandoned inside a residential property in Panglao, Bohol, just four days after another was discovered near a…",
       "byline": "clopez",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:00:59.839Z",
+      "published": "2026-10-30T17:30:57.784Z",
       "firstSeen": "2026-10-30T16:31:00.744Z",
       "url": "https://newsinfo.inquirer.net/2333318/newborn-found-abandoned-in-bohol-town",
       "image": {
@@ -609,7 +609,7 @@
       "summary": "PAGADIAN CITY, Zamboanga del Sur &#8211; Police operations across the Zamboanga Peninsula netted some P17.65 million worth of suspected smuggled cigarettes in separate interdictions Wednesday, Oct.…",
       "byline": "clopez",
       "section": "Latest News Stories",
-      "published": "2026-10-30T17:00:59.777Z",
+      "published": "2026-10-30T17:30:57.732Z",
       "firstSeen": "2026-10-30T16:31:00.680Z",
       "url": "https://newsinfo.inquirer.net/2333323/cops-intercept-p17-65-m-illegal-cigarettes-in-zamboanga-city",
       "image": {
@@ -634,7 +634,7 @@
       "summary": "CAGAYAN DE ORO CITY — Declaring that “innocent blood has no religion,” two prominent Moro leaders in Mindanao are demanding universal accountability and an immediate end to the escalating military…",
       "byline": "clopez",
       "section": "Latest Global Nation Stories",
-      "published": "2026-10-30T17:00:59.777Z",
+      "published": "2026-10-30T17:30:57.732Z",
       "firstSeen": "2026-10-30T16:31:00.680Z",
       "url": "https://globalnation.inquirer.net/344728/blood-has-no-religion-moro-leaders-demand-end-to-middle-east-violence",
       "image": {
@@ -651,6 +651,706 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "gma-1g9sq1r",
+      "source": "gma",
+      "title": "Rodrigo Duterte won't attend fifth ICC status conference ahead of trial",
+      "summary": "Former President Rodrigo Duterte will not attend the fifth status conference before the start of his crimes against humanity trial at the International Criminal Court (ICC) on November 30.",
+      "byline": "GMA News",
+      "section": "",
+      "published": "2026-10-30T17:25:55.000Z",
+      "firstSeen": "2026-10-30T17:30:57.732Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1007784/rodrigo-duterte-won-t-attend-fifth-icc-status-conference-ahead-of-trial/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/10/rodrigo_duterte_icc_101326_2026_10_13_17_16_28.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Filtered By: Topstories"
+        },
+        {
+          "type": "p",
+          "text": "News"
+        },
+        {
+          "type": "p",
+          "text": "Published October 31, 2026 1:25am"
+        },
+        {
+          "type": "p",
+          "text": "Former President Rodrigo Duterte listens through headphones at the International Criminal Court in The Hague, The Netherlands on Tuesday, October 13, 2026 during the fourth status conference in his case. Screenshot from ICC livestream"
+        },
+        {
+          "type": "p",
+          "text": "Former President Rodrigo Duterte will not attend the fifth status conference before the start of his crimes against humanity trial at the International Criminal Court (ICC) on November 30."
+        },
+        {
+          "type": "p",
+          "text": "In a document released on Friday, Duterte's counsel, Peter Haynes, said Trial Chamber III had granted the former president's request to waive his appearance at the November 2 status conference, allowing him to be represented by his lawyers."
+        },
+        {
+          "type": "p",
+          "text": "Duterte previously attended the third and fourth status conferences."
+        },
+        {
+          "type": "p",
+          "text": "The fifth status conference will tackle the list of witnesses, number of hours for the prosecution's presentation of evidence, potentially exculpatory evidence, agreed facts, as well as protective measures inside the courtroom, among other matters."
+        },
+        {
+          "type": "p",
+          "text": "Duterte has been in ICC custody since March 2025 in connection with charges over killings during his tenure as Davao City mayor and in relation to the war on drugs during his presidency. —VBL, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "gma-dux7co",
+      "source": "gma",
+      "title": "EXPLAINER: What happens when Rodrigo Duterte's ICC trial opens on Nov. 30?",
+      "summary": "The International Criminal Court\"s (ICC) trial of former President Rodrigo Duterte for crimes against humanity will open on November 30, with judges first asking him whether he admits guilt or pleads…",
+      "byline": "ANDY PEÑAFUERTE III, JAY-VEE MARASIGAN PANGAN",
+      "section": "",
+      "published": "2026-10-30T17:19:57.000Z",
+      "firstSeen": "2026-10-30T17:30:58.523Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1007783/explainer-what-happens-when-rodrigo-duterte-s-icc-trial-opens-on-nov-30/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/10/explainers_2026_10_31_01_08_10.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The International Criminal Court’s (ICC) trial of former President Rodrigo Duterte for crimes against humanity will open on November 30, with judges first asking him whether he admits guilt or pleads not guilty."
+        },
+        {
+          "type": "p",
+          "text": "In a media advisory released by the ICC Public Affairs Unit Friday, the ICC has laid out how the opening of the trial will unfold."
+        },
+        {
+          "type": "p",
+          "text": "Will former President Duterte appear in person?"
+        },
+        {
+          "type": "p",
+          "text": "Under Article 63 of the Rome Statute, an accused person “shall be present during the trial.”"
+        },
+        {
+          "type": "p",
+          "text": "The ICC’s own Duterte case page likewise says the accused is expected to be present during trial, while any questions about how Duterte participates will be decided by the judges."
+        },
+        {
+          "type": "p",
+          "text": "So far, Duterte’s defense team has made no public filing about how he will appear before the court on November 30."
+        },
+        {
+          "type": "p",
+          "text": "In October, the ICC Registry advised judges to publicly explain any arrangement allowing Duterte to leave and re-enter the courtroom during proceedings, warning that unexplained absences could fuel disinformation among audiences following the trial from the Philippines."
+        },
+        {
+          "type": "p",
+          "text": "The Registry noted that Philippine media were expected to follow the proceedings “very intensively” and pay attention to the “smallest details” of Duterte’s appearance and conduct."
+        },
+        {
+          "type": "p",
+          "text": "It also said victims and affected communities placed “paramount importance” on Duterte’s presence during the proceedings."
+        },
+        {
+          "type": "p",
+          "text": "The Registry further said that, if Duterte does not attend in person, participation by video link from the ICC Detention Center could be considered, subject to the Chamber’s approval. It said such an arrangement would still allow Duterte to communicate privately with his lawyers."
+        },
+        {
+          "type": "p",
+          "text": "How can the public watch the conference?"
+        },
+        {
+          "type": "p",
+          "text": "Yes. The ICC will stream the hearing on its website, Facebook account, and YouTube Channel with a 30-minute delay."
+        },
+        {
+          "type": "p",
+          "text": "Members of the public may also attend in person, subject to limited gallery space and a first-come, first-served policy."
+        },
+        {
+          "type": "p",
+          "text": "What’s the hearing schedule like?"
+        },
+        {
+          "type": "p",
+          "text": "The hearing will begin at 10 a.m. in The Hague (5 p.m. Philippine time). Each hearing day is divided into four one-hour sessions:"
+        },
+        {
+          "type": "p",
+          "text": "10 a.m. to 11 a.m. (5 - 6 p.m. Manila)"
+        },
+        {
+          "type": "p",
+          "text": "11:30 a.m. to 12:30 p.m. (6:30 - 7:30 p.m. Manila)"
+        },
+        {
+          "type": "p",
+          "text": "1:30 p.m. to 2:30 p.m. (8:30 - 9:30 p.m. Manila)"
+        },
+        {
+          "type": "p",
+          "text": "3 p.m. to 4 p.m. (10:00 - 11:00 p.m. Manila)"
+        },
+        {
+          "type": "p",
+          "text": "The advisory said that the courtroom schedule may be adjusted “on a case-by-case basis,” meaning the exact timing will depend on how quickly the opening phase progresses."
+        },
+        {
+          "type": "p",
+          "text": "What happens first?"
+        },
+        {
+          "type": "p",
+          "text": "According to the ICC Public Affairs Unit media advisory, Trial Chamber III will first verify that Duterte understands the nature of the charges before asking him to enter a plea."
+        },
+        {
+          "type": "p",
+          "text": "The judges will then ask whether the former president makes an admission of guilt or pleads not guilty."
+        },
+        {
+          "type": "p",
+          "text": "Who gives the opening statements?"
+        },
+        {
+          "type": "p",
+          "text": "The Office of the Prosecution will speak first, followed by the Common Legal Representatives of the Victims (CLRV). The Defense may also give an opening statement if it chooses."
+        },
+        {
+          "type": "p",
+          "text": "The prosecution has six hours total for its opening statement, while the CLRV has three hours. The statements will be delivered across the court’s four daily hearing sessions."
+        },
+        {
+          "type": "p",
+          "text": "When will the first witness testify?"
+        },
+        {
+          "type": "p",
+          "text": "The first Prosecution witness is scheduled to start testifying following the conclusion of the opening statements, and the courtroom schedule will be adjusted on a case-by-case basis."
+        },
+        {
+          "type": "p",
+          "text": "What charges does Duterte face?"
+        },
+        {
+          "type": "p",
+          "text": "Former President Duterte is charged with crimes against humanity of murder and attempted murder pursuant to Article 7(1)(a) of the Rome Statute."
+        },
+        {
+          "type": "p",
+          "text": "He faces three counts of the crimes allegedly committed as part of a widespread and systematic attack against a civilian population in the Philippines between 1 November 2011 and 16 March 2019:"
+        },
+        {
+          "type": "p",
+          "text": "Count 1: Murder as a crime against humanity in Davao City during his mayoral period, between 2013 and around June 2016"
+        },
+        {
+          "type": "p",
+          "text": "Count 2: Murder as a crime against humanity of ‘High-Value Targets’ in locations across the Philippines during his presidency between around July 2016 and July 2017."
+        },
+        {
+          "type": "p",
+          "text": "Count 3: Murder and attempted murder as crimes against humanity in barangay clearance operations in locations across the Philippines during his presidency between around July 2016 and September 2018."
+        },
+        {
+          "type": "p",
+          "text": "Who are the judges?"
+        },
+        {
+          "type": "p",
+          "text": "The case is before Trial Chamber III, composed of Presiding Judge Joanna Korner and Judges Keebong Paek and Nicolas Guillou."
+        },
+        {
+          "type": "p",
+          "text": "What happens after the prosecution case?"
+        },
+        {
+          "type": "p",
+          "text": "The hearings are scheduled to begin on 30 November 2026."
+        },
+        {
+          "type": "p",
+          "text": "The Prosecution is currently expected to call a number of witnesses, after which the CLRVs may submit observations. The Defence will have the opportunity to present its case and call witnesses."
+        },
+        {
+          "type": "p",
+          "text": "At the end of the trial hearings, the Trial Chamber judges will render their judgment within a reasonable period."
+        },
+        {
+          "type": "p",
+          "text": "The judges will convict someone only if the Trial Chamber is satisfied that the charges have been proven beyond reasonable doubt.—LDF, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-m0qotn",
+      "source": "abs",
+      "title": "Baby Dolls promise unforgettable experience in first major concert",
+      "summary": "P-pop group Baby Dolls is gearing up for its first major concert, Baby Dolls: Ooh La Live! sa Skydome, on Nov. 8, with the group promising fans an interactive and intimate experience.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-30T17:16:17.000Z",
+      "firstSeen": "2026-10-30T17:30:57.732Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/music/2026/10/31/baby-dolls-promise-unforgettable-experience-in-first-major-concert-0116",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "P-pop group Baby Dolls is gearing up for its first major concert, Baby Dolls: Ooh La Live! sa Skydome, on Nov. 8, with the group promising fans an interactive and intimate experience."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "grd-1nex7ty",
+      "source": "grd",
+      "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
+      "summary": "<p>Humanitarian convoy brings food and medicine to Russian-held city near Kherson where people have faced months of severe shortages</p><p>People living in the besieged Russian-held city of Oleshky…",
+      "byline": "Peter Beaumont Senior international correspondent",
+      "section": "Ukraine",
+      "published": "2026-10-30T17:13:48.000Z",
+      "firstSeen": "2026-10-30T17:30:57.733Z",
+      "url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/b7a932cd6937397f03f57724d0cb13fc21ea7cae/167_0_1667_1334/master/1667.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=5a12e995dfc49763939be2026d583408",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "People living in the besieged Russian-held city of Oleshky in southern Ukraine were evacuated on Friday as part of a joint relief operation, the first of its kind in four years and eight months of war."
+        },
+        {
+          "type": "p",
+          "text": "The city, which lies on the Russian-occupied side of the Dnipro River, opposite Kherson, has suffered months of serious food and medical shortages, leading to warnings of starvation for the few thousand people remaining there, including about 50 children."
+        },
+        {
+          "type": "p",
+          "text": "The humanitarian convoy, including 25 buses and ambulances, had arrived in the city to deliver food and medicine and evacuate those wishing to leave for Russia or Ukraine."
+        },
+        {
+          "type": "p",
+          "text": "The localised ceasefire in Ukraine’s southern Kherson region allowed for the roads out of Oleshky to be de-mined, making evacuation possible."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/1192154735557cf82dcf10c1037eacb48feee63c/0_0_3816_2148/master/3816.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Russian military personnel pass by damaged vehicles during a de-mining operation near Oleshky. Photograph: Russian Defence Ministry/Reuters"
+        },
+        {
+          "type": "p",
+          "text": "Davyd Arakhamia, a lawmaker with the Ukrainian president Volodymyr Zelenskyy’s Servant of the People party – who was part of the delegation to Oleshky – confirmed the evacuation of some people who were travelling to the southern Russian city of Anapa."
+        },
+        {
+          "type": "p",
+          "text": "“From there, they will fly by plane to Belarus, and then travel by bus to their homes,” he added."
+        },
+        {
+          "type": "p",
+          "text": "While Ukrainian territory lies just 5km from Oleshky, evacuees will instead need to travel to Anapa and on to Belarus, and then drive across the border into Ukraine’s Chernihiv region."
+        },
+        {
+          "type": "p",
+          "text": "“At this moment, the humanitarian operation is under way in Oleshky,” Kyrylo Budanov, the head of Ukraine’s presidential office, wrote in an online post. Budanov is not part of the delegation in Oleshky."
+        },
+        {
+          "type": "p",
+          "text": "While earlier reports had suggested more than 500 people wanted to move to Ukrainian territory, it was unclear how many people travelled on the convoy."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/a506e5e94588cd2247894904b5e49a3abd7268a6/0_0_5648_3334/master/5648.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The convoy carrying more than 500 evacuees from Oleshky. Photograph: Reuters"
+        },
+        {
+          "type": "p",
+          "text": "Kyiv’s delegation reached the city late on Friday morning to prepare for the evacuation, with footage on social media showing tearful residents embracing delegation members as they gathered in heavy rain to wait for the main evacuation convoy to arrive. Several hundred people, mainly older people, have chosen to stay."
+        },
+        {
+          "type": "p",
+          "text": "Asked about whether she was packed and ready to leave by a member of the Ukrainian delegation, a video showed a woman, who identified herself Anna, saying: “Yes, we are on bus 20, my son is on bus 17. To Ukraine.”"
+        },
+        {
+          "type": "p",
+          "text": "With about 2,000 people remaining in Oleshky, according to authorities and volunteers, people have given harrowing accounts of risking their lives travelling along mine-strewn roads to get food and water."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/66db54e595ad98b4fd55add6b51b105d41eeaaeb/0_0_2428_1432/master/2428.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "People in Oleshky have endured months of food and medical shortages, leading to warnings of starvation. Photograph: The Office Of The Commissioner For Human Rights In The Russia/EPA"
+        },
+        {
+          "type": "p",
+          "text": "Some say they have survived on a cup of rice or buckwheat a day, sometimes with a tomato, cucumber or wild plants added."
+        },
+        {
+          "type": "p",
+          "text": "“We’ve been through so much here in these five years,” one woman said in images broadcast on Ukrainian TV. Another older woman, preparing to evacuate, said: “If we had our health, maybe we’d stay there a bit longer, but that’s it. We just want to be with our children.”"
+        },
+        {
+          "type": "p",
+          "text": "Ksenia Arkhipova, a volunteer who previously lived in Oleshky and remains in contact with people there, said large numbers of Russian military personnel were in the city. “They are currently checking empty houses and, in some cases, moving into them,” she told the Associated Press."
+        },
+        {
+          "type": "p",
+          "text": "“They are also pressuring local residents to evacuate to Russia, rather than to Ukraine,” she added."
+        },
+        {
+          "type": "p",
+          "text": "The convoy arrived under a ceasefire in the area, which the US first lady, Melania Trump, claimed to have helped broker – a rare example of cooperation between the warring sides."
+        },
+        {
+          "type": "p",
+          "text": "On Friday, the Kremlin, however, described it as a special case that was “difficult to extrapolate” to the wider search for a peace settlement."
+        },
+        {
+          "type": "p",
+          "text": "Oleshky was seized by Russian troops during the first days of the full-scale invasion of Ukraine in February 2022."
+        },
+        {
+          "type": "p",
+          "text": "It has suffered extensive damage and was badly flooded after the destruction of the huge upriver Kakhovka dam in June 2023."
+        },
+        {
+          "type": "p",
+          "text": "“The problem is that a lot of people are staying,” one woman told Ukraine’s human rights ombudsman, Dmytro Lubinets, who was on the ground to coordinate the operation with his Russian counterpart, Yana Lantratova."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/e32a95f16e237a172270d543d0a69cc16fcd0e03/0_0_2000_1334/master/2000.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Ukraine’s human rights ombudsman, Dmytro Lubinets (centre), and his Russian counterpart, Yana Lantratova (left), talk to journalists before the evacuation. Photograph: Office of the Ukrainian Ombudsman/AFP/Getty Images"
+        },
+        {
+          "type": "p",
+          "text": "“I’ve been told that ‌it’s their own choice,” Lubinets replied. “At the very least, we’ll do what we can to ensure that somehow humanitarian aid gets through.”"
+        },
+        {
+          "type": "p",
+          "text": "He added: “This is the first time since 2022 that a ceasefire has been established across such an extensive stretch of the frontline and has been maintained for ​such a significant duration.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-f88c2b",
+      "source": "abs",
+      "title": "Carmelle Collado hopes to connect global audiences through OPM at Eurovision Asia",
+      "summary": "Carmelle Collado is hoping to introduce the heart of Original Pilipino Music (OPM) to a global audience as she represents the Philippines in the inaugural Eurovision Song Contest Asia.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-30T17:12:44.000Z",
+      "firstSeen": "2026-10-30T17:30:58.523Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/music/2026/10/31/carmelle-collado-hopes-to-connect-global-audiences-through-opm-at-eurovision-asia-0112",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Carmelle Collado is hoping to introduce the heart of Original Pilipino Music (OPM) to a global audience as she represents the Philippines in the inaugural Eurovision Song Contest Asia."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-pgqg3f",
+      "source": "abs",
+      "title": "Duterte waives right to attend 5th status conference at ICC",
+      "summary": "Former Philippine President Rodrigo Roa Duterte has officially waived his right to appear at the upcoming fifth status conference scheduled for November 2, 2026.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-30T17:09:32.000Z",
+      "firstSeen": "2026-10-30T17:31:00.163Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/10/31/duterte-waives-right-to-attend-5th-status-conference-at-icc-0109",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Former Philippine President Rodrigo Roa Duterte has officially waived his right to appear at the upcoming fifth status conference scheduled for November 2, 2026."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-g48osh",
+      "source": "abs",
+      "title": "Velasco’s camp rejects ‘Alias Chris’ allegations, cites inconsistencies",
+      "summary": "The camp of former House Speaker Lord Allan Velasco has rejected allegations linking him and Vice President Sara Duterte to purported illegal activities, questioning the credibility of the individual…",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-30T17:06:51.000Z",
+      "firstSeen": "2026-10-30T17:31:03.219Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/10/31/velasco-s-camp-rejects-alias-chris-allegations-cites-inconsistencies-0106",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The camp of former House Speaker Lord Allan Velasco has rejected allegations linking him and Vice President Sara Duterte to purported illegal activities, questioning the credibility of the individual identified as “Alias Chris” and describing his claims as lacking factual basis."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "cbc-11qbr6f",
+      "source": "cbc",
+      "title": "Churchill River energy agreement with Quebec not open for renegotiation, says N.L.",
+      "summary": "Newfoundland and Labrador's premier says an agreement with Quebec to develop energy in Labrador is not open for renegotiation.",
+      "byline": "Sarah Smellie",
+      "section": "News/Canada/Nfld. & Labrador",
+      "published": "2026-10-30T17:00:58.000Z",
+      "firstSeen": "2026-10-30T17:30:57.733Z",
+      "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/churchill-river-wakeham-9.7402423?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/295c5dd3-2cec-4e8f-80fd-f8411ae7a62c,1793349197351/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C243%2C4666%2C2624%29%3BResize%3D620",
+        "caption": "Premier of Newfoundland and Labrador Tony Wakeham is seen at the AFN First Nations - First Ministers Meeting Day of Ceremony in Ottawa, on Sunday, Oct. 25, 2026. THE CANADIAN PRESS/Keito Newman (The Canadian Press/Keito Newman)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nfld. & Labrador·New"
+        },
+        {
+          "type": "p",
+          "text": "Newfoundland and Labrador's premier says an agreement with Quebec to develop energy in Labrador is not open for renegotiation."
+        },
+        {
+          "type": "h",
+          "text": "'Let me be clear: we will not be renegotiating the deal,' says Wakeham"
+        },
+        {
+          "type": "p",
+          "text": "· The Canadian Press"
+        },
+        {
+          "type": "p",
+          "text": "· Posted: Oct 30, 2026 1:00 PM EDT | Last Updated: 29 minutes ago"
+        },
+        {
+          "type": "p",
+          "text": "Tony Wakeham said Wednesday that the Newfoundland and Labrador government had already voted in favour of the non-binding agreement, which he unveiled in August alongside Prime Minister Mark Carney and former Quebec premier Christine Frechette in St. John's."
+        },
+        {
+          "type": "p",
+          "text": "\"Let me be clear: we will not be renegotiating the deal, and will not entertain an attempt by anyone else wishing to renegotiate the deal,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "He made the remarks as reporters pressed him about whether final agreements would be signed before they were debated in the legislature. But there is also a new Parti Québécois government in Quebec that could ask for changes to the multibillion-dollar agreement."
+        },
+        {
+          "type": "p",
+          "text": "Wakeham said he has not heard any rumblings about Quebec Premier Paul St-Pierre Plamondon wanting changes."
+        },
+        {
+          "type": "p",
+          "text": "\"I think what I'm trying to do is just outline our position,\" Wakeham told reporters in St. John's."
+        },
+        {
+          "type": "p",
+          "text": "The proposal — which the government has called a definitive co-operation and implementation agreement — lays out plans for Hydro-Quebec and Newfoundland and Labrador Hydro to expand the hydroelectric capacity of the Churchill River, which cuts through traditional Innu territory."
+        },
+        {
+          "type": "p",
+          "text": "Carney has touted the proposal as \"the largest clean energy investment in North American history\" and his government has promised $10 billion in financing to help it along."
+        },
+        {
+          "type": "p",
+          "text": "In a Facebook post Wednesday, the grand chief of the Innu Nation in Labrador said Innu were not included in the energy negotiations despite the agreement proposing projects on Innu land."
+        },
+        {
+          "type": "p",
+          "text": "Jodie Ashini pointed to a social media post by Carney saying he met with Wakeham recently in Ottawa, and a public statement from Wakeham pledging to \"keep engaging respectfully with the Innu Nation.\""
+        },
+        {
+          "type": "p",
+          "text": "\"How is meeting with the prime minister and discussing our lands and not having us at the table respectful?\" she wrote."
+        },
+        {
+          "type": "p",
+          "text": "\"There is no respect from the [Newfoundland and Labrador] government right now to the Innu.\""
+        },
+        {
+          "type": "p",
+          "text": "\"Come to Sheshatshiu and speak with us,\" she added, referring to an Innu community in central Labrador where the Innu Nation has its main office."
+        },
+        {
+          "type": "p",
+          "text": "Ashini has accused Wakeham and his government of interfering with a cultural exhibit detailing Innu history in Labrador. She says the government believes Innu arrived about 300 years ago, after the Europeans. The position erases thousands of years of Innu history, she has said."
+        },
+        {
+          "type": "p",
+          "text": "On Wednesday, Wakeham said he would table all final energy agreements in the legislature and propose a special debate about them. He would not answer directly when reporters asked if thoseagreements would already be signed, but he was clear they would not be open for changes."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "N.L. taps new lead negotiator for Churchill River power deal following resignation",
+            "Churchill River power contracts will be settled before they're seen by House of Assembly"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Parti Quebecois did not immediately respond to a request for comment."
+        },
+        {
+          "type": "p",
+          "text": "St-Pierre Plamondon and his cabinet were sworn in last week, and Wakeham has not yet met with the new premier in person."
+        },
+        {
+          "type": "p",
+          "text": "\"It's coming,\" Wakeham said. \"He wants to come to Newfoundland and Labrador for a meeting. He indicated that to me in our last conversation, and I'm looking forward to that.\""
+        },
+        {
+          "type": "p",
+          "text": "Download our free CBC News app to sign up for push alerts for CBC Newfoundland and Labrador. Sign up for our daily headlines newsletter here. Click here to visit our landing page."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "bbc-fp6rj1",
+      "source": "bbc",
+      "title": "Canada stops using 'avalanche dogs' for rescues in Rocky Mountains, stirring outrage",
+      "summary": "A 55-year-old dog rescue programme that has found missing hikers and children in the Canadian wilderness was axed as part of government budget cuts.",
+      "byline": "Nadine Yousif",
+      "section": "",
+      "published": "2026-10-30T17:00:32.000Z",
+      "firstSeen": "2026-10-30T17:30:58.775Z",
+      "url": "https://www.bbc.co.uk/news/articles/cwdd8q8e9e9yo?at_medium=RSS&at_campaign=rss",
+      "image": {
+        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92b9/live/b42540a0-d3ce-11f1-9c32-1532a6164171.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Scott Ward can still recall the relief he saw on parents' faces when a search and rescue dog he was working with found their children safe in Canada's vast and heavily wooded Banff National Park."
+        },
+        {
+          "type": "p",
+          "text": "Another time, his canine partner led him hiking up a steep mountainside for two hours until they reached a man with a broken leg who was close to dying from hypothermia."
+        },
+        {
+          "type": "p",
+          "text": "Now 73 and retired, Ward spent 17 years as a dog handler in the wilderness of the Canadian Rocky Mountains, work he described as gratifying."
+        },
+        {
+          "type": "p",
+          "text": "Over the years, the rescue programme was cut back to just one person in the role, and Ward was shocked when he heard recently that Parks Canada will end the programme entirely as of this month."
+        },
+        {
+          "type": "p",
+          "text": "Prime Minister Mark Carney's government is making broad funding cuts to Canada's public service, and Parks Canada announced last week that hundreds of their employees will soon be laid off."
+        },
+        {
+          "type": "p",
+          "text": "The agency confirmed the news to the BBC, calling it a \"difficult decision\" to axe its sole dog handler position out of Banff National Park, one of the most rugged parts of Canada that welcomes more than four million visitors each year from around the world."
+        },
+        {
+          "type": "p",
+          "text": "It added it is part of its efforts to modernise its law enforcement branch, and that \"search and rescue operations will continue to be delivered\" through other means."
+        },
+        {
+          "type": "p",
+          "text": "Cutting this one role has stirred public outrage, with more than 5,000 people signing a petition since Tuesday to restore it."
+        },
+        {
+          "type": "p",
+          "text": "William Stevenson, the Conservative Member of Parliament for the Banff area who started the petition, says he welcomes tighter government spending, but that this cut could harm public safety."
+        },
+        {
+          "type": "p",
+          "text": "\"How could they possibly make such a bad choice in where to cut?\" he told the BBC."
+        },
+        {
+          "type": "p",
+          "text": "The BBC has asked Parks Canada about how much the canine search and rescue programme cost to administer."
+        },
+        {
+          "type": "p",
+          "text": "For 55 years, the government used rescue dogs in the Canadian Rocky Mountains who were trained to trace \"everything\", Ward said, from a small paper clip to shell casings to a human body."
+        },
+        {
+          "type": "p",
+          "text": "After avalanches, a common winter hazard in the area, they were called upon to search for trapped hikers or skiers underneath heavy mounds of snow."
+        },
+        {
+          "type": "p",
+          "text": "\"It saves probers hours and hours of standing shoulder to shoulder and poking in the snow, and also exposing themselves to secondary avalanche hazards,\" Ward said."
+        },
+        {
+          "type": "p",
+          "text": "In the summer, they helped find children who got lost, often after wandering away from their parents' campsites."
+        },
+        {
+          "type": "p",
+          "text": "\"We lost a huge public safety and staff safety resource,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "Other countries still rely on canines, often called \"avalanche dogs\", for mountain search and rescue, including Italy, external."
+        },
+        {
+          "type": "p",
+          "text": "The last dog in Parks Canada's programme, a German Shephard named Leroy, was retired in August."
+        },
+        {
+          "type": "p",
+          "text": "For the seven years that he was on the job, Leroy helped track 156 people, find 57 who were lost in the wilderness, and solve two murders in Banff."
+        },
+        {
+          "type": "p",
+          "text": "A new canine was trained and ready for duty before Parks Canada gave notice last week that the programme would be eliminated as part of recent C$145m ($104m; £78m) budget cuts to Parks Canada, local newspaper Rocky Mountain Outlook reported."
+        },
+        {
+          "type": "p",
+          "text": "Along with his petition, Stevenson also raised the issue in Canada's parliament during a late sitting on Thursday."
+        },
+        {
+          "type": "p",
+          "text": "In response, Ryan Turnball, a Liberal MP and the parliamentary secretary for finance, said the government is focused on reducing Canada's deficit and \"ensuring public funds support growth, resilience and the well-being of Canadians\"."
+        },
+        {
+          "type": "p",
+          "text": "Stevenson said he will continue to push on the issue, and has asked for a sit-down meeting with Parks Canada's CEO."
+        },
+        {
+          "type": "p",
+          "text": "As for Ward, he hopes that the programme will soon be restored."
+        },
+        {
+          "type": "p",
+          "text": "He recalled a quote that was often uttered by an old park warden who trained him: \"You can make an armpit smell like a lilac bush and you can put a man on the moon, but nothing can replace the nose of the avalanche dog.\""
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "gma-y8ed4y",
@@ -945,6 +1645,106 @@
       "source_of_text": "page"
     },
     {
+      "id": "bbc-1mnwo4d",
+      "source": "bbc",
+      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+      "byline": "Jaroslav Lukiv, Joe Tidy",
+      "section": "",
+      "published": "2026-10-30T16:48:12.000Z",
+      "firstSeen": "2026-10-30T17:30:57.733Z",
+      "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+      "image": {
+        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a084/live/e6590860-d476-11f1-9dda-1ba6fcc7d159.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (£4.7bn) was accessed in what is believed to be a record heist."
+        },
+        {
+          "type": "p",
+          "text": "The firm said $3bn of its stolen digital assets had been secured - but many were still in the hands of unidentified hackers. It initially thought an engineer's laptop had been compromised, allowing unauthorised withdrawals, but later said the attack was wider."
+        },
+        {
+          "type": "p",
+          "text": "Several analytics firms have linked the hack, which eclipses a $1.5bn (£1.12bn) heist on the Bybit exchange in 2025, to a North Korean hacking unit."
+        },
+        {
+          "type": "p",
+          "text": "The US Secret Service said it was \"working around the clock\" \"to identify, freeze, trace, and recover\" stolen funds."
+        },
+        {
+          "type": "p",
+          "text": "America's lead federal agency for investigating financial crimes added that it would \"identify the cyber criminals responsible and bring them to justice\", while Binance also said it was working with the FBI."
+        },
+        {
+          "type": "p",
+          "text": "The company also told its users \"your money is safe, and we're covering every loss\"."
+        },
+        {
+          "type": "p",
+          "text": "Binance had initially suspended all deposits and withdrawals - but then said in an update that \"deposits remain unaffected\"."
+        },
+        {
+          "type": "p",
+          "text": "Binance, which was founded in China in 2017, allows users to trade digital assets and is estimated to have more than 300 million registered users worldwide."
+        },
+        {
+          "type": "p",
+          "text": "The company said in 2024 that it had more than $160bn in assets under its custody."
+        },
+        {
+          "type": "p",
+          "text": "A lot of the fear right now from Binance users - and the crypto industry at large - is whether or not Binance will actually be capable of covering this enormous financial loss."
+        },
+        {
+          "type": "p",
+          "text": "The company has said repeatedly that customer funds will be covered and that the firm is strong enough to weather the storm."
+        },
+        {
+          "type": "p",
+          "text": "But crypto history watchers have been pointing out online that this is exactly the kind of message that FTX CEO Sam Bankman-Fried gave before his crypto exchange collapsed in 2022, leading to huge losses for customers and the industry."
+        },
+        {
+          "type": "p",
+          "text": "Binance has been subject of regulatory scrutiny around the world."
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, AI-powered investigations company TRM Labs said that several elements of the attack resembled earlier North Korean-linked incidents, including the Bybit hack."
+        },
+        {
+          "type": "p",
+          "text": "In the last five years the crypto industry has been beset by enormous losses from hackers."
+        },
+        {
+          "type": "p",
+          "text": "In nearly all cases investigators have blamed hackers from North Korea, pointing to the infamous Lazarus Group - also know as TraderTraitor. The names refer to clusters of cyber criminals accused of working directly for the regime."
+        },
+        {
+          "type": "p",
+          "text": "Chainalysis, a crypto analytics firm, said it had \"high confidence\" that a North Korean is linked to the hack."
+        },
+        {
+          "type": "p",
+          "text": "North Korea is an impoverished country with very little industry and heavy international sanctions and experts say the regime uses cyber crime as a way to bring money in."
+        },
+        {
+          "type": "p",
+          "text": "North Korea has always denied this, but the wealth of evidence from cryptocurrency flow analysis and insider interviews from defectors is compelling."
+        },
+        {
+          "type": "p",
+          "text": "It makes North Korea likely to be the only nation that uses hacking as a way to raise public funds."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
       "id": "dw-15hthjk",
       "source": "dw",
       "title": "What the rift within the Tsikhanouski family means for the Belarusian opposition in exile",
@@ -1093,7 +1893,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "grd-1t2s3ch",
@@ -5081,115 +5881,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "grd-1fk0d7z",
-      "source": "grd",
-      "title": "Spain’s trust in high-speed rail ‘broken’ after second deadly crash this year, says PM",
-      "summary": "<p>Pedro Sánchez says government’s task is to investigate causes of Wednesday’s crash that killed 69 people, but also to try to restore trust</p><ul><li><p><a…",
-      "byline": "Sam Jones in Madrid and Jakub Krupa",
-      "section": "Spain",
-      "published": "2026-10-30T14:13:52.000Z",
-      "firstSeen": "2026-10-30T14:31:00.061Z",
-      "url": "https://www.theguardian.com/world/2026/oct/30/spain-trust-high-speed-rail-broken-after-second-deadly-crash-this-year-says-pedro-sanchez",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/584de6579df1ed215adbac115151073bf3a88e92/961_0_4231_3387/master/4231.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=a3b35f58f733fe8125fdf15d34531206",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Spain’s prime minister, Pedro Sánchez, has admitted “trust in high-speed rail has been broken” after Wednesday’s deadly train collision that killed at least 69 people, injured more than 100 and prompted a national debate on the safety of the country’s rail network."
-        },
-        {
-          "type": "p",
-          "text": "Sánchez said the Spanish state was “working tirelessly” to provide information as quickly as possible to the families of the victims – who include people from at least 23 different foreign countries – adding that his government was committed to finding what had caused Spain’s second deadly train collision this year."
-        },
-        {
-          "type": "p",
-          "text": "Two trains, one from Spain’s state-owned Renfe and the other from the private rail company Iryo, were travelling from Madrid towards the southern region of Andalucía on Wednesday when they collided just before 9am. After the Iryo train came to a halt, the other slammed into its rear, knocking several carriages off the track near Urda in the central region of Castilla-La Mancha."
-        },
-        {
-          "type": "p",
-          "text": "The crash came nine months after 46 people were killed and dozens injured when two trains – one from Renfe and one from Iryo – collided on the same line near the town of Adamuz in Andalucía."
-        },
-        {
-          "type": "p",
-          "text": "“It’s unacceptable for a country like Spain – which has such a powerful high-speed rail system – to experience two accidents of this nature and magnitude within a single year,” the prime minister said on Friday."
-        },
-        {
-          "type": "p",
-          "text": "“Therefore, our task isn’t merely to investigate the causes of what occurred, but also to provide solutions to further strengthen our nation’s high-speed rail system. Public trust in the high-speed system has been broken; the government’s responsibility goes beyond diagnosing the causes – it must also offer solutions to ensure that a tragedy of this scale doesn’t happen again.”"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/445e8c962bb0417d8e743e0fb60fb8b4ef75b37c/0_0_5026_3351/master/5026.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Pedro Sánchez (L) and Castilla-La Mancha regional president Emiliano Garcia Page hold a press conference. Photograph: Angeles Visdomine/EPA"
-        },
-        {
-          "type": "p",
-          "text": "Shortly after Sánchez spoke, Spain’s transport minister, Óscar Puente – who is under growing pressure to resign – gave a press conference in which he dismissed calls to step down, promising instead to focus on “providing the Spanish people with solutions” to restore trust."
-        },
-        {
-          "type": "p",
-          "text": "“My duty now isn’t to talk about whether or not I carry on with my job; it’s to solve the problems, clarify what happened and offer clear explanations,” he said. “The most important thing I can do is offer solutions as best I can. If the investigation shows there were failures of organisation or control, we will act accordingly. And if individuals are found to be responsible, action will be taken.”"
-        },
-        {
-          "type": "p",
-          "text": "Puente once again suggested that responsibility for Wednesday’s crash appeared to lie within the Madrid control centre of Spain’s state infrastructure operator, Adif. He said that in the run-up to the crash, the LZB signalling system – which automatically halts a train if the line ahead is occupied – had gone down, but stressed that such incidents were not at all uncommon. Once the system was down, he said, control and decision-making powers ultimately reverted to humans, as was the case in other transport sectors."
-        },
-        {
-          "type": "p",
-          "text": "The minister added that the crash had occurred after an Adif operator ordered the Renfe train to move off at “normal” speed, rather than following the protocols, which stipulate a top speed of 40kph (25mph) so that drivers can see any dangers ahead in good time. According to a preliminary investigation report released on Thursday, the Renfe train was travelling at between 160kph and 200kph when it hit the Iryo train."
-        },
-        {
-          "type": "p",
-          "text": "The report concluded: “The sequence of malfunctions, instructions, and actions eventually led to the collision, in the absence of the necessary mitigating barriers.”"
-        },
-        {
-          "type": "p",
-          "text": "Puente said the operator in question was a 48-year-old man, with all the relevant up-to-date training and two years of experience in control centres, who had been managing this specific area since February this year. “So, it was a sector he knew well,” the minister added."
-        },
-        {
-          "type": "p",
-          "text": "Transport unions have pushed back at the government, arguing that current workloads are too demanding to handle safely and asking for more personnel to help with the pressures."
-        },
-        {
-          "type": "p",
-          "text": "“We believe [the minister] is blaming a mere worker who was working under increasingly poor conditions,” Raquel Ayllón, a spokesperson for SCF, Spain’s railway traffic controllers union, told the Associated Press. “Human error isn’t incomprehensible. What is incomprehensible is that the safety system is regularly failing.”"
-        },
-        {
-          "type": "p",
-          "text": "Spain’s conservative People’s party (PP), which is forecast to topple Sánchez’ socialist-led minority coalition government in next month’s snap general election, has repeatedly called for Puente to step down."
-        },
-        {
-          "type": "p",
-          "text": "The PP’s leader, Alberto Núñez Feijóo, said his party was holding Puente and Sánchez “politically responsible” for both rail crashes."
-        },
-        {
-          "type": "p",
-          "text": "“Whoever has failed in their duty to run the transport ministry properly must bear the consequences,” he said. “And the person who appointed them – and kept them in their post – even more so. If they do not resign, we will remove them at the ballot box.”"
-        },
-        {
-          "type": "p",
-          "text": "Ada Colau, the former Barcelona mayor who now leads the leftwing Frente Amplio coalition that is running in the election, also said Puente needed to go."
-        },
-        {
-          "type": "p",
-          "text": "“We’re not going to engage in the triviality of debating whether that resignation should take place today, tomorrow, or the day after,” she said. “It must happen as soon as possible.”"
-        },
-        {
-          "type": "p",
-          "text": "Asked about the possible effect of the latest crash on the election, Puente said he’d given the matter “zero thought”."
-        },
-        {
-          "type": "p",
-          "text": "“I don’t believe anyone would expect me to be thinking about the election campaign at a moment like this,” he told reporters."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-v1g546",
       "source": "abs",
       "title": "The Loyalty Game: Ana, hindi pinalampas ang plano ni Reynaldo kay Imelda | Episode 20",
@@ -8806,78 +9497,6 @@
         {
           "type": "p",
           "text": "The local ceasefire— announced by US First Lady Melania Trump last week — is the longest pause in fighting anywhere in Ukraine since the 2022 invasion. It is due to end on Sunday evening."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-6agp9y",
-      "source": "cbc",
-      "title": "Russia is back in the hockey world championships after sports court ruling",
-      "summary": "Russia teams must be allowed to play International Ice Hockey Federation events such as the world championships, the Court of Arbitration for Sport ruled on Friday.",
-      "byline": "CBC",
-      "section": "Sports/Hockey",
-      "published": "2026-10-30T11:06:47.000Z",
-      "firstSeen": "2026-10-30T11:30:56.359Z",
-      "url": "https://www.cbc.ca/sports/hockey/russia-hockey-worlds-participation-ruling-cas-9.7402448?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/850559c3-6a21-446e-a291-602b017e75d0,1793358375088/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C471%2C5281%2C2970%29%3BResize%3D620",
-        "caption": "In this May 2021 file photo, Russian men's hockey team players react during an IIHF men's hockey world championships match. A ruling by the Court of Arbitration for Sport on Friday has overturned an IIHF ban on Russian teams from its world championships instituted since the invasion of Ukraine in 20"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Hockey·Breaking"
-        },
-        {
-          "type": "p",
-          "text": "Russia teams must be allowed to play International Ice Hockey Federation events such as the world championships, the Court of Arbitration for Sport ruled on Friday."
-        },
-        {
-          "type": "h",
-          "text": "Russia had been banned from competitions since 2022 following invasion of Ukraine"
-        },
-        {
-          "type": "p",
-          "text": "CAS overturned IIHF decisions which excluded Russia from events in the 2026-27 season including the men's and women's world championships."
-        },
-        {
-          "type": "p",
-          "text": "In a brief statement, CAS cited a lack of sufficient evidence to support the IIHF's security concerns."
-        },
-        {
-          "type": "p",
-          "text": "CAS said its ruling did not address issues such as whether Russia should be required to play without national symbols as a team of neutral athletes, as in some other Olympic sports, or other \"organizational consequences.\""
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "IIHF to decide Russian hockey participation on event-by-event basis after ban review",
-            "Russia, Belarus remain banned from hockey tournaments until at least May 2026"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The IIHF expressed disappointment with the ruling and said it \"maintains that its decisions were necessary to protect the safety and security of all participants and safeguard the integrity of its competitions.\""
-        },
-        {
-          "type": "p",
-          "text": "\"While the IIHF respects the authority of CAS and will act in accordance with its ruling, the outcome does not remove the concerns that informed its assessments.\""
-        },
-        {
-          "type": "p",
-          "text": "Russian Sports Minister Mikhail Degtyaryov wrote on the Telegram social media app that CAS \"recognized the demands of the Russian Hockey Federation on key points as justified.\""
-        },
-        {
-          "type": "p",
-          "text": "The IIHF has barred Russian teams from its world championships since the invasion of Ukraine in 2022. Russia also missed the Olympic hockey tournaments this year."
-        },
-        {
-          "type": "p",
-          "text": "The ruling is an immediate challenge for new IIHF President Franz Reindl, whose home country of Germany hosts the men's world championship next year."
         }
       ],
       "truncated": false,
@@ -14780,82 +15399,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "gma-1cx6a3r",
-      "source": "gma",
-      "title": "Dizon fumes at airport officials for not handing CCTV control to NNIC",
-      "summary": "Transportation Secretary Vince Dizon on Friday scolded Manila International Airport Authority (MIAA) officials for failing to pass control over CCTV cameras to the new private management of the Ninoy…",
-      "byline": "JEAN MANGALUZ, GMA News",
-      "section": "",
-      "published": "2026-10-30T06:14:21.000Z",
-      "firstSeen": "2026-10-30T06:30:54.924Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1007717/dizon-fumes-at-airport-officials-for-not-handing-cctv-control-to-nnic/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/10/Dizon_fumes_at_airport_officials_for_not_handing_CCTV_control_to_NNIC_Courtesy_Gabriel_Gonzales_GMA_News_20261030_2026_10_30_14_12_00.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published October 30, 2026 2:14pm"
-        },
-        {
-          "type": "p",
-          "text": "Transportation Secretary Vince Dizon on Friday scolded Manila International Airport Authority (MIAA) officials for failing to pass control over CCTV cameras to the new private management of the Ninoy Aquino International Airport (NAIA)."
-        },
-        {
-          "type": "p",
-          "text": "In a video report by GMA News' Gabriel Gonzales, Dizon could be seen fuming at MIAA officials for the delay in the transfer."
-        },
-        {
-          "type": "p",
-          "text": "\"Mahigit isang taon na 'yun eh… ang problema dito, walang single accountability,\" Dizon said. (It has been more than one year. The problem here is there is no single accountability.)"
-        },
-        {
-          "type": "p",
-          "text": "An airport official could be seen explaining to Dizon that they were waiting for the end of a contract before it transferred control of the CCTVs to the New NAIA Infra Corp. (NNIC). However, Dizon said it has been too long."
-        },
-        {
-          "type": "p",
-          "text": "The argument stemmed from a theft incident that occurred in the airport, but the security footage could not be seen."
-        },
-        {
-          "type": "p",
-          "text": "\"Simpleng-simple 'yung problema natin. May nanakawan, hindi natin makita-kita sa CCTV. Tapos kayong lahat… nagtuturuan kayong lahat. Kaya ako nabibuwisit sa inyo,\" Dizon said, who later cursed as he vented his anger."
-        },
-        {
-          "type": "p",
-          "text": "(Our problem is very simple. There was a theft, and we could not see it in the CCTV. And all of you… you are pointing at one another. That is why I am so angry with all of you.)"
-        },
-        {
-          "type": "p",
-          "text": "In a separate video report from Gabriel Gonzales, Dizon explained that he was angry that it has been one year and a half since he ordered that control over the CCTVs be handed over to the NNIC."
-        },
-        {
-          "type": "p",
-          "text": "\"Binigyan ko sila ngayong November. 'Pag hindi pa nila nalipat 'yan sesante 'yung mga ito,\" Dizon said. (I gave them until November. If they do not transfer it, these people are fired.)"
-        },
-        {
-          "type": "p",
-          "text": "During his visit to the NAIA, Dizon also went to the area where the incident occurred. The Transportation secretary said footage has been found of the actual incident."
-        },
-        {
-          "type": "p",
-          "text": "\"I'm very, very happy to report na nahuli na at naibalik na, o na-recover na 'yung mga nanakaw. And according to the law enforcement natin dito, kumpleto 'yung mga nanakaw na items,\" Dizon said."
-        },
-        {
-          "type": "p",
-          "text": "(I'm very, very happy to report that the thief has been caught and it has been returned, or the stolen items have been returned. And according to law enforcement officers here, the items stolen are complete.)"
-        },
-        {
-          "type": "p",
-          "text": "Dizon recently reassumed control of the Department of Transportation (DOTr) after switching Cabinet posts with now Public Works and Highways Secretary Giovanni Lopez. — VDV, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-18cep4c",
       "source": "bbc",
       "title": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
@@ -15671,98 +16214,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "gma-x8oci1",
-      "source": "gma",
-      "title": "Men can also be victims of sexual violence, Supreme Court says",
-      "summary": "Men can also be victims of sexual violence, Supreme Court says",
-      "byline": "LYJAH TIFFANY BONZO, GMA News",
-      "section": "",
-      "published": "2026-10-30T04:55:01.000Z",
-      "firstSeen": "2026-10-30T05:01:03.595Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1007705/men-can-also-be-victims-of-sexual-violence-supreme-court-says/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/10/thumb__2026_10_30_12_53_57.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published October 30, 2026 12:55pm"
-        },
-        {
-          "type": "p",
-          "text": "The Supreme Court (SC) has ruled that men can also be victims of sexual violence, underscoring that the law must protect all victims of abuse regardless of gender."
-        },
-        {
-          "type": "p",
-          "text": "In a 17-page decision, the SC En Banc affirmed that while women have historically suffered sexual violence by men, the law must be adaptable to also recognize that men can also be victims of perpetrators."
-        },
-        {
-          "type": "p",
-          "text": "“... While there must be recognition of the historical injustice women have suffered, the law, as well as its interpretation, must be resilient enough to provide equal protection to all victims and guard against stereotypes that all women are victims and all men are perpetrators. When laws are not gender-neutral, male victims suffer twice: once at the hands of their abuser and second through the judicial system,” it said."
-        },
-        {
-          "type": "p",
-          "text": "The SC also pointed out that the context of rape must not be viewed only through the lens of gender, but, “more importantly, of power.”"
-        },
-        {
-          "type": "p",
-          "text": "Power, the High Court said, is determined through a variety of factors including age, socioeconomic stature, and education."
-        },
-        {
-          "type": "p",
-          "text": "“At its core, rape is an issue of power—an imposition of someone's dominance to violate the bodily autonomy of another. This power imbalance can manifest in many ways such as through differences in gender, age, socioeconomic stature, professional authority, or education,” the SC said."
-        },
-        {
-          "type": "p",
-          "text": "“In rape, the perpetrator uses this power imbalance to coerce or manipulate the victim into submitting to their will or to make it impossible for the victim to refuse their advances,” it added."
-        },
-        {
-          "type": "p",
-          "text": "According to court records, a woman was found guilty of committing acts of lasciviousness against her 11-year-old nephew, when she ordered him to take off his clothes, lie on the bed, and engaged in sexual intercourse with the boy."
-        },
-        {
-          "type": "p",
-          "text": "Psychological debriefing and supportive psychotherapy diagnosed the child with post-traumatic stress disorder resulting from the sexual abuse."
-        },
-        {
-          "type": "p",
-          "text": "Records said that while the child did not protest at first because “he felt curious about what would happen,\" after the incident, he felt ashamed and contemplated committing suicide."
-        },
-        {
-          "type": "p",
-          "text": "The woman argued that the child consented to the sexual act, but the SC disagreed. The Court cited that, at the time of the incident, the age of sexual consent was 12 years old, and deemed that the child was legally incapable of giving consent."
-        },
-        {
-          "type": "p",
-          "text": "“The age of sexual consent when the incident happened in 2018 was still 12 years old before it was raised to 16 years old with the passage of Republic Act No. 11648 in 2022. Thus, AAA280727, an 11-year-old child at the time of the incident, is deemed unable to give consent,” the SC said."
-        },
-        {
-          "type": "p",
-          "text": "Passed in 2022, Republic Act No. 11648 raised the age of consent to 16 years old, and revised the wording that a rape may be committed \"by a person who shall have carnal knowledge of another person.\""
-        },
-        {
-          "type": "p",
-          "text": "In the decision, the SC noted that many countries have now adopted gender-neutral rape laws to protect everyone’s sexual autonomy from the harm of non-consensual penetrative sexual acts."
-        },
-        {
-          "type": "p",
-          "text": "“[T]here must be recognition in our laws that sexual violence devastates equally regardless of how it was committed or, at the very least, a reevaluation of whether the historical justifications for the distinctions in our rape laws are still relevant—and, more importantly, fair,” the SC said."
-        },
-        {
-          "type": "p",
-          "text": "The woman was found guilty of statutory acts of lasciviousness under Article 336 of the Revised Penal Code. She was sentenced to prison for nine to 16 years and ordered to pay P250,000 in civil indemnity and damages."
-        },
-        {
-          "type": "p",
-          "text": "The decision was penned by Senior Associate Justice Marvic M.V.F. Leonen and promulgated on February 4, 2026. —VAL, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1oxpths",
       "source": "abs",
       "title": "‘Hindi niya hahayaang may masaktan’: PNP urges ex-chief Dela Rosa to surrender as ultimatum ends",
@@ -16318,6 +16769,28 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
+      "id": "abs-1dov5jz",
+      "source": "abs",
+      "title": "From Dubai to son’s wake: Father mourns slain Batangas working student",
+      "summary": "Michael Usi was working at a warehouse in Dubai when a series of messages from one of his children appeared on his phone. Busy with work, he did not immediately read them.",
+      "byline": "",
+      "section": "",
+      "published": "2026-10-30T03:17:17.000Z",
+      "firstSeen": "2026-10-30T17:31:05.234Z",
+      "url": "https://www.abs-cbn.com/news/regions/2026/10/30/from-dubai-to-son-s-wake-father-mourns-slain-batangas-working-student-0037",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Michael Usi was working at a warehouse in Dubai when a series of messages from one of his children appeared on his phone. Busy with work, he did not immediately read them."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
       "id": "abs-1esbs52",
       "source": "abs",
       "title": "Pampanga restaurants earn first Michelin Guide recognition",
@@ -16724,28 +17197,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-imslm4",
-      "source": "abs",
-      "title": "Peso again opens stronger at P63.67 vs dollar",
-      "summary": "The peso again opened stronger at P63.67 against the dollar on Friday, October 30, after closing at P63.85 the day before.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-30T02:43:06.000Z",
-      "firstSeen": "2026-10-30T03:01:02.099Z",
-      "url": "https://www.abs-cbn.com/news/business/2026/10/30/peso-again-opens-stronger-at-p63-67-vs-dollar-1043",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The peso again opened stronger at P63.67 against the dollar on Friday, October 30, after closing at P63.85 the day before."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "dw-ovu8m1",
@@ -17629,50 +18080,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "abs-ncr0qy",
-      "source": "abs",
-      "title": "Does White House ask AI to shape policy? Democrats want the receipts",
-      "summary": "Senior Democrats demanded Thursday that US President Donald Trump preserve records of any official exchanges with artificial intelligence chatbots, raising questions about whether Elon Musk's Grok…",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-30T01:30:17.000Z",
-      "firstSeen": "2026-10-30T01:30:55.704Z",
-      "url": "https://www.abs-cbn.com/news/world/2026/10/30/does-white-house-ask-ai-to-shape-policy-democrats-want-the-receipts-0930",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Senior Democrats demanded Thursday that US President Donald Trump preserve records of any official exchanges with artificial intelligence chatbots, raising questions about whether Elon Musk's Grok influenced sensitive military decisions."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1tqzy6q",
-      "source": "abs",
-      "title": "QCinema Film Festival reveals its lineup of local and international films for 2026",
-      "summary": "The 14th edition of the much anticipated QCinema Film Festival will run from November 13 to November 22 at select cinemas in Quezon City.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-30T01:19:15.000Z",
-      "firstSeen": "2026-10-30T01:30:55.763Z",
-      "url": "https://www.abs-cbn.com/entertainment/showbiz/movies-series/2026/10/30/qcinema-film-festival-reveals-its-lineup-of-local-and-international-films-for-2026-0919",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The 14th edition of the much anticipated QCinema Film Festival will run from November 13 to November 22 at select cinemas in Quezon City."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "dw-1abxc0t",
       "source": "dw",
       "title": "Binance crypto exchange suspends trades over North Korea-linked hack",
@@ -18321,28 +18728,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-1yqudik",
-      "source": "abs",
-      "title": "RoRo tumagilid sa pantalan; 4 sugatan",
-      "summary": "Apat ang sugatan matapos tumagilid ang isang roll-on/roll-off passenger vessel sa Ungos Port in Real, Quezon, Biyernes ng madaling araw.",
-      "byline": "",
-      "section": "",
-      "published": "2026-10-29T23:54:57.000Z",
-      "firstSeen": "2026-10-30T00:01:04.536Z",
-      "url": "https://www.abs-cbn.com/news/regions/2026/10/30/roro-tumagilid-sa-pantalan-4-sugatan-0754",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Apat ang sugatan matapos tumagilid ang isang roll-on/roll-off passenger vessel sa Ungos Port in Real, Quezon, Biyernes ng madaling araw."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "inqg-1g0qpzy",
@@ -20621,102 +21006,6 @@
         {
           "type": "h",
           "text": "Germany under pressure"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "bbc-1x0t75q",
-      "source": "bbc",
-      "title": "Russian drone attack on Ukrainian train station kills at least 13, officials say",
-      "summary": "Dnipro regional head Oleksandr Hanzha said at least 10 others were wounded in the attack, including an 11-year-old boy.",
-      "byline": "Tom McArthur",
-      "section": "",
-      "published": "2026-10-29T12:38:40.000Z",
-      "firstSeen": "2026-10-29T14:01:06.354Z",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-      "image": {
-        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3f6/live/c8559bf0-d389-11f1-b5f4-fd541fd21001.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Thirteen people have been killed after a Russian jet-powered drone hit a crowded platform at Dnipro railway station in the country's north, Ukrainian officials have said."
-        },
-        {
-          "type": "p",
-          "text": "Dnipropetrovsk regional head Oleksandr Hanzha said at least 10 others were wounded in the attack, including an 11-year-old boy."
-        },
-        {
-          "type": "p",
-          "text": "According to the Ukrainian railway operator, Ukrzaliznytsia, a train headed for Zaporizhzhia was at one of the platforms in Dnipro when the drone hit."
-        },
-        {
-          "type": "p",
-          "text": "Moscow has repeatedly targeted Ukraine's large railway network but it denies deliberately targeting civilians."
-        },
-        {
-          "type": "p",
-          "text": "Elsewhere in Ukraine, two girls aged 15 were killed in a Russian missile attack on the centre of Chernihiv city, in the north of the country, regional head Vyacheslav Chaus said. At least 11 others, including more children, were injured, he added."
-        },
-        {
-          "type": "p",
-          "text": "In Dnipro, an elevated threat level was announced ahead of Thursday's strike, according to Ukraine Railways head Oleksandr Pertsovsky."
-        },
-        {
-          "type": "p",
-          "text": "\"But unfortunately there were still a large number of people on the platform,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "Dnipro Mayor Borys Filatov said the incident was a tragedy, adding that a drone hit a civilian electric train."
-        },
-        {
-          "type": "p",
-          "text": "Pictures from the Ukrainian rescue services show a large hole ripped in a platform strewn with blurred-out bodies, near a blast-damaged train with smashed windows."
-        },
-        {
-          "type": "p",
-          "text": "Ukrainian President Volodymyr Zelensky said \"the Russians used a drone to attack a platform where a regular commuter train and a regular passenger train were standing.\""
-        },
-        {
-          "type": "p",
-          "text": "He called for further US, European and G7 sanctions on Russia following the incident and repeated his criticism of a controversial deal struck earlier this month between Donald Trump and Vladimir Putin, which eased some sanctions on Russia, allowing the US to import Russian diesel."
-        },
-        {
-          "type": "p",
-          "text": "The strikes came during efforts to uphold a fragile local ceasefire in the besieged city of Oleshky - which has been under Russian occupation since 2022 and where residents have been trapped without food, water, medicine and electricity."
-        },
-        {
-          "type": "p",
-          "text": "Ukraine's human rights ombudsman Dmytro Lubinets said on Telegram the truce was holding into a third day, and he had \"set out with the Ukrainian delegation towards Oleshky\" through Belarus and Russia."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, the Kremlin has condemned Ukrainian drone attacks on Moscow whilst the city hosts the Russia-Africa Summit, the Tass news agency has reported. The summit is a two-day event attended by African leaders and government delegations from 48 countries."
-        },
-        {
-          "type": "p",
-          "text": "The mayor of Moscow said 613 Ukrainian drones were launched overnight towards the region, most of which were shot down during their flight."
-        },
-        {
-          "type": "p",
-          "text": "Russia's defence ministry has always denied targeting Ukrainian civilians and says its attacks on railways target the infrastructure used to transport military personnel and equipment."
-        },
-        {
-          "type": "p",
-          "text": "However, the dangers to passengers are very real. Attacks on Ukraine's rolling stock and stations have risen sharply."
-        },
-        {
-          "type": "p",
-          "text": "Of the 521 locomotives hit since the start of Russia's full-scale invasion, almost 60% have been his this year, according to statistics released by Ukrzaliznytsia supplied to AFP news agency. Overall attacks on railway facilities have risen from 1,206 in 2025 to 1,700 so far this year."
-        },
-        {
-          "type": "p",
-          "text": "There appears to have been a wider assault on Ukraine's infrastructure in recent weeks, with two bridges attacked in Kyiv, and a metro train hit during one of the strikes."
         }
       ],
       "truncated": false,
