@@ -1,0 +1,60 @@
+{
+  "id": "inq-uk1mdk",
+  "source": "inq",
+  "title": "AI giants promise publishers new way to block some scraping",
+  "summary": "SAN FRANCISCO — OpenAI, Google, Microsoft and Anthropic pledged Friday to give media outlets and other websites a single way to prevent their content from being scraped to train artificial…",
+  "byline": "Agence France-Presse",
+  "section": "",
+  "published": "2026-10-31T06:10:27.000Z",
+  "firstSeen": "2026-10-31T06:30:55.969Z",
+  "url": "https://technology.inquirer.net/150113/ai-giants-promise-publishers-new-way-to-block-some-scraping",
+  "image": {
+    "src": "https://technology.inquirer.net/files/2024/03/google-ai-travel.png-470x313.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "SAN FRANCISCO — OpenAI, Google, Microsoft and Anthropic pledged Friday to give media outlets and other websites a single way to prevent their content from being scraped to train artificial intelligence (AI) models, amid growing criticism and legal battles involving news publishers."
+    },
+    {
+      "type": "p",
+      "text": "Publishers currently have to implement multiple blocking commands for every bot that crawls the web to collect data, but the proposed solution would allow them to enter a single, standardized instruction recognized and honored by any AI company that adopts the protocol."
+    },
+    {
+      "type": "p",
+      "text": "The solution, however, will not take full effect for months."
+    },
+    {
+      "type": "p",
+      "text": "Microsoft will implement it beginning Feb. 1, 2027, while Google plans to do so sometime in 2027. ChatGPT maker OpenAI said it will roll it out “in the coming months,” while Claude maker Anthropic said it has “already started” rolling it out."
+    },
+    {
+      "type": "p",
+      "text": "The announcement comes as publishers face a surge in bots that scrape their articles to train AI models. Some, including The New York Times, have taken the matter to court."
+    },
+    {
+      "type": "p",
+      "text": "In December 2023, the Times sued OpenAI and Microsoft for allegedly using millions of its articles without authorization or payment to train ChatGPT. The two tech companies have invoked an exception to copyright law known as fair use."
+    },
+    {
+      "type": "p",
+      "text": "Meanwhile, internet infrastructure provider Cloudflare has blocked AI bots by default on new customer sites since July 2025, while a standard called Really Simple Licensing already allows publishers to charge bots that visit their pages."
+    },
+    {
+      "type": "p",
+      "text": "The new setting will apply only to the future training of models. It will not otherwise prevent bots from crawling websites, and content scraping will be allowed by default until a publisher changes the setting, Microsoft said in a blog post."
+    },
+    {
+      "type": "p",
+      "text": "Opting out of AI training could reduce the chances that a publisher’s content will surface in AI apps and experiences, Microsoft and Google said in separate blog posts."
+    },
+    {
+      "type": "p",
+      "text": "“We believe creating a common signal that conveys such preferences to multiple providers at once is an important step. And we look forward to working with other AI companies on the standards and their implementation across the industry,” Meta spokesperson Andy Stone wrote on X, expressing support for the effort. /dm"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
