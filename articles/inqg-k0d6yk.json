@@ -5,7 +5,7 @@
   "summary": "STOCKHOLM — Supermarkets in Sweden, Belgium, Luxembourg, Ireland and Estonia were hit Monday by problems with freezers and fridges that apparently were caused by cyberattacks, forcing some to dispose…",
   "byline": "cbuban",
   "section": "Europe",
-  "published": "2026-11-02T21:30:52.218Z",
+  "published": "2026-11-02T22:01:16.551Z",
   "firstSeen": "2026-11-02T18:30:54.224Z",
   "url": "https://globalnation.inquirer.net/345292/supermarket-freezers-in-european-countries-hit-by-apparent-cyberattacks",
   "image": {
@@ -21,5 +21,5 @@
   "truncated": true,
   "fx": 6,
   "source_of_text": "summary",
-  "why": "doorway HTTP 403; direct HTTP 403"
+  "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
 }
