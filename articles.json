@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-03T08:31:22.964Z",
+  "updated": "2026-11-03T08:34:15.485Z",
   "sources": [
     {
       "id": "inq",
@@ -59,7 +59,7 @@
       "summary": "MANILA, Philippines &#8212; Sen. Panfilo “Ping” Lacson on Tuesday said that his call for due process for Sen. Ronald “Bato” dela Rosa does not mean shielding his colleague from facing trial before…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:14.196Z",
+      "published": "2026-11-03T08:34:04.680Z",
       "firstSeen": "2026-11-03T06:30:54.340Z",
       "url": "https://newsinfo.inquirer.net/2335384/lacson-call-for-due-process-wont-shield-bato-dela-rosa-from-icc-trial",
       "image": {
@@ -84,7 +84,7 @@
       "summary": "North Korea denied a U.S. accusation that it was involved in the theft of assets worth more than $6 billion from the Binance cryptocurrency exchange platform last week, state media reported Tuesday.…",
       "byline": "dlejano",
       "section": "Global Scale",
-      "published": "2026-11-03T08:31:14.196Z",
+      "published": "2026-11-03T08:34:04.680Z",
       "firstSeen": "2026-11-03T01:30:53.019Z",
       "url": "https://globalnation.inquirer.net/345340/north-korea-denies-involvement-in-6-b-binance-crypto-platform-heist",
       "image": {
@@ -109,7 +109,7 @@
       "summary": "MANILA, Philippines – The Land Transportation Franchising and Regulatory Board (LTFRB) has imposed a P555.75-million penalty on motorcycle taxi platform Move It for exceeding its authorized number of…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:14.090Z",
+      "published": "2026-11-03T08:34:03.321Z",
       "firstSeen": "2026-11-03T07:01:22.571Z",
       "url": "https://newsinfo.inquirer.net/2335366/ltfrb-fines-move-it-p555-75m-over-excess-riders-platform-appeals",
       "image": {
@@ -134,7 +134,7 @@
       "summary": "CALAPAN CITY — More than 30,000 travellers passed through major seaports in Oriental Mindoro from Oct. 30 to early Nov. 3 during this year&#8217;s All Saints&#8217; Day holiday weekend, according to…",
       "byline": "jbarrion",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:14.090Z",
+      "published": "2026-11-03T08:34:03.321Z",
       "firstSeen": "2026-11-03T07:01:26.124Z",
       "url": "https://newsinfo.inquirer.net/2335379/oriental-mindoro-ports-log-over-30000-passengers-during-undas",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "PARIS &#8212; Tennis star Novak Djokovic said on Monday he hoped Serbia&#8217;s student movement would mark a &#8220;fresh start for the country&#8221; after its election victory over longtime leader…",
       "byline": "dlejano",
       "section": "Europe",
-      "published": "2026-11-03T08:31:14.090Z",
+      "published": "2026-11-03T08:34:03.321Z",
       "firstSeen": "2026-11-03T02:30:52.148Z",
       "url": "https://globalnation.inquirer.net/345367/djokovic-hopeful-of-fresh-start-for-serbia-after-students-win-election",
       "image": {
@@ -184,7 +184,7 @@
       "summary": "BRUSSELS &#8212; A suspected cyberattack hit grocery stores across at least nine European countries on Monday, prompting the EU to warn of a deliberate attempt to disrupt the bloc&#8217;s food supply…",
       "byline": "dlejano",
       "section": "Europe",
-      "published": "2026-11-03T08:31:14.090Z",
+      "published": "2026-11-03T08:34:03.321Z",
       "firstSeen": "2026-11-03T02:30:52.150Z",
       "url": "https://globalnation.inquirer.net/345364/fridge-cyberattack-hits-supermarkets-across-europe",
       "image": {
@@ -203,13 +203,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-qouenu",
+      "source": "inqn",
+      "title": "Suspected gunrunner wounded in Cotabato buy-bust",
+      "summary": "COTABATO CITY — An alleged gunrunner was wounded in a shootout with police operatives during a buy-bust operation in Kabacan, North Cotabato on Tuesday. The Criminal Investigation and Detection Group…",
+      "byline": "jbarrion",
+      "section": "Latest News Stories",
+      "published": "2026-11-03T08:34:03.031Z",
+      "firstSeen": "2026-11-03T07:01:13.522Z",
+      "url": "https://newsinfo.inquirer.net/2335383/suspected-gunrunner-wounded-in-cotabato-buy-bust",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Cotabato-City-map-filephoto-091422.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "COTABATO CITY — An alleged gunrunner was wounded in a shootout with police operatives during a buy-bust operation in Kabacan, North Cotabato on Tuesday. The Criminal Investigation and Detection Group (CIDG), backed by personnel of the Kabacan Municipal Police Station, conducted the operation along the national highway in Barangay Kayaga at around 8:45 a.m. Lt."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-ph9vc1",
       "source": "inqn",
       "title": "Palace challenges Nartatez: PNP must arrest Dela Rosa regardless of ties",
       "summary": "MANILA, Philippines – Malacañang on Tuesday challenged the Philippine National Police (PNP) leadership to ensure that Senator Ronald “Bato” dela Rosa’s former position as PNP chief would not stand in…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:13.959Z",
+      "published": "2026-11-03T08:34:03.031Z",
       "firstSeen": "2026-11-03T07:01:13.572Z",
       "url": "https://newsinfo.inquirer.net/2335399/palace-challenges-nartatez-pnp-must-arrest-dela-rosa-regardless-of-ties",
       "image": {
@@ -234,7 +259,7 @@
       "summary": "MANILA, Philippines — The Philippine Army effectively covers only 40 to 50 percent of the country, and its limited reach is insufficient even for logistical operations, according to Defense Secretary…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:13.959Z",
+      "published": "2026-11-03T08:34:03.031Z",
       "firstSeen": "2026-11-03T07:01:13.575Z",
       "url": "https://newsinfo.inquirer.net/2335367/teodoro-flags-limited-army-reach-gaps-in-ph-defense-infra",
       "image": {
@@ -253,13 +278,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-1qsfwyp",
+      "source": "inqg",
+      "title": "ICC prosecution seeks to use 3 more recorded testimonies in Duterte case",
+      "summary": "MANILA, Philippines — The prosecution in former President Rodrigo Duterte’s crimes against humanity case before the International Criminal Court (ICC) is again seeking to admit as evidence the…",
+      "byline": "dlejano",
+      "section": "Europe",
+      "published": "2026-11-03T08:34:03.031Z",
+      "firstSeen": "2026-11-03T03:01:05.706Z",
+      "url": "https://globalnation.inquirer.net/345376/icc-prosecution-seeks-to-use-3-more-recorded-testimonies-in-duterte-case",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/ICC-prosecution-seeks-to-use-3-more-recorded-testimonies-in-Duterte-case-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The prosecution in former President Rodrigo Duterte’s crimes against humanity case before the International Criminal Court (ICC) is again seeking to admit as evidence the pre-recorded testimonies of three more witnesses. Based on a 10-page copy of the prosecution’s application made public on Tuesday (Manila time), the panel said the recorded testimonies"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-ybr60u",
       "source": "inqg",
       "title": "Americans vote in midterms set to upend Trump presidency",
       "summary": "WASHINGTON — Americans will deliver their verdict on Donald Trump&#8217;s tumultuous second presidency Tuesday in midterm elections that threaten to shatter his grip on Washington, with Democrats…",
       "byline": "dlejano",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-03T08:31:13.959Z",
+      "published": "2026-11-03T08:34:03.031Z",
       "firstSeen": "2026-11-03T03:01:05.707Z",
       "url": "https://globalnation.inquirer.net/345373/americans-vote-in-midterms-set-to-upend-trump-presidency",
       "image": {
@@ -284,7 +334,7 @@
       "summary": "The United States on Monday attacked Iran&#8217;s Qeshm Island, the Wall Street Journal reported, even as President Donald Trump signaled progress in negotiations with Tehran to end the…",
       "byline": "dlejano",
       "section": "Global Scale",
-      "published": "2026-11-03T08:31:13.959Z",
+      "published": "2026-11-03T08:34:03.031Z",
       "firstSeen": "2026-11-03T02:30:52.147Z",
       "url": "https://globalnation.inquirer.net/345370/us-strikes-irans-qeshm-island-wall-street-journal",
       "image": {
@@ -309,7 +359,7 @@
       "summary": "MANILA, Philippines — The Philippine Health Insurance Corporation (PhilHealth) on Tuesday warned the public against individuals impersonating its Chief Executive Officer, Beverly Lorraine Ho, to…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:13.958Z",
+      "published": "2026-11-03T08:34:03.030Z",
       "firstSeen": "2026-11-03T07:30:59.654Z",
       "url": "https://newsinfo.inquirer.net/2335412/philhealth-warns-public-against-scammers-impersonating-ceo-for-money",
       "image": {
@@ -334,7 +384,7 @@
       "summary": "LUCENA CITY — A 47-year-old e-bike rider was hit and crushed to death by a truck in San Pablo City, Laguna, on Monday night ,according to the local police. The e-bike rider stopped in front of the…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:13.958Z",
+      "published": "2026-11-03T08:34:03.030Z",
       "firstSeen": "2026-11-03T07:31:00.445Z",
       "url": "https://newsinfo.inquirer.net/2335407/e-bike-rider-dies-in-laguna-mishap",
       "image": {
@@ -353,38 +403,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-qouenu",
-      "source": "inqn",
-      "title": "Suspected gunrunner wounded in Cotabato buy-bust",
-      "summary": "COTABATO CITY — An alleged gunrunner was wounded in a shootout with police operatives during a buy-bust operation in Kabacan, North Cotabato on Tuesday. The Criminal Investigation and Detection Group…",
-      "byline": "jbarrion",
-      "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:13.958Z",
-      "firstSeen": "2026-11-03T07:01:13.522Z",
-      "url": "https://newsinfo.inquirer.net/2335383/suspected-gunrunner-wounded-in-cotabato-buy-bust",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Cotabato-City-map-filephoto-091422.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COTABATO CITY — An alleged gunrunner was wounded in a shootout with police operatives during a buy-bust operation in Kabacan, North Cotabato on Tuesday. The Criminal Investigation and Detection Group (CIDG), backed by personnel of the Kabacan Municipal Police Station, conducted the operation along the national highway in Barangay Kayaga at around 8:45 a.m. Lt."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-1kg57oo",
       "source": "inqg",
       "title": "Duterte defense again opposes bid to admit witness testimony",
       "summary": "MANILA, Philippines — Former President Rodrigo Duterte’s defense counsel before the International Criminal Court (ICC) objected to the prosecution&#8217;s request to admit as evidence the recorded…",
       "byline": "dlejano",
       "section": "Europe",
-      "published": "2026-11-03T08:31:13.958Z",
+      "published": "2026-11-03T08:34:03.030Z",
       "firstSeen": "2026-11-03T04:00:56.967Z",
       "url": "https://globalnation.inquirer.net/345386/duterte-defense-again-opposes-bid-to-admit-witness-testimony",
       "image": {
@@ -409,7 +434,7 @@
       "summary": "PARIS &#8212; Countries across Europe have been swept by a wave of protests by young people angry at the spiraling cost of living who have little trust in traditional institutions. While local…",
       "byline": "dlejano",
       "section": "Europe",
-      "published": "2026-11-03T08:31:13.958Z",
+      "published": "2026-11-03T08:34:03.030Z",
       "firstSeen": "2026-11-03T03:31:02.095Z",
       "url": "https://globalnation.inquirer.net/345377/living-costs-housing-job-uncertainty-fuel-european-youth-anger",
       "image": {
@@ -428,63 +453,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1qsfwyp",
-      "source": "inqg",
-      "title": "ICC prosecution seeks to use 3 more recorded testimonies in Duterte case",
-      "summary": "MANILA, Philippines — The prosecution in former President Rodrigo Duterte’s crimes against humanity case before the International Criminal Court (ICC) is again seeking to admit as evidence the…",
-      "byline": "dlejano",
-      "section": "Europe",
-      "published": "2026-11-03T08:31:13.958Z",
-      "firstSeen": "2026-11-03T03:01:05.706Z",
-      "url": "https://globalnation.inquirer.net/345376/icc-prosecution-seeks-to-use-3-more-recorded-testimonies-in-duterte-case",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/ICC-prosecution-seeks-to-use-3-more-recorded-testimonies-in-Duterte-case-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The prosecution in former President Rodrigo Duterte’s crimes against humanity case before the International Criminal Court (ICC) is again seeking to admit as evidence the pre-recorded testimonies of three more witnesses. Based on a 10-page copy of the prosecution’s application made public on Tuesday (Manila time), the panel said the recorded testimonies"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-1guwnsf",
-      "source": "inqg",
-      "title": "Rodrigo Duterte crimes against humanity trial: ICC&#8217;s final ground rules",
-      "summary": "MANILA, Philippines &#8212; The International Criminal Court’s (ICC) Trial Chamber III held its final status conference on Monday, Nov. 2, ahead of the Nov. 30 trial of former President Rodrigo…",
-      "byline": "dlejano",
-      "section": "Europe",
-      "published": "2026-11-03T08:31:12.278Z",
-      "firstSeen": "2026-11-03T04:30:53.096Z",
-      "url": "https://globalnation.inquirer.net/345391/rodrigo-duterte-crimes-against-humanity-trial-iccs-final-ground-rules",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/03/EXPLAINER-Brutal-attacks-on-civilians-hauled-Rodrigo-Duterte-to-The-Hague-2048x1152-1.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8212; The International Criminal Court’s (ICC) Trial Chamber III held its final status conference on Monday, Nov. 2, ahead of the Nov. 30 trial of former President Rodrigo Duterte. At the status conference, the chamber addressed the following procedural matters: READ: Duterte required to physically attend trial – ICC To accommodate medical advice regarding"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1o4nzjn",
       "source": "inqn",
       "title": "Coast Guard rescues 34 passengers from distressed boat off Palawan",
       "summary": "CALAPAN CITY, Oriental Mindoro — The Philippine Coast Guard (PCG) rescued 34 persons after their motorized banca encountered engine trouble in Taytay Bay in Palawan on Monday. The passengers were…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:12.277Z",
+      "published": "2026-11-03T08:34:02.881Z",
       "firstSeen": "2026-11-03T07:30:59.612Z",
       "url": "https://newsinfo.inquirer.net/2335411/coast-guard-rescues-34-passengers-from-distressed-boat-off-palawan",
       "image": {
@@ -503,13 +478,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-1guwnsf",
+      "source": "inqg",
+      "title": "Rodrigo Duterte crimes against humanity trial: ICC&#8217;s final ground rules",
+      "summary": "MANILA, Philippines &#8212; The International Criminal Court’s (ICC) Trial Chamber III held its final status conference on Monday, Nov. 2, ahead of the Nov. 30 trial of former President Rodrigo…",
+      "byline": "dlejano",
+      "section": "Europe",
+      "published": "2026-11-03T08:34:02.881Z",
+      "firstSeen": "2026-11-03T04:30:53.096Z",
+      "url": "https://globalnation.inquirer.net/345391/rodrigo-duterte-crimes-against-humanity-trial-iccs-final-ground-rules",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/03/EXPLAINER-Brutal-attacks-on-civilians-hauled-Rodrigo-Duterte-to-The-Hague-2048x1152-1.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines &#8212; The International Criminal Court’s (ICC) Trial Chamber III held its final status conference on Monday, Nov. 2, ahead of the Nov. 30 trial of former President Rodrigo Duterte. At the status conference, the chamber addressed the following procedural matters: READ: Duterte required to physically attend trial – ICC To accommodate medical advice regarding"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-w9b7g8",
       "source": "inqn",
       "title": "PNP backs Lacson: Secrecy key in hunt for Bato dela Rosa",
       "summary": "MANILA, Philippines — The Philippine National Police (PNP) agrees with Sen. Panfilo &#8220;Ping&#8221; Lacson that secrecy is key when handling the manhunt operation on Sen. Ronald “Bato” dela Rosa.…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:12.157Z",
+      "published": "2026-11-03T08:34:01.367Z",
       "firstSeen": "2026-11-03T08:01:04.780Z",
       "url": "https://newsinfo.inquirer.net/2335391/pnp-backs-lacson-secrecy-key-in-hunt-for-bato-dela-rosa",
       "image": {
@@ -534,7 +534,7 @@
       "summary": "KATHMANDU &#8212; Two helicopters collided and crashed while attempting to land in Nepal&#8217;s Everest region on Tuesday, killing a foreign national and injuring another person, police told AFP.…",
       "byline": "dlejano",
       "section": "Asia",
-      "published": "2026-11-03T08:31:12.157Z",
+      "published": "2026-11-03T08:34:01.367Z",
       "firstSeen": "2026-11-03T05:00:59.056Z",
       "url": "https://globalnation.inquirer.net/345396/one-killed-after-helicopters-collide-in-nepal",
       "image": {
@@ -559,7 +559,7 @@
       "summary": "CALAPAN CITY — Oriental Mindoro recorded a heat index of 39 ° at 11 a.m. on Tuesday, prompting authorities to remind residents to take precautions against heat-related illnesses. The heat index…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:10.358Z",
+      "published": "2026-11-03T08:34:01.081Z",
       "firstSeen": "2026-11-03T08:00:59.632Z",
       "url": "https://newsinfo.inquirer.net/2335427/39c-heat-index-grips-oriental-mindoro-public-cautioned",
       "image": {
@@ -584,7 +584,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — The National Transmission Corporation (TransCo) is stepping up efforts to reduce the duration of power outages in Oriental and Occidental Mindoro, through better grid…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:10.358Z",
+      "published": "2026-11-03T08:34:01.081Z",
       "firstSeen": "2026-11-03T08:01:04.778Z",
       "url": "https://newsinfo.inquirer.net/2335396/transco-addresses-mindoro-power-outage-supply-issues",
       "image": {
@@ -609,7 +609,7 @@
       "summary": "SAN FRANCISCO, Agusan del Sur — The observance of All Saints’ Day and All Souls’ Day across Caraga (Region 13) was generally peaceful and orderly, with over 350,000 people visiting cemeteries and…",
       "byline": "jcristobal",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:10.358Z",
+      "published": "2026-11-03T08:34:01.081Z",
       "firstSeen": "2026-11-03T08:01:04.780Z",
       "url": "https://newsinfo.inquirer.net/2335388/caraga-cops-log-peaceful-undas-cemetery-crowd-tops-350000",
       "image": {
@@ -634,7 +634,7 @@
       "summary": "MANILA, Philippines — Defense Secretary Gilberto Teodoro Jr. on Tuesday denied China&#8217;s claim that several Association of Southeast Asian Nations (Asean) countries had opposed the…",
       "byline": "postie",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-03T08:31:10.358Z",
+      "published": "2026-11-03T08:34:01.081Z",
       "firstSeen": "2026-11-03T06:00:57.835Z",
       "url": "https://globalnation.inquirer.net/345397/teodoro-denies-asean-members-opposed-ph-handling-of-china-invite",
       "image": {
@@ -659,7 +659,7 @@
       "summary": "MANILA, Philippines — Starting Nov. 3, passengers traveling by air to the United States must attest that they have not recently been to the Democratic Republic of Congo (DRC) amid an Ebola virus…",
       "byline": "mmercado",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-03T08:31:10.358Z",
+      "published": "2026-11-03T08:34:01.081Z",
       "firstSeen": "2026-11-03T06:00:58.641Z",
       "url": "https://globalnation.inquirer.net/345419/doh-us-bound-travelers-must-declare-recent-drc-visits-amid-ebola",
       "image": {
@@ -684,7 +684,7 @@
       "summary": "MANILA, Philippines—The lead defense lawyer of former President Rodrigo Duterte is opposing a prosecution witness whose testimony was deemed opinionated about the former leader’s role in the war on…",
       "byline": "mmercado",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-03T08:31:10.358Z",
+      "published": "2026-11-03T08:34:01.081Z",
       "firstSeen": "2026-11-03T05:31:05.358Z",
       "url": "https://globalnation.inquirer.net/345398/dutertes-lawyer-flags-witness-opinions-in-drug-war-case-at-icc",
       "image": {
@@ -709,7 +709,7 @@
       "summary": "TACLOBAN CITY — The Department of Environment and Natural Resources (DENR) has confirmed a new peatland covering a probable 168.34 hectares (ha) in Palo, Leyte, adding to the country’s growing…",
       "byline": "jcristobal",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:10.357Z",
+      "published": "2026-11-03T08:34:01.080Z",
       "firstSeen": "2026-11-03T08:00:57.635Z",
       "url": "https://newsinfo.inquirer.net/2335416/denr-confirms-168-hectare-peatland-in-leyte-town",
       "image": {
@@ -734,7 +734,7 @@
       "summary": "MANILA, Philippines — Malacañang on Tuesday expressed hope that Chinese President Xi Jinping would attend the 49th Association of Southeast Asian Nations (Asean) Summit, saying his presence would…",
       "byline": "ggaviola",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-03T08:31:10.357Z",
+      "published": "2026-11-03T08:34:01.080Z",
       "firstSeen": "2026-11-03T08:31:10.357Z",
       "url": "https://globalnation.inquirer.net/345420/palace-hopeful-of-xi-jinpings-asean-summit-attendance",
       "image": {
@@ -753,38 +753,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-fdh3go",
-      "source": "inqn",
-      "title": "Palace wants budget watchdogs to scrutinize 2027 budget &#8216;red flags&#8217;",
-      "summary": "MANILA, Philippines — Malacañang on Tuesday urged budget watchdogs to report any “red flags” they uncover in the proposed P7.2-trillion national budget for 2027. At a briefing, Palace Press Officer…",
-      "byline": "jvicente",
-      "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:08.559Z",
-      "firstSeen": "2026-11-03T08:00:57.557Z",
-      "url": "https://newsinfo.inquirer.net/2335435/palace-wants-budget-watchdogs-to-scrutinize-2027-budget-red-flags",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/PCO-Undersecretary-Claire-Castro.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Malacañang on Tuesday urged budget watchdogs to report any “red flags” they uncover in the proposed P7.2-trillion national budget for 2027. At a briefing, Palace Press Officer Claire Castro said President Ferdinand Marcos Jr. would take note of any alleged anomalies flagged by groups reviewing the proposed budget. READ: House to consult budget watchdogs “Sa"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-1ar4br0",
       "source": "inqg",
       "title": "Germany&#8217;s chancellor called for Korean unity. Does Seoul want that?",
       "summary": "The story of South and North Korea — two nations that share history, language and much of their cultural heritage — sounds familiar to Germans. Their own country spent decades divided by opposing…",
       "byline": "dlejano",
       "section": "Global Scale",
-      "published": "2026-11-03T08:31:08.559Z",
+      "published": "2026-11-03T08:33:59.393Z",
       "firstSeen": "2026-11-03T06:30:54.340Z",
       "url": "https://globalnation.inquirer.net/345341/germanys-chancellor-called-for-korean-unity-does-seoul-want-that",
       "image": {
@@ -803,13 +778,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-fdh3go",
+      "source": "inqn",
+      "title": "Palace wants budget watchdogs to scrutinize 2027 budget &#8216;red flags&#8217;",
+      "summary": "MANILA, Philippines — Malacañang on Tuesday urged budget watchdogs to report any “red flags” they uncover in the proposed P7.2-trillion national budget for 2027. At a briefing, Palace Press Officer…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-11-03T08:33:57.730Z",
+      "firstSeen": "2026-11-03T08:00:57.557Z",
+      "url": "https://newsinfo.inquirer.net/2335435/palace-wants-budget-watchdogs-to-scrutinize-2027-budget-red-flags",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/PCO-Undersecretary-Claire-Castro.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Malacañang on Tuesday urged budget watchdogs to report any “red flags” they uncover in the proposed P7.2-trillion national budget for 2027. At a briefing, Palace Press Officer Claire Castro said President Ferdinand Marcos Jr. would take note of any alleged anomalies flagged by groups reviewing the proposed budget. READ: House to consult budget watchdogs “Sa"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-h6auip",
       "source": "inqg",
       "title": "New York reports first measles-related death in 30 years",
       "summary": "NEW YORK &#8212; A child in New York died after contracting measles, marking the state&#8217;s first death linked to the disease in 30 years, authorities said on Monday. The child died in Lewis…",
       "byline": "dlejano",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-03T08:31:06.814Z",
+      "published": "2026-11-03T08:33:55.787Z",
       "firstSeen": "2026-11-03T07:01:13.572Z",
       "url": "https://globalnation.inquirer.net/345437/new-york-reports-first-measles-related-death-in-30-years",
       "image": {
@@ -834,7 +834,7 @@
       "summary": "SAN ILDEFONSO, Ilocos Sur—Parts of Ilocos Norte will experience a six-hour power supply interruption on Sunday, November 8, as the National Grid Corporation of the Philippines (NGCP) conducts…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:31:03.157Z",
+      "published": "2026-11-03T08:33:53.879Z",
       "firstSeen": "2026-11-03T08:31:03.157Z",
       "url": "https://newsinfo.inquirer.net/2335444/6-hour-power-outage-set-in-parts-of-ilocos-norte-on-november-8",
       "image": {
@@ -859,7 +859,7 @@
       "summary": "MANILA, Philippines — Defense Secretary Gilberto Teodoro Jr. on Tuesday rejected China&#8217;s accusation that he had sabotaged joint oil and gas exploration talks with Beijing, saying former…",
       "byline": "postie",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-03T08:31:01.409Z",
+      "published": "2026-11-03T08:33:52.180Z",
       "firstSeen": "2026-11-03T07:01:13.522Z",
       "url": "https://globalnation.inquirer.net/345418/teodoro-ex-president-duterte-ended-oil-talks-with-china-not-me",
       "image": {
@@ -884,7 +884,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — The Mimaropa police recorded zero crime incidents across the provinces of Occidental and Oriental Mindoro, Marinduque, Romblon, and Palawan during the observance of…",
       "byline": "jbarrion",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:30:58.341Z",
+      "published": "2026-11-03T08:33:50.386Z",
       "firstSeen": "2026-11-03T08:30:58.341Z",
       "url": "https://newsinfo.inquirer.net/2335441/mimaropa-police-logs-zero-crime-incidents-during-undas",
       "image": {
@@ -909,7 +909,7 @@
       "summary": "Ethiopia&#8217;s economy is growing strongly. The International Monetary Fund (IMF) forecasts real growth of 9.2% for the 2025–26 fiscal year. But renewed fighting in the north, high reconstruction…",
       "byline": "dlejano",
       "section": "Africa",
-      "published": "2026-11-03T08:30:56.235Z",
+      "published": "2026-11-03T08:33:44.923Z",
       "firstSeen": "2026-11-03T07:30:59.613Z",
       "url": "https://globalnation.inquirer.net/345348/will-renewed-conflict-derail-ethiopias-economic-growth",
       "image": {
@@ -928,13 +928,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1eoj33s",
+      "source": "inqn",
+      "title": "W. Visayas workers to get up to P45 daily wage hike starting Nov. 19",
+      "summary": "MANILA, Philippines—Minimum wage earners in Western Visayas will receive daily pay increases of up to P45 starting Nov. 19, following the approval of a new wage order by the Department of Labor and…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-03T08:33:44.922Z",
+      "firstSeen": "2026-11-03T08:30:54.210Z",
+      "url": "https://newsinfo.inquirer.net/2335448/w-visayas-workers-to-get-up-to-p45-daily-wage-hike-starting-nov-19",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/07/inflation-wage-hike-price-hike.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—Minimum wage earners in Western Visayas will receive daily pay increases of up to P45 starting Nov. 19, following the approval of a new wage order by the Department of Labor and Employment. Labor Secretary Francis Tolentino on Tuesday said that the National Wages and Productivity Commission (NWPC) approved Wage Order No. VI-30 following"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1bsgja",
       "source": "inqn",
       "title": "Defenseless defense: Ridon says VP camp insisting on wrong arguments",
       "summary": "MANILA, Philippines — Bicol Saro party-list Rep. Terry Ridon has criticized Vice President Sara Duterte’s camp for continuing to use what he described as disproven arguments in responding to the…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:30:56.158Z",
+      "published": "2026-11-03T08:33:44.922Z",
       "firstSeen": "2026-11-03T08:30:56.158Z",
       "url": "https://newsinfo.inquirer.net/2335461/defenseless-defense-ridon-says-vp-camp-insisting-on-wrong-arguments",
       "image": {
@@ -959,7 +984,7 @@
       "summary": "President Donald Trump&#8217;s administration has gutted US climate policy. Yet, even as wildfires, record heat waves and flooding hit communities across the country, Democrats are keeping quiet…",
       "byline": "dlejano",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-03T08:30:54.212Z",
+      "published": "2026-11-03T08:33:44.922Z",
       "firstSeen": "2026-11-03T08:00:57.635Z",
       "url": "https://globalnation.inquirer.net/345354/for-us-democrats-climate-policy-is-now-about-energy-bills",
       "image": {
@@ -978,23 +1003,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1eoj33s",
+      "id": "inqn-1khkfgd",
       "source": "inqn",
-      "title": "W. Visayas workers to get up to P45 daily wage hike starting Nov. 19",
-      "summary": "MANILA, Philippines—Minimum wage earners in Western Visayas will receive daily pay increases of up to P45 starting Nov. 19, following the approval of a new wage order by the Department of Labor and…",
-      "byline": "ggaviola",
+      "title": "Couple stabbed by son while asleep in Zamboanga City",
+      "summary": "PAGADIAN CITY, Zamboanga del Sur &#8212; A 52-year-old man and his 51-year-old wife were rushed to the hospital after they were allegedly stabbed by their own son while asleep in their residence at…",
+      "byline": "jcristobal",
       "section": "Latest News Stories",
-      "published": "2026-11-03T08:30:54.210Z",
-      "firstSeen": "2026-11-03T08:30:54.210Z",
-      "url": "https://newsinfo.inquirer.net/2335448/w-visayas-workers-to-get-up-to-p45-daily-wage-hike-starting-nov-19",
+      "published": "2026-11-03T08:33:44.878Z",
+      "firstSeen": "2026-11-03T08:30:54.157Z",
+      "url": "https://newsinfo.inquirer.net/2335464/couple-stabbed-by-son-while-asleep-in-zamboanga-city",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/07/inflation-wage-hike-price-hike.jpeg",
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Zamboanga-City-map-filephoto-091422.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines—Minimum wage earners in Western Visayas will receive daily pay increases of up to P45 starting Nov. 19, following the approval of a new wage order by the Department of Labor and Employment. Labor Secretary Francis Tolentino on Tuesday said that the National Wages and Productivity Commission (NWPC) approved Wage Order No. VI-30 following"
+          "text": "PAGADIAN CITY, Zamboanga del Sur &#8212; A 52-year-old man and his 51-year-old wife were rushed to the hospital after they were allegedly stabbed by their own son while asleep in their residence at Purok 6, Star Apple Drive, Barangay Sangali, Zamboanga City early Monday morning, Nov. 2. The Zamboanga City Police Station 3 (ZCPS3) identified"
         }
       ],
       "truncated": true,
@@ -1009,7 +1034,7 @@
       "summary": "South Africa and Rwanda are set to be removed from a US trade initiative that has provided duty-free access to the US market for thousands of products from sub-Saharan African countries for 26 years.…",
       "byline": "dlejano",
       "section": "Africa",
-      "published": "2026-11-03T08:30:54.157Z",
+      "published": "2026-11-03T08:33:44.878Z",
       "firstSeen": "2026-11-03T08:00:57.557Z",
       "url": "https://globalnation.inquirer.net/345360/us-to-drop-south-africa-rwanda-from-agoa-duty-free-trade-initiative",
       "image": {
@@ -1028,29 +1053,26 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-1khkfgd",
-      "source": "inqn",
-      "title": "Couple stabbed by son while asleep in Zamboanga City",
-      "summary": "PAGADIAN CITY, Zamboanga del Sur &#8212; A 52-year-old man and his 51-year-old wife were rushed to the hospital after they were allegedly stabbed by their own son while asleep in their residence at…",
-      "byline": "jcristobal",
-      "section": "Latest News Stories",
-      "published": "2026-11-03T08:30:54.157Z",
-      "firstSeen": "2026-11-03T08:30:54.157Z",
-      "url": "https://newsinfo.inquirer.net/2335464/couple-stabbed-by-son-while-asleep-in-zamboanga-city",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Zamboanga-City-map-filephoto-091422.jpg",
-        "caption": ""
-      },
+      "id": "abs-1bzyekj",
+      "source": "abs",
+      "title": "Arresting Bato dela Rosa a challenge for DILG, police to fulfill mandate — Palace",
+      "summary": "Arresting Sen. Ronald \"Bato\" dela Rosa is a challenge to the Department of the Interior and Local Government and the Philippine National Police to fulfill their law enforcement mandate, the Palace…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-03T08:30:33.000Z",
+      "firstSeen": "2026-11-03T08:33:44.878Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/3/arresting-bato-a-challenge-for-dilg-police-to-fulfill-mandate-palace-1630",
+      "image": null,
       "blocks": [
         {
           "type": "p",
-          "text": "PAGADIAN CITY, Zamboanga del Sur &#8212; A 52-year-old man and his 51-year-old wife were rushed to the hospital after they were allegedly stabbed by their own son while asleep in their residence at Purok 6, Star Apple Drive, Barangay Sangali, Zamboanga City early Monday morning, Nov. 2. The Zamboanga City Police Station 3 (ZCPS3) identified"
+          "text": "Arresting Sen. Ronald \"Bato\" dela Rosa is a challenge to the Department of the Interior and Local Government and the Philippine National Police to fulfill their law enforcement mandate, the Palace said."
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "abs-x5ygx",
@@ -1141,7 +1163,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-epkcae",
@@ -1233,70 +1255,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "grd-1w95n0y",
-      "source": "grd",
-      "title": "Virgin Media O2 to cut thousands of jobs as it plans £800m cost savings",
-      "summary": "<p>Up to 25% of 16,000 workforce could go as telecoms group says it will increase use of AI in areas including customer service</p><ul><li><p><a…",
-      "byline": "Mark Sweney",
-      "section": "Telecommunications industry",
-      "published": "2026-11-03T08:21:45.000Z",
-      "firstSeen": "2026-11-03T08:30:54.203Z",
-      "url": "https://www.theguardian.com/business/2026/nov/03/virgin-media-o2-cut-jobs-cost-savings-telecoms-ai",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/a3edf1abc574582e2da993fd428b4934608d484a/315_0_2952_2362/master/2952.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=d8e806f40b358115bc0e1a974c7bd720",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Virgin Media O2 is to cut thousands of jobs in an £800m cost-cutting drive as the telecommunications company aims to tackle its £22bn debt pile."
-        },
-        {
-          "type": "p",
-          "text": "VMO2, which is jointly owned by Liberty Global and Telefónica, said £300m of the savings target will come from job cuts that will reduce the company’s employee wage bill by 30% over the next two years."
-        },
-        {
-          "type": "p",
-          "text": "The company did not specify how many jobs this will equate to, but it could be as many as 25% of its 16,000 workforce."
-        },
-        {
-          "type": "p",
-          "text": "The company, which said that most of the job losses will come from non-customer facing roles, said it intends to increase the use of AI tools in areas including customer service, network planning and fault management."
-        },
-        {
-          "type": "p",
-          "text": "“While we will give a fuller update on the new strategic plan in the coming months, we are already progressing and making difficult decisions to prioritise investments and reduce costs which includes the size of our workforce,” said the VMO2 chief executive, Lutz Schüler."
-        },
-        {
-          "type": "p",
-          "text": "“Standing still and doing what we’ve always done is not an option and while many of these decisions are tough, they are necessary for our future success and growth. Virgin Media O2 must evolve, and the action needed to make that happen starts now.”"
-        },
-        {
-          "type": "p",
-          "text": "The cost-cutting plans, which will save £800m annually by 2029, also include making savings by reducing the use of contractors and reviewing suppliers and supply chain contracts."
-        },
-        {
-          "type": "p",
-          "text": "VMO2 has also moved to reduce capital expenditure by halting investment in upgrading its network to full fibre, which is 50% complete, beyond existing commitments it has with partners."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "The company said it is exploring wholesale deals to expand its services in areas its network does not cover, confirming reports that it is close to a deal with BT’s Openreach to extend its footprint from 19m to potentially 25m homes."
-        },
-        {
-          "type": "p",
-          "text": "“The direction we’re setting today paves the way for the next chapter of Virgin Media O2: a company that will be leaner, clearer on priorities and faster in delivery,” Schuler said."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "inq-j39u0o",
@@ -2165,7 +2123,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-x7qysl",
@@ -2212,7 +2170,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-tqlt3x",
@@ -2500,7 +2458,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-1f16ks8",
@@ -4797,6 +4755,94 @@
         {
           "type": "p",
           "text": "Meanwhile, Senator Panfilo Lacson said the majority bloc is supporting efforts to remove questionable allocations from the proposed 2027 budget and ensure transparency in the budget-making process. — BAP, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1ng8ry1",
+      "source": "grd",
+      "title": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
+      "summary": "<p>Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings</p><p>A senior crown prosecutor acting in a high court case cited…",
+      "byline": "Robert Booth UK technology editor",
+      "section": "AI (artificial intelligence)",
+      "published": "2026-11-03T06:00:40.000Z",
+      "firstSeen": "2026-11-03T08:33:44.878Z",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/00c1de4ba03f6807582e6a7932fadc08aaf73c71/676_0_6659_5331/master/6659.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=cbc5910c6d63554f48d67327411258dc",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in an error that has sparked fresh concerns about AI hallucinations infecting the justice system."
+        },
+        {
+          "type": "p",
+          "text": "Ravinder Dhillon, representing the Crown Prosecution Service (CPS), referenced an entirely made-up case during a dispute over whether a child should be prosecuted for the rape of his younger sister, court documents have revealed."
+        },
+        {
+          "type": "p",
+          "text": "Her explanation for how the nonexistent case came to be relied on has been called “unsatisfactory” by two senior high court judges and a “serious failure” by an expert in AI and law. The Guardian understands the reference came from an AI response generated during an internet search."
+        },
+        {
+          "type": "p",
+          "text": "The case adds to dozens of others where AI-related errors have plagued court proceedings this year, mostly from people who are not legally qualified representing themselves, and often in employment tribunal cases."
+        },
+        {
+          "type": "p",
+          "text": "It is only the second known case involving the CPS – the main public agency bringing criminal prosecutions in England and Wales – which admitted in February that one of its lawyers acting in an extradition case involving two Romanians convicted of minor offences cited nonexistent legal authorities, likely caused by AI. Those made-up cases were only spotted when opposition lawyers could find no trace of them and the CPS concluded “the risk of recurrence was low”."
+        },
+        {
+          "type": "p",
+          "text": "In the latest case, lawyers for the boy, who was 11 at the time of the alleged rape of his seven-year-old sister, were challenging the CPS’s decision to prosecute him. They alleged prosecutors had failed to take into account representations from social workers, youth workers and a forensic psychologist. Dhillon, a senior crown prosecutor in the CPS’s rape and serious sexual offences unit, was arguing in favour of the prosecution of the child and submitted a detailed reference to a case she called CPS – R v J [2024] EWCA Crim 3529. It turned out not to exist."
+        },
+        {
+          "type": "p",
+          "text": "The decision to proceed was taken by Dhillon in April and confirmed by the chief crown prosecutor. Then in October Dhillon admitted that the nonexistent citation had been made in error. She said she had been referring to a completely different decision – this time a real one – that was made 15 years earlier."
+        },
+        {
+          "type": "p",
+          "text": "“This was used as a legal source to argue for the prosecution of a child and that legal source doesn’t exist: that’s a serious failure,” said Brian Flanagan, associate professor of law at Maynooth University in Ireland who investigates the use of AI by judges. “It calls into question norms of trust in the law where we treat authorities as precious things. You can’t make them up; it’s out of bounds. AI increases the risk that is going to happen because of the time you can save. It is not great for any professional to do this, but when the professional is working for the state it takes on a different aspect, because the power of the state is immense.”"
+        },
+        {
+          "type": "p",
+          "text": "The high court said the CPS’s reference to a fictitious case did not affect the outcome of the boy’s challenge to the decision to continue with his prosecution, which is listed to go to trial in the youth courts later this week."
+        },
+        {
+          "type": "p",
+          "text": "In June 2025, the high court responded to AI hallucinations in cases spanning housing to banking, by calling on the Bar Council and the Law Society to consider steps to curb the problem “as a matter of urgency”. Dame Victoria Sharp, then president of the King’s bench division, warned of “serious implications for the administration of justice and public confidence in the justice system if artificial intelligence is misused” and said lawyers misusing AI could face sanctions, from public admonishment to contempt of court proceedings and referral to the police."
+        },
+        {
+          "type": "p",
+          "text": "Asked for comment, the CPS said it has a strict AI policy “which limits its use so that it is not used to make legal decisions and there must be human checks for accuracy”."
+        },
+        {
+          "type": "p",
+          "text": "A spokesperson said the CPS “identified an error had occurred from conducting legal research using the internet”."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "“As soon as this error was identified, it was remedied and an internal review was carried out to establish how this had occurred and to check that no other cases have been affected,” they said. “Following the rapid review we shared learnings, including that case law must be cited from trusted legal sources.”"
+        },
+        {
+          "type": "p",
+          "text": "It is understood the internet search delivered an AI summary which contained the fictional case details."
+        },
+        {
+          "type": "p",
+          "text": "The latest incident brings to 101 the number of entries in a UK tracker maintained by Doughty Street Chambers barrister Matthew Lee covering confirmed, suspected and disputed AI-related errors, as well as related false citations. He said the cases identified may be the “tip of the iceberg”, as many lower court decisions are never published."
+        },
+        {
+          "type": "p",
+          "text": "He added there are privacy and confidentiality risks associated with the CPS using AI, given the highly sensitive information it handles, and warned that AI was creating additional work for barristers, who need to spend time checking the authenticity of legal authorities appearing in case papers where AI may have been used in their preparation."
         }
       ],
       "truncated": false,
@@ -14274,28 +14320,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-5pqkgt",
-      "source": "abs",
-      "title": "Sigabo: Papa Love, nagbigay-linaw sa problema nina Gabo at Gloria | Episode 96",
-      "summary": "WATCH: Papa Love, nilinaw ang pinagmulan ng problema nina Gabo at Gloria | Sigabo",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-02T14:11:30.000Z",
-      "firstSeen": "2026-11-02T14:31:08.281Z",
-      "url": "https://www.abs-cbn.com/entertainment/studios/tv/2026/11/2/sigabo-papa-love-nagbigay-linaw-sa-problema-nina-gabo-at-gloria-episode-96-2211",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "WATCH: Papa Love, nilinaw ang pinagmulan ng problema nina Gabo at Gloria | Sigabo"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "rap-jh6dei",
