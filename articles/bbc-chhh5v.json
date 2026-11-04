@@ -3,7 +3,7 @@
   "source": "bbc",
   "title": "South Carolina elects Democratic senator for first time in almost three decades",
   "summary": "Annie Andrews is projected to defeat Darline Graham, who was handpicked by President Trump to take her brother's seat after his death.",
-  "byline": "",
+  "byline": "Brandon Drenon",
   "section": "",
   "published": "2026-11-04T03:24:34.000Z",
   "firstSeen": "2026-11-04T05:00:59.871Z",
@@ -15,11 +15,22 @@
   "blocks": [
     {
       "type": "p",
-      "text": "Annie Andrews is projected to defeat Darline Graham, who was handpicked by President Trump to take her brother's seat after his death."
+      "text": "Republican South Carolina Senate candidate Darline Graham is projected to have lost her race, handing Democrats their first victory in the state for 28 years."
+    },
+    {
+      "type": "p",
+      "text": "Democrat Annie Andrews, a former paediatrician, was on course to pull off a stunning upset in Tuesday's midterm elections, according to the BBC's US partner CBS."
+    },
+    {
+      "type": "p",
+      "text": "Graham was appointed to fill the seat in July after the sudden death of her brother, Senator Lindsey Graham, a move that won support from President Donald Trump."
+    },
+    {
+      "type": "p",
+      "text": "A political newcomer, she conceded during the primary that she was \"not that informed on national security\"."
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct returned no extractable article text"
+  "source_of_text": "page"
 }
