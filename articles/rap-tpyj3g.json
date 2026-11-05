@@ -1,0 +1,74 @@
+{
+  "id": "rap-tpyj3g",
+  "source": "rap",
+  "title": "Tencent rolls out AI model trained with limited cybersecurity data amid hacking fears",
+  "summary": "Tencent said it restricted the Hy4 AI model's cybersecurity training to defensive uses, such as identifying software flaws and helping fix them",
+  "byline": "Reuters",
+  "section": "Technology",
+  "published": "2026-11-05T02:22:48.000Z",
+  "firstSeen": "2026-11-05T02:31:00.863Z",
+  "url": "https://www.rappler.com/technology/tencent-hy4-ai-model-trained-limited-cybersecurity-data/",
+  "image": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "TENCENT. The Tencent logo is seen in this illustration taken February 16, 2025."
+    },
+    {
+      "type": "p",
+      "text": "Dado Ruvic/Reuters"
+    },
+    {
+      "type": "p",
+      "text": "Tencent said it restricted the Hy4 AI model's cybersecurity training to defensive uses, such as identifying software flaws and helping fix them"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Tencent released Hy4, an AI model designed with limitations to prevent misuse in cyberattacks and harmful biological research.",
+        "The model's training focuses on defensive cybersecurity measures, excluding content related to hacking tools and system vulnerabilities.",
+        "Tencent emphasizes its commitment to responsible AI development and plans to release safety testing reports alongside the model weights."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This is AI-generated. Read the article for full context. Report any errors."
+    },
+    {
+      "type": "p",
+      "text": "Chinese tech giant Tencent on Wednesday, November 4, released Hy4, a new AI model it said was designed with limits intended to reduce the risk that it could be used for cyberattacks or harmful biological research."
+    },
+    {
+      "type": "p",
+      "text": "Tencent said it restricted the model’s cybersecurity training to defensive uses, such as identifying software flaws and helping fix them. It excluded material on building hacking tools, breaking into systems and testing systems for weaknesses."
+    },
+    {
+      "type": "p",
+      "text": "The Shenzhen-based company and developer of WeChat, China’s most popular app with over ⁠1 billion monthly active users, said internal security specialists tested Hy4 and found no sign that it posed higher risks in helping users break into software or bypass security protections. Tencent also said its testing found that the model was not capable of meaningfully making harmful biological experiments easier to carry out."
+    },
+    {
+      "type": "p",
+      "text": "The release comes at a time of surging global concern over AI-powered hacking and follows Tencent’s disclosure last month that AI agents it used to test third-party models displayed unintended web-browsing behavior. Researchers said agents linked to Tencent Cloud had sought information from Alibaba’s Amap service."
+    },
+    {
+      "type": "p",
+      "text": "Tencent said the activity did not come from its Hunyuan models, and that its review found no evidence of deliberate targeting or coordination, while vowing to strengthen controls over agents’ internet access and monitoring."
+    },
+    {
+      "type": "p",
+      "text": "Despite cutthroat domestic competition and an intensifying rivalry with the US, Chinese AI firms have in recent months shown signs of investing more in model safety. Beijing-based Moonshot AI last month limited its newest model’s cyber-offensive capabilities."
+    },
+    {
+      "type": "p",
+      "text": "Tencent said it plans to release its model weights later along with a report describing its safety testing."
+    },
+    {
+      "type": "p",
+      "text": "“We recognize the potential safety risks posed by advanced cyber and biological capabilities, and we are committed to a more responsible approach to model training, open-sourcing, and release,” Tencent said. – Rappler.com"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
