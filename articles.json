@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-07T22:58:45.341Z",
+  "updated": "2026-11-07T23:01:25.874Z",
   "sources": [
     {
       "id": "inq",
@@ -59,7 +59,7 @@
       "summary": "MANILA, Philippines – Education Secretary Sonny Angara urged technology and social media companies to strengthen age-verification measures and remove online content that promotes violence, as the…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-07T22:58:32.735Z",
+      "published": "2026-11-07T23:01:13.263Z",
       "firstSeen": "2026-11-07T15:30:53.329Z",
       "url": "https://newsinfo.inquirer.net/2337746/angara-pushes-stronger-online-safeguards-as-school-shootings-raise-alarm",
       "image": {
@@ -84,7 +84,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — Around 1,000 scholarship slots have been validated and evaluated in the Mimaropa (Mindoro Occidental and Oriental, Marinduque, Romblon, Palawan) region under the…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-07T22:58:31.028Z",
+      "published": "2026-11-07T23:01:11.511Z",
       "firstSeen": "2026-11-07T15:30:53.328Z",
       "url": "https://newsinfo.inquirer.net/2337749/1000-initial-college-scholarship-slots-validated-for-mimaropa",
       "image": {
@@ -103,38 +103,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1863a7o",
-      "source": "inqn",
-      "title": "Court orders arrest of ex-radioman in Bukidnon for cyberlibel",
-      "summary": "CAGAYAN DE ORO CITY — A former radio personality is refusing to back down after a Bukidnon court ordered his arrest for cyber libel, claiming the charges are direct retaliation for his outspoken…",
-      "byline": "jvicente",
-      "section": "Latest News Stories",
-      "published": "2026-11-07T22:58:30.935Z",
-      "firstSeen": "2026-11-07T16:30:55.208Z",
-      "url": "https://newsinfo.inquirer.net/2337778/court-orders-arrest-of-ex-radioman-in-bukidnon-for-cyberlibel",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/1000010990.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CAGAYAN DE ORO CITY — A former radio personality is refusing to back down after a Bukidnon court ordered his arrest for cyber libel, claiming the charges are direct retaliation for his outspoken advocacy. Rodel Claro, who currently works as a senior publishing and marketing consultant for a US-based company, is facing three criminal charges"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1hyjjk9",
       "source": "inqn",
       "title": "Cops seize P430,000 worth of shabu, pistol in Cotabato town",
       "summary": "KORONADAL CITY, South Cotabato — Police arrested a 43-year-old man and seized a haul of suspected shabu and a .45-caliber pistol during the implementation of a search warrant in Kabacan, Cotabato on…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-07T22:58:30.935Z",
+      "published": "2026-11-07T23:01:11.465Z",
       "firstSeen": "2026-11-07T16:30:55.208Z",
       "url": "https://newsinfo.inquirer.net/2337773/cops-seize-p430000-worth-of-shabu-pistol-in-cotabato-town",
       "image": {
@@ -153,13 +128,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1863a7o",
+      "source": "inqn",
+      "title": "Court orders arrest of ex-radioman in Bukidnon for cyberlibel",
+      "summary": "CAGAYAN DE ORO CITY — A former radio personality is refusing to back down after a Bukidnon court ordered his arrest for cyber libel, claiming the charges are direct retaliation for his outspoken…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-11-07T23:01:11.464Z",
+      "firstSeen": "2026-11-07T16:30:55.208Z",
+      "url": "https://newsinfo.inquirer.net/2337778/court-orders-arrest-of-ex-radioman-in-bukidnon-for-cyberlibel",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/1000010990.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CAGAYAN DE ORO CITY — A former radio personality is refusing to back down after a Bukidnon court ordered his arrest for cyber libel, claiming the charges are direct retaliation for his outspoken advocacy. Rodel Claro, who currently works as a senior publishing and marketing consultant for a US-based company, is facing three criminal charges"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-zfxfvy",
       "source": "inqn",
       "title": "Siblings nabbed in Butuan buy-bust; P125,000 ‘shabu’ seized",
       "summary": "SAN FRANCISCO, Agusan del Sur— Police arrested two siblings tagged as &#8220;high-value individuals&#8221; and seized more than P125,000 worth of suspected crystal meth, locally known as…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-07T22:58:29.294Z",
+      "published": "2026-11-07T23:01:09.780Z",
       "firstSeen": "2026-11-07T17:30:52.882Z",
       "url": "https://newsinfo.inquirer.net/2337792/siblings-nabbed-in-butuan-buy-bust-p125000-shabu-seized",
       "image": {
@@ -184,7 +184,7 @@
       "summary": "COTABATO CITY – The preparation of the 2027 expenditure program as well as refinements in a proposed revenue code for the region topped the agenda of the first meeting of the Bangsamoro Cabinet on…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-07T22:58:29.294Z",
+      "published": "2026-11-07T23:01:09.780Z",
       "firstSeen": "2026-11-07T17:30:56.025Z",
       "url": "https://newsinfo.inquirer.net/2337790/spending-program-revenue-code-top-agenda-in-first-barmm-cabinet-meeting",
       "image": {
@@ -209,7 +209,7 @@
       "summary": "CAGAYAN DE ORO CITY — Mayor Rolando Uy has canceled City Hall&#8217;s 2026 year-end party, shifting the local government&#8217;s resources from holiday festivities to survival measures ahead of the…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-07T22:58:29.135Z",
+      "published": "2026-11-07T23:01:09.664Z",
       "firstSeen": "2026-11-07T18:01:02.957Z",
       "url": "https://newsinfo.inquirer.net/2337812/cagayan-de-oro-scraps-year-end-revelry-to-build-super-el-nino-resilience",
       "image": {
@@ -234,7 +234,7 @@
       "summary": "CAGAYAN DE ORO CITY — Authorities swooped down on a suspected illegal mining operation masquerading as a quarry in the hinterlands of this city before dawn on Friday, November 6, seizing some P45…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-07T22:58:29.135Z",
+      "published": "2026-11-07T23:01:09.664Z",
       "firstSeen": "2026-11-07T18:01:02.957Z",
       "url": "https://newsinfo.inquirer.net/2337807/cops-mgb-personnel-seize-p45-m-gear-of-chinese-backed-illegal-mine",
       "image": {
@@ -259,7 +259,7 @@
       "summary": "KORONADAL CITY, South Cotabato — Some 16 local government units in Soccsksargen or Region 12 have received a total of P520 million in national government assistance to help rebuild communities…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-07T22:58:29.135Z",
+      "published": "2026-11-07T23:01:09.664Z",
       "firstSeen": "2026-11-07T17:30:52.226Z",
       "url": "https://newsinfo.inquirer.net/2337805/16-local-governments-in-soccsksargen-get-p520m-for-quake-recovery",
       "image": {
@@ -284,7 +284,7 @@
       "summary": "BACOLOD CITY – The Negros First CyberCentre here is following into the footsteps of an increasing number of establishments in the country seeking green options as it officially transitions to clean…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-07T22:58:29.135Z",
+      "published": "2026-11-07T23:01:09.664Z",
       "firstSeen": "2026-11-07T17:30:52.267Z",
       "url": "https://newsinfo.inquirer.net/2337795/negros-first-cybercentre-goes-solar",
       "image": {
@@ -309,7 +309,7 @@
       "summary": "Nov. 9, 1965 The province of Samar was divided into three separate provinces—Northern Samar, Eastern Samar and Western Samar (subsequently named Samar)—through a plebiscite which ratified Republic…",
       "byline": "jvicente",
       "section": "Headlines",
-      "published": "2026-11-07T22:58:27.378Z",
+      "published": "2026-11-07T23:01:07.899Z",
       "firstSeen": "2026-11-07T21:31:07.549Z",
       "url": "https://newsinfo.inquirer.net/2337735/this-weeks-milestones-nov-8-to-nov-14",
       "image": {
@@ -334,7 +334,7 @@
       "summary": "BACOLOD CITY — The cannons roared, wooden rifles were raised, and &#8220;revolutionaries&#8221; marched through the streets of Bago City, bringing to life a daring episode in Negros Occidental’s…",
       "byline": "jvicente",
       "section": "Headlines",
-      "published": "2026-11-07T22:58:27.337Z",
+      "published": "2026-11-07T23:01:06.107Z",
       "firstSeen": "2026-11-07T21:31:05.748Z",
       "url": "https://newsinfo.inquirer.net/2337734/great-bluff-true-courage-negros-honors-its-heroes",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "The Bureau of Immigration (BI) arrested a 27-year-old Taiwanese national accused of leading a syndicate in Manila that allegedly defrauded more than 200 Taiwanese of over P200 million. Yu Sheng Fu…",
       "byline": "jvicente",
       "section": "Headlines",
-      "published": "2026-11-07T22:58:27.337Z",
+      "published": "2026-11-07T23:01:06.107Z",
       "firstSeen": "2026-11-07T21:30:56.747Z",
       "url": "https://globalnation.inquirer.net/346199/taiwanese-fraud-suspect-nabbed",
       "image": {
@@ -384,7 +384,7 @@
       "summary": "The Department of Education (DepEd) has issued guidelines for the distribution of more than 231,000 laptops to public school teachers ahead of a nationwide rollout on Monday. “We want to ensure these…",
       "byline": "jvicente",
       "section": "Headlines",
-      "published": "2026-11-07T22:58:23.770Z",
+      "published": "2026-11-07T23:01:04.298Z",
       "firstSeen": "2026-11-07T21:31:05.748Z",
       "url": "https://newsinfo.inquirer.net/2337759/teachers-without-laptops-top-priority-in-deped-rollout",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "More than 2,600 suspects have been repatriated through joint Philippine-Chinese law enforcement efforts since 2023, Beijing said following the deportation of 115 Chinese arrested last month for…",
       "byline": "jvicente",
       "section": "Headlines",
-      "published": "2026-11-07T22:58:23.770Z",
+      "published": "2026-11-07T23:01:04.298Z",
       "firstSeen": "2026-11-07T22:00:54.502Z",
       "url": "https://globalnation.inquirer.net/346200/china-cites-ph-help-in-pogo-scam-hub-arrests",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "Some of the business, labor and civil society organizations that earlier warned the Philippines would suffer more than China if bilateral relations deteriorated further said on Saturday that they…",
       "byline": "jvicente",
       "section": "Headlines",
-      "published": "2026-11-07T22:58:21.982Z",
+      "published": "2026-11-07T23:01:02.503Z",
       "firstSeen": "2026-11-07T22:00:54.502Z",
       "url": "https://globalnation.inquirer.net/346204/groups-back-dfas-statesmanlike-tack-on-china",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "Lawmakers have finalized the provisions of the proposed National Children’s Nutrition Act, which will establish an expanded National Children’s Nutrition Program that aims to address stunting among…",
       "byline": "jvicente",
       "section": "Headlines",
-      "published": "2026-11-07T22:58:20.185Z",
+      "published": "2026-11-07T23:01:00.713Z",
       "firstSeen": "2026-11-07T21:31:02.207Z",
       "url": "https://newsinfo.inquirer.net/2337760/lawmakers-to-pass-measure-expanding-nutrition-program",
       "image": {
@@ -478,38 +478,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-ofippx",
-      "source": "inqg",
-      "title": "No Pax Silica announcement at Asean Summit – US envoy",
-      "summary": "The American ambassador has dismissed talk that a major announcement on the US-led Pax Silica project would be made “during or after” the Association of Southeast Asian Nations (Asean) Summit, which…",
-      "byline": "jvicente",
-      "section": "Headlines",
-      "published": "2026-11-07T22:58:16.537Z",
-      "firstSeen": "2026-11-07T22:00:54.502Z",
-      "url": "https://globalnation.inquirer.net/346208/no-pax-silica-announcement-at-asean-summit-us-envoy",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/News1327675.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The American ambassador has dismissed talk that a major announcement on the US-led Pax Silica project would be made “during or after” the Association of Southeast Asian Nations (Asean) Summit, which US President Donald Trump was expected to attend later this month. “No such announcement on the Pax Silica Economic Security Zone was ever planned,”"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1o4q540",
       "source": "inqn",
       "title": "Deaf airline passenger wins in decade long discrimination case",
       "summary": "A court has fined a former AirAsia senior cabin crew member for refusing to transport deaf passenger Khalil Haj in 2017, ruling that there was no genuine safety concern to justify treating him…",
       "byline": "jvicente",
       "section": "Headlines",
-      "published": "2026-11-07T22:58:16.535Z",
+      "published": "2026-11-07T23:00:57.064Z",
       "firstSeen": "2026-11-07T21:30:56.747Z",
       "url": "https://newsinfo.inquirer.net/2337764/deaf-airline-passenger-wins-in-decade-long-discrimination-case",
       "image": {
@@ -528,23 +503,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1pgfwaf",
+      "id": "inqg-ofippx",
       "source": "inqg",
-      "title": "Trump orders Justice Department probe of Democrats seeking impeachment",
-      "summary": "WASHINGTON, United States — US President Donald Trump said Saturday he was ordering the Justice Department to examine Democratic threats to impeach members of his administration. Trump faces a…",
-      "byline": "mmercado",
-      "section": "Americas",
-      "published": "2026-11-07T22:58:16.535Z",
-      "firstSeen": "2026-11-07T22:30:53.971Z",
-      "url": "https://globalnation.inquirer.net/346221/trump-orders-justice-department-probe-of-democrats-seeking-impeachment",
+      "title": "No Pax Silica announcement at Asean Summit – US envoy",
+      "summary": "The American ambassador has dismissed talk that a major announcement on the US-led Pax Silica project would be made “during or after” the Association of Southeast Asian Nations (Asean) Summit, which…",
+      "byline": "jvicente",
+      "section": "Headlines",
+      "published": "2026-11-07T23:00:57.064Z",
+      "firstSeen": "2026-11-07T22:00:54.502Z",
+      "url": "https://globalnation.inquirer.net/346208/no-pax-silica-announcement-at-asean-summit-us-envoy",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Voters-deliver-rebuke-to-Trump-hand-Democrats-control-of-the-Senate-scaled.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/News1327675.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "WASHINGTON, United States — US President Donald Trump said Saturday he was ordering the Justice Department to examine Democratic threats to impeach members of his administration. Trump faces a radically transformed and hostile political landscape after Democrats seized both the House of Representatives and the Senate in Tuesday&#8217;s midterms. Democrats have vowed investigations into Trump and"
+          "text": "The American ambassador has dismissed talk that a major announcement on the US-led Pax Silica project would be made “during or after” the Association of Southeast Asian Nations (Asean) Summit, which US President Donald Trump was expected to attend later this month. “No such announcement on the Pax Silica Economic Security Zone was ever planned,”"
         }
       ],
       "truncated": true,
@@ -559,7 +534,7 @@
       "summary": "Original poker cards owned by former President Manuel Quezon are on display at the Quezon Memorial Shrine in Quezon City as part of an exhibit revisiting his decision to shelter Jewish refugees…",
       "byline": "jvicente",
       "section": "Headlines",
-      "published": "2026-11-07T22:58:16.534Z",
+      "published": "2026-11-07T23:00:57.063Z",
       "firstSeen": "2026-11-07T21:30:56.746Z",
       "url": "https://newsinfo.inquirer.net/2337771/quezons-gamble-ph-sheltering-jewish-refugees-recalled",
       "image": {
@@ -584,7 +559,7 @@
       "summary": "About 3 million holders of persons with disabilities (PWDs) IDs will have to enroll in the new unified digital ID system that seeks to phase out the old physical IDs in the next three years and flag…",
       "byline": "jvicente",
       "section": "Headlines",
-      "published": "2026-11-07T22:58:16.534Z",
+      "published": "2026-11-07T23:00:57.063Z",
       "firstSeen": "2026-11-07T21:30:56.747Z",
       "url": "https://newsinfo.inquirer.net/2337766/3m-pwd-id-holders-asked-to-register-anew",
       "image": {
@@ -609,7 +584,7 @@
       "summary": "WASHINGTON, United States — US President Donald Trump said Saturday he was offering a press secretary role to mixed martial arts executive and &#8220;violent fighter&#8221; Dana White. &#8220;I am…",
       "byline": "mmercado",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-07T22:58:16.534Z",
+      "published": "2026-11-07T23:00:57.063Z",
       "firstSeen": "2026-11-07T22:58:16.534Z",
       "url": "https://globalnation.inquirer.net/346228/trump-offers-press-secretary-role-to-ufc-chief-dana-white",
       "image": {
@@ -625,7 +600,54 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqg-1pgfwaf",
+      "source": "inqg",
+      "title": "Trump orders Justice Department probe of Democrats seeking impeachment",
+      "summary": "WASHINGTON, United States — US President Donald Trump said Saturday he was ordering the Justice Department to examine Democratic threats to impeach members of his administration. Trump faces a…",
+      "byline": "mmercado",
+      "section": "Americas",
+      "published": "2026-11-07T23:00:57.063Z",
+      "firstSeen": "2026-11-07T22:30:53.971Z",
+      "url": "https://globalnation.inquirer.net/346221/trump-orders-justice-department-probe-of-democrats-seeking-impeachment",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/Voters-deliver-rebuke-to-Trump-hand-Democrats-control-of-the-Senate-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "WASHINGTON, United States — US President Donald Trump said Saturday he was ordering the Justice Department to examine Democratic threats to impeach members of his administration. Trump faces a radically transformed and hostile political landscape after Democrats seized both the House of Representatives and the Senate in Tuesday&#8217;s midterms. Democrats have vowed investigations into Trump and"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-17gsb5",
+      "source": "abs",
+      "title": "Word of the Day for November 8, 2026: nahibong",
+      "summary": "A Bisaya word for “astonished.”",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-07T23:00:04.000Z",
+      "firstSeen": "2026-11-07T23:00:57.063Z",
+      "url": "https://www.abs-cbn.com/lifestyle/2026/11/8/word-of-the-day-for-november-8-2026-nahibong-0700",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A Bisaya word for “astonished.”"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "inqn-vk5aas",
@@ -697,7 +719,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-xez5hb",
@@ -889,7 +911,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqn-11teia7",
@@ -12388,7 +12410,7 @@
       "byline": "arlenelim",
       "section": "Americas",
       "published": "2026-11-07T06:46:44.000Z",
-      "firstSeen": "2026-11-06T23:01:04.568Z",
+      "firstSeen": "2026-11-07T23:01:13.263Z",
       "url": "https://globalnation.inquirer.net/346128/cornell-faculty-vote-no-confidence-in-leadership-over-alleged-gang-rape",
       "image": {
         "src": "https://globalnation.inquirer.net/files/2026/09/news-p.v1.20260927.a4112a3f93b146a68d86d90322a02211_P1.jpg",
@@ -12473,7 +12495,7 @@
       "byline": "arlenelim",
       "section": "Americas",
       "published": "2026-11-07T06:35:42.000Z",
-      "firstSeen": "2026-11-06T23:01:04.627Z",
+      "firstSeen": "2026-11-07T23:01:13.263Z",
       "url": "https://globalnation.inquirer.net/346125/paraguay-senate-impeaches-president-over-banking-crisis",
       "image": {
         "src": "https://globalnation.inquirer.net/files/2026/11/AP26309590171039.jpg",
@@ -16030,50 +16052,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-1vvvii0",
-      "source": "abs",
-      "title": "Feng shui predictions ni Master Hanz Cua para sa Nobyembre 7, 2026",
-      "summary": "Sa pang-araw-araw na seryeng ito, ibabahagi ni Master Hanz Cua ang kanyang feng shui predictions kung paano ka magiging maswerte pagdating sa pag-ibig, kalusugan, karera, at pera. Ibibigay niya ang…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-06T23:00:04.000Z",
-      "firstSeen": "2026-11-06T23:01:04.568Z",
-      "url": "https://www.abs-cbn.com/lifestyle/2026/11/7/feng-shui-predictions-ni-master-hanz-cua-para-sa-nobyembre-7-2026-0700",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Sa pang-araw-araw na seryeng ito, ibabahagi ni Master Hanz Cua ang kanyang feng shui predictions kung paano ka magiging maswerte pagdating sa pag-ibig, kalusugan, karera, at pera. Ibibigay niya ang mga detalye tulad ng iyong lucky time, direction, color, at number."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1oj0vi3",
-      "source": "abs",
-      "title": "Word of the Day for November 7, 2026: meme",
-      "summary": "A humorous or relatable image, piece of text, video, or other piece of content shared widely online.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-06T23:00:03.000Z",
-      "firstSeen": "2026-11-06T23:01:04.629Z",
-      "url": "https://www.abs-cbn.com/lifestyle/2026/11/7/word-of-the-day-for-november-7-2026-meme-0700",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A humorous or relatable image, piece of text, video, or other piece of content shared widely online."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "grd-1yvhsez",
       "source": "grd",
       "title": "Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52",
@@ -16920,28 +16898,6 @@
         {
           "type": "p",
           "text": "Televisions (TVs ) may still be used even after the National Telecommunications Commission (NTC) shuts down analog broadcasting."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1qjjq6d",
-      "source": "abs",
-      "title": "America Ferrera on Why 'The Cat in the Hat' is a Classic Worth Revisiting",
-      "summary": "\"The Cat in the Hat\" leaps beyond the pages and onto the big screen, reimagined as an animated motion picture that gives a whole new dimension to a story generations have grown up with.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-06T15:45:43.000Z",
-      "firstSeen": "2026-11-07T16:31:06.063Z",
-      "url": "https://www.abs-cbn.com/people/2026/11/6/interview-america-ferrera-on-why-the-cat-in-the-hat-is-a-classic-worth-revisiting-2200",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "\"The Cat in the Hat\" leaps beyond the pages and onto the big screen, reimagined as an animated motion picture that gives a whole new dimension to a story generations have grown up with."
         }
       ],
       "truncated": true,
