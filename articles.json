@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-08T20:31:07.842Z",
+  "updated": "2026-11-08T20:45:38.119Z",
   "sources": [
     {
       "id": "inq",
@@ -59,7 +59,7 @@
       "summary": "MANILA, Philippines &#8211; The House impeachment trial prosecution panel believes Vice President Sara Z. Duterte’s lawyers may argue that she was unaware of certain bank accounts and financial…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-08T20:31:02.398Z",
+      "published": "2026-11-08T20:45:21.991Z",
       "firstSeen": "2026-11-08T13:30:54.209Z",
       "url": "https://newsinfo.inquirer.net/2338100/prosecution-sees-vps-possible-i-didnt-know-defense-on-bank-accounts",
       "image": {
@@ -84,7 +84,7 @@
       "summary": "MANILA, Philippines &#8211; The House prosecution panel over the weekend said Vice President Sara Z. Duterte’s lawyers failed to challenge the authenticity of key financial records during the…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-08T20:31:02.382Z",
+      "published": "2026-11-08T20:45:21.843Z",
       "firstSeen": "2026-11-08T14:00:59.010Z",
       "url": "https://newsinfo.inquirer.net/2338102/vps-lawyers-didnt-dispute-authenticity-of-financial-records-prosecution",
       "image": {
@@ -109,7 +109,7 @@
       "summary": "MANILA, Philippines &#8211; Counsel for the House prosecution panel Atty. Lorna Kapunan has questioned how Cale88 Foods Corp. organized its banana-chip export operations, pointing to workforce…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-08T20:31:02.362Z",
+      "published": "2026-11-08T20:45:16.831Z",
       "firstSeen": "2026-11-08T14:00:57.182Z",
       "url": "https://newsinfo.inquirer.net/2338107/private-prosecutor-kapunan-questions-cale88-production-records",
       "image": {
@@ -134,7 +134,7 @@
       "summary": "MANILA, Philippines—No bettor won the ₱500.61 million Ultra Lotto 6/58 jackpot or the ₱92.85 million Super Lotto 6/49 jackpot on Sunday, Nov. 8, 2026, according to the Philippine Charity Sweepstakes…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-08T20:30:57.613Z",
+      "published": "2026-11-08T20:45:16.443Z",
       "firstSeen": "2026-11-08T14:00:57.084Z",
       "url": "https://newsinfo.inquirer.net/2338109/lotto-draw-results-on-sunday-nov-8-2026",
       "image": {
@@ -153,38 +153,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1yh5xiu",
-      "source": "inqn",
-      "title": "Typhoon Cempaka to enter PAR Monday, briefly stay before exiting Tuesday",
-      "summary": "MANILA, Philippines — Typhoon Cempaka is expected to enter the Philippine area of responsibility (PAR) on Monday morning and will get the local name Samuel, but is not expected to directly affect the…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-11-08T20:30:55.128Z",
-      "firstSeen": "2026-11-08T18:30:52.990Z",
-      "url": "https://newsinfo.inquirer.net/2338141/typhoon-cempaka-to-enter-par-monday-briefly-stay-before-exiting-tuesday",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/cempaka-nov-8-2026-2300.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Typhoon Cempaka is expected to enter the Philippine area of responsibility (PAR) on Monday morning and will get the local name Samuel, but is not expected to directly affect the country’s weather, according to the weather bureau. In its 11 p.m. advisory on Sunday, the Philippine Atmospheric, Geophysical and Astronomical Services Administration"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "inqn-10g2isa",
       "source": "inqn",
       "title": "Hontiveros: Too early to say there’s already a number for VP conviction",
       "summary": "MANILA, Philippines — It’s still premature to say that there is already a number enough to convict or acquit Vice President Sara Duterte as her impeachment trial remains ongoing, according to Sen.…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-08T20:30:55.128Z",
+      "published": "2026-11-08T20:45:14.862Z",
       "firstSeen": "2026-11-08T15:00:59.823Z",
       "url": "https://newsinfo.inquirer.net/2338114/hontiveros-too-early-to-say-theres-already-a-number-for-vp-conviction",
       "image": {
@@ -203,13 +178,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1yh5xiu",
+      "source": "inqn",
+      "title": "Typhoon Cempaka to enter PAR Monday, briefly stay before exiting Tuesday",
+      "summary": "MANILA, Philippines — Typhoon Cempaka is expected to enter the Philippine area of responsibility (PAR) on Monday morning and will get the local name Samuel, but is not expected to directly affect the…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-08T20:45:12.907Z",
+      "firstSeen": "2026-11-08T18:30:52.990Z",
+      "url": "https://newsinfo.inquirer.net/2338141/typhoon-cempaka-to-enter-par-monday-briefly-stay-before-exiting-tuesday",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/cempaka-nov-8-2026-2300.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Typhoon Cempaka is expected to enter the Philippine area of responsibility (PAR) on Monday morning and will get the local name Samuel, but is not expected to directly affect the country’s weather, according to the weather bureau. In its 11 p.m. advisory on Sunday, the Philippine Atmospheric, Geophysical and Astronomical Services Administration"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-gzy7v5",
+      "source": "inqn",
+      "title": "Bishops in Visayas, Romblon renew opposition to Boracay casino",
+      "summary": "ILOILO CITY, Philippines — Catholic Church leaders in Western Visayas and Romblon province have renewed their opposition to casino operations in Boracay, warning that gambling could undermine family…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-08T20:45:07.443Z",
+      "firstSeen": "2026-11-08T20:30:55.128Z",
+      "url": "https://newsinfo.inquirer.net/2338103/bishops-in-visayas-romblon-renew-opposition-to-boracay-casino",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Boracay-Island-9November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ILOILO CITY, Philippines — Catholic Church leaders in Western Visayas and Romblon province have renewed their opposition to casino operations in Boracay, warning that gambling could undermine family welfare and expose vulnerable communities to social and economic risks. In a joint statement made public on Sunday, the Church leaders expressed support for Kalibo Bishop Cyril"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-1injxeh",
       "source": "inqg",
       "title": "Riyadh financial district targeted, Aramco skyscraper damaged",
       "summary": "RIYADH &#8211; An Aramco building in Riyadh was targeted in an &#8220;attempted attack&#8221;, the Saudi energy ministry said on Sunday, with eyewitnesses telling AFP the skyscraper sustained damage,…",
       "byline": "ggaviola",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-08T20:30:55.128Z",
+      "published": "2026-11-08T20:45:07.443Z",
       "firstSeen": "2026-11-08T13:30:54.209Z",
       "url": "https://globalnation.inquirer.net/346321/riyadh-financial-district-targeted-aramco-skyscraper-damaged",
       "image": {
@@ -228,23 +253,148 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-gzy7v5",
+      "id": "inqn-1futh3u",
       "source": "inqn",
-      "title": "Bishops in Visayas, Romblon renew opposition to Boracay casino",
-      "summary": "ILOILO CITY, Philippines — Catholic Church leaders in Western Visayas and Romblon province have renewed their opposition to casino operations in Boracay, warning that gambling could undermine family…",
+      "title": "13 years after Yolanda, Tacloban carries lessons into every typhoon",
+      "summary": "TACLOBAN CITY, LEYTE, Philippines — For 38-year-old Marian Edano, moving forward 13 years after Super Typhoon Yolanda (international name: Haiyan) devastated this city does not mean forgetting the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-08T20:30:55.128Z",
-      "firstSeen": "2026-11-08T20:30:55.128Z",
-      "url": "https://newsinfo.inquirer.net/2338103/bishops-in-visayas-romblon-renew-opposition-to-boracay-casino",
+      "published": "2026-11-08T20:45:07.443Z",
+      "firstSeen": "2026-11-08T20:45:07.443Z",
+      "url": "https://newsinfo.inquirer.net/2338130/13-years-after-yolanda-tacloban-carries-lessons-into-every-typhoon",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Boracay-Island-9November2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2025/12/Tacloban-Yolanda-09December20252.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "ILOILO CITY, Philippines — Catholic Church leaders in Western Visayas and Romblon province have renewed their opposition to casino operations in Boracay, warning that gambling could undermine family welfare and expose vulnerable communities to social and economic risks. In a joint statement made public on Sunday, the Church leaders expressed support for Kalibo Bishop Cyril"
+          "text": "TACLOBAN CITY, LEYTE, Philippines — For 38-year-old Marian Edano, moving forward 13 years after Super Typhoon Yolanda (international name: Haiyan) devastated this city does not mean forgetting the husband and relatives she lost to the disaster. Edano lost her husband, Jesus, and several relatives when their house in Sitio Alimasag, Barangay 88, San Jose district,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-94flcv",
+      "source": "inqn",
+      "title": "LTO summons bus driver, operator in Quezon road accident",
+      "summary": "MANILA, Philippines — The Land Transportation Office (LTO) has issued a show-cause order against the driver of a passenger bus and its operator after a loose engine cover flew off and struck a…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-08T20:45:07.443Z",
+      "firstSeen": "2026-11-08T20:45:07.443Z",
+      "url": "https://newsinfo.inquirer.net/2338128/lto-summons-bus-driver-operator-in-quezon-road-accident",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/FOR-FEAT-IMAGES.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Land Transportation Office (LTO) has issued a show-cause order against the driver of a passenger bus and its operator after a loose engine cover flew off and struck a bystander on the side of the road in Atimonan, Quezon, killing the victim. In a statement on Saturday, the LTO directed the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1qggp3o",
+      "source": "inq",
+      "title": "13 years after Yolanda, Tacloban carries lessons into every typhoon",
+      "summary": "TACLOBAN CITY, LEYTE, Philippines — For 38-year-old Marian Edano, moving forward 13 years after Super Typhoon Yolanda (international name: Haiyan) devastated this city does not mean forgetting the…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-08T20:40:00.000Z",
+      "firstSeen": "2026-11-08T20:45:07.443Z",
+      "url": "https://newsinfo.inquirer.net/2338130/13-years-after-yolanda-tacloban-carries-lessons-into-every-typhoon",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/12/Tacloban-Yolanda-09December20252-620x349.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TACLOBAN CITY, LEYTE, Philippines — For 38-year-old Marian Edano, moving forward 13 years after Super Typhoon Yolanda (international name: Haiyan) devastated this city does not mean forgetting the husband and relatives she lost to the disaster. Edano lost her husband, Jesus, and several relatives when their house in Sitio Alimasag, Barangay 88, San Jose district, [&hellip;]... Keep on reading: 13 years after Yolanda, Tacloban carries lessons into every typhoon"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-7jll8x",
+      "source": "inq",
+      "title": "LTO summons bus driver, operator in Quezon road accident",
+      "summary": "MANILA, Philippines — The Land Transportation Office (LTO) has issued a show-cause order against the driver of a passenger bus and its operator after a loose engine cover flew off and struck a…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-08T20:35:00.000Z",
+      "firstSeen": "2026-11-08T20:45:07.443Z",
+      "url": "https://newsinfo.inquirer.net/2338128/lto-summons-bus-driver-operator-in-quezon-road-accident",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/FOR-FEAT-IMAGES-300x169.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Land Transportation Office (LTO) has issued a show-cause order against the driver of a passenger bus and its operator after a loose engine cover flew off and struck a bystander on the side of the road in Atimonan, Quezon, killing the victim. In a statement on Saturday, the LTO directed the [&hellip;]... Keep on reading: LTO summons bus driver, operator in Quezon road accident"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-gpgazr",
+      "source": "inq",
+      "title": "Jumamoy guts out sterling effort and Tolentino finishes the job for National U against La Salle",
+      "summary": "Reinhard Jumamoy and Paul Francisco took turns throwing haymakers at the enemy on Sunday, leading National U to an 84-80 conquest of defending champion La Salle that practically assured the Bulldogs…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-08T20:30:03.000Z",
+      "firstSeen": "2026-11-08T20:45:07.443Z",
+      "url": "https://sports.inquirer.net/706376/jumamoy-guts-out-sterling-effort-and-tolentino-finishes-the-job-for-national-u-against-la-salle",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/10/IMG_1393_UAAP-89-mens-basketball-NU-UST_Reinhard-Jumamoy-Paul-Francisco-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reinhard Jumamoy and Paul Francisco took turns throwing haymakers at the enemy on Sunday, leading National U to an 84-80 conquest of defending champion La Salle that practically assured the Bulldogs of their latest march into the Final Four of the UAAP men’s basketball tournament. Jumamoy had 14 of his 21 points and Francisco drained [&hellip;]... Keep on reading: Jumamoy guts out sterling effort and Tolentino finishes the job for National U against La Salle"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1q1s1gf",
+      "source": "inq",
+      "title": "Bishops in Visayas, Romblon renew opposition to Boracay casino",
+      "summary": "ILOILO CITY, Philippines — Catholic Church leaders in Western Visayas and Romblon province have renewed their opposition to casino operations in Boracay, warning that gambling could undermine family…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-08T20:30:00.000Z",
+      "firstSeen": "2026-11-08T20:45:07.915Z",
+      "url": "https://newsinfo.inquirer.net/2338103/bishops-in-visayas-romblon-renew-opposition-to-boracay-casino",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Boracay-Island-9November2026-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ILOILO CITY, Philippines — Catholic Church leaders in Western Visayas and Romblon province have renewed their opposition to casino operations in Boracay, warning that gambling could undermine family welfare and expose vulnerable communities to social and economic risks. In a joint statement made public on Sunday, the Church leaders expressed support for Kalibo Bishop Cyril [&hellip;]... Keep on reading: Bishops in Visayas, Romblon renew opposition to Boracay casino"
         }
       ],
       "truncated": true,
@@ -416,6 +566,78 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "cbc-oarvwr",
+      "source": "cbc",
+      "title": "Norway says it has been bumped by the IIHF to allow Russia to compete at world juniors in Canada",
+      "summary": "The Norwegian Ice Hockey Association said Sunday it has been informed that it is being bumped by Russia from competing in the world junior championships in Canada, a decision creating further…",
+      "byline": "John Wawrow",
+      "section": "Sports/Hockey",
+      "published": "2026-11-08T19:50:27.000Z",
+      "firstSeen": "2026-11-08T20:45:07.443Z",
+      "url": "https://www.cbc.ca/sports/hockey/iihf-norway-bumped-by-iihf-allow-russia-to-compete-world-juniors-9.7414313?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/75662d4f-8635-4449-8f80-e11f1a522283,1794167097064/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C6000%2C3375%29%3BResize%3D620",
+        "caption": "Norwegian team reacts after a 2026 IIHF Ice Hockey Men's World Championship semi-final match in Zurich. The Norwegian Ice Hockey Association said Sunday it has been informed that it is being bumped by Russia from competing in the world junior championships in Canada. (Fabrice Coffrini/ AFP via Getty"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hockey"
+        },
+        {
+          "type": "p",
+          "text": "The Norwegian Ice Hockey Association said Sunday it has been informed that it is being bumped by Russia from competing in the world junior championships in Canada, a decision creating further uncertainty involving the 10-nation tournament."
+        },
+        {
+          "type": "h",
+          "text": "The world juniors are set to open in Alberta on Dec. 26"
+        },
+        {
+          "type": "p",
+          "text": "The switch, the NIHA said, comes in the wake of the Court of Arbitration for Sport's recent ruling reinstating Russian hockey teams to compete internationally, beginning with the world juniors set to open in Alberta on Dec. 26."
+        },
+        {
+          "type": "p",
+          "text": "There remain complications in the decision, which has yet to be formally announced by the International Ice Hockey Federation. The IIHF's website still includes Norway as a participant in a tournament featuring the top men's players under age 20."
+        },
+        {
+          "type": "p",
+          "text": "Russia, however, is not guaranteed of competing after Canadian Prime Minister Mark Carney said he will bar the team from entering Canada, leaving open the possibility of Norway still being included."
+        },
+        {
+          "type": "p",
+          "text": "\"The situation is still unclear,\" Norway's ice hockey secretary general Peter Salsten said in a statement posted on the association's website and translated from Norwegian to English. \"This makes us hope that the last word has not been said about our participation in Canada.\""
+        },
+        {
+          "type": "p",
+          "text": "Other complicating factors involve six nations, including Norway, vowing to boycott games against Russia as long as the war in Ukraine is ongoing. Several long-time corporate sponsors also have said they will drop out if Russia competes."
+        },
+        {
+          "type": "p",
+          "text": "Norway acknowledged that the IIHF has been handcuffed by the court's ruling. As the 10th-ranked team entering the tournament, Norway said it was relegated to the 1A Division to open the spot for Russia."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "IIHF bars Belarus from WJC, men's worlds; exploring ways to meet CAS ruling on Russia",
+            "Russia is back in the hockey world championships after sports court ruling"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Russians haven't competed in the tournament since a fourth-place finish in 2021, with their ban beginning after the nation invaded Ukraine in February 2022."
+        },
+        {
+          "type": "p",
+          "text": "\"We are aware of the status and the measures the IIHF feels compelled to take, and will await further information from the IIHF in the coming days,\" Salsten said. \"This also clearly shows all the practical challenges and immediate consequences for everyone involved when countries are reinstated immediately.\""
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "dw-1aphuvd",
@@ -4590,31 +4812,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inqn-1v7usxv",
-      "source": "inqn",
-      "title": "Laguna businessman shot dead",
-      "summary": "LUCENA CITY – A 40-year-old businessman was shot dead by two motorcycle-riding gunmen in Lumban, Laguna, on Saturday afternoon, Nov. 7, police said. In a report on Sunday, the Police Regional Office…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-08T14:30:00.000Z",
-      "firstSeen": "2026-11-08T06:30:54.459Z",
-      "url": "https://newsinfo.inquirer.net/2338005/laguna-businessman-shot-dead",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Laguna-map-filephoto-091122.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY – A 40-year-old businessman was shot dead by two motorcycle-riding gunmen in Lumban, Laguna, on Saturday afternoon, Nov. 7, police said. In a report on Sunday, the Police Regional Office 4-A said the victim was standing in front of his water refilling station along Rizal Street in Barangay Primera Parang at 1:40 p.m."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "gma-cl29b8",
       "source": "gma",
       "title": "Ultra Lotto jackpot now P500.6 million; no winners of major lotto games on Nov. 8, 2026",
@@ -4665,31 +4862,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inqn-1a2s70y",
-      "source": "inqn",
-      "title": "Clans in Lanao del Sur rido to face frustrated murder raps",
-      "summary": "CAGAYAN DE ORO CITY – Authorities will file criminal charges against two warring families that clashed on Saturday in Picong, Lanao del Sur, which stranded hundreds of motorists for several hours…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-08T14:24:00.000Z",
-      "firstSeen": "2026-11-08T06:30:54.568Z",
-      "url": "https://newsinfo.inquirer.net/2337995/clans-in-lanao-del-sur-rido-to-face-frustrated-murder-raps",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Security-forces-halt-vehicular-traffic-at-the-national-highway-after-warring-families-clashed-in-Picong-Lanao-del-Sur-on-Saturday-Nov.-7.-Photo-by-64th-Infantry-Battalion-.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CAGAYAN DE ORO CITY – Authorities will file criminal charges against two warring families that clashed on Saturday in Picong, Lanao del Sur, which stranded hundreds of motorists for several hours along the national highway connecting the cities of Pagadian and Cotabato. Col. Caezar Cabuhat, Lanao del Sur Provincial Police Office director, said that frustrated"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-1uui91e",
@@ -5315,31 +5487,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-73t01m",
-      "source": "inq",
-      "title": "Lotto draw results on Sunday, Nov. 8, 2026",
-      "summary": "MANILA, Philippines—No bettor won the ₱500.61 million Ultra Lotto 6/58 jackpot or the ₱92.85 million Super Lotto 6/49 jackpot on Sunday, Nov. 8, 2026, according to the Philippine Charity Sweepstakes…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-08T13:51:26.000Z",
-      "firstSeen": "2026-11-08T14:00:57.084Z",
-      "url": "https://newsinfo.inquirer.net/2338109/lotto-draw-results-on-sunday-nov-8-2026",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/05/lotto-pcso-620x382.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—No bettor won the ₱500.61 million Ultra Lotto 6/58 jackpot or the ₱92.85 million Super Lotto 6/49 jackpot on Sunday, Nov. 8, 2026, according to the Philippine Charity Sweepstakes Office. Ultra Lotto 6/58 draw result: 22-14-01-42-09-08 Jackpot prize: ₱500.61 million Super Lotto 6/49 draw result: 34-39-38-18-47-36 Jackpot prize: ₱92.85 million Minor games The PCSO also released the results of the 3D Lotto and 2D Lotto draws held Sunday. Draw schedule Ultra Lotto 6/58 draws are held every Tuesday, Friday and Sunday, while Super Lotto 6/49 draws take place every Tuesday, Thursday and Sunday.... Keep on reading: Lotto draw results on Sunday, Nov. 8, 2026"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-15crtea",
       "source": "abs",
       "title": "Typhoon Cempaka to briefly enter PAR; Amihan surge to affect Luzon",
@@ -5360,31 +5507,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-19pf89r",
-      "source": "inq",
-      "title": "Private prosecutor Kapunan questions Cale88 production records",
-      "summary": "MANILA, Philippines &#8211; Counsel for the House prosecution panel Atty. Lorna Kapunan has questioned how Cale88 Foods Corp. organized its banana-chip export operations, pointing to workforce…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-08T13:47:12.000Z",
-      "firstSeen": "2026-11-08T14:00:57.181Z",
-      "url": "https://newsinfo.inquirer.net/2338107/private-prosecutor-kapunan-questions-cale88-production-records",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/1-Prosecution-counsel-Atty.-Lorna-Kapunan-INQUIRER-FILE-12Aug2026-620x349.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8211; Counsel for the House prosecution panel Atty. Lorna Kapunan has questioned how Cale88 Foods Corp. organized its banana-chip export operations, pointing to workforce entries and production-inventory records examined during Vice President Sara Duterte&#8217;s impeachment trial. Kapunan contrasted the company&#8217;s reported business activity with the limited staffing reflected in its corporate filings and asked who performed the work behind the exports. &#8220;Banana chips daw ang negosyo pero walang saging sa libro,&#8221; she said. &#8220;Pwede ka bang mag-banana chips na walang banana?&#8221; Kapunan asked. Forensic financial analyst Alexander Cabrera&#8217;s earlier testimony in the impeachment trial acknowledged a small finished-goods inventory [&hellip;]... Keep on reading: Private prosecutor Kapunan questions Cale88 production records"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-1b5fc6h",
@@ -5517,31 +5639,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-778rvv",
-      "source": "inq",
-      "title": "VP's lawyers didn't dispute authenticity of financial records - prosecution",
-      "summary": "MANILA, Philippines &#8211; The House prosecution panel over the weekend said Vice President Sara Z. Duterte’s lawyers failed to challenge the authenticity of key financial records during the…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-08T13:38:25.000Z",
-      "firstSeen": "2026-11-08T14:00:58.410Z",
-      "url": "https://newsinfo.inquirer.net/2338102/vps-lawyers-didnt-dispute-authenticity-of-financial-records-prosecution",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Alexander-Cabrera-impeachment-trial-13october2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8211; The House prosecution panel over the weekend said Vice President Sara Z. Duterte’s lawyers failed to challenge the authenticity of key financial records during the impeachment trial, focusing instead on bank secrecy and confidentiality objections that the Senate impeachment court has largely rejected. House prosecution legal spokesperson and private prosecutor Benjamin Tolosa Jr. said the defense did not directly dispute the authenticity of documents involving Duterte’s assets, income and bank transactions during cross-examination of prosecution witnesses. “More importantly, nakita naman natin during the cross, they did not try to attack the authenticity of these documents,” Tolosa said during [&hellip;]... Keep on reading: VP's lawyers didn't dispute authenticity of financial records - prosecution"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqg-1731hj8",
@@ -6178,31 +6275,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-186dxc5",
-      "source": "inq",
-      "title": "Prosecution sees VP's possible ‘I didn’t know’ defense on bank accounts",
-      "summary": "MANILA, Philippines &#8211; The House impeachment trial prosecution panel believes Vice President Sara Z. Duterte’s lawyers may argue that she was unaware of certain bank accounts and financial…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-08T13:27:54.000Z",
-      "firstSeen": "2026-11-08T14:01:00.727Z",
-      "url": "https://newsinfo.inquirer.net/2338100/prosecution-sees-vps-possible-i-didnt-know-defense-on-bank-accounts",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/News1304004-620x404.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8211; The House impeachment trial prosecution panel believes Vice President Sara Z. Duterte’s lawyers may argue that she was unaware of certain bank accounts and financial transactions linked to her and her husband, lawyer Manases Carpio, its legal spokesperson and. counsel Benjamin “Jay” Tolosa Jr. said over the weekend. Tolosa said questions raised by Duterte’s lawyers during cross-examination of prosecution witnesses appeared to suggest a possible defense based on her lack of knowledge of the accounts. “Maaalala naman natin, mukhang doon sa questions nila noong cross-examination sa mga witnesses namin, parang ang pinupunto nila is ’yung lack of knowledge [&hellip;]... Keep on reading: Prosecution sees VP's possible ‘I didn’t know’ defense on bank accounts"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-5refnj",
       "source": "abs",
       "title": "TV PATROL: P83-B budget para sa yearend bonus at cash gift ng gov't workers nai-release na",
@@ -6791,201 +6863,6 @@
         {
           "type": "p",
           "text": "See My World film festival runs from 2pm to 11pm on Saturday 21 November at Contact theatre, Oxford Road, Manchester."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-25eiwo",
-      "source": "cbc",
-      "title": "Where things stand in the battle over records in the nearly 2-year Mentzelopoulos case",
-      "summary": "To the average Albertan, the headlines tied to developments in the lawsuit launched by the former CEO of Alberta Health Services can be confusing. In case you’re not caught up, let’s get you up to…",
-      "byline": "Joel Dryden",
-      "section": "News/Canada/Calgary",
-      "published": "2026-11-08T12:00:00.000Z",
-      "firstSeen": "2026-11-08T15:00:59.823Z",
-      "url": "https://www.cbc.ca/news/canada/calgary/athana-mentzelopoulos-alberta-health-services-ahs-9.7412569?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/459bbe76-396f-4440-8af3-e7574ed836ba,1793991962611/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3BResize%3D620",
-        "caption": "Athana Mentzelopoulos, left, former CEO of Alberta Health Services, is seen outside the law courts in Edmonton on April 29. Alberta Justice Minister Mickey Amery, right, answers questions at a news conference in Calgary, on Feb. 20. (Lisa Johnson/Todd Korol/The Canadian Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "To the average Albertan, the headlines tied to developments in the lawsuit launched by the former CEO of Alberta Health Services can be confusing — records being produced in one instance and held back in another, for example."
-        },
-        {
-          "type": "p",
-          "text": "Then there’s the length of time involved. Twenty-one months have passed since Athana Mentzelopoulos filed her wrongful dismissal suit in February 2025."
-        },
-        {
-          "type": "p",
-          "text": "But employment lawyers experience time differently."
-        },
-        {
-          "type": "p",
-          "text": "“I’ve got files where … stuff’s been happening steadily and consistently, and you’re six years out before you know it,” said employment lawyer Carter Greschner, who also teaches employment law at the University of Alberta."
-        },
-        {
-          "type": "p",
-          "text": "So, in case you’re not caught up, let’s get you up to speed."
-        },
-        {
-          "type": "p",
-          "text": "Mentzelopoulos, in her original suit, alleged she was fired after she launched an investigation into various contracts and AHS procurement processes. In its statement of defence, AHS said that it terminated Mentzelopoulos because she wasn’t fulfilling her duties."
-        },
-        {
-          "type": "p",
-          "text": "None of the allegations have been tested in court."
-        },
-        {
-          "type": "h",
-          "text": "The back-and-forth over confidential documents"
-        },
-        {
-          "type": "p",
-          "text": "Both sides have been fighting for months over what evidence should be shared, and what should be given back."
-        },
-        {
-          "type": "p",
-          "text": "Before Mentzelopoulos was let go, she emailed herself records that she argued she needed to hang on to so as to act as a “whistleblower.” Lawyers for the government and AHS argued she was contractually obligated to return them."
-        },
-        {
-          "type": "p",
-          "text": "Recently, the judge overseeing the process, Justice Michael Lema, ordered that she must return those records, noting she could request them through the standard court process."
-        },
-        {
-          "type": "p",
-          "text": "On the flip side, Mentzelopoulos’ legal team argued that the government was holding back relevant records. That same judge said that AHS and the province had to turn those over, so as to fill in “certain gaps and deficiencies.”"
-        },
-        {
-          "type": "p",
-          "text": "“I would say that’s the more common issue with document production, is that one side says 'we know there's more that you're not giving us,'” Greschner said."
-        },
-        {
-          "type": "p",
-          "text": "In late October, Lema refused what he called a request from the government to pause the production of records until a government appeal could be heard."
-        },
-        {
-          "type": "p",
-          "text": "On the same date, Court of Appeal Justice Anne Kirker ordered a pause for the government until a hearing on Nov. 19, with the consent of Mentzelopoulos’s legal team."
-        },
-        {
-          "type": "h",
-          "text": "Mentzelopoulos' performance at issue"
-        },
-        {
-          "type": "p",
-          "text": "This tug of war over records keeps evolving, too."
-        },
-        {
-          "type": "p",
-          "text": "In his late October ruling, Lema also ordered AHS and the government to hand over another batch of records regarding Mentzelopoulos' job performance and whether she was ever warned before being fired."
-        },
-        {
-          "type": "p",
-          "text": "The judge said AHS had a “duty to warn” Mentzelopoulos."
-        },
-        {
-          "type": "p",
-          "text": "That means AHS was legally obligated to clearly state concerns, set expectations, allow her to fix performance issues, and warn her that failing to improve could trigger termination with cause, explained Greschner."
-        },
-        {
-          "type": "p",
-          "text": "Lema previously wrote that the government had opened its amended statement of defence with a “narrow position” — that its contract laid out what would be paid if the agreement was terminated without cause."
-        },
-        {
-          "type": "p",
-          "text": "But, he added that its defence was also “replete” with complaints about her job performance."
-        },
-        {
-          "type": "p",
-          "text": "“If the sole focus of the defences was ‘dismissed per contract,’ that is all the defences had to address,” Lema wrote."
-        },
-        {
-          "type": "p",
-          "text": "He gave the government and AHS until Nov. 28 to hand over all records relating to her performance assessments, performance concerns, and any warnings provided."
-        },
-        {
-          "type": "p",
-          "text": "Brett Code, one of the lawyers for former AHS CEO Athana Mentzelopoulos, is pictured outside of court in Edmonton earlier this year. (Peter Evans/CBC)"
-        },
-        {
-          "type": "p",
-          "text": "One of Mentzelopoulos’ lawyers, Brett Code, wrote in a text message to CBC News that he believed Lema had “called out the attempt by the government’s lawyers to reverse claims by the government itself, in particular by [Justice] Minister [Mickey] Amery, that Athana was terminated due to alleged incompetence.”"
-        },
-        {
-          "type": "p",
-          "text": "“At the beginning of all this, the government loudly proclaimed that Athana was incompetent and was fired therefore,” Code said."
-        },
-        {
-          "type": "p",
-          "text": "“Now, in the face of their obligation to produce relevant and material records … the government’s lawyers are saying that they did not allege performance failures in the government’s statement of defence."
-        },
-        {
-          "type": "p",
-          "text": "“They appear [to] want to avoid producing records that undermine the government’s incompetence claims.”"
-        },
-        {
-          "type": "p",
-          "text": "A spokesperson for the province, as well as lawyers for the government, declined to comment on the ruling. A spokesperson for AHS did not reply to a request for comment."
-        },
-        {
-          "type": "h",
-          "text": "What about that RCMP investigation?"
-        },
-        {
-          "type": "p",
-          "text": "After Mentzelopoulos made allegations in her lawsuit, there were several investigations launched into the claims about AHS procurement practices and contracts, including one by the RCMP."
-        },
-        {
-          "type": "p",
-          "text": "Last month, a letter filed in court revealed that the investigation was focused on alleged fraud, breach of trust, and money laundering."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "RCMP investigating allegations of money laundering, fraud in Alberta health procurement probes"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The letter, signed by Crown counsel Tom Andreopoulos, suggested that the investigation involves documents and materials from Mentzelopoulos that “may overlap” with documents at the centre of the ongoing civil case outlined above."
-        },
-        {
-          "type": "p",
-          "text": "Andreopoulos wrote that the team was “seeking direction” from the Court of King’s Bench about co-ordinating future moves around the material."
-        },
-        {
-          "type": "h",
-          "text": "What happens next on the civil front?"
-        },
-        {
-          "type": "p",
-          "text": "To an expert like Greschner, it’s clear that there’s more to come in the coming weeks on the document production front."
-        },
-        {
-          "type": "p",
-          "text": "That includes appeals. But the next substantial move could be a summary application, either to dismiss the lawsuit altogether (brought by the defendants), or to award judgment (brought by the plaintiff), he said."
-        },
-        {
-          "type": "p",
-          "text": "Carter Greschner teaches employment law at the University of Alberta. (Submitted by Carter Greschner)"
-        },
-        {
-          "type": "p",
-          "text": "“Just because an application gets filed, doesn’t mean it always makes it all the way to being heard,” he said."
-        },
-        {
-          "type": "p",
-          "text": "If it went a more traditional route — to disclosure, questioning and then undertakings — the case is probably, “best-case scenario,” about two years away from trial."
-        },
-        {
-          "type": "p",
-          "text": "“But if there continue to be the ongoing, procedural battles that have existed so far, it could be four or five years before it got to trial,” Greschner said."
         }
       ],
       "truncated": false,
