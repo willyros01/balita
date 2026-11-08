@@ -1,0 +1,265 @@
+{
+  "id": "grd-14m5i4q",
+  "source": "grd",
+  "title": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
+  "summary": "<p>As AI exposes flaws in IT systems and geopolitics plays out on the cyber frontline, some experts say the events of recent weeks could soon be a common occurence</p><p>Alex Pearce was doing the…",
+  "byline": "Dan Milmo and Aisha Down",
+  "section": "Hacking",
+  "published": "2026-11-08T06:00:33.000Z",
+  "firstSeen": "2026-11-08T06:30:54.559Z",
+  "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic",
+  "image": {
+    "src": "https://i.guim.co.uk/img/media/09d27a91ac5dc51fcea6ef2db11a85053e40bb50/0_158_4000_3198/master/4000.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=61f705fa3e603f228abbd6c56fd24887",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Alex Pearce was doing the morning rounds at his fruit and vegetable wholesale business in London on Monday last week when he noticed something odd."
+    },
+    {
+      "type": "p",
+      "text": "The defrost light on refrigeration unit 2 was on, and the panel reading was 150C. Unit 4 was the same."
+    },
+    {
+      "type": "p",
+      "text": "As he approached his biggest unit, its defrost light also blinked on."
+    },
+    {
+      "type": "p",
+      "text": "It was at this point that Pearce thought: is this a cyber-attack? He walked over to the box connecting the units to the internet and yanked out the cable."
+    },
+    {
+      "type": "p",
+      "text": "He was right."
+    },
+    {
+      "type": "image",
+      "src": "https://i.guim.co.uk/img/media/612c01c06955cb1b6a27bb104b2e13f7d64e8ae3/580_0_5800_4640/master/5800.jpg?width=445&dpr=1&s=none&crop=none",
+      "caption": "Alex Pearce unplugged the internet at his wholesale fruit and vegetable business after seeing the temperature of the refrigeration units shoot up.  Photograph: Martin Godwin/The Guardian"
+    },
+    {
+      "type": "p",
+      "text": "On the same day, retailers in Belgium, Estonia, Ireland, Finland, Luxembourg, the Netherlands and Sweden reported similar problems, with refrigerators and freezers in some shops soaring to as high as 50C (122F)."
+    },
+    {
+      "type": "p",
+      "text": "“If it had happened on a Saturday morning, when I don’t tend to be here, it could ultimately have led to a fire,” Pearce said."
+    },
+    {
+      "type": "p",
+      "text": "But it is not just Pearce and a disparate group of retailers, as well as French blood banks, that have been suffering."
+    },
+    {
+      "type": "p",
+      "text": "The hacking attack was one of three over a number of days. On 30 October, the world’s largest cryptocurrency exchange, Binance, was robbed of $6.3bn (£4.7bn) in a record heist and on 1 November hackers targeted Ukraine’s emergency alert app, sending people in Kyiv a fake nuclear strike alert."
+    },
+    {
+      "type": "image",
+      "src": "https://i.guim.co.uk/img/media/2f701bb3716151b3e3f3cdfb57e25022cd3900f3/1262_0_6329_5063/master/6329.jpg?width=445&dpr=1&s=none&crop=none",
+      "caption": "Hackers targeted Ukraine’s emergency alert app this month to send warnings to people in Kyiv.  Photograph: Roman Pilipey/AFP/Getty Images"
+    },
+    {
+      "type": "p",
+      "text": "The official message after the fridge attacks is: expect more disruption. We are in the “foothills” of a new hacking landscape, the head of the UK’s National Cyber Security Centre said this week."
+    },
+    {
+      "type": "p",
+      "text": "Referring to flaws in IT systems that are being exposed by AI technology, the NCSC boss, Richard Horne, said: “There are so many vulnerabilities out there that … you could say are waiting to be exploited.”"
+    },
+    {
+      "type": "p",
+      "text": "He added: “The most serious risk we face in the short term is just a huge rise in the volume of incidents … and I think you could probably point to the last few months and say we’ve started to see that.”"
+    },
+    {
+      "type": "p",
+      "text": "Websites around the world were temporarily taken out of service as a precaution last month when AI technology from the ChatGPT developer OpenAI helped discover a flaw in PHP, a computer language used to build much of the world wide web. French supermarket fridges were also attacked last month in what could have been a trial run for the more expansive foray this week."
+    },
+    {
+      "type": "image",
+      "src": "https://i.guim.co.uk/img/media/aed983f049b0e852c755b8dc230e7c7ba34f9947/702_0_3538_2832/master/3538.jpg?width=445&dpr=1&s=none&crop=none",
+      "caption": "Boxes of perished goods outside an Intermarché in Paris last month after a cyber-attack that could have been a trial run for this week’s foray.  Photograph: Lucien Libert/Reuters"
+    },
+    {
+      "type": "p",
+      "text": "To Azeem Azhar, a tech entrepreneur and commentator, the way AI models were discovering flaws that assailants could harness recalled China’s Covid ground zero. This was, he said, a “Wuhan moment”."
+    },
+    {
+      "type": "p",
+      "text": "Azar’s assertion headlined a Substack post that also quoted the cybersecurity executive Matthew Prince, who said last month: “We’re going to have a couple of years where every single week it’s going to feel like the sky is falling.”"
+    },
+    {
+      "type": "p",
+      "text": "Not long afterwards, Pearce’s defrost lights went on."
+    },
+    {
+      "type": "p",
+      "text": "There are two factors underpinning the NCSC warnings: geopolitics and AI. At least one expert has said the fridge attacks bear Russian hallmarks, while the Binance hack has been attributed to the North Korean state, and Russia is naturally a suspect in the Ukraine incident."
+    },
+    {
+      "type": "p",
+      "text": "The NCSC said last week that AI-powered malicious software was “highly likely” to be used in hacking attacks against the UK’s power stations, airports and hospitals by 2028. AI would help attackers with tasks such as scouting targets, locating weaknesses in IT networks and writing malicious code, the organisation said."
+    },
+    {
+      "type": "p",
+      "text": "But there are caveats. The NCSC’s director of operations, Paul Chichester, said the cold storage hackers “really didn’t need” to use AI to discover the fridge flaws because they were already out there, including default access passwords that were published in one fridge operating company’s manuals."
+    },
+    {
+      "type": "p",
+      "text": "Sophos, a leading cybersecurity firm, said it had not seen any major incidents among its clients related to the PHP glitch, although – like others in the industry – it had seen a significant number of attempts to take advantage of the vulnerability."
+    },
+    {
+      "type": "p",
+      "text": "And one expert said we had been here before. Ciaran Martin, the founding chief executive of NCSC, played down the “Wuhan moment” comparison. This was not the first time the world had faced a concerted threat, he said, pointing to the NotPetya and WannaCry cyber-attacks in 2017, which have been blamed on Russia and North Korea respectively, and a surge in ransomware attacks in 2021. North Korea, hobbled by sanctions and starved of cash, has a well-established reputation as a crypto hacker."
+    },
+    {
+      "type": "image",
+      "src": "https://i.guim.co.uk/img/media/b65e81e301be75ced27790052bc3be7125880d2d/639_0_2861_2289/master/2861.jpg?width=445&dpr=1&s=none&crop=none",
+      "caption": "Ciaran Martin, the founding chief executive of the NCSC, has played down the gravity of the moment.  Photograph: Wolfgang Rattay/Reuters"
+    },
+    {
+      "type": "p",
+      "text": "“It’s a bad run, but it’s not unprecedented,” Martin said. “The idea that we are having a Wuhan moment is not true. We are having one of those waves of incidents that happen every few years.”"
+    },
+    {
+      "type": "p",
+      "text": "Nonetheless, AI is exposing vulnerabilities. This is the term for a flaw in an IT system that a hacker can exploit, a door that is ajar and unnoticed or ignored by its owner. Since April, when the AI startup Anthropic released its Mythos model, which has a startling ability to flag IT flaws, the amount of vulnerabilities found by leading tech companies has soared eight-fold."
+    },
+    {
+      "type": "p",
+      "text": "Attacks have not increased by the same volume, however. The cybersecurity expert Tal Be’ery has speculated that criminal hackers are struggling to make money from these flaws, as shown by a recent decline in revenues from ransomware attacks."
+    },
+    {
+      "type": "p",
+      "text": "“It seems that currently the surge in vulns [vulnerabilities] does not translate to a surge in breaches,” Be’ery wrote last month."
+    },
+    {
+      "type": "p",
+      "text": "The fridge targeting is carried out by attacking the companies that provide operating systems for commercial refrigeration units. These systems are connected to the internet, giving the hackers a remote access route to the ultimate victims. The Danish firm Danfoss, one of the affected system providers, said most of the affected equipment was old and no longer received security updates. It said it had “long recommended” customers install updates or replace obsolete software."
+    },
+    {
+      "type": "p",
+      "text": "The NCSC, part of the GCHQ spy agency, said the hacks were a reminder of the vulnerability of everyday objects with internet access, from smart speakers to broadband routers. Ollie Whitehouse, NCSC’s chief technology officer, said this week it was “quite clear” that such devices could be “susceptible” to hackers. Manufacturers need to invest more in making their products secure and consumers need to be willing to pay more for the most robust products – and to keep updating them."
+    },
+    {
+      "type": "p",
+      "text": "A key flaw targeted by hackers, including in the fridge attacks, is “end of life” versions of products that are no longer being produced by companies or receiving glitch-eradicating software updates."
+    },
+    {
+      "type": "p",
+      "text": "Referring to the prospect of more attacks on internet-connected domestic devices, Whitehouse said: “To be worried, I think, is [too] strong. But we need to be more mindful, definitely.”"
+    },
+    {
+      "type": "image",
+      "src": "https://i.guim.co.uk/img/media/3ba762c70e9c188fc6533e353ffe9c2e077e95c6/147_5_4646_3720/master/4646.jpg?width=445&dpr=1&s=none&crop=none",
+      "caption": "The hacks are a reminder of the vulnerability of everday objects with internet access, experts say.  Photograph: Fred Tanneau/AFP/Getty Images"
+    },
+    {
+      "type": "p",
+      "text": "Pearce said he now realised his fridge monitoring system, by the US firm Copeland, which was installed in 2018, would need updating."
+    },
+    {
+      "type": "p",
+      "text": "“Have we learned a lesson? Yes,” he said. “There is a vulnerability we probably should have been aware of, but luckily the ramifications for us were not severe.”"
+    },
+    {
+      "type": "p",
+      "text": "The need for mindfulness is heightened by the nation state threat. Criminal gangs carry out ransomware attacks, where a victim’s computer files are encrypted and assailants demand a cryptocurrency “ransom” to unlock them. But there is a cyber frontline where nation states operate too. Geopolitics, exemplified by Russia’s hybrid warfare campaign against Europe, have made this conflict grey zone a particular source of concern."
+    },
+    {
+      "type": "image",
+      "src": "https://i.guim.co.uk/img/media/05c2cbf6a83cd9b1533b8b16c70b97a3b048edb6/580_0_5800_4640/master/5800.jpg?width=445&dpr=1&s=none&crop=none",
+      "caption": "Alex Pearce says he now realises his fridge monitoring system will need updating.  Photograph: Martin Godwin/The Guardian"
+    },
+    {
+      "type": "p",
+      "text": "Last month, the UK government launched the Be Ready campaign, urging people to stock up on three days’ worth of food and up to nine litres of bottled water in case of a weather, cyber or other serious emergency. Wes Streeting, the defence secretary, said the country needed to prepare for the threat of “state-sponsored terrorism” targeting everyday infrastructure."
+    },
+    {
+      "type": "p",
+      "text": "One expert said he believed the fridge attacks, for all the simplicity of the weaknesses they exploited, showed Russian traits. Xavier Bellekens, the chief executive of the cybersecurity firm Lupovis, said his startup set up “honeypot” traps involving the same fridge controllers targeted by the Europe attackers. The techniques used by the lured hackers included using internet service providers that were particularly tolerant of malicious activity – a tactic linked with previous malicious activity carried out by Russians."
+    },
+    {
+      "type": "p",
+      "text": "“Are we certain they are Russian groups? We are not. But elements of this point in that direction,” he said."
+    },
+    {
+      "type": "image",
+      "src": "https://i.guim.co.uk/img/media/448c3196fe272ea0da4d74be9fa7b054f044af04/19_0_1132_904/master/1132.jpg?width=445&dpr=1&s=none&crop=none",
+      "caption": "Geopolitics, exemplified by Russia’s hybrid warfare campaign against Europe, have made the cyber frontline a particular source of concern.  Photograph: AP"
+    },
+    {
+      "type": "p",
+      "text": "On the frontline of the grey war, there is no shock at recent events. Experts and officials in Finland said the fridge attacks were not a surprise, but part of a pattern they had seen growing for years."
+    },
+    {
+      "type": "p",
+      "text": "Finland shares a 1,340km (832 mile) border with Russia. Since the 2022 Ukraine invasion, cyber-attacks of all kinds have escalated. Last year, the country’s national cybersecurity centre recorded nearly 21,000 incidents – targeting a population of fewer than 6 million people. In 2022 it was about 13,000 incidents."
+    },
+    {
+      "type": "p",
+      "text": "This year, hackers managed to compromise up to 50,000 Finnish government mobile phones; last year, they took down the website of the country’s ministry of defence."
+    },
+    {
+      "type": "image",
+      "src": "https://i.guim.co.uk/img/media/fcd2f563900100a09e32551733206c8276b969a9/896_0_5047_4037/master/5047.jpg?width=445&dpr=1&s=none&crop=none",
+      "caption": "Freezers at a supermarket in Sweden are emptied after temperatures reached 50C.  Photograph: Johan Nilsson/TT/Shutterstock"
+    },
+    {
+      "type": "p",
+      "text": "It is a trend across Europe and Nato countries but is especially pronounced in nations that border Russia."
+    },
+    {
+      "type": "p",
+      "text": "However, Russia was not the only reason cyber threats were increasing, said Samuli Bergström, the vice-president of WithSecure, a Helsinki-based cybersecurity company. AI was boosting attacks as well and he echoed the warnings about internet-connected appliances."
+    },
+    {
+      "type": "p",
+      "text": "“These attackers are mostly opportunistic,” Bergström explained. “When they see something that is facing the internet, they will probably attack it. [If you have a device] connected to the internet, you have to assume that it will be attacked, sooner or later.”"
+    },
+    {
+      "type": "p",
+      "text": "Bergström and others also emphasised that Russian state actors were not the only culprits – or even, necessarily, the most sophisticated ones."
+    },
+    {
+      "type": "p",
+      "text": "There is a vast, unseen economy of hackers in the world. Some are activists. Some are mercenaries, in it for money. A good number of them have links to states, such as Russia and Iran. But this affiliation could be loose, which makes it difficult for officials to concretely attribute a motive to a given attack."
+    },
+    {
+      "type": "p",
+      "text": "What does this mean for Europe? The world’s cyberthreat actors are growing more sophisticated and more resourced – better able to spot vulnerabilities, more capable of exploiting them. These advances invite doomsday speculation: could an entire nation’s power grid flicker out in -mid-winter, or could commerce grind to a halt?"
+    },
+    {
+      "type": "p",
+      "text": "Finland – and most European nations – have plans in place for disrupted payment systems, or an attack on the grid. But cyberthreats are not the same as kinetic war."
+    },
+    {
+      "type": "p",
+      "text": "Bombing a power station could take out an electricity grid for months, or even longer, given the years-long wait to buy transformers. Cyber-attacks won’t necessarily have the same effect. Software is more quickly patched; it is usually possible to disconnect a device from the internet."
+    },
+    {
+      "type": "image",
+      "src": "https://i.guim.co.uk/img/media/c63c072cd96ef0614f3299b2b52230ae28b2d114/540_0_5399_4319/master/5399.jpg?width=445&dpr=1&s=none&crop=none",
+      "caption": "The fridge control panel at Alex Pearce’s London warehouse. He has not reattached the internet cable but said his business is otherwise unaffected.  Photograph: Martin Godwin/The Guardian"
+    },
+    {
+      "type": "p",
+      "text": "The goal – at least for state actors – in mounting these cyber-attacks could be more psychological than anything, some officials said. Turning fridges into ovens, or compromising a blood bank, is dramatic; it sears itself into the memory. But those vulnerabilities are likely to now be patched. There is no guarantee that a criminal group might be able to mount that exact attack again."
+    },
+    {
+      "type": "p",
+      "text": "Still, there are many vulnerabilities, and legacy systems, left for malevolent actors to exploit. These attacks “are more frequent, and they continue to happen”, said Bergström."
+    },
+    {
+      "type": "p",
+      "text": "Pearce has not reattached the internet cable but said his Langridge Organic business was otherwise unaffected. He said even after the French fridge attacks last month, he did not expect his company to be next."
+    },
+    {
+      "type": "p",
+      "text": "“Hacking for the sake of being disruptive is a strange concept to most people.”"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
