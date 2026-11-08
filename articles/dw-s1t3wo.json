@@ -1,16 +1,16 @@
 {
-  "id": "dw-ae3au9",
+  "id": "dw-s1t3wo",
   "source": "dw",
-  "title": "Journalism and AI: Who owns the news?",
+  "title": "Should AI companies pay for the journalism they use?",
   "summary": "Publishers say AI chatbots are using their reporting to answer readers' questions while sending back less traffic and less money. Should the companies that build these tools pay for the journalism…",
   "byline": "Monir Ghaedi",
   "section": "",
   "published": "2026-11-07T15:14:00.000Z",
-  "firstSeen": "2026-11-07T15:30:53.328Z",
-  "url": "https://www.dw.com/en/journalism-and-ai-who-owns-the-news/a-79884854?maca=en-rss-en-all-1573-rdf",
+  "firstSeen": "2026-11-08T13:30:54.878Z",
+  "url": "https://www.dw.com/en/should-ai-companies-pay-for-the-journalism-they-use/a-79884854?maca=en-rss-en-all-1573-rdf",
   "image": {
     "src": "https://static.dw.com/image/77383030_6.jpg",
-    "caption": "Image: Matteo Della Torre/NurPhoto/picture alliance"
+    "caption": "Microsoft, Anthropic and OpenAI have said they support clearer signals that let website owners say if their content may be used to train AI modelsImage: Matteo Della Torre/NurPhoto/picture alliance"
   },
   "blocks": [
     {
@@ -23,11 +23,16 @@
     },
     {
       "type": "p",
-      "text": "Explaining what is happening in the world, why it matters, and what it means has traditionally been the work of journalism. Media organizations send reporters into the field, commission investigations and conduct research, producing stories that help audiences understand global events. But as more people turn to AI tools for information, the relationship between those producing journalism and those distributing it is changing."
+      "text": "Explaining what is happening in the world, why it matters and what it means has traditionally been the work of journalism. Media organizations send reporters into the field, commission investigations and conduct research, producing stories that help audiences understand global events. But as more people turn to AI tools for information, the relationship between those producing journalism and those distributing it is changing."
     },
     {
       "type": "p",
-      "text": "\"In the past, search engines like Google indexed our websites and directed users to their articles, generating traffic in return,\" Julia Becker, publisher of Funke Media Group, told a panel at the Global Media Forum (GMF) in Berlin. \"But now that exchange has broken down.\""
+      "text": "\"In the past, search engines like Google indexed our websites and directed users to their articles, generating traffic in return,\" Julia Becker, publisher of Funke Media Group, told a panel at the Global Media Forum (GMF) in Berlin on November 5. \"But now that exchange has broken down.\""
+    },
+    {
+      "type": "image",
+      "src": "https://static.dw.com/image/79874841_$%7BformatId%7D.jpg",
+      "caption": "Publishers, legal experts and tech companies debated who should pay for journalism used in AI systems at the Global Media Forum in BerlinImage: Stephanie Englert/DW Images"
     },
     {
       "type": "p",
@@ -36,11 +41,6 @@
     {
       "type": "p",
       "text": "Their remarks reflect a worry that is growing across the media industry. Publicly available news is copied and summarized by AI chatbots, while news organizations are becoming less and less able to rely on the money and visibility that used to come from distributing that work."
-    },
-    {
-      "type": "image",
-      "src": "https://static.dw.com/image/79874841_$%7BformatId%7D.jpg",
-      "caption": "Publishers, legal experts, and tech companies debated who should pay for journalism used in AI systems at the Global Media Forum in BerlinImage: Stephanie Englert/DW Images"
     },
     {
       "type": "h",
@@ -52,7 +52,7 @@
     },
     {
       "type": "p",
-      "text": "Media houses are now pressing \"Big Tech\" companies to ask permission before using their work and to pay for it."
+      "text": "Media houses are now pressing Big Tech companies to ask permission before using their work and to pay for it."
     },
     {
       "type": "p",
@@ -60,15 +60,19 @@
     },
     {
       "type": "p",
-      "text": "In the US, lawsuits are adding pressure. The New York Times has sued internet company Brave Softwar for allegedly using its content without permission and getting around its paywall."
+      "text": "In the US, lawsuits are adding pressure. The New York Times has sued internet company Brave Softwarefor allegedly using its content without permission and getting around its paywall."
+    },
+    {
+      "type": "h",
+      "text": "Is the internet dying?"
     },
     {
       "type": "p",
-      "text": "Meanwhile, legal institutions in the EU, including the European Court of Justice (ECJ) are examining whether AI-generated answers can themselves infringe copyright."
+      "text": "Meanwhile, legal institutions in the EU, including the European Court of Justice are examining whether AI-generated answers can themselves infringe copyright."
     },
     {
       "type": "p",
-      "text": "In February, a coalition of media organizations, including the Guardian, the BBC, and the Financial Times, called for rules that would give publishers more control over how AI systems copy and reproduce their content."
+      "text": "In February, a coalition of media organizations, including The Guardian, the BBC and the Financial Times called for rules that would give publishers more control over how AI systems copy and reproduce their content."
     },
     {
       "type": "p",
@@ -76,11 +80,7 @@
     },
     {
       "type": "p",
-      "text": "\"AI systems shouldn't just use quality journalism. They should also pay for it,\" Massing said."
-    },
-    {
-      "type": "h",
-      "text": "Is the internet dying?"
+      "text": "\"AI systems shouldn't just use quality journalism. They should also pay for it,\" said Massing."
     },
     {
       "type": "h",
@@ -88,7 +88,7 @@
     },
     {
       "type": "p",
-      "text": "Professor Martin Senftleben, who directs the Institute for Information Law at the University of Amsterdam, separates two ways AI companies use journalistic material: Training their models and generating responses to individual user questions."
+      "text": "Martin Senftleben, a professor at the University of Amsterdam who directs the Institute for Information Law, separates two ways AI companies use journalistic material: training their models and generating responses to individual user questions."
     },
     {
       "type": "p",
@@ -100,7 +100,11 @@
     },
     {
       "type": "p",
-      "text": "\"What are we waiting for? Germany is a large member state. This should be introduced in Germany,\" he told the forum."
+      "text": "\"What are we waiting for? Germany is a large member state. This should be introduced in Germany,\" he told the forum in Berlin."
+    },
+    {
+      "type": "h",
+      "text": "Digital clones, real money: how athletes are trying to cash in on AI"
     },
     {
       "type": "p",
@@ -125,11 +129,11 @@
     {
       "type": "image",
       "src": "https://static.dw.com/image/79877649_$%7BformatId%7D.jpg",
-      "caption": "Google says its ancillary copyright agreements cover more than 800 German publications with payments already being madeImage: Stephanie Englert/DW Images"
+      "caption": "Google has said its ancillary copyright agreements cover more than 800 German publications with payments already being madeImage: Stephanie Englert/DW Images"
     },
     {
       "type": "p",
-      "text": "Microsoft, Anthropic, and OpenAI have recently said they support clearer, standardized signals that let website owners state whether their content may be used to train AI models."
+      "text": "Microsoft, Anthropic and OpenAI have recently said they support clearer, standardized signals that let website owners state whether their content may be used to train AI models."
     },
     {
       "type": "p",
@@ -137,7 +141,7 @@
     },
     {
       "type": "p",
-      "text": "Jörg Heidrich, a lawyer who specializes in technology law and serves as AI commissioner at the German media company Heise, warned against adding new rules without considering their effects on the wider tech sector."
+      "text": "Joerg Heidrich, a lawyer who specializes in technology law and serves as AI commissioner at the German media company Heise, warned against adding new rules without considering their effects on the wider tech sector."
     },
     {
       "type": "p",
@@ -145,11 +149,7 @@
     },
     {
       "type": "p",
-      "text": "Heidrich also pointed to smaller players, including startups, independent developers, and research institutions. They depend on access to data to build and train AI systems. He argued that the debate over copyright and payment risks overlooking these groups, and that new restrictions could hurt their work."
-    },
-    {
-      "type": "h",
-      "text": "Digital clones, real money: how athletes are trying to cash in on AI"
+      "text": "Heidrich also pointed to smaller players, including startups, independent developers and research institutions, who depend on access to data to build and train AI systems. He argued that the debate over copyright and payment risks overlooking these groups, and that new restrictions could hurt their work."
     }
   ],
   "truncated": false,
