@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-09T13:31:20.728Z",
+  "updated": "2026-11-09T14:01:25.021Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-ub5mpi",
+      "source": "inqn",
+      "title": "Police probing into 2 shooting incidents in Bukidnon capital",
+      "summary": "VALENCIA CITY, Bukidnon — Police are probing two separate shooting incidents that rocked this city on Sunday evening, leaving one dead and another wounded. The first victim was a 56-year-old…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T14:01:14.275Z",
+      "firstSeen": "2026-11-09T12:01:04.355Z",
+      "url": "https://newsinfo.inquirer.net/2338562/police-probing-into-2-shooting-incidents-in-bukidnon-capital",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/police-station-of-Valencia-City-Bukidnon-9November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "VALENCIA CITY, Bukidnon — Police are probing two separate shooting incidents that rocked this city on Sunday evening, leaving one dead and another wounded. The first victim was a 56-year-old businessman, a resident of Purok 3, Kurbada, Barangay Tongantongan, Valencia City, who was found dead in a pool of blood inside his room by responding"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1j37808",
       "source": "inqn",
       "title": "MMDA announces Nov. 15-18 road closures, rerouting for Asean Summit",
       "summary": "MANILA, Philippines — The Metro Manila Development Authority (MMDA) on Monday, announced road closures and several traffic schemes from Nov. 15 to 18 as the country hosts the 49th Association of…",
       "byline": "ggaviola",
       "section": "Uncategorized",
-      "published": "2026-11-09T13:31:09.921Z",
+      "published": "2026-11-09T14:01:14.275Z",
       "firstSeen": "2026-11-09T11:30:54.347Z",
       "url": "https://newsinfo.inquirer.net/2338544/mmda-announces-nov-15-18-road-closures-rerouting-for-asean-summit",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "MANILA, Philippines — President Ferdinand R. Marcos Jr. and Education Secretary Sonny Angara, joined by First Lady Louise Araneta-Marcos, started the nationwide distribution of over 231,000 laptops…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:09.921Z",
+      "published": "2026-11-09T14:01:14.275Z",
       "firstSeen": "2026-11-09T11:30:54.407Z",
       "url": "https://newsinfo.inquirer.net/2338576/marcos-angara-start-distributing-laptops-to-teachers-in-dagupan",
       "image": {
@@ -109,7 +134,7 @@
       "summary": "MANILA, Philippines — The roughly 4,000 multipurpose buildings proposed under the 2027 national budget represent only 10 percent of the country’s more than 42,000 barangays, House lawmakers said on…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:09.921Z",
+      "published": "2026-11-09T14:01:14.275Z",
       "firstSeen": "2026-11-09T10:45:27.894Z",
       "url": "https://newsinfo.inquirer.net/2338518/4000-multipurpose-buildings-cover-just-10-of-barangays-solons",
       "image": {
@@ -128,73 +153,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-121gn7o",
+      "id": "inqn-i5afxf",
       "source": "inqn",
-      "title": "Village councilor, pastor found dead in Cagayan",
-      "summary": "TUGUEGARAO CITY &#8211; The bullet-riddled remains of a village councilor and a church pastor were found dumped at a mountainous section of Barangay Capissayan Norte in Gattaran, Cagayan last…",
+      "title": "AdU legal aid office hails acquittal of 2 clients arrested over protests",
+      "summary": "MANILA, Philippines — The Legal Aid Office of the Adamson University College of Law on Monday welcomed the acquittal of two of its clients who were arrested on Sept. 21 last year, in connection with…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:09.921Z",
-      "firstSeen": "2026-11-09T10:45:28.004Z",
-      "url": "https://newsinfo.inquirer.net/2338517/village-councilor-pastor-found-dead-in-cagayan",
+      "published": "2026-11-09T14:01:14.274Z",
+      "firstSeen": "2026-11-09T12:01:01.242Z",
+      "url": "https://newsinfo.inquirer.net/2338552/adu-legal-aid-office-hails-acquittal-of-2-clients-arrested-over-protests",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2020/02/Police-line-crime-scene-canva-stock-photo-scaled.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/gavel-justice-stock-9November2026_3.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "TUGUEGARAO CITY &#8211; The bullet-riddled remains of a village councilor and a church pastor were found dumped at a mountainous section of Barangay Capissayan Norte in Gattaran, Cagayan last weekend. Responders recovered the bodies of Johnny Agarpao, a 52-year-old San Miguel village councilor and 30-year-old pastor Jeferson De Leon of Baggao town. A farmer, who"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1v2ijp0",
-      "source": "inqn",
-      "title": "4 DPWH engineers sacked over corruption, bogus project certifications",
-      "summary": "MANILA, Philippines — Newly appointed Public Works Secretary Giovanni Lopez has relieved four district engineers over corruption allegations and irregularities involving infrastructure projects…",
-      "byline": "mesarangay",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:09.921Z",
-      "firstSeen": "2026-11-09T12:01:15.639Z",
-      "url": "https://newsinfo.inquirer.net/2338549/4-dpwh-engineers-sacked-over-corruption-bogus-project-certifications",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/dpwh-lopez1.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Newly appointed Public Works Secretary Giovanni Lopez has relieved four district engineers over corruption allegations and irregularities involving infrastructure projects proposed for the 2027 national budget. Three were removed from their posts following “reports of allegations of corruption” committed by district engineers of the Department of Public Works and Highways (DPWH): Hermon Ines"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-yb2fxf",
-      "source": "inqn",
-      "title": "Manila logs over 4,000 dengue cases from Jan. 1 to Nov. 9",
-      "summary": "MANILA, Philippines — Manila recorded 35 new dengue cases on Monday, Nov. 9, bringing the city&#8217;s total to 4,769 from Jan. 1 to Nov. 9, according to the latest report from the Manila Health…",
-      "byline": "mesarangay",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:09.921Z",
-      "firstSeen": "2026-11-09T11:00:59.142Z",
-      "url": "https://newsinfo.inquirer.net/2338547/manila-logs-over-4000-dengue-cases-from-jan-1-to-nov-9",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/08/mosquito-filephoto-080624.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Manila recorded 35 new dengue cases on Monday, Nov. 9, bringing the city&#8217;s total to 4,769 from Jan. 1 to Nov. 9, according to the latest report from the Manila Health Department (MHD). Dengue had the highest cumulative case count among the illnesses monitored under the city&#8217;s W.I.L.D. diseases surveillance, based on"
+          "text": "MANILA, Philippines — The Legal Aid Office of the Adamson University College of Law on Monday welcomed the acquittal of two of its clients who were arrested on Sept. 21 last year, in connection with the Baha Sa Luneta protest. Lawyer Kathy Panguban, director of the Legal Aid Office, said the acquittal was the result"
         }
       ],
       "truncated": true,
@@ -209,7 +184,7 @@
       "summary": "CALOOCAN CITY, Philippines — Public prosecutors indicted the teller and the registered operator of an authorized lotto outlet in Caloocan before the Regional Trial Court (RTC) in Caloocan on Monday,…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:09.920Z",
+      "published": "2026-11-09T14:01:14.181Z",
       "firstSeen": "2026-11-09T12:01:00.713Z",
       "url": "https://newsinfo.inquirer.net/2338614/caloocan-lotto-outlet-teller-operator-sued-for-illegal-numbers-racket",
       "image": {
@@ -234,7 +209,7 @@
       "summary": "MANILA, Philippines – Mamamayang Liberal party-list Rep. Leila de Lima on Monday said the Liberal Party (LP) sis till hoping thaf Naga City Mayor Leni Robredo will reconsider her decision to no…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:09.920Z",
+      "published": "2026-11-09T14:01:14.181Z",
       "firstSeen": "2026-11-09T12:01:00.799Z",
       "url": "https://newsinfo.inquirer.net/2338613/de-lima-hoping-robredo-reconsiders-decision-to-ditch-bid-for-natl-post",
       "image": {
@@ -253,63 +228,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-i5afxf",
-      "source": "inqn",
-      "title": "AdU legal aid office hails acquittal of 2 clients arrested over protests",
-      "summary": "MANILA, Philippines — The Legal Aid Office of the Adamson University College of Law on Monday welcomed the acquittal of two of its clients who were arrested on Sept. 21 last year, in connection with…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:09.920Z",
-      "firstSeen": "2026-11-09T12:01:01.242Z",
-      "url": "https://newsinfo.inquirer.net/2338552/adu-legal-aid-office-hails-acquittal-of-2-clients-arrested-over-protests",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/gavel-justice-stock-9November2026_3.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Legal Aid Office of the Adamson University College of Law on Monday welcomed the acquittal of two of its clients who were arrested on Sept. 21 last year, in connection with the Baha Sa Luneta protest. Lawyer Kathy Panguban, director of the Legal Aid Office, said the acquittal was the result"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-ub5mpi",
-      "source": "inqn",
-      "title": "Police probing into 2 shooting incidents in Bukidnon capital",
-      "summary": "VALENCIA CITY, Bukidnon — Police are probing two separate shooting incidents that rocked this city on Sunday evening, leaving one dead and another wounded. The first victim was a 56-year-old…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:09.920Z",
-      "firstSeen": "2026-11-09T12:01:04.355Z",
-      "url": "https://newsinfo.inquirer.net/2338562/police-probing-into-2-shooting-incidents-in-bukidnon-capital",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/police-station-of-Valencia-City-Bukidnon-9November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "VALENCIA CITY, Bukidnon — Police are probing two separate shooting incidents that rocked this city on Sunday evening, leaving one dead and another wounded. The first victim was a 56-year-old businessman, a resident of Purok 3, Kurbada, Barangay Tongantongan, Valencia City, who was found dead in a pool of blood inside his room by responding"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-ed973m",
       "source": "inqn",
       "title": "Manila Water readies 33 reservoirs for prolonged El Niño",
       "summary": "MANILA, Philippines — Manila Water has inspected and prepared its 33 reservoirs across the East Zone as part of ongoing measures to help maintain reliable water service amid the very strong El Niño,…",
       "byline": "Alexander Magno",
       "section": "Uncategorized",
-      "published": "2026-11-09T13:31:08.252Z",
+      "published": "2026-11-09T14:01:13.553Z",
       "firstSeen": "2026-11-09T12:30:59.007Z",
       "url": "https://newsinfo.inquirer.net/2338623/manila-water-readies-33-reservoirs-for-prolonged-el-nino",
       "image": {
@@ -334,7 +259,7 @@
       "summary": "Atty. Salvador Paolo Panelo Jr. (Screengrab from video of the Office of the Vice President) MANILA, Philippines — Questioning defense witness Jamie Adalin on his trips to China was improper and…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:08.252Z",
+      "published": "2026-11-09T14:01:13.553Z",
       "firstSeen": "2026-11-09T12:31:02.627Z",
       "url": "https://newsinfo.inquirer.net/2338568/asking-witness-about-china-trips-improper-unfair-says-vp-spox",
       "image": {
@@ -359,7 +284,7 @@
       "summary": "SAN FRANCISCO, Agusan del Sur — Poverty incidence among families in Caraga (Region 13) dropped to 7.8 percent in 2025, according to preliminary results of the 2025 Family Income and Expenditure…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:08.118Z",
+      "published": "2026-11-09T14:01:13.466Z",
       "firstSeen": "2026-11-09T12:30:57.155Z",
       "url": "https://newsinfo.inquirer.net/2338574/caraga-poverty-rate-drops-to-7-8-in-2025",
       "image": {
@@ -384,7 +309,7 @@
       "summary": "MANILA, Philippines &#8211; The heat index peaked at a dangerous 42°C in Palawan and Eastern Samar on Monday, according to the Philippine Atmospheric, Geophysical and Astronomical Services…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:08.118Z",
+      "published": "2026-11-09T14:01:13.466Z",
       "firstSeen": "2026-11-09T12:30:57.234Z",
       "url": "https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar",
       "image": {
@@ -403,38 +328,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-p5xzzp",
-      "source": "inqn",
-      "title": "Pagadian City hosts 2026 MindaCon, more tech investments seen",
-      "summary": "PAGADIAN CITY, Zamboanga del Sur &#8211; The National ICT (Information and Communications Technology) Confederation of the Philippines (NICP) has reaffirmed its commitment to driving digital…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:05.939Z",
-      "firstSeen": "2026-11-09T13:01:03.201Z",
-      "url": "https://newsinfo.inquirer.net/2338589/pagadian-city-hosts-2026-mindacon-more-tech-investments-seen",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Pagadian-hosting-of-2026-MindaCon-9November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PAGADIAN CITY, Zamboanga del Sur &#8211; The National ICT (Information and Communications Technology) Confederation of the Philippines (NICP) has reaffirmed its commitment to driving digital transformation in the countryside. During Monday’s opening of 11th Mindanao ICT Conference (MindaCon) 2026 from Nov. 9 to 11, NICP president Jessraf Palmares lauded the city government&#8217;s thrust toward digital"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-dpkn8u",
       "source": "inqn",
       "title": "Doubled night shift differential for private sector workers pushed",
       "summary": "MANILA, Philippines — A bill seeking to double the minimum night shift differential for private-sector workers from the current 10 percent to 20 percent of their regular hourly wage has been filed by…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:31:04.520Z",
+      "published": "2026-11-09T14:01:12.415Z",
       "firstSeen": "2026-11-09T13:01:03.201Z",
       "url": "https://newsinfo.inquirer.net/2338595/doubled-night-shift-differential-for-private-sector-workers-pushed",
       "image": {
@@ -453,13 +353,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-p5xzzp",
+      "source": "inqn",
+      "title": "Pagadian City hosts 2026 MindaCon, more tech investments seen",
+      "summary": "PAGADIAN CITY, Zamboanga del Sur &#8211; The National ICT (Information and Communications Technology) Confederation of the Philippines (NICP) has reaffirmed its commitment to driving digital…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T14:01:12.415Z",
+      "firstSeen": "2026-11-09T13:01:03.201Z",
+      "url": "https://newsinfo.inquirer.net/2338589/pagadian-city-hosts-2026-mindacon-more-tech-investments-seen",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Pagadian-hosting-of-2026-MindaCon-9November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PAGADIAN CITY, Zamboanga del Sur &#8211; The National ICT (Information and Communications Technology) Confederation of the Philippines (NICP) has reaffirmed its commitment to driving digital transformation in the countryside. During Monday’s opening of 11th Mindanao ICT Conference (MindaCon) 2026 from Nov. 9 to 11, NICP president Jessraf Palmares lauded the city government&#8217;s thrust toward digital"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-df6c09",
       "source": "inqn",
       "title": "Pope names Mati bishop as new head of Davao archdiocese",
       "summary": "MANILA, Philippines — Mati Bishop Abel Apigo was appointed by Pope Leo XIV as the new archbishop of Davao, succeeding Archbishop Romulo Valles, who already reached the mandatory retirement age for…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:30:59.163Z",
+      "published": "2026-11-09T14:01:12.380Z",
       "firstSeen": "2026-11-09T13:30:59.163Z",
       "url": "https://newsinfo.inquirer.net/2338601/pope-names-mati-bishop-as-new-head-of-davao-archdiocese",
       "image": {
@@ -478,38 +403,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-nva005",
-      "source": "inqg",
-      "title": "DFA NCR consular offices to close on Nov. 16-18 for Asean Summit",
-      "summary": "MANILA, Philippines — The Department of Foreign Affairs (DFA) will suspend operations at its consular offices in Metro Manila for three days next week in view of the country&#8217;s hosting of the…",
-      "byline": "mesarangay",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-09T13:30:56.621Z",
-      "firstSeen": "2026-11-09T07:30:55.539Z",
-      "url": "https://globalnation.inquirer.net/346509/dfa-ncr-consular-offices-to-close-on-nov-16-18-for-asean-summit",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/02/DFA-06February2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Department of Foreign Affairs (DFA) will suspend operations at its consular offices in Metro Manila for three days next week in view of the country&#8217;s hosting of the 49th Association of Southeast Asian Nations (Asean) Summit. In an advisory posted Monday, the DFA said its Office of Consular Affairs (OCA)-Aseana, DoubleDragon releasing"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-bylx8k",
       "source": "inqn",
       "title": "Closed fishing season may trigger price hike, supply issues &#8211; Pamalakaya",
       "summary": "MANILA, Philippines—The upcoming closed fishing season in major fishing grounds across the country could trigger an artificial shortage of fish and drive up market prices, the fishers&#8217; group…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:30:56.234Z",
+      "published": "2026-11-09T14:01:11.700Z",
       "firstSeen": "2026-11-09T13:30:56.234Z",
       "url": "https://newsinfo.inquirer.net/2338612/closed-fishing-season-may-trigger-price-hike-supply-issues-pamalakaya",
       "image": {
@@ -528,38 +428,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-opyi3z",
-      "source": "inqg",
-      "title": "PH links with UNDP to address climate-related loss and damage",
-      "summary": "MANILA, Philippines— The Philippines is working with the United Nations Development Programme (UNDP) Philippines to come up with a strategic and coordinated national response to climate-related loss…",
-      "byline": "Alexander Magno",
-      "section": "Philippines",
-      "published": "2026-11-09T13:30:55.570Z",
-      "firstSeen": "2026-11-09T09:31:02.539Z",
-      "url": "https://globalnation.inquirer.net/346524/ph-links-with-undp-to-address-climate-related-loss-and-damage",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/JuanMiguelCuna-InauguralMeeting-DPCG-09Nov2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines— The Philippines is working with the United Nations Development Programme (UNDP) Philippines to come up with a strategic and coordinated national response to climate-related loss and damage. Coordinating the efforts with the UNDP are the Department of Environment and Natural Resources (DENR) and the Climate Change Commission (CCC). In a DENR statement issued"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1hnzg3p",
       "source": "inqn",
       "title": "Luistro presses Mans Carpio to testify on assets shared with VP",
       "summary": "MANILA, Philippines — The House prosecution is wondering who will explain the financial records and disputed assets of Vice President Sara Duterte and her husband, lawyer Manases “Mans” Carpio,…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:30:55.570Z",
+      "published": "2026-11-09T14:01:11.667Z",
       "firstSeen": "2026-11-09T13:30:55.570Z",
       "url": "https://newsinfo.inquirer.net/2338655/luistro-presses-mans-carpio-to-testify-on-assets-shared-with-vp",
       "image": {
@@ -578,13 +453,88 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1p60e4x",
+      "source": "inqn",
+      "title": "Baguio City Mayor Magalong urges responsible use of AI in schools",
+      "summary": "BAGUIO CITY—Mayor Benjamin Magalong has urged education leaders to promote the ethical and responsible use of artificial intelligence (AI) in schools, emphasizing that the technology should support…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T14:01:08.101Z",
+      "firstSeen": "2026-11-09T13:30:55.519Z",
+      "url": "https://newsinfo.inquirer.net/2338626/baguio-city-mayor-magalong-urges-responsible-use-of-ai-in-schools",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/17aug2026-Artificial-Intelligence.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BAGUIO CITY—Mayor Benjamin Magalong has urged education leaders to promote the ethical and responsible use of artificial intelligence (AI) in schools, emphasizing that the technology should support learning rather than make students dependent on it. In a statement Sunday, Nov. 8, Magalong stressed the need for proper and controlled use of AI in education during"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-opyi3z",
+      "source": "inqg",
+      "title": "PH links with UNDP to address climate-related loss and damage",
+      "summary": "MANILA, Philippines— The Philippines is working with the United Nations Development Programme (UNDP) Philippines to come up with a strategic and coordinated national response to climate-related loss…",
+      "byline": "Alexander Magno",
+      "section": "Philippines",
+      "published": "2026-11-09T14:01:04.774Z",
+      "firstSeen": "2026-11-09T09:31:02.539Z",
+      "url": "https://globalnation.inquirer.net/346524/ph-links-with-undp-to-address-climate-related-loss-and-damage",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/JuanMiguelCuna-InauguralMeeting-DPCG-09Nov2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines— The Philippines is working with the United Nations Development Programme (UNDP) Philippines to come up with a strategic and coordinated national response to climate-related loss and damage. Coordinating the efforts with the UNDP are the Department of Environment and Natural Resources (DENR) and the Climate Change Commission (CCC). In a DENR statement issued"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1dreinw",
+      "source": "inqn",
+      "title": "Butuan drug suspect busted, over P700,000 shabu seized",
+      "summary": "A 30-year-old suspect, alias “Cyclone,” was arrested in a drug buy-bust operation in Barangay Ong Yiu, Butuan City on Sunday, Nov. 8, 2026.(Photo courtesy of Police Regional Office 13) SAN FRANCISCO,…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T14:01:04.578Z",
+      "firstSeen": "2026-11-09T14:01:04.578Z",
+      "url": "https://newsinfo.inquirer.net/2338634/butuan-drug-suspect-busted-over-p700000-shabu-seized",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/P712K-___shabu-seized-from-street-level-drug-suspect-in-Butuan-buy-bust-9November2026_2.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A 30-year-old suspect, alias “Cyclone,” was arrested in a drug buy-bust operation in Barangay Ong Yiu, Butuan City on Sunday, Nov. 8, 2026.(Photo courtesy of Police Regional Office 13) SAN FRANCISCO, Agusan del Sur &#8211; Anti-narcotics operatives seized over P700,000 worth of suspected shabu from an alleged street-level drug pusher arrested in an entrapment operation"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-1vu6tdf",
       "source": "inqg",
       "title": "61 OFWs return from Saudi Arabia amid unrest",
       "summary": "MANILA, Philippines — Sixty-one overseas Filipino workers (OFWs) affected by unrest in Saudi Arabia have returned safely to the Philippines, receiving financial assistance, temporary accommodation…",
       "byline": "mesarangay",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-09T13:30:55.519Z",
+      "published": "2026-11-09T14:01:02.741Z",
       "firstSeen": "2026-11-09T12:30:57.155Z",
       "url": "https://globalnation.inquirer.net/346527/61-ofws-return-from-saudi-arabia-amid-unrest",
       "image": {
@@ -600,26 +550,1042 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-1p60e4x",
+      "id": "inqn-kkn3xx",
       "source": "inqn",
-      "title": "Baguio City Mayor Magalong urges responsible use of AI in schools",
-      "summary": "BAGUIO CITY—Mayor Benjamin Magalong has urged education leaders to promote the ethical and responsible use of artificial intelligence (AI) in schools, emphasizing that the technology should support…",
-      "byline": "ggaviola",
+      "title": "Dy: House will soon launch transparency platform on its website",
+      "summary": "MANILA, Philippines — The House of Representatives will soon launch a transparency platform on its website that will allow Filipinos to scrutinize government-funded projects, including their…",
+      "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-09T13:30:55.519Z",
-      "firstSeen": "2026-11-09T13:30:55.519Z",
-      "url": "https://newsinfo.inquirer.net/2338626/baguio-city-mayor-magalong-urges-responsible-use-of-ai-in-schools",
+      "published": "2026-11-09T14:01:02.739Z",
+      "firstSeen": "2026-11-09T14:01:02.739Z",
+      "url": "https://newsinfo.inquirer.net/2338667/dy-house-will-soon-launch-transparency-platform-on-its-website",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/17aug2026-Artificial-Intelligence.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/05/28-may-2026-bojie10.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "BAGUIO CITY—Mayor Benjamin Magalong has urged education leaders to promote the ethical and responsible use of artificial intelligence (AI) in schools, emphasizing that the technology should support learning rather than make students dependent on it. In a statement Sunday, Nov. 8, Magalong stressed the need for proper and controlled use of AI in education during"
+          "text": "MANILA, Philippines — The House of Representatives will soon launch a transparency platform on its website that will allow Filipinos to scrutinize government-funded projects, including their locations, funding allocations, and implementation status, Speaker Faustino “Bojie” G. Dy III announced on Monday. The project is part of continuing reforms to strengthen transparency and accountability in public"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-natwq6",
+      "source": "inqn",
+      "title": "Lotto draw results on Monday, November 9",
+      "summary": "MANILA, Philippines—No ticket holder won the Grand Lotto 6/55 and Mega Lotto 6/45 jackpot on Monday, November 9, 2026, according to the Philippine Charity Sweepstakes Office. Grand Lotto 6/55 draw…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T14:01:02.666Z",
+      "firstSeen": "2026-11-09T14:01:02.666Z",
+      "url": "https://newsinfo.inquirer.net/2338670/lotto-draw-results-on-monday-november-9",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/10/pcso-lotto-logo-filephoto-10222-4.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—No ticket holder won the Grand Lotto 6/55 and Mega Lotto 6/45 jackpot on Monday, November 9, 2026, according to the Philippine Charity Sweepstakes Office. Grand Lotto 6/55 draw result: 53-44-36-18-20-28. Jackpot prize: ₱349.05 million Mega Lotto 6/45 draw result: 29-27-12-11-43-05. Jackpot prize: ₱15 million. Minor games The PCSO also reported the following results"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-4l109q",
+      "source": "inqg",
+      "title": "DFA statement looks like attempt to monopolize China discourse &#8211; De Lima",
+      "summary": "MANILA, Philippines – Mamamayang Liberal party-list Rep. Leila de Lima on Monday expressed concern that the Department of Foreign Affairs (DFA) is attempting to muzzle other authorities from speaking…",
+      "byline": "ggaviola",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-09T14:01:02.666Z",
+      "firstSeen": "2026-11-09T14:01:02.666Z",
+      "url": "https://globalnation.inquirer.net/346540/dfa-statement-looks-like-attempt-to-monopolize-china-discourse-de-lima",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Mamamayang Liberal party-list Rep. Leila de Lima on Monday expressed concern that the Department of Foreign Affairs (DFA) is attempting to muzzle other authorities from speaking on the West Philippine Sea (WPS) issue. On Sunday, the DFA underscored that diplomacy is the Philippines’ main course of action in managing tensions with other"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-n1qdvp",
+      "source": "abs",
+      "title": "Someone, Someday: Bea, nagmakaawa upang mapigilan ang paghihiganti ni Mariela | Episode 76",
+      "summary": "Someone, Someday: Bea, nagmakaawa upang mapigilan ang paghihiganti ni Mariela | Episode 76",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:57:29.000Z",
+      "firstSeen": "2026-11-09T14:01:02.666Z",
+      "url": "https://www.abs-cbn.com/entertainment/studios/tv/2026/11/9/someone-someday-bea-nagmakaawa-upang-mapigilan-ang-paghihiganti-ni-mariela-episode-76-2157",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Someone, Someday: Bea, nagmakaawa upang mapigilan ang paghihiganti ni Mariela | Episode 76"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-72ui8m",
+      "source": "abs",
+      "title": "Someone, Someday: Mariela, galit na galit na sinaktan si Oliver | Episode 76",
+      "summary": "Someone, Someday: Mariela, galit na galit na sinaktan si Oliver | Episode 76",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:56:55.000Z",
+      "firstSeen": "2026-11-09T14:01:03.048Z",
+      "url": "https://www.abs-cbn.com/entertainment/studios/tv/2026/11/9/someone-someday-mariela-galit-na-galit-na-sinaktan-si-oliver-episode-76-2156",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Someone, Someday: Mariela, galit na galit na sinaktan si Oliver | Episode 76"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "gma-1gvunki",
+      "source": "gma",
+      "title": "PCSO Lotto Results: No winners of P349M Grand Lotto jackpot on Nov. 9",
+      "summary": "No bettors took home the Grand Lotto 6/55 prize of over P349 million after no winners were announced in any of the major lotto jackpot draws on November 9, 2026, the Philippine Charity Sweepstakes…",
+      "byline": "GMA News",
+      "section": "",
+      "published": "2026-11-09T13:55:45.000Z",
+      "firstSeen": "2026-11-09T14:01:02.733Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1008888/pcso-lotto-results-no-winners-of-p349m-grand-lotto-jackpot-on-nov-9/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/11/lotto_110926_2026_11_09_21_51_35.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Filtered By: Topstories"
+        },
+        {
+          "type": "p",
+          "text": "News"
+        },
+        {
+          "type": "p",
+          "text": "Published November 9, 2026 9:55pm"
+        },
+        {
+          "type": "p",
+          "text": "SCREENSHOT FROM PCSO VIDEO"
+        },
+        {
+          "type": "p",
+          "text": "No bettors took home the Grand Lotto 6/55 prize of over P349 million after no winners were announced in any of the major lotto jackpot draws on November 9, 2026, the Philippine Charity Sweepstakes Office (PCSO) said Monday."
+        },
+        {
+          "type": "p",
+          "text": "The Grand Lotto jackpot of P349,051,462.79 was left unclaimed after no bettor played the winning numbers of 53-44-36-18-20-28."
+        },
+        {
+          "type": "p",
+          "text": "There were also no correct guesses of the Megalotto 6/45 winning combination of 29-27-12-11-43-05. The prize would have been P15,000,000."
+        },
+        {
+          "type": "p",
+          "text": "Check here for the complete lotto results. —RF, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1vtcot",
+      "source": "abs",
+      "title": "TV PATROL: Gina Pareño mapapanood sa 'Coco Martin's Sigabo' simula ngayong gabi",
+      "summary": "Mas titindi pa ang eksena sa 'Sigabo' dahil magkakasama muli si Coco Martin at ang premyadong aktres na si Gina Pareño.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:50:40.000Z",
+      "firstSeen": "2026-11-09T14:01:06.332Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/movies-series/2026/11/9/tv-patrol-gina-pare-o-mapapanood-sa-coco-martin-s-sigabo-simula-ngayong-gabi-2150",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mas titindi pa ang eksena sa 'Sigabo' dahil magkakasama muli si Coco Martin at ang premyadong aktres na si Gina Pareño."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-6yfeto",
+      "source": "abs",
+      "title": "ANC: PH GDP growth slows to 2.1% in Q3 2026 as inflation squeezes spending, construction stays subdued",
+      "summary": "Philippine business groups urge the Marcos Jr. administration to act quickly after the country's economy slows down for a third straight quarter. They warn this could reduce investments and jobs in…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:49:57.000Z",
+      "firstSeen": "2026-11-09T14:01:09.893Z",
+      "url": "https://www.abs-cbn.com/news/business/2026/11/9/ph-gdp-growth-slows-to-2-1-in-q3-2026-as-inflation-squeezes-spending-construction-stays-subdued-2149",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Philippine business groups urge the Marcos Jr. administration to act quickly after the country's economy slows down for a third straight quarter. They warn this could reduce investments and jobs in the Philippines."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "cbc-1ged79a",
+      "source": "cbc",
+      "title": "Nvidia's shares slide as chip giant probes CEO Jensen Huang over spy claims",
+      "summary": "",
+      "byline": "CBC",
+      "section": "News",
+      "published": "2026-11-09T13:48:50.000Z",
+      "firstSeen": "2026-11-09T14:01:02.733Z",
+      "url": "https://www.cbc.ca/news/business/nvidia-shares-ceo-jensen-huang-probe-9.7414655?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/95cf65da-03cc-470f-bf9e-9aaadb75081d,1794232007492/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C385%2C3331%2C1873%29%3BResize%3D620",
+        "caption": "Nvidia CEO Jensen Huang speaks during his keynote at the Nvidia GTC conference in Berlin on Oct. 21. Nvidia is conducting an internal probe following a media report that Huang had a close relationship with a Chinese businesswoman who allegedly passed information to Beijing. (Annegret Hilse/Reuters)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Business·New"
+        },
+        {
+          "type": "p",
+          "text": "Nvidia shares tumbled on Monday after an internal investigation into whether CEO Jensen Huang had been targeted by a foreign intelligence effort put his future at the AI chipmaker under scrutiny."
+        },
+        {
+          "type": "h",
+          "text": "Internal probe follows media report that Huang had relationship with Chinese woman who allegedly shared info"
+        },
+        {
+          "type": "p",
+          "text": "The internal probe followed a media report that Huang had a close relationship with a Chinese businesswoman who allegedly passed information to Beijing. Huang told Nvidia's employees that he had been unfaithful to his wife, without disclosing details of the relationship."
+        },
+        {
+          "type": "p",
+          "text": "The investigation, announced on Sunday, has put a spotlight on Huang's future given Nvidia's status as the world's most valuable chipmaker and the CEO's role as the most prolific salesman of the AI boom."
+        },
+        {
+          "type": "p",
+          "text": "The leather-jacketed Huang enjoys rock star status worldwide, particularly in Asia, where he often mingles freely with fans, taking selfies and signing autographs for his devoted followers."
+        },
+        {
+          "type": "p",
+          "text": "He is Nvidia's fifth-largest shareholder with a roughly 3.6 per cent stake, according to LSEG data, and he keeps a tight grip on the company through an unusually flat structure in which dozens of executives report directly to him."
+        },
+        {
+          "type": "p",
+          "text": "But unlike Meta Platforms or SpaceX, Nvidia has no dual-class shares that would give its co-founder majority voting control."
+        },
+        {
+          "type": "p",
+          "text": "Nvidia's dramatic rise to $3T | About That"
+        },
+        {
+          "type": "p",
+          "text": "The fallout of the probe extended to South Korea, where Madison Huang, Huang's daughter and an Nvidia executive, cancelled a planned visit to Seoul for an Nvidia conference that was set to begin on Monday, according to companies she had been scheduled to meet."
+        },
+        {
+          "type": "p",
+          "text": "Nvidia's shares tumbled nearly five per cent in U.S. premarket trading, extending last week's sell-off and pushing the stock to fresh multi-month lows. At the current levels, the chipmaker would lose around $250 billion US in value from its last closing price."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Nvidia probes whether CEO Jensen Huang targeted by foreign intelligence as he admits affair"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"The market's probably telling you now this does no favours to the stock whatsoever in a time when there's a lot of conjecture as to the build-out of data centres,\" said Chris Weston, head of research at brokerage Pepperstone in Melbourne, Australia."
+        },
+        {
+          "type": "p",
+          "text": "But Weston said he did not think Huang, whom he described as the \"godfather of AI,\" would be replaced."
+        },
+        {
+          "type": "p",
+          "text": "\"If we genuinely thought he was going to step down … the stock would be down — it would be an absolute bloodbath, to be honest,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "Nvidia said its board has confidence in Huang. Some analysts said he has no natural successor within the company in case he decides to step down."
+        },
+        {
+          "type": "p",
+          "text": "The New York Times reported last month that Huang had a relationship with Alice Huang, an unrelated former executive of Singapore-based company Megaspeed, who U.S. authorities investigated and concluded was a Chinese intelligence asset."
+        },
+        {
+          "type": "p",
+          "text": "\"The so-called Chinese spy narrative is purely a groundless accusation, slander, and a smear,\" Chinese Foreign Ministry spokesperson Guo Jiakun told reporters in Beijing."
+        },
+        {
+          "type": "p",
+          "text": "A screengrab from CTI video footage obtained Monday shows a woman identified by Reuters as Alice Huang, after comparison with a photograph obtained separately, attending a dinner with Nvidia CEO Jensen Huang at a restaurant in Taipei, Taiwan, on May 22, 2025. (CTI/Reuters)"
+        },
+        {
+          "type": "p",
+          "text": "Megaspeed did not respond immediately to a request for comment on Monday, a public holiday in Singapore."
+        },
+        {
+          "type": "p",
+          "text": "Alice Huang did not respond to the New York Times last month when it first reported her relationship with Huang, and Reuters could not determine her location to seek comment on Monday."
+        },
+        {
+          "type": "h",
+          "text": "Asia partners unaffected"
+        },
+        {
+          "type": "p",
+          "text": "Shares in Nvidia's key Asian chip suppliers rebounded on Monday after last week's selloff of AI-related stocks, with TSMC closing 4.7 per cent higher, while Samsung Electronics and SK Hynix ending up 0.6 per cent and 0.4 per cent, respectively."
+        },
+        {
+          "type": "p",
+          "text": "Some prominent figures weighed in on Huang's admission. Billionaire investor Bill Ackman, founder of Pershing Square Capital Management, said on X the Nvidia CEO was an \"incredible human,\" but if \"indeed this is more than an affair, then it is obviously a real problem.\""
+        },
+        {
+          "type": "p",
+          "text": "\"I am hoping for a simple affair, not a risk to our national security,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "Tesla CEO Elon Musk commented, \"I agree,\" on a post by Sequoia partner Shaun Maguire that said Huang \"did something incredibly dumb\" that was \"bad for America\" but that \"Jensen is irreplaceable for America's AI leadership.\""
+        },
+        {
+          "type": "p",
+          "text": "U.S. President Donald Trump said on Sunday he had not spoken to Huang about the allegations, but called him a fine person. \"I hope everything's fine. He's done such an incredible job,\" he added."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Nvidia unveils new superchip to bring AI functions into personal computers"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "When asked if he believed he should have acted on intelligence when he was briefed about it, Trump said: \"No, I don't think so. I think he's an honourable guy. I think he probably has an excuse for it. You have to hear it.\""
+        },
+        {
+          "type": "p",
+          "text": "The New York Times reported that Trump was briefed about the intelligence findings roughly a year ago and chose not to do anything with the information."
+        },
+        {
+          "type": "h",
+          "text": "Cancelled visit"
+        },
+        {
+          "type": "p",
+          "text": "Madison Huang had initially planned to visit South Korean AI startup Rebellions and hold a question-and-answer session with Kakao Mobility. Rebellions said the events were cancelled due to \"unavoidable internal circumstances at Nvidia.\""
+        },
+        {
+          "type": "p",
+          "text": "Nvidia AI Day Seoul, a two-day event expected to draw about 2,000 participants to discuss physical AI, agentic AI and infrastructure, will proceed as planned, according to South Korean media. Nvidia did not respond immediately to a request for comment."
+        },
+        {
+          "type": "p",
+          "text": "Analysts said a prolonged investigation or internal review could potentially delay Nvidia's investment decisions or product launches, with broader implications for the semiconductor industry."
+        },
+        {
+          "type": "p",
+          "text": "Ryu Young-ho, a senior analyst at NH Investment & Securities, said Nvidia's rivals, including Advanced Micro Devices, could attract greater attention in the short term, potentially putting Samsung, which has close business ties with AMD, in the spotlight."
+        },
+        {
+          "type": "p",
+          "text": "Still, he said Nvidia's products would be difficult to replace, limiting the potential impact, although shipments to China could face further delays depending on how the situation developed."
+        },
+        {
+          "type": "p",
+          "text": "South Korea's deputy science minister said on Monday the government expected no disruptions to contracted deliveries of Nvidia graphics processing units despite issues currently facing the company."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1coeusd",
+      "source": "abs",
+      "title": "TV PATROL: Baby Dolls at Alamat nagpakitang gilas sa kani-kanilang concert",
+      "summary": "Humataw sa kanilang kauna-unahang 'Ooh La Live' concert ng Baby Dolls habang ibinida ng P-Pop boy group na Alamat ang mayamang kultura ng Pilipinas sa kanilang 'Alamat: The Legendary Experience' o…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:47:14.000Z",
+      "firstSeen": "2026-11-09T14:01:11.700Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/events/2026/11/9/tv-patrol-baby-dolls-at-alamat-nagpakitang-gilas-sa-kani-kanilang-concert-2147",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Humataw sa kanilang kauna-unahang 'Ooh La Live' concert ng Baby Dolls habang ibinida ng P-Pop boy group na Alamat ang mayamang kultura ng Pilipinas sa kanilang 'Alamat: The Legendary Experience' o ALX concert."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-ga0vka",
+      "source": "abs",
+      "title": "PSEi slumps 1.5% with Q3 2026 growth at slowest since pandemic",
+      "summary": "Philippine shares slump in response to Monday's GDP print. One market analyst believes the lower growth figure could further undermine confidence in the local bourse.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:44:17.000Z",
+      "firstSeen": "2026-11-09T14:01:11.700Z",
+      "url": "https://www.abs-cbn.com/news/business/2026/11/9/psei-slumps-1-5-with-q3-2026-growth-at-slowest-since-pandemic-2144",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Philippine shares slump in response to Monday's GDP print. One market analyst believes the lower growth figure could further undermine confidence in the local bourse."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "grd-1s3ltn2",
+      "source": "grd",
+      "title": "‘Obvious risk of further tragedy’ at rail crossing type at which Amazon driver died, inquiry finds",
+      "summary": "<p>Call for overhaul of manually operated level crossings after delivery worker was killed by passenger train in Kent</p><p>An Amazon delivery driver was killed by a train after he drove his van on…",
+      "byline": "Gwyn Topham Transport correspondent",
+      "section": "Rail industry",
+      "published": "2026-11-09T13:43:57.000Z",
+      "firstSeen": "2026-11-09T14:01:02.733Z",
+      "url": "https://www.theguardian.com/business/2026/nov/09/amazon-driver-died-inquiry-manually-operated-level-crossing-kent",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/2c9380b8b1020412df6921ea4a4e0e4d68512f5c/511_0_7678_6144/master/7678.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=3ac4bb8806158d06833de706654c7e26",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An Amazon delivery driver was killed by a train after he drove his van on to railway tracks at a manually operated level crossing, apparently without realising he needed to open the exit gate first, an official investigation has reported."
+        },
+        {
+          "type": "p",
+          "text": "Safety inspectors said there was “an obvious risk of further tragedy”, with a second similar fatal event still being investigated, and called for an overhaul of this type of crossing."
+        },
+        {
+          "type": "p",
+          "text": "The van driver, Brandon Hatcher, 23, of Ashford, Kent, died at the Bax crossing near Teynham after being hit by a passenger train from Ramsgate to London in July last year."
+        },
+        {
+          "type": "p",
+          "text": "While signs at the crossing told road users to check for a green light before opening both gates, and again before closing both gates, the Rail Accident Investigation Branch report found that the traffic light system “almost certainly led [the driver] to believe that it was safe to enter the crossing once the entry gate had been opened, despite the exit gate still being closed”."
+        },
+        {
+          "type": "p",
+          "text": "Hatcher drove his van across most of the track and was parked when the lights turned red and alarms sounded to indicate an approaching train. He opened the exit gate but not sufficiently to pass at the first attempt, tried again and was returning to the door of his van when the Southeastern train, travelling at 90mph, came within view 300 metres away."
+        },
+        {
+          "type": "p",
+          "text": "The train driver applied the emergency brake but could not avoid the fatal collision. Three train passengers reported minor injuries."
+        },
+        {
+          "type": "p",
+          "text": "The signage had been redesigned in recent years but the RAIB found that it “did not sufficiently consider how diverse information sources may influence crossing user behaviour”."
+        },
+        {
+          "type": "p",
+          "text": "It said the training and guidance provided to the delivery driver, who was self-employed but working on behalf of a logistics company, GG Logistix, delivering Amazon parcels, “had not prepared him to use the crossing safely”. It called for Network Rail and the Department for Transport to review the design, laws and guidance around this type of level crossing to reduce the risk."
+        },
+        {
+          "type": "p",
+          "text": "Another delivery driver was also killed when hit by a Northern train at a manual crossing in Lancashire in August. The circumstances of the death of Simon Gettings, 55, remain under investigation."
+        },
+        {
+          "type": "p",
+          "text": "Andrew Hall, the chief inspector of rail accidents, said: “These deaths are a tragedy, but as a train can be derailed by striking a delivery van, both accidents could also have had serious consequences for the people on board."
+        },
+        {
+          "type": "p",
+          "text": "“Private user worked crossings are a 19th-century concept operating in a 21st century world of more dense, faster rail services, more rural housing and abundant home deliveries. Most road users are unfamiliar with this type of crossing and with how to use them safely.”"
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "He urged the rail industry and the DfT “to find effective ways to mitigate this obvious risk before there is further tragedy”."
+        },
+        {
+          "type": "p",
+          "text": "The rail regulator, ORR, said it would “ensure lessons are learned and improvements made to protect crossing users, passengers and railway staff”."
+        },
+        {
+          "type": "p",
+          "text": "David Davidson, the chief operating officer for South Eastern Railway, said: “Our thoughts remain with the family and loved ones of Brandon Hatcher who tragically lost his life following a collision with one of our trains.”"
+        },
+        {
+          "type": "p",
+          "text": "He said they would study the report’s recommendations closely, adding: “We have already made changes to the layout of the site and we have published a toolkit with guidance on this type of crossing for professional road drivers. We will continue working with the industry and all our partners to help prevent accidents like this from happening again.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-wrh104",
+      "source": "abs",
+      "title": "Rise continues: Alex Eala now world no. 15",
+      "summary": "Filipina tennis star Alex Eala continues her rise in the WTA rankings, even after a tough loss to end her season.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:43:03.000Z",
+      "firstSeen": "2026-11-09T14:01:12.380Z",
+      "url": "https://www.abs-cbn.com/sports/othersports/2026/11/9/rise-continues-alex-eala-now-world-no-15-2143",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Filipina tennis star Alex Eala continues her rise in the WTA rankings, even after a tough loss to end her season."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-15vupte",
+      "source": "inq",
+      "title": "Butuan drug suspect busted, over P700,000 shabu seized",
+      "summary": "A 30-year-old suspect, alias “Cyclone,” was arrested in a drug buy-bust operation in Barangay Ong Yiu, Butuan City on Sunday, Nov. 8, 2026.(Photo courtesy of Police Regional Office 13) SAN FRANCISCO,…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:42:00.000Z",
+      "firstSeen": "2026-11-09T14:01:02.666Z",
+      "url": "https://newsinfo.inquirer.net/2338634/butuan-drug-suspect-busted-over-p700000-shabu-seized",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/P712K-___shabu-seized-from-street-level-drug-suspect-in-Butuan-buy-bust-9November2026_2-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A 30-year-old suspect, alias “Cyclone,” was arrested in a drug buy-bust operation in Barangay Ong Yiu, Butuan City on Sunday, Nov. 8, 2026.(Photo courtesy of Police Regional Office 13) SAN FRANCISCO, Agusan del Sur &#8211; Anti-narcotics operatives seized over P700,000 worth of suspected shabu from an alleged street-level drug pusher arrested in an entrapment operation in Butuan City on Sunday. Brig. Gen. Rolindo Suguilon, Police Regional Office 13 (PRO-13) director, identified the suspect as alias “Cyclone,” 30, a resident of Purok 7, Barangay Bading. He was arrested in Purok 1, Barangay Ong Yiu with 104.75 grams of suspected shabu worth an [&hellip;]... Keep on reading: Butuan drug suspect busted, over P700,000 shabu seized"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "rap-dkl5my",
+      "source": "rap",
+      "title": "House pushes thousands more multi-purpose buildings. Are they really needed?",
+      "summary": "House appropriations panel senior vice chairperson Albert Garcia says multi-purpose buildings can be used for Zumba, basketball games, and even as evacuation centers",
+      "byline": "James Patrick Cruz",
+      "section": "Editors' Pick",
+      "published": "2026-11-09T13:38:17.000Z",
+      "firstSeen": "2026-11-09T14:01:02.666Z",
+      "url": "https://www.rappler.com/newsbreak/inside-track/multi-purpose-building-2027-budget-insertion/",
+      "image": {
+        "src": "https://www.youtube.com/embed/DDomFw0g3KU",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LOWER CHAMBER. The House of Representatives Session Hall."
+        },
+        {
+          "type": "p",
+          "text": "House of Representatives' Facebook page"
+        },
+        {
+          "type": "p",
+          "text": "House appropriations panel senior vice chairperson Albert Garcia says multi-purpose buildings can be used for Zumba, basketball games, and even as evacuation centers"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The House of Representatives has approved an additional P42.7 billion for multi-purpose buildings in the proposed 2027 national budget, raising the total allocation to P83.7 billion.",
+            "Lawmakers argue that the funding is necessary to meet the needs of the country's 42,000 barangays, with multi-purpose buildings serving various community functions."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "How many multi-purpose buildings does the country need?"
+        },
+        {
+          "type": "p",
+          "text": "For members of the House of Representatives, apparently, thousands more."
+        },
+        {
+          "type": "p",
+          "text": "In the House-approved version of the proposed 2027 national budget, lawmakers inserted an additional P42.7 billion for multi-purpose buildings."
+        },
+        {
+          "type": "p",
+          "text": "That brings the allocation from the P41 billion proposed by the Marcos administration to P83.7 billion — more than double the proposal! The sum is enough to fund an estimated 5,765 buildings."
+        },
+        {
+          "type": "p",
+          "text": "A lot, right?"
+        },
+        {
+          "type": "p",
+          "text": "For congressmen, not quite."
+        },
+        {
+          "type": "p",
+          "text": "House appropriations committee senior vice chairperson Albert Garcia and other lawmakers defended the allocation, arguing that the country has tens of thousands of barangays that need such facilities."
+        },
+        {
+          "type": "p",
+          "text": "“How many barangays do we have? 42,000 barangays. That’s a mere 10% (referring to the allocation for multi-purpose buildings) of the need of barangays across the nation,” Garcia said."
+        },
+        {
+          "type": "p",
+          "text": "Lawmakers also claimed that requests from local government units for multi-purpose buildings continue to pour into their offices."
+        },
+        {
+          "type": "p",
+          "text": "So, what exactly do barangays need all these buildings for?"
+        },
+        {
+          "type": "p",
+          "text": "Garcia said multi-purpose buildings can serve several purposes, from covered courts and daycare centers to classrooms and venues for community meetings."
+        },
+        {
+          "type": "p",
+          "text": "“Alam ‘nyo po sa mga probinsiya at barangay na nasa labas ng Metro Manila, napakaimportante po nitong multi-purpose building,” Garcia said. (In provinces and barangays outside Metro Manila, multi-purpose buildings are very important.)"
+        },
+        {
+          "type": "p",
+          "text": "An analysis by People’s Budget Coalition (PBC) and BetterGovPH, however, showed that most of the allocation in the previous years for multi-purpose buildings were in Metro Manila."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/892546170_10164044746852153_4726306826859585260_n.jpg?fit=1024%2C1024",
+          "caption": ""
+        },
+        {
+          "type": "p",
+          "text": "He cited covered courts as an example, saying these can host Zumba sessions, barangay consultations, and basketball games for young people."
+        },
+        {
+          "type": "p",
+          "text": "“Halimbawa, covered court. Diyan po nag-Zu-Zumba ’yung ating mga kababayan sa barangay na ’yun for healthy lifestyle. Diyan po nagme-meeting si kapitan para konsultahin ang kanyang mga ka-barangay. Diyan po nagba-basketball tuwing hapon ’yung ating mga kabataan para umiwas sa droga, para maging mas malusog kaysa puro gadgets na lang ginagawa ng ating mga kabataan,” he said."
+        },
+        {
+          "type": "p",
+          "text": "(For example, a covered court. That’s where our constituents in the barangay hold Zumba sessions to promote a healthy lifestyle. It’s where the barangay captain holds meetings to consult with residents. It’s also where young people play basketball every afternoon to keep them away from drugs and encourage them to stay healthy, rather than spend all their time on gadgets.)"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/DDomFw0g3KU/sddefault.jpg",
+          "caption": "House pushes thousands more multi-purpose buildings. Are they really needed?"
+        },
+        {
+          "type": "p",
+          "text": "But not everyone is convinced that the billions in additional funding are adequately justified."
+        },
+        {
+          "type": "p",
+          "text": "PBC and BetterGovPH flagged the multi-purpose building insertions, saying publicly available supporting documents were lacking to establish the need for these projects."
+        },
+        {
+          "type": "p",
+          "text": "Fuentebella, however, defended the insertions, insisting they went through the proper process."
+        },
+        {
+          "type": "p",
+          "text": "“Lahat po nito nanggaling sa request nila. Hindi lang po sa kagustuhan ng mga kongresista. So it’s a bottom-up budgeting ang ginagawa natin,” Fuentebella said. (All of these came from requests made by the communities themselves, not simply from the congressmen’s own preferences. So what we are practicing is bottom-up budgeting.)"
+        },
+        {
+          "type": "p",
+          "text": "He said that there are documents to support these projects, but these have yet to be seen by the public."
+        },
+        {
+          "type": "p",
+          "text": "This isn’t the first time Congress has substantially increased funding for these projects."
+        },
+        {
+          "type": "p",
+          "text": "In 2026, lawmakers more than doubled the P29.7 billion allocation proposed in the National Expenditure Program, raising it to P79.9 billion."
+        },
+        {
+          "type": "p",
+          "text": "Budget analysis of PBC and BetterGovPH also showed that the government has allocated P739.6 billion for 79,970 multi-purpose building projects from 2015 to 2026."
+        },
+        {
+          "type": "p",
+          "text": "Perhaps, they want more multi-purpose buildings to put their names or initials? – Rappler.com"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inqg-nva005",
+      "source": "inqg",
+      "title": "DFA NCR consular offices to close on Nov. 16-18 for Asean Summit",
+      "summary": "MANILA, Philippines — The Department of Foreign Affairs (DFA) will suspend operations at its consular offices in Metro Manila for three days next week in view of the country&#8217;s hosting of the…",
+      "byline": "mesarangay",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-09T13:38:04.000Z",
+      "firstSeen": "2026-11-09T07:30:55.539Z",
+      "url": "https://globalnation.inquirer.net/346509/dfa-ncr-consular-offices-to-close-on-nov-16-18-for-asean-summit",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/02/DFA-06February2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Department of Foreign Affairs (DFA) will suspend operations at its consular offices in Metro Manila for three days next week in view of the country&#8217;s hosting of the 49th Association of Southeast Asian Nations (Asean) Summit. In an advisory posted Monday, the DFA said its Office of Consular Affairs (OCA)-Aseana, DoubleDragon releasing"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-13mh9vm",
+      "source": "abs",
+      "title": "Anak ng kagawad sa Tondo, Maynila, arestado matapos manakit ng enforcer",
+      "summary": "Arestado ang isang lalaki sa Tondo, Maynila matapos saktan ang isang tauhan ng Manila Traffic and Parking Bureau (MTPB) na magka-clamp sana ng kaniyang motorsiklong ilegal na nakaparada sa lugar.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:37:10.000Z",
+      "firstSeen": "2026-11-09T14:01:12.415Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/9/anak-ng-kagawad-sa-tondo-maynila-arestado-matapos-manakit-ng-enforcer-2137",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Arestado ang isang lalaki sa Tondo, Maynila matapos saktan ang isang tauhan ng Manila Traffic and Parking Bureau (MTPB) na magka-clamp sana ng kaniyang motorsiklong ilegal na nakaparada sa lugar."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-11obxh1",
+      "source": "inq",
+      "title": "Stanford University offers mental health course inspired by BTS’ RM",
+      "summary": "Stanford University is offering a course on mental health and well-being inspired by BTS leader Kim Namjoon, better known as RM. Titled “Namjooning, and Other Well-Being Inspiration From BTS,” the…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:35:59.000Z",
+      "firstSeen": "2026-11-09T14:01:02.739Z",
+      "url": "https://entertainment.inquirer.net/689374/stanford-university-offers-mental-health-course-inspired-by-bts-rm",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/11/Screenshot-2026-11-09-at-1.11.24-PM-700x477.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Stanford University is offering a course on mental health and well-being inspired by BTS leader Kim Namjoon, better known as RM. Titled “Namjooning, and Other Well-Being Inspiration From BTS,” the course is listed under Psychology 65N (PSYC 65N) as a three-unit introductory seminar for the 2026-2027 academic year. According to the course description on Stanford’s website, the class will draw inspiration from RM’s approach to mental health and well-being, as well as activities and interests associated with him, collectively known among fans as “Namjooning.” The term refers to RM’s appreciation for nature, biking, art, and literature, among other activities. READ: BTS [&hellip;]... Keep on reading: Stanford University offers mental health course inspired by BTS’ RM"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-ty0o99",
+      "source": "abs",
+      "title": "TV PATROL: SC Chief Justice Rodil Zalameda pormal na nanumpa sa harap ni Pang. Marcos",
+      "summary": "Pormal na nanumpa si Justice Rodil Zalameda bilang ika-dalawampu't walong punong mahistrado ng Korte Suprema sa harap ni Pangulong Ferdinand Marcos, Jr. sa Malacañang ngayong Lunes.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:34:49.000Z",
+      "firstSeen": "2026-11-09T14:01:12.415Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/9/tv-patrol-sc-chief-justice-rodil-zalameda-pormal-na-nanumpa-sa-harap-ni-pang-marcos-2134",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pormal na nanumpa si Justice Rodil Zalameda bilang ika-dalawampu't walong punong mahistrado ng Korte Suprema sa harap ni Pangulong Ferdinand Marcos, Jr. sa Malacañang ngayong Lunes."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "rap-ut801z",
+      "source": "rap",
+      "title": "Ateneo coach Louie Alas slapped with 2-game ban",
+      "summary": "The suspension of Ateneo head coach Louie Alas comes at a critical juncture as the fifth-running Blue Eagles chase a UAAP Final Four spot",
+      "byline": "Rappler.com",
+      "section": "Editors' Pick",
+      "published": "2026-11-09T13:34:39.000Z",
+      "firstSeen": "2026-11-09T14:01:03.048Z",
+      "url": "https://www.rappler.com/sports/uaap/ateneo-coach-louie-alas-suspension-november-2026/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2026/11/UAAP89-MBB-Coach-Louie-Alas-november-2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TENSION. Ateneo coach Louie Alas confronts UP player Jacob Bayla after the game."
+        },
+        {
+          "type": "p",
+          "text": "UAAP"
+        },
+        {
+          "type": "p",
+          "text": "The suspension of Ateneo head coach Louie Alas comes at a critical juncture as the fifth-running Blue Eagles chase a UAAP Final Four spot"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ateneo head coach Louie Alas has been suspended for two games due to unsportsmanlike conduct and two infractions during a recent game against UP.",
+            "The suspension will affect upcoming games against Adamson and UST, crucial for Ateneo's chances of making the UAAP Final Four.",
+            "Alas has a history of infractions, including a previous automatic suspension last month, and Ateneo has the option to appeal the current suspension."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Ateneo’s woes continue amid a crucial stretch in the Blue Eagles’ UAAP men’s basketball Final Four chase."
+        },
+        {
+          "type": "p",
+          "text": "The UAAP suspended Ateneo head coach Louie Alas for two games “following the accumulation of two infractions” and his “unsportsmanlike conduct,” the league said in a statement on Monday, November 9."
+        },
+        {
+          "type": "p",
+          "text": "Alas will serve his suspension on Wednesday, November 11, when the Blue Eagles battle the Adamson Falcons, and on Sunday, November 15, when they take on the UST Growling Tigers."
+        },
+        {
+          "type": "p",
+          "text": "The penalty stemmed from two incidents involving Alas during a tense matchup last Saturday, November 7, where the Maroons outlasted the Blue Eagles, 82-74."
+        },
+        {
+          "type": "p",
+          "text": "Right at the buzzer, Alas confronted the UP side before cooler heads stepped in to prevent the situation from escalating."
+        },
+        {
+          "type": "p",
+          "text": "“With less than a second remaining, Alas entered the court, pointed at UP’s Jacob Bayla, and cursed at him following the latter’s dunk,” the league said in a statement. “He again pointed at and cursed at the UP player during the post-game handshake.”"
+        },
+        {
+          "type": "p",
+          "text": "The league said the Ateneo mentor also “engaged in an exchange with UP assistant coach Christian Luanzon despite attempts by UP coaches to pacify him.”"
+        },
+        {
+          "type": "p",
+          "text": "“The Commissioner’s Office determined that his actions escalated tensions between the two teams and risked a potential altercation.”"
+        },
+        {
+          "type": "p",
+          "text": "Prior to the end-game commotion, Alas entered the court at the 3:55 mark of the first quarter, complaining about a non-call."
+        },
+        {
+          "type": "p",
+          "text": "Alas “remained on the playing court despite being warned by the nearest referee to return to the sideline,” the league said."
+        },
+        {
+          "type": "p",
+          "text": "He was assessed a technical foul for unsportsmanlike behavior during the game."
+        },
+        {
+          "type": "p",
+          "text": "The UAAP cited another Alas infraction during Ateneo’s loss to UST, 80-68, on October 17."
+        },
+        {
+          "type": "p",
+          "text": "“At the 5:15 mark of the third quarter, he attempted to distract UST’s Amiel Acido as the latter attempted a corner three-pointer. After Acido converted the shot, Alas touched the back of the UST player,” the statement said."
+        },
+        {
+          "type": "p",
+          "text": "“Although the incident was missed by the game officials, the Commissioner’s Office reviewed the play and imposed the appropriate disciplinary sanction under the UAAP House Rules and applicable FIBA regulations.”"
+        },
+        {
+          "type": "p",
+          "text": "Alas’ suspension comes at a crucial time as the Blue Eagles, running fifth with a 5-6 record, try to chase a Final Four spot with just three games left in the second round."
+        },
+        {
+          "type": "p",
+          "text": "Ateneo can appeal the suspension."
+        },
+        {
+          "type": "p",
+          "text": "Last October, Alas also served an automatic one-game suspension after accumulating three infractions. – Rappler.com"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-t8pwn2",
+      "source": "abs",
+      "title": "Napolcom to probe police in Bacoor, SJDM over animal welfare complaints",
+      "summary": "The National Police Commission (Napolcom) on Monday said it will investigate police officers from Bacoor City in Cavite and San Jose del Monte City in Bulacan following complaints raised by animal…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:33:12.000Z",
+      "firstSeen": "2026-11-09T14:01:13.466Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/9/napolcom-to-probe-police-in-bacoor-sjdm-over-animal-welfare-complaints-2133",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The National Police Commission (Napolcom) on Monday said it will investigate police officers from Bacoor City in Cavite and San Jose del Monte City in Bulacan following complaints raised by animal welfare advocates."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-1a2jd9q",
+      "source": "abs",
+      "title": "TV PATROL: Cristy Fermin at Rommel Chika humarap sa NBI",
+      "summary": "Humarap sa NBI sina showbiz hosts Cristy Fermin at Rommel Chika kaugnay ng reklamong isinampa ng aktres na si Claudine Barretto.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:32:35.000Z",
+      "firstSeen": "2026-11-09T14:01:13.466Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/11/9/tv-patrol-cristy-fermin-at-rommel-chika-humarap-sa-nbi-2132",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Humarap sa NBI sina showbiz hosts Cristy Fermin at Rommel Chika kaugnay ng reklamong isinampa ng aktres na si Claudine Barretto."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-zjqe04",
+      "source": "inq",
+      "title": "US tariff shift could spoil PH export boom",
+      "summary": "MANILA, Philippines — Philippine exporters expect overseas sales to reach a record high this year, potentially surpassing the $100-billion mark, barring any policy shifts in Washington that could…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:31:20.000Z",
+      "firstSeen": "2026-11-09T14:01:03.220Z",
+      "url": "https://business.inquirer.net/620134/us-tariff-shift-could-spoil-ph-export-boom",
+      "image": {
+        "src": "https://business.inquirer.net/files/2026/02/export-stock-photo-620x414.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Philippine exporters expect overseas sales to reach a record high this year, potentially surpassing the $100-billion mark, barring any policy shifts in Washington that could disrupt the country&#8217;s prized shipments of electronics and agricultural goods. Philippine Exporters Confederation Inc. (Philexport) estimates total exports to reach $108 billion in 2026. This would mark an all-time high and a 27-percent increase from last year&#8217;s $84.48 billion. READ: https://business.inquirer.net/601971/us-slaps-philippine-exports-with-new-12-5-tariff From January to September, exports had already reached $73.95 billion according to Philippine Statistics Authority data. But Philexport president Sergio Ortiz-Luis Jr. said the prospect of a banner year largely hinges on US [&hellip;]... Keep on reading: US tariff shift could spoil PH export boom"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1j9sc2n",
+      "source": "inq",
+      "title": "Baguio City Mayor Magalong urges responsible use of AI in schools",
+      "summary": "BAGUIO CITY—Mayor Benjamin Magalong has urged education leaders to promote the ethical and responsible use of artificial intelligence (AI) in schools, emphasizing that the technology should support…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:30:00.000Z",
+      "firstSeen": "2026-11-09T14:01:06.332Z",
+      "url": "https://newsinfo.inquirer.net/2338626/baguio-city-mayor-magalong-urges-responsible-use-of-ai-in-schools",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/17aug2026-Artificial-Intelligence-620x422.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BAGUIO CITY—Mayor Benjamin Magalong has urged education leaders to promote the ethical and responsible use of artificial intelligence (AI) in schools, emphasizing that the technology should support learning rather than make students dependent on it. In a statement Sunday, Nov. 8, Magalong stressed the need for proper and controlled use of AI in education during the 2026 Regional Assembly of Education Leaders (RAEL) of the Department of Education (DepEd) Mimaropa Region, which was held recently in this city. Speaking before school principals, school heads and other education personnel, Magalong highlighted the role of teachers in keeping students curious and developing their [&hellip;]... Keep on reading: Baguio City Mayor Magalong urges responsible use of AI in schools"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1hvzq6j",
+      "source": "inq",
+      "title": "Luistro presses Mans Carpio to testify on assets shared with VP",
+      "summary": "MANILA, Philippines — The House prosecution is wondering who will explain the financial records and disputed assets of Vice President Sara Duterte and her husband, lawyer Manases “Mans” Carpio,…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-09T13:29:28.000Z",
+      "firstSeen": "2026-11-09T14:01:09.893Z",
+      "url": "https://newsinfo.inquirer.net/2338655/luistro-presses-mans-carpio-to-testify-on-assets-shared-with-vp",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Manases-Mans-Reyes-Carpio-file-27October2026-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The House prosecution is wondering who will explain the financial records and disputed assets of Vice President Sara Duterte and her husband, lawyer Manases “Mans” Carpio, considering that the latter is not in the initial witness list of the defense. Rep. Gerville Luisto, the lead prosecutor, pointed this out on Sunday in an interview with Nimfa Ravelo and Isa Avendaño Umali over AM radio station DZBB&#8217;s “Bantay Balita sa Kongreso.” She said she was interested in hearing directly from Carpio about the defense’s contention that certain properties and financial information belonging to him should be treated separately from [&hellip;]... Keep on reading: Luistro presses Mans Carpio to testify on assets shared with VP"
         }
       ],
       "truncated": true,
@@ -827,7 +1793,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-xd9pag",
@@ -1006,7 +1972,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-17m2zl5",
@@ -1493,7 +2459,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-1so8y20",
@@ -3025,31 +3991,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-12xgtwk",
-      "source": "inq",
-      "title": "Asking witness about China trips improper, unfair, says VP spox",
-      "summary": "Atty. Salvador Paolo Panelo Jr. (Screengrab from video of the Office of the Vice President) MANILA, Philippines — Questioning defense witness Jamie Adalin on his trips to China was improper and…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T12:02:00.000Z",
-      "firstSeen": "2026-11-09T12:31:06.228Z",
-      "url": "https://newsinfo.inquirer.net/2338568/asking-witness-about-china-trips-improper-unfair-says-vp-spox",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/ss-panelo-ovp-nov92026-620x436.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Atty. Salvador Paolo Panelo Jr. (Screengrab from video of the Office of the Vice President) MANILA, Philippines — Questioning defense witness Jamie Adalin on his trips to China was improper and unfair, Vice President Sara Duterte’s spokesperson, lawyer Salvador Paolo Panelo Jr., said on Monday. Adalin, the City Assessor of Davao City, testified as the defense team’s first witness on the 40th day of the impeachment trial. During his testimony, Adalin was quizzed about the Matina Crossing property of the Duterte couple that the prosecutors alleged Duterte did not declare in her Statement of Assets, Liabilities, and Net worth (SALN). However, [&hellip;]... Keep on reading: Asking witness about China trips improper, unfair, says VP spox"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-opy5tp",
       "source": "abs",
       "title": "Agricultural damage due to El Niño now at P6.54 billion, says NDRRMC",
@@ -3114,31 +4055,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-1c0y0ao",
-      "source": "inq",
-      "title": "Caloocan lotto outlet teller, operator sued for illegal numbers racket",
-      "summary": "CALOOCAN CITY, Philippines — Public prosecutors indicted the teller and the registered operator of an authorized lotto outlet in Caloocan before the Regional Trial Court (RTC) in Caloocan on Monday,…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T11:59:10.000Z",
-      "firstSeen": "2026-11-09T12:31:06.228Z",
-      "url": "https://newsinfo.inquirer.net/2338614/caloocan-lotto-outlet-teller-operator-sued-for-illegal-numbers-racket",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/CaloocanLottoOutletBust-09Nov2026-620x389.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CALOOCAN CITY, Philippines — Public prosecutors indicted the teller and the registered operator of an authorized lotto outlet in Caloocan before the Regional Trial Court (RTC) in Caloocan on Monday, Nov. 9. The case stemmed from the teller’s arrest last week for using a legitimate government franchise to run an underground numbers game. The Caloocan City Prosecutor’s Office charged the outlet’s teller with violating Presidential Decree No. 1602, as amended by Section 3(b) of Republic Act No. 9287, which penalizes illegal numbers games. The formal criminal information accused the teller of willfully taking direct and active part in an unauthorized numbers [&hellip;]... Keep on reading: Caloocan lotto outlet teller, operator sued for illegal numbers racket"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-989ez4",
@@ -3812,31 +4728,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-1sqr619",
-      "source": "inq",
-      "title": "De Lima hoping Robredo reconsiders decision to ditch bid for nat'l post",
-      "summary": "MANILA, Philippines – Mamamayang Liberal party-list Rep. Leila de Lima on Monday said the Liberal Party (LP) sis till hoping thaf Naga City Mayor Leni Robredo will reconsider her decision to no…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T11:45:00.000Z",
-      "firstSeen": "2026-11-09T12:01:00.713Z",
-      "url": "https://newsinfo.inquirer.net/2338613/de-lima-hoping-robredo-reconsiders-decision-to-ditch-bid-for-natl-post",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/WhatsApp-Image-2026-11-05-at-16.06.03-1-620x465.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – Mamamayang Liberal party-list Rep. Leila de Lima on Monday said the Liberal Party (LP) sis till hoping thaf Naga City Mayor Leni Robredo will reconsider her decision to no longer pursue national office in the 2028 elections. De Lima praised Robredo’s commitment to leading the city that her late husband had led for almost 20 years, saying that her dedication is precisely what drives calls for her to re-enter national politics. “I maintain that she’s the best hope of our country,” de Lima, who also chairs LP which Robredo is a member, said in a statement. Robredo reiterated [&hellip;]... Keep on reading: De Lima hoping Robredo reconsiders decision to ditch bid for nat'l post"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-14r1bh",
       "source": "inqg",
       "title": "Leaders meet in Turkey for UN climate summit after extreme weather year",
@@ -3974,56 +4865,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-nvxwq5",
-      "source": "inq",
-      "title": "AdU legal aid office hails acquittal of 2 clients arrested over protests",
-      "summary": "MANILA, Philippines — The Legal Aid Office of the Adamson University College of Law on Monday welcomed the acquittal of two of its clients who were arrested on Sept. 21 last year, in connection with…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T11:39:00.000Z",
-      "firstSeen": "2026-11-09T12:01:00.799Z",
-      "url": "https://newsinfo.inquirer.net/2338552/adu-legal-aid-office-hails-acquittal-of-2-clients-arrested-over-protests",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/gavel-justice-stock-9November2026_3-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Legal Aid Office of the Adamson University College of Law on Monday welcomed the acquittal of two of its clients who were arrested on Sept. 21 last year, in connection with the Baha Sa Luneta protest. Lawyer Kathy Panguban, director of the Legal Aid Office, said the acquittal was the result of the grant of their demurrer to evidence, pointing out that the decision confirmed “that no individual should be imprisoned on the basis of nothing more than an accusation, some conjecture or entirely made up evidence.” “Their arrest in relation to the Sept. 21, 2025 anti-corruption [&hellip;]... Keep on reading: AdU legal aid office hails acquittal of 2 clients arrested over protests"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-e8dl2w",
-      "source": "inq",
-      "title": "Police probing into 2 shooting incidents in Bukidnon capital",
-      "summary": "VALENCIA CITY, Bukidnon — Police are probing two separate shooting incidents that rocked this city on Sunday evening, leaving one dead and another wounded. The first victim was a 56-year-old…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T11:37:00.000Z",
-      "firstSeen": "2026-11-09T12:01:00.805Z",
-      "url": "https://newsinfo.inquirer.net/2338562/police-probing-into-2-shooting-incidents-in-bukidnon-capital",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/police-station-of-Valencia-City-Bukidnon-9November2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "VALENCIA CITY, Bukidnon — Police are probing two separate shooting incidents that rocked this city on Sunday evening, leaving one dead and another wounded. The first victim was a 56-year-old businessman, a resident of Purok 3, Kurbada, Barangay Tongantongan, Valencia City, who was found dead in a pool of blood inside his room by responding officers. The second victim was a 45-year-old hospital employee and resident of Midsayap, North Cotabato, who was ambushed in Barangay Sinayawan. Both cases involve armed attacks resulting in severe gunshot wounds, with investigators recovering cal. .45, 9mm, and .38 revolver slugs at the first crime scene. [&hellip;]... Keep on reading: Police probing into 2 shooting incidents in Bukidnon capital"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-1yk56pb",
@@ -7383,159 +8224,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "rap-z1ib96",
-      "source": "rap",
-      "title": "FACT CHECK: AI image falsely shows Army division backing Bato dela Rosa",
-      "summary": "The 10th Infantry Division has warned the public on AI-generated disinformation and manipulated content, emphasizing that official statements are communicated only through authorized channels",
-      "byline": "Rappler.com",
-      "section": "Fact Check",
-      "published": "2026-11-09T09:45:08.000Z",
-      "firstSeen": "2026-11-09T10:00:55.571Z",
-      "url": "https://www.rappler.com/newsbreak/fact-check/ai-image-falsely-shows-army-division-backing-bato-dela-rosa/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/11/2025-fact-check-full-post-ai-army.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Claim: A photo shows the 10th Infantry (Agila) Division of the Philippine Army expressing support for Senator Ronald “Bato” dela Rosa, who is wanted by the International Criminal Court (ICC)."
-        },
-        {
-          "type": "p",
-          "text": "Why we fact-checked this: In the Facebook group “1st Infantry Tabak Division Philippine Army,” which has 22,900 members, the account “Regis Paller Enrique” posted a graphic allegedly showing personnel of the Philippine Army’s 10th Infantry Division (10ID) holding a banner with the text: “We support Senator Bato dela Rosa.”"
-        },
-        {
-          "type": "p",
-          "text": "The post has since been deleted, but the same graphic was reposted by at least five Facebook accounts in different groups, such as “The Best Ka Inday Sara,” “Rodante Marcoleta CDO Supporters” and “MAGSASAKA.” Membership in these groups ranges between 144,100 and 470,200."
-        },
-        {
-          "type": "p",
-          "text": "The facts: In a statement on October 30, the 10ID said that the circulating graphic is AI-generated. The 10ID asserted that it does not subscribe to any political affiliation or preference."
-        },
-        {
-          "type": "p",
-          "text": "The division wrote in its caption: “The 10ID upholds its commitment to professionalism, political neutrality, and service to the Filipino people, without political affiliation or preference. The Division stands firmly against disinformation and the misuse of artificial intelligence to misrepresent its personnel, emphasizing that its official positions and statements are communicated only through authorized channels.”"
-        },
-        {
-          "type": "p",
-          "text": "AI detection tools Sightengine and Hive Moderation flagged the circulating image as 99% likely to be AI-generated."
-        },
-        {
-          "type": "p",
-          "text": "Bato in hiding: The AI-generated photo falsely attributed to the 10ID, which is headquartered in Davao de Oro, emerged after the Department of the Interior and Local Government (DILG) said it believes the senator is hiding in Mindanao under the protection of a “powerful armed group.” DILG Secretary Jonvic Remulla, however, did not identify the alleged armed group."
-        },
-        {
-          "type": "p",
-          "text": "Dela Rosa has a pending warrant of arrest issued by the ICC for his alleged role in former president Rodrigo Duterte’s war on drugs campaign. Since the shooting incident at the Senate last May 13, Dela Rosa has not been seen in public."
-        },
-        {
-          "type": "p",
-          "text": "On October 23, Remulla said in a press conference that his department will offer a P50-million reward for those who can provide information that could lead to Dela Rosa’s arrest."
-        },
-        {
-          "type": "p",
-          "text": "On November 9, the Philippine National Police said it received around 500 pieces of information on the senator’s possible whereabouts."
-        },
-        {
-          "type": "p",
-          "text": "Previous fact-checks: Rappler has previously fact-checked claims involving Dela Rosa:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "FACT CHECK: ‘Shoot-to-kill’ Bato dela Rosa warning by Lordan Suan is fake",
-            "FACT CHECK: No, Marcos can’t be arrested for P50-M bounty on Dela Rosa",
-            "FACT CHECK: No basis for claim that Bato Dela Rosa is under Trump’s protection",
-            "FACT CHECK: Bato dela Rosa not yet arrested; online posts misuse old video",
-            "FACT CHECK: Bato dela Rosa not at recent INC rallies; post uses January 2025 video"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "– Jade Florido/Rappler.com"
-        },
-        {
-          "type": "p",
-          "text": "Jade Florido is a volunteer for Rappler’s Research and Data unit. She is a third-year Development Studies student at the University of the Philippines – Manila."
-        },
-        {
-          "type": "p",
-          "text": "Keep us aware of suspicious Facebook pages, groups, accounts, websites, articles, or photos in your network by contacting us at factcheck@rappler.com. Let us battle disinformation one Fact Check at a time."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "feed"
-    },
-    {
-      "id": "abs-1dwh73",
-      "source": "abs",
-      "title": "‘The mayor did it’: Ang pagpatay kina Eileen Sarmenta at Allan Gomez noong 1993",
-      "summary": "Ang krimen na tatalakayin ay tinawag ng isang hukom na “a plot seemingly hatched in hell” o isang planong mistulang binuo sa impyerno dahil sa labis na sinapit ng mga biktimang sina Eileen Sarmenta…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T09:44:47.000Z",
-      "firstSeen": "2026-11-09T10:01:08.305Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/6/11/-the-mayor-did-it-ang-pagpatay-kina-eileen-sarmenta-at-allan-gomez-noong-1993-1753",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Ang krimen na tatalakayin ay tinawag ng isang hukom na “a plot seemingly hatched in hell” o isang planong mistulang binuo sa impyerno dahil sa labis na sinapit ng mga biktimang sina Eileen Sarmenta at Allan Gomez."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1ahhwjn",
-      "source": "abs",
-      "title": "Filipino artist Quiccs teams up with Taiwan brand for limited-edition FuBear toy",
-      "summary": "Filipino street artist and toy designer Quiccs Maiquez has teamed up with Taiwan Excellence to give FuBear, the Taiwanese brand's official mascot, a street art-inspired makeover through a…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T09:43:05.000Z",
-      "firstSeen": "2026-11-09T10:01:08.305Z",
-      "url": "https://www.abs-cbn.com/lifestyle/people-culture-events/2026/11/9/filipino-artist-quiccs-teams-up-with-taiwan-brand-for-limited-edition-fubear-toy-1743",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Filipino street artist and toy designer Quiccs Maiquez has teamed up with Taiwan Excellence to give FuBear, the Taiwanese brand's official mascot, a street art-inspired makeover through a limited-edition designer toy collection."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-12q2g4y",
-      "source": "abs",
-      "title": "Nag-iisang nabuhay sa massacre: Ang kwento ni Myrna Diones",
-      "summary": "Ito ang kwento ng 14-anyos na si Myrna Diones na himalang nabuhay sa tangkang pagpatay sa kanila ng mga kasama niya.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T09:40:52.000Z",
-      "firstSeen": "2026-11-09T10:01:09.972Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/6/26/nag-iisang-nabuhay-sa-massacre-ang-kwento-ni-myrna-diones-1645",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Ito ang kwento ng 14-anyos na si Myrna Diones na himalang nabuhay sa tangkang pagpatay sa kanila ng mga kasama niya."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "grd-keuqp2",
       "source": "grd",
       "title": "Poland’s justice minister says investigation into Kraków shooting will aim to establish if the 24-year-old acted alone – Europe live",
@@ -7661,28 +8349,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-1kf81fo",
-      "source": "abs",
-      "title": "K-pop star Rocky to hold Manila fan concert in December",
-      "summary": "K-pop singer Rocky, a former member of boy band Astro, is set to hold a fan concert in Manila in December.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T09:36:40.000Z",
-      "firstSeen": "2026-11-09T10:01:09.972Z",
-      "url": "https://www.abs-cbn.com/entertainment/showbiz/events/2026/11/9/k-pop-star-rocky-manila-fan-concert-december-1736",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "K-pop singer Rocky, a former member of boy band Astro, is set to hold a fan concert in Manila in December."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "inqg-1klwexk",
       "source": "inqg",
       "title": "PhilSA warns public of Chinese rocket debris",
@@ -7731,50 +8397,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "abs-s7ewm4",
-      "source": "abs",
-      "title": "NCAA: Mapua escapes LPU in play-in clash preview",
-      "summary": "Mapua University escaped Lyceum of the Philippines University, 71-68, to end its group assignments in NCAA Season 102 men’s basketball on a high note on Monday at the PhilSports Arena in Pasig City.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T09:23:12.000Z",
-      "firstSeen": "2026-11-09T09:31:02.539Z",
-      "url": "https://www.abs-cbn.com/sports/basketball/2026/11/9/ncaa-mapua-escapes-lpu-in-play-in-clash-preview-1723",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Mapua University escaped Lyceum of the Philippines University, 71-68, to end its group assignments in NCAA Season 102 men’s basketball on a high note on Monday at the PhilSports Arena in Pasig City."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-16a5kks",
-      "source": "abs",
-      "title": "Dingdong Dantes grateful to be present for Zia and Sixto's back-to-back milestones: 'Manghang-mangha ako'",
-      "summary": "Dingdong Dantes shared his pride in children Zia and Sixto after witnessing their respective singing and musical performances over the weekend, saying he was grateful to be present for their…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T09:22:27.000Z",
-      "firstSeen": "2026-11-09T09:31:03.121Z",
-      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/11/9/dingdong-dantes-grateful-to-be-present-for-zia-and-sixto-s-back-to-back-milestones-1722",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Dingdong Dantes shared his pride in children Zia and Sixto after witnessing their respective singing and musical performances over the weekend, saying he was grateful to be present for their milestones."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "gma-1sx30v",
@@ -7877,28 +8499,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-1qye3ts",
-      "source": "abs",
-      "title": "Filipino invention that detects early signs of building damage wins James Dyson Award",
-      "summary": "A young Filipino engineer won the 2026 James Dyson Award for sustainability after developing self-sensing concrete designed to detect and prevent structural damage in establishments.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T09:20:42.000Z",
-      "firstSeen": "2026-11-09T09:31:04.881Z",
-      "url": "https://www.abs-cbn.com/news/technology/2026/11/9/filipino-invention-that-detects-early-signs-of-building-damage-wins-james-dyson-award-1720",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A young Filipino engineer won the 2026 James Dyson Award for sustainability after developing self-sensing concrete designed to detect and prevent structural damage in establishments."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "abs-vwm0em",
       "source": "abs",
       "title": "20 senators urge Marcos: Declare ‘super El Niño calamity’",
@@ -7913,50 +8513,6 @@
         {
           "type": "p",
           "text": "Twenty senators on Monday urged President Ferdinand Marcos Jr. to declare “super El Niño calamity” in affected or threatened areas to curb threats against the country’s food and water security."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-11er065",
-      "source": "abs",
-      "title": "Amihan, Easterlies to drench eastern PH as Samuel exits PAR",
-      "summary": "Just under eight hours from its entry, Typhoon Samuel has already exited the Philippine area of responsibility.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T09:15:47.000Z",
-      "firstSeen": "2026-11-09T09:31:11.540Z",
-      "url": "https://www.abs-cbn.com/news/weather-traffic/2026/11/9/amihan-easterlies-to-drench-eastern-ph-as-samuel-exits-par-1715",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Just under eight hours from its entry, Typhoon Samuel has already exited the Philippine area of responsibility."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-65bvnr",
-      "source": "abs",
-      "title": "Kate Middleton wears royal heirloom jewelry from Queen Elizabeth II and Princess Diana",
-      "summary": "The Princess of Wales honors two of the royal family's most significant women through her choice of jewelry, wearing earrings once owned by Queen Elizabeth II and her late mother-in-law, Princess…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T09:14:57.000Z",
-      "firstSeen": "2026-11-09T09:31:11.684Z",
-      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/11/9/kate-middleton-wears-royal-heirloom-jewelry-from-queen-elizabeth-ii-and-princess-diana-1714",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Princess of Wales honors two of the royal family's most significant women through her choice of jewelry, wearing earrings once owned by Queen Elizabeth II and her late mother-in-law, Princess Diana."
         }
       ],
       "truncated": true,
@@ -8405,124 +8961,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "rap-jo06l0",
-      "source": "rap",
-      "title": "#CourageON: Why this climate activist still believes in COP31",
-      "summary": "For Joshua Villalobos, COP31 would be a success if it means more money flowing into the communities he works with, particularly for projects that provide renewable energy",
-      "byline": "Laurice Angeles",
-      "section": "Editors' Pick",
-      "published": "2026-11-09T09:00:00.000Z",
-      "firstSeen": "2026-11-09T09:01:06.095Z",
-      "url": "https://www.rappler.com/voices/newsletters/courage-on-joshua-villalobos-just-energy-transition-advocacy-cop31-turkey/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/11/image-19-1.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "“Am I optimistic about this COP? Well, that’s a challenging question.”"
-        },
-        {
-          "type": "p",
-          "text": "Usually quick-witted, Joshua Villalobos took time to gather his thoughts about the 31st United Nations Climate Change Conference (COP31) happening this November. He is a climate activist and secretary-general of the Negrosanon Initiative for Climate and the Environment (NICE). In November 2025, we featured him in a story on young Filipinos championing renewable energy across the Philippines."
-        },
-        {
-          "type": "p",
-          "text": "“Sometimes, the talks within the negotiations are taking so much time. The talks have been ongoing [for] the past three decades.”"
-        },
-        {
-          "type": "p",
-          "text": "The world has struggled to meet the commitments made in these negotiations. For one, countries agreed in 2015 to keep global warming well below 2 degrees Celsius above pre-industrial temperatures, while pursuing efforts to limit the increase to 1.5 degrees Celsius."
-        },
-        {
-          "type": "p",
-          "text": "“There’s a new report that we’ll overshoot the 1.5,” he said."
-        },
-        {
-          "type": "p",
-          "text": "The work of climate activists like Joshua isn’t confined to the streets. Behind the placards and protests, they pore over lengthy documents and study climate policies. Joshua, in fact, finds the law “beautiful.” But what keeps him invested in the negotiations is the possibility of seeing solutions."
-        },
-        {
-          "type": "p",
-          "text": "“Most of these solutions are being championed by communities, people’s organizations, environmental movements. These are things that I am optimistic about.”"
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2026/11/IMG_6591-scaled-2.jpg?fit=1024%2C1024",
-          "caption": "WORK. Members of NICE conduct a meeting at their hub in Bacolod City. Photo by Aidan Bernales/Rappler"
-        },
-        {
-          "type": "p",
-          "text": "Based in Bacolod City, Joshua works closely with the people of Matabas Island in Sagay City, Negros Occidental. Matabas, like many small islands in the Philippines, used to have no electricity."
-        },
-        {
-          "type": "p",
-          "text": "Once, at night, Joshua witnessed island residents sleeping outside their homes. Without electricity, households didn’t have the luxury of electric fans or air-conditioning. “We are seeing how they are paying the price in their daily lives, sleeping outside because of the heat,” he said."
-        },
-        {
-          "type": "p",
-          "text": "Through partnerships with foundations, Joshua’s organization, NICE, installed solar panels to light up communal areas, including the island’s walkways. NICE now hopes to power the island’s water desalination facility to give residents access to fresh water. It also plans to bring electricity to the island’s only school."
-        },
-        {
-          "type": "p",
-          "text": "For Joshua, COP31 would be a success if it meant more money flowing into the communities he works with, particularly for projects that provide renewable energy."
-        },
-        {
-          "type": "p",
-          "text": "During COP30 in 2025, parties agreed to develop a just transition mechanism. This year, discussions are expected to further define how the mechanism will work."
-        },
-        {
-          "type": "p",
-          "text": "NICE is a member of Aksyon Klima Pilipinas, a Philippine civil society network that prepares policy positions and proposals ahead of COP. The network also held a pre-COP31 conference on just transition in October."
-        },
-        {
-          "type": "p",
-          "text": "For Joshua, the pre-COP31 conference was an important opportunity to bring the realities of communities in Negros and other parts of the Philippines into the discussions."
-        },
-        {
-          "type": "p",
-          "text": "“We know that these communities are already paying the price for the impacts of the climate crisis,” Joshua explained."
-        },
-        {
-          "type": "p",
-          "text": "“If we don’t make the transition just, then they will most likely pay the price of the transition… through job displacement, land displacement, or environmental degradation.”"
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2026/11/unnamed-6-1.jpg?fit=1024%2C1024",
-          "caption": "MATABAS ISLAND. Joshua Villalobos (extreme left) visits Matabas Island in Sagay City, Negros Occidental, to work on the island’s solar-powered facilities in October 2026. Photo courtesy of Joshua Villalobos"
-        },
-        {
-          "type": "p",
-          "text": "Joshua will attend the second week of COP31 in Antalya, Türkiye, bringing with him stories from the communities he has worked with."
-        },
-        {
-          "type": "p",
-          "text": "“It is exactly because of the work that we are doing year-round [that] we are going to the COP more informed about the realities of the communities and demand what the COP should deliver.”"
-        },
-        {
-          "type": "p",
-          "text": "Still, Joshua is not confident that the negotiations will deliver political breakthroughs. Climate negotiations tend to be exclusive, technical, and jargon-laden. Joshua understands why young people and communities affected by the climate crisis might lose faith in the process. Many of them also struggle to find the money to participate."
-        },
-        {
-          "type": "p",
-          "text": "Asked why he continues to attend the annual climate conference despite its shortcomings, he answered: “For now, there’s no alternative for that kind of global space where communities can raise our voices and governments are there.”"
-        },
-        {
-          "type": "p",
-          "text": "“It is still a space that we must not give up on, and we should continue to fight for.” – Rappler.com"
-        },
-        {
-          "type": "p",
-          "text": "#CourageON is a bi-monthly newsletter providing updates from our communities. In time for the 31st United Nations Climate Change Conference (COP31), the month of November features stories of courage and resilience from our partner communities and advocates."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "feed"
     },
     {
       "id": "cbc-15ftpa",
@@ -10982,129 +11420,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "grd-2sw14p",
-      "source": "grd",
-      "title": "‘It’s a feeling of being screwed over’: once-quiet village despairs over ‘monster’ warehouse",
-      "summary": "<p>Residents of Astley in Greater Manchester will tell public inquiry next week of ‘cacophony’ of noise causing sleep deprivation and depression</p><p>When Stephen Retford retired from the police in…",
-      "byline": "Josh Halliday North of England editor",
-      "section": "Greater Manchester",
-      "published": "2026-11-09T07:00:03.000Z",
-      "firstSeen": "2026-11-09T07:30:55.539Z",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/09/astley-village-despair-monster-warehouse-inquiry",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/8ad529e476ab9f8aaa4b519c77862c07cc74a4d3/584_0_7200_5760/master/7200.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=6649e00763035cd3304c1a0e12dfc6a9",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "When Stephen Retford retired from the police in 2006, he looked forward to a quiet life after nearly three decades catching villains. But now the former detective has landed another big case – one that is extremely close to home."
-        },
-        {
-          "type": "p",
-          "text": "“It’s the total injustice of it,” the 70-year-old seethed, staring up at the 18-metre-high mega-warehouse that looms over the quiet village of Astley in Greater Manchester. Residents are up in arms about the “monster” construction, likening it to having a “cruise ship in our back garden”."
-        },
-        {
-          "type": "p",
-          "text": "Andy Burnham expressed concern over the development weeks before he became prime minister, and Bev Craig, his successor as Greater Manchester mayor, said she too was concerned. “Old industry wouldn’t have got that close to your house,” she said. “So why is it that new industry can?”"
-        },
-        {
-          "type": "p",
-          "text": "This week, villagers will attempt to block plans by Whistl, the distribution firm that operates the warehouse, to use dozens of HGVs and trailers for its round-the-clock operation. In a two-day public inquiry, they will describe how the “cacophony” of noise is already driving some to sleep deprivation and depression."
-        },
-        {
-          "type": "p",
-          "text": "“It’s had a profound impact on the neighbourhood,” said Retford, a burly man with a booming voice who after so many years in the police is not easily shaken. “The noise wakes you up at 2am and you can’t get back to sleep. We’ve not had a proper night’s sleep in well over a year. It’s a living hell.”"
-        },
-        {
-          "type": "p",
-          "text": "This once-quiet village is now on the frontline in a nationwide fightback against superstructures springing up everywhere from Devon to Cardiff and the Scottish Borders. Plans were announced last week for Britain’s largest datacentre at the site of the Drax power plant in North Yorkshire, and a further 315 “hyperscale” datacentres are queueing to connect to the National Grid."
-        },
-        {
-          "type": "p",
-          "text": "Down the road from Retford’s house, a woman looked out of her daughter’s bedroom window at the Whistl warehouse just metres away. The woman, a police officer who does not want to be named, said her 10-year-old son, who is autistic, refused to play in the garden because of the “continuously whirring” noise of the conveyor belts. Her eight-year-old daughter has become too scared to play in her bedroom."
-        },
-        {
-          "type": "p",
-          "text": "“As soon as she comes home from school, those blinds will be shut because she doesn’t want anyone to see in,” she said, pointing to a CCTV camera on the warehouse facing their home. “She hates it. She does get scared about it.”"
-        },
-        {
-          "type": "p",
-          "text": "Like many of their neighbours, the woman and her husband moved to Astley before plans had been submitted by a firm part-owned by Peel Group, one of Britain’s biggest landowners, run by the billionaire John Whittaker."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/8ad529e476ab9f8aaa4b519c77862c07cc74a4d3/404_412_8173_5348/master/8173.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Stephen Retford in his back garden: ‘We’ve not had a proper night’s sleep in well over a year.’ Photograph: Christopher Thomond/The Guardian"
-        },
-        {
-          "type": "p",
-          "text": "Back then, they were surrounded by farmland where lambs, cows and horses grazed. Now their view is a giant hunk of grey steel that was named the worst new building in the UK this year. “It was a lovely view, so secluded,” she said. “When we saw the structure of this, it was like: oh my God, what is this?”"
-        },
-        {
-          "type": "p",
-          "text": "As mayor, Burnham said earlier this year that the development had not been managed properly and that key things “should have been done differently”. Wigan council said it acted properly in approving the superstructure despite objections from the local MP and dozens of residents. However, the council’s leader, Labour’s Nazia Rehman, admitted last month that “some lessons have been learned” and said that in future “consultations [with residents] will be proactive”. Local leaders have scrapped plans for four other giant warehouses in response to the backlash."
-        },
-        {
-          "type": "p",
-          "text": "Helen Halbous, who moved to the estate seven years ago, said: “It’s a feeling of being screwed over by Wigan council, having been born and brought up here. People who had a voice of power [in the council] either made this awful decision or they looked away and let it happen. It was a little mining village and now we’re this industrial centre. It’s so wrong.”"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/6f2cb4a2b83ba66663bcf75969ce8f31a104fac8/1543_83_7097_5677/master/7097.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "The view from Halbous’s back window. Photograph: Christopher Thomond/The Guardian"
-        },
-        {
-          "type": "p",
-          "text": "Halbous, 47, said she and her partner, Sami Halbous, now felt trapped in a house they once loved and they feared they would be unable to sell up. “A neighbour had their home valued and they lost 30%, and that’s if they can sell,” she said."
-        },
-        {
-          "type": "p",
-          "text": "Residents felt hoodwinked about the size of the structure and its closeness to their homes, Halbous said. “The plan in 2019 was it was to be used for employment. It was never to have an 18-metre-high warehouse. Those permissions were changed [before 2024] and changed really quietly. We wouldn’t have bought here and let ourselves get trapped like this.”"
-        },
-        {
-          "type": "p",
-          "text": "PLP, the land owner, said the size and scale of the buildings had not changed since its planning application in 2023. It said earlier plans for smaller units, submitted in 2017 by Peel, one of its biggest shareholders, had since lapsed."
-        },
-        {
-          "type": "p",
-          "text": "Wigan council said it recognised the “strength of feeling in the community and do not underestimate the impact residents tell us the development has had on them”. It said an independent review found its planning process was “legally sound” and followed national guidelines but there were “lessons around engagement and transparency”. It said: “We have acknowledged those findings and have taken steps to improve our approach.”"
-        },
-        {
-          "type": "p",
-          "text": "Whistl, which began operating at the site in July, has responded to the concerns by promising to use quieter vehicles and stopping their use outside between midnight and 6am. The firm said it took residents’ concerns seriously and was “committed to meeting its licensing responsibilities and being a good neighbour”. A Whistl spokesperson said the noise mitigation measures would remain in place and the overnight pause on activity in the yard would continue while all parties tried to “identify a sustainable, long-term solution”."
-        },
-        {
-          "type": "p",
-          "text": "Retford became so fed up with the disturbance that he began overnight observations to track the big vehicles clanking around near his home. He commissioned independent acoustics experts to produce a sound report, convinced that the “cacophony of rolling thunder, a booming sound”, breached regulations."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/c777434aeb460a6fcd14dd4d9e0aaadef5aed339/877_0_6990_5592/master/6990.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Residents have complained of a ‘cacophony’ of noise. Photograph: Christopher Thomond/The Guardian"
-        },
-        {
-          "type": "p",
-          "text": "A fightback fund launched by residents has so far raised £78,000, much of which will be spent on lawyers for next week’s public inquiry."
-        },
-        {
-          "type": "p",
-          "text": "For Retford and his wife, Carole, 71, the impact has been huge. “Bloody hell, there’s not a lot of things I’ve not seen in my life,” he said. “I don’t get easily shocked and I’m not a flaky character, but this has had a profound effect on me. We’re not fuddy-duddies or nimbies. This is big business riding over the little people like us, saying ‘screw the lot of you’.”"
-        },
-        {
-          "type": "p",
-          "text": "Retford and his wife have spoken to their doctor about sleep deprivation. “It’s a torture for a very good reason, because it just drains you – and that is the effect it’s having on us,” he said."
-        },
-        {
-          "type": "p",
-          "text": "Carole became close to tears. Staring up at the warehouse, she said: “It’s changed our lives. Your moods go up and down to being very depressed and very emotional about it because there’s no way out at the minute. People use the ‘depression’ word too lightly, but if you feel there’s no way out, it does get to you.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "dw-a1c2ir",
       "source": "dw",
       "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
@@ -11300,28 +11615,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-tieov9",
-      "source": "abs",
-      "title": "Caprice Cayetano’s 18th Birthday: All the Fashion Details You Need to See",
-      "summary": "Take a closer look at Caprice's custom debut gown and her stylish guests including Heart Evangelista and Heath Jornales along with their fellow PBB housemates.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T06:36:12.000Z",
-      "firstSeen": "2026-11-09T07:01:08.397Z",
-      "url": "https://www.abs-cbn.com/fashion/2026/11/9/caprice-cayetano-18th-birthday-debut-fashion-1300",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Take a closer look at Caprice's custom debut gown and her stylish guests including Heart Evangelista and Heath Jornales along with their fellow PBB housemates."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "grd-1rdir60",
@@ -12727,28 +13020,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-1y2if24",
-      "source": "abs",
-      "title": "BJMP: Some CCTV footage of Romualdez in Payatas Jail overwritten",
-      "summary": "Some CCTV footage from the Quezon City Jail in Payatas has already been overwritten, a Bureau of Jail Management and Penology official testified before the Sandiganbayan Third Division on Monday.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-09T05:20:35.000Z",
-      "firstSeen": "2026-11-09T05:31:04.652Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/9/bjmp-some-cctv-footage-of-romualdez-in-payatas-jail-overwritten-1306",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Some CCTV footage from the Quezon City Jail in Payatas has already been overwritten, a Bureau of Jail Management and Penology official testified before the Sandiganbayan Third Division on Monday."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "inqg-1q9qwae",
       "source": "inqg",
       "title": "New pact creates jobs for Filipinos in Taiwan’s hospitality industry",
@@ -12838,107 +13109,6 @@
         {
           "type": "p",
           "text": "MANILA, Philippines — The Department of Foreign Affairs (DFA) has defended its legal authority to issue Philippine visas, rejecting anew Ombudsman Jesus Crispin Remulla’s claim that such powers belong exclusively to immigration authorities under the Department of Justice (DOJ). In a statement on Sunday, the DFA said its authority to issue visas was expressly provided"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "gma-1u47q2b",
-      "source": "gma",
-      "title": "Macalintal to seek SC reconsideration of BSKE ruling",
-      "summary": "Election lawyer Romulo Macalintal on Monday said he would file a motion for reconsideration (MR) of the Supreme Court's decision upholding the law that postponed the Barangay and Sangguniang Kabataan…",
-      "byline": "MARIEL CELINE SERQUIÑA, GMA News",
-      "section": "",
-      "published": "2026-11-09T05:02:59.000Z",
-      "firstSeen": "2026-11-09T05:30:55.680Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1008820/macalintal-to-seek-sc-reconsideration-of-bske-ruling/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/11/supreme_court_session_hall_2025_07_28_21_53_03_2026_11_09_12_58_04.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published November 9, 2026 1:02pm"
-        },
-        {
-          "type": "p",
-          "text": "Election lawyer Romulo Macalintal on Monday said he would file a motion for reconsideration (MR) of the Supreme Court's decision upholding the law that postponed the Barangay and Sangguniang Kabataan Elections (BSKE) and extended the term of incumbent barangay officials."
-        },
-        {
-          "type": "p",
-          "text": "\"Ako'y maghahain ng motion for reconsideration at iyan ay pinapayagan sa ating rules,\" Macalintal told Super Radyo dzBB."
-        },
-        {
-          "type": "p",
-          "text": "(I will file a motion for reconsideration, which is allowed under our rules.)"
-        },
-        {
-          "type": "p",
-          "text": "Macalintal said he plans to file the motion this week."
-        },
-        {
-          "type": "p",
-          "text": "\"Inaayos ko na lamang yung presentation, yung format ng gagawin ko whether to ask for a total MR or a partial MR na kung saan bibigyan ko ng win-win formula ang ating SC sa bagay na ito,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "(I'm just finalizing the presentation and format of my motion, whether to seek a full or partial reconsideration, in which I will offer the SC a win-win formula.)"
-        },
-        {
-          "type": "p",
-          "text": "He said he may ask the SC to uphold its ruling that declared unconstitutional the provision of Republic Act No. 12326 granting Congress the authority to fix the term of office, while maintaining its ruling on the provision postponing the elections."
-        },
-        {
-          "type": "p",
-          "text": "\"Maaari natin sabihin sa SC na 'okay, you declared unconstitutional yung RA 12326 na nagbibigay ng kapangyarihan na to fix the term of office' pero declared naman na unconstitutional yung bahaging nagpo-postpone ng halalan\" so parehong panalo. Panalo ang kongreso, panalo ang tao,\" he added."
-        },
-        {
-          "type": "p",
-          "text": "(We can tell the SC that it declared unconstitutional the provision of RA 12326 granting the authority to fix the term of office, while also declaring unconstitutional the portion postponing the elections. That way, both sides win. Congress wins, and the people win.)"
-        },
-        {
-          "type": "p",
-          "text": "In a 33-page decision, the SC dismissed Macalintal's petition challenging the constitutionality of the law."
-        },
-        {
-          "type": "p",
-          "text": "The High Court said the law's primary purpose was to fix the term of office rather than postpone the elections. It also ruled that the guidelines established in its 2023 decision on a petition filed by Macalintal did not apply to the case."
-        },
-        {
-          "type": "p",
-          "text": "President Ferdinand Marcos Jr. signed Republic Act No. 12326 into law in September, effectively postponing the BSKE, setting the term of office of barangay and Sangguniang Kabataan officials at five years and moving the next elections to 2028.— MCG, GMA News"
-        },
-        {
-          "type": "p",
-          "text": "Follow GMA News Online on Facebook for real-time news and developments in the Philippines and around the world."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "inqg-mbl3ao",
-      "source": "inqg",
-      "title": "PNP urges Markle’s victims to file raps",
-      "summary": "MANILA, Philippines — The Philippine National Police is investigating the extent of Thomas Markle’s alleged child sexual abuse activities in the Philippines, as it traces his local network and urges…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-11-09T05:00:00.000Z",
-      "firstSeen": "2026-11-08T21:00:58.111Z",
-      "url": "https://globalnation.inquirer.net/346324/pnp-urges-markles-victims-to-file-raps",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/03/PNP-Philippine-National-Police-22January2025.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Philippine National Police is investigating the extent of Thomas Markle’s alleged child sexual abuse activities in the Philippines, as it traces his local network and urges possible victims to file complaints. Markle, the estranged father of Meghan, Duchess of Sussex, was arrested by Federal Bureau of Investigation agents early Friday at"
         }
       ],
       "truncated": true,
@@ -14771,206 +14941,6 @@
         {
           "type": "p",
           "text": "At the same time, the heads of the $4.5 trillion company said they had \"no reason to believe that either national security or Nvidia secrets were compromised.\""
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-61sj36",
-      "source": "cbc",
-      "title": "North Vancouver soldier who died in Wainwright fire remembered as fearless at funeral",
-      "summary": "A 23-year-old soldier from North Vancouver was remembered Sunday as a globe-trotting, sporty and car-loving man with an infectious sense of humour and a fearless love for life. A photo of Pte. Aidan…",
-      "byline": "Nono Shen",
-      "section": "News/Canada/British Columbia",
-      "published": "2026-11-08T23:00:24.000Z",
-      "firstSeen": "2026-11-08T23:30:54.775Z",
-      "url": "https://www.cbc.ca/news/canada/british-columbia/aidan-goulding-funeral-bc-9.7414421?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/a9bd805e-49da-4bd9-bb06-2819804a439b,1794177605618/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3BResize%3D620",
-        "caption": "Sonia Monk, Pte. Aidan Goulding's mother, says one of the hardest parts of losing someone so young is losing the opportunity to build on her relationship with him. (CBC)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A 23-year-old Canadian soldier was remembered Sunday as a globe-trotting, sporty and car-loving man with an infectious sense of humour and a fearless love for life."
-        },
-        {
-          "type": "p",
-          "text": "Hundreds of military personnel, family and friends gathered at an armoury on a stormy day in Vancouver to remember Pte. Aidan Goulding, one of four soldiers killed last month after a grass fire at Canadian Forces Base Wainwright in Alberta overtook troops during a training exercise."
-        },
-        {
-          "type": "p",
-          "text": "His mother, Sonia Monk, described her son as someone with a great sense of humour, always open to a good laugh."
-        },
-        {
-          "type": "p",
-          "text": "\"Whenever I was disciplining him, he would start to laugh or he would try to say something. I could never properly discipline him,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "\"That's something that our family is going to miss. Nothing is going replace that.\""
-        },
-        {
-          "type": "p",
-          "text": "Sonia Monk says Goulding and his fellow soldiers who died in the CFB Wainwright fire \"will not be forgotten.\" (CBC)"
-        },
-        {
-          "type": "p",
-          "text": "Monk said she was proud of her patriotic son who joined the army from a high-paying job."
-        },
-        {
-          "type": "p",
-          "text": "\"When he finally told me, he said, 'I have one life to live, I want to do something important, and so I'm joining the army.' I think that's so unselfish of him,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "After he joined the Canadian Armed Forces, Goulding felt like he found a place where he belonged, Monk said."
-        },
-        {
-          "type": "p",
-          "text": "\"It gave him a sense of purpose, a family and a place he truly felt at home.\""
-        },
-        {
-          "type": "p",
-          "text": "Goulding's funeral started with soldiers carrying his flag-draped casket into the armoury, with the sounds of a bagpipe cascading, and some words from a rabbi."
-        },
-        {
-          "type": "p",
-          "text": "Monk described his upbringing in North Vancouver with his brother, Wylder, who was also his best friend."
-        },
-        {
-          "type": "p",
-          "text": "\"They had each other's backs,\" she said. \"Their relationship touched my heart deeply, and I was content in knowing that they would always be close.\""
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Funeral mourners recall friendship, dedication of sergeant killed in CFB Wainwright incident",
-            "Mother of soldier killed at CFB Wainwright says he wanted to protect Canada"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Growing up, he showed his competitive and curious side."
-        },
-        {
-          "type": "p",
-          "text": "His family said in a statement he played many sports, including soccer and rugby, and developed a love for cars at a young age."
-        },
-        {
-          "type": "p",
-          "text": "He spent many hours buying used cars, fixing them late into the night under the glow of a lamp on his family's driveway and then reselling them."
-        },
-        {
-          "type": "p",
-          "text": "The first car he fine-tuned was a used Chrysler 300C."
-        },
-        {
-          "type": "p",
-          "text": "The modification: make it louder."
-        },
-        {
-          "type": "p",
-          "text": "\"He loved understanding how things worked and took great pride in making them his own,\" his family said."
-        },
-        {
-          "type": "p",
-          "text": "He was also stylish."
-        },
-        {
-          "type": "p",
-          "text": "Monk said her son asked to wear a white suit on his first day of Grade 4. When he turned 21, he asked for a gold suit."
-        },
-        {
-          "type": "p",
-          "text": "\"He was unapologetically himself, and I admired that,\" she said,"
-        },
-        {
-          "type": "p",
-          "text": "The family has also described Goulding as a globe-trotter."
-        },
-        {
-          "type": "p",
-          "text": "Sonia Monk, Pte. Aidan Goulding's mother, says joining the Canadian Armed Forces gave Goulding \"a sense of purpose.\" (CBC)"
-        },
-        {
-          "type": "p",
-          "text": "In his short life, he explored many parts of the world, including Mexico, Germany, Austria, Italy, Croatia, Malta, the Netherlands, England and Spain."
-        },
-        {
-          "type": "p",
-          "text": "Reagan Goulding, his aunt, said during the funeral that he often made those around him laugh."
-        },
-        {
-          "type": "p",
-          "text": "She said it's been hard knowing that he died at a young age."
-        },
-        {
-          "type": "p",
-          "text": "\"This is perhaps one of the hardest parts of losing someone so young,\" she said. \"It's not just the memories we have lost, but the opportunity to make a relationship we still had time to build.\""
-        },
-        {
-          "type": "p",
-          "text": "Reagan Goulding said she could see her nephew, who she described as being \"smart, ambitious, determined, and resourceful,\" perhaps becoming a police officer or joining CSIS."
-        },
-        {
-          "type": "p",
-          "text": "\"I truly believe great things were in his future. We wanted him to know that we all saw this in him, that we believed in him and became a proud follower of him,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "She said her last message to Goulding was sent on the day of the tragedy, a text message that said, \"Aidan, you better be OK.\""
-        },
-        {
-          "type": "p",
-          "text": "She never received a reply."
-        },
-        {
-          "type": "p",
-          "text": "Who are the 4 service members killed at CFB Wainwright?"
-        },
-        {
-          "type": "p",
-          "text": "Reagan Goulding said if she knew this was her last message she would have said more, including telling him one more time how proud she was."
-        },
-        {
-          "type": "p",
-          "text": "She also remembered the other soldiers killed in the fire."
-        },
-        {
-          "type": "p",
-          "text": "They were: Pte. Hayden Lykkemark, 19, of Langley, B.C.; Sgt. Morgan Wong, 26, of Edmonton; and Pte. Shaun Farrell, 23, of Prince Albert, Sask."
-        },
-        {
-          "type": "p",
-          "text": "\"They were young men who matched their calling, who stood beside one another, and who were parts of the family themselves. Their loss is felt by their families, their friends, soldiers, and everyone who has been touched by this tragedy,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "\"Aidan and his fellow soldiers will not be forgotten,\" she added."
-        },
-        {
-          "type": "p",
-          "text": "As the soldiers carried the casket out of the armoury and reloaded it into a hearse to head to the cemetery, the sun broke through the clouds, casting its light over rainy Vancouver."
-        },
-        {
-          "type": "p",
-          "text": "Monk, who spoke to media after the funeral, said she felt it was a sign from Goulding, encouraging her to move forward with life."
-        },
-        {
-          "type": "p",
-          "text": "\"Because I think through tragedy or hardship, he would always say things like that, 'We'll move forward.' So, I think that's what he was sort of saying to me today, actually, with the sun shining bright in my eyes.\""
-        },
-        {
-          "type": "p",
-          "text": "Monk said she felt \"supported and lifted\" after hearing stories from Goulding's \"brothers and sisters\" in the army."
-        },
-        {
-          "type": "p",
-          "text": "\"I'm quite tired, I haven't eaten a lot, I haven't slept a lot. But all the support and seeing everybody here today, it's remarkable. I can't find a word other than remarkable,\" said Monk, adding that \"There's lots of love in Canada.\""
         }
       ],
       "truncated": false,
