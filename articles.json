@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-09T18:43:03.293Z",
+  "updated": "2026-11-09T19:01:22.222Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-8lj7m1",
+      "source": "inqn",
+      "title": "Heat index hits 42°C in Coron, Palawan and Borongan, Eastern Samar",
+      "summary": "MANILA, Philippines &#8211; The heat index peaked at a dangerous 42°C in Palawan and Eastern Samar on Monday, according to the Philippine Atmospheric, Geophysical and Astronomical Services…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T19:01:15.013Z",
+      "firstSeen": "2026-11-09T12:30:57.234Z",
+      "url": "https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/1000009905.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines &#8211; The heat index peaked at a dangerous 42°C in Palawan and Eastern Samar on Monday, according to the Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa). Pagasa reported that heat indices were recorded in its stations located in Coron, Palawan and Borongan, Eastern Samar. Pagasa had explained that a heat index of"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-ed973m",
       "source": "inqn",
       "title": "Manila Water readies 33 reservoirs for prolonged El Niño",
       "summary": "MANILA, Philippines — Manila Water has inspected and prepared its 33 reservoirs across the East Zone as part of ongoing measures to help maintain reliable water service amid the very strong El Niño,…",
       "byline": "Alexander Magno",
       "section": "Uncategorized",
-      "published": "2026-11-09T18:42:56.169Z",
+      "published": "2026-11-09T19:01:15.013Z",
       "firstSeen": "2026-11-09T12:30:59.007Z",
       "url": "https://newsinfo.inquirer.net/2338623/manila-water-readies-33-reservoirs-for-prolonged-el-nino",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "SAN FRANCISCO, Agusan del Sur — Poverty incidence among families in Caraga (Region 13) dropped to 7.8 percent in 2025, according to preliminary results of the 2025 Family Income and Expenditure…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:56.084Z",
+      "published": "2026-11-09T19:01:15.012Z",
       "firstSeen": "2026-11-09T12:30:57.155Z",
       "url": "https://newsinfo.inquirer.net/2338574/caraga-poverty-rate-drops-to-7-8-in-2025",
       "image": {
@@ -103,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-8lj7m1",
-      "source": "inqn",
-      "title": "Heat index hits 42°C in Coron, Palawan and Borongan, Eastern Samar",
-      "summary": "MANILA, Philippines &#8211; The heat index peaked at a dangerous 42°C in Palawan and Eastern Samar on Monday, according to the Philippine Atmospheric, Geophysical and Astronomical Services…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:56.084Z",
-      "firstSeen": "2026-11-09T12:30:57.234Z",
-      "url": "https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/1000009905.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8211; The heat index peaked at a dangerous 42°C in Palawan and Eastern Samar on Monday, according to the Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa). Pagasa reported that heat indices were recorded in its stations located in Coron, Palawan and Borongan, Eastern Samar. Pagasa had explained that a heat index of"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-p5xzzp",
       "source": "inqn",
       "title": "Pagadian City hosts 2026 MindaCon, more tech investments seen",
       "summary": "PAGADIAN CITY, Zamboanga del Sur &#8211; The National ICT (Information and Communications Technology) Confederation of the Philippines (NICP) has reaffirmed its commitment to driving digital…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:54.390Z",
+      "published": "2026-11-09T19:01:13.423Z",
       "firstSeen": "2026-11-09T13:01:03.201Z",
       "url": "https://newsinfo.inquirer.net/2338589/pagadian-city-hosts-2026-mindacon-more-tech-investments-seen",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "MANILA, Philippines — A bill seeking to double the minimum night shift differential for private-sector workers from the current 10 percent to 20 percent of their regular hourly wage has been filed by…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:54.287Z",
+      "published": "2026-11-09T19:01:13.214Z",
       "firstSeen": "2026-11-09T13:01:03.201Z",
       "url": "https://newsinfo.inquirer.net/2338595/doubled-night-shift-differential-for-private-sector-workers-pushed",
       "image": {
@@ -178,88 +178,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1hnzg3p",
-      "source": "inqn",
-      "title": "Luistro presses Mans Carpio to testify on assets shared with VP",
-      "summary": "MANILA, Philippines — The House prosecution is wondering who will explain the financial records and disputed assets of Vice President Sara Duterte and her husband, lawyer Manases “Mans” Carpio,…",
-      "byline": "Alexander Magno",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:54.286Z",
-      "firstSeen": "2026-11-09T13:30:55.570Z",
-      "url": "https://newsinfo.inquirer.net/2338655/luistro-presses-mans-carpio-to-testify-on-assets-shared-with-vp",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Manases-Mans-Reyes-Carpio-file-27October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The House prosecution is wondering who will explain the financial records and disputed assets of Vice President Sara Duterte and her husband, lawyer Manases “Mans” Carpio, considering that the latter is not in the initial witness list of the defense. Rep. Gerville Luisto, the lead prosecutor, pointed this out on Sunday in"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-bylx8k",
-      "source": "inqn",
-      "title": "Closed fishing season may trigger price hike, supply issues &#8211; Pamalakaya",
-      "summary": "MANILA, Philippines—The upcoming closed fishing season in major fishing grounds across the country could trigger an artificial shortage of fish and drive up market prices, the fishers&#8217; group…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:54.286Z",
-      "firstSeen": "2026-11-09T13:30:56.234Z",
-      "url": "https://newsinfo.inquirer.net/2338612/closed-fishing-season-may-trigger-price-hike-supply-issues-pamalakaya",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Pamalakaya-Pilipinas-fishermen-logo-21124.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—The upcoming closed fishing season in major fishing grounds across the country could trigger an artificial shortage of fish and drive up market prices, the fishers&#8217; group Pambansang Lakas ng Kilusang Mamamalakaya ng Pilipinas (Pamalakaya) warned. In a statement, Pamalakaya said the annual three-month fishing ban, scheduled across several fishing grounds between November and"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-df6c09",
-      "source": "inqn",
-      "title": "Pope names Mati bishop as new head of Davao archdiocese",
-      "summary": "MANILA, Philippines — Mati Bishop Abel Apigo was appointed by Pope Leo XIV as the new archbishop of Davao, succeeding Archbishop Romulo Valles, who already reached the mandatory retirement age for…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:54.286Z",
-      "firstSeen": "2026-11-09T13:30:59.163Z",
-      "url": "https://newsinfo.inquirer.net/2338601/pope-names-mati-bishop-as-new-head-of-davao-archdiocese",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/10/AFP__20251005__77R49CU__v1__HighRes__VaticanReligionPopeMass-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Mati Bishop Abel Apigo was appointed by Pope Leo XIV as the new archbishop of Davao, succeeding Archbishop Romulo Valles, who already reached the mandatory retirement age for bishops, according to CBCP News. Apigo was appointed as the second bishop of Mati by Pope Francis in 2018. He completed his philosophical and"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-natwq6",
       "source": "inqn",
       "title": "Lotto draw results on Monday, November 9",
       "summary": "MANILA, Philippines—No ticket holder won the Grand Lotto 6/55 and Mega Lotto 6/45 jackpot on Monday, November 9, 2026, according to the Philippine Charity Sweepstakes Office. Grand Lotto 6/55 draw…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:54.285Z",
+      "published": "2026-11-09T19:01:13.213Z",
       "firstSeen": "2026-11-09T14:01:02.666Z",
       "url": "https://newsinfo.inquirer.net/2338670/lotto-draw-results-on-monday-november-9",
       "image": {
@@ -284,7 +209,7 @@
       "summary": "MANILA, Philippines — The House of Representatives will soon launch a transparency platform on its website that will allow Filipinos to scrutinize government-funded projects, including their…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:54.285Z",
+      "published": "2026-11-09T19:01:13.213Z",
       "firstSeen": "2026-11-09T14:01:02.739Z",
       "url": "https://newsinfo.inquirer.net/2338667/dy-house-will-soon-launch-transparency-platform-on-its-website",
       "image": {
@@ -309,7 +234,7 @@
       "summary": "A 30-year-old suspect, alias “Cyclone,” was arrested in a drug buy-bust operation in Barangay Ong Yiu, Butuan City on Sunday, Nov. 8, 2026.(Photo courtesy of Police Regional Office 13) SAN FRANCISCO,…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:54.285Z",
+      "published": "2026-11-09T19:01:13.213Z",
       "firstSeen": "2026-11-09T14:01:04.578Z",
       "url": "https://newsinfo.inquirer.net/2338634/butuan-drug-suspect-busted-over-p700000-shabu-seized",
       "image": {
@@ -334,7 +259,7 @@
       "summary": "BAGUIO CITY—Mayor Benjamin Magalong has urged education leaders to promote the ethical and responsible use of artificial intelligence (AI) in schools, emphasizing that the technology should support…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:54.285Z",
+      "published": "2026-11-09T19:01:13.213Z",
       "firstSeen": "2026-11-09T13:30:55.519Z",
       "url": "https://newsinfo.inquirer.net/2338626/baguio-city-mayor-magalong-urges-responsible-use-of-ai-in-schools",
       "image": {
@@ -353,23 +278,73 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1lta1pn",
+      "id": "inqn-1hnzg3p",
       "source": "inqn",
-      "title": "Ilocos Sur town sets P180 minimum farmgate price for live hogs",
-      "summary": "SAN ILDEFONSO, ILOCOS SUR, Philippines — The municipal government of Santa in this province has set a minimum farmgate price of P180 per kilogram for live hogs, aiming to protect local raisers while…",
-      "byline": "cbuban",
+      "title": "Luistro presses Mans Carpio to testify on assets shared with VP",
+      "summary": "MANILA, Philippines — The House prosecution is wondering who will explain the financial records and disputed assets of Vice President Sara Duterte and her husband, lawyer Manases “Mans” Carpio,…",
+      "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:52.517Z",
-      "firstSeen": "2026-11-09T15:01:02.140Z",
-      "url": "https://newsinfo.inquirer.net/2338661/ilocos-sur-town-sets-p180-minimum-farmgate-price-for-live-hogs",
+      "published": "2026-11-09T19:01:13.213Z",
+      "firstSeen": "2026-11-09T13:30:55.570Z",
+      "url": "https://newsinfo.inquirer.net/2338655/luistro-presses-mans-carpio-to-testify-on-assets-shared-with-vp",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2021/06/map-ilocos-sur.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Manases-Mans-Reyes-Carpio-file-27October2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "SAN ILDEFONSO, ILOCOS SUR, Philippines — The municipal government of Santa in this province has set a minimum farmgate price of P180 per kilogram for live hogs, aiming to protect local raisers while promoting fair pricing for meat vendors and consumers. Santa Mayor Jeremy Jesus “JJ” Bueno III issued Executive Order No. 178, Series of"
+          "text": "MANILA, Philippines — The House prosecution is wondering who will explain the financial records and disputed assets of Vice President Sara Duterte and her husband, lawyer Manases “Mans” Carpio, considering that the latter is not in the initial witness list of the defense. Rep. Gerville Luisto, the lead prosecutor, pointed this out on Sunday in"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-bylx8k",
+      "source": "inqn",
+      "title": "Closed fishing season may trigger price hike, supply issues &#8211; Pamalakaya",
+      "summary": "MANILA, Philippines—The upcoming closed fishing season in major fishing grounds across the country could trigger an artificial shortage of fish and drive up market prices, the fishers&#8217; group…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T19:01:13.213Z",
+      "firstSeen": "2026-11-09T13:30:56.234Z",
+      "url": "https://newsinfo.inquirer.net/2338612/closed-fishing-season-may-trigger-price-hike-supply-issues-pamalakaya",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Pamalakaya-Pilipinas-fishermen-logo-21124.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—The upcoming closed fishing season in major fishing grounds across the country could trigger an artificial shortage of fish and drive up market prices, the fishers&#8217; group Pambansang Lakas ng Kilusang Mamamalakaya ng Pilipinas (Pamalakaya) warned. In a statement, Pamalakaya said the annual three-month fishing ban, scheduled across several fishing grounds between November and"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-df6c09",
+      "source": "inqn",
+      "title": "Pope names Mati bishop as new head of Davao archdiocese",
+      "summary": "MANILA, Philippines — Mati Bishop Abel Apigo was appointed by Pope Leo XIV as the new archbishop of Davao, succeeding Archbishop Romulo Valles, who already reached the mandatory retirement age for…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T19:01:13.213Z",
+      "firstSeen": "2026-11-09T13:30:59.163Z",
+      "url": "https://newsinfo.inquirer.net/2338601/pope-names-mati-bishop-as-new-head-of-davao-archdiocese",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/10/AFP__20251005__77R49CU__v1__HighRes__VaticanReligionPopeMass-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Mati Bishop Abel Apigo was appointed by Pope Leo XIV as the new archbishop of Davao, succeeding Archbishop Romulo Valles, who already reached the mandatory retirement age for bishops, according to CBCP News. Apigo was appointed as the second bishop of Mati by Pope Francis in 2018. He completed his philosophical and"
         }
       ],
       "truncated": true,
@@ -384,7 +359,7 @@
       "summary": "BAGUIO CITY, Philippines — The city council urged the City Health Services Office (CHSO) to replace the general term “Igorot” with specific ethnolinguistic classifications in its official forms and…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:52.485Z",
+      "published": "2026-11-09T19:01:11.511Z",
       "firstSeen": "2026-11-09T15:01:02.097Z",
       "url": "https://newsinfo.inquirer.net/2338676/baguio-council-seeks-specific-indigenous-identities-in-health-records",
       "image": {
@@ -403,13 +378,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1lta1pn",
+      "source": "inqn",
+      "title": "Ilocos Sur town sets P180 minimum farmgate price for live hogs",
+      "summary": "SAN ILDEFONSO, ILOCOS SUR, Philippines — The municipal government of Santa in this province has set a minimum farmgate price of P180 per kilogram for live hogs, aiming to protect local raisers while…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T19:01:11.511Z",
+      "firstSeen": "2026-11-09T15:01:02.140Z",
+      "url": "https://newsinfo.inquirer.net/2338661/ilocos-sur-town-sets-p180-minimum-farmgate-price-for-live-hogs",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2021/06/map-ilocos-sur.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN ILDEFONSO, ILOCOS SUR, Philippines — The municipal government of Santa in this province has set a minimum farmgate price of P180 per kilogram for live hogs, aiming to protect local raisers while promoting fair pricing for meat vendors and consumers. Santa Mayor Jeremy Jesus “JJ” Bueno III issued Executive Order No. 178, Series of"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1kv578j",
       "source": "inqn",
       "title": "Defense confident next witnesses will show up – Poa",
       "summary": "MANILA, Philippines — The defense team of Vice President Sara Duterte is confident that its next witnesses will appear before the Senate impeachment court, amid the withdrawal and request to be…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:52.484Z",
+      "published": "2026-11-09T19:01:11.472Z",
       "firstSeen": "2026-11-09T15:30:56.292Z",
       "url": "https://newsinfo.inquirer.net/2338708/defense-confident-next-witnesses-will-show-up-poa",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "SAN ILDEFONSO, ILOCOS SUR, Philippines — The city government of Candon has allocated P124 million for agricultural assistance to tobacco farmers, including the provision of farm inputs, fuel support…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:50.713Z",
+      "published": "2026-11-09T19:01:11.461Z",
       "firstSeen": "2026-11-09T15:30:56.263Z",
       "url": "https://newsinfo.inquirer.net/2338703/candon-city-sets-aside-p124m-for-tobacco-farmers",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "MANILA, Philippines — Only two out of 315 government agencies have received their 2024 Performance-Based Bonus (PBB) funding, according to the Department of Budget and Management (DBM). Based on its…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:47.113Z",
+      "published": "2026-11-09T19:01:09.658Z",
       "firstSeen": "2026-11-09T17:01:00.817Z",
       "url": "https://newsinfo.inquirer.net/2338734/whats-the-status-of-your-agencys-2024-pbb-processing",
       "image": {
@@ -484,7 +484,7 @@
       "summary": "MANILA, Philippines — A security official overseeing preparations for the country’s hosting of the 49th Association of Southeast Asian Nations (Asean) Summit has appealed to groups planning protests…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:43.972Z",
+      "published": "2026-11-09T19:01:04.600Z",
       "firstSeen": "2026-11-09T17:01:00.769Z",
       "url": "https://newsinfo.inquirer.net/2338740/hold-protests-after-asean-summit-security-official-tells-groups",
       "image": {
@@ -509,7 +509,7 @@
       "summary": "MARIVELES, BATAAN, Philippines — A police buy-bust operation that was supposed to target a suspected drug peddler led to the discovery of an alleged drug den inside a residential house along De…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:43.484Z",
+      "published": "2026-11-09T19:01:04.256Z",
       "firstSeen": "2026-11-09T17:30:58.232Z",
       "url": "https://newsinfo.inquirer.net/2338699/bataan-drug-buy-bust-operation-uncovers-alleged-drug-den-7-arrested",
       "image": {
@@ -534,7 +534,7 @@
       "summary": "LEGAZPI CITY, ALBAY, Philippines — The Philippine Army has declared Legazpi City under Stable Internal Peace and Security (SIPS) status after recording no armed encounters or insurgent activities in…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T18:42:43.483Z",
+      "published": "2026-11-09T19:01:04.212Z",
       "firstSeen": "2026-11-09T18:01:03.360Z",
       "url": "https://newsinfo.inquirer.net/2338696/legazpi-city-declared-insurgency-free",
       "image": {
@@ -559,7 +559,7 @@
       "summary": "MANILA, Philippines – Mamamayang Liberal party-list Rep. Leila de Lima on Monday expressed concern that the Department of Foreign Affairs (DFA) is attempting to muzzle other authorities from speaking…",
       "byline": "ggaviola",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-09T18:42:43.483Z",
+      "published": "2026-11-09T19:01:04.212Z",
       "firstSeen": "2026-11-09T14:01:02.666Z",
       "url": "https://globalnation.inquirer.net/346540/dfa-statement-looks-like-attempt-to-monopolize-china-discourse-de-lima",
       "image": {
@@ -576,6 +576,436 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "grd-yflc8n",
+      "source": "grd",
+      "title": "Former RFK Jr adviser accuses Trump officials of prioritizing special interest groups over voters",
+      "summary": "<p>Calley Means claims officials abandoned Maha agenda and took money from sugar industry leading up to midterms</p><p>A former top Trump administration health adviser accused Susie Wiles, whom…",
+      "byline": "Ariana Baio",
+      "section": "Trump administration",
+      "published": "2026-11-09T18:57:51.000Z",
+      "firstSeen": "2026-11-09T19:01:04.256Z",
+      "url": "https://www.theguardian.com/us-news/2026/nov/09/rfk-jr-trump-midterms-maha",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/fd2ce7b4149f178882eca45c07ea755cea816574/0_0_5000_4000/master/5000.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=aae2b9dc514ea79b9ba86ceedf3cd067",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A former top Trump administration health adviser accused Susie Wiles, whom Donald Trump removed as the White House chief of staff last week, of stalling the so-called “Make America healthy again” (Maha) agenda by prioritizing special interest groups and fundraising before the midterm elections."
+        },
+        {
+          "type": "p",
+          "text": "Calley Means, who resigned two weeks ago from his job advising Robert F Kennedy Jr, blamed Wiles and other Trump staffers for dropping the ball on the Maha agenda to take money from the sugar industry to fuel the midterms – which Republicans ultimately lost."
+        },
+        {
+          "type": "p",
+          "text": "“I mean, it’s why we lost the midterms. We have been discordant from what was run on, two years ago,” Means told Joe Rogan in a podcast interview on Friday."
+        },
+        {
+          "type": "p",
+          "text": "Means told CBS News that Wiles and her “very close-knit crew”, including James Blair and Richard Walters, two White House deputy chiefs of staff; Walker Barrett, a policy adviser; and Tony Fabrizio, a pollster for Trump, “explicitly catered to special interests against the will of the voters”."
+        },
+        {
+          "type": "p",
+          "text": "Republicans have been looking for someone to blame for the massive losses in last week’s midterm election. Democrats, who had been poised to win the House and possibly Senate, outperformed expectations, taking both chambers of Congress, a majority of governor offices, and flipping dozens of House seats."
+        },
+        {
+          "type": "p",
+          "text": "Means attributes much of that loss to Wiles, who left the administration on Friday and was replaced by Stephen Miller. Walters, a close ally to Wiles, resigned from the administration on Friday."
+        },
+        {
+          "type": "p",
+          "text": "“I think a lot of this happened without Trump’s full knowledge. I don’t think President Trump fully knew that some of these advisers were taking money from the industries we ran on fighting against,” Means told CBS News."
+        },
+        {
+          "type": "p",
+          "text": "Among the allegations, Means said Wiles did not support efforts to make American diets healthier because the administration needed to take money from “the sugar people” for the midterms."
+        },
+        {
+          "type": "p",
+          "text": "“They would often say that we can’t do certain things because that would hurt special interest configuration for the midterms,” Means told Rogan."
+        },
+        {
+          "type": "p",
+          "text": "He also accused Wiles and Blair of pressuring the Department of Health and Human Services (HHS) to approve flavored e-cigarettes, otherwise known as vapes."
+        },
+        {
+          "type": "p",
+          "text": "Blair denied Means’s claims to CBS News, saying he “didn’t promote flavored vaping specifically at all” and was tasked with aligning the Food and Drug Administration’s (FDA) nicotine delivery device application process with federal law."
+        },
+        {
+          "type": "p",
+          "text": "“Calley is intentionally misrepresenting my role and my responsibility because he opposes the issue entirely. Even though the president himself has made his position on smoking and smoking alternatives known very publicly and has provided clear direction. Calley just doesn’t like it,” Blair told CBS News."
+        },
+        {
+          "type": "p",
+          "text": "On social media, Blair threatened to sue Means and accused him of lying."
+        },
+        {
+          "type": "p",
+          "text": "Means also claimed Fabrizio refused to support several Maha initiatives while simultaneously taking money from industry giants and pharmaceutical companies. In one example, Means said Fabrizio had advised against defining “ultra-processed foods” while taking money from PepsiCo."
+        },
+        {
+          "type": "p",
+          "text": "Kennedy posted a statement to X on Friday, reiterating: “I stand firmly behind President Trump and the historic reforms we are advancing together."
+        },
+        {
+          "type": "p",
+          "text": "“Draining the swamp is a mandate, and we have an obligation to deliver. Entrenched interests have exercised power in Washington under both parties for decades. President Trump and I intend to keep fighting until the American people–not corporate influence–drive our health policies,” Kennedy wrote."
+        },
+        {
+          "type": "p",
+          "text": "Contacted for comment, the White House said: “The Trump Administration has never allowed and will never allow outside groups to influence policy decisions. President Trump is busy executing on his America First agenda that includes the largest working-class tax cuts in history, over a million private sector jobs added to the economy, a sealed shut border, and lowest violent crime to the lowest level in nearly a century.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1bow86j",
+      "source": "grd",
+      "title": "John Fetterman to be challenged for Senate seat by democratic socialist born in Gaza",
+      "summary": "<p>Ahmed Moor, a Palestinian American, said he would run in a primary to be the Democratic nominee in 2028</p><ul><li><p><a…",
+      "byline": "Robert Tait in Washington",
+      "section": "Pennsylvania",
+      "published": "2026-11-09T18:54:49.000Z",
+      "firstSeen": "2026-11-09T19:01:06.375Z",
+      "url": "https://www.theguardian.com/us-news/2026/nov/09/john-fetterman-pennsylvania-ahmed-moor",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/b157f8745887344b5e044300b673ea6419e231bd/500_0_5000_4000/master/5000.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=07935e0fdbe5d43d1b5a9a0cc5c40792",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "John Fetterman, the maverick Democratic senator who has provoked widespread anger by increasingly siding with Republicans, is to be challenged for his Pennsylvania seat by a democratic socialist candidate who is originally from Gaza."
+        },
+        {
+          "type": "p",
+          "text": "Ahmed Moor, a Palestinian American, said he would run in a primary to be the Democratic nominee in 2028, when Fetterman’s seat is up for re-election."
+        },
+        {
+          "type": "p",
+          "text": "The move is the first sign of Fetterman’s weakened position in the party since the Democrats won back control of the Senate in last week’s US midterm elections, when the party won at least 54 of the upper chamber’s 100 seats."
+        },
+        {
+          "type": "p",
+          "text": "The prospect of a comfortable Senate majority in effect eliminates the possibility of Fetterman’s vote being decisive, a relief to Democrat strategists who feared he could no longer be relied on for support on contentious issues."
+        },
+        {
+          "type": "p",
+          "text": "Fetterman had already caused widespread disillusionment among many Pennsylvania Democrats, who campaigned for him in the 2022 midterms when he ran as a progressive outsider."
+        },
+        {
+          "type": "p",
+          "text": "But he has sparked anger by, on occasion, speaking out in support of Donald Trump, who in turn has praised Fetterman as “a great guy” and said he would “love” him to become a Republican."
+        },
+        {
+          "type": "p",
+          "text": "Moor, 42, a writer and journalist who was born in the southern Gaza city of Rafah and has previously written for the Guardian, told the Philadelphia Inquirer that he was “not really running against Fetterman”."
+        },
+        {
+          "type": "p",
+          "text": "“I’m running for good government. I’m running for the rule of law. I’m running because I believe in America,” he said."
+        },
+        {
+          "type": "p",
+          "text": "But his Palestinian background throws down the gauntlet to Fetterman’s vocally pro-Israel stance, which has become increasingly strident since the 7 October 2023 attack by Hamas that left about 1,200 people on the Israeli side dead. More than 74,000 Palestinians in Gaza – most women and children – were killed in Israel’s retaliatory military response."
+        },
+        {
+          "type": "p",
+          "text": "Fetterman has said he has no intention of leaving the Democrats but strongly suggested would change his mind if the party became “anti-Israel”."
+        },
+        {
+          "type": "p",
+          "text": "“That’s my red line,” Fetterman said last July. “If the Democratic party becomes official anti-Israel, then that’s when I would force me out. If they make it the official platform of the party, then that’s a much different situation.”"
+        },
+        {
+          "type": "p",
+          "text": "Fetterman has met more often with Benjamin Netanyahu, Israel’s prime minister, than with Philadelphia’s mayor, Cherelle Parker, according to the Philadelphia Inquirer."
+        },
+        {
+          "type": "p",
+          "text": "Moor, by contrast, said he supports withdrawing US aid from Israel and imposing sanctions aimed at securing equal rights for Palestinians."
+        },
+        {
+          "type": "p",
+          "text": "Democrats say Moor is unlikely to be the only challenger to Fetterman, who provoked outrage in his own party in September by sending a video message to the Republicans’ midterm convention in Texas in which he praised Pennsylvania’s Republican senator, Dave McCormick."
+        },
+        {
+          "type": "p",
+          "text": "“I’m pretty confident that you’ll see some bigger, mainstream kind of names, involved,” said Mike Weidinger, a veteran Lancaster county Democrat with state-wide connections, who cited Chris Deluzio, a representative from the Pittsburgh area, and Malcolm Kenyatta, a Pennsylvania state legislator, as likely challengers."
+        },
+        {
+          "type": "p",
+          "text": "“Generally people think [Fetterman] either misrepresented himself when he ran the first time, or he changed completely from what he said he was,” said Weidinger."
+        },
+        {
+          "type": "p",
+          "text": "“We just had an election here in Pennsylvania where a lot of us busted our ass for [Pennsylvania governor Josh] Shapiro and a lot of other people, and he didn’t spend one penny or do one thing for a single Democrat candidate here last week.”"
+        },
+        {
+          "type": "p",
+          "text": "On the possibility of Fetterman joining the Republicans, he added: “If he wants to switch, he can switch. If it would have been 51 to 49, it would have mattered. But it doesn’t matter now.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-12qdjg0",
+      "source": "cbc",
+      "title": "Heated Rivalry could be getting 2 more seasons and a movie, sources say",
+      "summary": "Deadline has reported the cast and crew of Heated Rivalry are currently filming not one but two new seasons, and a movie could be scheduled for theatrical release in December 2027.",
+      "byline": "Helen Surgenor",
+      "section": "News/Entertainment",
+      "published": "2026-11-09T18:52:47.000Z",
+      "firstSeen": "2026-11-09T19:01:04.212Z",
+      "url": "https://www.cbc.ca/news/entertainment/heated-rivalry-more-seasons-movie-9.7414961?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/28f38d11-1be6-417e-b171-b4af97f4d6f5,1768920654465/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1245%2C700%29%3BResize%3D620",
+        "caption": "Deadline is reporting that sources say a Heated Rivalry movie is planned to be released in theatres in December 2027, but will not have storylines featuring Ilya Rozanov, portrayed by Connor Storrie, left, and Shane Hollander, played by Hudson Williams, right. (Crave)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Entertainment·New"
+        },
+        {
+          "type": "p",
+          "text": "Deadline has reported the cast and crew of Heated Rivalry are currently filming not one but two new seasons, and a movie could be scheduled for theatrical release in December 2027."
+        },
+        {
+          "type": "h",
+          "text": "Cineplex to play episodes of Season 1 in 4DX theatres for one day only"
+        },
+        {
+          "type": "p",
+          "text": "Jacob Tierney has talked before about how quickly he works when he's producing a television show."
+        },
+        {
+          "type": "p",
+          "text": "But it appears the executive producer, director and writer of the Heated Rivalry television series has been especially busy over the past year, because Deadline has reported the cast and crew are currently filming not one but two new seasons, according to sources."
+        },
+        {
+          "type": "p",
+          "text": "Deadline's report said Season 2 and Season 3 will each be six episodes long and are scheduled to wrap filming by early December."
+        },
+        {
+          "type": "p",
+          "text": "Fans who have been \"reheating\" the first six episodes of Heated Rivalry will finally get to see how the story progresses in spring 2027, on Crave and HBO."
+        },
+        {
+          "type": "p",
+          "text": "And according to Deadline, there is more queer hockey romance coming."
+        },
+        {
+          "type": "p",
+          "text": "It's sources said a standalone Heated Rivalry movie will shoot next month, with a theatrical release planned for December 2027."
+        },
+        {
+          "type": "p",
+          "text": "Filming for Season 2 at the very least is already underway, but Crave is staying tight-lipped about any new developments, telling CBC News, it has no projects to confirm."
+        },
+        {
+          "type": "p",
+          "text": "Francois Arnaud, left, plays Scott Hunter, the hockey player who publicly declares his love for Kip Grady, played by Robbie G.K., in the Heated Rivalry television series. (Crave)"
+        },
+        {
+          "type": "p",
+          "text": "Stars Hudson Williams and Connor Storrie have each signed up for three seasons of the show, according to GQ."
+        },
+        {
+          "type": "p",
+          "text": "Beloved characters Shane Hollander and Ilya Rozanov (played by Williams and Storrie, respectively) are not expected to be in the film, which Deadline said could be described \"as a Christmas special or a holiday-themed episode.\""
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Heated Rivalry thirst traps: The Canadian export that won't quit"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "It just so happens that Rachel Reid, the Halifax-born author of the Game Changers series on which Heated Rivalry is based, has written a holiday-themed short story set in that world."
+        },
+        {
+          "type": "p",
+          "text": "It's called Merry Christmas, Scott and Kip, so that may offer some clues about the movie's storyline."
+        },
+        {
+          "type": "h",
+          "text": "Heated Rivalry in theatres"
+        },
+        {
+          "type": "p",
+          "text": "If the reporting is accurate, the movie hasn't even start filming yet and Heated Rivalry is already generating impressive box office numbers."
+        },
+        {
+          "type": "p",
+          "text": "This past weekend, fans in Britain, the U.S. and Canada poured into cinemas to watch back-to-back episodes of Season 1 together."
+        },
+        {
+          "type": "p",
+          "text": "Cineplex would not reveal Canadian box office numbers to CBC News, but a representative said, \"audience interest has been strong.\""
+        },
+        {
+          "type": "p",
+          "text": "In fact, demand has been so high, Cineplex said \"episodes 5 and 6 of Heated Rivalry will also be available in 4DX for one day only at select locations on Nov. 16.\""
+        },
+        {
+          "type": "p",
+          "text": "That's right, those are the theatres with the moving seats, wind and water effects."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Hudson Williams talks tattoos, sex scenes, Connor Storrie with neurodivergent interviewers in The Assembly S2",
+            "Heated Rivalry Season 2 cast announcement sparks criticism from some fans over body diversity"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "But Variety is reporting the limited theatrical release has already generated $1.4 million US from 945 theaters."
+        },
+        {
+          "type": "p",
+          "text": "Variety calls that an \"impressive haul\" considering the show can still be streamed at home online, and the ticket price was slightly cheaper than what research firm EntTelligence identifies as the average movie price."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Helen Surgenor is a producer for CBC News based in Toronto, currently working for the entertainment unit. She spent years waking up before dawn to make the daily news podcast World Report. She has reported in Alberta, Iqaluit and Barbados. You can reach her at helen.surgenor@cbc.ca."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1v750sc",
+      "source": "grd",
+      "title": "Barnsley workers strike over nursery privatisation by Reform council",
+      "summary": "<p>Women say move will be ‘massively detrimental’ to services for vulnerable children, and hit their own pensions</p><p>The 33 women waving banners outside a nursery in the South Yorkshire village of…",
+      "byline": "Robyn Vinter North of England correspondent",
+      "section": "Industrial action",
+      "published": "2026-11-09T18:50:17.000Z",
+      "firstSeen": "2026-11-09T19:01:04.212Z",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/09/barnsley-strike-nursery-privatisation-reform-council-yorkshire-grimethorpe",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/dbec61b7b0652ab5d40d8b43901f23287ed9a613/1281_0_7200_5760/master/7200.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=800fca393163a5ef449550eacf62f173",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The 33 women waving banners outside a nursery in the South Yorkshire village of Grimethorpe have never been on strike before."
+        },
+        {
+          "type": "p",
+          "text": "Passing cars beep their horns in support of the workers, who have taken action at six nurseries run by Barnsley council after its Reform UK leadership agreed to transfer them to private companies. They say the move will have a hugely negative impact on the services they provide to vulnerable children, and to their own pensions."
+        },
+        {
+          "type": "p",
+          "text": "Such is the strength of feeling among the women, who are members of the GMB union, that turnout at their strike ballot was 100%, with every single member backing the walkout."
+        },
+        {
+          "type": "p",
+          "text": "“For low-paid working women to take a stand is significant,” said Victoria Austin, a GMB regional organiser, adding that the work done by the nursery staff was above and beyond and “the council should be singing that from the rooftops”."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/094595ccd7ef87357f614a5248fdb195d5e0251c/0_0_8640_5760/master/8640.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The nursery workers deliver protest leaflets around Grimethorpe. Photograph: Christopher Thomond/The Guardian"
+        },
+        {
+          "type": "p",
+          "text": "Instead, the council made the “massively detrimental” decision to push ahead with privatising the nurseries, only telling the workers about the impact on their pensions 36 hours before the transfer was due to take place, Austin said."
+        },
+        {
+          "type": "p",
+          "text": "While the plans began under the previous Labour administration, councillors at the time had reassured nursery workers that their pay and benefits, including pensions, would stay the same."
+        },
+        {
+          "type": "p",
+          "text": "Austin said Reform, which took over the council at the local elections in May after half a century of Labour leadership, was “not interested” in the workers’ fight, and was “wanting to build a legacy around balancing the books”."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/102496c3e1ea47e4c8803413455689d787d99c21/0_801_5760_7200/master/5760.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Grimethorpe, a former mining village, was the location for the film Brassed Off, which followed the colliery band as they awaited a judgment as to whether their pit would be closed. Photograph: Christopher Thomond/The Guardian"
+        },
+        {
+          "type": "p",
+          "text": "Some local people see the transfer of nursery ownership as an example of heavy-handed slashing by Reform councils, which has also included closing care homes and cutting social care."
+        },
+        {
+          "type": "p",
+          "text": "“As an elected council, their priority should be not letting children get left behind and doing the right thing by communities,” Austin said."
+        },
+        {
+          "type": "p",
+          "text": "The workers and the union feel the transfer has been handled badly. One nursery is shuttered after the council deregistered it with Ofsted to allow the private provider to register, but it then pulled out."
+        },
+        {
+          "type": "p",
+          "text": "The council said there was no legal duty for councils to run nursery services and the change would “reduce the amount of council tax payers’ money needed to support the nurseries”."
+        },
+        {
+          "type": "p",
+          "text": "The council said after receiving legal advice that the staff were no longer eligible for the local government pension scheme before the transfer, “that information was shared quickly with staff and trade unions”."
+        },
+        {
+          "type": "p",
+          "text": "William Brown, the leader of Barnsley council, said: “We’re disappointed that GMB members have voted in favour of strike action. The decision to transfer these nurseries to another provider was taken to protect jobs and retain these services for families.”"
+        },
+        {
+          "type": "p",
+          "text": "He said additional provision had been made for families on the three strike days and the council was continuing to engage with the union."
+        },
+        {
+          "type": "p",
+          "text": "For Kimberley Darlington, Emma Jones, Lucy Kolconko and Charlotte Hawe, who work at Darfield nursery, the strike was not just about the plans to move them to a lower-value pension but to protect the families they supported."
+        },
+        {
+          "type": "p",
+          "text": "Hawe said: “We’re often the first point of contact. I’ve arranged lots of food parcels for families who need them.”"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/39f47059739907ffd63df35b889d4990882040d2/0_0_8640_5760/master/8640.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Turnout at the nursery workers’ strike ballot was 100%.  Photograph: Christopher Thomond/The Guardian"
+        },
+        {
+          "type": "p",
+          "text": "Kolconko has taken families to visit the doctor when they have needed to. Darlington added: “We went out to a house to show a parent how to play with her Send (special educational needs and disabilities) children, she just didn’t know.”"
+        },
+        {
+          "type": "p",
+          "text": "The nursery workers have taught a three-year-old child with special educational needs to walk, which the parent had not done, and helped another family who were living with a rat infestation and mouldy walls to get help from their landlord."
+        },
+        {
+          "type": "p",
+          "text": "They believe these are things they would be unable to do in a private setting where staff may be responsible for more children. In Barnsley, the nursery workers each look after four children over the age of two, while in private settings this can be five children."
+        },
+        {
+          "type": "p",
+          "text": "“We just won’t have time to do these things. We’ve done all this work and the council has turned on us,” said Kolconko, a senior nursery worker."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inqg-1vu6tdf",
@@ -1996,90 +2426,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "grd-1sbd3rm",
-      "source": "grd",
-      "title": "Air pollution soars as fog traps emissions in England’s urban areas",
-      "summary": "<p>Particles from fireworks and bonfires likely to have contributed to levels well above WHO’s daily guideline</p><p>Air pollution soared to “very high” levels across urban parts of England on Monday…",
-      "byline": "Matthew Pearce",
-      "section": "Air pollution",
-      "published": "2026-11-09T17:50:28.000Z",
-      "firstSeen": "2026-11-09T18:31:04.933Z",
-      "url": "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/11c7669b90e9ed1725390c0e7b560318b560b1b8/274_0_1668_1334/master/1668.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=37a1707e8e6e24cba5e58ff842cb302a",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Air pollution soared to “very high” levels across urban parts of England on Monday as still, foggy weather kept emissions trapped after a weekend of fireworks and bonfires."
-        },
-        {
-          "type": "p",
-          "text": "Government monitoring showed 11 sites, mainly in London and Greater Manchester, reached the highest band on its 10-point index for particulate matter in the 24 hours to 10am. A further 27 sites recorded “high” levels across the capital, the north-west, the Midlands, Yorkshire and the east of England."
-        },
-        {
-          "type": "p",
-          "text": "The worst reading was in Hillingdon, west London, where fine particles (PM2.5) peaked at a 24-hour average of 129 micrograms per cubic metre, more than eight times the World Health Organization’s daily guideline. In the north-west, Manchester Piccadilly, Wigan, Blackburn, Preston and Rochdale all reached the “very high” band."
-        },
-        {
-          "type": "p",
-          "text": "Particulate matter consists of tiny solid particles and liquid droplets suspended in the air. Exposure is linked to heart and lung disease and cancer."
-        },
-        {
-          "type": "p",
-          "text": "Jane Burston, the CEO of the Clean Air Fund, said although monitoring networks could not determine where pollution came from, it was highly likely the pollution was from autumn celebrations."
-        },
-        {
-          "type": "p",
-          "text": "“It’s a combination of the weather, which has been foggy and not windy at all, and then the fireworks and bonfires and Diwali,” she said. “What it means is the wind doesn’t blow the pollution away and the fog keeps it trapped down in the same place."
-        },
-        {
-          "type": "p",
-          "text": "“If you’ve got asthma or a lung condition, you absolutely will not have wanted to go outside this morning or yesterday – it can bring on asthma attacks, coughing and wheezing."
-        },
-        {
-          "type": "p",
-          "text": "“But for everybody, it’s dangerous. People in some of the worst-affected areas are breathing particulate matter concentrations five to 10 times above normal annual levels,” she added."
-        },
-        {
-          "type": "p",
-          "text": "Burston called for better pollution forecasts, more widely accessible health alerts and stronger action to reduce emissions from wood burning and transport. “If we had air quality at a much safer lower level all year round, then on nights like Bonfire Night, the extra pollution is less likely to push us to extreme levels,” she said."
-        },
-        {
-          "type": "p",
-          "text": "Larissa Lockwood, the director of campaigns at Global Action Plan, said the high pollution levels were “not surprising at a time of year when people are lighting log burners, having bonfires and lighting fireworks. On top of the normal levels from transport and industry, we see higher levels of air pollution and they’re then unable to disperse because they’re trapped by the fog.”"
-        },
-        {
-          "type": "p",
-          "text": "Domestic burning and transport are the biggest sources of particulate pollution, she said. Lockwood called for a public health campaign on air pollution and “burn alerts”, asking people in towns and cities not to use wood burners when levels are high."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "“We need to phase out non-essential burning in our towns and cities so that we don’t experience these unhealthy air pollution levels,” she added."
-        },
-        {
-          "type": "p",
-          "text": "A spokesperson for the mayor of London said: “On the advice of forecasters at Imperial College London, we’ve issued a high air pollution alert for Tuesday 10 November. Monitoring data show that pollution levels rose sharply across London from Friday to Sunday and remained elevated into Monday morning.”"
-        },
-        {
-          "type": "p",
-          "text": "A Clean Air Greater Manchester spokesperson said: “Higher particulate pollution levels occur each year around Bonfire Night, when fireworks and bonfires add particulate matter to the air. This year, weather conditions are also an important factor, with light winds and fog creating conditions in which pollution from a range of sources can accumulate near ground level. The latest information and health advice provided by Defra is available online.”"
-        },
-        {
-          "type": "p",
-          "text": "The government has been contacted for comment."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-lutcj1",
       "source": "abs",
       "title": "The pixie cut and these fun facts about “PBB Collab 3.0” housemate Mikee Quintos prove she's a cool girl!",
@@ -2122,59 +2468,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "grd-1rh2kuz",
-      "source": "grd",
-      "title": "Donnie Dunagan, original voice of Disney’s Bambi and triple Purple Heart marine, dies aged 92",
-      "summary": "<p>Dunagan was six when he voiced the young deer in the classic cartoon, with an assistant director instructing him to pretend his own mother had died</p><p>Donnie Dunagan, who voiced Bambi in the…",
-      "byline": "Catherine Shoard",
-      "section": "Film",
-      "published": "2026-11-09T17:48:31.000Z",
-      "firstSeen": "2026-11-09T18:31:05.054Z",
-      "url": "https://www.theguardian.com/film/2026/nov/09/donnie-dunagan-bambi-voice-triple-purple-heart-marine-dies",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/4a2f0cd9fa8b0cd8733fdc02c69594c202d67501/306_274_2685_2148/master/2685.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=8cf8b600dcfcbdb257ba9e8babc9eac2",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Donnie Dunagan, who voiced Bambi in the Walt Disney classic, as well as playing the son of Frankenstein opposite Basil Rathbone and Boris Karloff, has died aged 92."
-        },
-        {
-          "type": "p",
-          "text": "Dunagan was six when he was chosen to provide the voice of the young deer in the animation’s most heartbreaking chapter. He recalled the experience in the recording booth as easy and relaxed, with rudimentary technology and notes from an assistant director instructing him to pretend his own mother had died when voicing Bambi’s reaction to his mother being killed by a hunter."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/3246028bf8c2e5772307831fb5b8e03dd092b6d5/495_238_2355_1520/master/2355.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Heartbreaking … Dunagan was six when he provided Bambi’s voice Photograph: John Davidson/The Guardian"
-        },
-        {
-          "type": "p",
-          "text": "The actor recalled that Bambi’s mother originally dies on screen, but Disney altered this in the edit. Nonetheless, Dunagan received considerable hate mail from the hunting community afterwards."
-        },
-        {
-          "type": "p",
-          "text": "Bambi, whose release was delayed in the wake of the attack on Pearl Harbor, ended up being Dunagan’s final film. He began his career on horror films Son of Frankenstein and Tower of London, playing the curly blond-haired son of Rathbone’s Dr Frankenstein, as well as featuring in films such as Mother Carey’s Chickens, The Forgotten Woman, Vigil in the Night and Meet the Chump."
-        },
-        {
-          "type": "p",
-          "text": "He recalled often playing checkers with Karloff on set, while the latter was in full makeup dressed as the monster."
-        },
-        {
-          "type": "p",
-          "text": "After college, Dunagan joined the military in 1952 where he spent 25 years and for which he was awarded a bronze star and three Purple Hearts for bravery. He never disclosed his early career to his comrades, but said that “one of the biggest regrets of my life is that I didn’t have the courage to tell my close personal friends in the Marine Corps that I had been a part of the wonderful work of Mr Disney”."
-        },
-        {
-          "type": "p",
-          "text": "In 2015, he reflected on the experience by calling it “pure joy that both children and 80-year-olds can enjoy the film together. I could be working in the White House and children couldn’t care less. But let someone say, ‘that dude over there was the face or voice of Bambi’, and I am an immediate adopted grandfather to them. That is just an unmatchable joy, and a real responsibility.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "grd-17r5nkp",
@@ -2952,74 +3245,6 @@
         {
           "type": "p",
           "text": "The Pentagon said on Monday that it is \"aware of speculation regarding a potential cyber incident\" but that military investigators were on the case and it could not offer further comment ⁠for security reasons."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-y01s0t",
-      "source": "grd",
-      "title": "Only known handwritten final draft of MLK Jr’s I Have A Dream speech to be auctioned",
-      "summary": "<p>The document is expected to fetch more than $10m and the proceeds will be donated to several charities</p><p>The likely only surviving handwritten final full draft of Martin Luther King Jr’s…",
-      "byline": "Anna Betts",
-      "section": "Martin Luther King",
-      "published": "2026-11-09T17:13:27.000Z",
-      "firstSeen": "2026-11-09T17:31:01.873Z",
-      "url": "https://www.theguardian.com/us-news/2026/nov/09/mlk-dream-speech-auction",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/164b176801704416bd10e29614cf4931231839e1/643_0_4258_3407/master/4258.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=dc24b464c9a0faf8149dab7e9ef91da6",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The likely only surviving handwritten final full draft of Martin Luther King Jr’s historic 1963 I Have a Dream speech is set to be auctioned in New York City in January, with proceeds benefiting several charities, including the King Center in Atlanta, Georgia."
-        },
-        {
-          "type": "p",
-          "text": "Auction house Christie’s has announced that the document is expected to fetch more than $10m, and that the pages will be displayed publicly at the auction house from 15 to 21 January, before being offered in a single-lot sale."
-        },
-        {
-          "type": "p",
-          "text": "Described as “the only known handwritten final draft of the speech”, the auction house said that the document was rediscovered in 2024 in a desk drawer belonging to a former aide of King’s, Edward T Clayton, by his widow, Xernona."
-        },
-        {
-          "type": "p",
-          "text": "She had originally found it in the late 1990s but did not know then that it was the only known final draft, and put it back in the drawer, until 2024, when she rediscovered the document and experts established that it is unique, Christie’s added."
-        },
-        {
-          "type": "p",
-          "text": "According to the auction house, King completed the draft of the speech in the early hours of 28 August 1963, at the Willard hotel in Washington DC."
-        },
-        {
-          "type": "p",
-          "text": "“Focused on limiting his remarks to five minutes, and considering both word choice and flow, Dr King wrote the final draft of the speech in blue ink across seven yellow legal pad pages after days of discussions with many advisers – including trusted speech writer Edward T Clayton,” Christie’s said."
-        },
-        {
-          "type": "p",
-          "text": "Just hours after the ink dried that day, King delivered the pivotal speech in Washington DC with his towering rhetoric during the height of the civil rights struggle for racial equality in the US."
-        },
-        {
-          "type": "p",
-          "text": "“The stirring words that he delivered that afternoon have come to be regarded as the most important speech of the 20th Century, and one of the most important speeches in American history,” the release said."
-        },
-        {
-          "type": "p",
-          "text": "Christie’s said the pages contain edits and crossings-out and “offer a rare glimpse at Dr King’s writing process”."
-        },
-        {
-          "type": "p",
-          "text": "Notably, this original draft does not include the words “I have a dream”, as King “famously added” those words “spontaneously while delivering his speech on the day of the [civil rights] march”, Christie’s said."
-        },
-        {
-          "type": "p",
-          "text": "“This is a treasure of American history,” said Peter Klarnet, Christie’s manuscripts specialist. “It gives you chills to look at it. Reading along, you’re there in the moment with Dr King, watching him compose it and making edits in real time. It captures a moment that literally changed the course of our nation and makes it very real and very human.”"
-        },
-        {
-          "type": "p",
-          "text": "King’s son, Martin Luther King III, said in a statement that it is “poetic that the past will protect the future”."
         }
       ],
       "truncated": false,
@@ -12263,130 +12488,6 @@
         {
           "type": "p",
           "text": "“They exist in all school jurisdictions and within a school,” she said. “If there were some round tables so that there could be some consensus about what report card wording should be … so that they're more in layman's terms, that would be better.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-1isxiif",
-      "source": "cbc",
-      "title": "Cat who hid in couch rescued from Saskatoon landfill",
-      "summary": "Moze the cat had enough lives to survive an unscheduled trip to the dump in her favourite hiding spot.",
-      "byline": "Erin McNutt",
-      "section": "News/Canada/Saskatoon",
-      "published": "2026-11-09T11:00:00.000Z",
-      "firstSeen": "2026-11-09T18:31:04.608Z",
-      "url": "https://www.cbc.ca/news/canada/saskatoon/cat-rescued-couch-landfill-9.7412390?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/2efb9b5a-4956-497d-b09c-c33712216f39,1793989455434/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C128%2C544%2C306%29%3BResize%3D620",
-        "caption": "Moze, a four-year-old cat, was reunited with her owner Ryan Nitschke after hiding in a couch that was taken to the Saskatoon landfill. (Submitted by Alisha Visser)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Saskatoon"
-        },
-        {
-          "type": "p",
-          "text": "Moze the cat had enough lives to survive an unscheduled trip to the dump in her favourite hiding spot."
-        },
-        {
-          "type": "h",
-          "text": "'She is completely unharmed, unscathed and no injuries,' says owner of Moze, 4"
-        },
-        {
-          "type": "p",
-          "text": "A Saskatoon couple is happy their four-year-old cat, Moze, had enough of her nine lives left to survive an unexpected trip to the landfill inside her favourite hiding spot in a couch."
-        },
-        {
-          "type": "p",
-          "text": "The ordeal started in October when Ryan Nitschke and Alisha Vessir had a couch and love seat moved out of their home to make space for new furniture."
-        },
-        {
-          "type": "p",
-          "text": "“Like an hour later, my girlfriend and I were lying in bed and we were saying, ‘I wonder when Moze is going to reappear.’ She always hides whenever we have visitors. She hates company,\" Nitschke said. \"Then it occurred to us that her favourite place is inside the couch.”"
-        },
-        {
-          "type": "p",
-          "text": "Moze, a four-year-old cat, was reunited with her owners after hiding in a couch and ending up in the Saskatoon landfill. (Submitted by Alisha Vessir)"
-        },
-        {
-          "type": "p",
-          "text": "In a panic, Nitschke got into the car and drove to the landfill."
-        },
-        {
-          "type": "p",
-          "text": "“I explained the situation. We drove around and up to the top of the hill where they crush and compact the trash. Luckily, we didn't see any signs of the couches there. So we went down to the bins where it gets dropped off, and like, as we were driving up, they were hooking up the bin that had our couches.”"
-        },
-        {
-          "type": "p",
-          "text": "Matt Cuthbertson works at the material recovery centre. He said everything fell perfectly into place to find Moze."
-        },
-        {
-          "type": "p",
-          "text": "“Normally I take a late lunch, which means I probably would have grabbed the full bins and taken them up top,” he said. “But I took an early lunch and when I was coming back, as I was hooking up to a bin, I heard over the radio, Johnny my manager, he’s like ‘don’t grab any bins. I’ll be right there.'”"
-        },
-        {
-          "type": "p",
-          "text": "LISTEN | Saskatoon Morning digs into Moze's rescue:"
-        },
-        {
-          "type": "p",
-          "text": "Saskatoon Morning6:30Moze the cat rescued moments before meeting a bulldozer at the landfill"
-        },
-        {
-          "type": "p",
-          "text": "Cuthbertson, who describes himself as a cat person, said it hit home."
-        },
-        {
-          "type": "p",
-          "text": "“When I initially heard this, my stomach dropped, and I was pretty devastated. But also that adrenaline of like, if it’s here, we've got to find this cat,” he said."
-        },
-        {
-          "type": "p",
-          "text": "The crew found Nitscke’s furniture in the bin and began cutting into the couches."
-        },
-        {
-          "type": "p",
-          "text": "Cuthbertson said they didn’t see any sign of Moze at first, but kept going."
-        },
-        {
-          "type": "p",
-          "text": "“We're fiddling around, kind of looking for every nook and cranny,” he said. “All of a sudden, yeah, Johnny's like, 'I see it.'”"
-        },
-        {
-          "type": "p",
-          "text": "Moze was curled up inside the couch's armrest. All the workers could see was belly, fur and eyes."
-        },
-        {
-          "type": "p",
-          "text": "“Perfect happy ending. The fact that we didn’t give up after, and Johnny’s eagle eyes, he saved us. I just felt this joy,\" Cuthbertson said. \"It was a beautiful thing.”"
-        },
-        {
-          "type": "p",
-          "text": "How this Sask. cat accidentally took a trip to the dump"
-        },
-        {
-          "type": "p",
-          "text": "Nitschke is amazed that everything turned out so well and thankful that everyone at the landfill went the extra mile to help."
-        },
-        {
-          "type": "p",
-          "text": "“There were so many opportunities for the worst to happen. But she is completely unharmed, unscathed and no injuries,” Nitschke said."
-        },
-        {
-          "type": "p",
-          "text": "\"She was a little scared when she got home, but by the end of the night she was back to her usual self.\""
-        },
-        {
-          "type": "p",
-          "text": "A thank you note for the landfill crew who helped rescue Moze. (Submitted by the City of Saskatoon)"
-        },
-        {
-          "type": "p",
-          "text": "With files from Chelsea Cross"
         }
       ],
       "truncated": false,
