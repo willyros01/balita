@@ -1,0 +1,223 @@
+{
+  "id": "cbc-qortdb",
+  "source": "cbc",
+  "title": "Critics warn of health data privacy concerns as Ottawa ramps up AI strategy",
+  "summary": "The Canadian government wants to ramp up the development and adoption of AI systems, starting with the health sector, but experts warn that proposed measures to address privacy concerns have critical…",
+  "byline": "Danielle Reid, Alexandra Mae Jones",
+  "section": "News/Health",
+  "published": "2026-11-09T09:00:00.000Z",
+  "firstSeen": "2026-11-09T09:31:04.881Z",
+  "url": "https://www.cbc.ca/news/health/health-data-anonymized-privacy-gaps-9.7412973?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/a8120d26-a3ab-4dcc-b718-9f952aa53fe5,1794002043982/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C117%2C6470%2C3639%29%3BResize%3D620",
+    "caption": "As the federal government ramps up the development and adoption of AI systems, a new privacy bill aims to bring Canada's privacy regulations up to speed. But health experts warn that proposed measures to address privacy concerns have critical gaps, which run the risk of exposing sensitive personal h"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Should a private company handling your personal health data be able to claim it has a “legitimate interest” that allows it to collect and use your information without your consent?"
+    },
+    {
+      "type": "p",
+      "text": "That’s just one of the concerns critics of Canada’s proposed privacy legislation are flagging in a recent commentary published in the Canadian Medical Association Journal (CMAJ)."
+    },
+    {
+      "type": "p",
+      "text": "This summer, the federal government announced an update to Canada’s private-sector privacy laws that would recognize privacy as a fundamental right, strengthen transparency around automated decisions by systems including AI, and allow individuals to request their personal information be deleted in certain circumstances."
+    },
+    {
+      "type": "p",
+      "text": "Touted as a “key element” for Canada’s AI for All strategy, the federal government said in the announcement that the proposed bill will “establish clear guardrails to protect Canadians’ personal information in a rapidly changing digital world.”"
+    },
+    {
+      "type": "p",
+      "text": "But in the commentary, health researchers say Bill C-36, the Protecting Privacy and Consumer Data Act, “contains critical gaps that leave sensitive health data exposed.”"
+    },
+    {
+      "type": "p",
+      "text": "Under the proposed law, private sector companies would be allowed to “collect, use or disclose an individual’s personal information without their knowledge or consent” provided they have a “legitimate interest” that outweighs any “reasonably foreseeable” harm to that individual."
+    },
+    {
+      "type": "p",
+      "text": "“What's concerning about this is it's the company that's making the decision,” said Dr. Sheryl Spithoff, a clinician scientist at Women’s College Hospital in Toronto, and co-author of the CMAJ commentary."
+    },
+    {
+      "type": "p",
+      "text": "Dr. Sheryl Spithoff at Women's College Hospital says there should be more guardrails in place when it comes to privacy regulation and sensitive health data. (Turgut Yeter/CBC)"
+    },
+    {
+      "type": "p",
+      "text": "“It gives these companies significant discretion over using patient or individual data without consent.”"
+    },
+    {
+      "type": "h",
+      "text": "What is a ‘legitimate interest’?"
+    },
+    {
+      "type": "p",
+      "text": "Companies are required by the bill to document their legitimate interests, carry out privacy impact assessments to judge the risks to individuals and be able to provide this information on request. But Spithoff says companies should be required to inform regulators from the start and that this “legitimate interest” clause should only be for rare instances."
+    },
+    {
+      "type": "p",
+      "text": "“Also there should be higher standards for sensitive information like personal health information,” she said."
+    },
+    {
+      "type": "p",
+      "text": "The CMAJ commentary pointed out that the European Union’s General Data Protection Regulation requires a high bar of proof and specifies that “legitimate interest” does not take precedence over the “fundamental freedoms and rights” of the data owners in question. Bill C-36 doesn’t provide these kinds of guardrails."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Canada's AI strategy aims to make health data more accessible. How will it protect privacy?",
+        "Judge orders Meta to pay $25B US for misleading consumers about data privacy"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "When CBC News asked AI Minister Evan Solomon’s office what counted as a “legitimate interest” and what safeguards were in place to prevent private health data from being sold to private-sector companies, the minister’s office repeated the definition given in the bill."
+    },
+    {
+      "type": "p",
+      "text": "“Organizations relying on this exception would be subject to safeguards, including requirements to assess privacy risks and take steps to mitigate them,” the minister’s office said in a statement, without expanding on what those safeguards were."
+    },
+    {
+      "type": "p",
+      "text": "'The moment is here' to modernize Canada's privacy laws: AI minister"
+    },
+    {
+      "type": "h",
+      "text": "Data sold to pharmaceutical companies"
+    },
+    {
+      "type": "p",
+      "text": "Last year, a study Spithoff worked on found that millions of Canadians’ health data, including details about their medical history and prescriptions, was being stripped of identifying material and then sold to pharmaceutical companies."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Millions of Canadians' health data available for sale to pharmaceutical industry, study shows"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "At the time, study authors warned that while this sharing of info could lead to better patient care, it also opened up the risk that private pharmaceutical companies could use this information to put their economic interests above the interest of patients and drive up prices."
+    },
+    {
+      "type": "p",
+      "text": "Other jurisdictions are tackling similar privacy problems."
+    },
+    {
+      "type": "p",
+      "text": "Earlier this year, a class-action lawsuit was launched against Chicago-based Tempus AI, alleging that after the company acquired a genetic testing firm, Ambry Genetics, they compelled the firm to hand over patients’ genetic and clinical data, trained their AI systems on it and sold that data to pharmaceutical and biotechnology companies without patients’ consent or knowledge."
+    },
+    {
+      "type": "p",
+      "text": "Bill C-36 requires that personal information be \"de-identified\" by modifying personal details, like names and health card information. But researchers are concerned about the potential for re-identification as AI tools advance, where sensitive information could be linked back to specific individuals."
+    },
+    {
+      "type": "p",
+      "text": "Teresa Scassa, the Canada Research Chair in Information Law at the University of Ottawa, says there's an increasing risk of de-identified data being traced back to individuals as AI tools grow more advanced. (CBC)"
+    },
+    {
+      "type": "p",
+      "text": "“There are very real concerns that nothing can be properly or fully anonymized anymore … with the amount of other data that's available and the power of AI technologies,” said Teresa Scassa, the Canada Research Chair in Information Law and Policy at the University of Ottawa and another author of the CMAJ commentary."
+    },
+    {
+      "type": "p",
+      "text": "Scassa says that de-identified or even anonymized data can allow for correlations and links to be drawn that can affect individuals negatively even if they are not identified in those data sets."
+    },
+    {
+      "type": "p",
+      "text": "She says individuals can be “profiled as somebody who is at a high risk of having a particular medical condition which would be expensive to treat, and therefore they might not be eligible for [types of] insurance.”"
+    },
+    {
+      "type": "p",
+      "text": "Under the proposed bill, deliberately re-identifying personal information would be an offence, but Scassa noted that this could be hard to prove."
+    },
+    {
+      "type": "p",
+      "text": "Experts caution that even fully anonymized datasets can contain and amplify biases present in the health-care system, potentially putting patient information at risk. (Chad Hipolito/The Canadian Press)"
+    },
+    {
+      "type": "h",
+      "text": "Anonymized data still carries risk"
+    },
+    {
+      "type": "p",
+      "text": "Critics are also concerned that the proposed legislation only covers information that has been de-identified — there’s no protection for what’s known as anonymized data."
+    },
+    {
+      "type": "p",
+      "text": "According to the bill, de-identification means “modify[ing] personal information so that an individual cannot be directly identified from it, although a risk of the individual being identified remains.” Anonymized data, as defined in the bill, is data that has been “irreversibly and permanently” stripped of personal information so there is no “reasonably foreseeable” risk an individual can be identified."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "After years of calls for data, study confirms Black Canadians face higher risk of maternal complications",
+        "Canadians' health data at risk of being handed over to U.S. authorities, experts warn"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "But experts warn anonymized data still contains risks, and say it’s the very data used to train AI systems."
+    },
+    {
+      "type": "p",
+      "text": "“There are risks to the use of the information in artificial intelligence systems and we have no means of governing it,” said Scassa."
+    },
+    {
+      "type": "p",
+      "text": "The commentary explains that anonymized data, which would fall outside of the scope of the law, often reflects societal biases that, when incorporated into AI systems, can lead to discrimination against people with shared characteristics."
+    },
+    {
+      "type": "p",
+      "text": "Could AI help manage overcrowding in N.B. hospitals?"
+    },
+    {
+      "type": "p",
+      "text": "Authors provide an example of this discrimination in the U.S. when a widely used algorithm to allocate hospital resources was found to allocate fewer resources to Black people than white people."
+    },
+    {
+      "type": "p",
+      "text": "“[Researchers] found out that it was because the algorithm was relying on past use of health system resources to allocate future resources,” said Spithoff."
+    },
+    {
+      "type": "h",
+      "text": "Health data benefits"
+    },
+    {
+      "type": "p",
+      "text": "While experts say there are legitimate concerns over the use of sensitive health data, some other physicians are highlighting that when used safely, this information can be crucial in advancing health-care research."
+    },
+    {
+      "type": "p",
+      "text": "Dr. Amol Verma is a physician and scientist at St. Michael's Hospital in Toronto who leads a hospital research network called VITAL, which enables access to de-identified hospital data for health-care organizations nationally."
+    },
+    {
+      "type": "p",
+      "text": "Dr. Amol Verma, with Unity Health Network's generative AI program, is pictured at St. Michael's Hospital, in Toronto, on Sept. 11, 2024. (Evan Mitsui/CBC)"
+    },
+    {
+      "type": "p",
+      "text": "He says his network works with hospitals and with AI tools to make health data usable for research and innovation while still protecting patient privacy."
+    },
+    {
+      "type": "p",
+      "text": "“We've been able to improve the efficiency of hospital care, reducing the time people spend in hospital safely, without causing increased risk to patients,” Verma said."
+    },
+    {
+      "type": "p",
+      "text": "Verma said that concern over privacy is not necessarily a constraint on innovation."
+    },
+    {
+      "type": "p",
+      "text": "“I think the only way we can have innovation around data in our health-care system is hand-in-hand with innovation and privacy protection.”"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
