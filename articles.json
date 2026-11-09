@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-09T19:01:22.222Z",
+  "updated": "2026-11-09T19:31:19.582Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-qzjw9j",
+      "source": "inqn",
+      "title": "Caraga poverty rate drops to 7.8% in 2025",
+      "summary": "SAN FRANCISCO, Agusan del Sur — Poverty incidence among families in Caraga (Region 13) dropped to 7.8 percent in 2025, according to preliminary results of the 2025 Family Income and Expenditure…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T19:31:12.374Z",
+      "firstSeen": "2026-11-09T12:30:57.155Z",
+      "url": "https://newsinfo.inquirer.net/2338574/caraga-poverty-rate-drops-to-7-8-in-2025",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/CARAGA-REGION-MAP-09082022.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN FRANCISCO, Agusan del Sur — Poverty incidence among families in Caraga (Region 13) dropped to 7.8 percent in 2025, according to preliminary results of the 2025 Family Income and Expenditure Survey (FIES) released on Monday by the Philippine Statistics Authority (PSA). The official report, issued by the PSA Regional Statistical Services Office-13 (Caraga), showed"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-8lj7m1",
       "source": "inqn",
       "title": "Heat index hits 42°C in Coron, Palawan and Borongan, Eastern Samar",
       "summary": "MANILA, Philippines &#8211; The heat index peaked at a dangerous 42°C in Palawan and Eastern Samar on Monday, according to the Philippine Atmospheric, Geophysical and Astronomical Services…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:15.013Z",
+      "published": "2026-11-09T19:31:12.374Z",
       "firstSeen": "2026-11-09T12:30:57.234Z",
       "url": "https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "MANILA, Philippines — Manila Water has inspected and prepared its 33 reservoirs across the East Zone as part of ongoing measures to help maintain reliable water service amid the very strong El Niño,…",
       "byline": "Alexander Magno",
       "section": "Uncategorized",
-      "published": "2026-11-09T19:01:15.013Z",
+      "published": "2026-11-09T19:31:12.374Z",
       "firstSeen": "2026-11-09T12:30:59.007Z",
       "url": "https://newsinfo.inquirer.net/2338623/manila-water-readies-33-reservoirs-for-prolonged-el-nino",
       "image": {
@@ -103,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-qzjw9j",
-      "source": "inqn",
-      "title": "Caraga poverty rate drops to 7.8% in 2025",
-      "summary": "SAN FRANCISCO, Agusan del Sur — Poverty incidence among families in Caraga (Region 13) dropped to 7.8 percent in 2025, according to preliminary results of the 2025 Family Income and Expenditure…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:15.012Z",
-      "firstSeen": "2026-11-09T12:30:57.155Z",
-      "url": "https://newsinfo.inquirer.net/2338574/caraga-poverty-rate-drops-to-7-8-in-2025",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/CARAGA-REGION-MAP-09082022.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN FRANCISCO, Agusan del Sur — Poverty incidence among families in Caraga (Region 13) dropped to 7.8 percent in 2025, according to preliminary results of the 2025 Family Income and Expenditure Survey (FIES) released on Monday by the Philippine Statistics Authority (PSA). The official report, issued by the PSA Regional Statistical Services Office-13 (Caraga), showed"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-p5xzzp",
       "source": "inqn",
       "title": "Pagadian City hosts 2026 MindaCon, more tech investments seen",
       "summary": "PAGADIAN CITY, Zamboanga del Sur &#8211; The National ICT (Information and Communications Technology) Confederation of the Philippines (NICP) has reaffirmed its commitment to driving digital…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:13.423Z",
+      "published": "2026-11-09T19:31:10.655Z",
       "firstSeen": "2026-11-09T13:01:03.201Z",
       "url": "https://newsinfo.inquirer.net/2338589/pagadian-city-hosts-2026-mindacon-more-tech-investments-seen",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "MANILA, Philippines — A bill seeking to double the minimum night shift differential for private-sector workers from the current 10 percent to 20 percent of their regular hourly wage has been filed by…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:13.214Z",
+      "published": "2026-11-09T19:31:10.576Z",
       "firstSeen": "2026-11-09T13:01:03.201Z",
       "url": "https://newsinfo.inquirer.net/2338595/doubled-night-shift-differential-for-private-sector-workers-pushed",
       "image": {
@@ -178,113 +178,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-natwq6",
-      "source": "inqn",
-      "title": "Lotto draw results on Monday, November 9",
-      "summary": "MANILA, Philippines—No ticket holder won the Grand Lotto 6/55 and Mega Lotto 6/45 jackpot on Monday, November 9, 2026, according to the Philippine Charity Sweepstakes Office. Grand Lotto 6/55 draw…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:13.213Z",
-      "firstSeen": "2026-11-09T14:01:02.666Z",
-      "url": "https://newsinfo.inquirer.net/2338670/lotto-draw-results-on-monday-november-9",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/10/pcso-lotto-logo-filephoto-10222-4.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—No ticket holder won the Grand Lotto 6/55 and Mega Lotto 6/45 jackpot on Monday, November 9, 2026, according to the Philippine Charity Sweepstakes Office. Grand Lotto 6/55 draw result: 53-44-36-18-20-28. Jackpot prize: ₱349.05 million Mega Lotto 6/45 draw result: 29-27-12-11-43-05. Jackpot prize: ₱15 million. Minor games The PCSO also reported the following results"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-kkn3xx",
-      "source": "inqn",
-      "title": "Dy: House will soon launch transparency platform on its website",
-      "summary": "MANILA, Philippines — The House of Representatives will soon launch a transparency platform on its website that will allow Filipinos to scrutinize government-funded projects, including their…",
-      "byline": "Alexander Magno",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:13.213Z",
-      "firstSeen": "2026-11-09T14:01:02.739Z",
-      "url": "https://newsinfo.inquirer.net/2338667/dy-house-will-soon-launch-transparency-platform-on-its-website",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/05/28-may-2026-bojie10.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The House of Representatives will soon launch a transparency platform on its website that will allow Filipinos to scrutinize government-funded projects, including their locations, funding allocations, and implementation status, Speaker Faustino “Bojie” G. Dy III announced on Monday. The project is part of continuing reforms to strengthen transparency and accountability in public"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1dreinw",
-      "source": "inqn",
-      "title": "Butuan drug suspect busted, over P700,000 shabu seized",
-      "summary": "A 30-year-old suspect, alias “Cyclone,” was arrested in a drug buy-bust operation in Barangay Ong Yiu, Butuan City on Sunday, Nov. 8, 2026.(Photo courtesy of Police Regional Office 13) SAN FRANCISCO,…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:13.213Z",
-      "firstSeen": "2026-11-09T14:01:04.578Z",
-      "url": "https://newsinfo.inquirer.net/2338634/butuan-drug-suspect-busted-over-p700000-shabu-seized",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/P712K-___shabu-seized-from-street-level-drug-suspect-in-Butuan-buy-bust-9November2026_2.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A 30-year-old suspect, alias “Cyclone,” was arrested in a drug buy-bust operation in Barangay Ong Yiu, Butuan City on Sunday, Nov. 8, 2026.(Photo courtesy of Police Regional Office 13) SAN FRANCISCO, Agusan del Sur &#8211; Anti-narcotics operatives seized over P700,000 worth of suspected shabu from an alleged street-level drug pusher arrested in an entrapment operation"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1p60e4x",
-      "source": "inqn",
-      "title": "Baguio City Mayor Magalong urges responsible use of AI in schools",
-      "summary": "BAGUIO CITY—Mayor Benjamin Magalong has urged education leaders to promote the ethical and responsible use of artificial intelligence (AI) in schools, emphasizing that the technology should support…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:13.213Z",
-      "firstSeen": "2026-11-09T13:30:55.519Z",
-      "url": "https://newsinfo.inquirer.net/2338626/baguio-city-mayor-magalong-urges-responsible-use-of-ai-in-schools",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/17aug2026-Artificial-Intelligence.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BAGUIO CITY—Mayor Benjamin Magalong has urged education leaders to promote the ethical and responsible use of artificial intelligence (AI) in schools, emphasizing that the technology should support learning rather than make students dependent on it. In a statement Sunday, Nov. 8, Magalong stressed the need for proper and controlled use of AI in education during"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1hnzg3p",
       "source": "inqn",
       "title": "Luistro presses Mans Carpio to testify on assets shared with VP",
       "summary": "MANILA, Philippines — The House prosecution is wondering who will explain the financial records and disputed assets of Vice President Sara Duterte and her husband, lawyer Manases “Mans” Carpio,…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:13.213Z",
+      "published": "2026-11-09T19:31:10.575Z",
       "firstSeen": "2026-11-09T13:30:55.570Z",
       "url": "https://newsinfo.inquirer.net/2338655/luistro-presses-mans-carpio-to-testify-on-assets-shared-with-vp",
       "image": {
@@ -309,7 +209,7 @@
       "summary": "MANILA, Philippines—The upcoming closed fishing season in major fishing grounds across the country could trigger an artificial shortage of fish and drive up market prices, the fishers&#8217; group…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:13.213Z",
+      "published": "2026-11-09T19:31:10.575Z",
       "firstSeen": "2026-11-09T13:30:56.234Z",
       "url": "https://newsinfo.inquirer.net/2338612/closed-fishing-season-may-trigger-price-hike-supply-issues-pamalakaya",
       "image": {
@@ -334,7 +234,7 @@
       "summary": "MANILA, Philippines — Mati Bishop Abel Apigo was appointed by Pope Leo XIV as the new archbishop of Davao, succeeding Archbishop Romulo Valles, who already reached the mandatory retirement age for…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:13.213Z",
+      "published": "2026-11-09T19:31:10.575Z",
       "firstSeen": "2026-11-09T13:30:59.163Z",
       "url": "https://newsinfo.inquirer.net/2338601/pope-names-mati-bishop-as-new-head-of-davao-archdiocese",
       "image": {
@@ -353,13 +253,138 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-natwq6",
+      "source": "inqn",
+      "title": "Lotto draw results on Monday, November 9",
+      "summary": "MANILA, Philippines—No ticket holder won the Grand Lotto 6/55 and Mega Lotto 6/45 jackpot on Monday, November 9, 2026, according to the Philippine Charity Sweepstakes Office. Grand Lotto 6/55 draw…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T19:31:10.574Z",
+      "firstSeen": "2026-11-09T14:01:02.666Z",
+      "url": "https://newsinfo.inquirer.net/2338670/lotto-draw-results-on-monday-november-9",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/10/pcso-lotto-logo-filephoto-10222-4.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—No ticket holder won the Grand Lotto 6/55 and Mega Lotto 6/45 jackpot on Monday, November 9, 2026, according to the Philippine Charity Sweepstakes Office. Grand Lotto 6/55 draw result: 53-44-36-18-20-28. Jackpot prize: ₱349.05 million Mega Lotto 6/45 draw result: 29-27-12-11-43-05. Jackpot prize: ₱15 million. Minor games The PCSO also reported the following results"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-kkn3xx",
+      "source": "inqn",
+      "title": "Dy: House will soon launch transparency platform on its website",
+      "summary": "MANILA, Philippines — The House of Representatives will soon launch a transparency platform on its website that will allow Filipinos to scrutinize government-funded projects, including their…",
+      "byline": "Alexander Magno",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T19:31:10.574Z",
+      "firstSeen": "2026-11-09T14:01:02.739Z",
+      "url": "https://newsinfo.inquirer.net/2338667/dy-house-will-soon-launch-transparency-platform-on-its-website",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/05/28-may-2026-bojie10.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The House of Representatives will soon launch a transparency platform on its website that will allow Filipinos to scrutinize government-funded projects, including their locations, funding allocations, and implementation status, Speaker Faustino “Bojie” G. Dy III announced on Monday. The project is part of continuing reforms to strengthen transparency and accountability in public"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1dreinw",
+      "source": "inqn",
+      "title": "Butuan drug suspect busted, over P700,000 shabu seized",
+      "summary": "A 30-year-old suspect, alias “Cyclone,” was arrested in a drug buy-bust operation in Barangay Ong Yiu, Butuan City on Sunday, Nov. 8, 2026.(Photo courtesy of Police Regional Office 13) SAN FRANCISCO,…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T19:31:10.574Z",
+      "firstSeen": "2026-11-09T14:01:04.578Z",
+      "url": "https://newsinfo.inquirer.net/2338634/butuan-drug-suspect-busted-over-p700000-shabu-seized",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/P712K-___shabu-seized-from-street-level-drug-suspect-in-Butuan-buy-bust-9November2026_2.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A 30-year-old suspect, alias “Cyclone,” was arrested in a drug buy-bust operation in Barangay Ong Yiu, Butuan City on Sunday, Nov. 8, 2026.(Photo courtesy of Police Regional Office 13) SAN FRANCISCO, Agusan del Sur &#8211; Anti-narcotics operatives seized over P700,000 worth of suspected shabu from an alleged street-level drug pusher arrested in an entrapment operation"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1p60e4x",
+      "source": "inqn",
+      "title": "Baguio City Mayor Magalong urges responsible use of AI in schools",
+      "summary": "BAGUIO CITY—Mayor Benjamin Magalong has urged education leaders to promote the ethical and responsible use of artificial intelligence (AI) in schools, emphasizing that the technology should support…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T19:31:10.574Z",
+      "firstSeen": "2026-11-09T13:30:55.519Z",
+      "url": "https://newsinfo.inquirer.net/2338626/baguio-city-mayor-magalong-urges-responsible-use-of-ai-in-schools",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/17aug2026-Artificial-Intelligence.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BAGUIO CITY—Mayor Benjamin Magalong has urged education leaders to promote the ethical and responsible use of artificial intelligence (AI) in schools, emphasizing that the technology should support learning rather than make students dependent on it. In a statement Sunday, Nov. 8, Magalong stressed the need for proper and controlled use of AI in education during"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1kv578j",
+      "source": "inqn",
+      "title": "Defense confident next witnesses will show up – Poa",
+      "summary": "MANILA, Philippines — The defense team of Vice President Sara Duterte is confident that its next witnesses will appear before the Senate impeachment court, amid the withdrawal and request to be…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-09T19:31:08.809Z",
+      "firstSeen": "2026-11-09T15:30:56.292Z",
+      "url": "https://newsinfo.inquirer.net/2338708/defense-confident-next-witnesses-will-show-up-poa",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/atty-poa-nov92026-b.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The defense team of Vice President Sara Duterte is confident that its next witnesses will appear before the Senate impeachment court, amid the withdrawal and request to be excused Monday of the two individuals initially lined up to testify. Defense counsel and spokesperson Michael Poa said this on Monday, adding that the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-aogdn",
       "source": "inqn",
       "title": "Baguio council seeks specific indigenous identities in health records",
       "summary": "BAGUIO CITY, Philippines — The city council urged the City Health Services Office (CHSO) to replace the general term “Igorot” with specific ethnolinguistic classifications in its official forms and…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:11.511Z",
+      "published": "2026-11-09T19:31:08.809Z",
       "firstSeen": "2026-11-09T15:01:02.097Z",
       "url": "https://newsinfo.inquirer.net/2338676/baguio-council-seeks-specific-indigenous-identities-in-health-records",
       "image": {
@@ -384,7 +409,7 @@
       "summary": "SAN ILDEFONSO, ILOCOS SUR, Philippines — The municipal government of Santa in this province has set a minimum farmgate price of P180 per kilogram for live hogs, aiming to protect local raisers while…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:11.511Z",
+      "published": "2026-11-09T19:31:08.809Z",
       "firstSeen": "2026-11-09T15:01:02.140Z",
       "url": "https://newsinfo.inquirer.net/2338661/ilocos-sur-town-sets-p180-minimum-farmgate-price-for-live-hogs",
       "image": {
@@ -403,38 +428,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1kv578j",
-      "source": "inqn",
-      "title": "Defense confident next witnesses will show up – Poa",
-      "summary": "MANILA, Philippines — The defense team of Vice President Sara Duterte is confident that its next witnesses will appear before the Senate impeachment court, amid the withdrawal and request to be…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:11.472Z",
-      "firstSeen": "2026-11-09T15:30:56.292Z",
-      "url": "https://newsinfo.inquirer.net/2338708/defense-confident-next-witnesses-will-show-up-poa",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/atty-poa-nov92026-b.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The defense team of Vice President Sara Duterte is confident that its next witnesses will appear before the Senate impeachment court, amid the withdrawal and request to be excused Monday of the two individuals initially lined up to testify. Defense counsel and spokesperson Michael Poa said this on Monday, adding that the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-tzqdnx",
       "source": "inqn",
       "title": "Candon City sets aside P124M for tobacco farmers",
       "summary": "SAN ILDEFONSO, ILOCOS SUR, Philippines — The city government of Candon has allocated P124 million for agricultural assistance to tobacco farmers, including the provision of farm inputs, fuel support…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:11.461Z",
+      "published": "2026-11-09T19:31:08.802Z",
       "firstSeen": "2026-11-09T15:30:56.263Z",
       "url": "https://newsinfo.inquirer.net/2338703/candon-city-sets-aside-p124m-for-tobacco-farmers",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "MANILA, Philippines — Only two out of 315 government agencies have received their 2024 Performance-Based Bonus (PBB) funding, according to the Department of Budget and Management (DBM). Based on its…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:09.658Z",
+      "published": "2026-11-09T19:31:05.466Z",
       "firstSeen": "2026-11-09T17:01:00.817Z",
       "url": "https://newsinfo.inquirer.net/2338734/whats-the-status-of-your-agencys-2024-pbb-processing",
       "image": {
@@ -484,7 +484,7 @@
       "summary": "MANILA, Philippines — A security official overseeing preparations for the country’s hosting of the 49th Association of Southeast Asian Nations (Asean) Summit has appealed to groups planning protests…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:04.600Z",
+      "published": "2026-11-09T19:31:02.302Z",
       "firstSeen": "2026-11-09T17:01:00.769Z",
       "url": "https://newsinfo.inquirer.net/2338740/hold-protests-after-asean-summit-security-official-tells-groups",
       "image": {
@@ -509,7 +509,7 @@
       "summary": "MARIVELES, BATAAN, Philippines — A police buy-bust operation that was supposed to target a suspected drug peddler led to the discovery of an alleged drug den inside a residential house along De…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:04.256Z",
+      "published": "2026-11-09T19:31:01.615Z",
       "firstSeen": "2026-11-09T17:30:58.232Z",
       "url": "https://newsinfo.inquirer.net/2338699/bataan-drug-buy-bust-operation-uncovers-alleged-drug-den-7-arrested",
       "image": {
@@ -534,7 +534,7 @@
       "summary": "LEGAZPI CITY, ALBAY, Philippines — The Philippine Army has declared Legazpi City under Stable Internal Peace and Security (SIPS) status after recording no armed encounters or insurgent activities in…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-09T19:01:04.212Z",
+      "published": "2026-11-09T19:31:01.573Z",
       "firstSeen": "2026-11-09T18:01:03.360Z",
       "url": "https://newsinfo.inquirer.net/2338696/legazpi-city-declared-insurgency-free",
       "image": {
@@ -559,7 +559,7 @@
       "summary": "MANILA, Philippines – Mamamayang Liberal party-list Rep. Leila de Lima on Monday expressed concern that the Department of Foreign Affairs (DFA) is attempting to muzzle other authorities from speaking…",
       "byline": "ggaviola",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-09T19:01:04.212Z",
+      "published": "2026-11-09T19:31:01.573Z",
       "firstSeen": "2026-11-09T14:01:02.666Z",
       "url": "https://globalnation.inquirer.net/346540/dfa-statement-looks-like-attempt-to-monopolize-china-discourse-de-lima",
       "image": {
@@ -576,6 +576,731 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "grd-1oqjwlp",
+      "source": "grd",
+      "title": "Jemima Goldsmith says ex-partner Russell Brand physically assaulted her",
+      "summary": "<p>TV producer, who was in relationship with ex-comedian that reportedly ended in 2014, accuses him of ‘violence, coercive control and abuse’ </p><ul><li><p><a…",
+      "byline": "Emine Sinmaz and Kevin Rawlinson",
+      "section": "Russell Brand",
+      "published": "2026-11-09T19:27:22.000Z",
+      "firstSeen": "2026-11-09T19:31:01.573Z",
+      "url": "https://www.theguardian.com/news/2026/nov/09/jemima-goldsmith-says-ex-partner-russell-brand-physically-assaulted-her",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/857247cf38860c69fc78d2372366140c567e0889/863_157_4987_3990/master/4987.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=67a57d1217c1d606828637e70cea19f8",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jemima Goldsmith has said Russell Brand physically assaulted her and she accused him of “violence, coercive control and abuse”."
+        },
+        {
+          "type": "p",
+          "text": "The 52-year-old TV producer said she has always been “strongly and unequivocally” on the side of Brand’s victims as she opened up about her own “painful” experience with her former partner in a social media post on Monday."
+        },
+        {
+          "type": "p",
+          "text": "Shortly after Brand was sentenced to more than 10 years in prison, Goldsmith posted on X: “I am in awe of the courageous women who came forward at Brand’s trial, told their stories, testified and ensured justice was done."
+        },
+        {
+          "type": "p",
+          "text": "“I have had my own personal experience of his violence, coercive control and abuse. I had to call the police to have him removed from my house in 2014 during a violent incident. I chose not to press charges at the time and not to go public with this, as I was worried about the impact of the press attention on my then teenage children."
+        },
+        {
+          "type": "p",
+          "text": "“I have neither seen nor spoken to Brand since that period in 2014. Whilst my pain in relation to this, pales in comparison to what the women have testified in court have suffered, this was a difficult period in my life which has had a lasting impact.”"
+        },
+        {
+          "type": "p",
+          "text": "On Thursday, Brand was found guilty of raping a fan and sexually assaulting three women in separate incidents between 2004 and 2009. He was cleared of two further charges of rape and one of attempted indecent assault."
+        },
+        {
+          "type": "p",
+          "text": "Goldsmith, known professionally as Jemima Khan, is reported to have been in a relationship with Brand for a year from around September 2013. On X, Goldsmith said she had assisted the journalists who had exposed Brand in a Channel 4 Dispatches documentary and in reports in the Times and Sunday Times in 2023."
+        },
+        {
+          "type": "p",
+          "text": "“I also undertook to testify in court to his abusiveness, if the newspaper that published the victims’ accounts were ever to be sued,” she said."
+        },
+        {
+          "type": "p",
+          "text": "Goldsmith made the comments in light of renewed press reporting about a harassment injunction that she and Brand had taken out against a woman named Szilvia Berki in 2014."
+        },
+        {
+          "type": "p",
+          "text": "Goldsmith, who married former Pakistan cricket captain Imran Khan in 1995, said the online commentary and media reporting about the injunction had presented “an untrue narrative” and opened her up to “vile hatred and abuse online”."
+        },
+        {
+          "type": "p",
+          "text": "Berki had made allegations against Brand to the police after she had been booked to give him a massage at Goldsmith’s home in June 2014."
+        },
+        {
+          "type": "p",
+          "text": "“I was present the whole time he was with her, and I did not see anything untoward, despite the fact that he was later found guilty of sexually assaulting other women and he later physically assaulted me. If I saw any man abuse any woman under any circumstances, I would do my utmost to stop them, without hesitation,” Goldsmith said in her statement."
+        },
+        {
+          "type": "p",
+          "text": "Goldsmith alleged that a series of “untrue stories” appeared in the tabloid press and that Berki embarked on a campaign of “threatening abuse online and in emails”. The Guardian has not been able to reach Berki."
+        },
+        {
+          "type": "p",
+          "text": "Brand and Goldsmith took out a harassment order against Berki, which meant she was banned from speaking to anyone about her allegations against Brand."
+        },
+        {
+          "type": "p",
+          "text": "The injunction was granted by the high court judge and former leading counsel in the Leveson inquiry Mr Justice Jay. It was brought to light by the non-profit campaigning thinktank Tax Policy Associates, founded by the former tax lawyer Dan Neidle, after Brand’s conviction."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-sufp6i",
+      "source": "cbc",
+      "title": "$276 for hair ties? Skims offers advent calendar refunds after online backlash",
+      "summary": "After intense customer backlash, Kim Kardashian's apparel brand Skims is offering refunds to anyone who purchased its 2026 accessories advent calendar, which costs $276 and was advertised as \"12 fun…",
+      "byline": "Natalie Stechyson",
+      "section": "News/Entertainment",
+      "published": "2026-11-09T19:23:00.000Z",
+      "firstSeen": "2026-11-09T19:31:03.703Z",
+      "url": "https://www.cbc.ca/news/entertainment/skims-advent-calendar-backlash-9.7414783?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/70b8c2e8-e0eb-49f3-949d-9ae7568196e8,1794234358743/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C683%2C5535%2C3113%29%3BResize%3D620",
+        "caption": "Skims underwear is displayed on a shelf at a Nordstrom store on March 25, 2025 in Corte Madera, Calif. The apparel brand is offering refunds to anyone who purchased its 2026 accessories advent calendar, which is being roasted online. (Justin Sullivan/Getty Images)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Entertainment·New"
+        },
+        {
+          "type": "p",
+          "text": "After intense customer backlash, Kim Kardashian's apparel brand Skims is offering refunds to anyone who purchased its 2026 accessories advent calendar, which costs $276 and was advertised as \"12 fun days of surprises.\""
+        },
+        {
+          "type": "h",
+          "text": "'For some, the calendar didn't meet expectations,' says rep from Kim Kardashian's apparel brand"
+        },
+        {
+          "type": "p",
+          "text": "The contents of the Skims 2026 accessories advent calendar have been described as what you might find in the bottom of your purse, on the floor of a car, or behind your dresser when you pull it away from the wall."
+        },
+        {
+          "type": "p",
+          "text": "After intense customer backlash, Kim Kardashian's apparel brand is offering refunds to anyone who purchased the calendar. The package costs $276 Cdn (or $148 US — a relative premium), is advertised as \"12 fun days of surprises\" and contains an assortment of hair ties, bobby pins and key chains."
+        },
+        {
+          "type": "p",
+          "text": "Viral unboxing videos posted over the weekend by disappointed customers have called the pricey calendar \"a mess\" and a scam."
+        },
+        {
+          "type": "p",
+          "text": "\"Are we serious right now?\" exclaimed influencer Kayla Ryan as she opened the package for Day 4 to reveal three pink bobby pins. She called it \"the worst advent calendar I have ever seen\" in her Saturday video which accrued more than 20 million views as of Monday morning."
+        },
+        {
+          "type": "p",
+          "text": "\"I’m hoping this is a prank and the last one is a $150 gift card for all my money back,\" she added, after opening Day 9 to reveal an ornamental keychain comb that can't actually comb hair."
+        },
+        {
+          "type": "p",
+          "text": "\"This is the last one and it better be made of gold,\" another content creator says in a TikTok video with nearly 65 million views before opening Day 12 to reveal a furry compact mirror on a key chain and then grimacing."
+        },
+        {
+          "type": "p",
+          "text": "\"So, basically, everything that falls between my car seats,\" one person commented on the video; another described it as \"wild for maybe $20 worth of stuff.\""
+        },
+        {
+          "type": "p",
+          "text": "A composite of three screen grabs from TikTok unboxing videos for the new 2026 Skims advent calendar by, from left, @wetsloppyswollen, Brittany Shaw, and influencer Kayla Ryan. (@wetsloppyswollen/TikTok, @kaylaryan/TikTok, @brittanyshaw2.0/TikTok)"
+        },
+        {
+          "type": "p",
+          "text": "In statements provided to multiple media outlets, a Skims spokesperson said the company was \"aware of the feedback\" about the advent calendar and acknowledged that \"for some, the calendar didn't meet expectations.\""
+        },
+        {
+          "type": "p",
+          "text": "The company told told Page Six they \"personally contacted every customer who purchased the calendar\" and offered either a full refund or credit towards their other products."
+        },
+        {
+          "type": "p",
+          "text": "CBC News reached out to Skims for further comment but has not received a reply."
+        },
+        {
+          "type": "p",
+          "text": "Chanel advent calendar lambasted on social media"
+        },
+        {
+          "type": "h",
+          "text": "'Disappointed they got what they paid for'"
+        },
+        {
+          "type": "p",
+          "text": "This is far from the first advent calendar controversy. In 2021, Chanel was roasted online for a $1,025 calendar full of stickers, a magnet, a keychain and other miscellaneous branded items in addition to a miniature lipstick, hand cream and small bottle of perfume."
+        },
+        {
+          "type": "p",
+          "text": "A year later, Dior was slammed for a nearly $5,000 advent calendar that mostly contained candle accessories and scented soaps in addition to small bottles of perfume."
+        },
+        {
+          "type": "p",
+          "text": "Some commentators have criticized high-end advent calendars for being little more than luxury status symbols driven by the unboxing craze. Last year, for instance, Dior sold an $11,000 calendar. In 2019, Tiffany & Co. released a limited advent calendar that contained 24 pieces of jewelry and cost $158,000."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A Dior calendar for $11K? Here’s how the humble advent calendar has gone bananas",
+            "Luxury brand Chanel roasted online for $1,025 Advent calendar full of stickers, other trinkets"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Skims advent calendar is currently sold out with a waitlist. Some people have noted, the product description online details exactly what can be found in the calendar each day: a bear keychain, hair elastics, scrunchies, bobby pins, a squishie, bra elastic hairbands, more bobby pins, a comb keychain, a logo keychain, more scrunchies and a faux fur compact mirror keychain."
+        },
+        {
+          "type": "p",
+          "text": "\"While I agree the contents are ridiculously overpriced, we need to have a conversation about personal accountability as consumers,\" one person wrote on Threads."
+        },
+        {
+          "type": "p",
+          "text": "LISTEN | Extravagant advent calendars:"
+        },
+        {
+          "type": "p",
+          "text": "Radio Noon Manitoba18:11Extravagant Advent Calendars and the Evolution of Adult Holiday Traditions"
+        },
+        {
+          "type": "p",
+          "text": "\"If the contents were disclosed, you ignored the description, spent $148 [US], and then acted completely blindsided by what you received, some of that responsibility belongs to YOU.\""
+        },
+        {
+          "type": "p",
+          "text": "A Toronto influencer who goes by the name Glamzilla online defended the advent calendar in a TikTok video, where she argued it's about the experience of opening something leading up to the holidays rather than a \"big gift.\""
+        },
+        {
+          "type": "p",
+          "text": "She was dragged in the video's comments, with some accusing of \"gaslighting\" and being insensitive to the price."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Natalie Stechyson has been a writer and editor at CBC News since 2021. She covers stories on social trends, families, gender, human interest, as well as general news. She's worked as a journalist since 2009, with stints at the Globe and Mail and Postmedia News, among others. Before joining CBC News, she was the parents editor at HuffPost Canada, where she won a silver Canadian Online Publishing Award for her work on pregnancy loss. You can reach her at natalie.stechyson@cbc.ca."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Instagram"
+          ]
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1sbd3rm",
+      "source": "grd",
+      "title": "Air pollution soars as fog traps emissions in England’s urban areas",
+      "summary": "<p>Particles from fireworks and bonfires likely to have contributed to levels well above WHO’s daily guideline</p><p>Air pollution soared to “very high” levels across urban parts of England on Monday…",
+      "byline": "Matthew Pearce",
+      "section": "Air pollution",
+      "published": "2026-11-09T19:13:59.000Z",
+      "firstSeen": "2026-11-09T19:31:01.615Z",
+      "url": "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/11c7669b90e9ed1725390c0e7b560318b560b1b8/274_0_1668_1334/master/1668.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=37a1707e8e6e24cba5e58ff842cb302a",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Air pollution soared to “very high” levels across urban parts of England on Monday as still, foggy weather kept emissions trapped after a weekend of fireworks and bonfires."
+        },
+        {
+          "type": "p",
+          "text": "Government monitoring showed 11 sites, mainly in London and Greater Manchester, reached the highest band on its 10-point index for particulate matter in the 24 hours to 10am. A further 27 sites recorded “high” levels across the capital, the north-west, the Midlands, Yorkshire and the east of England."
+        },
+        {
+          "type": "p",
+          "text": "The worst reading was in Hillingdon, west London, where fine particles (PM2.5) peaked at a 24-hour average of 129 micrograms per cubic metre, more than eight times the World Health Organization’s daily guideline. In the north-west, Manchester Piccadilly, Wigan, Blackburn, Preston and Rochdale all reached the “very high” band."
+        },
+        {
+          "type": "p",
+          "text": "Particulate matter consists of tiny solid particles and liquid droplets suspended in the air. Exposure is linked to heart and lung disease and cancer."
+        },
+        {
+          "type": "p",
+          "text": "Jane Burston, the CEO of the Clean Air Fund, said although monitoring networks could not determine where pollution came from, it was highly likely the pollution was from autumn celebrations."
+        },
+        {
+          "type": "p",
+          "text": "“It’s a combination of the weather, which has been foggy and not windy at all, and then the fireworks and bonfires and Diwali,” she said. “What it means is the wind doesn’t blow the pollution away and the fog keeps it trapped down in the same place."
+        },
+        {
+          "type": "p",
+          "text": "“If you’ve got asthma or a lung condition, you absolutely will not have wanted to go outside this morning or yesterday – it can bring on asthma attacks, coughing and wheezing."
+        },
+        {
+          "type": "p",
+          "text": "“But for everybody, it’s dangerous. People in some of the worst-affected areas are breathing particulate matter concentrations five to 10 times above normal annual levels,” she added."
+        },
+        {
+          "type": "p",
+          "text": "Burston called for better pollution forecasts, more widely accessible health alerts and stronger action to reduce emissions from wood burning and transport. “If we had air quality at a much safer lower level all year round, then on nights like Bonfire Night, the extra pollution is less likely to push us to extreme levels,” she said."
+        },
+        {
+          "type": "p",
+          "text": "Larissa Lockwood, the director of campaigns at Global Action Plan, said the high pollution levels were “not surprising at a time of year when people are lighting log burners, having bonfires and lighting fireworks. On top of the normal levels from transport and industry, we see higher levels of air pollution and they’re then unable to disperse because they’re trapped by the fog.”"
+        },
+        {
+          "type": "p",
+          "text": "Domestic burning and transport are the biggest sources of particulate pollution, she said. Lockwood called for a public health campaign on air pollution and “burn alerts”, asking people in towns and cities not to use wood burners when levels are high."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "“We need to phase out non-essential burning in our towns and cities so that we don’t experience these unhealthy air pollution levels,” she added."
+        },
+        {
+          "type": "p",
+          "text": "A spokesperson for the mayor of London said: “On the advice of forecasters at Imperial College London, we’ve issued a high air pollution alert for Tuesday 10 November. Monitoring data show that pollution levels rose sharply across London from Friday to Sunday and remained elevated into Monday morning.”"
+        },
+        {
+          "type": "p",
+          "text": "A Clean Air Greater Manchester spokesperson said: “Higher particulate pollution levels occur each year around Bonfire Night, when fireworks and bonfires add particulate matter to the air. This year, weather conditions are also an important factor, with light winds and fog creating conditions in which pollution from a range of sources can accumulate near ground level. The latest information and health advice provided by Defra is available online.”"
+        },
+        {
+          "type": "p",
+          "text": "The government has been contacted for comment."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-1cdiuhs",
+      "source": "cbc",
+      "title": "Honda Canada announces plans to retool Alliston, Ont., plant for hybrid production",
+      "summary": "Honda Canada says it will retool its manufacturing facilities in Alliston, Ont., to expand production of hybrid-electric and gasoline-powered vehicles. The Japanese automaker announced Monday it is…",
+      "byline": "Sammy Hudes",
+      "section": "News/Canada/Toronto",
+      "published": "2026-11-09T19:13:29.000Z",
+      "firstSeen": "2026-11-09T19:31:01.573Z",
+      "url": "https://www.cbc.ca/news/canada/toronto/honda-alliston-plant-hybrid-production-9.7415303?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/1.7510523,1744742306000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C606%2C4800%2C2700%29%3BResize%3D620",
+        "caption": "Honda Canada announced Monday it is partnering with the federal and provincial governments to fund upgrades to its Alliston, Ont., plant. (Nathan Denette/The Canadian Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Toronto·New"
+        },
+        {
+          "type": "p",
+          "text": "Honda Canada says it will retool its manufacturing facilities in Alliston, Ont., to expand production of hybrid-electric and gasoline-powered vehicles. The Japanese automaker announced Monday it is partnering with the federal and provincial governments to fund plant upgrades, including the reintroduction of engine manufacturing, with an initial $166-million investment."
+        },
+        {
+          "type": "h",
+          "text": "Automaker previously halted $15B EV development in Ontario, citing sluggish demand"
+        },
+        {
+          "type": "p",
+          "text": "· The Canadian Press"
+        },
+        {
+          "type": "p",
+          "text": "· Posted: Nov 09, 2026 2:13 PM EST | Last Updated: 16 minutes ago"
+        },
+        {
+          "type": "p",
+          "text": "Honda Canada says it will retool its manufacturing facilities in Alliston, Ont., to expand production of hybrid-electric and gasoline-powered vehicles."
+        },
+        {
+          "type": "p",
+          "text": "The Japanese automaker announced Monday it is partnering with the federal and provincial governments to fund plant upgrades, including the reintroduction of engine manufacturing, with an initial $166-million investment."
+        },
+        {
+          "type": "p",
+          "text": "It said that funding is part of a broader $867-million commitment that will enhance quality, efficiency and manufacturing flexibility. Of that total, the federal government said it will provide $313 million, while the Ontario government is kicking in $156 million."
+        },
+        {
+          "type": "p",
+          "text": "\"This renewed investment reinforces Canada's critical role in Honda's North American growth and hybrid-electric vehicle strategy and helps position our operations for long-term competitiveness and future opportunities,\" said Honda Canada president and CEO Dave Jamieson in a news release."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Honda more definitively halting $15B EV plant development in Ontario, according to reports"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The funding will ensure Honda can maintain its workforce of 4,000 Canadian employees across two facilities at the Alliston plant, while supporting its Canadian auto production volumes."
+        },
+        {
+          "type": "p",
+          "text": "The company said it will also strengthen the Alliston plant's operations to help meet growing customer demand for hybrid-electric vehicles in North America."
+        },
+        {
+          "type": "p",
+          "text": "\"This investment will strengthen our automotive supply chains, support thousands of well-paying jobs in Ontario and across the country, and help build a strong Canadian auto sector where workers build the cars of the future,\" said Industry Minister Melanie Joly in a statement."
+        },
+        {
+          "type": "p",
+          "text": "Honda pauses $15B investment in Canadian EV plants"
+        },
+        {
+          "type": "h",
+          "text": "Honda previously paused plant development in Ontario"
+        },
+        {
+          "type": "p",
+          "text": "In May, Honda announced plans to introduce 15 new Honda and Acura hybrid models globally by 2030, with North America expected to be the primary market for many of those vehicles."
+        },
+        {
+          "type": "p",
+          "text": "The automaker said it is investing across its manufacturing network in Canada, Ohio, Alabama and Georgia to support that strategy."
+        },
+        {
+          "type": "p",
+          "text": "That same month, the company indefinitely suspended its plans for a $15-billion Canadian electric vehicle complex in response to dwindling demand."
+        },
+        {
+          "type": "p",
+          "text": "Announced in 2024, Honda's EV project would have included a vehicle assembly plant as well as battery production facilities. It had said that new EV plant could create 1,000 incremental manufacturing jobs in Alliston."
+        },
+        {
+          "type": "p",
+          "text": "It was set to receive upwards of $5 billion in federal and Ontario funding, however no money had yet been transferred."
+        },
+        {
+          "type": "p",
+          "text": "The decision to pause those plans did not affect current employment or production levels at the Alliston plant."
+        },
+        {
+          "type": "p",
+          "text": "More than 400,000 vehicles were produced at the site last year. Honda is Canada's second largest auto manufacturer by volume."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-1pgcj23",
+      "source": "cbc",
+      "title": "Canada's secretary of sport casts doubt on Russia competing as neutrals at Alberta world juniors",
+      "summary": "Adam van Koeverden, Canada's Secretary of State for Sport, has cast doubt on whether Russia can compete as a neutral team at the upcoming world junior hockey championship in Alberta.",
+      "byline": "Abdulhamid Ibrahim",
+      "section": "Sports/Hockey",
+      "published": "2026-11-09T19:10:29.000Z",
+      "firstSeen": "2026-11-09T19:31:01.615Z",
+      "url": "https://www.cbc.ca/sports/hockey/world-juniors-russia-neutral-team-questions-doubt-9.7415273?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/b2f3369c-d6d9-429f-bf99-0eca7fc6ad3b,1794250011268/full/max/0/default.jpg?im=Crop%2Crect%3D%2820%2C0%2C1139%2C640%29%3BResize%3D620",
+        "caption": "Comments from Adam van Koeverden, Canada's secretary for sport, come after Norway's hockey federation said Sunday the IIHF had informed it that Russia would be added to the world juniors in Edmonton and Red Deer next month at Norway's expense. (Jeff McIntosh/Canadian Press/File)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hockey·New"
+        },
+        {
+          "type": "p",
+          "text": "Adam van Koeverden, Canada's Secretary of State for Sport, has cast doubt on whether Russia can compete as a neutral team at the upcoming world junior hockey championship in Alberta."
+        },
+        {
+          "type": "h",
+          "text": "Van Koeverden says designation used at other events applied to individuals, not teams"
+        },
+        {
+          "type": "p",
+          "text": "· The Canadian Press"
+        },
+        {
+          "type": "p",
+          "text": "· Posted: Nov 09, 2026 2:10 PM EST | Last Updated: 19 minutes ago"
+        },
+        {
+          "type": "p",
+          "text": "The development follows last month's Court of Arbitration for Sport ruling the International Ice Hockey Federation must reinstate Russia in international hockey, after Russia and Belarus were barred from international hockey competition in 2022 following Russia's invasion of Ukraine."
+        },
+        {
+          "type": "p",
+          "text": "Prime Minister Mark Carney said last week Russian and Belarusian athletes could not compete in Canada representing their countries while the war continues. The government's Nov. 3 statement, however, allowed individual athletes to compete as neutrals but did not clarify whether that provision could extend to a Russian team at the men's under-20 tournament, which opens Dec. 26."
+        },
+        {
+          "type": "p",
+          "text": "However, Van Koeverden clarified Monday the neutral athlete designation used for Russians at other events applied to individuals, not teams."
+        },
+        {
+          "type": "p",
+          "text": "Van Koeverden's comments come after Norway's hockey federation said Sunday the IIHF had informed it that Russia would be added to the world juniors in Edmonton and Red Deer next month at Norway's expense."
+        },
+        {
+          "type": "p",
+          "text": "\"This is a really quickly evolving situation with Norway,\" van Koeverden said from a sports summit in Ottawa. \"I've had conversations with ministers of sport from Finland, from Sweden, and from Norway and from Germany. Hoping to meet with the minister from Czechia this week as well as others to discuss this quickly evolving situation."
+        },
+        {
+          "type": "p",
+          "text": "\"The Prime Minister was extremely clear that sport will not be used for propaganda on Canadian soil, and the notion that there, you know, might be accommodations is one that the Prime Minister was extraordinarily clear about."
+        },
+        {
+          "type": "p",
+          "text": "\"So we'll continue to move forward working with Hockey Canada. And you note that the IIHF, their previous position was aligned with Canada's, and we want to continue to ensure that great Canadian hockey, great international hockey is seen here on Canadian soil.\""
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Norway says IIHF bumped it from world juniors in Canada to allow Russians to play"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The IIHF has not formally announced any changes to the world junior participants, and its website still lists Norway among the 10 teams in the tournament."
+        },
+        {
+          "type": "p",
+          "text": "The Swedish Ice Hockey Association said Monday it was also informed of the new development, while adding it will maintain its stance of not competing against Russia."
+        },
+        {
+          "type": "h",
+          "text": "Sweden feels deeply for Norwegian junior team"
+        },
+        {
+          "type": "p",
+          "text": "The Swedish association told The Canadian Press on Monday it sympathized with Norway, which qualified for the tournament but now risks losing its place."
+        },
+        {
+          "type": "p",
+          "text": "\"I feel deeply for Norway's national junior team, which qualified for the world juniors but now risks losing its place in the tournament. It is difficult to see this as anything other than unfair,\" said SIHA secretary general Tony Wirehn."
+        },
+        {
+          "type": "p",
+          "text": "The Finnish Ice Hockey Association also reiterated Monday it would not play Russia if the war against Ukraine continues. It said it would not speculate further and would wait for the outcome."
+        },
+        {
+          "type": "p",
+          "text": "Neither federation said whether it would play a Russian team competing under a neutral designation."
+        },
+        {
+          "type": "p",
+          "text": "Norway said Sunday it still hoped to compete in the tournament."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "IIHF bars Belarus from Alberta world juniors, men's worlds",
+            "Wayne Gretzky backs PM Carney's call to bar Russia from world juniors"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "“The situation is still unclear,\" Norway's hockey secretary general Peter Salsten said in a statement posted on the association's website and translated from Norwegian. \"This makes us hope that the last word has not been said about our participation in Canada.\""
+        },
+        {
+          "type": "p",
+          "text": "Hockey Canada referred The Canadian Press to the federal government's Nov. 3 statement and said it had nothing to add."
+        },
+        {
+          "type": "p",
+          "text": "The IIHF and Russian Hockey Federation did not immediately respond to requests for comment Monday."
+        },
+        {
+          "type": "p",
+          "text": "Individual Russian athletes who have competed at the Olympics since the war began have done so as neutrals."
+        },
+        {
+          "type": "p",
+          "text": "Russian and Belarusian professional tennis players have continued to compete as individuals under neutral status on the ATP and WTA tours, including at the National Bank Open events in Toronto and Montreal."
+        },
+        {
+          "type": "p",
+          "text": "World Aquatics barred Russian and Belarusian athletes from its events in 2022, then allowed them to return as neutrals the following year. In April, it lifted restrictions on senior athletes, allowing them to compete under their national flags and with their anthems, subject to screening requirements."
+        },
+        {
+          "type": "p",
+          "text": "With files from Nick Murray, Canadian Press"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-13qsl48",
+      "source": "cbc",
+      "title": "James Gunn, Peter Safran out of DC Studios as Skydance shakeup continues",
+      "summary": "Skydance Motion Picture Group announced Monday that James Gunn and Peter Safran are stepping down as co-chief executives after four years leading DC Studios.",
+      "byline": "Jake Coyle",
+      "section": "News/Entertainment",
+      "published": "2026-11-09T19:07:53.000Z",
+      "firstSeen": "2026-11-09T19:31:07.072Z",
+      "url": "https://www.cbc.ca/news/entertainment/skydance-james-gunn-peter-safran-9.7415294?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/887a3d23-3223-41d8-b06c-9f1034c37934,1794249578063/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C163%2C3191%2C1794%29%3BResize%3D620",
+        "caption": "Peter Safran, left, and James Gunn appear at the premiere of Clayface in Los Angeles on Oct. 13, 2026. The two will step down as co-chief executives at DC Studios. (Richard Shotwell/Invision/The Associated)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Entertainment·New"
+        },
+        {
+          "type": "p",
+          "text": "Skydance Motion Picture Group announced Monday that James Gunn and Peter Safran are stepping down as co-chief executives after four years leading DC Studios."
+        },
+        {
+          "type": "h",
+          "text": "Jeremy Latchman, a veteran of Marvel Studios, will steer superhero releases from Skydance's comics arm"
+        },
+        {
+          "type": "p",
+          "text": "· The Associated Press"
+        },
+        {
+          "type": "p",
+          "text": "· Posted: Nov 09, 2026 2:07 PM EST | Last Updated: 22 minutes ago"
+        },
+        {
+          "type": "p",
+          "text": "Superman, Batman and the rest of the DC heroes are getting a new boss, yet again."
+        },
+        {
+          "type": "p",
+          "text": "Skydance Motion Picture Group announced on Monday that James Gunn and Peter Safran are stepping down as co-chief executives after four years leading DC Studios. Although their first film leading the superhero factory, Superman, reached theatres only last year, their DC run has come to an abrupt end."
+        },
+        {
+          "type": "p",
+          "text": "Gunn and Safran initially survived Skydance's acquisition of Warner Bros. Discovery. The studio's merger with Paramount Pictures was finalized just as DC's Clayface was released."
+        },
+        {
+          "type": "p",
+          "text": "However, it's clear Gunn and Safran won't survive the merger. Instead, Skydance chairman and chief executive David Ellison is turning to Jeremy Latchman, a veteran of Marvel Studios, to steer DC into the next chapter."
+        },
+        {
+          "type": "p",
+          "text": "\"James and Peter launched a new era for DC Studios and led it through a period of real transformation, resetting the foundation and building a slate we're incredibly proud of,\" Ellison said in a statement. \"We're grateful for their passion, contributions and commitment to this legendary brand.\""
+        },
+        {
+          "type": "p",
+          "text": "Director James Gunn attends the Superman fan event in London's Leicester Square on July 2, 2025. (ate Green/Getty Images)"
+        },
+        {
+          "type": "p",
+          "text": "The changeover will take effect Dec. 1. But a long pipeline of projects already in production ensures that Gunn and Safran's fingerprints will be on DC Studios for a while to come."
+        },
+        {
+          "type": "p",
+          "text": "Gunn, who directed Superman, is currently in post-production on the follow-up, Man of Tomorrow. Other upcoming DC Studios releases include the series The People v. Gorilla Grodd and The Batman: Part II."
+        },
+        {
+          "type": "p",
+          "text": "But the decade's worth of planning that Gunn and Safran undertook will no longer come to fruition. Their reign has been characterized by more idiosyncratic comic book adaptations and genre gambles, like Clayface, which fused a superhero story with horror."
+        },
+        {
+          "type": "p",
+          "text": "Earlier this year, Supergirl flopped, a major setback in just their second release."
+        },
+        {
+          "type": "p",
+          "text": "Latchman takes on the roles of president and chief creative officer of DC Studios. He will report to Dana Goldberg and Josh Greenstein, co-chairs of Skydance Motion Picture Group."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Superman has a problem — and it's not the film's commentary on immigration",
+            "Supergirl is not doing super well at the box office. Here’s why"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Latchman has long been a leading executive for Marvel releases, including the first wave of the Marvel Cinematic Universe with Iron Man and The Avengers. He also worked with Gunn and Safran on their Guardians of the Galaxy."
+        },
+        {
+          "type": "p",
+          "text": "\"Jeremy brings a deep reverence for DC and its passionate fanbase, recognizing that they are the very foundation of this storied, multigenerational brand,\" said Goldberg and Greenstein."
+        },
+        {
+          "type": "p",
+          "text": "\"Under his leadership, every film and television show will be ushered from start to finish through the prism of the legions of fans who love and champion it.\""
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-8bzep6",
+      "source": "grd",
+      "title": "Ohio State fraternity suspended after viral video shows two men on fire",
+      "summary": "<p>The university and local police are conducting investigations into Sigma Alpha Epsilon and have placed them on interim suspension</p><p>A fraternity at Ohio State University has been temporarily…",
+      "byline": "Associated Press",
+      "section": "Ohio",
+      "published": "2026-11-09T19:03:45.000Z",
+      "firstSeen": "2026-11-09T19:31:05.212Z",
+      "url": "https://www.theguardian.com/us-news/2026/nov/09/ohio-state-sae-fire-suspension",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/febc447abab343f6a8b3babe921f0b0574caee1b/671_0_6708_5369/master/6708.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=bef72034cd68626a5a8f3bd6a93d76bf",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A fraternity at Ohio State University has been temporarily suspended while authorities investigate a video that appears to show two panicked men engulfed in flames."
+        },
+        {
+          "type": "p",
+          "text": "A video shared on social media shows one individual with his sweatpants on fire who then lunges at a second individual and tackles him to the ground. The second man’s clothing also catches fire, and they both roll on the ground while removing their clothes as several onlookers intervene."
+        },
+        {
+          "type": "p",
+          "text": "University spokesperson Benjamin Johnson said Ohio State placed Sigma Alpha Epsilon fraternity on interim suspension while it investigates and has referred the matter to the university and Columbus police."
+        },
+        {
+          "type": "p",
+          "text": "“The university is aware of this extremely concerning incident, and the individuals in question are receiving medical care,” Johnson said in a statement. “Ohio State is committed to a safe and healthy environment and expects students and student organizations to uphold that commitment and the university’s values.”"
+        },
+        {
+          "type": "p",
+          "text": "Columbus Police Sgt Joe Albert said it appears the matter took place on Saturday. Police did not receive any calls for service at the location, but someone called police Sunday evening reporting that the video was circulating online, he said."
+        },
+        {
+          "type": "p",
+          "text": "Steve Mitchell, CEO of Sigma Alpha Epsilon, said behavior that violates its high standards has no place in its organization and it will take appropriate action to hold those responsible accountable based on the investigation."
+        },
+        {
+          "type": "p",
+          "text": "“We take this matter seriously and are actively investigating the circumstances surrounding the incident while working closely with university officials and local law enforcement,” he said in a statement."
+        },
+        {
+          "type": "p",
+          "text": "More than 62,000 students are enrolled at the university’s Columbus campus."
+        },
+        {
+          "type": "p",
+          "text": "Holly Ramer reported from Concord, New Hampshire."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "grd-yflc8n",
@@ -659,98 +1384,6 @@
         {
           "type": "p",
           "text": "Contacted for comment, the White House said: “The Trump Administration has never allowed and will never allow outside groups to influence policy decisions. President Trump is busy executing on his America First agenda that includes the largest working-class tax cuts in history, over a million private sector jobs added to the economy, a sealed shut border, and lowest violent crime to the lowest level in nearly a century.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-1bow86j",
-      "source": "grd",
-      "title": "John Fetterman to be challenged for Senate seat by democratic socialist born in Gaza",
-      "summary": "<p>Ahmed Moor, a Palestinian American, said he would run in a primary to be the Democratic nominee in 2028</p><ul><li><p><a…",
-      "byline": "Robert Tait in Washington",
-      "section": "Pennsylvania",
-      "published": "2026-11-09T18:54:49.000Z",
-      "firstSeen": "2026-11-09T19:01:06.375Z",
-      "url": "https://www.theguardian.com/us-news/2026/nov/09/john-fetterman-pennsylvania-ahmed-moor",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/b157f8745887344b5e044300b673ea6419e231bd/500_0_5000_4000/master/5000.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=07935e0fdbe5d43d1b5a9a0cc5c40792",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "John Fetterman, the maverick Democratic senator who has provoked widespread anger by increasingly siding with Republicans, is to be challenged for his Pennsylvania seat by a democratic socialist candidate who is originally from Gaza."
-        },
-        {
-          "type": "p",
-          "text": "Ahmed Moor, a Palestinian American, said he would run in a primary to be the Democratic nominee in 2028, when Fetterman’s seat is up for re-election."
-        },
-        {
-          "type": "p",
-          "text": "The move is the first sign of Fetterman’s weakened position in the party since the Democrats won back control of the Senate in last week’s US midterm elections, when the party won at least 54 of the upper chamber’s 100 seats."
-        },
-        {
-          "type": "p",
-          "text": "The prospect of a comfortable Senate majority in effect eliminates the possibility of Fetterman’s vote being decisive, a relief to Democrat strategists who feared he could no longer be relied on for support on contentious issues."
-        },
-        {
-          "type": "p",
-          "text": "Fetterman had already caused widespread disillusionment among many Pennsylvania Democrats, who campaigned for him in the 2022 midterms when he ran as a progressive outsider."
-        },
-        {
-          "type": "p",
-          "text": "But he has sparked anger by, on occasion, speaking out in support of Donald Trump, who in turn has praised Fetterman as “a great guy” and said he would “love” him to become a Republican."
-        },
-        {
-          "type": "p",
-          "text": "Moor, 42, a writer and journalist who was born in the southern Gaza city of Rafah and has previously written for the Guardian, told the Philadelphia Inquirer that he was “not really running against Fetterman”."
-        },
-        {
-          "type": "p",
-          "text": "“I’m running for good government. I’m running for the rule of law. I’m running because I believe in America,” he said."
-        },
-        {
-          "type": "p",
-          "text": "But his Palestinian background throws down the gauntlet to Fetterman’s vocally pro-Israel stance, which has become increasingly strident since the 7 October 2023 attack by Hamas that left about 1,200 people on the Israeli side dead. More than 74,000 Palestinians in Gaza – most women and children – were killed in Israel’s retaliatory military response."
-        },
-        {
-          "type": "p",
-          "text": "Fetterman has said he has no intention of leaving the Democrats but strongly suggested would change his mind if the party became “anti-Israel”."
-        },
-        {
-          "type": "p",
-          "text": "“That’s my red line,” Fetterman said last July. “If the Democratic party becomes official anti-Israel, then that’s when I would force me out. If they make it the official platform of the party, then that’s a much different situation.”"
-        },
-        {
-          "type": "p",
-          "text": "Fetterman has met more often with Benjamin Netanyahu, Israel’s prime minister, than with Philadelphia’s mayor, Cherelle Parker, according to the Philadelphia Inquirer."
-        },
-        {
-          "type": "p",
-          "text": "Moor, by contrast, said he supports withdrawing US aid from Israel and imposing sanctions aimed at securing equal rights for Palestinians."
-        },
-        {
-          "type": "p",
-          "text": "Democrats say Moor is unlikely to be the only challenger to Fetterman, who provoked outrage in his own party in September by sending a video message to the Republicans’ midterm convention in Texas in which he praised Pennsylvania’s Republican senator, Dave McCormick."
-        },
-        {
-          "type": "p",
-          "text": "“I’m pretty confident that you’ll see some bigger, mainstream kind of names, involved,” said Mike Weidinger, a veteran Lancaster county Democrat with state-wide connections, who cited Chris Deluzio, a representative from the Pittsburgh area, and Malcolm Kenyatta, a Pennsylvania state legislator, as likely challengers."
-        },
-        {
-          "type": "p",
-          "text": "“Generally people think [Fetterman] either misrepresented himself when he ran the first time, or he changed completely from what he said he was,” said Weidinger."
-        },
-        {
-          "type": "p",
-          "text": "“We just had an election here in Pennsylvania where a lot of us busted our ass for [Pennsylvania governor Josh] Shapiro and a lot of other people, and he didn’t spend one penny or do one thing for a single Democrat candidate here last week.”"
-        },
-        {
-          "type": "p",
-          "text": "On the possibility of Fetterman joining the Republicans, he added: “If he wants to switch, he can switch. If it would have been 51 to 49, it would have mattered. But it doesn’t matter now.”"
         }
       ],
       "truncated": false,
@@ -2126,98 +2759,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "grd-1kgfvic",
-      "source": "grd",
-      "title": "Revealed: Palantir lobbied minister to stretch AI tools’ reach to NHS GP records",
-      "summary": "<p>Exclusive: WhatsApp messages show firm pressuring Zubir Ahmed MP to help bring sensitive data into its platform</p><ul><li><p><a…",
-      "byline": "Robert Booth UK technology editor",
-      "section": "Palantir",
-      "published": "2026-11-09T17:58:05.000Z",
-      "firstSeen": "2026-11-09T18:31:04.821Z",
-      "url": "https://www.theguardian.com/technology/2026/nov/09/revealed-palantir-lobbied-minister-to-stretch-ai-tools-reach-to-nhs-gp-records",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/2492145870792c940b152bec952dec99ef8071eb/415_0_4151_3321/master/4151.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7f86011f4d4d9f2a535c3ab895ab5f7e",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Palantir lobbied a health minister to consider extending its AI technology into GP records, stretching its reach into the NHS in a way doctors fear could undermine trust with patients."
-        },
-        {
-          "type": "p",
-          "text": "The US company, co-founded by the Trump-supporting billionaire Peter Thiel, used a direct WhatsApp channel to argue that “the logic of joining up primary and secondary [care] data is unarguable” and said its software was “ideal” for the job. The push came in February this year despite GP data being expressly ruled out of scope of Palantir’s existing £330m contract with NHS England to run its federated data platform (FDP), which it says has helped cut surgery waiting times and discharge delays."
-        },
-        {
-          "type": "p",
-          "text": "The messages – which were obtained under the Freedom of Information Act by Foxglove, a tech equity campaign group, and shared with the Guardian – appear to be between Palantir’s UK boss, Louis Mosley, and the former health minister Zubir Ahmed. They span several months from July 2025 to March 2026."
-        },
-        {
-          "type": "p",
-          "text": "In the messages and a briefing document, Palantir urged Ahmed to “get out ahead of” likely “political” opposition from doctors and vocal critics of Palantir, such as the Green party leader, Zack Polanski, and Your Party, led by Jeremy Corbyn and Zarah Sultana. The firm also told Ahmed: “The FDP is already delivering very strong results – but will deliver even more benefits faster with the right ministerial sponsorship.”"
-        },
-        {
-          "type": "p",
-          "text": "Groups representing doctors and patients, including the British Medical Association, have opposed the integration of GP data into Palantir’s FDP, arguing there is a lack of trust in the company, which also works for the Israeli military and US Immigration and Customs Enforcement (ICE). When Rishi Sunak’s Conservative government announced the deal with Palantir three years ago, it said: “GP data will not be part of the national platform.”"
-        },
-        {
-          "type": "p",
-          "text": "The lobbying emerges after it was reported last week that ministers were unlikely to end Palantir’s NHS data management contract imminently, defying campaigners and two House of Commons committees that wanted the company to be forced out as soon as spring. The Financial Times reporting, which suggested the Palantir contract will be extended, came amid concerns that removing the firm’s AI technology would be disruptive without an alternative lined up. The health secretary, Yvette Cooper, last week told parliament the review was ongoing, but said there was “a huge long-term benefit to using the NHS to develop UK sovereign AI” – a sign that the government may seek a UK replacement for Palantir when the contract reaches its next end point in 2029. Bloomberg also reported that Tom Watson, a Labour peer hired as a full-time lobbyist by Palantir in September, recently wrote to Cooper urging her to keep the contract going, saying: “I want to ensure that Palantir UK rises to meet the government’s new social-value tests and helps build Britain’s sovereign technological capability.”"
-        },
-        {
-          "type": "p",
-          "text": "The WhatsApp logs released under the FoI Act show Palantir telling Ahmed that the benefits to the health system of applying its software – known as Foundry – to GP data could include “faster access to GPs … more effective and targeted management of frail patients, and more effective preventative care”. It also said Palantir’s software platform would “maintain local control of data”."
-        },
-        {
-          "type": "p",
-          "text": "The Palantir executive’s name is redacted in the documents released by the department of health, but Palantir did not deny it was Mosley. In one message, the minister praises a performance on a BBC1 Sunday politics programme, just after Mosley had appeared."
-        },
-        {
-          "type": "p",
-          "text": "“Great work [on] Kuenssberg btw,” Ahmed said."
-        },
-        {
-          "type": "p",
-          "text": "The Palantir executive advised the minister that “the politics [of using GP data] is not straightforward – the previous government ruled GP data out of scope when announcing the FDP. So, as this moves forward, it will be one to get ahead of and explain, otherwise the opponents described above will make hay with it.”"
-        },
-        {
-          "type": "p",
-          "text": "Donald Campbell, director of advocacy at Foxglove, said the WhatsApps showed Palantir “lobbying to hoover up yet more of the British public’s sensitive personal data”."
-        },
-        {
-          "type": "p",
-          "text": "“It is appalling to see Palantir pressuring the minister to bring GP records into its platform, despite pledges from the government in 2023 that this would not happen,” Campbell said."
-        },
-        {
-          "type": "p",
-          "text": "The correspondence “shows they knew just how sensitive this was” and it was “telling [that] they made this argument privately, via privileged access to the government”, he added."
-        },
-        {
-          "type": "p",
-          "text": "Tom Dolphin, chair of the BMA council, raised concerns about “scope creep” with Palantir potentially accessing identifiable personal data in the GP record that could “undermine patient trust and threaten the doctor-patient relationship”."
-        },
-        {
-          "type": "p",
-          "text": "“Patients must be able to seek care without worrying which operators might have access to duplicates of their personal information,” he said."
-        },
-        {
-          "type": "p",
-          "text": "Marc Farr, chair of the NHS Chief Data and Analytical Officers Network, said: “Palantir appears to be bidding to stretch the scope of its work for NHS England in a way that goes beyond statements from ministers and NHS leaders that GP data was not in the scope of the FDP contract and would require legislative change … As two separate select committees have noted, public trust and transparency is essential to us being able to realise the fantastic opportunities that technology and data offer.”"
-        },
-        {
-          "type": "p",
-          "text": "Palantir said: “We’ve long argued that data sharing can improve the NHS, for patients and taxpayers, and that our software helps different NHS organisations to do that, while ensuring they maintain full local control over their data. We’ve also always been clear that it is for the government to decide how they roll the software out. These exchanges reflect both of those points”."
-        },
-        {
-          "type": "p",
-          "text": "The Department of Health and Social Care declined to comment."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-1uh9kzu",
       "source": "cbc",
       "title": "Lionel Messi achieves MLS first, winning Golden Boot for second straight season",
@@ -2311,114 +2852,6 @@
         {
           "type": "p",
           "text": "With files from Graham Dunbar, AP"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-3zyqst",
-      "source": "grd",
-      "title": "Reform UK councillor in Sunderland handed community order after racist ‘joke’ about Nigerians",
-      "summary": "<p>Glenn Gibbins sentenced to 150 hours of unpaid work by South Tyneside magistrates over 2024 Facebook post</p><p>A Reform party councillor who claimed racist comments about Nigerians were no more…",
-      "byline": "Mark Brown North of England correspondent",
-      "section": "Crime",
-      "published": "2026-11-09T17:57:50.000Z",
-      "firstSeen": "2026-11-09T18:31:04.825Z",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/09/reform-uk-councillor-sunderland-community-order",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/b83a9e6402644b197306eafccf7b72449bff0217/0_0_2145_1716/master/2145.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=6d52a461d74bb67e72782258b110a141",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A Reform party councillor who claimed racist comments about Nigerians were no more than a “bit of fun” has been handed a community order for posting grossly offensive material."
-        },
-        {
-          "type": "p",
-          "text": "Glenn Gibbins, who was voted on to Sunderland council in May, wrote on Facebook in March 2024: “Carnt believe the amount of nigerians in town … should melt them all down and fill in the pot holes!!”"
-        },
-        {
-          "type": "p",
-          "text": "At a trial before a district judge on Monday, Gibbins, 66, said it was meant to be no more than “cheeky”, “naughty” and “tongue in cheek”. He said the post was not meant to be taken literally. “It was just a bit of fun.”"
-        },
-        {
-          "type": "p",
-          "text": "It was agreed at South Tyneside magistrates court in South Shields that the social media post was offensive – the question was whether it was grossly offensive."
-        },
-        {
-          "type": "p",
-          "text": "District judge Zoe Passfield ruled that the post breached the Malicious Communications Act and was grossly offensive."
-        },
-        {
-          "type": "p",
-          "text": "She said Gibbins “intention was to be grossly offensive to Nigerians as a result of his displeasure at the number of them in the city.”"
-        },
-        {
-          "type": "p",
-          "text": "Gibbins has been sentenced to a 12-month community order with 150 hours of unpaid work. Adam King defending, said they would be appealing against the decision to the crown court."
-        },
-        {
-          "type": "p",
-          "text": "Prosecutor Emma Dowling said Gibbins’ post was talking about “exterminating” a group of people. “To say that it’s not to be taken seriously is to disregard history,” she said."
-        },
-        {
-          "type": "p",
-          "text": "“The comment about melting them down conjures up despicable images.”"
-        },
-        {
-          "type": "p",
-          "text": "Godwin Ejeh, the leader of the Nigerian community in Sunderland, was called as a witness and recalled how he called an emergency meeting of Nigerians after the post came to light."
-        },
-        {
-          "type": "p",
-          "text": "The mood of the meeting was “chaotic”, he said because of the “level of distress”. People were concerned for their safety and the safety of their children. People wanted an apology so decided a protest should take place outside city hall."
-        },
-        {
-          "type": "p",
-          "text": "Ejeh, a Lib Dem council candidate in May, said the comments should never have been made. “We are talking about humans. It’s not something people should play with.”"
-        },
-        {
-          "type": "p",
-          "text": "Gibbins, who ran a mobile personalised gifts and T-shirt kiosk in a Sunderland shopping centre, said he would not have described himself as a political person before this year."
-        },
-        {
-          "type": "p",
-          "text": "He said he thought he was approached by Reform in March to run as a councillor because of a T-shirt with Nigel Farage on it on a mannequin on his stall."
-        },
-        {
-          "type": "p",
-          "text": "He had been asked to print the T-shirt by someone drinking all day in a nearby pub. That person was “clearly intoxicated”, Gibbins said, and forgot to pick up the T-shirt, so he put it on the mannequin."
-        },
-        {
-          "type": "p",
-          "text": "When he got a call from Reform asking if he would run as a councillor he saw it as a way of getting some income during the normal summer lull for his business. “They explained they were looking for a candidate. I didn’t even know councillors got paid. I thought it would tide me over.”"
-        },
-        {
-          "type": "p",
-          "text": "King said his client’s social media post was not politically motivated. “Reform would do well to pay more attention to the people they put forward for election,” he said."
-        },
-        {
-          "type": "p",
-          "text": "Gibbins made the post after a couple of beers and said they were not his words. He said he had been trying to repost something he read but failed so typed in the words himself. About six friends responded with laughter, thumbs up and heart emojis."
-        },
-        {
-          "type": "p",
-          "text": "King said it was a “stupid, unfunny joke. We come across stupid, unfunny jokes all the time.”"
-        },
-        {
-          "type": "p",
-          "text": "He pointed to jokes by professional comedians that had not resulted in criminal proceedings, namely Jo Brand in 2019 on the BBC, making a joke about throwing battery acid on Nigel Farage; and Jimmy Carr when he made a joke about the Holocaust and Gypsies on his Netflix special."
-        },
-        {
-          "type": "p",
-          "text": "King said courts in the UK had also asserted the importance of free speech in “full-throttled, uncompromising terms”."
-        },
-        {
-          "type": "p",
-          "text": "Gibbins said he had been suspended by Reform, then reinstated, but was now suspended again."
         }
       ],
       "truncated": false,
@@ -6213,134 +6646,6 @@
         {
           "type": "p",
           "text": "They are 12 times more likely to be subjected to more severe measures, including being frisked during checks, it said after a survey of more than 5,000 people."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-ugazm3",
-      "source": "cbc",
-      "title": "Woman, 3 children killed in Gaza after sand embankment collapses onto tents",
-      "summary": "Torrential rain in Gaza caused a sand embankment to collapse onto tents, killing a woman and three small children in an incident that highlighted the danger facing hundreds of thousands of displaced…",
-      "byline": "CBC",
-      "section": "News/World",
-      "published": "2026-11-09T15:32:56.000Z",
-      "firstSeen": "2026-11-09T16:00:59.805Z",
-      "url": "https://www.cbc.ca/news/world/gaza-flood-tent-camps-9.7414816?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/5b204e4b-59fc-4778-8268-67ff3d30269e,1794235336000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C411%2C6000%2C3375%29%3BResize%3D620",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "World·New"
-        },
-        {
-          "type": "p",
-          "text": "Torrential rain in Gaza caused a sand embankment to collapse onto tents, killing a woman and three small children in an incident that highlighted the danger facing hundreds of thousands of displaced Palestinians as the rainy winter season sets in."
-        },
-        {
-          "type": "h",
-          "text": "At least 70,000 tents flooded after torrential weekend rain"
-        },
-        {
-          "type": "p",
-          "text": "Flooding of 70,000 tents in Gaza kills at least 4 people"
-        },
-        {
-          "type": "p",
-          "text": "Medics said heavy rain late on Sunday washed away a rocky sandbank abutting a camp for displaced families south of Deir al-Balah, in central Gaza. A woman and two of her children, aged eight and six, were killed. A fourth child, aged four, was also killed, and six others were injured."
-        },
-        {
-          "type": "p",
-          "text": "Video verified by Reuters showed residents using hammers to break large sandy rocks and others removing sand with shovels searching for people trapped underneath using flashlights."
-        },
-        {
-          "type": "p",
-          "text": "\"What can one say about the situation in Gaza? Whoever did not die from bombs and missiles is dying from buildings collapsing on them, from the collapse of sand and mountains on them,\" said Amal Al-Zein, 35, a relative of the victims."
-        },
-        {
-          "type": "p",
-          "text": "Sohaib Abu Darbali, a witness, said the collapse of the embankment sounded like an explosion."
-        },
-        {
-          "type": "p",
-          "text": "\"We found that three tents were covered completely after the mountain collapsed on top of them. People were under the rubble and we couldn't see them,\" he told Reuters."
-        },
-        {
-          "type": "p",
-          "text": "Displaced Palestinians attempt to clear a water puddle outside their flooded tents amid heavy rainfall in Gaza City's Al-Remal neighbourhood on Saturday. (Omar Al-Qattaa/AFP/Getty Images)"
-        },
-        {
-          "type": "p",
-          "text": "The vast majority of Gaza's population of two million lives in tent encampments or the ruins of bombed-out buildings, with reconstruction yet to begin following Israel's two-year military assault, launched after the 2023 Hamas attacks on southern Israel."
-        },
-        {
-          "type": "p",
-          "text": "For many of them, this is the fourth winter during which they will need to cope with flood water overtaking their tents and soaking their belongings when it rains."
-        },
-        {
-          "type": "p",
-          "text": "Local authorities said at least 70,000 tents had been flooded in the first hours after heavy rain began on Saturday."
-        },
-        {
-          "type": "p",
-          "text": "The United Nations Office for the Co-ordination of Humanitarian Affairs said humanitarian partners had received appeals from more than 26,000 households reporting damage to shelters or belongings following weekend rainstorms."
-        },
-        {
-          "type": "h",
-          "text": "'Only solution is reconstruction'"
-        },
-        {
-          "type": "p",
-          "text": "A U.S.-brokered ceasefire last year called for the eventual reconstruction of Gaza, but little progress has been made. Negotiators have failed to agree on terms for Hamas to disarm or for Israel to withdraw its troops, which control about two-thirds of the territory and from which residents have been ordered to leave."
-        },
-        {
-          "type": "p",
-          "text": "Mahmoud Basal, spokesman for Gaza's civil defence service, said people put up their tents next to sandbanks believing they could protect them."
-        },
-        {
-          "type": "p",
-          "text": "\"Tents can't protect people, neither from rain nor the heat, the only solution is reconstruction,\" Basal told Reuters."
-        },
-        {
-          "type": "p",
-          "text": "Israel says no reconstruction can happen before Hamas is disarmed."
-        },
-        {
-          "type": "p",
-          "text": "Save the Children warned of another critical winter season, adding that the flooding and its devastating impact was \"entirely foreseeable.\""
-        },
-        {
-          "type": "p",
-          "text": "Palestinians gather on Monday at the site of a deadly collapse of a sandbank at a tent camp for displaced people in Deir Al-Balah, central Gaza Strip. (Mahmoud Issa/Reuters)"
-        },
-        {
-          "type": "p",
-          "text": "\"Over the weekend, while families slept, water flooded their tents and engulfed entire camps. Children shivered in the bitter cold without winter clothing, and families lost the few belongings they had left,\" said Ahmad Alhendawi, the group's regional director for the Middle East, Eastern Europe and North Africa."
-        },
-        {
-          "type": "p",
-          "text": "“This is not simply the result of bad weather.\""
-        },
-        {
-          "type": "p",
-          "text": "The non-governmental organization says basic items continue to be restricted from entering the territory."
-        },
-        {
-          "type": "p",
-          "text": "\"Tents, shelter kits and fuel are waiting at Gaza’s borders while children sleep in floodwater, because the Israeli authorities are blocking their entry. This is a choice, and children are paying the price,\" Alhendawi said."
-        },
-        {
-          "type": "p",
-          "text": "\"More than a year into the so-called ceasefire, it has failed to protect Palestinian children.\""
-        },
-        {
-          "type": "p",
-          "text": "With files from CBC News"
         }
       ],
       "truncated": false,
@@ -10495,176 +10800,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "cbc-1ff6gaf",
-      "source": "cbc",
-      "title": "B.C. businesses push back against 'AI slop' with pen-and-paper ads",
-      "summary": "A marketing professor says customers are gravitating towards authenticity, as artificial intelligence is making producing perfect graphics too easy.",
-      "byline": "Akshay Kulkarni",
-      "section": "News/Canada/British Columbia",
-      "published": "2026-11-09T12:00:00.000Z",
-      "firstSeen": "2026-11-09T15:30:56.295Z",
-      "url": "https://www.cbc.ca/news/canada/british-columbia/pen-paper-advertising-anti-artificial-intelligence-9.7409932?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/88f5a802-73c7-45da-9e57-8e55dc6ea73b,1793898484419/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3BResize%3D620",
-        "caption": "Kevin Thach is the owner of NaMì Vietnamese café in Vancouver. Social media posts featuring hand-drawn depictions of his food have caused a stir online, with one expert saying customers want authenticity. (CBC News, NaMì)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "British Columbia"
-        },
-        {
-          "type": "p",
-          "text": "A marketing professor says customers are gravitating towards authenticity, as artificial intelligence is making producing perfect graphics too easy."
-        },
-        {
-          "type": "h",
-          "text": "Prof. says customers increasingly want authenticity as artificial intelligence makes perfection easy"
-        },
-        {
-          "type": "p",
-          "text": "They may look like they were drawn hastily by someone in a brainstorming meeting, but recent advertisements from the Vietnamese café NaMì in downtown Vancouver caused a stir online."
-        },
-        {
-          "type": "p",
-          "text": "The ads feature extremely basic renditions of the café's banh mi sandwich and a frozen coffee drink, drawn with a black marker, along with two sheets of paper with text."
-        },
-        {
-          "type": "p",
-          "text": "\"We will NOT use AI to promote our business ... we're going old school and using a Sharpie and paper!\" read the sheets of paper."
-        },
-        {
-          "type": "p",
-          "text": "NaMì's frozen coffee advertisement is drawn in the same style as that of the banh mi sandwich. The Facebook post accompanying the ads have garnered thousands of views. (NaMì/Facebook)"
-        },
-        {
-          "type": "p",
-          "text": "As restaurants around the world turn to artificial intelligence (AI) images to save costs amid razor-thin margins, NaMì owner Kevin Thach said the pen-and-paper advertising is a way of differentiating his business."
-        },
-        {
-          "type": "p",
-          "text": "\"As we get into kind of more of an era where like you see less and less people interact with people, you kind of want to remind yourself that you're not just buying food,\" Thach said of his pen-and-paper strategy."
-        },
-        {
-          "type": "p",
-          "text": "\"Someone had to make that food behind ... the counter. And, you know, there's effort that gets put into it as well,\" he added."
-        },
-        {
-          "type": "p",
-          "text": "AI food pics on menus leave some customers with a bad taste"
-        },
-        {
-          "type": "p",
-          "text": "The rise of AI-generated restaurant images in particular have prompted blowback online, with businesses accused of peddling \"AI slop.\""
-        },
-        {
-          "type": "p",
-          "text": "Thach said he thought it was bizarre that restaurants would depict their own food with perfectly-manicured or erroneous AI images."
-        },
-        {
-          "type": "p",
-          "text": "\"How can you let that be displayed as your own food? ... I never find it all too appealing or appetizing,\" he said."
-        },
-        {
-          "type": "h",
-          "text": "Customers embracing authenticity"
-        },
-        {
-          "type": "p",
-          "text": "A marketing professor says customers are gravitating towards authenticity, especially from local businesses that they want to know and connect with."
-        },
-        {
-          "type": "p",
-          "text": "\"When everybody can create a perfect piece of content, when imperfection is effectively non-existent, something that is imperfect or human starts to stand out from the crowd,\" said Jarrett Vaughan, an adjunct professor at the University of British Columbia's business school."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "AI 'slop' is dominating menus, as some restaurant owners turn to it to save time and money"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Vaughan said small businesses don't need to outspend big companies in order to advertise effectively — but rather, they need to \"out-humanize\" them and create relationships with customers."
-        },
-        {
-          "type": "p",
-          "text": "He acknowledged, however, that not everyone may be taken in by the AI pushback or the pen-and-paper ads."
-        },
-        {
-          "type": "p",
-          "text": "The professor said creating a large volume of content efficiently can be difficult for small businesses, especially if resources are limited."
-        },
-        {
-          "type": "p",
-          "text": "What do you think of restaurants using AI 'slop'?"
-        },
-        {
-          "type": "p",
-          "text": "\"Obviously, we need to understand our goals and objectives and who is our target segment. We don't just create AI slop,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "\"We do want to make sure it's authentic to the brand, but it does give an opportunity to create more content.\""
-        },
-        {
-          "type": "h",
-          "text": "Graphic designers feeling devalued"
-        },
-        {
-          "type": "p",
-          "text": "It isn't just restaurants that are turning to pen-and-paper advertising — a No Frills supermarket in Burnaby also saw its employees advertising weekly deals using Sharpie-drawn sheets of paper."
-        },
-        {
-          "type": "p",
-          "text": "A No Frills supermarket in Burnaby, B.C., also turned to pen-and-paper ads to draw attention to its weekly deals last month. (No Frills (Justin’s, Burnaby Heights)/Facebook)"
-        },
-        {
-          "type": "p",
-          "text": "Meghan D'Mello, the president of the Association of Registered Graphic Designers, said advertising is traditionally the bulk of work being done by professional graphics designers."
-        },
-        {
-          "type": "p",
-          "text": "She said job descriptions for graphic designers were increasingly not focusing on design, but rather \"prompting\" to use for AI image-generating services, and some of the profession's skills were being devalued."
-        },
-        {
-          "type": "p",
-          "text": "\"There's a lot of anything that designers can do people claim can be generated by AI — which is unfortunate, because AI can never replace ... the attention to detail that professional designers have been trained to work with,\" she said."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Graphic design students say they're waiting out wave of AI advertising"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "D'Mello said she hoped customers would show businesses how they felt about using AI-generated images by voting with their wallets and not patronizing them."
-        },
-        {
-          "type": "p",
-          "text": "She acknowledged that AI can be used to streamline working processes, but said it isn't the same as the creativity or ingenuity that designers have."
-        },
-        {
-          "type": "p",
-          "text": "\"Just remember to use your own brains and your talents and what makes you special. And that's how your customers and clients will respond,\" she advised fellow designers."
-        },
-        {
-          "type": "p",
-          "text": "B.C. businesses pushing back against AI by using pen and paper to advertise"
-        },
-        {
-          "type": "p",
-          "text": "With files from Renée Lukacs and Jacqueline Tung"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-1f65cx2",
       "source": "cbc",
       "title": "Inuvik killed dozens of grizzly bears at a dump this summer. Experts say it may have been the kindest option",
@@ -13376,197 +13511,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "cbc-1glk351",
-      "source": "cbc",
-      "title": "Canada heads to UN climate summit in Turkey with finance, fossil fuel transition on the agenda",
-      "summary": "",
-      "byline": "Inayat Singh",
-      "section": "News/Climate",
-      "published": "2026-11-09T09:01:21.000Z",
-      "firstSeen": "2026-11-09T09:31:02.539Z",
-      "url": "https://www.cbc.ca/news/science/canada-un-climate-summit-cop31-9.7413260?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/5c076b9f-38f0-484a-aa25-dace40d9c401,1794011326382/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C446%2C8563%2C4816%29%3BResize%3D620",
-        "caption": "A sign for the COP31 UN climate summit at the Istanbul Airport. The conference will run from Nov. 9-20 in the Turkish resort town of Antalya. (Emrah Gurel/The Associated Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Science·New"
-        },
-        {
-          "type": "p",
-          "text": "Canada could face a bumpy ride at this year’s UN climate summit after a year of environmental rollbacks and a push for pipelines and fossil fuel expansion at home, experts say, but it's still an important player on key issues like clean energy and finance."
-        },
-        {
-          "type": "h",
-          "text": "U.S. retreat from climate, foreign aid leaves opening for middle powers, experts say"
-        },
-        {
-          "type": "p",
-          "text": "Canada heads to the UN's annual climate summit, COP31, defending its fossil fuel expansion at home while seeking influence on clean energy, climate finance and the global transition away from fossil fuels."
-        },
-        {
-          "type": "p",
-          "text": "With the U.S. retreating from international climate diplomacy, Canada has an opening to play a larger role in the negotiations. But experts say recent climate-policy rollbacks at home could complicate its efforts to do so."
-        },
-        {
-          "type": "p",
-          "text": "\"We feel like Canada's credibility is on the line,\" said Pratishta Singh, international diplomacy manager at Climate Action Network Canada, a non-governmental group."
-        },
-        {
-          "type": "p",
-          "text": "\"Canada cannot position itself as a climate leader internationally while … doubling down on fossil fuel infrastructure.\""
-        },
-        {
-          "type": "p",
-          "text": "The UN summit runs from Nov. 9-20 in the resort town of Antalya, Turkey. It is the first since the U.S., under President Donald Trump, pulled out of the Paris Agreement on climate change, although his administration largely boycotted the previous COP30 summit as well."
-        },
-        {
-          "type": "p",
-          "text": "That withdrawal could leave more room for so-called middle powers such as Canada, which has historically supported international climate diplomacy and co-operation."
-        },
-        {
-          "type": "p",
-          "text": "Canada does not appear to be shying away from the UN process despite its recent climate-policy rollbacks. A significant diplomatic contingent, led by federal Environment Minister Julie Dabrusin, will attend COP31, along with a dedicated Canada Pavilion hosting side events involving government, think tanks and NGO groups."
-        },
-        {
-          "type": "p",
-          "text": "Will we ever be off fossil fuels? Should we be?"
-        },
-        {
-          "type": "p",
-          "text": "\"I do think that there will be some heat from groups about the stepbacks on some of the climate policies that we've seen over the past year. So, I think it'll be up and down,\" said Philip Gass, who leads research on Canadian energy at the International Institute for Sustainable Development, a climate and energy policy think tank."
-        },
-        {
-          "type": "p",
-          "text": "\"Depending what the topic of the day is, it might be a little bit rocky for Canada.\""
-        },
-        {
-          "type": "h",
-          "text": "Fossil fuel transition"
-        },
-        {
-          "type": "p",
-          "text": "Brazil, which hosted last year's climate conference in the Amazonian city of Belém, proposed a roadmap for countries to transition away from fossil fuels. The plan would help countries establish targets to reduce their reliance on fossil fuels and replace them with clean sources of energy."
-        },
-        {
-          "type": "p",
-          "text": "But reaching an agreement among the more than 180 countries proved elusive. Decisions at UN climate summits require consensus among participating nations, and a smaller coalition of countries willing to move ahead, including Canada, met in Colombia in April to discuss the issue separately."
-        },
-        {
-          "type": "p",
-          "text": "What this coalition of countries now wants is concrete plans to transition away from fossil fuels, not just resolutions or promises. They want countries to set specific dates and targets for ending the use of oil, gas and coal, along with a formal mechanism through which developing countries can apply for financial or technical assistance to aid their own transitions."
-        },
-        {
-          "type": "p",
-          "text": "This could put particular pressure on countries such as Canada, which has a large oil and gas sector."
-        },
-        {
-          "type": "p",
-          "text": "Gass says the federal Canadian Sustainable Jobs Act, passed by the Justin Trudeau government in 2024, is \"aligned with a lot of the principles of just transition\" away from fossil fuels."
-        },
-        {
-          "type": "p",
-          "text": "But Canada's continued expansion of fossil fuel production complicates its position, he said."
-        },
-        {
-          "type": "p",
-          "text": "\"It would be very hard, for example, for Canada to look to lead a process being a fossil fuel producer that has expanded fossil fuel production this year,\" Gass said."
-        },
-        {
-          "type": "p",
-          "text": "\"That doesn't mean they can't be constructively involved in the discussion.\""
-        },
-        {
-          "type": "p",
-          "text": "Singh said Canada needs to match its words at international conferences with \"serious domestic implementation\" of the sustainable jobs law to be taken seriously by other countries."
-        },
-        {
-          "type": "p",
-          "text": "Earlier this year, the federal government released a strategy that was criticized by the NDP and labour experts for not doing enough for workers. The sustainable jobs strategy acknowledges that global efforts to reduce emissions will reshape industries, and the government says Canada must ensure the shift improves job quality and supports growth."
-        },
-        {
-          "type": "h",
-          "text": "Clean electricity"
-        },
-        {
-          "type": "p",
-          "text": "Canada can point to its investments in clean electricity as evidence of its climate ambitions."
-        },
-        {
-          "type": "p",
-          "text": "The federal government announced major investments in electricity production in the budget released last week. It has now proposed more than $100 billion in various commitments to boost clean electricity projects over the next three decades."
-        },
-        {
-          "type": "p",
-          "text": "Julia Levin, who studies national climate policy at the advocacy group Environmental Defence, said the funding announcements were \"positive, but underwhelming.\""
-        },
-        {
-          "type": "p",
-          "text": "She pointed out that the government has weakened federal clean electricity regulations, allowing more electricity to be generated from natural gas, a fossil fuel."
-        },
-        {
-          "type": "p",
-          "text": "But Canada's recent investments, including a major push for nuclear energy, could give it some clout at COP31. The summit's presidency wants countries to work toward an ambitious new electrification target: increasing the global share of final energy demand met by electricity from just over 20 per cent today to 35 per cent by 2035."
-        },
-        {
-          "type": "p",
-          "text": "Meeting that target would require countries to significantly scale up clean electricity production, which aligns with what Canada is trying to do."
-        },
-        {
-          "type": "p",
-          "text": "Carney announces national strategy to double Canada's electricity grid by 2050"
-        },
-        {
-          "type": "h",
-          "text": "Climate finance"
-        },
-        {
-          "type": "p",
-          "text": "Finance for developing countries, a longtime sticking point in climate negotiations, has become an even bigger problem since the U.S. largely shut down its foreign aid agency. Aid budgets have declined in other high-income countries as well."
-        },
-        {
-          "type": "p",
-          "text": "Environment Minister Julie Dabrusin is leading Canada's delegation to the COP31 summit in Turkey. Canada is expected to focus on issues like climate finance and clean energy. (Justin Tang/The Canadian Press)"
-        },
-        {
-          "type": "p",
-          "text": "Canada announced about $5.9 billion in climate finance over the next five years in the spring economic update earlier this year, with a goal of mobilizing a total of $13 billion using private sources."
-        },
-        {
-          "type": "p",
-          "text": "\"Canada is one of the few Global North countries who have actually pledged, post 2025, international climate finance,\" Singh said."
-        },
-        {
-          "type": "p",
-          "text": "But details about how that funding will flow still need to be announced, which Singh said she hopes will happen at COP31."
-        },
-        {
-          "type": "p",
-          "text": "The federal government has said one of its top priorities at the conference will be to \"mobilize climate finance at scale from public and private sources.\""
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Inayat Singh covers the environment and climate change at CBC News. He is based in Toronto and has previously reported from Winnipeg. Email: inayat.singh@cbc.ca"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Twitter"
-          ]
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-g08uom",
       "source": "abs",
       "title": "World entering 'age of climate extremes': UN chief",
@@ -13934,194 +13878,6 @@
         {
           "type": "p",
           "text": "Anya Zoledziowski is a Peabody-winning multimedia journalist from Edmonton who's covered social and climate justice, Indigenous affairs, gender, politics and more, and has been recognized by several national and international awards. She’s currently pursuing her PhD in journalism studies."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-15ftpa",
-      "source": "cbc",
-      "title": "Veterans, families call for better access to make claims for exposure-related illness",
-      "summary": "A new report calls for the federal government to make it easier for service members and others exposed to health risks to find the information they need when making medical claims.",
-      "byline": "Amanda Pfeffer",
-      "section": "News/Politics",
-      "published": "2026-11-09T09:00:00.000Z",
-      "firstSeen": "2026-11-09T09:31:03.121Z",
-      "url": "https://www.cbc.ca/news/politics/contaminated-sites-caf-9.7413037?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/b81532c3-23e9-444c-ba48-4a5217793aee,1794013509199/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C265%2C6467%2C3637%29%3BResize%3D620",
-        "caption": "A new report calls for the federal government to make it easier for service members and others exposed to health risks to find the information they need when making medical claims. (James Maclennan/The Canadian Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Politics·New"
-        },
-        {
-          "type": "p",
-          "text": "A new report calls for the federal government to make it easier for service members and others exposed to health risks to find the information they need when making medical claims."
-        },
-        {
-          "type": "h",
-          "text": "Report recommends evidence be made more accessible to support medical claims"
-        },
-        {
-          "type": "p",
-          "text": "Hakan Haytaoglu was a military pilot who worked secret missions for the Canadian Armed Forces during his 35-year career."
-        },
-        {
-          "type": "p",
-          "text": "At the age of 55, just months shy of retirement, he was diagnosed with a rare and aggressive form of cancer called neuroendocrine carcinoma."
-        },
-        {
-          "type": "p",
-          "text": "He sought support through a medical claim to Veterans Affairs Canada, but the claim was denied."
-        },
-        {
-          "type": "p",
-          "text": "Haytaoglu decided to appeal."
-        },
-        {
-          "type": "p",
-          "text": "Hakan Haytaoglu was a pilot with the Canadian Armed Forces until his diagnosis with an aggressive cancer. His wife fought for medical benefits and won. (Submitted by Maura-Jo Haytaoglu)"
-        },
-        {
-          "type": "p",
-          "text": "For months, while caring for her dying husband, Maura-Jo Haytaoglu hunted down the evidence he needed to connect his illness to his job."
-        },
-        {
-          "type": "p",
-          "text": "\"I dug and I dug while he was sick in bed,\" she said. \"I sat beside him and I researched and I dug and I put the proper people in my corner that fought for us.\""
-        },
-        {
-          "type": "p",
-          "text": "The military pilot who friends and family called Hawk died just a few weeks before his case could be heard before the Veterans Review and Appeal Board in August 2025."
-        },
-        {
-          "type": "p",
-          "text": "So Maura-Jo did it for him, and won."
-        },
-        {
-          "type": "p",
-          "text": "\"It was the hardest day of my entire life, beyond watching my husband die in my arms,\" Haytaoglu said."
-        },
-        {
-          "type": "p",
-          "text": "\"It shouldn't be this hard for those who served their country.\""
-        },
-        {
-          "type": "p",
-          "text": "Maura-Jo Haytaoglu and husband Hakan as he received chemo treatments following his diagnosis of a rare cancer. He died in July 2025, just a few weeks shy of the appeal of his medical claim. (Submitted by Maura-Jo Haytaoglu)"
-        },
-        {
-          "type": "p",
-          "text": "A new report by the House of Commons national defence committee states there are 2,750 Department of National Defence and Canadian Armed Forces contaminated sites in Canada as of June 2026."
-        },
-        {
-          "type": "p",
-          "text": "Among 11 recommendations, the report calls for the federal government to make it easier for service members and others exposed to health risks to find the information they need when making medical claims."
-        },
-        {
-          "type": "p",
-          "text": "CBC News reached out to Veterans Affairs Canada and the Canadian Armed Forces for reaction to the call for more access, and did not hear back in time for publication."
-        },
-        {
-          "type": "h",
-          "text": "Invisible crisis"
-        },
-        {
-          "type": "p",
-          "text": "The report cites witness testimony by veterans like Erin Zimmerman."
-        },
-        {
-          "type": "p",
-          "text": "Zimmerman has been helping more than two dozen veterans and their families locate evidence to support appeals for medical claims, including the Haytaoglu case."
-        },
-        {
-          "type": "p",
-          "text": "Zimmerman says her expertise in research as a civil servant came in handy in her own fight for answers. The 48-year-old mother of four has been diagnosed with a rare form of early-onset Parkinson's disease. She worked at CFB Moose Jaw in sections now an active contamination site, including during one of her pregnancies."
-        },
-        {
-          "type": "p",
-          "text": "She said she had never been informed of the risks."
-        },
-        {
-          "type": "p",
-          "text": "Some of Erin Zimmerman's committee testimony was included in the final report released in October. (Submitted by Erin Zimmerman)"
-        },
-        {
-          "type": "p",
-          "text": "Zimmerman is grateful to see her calls for more transparency in the committee report."
-        },
-        {
-          "type": "p",
-          "text": "One of its recommendations suggests the federal government \"proactively inform personnel and families currently and previously living and/or working on Department of National Defence and Canadian Armed Forces sites, bases and wings of environmental risks and assessment results.\""
-        },
-        {
-          "type": "p",
-          "text": "\"We're in a crisis,\" Zimmerman said. \"But this crisis is an invisible demographic.\""
-        },
-        {
-          "type": "p",
-          "text": "Veterans face significant difficulty obtaining reliable information about past toxic exposures, according to Jim Hutton with Veterans with Cancer Inc."
-        },
-        {
-          "type": "p",
-          "text": "The non-profit works with veterans diagnosed with cancer to establish the connection between their service and their illness to back medical claims."
-        },
-        {
-          "type": "p",
-          "text": "At the same time, Hutton said, Veterans Affairs does not properly track exposure-related cancer claims."
-        },
-        {
-          "type": "p",
-          "text": "He said this leads to veterans having to file access to information requests and searching old government records, in multiple databases, to prove the risk they faced while serving their country."
-        },
-        {
-          "type": "p",
-          "text": "\"Veterans should not have to become investigators,\" Hutton said in an email to CBC News. \"That is an unreasonable burden.\""
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "20 years of pain: A woman veteran’s search for answers",
-            "Small actions go a long way to honour Indigenous veterans"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The group documented cases where veterans failed to find the evidence they need because historical exposure information is missing, or can't be found in their military service records."
-        },
-        {
-          "type": "p",
-          "text": "On the upside, once the evidence is found, it can help others who worked alongside that service member. That's what happened in Hawk Haytaoglu's case."
-        },
-        {
-          "type": "p",
-          "text": "Maura-Jo Haytaoglu said the information used in her husband's successful appeal is now helping the surviving service members that worked with him on a secret mission some 30 years ago."
-        },
-        {
-          "type": "p",
-          "text": "\"Three of them are dead because of cancer, one is battling Stage 4 cancer and one has beat cancer three times,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "The surviving members used the precedent in their own claims."
-        },
-        {
-          "type": "p",
-          "text": "\"My husband's legacy lives on because we had the courage to say no, we're not going to accept this.\""
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Amanda Pfeffer has worked for the CBC across the country, including Montreal, Vancouver, Fredericton, Quebec City and Ottawa. She welcomes story ideas and tips at amanda.pfeffer@cbc.ca, or twitter @onthebeat1."
         }
       ],
       "truncated": false,
