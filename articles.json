@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-10T19:01:19.401Z",
+  "updated": "2026-11-10T19:31:15.693Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-4glmty",
+      "source": "inqn",
+      "title": "Ilocos Sur resident surrenders homemade shotgun",
+      "summary": "SAN ILDEFONSO, Ilocos Sur — A homemade 12-gauge shotgun was voluntarily surrendered to the Banayoyo Municipal Police Station (MPS) on Monday, as part of the Philippine National Police&#8217;s (PNP)…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-10T19:31:08.484Z",
+      "firstSeen": "2026-11-10T12:30:57.048Z",
+      "url": "https://newsinfo.inquirer.net/2339335/ilocos-sur-resident-surrenders-homemade-shotgun",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Ilocos-Sur-map-filephoto-091122.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN ILDEFONSO, Ilocos Sur — A homemade 12-gauge shotgun was voluntarily surrendered to the Banayoyo Municipal Police Station (MPS) on Monday, as part of the Philippine National Police&#8217;s (PNP) continuing campaign against loose firearms. A barangay official turned over the firearm to Banayoyo MPS personnel led by the officer in charge, Police Major Medward Galay."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1vtx7zx",
       "source": "inqn",
       "title": "Tiangco: Marcos told off Romualdez for taking funds from big projects",
       "summary": "MANILA, Philippines &#8212; President Ferdinand Marcos Jr. had previously told off former Speaker Martin Romualdez for allegedly taking a portion of funds intended for big-ticket projects, Navotas…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:12.192Z",
+      "published": "2026-11-10T19:31:08.484Z",
       "firstSeen": "2026-11-10T12:30:59.800Z",
       "url": "https://newsinfo.inquirer.net/2339344/tiangco-marcos-told-off-romualdez-for-taking-funds-from-big-projects",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "BACOLOD CITY – Harnessing the power of the sun, the Negros Occidental provincial government has slashed P5,611,442.22 from its electricity bills following the installation of rooftop solar panels on…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:12.192Z",
+      "published": "2026-11-10T19:31:08.484Z",
       "firstSeen": "2026-11-10T12:31:05.038Z",
       "url": "https://newsinfo.inquirer.net/2339337/solar-power-saves-negocc-govt-p5-6m-gov-urges-locals-to-explore-switch",
       "image": {
@@ -103,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-4glmty",
-      "source": "inqn",
-      "title": "Ilocos Sur resident surrenders homemade shotgun",
-      "summary": "SAN ILDEFONSO, Ilocos Sur — A homemade 12-gauge shotgun was voluntarily surrendered to the Banayoyo Municipal Police Station (MPS) on Monday, as part of the Philippine National Police&#8217;s (PNP)…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:12.191Z",
-      "firstSeen": "2026-11-10T12:30:57.048Z",
-      "url": "https://newsinfo.inquirer.net/2339335/ilocos-sur-resident-surrenders-homemade-shotgun",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Ilocos-Sur-map-filephoto-091122.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN ILDEFONSO, Ilocos Sur — A homemade 12-gauge shotgun was voluntarily surrendered to the Banayoyo Municipal Police Station (MPS) on Monday, as part of the Philippine National Police&#8217;s (PNP) continuing campaign against loose firearms. A barangay official turned over the firearm to Banayoyo MPS personnel led by the officer in charge, Police Major Medward Galay."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-5eaccr",
       "source": "inqn",
       "title": "No mining exploration permit issued in Limay, Bataan, mayor says",
       "summary": "LIMAY, Bataan — The municipal government has not issued a permit to any mining company to conduct mineral exploration operations, Mayor Richie Jason David asserted on Tuesday. David said he is not…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:10.470Z",
+      "published": "2026-11-10T19:31:06.792Z",
       "firstSeen": "2026-11-10T13:00:57.750Z",
       "url": "https://newsinfo.inquirer.net/2339354/no-mining-exploration-permit-issued-in-limay-bataan-mayor-says",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "MANILA, Philippines — The testimonies of the witnesses presented by the defense lawyers of Vice President Sara Duterte showed discrepancies that suggest that certain properties were not declared in…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:10.470Z",
+      "published": "2026-11-10T19:31:06.792Z",
       "firstSeen": "2026-11-10T12:30:56.037Z",
       "url": "https://newsinfo.inquirer.net/2339342/prosecution-notes-discrepancies-in-testimony-on-vp-dutertes-properties",
       "image": {
@@ -184,7 +184,7 @@
       "summary": "CANBERRA, Australia &#8212; Emerging maritime security issues, ranging from strategic competition and territorial disputes to cybersecurity and threats to undersea infrastructure, were key topics…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:10.470Z",
+      "published": "2026-11-10T19:31:06.792Z",
       "firstSeen": "2026-11-10T12:30:56.079Z",
       "url": "https://newsinfo.inquirer.net/2339349/maritime-security-beyond-disputes-explored-in-australia-media-fellowship",
       "image": {
@@ -209,7 +209,7 @@
       "summary": "MANILA, Philippines — The Land Transportation Franchising and Regulatory Board (LTFRB) on Tuesday summoned the operator of a taxi accused of overcharging a senior citizen passenger traveling from the…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:10.393Z",
+      "published": "2026-11-10T19:31:06.686Z",
       "firstSeen": "2026-11-10T13:31:02.158Z",
       "url": "https://newsinfo.inquirer.net/2339371/ltfrb-summons-taxi-operator-for-overcharging-complaint",
       "image": {
@@ -234,7 +234,7 @@
       "summary": "SAN JOSE, Tarlac—State-owned Development Bank of the Philippines (DBP) and the Provincial Government of Tarlac recently signed a memorandum of agreement with the former donating P5.39 million to…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:10.393Z",
+      "published": "2026-11-10T19:31:06.686Z",
       "firstSeen": "2026-11-10T13:31:04.121Z",
       "url": "https://newsinfo.inquirer.net/2339367/dbp-extends-p5-39m-for-tarlac-reforestation-flood-mitigation-projects",
       "image": {
@@ -259,7 +259,7 @@
       "summary": "MANILA, Philippine – Davao City accountant, Vingelin Bajan, admitted before the Senate impeachment court on Tuesday that she was only a “partner in name” at an accounting firm linked to companies of…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:10.393Z",
+      "published": "2026-11-10T19:31:06.686Z",
       "firstSeen": "2026-11-10T13:00:57.672Z",
       "url": "https://newsinfo.inquirer.net/2339345/defense-witness-admits-being-partner-in-name-at-accounting-firm",
       "image": {
@@ -284,7 +284,7 @@
       "summary": "MANILA, Philippines &#8212; Many may be irritated with the demeanor of the witnesses presented by Vice President Sara Duterte’s lawyers as they appear to be evasive, but public prosecutor and Bicol…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:10.393Z",
+      "published": "2026-11-10T19:31:06.686Z",
       "firstSeen": "2026-11-10T13:31:11.117Z",
       "url": "https://newsinfo.inquirer.net/2339364/ridon-gets-evasive-witnesses-jobs-lives-at-stake-back-in-davao",
       "image": {
@@ -303,38 +303,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1bz6gbe",
-      "source": "inqn",
-      "title": "Sandiganbayan airs concerns after inspecting BJMP facility",
-      "summary": "MANILA, Philippines — The Sandiganbayan Third Division has raised concern about the inadequacy of closed-circuit television (CCTV) camera surveillance system inside the Bureau of Jail Management and…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:08.628Z",
-      "firstSeen": "2026-11-10T14:30:57.649Z",
-      "url": "https://newsinfo.inquirer.net/2339396/sandiganbayan-airs-concerns-after-inspecting-bjmp-facility",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/06/Commission-on-Audit-COA-officer-on-Monday-submitted-a-new-set-of-documents-to-the-Sandiganbayan-1st-Division-in-the-graft-trial-related-to-the-Pharmally-case.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Sandiganbayan Third Division has raised concern about the inadequacy of closed-circuit television (CCTV) camera surveillance system inside the Bureau of Jail Management and Penology (BJMP) following claims that former House Speaker and Leyte Representative Martin Romualdez could leave the facility. In an eight-page order dated Tuesday, the court noted a Facebook"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1pynpqg",
       "source": "inqn",
       "title": "PCSO lotto results Nov. 10: ₱512.21M jackpot not won",
       "summary": "MANILA, Philippines &#8212; No bettor won the ₱512.21 million Ultra Lotto 6/58 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draw on Tuesday, Nov. 10, 2026. According to the PCSO, no…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:08.628Z",
+      "published": "2026-11-10T19:31:04.926Z",
       "firstSeen": "2026-11-10T14:01:01.873Z",
       "url": "https://newsinfo.inquirer.net/2339392/pcso-lotto-results-nov-10-%e2%82%b1512-21m-jackpot-not-won",
       "image": {
@@ -359,7 +334,7 @@
       "summary": "MANILA, Philippines — President Ferdinand Marcos Jr. on Tuesday conducted a final walkthrough at the Philippine International Convention Center (PICC) in Pasay City ahead of the 49th Association of…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:08.628Z",
+      "published": "2026-11-10T19:31:04.926Z",
       "firstSeen": "2026-11-10T14:01:01.914Z",
       "url": "https://newsinfo.inquirer.net/2339384/marcos-makes-final-walkthrough-of-asean-summit-venues",
       "image": {
@@ -384,7 +359,7 @@
       "summary": "CALASIAO, Pangasinan &#8212; Residents of Bagulin, La Union, who are forced to flee rising floodwaters and landslides during the rainy and typhoon seasons, will soon have a safer refuge as the…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:08.628Z",
+      "published": "2026-11-10T19:31:04.926Z",
       "firstSeen": "2026-11-10T13:31:02.116Z",
       "url": "https://newsinfo.inquirer.net/2339378/la-union-town-breaks-ground-on-1st-ligtas-pinoy-center-in-ilocos-region",
       "image": {
@@ -403,13 +378,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1bz6gbe",
+      "source": "inqn",
+      "title": "Sandiganbayan airs concerns after inspecting BJMP facility",
+      "summary": "MANILA, Philippines — The Sandiganbayan Third Division has raised concern about the inadequacy of closed-circuit television (CCTV) camera surveillance system inside the Bureau of Jail Management and…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-10T19:31:04.886Z",
+      "firstSeen": "2026-11-10T14:30:57.649Z",
+      "url": "https://newsinfo.inquirer.net/2339396/sandiganbayan-airs-concerns-after-inspecting-bjmp-facility",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/06/Commission-on-Audit-COA-officer-on-Monday-submitted-a-new-set-of-documents-to-the-Sandiganbayan-1st-Division-in-the-graft-trial-related-to-the-Pharmally-case.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Sandiganbayan Third Division has raised concern about the inadequacy of closed-circuit television (CCTV) camera surveillance system inside the Bureau of Jail Management and Penology (BJMP) following claims that former House Speaker and Leyte Representative Martin Romualdez could leave the facility. In an eight-page order dated Tuesday, the court noted a Facebook"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1l0eyia",
       "source": "inqn",
       "title": "Highlights: Day 41 of Sara Duterte impeachment trial &#124; Nov. 10, 2026",
       "summary": "MANILA, Philippines — The 41st day of Vice President Sara Duterte&#8217;s impeachment trial on Tuesday centered on the credibility of the defense&#8217;s witnesses, as Davao City accountant Vingelin…",
       "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:08.627Z",
+      "published": "2026-11-10T19:31:04.885Z",
       "firstSeen": "2026-11-10T14:30:57.595Z",
       "url": "https://newsinfo.inquirer.net/2339398/highlights-day-41-of-sara-duterte-impeachment-trial-nov-10-2026",
       "image": {
@@ -428,38 +428,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-ov3cyy",
-      "source": "inqg",
-      "title": "DOJ files extradition to US for Quiboloy, 2 co-accused",
-      "summary": "MANILA, Philippines – The Department of Justice (DOJ) has filed a petition for the extradition of Kingdom of Jesus Christ (KOJC) leader Apollo Carreon Quiboloy and two of his co-accused before the…",
-      "byline": "jvicente",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-10T19:01:08.627Z",
-      "firstSeen": "2026-11-10T11:30:59.976Z",
-      "url": "https://globalnation.inquirer.net/346729/doj-files-extradition-to-us-for-quiboloy-2-co-accused",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/08/quiboloy-7august2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – The Department of Justice (DOJ) has filed a petition for the extradition of Kingdom of Jesus Christ (KOJC) leader Apollo Carreon Quiboloy and two of his co-accused before the Makati Regional Trial Court. In a statement Tuesday, the DOJ said the petition for extradition has been assigned before Makati RTC Branch 145."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1sfh6rm",
       "source": "inqn",
       "title": "NCIP told to probe firm’s alleged failure to honor commitments with IP",
       "summary": "MANILA, Philippines — Representatives of the Balatoc Indigenous community on Tuesday called on the National Commission on Indigenous Peoples (NCIP) to look into a mining company’s alleged failure to…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:08.623Z",
+      "published": "2026-11-10T19:31:03.127Z",
       "firstSeen": "2026-11-10T15:31:04.064Z",
       "url": "https://newsinfo.inquirer.net/2339402/ncip-told-to-probe-firms-alleged-failure-to-honor-commitments-with-ip",
       "image": {
@@ -478,38 +453,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-jjli0f",
-      "source": "inqg",
-      "title": "US turns over 2 unmanned vessels worth $8M to Philippine military",
-      "summary": "SUBIC BAY FREEPORT &#8212; The United States (US) has turned over two unmanned surface vessels worth more than $8 million to the Armed Forces of the Philippines (AFP) to bolster the country’s…",
-      "byline": "mareyes",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-10T19:01:06.824Z",
-      "firstSeen": "2026-11-10T11:30:58.942Z",
-      "url": "https://globalnation.inquirer.net/346731/us-turns-over-2-unmanned-vessels-worth-8m-to-philippine-military",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/10nov2026-turnover.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SUBIC BAY FREEPORT &#8212; The United States (US) has turned over two unmanned surface vessels worth more than $8 million to the Armed Forces of the Philippines (AFP) to bolster the country’s maritime surveillance and security capabilities, the US embassy said on Tuesday (Nov. 10) In a statement, US embassy said that US Ambassador to"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-13i406p",
       "source": "inqn",
       "title": "Defense sees no need to change strategy, says it does not coach witnesses",
       "summary": "MANILA, Philippines — The defense team of Vice President Sara Duterte on Tuesday said they see no need to change their strategy in presenting witnesses at Duterte’s impeachment trial, maintaining…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:05.224Z",
+      "published": "2026-11-10T19:30:59.522Z",
       "firstSeen": "2026-11-10T17:01:06.859Z",
       "url": "https://newsinfo.inquirer.net/2339415/defense-sees-no-need-to-change-strategy-says-it-does-not-coach-witnesses",
       "image": {
@@ -528,38 +478,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-zyr1dc",
-      "source": "inqg",
-      "title": "Irish execs share insights on parliament, reconciliation in BARMM visit",
-      "summary": "COTABATO CITY – Irish Ambassador to the Philippines Emma Hickey and Northern Ireland academic Monica McWilliams met with Bangsamoro Parliament leaders and exchanged experiences on political…",
-      "byline": "jvicente",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-10T19:01:03.405Z",
-      "firstSeen": "2026-11-10T11:30:58.476Z",
-      "url": "https://globalnation.inquirer.net/346734/irish-execs-share-insights-on-parliament-reconciliation-in-barmm-visit",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/IRELAND-Hickey-10nov2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COTABATO CITY – Irish Ambassador to the Philippines Emma Hickey and Northern Ireland academic Monica McWilliams met with Bangsamoro Parliament leaders and exchanged experiences on political reconciliation, parliamentary governance, and sectoral representation. READ: BARMM racing to pass 2027 regional budget In a dialogue with BARMM parliament leaders Tuesday afternoon at the parliament building, Hickey and"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1e6lfma",
       "source": "inqn",
       "title": "Over 1,000 Negros residents apply as voter registration resumes",
       "summary": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — A total of 1,544 voter applications were processed across the Negros Island Region (NIR) on Tuesday, Nov. 10, as the Commission on Elections (Comelec)…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:02.084Z",
+      "published": "2026-11-10T19:30:56.246Z",
       "firstSeen": "2026-11-10T16:01:07.824Z",
       "url": "https://newsinfo.inquirer.net/2339403/over-1000-negros-residents-apply-as-voter-registration-resumes",
       "image": {
@@ -584,7 +509,7 @@
       "summary": "MANILA, Philippines — Quezon City councilor Alfred Vargas on Tuesday called for special care for senior citizens and persons with disabilities (PWDs) amid the effects of the Super El Niño,…",
       "byline": "cbuban",
       "section": "Uncategorized",
-      "published": "2026-11-10T19:01:01.433Z",
+      "published": "2026-11-10T19:30:55.928Z",
       "firstSeen": "2026-11-10T17:01:04.623Z",
       "url": "https://newsinfo.inquirer.net/2339431/take-better-care-of-seniors-pwds-amid-super-el-nio",
       "image": {
@@ -609,7 +534,7 @@
       "summary": "KHSACH KANDAL, Cambodia — Five girls died on Tuesday morning in Cambodia when a bus taking them to school veered off the road and plunged into a deep pond, police said. The crash took place in Kandal…",
       "byline": "ggaviola",
       "section": "Asia & Pacific",
-      "published": "2026-11-10T19:01:01.433Z",
+      "published": "2026-11-10T19:30:55.928Z",
       "firstSeen": "2026-11-10T12:00:58.870Z",
       "url": "https://globalnation.inquirer.net/346745/5-cambodian-schoolgirls-killed-as-bus-skids-off-road-into-a-pond",
       "image": {
@@ -628,13 +553,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1x7ftts",
+      "source": "inqn",
+      "title": "More room to improve budget transparency, steps were taken – solons",
+      "summary": "MANILA, Philippines — While admitting there is room for improvement regarding budget transparency, Bataan Rep. Albert Garcia has maintained that the House has been working on existing and new reforms…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-10T19:30:55.884Z",
+      "firstSeen": "2026-11-10T17:31:02.133Z",
+      "url": "https://newsinfo.inquirer.net/2339442/more-room-to-improve-budget-transparency-steps-were-taken-solons",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/2027NEP-FormalTurnover-11Aug2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — While admitting there is room for improvement regarding budget transparency, Bataan Rep. Albert Garcia has maintained that the House has been working on existing and new reforms to ensure a clear process in crafting the appropriations plan. In a press briefing on Monday, Garcia, vice chair of the House committee on appropriations,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
       "id": "inqg-1s9x0yn",
       "source": "inqg",
       "title": "Dy urges AIPA cooperation on trafficking, cybercrime, child safety",
       "summary": "MANILA, Philippines — House Speaker Faustino “Bojie” G. Dy III is seeking closer cooperation among Southeast Asian lawmakers on shared concerns such as illegal recruitment, human trafficking, and…",
       "byline": "Alexander Magno",
       "section": "Uncategorized",
-      "published": "2026-11-10T19:01:01.392Z",
+      "published": "2026-11-10T19:30:55.884Z",
       "firstSeen": "2026-11-10T12:00:58.353Z",
       "url": "https://globalnation.inquirer.net/346749/dy-urges-aipa-cooperation-on-trafficking-cybercrime-child-safety",
       "image": {
@@ -653,29 +603,432 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-1x7ftts",
-      "source": "inqn",
-      "title": "More room to improve budget transparency, steps were taken – solons",
-      "summary": "MANILA, Philippines — While admitting there is room for improvement regarding budget transparency, Bataan Rep. Albert Garcia has maintained that the House has been working on existing and new reforms…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-11-10T19:01:01.391Z",
-      "firstSeen": "2026-11-10T17:31:02.133Z",
-      "url": "https://newsinfo.inquirer.net/2339442/more-room-to-improve-budget-transparency-steps-were-taken-solons",
+      "id": "dw-1itqjo8",
+      "source": "dw",
+      "title": "UK Privy Council overrules Trinidad and Tobago gay sex law",
+      "summary": "A London court has overturned a Trinidad and Tobago law criminalizing consensual sexual relations between male same-sex couples. As a result of the colonial legacy, it is the independent country's…",
+      "byline": "Mark Hallam",
+      "section": "",
+      "published": "2026-11-10T19:21:00.000Z",
+      "firstSeen": "2026-11-10T19:30:55.928Z",
+      "url": "https://www.dw.com/en/uk-privy-council-overrules-trinidad-and-tobago-gay-sex-law/a-79912163?maca=en-rss-en-all-1573-rdf",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/2027NEP-FormalTurnover-11Aug2026.jpg",
+        "src": "https://static.dw.com/image/79912932_6.jpg",
+        "caption": "The UK only decriminalized gay sex in 1967, but similar colonial-era laws remain in place in several Caribbean nationsImage: Yui Mok/PA Wire/dpa/picture alliance"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A man from Trinidad and Tobago has won a legal appeal lasting almost a decade in the last court of appeal available to him — the judicial committee of the Privy Council in former colonial power Britain."
+        },
+        {
+          "type": "p",
+          "text": "Jason Jones, a gay man born in Trinidad and Tobago, had challenged the Caribbean nation's Sexual Offences Act outlawing consensusal sex between adult males, saying that it breached his fundamental rights under the country's constitution."
+        },
+        {
+          "type": "p",
+          "text": "He initially won his case at Trinidad and Tobago's High Court, but the government and religious organizations managed to partially overturn the ruling once more, prompting Jones to the take the case to the island nation's highest appellate authority — the Privy Council in the UK."
+        },
+        {
+          "type": "p",
+          "text": "\"To discriminate against somebody simply because of who they choose to love is simply ridiculous,\" Jones told the Associated Press after Tuesday's judgment was rendered."
+        },
+        {
+          "type": "p",
+          "text": "The Privy Council in London is the final court of appeal for some Commonwealth countries including Trinidad and Tobago, although that issue was already contentious in some circles prior to Tuesday's ruling."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79912961_$%7BformatId%7D.jpg",
+          "caption": "The Judicial Committee of the Privy Council is the final court of appeal for UK overseas territories, Crown dependencies and some Commonwealth countries, including Trinidad and TobagoImage: Photoshot/picture alliance"
+        },
+        {
+          "type": "h",
+          "text": "What did the London court rule?"
+        },
+        {
+          "type": "p",
+          "text": "A panel of five judges unanimously allowed Jones' appeal, dismissing a counter-appeal from the Caribbean country's Attorney General."
+        },
+        {
+          "type": "p",
+          "text": "It found that two sections of the country's Sexual Offenses Act 1986, criminalizing \"buggery\" and \"serious indecency\" respectively among same-sex couples, violated Jones' fundamental rights to private and family life set out in the 1976 constitution."
+        },
+        {
+          "type": "p",
+          "text": "The court wrote in its ruling that \"the rights and interests of Mr Jones which are at stake involve a particularly important facet of his existence and identity since the ability to form an intimate and loving relationship with another person lies at the core of the right to private and family life.\""
+        },
+        {
+          "type": "p",
+          "text": "The anti-gay laws that call for up to five years in prison have not been enforced in recent history, but critics say they still send an intimidating message."
+        },
+        {
+          "type": "p",
+          "text": "Judge Philip Sales said as he announced the ruling that \"the current understanding of the fundamental individual right to respect for private and family life is that it protects such a core part of human identity as one's sexual orientation.\""
+        },
+        {
+          "type": "p",
+          "text": "Sales added that \"laws which seek to criminalize such activities cannot be justified.\""
+        },
+        {
+          "type": "p",
+          "text": "Trinidadian authorities argued that because the 1986 laws were passed with a super-majority and constituted criminal penalties that dated back to colonial times, prior to the constitution, they could be considered \"existing law\" and override the individual constitutional rights in certain circumstances."
+        },
+        {
+          "type": "p",
+          "text": "But the Privy Council judges found that the so-called \"proviso\" for this special status — \"unless the Act is shown not to be reasonably justifiable in a society that has proper respect for the rights and freedoms of the individual\" — had not been met."
+        },
+        {
+          "type": "p",
+          "text": "One of Jones' lawyers, Anand Ramlogan, is a former attorney general of Trinidad and Tobago and argued against this position earlier in the case."
+        },
+        {
+          "type": "p",
+          "text": "\"Constitutional rights exist precisely because majorities are not always right,\" Ramlogan said. \"They ensure that the dignity and equality of every citizen are not left to the changing tides of public opinion.\""
+        },
+        {
+          "type": "h",
+          "text": "Who is the appellant?"
+        },
+        {
+          "type": "p",
+          "text": "Jason Jones is a 61-year-old born in Trinidad and Tobago."
+        },
+        {
+          "type": "p",
+          "text": "Openly gay since the age of 16, he said he fled the country in 1996 because of homophobic violence and discrimination."
+        },
+        {
+          "type": "p",
+          "text": "Speaking to the Associated Press on Tuesday after what he termed a \"stunning victory,\" he said he would describe himself as a \"very angry gay man,\" whose anger had helped him persist in his legal appeal for so many years."
+        },
+        {
+          "type": "p",
+          "text": "\"Society has treated me worse than a criminal,\" he said. \"There is a real sense of vindication with this judgment. Finally, the courts are seeing that they need to step up because our politicians are so toothless.\""
+        },
+        {
+          "type": "p",
+          "text": "He said he became inspired to speak out after losing friends to HIV/AIDS and after meeting American singer-songwriter Nina Simone when she toured the island nation for three weeks in 1984, when he was 19."
+        },
+        {
+          "type": "p",
+          "text": "\"Nina was the one who said, 'Jason, get off this rock and go see the world,'\" he said, calling it a defining and life-changing experience."
+        },
+        {
+          "type": "h",
+          "text": "New bill in Ghana criminalizes LGBTQ+ activity"
+        },
+        {
+          "type": "h",
+          "text": "Trinidad and Tobago may not enforce its 'buggery' law, but it carries a custodial sentence"
+        },
+        {
+          "type": "p",
+          "text": "Trinidad and Tobago's government, the country's Council of Evangelical Churches and its largest Hindu organization, Sanatan Dharm Maha Sabha, contested the case, which has wound its way through several courts since the appeal was launched in 2017."
+        },
+        {
+          "type": "p",
+          "text": "In 2018, Trinidad's High Court found the laws unconstitutional. But in 2025, a local appeals court partially reversed the ruling. Trinidad's Court of Appeals subsequently allowed Jones to seek a ruling from the final appeals court in England."
+        },
+        {
+          "type": "p",
+          "text": "The case was being closely watched by activists across the Caribbean, with similar laws in place in several other countries in the region."
+        },
+        {
+          "type": "p",
+          "text": "The Bahamas decriminalized homosexuality in 1991."
+        },
+        {
+          "type": "p",
+          "text": "The UK repealed laws in overseas territories Anguilla, the British Virgin Islands, the Cayman Islands, Montserrat and the Turks and Caicos Islands in 2001."
+        },
+        {
+          "type": "p",
+          "text": "Judges in Barbados, Dominica, St. Lucia and Antigua and Barbuda have also recently struck down similar laws."
+        },
+        {
+          "type": "p",
+          "text": "But in former British colonies Grenada, Jamaica, Trinidad and Tobago and St. Vincent and the Grenadines it remains a crime."
+        },
+        {
+          "type": "p",
+          "text": "The UK only decriminalized gay sex in 1967, more than four centuries after the so-called \"buggery\" laws were first introduced under King Henry VII, and more than a century after the last executions for the crime. People still faced prosecution or the threat of it for consensual adult gay sex until after World War II, with surely the most famous later-years case being that of computing and codebreaking pioneer and war hero Alan Turing."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1w82h6",
+      "source": "grd",
+      "title": "Trump’s FCC nominee avoids questions from Democrats on Carr’s ‘censorship agenda’",
+      "summary": "<p>Senators pressured Danielle Thumann, senior counsel to FCC chair Brendan Carr, to speak about agency’s actions toward ABC and Jimmy Kimmel</p><p>During a contentious Tuesday hearing on her…",
+      "byline": "Jeremy Barr in Washington",
+      "section": "Trump administration",
+      "published": "2026-11-10T19:19:46.000Z",
+      "firstSeen": "2026-11-10T19:30:55.884Z",
+      "url": "https://www.theguardian.com/us-news/2026/nov/10/trump-fcc-nominee-danielle-thumann",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/a2cb32ecf19a365e2b32c21c195ec235f179c9bf/229_225_3798_3039/master/3798.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=c9683037cc3d96c190f4b996f0479e64",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — While admitting there is room for improvement regarding budget transparency, Bataan Rep. Albert Garcia has maintained that the House has been working on existing and new reforms to ensure a clear process in crafting the appropriations plan. In a press briefing on Monday, Garcia, vice chair of the House committee on appropriations,"
+          "text": "During a contentious Tuesday hearing on her nomination by Donald Trump to serve as a Federal Communications Commission (FCC) commissioner, Senate Democrats hammered Danielle Thumann about recent actions taken by the Brendan Carr-led regulator that have been criticized as hostile to press freedom."
+        },
+        {
+          "type": "p",
+          "text": "Thumann, who serves as senior counsel to Carr, is expected to be approved as commissioner, with Republicans in charge of the US Senate and House. But Ben Ray Luján, a senator of New Mexico, assured her that the commission’s actions will be under close scrutiny when Democrats take charge of the chamber in January."
+        },
+        {
+          "type": "p",
+          "text": "Luján asked Thumann repeatedly whether she agrees with actions taken by Carr’s FCC, including a nearly unprecedented order in late April forcing ABC to apply early to renew its local station licenses, a move that immediately followed criticism of one of the network’s biggest stars, late-night host Jimmy Kimmel, by the president and Melania Trump, the first lady. Carr was also accused of pressuring ABC affiliates to drop Kimmel’s show the previous fall."
+        },
+        {
+          "type": "p",
+          "text": "“Do you support Chairman Carr’s illegal campaign to remove Jimmy Kimmel from the nation’s airways?” Luján asked."
+        },
+        {
+          "type": "p",
+          "text": "“I have not worked with the chairman on any media-related issues, and I’m not familiar with all of the details regarding the investigation of ABC or the early license renewal of their licenses,” Thumann responded. “And I haven’t been involved in any of those conversations regarding any of their practices or regarding Jimmy Kimmel.”"
+        },
+        {
+          "type": "p",
+          "text": "Luján pressed Thumann to name an issue she has disagreed with Carr on, and she demurred. He also asked her whether it was “appropriate for the FCC to call up Disney’s broadcast license for early renewal”."
+        },
+        {
+          "type": "p",
+          "text": "Several of Luján’s Democratic colleagues also took turns pressuring Thumann on the FCC’s actions toward television networks, with Ed Markey, the Massachusetts senator, grilling her on “Chairman Carr’s FCC censorship agenda”. “Ms Thumann, does the FCC have the authority to punish a broadcaster because the president disagrees with its news coverage?”"
+        },
+        {
+          "type": "p",
+          "text": "Pushing back on her response, Markey said: “Again, this should be a straightforward constitutional limitation, because the FCC cannot punish a broadcaster simply because the president doesn’t like his coverage. Yet Chairman Carr, your boss right now, has threatened to do exactly that.”"
+        },
+        {
+          "type": "p",
+          "text": "Markey accused her of choosing to “evade” his questions, saying that “anyone seeking a seat on the Federal Communications Commission must be willing to stand up to such threats and to defend the first amendment, and you are not willing to do so here in your confirmation hearing.”"
+        },
+        {
+          "type": "p",
+          "text": "Senator Tammy Duckworth also asked Thumann about whether she would yield to political pressure to punish disfavored networks. While Thumann said the commission has to deal with complaints against networks it regulates, she acknowledged that “editorial decision-making is protected by the first amendment for broadcasters”, and added: “I don’t think that a decision [about a station’s license] should be based purely on someone’s discontent with the content that’s being aired.”"
+        },
+        {
+          "type": "p",
+          "text": "Several Senate Democrats said it was inappropriate for the commerce committee to hold the confirmation hearing, and that if Republicans were going to nominate another member of the party to the commission, they should follow past precedent and nominate a Democrat as well. The FCC currently has one commissioner nominated by a Democratic president, Anna M Gomez, but her term has already technically expired."
+        },
+        {
+          "type": "p",
+          "text": "At the end of the hearing, Luján issued a warning to Carr. “Mr Carr, if you’re listening now, know you’re going to be in this body once a month, if not more, and in the House of Representatives as well, answering questions, and you don’t have the protection of the gavel any longer,” he said. “Subpoena authorities that you have to respond to so we can get to the bottom of the nonsense and the cover-ups that have been taking place.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inqg-zyr1dc",
+      "source": "inqg",
+      "title": "Irish execs share insights on parliament, reconciliation in BARMM visit",
+      "summary": "COTABATO CITY – Irish Ambassador to the Philippines Emma Hickey and Northern Ireland academic Monica McWilliams met with Bangsamoro Parliament leaders and exchanged experiences on political…",
+      "byline": "jvicente",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-10T19:15:34.000Z",
+      "firstSeen": "2026-11-10T11:30:58.476Z",
+      "url": "https://globalnation.inquirer.net/346734/irish-execs-share-insights-on-parliament-reconciliation-in-barmm-visit",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/IRELAND-Hickey-10nov2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "COTABATO CITY – Irish Ambassador to the Philippines Emma Hickey and Northern Ireland academic Monica McWilliams met with Bangsamoro Parliament leaders and exchanged experiences on political reconciliation, parliamentary governance, and sectoral representation. READ: BARMM racing to pass 2027 regional budget In a dialogue with BARMM parliament leaders Tuesday afternoon at the parliament building, Hickey and"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "cbc-1gol4ud",
+      "source": "cbc",
+      "title": "Supreme Court reserves decision on whether federal firearms ban should stand",
+      "summary": "The question of whether the federal government had the authority to ban hundreds of makes and models of firearms is now in the hands of the country's top court after it heard arguments from gun…",
+      "byline": "Catharine Tunney",
+      "section": "News/Politics",
+      "published": "2026-11-10T19:13:36.000Z",
+      "firstSeen": "2026-11-10T19:30:55.884Z",
+      "url": "https://www.cbc.ca/news/politics/supreme-court-reserves-decision-on-firearms-ban-9.7416672?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/dc731ddb-0b22-49c4-aacc-0da5e72bc360,1794333732458/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C354%2C6800%2C3825%29%3BResize%3D620",
+        "caption": "Chief Justice of the Supreme Court of Canada Richard Wagner speaks during a ceremony marking the opening of the judicial year of the Supreme Court of Canada, temporarily located in the West Memorial Building, in Ottawa, on Oct. 5. (Justin Tang/The Canadian Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Politics·New"
+        },
+        {
+          "type": "p",
+          "text": "The question of whether the federal government had the authority to ban hundreds of makes and models of firearms is now in the hands of the country's top court after it heard arguments from gun advocates and government lawyers."
+        },
+        {
+          "type": "h",
+          "text": "Decision from Canada's top court not expected for a few months"
+        },
+        {
+          "type": "p",
+          "text": "The question of whether the federal government had the authority to ban hundreds of makes and models of firearms is now in the hands of the country's top court."
+        },
+        {
+          "type": "p",
+          "text": "Over the past two days the justices of the Supreme Court of Canada have heard arguments from gun advocates and other interested parties challenging the Justin Trudeau-era policy outlawing hundreds of makes and models, including the AR-15 and Ruger Mini-14."
+        },
+        {
+          "type": "p",
+          "text": "In 2020, the government leaned on its regulatory powers to ban the use, sale and importation of some 1,500 firearms following the Nova Scotia mass killing, the worst in modern Canadian history. The banned list has since grown to 2,500 varieties with Ottawa arguing \"their inherent deadliness makes them unsuitable for civilian use and a serious threat to public safety given the degree to which they can increase the severity of mass shootings.\""
+        },
+        {
+          "type": "p",
+          "text": "The 2020 regulations were challenged by licensed firearm owners, hunters, sport shooters and the Canadian Coalition for Firearm Rights — the country's gun lobby."
+        },
+        {
+          "type": "h",
+          "text": "Previous rulings in government's favour"
+        },
+        {
+          "type": "p",
+          "text": "Their case centres on whether the government had the authority to ban guns via an order issued by Governor in Council — effectively the federal cabinet. Under the Criminal Code, the cabinet can't use regulations to outlaw a firearm if it considers that gun \"reasonable for use in Canada for hunting or sporting purposes.\""
+        },
+        {
+          "type": "p",
+          "text": "The government's lawyers have argued that Parliament has long empowered cabinet with broad discretionary authority to prohibit firearms in the interest of public safety and that there are other non-prohibited firearms available for hunting and sport shooting."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Legal battle over federal firearms ban comes to Supreme Court of Canada",
+            "Feds extend amnesty period for firearms ban pending Supreme Court ruling"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Federal Court previously ruled in Ottawa's favour, dismissing a request from opponents to strike down the ban for being beyond the scope of the powers of cabinet"
+        },
+        {
+          "type": "p",
+          "text": "Last year, the Federal Court of Appeal rejected an appeal of that decision."
+        },
+        {
+          "type": "p",
+          "text": "Court of Appeal Chief Justice Yves de Montigny wrote that \"surely, the inherent danger that some firearms pose to public safety\" and \"the increasing demand for measures to address gun violence\" are valid considerations in determining whether their use is reasonable for hunting and sporting purposes."
+        },
+        {
+          "type": "p",
+          "text": "Gun buyback program misses target by nearly half"
+        },
+        {
+          "type": "p",
+          "text": "The appellants argued at the Supreme Court that the two lower courts didn't consider whether the prohibited items were actually used for hunting or sport shooting"
+        },
+        {
+          "type": "p",
+          "text": "\"Hunters, sport shooters, collectors and small businesses, individuals who complied with every requirement imposed by Parliament, found themselves overnight in possession of prohibited property, deprived of its lawful use and exposed to the prospect of criminal liability,\" their submission to the Supreme Court says."
+        },
+        {
+          "type": "p",
+          "text": "\"They are not extremists; they are farmers, veterans, competitive athletes, Indigenous harvesters and neighbours in communities across Canada.\""
+        },
+        {
+          "type": "p",
+          "text": "The Supreme Court of Canada has now taken the case under advisement and will issue a decision at a later time — likely not for a few months."
+        },
+        {
+          "type": "h",
+          "text": "Amnesty period extended"
+        },
+        {
+          "type": "p",
+          "text": "Before the Supreme Court agreed earlier this year to hear the case, the government said the prohibited firearms would have to be disposed of or deactivated by Oct. 30 of this year or owners would face criminal charges."
+        },
+        {
+          "type": "p",
+          "text": "It then extended the amnesty period until 90 days after the Supreme Court delivers its decision."
+        },
+        {
+          "type": "p",
+          "text": "Over the past few months, gun owners who declared a prohibited firearm were asked to surrender them if they wanted to be compensated. The federal government has not responded to CBC's request asking how many guns it collected."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Catharine Tunney is a reporter with CBC's Parliament Hill bureau, where she covers national security and the RCMP. She worked previously for CBC in Nova Scotia. You can reach her at catharine.tunney@cbc.ca"
+        },
+        {
+          "type": "p",
+          "text": "With files from The Canadian Press"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inqg-jjli0f",
+      "source": "inqg",
+      "title": "US turns over 2 unmanned vessels worth $8M to Philippine military",
+      "summary": "SUBIC BAY FREEPORT &#8212; The United States (US) has turned over two unmanned surface vessels worth more than $8 million to the Armed Forces of the Philippines (AFP) to bolster the country’s…",
+      "byline": "mareyes",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-10T19:11:14.000Z",
+      "firstSeen": "2026-11-10T11:30:58.942Z",
+      "url": "https://globalnation.inquirer.net/346731/us-turns-over-2-unmanned-vessels-worth-8m-to-philippine-military",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/10nov2026-turnover.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SUBIC BAY FREEPORT &#8212; The United States (US) has turned over two unmanned surface vessels worth more than $8 million to the Armed Forces of the Philippines (AFP) to bolster the country’s maritime surveillance and security capabilities, the US embassy said on Tuesday (Nov. 10) In a statement, US embassy said that US Ambassador to"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-ov3cyy",
+      "source": "inqg",
+      "title": "DOJ files extradition to US for Quiboloy, 2 co-accused",
+      "summary": "MANILA, Philippines – The Department of Justice (DOJ) has filed a petition for the extradition of Kingdom of Jesus Christ (KOJC) leader Apollo Carreon Quiboloy and two of his co-accused before the…",
+      "byline": "jvicente",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-10T19:05:43.000Z",
+      "firstSeen": "2026-11-10T11:30:59.976Z",
+      "url": "https://globalnation.inquirer.net/346729/doj-files-extradition-to-us-for-quiboloy-2-co-accused",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/08/quiboloy-7august2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – The Department of Justice (DOJ) has filed a petition for the extradition of Kingdom of Jesus Christ (KOJC) leader Apollo Carreon Quiboloy and two of his co-accused before the Makati Regional Trial Court. In a statement Tuesday, the DOJ said the petition for extradition has been assigned before Makati RTC Branch 145."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "grd-1fx17z1",
@@ -3414,62 +3767,6 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "grd-1fc6nfu",
-      "source": "grd",
-      "title": "Anthropic targets valuation of up to $1.4tn in stock market flotation",
-      "summary": "<p>Claude chatbot developer had been reported to be aiming for $2tn IPO on Wall Street before investors cooled on AI</p><p>Anthropic is seeking a valuation of up to $1.4tn (£1.05tn) in its <a…",
-      "byline": "Dan Milmo Global technology editor",
-      "section": "Anthropic",
-      "published": "2026-11-10T16:13:13.000Z",
-      "firstSeen": "2026-11-10T16:31:09.943Z",
-      "url": "https://www.theguardian.com/technology/2026/nov/10/anthropic-valuation-stock-market-flotation-ipo-wall-street-ai",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/7595bf7c7d68e19dc13e69a53295d21b0cd839cc/394_0_3255_2605/master/3255.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=6750b636ee6a4b506dd07faad1ab2935",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Anthropic is seeking a valuation of up to $1.4tn (£1.05tn) in its imminent stock market flotation, short of the $2tn that had been expected before investors started to question the durability of the AI boom."
-        },
-        {
-          "type": "p",
-          "text": "The developer of the Claude chatbot was widely reported to be targeting a $2tn initial public offering on Wall Street but its sights have been set lower, according to a US regulatory filing on Tuesday."
-        },
-        {
-          "type": "p",
-          "text": "Anthropic is aiming to raise up to $64.4bn by selling 825m shares in the IPO priced up to $78 a share, giving the company a valuation of up to $1.4tn. The California-based company will also raise a further $26bn via a separate private placement deal ⁠with cornerstone investors including the Google parent, Alphabet, and the chipmaker Nvidia. Trading in Anthropic shares could start as soon as next week."
-        },
-        {
-          "type": "p",
-          "text": "Investor jitters over the AI boom were crystallised last week when the US midterm elections produced victories for datacentre opponents. This has added to already existing concerns, such as how quickly – or if at all – companies can generate a return on their spending on AI infrastructure."
-        },
-        {
-          "type": "p",
-          "text": "Brian Hopkins, a principal analyst at Forrester Research, said the midterm elections gave investors the chance to correct valuations that they were beginning to have concerns about, because of worries about the financial sustainability of the AI build-out. The election results brought those concerns to a head, Hopkins said."
-        },
-        {
-          "type": "p",
-          "text": "“The market needed an excuse to correct itself a little bit in terms of valuations,” he said. “The US election spook is what has caused it.”"
-        },
-        {
-          "type": "p",
-          "text": "As a consequence, Anthropic’s valuation has also been lowered from an anticipated $2tn, he added. The largest ever stock market listing is Elon Musk’s SpaceX, which joined the US stock market with a valuation of $1.78tn. The company, whose assets include Musk’s rocket launch business and the X social media platform, is now worth just under $2tn."
-        },
-        {
-          "type": "p",
-          "text": "A Chinese spying scandal enveloping Nvidia, a cornerstone company for AI investors, also threatens to overshadow the industry but has not affected share prices so far – other than Nvidia’s."
-        },
-        {
-          "type": "p",
-          "text": "The updated Anthropic filing stated that the company’s annual revenue is now running at $81bn as of 31 October, up $10bn from the previous month."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-lux7wy",
       "source": "abs",
       "title": "Older and bolder, yet nervous! Kyle Echarri shares thoughts on his “GGV” comeback",
@@ -6099,85 +6396,6 @@
         {
           "type": "p",
           "text": "With files from The Canadian Press"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-rzdrjy",
-      "source": "cbc",
-      "title": "Nvidia and CEO Jensen Huang face lawsuit over handling of ties to alleged Chinese spy",
-      "summary": "The lawsuit filed in San Jose, Calif., on Monday accuses the CEO and his company of misleading shareholders by concealing the relationship with a woman accused of feeding information to Bejing, and…",
-      "byline": "CBC",
-      "section": "News/Business",
-      "published": "2026-11-10T14:51:36.000Z",
-      "firstSeen": "2026-11-10T15:01:04.943Z",
-      "url": "https://www.cbc.ca/news/business/nvidia-jensen-huang-lawsuit-spying-9.7416186?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/8825d9c8-1b16-492b-9d45-0d04a4702dc5,1794322097878/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C89%2C7958%2C4476%29%3BResize%3D620",
-        "caption": "Nvidia CEO Jensen Huang listens as U.S. President Donald Trump speaks during an event at the U.S. Institute of Peace in Washington on Oct. 8. The CEO and his company face a lawsuit alleging they misled investors about Huang's relationship with a woman accused of spying for China. (Julia Demaree Nikh"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Business·New"
-        },
-        {
-          "type": "p",
-          "text": "The lawsuit filed in San Jose, Calif., on Monday accuses the CEO and his company of misleading shareholders by concealing the relationship with a woman accused of feeding information to Bejing, and not disclosing that the matter raised national security concerns ‌that threatened Nvidia's reputation and business prospects."
-        },
-        {
-          "type": "h",
-          "text": "Lawsuit launched by an individual Nvidia shareholder on behalf of others who also own shares in the company"
-        },
-        {
-          "type": "p",
-          "text": "Nvidia and chief executive Jensen Huang were sued on Monday in a proposed class ‌action accusing them of defrauding shareholders by concealing Huang's ties with a suspected Chinese spy."
-        },
-        {
-          "type": "p",
-          "text": "According to a complaint filed in federal court in San Jose, Calif., the defendants misled shareholders about Huang's alleged affair with Alice Huang, a former executive of Singapore-based Megaspeed who is not related to him, and did not disclose that ⁠the matter raised ⁠national security concerns ‌that threatened Nvidia's reputation and business prospects."
-        },
-        {
-          "type": "p",
-          "text": "The New York Times reported last month about the alleged relationship and that U.S. authorities had concluded Alice Huang was ⁠a Chinese intelligence asset."
-        },
-        {
-          "type": "p",
-          "text": "Nvidia did not immediately respond to a request for comment. Jensen Huang told Nvidia's employees he ‌had been unfaithful to his wife, without disclosing details of the alleged relationship."
-        },
-        {
-          "type": "p",
-          "text": "The falling star of Nvidia CEO Jensen Huang | About That"
-        },
-        {
-          "type": "p",
-          "text": "He co-founded Nvidia, and has led the Santa Clara, Calif.-based company as it became the world's most valuable chipmaker and made him one of the world's ⁠most prominent symbols of the artificial intelligence boom."
-        },
-        {
-          "type": "p",
-          "text": "Nvidia announced ⁠a probe into the matter on Sunday. Its shares closed ⁠down ⁠4.3 per cent on Monday, reducing Nvidia's market capitalization by approximately $190 billion US. The lawsuit was filed five minutes after ⁠the U.S. stock market closed."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Could Nvidia survive without its ultra-powerful CEO, Jensen Huang?"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "It is common for shareholders to sue companies after unexpected share price declines. Nvidia shareholders led by Mark Kistenmacher are seeking unspecified damages from the defendants."
-        },
-        {
-          "type": "p",
-          "text": "Kistenmacher seeks to represent anyone who bought shares of Nvidia between Oct. 9, 2025, and Nov. 8, 2026 — when the New York Times first reported about Huang's meeting with the supposed spy, and when Nvidia said it was launching an investigation regarding its CEO being the target of a foreign intelligence effort."
-        },
-        {
-          "type": "p",
-          "text": "With files from CBC News"
         }
       ],
       "truncated": false,
@@ -13418,6 +13636,238 @@
       "source_of_text": "page"
     },
     {
+      "id": "cbc-11ww75s",
+      "source": "cbc",
+      "title": "Why health care for Canadian women veterans is falling short",
+      "summary": "Women are the fastest growing segment of Canada’s veteran population, but they have complex physical and mental health problems that often get treated in isolation. A report released in June…",
+      "byline": "Brandie Weikle",
+      "section": "Radio/White Coat, Black Art",
+      "published": "2026-11-10T09:00:00.000Z",
+      "firstSeen": "2026-11-10T09:30:59.713Z",
+      "url": "https://www.cbc.ca/radio/whitecoat/women-veterans-health-care-9.7414966?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/dc94c895-ccc4-439b-b9a7-a4a1fcad89ce,1794241425311/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C156%2C3000%2C1687%29%3BResize%3D620",
+        "caption": "A Canadian flag patch is shown on a soldier's shoulder in Trenton, Ont., in October 2014. A recent report calls for 'urgent, co-ordinated action' to address gaps in for female veterans. (Lars Hagberg/The Canadian Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It started with the boots."
+        },
+        {
+          "type": "p",
+          "text": "Wanda Motard is a size five-and-a-half in women's footwear. But when she was in basic training at Saint-Jean Garrison in Quebec in 2002, the only options were men's boots that didn't even begin to fit."
+        },
+        {
+          "type": "p",
+          "text": "So despite the August heat, Motard says she would double up on thick wool socks and try to make do."
+        },
+        {
+          "type": "p",
+          "text": "\"I was constantly tripping over my feet, had rolled my ankle a few times, [which] led to a sprain,\" she told Dr. Brian Goldman, host of White Coat, Black Art. \"With the forced marches, it became really, really difficult once I had my rucksack on.\""
+        },
+        {
+          "type": "p",
+          "text": "The ill-fitting backpack left Mortard hunched over, compounding her struggles."
+        },
+        {
+          "type": "p",
+          "text": "\"But you know, the military is: one man, one kit.\""
+        },
+        {
+          "type": "p",
+          "text": "Motard says she coped by getting off-the-shelf insoles, loading up on anti-inflammatory meds and icing her feet every night."
+        },
+        {
+          "type": "p",
+          "text": "LISTEN | Motar's search for answers:"
+        },
+        {
+          "type": "p",
+          "text": "White Coat Black Art26:3020 years of pain: A woman veteran’s search for answers"
+        },
+        {
+          "type": "p",
+          "text": "Halfway through her basic training, Motard got boots that fit. But those early experiences were just the beginning of a series of problems that — more than two decades after she first joined Canada's Armed Forces (CAF) — have left the 47-year-old veteran with complex physical and emotional health problems, including chronic pain."
+        },
+        {
+          "type": "p",
+          "text": "She's not alone. Roughly half of all veterans live with chronic pain, which for women veterans is more than double the number among Canada's general population, according to a joint report from the Chronic Pain Centre of Excellence for Canadian Veterans and the Canadian Pain Society."
+        },
+        {
+          "type": "p",
+          "text": "The report, which came out in June, called for \"urgent, co-ordinated action\" to address gaps in care."
+        },
+        {
+          "type": "p",
+          "text": "\"We know that women veterans have different health outcomes from women civilians,\" said Alice Aiken, founder of the Canadian Institute for Military and Veteran Health, and professor of physiotherapy at Dalhousie University in Halifax."
+        },
+        {
+          "type": "p",
+          "text": "While the report on chronic pain didn't explain the causes, said Aiken, it's important to monitor \"because it can be a gateway for disability.\""
+        },
+        {
+          "type": "p",
+          "text": "Nearly half of Women Veterans Council resigns in protest"
+        },
+        {
+          "type": "p",
+          "text": "Aiken, who has a PhD in health policy and is herself a veteran, said military jobs can be \"very physically demanding\" and come with more opportunities for injury and other sources of physical pain."
+        },
+        {
+          "type": "p",
+          "text": "And she says many female members of the Forces have experiences similar to what Motard went through with ill-fitting equipment."
+        },
+        {
+          "type": "p",
+          "text": "\"A lot of the uniforms were not and are not designed specifically for women. They don't fit properly,\" said Aiken. \"And so they're also then subject to potentially more injury and more reasons for chronic pain.\""
+        },
+        {
+          "type": "h",
+          "text": "Not enough research"
+        },
+        {
+          "type": "p",
+          "text": "But there's a gap in research about women's experiences. Aiken says less than 10 per cent of publicly funded research dollars go to health research specific to women and research on women veterans is even more sparse."
+        },
+        {
+          "type": "p",
+          "text": "When the House of Commons standing committee on veterans affairs released its 2024 report Invisible No More about the plight of women veterans, the first of its 41 recommendations was to launch a comprehensive research program, notes Aiken."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Women are a growing group of Canadian military veterans, but services are lagging",
+            "Veterans, families call for better access to make claims for exposure-related illness"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Additionally, there can be a tough transition in terms of where veterans find care."
+        },
+        {
+          "type": "p",
+          "text": "While they're in the Forces, people receive their health care from a separate military system, which Aiken describes as \"probably one of the best health systems in Canada.\""
+        },
+        {
+          "type": "p",
+          "text": "Soldiers board a CC-150 Polaris aircraft at CFB Greenwood in Nova Scotia in October 2014. (LS Eduardo Jorge/Combat Camera/Canadian Forces)"
+        },
+        {
+          "type": "p",
+          "text": "In that system there's a more interdisciplinary approach, in which any clinician can refer a patient to other health professions, says Aiken."
+        },
+        {
+          "type": "p",
+          "text": "Once they leave the military, though, veterans are left navigating the health-care system in their province or territory."
+        },
+        {
+          "type": "p",
+          "text": "Aiken praises publicly funded health care but says it \"doesn't recognize, necessarily, the unique health needs of veterans and in particular women veterans.\""
+        },
+        {
+          "type": "h",
+          "text": "Help from a private clinic"
+        },
+        {
+          "type": "p",
+          "text": "Into that gap has sprung at least one private clinic where a longtime military doctor, Dr. Markus Besemann, opened Beechwood Physical Medicine in Ottawa in 2022."
+        },
+        {
+          "type": "p",
+          "text": "Besemann is a physiatrist, an expert in rehabilitation medicine. His 37-year career in the Forces included being chief of its rehabilitation program from 2008 to 2023."
+        },
+        {
+          "type": "p",
+          "text": "When Besemann retired from the military, he and chiropractor Dr. Geoff Outerbridge founded Beechwood \"to look after many people in pain but, amongst others, to focus on veterans and chronic pain,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "Dr. Markus Besemann, a longtime military doctor, opened Beechwood Physical Medicine in Ottawa in 2022, along with chiropractor Dr. Geoff Outerbridge. (Brian Goldman/CBC)"
+        },
+        {
+          "type": "p",
+          "text": "For some services the clinic offers, patients may be able to seek funding from Veterans Affairs Canada (VAC), but for others they'll need to pay out of pocket or seek reimbursement through any group health benefit programs they have access to."
+        },
+        {
+          "type": "p",
+          "text": "Motard is one of their patients. She says she was put on a waitlist for a physiatrist in the public system after she left the military, but started searching online for other options during her wait."
+        },
+        {
+          "type": "p",
+          "text": "Motard, who lives in the region of Gatineau, Que., across the river from Ottawa, says that search led her to Besemann, whose patient she'd been for five years when they were both in the military."
+        },
+        {
+          "type": "p",
+          "text": "She says she was drawn to the integrated care Beechwood offered, where clinicians ranging from physicians to physiotherapists to psychologists and acupuncturists are together under one roof."
+        },
+        {
+          "type": "p",
+          "text": "The mental health side of what they do is important, says Besemann."
+        },
+        {
+          "type": "p",
+          "text": "\"The simple sentence, I think, that says everything is, medicine is all about 'What's wrong with you? What's the diagnosis?' And trauma-informed care, I think, is 'What happened to you?'\""
+        },
+        {
+          "type": "h",
+          "text": "Sexual harassment a factor for many"
+        },
+        {
+          "type": "p",
+          "text": "Aiken said that while there isn't research on Canadian veterans specific to this topic, research on U.S. veterans suggests \"military sexual trauma can also be a contributor to chronic pain.\""
+        },
+        {
+          "type": "p",
+          "text": "To that end, Motard says the support she's had from Beechwood clinic includes seeing psychotherapist Mary Marcolin to address problems that include sexual harassment."
+        },
+        {
+          "type": "p",
+          "text": "While in the Forces, Motard says the harassment she experienced \"ranged anywhere from inappropriate comments, unwelcome comments, to inappropriate touching, pressure to enter into sexual relationships, right up to threats and stalking, essentially,\" Motard said."
+        },
+        {
+          "type": "p",
+          "text": "She was a member of a class-action lawsuit against the Department of National Defence (DND) for sexual misconduct, which was settled in 2019, with the federal government agreeing to compensate those affected and take steps to make the military a safer and more respectful workplace."
+        },
+        {
+          "type": "p",
+          "text": "In 2021, the Forces, the federal government and the DND issued a public apology."
+        },
+        {
+          "type": "p",
+          "text": "A 2025 report found the military made significant progress in changing the culture around sexual misconduct, though it said more work is needed to make those changes last."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Women in Canadian military subjected to harassment, discrimination, suit alleges",
+            "Head of Veterans Affairs office that supports women disappointed by misconduct allegations against top brass"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "DND said in an email to CBC News that it is \"addressing sexual misconduct through a sustained culture change effort.\""
+        },
+        {
+          "type": "p",
+          "text": "It also said, among other things, that \"a contoured combat uniform designed around female morphology\" will begin to go into service in 2027, with similarly updated body armour to follow in 2028."
+        },
+        {
+          "type": "p",
+          "text": "A spokesperson for Veterans Affairs says the department recognizes the complex needs of veterans living with chronic pain, and offers coverage for a range of physical and mental health services."
+        },
+        {
+          "type": "p",
+          "text": "The spokesperson also said VAC is working to address gaps in care and in research on the health of women veterans."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
       "id": "cbc-3ey2c5",
       "source": "cbc",
       "title": "Where Trump goes now on the big 3: tariffs, Iran war, immigration",
@@ -13804,238 +14254,6 @@
           "items": [
             "Follow Murray Brewster on X"
           ]
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-11ww75s",
-      "source": "cbc",
-      "title": "Why health care for Canadian women veterans is falling short",
-      "summary": "Women are the fastest growing segment of Canada’s veteran population, but they have complex physical and mental health problems that often get treated in isolation. A report released in June…",
-      "byline": "Brandie Weikle",
-      "section": "Radio/White Coat, Black Art",
-      "published": "2026-11-10T09:00:00.000Z",
-      "firstSeen": "2026-11-10T09:30:59.713Z",
-      "url": "https://www.cbc.ca/radio/whitecoat/women-veterans-health-care-9.7414966?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/dc94c895-ccc4-439b-b9a7-a4a1fcad89ce,1794241425311/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C156%2C3000%2C1687%29%3BResize%3D620",
-        "caption": "A Canadian flag patch is shown on a soldier's shoulder in Trenton, Ont., in October 2014. A recent report calls for 'urgent, co-ordinated action' to address gaps in for female veterans. (Lars Hagberg/The Canadian Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "It started with the boots."
-        },
-        {
-          "type": "p",
-          "text": "Wanda Motard is a size five-and-a-half in women's footwear. But when she was in basic training at Saint-Jean Garrison in Quebec in 2002, the only options were men's boots that didn't even begin to fit."
-        },
-        {
-          "type": "p",
-          "text": "So despite the August heat, Motard says she would double up on thick wool socks and try to make do."
-        },
-        {
-          "type": "p",
-          "text": "\"I was constantly tripping over my feet, had rolled my ankle a few times, [which] led to a sprain,\" she told Dr. Brian Goldman, host of White Coat, Black Art. \"With the forced marches, it became really, really difficult once I had my rucksack on.\""
-        },
-        {
-          "type": "p",
-          "text": "The ill-fitting backpack left Mortard hunched over, compounding her struggles."
-        },
-        {
-          "type": "p",
-          "text": "\"But you know, the military is: one man, one kit.\""
-        },
-        {
-          "type": "p",
-          "text": "Motard says she coped by getting off-the-shelf insoles, loading up on anti-inflammatory meds and icing her feet every night."
-        },
-        {
-          "type": "p",
-          "text": "LISTEN | Motar's search for answers:"
-        },
-        {
-          "type": "p",
-          "text": "White Coat Black Art26:3020 years of pain: A woman veteran’s search for answers"
-        },
-        {
-          "type": "p",
-          "text": "Halfway through her basic training, Motard got boots that fit. But those early experiences were just the beginning of a series of problems that — more than two decades after she first joined Canada's Armed Forces (CAF) — have left the 47-year-old veteran with complex physical and emotional health problems, including chronic pain."
-        },
-        {
-          "type": "p",
-          "text": "She's not alone. Roughly half of all veterans live with chronic pain, which for women veterans is more than double the number among Canada's general population, according to a joint report from the Chronic Pain Centre of Excellence for Canadian Veterans and the Canadian Pain Society."
-        },
-        {
-          "type": "p",
-          "text": "The report, which came out in June, called for \"urgent, co-ordinated action\" to address gaps in care."
-        },
-        {
-          "type": "p",
-          "text": "\"We know that women veterans have different health outcomes from women civilians,\" said Alice Aiken, founder of the Canadian Institute for Military and Veteran Health, and professor of physiotherapy at Dalhousie University in Halifax."
-        },
-        {
-          "type": "p",
-          "text": "While the report on chronic pain didn't explain the causes, said Aiken, it's important to monitor \"because it can be a gateway for disability.\""
-        },
-        {
-          "type": "p",
-          "text": "Nearly half of Women Veterans Council resigns in protest"
-        },
-        {
-          "type": "p",
-          "text": "Aiken, who has a PhD in health policy and is herself a veteran, said military jobs can be \"very physically demanding\" and come with more opportunities for injury and other sources of physical pain."
-        },
-        {
-          "type": "p",
-          "text": "And she says many female members of the Forces have experiences similar to what Motard went through with ill-fitting equipment."
-        },
-        {
-          "type": "p",
-          "text": "\"A lot of the uniforms were not and are not designed specifically for women. They don't fit properly,\" said Aiken. \"And so they're also then subject to potentially more injury and more reasons for chronic pain.\""
-        },
-        {
-          "type": "h",
-          "text": "Not enough research"
-        },
-        {
-          "type": "p",
-          "text": "But there's a gap in research about women's experiences. Aiken says less than 10 per cent of publicly funded research dollars go to health research specific to women and research on women veterans is even more sparse."
-        },
-        {
-          "type": "p",
-          "text": "When the House of Commons standing committee on veterans affairs released its 2024 report Invisible No More about the plight of women veterans, the first of its 41 recommendations was to launch a comprehensive research program, notes Aiken."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Women are a growing group of Canadian military veterans, but services are lagging",
-            "Veterans, families call for better access to make claims for exposure-related illness"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Additionally, there can be a tough transition in terms of where veterans find care."
-        },
-        {
-          "type": "p",
-          "text": "While they're in the Forces, people receive their health care from a separate military system, which Aiken describes as \"probably one of the best health systems in Canada.\""
-        },
-        {
-          "type": "p",
-          "text": "Soldiers board a CC-150 Polaris aircraft at CFB Greenwood in Nova Scotia in October 2014. (LS Eduardo Jorge/Combat Camera/Canadian Forces)"
-        },
-        {
-          "type": "p",
-          "text": "In that system there's a more interdisciplinary approach, in which any clinician can refer a patient to other health professions, says Aiken."
-        },
-        {
-          "type": "p",
-          "text": "Once they leave the military, though, veterans are left navigating the health-care system in their province or territory."
-        },
-        {
-          "type": "p",
-          "text": "Aiken praises publicly funded health care but says it \"doesn't recognize, necessarily, the unique health needs of veterans and in particular women veterans.\""
-        },
-        {
-          "type": "h",
-          "text": "Help from a private clinic"
-        },
-        {
-          "type": "p",
-          "text": "Into that gap has sprung at least one private clinic where a longtime military doctor, Dr. Markus Besemann, opened Beechwood Physical Medicine in Ottawa in 2022."
-        },
-        {
-          "type": "p",
-          "text": "Besemann is a physiatrist, an expert in rehabilitation medicine. His 37-year career in the Forces included being chief of its rehabilitation program from 2008 to 2023."
-        },
-        {
-          "type": "p",
-          "text": "When Besemann retired from the military, he and chiropractor Dr. Geoff Outerbridge founded Beechwood \"to look after many people in pain but, amongst others, to focus on veterans and chronic pain,\" he said."
-        },
-        {
-          "type": "p",
-          "text": "Dr. Markus Besemann, a longtime military doctor, opened Beechwood Physical Medicine in Ottawa in 2022, along with chiropractor Dr. Geoff Outerbridge. (Brian Goldman/CBC)"
-        },
-        {
-          "type": "p",
-          "text": "For some services the clinic offers, patients may be able to seek funding from Veterans Affairs Canada (VAC), but for others they'll need to pay out of pocket or seek reimbursement through any group health benefit programs they have access to."
-        },
-        {
-          "type": "p",
-          "text": "Motard is one of their patients. She says she was put on a waitlist for a physiatrist in the public system after she left the military, but started searching online for other options during her wait."
-        },
-        {
-          "type": "p",
-          "text": "Motard, who lives in the region of Gatineau, Que., across the river from Ottawa, says that search led her to Besemann, whose patient she'd been for five years when they were both in the military."
-        },
-        {
-          "type": "p",
-          "text": "She says she was drawn to the integrated care Beechwood offered, where clinicians ranging from physicians to physiotherapists to psychologists and acupuncturists are together under one roof."
-        },
-        {
-          "type": "p",
-          "text": "The mental health side of what they do is important, says Besemann."
-        },
-        {
-          "type": "p",
-          "text": "\"The simple sentence, I think, that says everything is, medicine is all about 'What's wrong with you? What's the diagnosis?' And trauma-informed care, I think, is 'What happened to you?'\""
-        },
-        {
-          "type": "h",
-          "text": "Sexual harassment a factor for many"
-        },
-        {
-          "type": "p",
-          "text": "Aiken said that while there isn't research on Canadian veterans specific to this topic, research on U.S. veterans suggests \"military sexual trauma can also be a contributor to chronic pain.\""
-        },
-        {
-          "type": "p",
-          "text": "To that end, Motard says the support she's had from Beechwood clinic includes seeing psychotherapist Mary Marcolin to address problems that include sexual harassment."
-        },
-        {
-          "type": "p",
-          "text": "While in the Forces, Motard says the harassment she experienced \"ranged anywhere from inappropriate comments, unwelcome comments, to inappropriate touching, pressure to enter into sexual relationships, right up to threats and stalking, essentially,\" Motard said."
-        },
-        {
-          "type": "p",
-          "text": "She was a member of a class-action lawsuit against the Department of National Defence (DND) for sexual misconduct, which was settled in 2019, with the federal government agreeing to compensate those affected and take steps to make the military a safer and more respectful workplace."
-        },
-        {
-          "type": "p",
-          "text": "In 2021, the Forces, the federal government and the DND issued a public apology."
-        },
-        {
-          "type": "p",
-          "text": "A 2025 report found the military made significant progress in changing the culture around sexual misconduct, though it said more work is needed to make those changes last."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Women in Canadian military subjected to harassment, discrimination, suit alleges",
-            "Head of Veterans Affairs office that supports women disappointed by misconduct allegations against top brass"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "DND said in an email to CBC News that it is \"addressing sexual misconduct through a sustained culture change effort.\""
-        },
-        {
-          "type": "p",
-          "text": "It also said, among other things, that \"a contoured combat uniform designed around female morphology\" will begin to go into service in 2027, with similarly updated body armour to follow in 2028."
-        },
-        {
-          "type": "p",
-          "text": "A spokesperson for Veterans Affairs says the department recognizes the complex needs of veterans living with chronic pain, and offers coverage for a range of physical and mental health services."
-        },
-        {
-          "type": "p",
-          "text": "The spokesperson also said VAC is working to address gaps in care and in research on the health of women veterans."
         }
       ],
       "truncated": false,
@@ -18432,186 +18650,6 @@
         {
           "type": "p",
           "text": "Still, with the IOC set to decide in the next few weeks whether Munich advances to the next stage of the process, one has to think that the issue could hardly have come up at a more inopportune time for the DOSB."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-ylsfa3",
-      "source": "dw",
-      "title": "37 years after fall of Berlin Wall: How divided are Germans?",
-      "summary": "Three artists share their thoughts on the reunification of East and West Germany. How do they perceive a shared \"we\" and what gives them cause for optimism?",
-      "byline": "Katharina Abel",
-      "section": "",
-      "published": "2026-11-09T13:59:00.000Z",
-      "firstSeen": "2026-11-09T14:30:58.387Z",
-      "url": "https://www.dw.com/en/37-years-after-fall-of-berlin-wall-how-divided-are-germans/a-79877461?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79506876_6.jpg",
-        "caption": "The Berlin Wall came down on November 9, 1989Image: Norbert Michalke/imageBROKER/picture alliance"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "When the Berlin Wall fell on November 9, 1989, ending East Germany's isolation from the West, the event was celebrated on both sides of the wall. Yet, 37 years later, many people on both sides remain deeply skeptical of each other."
-        },
-        {
-          "type": "p",
-          "text": "Surveys show that only a minority of respondents report feeling a strong sense of community between those from former East and West Germany, and many continue to perceive significant differences."
-        },
-        {
-          "type": "h",
-          "text": "Does Germany's Gen Z still feel the East-West divide?"
-        },
-        {
-          "type": "p",
-          "text": "We asked three artists from Germany with different perspectives on the history of the country's division to share their views."
-        },
-        {
-          "type": "h",
-          "text": "Winter shoes? Candy!"
-        },
-        {
-          "type": "p",
-          "text": "Author Lea Streisand was born in 1979 and experienced the fall of the Berlin Wall firsthand while growing up in East Berlin."
-        },
-        {
-          "type": "p",
-          "text": "In her books and essays, she has returned to her East German upbringing many times, using literature to process it."
-        },
-        {
-          "type": "p",
-          "text": "The novel \"Hufeland, at the corner of Bötzow\" (2019, Ullstein), for example, recounts the period of reunification from a child's perspective."
-        },
-        {
-          "type": "p",
-          "text": "\"November 9, 1989, was simply incredible,\" she told DW. She was 10 years old at the time. When her mother bought her winter boots with the 100 Deutsche Marks she received from the West German state — a welcome gift given to all East German citizens — she was so disappointed that she felt like crying. But later, a friend of her parents' let her buy so many sweets at the supermarket that they lasted until Christmas."
-        },
-        {
-          "type": "p",
-          "text": "\"The disappointment really set in afterwards, with what happened over the course of the following year. It was unbelievable how quickly an entire system was suddenly swept away and a new one built up, as if to say, 'There you go. You're welcome',\" Streisand recalls. \"I think it was just too fast for people.\""
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79861710_$%7BformatId%7D.jpg",
-          "caption": "After the fall of the Berlin Wall, author Lea Streisand was finally able to visit her great-grandmother in the western part of BerlinImage: Marlene Gawrisch"
-        },
-        {
-          "type": "p",
-          "text": "The people of East Germany, or the GDR, had brought about the fall of the Berlin Wall themselves through a civil rights movement and numerous demonstrations. For many, however, the goal was not to dissolve the state immediately but to reform it."
-        },
-        {
-          "type": "p",
-          "text": "Among them was Anke Feuchtenberger, born in 1963 in East Berlin. Her childhood was spent in East Berlin and in the East German region of Vorpommern, where she now lives again and feels \"very much at home.\""
-        },
-        {
-          "type": "p",
-          "text": "Today, she teaches at the University of Applied Sciences in Hamburg, meaning she spends time on both sides of the former divide. Feuchtenberger is often described as Germany’s most influential comic artist. Her work has also garnered international acclaim."
-        },
-        {
-          "type": "p",
-          "text": "\"Back then, as artists, we tried to bring about a change through posters and flyers — to gain more freedom without immediately abolishing socialism,\" she explained."
-        },
-        {
-          "type": "p",
-          "text": "At the time, the fall of the Berlin Wall stirred up mixed feelings in her: \"I quickly realized that the creative and revolutionary aspects of our movement were very quickly being smothered by consumerism, and that nationalist tendencies — which had already been noticeable before — were coming to the fore,\" Feuchtenberger recalls. \"That made me afraid.\""
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79866211_$%7BformatId%7D.jpg",
-          "caption": "Photo artist Simon Menner is interested in how images are instrumentalized in advertising, propaganda and warfareImage: Simon Menner"
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, for photographic artist Simon Menner, born in 1978 in Emmendingen, in the West German state of Baden-Württemberg, Berlin was very far away. As he put it, he experienced the fall of the Berlin Wall as a child in a \"rather abstract\" way. Today, Berlin is his home."
-        },
-        {
-          "type": "p",
-          "text": "In his experience, the way films and documentaries portrayed East Germany around the time of reunification was very bleak. \"But West Germany in the '80s,\" he said, \"was also bleak and very staid.\""
-        },
-        {
-          "type": "h",
-          "text": "The Stasi's photo treasure trove"
-        },
-        {
-          "type": "p",
-          "text": "This uneven portrayal of the two parts of Germany is an issue that deeply concerns him — partly because he unwittingly contributed to it in a small way. Among other things, Menner's work explores the topic of surveillance and how it works."
-        },
-        {
-          "type": "p",
-          "text": "In the archives of East Germany's Ministry for State Security, or Stasi — which are freely accessible today as part of the National Archives — he discovered a massive collection of photographs that both fascinated and horrified him and which he wanted to bring to the attention of a wider public."
-        },
-        {
-          "type": "p",
-          "text": "His photo book \"Top Secret\" (2012, Hatje Cantz) features a selection of photos that offer a unique insight into the work of the Stasi. Sometimes eerie, sometimes curious, even absurd."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79861199_$%7BformatId%7D.jpg",
-          "caption": "Before searching an apartment, the Stasi would take Polaroid photographs so that they could subsequently restore the rooms to the state in which they had found themImage: Simon Menner/BStU 2013"
-        },
-        {
-          "type": "p",
-          "text": "Simon Menner also tried to look into the photo archive of West Germany's Federal Intelligence Service. \"I spent a year trying to gain access — without success.\""
-        },
-        {
-          "type": "p",
-          "text": "In hindsight, he now finds his artistic project problematic because he believes it is too one-sided, focusing exclusively on East Germany’s past."
-        },
-        {
-          "type": "p",
-          "text": "According to Menner, West Germany's intelligence services in the 1960s were not exactly models of virtue either, and he believes it is \"actually high time\" to critically examine this part of history as well. In his view, an honest examination of Germany's past as a whole is a prerequisite for genuine reconciliation."
-        },
-        {
-          "type": "p",
-          "text": "According to Lea Streisand, literature can help foster mutual understanding. \"Literature opens a window into experiences we haven't had ourselves,\" she says. \"You can immerse yourself in the mind of someone who has had a different life than you have and understand what happened.\""
-        },
-        {
-          "type": "p",
-          "text": "Interest in these stories remains strong. In 2023, Anke Feuchtenberger published the nearly 500-page graphic novel \"Comrade Cuckoo\" (published by Reprodukt), which was the first graphic novel to be nominated for the Leipzig Book Fair Prize in the fiction category."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79865413_$%7BformatId%7D.jpg",
-          "caption": "'May Day' from the comic book 'Comrade Cuckoo' by Anke FeuchtenbergerImage: Anke Feuchtenberger"
-        },
-        {
-          "type": "p",
-          "text": "The story spans a childhood in the fictional East German village of Pritschitanow in the 1960s in the GDR to the post-Reunification era. In it, Feuchtenberger weaves autobiographical memories of her upbringing with fantastical and fictional elements."
-        },
-        {
-          "type": "p",
-          "text": "The artist says she was surprised \"that, so long after the fall of the Wall, my stories have sparked such great interest in the West.\""
-        },
-        {
-          "type": "p",
-          "text": "In particular, the fact that the main character, Kerstin, rarely sees her parents because they both work full-time is a topic that often comes up at readings. In the GDR, everyone had the right to work, she said. At the same time, it was a civic duty. Could the West German interest in this stem from the fact that full-time employment for both parents has long been less common in the West? It's possible, says Feuchtenberger."
-        },
-        {
-          "type": "h",
-          "text": "What does the future hold?"
-        },
-        {
-          "type": "p",
-          "text": "When looking toward their shared future, the two East German women are more optimistic than the West German man. \"In Berlin, I often don't even notice anymore whether I'm in the West or the East,\" says Simon Menner. \"But when it comes to sociopolitical issues, politicians should listen to older and younger people more closely,\" he said, referring to the recent election successes of far-right party Alternative for Germany, or AfD . \"Otherwise, things are going to get difficult in the near future.\""
-        },
-        {
-          "type": "p",
-          "text": "\"It's very important to step outside our own bubble because people all over the world are facing problems. Constantly focusing on this German-German divide that has emerged between the groups doesn't help,\" said Anke Feuchtenberger."
-        },
-        {
-          "type": "p",
-          "text": "\"For me personally, the whole issue of borders has somehow dissolved,\" she explains. This is due in no small part to the many trips abroad that have taken her to various places around the world. Moreover, in her hometown near the Polish border, she observes how animals couldn't care less about the border: \"They come from the east and the west and do whatever they want.\" That's why she also gave \"Comrade Cuckoo\" the working title \"A German Animal in a German Forest,\" \"because I found the absurdity of an animal having a nationality so funny.\""
-        },
-        {
-          "type": "p",
-          "text": "\"This East-West thing — our children won't have any interest in it at all,\" thinks Lea Streisand. \"Young people don't care where their parents come from. Can I get a job that will support a family? Do I have to go to war? Right now, completely different things are relevant.\""
-        },
-        {
-          "type": "p",
-          "text": "This article was originally written in German."
         }
       ],
       "truncated": false,
