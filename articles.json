@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-10T22:31:13.706Z",
+  "updated": "2026-11-10T23:01:22.801Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-1e6lfma",
+      "source": "inqn",
+      "title": "Over 1,000 Negros residents apply as voter registration resumes",
+      "summary": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — A total of 1,544 voter applications were processed across the Negros Island Region (NIR) on Tuesday, Nov. 10, as the Commission on Elections (Comelec)…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-10T23:01:13.791Z",
+      "firstSeen": "2026-11-10T16:01:07.824Z",
+      "url": "https://newsinfo.inquirer.net/2339403/over-1000-negros-residents-apply-as-voter-registration-resumes",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2023/09/Negros-Island-region-map.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — A total of 1,544 voter applications were processed across the Negros Island Region (NIR) on Tuesday, Nov. 10, as the Commission on Elections (Comelec) officially reopened nationwide voter registration for the 2028 national and local elections. The Comelec NIR reported that Negros Occidental processed the highest number with 856"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-13i406p",
       "source": "inqn",
       "title": "Defense sees no need to change strategy, says it does not coach witnesses",
       "summary": "MANILA, Philippines — The defense team of Vice President Sara Duterte on Tuesday said they see no need to change their strategy in presenting witnesses at Duterte’s impeachment trial, maintaining…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-10T22:31:04.691Z",
+      "published": "2026-11-10T23:01:13.791Z",
       "firstSeen": "2026-11-10T17:01:06.859Z",
       "url": "https://newsinfo.inquirer.net/2339415/defense-sees-no-need-to-change-strategy-says-it-does-not-coach-witnesses",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "MANILA, Philippines — Quezon City councilor Alfred Vargas on Tuesday called for special care for senior citizens and persons with disabilities (PWDs) amid the effects of the Super El Niño,…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-10T22:31:04.667Z",
+      "published": "2026-11-10T23:01:12.301Z",
       "firstSeen": "2026-11-10T17:01:04.623Z",
       "url": "https://newsinfo.inquirer.net/2339431/take-better-care-of-seniors-pwds-amid-super-el-nio",
       "image": {
@@ -103,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1e6lfma",
-      "source": "inqn",
-      "title": "Over 1,000 Negros residents apply as voter registration resumes",
-      "summary": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — A total of 1,544 voter applications were processed across the Negros Island Region (NIR) on Tuesday, Nov. 10, as the Commission on Elections (Comelec)…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-11-10T22:31:04.667Z",
-      "firstSeen": "2026-11-10T16:01:07.824Z",
-      "url": "https://newsinfo.inquirer.net/2339403/over-1000-negros-residents-apply-as-voter-registration-resumes",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2023/09/Negros-Island-region-map.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — A total of 1,544 voter applications were processed across the Negros Island Region (NIR) on Tuesday, Nov. 10, as the Commission on Elections (Comelec) officially reopened nationwide voter registration for the 2028 national and local elections. The Comelec NIR reported that Negros Occidental processed the highest number with 856"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1x7ftts",
       "source": "inqn",
       "title": "More room to improve budget transparency, steps were taken – solons",
       "summary": "MANILA, Philippines — While admitting there is room for improvement regarding budget transparency, Bataan Rep. Albert Garcia has maintained that the House has been working on existing and new reforms…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-10T22:31:03.325Z",
+      "published": "2026-11-10T23:01:12.292Z",
       "firstSeen": "2026-11-10T17:31:02.133Z",
       "url": "https://newsinfo.inquirer.net/2339442/more-room-to-improve-budget-transparency-steps-were-taken-solons",
       "image": {
@@ -153,63 +153,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-6jr97a",
-      "source": "inqn",
-      "title": "Balicasag tour guide fees questioned",
-      "summary": "TAGBILARAN CITY, BOHOL, Philippines — A Bohol provincial board member has sought an inquiry into the collection of environmental or entrance fees from Department of Tourism (DOT)-accredited tour…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-11-10T22:31:02.981Z",
-      "firstSeen": "2026-11-10T21:01:15.509Z",
-      "url": "https://newsinfo.inquirer.net/2339405/balicasag-tour-guide-fees-questioned",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Balicasag-Island-Panglao-Bohol-11November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TAGBILARAN CITY, BOHOL, Philippines — A Bohol provincial board member has sought an inquiry into the collection of environmental or entrance fees from Department of Tourism (DOT)-accredited tour guides accompanying visitors to Balicasag Island in Panglao town, citing the need for clear and consistent policies across the province’s tourism destinations. Lawyer Jiselle Rae Aumentado Villamor,"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-ify7m1",
-      "source": "inqn",
-      "title": "Marinduque group seeks urgent rehab of Marcopper-hit sites",
-      "summary": "CALAPAN CITY, ORIENTAL MINDORO, Philippines — Nearly 30 years after the 1996 Marcopper mining disaster, residents in Marinduque are pressing for the immediate implementation of a $100-million (about…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-11-10T22:31:02.933Z",
-      "firstSeen": "2026-11-10T21:01:11.966Z",
-      "url": "https://newsinfo.inquirer.net/2339408/marinduque-group-seeks-urgent-rehab-of-marcopper-hit-sites",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Maguila-guila-Siltation-Dam-Marinduque-11November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CALAPAN CITY, ORIENTAL MINDORO, Philippines — Nearly 30 years after the 1996 Marcopper mining disaster, residents in Marinduque are pressing for the immediate implementation of a $100-million (about P6.4-billion) settlement to rehabilitate affected areas. The Marinduque Council for Environmental Concerns (Macec), in a statement on Monday, asked the provincial government to convene the Provincial Rehabilitation"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1g59s0b",
       "source": "inqn",
       "title": "DSWD reminder: Cash ‘ayuda’ not for gadgets",
       "summary": "MANILA, Philippines — Critics of the government’s various “ayuda” schemes may not find this amusing. The Department of Social Welfare and Development (DSWD) on Tuesday reminded beneficiaries of its…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-10T22:31:02.896Z",
+      "published": "2026-11-10T23:01:12.157Z",
       "firstSeen": "2026-11-10T21:01:02.951Z",
       "url": "https://newsinfo.inquirer.net/2339425/dswd-reminder-cash-ayuda-not-for-gadgets",
       "image": {
@@ -234,7 +184,7 @@
       "summary": "MANILA, Philippines — A Philippine Army soldier accused of killing a dog and posting the incident on social media faces possible demotion and criminal charges as the military investigates the alleged…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-10T22:31:02.896Z",
+      "published": "2026-11-10T23:01:12.157Z",
       "firstSeen": "2026-11-10T21:01:05.120Z",
       "url": "https://newsinfo.inquirer.net/2339422/army-relieves-soldier-in-viral-dog-killing-video",
       "image": {
@@ -253,13 +203,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-ify7m1",
+      "source": "inqn",
+      "title": "Marinduque group seeks urgent rehab of Marcopper-hit sites",
+      "summary": "CALAPAN CITY, ORIENTAL MINDORO, Philippines — Nearly 30 years after the 1996 Marcopper mining disaster, residents in Marinduque are pressing for the immediate implementation of a $100-million (about…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-10T23:01:12.157Z",
+      "firstSeen": "2026-11-10T21:01:11.966Z",
+      "url": "https://newsinfo.inquirer.net/2339408/marinduque-group-seeks-urgent-rehab-of-marcopper-hit-sites",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Maguila-guila-Siltation-Dam-Marinduque-11November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CALAPAN CITY, ORIENTAL MINDORO, Philippines — Nearly 30 years after the 1996 Marcopper mining disaster, residents in Marinduque are pressing for the immediate implementation of a $100-million (about P6.4-billion) settlement to rehabilitate affected areas. The Marinduque Council for Environmental Concerns (Macec), in a statement on Monday, asked the provincial government to convene the Provincial Rehabilitation"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-6jr97a",
+      "source": "inqn",
+      "title": "Balicasag tour guide fees questioned",
+      "summary": "TAGBILARAN CITY, BOHOL, Philippines — A Bohol provincial board member has sought an inquiry into the collection of environmental or entrance fees from Department of Tourism (DOT)-accredited tour…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-10T23:01:12.157Z",
+      "firstSeen": "2026-11-10T21:01:15.509Z",
+      "url": "https://newsinfo.inquirer.net/2339405/balicasag-tour-guide-fees-questioned",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Balicasag-Island-Panglao-Bohol-11November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TAGBILARAN CITY, BOHOL, Philippines — A Bohol provincial board member has sought an inquiry into the collection of environmental or entrance fees from Department of Tourism (DOT)-accredited tour guides accompanying visitors to Balicasag Island in Panglao town, citing the need for clear and consistent policies across the province’s tourism destinations. Lawyer Jiselle Rae Aumentado Villamor,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-16uk93n",
       "source": "inqg",
       "title": "Talks on Pax Silica hub still going ‘extremely well’ – DTI",
       "summary": "MANILA, Philippines — Negotiations between the Philippines and the United States on the latter’s Pax Silica initiative are going “extremely well,” the Department of Trade and Industry (DTI) said on…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-10T22:31:02.896Z",
+      "published": "2026-11-10T23:01:12.157Z",
       "firstSeen": "2026-11-10T21:01:02.907Z",
       "url": "https://globalnation.inquirer.net/346759/talks-on-pax-silica-hub-still-going-extremely-well-dti",
       "image": {
@@ -278,38 +278,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-k6kee1",
-      "source": "inqg",
-      "title": "Duterte camp asks ICC to exclude 2 witnesses",
-      "summary": "The defense has asked the International Criminal Court’s (ICC) Trial Chamber (TC) III to direct its prosecution team to remove two persons from its list of witnesses to be presented in the crimes…",
-      "byline": "NewsPublish",
-      "section": "Europe",
-      "published": "2026-11-10T22:31:02.890Z",
-      "firstSeen": "2026-11-10T21:30:56.982Z",
-      "url": "https://globalnation.inquirer.net/346762/duterte-camp-asks-icc-to-exclude-2-witnesses",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Duterte-defense-again-opposes-bid-to-admit-witness-testimony-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The defense has asked the International Criminal Court’s (ICC) Trial Chamber (TC) III to direct its prosecution team to remove two persons from its list of witnesses to be presented in the crimes against humanity trial of former President Rodrigo Duterte set to start on Nov. 30 at The Hague, the Netherlands. In a six-page"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-19reb80",
       "source": "inqn",
       "title": "AFP probes alleged data breach involving Air Force",
       "summary": "MANILA, Philippines — The Armed Forces of the Philippines said on Tuesday it was investigating a reported data breach involving the Philippine Air Force (PAF) following online claims that sensitive…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-10T22:30:57.492Z",
+      "published": "2026-11-10T23:01:11.992Z",
       "firstSeen": "2026-11-10T21:01:02.907Z",
       "url": "https://newsinfo.inquirer.net/2339430/afp-probes-alleged-data-breach-involving-air-force",
       "image": {
@@ -328,13 +303,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-k6kee1",
+      "source": "inqg",
+      "title": "Duterte camp asks ICC to exclude 2 witnesses",
+      "summary": "The defense has asked the International Criminal Court’s (ICC) Trial Chamber (TC) III to direct its prosecution team to remove two persons from its list of witnesses to be presented in the crimes…",
+      "byline": "NewsPublish",
+      "section": "Europe",
+      "published": "2026-11-10T23:01:11.992Z",
+      "firstSeen": "2026-11-10T21:30:56.982Z",
+      "url": "https://globalnation.inquirer.net/346762/duterte-camp-asks-icc-to-exclude-2-witnesses",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/Duterte-defense-again-opposes-bid-to-admit-witness-testimony-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The defense has asked the International Criminal Court’s (ICC) Trial Chamber (TC) III to direct its prosecution team to remove two persons from its list of witnesses to be presented in the crimes against humanity trial of former President Rodrigo Duterte set to start on Nov. 30 at The Hague, the Netherlands. In a six-page"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-1j63hi5",
       "source": "inqg",
       "title": "Protesters urged to postpone rallies until after Asean summit",
       "summary": "Looks like the overnight beautification of certain roads and areas for next week’s Association of Southeast Asian Nations (Asean) Summit is not limited to hiding eyesores. Malacañang and a security…",
       "byline": "NewsPublish",
       "section": "Asia & Pacific",
-      "published": "2026-11-10T22:30:55.819Z",
+      "published": "2026-11-10T23:01:10.279Z",
       "firstSeen": "2026-11-10T22:01:00.725Z",
       "url": "https://globalnation.inquirer.net/346764/protesters-urged-to-postpone-rallies-until-after-asean-summit",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "MANILA, Philippines — Malacañang on Tuesday ruled out the need for now to declare a nationwide state of calamity due to El Niño, saying government agencies were working hard to ease the impact of the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-10T22:30:55.432Z",
+      "published": "2026-11-10T23:01:08.469Z",
       "firstSeen": "2026-11-10T21:30:57.012Z",
       "url": "https://newsinfo.inquirer.net/2339433/declaring-ph-wide-el-nino-state-of-calamity-ruled-out",
       "image": {
@@ -378,38 +378,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1h11x3y",
-      "source": "inqn",
-      "title": "Romualdez suspended for 90 days",
-      "summary": "MANILA, Philippines — The Sandiganbayan Third Division on Tuesday ordered the 90-day preventive suspension of former Speaker and Leyte Rep. Ferdinand Martin Romualdez, who is charged with plunder…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-11-10T22:30:53.924Z",
-      "firstSeen": "2026-11-10T21:30:56.982Z",
-      "url": "https://newsinfo.inquirer.net/2339436/romualdez-suspended-for-90-days",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Ferdinand-Martin-Romualdez-11November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Sandiganbayan Third Division on Tuesday ordered the 90-day preventive suspension of former Speaker and Leyte Rep. Ferdinand Martin Romualdez, who is charged with plunder over allegations that he received P7.44 billion in kickbacks from government infrastructure projects funded under the national budgets from 2022 to 2025. In a resolution, the antigraft"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-bokui3",
       "source": "inqg",
       "title": "US bid for Quiboloy extradition filed with local court–DOJ",
       "summary": "The Department of Justice (DOJ) on Tuesday said it had filed with a local court the US government’s request for the extradition of detained televangelist Apollo Carreon Quiboloy and two associates in…",
       "byline": "NewsPublish",
       "section": "Headlines",
-      "published": "2026-11-10T22:30:53.924Z",
+      "published": "2026-11-10T23:01:05.222Z",
       "firstSeen": "2026-11-10T22:01:00.683Z",
       "url": "https://globalnation.inquirer.net/346767/us-bid-for-quiboloy-extradition-filed-with-local-court-doj",
       "image": {
@@ -428,29 +403,29 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1rrfjpx",
+      "id": "inqn-1h11x3y",
       "source": "inqn",
-      "title": "‘Evasive,’ conflicting answers test impeach court’s patience",
-      "summary": "MANILA, Philippines — Evasive answers, repeated claims of failing to remember important documents, a potential conflict of interest involving a city accountant, and inconsistencies in property…",
+      "title": "Romualdez suspended for 90 days",
+      "summary": "MANILA, Philippines — The Sandiganbayan Third Division on Tuesday ordered the 90-day preventive suspension of former Speaker and Leyte Rep. Ferdinand Martin Romualdez, who is charged with plunder…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-10T22:30:53.867Z",
-      "firstSeen": "2026-11-10T22:01:00.683Z",
-      "url": "https://newsinfo.inquirer.net/2339418/evasive-conflicting-answers-test-impeach-courts-patience",
+      "published": "2026-11-10T23:01:04.769Z",
+      "firstSeen": "2026-11-10T21:30:56.982Z",
+      "url": "https://newsinfo.inquirer.net/2339436/romualdez-suspended-for-90-days",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Vingelin-Bajan-11November2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Ferdinand-Martin-Romualdez-11November2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — Evasive answers, repeated claims of failing to remember important documents, a potential conflict of interest involving a city accountant, and inconsistencies in property records are testing the patience of senator-judges in Vice President Sara Duterte’s impeachment trial, prompting warnings that witnesses who lie under oath could face contempt and perjury charges. On"
+          "text": "MANILA, Philippines — The Sandiganbayan Third Division on Tuesday ordered the 90-day preventive suspension of former Speaker and Leyte Rep. Ferdinand Martin Romualdez, who is charged with plunder over allegations that he received P7.44 billion in kickbacks from government infrastructure projects funded under the national budgets from 2022 to 2025. In a resolution, the antigraft"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqg-3qq3h7",
@@ -459,7 +434,7 @@
       "summary": "WASHINGTON, United States — Jim Jordan, a hardline ally of President Donald Trump, was elected leader of the Republicans in the US House of Representatives on Tuesday, defeating fellow conservative…",
       "byline": "mmercado",
       "section": "Americas",
-      "published": "2026-11-10T22:30:53.867Z",
+      "published": "2026-11-10T23:01:03.042Z",
       "firstSeen": "2026-11-10T22:30:53.867Z",
       "url": "https://globalnation.inquirer.net/346771/trump-ally-elected-us-house-republican-leader-after-election-rout",
       "image": {
@@ -476,6 +451,429 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1rrfjpx",
+      "source": "inqn",
+      "title": "‘Evasive,’ conflicting answers test impeach court’s patience",
+      "summary": "MANILA, Philippines — Evasive answers, repeated claims of failing to remember important documents, a potential conflict of interest involving a city accountant, and inconsistencies in property…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-10T23:01:03.040Z",
+      "firstSeen": "2026-11-10T22:01:00.683Z",
+      "url": "https://newsinfo.inquirer.net/2339418/evasive-conflicting-answers-test-impeach-courts-patience",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Vingelin-Bajan-11November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Evasive answers, repeated claims of failing to remember important documents, a potential conflict of interest involving a city accountant, and inconsistencies in property records are testing the patience of senator-judges in Vice President Sara Duterte’s impeachment trial, prompting warnings that witnesses who lie under oath could face contempt and perjury charges. On"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-1loa192",
+      "source": "inqn",
+      "title": "VP Trial Day 42: GenCorp, Metro Chow counsel to take witness stand",
+      "summary": "MANILA, Philippines – The defense counsel of Vice President Sara Duterte will call to the stand on Wednesday the corporate counsel of GenCorp Industries, Inc. and Metro City Chow Foods Corp. Although…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-11-10T23:01:02.991Z",
+      "firstSeen": "2026-11-10T23:01:02.991Z",
+      "url": "https://newsinfo.inquirer.net/2339285/vp-trial-day-42-gencorp-metro-chow-counsel-to-take-witness-stand",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/10nov2026-defenseimpeach.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – The defense counsel of Vice President Sara Duterte will call to the stand on Wednesday the corporate counsel of GenCorp Industries, Inc. and Metro City Chow Foods Corp. Although initially scheduled to testify at an earlier date, Atty. Suzette Balucanag-Punay will be the third defense witness after her testimony was postponed because"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1l74j0b",
+      "source": "inqg",
+      "title": "US charges 3 &#8216;Iranian operatives&#8217; over UK airbase plot",
+      "summary": "NEW YORK, United States — The US Justice Department on Tuesday announced charges against three men it described as &#8220;Iranian operatives,&#8221; including one already in jail, over their role in…",
+      "byline": "mmercado",
+      "section": "Global Scale",
+      "published": "2026-11-10T23:01:02.991Z",
+      "firstSeen": "2026-11-10T23:01:02.991Z",
+      "url": "https://globalnation.inquirer.net/346779/us-charges-3-iranian-operatives-over-uk-airbase-plot",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/09/AFP__20260927__C9GM6Y7__v1__HighRes__BritainPoliceExplosives-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NEW YORK, United States — The US Justice Department on Tuesday announced charges against three men it described as &#8220;Iranian operatives,&#8221; including one already in jail, over their role in an alleged terrorist plot at Britain&#8217;s RAF Fairford airbase. Mohammad Baqer Saad Dawood al-Saadi, Mohsen Mohajeri and Mohammad Ali al-Hassani allegedly helped plan and direct the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-2knrsx",
+      "source": "abs",
+      "title": "Victims' lawyers urge ICC to protect traumatized witness in Duterte case",
+      "summary": "According to the filing, the witness experienced highly traumatizing events and would face a significant emotional burden if forced to recount the details fully in court.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-10T23:00:30.000Z",
+      "firstSeen": "2026-11-10T23:01:02.991Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/11/victims-lawyers-urge-icc-to-protect-traumatized-witness-in-duterte-case-0700",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "According to the filing, the witness experienced highly traumatizing events and would face a significant emotional burden if forced to recount the details fully in court."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-y6lw1h",
+      "source": "abs",
+      "title": "Word of the Day for November 11, 2026: souviens",
+      "summary": "A French verb form meaning “remember.”",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-10T23:00:00.000Z",
+      "firstSeen": "2026-11-10T23:01:03.975Z",
+      "url": "https://www.abs-cbn.com/lifestyle/2026/11/11/word-of-the-day-for-november-11-2026-souviens-0700",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A French verb form meaning “remember.”"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-1gzohoo",
+      "source": "abs",
+      "title": "Feng shui predictions ni Master Hanz Cua para sa Nobyembre 11, 2026",
+      "summary": "Sa pang-araw-araw na seryeng ito, ibabahagi ni Master Hanz Cua ang kanyang feng shui predictions kung paano ka magiging maswerte pagdating sa pag-ibig, kalusugan, karera, at pera. Ibibigay niya ang…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-10T23:00:00.000Z",
+      "firstSeen": "2026-11-10T23:01:06.814Z",
+      "url": "https://www.abs-cbn.com/lifestyle/2026/11/11/feng-shui-predictions-ni-master-hanz-cua-para-sa-nobyembre-11-2026-0700",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sa pang-araw-araw na seryeng ito, ibabahagi ni Master Hanz Cua ang kanyang feng shui predictions kung paano ka magiging maswerte pagdating sa pag-ibig, kalusugan, karera, at pera. Ibibigay niya ang mga detalye tulad ng iyong lucky time, direction, color, at number."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-h077ah",
+      "source": "inq",
+      "title": "Thomas Markle, father of Meghan, jailed after he cut off his ankle monitor",
+      "summary": "The 82-year-old estranged father of Meghan, the Duchess of Sussex, was ordered to jail Tuesday because he removed an electronic monitoring device from his ankle, just days after he was charged with…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-10T22:52:07.000Z",
+      "firstSeen": "2026-11-10T23:01:02.991Z",
+      "url": "https://cebudailynews.inquirer.net/784068/thomas-markle-father-of-meghan-jailed-after-he-cut-off-his-ankle-monitor",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/11/AFP__20261106__D6Q93RF__v1__HighRes__UsJusticeBritainRoyalsMarkle-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The 82-year-old estranged father of Meghan, the Duchess of Sussex, was ordered to jail Tuesday because he removed an electronic monitoring device from his ankle, just days after he was charged with possession of child sexual abuse material. Thomas Markle was arrested and appeared in federal court in Tampa, Florida, after authorities learned he had cut off the device at 1:45 a.m., First Assistant U.S. Attorney Bill Essayli said. &#8220;Release conditions are court orders, not suggestions,&#8221; he said. READ: Police find child abuse imagery on devices tied to Thomas Markle Markle&#8217;s arrest on Friday in Lakeland, Florida, followed the seizure of [&hellip;]... Keep on reading: Thomas Markle, father of Meghan, jailed after he cut off his ankle monitor"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "cbc-1dterhd",
+      "source": "cbc",
+      "title": "Alberta's United Conservative Party faces backlash for pledge that limits riding presidents' independence talk",
+      "summary": "Some senior party organizers refuse to sign a new NDA stating they'll \"abide by\" the referendum result.",
+      "byline": "Jason Markusoff",
+      "section": "News/Canada/Calgary",
+      "published": "2026-11-10T22:46:23.000Z",
+      "firstSeen": "2026-11-10T23:01:02.991Z",
+      "url": "https://www.cbc.ca/news/canada/calgary/alberta-s-ucp-faces-backlash-for-pledge-that-limits-riding-presidents-independence-talk-9.7417108?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/b1bc8b85-7571-4905-b64f-86aedd1c6a7a,1794343921167/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C296%2C4939%2C2778%29%3BResize%3D620",
+        "caption": "Alberta Premier Danielle Smith has urged the pro-independence members of her United Conservative Party to embrace staying in Canada in the aftermath of October's referendum. (Jeff McIntosh/The Canadian Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Calgary·New"
+        },
+        {
+          "type": "p",
+          "text": "Some senior party organizers refuse to sign a new NDA stating they'll \"abide by\" the referendum result."
+        },
+        {
+          "type": "h",
+          "text": "Party organizers refuse to sign NDA demanding they 'abide by' referendum result"
+        },
+        {
+          "type": "p",
+          "text": "The UCP is facing pushback from some of its top organizers for demanding all riding presidents sign a non-disclosure agreement that declares they “recognize, respect and will abide by” results of the separation referendum."
+        },
+        {
+          "type": "p",
+          "text": "This new demand comes weeks after three-quarters of Albertans voted to keep the province in Canada rather than pursue independence — and Premier Danielle Smith urged UCP members to accept the outcome and move on, or leave for another party."
+        },
+        {
+          "type": "p",
+          "text": "Party brass recently made candidates for upcoming provincial board elections sign a declaration that they will abide by the referendum decision. Now it’s extending that condition to all 87 current presidents of UCP constituency associations."
+        },
+        {
+          "type": "p",
+          "text": "“I understand and acknowledge that my public statements and actions as a CA president will have a direct impact on the reputation of the CA and the association,” says the combination NDA and code of conduct sent by party executive director Dustin van Vugt, and obtained by CBC News."
+        },
+        {
+          "type": "p",
+          "text": "“Accordingly, I wish to clearly state that I recognize, respect, and will abide by the majority decision made by Albertans on Question #10 of the 26/10/19 referendum.”"
+        },
+        {
+          "type": "p",
+          "text": "In an email to riding presidents, van Vugt requested they all sign and return the pledge by this Friday."
+        },
+        {
+          "type": "p",
+          "text": "But multiple riding presidents are reluctant or unwilling to sign the document, and are calling it an unfair way to stifle their speech."
+        },
+        {
+          "type": "p",
+          "text": "“It’s not wise to be trying to suppress when we should be trying to unify,” said Darrell Komick, president of the United Conservative association for Calgary-Lougheed."
+        },
+        {
+          "type": "p",
+          "text": "“That’s the sort of thing that will stop people from volunteering.”"
+        },
+        {
+          "type": "p",
+          "text": "Komick has led one of the party’s most outspoken local groups, having hosted past forums that questioned Alberta’s place within Canada and the safety of COVID vaccines. He also ran unsuccessfully for party president last fall, promising a greater embrace of the pro-independence position."
+        },
+        {
+          "type": "p",
+          "text": "“As the party of free speech, we should understand that that comes with risks as a party, but it also comes with rewards,” Komick told CBC News."
+        },
+        {
+          "type": "p",
+          "text": "Darrell Komick, president of the UCP riding association for Calgary-Lougheed, has hosted many forums on contentious topics like vaccine safety. (Youtube/Alberta Politics)"
+        },
+        {
+          "type": "p",
+          "text": "The riding presidents opposed to the party’s new NDA span both sides of the referendum question that has divided party members. One said that at least 15 presidents are signing their own letter to the party explaining that they refuse to endorse the NDA."
+        },
+        {
+          "type": "p",
+          "text": "“It appears a jam-down by certain people at the upper reaches of the party to squash any public embarrassment or public conflict about independence, and it’s just wrong,” said one president, who did not want to use their name for fear of retribution."
+        },
+        {
+          "type": "p",
+          "text": "This president, who opposes Alberta independence, questioned why only one divisive issue is highlighted in this non-disclosure form."
+        },
+        {
+          "type": "p",
+          "text": "“We have back and forth about friggin’ abortion,” said the constituency president. “Why are we singling out this one issue? It’s just ridiculous.”"
+        },
+        {
+          "type": "p",
+          "text": "The source said this agreement appears at odds with a section of the party’s existing code of conduct, which says that constituency association board members shall “not be reprimanded or disciplined by the party... or CA board for exercising their freedom of expression unless such expression constitutes an offence under the Criminal Code of Canada.”"
+        },
+        {
+          "type": "p",
+          "text": "United Conservative officials did not reply to CBC News’ questions before deadline."
+        },
+        {
+          "type": "p",
+          "text": "Independence supporters at the referendum-night watch party on Oct. 19. Polls suggest that half or more of UCP supporters backed the pro-independence option on the referendum. (Julia Wong/CBC)"
+        },
+        {
+          "type": "p",
+          "text": "Even though Smith had repeatedly declared support for keeping Alberta within Canada, detractors accused her of being too supportive of the separatists within UCP ranks, and making it easier to get the independence question onto the ballot."
+        },
+        {
+          "type": "p",
+          "text": "But in the days after October’s resounding pro-unity decision, Smith declared the United Conservatives are clearly pro-unity as a party, and that no candidates or MLAs would be allowed to support independence."
+        },
+        {
+          "type": "p",
+          "text": "“It also means we expect every member of our provincial board and members of constituency association boards across the province to uphold the position of our party on this issue,” the premier said in a video statement to party members last month."
+        },
+        {
+          "type": "p",
+          "text": "While it was vastly unpopular among most segments of Albertans, about half of UCP supporters supported the pro-independence option in the referendum, according to polling before the vote."
+        },
+        {
+          "type": "p",
+          "text": "The premier has since faced pockets of resistance from her UCP base, including separatist activists frustrated she took sides in the referendum."
+        },
+        {
+          "type": "p",
+          "text": "Five riding associations have endorsed subjecting Smith to a leadership review, although most other party constituency groups passed motions opposing a review, meaning that her place in the party is under no immediate threat."
+        },
+        {
+          "type": "p",
+          "text": "Some pro-independence activists are running for places on the UCP provincial board at the party convention in Calgary later this month. They endorsed the declaration that they’d abide by the unity referendum’s results, but said they’d continue to freely advocate for more “sovereignty” for Alberta within Canada in the short term."
+        },
+        {
+          "type": "p",
+          "text": "Alberta federalist sees 'a great schism' in separatist movement post referendum"
+        },
+        {
+          "type": "p",
+          "text": "While non-disclosure agreements and codes of conduct are not unusual for not-for-profit organizations, it’s odd to see a policy declaration tucked inside it, one governance expert told CBC News."
+        },
+        {
+          "type": "p",
+          "text": "“When you're involved in a governing body, you can't pre-commit your political stance,” said Nolan Crouse, instructor and lead expert with the board development program at MacEwan University in Edmonton."
+        },
+        {
+          "type": "p",
+          "text": "“When I walk into a meeting, I'm supposed to be open-minded. But the verbiage here looks like that the provincial association is pre-committing you to a political stance or [to] ‘abide by’ something, right?”"
+        },
+        {
+          "type": "p",
+          "text": "Crouse, the former mayor of St. Albert, said he’s surprised the form passed “the acid test” among UCP’s leadership and top governance officials."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Jason Markusoff is a CBC producer and writer. He analyzes what's happening — and what isn't happening, but probably should be — in Calgary, in Alberta and sometimes farther afield. He's covered Alberta for more than two decades, previously reporting for Maclean's magazine, Calgary Herald and Edmonton Journal. He appears regularly on Power and Politics, West of Centre and various other CBC current affairs shows. Reach him at jason.markusoff@cbc.ca"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1xh5gn0",
+      "source": "inq",
+      "title": "US charges 3 'Iranian operatives' over UK airbase plot",
+      "summary": "NEW YORK, United States — The US Justice Department on Tuesday announced charges against three men it described as &#8220;Iranian operatives,&#8221; including one already in jail, over their role in…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-10T22:44:54.000Z",
+      "firstSeen": "2026-11-10T23:01:03.040Z",
+      "url": "https://globalnation.inquirer.net/346779/us-charges-3-iranian-operatives-over-uk-airbase-plot",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/09/AFP__20260927__C9GM6Y7__v1__HighRes__BritainPoliceExplosives-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NEW YORK, United States — The US Justice Department on Tuesday announced charges against three men it described as &#8220;Iranian operatives,&#8221; including one already in jail, over their role in an alleged terrorist plot at Britain&#8217;s RAF Fairford airbase. Mohammad Baqer Saad Dawood al-Saadi, Mohsen Mohajeri and Mohammad Ali al-Hassani allegedly helped plan and direct the September incident at the base, which has been used by the US military in its operations against Iran. Police were called to the Fairford site in southwest England after a local farmer reported seeing a group of men with several white vans engaged in &#8220;suspicious&#8221; activity. [&hellip;]... Keep on reading: US charges 3 'Iranian operatives' over UK airbase plot"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "gma-253mmq",
+      "source": "gma",
+      "title": "LIVE UPDATES: Sara Duterte Impeachment Trial (November 11, 2026)",
+      "summary": "The impeachment trial of Vice President Sara Duterte will continue on Wednesday, November 11, 2026, with the Defense presenting witnesses to debunk the allegation of unexplained wealth of Duterte.",
+      "byline": "GMA News",
+      "section": "",
+      "published": "2026-11-10T22:35:11.000Z",
+      "firstSeen": "2026-11-10T23:01:02.991Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1009063/live-updates-sara-duterte-impeachment-trial-november-11-2026/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/05/Sara_Duterte_Senate_impeachment_2026_05_20_13_41_42.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published November 11, 2026 6:35am Updated November 11, 2026 6:38am"
+        },
+        {
+          "type": "h",
+          "text": "Sara Duterte impeachment trial Day 42: What to expect"
+        },
+        {
+          "type": "p",
+          "text": "The Defense will present on Wednesday its fourth witness for Article II of the impeachment case, concerning allegations on Vice President Sara Duterte’s unexplained wealth."
+        },
+        {
+          "type": "p",
+          "text": "Atty. Suzette Balucanag-Punay, the corporate counsel for Gencorp Industries, Inc. and Metro City Chow Foods Corporation — two of the entities linked to the Vice President — will be called to the witness stand this morning, according to defense lead counsel Sheila Sison."
+        },
+        {
+          "type": "p",
+          "text": "Balucanag-Punay is set to testify on relevant corporate and business matters linked to Duterte and produce certified true copies and/or original copies of the General Information Sheets, Audited Financial Statements, and other related corporate records from 2022 to 2025."
+        },
+        {
+          "type": "p",
+          "text": "She was supposed to testify on Monday, but was unable to attend the hearing due to a scheduled magnetic resonance imaging (MRI) scan, according to House lead prosecutor and Batangas 2nd District Representative Gerville Luistro."
+        },
+        {
+          "type": "p",
+          "text": "Dropped witness"
+        },
+        {
+          "type": "p",
+          "text": "Sison also announced that the defense would no longer present Matina Crossing, Davao City Punong Barangay Cindy Colina in the impeachment trial."
+        },
+        {
+          "type": "p",
+          "text": "Colina was supposed to be the fifth witness of the defense, and was lined up to testify for today."
+        },
+        {
+          "type": "p",
+          "text": "During the trial on Tuesday, the defense lawyer asked the court to recall the subpoena issued for Colina, and excused her from attending the proceedings."
+        },
+        {
+          "type": "p",
+          "text": "“This is of course without prejudice to any subsequent motion that we will make on the court’s taking judicial notice of the geographical divisions with respect to the subject barangay,” Sison said."
+        },
+        {
+          "type": "p",
+          "text": "Colina was supposed to testify on matters relating to Matina Crossing and to identify and bring all documents related to its creation, official name, and other names upon which it is known whether by official acts, usage, or custom. —Giselle Ombay/BAP/KG, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inqn-1sfh6rm",
@@ -495,6 +893,31 @@
         {
           "type": "p",
           "text": "MANILA, Philippines — Representatives of the Balatoc Indigenous community on Tuesday called on the National Commission on Indigenous Peoples (NCIP) to look into a mining company’s alleged failure to deliver on its social and economic commitments to its host community. Representatives of the Balatoc Indigenous Cultural Community (ICC), in their demand, cited the memorandum of"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1lduv7c",
+      "source": "inq",
+      "title": "Do we really need more celebrity-run beauty brands?",
+      "summary": "Jennifer Lawrence joins a laundry list of celebrities trying their hand at a beauty empire... Keep on reading: Do we really need more celebrity-run beauty brands?",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-10T22:30:00.000Z",
+      "firstSeen": "2026-11-10T23:01:04.360Z",
+      "url": "https://lifestyle.inquirer.net/585692/do-we-really-need-more-celebrity-run-beauty-brands/",
+      "image": {
+        "src": "https://lifestyle.inquirer.net/files/2026/11/Photo-from-_mesbeauty_Instagram-2-e1794302408539-620x324.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jennifer Lawrence joins a laundry list of celebrities trying their hand at a beauty empire... Keep on reading: Do we really need more celebrity-run beauty brands?"
         }
       ],
       "truncated": true,
@@ -550,7 +973,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-ukdk3g",
@@ -576,6 +999,106 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-lty4lx",
+      "source": "grd",
+      "title": "Bernie Sanders says he will not back Schumer for Senate Democratic leader",
+      "summary": "<p>Progressive senator says ‘I like Chuck … but the time is now for change’ as calls grow for new Democratic leadership</p><p>Bernie Sanders, a progressive senator from Vermont, <a…",
+      "byline": "Ariana Baio",
+      "section": "Democrats",
+      "published": "2026-11-10T22:16:32.000Z",
+      "firstSeen": "2026-11-10T23:01:03.975Z",
+      "url": "https://www.theguardian.com/us-news/2026/nov/10/bernie-sanders-chuck-schumer-senate-democrats",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/3507584bfe24a03503e256b6bb28e002f6c8885c/300_0_3000_2401/master/3000.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=d9173f2c6a043d2b426ebfd1e8950525",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bernie Sanders, a progressive senator from Vermont, said on Tuesday he would not support Chuck Schumer’s bid to serve as the Democratic leader in the US Senate, joining a growing cohort of Democrats calling for a change in leadership."
+        },
+        {
+          "type": "p",
+          "text": "“I personally have known Chuck Schumer for over 30 years, and I like Chuck. Nobody who works harder than Chuck Schumer. But in my view, the time is now for change, and I will not be supporting Chuck to be re-elected as the Democratic leader,” Sanders told reporters on Capitol Hill."
+        },
+        {
+          "type": "p",
+          "text": "Sanders, 85, an independent who caucuses with the Democrats, pointed to the results of the midterm elections as proof that voters want to see different leaders in charge."
+        },
+        {
+          "type": "p",
+          "text": "“If this campaign was about anything, it was about change, the need for the Democratic party, in my view, to move in a new and bold direction,” Sanders said."
+        },
+        {
+          "type": "p",
+          "text": "Speaking at a post-election conference in Washington on Tuesday, Democratic senator Chris Van Hollen said voters’ desire for change was clear."
+        },
+        {
+          "type": "p",
+          "text": "“I think the question is whether those calls are being heard within the walls of the Senate Democratic caucus,” Van Hollen said during a live interview at the conference, convened by the progressive organization, Groundwork Collaborative."
+        },
+        {
+          "type": "p",
+          "text": "Some have pointed to the Maryland senator as a potential successor to Schumer. Van Hollen said he was calling colleagues to gauge their support for leadership change."
+        },
+        {
+          "type": "p",
+          "text": "While he stopped short of calling for Schumer’s ouster, Van Hollen said the election “should not be coronation”."
+        },
+        {
+          "type": "p",
+          "text": "“The Senate Democratic caucus needs a little bit of democracy itself in this moment,” he added."
+        },
+        {
+          "type": "p",
+          "text": "Calls for fresh leadership in the Democratic party have grown louder since 2024, when Joe Biden ended his re-election campaign over concerns about his age. But the party’s sweeping wins in the midterm elections have renewed energy toward enacting change."
+        },
+        {
+          "type": "p",
+          "text": "Elissa Slotkin, a moderate Democratic senator from battleground Michigan, encouraged anyone interested in leading the Democratic caucus to come forward with a plan."
+        },
+        {
+          "type": "p",
+          "text": "“I think it is very clear that, on election night, the American people voted for change,” she said, noting that she was not actively seeking the Senate majority leadership position."
+        },
+        {
+          "type": "p",
+          "text": "A group of high-profile incoming Democratic senators have voiced their desire for new leadership."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "That includes Abdul El-Sayed, the senator-elect from Michigan, who beat a Schumer-backed Democrat to win the party’s nomination, as well as Adam Hamilton, the senator-elect from Kansas, Annie Andrews, the senator-elect from South Carolina, Chris Pappas, the senator-elect from New Hampshire, Troy Jackson, the senator-elect from Maine and Peggy Flanagan, the senator-elect from Minnesota."
+        },
+        {
+          "type": "p",
+          "text": "But so far, no Democrat has volunteered to take on Schumer, who has served as the leader of the Senate Democrats since 2017."
+        },
+        {
+          "type": "p",
+          "text": "Sanders told reporters he wants Democrats to elect a new leader through a “process” including “vigorous debate”."
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, Schumer has remained confident that he will be re-elected Senate majority leader. The New York senator told reporters last week: “I’ll be re-elected as majority leader.”"
+        },
+        {
+          "type": "p",
+          "text": "He reiterated his confidence on Tuesday, telling reporters: “I’m confident I will be elected majority leader, and our caucus is really united in focusing on bringing down costs, on ending the corruption, on ending the chaos, on ending the war.”"
+        },
+        {
+          "type": "p",
+          "text": "“We have great unity in our caucus and I will be proud to lead it as majority leader,” Schumer said in response to Sanders and Slotkin’s announcements."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "gma-1mf9aal",
@@ -869,66 +1392,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "grd-i4uwui",
-      "source": "grd",
-      "title": "US prosecutors charge Iranian operative allegedly responsible for UK air force base attack",
-      "summary": "<p>New indictment claims Mohammad Dawood al-Saadi, a dual Iranian and Iraqi national, plotted while in US custody</p><p>US federal prosecutors have said that an Iranian operative jailed in New York…",
-      "byline": "Andrew Roth in Washington",
-      "section": "New York",
-      "published": "2026-11-10T21:57:57.000Z",
-      "firstSeen": "2026-11-10T22:30:53.867Z",
-      "url": "https://www.theguardian.com/us-news/2026/nov/10/prosecutors-charge-iranian-operative-uk-air-force-attack",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/251c9c9de8f9ca0c3026ce90fc2a4dc71f98090c/609_0_6085_4868/master/6085.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=033a4bdd21498a92f252662f7b334abd",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "US federal prosecutors have said that an Iranian operative jailed in New York was responsible for the foiled attack on a UK air force base where American B-1 bombers were stationed."
-        },
-        {
-          "type": "p",
-          "text": "A new indictment alleged that Mohammad Dawood al-Saadi, a dual Iranian and Iraqi national, plotted while in custody and then transmitted plans – using coded messages in calls to his family – to two co-conspirators to buy large quantities of chemicals that could be used as explosives in an attack on the RAF Fairford base in September."
-        },
-        {
-          "type": "p",
-          "text": "Al-Saadi, who was accused of being associated with Kata’ib Hezbollah and Iran’s Islamic Revolutionary Guard Corps, was said to have planned the attack as retribution for the US war in Iran."
-        },
-        {
-          "type": "p",
-          "text": "He had already been charged for his alleged links to 18 terrorist attacks in Europe and for allegedly planning to bomb a synagogue in New York as well, according to a statement by the southern district of New York."
-        },
-        {
-          "type": "p",
-          "text": "He was already imprisoned when he began planning the attack, according to the indictment, which said he then transmitted his plans by using coded messages in calls to his family to pass on to Mohsen Mohajeri, an operative of the Islamic Revolutionary Guard Corps, and another Iranian, Mohammad Ali al-Hassani."
-        },
-        {
-          "type": "p",
-          "text": "Al-Hassani then tasked others with surveilling the Fairfield RAF base and with procuring vans and barrels of fuel, and researching the purchase of chemical accelerants and metallic objects to be used as shrapnel, the indictment claimed."
-        },
-        {
-          "type": "p",
-          "text": "Five men from London were arrested in the village of Whelford, near RAF Fairford, on 27 September on suspicion of explosives and terrorism offences, after a farmer reported vans blocking a road near the base while on her way back from a party."
-        },
-        {
-          "type": "p",
-          "text": "RAF Fairford is the European home for US air force bombers and was used by the US during its bombing campaign against Iran. In July, Iran’s Islamic Revolutionary Guard Corps (IRGC) issued a statement noting RAF Fairford’s use by US bombers and saying any bases used by the US to attack Iran, including Fairford, were “legitimate targets”."
-        },
-        {
-          "type": "p",
-          "text": "“As alleged, these defendants helped orchestrate a campaign of terror on behalf of terrorist organizations affiliated with Iran that targeted Jewish communities in Europe and the United States, and the British military base, RAF Fairford, housing American service members,” said the US attorney Jamie McDonald. “Even after one of their co-conspirators was arrested and placed in federal custody, the defendants allegedly continued coordinating terrorist activity through coded communications and a network of associates overseas.”"
-        },
-        {
-          "type": "p",
-          "text": "“The threat presented by Iran and Iran-backed terrorist groups to America and our allies is not hypothetical – it is very real,” he added."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "inq-tf26z",
@@ -1636,31 +2099,6 @@
       "why": "direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1fwbsf2",
-      "source": "inqn",
-      "title": "DBP extends P5.39M for Tarlac reforestation, flood mitigation projects",
-      "summary": "SAN JOSE, Tarlac—State-owned Development Bank of the Philippines (DBP) and the Provincial Government of Tarlac recently signed a memorandum of agreement with the former donating P5.39 million to…",
-      "byline": "jvicente",
-      "section": "Latest News Stories",
-      "published": "2026-11-10T21:05:01.000Z",
-      "firstSeen": "2026-11-10T13:31:04.121Z",
-      "url": "https://newsinfo.inquirer.net/2339367/dbp-extends-p5-39m-for-tarlac-reforestation-flood-mitigation-projects",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/DBP-extends-P5-39M-for-Tarlac-reforestation-10November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN JOSE, Tarlac—State-owned Development Bank of the Philippines (DBP) and the Provincial Government of Tarlac recently signed a memorandum of agreement with the former donating P5.39 million to jump-start reforestation activities in San Jose, Tarlac and mitigate local flooding risks. Under the DBP Forest Program (DFP), the bank’s funding empowers the local government to plant"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inq-10sf70w",
       "source": "inq",
       "title": "Education as a Bridge to understanding Our Indigenous Roots",
@@ -2001,31 +2439,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-xx41c7",
-      "source": "inq",
-      "title": "Marinduque group seeks urgent rehab of Marcopper-hit sites",
-      "summary": "CALAPAN CITY, ORIENTAL MINDORO, Philippines — Nearly 30 years after the 1996 Marcopper mining disaster, residents in Marinduque are pressing for the immediate implementation of a $100-million (about…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-10T20:40:00.000Z",
-      "firstSeen": "2026-11-10T21:01:04.655Z",
-      "url": "https://newsinfo.inquirer.net/2339408/marinduque-group-seeks-urgent-rehab-of-marcopper-hit-sites",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Maguila-guila-Siltation-Dam-Marinduque-11November2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CALAPAN CITY, ORIENTAL MINDORO, Philippines — Nearly 30 years after the 1996 Marcopper mining disaster, residents in Marinduque are pressing for the immediate implementation of a $100-million (about P6.4-billion) settlement to rehabilitate affected areas. The Marinduque Council for Environmental Concerns (Macec), in a statement on Monday, asked the provincial government to convene the Provincial Rehabilitation [&hellip;]... Keep on reading: Marinduque group seeks urgent rehab of Marcopper-hit sites"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "dw-nn1rgx",
       "source": "dw",
       "title": "Former Malaysian leader Najib Razak returns home under royal pardon, but faces a separate 15-year prison sentence",
@@ -2111,31 +2524,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-zatsig",
-      "source": "inq",
-      "title": "Balicasag tour guide fees questioned",
-      "summary": "TAGBILARAN CITY, BOHOL, Philippines — A Bohol provincial board member has sought an inquiry into the collection of environmental or entrance fees from Department of Tourism (DOT)-accredited tour…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-10T20:35:00.000Z",
-      "firstSeen": "2026-11-10T21:01:05.391Z",
-      "url": "https://newsinfo.inquirer.net/2339405/balicasag-tour-guide-fees-questioned",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Balicasag-Island-Panglao-Bohol-11November2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TAGBILARAN CITY, BOHOL, Philippines — A Bohol provincial board member has sought an inquiry into the collection of environmental or entrance fees from Department of Tourism (DOT)-accredited tour guides accompanying visitors to Balicasag Island in Panglao town, citing the need for clear and consistent policies across the province’s tourism destinations. Lawyer Jiselle Rae Aumentado Villamor, chair of the provincial board’s committee on tourism, raised the issue in a privilege speech on Tuesday, asking the provincial government to determine the legal basis for the fees, the collecting authority, and whether tour guides are covered by the charges. Villamor said the concern was [&hellip;]... Keep on reading: Balicasag tour guide fees questioned"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "bbc-19tznyc",
       "source": "bbc",
       "title": "Watch: E-bike battery explodes into massive fireball inside Oregon home",
@@ -2162,31 +2550,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-we99gw",
-      "source": "inq",
-      "title": "Tim Cone, Scottie Thompson shift focus to Gilas duties",
-      "summary": "ANTIPOLO—Scottie Thompson and coach Tim Cone immediately shifted their focus after Barangay Ginebra survived San Miguel Beer in the PBA Governors’ Cup quarterfinals. And it isn’t Rondae-Hollis…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-10T20:30:34.000Z",
-      "firstSeen": "2026-11-10T21:01:13.709Z",
-      "url": "https://sports.inquirer.net/706542/tim-cone-scottie-thompson-shift-focus-to-gilas-duties",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/Jordan-Murphy-Ginebra-11November2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "ANTIPOLO—Scottie Thompson and coach Tim Cone immediately shifted their focus after Barangay Ginebra survived San Miguel Beer in the PBA Governors’ Cup quarterfinals. And it isn’t Rondae-Hollis Jefferson and TNT just yet. Thompson, Cone and the Gin Kings turned back the Beermen, 110-94, on Tuesday at Ynares Center in the deciding Game 5 of their [&hellip;]... Keep on reading: Tim Cone, Scottie Thompson shift focus to Gilas duties"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "grd-1fwfpuw",
@@ -3061,70 +3424,6 @@
         {
           "type": "p",
           "text": "Elizabeth Whitten is a journalist with CBC News, based in St. John's."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-32yeih",
-      "source": "grd",
-      "title": "Parents sue to stop Washington state trans sports ban that could require ‘invasive’ genital exams",
-      "summary": "<p>Voters adopted extreme policy requiring medical sex verification for all girls who want to play team sports</p><p>Parents of student athletes in Washington state have sued to block a ballot…",
-      "byline": "Sam Levin",
-      "section": "Washington state",
-      "published": "2026-11-10T19:49:49.000Z",
-      "firstSeen": "2026-11-10T20:00:59.676Z",
-      "url": "https://www.theguardian.com/us-news/2026/nov/10/washington-trans-sports-ban-lawsuit",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/caec218d14cbe88d565a401da9681346ae52dcc0/500_0_5000_4000/master/5000.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=2c32c131114ba0c18a6931e8e67b7685",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Parents of student athletes in Washington state have sued to block a ballot initiative banning transgender girls from women’s sports teams, calling the measure discriminatory and warning it would lead to “invasive” genital examinations for female athletes."
-        },
-        {
-          "type": "p",
-          "text": "Last week, voters in the solidly Democratic state passed Initiative 638, a major setback for LGBTQ+ rights amid the “blue wave” of the US midterm elections. Nebraska, Colorado and Arizona adopted similar anti-trans sports bans, though advocates say Washington state’s policy is particularly extreme due to its medical sex verification requirement for all girls who want to play team sports."
-        },
-        {
-          "type": "p",
-          "text": "The lawsuit was filed in state court on Monday by parents of trans and cisgender girls; TransFamilies, a non-profit Washington advocacy group; and the Washington Education Association, the teachers’ union. They are represented by the American Civil Liberties Union of Washington; Legal Voice, a group that fights gender discrimination; and Pacifica Law Group, a local firm."
-        },
-        {
-          "type": "p",
-          "text": "Washington’s measure mandates that girls provide documentation from medical providers about their sex before they join women’s teams, either through hormone or genetic tests or examinations of their “reproductive anatomy”. The policy does not apply to boys."
-        },
-        {
-          "type": "p",
-          "text": "Doctors, teachers and parents have raised alarms about the potential of forcing girls to undergo genital exams, saying the enforcement mechanism was a severe privacy violation and would discourage all girls from joining sports. Proponents argue that the ban, funded by Brian Heywood, a conservative hedge fund manager, protects “fairness” in girls’ sports."
-        },
-        {
-          "type": "p",
-          "text": "The law applies to students in elementary, middle and high school. School officials said earlier this year that they were aware of only about 10 trans sports players statewide, a tiny fraction of the state’s 200,000 student athletes."
-        },
-        {
-          "type": "p",
-          "text": "The suit argues that the measure violates Washington’s constitution, including by infringing on students’ privacy and violating equal rights protections by only applying to girls. The ban also violates an anti-discrimination law that protects trans people, the suit says."
-        },
-        {
-          "type": "p",
-          "text": "Tiffani Lennon, executive director of Legal Voice, noted that Washington state has for 20 years allowed trans youth to play on teams that match their gender: “This is a fabricated issue being manufactured to create alarm. They’re intending to send a message to trans youth that we don’t want you visible, and they are willing to put in place really extreme measures to ensure that it terrifies enough people to go run and hide.”"
-        },
-        {
-          "type": "p",
-          "text": "The plaintiffs include a parent of a 17-year-old trans girl who participates in team sports at her high school and who fears being outed and kicked out of athletics under the measure. Parents of two cisgender female athletes also joined the suit, saying they oppose the “intrusive” sex verification requirements."
-        },
-        {
-          "type": "p",
-          "text": "“If you really want fairness in sports, why would you subject girls to sex verification? Why would you dissuade girls from participating in sports?” said Lennon. “It’s clearly discriminatory.”"
-        },
-        {
-          "type": "p",
-          "text": "On Monday, the Seattle public schools board of directors also voted in favor of allowing the district to take legal action against the ban, which is due to go into effect on 3 December."
         }
       ],
       "truncated": false,
@@ -5127,98 +5426,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-1phxfeu",
-      "source": "cbc",
-      "title": "Ottawa consulting on future of Arctic offshore oil and gas drilling ban, Carney says",
-      "summary": "The federal government says it is building up the \"capacity\" for northern communities to consult on the future of Canada's moratorium on oil and gas drilling in the Arctic.",
-      "byline": "David Thurton",
-      "section": "News/Politics",
-      "published": "2026-11-10T17:52:34.000Z",
-      "firstSeen": "2026-11-10T18:01:03.819Z",
-      "url": "https://www.cbc.ca/news/politics/arctic-drilling-consultation-mark-carney-canada-9.7416538?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/9337fc5a-6988-4dd4-ac93-b8bce1ed6dc6,1794329768146/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C204%2C4500%2C2531%29%3BResize%3D620",
-        "caption": "The Beaufort Sea off the coast of Alaska is seen in 2017. (David Goldman/The Associated Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Politics"
-        },
-        {
-          "type": "p",
-          "text": "The federal government says it is building up the \"capacity\" for northern communities to consult on the future of Canada's moratorium on oil and gas drilling in the Arctic."
-        },
-        {
-          "type": "h",
-          "text": "Funding plans were buried in Budget 2026 document"
-        },
-        {
-          "type": "p",
-          "text": "Prime Minister Mark Carney confirmed the federal government is working with northern governments and the Inuvialuit, the Inuit whose land claim includes much of the waters in the Beaufort Sea, on whether to keep the moratorium."
-        },
-        {
-          "type": "p",
-          "text": "Other news outlets, including the National Observer, have reported on the government's plans, which were buried in its Budget 2026 document. The federal budget contains $11 million over four years for Arctic offshore oil and gas governance."
-        },
-        {
-          "type": "p",
-          "text": "Northern premiers, including Nunavut's, have said they are interested in lifting the drilling ban."
-        },
-        {
-          "type": "p",
-          "text": "Although talks are happening with territorial governments and the Inuvialuit, Carney was quick to say the ban on drilling remains in place."
-        },
-        {
-          "type": "p",
-          "text": "Budget's offshore gas funding 'absolutely not' a decision to lift Arctic drilling moratorium, Carney says"
-        },
-        {
-          "type": "p",
-          "text": "\"It is absolutely not in any way, shape or form a decision about lifting the moratorium. It is a respectful engagement,\" Carney said. \"It's respecting [Indigenous] self-government. But it's also, rest assured, respecting the environment.\""
-        },
-        {
-          "type": "p",
-          "text": "Carney said the $11 million would be used for capacity funding across a wide northern area that's co-managed by the Inuvialuit and the territorial and federal governments."
-        },
-        {
-          "type": "p",
-          "text": "In 2016, Trudeau government alongside U.S. President Barack Obama closed the door to future offshore oil and gas activity in both Canadian and American Arctic waters. Canada declared a five-year ban."
-        },
-        {
-          "type": "p",
-          "text": "Offshore drilling in deep Arctic waters poses unique challenges. Oil and gas company Chevron put their plans on hold \"indefinitely\" in 2014 citing \"the level of economic uncertainty in the industry.\""
-        },
-        {
-          "type": "p",
-          "text": "The company's plans faced scrutiny and questions about whether it could contain a catastrophic blowout, the kind seen in the Gulf of Mexico in 2010. The explosion on the BP-leased Deepwater Horizon resulted in the largest marine oil spill in history."
-        },
-        {
-          "type": "p",
-          "text": "The Arctic's narrow ice season constrains the ability to bring in equipment to drill a relief well that could stop an oil spill."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "David Thurton is a senior reporter in CBC's Parliamentary Bureau. He covers daily politics in the nation’s capital and specializes in environment and energy policy. Born in Canada but raised in Trinidad and Tobago, he’s moved around more times than he can count. He’s worked for CBC in several provinces and territories, including Alberta and the Northwest Territories. He can be reached at david.thurton@cbc.ca"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Latest from David Thurton",
-            "LinkedIn"
-          ]
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "grd-ory6cj",
       "source": "grd",
       "title": "Britain willing to discuss paying into EU to join electricity market, says minister",
@@ -5867,6 +6074,142 @@
         {
           "type": "p",
           "text": "Ukraine still holds Slovyansk but its lifeblood, its people, are ebbing away."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-haln2c",
+      "source": "grd",
+      "title": "US officials seek ‘final end’ to Russia-Ukraine war, as Abu Dhabi talks set to continue",
+      "summary": "<p>First substantive peace talks since February include US proposal for ‘long-term security architecture’ between Moscow and Europe</p><ul><li><p><a…",
+      "byline": "Andrew Roth in Washington and Jennifer Rankin",
+      "section": "Ukraine",
+      "published": "2026-11-10T16:59:04.000Z",
+      "firstSeen": "2026-11-10T23:01:02.991Z",
+      "url": "https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/83dc5bf0e0260881e9cd595c706a20cd0b0a8604/761_0_4167_3333/master/4167.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=c7b5181f4b6713c17b9829e20be81363",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "US officials have said they are seeking a “final end” to the war between Russia and Ukraine as trilateral talks got under way in Abu Dhabi, the first substantive negotiations between the two countries since February."
+        },
+        {
+          "type": "p",
+          "text": "The talks, which are set to go into a planned second day on Wednesday, are also the first since the US launched joint strikes with Israel against Iran, and they follow bruising midterm elections that have weakened Donald Trump at home."
+        },
+        {
+          "type": "p",
+          "text": "The Ukrainian president, Volodymyr Zelenskyy, who like Vladimir Putin was not in Abu Dhabi, described the discussions on the first day as “constructive and fairly substantive”."
+        },
+        {
+          "type": "p",
+          "text": "“We discussed in detail the substance of security guarantees for Ukraine and the foundations for their long-term implementation,” he said in a social media post."
+        },
+        {
+          "type": "p",
+          "text": "Part of the Trump administration’s proposal involves drawing up a new “long-term security architecture” between Russia and Europe, administration officials have said."
+        },
+        {
+          "type": "p",
+          "text": "European officials are concerned that Russia may stick to its hardline demands that Nato should roll back its military footprint across eastern Europe, which would threaten to leave allies vulnerable to Moscow’s influence at a time of historic tensions with the west."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/7ed8adb8d5e93fc4ea84d4c968d504790d393c37/0_0_2000_1500/master/2000.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Participants at the trilateral talks between Russia, Ukraine and the US in Abu Dhabi on Tuesday. Photograph: Ukraine’s Foreign Intelligence Service press office/AP"
+        },
+        {
+          "type": "p",
+          "text": "European officials held separate discussions on Tuesday with representatives from Ukraine and the US, where they agreed “any future arrangements must respect sovereignty, territorial integrity, independent decision-making, and provide credible security guarantees for Ukraine”, according to a joint statement."
+        },
+        {
+          "type": "p",
+          "text": "European leaders are not convinced Russia intends to negotiate in good faith and want to be involved in discussions, although there are signs of unease about the proliferating strands of peace talks. Italy’s prime minister, Giorgia Meloni, last week complained about the “disorderly” process of meetings and phone calls that, she argued, weakened Europe’s ability to speak with one voice."
+        },
+        {
+          "type": "p",
+          "text": "The US secretary of state, Marco Rubio, said on Tuesday it was a goal at some point to expand the Russia-US-Ukraine talks to include other European voices."
+        },
+        {
+          "type": "p",
+          "text": "“There’s always this concern in Europe that they’re going to be left out, that America’s going to cut some deal with Russia and leave Europe out of the equation. Well, Europe’s at the table. They’re with us,” Rubio told reporters during a visit to Paris, speaking after the UAE talks had finished for the day."
+        },
+        {
+          "type": "p",
+          "text": "Since his first decade in power, Putin has complained about Nato’s eastward expansion and sought to renegotiate the balance of power between Nato and Russia – but never before have those demands been embraced by a sitting US administration, which has made it clear that it is desperate to get to a deal."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/c846236e8813c9d872ab3a7a518edd2e98c111b8/0_0_7320_4799/master/7320.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Members of the Ukrainian delegation, led by Rustem Umerov, at the talks. Photograph: Grigory Sysoyev/Reuters"
+        },
+        {
+          "type": "p",
+          "text": "Previewing the discussions, a US administration official said the US would “need Europe at the table” to end the war. He said negotiators could also revive the Nato-Russian council that was suspended after Russia’s full-scale invasion in 2022, and potentially lift sanctions against Russia to get to a deal."
+        },
+        {
+          "type": "p",
+          "text": "The US officials also claimed that they had discussed with Russia potential security guarantees to Ukraine similar to Nato’s article 5, which protects member states in case of an attack. Russia has strongly opposed Nato admitting Ukraine or western countries placing troops in Ukraine."
+        },
+        {
+          "type": "p",
+          "text": "“What they would be getting would be effectively very similar to Nato,” an administration official said."
+        },
+        {
+          "type": "p",
+          "text": "“Getting a US security guarantee is a really, really big deal,” the official added, saying it would be up to Donald Trump and Ukraine’s Zelenskyy to discuss. “And if he wants to do that, that’s a very, very big deal in terms of resources and funding and military support.”"
+        },
+        {
+          "type": "p",
+          "text": "Critics have expressed scepticism about what may trigger those security guarantees, however, noting that article 5 does not oblige Nato member states to defend others, and that cyber-attacks and other forms of hybrid warfare have blurred the line for what would require a military response."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/80ba2d130da2485a4c4f8637f4b0a1aded5bab36/0_0_4347_2898/master/4347.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The Putin aide Vladimir Medinsky at the talks. Photograph: Rula Rouhana/Reuters"
+        },
+        {
+          "type": "p",
+          "text": "Jared Kushner, Trump’s son-in-law and a lead negotiator for the US, described a potential new framework for Europe in general terms on Monday, saying the US would seek “stronger consultation, reliable crisis communications, greater military transparency, and reciprocal measures to reduce escalation risks, while fully respecting the sovereignty and independent decision-making of every nation”."
+        },
+        {
+          "type": "p",
+          "text": "A European security official said that the US proposal was not yet clear and that they were bracing themselves for the US to pose serious concessions to Russia during the Abu Dhabi consultations."
+        },
+        {
+          "type": "p",
+          "text": "The EU high representative for foreign policy, Kaja Kallas, told a G7 foreign ministers meeting on Monday: “We already have a European security architecture in place. This includes international agreements under which Russia has undertaken obligations, including with regard to sovereignty and territorial integrity. The problem is that Russia is not respecting these agreements.”"
+        },
+        {
+          "type": "p",
+          "text": "Trump has also said that Ukraine would probably be expected to give up territory in a final deal, and would end with a “little bit different shape”."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/00d4988a8e43adda5a18a365a7be332d77ca408a/133_0_2007_1606/master/2007.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Trump and Zelenskyy in Florida in December 2025. Photograph: Alex Brandon/AP"
+        },
+        {
+          "type": "p",
+          "text": "After meeting the Kremlin adviser Kirill Dmitriev last week, Trump said he would seek a “big, beautiful agreement” that “might involve all of Europe”. Critics are concerned that Trump and Putin could try to go over the heads of European leaders in order to negotiate a peace that gives serious concessions to Russia."
+        },
+        {
+          "type": "p",
+          "text": "“There’s a lot of baggage that people in Europe have about this idea,” said a US administration official, pointing specifically to Russia’s 2021 proposal that was viewed as an ultimatum to Nato to get out of eastern Europe."
+        },
+        {
+          "type": "p",
+          "text": "At that time, Russia issued a list of demands to Nato that included a ban on expansion to new countries including Ukraine, a rollback of troops to its pre-1997 borders, and limits on where it could place missiles. Nato rejected that proposal, and Russia invaded Ukraine less than a month later."
+        },
+        {
+          "type": "p",
+          "text": "The US administration official said: “We have to build something new that works today … Because if all the old architecture was working well, then we wouldn’t be in this long war. And so obviously something’s not working, and we need to come up with a way that when we end this war, it really is a final end to the war.”"
         }
       ],
       "truncated": false,
@@ -8312,31 +8655,6 @@
         {
           "type": "p",
           "text": "A &#8220;blue wave&#8221; has rolled across the United States, with some even calling it a &#8220;blue tsunami.&#8221; The Democrats scored a decisive victory in the midterm elections on November 3, wresting the majority from President Donald Trump&#8217;s Republicans in both the US House of Representatives and the Senate. They also won gubernatorial elections in former"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-vzzskk",
-      "source": "inqg",
-      "title": "Peruvian President Fujimori to meet Japanese PM Takaichi on Nov. 20",
-      "summary": "Peruvian President Keiko Fujimori will meet with Japanese Prime Minister Sanae Takaichi on Nov. 20 in Japan, the Peruvian government said Monday. Fujimori, who took office in July and became the…",
-      "byline": "dlejano",
-      "section": "Uncategorized",
-      "published": "2026-11-10T14:54:44.000Z",
-      "firstSeen": "2026-11-10T07:01:05.008Z",
-      "url": "https://globalnation.inquirer.net/346634/peruvian-president-fujimori-to-meet-japanese-pm-takaichi-on-nov-20",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Takaichi-Fujimori-e1794293466981.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Peruvian President Keiko Fujimori will meet with Japanese Prime Minister Sanae Takaichi on Nov. 20 in Japan, the Peruvian government said Monday. Fujimori, who took office in July and became the second person of Japanese descent to serve as the country&#8217;s head of state, after her father, is scheduled to attend the two-day Asia-Pacific Economic"
         }
       ],
       "truncated": true,
@@ -12129,86 +12447,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "gma-y31rz9",
-      "source": "gma",
-      "title": "Sandiganbayan orders 90-day suspension of Martin Romualdez",
-      "summary": "The Sandiganbayan Third Division has ordered the 90-day suspension of former House Speaker Martin Romualdez, who is currently detained over a P7.4-billion plunder case.",
-      "byline": "LYJAH TIFFANY BONZO, GMA News",
-      "section": "",
-      "published": "2026-11-10T11:01:41.000Z",
-      "firstSeen": "2026-11-10T11:31:00.562Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1009019/sandiganbayan-orders-90-day-suspension-of-martin-romualdez/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/11/FMR_2026_11_04_13_56_55.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published November 10, 2026 7:01pm"
-        },
-        {
-          "type": "p",
-          "text": "The Sandiganbayan Third Division has ordered the 90-day suspension of former House Speaker Martin Romualdez, who is currently detained over a P7.4-billion plunder case."
-        },
-        {
-          "type": "p",
-          "text": "Sandiganbayan Third Division Clerk of Court Dennis Pulma confirmed the suspension order in a social media update by GMA News reporter Maki Pulido."
-        },
-        {
-          "type": "p",
-          "text": "The resolution directs Romualdez, the incumbent Leyte 1st District representative, to cease and desist from performing his official functions for 90 days from receipt of the order."
-        },
-        {
-          "type": "p",
-          "text": "“The court issued a resolution ordering the suspension pendente lite of former speaker Ferdinand Martin Gomez Romualdez for a period of 90 days from receipt of the resolution,” Pulma told reporters."
-        },
-        {
-          "type": "p",
-          "text": "The lawmaker's suspension pendente lite is a preventive measure while the criminal proceedings are ongoing."
-        },
-        {
-          "type": "p",
-          "text": "“The resolution orders the former speaker to cease and desist from the functions of his office or any other office,” he added."
-        },
-        {
-          "type": "p",
-          "text": "The anti-graft court also directed its clerk of court to furnish a copy of the resolution to the House Speaker through the Office of the Secretary General."
-        },
-        {
-          "type": "p",
-          "text": "It further ordered the House to inform the court of any action taken within five days of receiving the resolution."
-        },
-        {
-          "type": "p",
-          "text": "Romualdez is facing a plunder case over allegations that he and former Ako Bicol party-list representative Zaldy Co received at least P7.44 billion in kickbacks from contractors and other entities involved in government flood control, infrastructure and other projects from 2022 to 2025."
-        },
-        {
-          "type": "p",
-          "text": "The Ombudsman alleged that the two lawmakers received commissions and other financial benefits in at least 15 transactions, with some of the proceeds supposedly laundered through shell corporations, financial intermediaries and property acquisitions."
-        },
-        {
-          "type": "p",
-          "text": "Romualdez has denied the allegations and pleaded not guilty to the charge."
-        },
-        {
-          "type": "p",
-          "text": "The former House Speaker was arrested on Sept. 7 at Cardinal Santos Medical Center in San Juan City, where he was confined when authorities served the Sandiganbayan warrant."
-        },
-        {
-          "type": "p",
-          "text": "He was transferred to the New Quezon City Jail Male Dormitory in Payatas on Sept. 14 following a medical assessment at the Philippine General Hospital.— MCG, GMA News"
-        },
-        {
-          "type": "p",
-          "text": "Follow GMA News Online on Facebook for real-time news and developments in the Philippines and around the world."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "rap-u9hhyw",
       "source": "rap",
       "title": "Davao accountant can’t confirm own signature, tests senator-judges&#8217; patience",
@@ -14727,72 +14965,6 @@
         {
           "type": "p",
           "text": "The Cybercrime Investigation and Coordinating Center said it has confirmed who is behind the cyber attacks on the BIR and SEC."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-10v5te2",
-      "source": "abs",
-      "title": "Christmas in crisis? Palace says crisis is global, not unique to PH",
-      "summary": "Magiging maligaya nga ba ang Pasko ng mga Pilipino?",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-10T08:53:31.000Z",
-      "firstSeen": "2026-11-10T09:01:00.461Z",
-      "url": "https://www.abs-cbn.com/news/business/2026/11/10/christmas-in-crisis-palace-says-crisis-is-global-not-unique-to-ph-1653",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Magiging maligaya nga ba ang Pasko ng mga Pilipino?"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-uj2v53",
-      "source": "abs",
-      "title": "231,000 laptops to be given to teachers and staff all over the country — DepEd",
-      "summary": "Some 231,000 laptops will be distributed to teachers and staff all over the country to help them with their work, says Department of Education Secretary Sonny Angara.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-10T08:52:59.000Z",
-      "firstSeen": "2026-11-10T09:01:05.658Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/10/231-000-laptops-to-be-given-to-teachers-and-staff-all-over-the-country-deped-1652",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Some 231,000 laptops will be distributed to teachers and staff all over the country to help them with their work, says Department of Education Secretary Sonny Angara."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1hip4j1",
-      "source": "abs",
-      "title": "Made for one person: How jewelry and stickers turn personal style into a story",
-      "summary": "Personalized gifts can reflect much more than someone’s initials. From custom jewelry to handmade sticker sheets, discover how noticing a person’s interests, habits, and memories can inspire…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-10T08:51:15.000Z",
-      "firstSeen": "2026-11-10T09:01:09.144Z",
-      "url": "https://www.abs-cbn.com/lifestyle/health-beauty-fashion/2026/11/10/jewelry-and-stickers-turn-personal-style-into-a-story-1651",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Personalized gifts can reflect much more than someone’s initials. From custom jewelry to handmade sticker sheets, discover how noticing a person’s interests, habits, and memories can inspire something meaningful."
         }
       ],
       "truncated": true,
