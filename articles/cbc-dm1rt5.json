@@ -1,0 +1,76 @@
+{
+  "id": "cbc-dm1rt5",
+  "source": "cbc",
+  "title": "Widespread outages reported across Microsoft apps",
+  "summary": "A widespread outage hit Microsoft platforms including Outlook on Thursday, with many users encountering trouble using their email accounts and other errors across the tech giant's suite of apps.",
+  "byline": "CBC",
+  "section": "News/World",
+  "published": "2026-11-12T22:15:24.000Z",
+  "firstSeen": "2026-11-12T22:30:58.882Z",
+  "url": "https://www.cbc.ca/news/world/microsoft-outage-9.7419814?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/77cd0183-96e3-41de-9b89-5e01d9f82761,1794520111017/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C208%2C4000%2C2250%29%3BResize%3D620",
+    "caption": "Tens of thousands of Microsoft users reported issues with email and other apps Thursday in a widespread outage. (Dado Ruvic/Illustration/Reuters)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "World·New"
+    },
+    {
+      "type": "p",
+      "text": "A widespread outage hit Microsoft platforms including Outlook on Thursday, with many users encountering trouble using their email accounts and other errors across the tech giant's suite of apps."
+    },
+    {
+      "type": "h",
+      "text": "Nearly 130,000 users reported problems on Downtracker at its peak around midday"
+    },
+    {
+      "type": "p",
+      "text": "Nearly 130,000 users on outage tracker Downdetector reported problems accessing Outlook just after 1 p.m. ET. New reports have since fallen from that peak, but many said they couldn't send and receive emails, or had trouble loading their inboxes altogether."
+    },
+    {
+      "type": "p",
+      "text": "Thousands also reported issues with Microsoft's workplace messaging app Teams, as well as its AI assistant Copilot and wider Microsoft 365 services."
+    },
+    {
+      "type": "p",
+      "text": "Microsoft said it was investigating disruptions, notably related to its email and Teams applications."
+    },
+    {
+      "type": "p",
+      "text": "In updates posted on social media, Microsoft said it was aware of users \"experiencing issues accessing Exchange Online mailboxes through multiple connection methods in the Americas.\""
+    },
+    {
+      "type": "quote",
+      "text": "We're investigating reports of users experiencing issues accessing Exchange Online mailboxes through multiple connection methods in the Americas. More details can be found in the Microsoft 365 admin center under EX1550543.&mdash;MSFT365Status"
+    },
+    {
+      "type": "p",
+      "text": "Microsoft later explained that a portion of its infrastructure was \"experiencing elevated load,\" which it said was \"likely contributing to the connectivity errors.\" The company determined a number of servers were \"unexpectedly unavailable\" due to a problem that caused them to fail during automated checks."
+    },
+    {
+      "type": "p",
+      "text": "CBC News has reached out to Microsoft for details about how users in Canada are affected."
+    },
+    {
+      "type": "p",
+      "text": "Microsoft did not immediately provide more information around what might be causing the failure, but said it was testing a fix."
+    },
+    {
+      "type": "p",
+      "text": "Microsoft's Visitor Centre in Redmond, Wa. The company said 'elevated load' was likely the cause of connectivity errors users encountered. (Lindsey Wasson/The Associated Press)"
+    },
+    {
+      "type": "p",
+      "text": "\"We're aggressively pursuing all pathways to reduce impact,\" the Microsoft 365 Status account wrote on X."
+    },
+    {
+      "type": "p",
+      "text": "Earlier in the day, the company said it had \"successfully restored\" problems related to Microsoft Teams in North America, although some users continued to report connectivity issues."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
