@@ -1,0 +1,72 @@
+{
+  "id": "grd-nl8jh1",
+  "source": "grd",
+  "title": "Global Microsoft outage affecting Outlook and Teams users, with company ‘restarting’ servers",
+  "summary": "<p>An alert on Microsoft’s site said it was ‘aggressively pursuing all pathways to reduce impact’ and blamed a server issue</p><p>Microsoft says its servers are beginning to return to service after a…",
+  "byline": "Emma Elsworthy and Josh Taylor",
+  "section": "Microsoft",
+  "published": "2026-11-12T21:14:11.000Z",
+  "firstSeen": "2026-11-12T21:30:56.267Z",
+  "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+  "image": {
+    "src": "https://i.guim.co.uk/img/media/f39d9eba31016399e4c01fd145c5dd223dd145d6/334_0_3332_2666/master/3332.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=3f02f0541713f8ee8f347b659bf6577d",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Microsoft says its servers are beginning to return to service after a global outage resulted in nearly 130,000 users globally reporting issues accessing its 365 suite of software, including Outlook and Teams."
+    },
+    {
+      "type": "p",
+      "text": "Outage website Down Detector showed a spike in Microsoft 365 problems, with nearly 130,000 reports of issues affecting access to Word, Excel, PowerPoint, Outlook and Teams as well as enterprise services such as SharePoint and OneDrive. AI assistant Copilot was also affected."
+    },
+    {
+      "type": "p",
+      "text": "New reports have since fallen from that peak, but many said they couldn’t send and receive emails, or had trouble loading their inboxes altogether."
+    },
+    {
+      "type": "p",
+      "text": "Posting on X, Microsoft said it was investigating “investigating reports of users experiencing issues accessing Exchange Online mailboxes through multiple connection methods”."
+    },
+    {
+      "type": "p",
+      "text": "Microsoft later explained that a portion of its infrastructure was “experiencing elevated load” — which it said was “likely contributing to the connectivity errors.” The company determined a number of servers were “unexpectedly unavailable” due to a problem that caused them to fail during automated checks."
+    },
+    {
+      "type": "p",
+      "text": "As of 9pm UTC Thursday, the tech giant said it had validated an alternative health check method on a subset of the affected servers, which allowed them to successfully return to service, and that fix was now being applied more broadly."
+    },
+    {
+      "type": "p",
+      "text": "Microsoft was also preparing an automated process to detect and restart unresponsive servers. It said the review of recent changes has identified configuration updates as a potential cause for the issue, but said it was still being investigated."
+    },
+    {
+      "type": "p",
+      "text": "An earlier service degradation alert on Microsoft’s site said it was “aggressively pursuing all pathways to reduce impact” and said it was “restarting affected servers to return them to service”."
+    },
+    {
+      "type": "p",
+      "text": "“As a precaution, we’ve paused all deployments and configuration changes while we review recent changes for any correlation to this event."
+    },
+    {
+      "type": "p",
+      "text": "“We’ve determined that the elevated load isn’t driven by an overall increase in traffic, but by a large number of servers being unexpectedly unavailable, which is shifting load onto the remaining infrastructure."
+    },
+    {
+      "type": "p",
+      "text": "“We’re investigating what’s causing these servers to become unavailable while we work to safely return them to service.”"
+    },
+    {
+      "type": "p",
+      "text": "Earlier, the company said it had “successfully restored” problems related to Microsoft Teams in North America, although some users continued to report connectivity issues."
+    },
+    {
+      "type": "p",
+      "text": "- with AP"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
