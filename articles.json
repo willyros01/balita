@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-12T18:01:23.488Z",
+  "updated": "2026-11-12T18:31:19.613Z",
   "sources": [
     {
       "id": "inq",
@@ -59,7 +59,7 @@
       "summary": "MANILA, Philippines &#8212; Motorcycle taxi riders’ group Metro has called for a review of rider limits, saying these should be based on passenger demand and not restrict drivers’ livelihoods. Metro…",
       "byline": "mareyes",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:16.416Z",
+      "published": "2026-11-12T18:31:10.710Z",
       "firstSeen": "2026-11-12T12:31:02.895Z",
       "url": "https://newsinfo.inquirer.net/2340446/motorcycle-taxi-group-pushes-for-industry-legalization-rider-protection",
       "image": {
@@ -84,7 +84,7 @@
       "summary": "MANILA, Philippines — Members of the prosecution panel believe the decision of Vice President Sara Duterte’s legal team to withdraw the presentation of a Bank of the Philippine Islands (BPI) official…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:16.282Z",
+      "published": "2026-11-12T18:31:10.606Z",
       "firstSeen": "2026-11-12T14:01:11.081Z",
       "url": "https://newsinfo.inquirer.net/2340448/defense-withdrew-bpi-exec-to-prevent-pandoras-box-opening",
       "image": {
@@ -103,13 +103,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-9btvh5",
+      "source": "inqn",
+      "title": "Brian Poe: ‘Most Trusted’ award inspires him to work harder to serve",
+      "summary": "MANILA, Philippines— Rather than viewing recognition as a measure of personal success, FPJ Panday Bayanihan Party-List Rep. Brian Poe sees it as a renewed responsibility to work harder and remain…",
+      "byline": "Alexander Magno",
+      "section": "Uncategorized",
+      "published": "2026-11-12T18:31:08.807Z",
+      "firstSeen": "2026-11-12T13:01:02.588Z",
+      "url": "https://newsinfo.inquirer.net/2340457/brian-poe-most-trusted-award-inspires-him-to-work-harder-to-serve",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/BrianPoe-12Nov2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines— Rather than viewing recognition as a measure of personal success, FPJ Panday Bayanihan Party-List Rep. Brian Poe sees it as a renewed responsibility to work harder and remain worthy of the Filipino people&#8217;s trust. Poe delivered that message on Thursday as he accepted the award for the Top Performing, Most Trusted Party-List in"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-18sb5ij",
       "source": "inqn",
       "title": "Mendoza thanks Marcos for appointment as BOC chief",
       "summary": "MANILA, Philippines — Charlito Martin Mendoza thanked President Ferdinand Marcos on Thursday for his new assignment as Bureau of Customs (BOC) chief, which is part of the administration’s latest…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:14.688Z",
+      "published": "2026-11-12T18:31:08.807Z",
       "firstSeen": "2026-11-12T12:31:01.920Z",
       "url": "https://newsinfo.inquirer.net/2340447/mendoza-thanks-marcos-for-appointment-as-boc-chief",
       "image": {
@@ -134,7 +159,7 @@
       "summary": "PAGADIAN CITY, Zamboanga del Sur &#8211; The Ateneo de Zamboanga University (AdZU) College of Law on Thursday condemned the deadly attack on Regional Trial Court (RTC) Judge Joseph Wee Sit, calling…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:14.688Z",
+      "published": "2026-11-12T18:31:08.807Z",
       "firstSeen": "2026-11-12T12:31:01.970Z",
       "url": "https://newsinfo.inquirer.net/2340449/ateneo-de-zamboanga-college-of-law-condemns-killing-of-basilan-judge",
       "image": {
@@ -153,163 +178,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-9btvh5",
-      "source": "inqn",
-      "title": "Brian Poe: ‘Most Trusted’ award inspires him to work harder to serve",
-      "summary": "MANILA, Philippines— Rather than viewing recognition as a measure of personal success, FPJ Panday Bayanihan Party-List Rep. Brian Poe sees it as a renewed responsibility to work harder and remain…",
-      "byline": "Alexander Magno",
-      "section": "Uncategorized",
-      "published": "2026-11-12T18:01:14.582Z",
-      "firstSeen": "2026-11-12T13:01:02.588Z",
-      "url": "https://newsinfo.inquirer.net/2340457/brian-poe-most-trusted-award-inspires-him-to-work-harder-to-serve",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/BrianPoe-12Nov2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines— Rather than viewing recognition as a measure of personal success, FPJ Panday Bayanihan Party-List Rep. Brian Poe sees it as a renewed responsibility to work harder and remain worthy of the Filipino people&#8217;s trust. Poe delivered that message on Thursday as he accepted the award for the Top Performing, Most Trusted Party-List in"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1yw06ro",
-      "source": "inqn",
-      "title": "Zamboanga mayor offers P2-M bounty for killers of Basilan judge",
-      "summary": "PAGADIAN CITY, Zamboanga del Sur &#8212; Zamboanga City Mayor Khymer Olaso has offered a P2-million cash reward for credible information leading to the identification and arrest of the gunmen behind…",
-      "byline": "clopez",
-      "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:14.482Z",
-      "firstSeen": "2026-11-12T13:01:02.496Z",
-      "url": "https://newsinfo.inquirer.net/2340460/zamboanga-mayor-offers-p2-m-bounty-for-killers-of-basilan-judge",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Basilan-judge-12nov2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PAGADIAN CITY, Zamboanga del Sur &#8212; Zamboanga City Mayor Khymer Olaso has offered a P2-million cash reward for credible information leading to the identification and arrest of the gunmen behind the deadly attack on an Isabela City judge in Barangay Tumaga, Zamboanga City early Thursday morning. Speaking at a press briefing at City Hall late"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-u152ei",
-      "source": "inqn",
-      "title": "DOJ chief defends legality of bounty for Bato dela Rosa&#8217;s arrest",
-      "summary": "MANILA, Philippines &#8212; Justice Secretary Fredderick Vida defended the bounty offered for any information that could lead to the arrest of Sen. Ronald &#8220;Bato&#8221; dela Rosa. Dela Rosa has…",
-      "byline": "mareyes",
-      "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:14.482Z",
-      "firstSeen": "2026-11-12T13:30:56.918Z",
-      "url": "https://newsinfo.inquirer.net/2340473/doj-chief-defends-legality-of-bounty-for-bato-dela-rosas-arrest",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/12nov2026-bato9.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8212; Justice Secretary Fredderick Vida defended the bounty offered for any information that could lead to the arrest of Sen. Ronald &#8220;Bato&#8221; dela Rosa. Dela Rosa has been in hiding since last May, when the International Criminal Court (ICC) issued an arrest warrant for him. The government has already offered a P50 million"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-eq193q",
-      "source": "inqn",
-      "title": "Chua: Duterte camp’s ‘K-drama’ defense only plays on public sympathy",
-      "summary": "MANILA, Philippines — Public prosecutor and Manila Rep. Joel Chua accused Vice President Sara Duterte’s lawyers of setting up a defense that is more of a Korean drama (K-drama), claiming that they…",
-      "byline": "mareyes",
-      "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:12.729Z",
-      "firstSeen": "2026-11-12T14:01:01.747Z",
-      "url": "https://newsinfo.inquirer.net/2340484/chua-duterte-camps-k-drama-defense-only-plays-on-public-sympathy",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/12nov2026-defense9.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Public prosecutor and Manila Rep. Joel Chua accused Vice President Sara Duterte’s lawyers of setting up a defense that is more of a Korean drama (K-drama), claiming that they are trying to gain sympathy from the people instead of addressing pressing issues. In a press briefing on Thursday, Chua said the two defense"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-10rivlc",
-      "source": "inqn",
-      "title": "Dangerous heat index grips 9 areas on Thursday",
-      "summary": "MANILA, Philippines — Nine areas in Luzon and the Visayas were gripped by a dangerous heat index on Thursday amid the effects of the El Nino phenomenon, according to the state weather bureau. The…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:12.729Z",
-      "firstSeen": "2026-11-12T13:30:54.965Z",
-      "url": "https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/1000009905.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Nine areas in Luzon and the Visayas were gripped by a dangerous heat index on Thursday amid the effects of the El Nino phenomenon, according to the state weather bureau. The Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa) classifies as dangerous heat indices ranging from 42°C to 51°C due to increased"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1v13t1e",
-      "source": "inqn",
-      "title": "Garcia: Poll converting Naga into HUC ‘will not be a walk in the park’",
-      "summary": "MANILA, Philippines — The outcome of Naga City&#8217;s upcoming plebiscite on its proposed conversion into a highly urbanized city (HUC) remains uncertain, Commission on Elections (Comelec) Chair…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:12.682Z",
-      "firstSeen": "2026-11-12T14:31:04.100Z",
-      "url": "https://newsinfo.inquirer.net/2340508/garcia-poll-converting-naga-into-huc-will-not-be-a-walk-in-the-park",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/1282022.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The outcome of Naga City&#8217;s upcoming plebiscite on its proposed conversion into a highly urbanized city (HUC) remains uncertain, Commission on Elections (Comelec) Chair George Erwin Garcia said on Thursday. Garcia said the plebiscite “will not be a walk in the park,” as either the “Yes” or “No” vote could prevail. He"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1wqoud7",
       "source": "inqn",
       "title": "Highlights: Day 43 of Sara Duterte impeachment trial &#124; Nov. 12, 2026",
       "summary": "MANILA, Philippines — The 43rd day of Vice President Sara Duterte&#8217;s Senate impeachment trial ended with the defense having dropped all of its originally scheduled bank witnesses and the court…",
       "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:12.682Z",
+      "published": "2026-11-12T18:31:08.806Z",
       "firstSeen": "2026-11-12T14:01:00.281Z",
       "url": "https://newsinfo.inquirer.net/2340500/highlights-day-43-of-sara-duterte-impeachment-trial-nov-12-2026",
       "image": {
@@ -334,7 +209,7 @@
       "summary": "MANILA, Philippines—No ticket holder hit the jackpot in the Super Lotto 6/49 and Lotto 6/42 draws on Thursday, November 12, according to the Philippine Charity Sweepstakes Office. Super Lotto 6/49…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:12.682Z",
+      "published": "2026-11-12T18:31:08.806Z",
       "firstSeen": "2026-11-12T14:01:00.339Z",
       "url": "https://newsinfo.inquirer.net/2340497/lotto-results-on-thursday-november-12-2026",
       "image": {
@@ -353,13 +228,113 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-eq193q",
+      "source": "inqn",
+      "title": "Chua: Duterte camp’s ‘K-drama’ defense only plays on public sympathy",
+      "summary": "MANILA, Philippines — Public prosecutor and Manila Rep. Joel Chua accused Vice President Sara Duterte’s lawyers of setting up a defense that is more of a Korean drama (K-drama), claiming that they…",
+      "byline": "mareyes",
+      "section": "Latest News Stories",
+      "published": "2026-11-12T18:31:08.806Z",
+      "firstSeen": "2026-11-12T14:01:01.747Z",
+      "url": "https://newsinfo.inquirer.net/2340484/chua-duterte-camps-k-drama-defense-only-plays-on-public-sympathy",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/12nov2026-defense9.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Public prosecutor and Manila Rep. Joel Chua accused Vice President Sara Duterte’s lawyers of setting up a defense that is more of a Korean drama (K-drama), claiming that they are trying to gain sympathy from the people instead of addressing pressing issues. In a press briefing on Thursday, Chua said the two defense"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-10rivlc",
+      "source": "inqn",
+      "title": "Dangerous heat index grips 9 areas on Thursday",
+      "summary": "MANILA, Philippines — Nine areas in Luzon and the Visayas were gripped by a dangerous heat index on Thursday amid the effects of the El Nino phenomenon, according to the state weather bureau. The…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-12T18:31:08.806Z",
+      "firstSeen": "2026-11-12T13:30:54.965Z",
+      "url": "https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/1000009905.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Nine areas in Luzon and the Visayas were gripped by a dangerous heat index on Thursday amid the effects of the El Nino phenomenon, according to the state weather bureau. The Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa) classifies as dangerous heat indices ranging from 42°C to 51°C due to increased"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1yw06ro",
+      "source": "inqn",
+      "title": "Zamboanga mayor offers P2-M bounty for killers of Basilan judge",
+      "summary": "PAGADIAN CITY, Zamboanga del Sur &#8212; Zamboanga City Mayor Khymer Olaso has offered a P2-million cash reward for credible information leading to the identification and arrest of the gunmen behind…",
+      "byline": "clopez",
+      "section": "Latest News Stories",
+      "published": "2026-11-12T18:31:08.806Z",
+      "firstSeen": "2026-11-12T13:01:02.496Z",
+      "url": "https://newsinfo.inquirer.net/2340460/zamboanga-mayor-offers-p2-m-bounty-for-killers-of-basilan-judge",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Basilan-judge-12nov2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PAGADIAN CITY, Zamboanga del Sur &#8212; Zamboanga City Mayor Khymer Olaso has offered a P2-million cash reward for credible information leading to the identification and arrest of the gunmen behind the deadly attack on an Isabela City judge in Barangay Tumaga, Zamboanga City early Thursday morning. Speaking at a press briefing at City Hall late"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-u152ei",
+      "source": "inqn",
+      "title": "DOJ chief defends legality of bounty for Bato dela Rosa&#8217;s arrest",
+      "summary": "MANILA, Philippines &#8212; Justice Secretary Fredderick Vida defended the bounty offered for any information that could lead to the arrest of Sen. Ronald &#8220;Bato&#8221; dela Rosa. Dela Rosa has…",
+      "byline": "mareyes",
+      "section": "Latest News Stories",
+      "published": "2026-11-12T18:31:08.806Z",
+      "firstSeen": "2026-11-12T13:30:56.918Z",
+      "url": "https://newsinfo.inquirer.net/2340473/doj-chief-defends-legality-of-bounty-for-bato-dela-rosas-arrest",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/12nov2026-bato9.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines &#8212; Justice Secretary Fredderick Vida defended the bounty offered for any information that could lead to the arrest of Sen. Ronald &#8220;Bato&#8221; dela Rosa. Dela Rosa has been in hiding since last May, when the International Criminal Court (ICC) issued an arrest warrant for him. The government has already offered a P50 million"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-7p2405",
       "source": "inqn",
       "title": "Two weather systems to bring rain in parts of PH on Friday, Nov. 13",
       "summary": "MANILA, Philippines — Two different weather systems are forecast to bring rain over various parts of the country on Friday, the state weather bureau said. According to the Philippine Atmospheric,…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:12.681Z",
+      "published": "2026-11-12T18:31:07.043Z",
       "firstSeen": "2026-11-12T15:30:56.146Z",
       "url": "https://newsinfo.inquirer.net/2340512/weather-for-friday-nov-13",
       "image": {
@@ -378,23 +353,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-wa7640",
+      "id": "inqn-1v13t1e",
       "source": "inqn",
-      "title": "PDEA destroys P162.5-M illegal drugs, expired medicines in Zamboanga Sur",
-      "summary": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — Anti-narcotics operatives on Thursday destroyed P162.52 million worth of confiscated illegal drugs and regulated medicines in Aurora, Zamboanga del…",
+      "title": "Garcia: Poll converting Naga into HUC ‘will not be a walk in the park’",
+      "summary": "MANILA, Philippines — The outcome of Naga City&#8217;s upcoming plebiscite on its proposed conversion into a highly urbanized city (HUC) remains uncertain, Commission on Elections (Comelec) Chair…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:11.106Z",
-      "firstSeen": "2026-11-12T16:01:00.129Z",
-      "url": "https://newsinfo.inquirer.net/2340511/pdea-destroys-p162-5-m-illegal-drugs-expired-medicines-in-zamboanga-sur",
+      "published": "2026-11-12T18:31:07.043Z",
+      "firstSeen": "2026-11-12T14:31:04.100Z",
+      "url": "https://newsinfo.inquirer.net/2340508/garcia-poll-converting-naga-into-huc-will-not-be-a-walk-in-the-park",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Zamboanga-drugs-12nov2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/08/1282022.jpeg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — Anti-narcotics operatives on Thursday destroyed P162.52 million worth of confiscated illegal drugs and regulated medicines in Aurora, Zamboanga del Sur, in a bid to prevent the seized contraband from being recycled back into the streets. The Philippine Drug Enforcement Agency in Zamboanga Peninsula (PDEA-9) led the thermal destruction of"
+          "text": "MANILA, Philippines — The outcome of Naga City&#8217;s upcoming plebiscite on its proposed conversion into a highly urbanized city (HUC) remains uncertain, Commission on Elections (Comelec) Chair George Erwin Garcia said on Thursday. Garcia said the plebiscite “will not be a walk in the park,” as either the “Yes” or “No” vote could prevail. He"
         }
       ],
       "truncated": true,
@@ -409,7 +384,7 @@
       "summary": "MANILA, Philippines — Road reblocking and repairs will be conducted over the southbound portion of Epifanio de los Santos Avenue or Edsa from Nov. 13 to 15, the Department of Public Works and…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:11.041Z",
+      "published": "2026-11-12T18:31:07.007Z",
       "firstSeen": "2026-11-12T17:31:11.616Z",
       "url": "https://newsinfo.inquirer.net/2340577/road-reblocking-repairs-on-southbound-edsa-from-nov-13-to-15",
       "image": {
@@ -428,23 +403,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-bbgtt7",
-      "source": "inqg",
-      "title": "Atom: &#8216;Rather than roll out red carpet for Trump, roll him out of PH&#8217;",
-      "summary": "MANILA, Philippines—The August Twenty-One Movement (Atom) joined groups opposing US President Donald Trump’s upcoming visit for the 49th Asean Summit and Related Meetings. The organization said Trump…",
-      "byline": "arlenelim",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-12T18:01:10.947Z",
-      "firstSeen": "2026-11-12T11:01:06.828Z",
-      "url": "https://globalnation.inquirer.net/347111/atom-rather-than-roll-out-red-carpet-for-trump-roll-him-out-of-ph",
+      "id": "inqn-wa7640",
+      "source": "inqn",
+      "title": "PDEA destroys P162.5-M illegal drugs, expired medicines in Zamboanga Sur",
+      "summary": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — Anti-narcotics operatives on Thursday destroyed P162.52 million worth of confiscated illegal drugs and regulated medicines in Aurora, Zamboanga del…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-12T18:31:07.007Z",
+      "firstSeen": "2026-11-12T16:01:00.129Z",
+      "url": "https://newsinfo.inquirer.net/2340511/pdea-destroys-p162-5-m-illegal-drugs-expired-medicines-in-zamboanga-sur",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261101__D64A2YM__v1__HighRes__DonaldTrumpHoldsACampaignRally-1-scaled.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Zamboanga-drugs-12nov2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines—The August Twenty-One Movement (Atom) joined groups opposing US President Donald Trump’s upcoming visit for the 49th Asean Summit and Related Meetings. The organization said Trump should not be welcomed with a red carpet. “Rather than roll out a red carpet for a leader like Trump, we should roll him out of the Philippines"
+          "text": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — Anti-narcotics operatives on Thursday destroyed P162.52 million worth of confiscated illegal drugs and regulated medicines in Aurora, Zamboanga del Sur, in a bid to prevent the seized contraband from being recycled back into the streets. The Philippine Drug Enforcement Agency in Zamboanga Peninsula (PDEA-9) led the thermal destruction of"
         }
       ],
       "truncated": true,
@@ -459,7 +434,7 @@
       "summary": "CAGAYAN DE ORO CITY, Philippines — Fresh from a grueling 30-day training on close-quarters combat and hostage rescue, 94 newly minted Army privates are officially joining the ranks of the 10th…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:10.883Z",
+      "published": "2026-11-12T18:31:05.239Z",
       "firstSeen": "2026-11-12T16:30:59.039Z",
       "url": "https://newsinfo.inquirer.net/2340517/94-fresh-troops-boost-army-divisions-combat-capacity-in-mindanao",
       "image": {
@@ -478,13 +453,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-bbgtt7",
+      "source": "inqg",
+      "title": "Atom: &#8216;Rather than roll out red carpet for Trump, roll him out of PH&#8217;",
+      "summary": "MANILA, Philippines—The August Twenty-One Movement (Atom) joined groups opposing US President Donald Trump’s upcoming visit for the 49th Asean Summit and Related Meetings. The organization said Trump…",
+      "byline": "arlenelim",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-12T18:31:05.239Z",
+      "firstSeen": "2026-11-12T11:01:06.828Z",
+      "url": "https://globalnation.inquirer.net/347111/atom-rather-than-roll-out-red-carpet-for-trump-roll-him-out-of-ph",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261101__D64A2YM__v1__HighRes__DonaldTrumpHoldsACampaignRally-1-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—The August Twenty-One Movement (Atom) joined groups opposing US President Donald Trump’s upcoming visit for the 49th Asean Summit and Related Meetings. The organization said Trump should not be welcomed with a red carpet. “Rather than roll out a red carpet for a leader like Trump, we should roll him out of the Philippines"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-z3g6ex",
       "source": "inqg",
       "title": "Death toll rises to 8 in Brooklyn building collapse",
       "summary": "NEW YORK — At least eight people have died after a three-story building in Brooklyn collapsed at the edge of a construction site, New York City’s mayor said Thursday, as firefighters kept digging…",
       "byline": "ggaviola",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-12T18:01:09.121Z",
+      "published": "2026-11-12T18:31:01.639Z",
       "firstSeen": "2026-11-12T13:30:54.965Z",
       "url": "https://globalnation.inquirer.net/347118/death-toll-rises-to-8-in-brooklyn-building-collapse",
       "image": {
@@ -509,7 +509,7 @@
       "summary": "MANILA, Philippines — The prosecution panel has no issue with Vice President Sara Duterte’s husband Manases Carpio, supporting young athletes, but lawyer Benjamin Tolosa Jr. clarified that questions…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:05.517Z",
+      "published": "2026-11-12T18:31:01.638Z",
       "firstSeen": "2026-11-12T17:31:09.312Z",
       "url": "https://newsinfo.inquirer.net/2340598/defense-carpio-backing-sports-not-issue-topic-is-unexplained-wealth",
       "image": {
@@ -534,7 +534,7 @@
       "summary": "MANILA, Philippines — The Department of Justice (DOJ) is pressing ahead with its domestic case build-up against Thomas Markle over his alleged violations of Child Sexual Abuse or Exploitation…",
       "byline": "cbuban",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-12T18:01:01.203Z",
+      "published": "2026-11-12T18:30:59.282Z",
       "firstSeen": "2026-11-12T15:01:02.618Z",
       "url": "https://globalnation.inquirer.net/347121/doj-to-press-case-build-up-vs-thomas-markle",
       "image": {
@@ -559,7 +559,7 @@
       "summary": "TACLOBAN CITY, LEYTE, Philippines — More than 10,000 MacBook Neo laptops are being distributed to teachers and other personnel of the Department of Education (DepEd) in Eastern Visayas to strengthen…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:01.082Z",
+      "published": "2026-11-12T18:30:58.921Z",
       "firstSeen": "2026-11-12T18:01:01.082Z",
       "url": "https://newsinfo.inquirer.net/2340568/deped-8-distributes-10534-macbooks-in-eastern-visayas",
       "image": {
@@ -584,7 +584,7 @@
       "summary": "UNITED STATES — Nvidia CEO Jensen Huang resigned Thursday after his extramarital affair raised national security concerns, in a spectacular downfall for the longtime head of the chipmaker, a vital…",
       "byline": "cbuban",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-12T18:01:00.118Z",
+      "published": "2026-11-12T18:30:58.063Z",
       "firstSeen": "2026-11-12T15:30:56.146Z",
       "url": "https://globalnation.inquirer.net/347126/nvidia-ceo-huang-resigns-after-his-affair-raises-natl-security-concerns",
       "image": {
@@ -609,7 +609,7 @@
       "summary": "CAGAYAN DE ORO CITY, Philippines — An alleged high-value drug trafficker known as “Boss Dexter” was arrested after yielding P374,000 worth of suspected crystal meth and a loaded handgun during a…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:00.116Z",
+      "published": "2026-11-12T18:30:58.061Z",
       "firstSeen": "2026-11-12T18:01:00.116Z",
       "url": "https://newsinfo.inquirer.net/2340535/cops-bust-drug-suspect-in-lanao-del-norte-p374000-in-meth-gun-seized",
       "image": {
@@ -628,13 +628,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-10isfc6",
+      "source": "inqn",
+      "title": "Heat, crowd limits top safety measures for 462nd Fiesta Señor in Cebu",
+      "summary": "CEBU CITY, Philippines — With threats of intense heat looming over next year’s Fiesta Señor, church and city officials are tightening crowd-control and safety measures for the religious celebration.…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-12T18:30:58.005Z",
+      "firstSeen": "2026-11-12T18:01:00.081Z",
+      "url": "https://newsinfo.inquirer.net/2340529/heat-crowd-limits-top-safety-measures-for-462nd-fiesta-senor-in-cebu",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/01/IMG_5664-scaled.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CEBU CITY, Philippines — With threats of intense heat looming over next year’s Fiesta Señor, church and city officials are tightening crowd-control and safety measures for the religious celebration. Augustinian friars at the Basilica Minore del Santo Niño de Cebu on Thursday, Nov. 12, outlined plans to manage crowds and prevent heat-related illnesses during the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
       "id": "inqg-18oowwm",
       "source": "inqg",
       "title": "Protest march kicks off vs Pax Silica, Trump in Asean meet",
       "summary": "LUCENA CITY, QUEZON, Philippines — More than a thousand faculty members, employees and students of the University of the Philippines Los Baños (UPLB) staged a campus-wide walkout on Thursday to…",
       "byline": "clopez",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-12T18:01:00.082Z",
+      "published": "2026-11-12T18:30:58.005Z",
       "firstSeen": "2026-11-12T17:01:17.435Z",
       "url": "https://globalnation.inquirer.net/347125/protest-march-kicks-off-vs-pax-silica-trump-in-asean-meet",
       "image": {
@@ -653,23 +678,913 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-10isfc6",
-      "source": "inqn",
-      "title": "Heat, crowd limits top safety measures for 462nd Fiesta Señor in Cebu",
-      "summary": "CEBU CITY, Philippines — With threats of intense heat looming over next year’s Fiesta Señor, church and city officials are tightening crowd-control and safety measures for the religious celebration.…",
-      "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-11-12T18:01:00.081Z",
-      "firstSeen": "2026-11-12T18:01:00.081Z",
-      "url": "https://newsinfo.inquirer.net/2340529/heat-crowd-limits-top-safety-measures-for-462nd-fiesta-senor-in-cebu",
+      "id": "gma-1r8902s",
+      "source": "gma",
+      "title": "Padilla dares impeachment trial prosecutors to investigate his expenses",
+      "summary": "Senator Robin Padilla on Thursday dared the House prosecution panel to investigate him over his P1.54 million worth of expenses that he said were spent to help people in need.",
+      "byline": "LLANESCA T. PANTI, GMA News",
+      "section": "",
+      "published": "2026-11-12T18:27:10.000Z",
+      "firstSeen": "2026-11-12T18:30:58.005Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1009342/padilla-dares-impeachment-trial-prosecutors-to-investigate-his-expenses/story/",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/01/IMG_5664-scaled.jpeg",
+        "src": "https://images.gmanews.tv/webpics/2026/10/robin_2026_10_12_22_24_04.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "CEBU CITY, Philippines — With threats of intense heat looming over next year’s Fiesta Señor, church and city officials are tightening crowd-control and safety measures for the religious celebration. Augustinian friars at the Basilica Minore del Santo Niño de Cebu on Thursday, Nov. 12, outlined plans to manage crowds and prevent heat-related illnesses during the"
+          "text": "Published November 13, 2026 2:27am"
+        },
+        {
+          "type": "p",
+          "text": "Senator Robin Padilla on Thursday dared the House prosecution panel to investigate him over his P1.54 million worth of expenses that he said were spent to help people in need."
+        },
+        {
+          "type": "p",
+          "text": "Padilla made the challenge after private prosecutor Rey Robles’ cross examination of defense witness Chad Parian on Day 43 of the impeachment trial of Vice President Sara Duterte."
+        },
+        {
+          "type": "p",
+          "text": "Robles asked Parian if the P256,000 worth of shoe purchase by Atty. Manases Carpio, husband of Vice President Duterte, for the children of Elite Basketball team and their parents in Kuala Lumpur, Malaysia is compliant with Code of Conduct for Public Officials and Employees, which defines simple living as a core norm of conduct."
+        },
+        {
+          "type": "p",
+          "text": "Parian — who noted that his son and Carpio's son were teammates in a recent tournament in Malaysia — stopped short of giving Robles a categorical answer. Instead, he said the children deserved new shoes after winning a basketball championship abroad."
+        },
+        {
+          "type": "p",
+          "text": "Padilla then said he is ready to be investigated as enumerated some expenses of his own."
+        },
+        {
+          "type": "p",
+          "text": "“Para ano lang po iyong halagang P250,000. Nung kailan lang po, gumastos ako ng P900,000. Gusto niyo imbestigahan niyo kung saan ko dinala. Ito lang po, iyong pinagbabaril sa Tacloban, ginastusan ko ng P300,000. Iyon pinagbabaril po diyan sa South Cotabato, sa eskwelahan, ginastusan ko po ngayon ng P340,000,” Padilla said told the House prosecution panel."
+        },
+        {
+          "type": "p",
+          "text": "(What is the P250,000 for? A while ago, I spent P900,000. You want me to investigate where I took it. This is it, the one who was shot in Tacloban, I spent P300,000 on. The one who was shot in South Cotabato, at the school, I spent P340,000 on this.)"
+        },
+        {
+          "type": "p",
+          "text": "“Paimbestigahan niyo ako (Investigate me),” Padilla added."
+        },
+        {
+          "type": "p",
+          "text": "Padilla then called on colleagues in Congress not to stand in the way of the passage of the Freedom of Information bill, which he supports, so the people know who are living lavish lifestyles."
+        },
+        {
+          "type": "p",
+          "text": "He said there are House members who ride cars worth P16 million to P22 million and have several houses."
+        },
+        {
+          "type": "p",
+          "text": "House prosecutor Terry Ridon of Bicol Saro party-list responded by saying he has no personal knowledge of the information being put forward by Padilla on House members leading a lavish life."
+        },
+        {
+          "type": "p",
+          "text": "The exchange was made as the defense is presenting its evidence against Article 2, which accuses the Vice President of betrayal of public trust and culpable violation of the Constitution due to alleged unexplained wealth, non-declaration of assets and non-divestment in businesses. — BAP, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "dw-l01ykh",
+      "source": "dw",
+      "title": "Czechia braces for massive protest as anger over government's public media reform plans boils",
+      "summary": "A fast-tracked bill on public media funding reform has sparked strikes, rallies and fears for the independence of public broadcasting in Czechia. A massive protest is due to take place in Prague on…",
+      "byline": "Tim Gosling",
+      "section": "",
+      "published": "2026-11-12T18:26:00.000Z",
+      "firstSeen": "2026-11-12T18:30:58.061Z",
+      "url": "https://www.dw.com/en/czechia-braces-for-massive-protest-as-anger-over-government-s-public-media-reform-plans-boils/a-79933533?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/77653329_6.jpg",
+        "caption": "'Strike — For a free press, free media' Many in Czechia fear that the government's plans to change the way public media is funded will undermine the independence of Czech Television and Czech RadioImage: Katerina Sulova/CTK Photo/IMAGO"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hundreds of thousands of people are expected to rally in Prague this weekend to protest the Czech government's bid to ram a bill to reform public media funding through parliament in a surprise overnight session late last month."
+        },
+        {
+          "type": "p",
+          "text": "The populist coalition of Prime Minister Andrej Babis fast-tracked the first of three readings of the legislation, which culminated in a vote of approval at 04:36 a.m. on October 24."
+        },
+        {
+          "type": "p",
+          "text": "The bill has already provoked numerous demonstrations and strikes across the country, but Sunday's gathering in the capital's Letna Park is likely to be by far the largest to date."
+        },
+        {
+          "type": "h",
+          "text": "What's in the bill?"
+        },
+        {
+          "type": "p",
+          "text": "Under the government's proposal, the license fee model that currently funds Czech Television (CT) and Czech Radio (CRo) would be scrapped, and the broadcasters would be funded directly from the state budget."
+        },
+        {
+          "type": "p",
+          "text": "The three parties in the coalition — Babis's centrist ANO, the far-right SPD, and radical conservative Motorists, whose voter bases tend to be less affluent — insist that the license fee is an unfair tax."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79750473_$%7BformatId%7D.jpg",
+          "caption": "Crowds protested outside parliament while inside, the government pushed through the first reading of the controversial media funding bill on the night of October 23/24Image: Michal Kamaryt/CTK Photo/IMAGO"
+        },
+        {
+          "type": "p",
+          "text": "The parties argue that the new arrangement, which would see funding for CT and CRo cut by around 15% in the first year, would make the two more efficient. They also point out that several other European Union states have made similar changes."
+        },
+        {
+          "type": "h",
+          "text": "What are the objections to the bill?"
+        },
+        {
+          "type": "p",
+          "text": "Critics have angrily dismissed these justifications."
+        },
+        {
+          "type": "p",
+          "text": "Opposition parties, civil society organizations and international watchdogs accuse the government of seeking to undermine the independence of the broadcasters, whose critical reporting has long irked ANO and the SPD in particular."
+        },
+        {
+          "type": "p",
+          "text": "Analysts point out that while models in other EU states include guarantees of long-term financial stability and editorial independence, the Czech government proposal offers neither."
+        },
+        {
+          "type": "p",
+          "text": "CT and CRo have warned that the reduced budget included in the bill will mean programming- and staff cuts."
+        },
+        {
+          "type": "p",
+          "text": "When the first publication of the proposed bill was met with protests over the summer, Vaclav Stetka of the European New School of Digital Studies told DW that such \"dramatic budget cuts represent an act of cultural vandalism.\""
+        },
+        {
+          "type": "p",
+          "text": "There has also been condemnation of the restriction of the parliamentary debate amid the fast-tracking of the bill."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79756383_$%7BformatId%7D.jpg",
+          "caption": "The protests continued in the days after the late-night vote in parliamentImage: Michael Heitmann/dpa/picture alliance"
+        },
+        {
+          "type": "p",
+          "text": "\"The confrontational approach, the attempts to limit parliamentary debate and the government's rhetoric towards journalists and critics have all contributed to the public backlash,\" Otto Eibl, political scientist at Masaryk University in Czechia's second city Brno, told DW."
+        },
+        {
+          "type": "h",
+          "text": "What has happened since the bill was fast-tracked?"
+        },
+        {
+          "type": "p",
+          "text": "The backlash was immediate. Crowds picketed parliament through the night as the government pushed through the first reading of the bill."
+        },
+        {
+          "type": "p",
+          "text": "Since then, multiple rallies have taken place in cities and towns across the country. Many of these protests were led by students and joined by unions, Churches and representatives of educational and cultural institutions."
+        },
+        {
+          "type": "p",
+          "text": "CT and CRo staff called a strike in early November, disrupting the country's TV and radio schedules."
+        },
+        {
+          "type": "p",
+          "text": "Sunday's protest is set to up the ante."
+        },
+        {
+          "type": "p",
+          "text": "It will take place two days before the anniversary of the start of the Velvet Revolution, which ultimately brought down communism in what was then Czechoslovakia in 1989."
+        },
+        {
+          "type": "p",
+          "text": "The civil society group Million Moments for Democracy, which is organizing Sunday's rally, brought an estimated 300,000 onto the streets to protest during Babis's first term as prime minister in 2019 and more than 200,000 earlier this year."
+        },
+        {
+          "type": "h",
+          "text": "Why has the reaction been so strong?"
+        },
+        {
+          "type": "p",
+          "text": "The government's sudden bid to push through the proposal reflects impatience to deliver on a core pledge made ahead of the October 2025 election, as well as the longstanding ambition of the prime minister, who was stymied in his attempt to engineer control of CT's governing council during his first term in power in 2017–21."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79839856_$%7BformatId%7D.jpg",
+          "caption": "'For you, not for politicians' — Public broadcasters are seen by many in Czechia as cornerstones of democracyImage: Eva Korinkova/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "Vaclav Stetka notes that repeated assaults on public media by Czech governments past and present reflect a particular political culture across Europe's post-communist states."
+        },
+        {
+          "type": "p",
+          "text": "\"The political elite has never accepted the independence of public media,\" he asserted."
+        },
+        {
+          "type": "p",
+          "text": "In Czechia, however, the public broadcasters have earned special status as cornerstones of democracy."
+        },
+        {
+          "type": "p",
+          "text": "That standing was forged in what became known as the \"Czech TV crisis\" of 2000–01, when an occupation of CT's studios by staff and mass protests forced the government of the day to back down on a bid to wrest control."
+        },
+        {
+          "type": "p",
+          "text": "\"The fight over the public service media has become a symbol of the defense of liberal democratic values and institutions,\" Eibl said."
+        },
+        {
+          "type": "h",
+          "text": "How has the government reacted?"
+        },
+        {
+          "type": "p",
+          "text": "As anger has swelled, the government has sought to calm the situation. Babis has said that a new proposal, which would see public media funding moved off budget and editorial independence guaranteed, would be drawn up and made available for a full and open debate."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79839879_$%7BformatId%7D.jpg",
+          "caption": "During the November 3 strike at Czech Television, hosts read the news in front of a darkened newsroomImage: Eva Korinkova/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "However, critics remain unimpressed, noting a lack of any detail and the fact that other members of the government appear determined to remain on course."
+        },
+        {
+          "type": "p",
+          "text": "Million Moments for Democracy has insisted the pressure must continue."
+        },
+        {
+          "type": "p",
+          "text": "\"Words are worth nothing,\" the group said. \"While people stand up for independent media, the government continues to act as if it owns the country.\""
+        },
+        {
+          "type": "h",
+          "text": "What are the potential risks for the government?"
+        },
+        {
+          "type": "p",
+          "text": "With little sign that the opposition will dissipate, the government faces a choice."
+        },
+        {
+          "type": "p",
+          "text": "It has the parliamentary majority it needs to push the bill through and defeat any likely vetoes from the upper house Senate and President Petr Pavel."
+        },
+        {
+          "type": "p",
+          "text": "But this could come at a cost."
+        },
+        {
+          "type": "p",
+          "text": "Polls suggest political support for the government has been weakened and could diminish further if the protests expand to include growing frustrations over the cost of living and housing, as happened recently with student-led protests in France and other European countries."
+        },
+        {
+          "type": "p",
+          "text": "\"The real risk for the government is that the media issue becomes a lightning rod for broader dissatisfaction,\" said Martin Vokalek of the Prague-based EUROPEUM Institute for European Policy."
+        },
+        {
+          "type": "h",
+          "text": "Could things turn violent?"
+        },
+        {
+          "type": "p",
+          "text": "Babis is aware of the danger."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/77649500_$%7BformatId%7D.jpg",
+          "caption": "Public opposition to the government's plans for Czech public media are nothing new: this demonstration outside Czech Television in June called for the dismissal of Culture Minister Oto Klempir and expressed support for the country's public mediaImage: Ondrej Deml/CTK/picture alliance"
+        },
+        {
+          "type": "p",
+          "text": "The PM announced that he will not attend the Velvet Revolution anniversary celebrations on November 17, which are hugely symbolic, in the hope that his absence might \"calm the tense situation.\""
+        },
+        {
+          "type": "p",
+          "text": "However, there's little concern that the Czech protests could descend into violence."
+        },
+        {
+          "type": "p",
+          "text": "Analysts note that the anger in Czechia remains tightly focused on the public media proposal and continues to be expressed in a similar way to the seismic events of the country's modern history."
+        },
+        {
+          "type": "p",
+          "text": "\"I would not expect French-style scenes,\" Vokalek told DW, noting that the same \"large, peaceful and civic Czech protest culture,\" which gave the Velvet Revolution and 1993's Velvet Divorce from Slovakia their name, is still strong."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-8k4jog",
+      "source": "abs",
+      "title": "Atin A10 Lang: “PBB Collab 3.0” housemate Nathan Garcia talks fashion, food, and everything in between!",
+      "summary": "The \"Hustling Swag Stunner ng Cebu\" Nathan Garcia shares a few of his favorite things.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:25:01.000Z",
+      "firstSeen": "2026-11-12T18:30:58.005Z",
+      "url": "https://www.abs-cbn.com/entertainment/studios/tv/2026/11/13/-pbb-collab-3-0-housemate-nathan-garcia-talks-fashion-food-and-everything-in-between-0225",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The \"Hustling Swag Stunner ng Cebu\" Nathan Garcia shares a few of his favorite things."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-1pv6jmi",
+      "source": "abs",
+      "title": "This is Lans! Get up close and personal with “PBB Collab 3.0”’s VetMed Content Creator",
+      "summary": "Here's \"PBB Collab 3.0\" housemate Lans Nagal sharing 10 things you might not know about her!",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:20:01.000Z",
+      "firstSeen": "2026-11-12T18:30:58.486Z",
+      "url": "https://www.abs-cbn.com/entertainment/studios/tv/2026/11/13/this-is-lans-get-up-close-and-personal-with-pbb-collab-3-0-s-vetmed-content-creator-0220",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Here's \"PBB Collab 3.0\" housemate Lans Nagal sharing 10 things you might not know about her!"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1xeo550",
+      "source": "inq",
+      "title": "Slow GDP growth tests BSP resolve on inflation",
+      "summary": "MANILA, Philippines — The Bangko Sentral ng Pilipinas (BSP) acknowledged that the country was grappling with a difficult mix of high inflation and sluggish economic growth, while stressing that its…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:20:00.000Z",
+      "firstSeen": "2026-11-12T18:30:58.005Z",
+      "url": "https://business.inquirer.net/620643/slow-gdp-growth-tests-bsp-resolve-on-inflation",
+      "image": {
+        "src": "https://business.inquirer.net/files/2025/10/Eli-Remolona-Jr-13October2025-620x349.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Bangko Sentral ng Pilipinas (BSP) acknowledged that the country was grappling with a difficult mix of high inflation and sluggish economic growth, while stressing that its future policy decisions would remain guided by incoming data. In a statement on Wednesday evening, the central bank said it remained committed to fulfilling its mandate [&hellip;]... Keep on reading: Slow GDP growth tests BSP resolve on inflation"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-sjbu8w",
+      "source": "inq",
+      "title": "BSP keeps cap on credit card finance charges",
+      "summary": "MANILA, Philippines — The Bangko Sentral ng Pilipinas (BSP) has decided to keep the current cap on finance charges that credit card issuers can collect from borrowers, but raised the fees for…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:18:00.000Z",
+      "firstSeen": "2026-11-12T18:30:58.061Z",
+      "url": "https://business.inquirer.net/620641/bsp-keeps-cap-on-credit-card-finance-charges",
+      "image": {
+        "src": "https://business.inquirer.net/files/2025/03/bsp-03082025-620x413.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Bangko Sentral ng Pilipinas (BSP) has decided to keep the current cap on finance charges that credit card issuers can collect from borrowers, but raised the fees for installment loans and cash advances. In a statement, the BSP said the move was meant to protect consumers while providing credit card issuers more [&hellip;]... Keep on reading: BSP keeps cap on credit card finance charges"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-geozly",
+      "source": "inq",
+      "title": "PSA: Investment pledges surged 83% in Q3 to P628B",
+      "summary": "MANILA, Philippines — Investments committed by Filipino and foreign investors rose sharply in the third quarter, reaching P628.19 billion as pledges from overseas investors more than doubled during…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:16:00.000Z",
+      "firstSeen": "2026-11-12T18:30:58.690Z",
+      "url": "https://business.inquirer.net/620639/psa-investment-pledges-surged-83-in-q3-to-p628b",
+      "image": {
+        "src": "https://business.inquirer.net/files/2025/04/philippine-statistics-authority-PSA-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Investments committed by Filipino and foreign investors rose sharply in the third quarter, reaching P628.19 billion as pledges from overseas investors more than doubled during the period. Latest data from the Philippine Statistics Authority (PSA) showed that investment commitments approved from July to September surged by 82.7 percent from P343.81 billion in the [&hellip;]... Keep on reading: PSA: Investment pledges surged 83% in Q3 to P628B"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "cbc-1nskby7",
+      "source": "cbc",
+      "title": "U.S. army guard given medal by Hegseth day after Tomb of the Unknown Soldier reprimand",
+      "summary": "U.S. War Secretary Pete Hegseth has given a top award to the service member who scolded him and his staff at the Tomb of the Unknown Soldier following a Veterans Day ceremony at Arlington National…",
+      "byline": "CBC",
+      "section": "News/World",
+      "published": "2026-11-12T18:14:30.000Z",
+      "firstSeen": "2026-11-12T18:30:58.005Z",
+      "url": "https://www.cbc.ca/news/world/us-pentagon-hegseth-arlington-controversy-medal-9.7419227?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/5562f8ce-ba24-4e3d-bb4c-4429c8c6dcbc,1794506275031/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C58%2C2064%2C1161%29%3BResize%3D620",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "World·New"
+        },
+        {
+          "type": "p",
+          "text": "U.S. War Secretary Pete Hegseth has given a top award to the service member who scolded him and his staff at the Tomb of the Unknown Soldier following a Veterans Day ceremony at Arlington National Cemetery."
+        },
+        {
+          "type": "h",
+          "text": "Pentagon said Specialist Thomas Iglesias 'correctly and respectfully' called for proper decorum"
+        },
+        {
+          "type": "p",
+          "text": "Hegseth delegation appears to be rebuked at Tomb of the Unknown Soldier"
+        },
+        {
+          "type": "p",
+          "text": "Hegseth welcomed to the Pentagon the army unit that guards the tomb and awarded Specialist Thomas Iglesias with the Joint Service Commendation Medal \"for the execution of his duties at the Tomb of the Unknown Soldier on Nov. 11, 2026,\" the Pentagon said."
+        },
+        {
+          "type": "p",
+          "text": "On social media, Hegseth posted photos Thursday that show him pinning the award and shaking hands with a soldier. His post says: \"We love soldiers. We love standards. Well done, Specialist.\""
+        },
+        {
+          "type": "quote",
+          "text": "We love soldiers. We love standards. Well done, Specialist. Carry on Patriots. https://t.co/Uk6ek6oOso&mdash;SecWar"
+        },
+        {
+          "type": "p",
+          "text": "Iglesias reprimanded Hegseth and a group of his staffers when a loud laugh was heard after they took photos at the site following a ceremony that included U.S. President Donald Trump and Vice- President JD Vance."
+        },
+        {
+          "type": "p",
+          "text": "Video showed Hegseth taking photos on the empty steps in front of the tomb on Wednesday with his wife, Jennifer, chief of staff Ricky Buria, deputy chief of staff Patrick Weaver and senior adviser Tami Radabaugh."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Joining lawsuit, Kennedy family members say Trump's arch would be 'denigration' of JFK, RFK plots at Arlington"
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Incident follows impeachment vote"
+        },
+        {
+          "type": "p",
+          "text": "The tomb is considered to be one of the most solemn and revered war memorials in the U.S., being the final resting place of unidentified soldiers from the First World War, the Second World War and the Korean War. It has been guarded around the clock regardless of weather conditions by a soldier from the Army's 3rd Infantry Regiment, also known as \"The Old Guard,\" since 1948."
+        },
+        {
+          "type": "p",
+          "text": "The Joint Service Commendation Medal is considered to be one of the higher awards in the military and is not typically issued to junior enlisted service members."
+        },
+        {
+          "type": "p",
+          "text": "Republicans block impeachment push against Hegseth"
+        },
+        {
+          "type": "p",
+          "text": "Sean Parnell, the Pentagon's top spokesperson, said soon after video of the reprimand emerged that the soldier \"correctly and respectfully reminded everyone to maintain decorum.\""
+        },
+        {
+          "type": "p",
+          "text": "The scolding drew attention once more to the embattled war secretary, who had survived an attempt to open impeachment proceedings. The effort was led by Republican Rep. Thomas Massie and backed by Democrats, though 11 missed the vote as other Republicans rejected the effort."
+        },
+        {
+          "type": "p",
+          "text": "LISTEN | David Smith, Guardian D.C. bureau chief, on Hegseth's future:"
+        },
+        {
+          "type": "p",
+          "text": "Front Burner28:11Pete Hegseth survives impeachment, for now"
+        },
+        {
+          "type": "p",
+          "text": "While Hegseth's critics were not successful in Tuesday's vote, Republicans may have only delayed a bid to impeach him. With Democrats set to take control of the House and Senate in January, those efforts are likely to be renewed."
+        },
+        {
+          "type": "p",
+          "text": "Hegseth rebuked the move Tuesday in his first news conference in months, arguing that he had committed none of the high crimes required in the U.S. Constitution for his removal and framing the effort as an indictment against the nation's service members and their successes."
+        },
+        {
+          "type": "p",
+          "text": "\"This is not patriotism,\" Hegseth argued. \"This is sabotage.\""
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-zk0mxo",
+      "source": "inq",
+      "title": "Softer bank, property earnings pull Ayala core profit down by 6%",
+      "summary": "MANILA, Philippines — Ayala Corp.’s core net income fell 6 percent to P34.5 billion in the first nine months of 2026 as weaker earnings from its banking and property businesses and lower…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:14:00.000Z",
+      "firstSeen": "2026-11-12T18:31:00.023Z",
+      "url": "https://business.inquirer.net/620635/softer-bank-property-earnings-pull-ayala-core-profit-down-by-6",
+      "image": {
+        "src": "https://business.inquirer.net/files/2025/03/Ayala-Corp.-logo-file-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Ayala Corp.’s core net income fell 6 percent to P34.5 billion in the first nine months of 2026 as weaker earnings from its banking and property businesses and lower non-operating income weighed on the conglomerate. On Thursday, the conglomerate said steady core earnings from Globe Telecom Inc., a higher contribution from AC Energy [&hellip;]... Keep on reading: Softer bank, property earnings pull Ayala core profit down by 6%"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-34q71l",
+      "source": "inq",
+      "title": "Marketing rescue: Beware of 4 untested business assumptions",
+      "summary": "MANILA, Philippines — In recent sessions of our Marketing Rescue free consulting program at Mansmith and Fielders, we observed a recurring pattern among business owners and founders. Sales are…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:12:00.000Z",
+      "firstSeen": "2026-11-12T18:31:05.238Z",
+      "url": "https://business.inquirer.net/620628/marketing-rescue-beware-of-4-untested-business-assumptions",
+      "image": {
+        "src": "https://business.inquirer.net/files/2026/11/Marketing-Pulse1329208-620x434.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — In recent sessions of our Marketing Rescue free consulting program at Mansmith and Fielders, we observed a recurring pattern among business owners and founders. Sales are slowing. Customer acquisition costs are rising. New product launches are underperforming. In response, management teams are working harder, spending more and launching more initiatives. Yet revenue [&hellip;]... Keep on reading: Marketing rescue: Beware of 4 untested business assumptions"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-e9uqcr",
+      "source": "abs",
+      "title": "No lies, no cheating! The rules of loyalty according to “The Loyalty Game” stars",
+      "summary": "Janine Gutierrez, Jericho Rosales and \"The Loyalty Game\" stars reveal their golden rules of loyalty.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:10:01.000Z",
+      "firstSeen": "2026-11-12T18:31:00.022Z",
+      "url": "https://www.abs-cbn.com/entertainment/studios/tv/2026/11/13/no-lies-no-cheating-the-rules-of-loyalty-according-to-the-loyalty-game-stars-0210",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Janine Gutierrez, Jericho Rosales and \"The Loyalty Game\" stars reveal their golden rules of loyalty."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-berqv",
+      "source": "inq",
+      "title": "Can paper-based packaging crack the canned tuna market?",
+      "summary": "MANILA, Philippines — The tin can has long defined the look of packaged tuna. On supermarket shelves where competing brands vie for shoppers’ attention, the familiar format leaves little room for…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:10:00.000Z",
+      "firstSeen": "2026-11-12T18:31:05.239Z",
+      "url": "https://business.inquirer.net/620623/can-paper-based-packaging-crack-the-canned-tuna-market",
+      "image": {
+        "src": "https://business.inquirer.net/files/2026/11/Marketing-Pulse1319871-620x352.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The tin can has long defined the look of packaged tuna. On supermarket shelves where competing brands vie for shoppers’ attention, the familiar format leaves little room for visual distinction. Tetra Pak wants Philippine tuna brands to consider Tetra Recart, a retortable paper-based packaging format designed for shelf-stable foods. The company says it [&hellip;]... Keep on reading: Can paper-based packaging crack the canned tuna market?"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-jkfzcp",
+      "source": "grd",
+      "title": "Pete Hegseth awards medal to soldier who reprimanded him near Tomb of the Unknown Soldier",
+      "summary": "<p>‘We love standards. Well done, Specialist’, the defense secretary writes following Veterans Day visit</p><p>The defense secretary, <a href=\"https://www.theguardian.com/us-news/pete-hegseth\">Pete…",
+      "byline": "Marina Dunbar",
+      "section": "Pete Hegseth",
+      "published": "2026-11-12T18:08:31.000Z",
+      "firstSeen": "2026-11-12T18:30:58.486Z",
+      "url": "https://www.theguardian.com/us-news/2026/nov/12/pete-hegseth-medal-soldier-reprimand",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/79757adb826f69461c2e82c8b5fb08b11c578c41/809_0_4055_3243/master/4055.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=657d55cb9fc45a3381e1e99247147bc8",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The defense secretary, Pete Hegseth, on Thursday awarded a Joint Service Commendation Medal to the soldier who called out him and members of his staff after some in the group were heard laughing and talking near the Tomb of the Unknown Soldier during a Veterans Day visit."
+        },
+        {
+          "type": "p",
+          "text": "“We love soldiers. We love standards. Well done, Specialist,” Hegseth wrote in a social media post. “Carry on Patriots.” The post included a series of photos of Hegseth with the soldier."
+        },
+        {
+          "type": "p",
+          "text": "A Pentagon official confirmed to CNN that Hegseth hosted members of the 3rd infantry regiment, known as the Old Guard, at the Pentagon “where he proudly awarded Specialist Iglesias the Joint Service Commendation Medal for the execution of his duties at the Tomb of the unknown Soldier on November 11, 2026”."
+        },
+        {
+          "type": "p",
+          "text": "The recognition came just one day after specialist Thomas Iglesias confronted members of Hegseth’s group at Arlington national cemetery."
+        },
+        {
+          "type": "p",
+          "text": "Hegseth and his team were at the cemetery for a Veterans Day ceremony that was also attended by Donald Trump and JD Vance, who both laid wreaths at the memorial in honor of fallen soldiers and delivered remarks afterwards. Trump had called out Hegseth during his speech at the ceremony, saying he’s done a “fantastic job” in his role as defense secretary."
+        },
+        {
+          "type": "p",
+          "text": "Hegseth was visiting the tomb alongside his wife, chief of staff Ricky Buria, deputy chief of staff Patrick Weaver, and senior adviser and deputy assistant Tami Radabaugh. The group had been posing for photographs in front of the tomb before they were caught laughing and talking."
+        },
+        {
+          "type": "p",
+          "text": "Iglesias, who was patrolling the tomb at the time, abruptly stopped walking, turned toward the group and issued a warning."
+        },
+        {
+          "type": "p",
+          "text": "“All visitors will maintain an atmosphere of silence and respect at all times,” Iglesias called out."
+        },
+        {
+          "type": "p",
+          "text": "Chief Pentagon spokesman Sean Parnell addressed the incident in a statement: “The secretary and the entire department have always honored – and will always honor – the sacrifices our military men and women have made to keep America safe."
+        },
+        {
+          "type": "p",
+          "text": "The Tomb of the Unknown Soldier at Arlington national cemetery is one of the most sacred war memorials in the country, marking the final resting place of an unknown soldier who was killed in the first world war."
+        },
+        {
+          "type": "p",
+          "text": "Soldiers from the Old Guard have maintained a round-the-clock watch over the tomb since 1948. Part of their responsibility includes enforcing strict standards of silence and respect, and correcting visitors whose behavior disrupts the solemn atmosphere."
+        },
+        {
+          "type": "p",
+          "text": "The Joint Service Commendation Medal is awarded to members of the US armed forces who distinguish themselves by “meritorious achievement or service while serving in any specified activity”, according to the air force’s personnel center."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-geexd7",
+      "source": "inq",
+      "title": "BIZ BUZZ: Rigodon and Pax Silica",
+      "summary": "MANILA, Philippines — Another major government shakeup that has reshuffled President Marcos’ economic team is raising fresh—and, for now, unanswered—questions about the Philippines’ much-touted Pax…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:08:00.000Z",
+      "firstSeen": "2026-11-12T18:31:07.007Z",
+      "url": "https://business.inquirer.net/620647/biz-buzz-rigodon-and-pax-silica",
+      "image": {
+        "src": "https://business.inquirer.net/files/2026/06/BizBuzzLogo-620x324.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Another major government shakeup that has reshuffled President Marcos’ economic team is raising fresh—and, for now, unanswered—questions about the Philippines’ much-touted Pax Silica hub. As early as Wednesday night, rumors were already swirling that Bases Conversion and Development Authority (BCDA) President and CEO Joshua Bingcang, whose agency oversees the planned hub, would be [&hellip;]... Keep on reading: BIZ BUZZ: Rigodon and Pax Silica"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-16blop9",
+      "source": "inq",
+      "title": "UA&P: Sugar industry can reduce import dependence",
+      "summary": "MANILA, Philippines — The Philippine sugar industry still has room to improve productivity and reduce its dependence on imports despite persistent production challenges, according to a report from…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:06:00.000Z",
+      "firstSeen": "2026-11-12T18:31:07.007Z",
+      "url": "https://business.inquirer.net/620609/uap-sugar-industry-can-reduce-import-dependence",
+      "image": {
+        "src": "https://business.inquirer.net/files/2024/12/sugar-620x404.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Philippine sugar industry still has room to improve productivity and reduce its dependence on imports despite persistent production challenges, according to a report from the University of Asia and the Pacific (UA&P). In a briefer, the UA&P-CFA said the sugar industry continues to face structural challenges hampering its productivity and competitiveness [&hellip;]... Keep on reading: UA&P: Sugar industry can reduce import dependence"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-1omi5me",
+      "source": "abs",
+      "title": "Beyond the Chills: The cast’s fun moments on the set of iWant’s “Dead Girl Walking”",
+      "summary": "Take a look at the fun and chaotic BTS moments from the set of iWant vertical series “Dead Girl Walking.”",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:05:01.000Z",
+      "firstSeen": "2026-11-12T18:31:05.238Z",
+      "url": "https://www.abs-cbn.com/entertainment/studios/tv/2026/11/13/beyond-the-chills-the-cast-s-fun-moments-on-the-set-of-iwant-s-dead-girl-walking-0205",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Take a look at the fun and chaotic BTS moments from the set of iWant vertical series “Dead Girl Walking.”"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1vnhkh1",
+      "source": "inq",
+      "title": "PFDA upgrades fish ports in CamSur, Camiguin, Pampanga",
+      "summary": "MANILA, Philippines — The Philippine Fisheries Development Authority (PFDA) is upgrading major fish port and market infrastructure projects in Camarines Sur, Camiguin, and Pampanga to improve…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:04:00.000Z",
+      "firstSeen": "2026-11-12T18:31:07.043Z",
+      "url": "https://business.inquirer.net/620606/pfda-upgrades-fish-ports-in-camsur-camiguin-pampanga",
+      "image": {
+        "src": "https://business.inquirer.net/files/2026/06/Philippine-Fisheries-Development-Authority-PDFA-22June2026-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Philippine Fisheries Development Authority (PFDA) is upgrading major fish port and market infrastructure projects in Camarines Sur, Camiguin, and Pampanga to improve postharvest handling and expand market access. &#8220;The projects will benefit approximately 137,000 fishermen and industry players by boosting fish handling, improving cold storage capacity, and creating more efficient market access [&hellip;]... Keep on reading: PFDA upgrades fish ports in CamSur, Camiguin, Pampanga"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-yk8v8w",
+      "source": "inq",
+      "title": "Daily Gospel, November 13, 2026",
+      "summary": "This is the Daily Gospel of November 13, 2026, which is the Friday of the Thirty-second week in Ordinary Time. READ MORE Daily Gospel, November 12, 2026 Daily Gospel, November 11, 2026 This is the…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T18:01:49.000Z",
+      "firstSeen": "2026-11-12T18:31:07.043Z",
+      "url": "https://cebudailynews.inquirer.net/784667/daily-gospel-november-13-2026",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2024/10/gospel2-2-2-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "This is the Daily Gospel of November 13, 2026, which is the Friday of the Thirty-second week in Ordinary Time. READ MORE Daily Gospel, November 12, 2026 Daily Gospel, November 11, 2026 This is the Holy Gospel of Jesus Christ, according to Saint Luke 17, 26-37. Jesus said to his disciples: “As it was in the days of Noah, so it will be in the days of the Son of Man; they were eating and drinking, marrying and giving in marriage up to the day that Noah entered the ark, and the flood came and destroyed them all. Similarly, as it was [&hellip;]... Keep on reading: Daily Gospel, November 13, 2026"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-jfp0bz",
+      "source": "grd",
+      "title": "Lewis Hamilton says ‘Israel’s genocide in Gaza is appalling’ after Rafah visit",
+      "summary": "<ul><li><p>F1 driver urges Israel to let aid into Gaza</p></li><li><p>Trip involved tour of facilities with aid workers</p></li></ul><p>Formula One driver Lewis Hamilton said on Wednesday that Israel…",
+      "byline": "Agencies and Guardian sport",
+      "section": "Lewis Hamilton",
+      "published": "2026-11-12T18:00:50.000Z",
+      "firstSeen": "2026-11-12T18:30:58.006Z",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/lewis-hamilton-gaza-visit-rafah-israel",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/9f421ee9a5c3c6382f96f0224c1cede036b26ba6/1168_0_5840_4672/master/5840.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=4f4fcb9c3636fdfba9468c15830cd3db",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Formula One driver Lewis Hamilton said on Wednesday that Israel must allow aid ⁠trucks into Gaza, a day after he visited the Rafah border crossing in Egypt."
+        },
+        {
+          "type": "p",
+          "text": "Hamilton, a seven-time ⁠world champion, arrived ⁠in ​El Arish on Tuesday, where he was briefed on how aid is prepared and coordinated before it ⁠is sent into Gaza, as he toured the Rafah crossing and the Egyptian Red Crescent’s aid warehouses."
+        },
+        {
+          "type": "p",
+          "text": "He has frequently posted on social media about children killed in Israeli airstrikes in Gaza and called for a ceasefire. A ceasefire agreement reached last year has halted major combat operations in Gaza, but the amount of aid reaching the territory continues to fall far short of the agreed-upon minimum of 600 trucks a day."
+        },
+        {
+          "type": "p",
+          "text": "“The past ⁠three years of Israel’s genocide in Gaza is appalling. It’s an ​injustice for people to ‌be denied their freedom, ‌their safety and their dignity. No human being should be treated ‌as though their life matters less,” the Ferrari driver wrote on Instagram."
+        },
+        {
+          "type": "p",
+          "text": "Israel strongly denies accusations of genocide and says its military campaign in Gaza targets Hamas militants."
+        },
+        {
+          "type": "p",
+          "text": "Hamilton described seeing food trucks lined up and ready to go at the border that were ‌regularly held up or faced major delays."
+        },
+        {
+          "type": "p",
+          "text": "“I saw walls stretching for miles, built to keep them in. Standing there, outside what felt like an open-air prison, all I could think about was getting in to help,” he said in the post. “At the Rafah border, I saw food trucks lined up ready to go, but they’re regularly not allowed in or face major delays. The first driver in line that I spoke to had already been waiting over 12 hours. At the nearby logistics centre, I saw the hard work of the aid workers, but I also saw what gets rejected for crazy reasons. Sleeping bags, first aid kits, medical equipment, wheelchairs even footballs for kids."
+        },
+        {
+          "type": "p",
+          "text": "“Israel needs to fulfil its obligations under the ceasefire and let the aid trucks in. I know so many people feel that same helplessness. That same need to do something rather than just watch. No excuse. I don’t want ⁠us to get used to their suffering. I don’t ​want us to ​look away.”"
+        },
+        {
+          "type": "p",
+          "text": "Allow Instagram content?"
+        },
+        {
+          "type": "p",
+          "text": "This article includes content provided by Instagram. We ask for your permission before anything is loaded, as they may be using cookies and other technologies. To view this content, click 'Allow and continue'."
+        },
+        {
+          "type": "p",
+          "text": "Hamilton, 41, is an ​advocate for humanitarian causes. In 2021 he founded ​Mission 44, a ‌charity that supports ​young people ​and works to improve their access to education and employment."
+        },
+        {
+          "type": "p",
+          "text": "“I think we need to make sure we’re pushing to free Congo, free Sudan, free Syria, free Palestine,” Hamilton said last month. “I think there’s a lot of peace that I’m hoping we get to at some stage.”"
+        },
+        {
+          "type": "p",
+          "text": "At the crossing on Tuesday, Hamilton greeted aid workers with “Assalamu alaikum” a widely used Arabic greeting meaning “peace be upon you”. He shook hands and briefly spoke to workers and officials."
+        },
+        {
+          "type": "p",
+          "text": "Hamilton is fourth in the drivers’ championship. Mercedes’ Kimi Antonelli has won the title with three races to go. The Las Vegas Grand Prix is 21 November before the Qatar Grand Prix on 29 November and the season-ending Abu Dhabi Grand Prix on 6 December."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-148ckbs",
+      "source": "inq",
+      "title": "Heat, crowd limits top safety measures for 462nd Fiesta Señor in Cebu",
+      "summary": "CEBU CITY, Philippines — With threats of intense heat looming over next year’s Fiesta Señor, church and city officials are tightening crowd-control and safety measures for the religious celebration.…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-12T17:56:27.000Z",
+      "firstSeen": "2026-11-12T18:31:08.806Z",
+      "url": "https://newsinfo.inquirer.net/2340529/heat-crowd-limits-top-safety-measures-for-462nd-fiesta-senor-in-cebu",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/01/IMG_5664-620x465.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CEBU CITY, Philippines — With threats of intense heat looming over next year’s Fiesta Señor, church and city officials are tightening crowd-control and safety measures for the religious celebration. Augustinian friars at the Basilica Minore del Santo Niño de Cebu on Thursday, Nov. 12, outlined plans to manage crowds and prevent heat-related illnesses during the monthlong religious celebration in January 2027. These include limiting the capacity of the Pilgrim Center to 5,000 people. Organizers are also considering installing outdoor misting stations to help lower temperatures in the open-air venue. Fr. Jules Van Almerez, the Basilica’s mass media director and media liaison, [&hellip;]... Keep on reading: Heat, crowd limits top safety measures for 462nd Fiesta Señor in Cebu"
         }
       ],
       "truncated": true,
@@ -872,30 +1787,6 @@
         {
           "type": "p",
           "text": "Several schools in the area have been placed under “alert status” as public safety teams continue responding to the incident."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-1fkce7c",
-      "source": "grd",
-      "title": "Mississippi makes history with Democrat senate win - The Latest",
-      "summary": "<p>Mississippi has elected the Democrat Scott Colom in a historic race in the traditionally deep-red state, making him its first Black senator since shortly after the US civil war. The closely…",
-      "byline": "Presented by Lucy Hough with George Chidi; produced by Angus Neale; senior producer Leonore Schick; executive producer Zoe Hitch",
-      "section": "Democrats",
-      "published": "2026-11-12T17:42:03.000Z",
-      "firstSeen": "2026-11-12T18:01:10.947Z",
-      "url": "https://www.theguardian.com/news/audio/2026/nov/12/scott-colom-senate-victory-mississippi-the-latest",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/6da014ce1ff9a74d0c95194d57c659ad02c869c7/292_0_2917_2333/master/2917.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e24b77c21f92cb0ca9b35539a9d8185e",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Mississippi has elected the Democrat Scott Colom in a historic race in the traditionally deep-red state, making him its first Black senator since shortly after the US civil war. The closely contested race was called more than a week after the US midterms, with Colom running against the Republican incumbent, Cindy Hyde-Smith. How did Colom’s grassroots campaign win despite limited early backing from national Democrats? Lucy Hough speaks to politics and democracy reporter George Chidi – watch on YouTube"
         }
       ],
       "truncated": false,
@@ -2803,7 +3694,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-gezbwk",
@@ -3796,31 +4687,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-1wncgse",
-      "source": "inq",
-      "title": "Road reblocking, repairs on southbound Edsa start Nov. 13 to 15",
-      "summary": "MANILA, Philippines — Road reblocking and repairs will be conducted over the southbound portion of Epifanio de los Santos Avenue or Edsa from Nov. 13 to 15, the Department of Public Works and…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T15:58:26.000Z",
-      "firstSeen": "2026-11-12T18:01:12.682Z",
-      "url": "https://newsinfo.inquirer.net/2340577/road-reblocking-repairs-on-southbound-edsa-from-nov-13-to-15",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/07/Metro-Manila-roads_edsa-work-repar-file-2023-12July2024-300x169.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Road reblocking and repairs will be conducted over the southbound portion of Epifanio de los Santos Avenue or Edsa from Nov. 13 to 15, the Department of Public Works and Highways (DPWH) said Thursday, ahead of the 49th Association of Southeast Asian Nations (Asean) Summit. According to the DPWH in an advisory, the repairs, which cover Edsa southbound from Caloocan to Quezon City, form part of the EDSA Rehabilitation Project Phase 2. READ: No general road closures during Asean Summit, says MMDA The exact schedule for the repairs is as follows: Nov. 13 (10 p.m. onwards) – Asphalt [&hellip;]... Keep on reading: Road reblocking, repairs on southbound Edsa start Nov. 13 to 15"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-njsnrt",
       "source": "inqg",
       "title": "&#8216;Peruvian pope&#8217; makes jubilant return to &#8216;homeland&#8217;",
@@ -3838,31 +4704,6 @@
         {
           "type": "p",
           "text": "LIMA &#8212; Pope Leo XIV arrived in his &#8220;beloved&#8221; Peru on Wednesday, a nostalgic return to the nation where he spent two decades as a missionary before being tapped to lead the world&#8217;s 1.4 billion Catholics. The 71-year-old pontiff landed in Lima on the last leg of an arduous three-nation Latin American tour, just weeks"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-zvl8zi",
-      "source": "inq",
-      "title": "PDEA destroys P162.5-M illegal drugs, expired medicines in Zamboanga Sur",
-      "summary": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — Anti-narcotics operatives on Thursday destroyed P162.52 million worth of confiscated illegal drugs and regulated medicines in Aurora, Zamboanga del…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T15:48:42.000Z",
-      "firstSeen": "2026-11-12T16:01:00.129Z",
-      "url": "https://newsinfo.inquirer.net/2340511/pdea-destroys-p162-5-m-illegal-drugs-expired-medicines-in-zamboanga-sur",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Zamboanga-drugs-12nov2026-620x412.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — Anti-narcotics operatives on Thursday destroyed P162.52 million worth of confiscated illegal drugs and regulated medicines in Aurora, Zamboanga del Sur, in a bid to prevent the seized contraband from being recycled back into the streets. The Philippine Drug Enforcement Agency in Zamboanga Peninsula (PDEA-9) led the thermal destruction of P162,524,439.09 worth of evidence at the Libertad Power and Energy Corporation facility on Nov. 12. The bulk of the destroyed contraband consisted of 23.62 kilograms of meth, locally known as &#8220;shabu,&#8221; valued at P160,608,179.32, and 9.13 kilograms of marijuana worth P1,096,078.83. READ: Senior citizen nabbed with [&hellip;]... Keep on reading: PDEA destroys P162.5-M illegal drugs, expired medicines in Zamboanga Sur"
         }
       ],
       "truncated": true,
@@ -4670,31 +5511,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-785n89",
-      "source": "inq",
-      "title": "The best advertisement money can't buy",
-      "summary": "Countries spend fortunes on tourism campaigns hoping a few seconds of footage will stick in a traveler&#8217;s mind. Hosting the ASEAN Summit gives the Philippines something better: thousands of…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T15:17:54.000Z",
-      "firstSeen": "2026-11-12T15:30:56.146Z",
-      "url": "https://opinion.inquirer.net/196341/the-best-advertisement-money-cant-buy",
-      "image": {
-        "src": "https://opinion.inquirer.net/files/2024/06/SHARP-EDGES-JAKE-J-MADERAZO-300x152.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Countries spend fortunes on tourism campaigns hoping a few seconds of footage will stick in a traveler&#8217;s mind. Hosting the ASEAN Summit gives the Philippines something better: thousands of visitors who will see the country for themselves, and international media who will show it to millions more. The immediate gains are easy to count. Hotels fill up. Restaurants serve extra covers. Tour operators, drivers and guides get bookings. Delegates who arrive early or stay a few days longer spend on shopping, food and side trips. Money circulates through the local economy fast. The longer gain is harder to measure but more [&hellip;]... Keep on reading: The best advertisement money can't buy"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct HTTP 403"
-    },
-    {
       "id": "inqg-j2ki4",
       "source": "inqg",
       "title": "PNP to declare full alert status on Friday for Asean Summit",
@@ -5303,31 +6119,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-1bamp8d",
-      "source": "inq",
-      "title": "Nvidia CEO Huang resigns after his affair raises nat’l security concerns",
-      "summary": "UNITED STATES — Nvidia CEO Jensen Huang resigned Thursday after his extramarital affair raised national security concerns, in a spectacular downfall for the longtime head of the chipmaker, a vital…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T15:05:32.000Z",
-      "firstSeen": "2026-11-12T15:30:56.206Z",
-      "url": "https://globalnation.inquirer.net/347126/nvidia-ceo-huang-resigns-after-his-affair-raises-natl-security-concerns",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AP26312766429671-1-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "UNITED STATES — Nvidia CEO Jensen Huang resigned Thursday after his extramarital affair raised national security concerns, in a spectacular downfall for the longtime head of the chipmaker, a vital player in the artificial intelligence boom. The company named Colette Kress as interim chief executive. She is the current executive vice president and chief financial officer. Huang faced growing calls to resign after his affair with a Chinese businesswoman who reportedly was also acting as a spy for Beijing. His troubles compounded late Wednesday after media reports said Huang had another extramarital affair with an Nvidia employee who reported to him. [&hellip;]... Keep on reading: Nvidia CEO Huang resigns after his affair raises nat’l security concerns"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-1nmm0wk",
       "source": "inqg",
       "title": "Nepal’s push for Himalayan climate agenda falls short at COP31",
@@ -5670,31 +6461,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-5qoojz",
-      "source": "inq",
-      "title": "PVL: Creamline’s miscues prove costly in loss to Choco Mucho",
-      "summary": "MANILA, Philippines — Jema Galanza lamented Creamline&#8217;s miscues, especially in the fifth set, as the Cool Smashers dropped their highly anticipated match against Choco Mucho in the 2026 PVL…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T14:48:17.000Z",
-      "firstSeen": "2026-11-12T15:01:02.618Z",
-      "url": "https://sports.inquirer.net/706887/pvl-creamlines-miscues-prove-costly-in-loss-to-choco-mucho",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/IMG_1105_PVL-All-Filipino-Conference-Siklab-series-Creamline-Choco-Mucho_Jema-Galanza-Bea-De-Leon-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Jema Galanza lamented Creamline&#8217;s miscues, especially in the fifth set, as the Cool Smashers dropped their highly anticipated match against Choco Mucho in the 2026 PVL All-Filipino Conference Siklab Series. Creamline absorbed its second straight loss, 23-25, 25-13, 25-23, 22-25, 15-13, after giving up 27 free points to Choco Mucho from errors on Thursday at Smart Araneta Coliseum. “We committed a lot of errors and gave away so many points. But that&#8217;s how it is sometimes. Nobody&#8217;s perfect, and as a team, we also made mistakes during crucial moments,” said Galanza in Filipino after tallying 16 points, 13 [&hellip;]... Keep on reading: PVL: Creamline’s miscues prove costly in loss to Choco Mucho"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "abs-yypwj7",
       "source": "abs",
       "title": "TV PATROL: 'South Triangle Christmas Bazaar' sa QC tampok ang samu't saring pagkain",
@@ -5808,31 +6574,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-1x4desb",
-      "source": "inq",
-      "title": "DOJ to press case build-up vs Thomas Markle",
-      "summary": "MANILA, Philippines — The Department of Justice (DOJ) is pressing ahead with its domestic case build-up against Thomas Markle over his alleged violations of Child Sexual Abuse or Exploitation…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T14:45:34.000Z",
-      "firstSeen": "2026-11-12T15:01:02.701Z",
-      "url": "https://globalnation.inquirer.net/347121/doj-to-press-case-build-up-vs-thomas-markle",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/Thomas-Markle-Photograph-ITVRexShutterstock-1-620x382.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Department of Justice (DOJ) is pressing ahead with its domestic case build-up against Thomas Markle over his alleged violations of Child Sexual Abuse or Exploitation Materials (CSAEM), even though the suspect has already been indicted in the United States. Markle is the estranged father of Meghan Markle, the Duchess of Sussex. Justice Secretary Fredderick Vida said he is not privy to the specific charges filed against Markle in the US. READ: PNP seeks possible local accomplices in Thomas Markle child abuse case However, he said local authorities are working to establish his criminal liability in the Philippines. [&hellip;]... Keep on reading: DOJ to press case build-up vs Thomas Markle"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-r6bjj5",
       "source": "abs",
       "title": "TV PATROL: James Reid nagkuwento tungkol sa pinagdaanang hamon sa 'Haunted Carnival'",
@@ -5853,31 +6594,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-6joukh",
-      "source": "inq",
-      "title": "PVL: Deanna Wong savors 'sweetest' Choco Mucho win over Creamline",
-      "summary": "MANILA, Philippines — After Caitlin Viray nailed the game-winning attack, an emotional Deanna Wong dropped to the taraflex and pounded the floor in celebration, fired up after Choco Mucho’s big win…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T14:40:53.000Z",
-      "firstSeen": "2026-11-12T15:01:03.630Z",
-      "url": "https://sports.inquirer.net/706884/pvl-deanna-wong-savors-sweetest-choco-mucho-win-over-creamline",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/IMG_1836_PVL-All-Filipino-Conference-Siklab-series-Creamline-Choco-Mucho_Deana-Wong-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — After Caitlin Viray nailed the game-winning attack, an emotional Deanna Wong dropped to the taraflex and pounded the floor in celebration, fired up after Choco Mucho’s big win over longtime tormentor and sister team Creamline. Wong then shared a high five with her partner, Akari star Ivy Lacsina, before her teammates rushed in to pull her into a group hug as the Flying Titans finally overcame a major obstacle with a 23-25, 25-13, 25-23, 22-25, 15-13 victory to keep their semifinal hopes alive in the 2026 PVL All-Filipino Conference Siklab Series on Thursday at Smart Araneta Coliseum. “As [&hellip;]... Keep on reading: PVL: Deanna Wong savors 'sweetest' Choco Mucho win over Creamline"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-15urczn",
@@ -5966,31 +6682,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-1vh38t5",
-      "source": "inq",
-      "title": "LOOK: Peru welcomes Pope Leo XIV on final stop of South American tour",
-      "summary": "Pope Leo XIV returned to Peru on Wednesday, the country he considers his second home, where he spent more than two decades as a missionary priest and bishop. This is a photo gallery curated by…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T14:37:20.000Z",
-      "firstSeen": "2026-11-12T15:01:06.459Z",
-      "url": "https://cebudailynews.inquirer.net/784610/look-peru-welcomes-pope-leo-xiv-on-final-stop-of-south-american-tour",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/11/download-2026-11-12T222311.396-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Pope Leo XIV returned to Peru on Wednesday, the country he considers his second home, where he spent more than two decades as a missionary priest and bishop. This is a photo gallery curated by Associated Press photo editors. READ: Pope Leo jets to Lima for Peru homecoming READ: ‘Cursed’ Peru town hopes Pope Leo brings better luck... Keep on reading: LOOK: Peru welcomes Pope Leo XIV on final stop of South American tour"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "rap-18vyego",
@@ -6251,31 +6942,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-jn1oej",
-      "source": "inq",
-      "title": "Two weather systems to bring rain in parts of PH on Friday, Nov. 13",
-      "summary": "MANILA, Philippines — Two different weather systems are forecast to bring rain over various parts of the country on Friday, the state weather bureau said. According to the Philippine Atmospheric,…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T14:25:18.000Z",
-      "firstSeen": "2026-11-12T16:01:12.730Z",
-      "url": "https://newsinfo.inquirer.net/2340512/weather-for-friday-nov-13",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/pagasa-satellite-620x349.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Two different weather systems are forecast to bring rain over various parts of the country on Friday, the state weather bureau said. According to the Philippine Atmospheric, Geophysical, and Astronomical Services Administration (Pagasa) in its latest weather forecast, the northeast monsoon or “amihan” will continue to affect and bring rain over parts of Northern Luzon, particularly the Ilocos Region, Cagayan Valley, and the Cordillera Administrative Region. Meanwhile, high chances of rain are also forecast over parts of Southern Luzon due to the easterlies, specifically Quezon Province and Bicol Region. READ: PH Weather Updates Today: Storm News and PAGASA [&hellip;]... Keep on reading: Two weather systems to bring rain in parts of PH on Friday, Nov. 13"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "dw-1lt0d13",
       "source": "dw",
       "title": "Iran: Exiled journalists still repressed by regime",
@@ -6408,31 +7074,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-1hinsz7",
-      "source": "inq",
-      "title": "PVL: Eya Laure fights through pain to deliver for Choco Mucho",
-      "summary": "MANILA, Philippines — Playing through minor back pain, Eya Laure almost didn’t finish another Choco Mucho-Creamline showdown after only starting in the first set and missing the next three. But when…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T14:17:06.000Z",
-      "firstSeen": "2026-11-12T14:31:04.099Z",
-      "url": "https://sports.inquirer.net/706879/pvl-eya-laure-fights-through-pain-to-deliver-for-choco-mucho",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/IMG_1729_PVL-All-Filipino-Conference-Siklab-series-Creamline-Choco-Mucho_Eya-Laure-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Playing through minor back pain, Eya Laure almost didn’t finish another Choco Mucho-Creamline showdown after only starting in the first set and missing the next three. But when her number was called in the fifth set, Laure delivered the telling blows to propel Choco Mucho past Creamline, 23-25, 25-13, 25-23, 22-25, 15-13, in a win that keeps the team&#8217;s semifinal hopes alive in the 2026 PVL All-Filipino Conference Siklab Series on Thursday at Smart Araneta Coliseum. “When it comes to a fifth set, I&#8217;ll fight until the very end. Whatever I&#8217;m feeling, I don&#8217;t want to waste the [&hellip;]... Keep on reading: PVL: Eya Laure fights through pain to deliver for Choco Mucho"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "bbc-xowebp",
       "source": "bbc",
       "title": "Before Scott Colom, these two men were the last black US senators in Mississippi",
@@ -6475,31 +7116,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-2ori47",
-      "source": "inq",
-      "title": "‘SURE Ka Na Ba?’ campaign launched to help Filipinos detect online scams",
-      "summary": "MANILA – The Department of Justice (DOJ) and its government and private sector partners launched the “SURE Ka Na Ba?” campaign on Thursday to raise awareness and strengthen efforts against cyber…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T14:12:49.000Z",
-      "firstSeen": "2026-11-12T14:31:04.142Z",
-      "url": "https://cebudailynews.inquirer.net/784607/sure-ka-na-ba-campaign-launched-to-help-filipinos-detect-online-scams",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/11/902082340_1117461984469419_7529541381322747372_n_edited-620x377.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA – The Department of Justice (DOJ) and its government and private sector partners launched the “SURE Ka Na Ba?” campaign on Thursday to raise awareness and strengthen efforts against cyber fraud. The Department of Trade and Industry (DTI), the Bangko Sentral ng Pilipinas (BSP), and the National Telecommunications Commission (NTC), as well as private sector partners &#8212; the Kapisanan ng mga Brodkaster ng Pilipinas (KBP), Smart Communications, Globe Telecom, Maya, DITO, and BPI joined the campaign, which involves the acronym S-U-R-E that stands for “spot, understand, report, and empower.” READ: PNP ACG sees decline in online scams, cites improved awareness [&hellip;]... Keep on reading: ‘SURE Ka Na Ba?’ campaign launched to help Filipinos detect online scams"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-14ku4od",
@@ -11646,70 +12262,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "gma-1hs6msc",
-      "source": "gma",
-      "title": "Palace hopeful South China Sea COC will be signed before ASEAN chairmanship ends",
-      "summary": "Malacañang on Thursday said it is still hopeful that the Code of Conduct (COC) in the South China Sea would be signed before the Philippines' Association of Southeast Asian Nations (ASEAN)…",
-      "byline": "MARIEL CELINE SERQUIÑA, GMA News",
-      "section": "",
-      "published": "2026-11-12T10:24:03.000Z",
-      "firstSeen": "2026-11-12T10:30:56.233Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1009291/palace-hopeful-south-china-sea-coc-will-be-signed-before-asean-chairmanship-ends/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/11/Palace_Clearing_ops_to_ensure_security_of_leaders_in_ASEAN_2026_Photo_by_Mariel_Celine_Serquina_GMA_News_20261110_2026_11_10_15_37_22.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published November 12, 2026 6:24pm"
-        },
-        {
-          "type": "p",
-          "text": "Malacañang on Thursday said it is still hopeful that the Code of Conduct (COC) in the South China Sea would be signed before the Philippines' Association of Southeast Asian Nations (ASEAN) chairmanship ends."
-        },
-        {
-          "type": "p",
-          "text": "\"Bawat araw dapat may pag-asa (we should have hope every day),\" Palace Press Officer Undersecretary Claire Castro said during a press briefing."
-        },
-        {
-          "type": "p",
-          "text": "\"Sa ngayon, hindi rin natin masasabi kung talagang hindi ito magkakaroon ng konkulsyon sa 49th ASEAN Summit dahil ang gusto pa rin ng Pangulo ay masa-pinal sa panahon na ang Pilipinas ang ASEAN chair,\" she added."
-        },
-        {
-          "type": "p",
-          "text": "(As of now, we cannot say if the COC will be concluded during the 49th ASEAN Summit because President Ferdinand Marcos Jr. want to finalized it during the Philippines’ chairmanship.)"
-        },
-        {
-          "type": "p",
-          "text": "Foreign Affairs Secretary Ma. Theresa Lazaro earlier said ASEAN and China do not want the South China Sea to have a situation like that in the Strait of Hormuz, the reason they negotiate to com up with a code of conduct."
-        },
-        {
-          "type": "p",
-          "text": "The conflict in the Middle East has disrupted the shipment of petroleum products through the Strait of Hormuz—considered the world’s most vital oil export route—causing significant supply concerns globally."
-        },
-        {
-          "type": "p",
-          "text": "This has driven up fuel prices in the different parts of the world, including the Philippines."
-        },
-        {
-          "type": "p",
-          "text": "On July 12, 2016, the Permanent Court of Arbitration in The Hague ruled that China’s sweeping claims over nearly the entire South China Sea had no legal basis under the United Nations Convention on the Law of the Sea (UNCLOS), but China has rejected the ruling."
-        },
-        {
-          "type": "p",
-          "text": "Tensions have nevertheless persisted as China claims almost the entire South China Sea, a major waterway through which more than $3 trillion in annual shipborne commerce passes."
-        },
-        {
-          "type": "p",
-          "text": "Parts of the sea are also claimed by the Philippines, Vietnam, Malaysia, Brunei, and Indonesia. — RSJ, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-uykidr",
       "source": "bbc",
       "title": "British woman missing from cruise ship in Atlantic",
@@ -12554,94 +13106,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "cbc-13cssk5",
-      "source": "cbc",
-      "title": "Missing teen found alive after 6 days in the Australian woodlands",
-      "summary": "A 17-year-old boy with autism was found alive Thursday after six days lost in eastern Australian woodlands.",
-      "byline": "CBC",
-      "section": "News/World",
-      "published": "2026-11-12T09:54:54.000Z",
-      "firstSeen": "2026-11-12T10:01:26.377Z",
-      "url": "https://www.cbc.ca/news/world/missing-teen-found-australia-9.7418731?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/2d673017-a046-48e2-969d-e243f260bfbb,1794471217169/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C177%2C2057%2C1157%29%3BResize%3D620",
-        "caption": "In this image made from video and provided by the Victoria State Police 17-year-old William, centre right, is embraced by his mother Elizabeth, only first names were provided by police, while in a helicopter in Cowwarr, Australia, Thursday, Nov. 12, 2026, after William spent six days lost in eastern"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "World·New"
-        },
-        {
-          "type": "p",
-          "text": "A 17-year-old boy with autism was found alive Thursday after six days lost in eastern Australian woodlands."
-        },
-        {
-          "type": "h",
-          "text": "The boy had begun camping with a teenage friend when he disappeared"
-        },
-        {
-          "type": "p",
-          "text": "The boy, whom police identified only as William, had begun camping with a teenage friend when he disappeared last Friday near Walhalla, a former gold-mining town 185 kilometres east of Melbourne, police said."
-        },
-        {
-          "type": "p",
-          "text": "A police helicopter crew found him surrounded by wilderness lying asleep on a flat rock beside a creek, and he was later reunited with his mother. William was in good spirits and mostly in good health, the police statement said."
-        },
-        {
-          "type": "p",
-          "text": "Video shot from the rescue helicopter showed he was shirtless and sunburned. He was wearing shorts and boots and was using towels as blankets."
-        },
-        {
-          "type": "p",
-          "text": "\"I'm just over the moon that he's alive,\" his mother, Elizabeth, told reporters. The AP has decided not to provide her family name to avoid identifying her son."
-        },
-        {
-          "type": "p",
-          "text": "\"And he's never leaving the house again. He's grounded for life. He's not going anywhere ever again,\" she joked."
-        },
-        {
-          "type": "p",
-          "text": "William was later taken to a hospital for his health to be monitored, police said."
-        },
-        {
-          "type": "p",
-          "text": "William's family have said he has Level 2 autism. That requires \"substantial support,\" according to the Australian advocacy group Autism360."
-        },
-        {
-          "type": "p",
-          "text": "Such a person may have marked deficits in verbal and non-verbal social communication and rely heavily on routines and predictable activities. Disruption can cause significant distress."
-        },
-        {
-          "type": "p",
-          "text": "The Southern Hemisphere spring weather had been mild for the past week in the alpine region where William was lost and there had been little rain."
-        },
-        {
-          "type": "p",
-          "text": "Elizabeth had dropped off her son and his friend last Friday for a weekend of camping. William walked a short distance from the campsite to the drop-off location to collect more camping equipment but never returned to his friend, police said."
-        },
-        {
-          "type": "p",
-          "text": "After becoming lost, William trekked for days up and down \"some very steep terrain,\" Acting Police Inspector Jason Benbow said."
-        },
-        {
-          "type": "p",
-          "text": "He spent the last two days where he was found at the creek, trapped by the steepness of his surrounds 2 kilometres from the his camp site, Benbow said."
-        },
-        {
-          "type": "p",
-          "text": "\"He woke up to the sound of the helicopter, gave them a thumbs up and they winched him to safety,\" Benbow told reporters."
-        },
-        {
-          "type": "p",
-          "text": "The extensive police search for him involved more than 100 emergency services personnel and volunteers."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "dw-1mvod1u",
@@ -14483,50 +14947,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "abs-1ra1bwr",
-      "source": "abs",
-      "title": "PNP stands firm on arrest of Sept. 21 protesters",
-      "summary": "The Philippine National Police is standing by its decision to file criminal charges against eight individuals accused of assaulting police officers during the September 21 protests last year, despite…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T08:33:28.000Z",
-      "firstSeen": "2026-11-12T08:48:50.097Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/12/pnp-stands-firm-on-arrest-of-sept-21-protesters-1633",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Philippine National Police is standing by its decision to file criminal charges against eight individuals accused of assaulting police officers during the September 21 protests last year, despite a Manila court's reported decision to quash the cases for insufficient evidence."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1qojc6",
-      "source": "abs",
-      "title": "Bill seeks to stop schools from barring students with unpaid fees in joining graduation",
-      "summary": "The House of Representatives has approved on 2nd reading a proposed measure prohibiting all higher education and technical-vocational institutions from denying students participation in graduation…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T08:31:02.000Z",
-      "firstSeen": "2026-11-12T08:48:51.866Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/12/bill-seeks-to-stop-schools-from-barring-students-with-unpaid-fees-in-joining-graduation-1631",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The House of Representatives has approved on 2nd reading a proposed measure prohibiting all higher education and technical-vocational institutions from denying students participation in graduation ceremonies on the basis of outstanding balance or arrears in tuition"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "grd-r359cm",
       "source": "grd",
       "title": "‘Tourists hate themselves’ – which is why Tasmania is telling people to stay away",
@@ -14929,28 +15349,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-vl8ntk",
-      "source": "abs",
-      "title": "Boardroom Tea: Robina, 5 others win Babae Awards",
-      "summary": "She is known only as Robina, the most hilarious, outspoken, unpretentious and self-effacing billionaire I have ever met.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T07:05:37.000Z",
-      "firstSeen": "2026-11-12T07:31:11.646Z",
-      "url": "https://www.abs-cbn.com/news/business/2026/11/12/boardroom-tea-robina-5-others-win-babae-awards-1505",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "She is known only as Robina, the most hilarious, outspoken, unpretentious and self-effacing billionaire I have ever met."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "grd-17q62fy",
       "source": "grd",
       "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
@@ -15336,28 +15734,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-1rou5j1",
-      "source": "abs",
-      "title": "Comelec chair: Put voter registration machines on ground floor for accessibility",
-      "summary": "Commission on Elections chairman George Garcia reiterated the policy after an 80-year-old woman was asked to climb the stairs to the third floor at the election office in General Santos City.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-12T06:39:29.000Z",
-      "firstSeen": "2026-11-12T07:01:01.566Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/12/comelec-chair-put-voter-registration-machines-on-ground-floor-for-accessibility-1439",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Commission on Elections chairman George Garcia reiterated the policy after an 80-year-old woman was asked to climb the stairs to the third floor at the election office in General Santos City."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "dw-39o30j",
       "source": "dw",
       "title": "Ukraine peace talks: US envoys meet with Putin at Kremlin",
@@ -15584,104 +15960,6 @@
         {
           "type": "p",
           "text": "While the impasse between Iran and the US shows little sign of being broken, the fighting has calmed, for now at least. What happens in the coming weeks in the meeting rooms of Shenzhen and Miami currently looks more critical to finding a solution than what happens on Iranian territory or waterways."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-1atfjuk",
-      "source": "dw",
-      "title": "Pope Leo XIV returns to Peru to a big welcome, calls it his 'homeland'",
-      "summary": "An estimated 3 million people greeted Pope Leo XIV in Lima as the Peruvian-citizen pontiff began a six-day homecoming visit to the country where he spent two decades as a missionary and bishop.",
-      "byline": "Seerat Chabba",
-      "section": "",
-      "published": "2026-11-12T04:42:00.000Z",
-      "firstSeen": "2026-11-12T05:00:56.847Z",
-      "url": "https://www.dw.com/en/pope-leo-xiv-returns-to-peru-to-a-big-welcome-calls-it-his-homeland/a-79925466?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79925200_6.jpg",
-        "caption": "Pope Leo XIV holds Peruvian citizenship and called the country home for over two decadesImage: Simone Risoluti/Vatican Media/AFP"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Pope Leo XIV opened the Peruvian leg of his South America tour on Wednesday, telling crowds in Lima that returning to the country where he served for two decades felt like coming home."
-        },
-        {
-          "type": "p",
-          "text": "The Vatican estimated that about 3 million people lined his motorcade route, the Associated Press reported."
-        },
-        {
-          "type": "h",
-          "text": "What did he say?"
-        },
-        {
-          "type": "p",
-          "text": "Leo holds Peruvian citizenship and spent more than two decades in Peru as a missionary priest and later as bishop of the northern city of Chiclayo before becoming pope."
-        },
-        {
-          "type": "p",
-          "text": "Also a US citizen, he is the first pope from either the United States or Peru."
-        },
-        {
-          "type": "p",
-          "text": "He sang Peru's national anthem with President Keiko Fujimori at the presidential palace."
-        },
-        {
-          "type": "p",
-          "text": "\"Today I understand how much of this land remains with me and how much of my own story also belongs to you,\" he said, adding that he was \"also returning to my homeland.\""
-        },
-        {
-          "type": "p",
-          "text": "Leo urged Peruvians to \"cultivate honesty, integrity,\" and to accept that \"no one has all the answers.\""
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79925172_$%7BformatId%7D.jpg",
-          "caption": "As bishop, Leo XIV, then Robert Prevost, had repeatedly criticized Fujimori’s late father, former President Alberto FujimoriImage: Luis Acosta/AFP"
-        },
-        {
-          "type": "p",
-          "text": "He also called for stronger disaster prevention in a country regularly hit by El Nino-linked floods and landslides."
-        },
-        {
-          "type": "p",
-          "text": "Fujimori said Peru must face the “unfinished task” of reconciliation after decades of insurgent violence, state abuses and sharp political divisions."
-        },
-        {
-          "type": "h",
-          "text": "What is happening in Peru?"
-        },
-        {
-          "type": "p",
-          "text": "The welcome comes as many Peruvians are weary of their leaders."
-        },
-        {
-          "type": "p",
-          "text": "The country has had nine presidents since July 2016, and homicide rates have nearly doubled in five years."
-        },
-        {
-          "type": "p",
-          "text": "Political science professor Alonso Cardenas told AP he sees \"no sign of a reaction, no strategy\" from Fujimori's government."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79925185_$%7BformatId%7D.jpg",
-          "caption": "Peru remains a majority Catholic country, making up about 67% of the populationImage: Anthony Nino De Guzman/AFP"
-        },
-        {
-          "type": "p",
-          "text": "Notably, the Catholic Church is more credible than any other Peruvian institution, theology professor Veronique Lecaros told AP, even as Pew data show Catholics falling from 76% of the population to about 67%."
-        },
-        {
-          "type": "p",
-          "text": "Leo's six-day stay includes a trip to 3,700 meters (about 12,140 feet), considered risky after Leo had part of a lung removed in mid-October because of a malignant tumor. He is due back at the Vatican on November 17."
-        },
-        {
-          "type": "h",
-          "text": "Pope Leo starts jam-packed South America tour just weeks after surgery"
         }
       ],
       "truncated": false,
@@ -16866,91 +17144,6 @@
         {
           "type": "p",
           "text": "Argentina approved his extradition to Italy in July 2025 after the country’s supreme court rejected a final appeal."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-1v66kt0",
-      "source": "grd",
-      "title": "Trump planning new military assault or tighter sanctions, say Iranian officials",
-      "summary": "<p>Regime adviser says Tehran could be forced into pre-emptive strikes if stalemate continues</p><p>Senior Iranian officials believe the US is planning either further military strikes or an…",
-      "byline": "Patrick Wintour Diplomatic editor",
-      "section": "Iran",
-      "published": "2026-11-11T18:47:57.000Z",
-      "firstSeen": "2026-11-11T19:31:01.805Z",
-      "url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/cf2f295d1d5a6ef4a04d6ea471994bcd584f485d/94_0_4620_3696/master/4620.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=5b3b2fdd657746c6988698fdfee16f03",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Senior Iranian officials believe the US is planning either further military strikes or an ever-tightening economic stranglehold that will push Tehran into retaliatory action."
-        },
-        {
-          "type": "p",
-          "text": "The assessment comes from Mehdi Mohammadi, an adviser to Iran’s chief negotiator in talks with the US, Mohammad Bagher Ghalibaf."
-        },
-        {
-          "type": "p",
-          "text": "Mohammadi said on his Telegram channel that the Americans had proposed a timeframe of about two weeks after which Donald Trump would make a decision on military action. Mohammadi, who is regarded as a reliable indicator of Ghalibaf’s thinking, cast doubt on the US president’s claim that the military option was off the table. He claimed Washington was preparing for a limited strike and Iran was already preparing a response."
-        },
-        {
-          "type": "p",
-          "text": "If the US sanctions continued, he said, a comprehensive pre-emptive war would be needed “to increase the cost of sanctions for the enemy”."
-        },
-        {
-          "type": "p",
-          "text": "Mohammadi described the US response to Iran’s latest proposals on reopening the strait of Hormuz as “not only unsatisfactory but completely deceptive”. “They do not want to release the frozen funds,” he said. “They do not want to lift the sanctions and they do not want to stop the war in Lebanon.”"
-        },
-        {
-          "type": "p",
-          "text": "He also disclosed that Iran had rejected a request from the US vice-president, JD Vance, for a direct meeting with its negotiators before giving a response to Tehran’s conditions for lifting the siege on the strait."
-        },
-        {
-          "type": "p",
-          "text": "For now, Trump has settled on a strategy of suffocating Iran through economic pressure and tightening the blockade on its oil exports while facilitating those of other Gulf states through Hormuz."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/14d12e77a9814bc3c4076ae4df738c7995913b6b/0_0_605_881/master/605.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "A tanker burns off Oman in the strait of Hormuz on Sunday, apparently after an attack by Iranian forces trying to stop oil shipments. Photograph: Social media/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "Mohammadi’s assessments suggest some senior Iranians fear Washington’s strategy might work by destabilising the country. The thinking goes that economic turmoil might spark street protests, potentially around the anniversary of nationwide demonstrations that began in late December last year."
-        },
-        {
-          "type": "p",
-          "text": "On this basis, the Iranian leadership might conclude that the status quo – a “no peace, no war” impasse – was not sustainable and pre-emptive action was required."
-        },
-        {
-          "type": "p",
-          "text": "Despite Iranian claims that their blockade of the strait is working, there is concern that Brent crude is at a relatively low $93 a barrel, while Saudi oil production is near prewar levels of 9.3m barrels a day. In an attempt to close any loopholes, Iran said it bombed a US radar post on the Omani island of Didamar three days ago."
-        },
-        {
-          "type": "p",
-          "text": "In another development, Mohsen Rezaei, the secretary of Iran’s national security council, said he had told Russia that Iran was not prepared for even a particle of its highly enriched stockpile of uranium to leave the country, saying it might be needed for planned nuclear-powered submarines."
-        },
-        {
-          "type": "p",
-          "text": "A third senior official, Mohammad Mokhber, an adviser to Mojtaba Khamenei, Iran’s supreme leader, warned Europe that any complicity in the US blockade would be “an act of war that will be etched in the nation’s historical memory”."
-        },
-        {
-          "type": "p",
-          "text": "Tehran has been increasingly clear that US bases in Europe will be targeted if fighting resumes. Rezaei said: “If American planes take off from a distant military base and come to this country to bomb Iran, we will also target that base. We are announcing this now so they have no excuse tomorrow.”"
-        },
-        {
-          "type": "p",
-          "text": "Marco Rubio, the US secretary of state, gave the impression this week that the policy of economic strangulation was sufficient and described Iran’s demands as unrealistic. However, Trump is under pressure to resolve the crisis before the Democrats take charge of Congress on 3 January."
-        },
-        {
-          "type": "p",
-          "text": "A Reuters Ipsos poll in the US shows 71% of Americans want Congress to pass legislation to end the war in Iran. The overwhelming message from the midterm elections was that the conflict was highly unpopular but the Democrats do not have a strategy to end it and open up the strait of Hormuz. This risks leaving the political initiative with the White House, and an increasingly hardline Iranian leadership."
         }
       ],
       "truncated": false,
