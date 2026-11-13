@@ -1,0 +1,80 @@
+{
+  "id": "gma-1mfw2gk",
+  "source": "gma",
+  "title": "EXPLAINER: What caused the Microsoft outage?",
+  "summary": "Thousands of users worldwide were affected by a widespread Microsoft outage, with several institutions in the Philippines also reporting disruptions. Around 74 countries were affected by the outage,…",
+  "byline": "GMA News",
+  "section": "",
+  "published": "2026-11-13T15:37:44.000Z",
+  "firstSeen": "2026-11-13T16:00:59.858Z",
+  "url": "https://www.gmanetwork.com/news/topstories/nation/1009437/explainer-what-caused-the-microsoft-outage/story/",
+  "image": {
+    "src": "https://images.gmanews.tv/webpics/2026/11/explainers_outage_2026_11_13_23_30_48.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Published November 13, 2026 11:37pm"
+    },
+    {
+      "type": "p",
+      "text": "Thousands of users worldwide were affected by a widespread Microsoft outage, with several institutions in the Philippines also reporting disruptions."
+    },
+    {
+      "type": "p",
+      "text": "Around 74 countries were affected by the outage, according to Down Detector."
+    },
+    {
+      "type": "p",
+      "text": "In a report from GMA News Feed, Microsoft first announced the outage on X at 11:40 p.m. on November 12, Philippine time. The report said that they were investigating reported issues in Microsoft Teams in parts of North America."
+    },
+    {
+      "type": "p",
+      "text": "Later, Microsoft said that it received reports of difficulty in accessing cloud-based messaging Exchange Online."
+    },
+    {
+      "type": "p",
+      "text": "Down Detector said it has received 97,000 reports of difficulty accessing Microsoft Outlook in the US, as of 3:00 a.m. in the Philippines, November 13."
+    },
+    {
+      "type": "p",
+      "text": "Meanwhile, there were 38,000 reports of issues with Microsoft 365, while 4,500 users reported problems with Microsoft Teams."
+    },
+    {
+      "type": "p",
+      "text": "Down Detector said it received reports from the United Kingdom, India and New Zealand. Australia also said that its Federal Police at the Security Intelligence Organization was affected."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI, the company behind ChatGPT, was also affected. They said that they were probing issues with Microsoft connectors, which led to some of their tools malfunctioning."
+    },
+    {
+      "type": "p",
+      "text": "In the Philippines, the Supreme Court issued an advisory on November 13 that its judiciary platform was affected. Because of this, some transactions may be delayed."
+    },
+    {
+      "type": "p",
+      "text": "“The Supreme Court informs the public that the ongoing worldwide Microsoft 365 service outage has affected the Philippine Judiciary 365 (PJ365), including Microsoft Outlook. During this period, responses to emails and other transactions may be delayed,” the high court said."
+    },
+    {
+      "type": "p",
+      "text": "Microsoft said that it was not increased traffic that caused this mass outage. The firm attributed the outage to some servers being unavailable, which affected its remaining infrastructure."
+    },
+    {
+      "type": "p",
+      "text": "As of 4:14 a.m. in the Philippines, Microsoft said that based on their investigation, another possible reason for the unavailable servers was due to one “specific component” that focuses on the health of the servers."
+    },
+    {
+      "type": "p",
+      "text": "“Our investigation indicates the failed health checks may originate from a specific component that's responsible for processing server health. We've taken steps to prevent additional servers from being impacted while we work to return the affected servers to service,” the tech giant said."
+    },
+    {
+      "type": "p",
+      "text": "As of 2:12 p.m. in the Philippines, Microsoft said that it was continuously working to fix its frontend servers and restore its service infrastructure to a healthy state.—Jean Mangaluz/LDF, GMA News"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
