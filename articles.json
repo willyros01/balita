@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-14T07:31:23.722Z",
+  "updated": "2026-11-14T08:01:17.111Z",
   "sources": [
     {
       "id": "inq",
@@ -53,38 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqg-ude2g5",
-      "source": "inqg",
-      "title": "US airspace has now &#8216;opened up,&#8217; says transportation secretary",
-      "summary": "WASHINGTON D.C., United States—The United States on Friday lifted an hours-long ground stop at the nation&#8217;s airports. Top officials explaining that the disruption was due to old equipment and…",
-      "byline": "arlenelim",
-      "section": "Americas",
-      "published": "2026-11-14T07:31:12.680Z",
-      "firstSeen": "2026-11-14T02:30:54.779Z",
-      "url": "https://globalnation.inquirer.net/347309/us-airspace-has-now-opened-up-says-transportation-secretary",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261114__2305027171__v1__HighRes__TransportationSecretaryDuffyAndHomelandSecur-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "WASHINGTON D.C., United States—The United States on Friday lifted an hours-long ground stop at the nation&#8217;s airports. Top officials explaining that the disruption was due to old equipment and not a cyberattack or sweeping Microsoft outage. Transportation Secretary Sean Duffy told a late-night briefing at the White House that US airspace was now &#8220;opened up,&#8221; while"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-16vppcq",
       "source": "inqn",
       "title": "UP, NRDC to craft national El Ni&#241;o response plan",
       "summary": "MANILA, Philippines — The University of the Philippines (UP) and the Natural Resources Development Corporation (NRDC) will hold a two-day national consultation on Nov. 20 and 21 in Quezon City to…",
       "byline": "Dennis Maliwanag",
       "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:12.679Z",
+      "published": "2026-11-14T08:01:10.005Z",
       "firstSeen": "2026-11-14T01:30:52.806Z",
       "url": "https://newsinfo.inquirer.net/2341106/up-nrdc-to-craft-national-el-nio-response-plan",
       "image": {
@@ -109,7 +84,7 @@
       "summary": "MANILA, Philippines — The Philippines on Saturday acknowledged that crises in the Middle East, natural disasters and uncertainties surrounding multilateralism had tested its leadership of the…",
       "byline": "mesarangay",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:12.679Z",
+      "published": "2026-11-14T08:01:10.005Z",
       "firstSeen": "2026-11-14T05:00:58.916Z",
       "url": "https://globalnation.inquirer.net/347341/ph-cites-global-crises-as-tests-of-asean-chairmanship",
       "image": {
@@ -134,7 +109,7 @@
       "summary": "WASHINGTON D.C., United States—Donald Trump, Vladimir Putin and Xi Jinping will hold the first ever three-way meeting between the leaders of the United States, Russia and China at a summit in…",
       "byline": "arlenelim",
       "section": "Global Scale",
-      "published": "2026-11-14T07:31:12.679Z",
+      "published": "2026-11-14T08:01:10.005Z",
       "firstSeen": "2026-11-14T03:00:58.618Z",
       "url": "https://globalnation.inquirer.net/347323/trump-xi-putin-to-hold-historic-meeting-in-china-says-white-house",
       "image": {
@@ -153,13 +128,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-ude2g5",
+      "source": "inqg",
+      "title": "US airspace has now &#8216;opened up,&#8217; says transportation secretary",
+      "summary": "WASHINGTON D.C., United States—The United States on Friday lifted an hours-long ground stop at the nation&#8217;s airports. Top officials explaining that the disruption was due to old equipment and…",
+      "byline": "arlenelim",
+      "section": "Americas",
+      "published": "2026-11-14T08:01:10.005Z",
+      "firstSeen": "2026-11-14T02:30:54.779Z",
+      "url": "https://globalnation.inquirer.net/347309/us-airspace-has-now-opened-up-says-transportation-secretary",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261114__2305027171__v1__HighRes__TransportationSecretaryDuffyAndHomelandSecur-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "WASHINGTON D.C., United States—The United States on Friday lifted an hours-long ground stop at the nation&#8217;s airports. Top officials explaining that the disruption was due to old equipment and not a cyberattack or sweeping Microsoft outage. Transportation Secretary Sean Duffy told a late-night briefing at the White House that US airspace was now &#8220;opened up,&#8221; while"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-ei1ttg",
       "source": "inqn",
       "title": "Fewer Negros Island Region families are living in poverty in 2025 – PSA",
       "summary": "BACOLOD CITY— Poverty incidence among families in the Negros Island Region (NIR) fell to 14.3 percent in 2025 from 22.6 percent in 2023, data from the Philippine Statistics Authority (PSA)-NIR showed…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:11.114Z",
+      "published": "2026-11-14T08:01:09.887Z",
       "firstSeen": "2026-11-14T02:30:54.779Z",
       "url": "https://newsinfo.inquirer.net/2341119/fewer-negros-island-region-families-are-living-in-poverty-in-2025-psa",
       "image": {
@@ -184,7 +184,7 @@
       "summary": "PAGADIAN CITY, Zamboanga del Sur—Anti-narcotics operatives arrested a 27-year-old man and seized approximately 100 grams of suspected &#8220;shabu&#8221; (crystal meth) worth P680,000. The…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:11.114Z",
+      "published": "2026-11-14T08:01:09.887Z",
       "firstSeen": "2026-11-14T02:01:03.604Z",
       "url": "https://newsinfo.inquirer.net/2341114/suspect-nabbed-in-zamboanga-drug-bust-p680k-worth-of-shabu-seized",
       "image": {
@@ -209,7 +209,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — The Philippine Coast Guard (PCG) has lifted the suspension of travel for small vessels in Roxas, Dumaran and Araceli in Palawan following the improved weather. In Sea…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:11.114Z",
+      "published": "2026-11-14T08:01:09.887Z",
       "firstSeen": "2026-11-14T01:30:52.715Z",
       "url": "https://newsinfo.inquirer.net/2341108/pcg-lifts-travel-suspension-for-small-vessels-in-3-palawan-towns",
       "image": {
@@ -234,7 +234,7 @@
       "summary": "MANILA, Philippines — Philippine Airlines (PAL) said Saturday that its flights already airborne and bound for the United States would be allowed to proceed to their destinations despite air traffic…",
       "byline": "postie",
       "section": "Americas",
-      "published": "2026-11-14T07:31:11.114Z",
+      "published": "2026-11-14T08:01:09.887Z",
       "firstSeen": "2026-11-14T04:30:52.988Z",
       "url": "https://globalnation.inquirer.net/347326/pal-monitors-us-flights-amid-faa-ground-stop",
       "image": {
@@ -259,7 +259,7 @@
       "summary": "[Updated Nov. 14, 2026, 2:27 p.m.] MANILA, Philippines — The Philippines and Canada have concluded negotiations for a free trade agreement (FTA) during President Ferdinand Marcos Jr. and Canadian…",
       "byline": "arlenelim",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:11.114Z",
+      "published": "2026-11-14T08:01:09.887Z",
       "firstSeen": "2026-11-14T04:30:52.988Z",
       "url": "https://globalnation.inquirer.net/347359/ph-canada-conclude-free-trade-agreement-talks-eye-signing-in-2027",
       "image": {
@@ -284,7 +284,7 @@
       "summary": "MANILA, Philippines — Canadian Prime Minister Mark Carney and Cambodian Deputy Prime Minister Hang Chuon Naron arrived in Manila on Saturday. These events come ahead of the 49th Association of…",
       "byline": "postie",
       "section": "Asia & Pacific",
-      "published": "2026-11-14T07:31:11.114Z",
+      "published": "2026-11-14T08:01:09.887Z",
       "firstSeen": "2026-11-14T05:30:59.229Z",
       "url": "https://globalnation.inquirer.net/347344/look-canadian-pm-cambodian-deputy-premier-arrive-for-asean-summit",
       "image": {
@@ -303,113 +303,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1vcwlvt",
-      "source": "inqn",
-      "title": "Ilocos Norte centenarian gets P100K cash incentive on 100th birthday",
-      "summary": "SAN ILDEFONSO, Ilocos Sur — A centenarian from Barangay San Francisco, Dingras, Ilocos Norte received a P100,000 cash incentive from the government for reaching the age of 100. Esperanza Longboy…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:11.084Z",
-      "firstSeen": "2026-11-14T03:00:58.618Z",
-      "url": "https://newsinfo.inquirer.net/2341143/ilocos-norte-centenarian-gets-p100k-cash-incentive-on-100th-birthday",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Centenarian-in-Ilocos-Norte-receives-P100000-14November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN ILDEFONSO, Ilocos Sur — A centenarian from Barangay San Francisco, Dingras, Ilocos Norte received a P100,000 cash incentive from the government for reaching the age of 100. Esperanza Longboy Asuncion was awarded the incentive under Republic Act No. 10868, or the Centenarians Act of 2016, which grants a cash gift to Filipinos who reach"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-14ylh1w",
-      "source": "inqg",
-      "title": "PNP urges orderly assemblies ahead of 49th Asean Summit",
-      "summary": "MANILA, Philippines – The Philippine National Police (PNP) asked protest organizers on Saturday to exercise freedom of assembly in an orderly fashion ahead of the 49th Association of Southeast Asian…",
-      "byline": "mesarangay",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:11.084Z",
-      "firstSeen": "2026-11-14T05:30:55.565Z",
-      "url": "https://globalnation.inquirer.net/347387/pnp-urges-orderly-assemblies-ahead-of-49th-asean-summit",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/03/Philippines-joins-global-calls-for-ceasefire-in-Middle-East-1-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – The Philippine National Police (PNP) asked protest organizers on Saturday to exercise freedom of assembly in an orderly fashion ahead of the 49th Association of Southeast Asian Nations (Asean) Summit. PNP chief Gen. Jose Melencio Nartatez Jr. made the reminder in light of multisectoral groups set to hold public demonstrations during the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1cleh1i",
-      "source": "inqn",
-      "title": "DPWH puts load limit on Samar bridge, briefly closes Southern Leyte bridge",
-      "summary": "TACLOBAN CITY — Motorists in Samar and Southern Leyte are advised to expect changes in traffic movement as the Department of Public Works and Highways (DPWH) implements a load restriction on one…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:10.910Z",
-      "firstSeen": "2026-11-14T06:01:04.605Z",
-      "url": "https://newsinfo.inquirer.net/2341187/dpwh-puts-load-limit-on-samar-bridge-briefly-closes-southern-leyte-bridge",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/DPWH-imposes-load-limit-on-Samar-bridge-14November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TACLOBAN CITY — Motorists in Samar and Southern Leyte are advised to expect changes in traffic movement as the Department of Public Works and Highways (DPWH) implements a load restriction on one bridge and schedules temporary closures of another. The adjustments are meant to facilitate infrastructure works. The DPWH Samar 2nd District Engineering Office announced"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1hddfr8",
-      "source": "inqn",
-      "title": "Baguio council seeks NBI&#8217;s clarification on operation vs lending firm",
-      "summary": "BAGUIO CITY—The city council raised questions about the handling of an Aug. 26 operation involving employees of a lending company called 1 Loyalty. It is particularly inquiring about the decision to…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:10.910Z",
-      "firstSeen": "2026-11-14T04:00:56.157Z",
-      "url": "https://newsinfo.inquirer.net/2341155/baguio-council-seeks-nbis-clarification-on-operation-vs-lending-firm",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Baguio-City-Hall-9November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BAGUIO CITY—The city council raised questions about the handling of an Aug. 26 operation involving employees of a lending company called 1 Loyalty. It is particularly inquiring about the decision to transfer to Manila of 24 arrested persons. The council is also wondering why there was lack of information provided to the local National Bureau"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1wvjjj1",
       "source": "inqn",
       "title": "MILF: No unauthorized recruitments in the name of our military arm",
       "summary": "COTABATO CITY—Officials of Moro Islamic Liberation Front (MILF) clarified that there are no ongoing authorized recruitment activities in the name of the Bangsamoro Islamic Armed Forces (BIAF). They…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:10.910Z",
+      "published": "2026-11-14T08:01:09.886Z",
       "firstSeen": "2026-11-14T03:30:57.152Z",
       "url": "https://newsinfo.inquirer.net/2341148/milf-no-unauthorized-recruitments-in-the-name-of-our-military-arm",
       "image": {
@@ -434,7 +334,7 @@
       "summary": "MANILA, Philippines — A mother flying fox gently fans her wings to keep her young pup comfortable before wrapping it in a protective embrace as the little bat suckles milk beneath her wing. This…",
       "byline": "Dennis Maliwanag",
       "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:10.910Z",
+      "published": "2026-11-14T08:01:09.886Z",
       "firstSeen": "2026-11-14T03:30:57.209Z",
       "url": "https://newsinfo.inquirer.net/2341159/from-nursing-to-courtship-flying-foxes-reveal-their-tender-side",
       "image": {
@@ -453,48 +353,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-cecfg6",
-      "source": "inqg",
-      "title": "DICT: Tight data security slows internet connectivity at Asean Summit",
-      "summary": "MANILA, Philippines &#8212; The Department of Information and Communication Technology (DICT) has added layers of security to prevent information breach and pinpoint unknown threats during the 49th…",
-      "byline": "mareyes",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:10.910Z",
-      "firstSeen": "2026-11-14T06:30:53.887Z",
-      "url": "https://globalnation.inquirer.net/347408/dict-tight-data-security-slows-internet-connectivity-at-asean-summit",
+      "id": "inqn-1vcwlvt",
+      "source": "inqn",
+      "title": "Ilocos Norte centenarian gets P100K cash incentive on 100th birthday",
+      "summary": "SAN ILDEFONSO, Ilocos Sur — A centenarian from Barangay San Francisco, Dingras, Ilocos Norte received a P100,000 cash incentive from the government for reaching the age of 100. Esperanza Longboy…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-14T08:01:09.886Z",
+      "firstSeen": "2026-11-14T03:00:58.618Z",
+      "url": "https://newsinfo.inquirer.net/2341143/ilocos-norte-centenarian-gets-p100k-cash-incentive-on-100th-birthday",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/1000063052-1.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Centenarian-in-Ilocos-Norte-receives-P100000-14November2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines &#8212; The Department of Information and Communication Technology (DICT) has added layers of security to prevent information breach and pinpoint unknown threats during the 49th Association of Southeast Asian Nations (Asean) Summit here, according to officials on Saturday. But this led to slower internet connectivity for local and foreign media delegates stationed at"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-1xln8q7",
-      "source": "inqg",
-      "title": "Lexus to ferry Asean delegates in loaned luxury vehicles",
-      "summary": "MANILA, Philippines — Luxury hybrid vehicles will be used to transport foreign delegates attending the 49th Association of Southeast Asian Nations (Asean) Summit and Related Summits in Metro Manila,…",
-      "byline": "mareyes",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:10.910Z",
-      "firstSeen": "2026-11-14T06:30:54.354Z",
-      "url": "https://globalnation.inquirer.net/347406/lexus-to-ferry-asean-delegates-in-loaned-luxury-vehicles",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/lexus-nov-14-2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Luxury hybrid vehicles will be used to transport foreign delegates attending the 49th Association of Southeast Asian Nations (Asean) Summit and Related Summits in Metro Manila, with all units to be returned after the country’s hosting period. Lexus Philippines said it would provide a fleet of LS 500h sedans and LM 350h"
+          "text": "SAN ILDEFONSO, Ilocos Sur — A centenarian from Barangay San Francisco, Dingras, Ilocos Norte received a P100,000 cash incentive from the government for reaching the age of 100. Esperanza Longboy Asuncion was awarded the incentive under Republic Act No. 10868, or the Centenarians Act of 2016, which grants a cash gift to Filipinos who reach"
         }
       ],
       "truncated": true,
@@ -509,7 +384,7 @@
       "summary": "MANILA, Philippines — President Ferdinand Marcos Jr. on Saturday urged businesses across Southeast Asia to make artificial intelligence (AI) tools more affordable and accessible to micro, small and…",
       "byline": "mesarangay",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:10.910Z",
+      "published": "2026-11-14T08:01:09.886Z",
       "firstSeen": "2026-11-14T06:30:56.074Z",
       "url": "https://globalnation.inquirer.net/347405/marcos-urges-asean-businesses-to-help-msmes-adopt-ai",
       "image": {
@@ -534,7 +409,7 @@
       "summary": "MANILA, Philippines — Brazil is seeking to expand its investments and economic cooperation with the Philippines in energy, defense, semiconductors and agriculture, with President Luiz Inácio Lula da…",
       "byline": "mesarangay",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:10.910Z",
+      "published": "2026-11-14T08:01:09.886Z",
       "firstSeen": "2026-11-14T06:01:04.604Z",
       "url": "https://globalnation.inquirer.net/347388/lula-eyes-bigger-brazil-investments-trade-with-philippines",
       "image": {
@@ -553,13 +428,138 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-14ylh1w",
+      "source": "inqg",
+      "title": "PNP urges orderly assemblies ahead of 49th Asean Summit",
+      "summary": "MANILA, Philippines – The Philippine National Police (PNP) asked protest organizers on Saturday to exercise freedom of assembly in an orderly fashion ahead of the 49th Association of Southeast Asian…",
+      "byline": "mesarangay",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-14T08:01:09.886Z",
+      "firstSeen": "2026-11-14T05:30:55.565Z",
+      "url": "https://globalnation.inquirer.net/347387/pnp-urges-orderly-assemblies-ahead-of-49th-asean-summit",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/03/Philippines-joins-global-calls-for-ceasefire-in-Middle-East-1-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – The Philippine National Police (PNP) asked protest organizers on Saturday to exercise freedom of assembly in an orderly fashion ahead of the 49th Association of Southeast Asian Nations (Asean) Summit. PNP chief Gen. Jose Melencio Nartatez Jr. made the reminder in light of multisectoral groups set to hold public demonstrations during the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1cleh1i",
+      "source": "inqn",
+      "title": "DPWH puts load limit on Samar bridge, briefly closes Southern Leyte bridge",
+      "summary": "TACLOBAN CITY — Motorists in Samar and Southern Leyte are advised to expect changes in traffic movement as the Department of Public Works and Highways (DPWH) implements a load restriction on one…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-14T08:01:09.833Z",
+      "firstSeen": "2026-11-14T06:01:04.605Z",
+      "url": "https://newsinfo.inquirer.net/2341187/dpwh-puts-load-limit-on-samar-bridge-briefly-closes-southern-leyte-bridge",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/DPWH-imposes-load-limit-on-Samar-bridge-14November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TACLOBAN CITY — Motorists in Samar and Southern Leyte are advised to expect changes in traffic movement as the Department of Public Works and Highways (DPWH) implements a load restriction on one bridge and schedules temporary closures of another. The adjustments are meant to facilitate infrastructure works. The DPWH Samar 2nd District Engineering Office announced"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1hddfr8",
+      "source": "inqn",
+      "title": "Baguio council seeks NBI&#8217;s clarification on operation vs lending firm",
+      "summary": "BAGUIO CITY—The city council raised questions about the handling of an Aug. 26 operation involving employees of a lending company called 1 Loyalty. It is particularly inquiring about the decision to…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-14T08:01:09.833Z",
+      "firstSeen": "2026-11-14T04:00:56.157Z",
+      "url": "https://newsinfo.inquirer.net/2341155/baguio-council-seeks-nbis-clarification-on-operation-vs-lending-firm",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Baguio-City-Hall-9November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BAGUIO CITY—The city council raised questions about the handling of an Aug. 26 operation involving employees of a lending company called 1 Loyalty. It is particularly inquiring about the decision to transfer to Manila of 24 arrested persons. The council is also wondering why there was lack of information provided to the local National Bureau"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-cecfg6",
+      "source": "inqg",
+      "title": "DICT: Tight data security slows internet connectivity at Asean Summit",
+      "summary": "MANILA, Philippines &#8212; The Department of Information and Communication Technology (DICT) has added layers of security to prevent information breach and pinpoint unknown threats during the 49th…",
+      "byline": "mareyes",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-14T08:01:09.833Z",
+      "firstSeen": "2026-11-14T06:30:53.887Z",
+      "url": "https://globalnation.inquirer.net/347408/dict-tight-data-security-slows-internet-connectivity-at-asean-summit",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/1000063052-1.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines &#8212; The Department of Information and Communication Technology (DICT) has added layers of security to prevent information breach and pinpoint unknown threats during the 49th Association of Southeast Asian Nations (Asean) Summit here, according to officials on Saturday. But this led to slower internet connectivity for local and foreign media delegates stationed at"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1xln8q7",
+      "source": "inqg",
+      "title": "Lexus to ferry Asean delegates in loaned luxury vehicles",
+      "summary": "MANILA, Philippines — Luxury hybrid vehicles will be used to transport foreign delegates attending the 49th Association of Southeast Asian Nations (Asean) Summit and Related Summits in Metro Manila,…",
+      "byline": "mareyes",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-14T08:01:09.833Z",
+      "firstSeen": "2026-11-14T06:30:54.354Z",
+      "url": "https://globalnation.inquirer.net/347406/lexus-to-ferry-asean-delegates-in-loaned-luxury-vehicles",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/lexus-nov-14-2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Luxury hybrid vehicles will be used to transport foreign delegates attending the 49th Association of Southeast Asian Nations (Asean) Summit and Related Summits in Metro Manila, with all units to be returned after the country’s hosting period. Lexus Philippines said it would provide a fleet of LS 500h sedans and LM 350h"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-u6znh",
       "source": "inqn",
       "title": "1-year-old boy dies in Cavite house fire",
       "summary": "LUCENA CITY — A one-year-old boy died Friday night, Nov. 13, after fire razed his family’s house in Carmona City, Cavite. The Police Regional Office 4A said in a report Saturday that the blaze broke…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:10.881Z",
+      "published": "2026-11-14T08:01:09.831Z",
       "firstSeen": "2026-11-14T06:01:04.604Z",
       "url": "https://newsinfo.inquirer.net/2341191/1-year-old-boy-dies-in-cavite-house-fire",
       "image": {
@@ -584,7 +584,7 @@
       "summary": "MANILA, Philippines — Philippine Airlines (PAL) flights to and from the United States were operating normally on Saturday, Nov. 14, after US aviation authorities lifted a nationwide ground stop that…",
       "byline": "postie",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:10.881Z",
+      "published": "2026-11-14T08:01:09.831Z",
       "firstSeen": "2026-11-14T06:59:09.406Z",
       "url": "https://globalnation.inquirer.net/347384/pal-us-flights-operating-normally-after-faa-lifts-ground-stop",
       "image": {
@@ -609,7 +609,7 @@
       "summary": "MANILA, Philippines — The Department of Health (DOH) Metro Manila Center for Health Development (MMCHD) has raised its alert status to code blue ahead of the 49th Association of Southeast Asian…",
       "byline": "mareyes",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:09.112Z",
+      "published": "2026-11-14T08:01:08.102Z",
       "firstSeen": "2026-11-14T06:59:07.938Z",
       "url": "https://globalnation.inquirer.net/347430/doh-ncr-activates-code-blue-alert-for-asean-summit",
       "image": {
@@ -634,7 +634,7 @@
       "summary": "SAN ILDEFONSO, Ilocos Sur — Residents of Santa Lucia now have better access to primary healthcare services following the inauguration of a new Super Health Center in Barangay Vical, Santa Lucia town.…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:07.313Z",
+      "published": "2026-11-14T08:01:08.091Z",
       "firstSeen": "2026-11-14T06:30:55.906Z",
       "url": "https://newsinfo.inquirer.net/2341194/doh-opens-super-health-center-in-santa-lucia-ilocos-sur",
       "image": {
@@ -659,7 +659,7 @@
       "summary": "MANILA, Philippines — Australian Prime Minister Anthony Albanese arrived in the Philippines on Saturday ahead of the 49th Asean Summit and Related Summits in Metro Manila. Footage released by Asean…",
       "byline": "mareyes",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:02.198Z",
+      "published": "2026-11-14T08:01:08.091Z",
       "firstSeen": "2026-11-14T06:59:07.879Z",
       "url": "https://globalnation.inquirer.net/347434/australian-pm-albanese-arrives-in-ph-for-asean-summit",
       "image": {
@@ -684,7 +684,7 @@
       "summary": "LUCENA CITY — Police are hunting a 26-year-old suspect who allegedly shot dead a man and wounded another during a confrontation in Amadeo, Cavite early Saturday, Nov. 14. At around 2 a.m., for still…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:01.925Z",
+      "published": "2026-11-14T08:01:05.874Z",
       "firstSeen": "2026-11-14T06:30:53.981Z",
       "url": "https://newsinfo.inquirer.net/2341199/man-killed-companion-wounded-in-cavite-shooting",
       "image": {
@@ -703,38 +703,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-12vk2y9",
-      "source": "inqn",
-      "title": "Super El Niño poses threat to ‘pawikan’ – DENR",
-      "summary": "LUCENA CITY — The Department of Environment and Natural Resources (DENR) warned that the looming Super El Niño could threaten marine wildlife, particularly sea turtles. The warning comes as rising…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:01.916Z",
-      "firstSeen": "2026-11-14T06:30:53.887Z",
-      "url": "https://newsinfo.inquirer.net/2341169/super-el-nino-poses-threat-to-pawikan-denr",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/01/IMG_4138.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — The Department of Environment and Natural Resources (DENR) warned that the looming Super El Niño could threaten marine wildlife, particularly sea turtles. The warning comes as rising temperatures and changing environmental conditions put their nesting and reproduction at risk. “As the country braces for the impacts of Super El Niño, protecting marine"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-v6wr1a",
       "source": "inqg",
       "title": "DMW: OFWs repatriated from Riyadh reach 1,170",
       "summary": "MANILA, Philippines — The total number of overseas Filipino workers (OFWs) repatriated from Riyadh, Saudi Arabia has reached 1,170, the Department of Migrant Workers (DMW) reported on Saturday. In…",
       "byline": "besguerra",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:01.916Z",
+      "published": "2026-11-14T08:00:59.855Z",
       "firstSeen": "2026-11-14T07:31:01.916Z",
       "url": "https://globalnation.inquirer.net/347424/dmw-ofws-repatriated-from-riyadh-reach-1170",
       "image": {
@@ -753,13 +728,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-12vk2y9",
+      "source": "inqn",
+      "title": "Super El Niño poses threat to ‘pawikan’ – DENR",
+      "summary": "LUCENA CITY — The Department of Environment and Natural Resources (DENR) warned that the looming Super El Niño could threaten marine wildlife, particularly sea turtles. The warning comes as rising…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-14T08:00:59.034Z",
+      "firstSeen": "2026-11-14T06:30:53.887Z",
+      "url": "https://newsinfo.inquirer.net/2341169/super-el-nino-poses-threat-to-pawikan-denr",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/01/IMG_4138.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LUCENA CITY — The Department of Environment and Natural Resources (DENR) warned that the looming Super El Niño could threaten marine wildlife, particularly sea turtles. The warning comes as rising temperatures and changing environmental conditions put their nesting and reproduction at risk. “As the country braces for the impacts of Super El Niño, protecting marine"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-7vlot4",
       "source": "inqn",
       "title": "Over 5,800 Caraga farmers secure individual land titles",
       "summary": "SAN FRANCISCO, Agusan del Sur &#8212; More than 5,800 agrarian reform beneficiaries (ARBs) across the Caraga region gained full individual ownership of the lands they till on Thursday, Nov. 12, as…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-14T07:31:01.879Z",
+      "published": "2026-11-14T08:00:59.031Z",
       "firstSeen": "2026-11-14T06:59:07.879Z",
       "url": "https://newsinfo.inquirer.net/2341222/over-5800-caraga-farmers-secure-individual-land-titles",
       "image": {
@@ -775,7 +775,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqg-fu37nf",
@@ -784,7 +784,7 @@
       "summary": "MANILA, Philippines – The Icons of Change International Awards 2026 is set to recognize journalists, diplomats, business and healthcare leaders as well as peace advocates on Dec. 5. The program,…",
       "byline": "besguerra",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-14T07:31:01.879Z",
+      "published": "2026-11-14T08:00:59.031Z",
       "firstSeen": "2026-11-14T07:31:01.879Z",
       "url": "https://globalnation.inquirer.net/347443/icons-of-change-2026-awardees-to-be-recognized-on-dec-5",
       "image": {
@@ -795,6 +795,635 @@
         {
           "type": "p",
           "text": "MANILA, Philippines – The Icons of Change International Awards 2026 is set to recognize journalists, diplomats, business and healthcare leaders as well as peace advocates on Dec. 5. The program, which will culminate the annual Icons of Change International Week for Changemakers, honors those whose work align with the United Nations&#8217; 17 Sustainable Development Goals"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-qwluu7",
+      "source": "inqn",
+      "title": "Garin: Sara Duterte&#8217;s defense witnesses strengthened case against her",
+      "summary": "MANILA, Philippines — House Deputy Speaker Janette L. Garin of Iloilo said on Saturday that defense witnesses in the proceedings against Vice President Sara Duterte have inadvertently strengthened…",
+      "byline": "mareyes",
+      "section": "Latest News Stories",
+      "published": "2026-11-14T08:00:59.031Z",
+      "firstSeen": "2026-11-14T08:00:59.031Z",
+      "url": "https://newsinfo.inquirer.net/2341240/garin-sara-dutertes-defense-witnesses-strengthened-case-against-her",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Screenshot-2026-11-14-at-3.40.26-PM.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — House Deputy Speaker Janette L. Garin of Iloilo said on Saturday that defense witnesses in the proceedings against Vice President Sara Duterte have inadvertently strengthened the prosecution&#8217;s case. Speaking at the Saturday News Forum at Dapo Restaurant in Quezon City, Garin argued that testimonies presented during the first week of the defense&#8217;s"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-iyefkp",
+      "source": "inqg",
+      "title": "Coordinated intel work nets 67 foreigners in Davao region",
+      "summary": "CAGAYAN DE ORO CITY — An intensified intelligence-sharing pact among state security forces in the Davao region has led to the arrest of 67 foreigners involved in various illegal activities this year.…",
+      "byline": "besguerra",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-14T08:00:59.031Z",
+      "firstSeen": "2026-11-14T08:00:59.031Z",
+      "url": "https://globalnation.inquirer.net/347451/coordinated-intel-work-nets-67-foreigners-in-davao-region",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/Alvin-Luzon-commander-Coordinated-intel-work-14November2026_4.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CAGAYAN DE ORO CITY — An intensified intelligence-sharing pact among state security forces in the Davao region has led to the arrest of 67 foreigners involved in various illegal activities this year. This was the highlight of the joint military, police, and coast guard intelligence committee meeting held in Davao City on Friday, November 13,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-paevuu",
+      "source": "abs",
+      "title": "Chef Josh Boutwood returns to Boracay for 3-night culinary residency",
+      "summary": "Two-Michelin-starred chef Josh Boutwood is returning to Boracay for a special three-night culinary residency at Rima Treetop Dining at Shangri-La Boracay from November 25 to 27.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-14T08:00:02.000Z",
+      "firstSeen": "2026-11-14T08:00:59.031Z",
+      "url": "https://www.abs-cbn.com/lifestyle/food-travel/2026/11/14/chef-josh-boutwood-returns-to-boracay-for-3-night-culinary-residency-1600",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Two-Michelin-starred chef Josh Boutwood is returning to Boracay for a special three-night culinary residency at Rima Treetop Dining at Shangri-La Boracay from November 25 to 27."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-u1mnuk",
+      "source": "abs",
+      "title": "Theater review: ‘Rex’ turns flood control scandal into Greek tragedy",
+      "summary": "Joshua Lim So reimagines Sophocles' ‘Oedipus Rex’ against the backdrop of a contemporary flood control scandal, weaving ancient Greek tragedy with corruption, family secrets and political intrigue.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-14T08:00:02.000Z",
+      "firstSeen": "2026-11-14T08:00:59.031Z",
+      "url": "https://www.abs-cbn.com/lifestyle/people-culture-events/2026/11/14/theater-review-rex-turns-flood-control-scandal-into-greek-tragedy-1600",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Joshua Lim So reimagines Sophocles' ‘Oedipus Rex’ against the backdrop of a contemporary flood control scandal, weaving ancient Greek tragedy with corruption, family secrets and political intrigue."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-1s95xt",
+      "source": "abs",
+      "title": "Meet Highland Park's New 17-Year-Old Single Malt, Created With Artist Laila Gohar",
+      "summary": "Discover the story behind Highland Park's new 17-year-old single malt Scotch whisky, from the Orkney distillery's origins with an infamous whisky smuggler to its latest limited-edition collaboration…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-14T07:59:16.000Z",
+      "firstSeen": "2026-11-14T08:01:01.122Z",
+      "url": "https://www.abs-cbn.com/food/2026/11/14/meet-highland-park-s-new-17-year-old-single-malt-created-with-artist-laila-gohar-1559",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Discover the story behind Highland Park's new 17-year-old single malt Scotch whisky, from the Orkney distillery's origins with an infamous whisky smuggler to its latest limited-edition collaboration with artist Leila Gohar."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-11315j2",
+      "source": "inq",
+      "title": "Coordinated intel work nets 67 foreigners in Davao region",
+      "summary": "CAGAYAN DE ORO CITY — An intensified intelligence-sharing pact among state security forces in the Davao region has led to the arrest of 67 foreigners involved in various illegal activities this year.…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-14T07:56:00.000Z",
+      "firstSeen": "2026-11-14T08:00:59.031Z",
+      "url": "https://globalnation.inquirer.net/347451/coordinated-intel-work-nets-67-foreigners-in-davao-region",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/Alvin-Luzon-commander-Coordinated-intel-work-14November2026_4-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CAGAYAN DE ORO CITY — An intensified intelligence-sharing pact among state security forces in the Davao region has led to the arrest of 67 foreigners involved in various illegal activities this year. This was the highlight of the joint military, police, and coast guard intelligence committee meeting held in Davao City on Friday, November 13, where top regional security officials charted their next steps after effectively dismantling local communist armed presence in the area. In an emailed press advisory to the Inquirer on Saturday, Nov. 14, Maj. Ruben Gadut, spokesperson of the Army&#8217;s 10th Infantry Division (10ID), said the security sector [&hellip;]... Keep on reading: Coordinated intel work nets 67 foreigners in Davao region"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "dw-v4n46d",
+      "source": "dw",
+      "title": "Nigeria: How the pcoming elections are influeced by the rise of AI disinformation",
+      "summary": "As Nigeria inches closer to the 2027 polls, the use of artificial intelligence in the electoral process has prompted questions about integrity and institutional readiness. Can Nigerians trust their…",
+      "byline": "Abiodun Jamiu",
+      "section": "",
+      "published": "2026-11-14T07:54:00.000Z",
+      "firstSeen": "2026-11-14T08:00:59.031Z",
+      "url": "https://www.dw.com/en/nigeria-how-the-pcoming-elections-are-influeced-by-the-rise-of-ai-disinformation/a-79946897?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79855923_6.jpg",
+        "caption": "Nigeria's 2027 elections take place against the backdrop of AI-driven disinformationImage: Adekunle Ajayi/NurPhoto/picture alliance"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nigeria has just over two months to go to the polls, with incumbent President Bola Tinubu running on a ticket focused on combating raging insecurity and resolving the nation's economic crisis. He faces off against former Vice President Atiku Abubakar and senior opposition figure Peter Obi."
+        },
+        {
+          "type": "p",
+          "text": "The country's electoral body, the Independent National Electoral Commission (INEC), recently released its preliminary voter's register, which reportedly is riddled with images believed to have been generated using artificial intelligence (AI)."
+        },
+        {
+          "type": "p",
+          "text": "Among the telltale signs of AI usage were exaggerated facial features in images, and inconsistencies on the electoral registers, such as duplicates of names and even identities of people who since the previous election had died."
+        },
+        {
+          "type": "p",
+          "text": "The development raises concerns about the body's overall preparedness ahead of the country's upcoming 2027 general elections; instead of making the upcoming vote more transparent by allowing access to its procedures, INEC has come under fire amid broader controversies about the expanding influence of AI in elections across the continent."
+        },
+        {
+          "type": "h",
+          "text": "Is Nigeria becoming a one-party state?"
+        },
+        {
+          "type": "h",
+          "text": "Fake news: Nothing new in Nigeria"
+        },
+        {
+          "type": "p",
+          "text": "Joash Amupitan, the chairman of the commission, said the body is now investigating the development, focusing on discrepancies potentially created by AI-use."
+        },
+        {
+          "type": "p",
+          "text": "To this end, he announced the establishment of a dedicated unit to monitor AI-related threats, detect deepfakes and strengthen the integrity of the electoral process, warning that the credibility of the upcoming elections could otherwise be under attack."
+        },
+        {
+          "type": "p",
+          "text": "However, even prior to the proliferation of AI across Africa and indeed the globe, this would not be the first time that Nigeria finds itself in the unfortunate position of having to deal with the circulation of fabricated images, doctored audio and fake videos online; in the run up to the 2023 elections, deepfakes falsely linking candidates to terror-related activities filled social media platforms."
+        },
+        {
+          "type": "p",
+          "text": "These are often designed to promote certain candidates, or to discredit opponents in a bid to influence public perception, which now with the use of AI could create disinformation campaigns of new proportions."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79753046_$%7BformatId%7D.jpg",
+          "caption": "Supporters of a particular candidate in the election can be manipulated easily to believe AI-driven fake newsImage: Sani Maikatanga/AP Photo/picture alliance"
+        },
+        {
+          "type": "h",
+          "text": "Artificial Intelligence: Various effects on voter behavior"
+        },
+        {
+          "type": "p",
+          "text": "Lois Ugbede, the assistant editor at the factchecking platform DUBAWA, told DW that \"based on our monitoring so far, AI-driven disinformation is serious and is becoming commonplace.\""
+        },
+        {
+          "type": "p",
+          "text": "\"This could influence political discourse and voter behavior ahead of 2027 because we are already seeing parties using inflated crowds to show that they have a large followership or support,\" she added."
+        },
+        {
+          "type": "p",
+          "text": "At the same time, rather than influencing the vote in favor of any particular candidate, \"the deeper danger is that people may begin to doubt authentic information simply because they know convincing AI generated fakes are possible,\" says Akintunde Babatunde, Executive Director of the Abuja-based Center for Journalism, Innovation and Development (CJID).\""
+        },
+        {
+          "type": "p",
+          "text": "\"We often focus on the risk of people believing an AI-generated falsehood, but there is another problem where genuine evidence can be dismissed as AI generated,\" he noted, citing instances of a lawmaker who recently made inflammatory remarks during a campaign rally — but then claimed the clips were manipulated."
+        },
+        {
+          "type": "h",
+          "text": "Have some elections become an empty ritual?"
+        },
+        {
+          "type": "h",
+          "text": "Further pitfalls behind a lack of safeguards against AI"
+        },
+        {
+          "type": "p",
+          "text": "Chibuike Mgbeahuruike, an election consultant at the Centre for Democracy and Development (CDD-West Africa), meanwhile told DW that apart from the spread of synthetic content online, AI intrusion into INEC's portal could also \"undermine its institutional credibility, especially with the low level of confidence that we are already witnessing.\""
+        },
+        {
+          "type": "p",
+          "text": "He added however that AI itself is not inherently a threat to electoral integrity, but that the real threat rather lies in \"the absence of effective accountability for its deployment,\" as innovations in tech increasingly appear to infiltrate governments and their democratic processes."
+        },
+        {
+          "type": "p",
+          "text": "\"Voters must have confidence … that the technology is also transparent, accountable and independently scrutinized, and ultimately subject to human and institutional oversight,\" Mgbeahuruike said."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/64834878_$%7BformatId%7D.jpg",
+          "caption": "Journalists can be just as susceptible to disinformation created by AI and other technologiesImage: Emmanuel Osodi/AA/picture alliance"
+        },
+        {
+          "type": "p",
+          "text": "The Director-General of Voice of Nigeria (VON), Mallam Jibrin Baba Ndace, agrees, urging journalists at a recent conference also to not fall into the trap of believing reports, which later could turn out to be false due to AI manipulation."
+        },
+        {
+          "type": "p",
+          "text": "He stressed the importance of protection measures and due diligence in news media, with the growing inability of public institutions like INEC to provide impartial information due to the use and influence of AI and other election-related tech."
+        },
+        {
+          "type": "h",
+          "text": "Nigeria's marred relationship with new tech in elections"
+        },
+        {
+          "type": "p",
+          "text": "Beyond AI, Nigeria's electoral processes have undergone various technological shifts over the years in hopes of improving transparency while increasing efficiency."
+        },
+        {
+          "type": "p",
+          "text": "Electoral authorities first deployed electronic assistance in 2011, when Direct Data Capture Machines were introduced; the devices collect voters' biometrics by scanning fingerprints or capturing facial recognition data with webcams to stop voters from submitting multiple ballots."
+        },
+        {
+          "type": "p",
+          "text": "Ten years later, a new system called the Bimodal Voter Accreditation System (BVAS) was introduced as the new standard, designed to combine fingerprints with facial recognition; however, during the 2023 general elections, this voting process was marred by system failures of BVAS, as poor cell signal delayed these voter accreditation procedures."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/64686011_$%7BformatId%7D.jpg",
+          "caption": "In Nigeria, voting procedures have increasingly been digitalized since 2011Image: Pius Utomi Ekpei/AFP"
+        },
+        {
+          "type": "p",
+          "text": "However, with INEC tallying more than 103 million Nigerians registered to participate in the coming poll, disinformation, fake news and technological challenges amount to only few of several concerns pertaining to Nigeria's democracy:"
+        },
+        {
+          "type": "p",
+          "text": "Voter apathy has become a particular concern, especially among the country's youth; the 2023 elections recorded the lowest voter turnout since the country's return to democratic rule in 1999, with merely 27 percent of registered voters going to the polls."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1dla2y5",
+      "source": "abs",
+      "title": "PVL: PLDT bucks 3rd set lapse to turn back Galeries, boost semis bid",
+      "summary": "PLDT did not let its third-set lapse hamper its goal, eventually turning back Galeries Tower, 25-13, 25-23, 23-25, 25-18, to bolster its semifinals bid in the 2026-27 Premier Volleyball League (PVL)…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-14T07:53:48.000Z",
+      "firstSeen": "2026-11-14T08:01:08.091Z",
+      "url": "https://www.abs-cbn.com/sports/volleyball/2026/11/14/pvl-pldt-bucks-3rd-set-lapse-to-turn-back-galeries-boost-semis-bid-1553",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PLDT did not let its third-set lapse hamper its goal, eventually turning back Galeries Tower, 25-13, 25-23, 23-25, 25-18, to bolster its semifinals bid in the 2026-27 Premier Volleyball League (PVL) All-Filipino Conference on Saturday at the PhilSports Arena in Pasig City."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1tda6p",
+      "source": "inq",
+      "title": "Garin: Sara Duterte's defense witnesses strengthened case against her",
+      "summary": "MANILA, Philippines — House Deputy Speaker Janette L. Garin of Iloilo said on Saturday that defense witnesses in the proceedings against Vice President Sara Duterte have inadvertently strengthened…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-14T07:51:27.000Z",
+      "firstSeen": "2026-11-14T08:00:59.031Z",
+      "url": "https://newsinfo.inquirer.net/2341240/garin-sara-dutertes-defense-witnesses-strengthened-case-against-her",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Screenshot-2026-11-14-at-3.40.26-PM-620x386.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — House Deputy Speaker Janette L. Garin of Iloilo said on Saturday that defense witnesses in the proceedings against Vice President Sara Duterte have inadvertently strengthened the prosecution&#8217;s case. Speaking at the Saturday News Forum at Dapo Restaurant in Quezon City, Garin argued that testimonies presented during the first week of the defense&#8217;s presentation produced answers favorable to the prosecution. &#8220;The defense witnesses were actually able to strengthen [the case],&#8221; Garin said. READ: Witness: VP Duterte earned P2M from ‘loose investment’ She questioned the strategic value of the testimonies, stating, &#8220;So you don&#8217;t know if they were really there [&hellip;]... Keep on reading: Garin: Sara Duterte's defense witnesses strengthened case against her"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-1g0jtnj",
+      "source": "abs",
+      "title": "UAAP: UP women revive Final 4 hopes with comeback win vs. FEU",
+      "summary": "University of the Philippines revived its Final 4 hopes in the UAAP Season 89 women's basketball tournament on Saturday, rallying for an 82-80 win against Far Eastern University at the Araneta…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-14T07:42:24.000Z",
+      "firstSeen": "2026-11-14T08:01:08.102Z",
+      "url": "https://www.abs-cbn.com/sports/basketball/2026/11/14/uaap-up-women-revive-final-4-hopes-with-comeback-win-vs-feu-1542",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "University of the Philippines revived its Final 4 hopes in the UAAP Season 89 women's basketball tournament on Saturday, rallying for an 82-80 win against Far Eastern University at the Araneta Coliseum."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-pw5ci3",
+      "source": "inq",
+      "title": "Microsoft releases statement after Outlook outage",
+      "summary": "MANILA, Philippines – Microsoft apologized for the global Outlook outage, citing that a technical issue was the cause and that the issue has been resolved. “We are deeply sorry for the disruption…",
+      "byline": "Jem Sagcal",
+      "section": "",
+      "published": "2026-11-14T07:36:04.000Z",
+      "firstSeen": "2026-11-14T08:00:59.033Z",
+      "url": "https://technology.inquirer.net/150405/microsoft-releases-statement-after-outlook-outage",
+      "image": {
+        "src": "https://technology.inquirer.net/files/2026/11/microsoftoutlook-470x264.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Microsoft apologized for the global Outlook outage, citing that a technical issue was the cause and that the issue has been resolved."
+        },
+        {
+          "type": "p",
+          "text": "“We are deeply sorry for the disruption this incident has caused our customers and partners,” began the statement."
+        },
+        {
+          "type": "p",
+          "text": "“This was a technical issue not related to cyber or AI / agents. The incident was introduced by an issue during an earlier network capacity upgrade that surfaced following a recent network change. We have addressed the underlying issue and continue to restore service to remaining customers and regions.”"
+        },
+        {
+          "type": "p",
+          "text": "RELATED STORY: Microsoft Outlook outage: perils of relying on big tech"
+        },
+        {
+          "type": "h",
+          "text": "Nearly 24 hours of outage"
+        },
+        {
+          "type": "p",
+          "text": "On November 12, everyday users noticed that they could not access Microsoft Outlook."
+        },
+        {
+          "type": "p",
+          "text": "It took nearly 24 hours before Microsoft announced that Outlook had been restored, however businesses and industries were deeply affected by the outage. Around 74 countries were reportedly affected."
+        },
+        {
+          "type": "p",
+          "text": "“Given the scale of demand, we restored services gradually, validating stability at each stage. While this took longer, it helped ensure a stable restoration. We will provide a full post-incident report once our review is complete,” ended the statement."
+        },
+        {
+          "type": "p",
+          "text": "RELATED STORY: Cybersecurity in the Age of AI"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1dag8rw",
+      "source": "inq",
+      "title": "'Reply 1988' actor Ko Kyung-pyo caught drunk driving after truck crash",
+      "summary": "South Korean actor Ko Kyung-pyo is under police investigation for drunk driving after crashing his car into a street-cleaning truck in Seoul early Saturday, Nov. 14. The collision occurred at around…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-14T07:31:02.000Z",
+      "firstSeen": "2026-11-14T08:01:01.122Z",
+      "url": "https://entertainment.inquirer.net/690064/reply-1988-actor-ko-kyung-pyo-caught-drunk-driving-after-truck-crash",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/11/E14BE4C5-2FA6-4BBF-9D6D-01BEBF30D236-700x467.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "South Korean actor Ko Kyung-pyo is under police investigation for drunk driving after crashing his car into a street-cleaning truck in Seoul early Saturday, Nov. 14. The collision occurred at around 3:30 a.m. in Donggyo-dong, Mapo-gu, while Ko was driving his car, news reports said. Police officers dispatched to the scene administered a breathalyzer test, which showed that Ko&#8217;s blood alcohol concentration exceeded the legal threshold for license revocation. Under South Korean law, drivers with a blood alcohol concentration of 0.08 percent or higher face license revocation. Ko&#8217;s exact blood alcohol level has not been disclosed. Police are investigating the circumstances [&hellip;]... Keep on reading: 'Reply 1988' actor Ko Kyung-pyo caught drunk driving after truck crash"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "dw-2day90",
+      "source": "dw",
+      "title": "Espionage accusations: a pressure tactic for Turkish government critics",
+      "summary": "This week's arrest of an employee of a German foundation in Istanbul has put focus back on the Erdogan administration's pressure tactics. The arrest is far from the first of its kind.",
+      "byline": "Melissa Karbas",
+      "section": "",
+      "published": "2026-11-14T07:31:00.000Z",
+      "firstSeen": "2026-11-14T08:00:59.031Z",
+      "url": "https://www.dw.com/en/espionage-accusations-a-pressure-tactic-for-turkish-government-critics/a-79943768?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79917953_6.jpg",
+        "caption": "Yonca Verdioglu Sik (right) after her release with her husband, journalist and MP Ahmet Sik (left)Image: ANKA"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "When police officers appeared at her home in Istanbul last Wednesday evening, Yonca Verdioglu Sik was surprised — even more so when they took her in for questioning. Her lawyer says she was accused of political and military espionage."
+        },
+        {
+          "type": "p",
+          "text": "But, according to transcripts of the interrogation that were published later, Verdioglu Sik was never asked any questions about espionage. Instead the public prosecutor's office appeared to be more interested in the activities of the German organization, the Heinrich Böll Foundation, for whom Verdioglu Sik works. For 18 years, Verdioglu Sik, who was born and raised in Germany, has been the foundation's project coordinator. In her role, she organizes projects that focus on democracy and women's, minority and LGBTQ+ rights."
+        },
+        {
+          "type": "p",
+          "text": "During the interrogation, transfers of money from the foundation into her bank account were discussed. Verdioglu Sik found out that she was now subject to a travel ban too."
+        },
+        {
+          "type": "h",
+          "text": "Pressure on politicians"
+        },
+        {
+          "type": "p",
+          "text": "Verdioglu Sik was eventually released. Nonetheless her arrest caused outrage among critics of the Turkish government. Sik is married to investigative journalist and member of parliament, Ahmet Sik. He belongs to the left-wing Workers' Party of Turkey, or TIP, and is known as one of the current government's harshest critics."
+        },
+        {
+          "type": "p",
+          "text": "Recently Sik has been looking into a stock market scandal, which allegedly benefitted members of the ruling Justice and Development Party, or AKP, headed by Turkish President Recep Tayyip Erdogan, and their associates."
+        },
+        {
+          "type": "p",
+          "text": "Opposition critics drew a clear conclusion: As a member of parliament, Sik has parliamentary immunity. So instead, the justice system is putting pressure on him through his wife."
+        },
+        {
+          "type": "p",
+          "text": "\"If you take away a state's law, what is left is no longer called a state, but a gang,\" Sik responded to the arrest in writing."
+        },
+        {
+          "type": "p",
+          "text": "Verdioglu Sik's arrest is not the first such case in Turkey. Ever since the attempted coup against the Erdogan government in 2016, accusations of espionage have been levelled at a wide variety of groups in Turkey: journalists, opposition figures and human rights activists as well as employees of foreign embassies and staff of foreign institutions like non-governmental organizations and foundations."
+        },
+        {
+          "type": "h",
+          "text": "Diplomatic disputes"
+        },
+        {
+          "type": "p",
+          "text": "Such accusations were often followed by acquittals or convictions for other offenses, albeit sometimes years later. What the many instances have in common though is what's known as a \"chilling effect.\" Any investigation can mean lengthy pre-trial detention, reputational and professional damage and even social isolation."
+        },
+        {
+          "type": "p",
+          "text": "In the past such cases have even triggered diplomatic spats."
+        },
+        {
+          "type": "p",
+          "text": "For example in 2015, Can Dundar and Erdem Gul, both senior journalists at the opposition daily Cumhuriyet, were accused of espionage after reporting that Turkey had tried to ship arms to rebels fighting the Syrian government. Dundar now lives in exile in Berlin."
+        },
+        {
+          "type": "p",
+          "text": "In 2017, Erdogan said that reporter Deniz Yücel, then working for German newspaper Die Welt, was a \"German agent.\" That led to a serious diplomatic crisis between Berlin and Ankara."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/62051777_$%7BformatId%7D.jpg",
+          "caption": "Journalist Deniz Yücel was labeled a \"German agent\" by Turkey's presidentImage: Bernd Elmenthaler/IMAGO IMAGES"
+        },
+        {
+          "type": "p",
+          "text": "Espionage charges have also been laid against local employees of the US diplomatic corps and against a lawyer working for the German embassy. US pastor Andrew Brunson and his wife were also arrested because of alleged links to Kurdish anti-government groups. Turkish philanthropist and human rights activist Osman Kavala, who was charged with espionage and attempting to overthrow the constitutional order, remains in prison."
+        },
+        {
+          "type": "p",
+          "text": "Most recently, espionage charges have been brought against the former Istanbul mayor and Erdogan's political competitor, Ekrem Imamoglu, and a number of journalists."
+        },
+        {
+          "type": "h",
+          "text": "'Hostage diplomacy'"
+        },
+        {
+          "type": "p",
+          "text": "Hakki Tas, a research fellow and expert on Turkey at the German Institute for Global and Area Studies, or GIGA, notes that the number of such cases have been increasing over the past few years."
+        },
+        {
+          "type": "p",
+          "text": "On the one hand, Turkey has the right to protect itself from foreign intelligence services — especially given geopolitical competition and conflict in the region, he argues. On the other hand, there's a long tradition of bringing the Turkish opposition to court to face security charges."
+        },
+        {
+          "type": "p",
+          "text": "\"What foreigners or employees of foreign institutions have experienced in recent years is a continuation of this pattern,\" Tas told DW."
+        },
+        {
+          "type": "h",
+          "text": "LGBTQ+ communities in Turkey fear intensifying clampdown"
+        },
+        {
+          "type": "p",
+          "text": "Media outlets and NGOs critical of the government have faced investigations, trials and other sorts of state sanctions for years. The ruling AKP party has also brought in its own version of a so-called \"foreign agent law.\""
+        },
+        {
+          "type": "p",
+          "text": "These sorts of espionage cases serve both a domestic and foreign policy function, Tas observes."
+        },
+        {
+          "type": "p",
+          "text": "For locals, \"contact with a foreign institution, foreign funding or even a perfectly normal salary could become part of an investigation someday,\" Tas explains. \"For opposition figures and civil society organizations, in particular, this can become a security issue.\""
+        },
+        {
+          "type": "p",
+          "text": "In terms of foreign policy, the cases also show other countries that there are limits to their activities inside Turkey. These kinds of accusations seem to become more frequent when there's some sort of foreign policy tension — for example, after Western criticism of how opposition groups were dealt with after the alleged coup in 2016, the aforementioned disputes about arms deliveries in connection with Syria, or criticism from abroad about the removal of elected mayors in Turkey."
+        },
+        {
+          "type": "p",
+          "text": "It can also serve as a kind of \"hostage diplomacy,\" Tas says."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/45876980_$%7BformatId%7D.jpg",
+          "caption": "US pastor Andrew Brunson (center, white shirt) with his wife after his release in 2018Image: Getty Images/AFP/B. Kilic"
+        },
+        {
+          "type": "h",
+          "text": "Punishing process"
+        },
+        {
+          "type": "p",
+          "text": "The case of US cleric Brunson is a good example. After his arrest, the Turkish government proposed a trade with the Americans. They wanted to exchange Turkish preacher Fethullah Gulen, who lived in the US and who the Turkish government blamed for the 2016 coup attempt."
+        },
+        {
+          "type": "p",
+          "text": "This suspicion of foreign institutions isn't something that the Erdogan government invented, Tas points out. In the early 2000s, several representatives of German organizations were already standing trial in Turkey. At the time, it was alleged that, among other things, the German spy service was using German foundations as a front for conspiracy."
+        },
+        {
+          "type": "p",
+          "text": "In some of the best-known cases, defendants often don't end up convicted of espionage."
+        },
+        {
+          "type": "p",
+          "text": "The Kavala case demonstrates this. He was initially acquitted of espionage several times and spent two years in prison, just because of those charges."
+        },
+        {
+          "type": "p",
+          "text": "But Tas says that's no surprise, referring to a 1979 work about the sociology of law written by US law professor Malcolm Feeley. It's title: \"The Process Is the Punishment.\""
+        },
+        {
+          "type": "p",
+          "text": "This story was originally published in German."
+        },
+        {
+          "type": "h",
+          "text": "No future in Turkey?"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1f39voc",
+      "source": "inq",
+      "title": "Icons of Change 2026 awardees to be recognized on Dec. 5",
+      "summary": "MANILA, Philippines – The Icons of Change International Awards 2026 is set to recognize journalists, diplomats, business and healthcare leaders as well as peace advocates on Dec. 5. The program,…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-14T07:30:09.000Z",
+      "firstSeen": "2026-11-14T08:01:08.091Z",
+      "url": "https://globalnation.inquirer.net/347443/icons-of-change-2026-awardees-to-be-recognized-on-dec-5",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/Icons-of-Change-International-Awards-2026-14November2026_3-1-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – The Icons of Change International Awards 2026 is set to recognize journalists, diplomats, business and healthcare leaders as well as peace advocates on Dec. 5. The program, which will culminate the annual Icons of Change International Week for Changemakers, honors those whose work align with the United Nations&#8217; 17 Sustainable Development Goals (SDGs). “The initiative reflects the growing importance of multidisciplinary leadership in addressing contemporary global challenges. It recognizes that progress in societies and institutions requires contributions from different professions, sectors and geographical regions,” the Icons of Change organization said in a statement. It is supported by an [&hellip;]... Keep on reading: Icons of Change 2026 awardees to be recognized on Dec. 5"
         }
       ],
       "truncated": true,
@@ -894,7 +1523,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-13i88pj",
@@ -2722,56 +3351,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-9y6vwg",
-      "source": "inq",
-      "title": "NBA Cup: Trail Blazers beat Kings for third straight win",
-      "summary": "SACRAMENTO, California— Deni Avdija scored 34 points and the Portland Trail Blazers beat the Sacramento Kings 120-107 on Friday night in NBA Cup play to open a six-game trip with their third straight…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-14T05:55:43.000Z",
-      "firstSeen": "2026-11-14T06:01:04.604Z",
-      "url": "https://sports.inquirer.net/707024/nba-cup-trail-blazers-beat-kings-for-third-straight-win",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/AP26318163020584-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SACRAMENTO, California— Deni Avdija scored 34 points and the Portland Trail Blazers beat the Sacramento Kings 120-107 on Friday night in NBA Cup play to open a six-game trip with their third straight victory. Damian Lillard added 29 points to help Portland improve to 9-3. The Trail Blazers are 6-1 on the road, with the lone loss to the Los Angeles Lakers in their NBA Cup opener. READ: NBA: Damian Lillard drops 25 points as Trail Blazers beat Thunder Avdija was 11 of 13 from the field, hitting 3 of 5 3-pointers, and nine free throws without a miss. Toumani Camara [&hellip;]... Keep on reading: NBA Cup: Trail Blazers beat Kings for third straight win"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-hkk4oj",
-      "source": "inq",
-      "title": "1-year-old boy dies in Cavite house fire",
-      "summary": "LUCENA CITY — A one-year-old boy died Friday night, Nov. 13, after fire razed his family’s house in Carmona City, Cavite. The Police Regional Office 4A said in a report Saturday that the blaze broke…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-14T05:53:05.000Z",
-      "firstSeen": "2026-11-14T06:01:04.604Z",
-      "url": "https://newsinfo.inquirer.net/2341191/1-year-old-boy-dies-in-cavite-house-fire",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/09/Cavite-map-620x352.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — A one-year-old boy died Friday night, Nov. 13, after fire razed his family’s house in Carmona City, Cavite. The Police Regional Office 4A said in a report Saturday that the blaze broke out in Barangay Milagrosa at 9:45 p.m. According to the police, the boy’s mother left him in the care of her two other young children while she went to a neighbor’s house before dinner. While their mother was away, the two children reportedly lit a candle and placed it inside the room where their younger brother was sleeping. The two then went outside to play, leaving [&hellip;]... Keep on reading: 1-year-old boy dies in Cavite house fire"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "bbc-132fv7o",
       "source": "bbc",
       "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
@@ -2860,31 +3439,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-z70dkq",
-      "source": "inq",
-      "title": "NBA Cup: Spurs extend winning streak to 11 with rout of Warriors",
-      "summary": "SAN ANTONIO — Stephon Castle scored a season-high 32 points, Victor Wembanyama had 12 points and 12 rebounds and the San Antonio Spurs won their 11th straight game, rolling past the Golden State…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-14T05:49:51.000Z",
-      "firstSeen": "2026-11-14T06:01:04.605Z",
-      "url": "https://sports.inquirer.net/707021/nba-cup-spurs-extend-winning-streak-to-11-with-rout-of-warriors",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/AFP__20261114__2304522413__v1__HighRes__GoldenStateWarriorsVSanAntonioSpurs-620x437.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN ANTONIO — Stephon Castle scored a season-high 32 points, Victor Wembanyama had 12 points and 12 rebounds and the San Antonio Spurs won their 11th straight game, rolling past the Golden State Warriors 123-85 Friday night to remain unbeaten in NBA Cup play. Golden State&#8217;s only double-figure scorers were L.J. Cryer with 20 points and Charles Bassey with 11. READ: NBA: Wembanyama ‘where I want to be’ after another spectacular night The Warriors are without Stephen Curry, who is sidelined at least two weeks with a right oblique tear suffered in a 115-108 loss in Houston on Wednesday. Golden State [&hellip;]... Keep on reading: NBA Cup: Spurs extend winning streak to 11 with rout of Warriors"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-aecob0",
       "source": "abs",
       "title": "'Category closed': Merckz misses Top 5 spot in 'Drag Race PH' season 4",
@@ -2949,56 +3503,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-101eruu",
-      "source": "inq",
-      "title": "NBA Cup: Alperen Sengun explodes for 43 as Rockets edge past Jazz",
-      "summary": "HOUSTON— Alperen Sengun scored 43 points and pulled down 12 rebounds as the Houston Rockets held off Utah 125-118 in NBA Cup play Friday night, handing the Jazz their 11th consecutive loss. It was…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-14T05:45:57.000Z",
-      "firstSeen": "2026-11-14T06:01:04.607Z",
-      "url": "https://sports.inquirer.net/707018/nba-cup-alperen-sengun-explodes-for-43-as-rockets-edge-past-jazz",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/AP26318161649254-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "HOUSTON— Alperen Sengun scored 43 points and pulled down 12 rebounds as the Houston Rockets held off Utah 125-118 in NBA Cup play Friday night, handing the Jazz their 11th consecutive loss. It was Sengun&#8217;s second career 40-point game, and he did it on an efficient 17 of 24 from the floor. The Rockets (10-3) needed the boost with Kevin Durant — 22 points on 5 of 14 from the field — having a tough shooting night. Sengun&#8217;s other 40-point game came in 2024 when he posted a career-high 45 against the San Antonio Spurs. READ: NBA: Alperen Sengun, Rockets power [&hellip;]... Keep on reading: NBA Cup: Alperen Sengun explodes for 43 as Rockets edge past Jazz"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-ou7qvc",
-      "source": "inq",
-      "title": "DPWH puts load limit on Samar bridge, briefly closes Southern Leyte bridge",
-      "summary": "TACLOBAN CITY — Motorists in Samar and Southern Leyte are advised to expect changes in traffic movement as the Department of Public Works and Highways (DPWH) implements a load restriction on one…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-14T05:44:46.000Z",
-      "firstSeen": "2026-11-14T06:01:11.851Z",
-      "url": "https://newsinfo.inquirer.net/2341187/dpwh-puts-load-limit-on-samar-bridge-briefly-closes-southern-leyte-bridge",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/DPWH-imposes-load-limit-on-Samar-bridge-14November2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TACLOBAN CITY — Motorists in Samar and Southern Leyte are advised to expect changes in traffic movement as the Department of Public Works and Highways (DPWH) implements a load restriction on one bridge and schedules temporary closures of another. The adjustments are meant to facilitate infrastructure works. The DPWH Samar 2nd District Engineering Office announced that Bical Bridge in Barangay San Pedro, Sta. Rita, Samar will be subject to a temporary load restriction starting Nov. 23, 2026, until further notice. Under the restriction, vehicles crossing the bridge must not exceed a maximum gross vehicle weight (GVW) of 15 metric tons. Heavy [&hellip;]... Keep on reading: DPWH puts load limit on Samar bridge, briefly closes Southern Leyte bridge"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "star-odwr62",
@@ -3263,31 +3767,6 @@
         {
           "type": "p",
           "text": "The Philippines is anticipating the signing of an emergency oil-sharing framework, a deal it earlier proposed to help boost or stabilize supply in the region, during its hosting of the 49th Association of Southeast Asian Nations (Asean) Summit. At a press conference on Friday, Department of Foreign Affairs (DFA) spokesperson for Asean issues Dominic Xavier"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1no2ezq",
-      "source": "inqn",
-      "title": "Alcantara: P213.75M in kickbacks delivered to Estrada",
-      "summary": "A total of P213.75 million worth of kickbacks was delivered to a hotel in Manila allegedly for Sen. Jinggoy Estrada, former Department of Public Works and Highways (DPWH) district engineer Henry…",
-      "byline": "jvicente",
-      "section": "Headlines",
-      "published": "2026-11-14T05:35:00.000Z",
-      "firstSeen": "2026-11-13T22:01:10.404Z",
-      "url": "https://newsinfo.inquirer.net/2341016/alcantara-p213-75m-in-kickbacks-delivered-to-jinggoy",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/News1330358.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A total of P213.75 million worth of kickbacks was delivered to a hotel in Manila allegedly for Sen. Jinggoy Estrada, former Department of Public Works and Highways (DPWH) district engineer Henry Alcantara testified before the Sandiganbayan Second Division on Friday. Speaking as a witness for the prosecution in the continuation of Estrada’s graft trial, Alcantara"
         }
       ],
       "truncated": true,
@@ -9058,31 +9537,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inqg-3l923f",
-      "source": "inqg",
-      "title": "Sneak peak of ‘Trumpocalypse’ effigy ahead of Asean Summit protests",
-      "summary": "MANILA, Philippines — Protesters allowed on Friday a sneak peek of the effigy featuring US President Donald Trump and President Ferdinand Marcos Jr. ahead of the protest action at Liwasang Bonifacio…",
-      "byline": "mareyes",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-13T21:24:32.000Z",
-      "firstSeen": "2026-11-13T13:30:56.601Z",
-      "url": "https://globalnation.inquirer.net/347280/sneak-peak-of-trumpocalypse-effigy-ahead-of-asean-summit-protests",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Screenshot-2026-11-13-at-9.10.49-PM.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Protesters allowed on Friday a sneak peek of the effigy featuring US President Donald Trump and President Ferdinand Marcos Jr. ahead of the protest action at Liwasang Bonifacio next week. The effigy will be burned in protest of Trump’s visit in Manila for the Association of Southeast Asian Nations (Asean)’s 49th Summit."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "cbc-1ct9e5o",
       "source": "cbc",
       "title": "U.S. Treasury Secretary frustrated by Commerce Department's inaction on Nvidia chips",
@@ -14032,217 +14486,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "dw-1qgjmom",
-      "source": "dw",
-      "title": "Indonesia's wiretapping scandal opens a political fault line",
-      "summary": "Senior police officers are accused of illegally monitoring President Prabowo Subianto, exposing rival networks within Indonesia's security establishment and renewing concerns about political misuse…",
-      "byline": "David Hutt",
-      "section": "",
-      "published": "2026-11-13T14:29:00.000Z",
-      "firstSeen": "2026-11-13T14:30:54.451Z",
-      "url": "https://www.dw.com/en/indonesia-s-wiretapping-scandal-opens-a-political-fault-line/a-79939753?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79254925_6.jpg",
-        "caption": "The surveillance allegedly targeted not just the president, but also ministries, lawmakers, students and others [FILE: September 13, 2026]Image: Alexander Kazakov/Sputnik/REUTERS"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "For decades, Indonesia's police and intelligence agencies have been accused of spying on politicians, journalists, and activists, Now, a widening scandal involving some of the country's most senior police officers has brought those concerns to the heart of government."
-        },
-        {
-          "type": "p",
-          "text": "Earlier this month, Indonesian police named four senior officers as suspects in an alleged illegal surveillance operation targeting President Prabowo Subianto and other prominent figures."
-        },
-        {
-          "type": "p",
-          "text": "Former national police chief Listyo Sigit Prabowo, who is not related to the president, was among the senior officers arrested. The ex-police chief became the president's chief of staff in October, just weeks before the scandal broke."
-        },
-        {
-          "type": "p",
-          "text": "Investigators claim that officers intercepted communications without proper authorization in 2025 and 2026 and then tried to delete records of the operation."
-        },
-        {
-          "type": "p",
-          "text": "Suyudi Ario Seto, the new police chief, told a parliamentary panel this week that the surveillance targeted the president, officials within the presidential palace, ministries, state institutions, lawmakers, political party figures, governors, anti-corruption officials, activists and students."
-        },
-        {
-          "type": "p",
-          "text": "A parliamentary commission is investigating the motive behind the wiretapping operation and trying to uncover whether other senior figures were involved. Meanwhile, the police have opened an investigation into possible treason-related offenses."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79895778_$%7BformatId%7D.jpg",
-          "caption": "Following the wiretapping allegations, President Prabowo hosted ten former chiefs of the national police, along with current Police Chief Suyudi Ario Seto, at his residence for a goodwill meetingImage: Media Team of the President of the Republic of Indonesia"
-        },
-        {
-          "type": "h",
-          "text": "Intensifying political turmoil?"
-        },
-        {
-          "type": "p",
-          "text": "Amnesty International has called for investigations to also determine whether the wiretap operation was used to intimidate government critics and weaken civil liberties."
-        },
-        {
-          "type": "p",
-          "text": "The government has responded by ordering an additional 20,000 troops to Jakarta as a precaution, although there had been no indication that the wiretap is part of a larger campaign intended to bring down Prabowo's administration."
-        },
-        {
-          "type": "p",
-          "text": "The affair has intensified tensions between Prabowo and his predecessor, Joko Widodo, commonly known as Jokowi, while exposing deeper problems with the powers and political loyalties of Indonesia's security establishment."
-        },
-        {
-          "type": "p",
-          "text": "\"The use of surveillance is actually pretty widespread,\" Yohanes Sulaiman, an associate professor at Universitas Jenderal Achmad Yani, told DW."
-        },
-        {
-          "type": "p",
-          "text": "\"While there are laws and regulations, they are flouted since there is no regulation on eavesdropping, especially by law enforcement agencies,\" he added."
-        },
-        {
-          "type": "p",
-          "text": "Officially, Indonesia's Electronic Information and Transactions Law prohibits unauthorized interception, while other legislation permits surveillance for specified law enforcement and intelligence purposes."
-        },
-        {
-          "type": "p",
-          "text": "Despite these safeguards against illegal interception, Sulaiman said it could be argued, \"that the police and intelligence are essentially unconstrained.\""
-        },
-        {
-          "type": "h",
-          "text": "A long history of surveillance"
-        },
-        {
-          "type": "p",
-          "text": "Indonesia's intelligence agencies and law enforcement have long played a role in political competition, Gatra Priyandita, a senior analyst at the Australian Strategic Policy Institute, told DW."
-        },
-        {
-          "type": "p",
-          "text": "Under Suharto's authoritarian New Order regime, which collapsed in 1998, intelligence agencies were central in monitoring political opponents and suppressing dissent."
-        },
-        {
-          "type": "p",
-          "text": "After democratization, controversies persisted. In 1999, a leaked recording of a telephone conversation involving then-President BJ Habibie raised concerns about surveillance within the presidential palace itself."
-        },
-        {
-          "type": "p",
-          "text": "In 2024, the elite counterterrorism unit, Densus 88, was caught surveilling Deputy Attorney General Febrie Adriansyah, who at the time was overseeing major corruption investigations."
-        },
-        {
-          "type": "p",
-          "text": "But what makes the latest allegations particularly significant is \"their apparent scale and the suggestion that surveillance capabilities may have been deployed outside established legal procedures and against the sitting president,\" Priyandita said."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/67349995_$%7BformatId%7D.png",
-          "caption": "In 2024, former President Jokowi backed Prabowo's presidential campaign [FILE: November 9, 2023Image: Presidential Secretariat Press Bureau"
-        },
-        {
-          "type": "h",
-          "text": "A delicate moment for the leadership"
-        },
-        {
-          "type": "p",
-          "text": "Since taking office in October 2024, Prabowo, a former special forces general, has sought to consolidate his authority over the country's political and security institutions."
-        },
-        {
-          "type": "p",
-          "text": "Critics accuse him of accelerating the militarization of civilian government, including through legislation expanding the military's ability to occupy civilian posts."
-        },
-        {
-          "type": "p",
-          "text": "However, the president inherited a security establishment partly shaped by his predecessor."
-        },
-        {
-          "type": "p",
-          "text": "In 2024, Jokowi, who couldn't run for office again, backed Prabowo's presidential campaign and his eldest son, Gibran Rakabuming Raka, became Prabowo's running mate and subsequently vice president."
-        },
-        {
-          "type": "p",
-          "text": "The Jokowi-Prabowo alliance was decisive for Prabowo's electoral victory, but it also left him governing alongside officials and political networks cultivated during Jokowi's decade in power."
-        },
-        {
-          "type": "p",
-          "text": "On Thursday, Jokowi's son Gibran resigned as vice president amid a growing controversy over his educational credentials."
-        },
-        {
-          "type": "p",
-          "text": "Indonesia's Constitutional Court and the country's Supreme Court found that Gibran's overseas high school qualifications fell short of legal requirements for vice presidential candidates, and had been wrongly accepted by election authorities."
-        },
-        {
-          "type": "p",
-          "text": "The academic credentials probe was apparently not related to the investigations into the wiretapping scandal."
-        },
-        {
-          "type": "h",
-          "text": "Can Indonesia reform its security establishment?"
-        },
-        {
-          "type": "p",
-          "text": "A series of government reshuffles in recent months has also been interpreted as Prabowo's attempt to strengthen his control, especially against some Jokowi loyalists. Listyo, appointed police chief by Jokowi in 2021 and long regarded as close to the former president, was replaced in October."
-        },
-        {
-          "type": "p",
-          "text": "\"Prabowo may have consolidated his political authority since taking office, but that does not necessarily translate into complete control over institutions whose senior leadership and internal networks were shaped under the previous Jokowi government,\" Priyandita said."
-        },
-        {
-          "type": "p",
-          "text": "Also, Prabowo may emerge politically stronger if the investigation weakens rival networks within the police. However, replacing one set of political loyalties with another would do little to resolve the underlying problem in the country's security apparatus."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79930558_$%7BformatId%7D.jpg",
-          "caption": "Gibran Rakabuming Raka stepped down from his role as vice president this week [FILE: May 20, 2026]Image: Willy Kurniawan/REUTERS"
-        },
-        {
-          "type": "p",
-          "text": "The controversy has renewed calls for reforms that would prevent police surveillance capabilities from becoming instruments of political competition."
-        },
-        {
-          "type": "h",
-          "text": "'Systematic abuse of power'"
-        },
-        {
-          "type": "p",
-          "text": "Because the latest wiretapping controversy targeted not only the president but also political elites and key civil society actors, \"surveillance goes beyond mere politics,\" Nicky Fahrizal, a researcher at the Center for Strategic and International Studies in Jakarta, told DW."
-        },
-        {
-          "type": "p",
-          "text": "\"It is a calculated and systematic abuse of power,\" he added."
-        },
-        {
-          "type": "p",
-          "text": "Fahrizal argued that a fundamental problem lies in the National Police's constitutional and institutional position, which answers directly to the president."
-        },
-        {
-          "type": "p",
-          "text": "This increases the risk that the police respond to presidential political interests rather than solely to the law."
-        },
-        {
-          "type": "p",
-          "text": "In November last year, Prabowo established a police reform commission to investigate longstanding concerns about professionalism, governance, and accountability."
-        },
-        {
-          "type": "p",
-          "text": "However, Fahrizal said former police chief Listyo failed to implement meaningful reforms, with the latest allegations showing the consequences of inadequate oversight."
-        },
-        {
-          "type": "p",
-          "text": "Fahrizal called for Indonesia to bring its fragmented surveillance regulations together under a unified legal framework, with tighter controls over the interception powers of the police's Criminal Investigation Agency and the Intelligence and Security Agency."
-        },
-        {
-          "type": "p",
-          "text": "\"Internal police reform must urgently address this by restoring professionalism and a proper institutional ethos,\" Fahrizal said."
-        },
-        {
-          "type": "p",
-          "text": "Without such changes, divided political loyalties risk becoming a \"dangerous virus\" spreading through the police and other security institutions, he added."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-11qstq0",
       "source": "abs",
       "title": "Luistro: Defense witnesses failed to explain Sara Duterte’s alleged unexplained wealth",
@@ -14973,28 +15216,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "abs-wxbi1z",
-      "source": "abs",
-      "title": "Remulla: AMLC testimony on Romualdez’s inflows does not weaken case",
-      "summary": "The Anti-Money Laundering Council’s (AMLC) testimony — which found no link between the P560-million inflows to Leyte Rep. Martin Romualdez and flood control projects — does not weaken the case…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-13T12:47:52.000Z",
-      "firstSeen": "2026-11-13T13:01:01.583Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/13/remulla-amlc-testimony-on-romualdez-s-inflows-does-not-weaken-case-2047",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Anti-Money Laundering Council’s (AMLC) testimony — which found no link between the P560-million inflows to Leyte Rep. Martin Romualdez and flood control projects — does not weaken the case against him, Ombudsman Jesus Crispin Remulla said on Friday."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "cbc-1ov6tpa",
       "source": "cbc",
       "title": "Global Microsoft outage stretches into 2nd day",
@@ -15059,94 +15280,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "feed"
-    },
-    {
-      "id": "abs-umrhqn",
-      "source": "abs",
-      "title": "TV PATROL: Estudyanteng sangkot sa pambu-bully sa Ateneo de Davao, pinatalsik na",
-      "summary": "Pinatalsik na ng Ateneo de Davao University ang junior high school student na sangkot sa isang insidente ng bullying sa loob ng palikuran ng paaralan noong November 5.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-13T12:33:53.000Z",
-      "firstSeen": "2026-11-13T13:01:06.134Z",
-      "url": "https://www.abs-cbn.com/news/regions/2026/11/13/tv-patrol-estudyanteng-sangkot-sa-pambu-bully-sa-ateneo-de-davao-pinatalsik-na-2033",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Pinatalsik na ng Ateneo de Davao University ang junior high school student na sangkot sa isang insidente ng bullying sa loob ng palikuran ng paaralan noong November 5."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-ofg31s",
-      "source": "abs",
-      "title": "TV PATROL: Elevator sa EDSA-Guadalupe busway overpass naisaayos na",
-      "summary": "Naisaayos na ang mga sirang elevator sa EDSA-Guadalupe busway overpass matapos personal na ipaabot ng isang senior citizen ang kanyang reklamo tungkol dito.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-13T12:31:54.000Z",
-      "firstSeen": "2026-11-13T13:01:07.027Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/13/tv-patrol-elevator-sa-edsa-guadalupe-busway-overpass-naisaayos-na-2031",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Naisaayos na ang mga sirang elevator sa EDSA-Guadalupe busway overpass matapos personal na ipaabot ng isang senior citizen ang kanyang reklamo tungkol dito."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1tmdqt5",
-      "source": "abs",
-      "title": "PH government agencies bear brunt of Q3 data breaches— cybersecurity firm",
-      "summary": "Public sector agencies remained the primary target, representing 41 percent—or 34 incidents—of all third-quarter breaches, according to VCS.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-13T12:29:52.000Z",
-      "firstSeen": "2026-11-13T12:30:54.864Z",
-      "url": "https://www.abs-cbn.com/news/technology/2026/11/13/ph-government-agencies-bear-brunt-of-q3-data-breaches-cybersecurity-firm-2029",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Public sector agencies remained the primary target, representing 41 percent—or 34 incidents—of all third-quarter breaches, according to VCS."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-ps26uo",
-      "source": "abs",
-      "title": "TV PATROL: Mga pagkain at produktong Pinoy patok sa mga bisita sa ASEAN Int'l Media Center",
-      "summary": "Ilang araw bago magpulong ang mga world leader sa ASEAN Summit dito sa Pilipinas, bida ang mga pagkain at produktong Pinoy na inihanda para sa mga dadalong delegasyon at mga mamamahayag.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-13T12:28:57.000Z",
-      "firstSeen": "2026-11-13T12:30:54.923Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/13/tv-patrol-mga-pagkain-at-produktong-pinoy-patok-sa-mga-bisita-sa-asean-int-l-media-center-2028",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Ilang araw bago magpulong ang mga world leader sa ASEAN Summit dito sa Pilipinas, bida ang mga pagkain at produktong Pinoy na inihanda para sa mga dadalong delegasyon at mga mamamahayag."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "dw-zjvjlz",
@@ -17150,181 +17283,6 @@
         {
           "type": "p",
           "text": "This article was originally written in German."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-qfuldh",
-      "source": "dw",
-      "title": "Iranian activist and Nobel Peace Prize winner Narges Mohammadi shares her story in memoir",
-      "summary": "Written and smuggled out of prison, the 2023 Nobel Prize laureate's memoir reveals the cost of defying Iran's regime and fighting for freedom.",
-      "byline": "Elizabeth Grenier",
-      "section": "",
-      "published": "2026-11-13T08:00:00.000Z",
-      "firstSeen": "2026-11-13T08:30:58.552Z",
-      "url": "https://www.dw.com/en/iranian-activist-and-nobel-peace-prize-winner-narges-mohammadi-shares-her-story-in-memoir/a-79868167?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/77113062_6.jpg",
-        "caption": "Nobel Peace Prize laureate Narges Mohammadi Image: Nooshin Jafari/Narges Mohammadi Foundation/AP Photo/dpa/picture alliance"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "As PEN International marks Imprisoned Writer Day on November 15, a memoir by 2023 Nobel Peace Prize laureate Narges Mohammadi stands as a powerful act of resistance against authoritarian regimes."
-        },
-        {
-          "type": "p",
-          "text": "\"A Woman Never Stops Fighting — My Struggle for Freedom, Democracy and Human Rights in Iran,\" was recently published in German and is set to be released in English in September 2027."
-        },
-        {
-          "type": "p",
-          "text": "The autobiography \"portrays how Narges actually became the woman she is today — and it also reveals the price she had to pay to become that woman,\" Mariam Claren, spokesperson for the Narges Mohammadi Foundation Germany told DW."
-        },
-        {
-          "type": "h",
-          "text": "Texts smuggled out of prison in fragments"
-        },
-        {
-          "type": "p",
-          "text": "Mohammadi wrote the autobiography in prison: \"She was constantly writing,\" says Claren, whose own mother, activist Nahid Taghavi, shared a cell with Mohammadi for two and a half years, in Iran's notorious Evin prison. \"Then, in 2020, Narges was forcibly moved to another prison. All her documents were gone. And she had to start all over.\""
-        },
-        {
-          "type": "p",
-          "text": "But she managed to rewrite it all, and her texts were smuggled out of prison in fragments by fellow prisoners and visitors who risked their own safety."
-        },
-        {
-          "type": "p",
-          "text": "In her memoir, Mohammadi recounts pivotal moments in her life, including her childhood and youth, how she started taking action against gender discrimination, political repression, the death penalty and human rights abuses, and the personal and emotional toll of her activism."
-        },
-        {
-          "type": "p",
-          "text": "The human rights activist has been sentenced to a combined total of more than 44 years in prison and 154 lashes. For more than a decade, she has been separated from her twin children, who are now 19 years old and live in exile in France for their own protection."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79876067_$%7BformatId%7D.jpg",
-          "caption": "The memoir, already available in German, will be published next year in English"
-        },
-        {
-          "type": "h",
-          "text": "How Narges Mohammadi became a human rights activist"
-        },
-        {
-          "type": "p",
-          "text": "Born on April 21, 1972, in Zanjan, Iran, Narges Mohammadi became politically active while studying in physics at Imam Khomeini University of Qazvin in the 1990s."
-        },
-        {
-          "type": "p",
-          "text": "In \"A Woman Never Stops Fighting,\" she describes how she started mountain climbing as a student, and organized mixed-gender groups dedicated to mountaineering — a controversial initiative at the time. She also helped establish an independent student organization and advocated for political reform. Her activities led to repeated harassment and arrests by authorities."
-        },
-        {
-          "type": "p",
-          "text": "She began her journalism career in 1996, writing about Iran's student and women's movements. As her public profile grew, she became increasingly involved in Iran's civil society and human rights community."
-        },
-        {
-          "type": "p",
-          "text": "In 1998, she married political activist Taghi Rahmani. The couple's twins, Ali and Kiana, were born in 2006."
-        },
-        {
-          "type": "p",
-          "text": "Over the course of her career, Mohammadi worked with some of Iran's most prominent human rights organizations and became a leading figure in the Defenders of Human Rights Centre, founded by 2003 Nobel Peace Prize laureate Shirin Ebadi."
-        },
-        {
-          "type": "p",
-          "text": "She played a key role in initiatives promoting free elections, peace and the abolition of the death penalty, especially for juvenile offenders. She also helped establish organizations supporting political prisoners and advocating for women's rights."
-        },
-        {
-          "type": "p",
-          "text": "Her first major prison sentence related to her human rights activities came in 2011. It marked the beginning of a cycle of arrests and prosecutions that would define much of her adult life."
-        },
-        {
-          "type": "p",
-          "text": "In her memoir, she describes an arrest that took place in front of her young children. At one point during her imprisonment, she lost the right to call them for several months."
-        },
-        {
-          "type": "p",
-          "text": "She also details the brutal treatment she experienced in prison, with constant interrogations, beatings and denial of medical care."
-        },
-        {
-          "type": "p",
-          "text": "Another central focus of her activism is denouncing the psychological effects of solitary confinement, which she had previously documented with fellow inmates in her book and documentary project \"White Torture.\""
-        },
-        {
-          "type": "p",
-          "text": "\"When someone is subjected to physical torture, the scars, blood and infections — dreadful as they may be — serve as visible witnesses,\" she writes in her memoir. But, she adds, \"when someone is subjected to psychological torture, no visible traces remain, and the victim cannot justify the trauma — neither to themselves nor to others. In fact, it becomes virtually impossible to even accept that one has been tortured at all, which causes the suffering to continue indefinitely.\""
-        },
-        {
-          "type": "p",
-          "text": "\"This is also the goal of solitary confinement: to bring the imprisoned person to the very edge of nothingness — to strip them of their identity and of everything that makes them human,\" she writes."
-        },
-        {
-          "type": "p",
-          "text": "Through her relentless campaigning against executions and state violence, she helped bring these issues to the forefront of public debate among Iranian activists."
-        },
-        {
-          "type": "h",
-          "text": "Nobel Prize intensified authorities' pressure on her"
-        },
-        {
-          "type": "p",
-          "text": "International recognition of her work culminated in October 2023 when she was awarded the Nobel Peace Prize for \"for her fight against the oppression of women in Iran and her fight to promote human rights and freedom for all.\""
-        },
-        {
-          "type": "p",
-          "text": "As Mohammadi was unable to attend the ceremony because she remained imprisoned in Tehran's Evin Prison, the award was accepted on her behalf by her teenage twins, who delivered her message to the world."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79876699_$%7BformatId%7D.jpg",
-          "caption": "Kiana and Ali Rahmani accepting the Nobel Prize on their mother's behalfImage: Sergei Gapon/Anadolu/IMAGO"
-        },
-        {
-          "type": "p",
-          "text": "Following the Nobel Prize, Iranian authorities continued to pursue new legal cases against her, restrict her communications and intensify pressure on her from prison."
-        },
-        {
-          "type": "p",
-          "text": "She became the target of a systematic smear campaign, including widespread defamation, gender-based harassment and explicit death threats."
-        },
-        {
-          "type": "p",
-          "text": "\"We are firmly convinced that the Islamic Republic of Iran has deployed its cyber army — which is the second-largest, after Russia's — to this end,\" says Claren of the Narges Mohammadi Foundation. Conspiracy theorists even started claiming she might be working for the regime, she adds: \"And what is truly terrible about this is that when a lie is repeated over and over again and spread over the course of years, it eventually leads even ordinary people to start believing it.\""
-        },
-        {
-          "type": "p",
-          "text": "In late 2024, following surgery, Mohammadi was granted a temporary medical release. Doctors warned at the time that a return to prison could seriously endanger her health."
-        },
-        {
-          "type": "p",
-          "text": "Nevertheless, Mohammadi was brutally arrested again in December 2025, while attending a memorial ceremony for Khosrow Alikordi, a lawyer and human rights activist who died in suspicious circumstances."
-        },
-        {
-          "type": "p",
-          "text": "In prison, she was held in solitary confinement for an extended period and her health continued to deteriorate, Claren reports. But \"thanks to a public campaign, she has now been granted what is known as an interruption of detention for medical reasons.\""
-        },
-        {
-          "type": "p",
-          "text": "But \"that doesn't mean she is free,\" adds Claren, who notes that she still suffers from serious health problems — as do many Iranians who have been tortured in prison."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/77113110_$%7BformatId%7D.jpg",
-          "caption": "Mohammadi's health sharply deteriorated and she was transferred to a hospital in MayImage: Narges Foundation Archive/AP Photo/picture alliance"
-        },
-        {
-          "type": "p",
-          "text": "In February, an Iranian court ordered additional prison sentences for Mohammadi, along with a travel ban."
-        },
-        {
-          "type": "p",
-          "text": "Mohammadi lives in constant fear of having to return to prison any day, notes Claren, and \"this all comes with the pressure to which Iranian civil society — including, of course, people like Narges — is currently subjected, with questions like: Will Trump launch an attack, yes or no? Will there be another war?\""
-        },
-        {
-          "type": "p",
-          "text": "Despite this uncertainty, Mohammadi continues her activism. Her international profile also helps her supporters keep addressing publicly the issue of human rights in Iran in the public eye, says Claren: \"It is incredibly important that, alongside the individual Narges Mohammadi, the focus also remains consistently on the struggle of the people in Iran for freedom, dignity, and fundamental rights — for the right to sing and dance.\""
         }
       ],
       "truncated": false,
