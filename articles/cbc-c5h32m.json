@@ -1,0 +1,308 @@
+{
+  "id": "cbc-c5h32m",
+  "source": "cbc",
+  "title": "We tested 6 popular apps to see what data they collect and share. Here’s what we found",
+  "summary": "Marketplace tested six of the most popular Android and iOS apps in Canada — Tim Hortons, PC Optimum, Weather Network, Facebook, Amazon and YouTube — to find out what data they collect and where it…",
+  "byline": "Bobby Hristova, Kathleen Coughlin, Rosa Marchitelli",
+  "section": "News/Canada",
+  "published": "2026-11-13T09:00:00.000Z",
+  "firstSeen": "2026-11-14T20:00:58.623Z",
+  "url": "https://www.cbc.ca/news/canada/app-data-privacy-9.7417814?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/ebfa9ee4-0018-4316-93cc-3632925f1a45,1794339272237/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1100%2C618%29%3BResize%3D620",
+    "caption": "Marketplace tested six of the most popular Android and iOS apps in Canada – Tim Hortons, PC Optimum, the Weather Network, Facebook, Amazon and YouTube – to find out what data they collect and where it’s shared. (CBC)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Whether you are buying a coffee, groceries, checking the weather or unwinding with an online video, there’s a free mobile app for just about everything."
+    },
+    {
+      "type": "p",
+      "text": "But a Marketplace investigation shows the cost of this convenience is your privacy – and the data you’re sharing goes far beyond what you might realize."
+    },
+    {
+      "type": "p",
+      "text": "Marketplace tested six of the most popular Android and iOS apps in Canada — Tim Hortons, PC Optimum, the Weather Network, Facebook, Amazon and YouTube — to find out what data they collect and where it goes."
+    },
+    {
+      "type": "p",
+      "text": "To do so, Joel Reardon, an associate professor in the department of computer science, and his team at the University of Calgary scanned the network traffic of the apps on an Android device. Privo, an organization that evaluates apps to ensure they comply with U.S. child privacy laws, also did a scan of the apps on iOS, Apple’s operating system."
+    },
+    {
+      "type": "p",
+      "text": "While doing scans to see the network traffic of mobile apps on Android, some apps appeared to be sending information to outside companies around the world. The network scan above shows the activity from all the apps on someone’s phone, not necessarily the apps Marketplace tested. (CBC)"
+    },
+    {
+      "type": "p",
+      "text": "In their user policies, the apps we tested explicitly disclose that they collect or share certain data and that when you use the app, you accept their terms."
+    },
+    {
+      "type": "p",
+      "text": "But Reardon and Celeste Rollason, an independent analyst who used to work with Privo, are concerned some apps collect more than they need and are sharing what they learn with others around the world."
+    },
+    {
+      "type": "p",
+      "text": "That data ranges from your name and email address to your exact whereabouts."
+    },
+    {
+      "type": "p",
+      "text": "“To me, this is not the internet we wanted. This is not the internet we deserve. It's turned into a monstrous data collection surveillance system,” Reardon said."
+    },
+    {
+      "type": "p",
+      "text": "Here’s what we learned about each app we tested, and what you can do to protect your data."
+    },
+    {
+      "type": "h",
+      "text": "Tim Hortons"
+    },
+    {
+      "type": "p",
+      "text": "(CBC)"
+    },
+    {
+      "type": "p",
+      "text": "The scan showed that the Tim Hortons app appeared to be sending data to third-party companies as soon as you launch it."
+    },
+    {
+      "type": "p",
+      "text": "Reardon said one overseas third-party company built into the app appeared to be receiving enough information to create the equivalent of a digital fingerprint for each device, so it can be identified in the future."
+    },
+    {
+      "type": "p",
+      "text": "“This was beyond the pale,” he said."
+    },
+    {
+      "type": "p",
+      "text": "Some of those details include:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The name given to the device (for example, Bob’s iPhone).",
+        "An identifier unique to the device.",
+        "A list of many of the sensors on the device.",
+        "The details of the device’s camera (for example, the size of your lens).",
+        "The names of the ringtones and alarm sounds used.",
+        "The names of Wi-Fi routers near you, which Reardon said can be used to determine your location."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Rollason said the third party brands itself as a fraud protection service. She noted the amount of data collected “seems quite excessive” to validate the purchase of a cup of coffee."
+    },
+    {
+      "type": "p",
+      "text": "Marketplace isn’t identifying any of the third-party companies or their locations because accountability rests with the app developer."
+    },
+    {
+      "type": "p",
+      "text": "In a statement, Tim Hortons’ director of communications Michael Oliveira said this third party only collects this information for “fraud prevention, account protection, and payment abuse prevention, not for marketing or advertising … or to work around guests’ choices regarding those activities.”"
+    },
+    {
+      "type": "p",
+      "text": "Oliveira said the information collected can help detect if a never-before-seen device is being used on a customer’s account or if a “threat actor” is pretending to be a customer."
+    },
+    {
+      "type": "p",
+      "text": "He also said the third party is not allowed to sell the data and that Tim Hortons does not sell users’ personal information to third-party companies or data brokers."
+    },
+    {
+      "type": "h",
+      "text": "PC Optimum"
+    },
+    {
+      "type": "p",
+      "text": "The test showed the PC Optimum app appeared to be sending 10 outside companies information about which products users are searching for — even if the product was sensitive like a search for prenatal vitamins."
+    },
+    {
+      "type": "p",
+      "text": "One third-party company appeared to be receiving a user’s latitude and longitude and an identifier unique to the device."
+    },
+    {
+      "type": "p",
+      "text": "The scan also showed the app sending different details to an overseas third-party including:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The first name of the user.",
+        "Their unredacted email address.",
+        "Their PC Optimum member number.",
+        "An identifier unique to the device.",
+        "How the user interacts with the app, like when they open the app and what they do in the app."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Reardon and Rollason said the data collection seemed to be more than what was necessary for the app to work properly. Based on their experience, they say they didn’t understand why the app needed 10 outside companies to know what users were searching for."
+    },
+    {
+      "type": "p",
+      "text": "In a statement, Loblaw, the company behind PC Optimum, said the company has never sold personal information and continually reviews and strengthens its systems to protect people."
+    },
+    {
+      "type": "p",
+      "text": "It said the information collected through Loblaw apps supports everyday features for customers such as shopping online and finding nearby stores."
+    },
+    {
+      "type": "h",
+      "text": "The Weather Network"
+    },
+    {
+      "type": "p",
+      "text": "The scan showed that when users allowed the Weather Network app access to their location, it appeared to be sending a third-party company those details for targeted advertising, including:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A user's precise latitude and longitude.",
+        "The user’s local weather conditions.",
+        "The device’s advertising ID (unique to each device)."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Reardon said it could allow the app to send you advertisements based on where you are or “so you could get ads for a rainy day.”"
+    },
+    {
+      "type": "p",
+      "text": "He also noted it creates a “location history, because all of [the data sent] are bridged by this one thing that doesn't change — this device identifier.”"
+    },
+    {
+      "type": "p",
+      "text": "Rollason said understanding a user’s behaviours is key to advertisers."
+    },
+    {
+      "type": "p",
+      "text": "“Are you using your phone more when it's raining or you're in the house, perhaps, versus going out on a nice day?” she said."
+    },
+    {
+      "type": "p",
+      "text": "Pelmorex, the parent company of the Weather Network, said in a statement that the Weather Network does not sell any user data to third parties and data brokers. It said the app only uses location data when a user allows it and uses that data to provide the local weather and show relevant ads. It also said users can access the weather without giving the app their location."
+    },
+    {
+      "type": "h",
+      "text": "Facebook"
+    },
+    {
+      "type": "p",
+      "text": "The scan showed when users give the Facebook app access to their camera roll to post one image, the app appeared to collect the metadata of other images and videos on the device that were not uploaded."
+    },
+    {
+      "type": "p",
+      "text": "Metadata contains details like the name of the file, the date and time it was taken and the camera settings."
+    },
+    {
+      "type": "p",
+      "text": "For whatever image or video is actually posted to Facebook, the scan appeared to show the app also collected the latitude and longitude of where the image was taken."
+    },
+    {
+      "type": "p",
+      "text": "The app also tracked what users do while using Facebook, including every scroll and how long you linger on something."
+    },
+    {
+      "type": "p",
+      "text": "Reardon and Rollason noted Facebook didn’t appear to share any data with third-party companies during the scan."
+    },
+    {
+      "type": "p",
+      "text": "Meta, the parent company of Facebook, had no comment on Marketplace’s findings; however, its privacy policy does state it collects this data. The policy also says “we don't sell any of your information to anyone.”"
+    },
+    {
+      "type": "h",
+      "text": "Amazon"
+    },
+    {
+      "type": "p",
+      "text": "The scan showed Amazon appeared to be collecting what users searched for, even if the product was sensitive, along with the device’s advertising ID."
+    },
+    {
+      "type": "p",
+      "text": "It didn’t show Amazon sending data to any third-party companies during the scan."
+    },
+    {
+      "type": "p",
+      "text": "“This is to be expected with these very large companies because they have the resources to have their own ad network,” Reardon said."
+    },
+    {
+      "type": "p",
+      "text": "Amazon said in a statement it never sells customers’ personal data. It also said it designs products and services to “protect their privacy and to put them in control of their experience.\""
+    },
+    {
+      "type": "h",
+      "text": "YouTube"
+    },
+    {
+      "type": "p",
+      "text": "The scan didn’t show YouTube sending data to any third-party companies at the time of the test. The data appeared to only be going to the U.S."
+    },
+    {
+      "type": "p",
+      "text": "Marketplace also tested if YouTube would follow the rules of its parent company, Google, and not play targeted advertising while a user was watching children’s content."
+    },
+    {
+      "type": "p",
+      "text": "The test found no targeted ads while watching a children’s video."
+    },
+    {
+      "type": "p",
+      "text": "Google said in a statement it doesn’t sell personal information."
+    },
+    {
+      "type": "h",
+      "text": "‘You lack total control’"
+    },
+    {
+      "type": "p",
+      "text": "Ann Cavoukian, the former privacy commissioner of Ontario, said Canada’s current privacy laws aren’t strong enough, and the country's privacy commissioners also need to step up."
+    },
+    {
+      "type": "p",
+      "text": "Speaking generally, she also said companies should be prioritizing people’s privacy by only collecting what they need and deleting data when they don’t need it anymore."
+    },
+    {
+      "type": "p",
+      "text": "“You lack total control,” Cavoukian said. “It can be used in a variety of unorganized ways. It can come back to haunt you.”"
+    },
+    {
+      "type": "p",
+      "text": "Ann Cavoukian served as the privacy commissioner of Ontario from 1997 to 2014. (CBC)"
+    },
+    {
+      "type": "p",
+      "text": "The Office of the Federal Privacy Commissioner of Canada declined an interview, but a spokesperson said Marketplace’s findings raise “a number of concerns.”"
+    },
+    {
+      "type": "p",
+      "text": "Speaking generally, the office of Canada’s AI Minister Evan Solomon said in a statement that Canadians need privacy protections that “keep pace with changing technology and the ways companies collect, use and share their data.”"
+    },
+    {
+      "type": "p",
+      "text": "His office also noted the government introduced Bill C-36 to give people more control over their information and to force companies to be more transparent and accountable about how they handle people's data. The bill is still before the House of Commons and has received praise and criticism from privacy experts."
+    },
+    {
+      "type": "h",
+      "text": "How can you protect your data?"
+    },
+    {
+      "type": "p",
+      "text": "Cavoukian said people should ask companies what data is being collected, why it’s being collected and ask that it be deleted as soon as the company doesn’t need it anymore."
+    },
+    {
+      "type": "p",
+      "text": "Reardon and Rollason said there’s little you can do to stop the transmission of data because apps on your device, and the third parties in those apps, may be sending or collecting information even when your device is out of reach."
+    },
+    {
+      "type": "p",
+      "text": "They said deleting apps if you’re not using them and only keeping what you need is the best protection."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
