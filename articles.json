@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-15T15:31:22.377Z",
+  "updated": "2026-11-15T16:01:19.176Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-mapwsk",
+      "source": "inqn",
+      "title": "Easterlies to bring rains over parts of Mindanao on Monday",
+      "summary": "MANILA, Philippines — The easterlies will bring cloudy skies, scattered rain showers and thunderstorms over Caraga and the Davao region on Monday, the state weather bureau said Sunday. The Philippine…",
+      "byline": "postie",
+      "section": "Latest News Stories",
+      "published": "2026-11-15T16:01:12.063Z",
+      "firstSeen": "2026-11-15T11:30:54.933Z",
+      "url": "https://newsinfo.inquirer.net/2341772/easterlies-to-bring-rains-over-parts-of-mindanao-on-monday-pagasa",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/southwest-monsoon-habagat-rain-commuters-28August2026_7.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The easterlies will bring cloudy skies, scattered rain showers and thunderstorms over Caraga and the Davao region on Monday, the state weather bureau said Sunday. The Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa) said the weather system, which consists of warm winds coming from the Pacific Ocean, would continue to affect"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-k6mghh",
       "source": "inqn",
       "title": "Palace to protesters: Don’t tarnish PH’s reputation during Asean Summit",
       "summary": "MANILA, Philippines — Malacañang on Sunday told protesters not to “tarnish” the country’s reputation amid reports of police arrests and their purported “attacks” during the demonstrations in Liwasang…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:13.365Z",
+      "published": "2026-11-15T16:01:12.063Z",
       "firstSeen": "2026-11-15T12:01:03.388Z",
       "url": "https://newsinfo.inquirer.net/2341786/palace-to-protesters-dont-tarnish-phs-reputation-during-asean-summit",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "MANILA, Philippines — The University of the Philippines College of Media and Communication (UP CMC) and its official student publication, Tinig ng Plaridel (TNP), have condemned the attempted arrest…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:13.365Z",
+      "published": "2026-11-15T16:01:12.063Z",
       "firstSeen": "2026-11-15T12:31:08.247Z",
       "url": "https://newsinfo.inquirer.net/2341780/up-cmc-condemns-attempted-arrest-of-student-journos-covering-protest",
       "image": {
@@ -103,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1fa5gdp",
-      "source": "inqn",
-      "title": "Philip Lustre asks SC to move Carpio complaint from Davao to QC",
-      "summary": "MANILA, Philippines — Veteran journalist Philip Lustre Jr. has asked the Supreme Court (SC) to transfer to Quezon City the cyberlibel complaint filed against him by lawyer Manases Carpio, husband of…",
-      "byline": "Dona Policar",
-      "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:11.747Z",
-      "firstSeen": "2026-11-15T12:31:00.003Z",
-      "url": "https://newsinfo.inquirer.net/2341751/philip-lustre-asks-sc-to-move-carpio-complaint-from-davao-to-qc",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Philip-Lustre-Jr-26October2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Veteran journalist Philip Lustre Jr. has asked the Supreme Court (SC) to transfer to Quezon City the cyberlibel complaint filed against him by lawyer Manases Carpio, husband of Vice President Sara Duterte. Lustre, 72, said his lawyers filed a motion before the SC on Friday, seeking to move the proceedings from Davao"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1gh5f9e",
       "source": "inqn",
       "title": "Police arrest 300 protesters in Muntinlupa City",
       "summary": "MANILA, Philippines — Around 300 protesters were detained by police following a protest march in Muntinlupa City on Sunday, according to progressive groups. Lucky Oralleo, spokesperson of Bagong…",
       "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:11.747Z",
+      "published": "2026-11-15T16:01:12.062Z",
       "firstSeen": "2026-11-15T12:01:01.162Z",
       "url": "https://newsinfo.inquirer.net/2341779/police-arrest-300-protesters-in-muntinlupa-city",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "MANILA, Philippines — Puerto Princesa City, Palawan, is expected to experience a heat index of 45°C on Monday, Nov. 16, placing it under the danger category, the state weather bureau said Sunday. The…",
       "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:11.747Z",
+      "published": "2026-11-15T16:01:12.062Z",
       "firstSeen": "2026-11-15T12:01:01.162Z",
       "url": "https://newsinfo.inquirer.net/2341794/puerto-princesa-heat-index-to-hit-45c-monday",
       "image": {
@@ -178,48 +178,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-mapwsk",
+      "id": "inqn-1fa5gdp",
       "source": "inqn",
-      "title": "Easterlies to bring rains over parts of Mindanao on Monday",
-      "summary": "MANILA, Philippines — The easterlies will bring cloudy skies, scattered rain showers and thunderstorms over Caraga and the Davao region on Monday, the state weather bureau said Sunday. The Philippine…",
-      "byline": "postie",
+      "title": "Philip Lustre asks SC to move Carpio complaint from Davao to QC",
+      "summary": "MANILA, Philippines — Veteran journalist Philip Lustre Jr. has asked the Supreme Court (SC) to transfer to Quezon City the cyberlibel complaint filed against him by lawyer Manases Carpio, husband of…",
+      "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:11.747Z",
-      "firstSeen": "2026-11-15T11:30:54.933Z",
-      "url": "https://newsinfo.inquirer.net/2341772/easterlies-to-bring-rains-over-parts-of-mindanao-on-monday-pagasa",
+      "published": "2026-11-15T16:01:11.968Z",
+      "firstSeen": "2026-11-15T12:31:00.003Z",
+      "url": "https://newsinfo.inquirer.net/2341751/philip-lustre-asks-sc-to-move-carpio-complaint-from-davao-to-qc",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/southwest-monsoon-habagat-rain-commuters-28August2026_7.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Philip-Lustre-Jr-26October2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — The easterlies will bring cloudy skies, scattered rain showers and thunderstorms over Caraga and the Davao region on Monday, the state weather bureau said Sunday. The Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa) said the weather system, which consists of warm winds coming from the Pacific Ocean, would continue to affect"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-nfx1y2",
-      "source": "inqn",
-      "title": "Kanlaon emits ash 4 times, triggers ashfall in Negros Occidental",
-      "summary": "BACOLOD CITY—Four ash emissions from Kanlaon Volcano on Sunday, Nov. 15, triggered ashfall in parts of La Carlota City and La Castellana in Negros Occidental, the Philippine Institute of Volcanology…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:11.566Z",
-      "firstSeen": "2026-11-15T12:30:59.965Z",
-      "url": "https://newsinfo.inquirer.net/2341788/kanlaon-emits-ash-4-times-triggers-ashfall-in-negros-occidental",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Mt-Kanlaon-15November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BACOLOD CITY—Four ash emissions from Kanlaon Volcano on Sunday, Nov. 15, triggered ashfall in parts of La Carlota City and La Castellana in Negros Occidental, the Philippine Institute of Volcanology and Seismology (Phivolcs) reported. The ash emissions lasted a combined 241 minutes and occurred at 6:15 a.m. for 67 minutes; 9:08 a.m. for 11 minutes;"
+          "text": "MANILA, Philippines — Veteran journalist Philip Lustre Jr. has asked the Supreme Court (SC) to transfer to Quezon City the cyberlibel complaint filed against him by lawyer Manases Carpio, husband of Vice President Sara Duterte. Lustre, 72, said his lawyers filed a motion before the SC on Friday, seeking to move the proceedings from Davao"
         }
       ],
       "truncated": true,
@@ -234,7 +209,7 @@
       "summary": "MALAYBALAY CITY, Bukidnon — In a series of coordinated law enforcement operations conducted across the province from November 12 to 14, police units apprehended 10 wanted individuals, highlighted by…",
       "byline": "jbarrion",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:09.890Z",
+      "published": "2026-11-15T16:01:11.967Z",
       "firstSeen": "2026-11-15T13:00:57.338Z",
       "url": "https://newsinfo.inquirer.net/2341717/bukidnon-cops-nab-10-wanted-persons-in-manhunt-ops",
       "image": {
@@ -259,7 +234,7 @@
       "summary": "MANILA, Philippines—The National Union of Journalists of the Philippines (NUJP) documented at least 22 media workers who reported experiencing police harassment during the demonstrations on Sunday…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:09.890Z",
+      "published": "2026-11-15T16:01:11.967Z",
       "firstSeen": "2026-11-15T13:31:00.757Z",
       "url": "https://newsinfo.inquirer.net/2341835/over-22-media-members-covering-asean-protests-experienced-police-harassment",
       "image": {
@@ -284,7 +259,7 @@
       "summary": "CAGAYAN DE ORO CITY, Philippines — A pre-dawn operation to capture Northern Mindanao&#8217;s most wanted fugitive ended in a bloody firefight last Friday, Nov. 13, leaving the suspect and a police…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:09.890Z",
+      "published": "2026-11-15T16:01:11.967Z",
       "firstSeen": "2026-11-15T13:00:57.338Z",
       "url": "https://newsinfo.inquirer.net/2341824/cop-top-fugitive-dead-in-lanao-del-norte-operation",
       "image": {
@@ -303,13 +278,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-nfx1y2",
+      "source": "inqn",
+      "title": "Kanlaon emits ash 4 times, triggers ashfall in Negros Occidental",
+      "summary": "BACOLOD CITY—Four ash emissions from Kanlaon Volcano on Sunday, Nov. 15, triggered ashfall in parts of La Carlota City and La Castellana in Negros Occidental, the Philippine Institute of Volcanology…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-15T16:01:11.967Z",
+      "firstSeen": "2026-11-15T12:30:59.965Z",
+      "url": "https://newsinfo.inquirer.net/2341788/kanlaon-emits-ash-4-times-triggers-ashfall-in-negros-occidental",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Mt-Kanlaon-15November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BACOLOD CITY—Four ash emissions from Kanlaon Volcano on Sunday, Nov. 15, triggered ashfall in parts of La Carlota City and La Castellana in Negros Occidental, the Philippine Institute of Volcanology and Seismology (Phivolcs) reported. The ash emissions lasted a combined 241 minutes and occurred at 6:15 a.m. for 67 minutes; 9:08 a.m. for 11 minutes;"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-cgbvlc",
       "source": "inqn",
       "title": "Bulacan paper-cut art honors Gen. Gregorio del Pilar on 151st birth anniversary",
       "summary": "BULAKAN, Bulacan, Philippines — Intricate paper-cut art called “borlas” featuring Gen. Gregorio “Goyo” del Pilar highlighted the celebration of the hero’s 151st birth anniversary in his hometown on…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:09.889Z",
+      "published": "2026-11-15T16:01:10.296Z",
       "firstSeen": "2026-11-15T13:30:55.646Z",
       "url": "https://newsinfo.inquirer.net/2341820/bulacan-paper-cut-art-honors-gen-gregorio-del-pilar-on-151st-birth-anniversary",
       "image": {
@@ -328,63 +328,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1tytsbe",
-      "source": "inqn",
-      "title": "2 fishing vessels held in Tayabas Bay amid &#8216;tamban&#8217; closed season",
-      "summary": "LUCENA CITY — The Bureau of Fisheries and Aquatic Resources (BFAR) 4A, through its Fisheries Protection and Law Enforcement Group (FPLEG), apprehended two commercial fishing vessels in Tayabas Bay in…",
-      "byline": "jbarrion",
-      "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:09.854Z",
-      "firstSeen": "2026-11-15T13:30:53.647Z",
-      "url": "https://newsinfo.inquirer.net/2341723/2-fishing-vessels-held-in-tayabas-bay-amid-tamban-closed-season",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/2-fishing-vessels-held-in-Tayabas-Bay-amid-tamban-closed-season.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — The Bureau of Fisheries and Aquatic Resources (BFAR) 4A, through its Fisheries Protection and Law Enforcement Group (FPLEG), apprehended two commercial fishing vessels in Tayabas Bay in Quezon province, on Saturday and Sunday (Nov. 14 and 15) for allegedly violating the closed fishing season. In a report, Allan Castillo, chief of BFAR"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-pct872",
-      "source": "inqg",
-      "title": "Why does El Salvador have troops in Haiti?",
-      "summary": "Haiti has been engulfed in crisis since 2018, with protests, a presidential assassination and widespread gang violence bringing the country to its knees. But earlier this week, Haiti&#8217;s Prime…",
-      "byline": "dlejano",
-      "section": "Americas",
-      "published": "2026-11-15T15:31:09.854Z",
-      "firstSeen": "2026-11-15T08:01:00.233Z",
-      "url": "https://globalnation.inquirer.net/347746/why-does-el-salvador-have-troops-in-haiti",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Why-does-El-Salvador-have-troops-in-Haiti-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Haiti has been engulfed in crisis since 2018, with protests, a presidential assassination and widespread gang violence bringing the country to its knees. But earlier this week, Haiti&#8217;s Prime Minister Alix Didier Fils-Aime hailed a major win in the battle against the violence, thanks to &#8220;the commitment of the Salvadorean forces in the fight against gangs.&#8221;"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-szm5v3",
       "source": "inqn",
       "title": "Stranded rough-toothed dolphin rescued, released in Pangasinan",
       "summary": "DAGUPAN CITY — A rough-toothed dolphin found stranded along the coast of San Fabian, Pangasinan, was safely released back into the sea on Sunday, Nov. 15, following a medical assessment by fisheries…",
       "byline": "jbarrion",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:09.766Z",
+      "published": "2026-11-15T16:01:10.167Z",
       "firstSeen": "2026-11-15T13:30:53.569Z",
       "url": "https://newsinfo.inquirer.net/2341731/stranded-rough-toothed-dolphin-rescued-released-in-pangasinan",
       "image": {
@@ -403,13 +353,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1tytsbe",
+      "source": "inqn",
+      "title": "2 fishing vessels held in Tayabas Bay amid &#8216;tamban&#8217; closed season",
+      "summary": "LUCENA CITY — The Bureau of Fisheries and Aquatic Resources (BFAR) 4A, through its Fisheries Protection and Law Enforcement Group (FPLEG), apprehended two commercial fishing vessels in Tayabas Bay in…",
+      "byline": "jbarrion",
+      "section": "Latest News Stories",
+      "published": "2026-11-15T16:01:10.167Z",
+      "firstSeen": "2026-11-15T13:30:53.647Z",
+      "url": "https://newsinfo.inquirer.net/2341723/2-fishing-vessels-held-in-tayabas-bay-amid-tamban-closed-season",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/2-fishing-vessels-held-in-Tayabas-Bay-amid-tamban-closed-season.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LUCENA CITY — The Bureau of Fisheries and Aquatic Resources (BFAR) 4A, through its Fisheries Protection and Law Enforcement Group (FPLEG), apprehended two commercial fishing vessels in Tayabas Bay in Quezon province, on Saturday and Sunday (Nov. 14 and 15) for allegedly violating the closed fishing season. In a report, Allan Castillo, chief of BFAR"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-1qm9biy",
       "source": "inqg",
       "title": "Gatchalian: Asean Summit to spur economic growth across the region",
       "summary": "MANILA, Philippines – Senate President Sherwin Gatchalian has underscored the need to strengthen cooperation as he expressed optimism that the 49th Association of Southeast Asian Nations (Asean)…",
       "byline": "mesarangay",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-15T15:31:09.766Z",
+      "published": "2026-11-15T16:01:10.167Z",
       "firstSeen": "2026-11-15T09:30:53.144Z",
       "url": "https://globalnation.inquirer.net/347877/gatchalian-asean-summit-to-spur-economic-growth-across-the-region",
       "image": {
@@ -428,38 +403,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-4zzbg6",
-      "source": "inqg",
-      "title": "Indonesia&#8217;s wiretapping scandal opens a political fault line",
-      "summary": "For decades, Indonesia&#8217;s police and intelligence agencies have been accused of spying on politicians, journalists, and activists, Now, a widening scandal involving some of the country&#8217;s…",
-      "byline": "dlejano",
-      "section": "Asia",
-      "published": "2026-11-15T15:31:09.766Z",
-      "firstSeen": "2026-11-15T08:01:00.233Z",
-      "url": "https://globalnation.inquirer.net/347756/indonesias-wiretapping-scandal-opens-a-political-fault-line",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2025/02/Lights-out-for-Indonesia-civil-servants-as-Prabowo-cuts-budgets.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "For decades, Indonesia&#8217;s police and intelligence agencies have been accused of spying on politicians, journalists, and activists, Now, a widening scandal involving some of the country&#8217;s most senior police officers has brought those concerns to the heart of government. Earlier this month, Indonesian police named four senior officers as suspects in an alleged illegal surveillance"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1lamk2",
       "source": "inqn",
       "title": "Bayan condemns Marcos’ ‘biggest mass arrest in a single day’",
       "summary": "MANILA, Philippines — Bagong Alyansang Makabayan (Bayan) President Renato Reyes has condemned the series of apprehensions against protesters on Sunday, describing it as the “biggest mass arrest in a…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:09.766Z",
+      "published": "2026-11-15T16:01:10.166Z",
       "firstSeen": "2026-11-15T15:31:09.766Z",
       "url": "https://newsinfo.inquirer.net/2341865/bayan-condemns-marcos-biggest-mass-arrest-in-a-single-day",
       "image": {
@@ -478,38 +428,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1693zu9",
-      "source": "inqn",
-      "title": "Candon cops hold school safety drills on shooting incidents",
-      "summary": "SAN ILDEFONSO, Ilocos Sur — Police personnel conducted safety drills on active attacks and shooting incidents in four schools in Candon City to strengthen emergency preparedness among teachers and…",
-      "byline": "jbarrion",
-      "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:07.999Z",
-      "firstSeen": "2026-11-15T14:00:57.679Z",
-      "url": "https://newsinfo.inquirer.net/2341750/candon-cops-hold-school-safety-drills-on-shooting-incidents",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Candon-cops-hold-school-safety-drills-on-shooting-incidents-.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN ILDEFONSO, Ilocos Sur — Police personnel conducted safety drills on active attacks and shooting incidents in four schools in Candon City to strengthen emergency preparedness among teachers and pupils. The activities were carried out by personnel of the Candon City Police Station (CPS) under the supervision of its officer-in-charge, Police Lt. Col. Zaldy C."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-3wn6rh",
       "source": "inqg",
       "title": "Asean eyes bigger role in critical minerals supply chain",
       "summary": "MANILA, Philippines — The Association of Southeast Asian Nations (Asean) is seeking to strengthen its position in the global critical minerals supply chain by attracting greater investments,…",
       "byline": "mesarangay",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-15T15:31:07.999Z",
+      "published": "2026-11-15T16:01:10.166Z",
       "firstSeen": "2026-11-15T10:00:54.754Z",
       "url": "https://globalnation.inquirer.net/347878/asean-eyes-bigger-role-in-critical-minerals-supply-chain",
       "image": {
@@ -528,13 +453,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1693zu9",
+      "source": "inqn",
+      "title": "Candon cops hold school safety drills on shooting incidents",
+      "summary": "SAN ILDEFONSO, Ilocos Sur — Police personnel conducted safety drills on active attacks and shooting incidents in four schools in Candon City to strengthen emergency preparedness among teachers and…",
+      "byline": "jbarrion",
+      "section": "Latest News Stories",
+      "published": "2026-11-15T16:01:08.410Z",
+      "firstSeen": "2026-11-15T14:00:57.679Z",
+      "url": "https://newsinfo.inquirer.net/2341750/candon-cops-hold-school-safety-drills-on-shooting-incidents",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Candon-cops-hold-school-safety-drills-on-shooting-incidents-.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN ILDEFONSO, Ilocos Sur — Police personnel conducted safety drills on active attacks and shooting incidents in four schools in Candon City to strengthen emergency preparedness among teachers and pupils. The activities were carried out by personnel of the Candon City Police Station (CPS) under the supervision of its officer-in-charge, Police Lt. Col. Zaldy C."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-19xdivk",
+      "source": "inqg",
+      "title": "Asean adopts new migrant workers policy framework amid scam hub woes",
+      "summary": "MANILA, Philippines — The Association of Southeast Asian Nations (Asean) has adopted a new policy framework providing expanded safeguards to migrant workers amid continuous prevalence of scam hubs in…",
+      "byline": "mesarangay",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-15T16:01:08.410Z",
+      "firstSeen": "2026-11-15T10:30:53.254Z",
+      "url": "https://globalnation.inquirer.net/347887/asean-adopts-new-migrant-workers-policy-framework-amid-scam-hub-woes",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/04/OFW-repariated-10April2026_11.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Association of Southeast Asian Nations (Asean) has adopted a new policy framework providing expanded safeguards to migrant workers amid continuous prevalence of scam hubs in the region. In its plenary session on the 49th Asean Summit, the regional bloc adopted the Declaration on Fair, Ethical, and Sustainable Recruitment for Empowered Migrant"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-erpt4t",
       "source": "inqg",
       "title": "Asean leaders agree to promote AI use within MSMEs",
       "summary": "MANILA, Philippines — Association of Southeast Asian Nation (Asean) member-states have adopted a declaration pushing for the use of artificial intelligence (AI) to help micro, small, and medium…",
       "byline": "mesarangay",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-15T15:31:07.967Z",
+      "published": "2026-11-15T16:01:08.410Z",
       "firstSeen": "2026-11-15T11:00:57.920Z",
       "url": "https://globalnation.inquirer.net/347886/asean-leaders-agree-to-promote-ai-use-within-msmes",
       "image": {
@@ -559,7 +534,7 @@
       "summary": "MANILA, Philippines — A magnitude 5.8 earthquake jolted the waters off Surigao Del Norte on Sunday evening, state seismologists reported. According to the Philippine Institute of Volcanology and…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:06.166Z",
+      "published": "2026-11-15T16:01:08.366Z",
       "firstSeen": "2026-11-15T15:01:04.974Z",
       "url": "https://newsinfo.inquirer.net/2341876/magnitude-5-8-quake-jolts-waters-off-surigao-del-norte",
       "image": {
@@ -578,63 +553,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-19xdivk",
-      "source": "inqg",
-      "title": "Asean adopts new migrant workers policy framework amid scam hub woes",
-      "summary": "MANILA, Philippines — The Association of Southeast Asian Nations (Asean) has adopted a new policy framework providing expanded safeguards to migrant workers amid continuous prevalence of scam hubs in…",
-      "byline": "mesarangay",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-15T15:31:00.904Z",
-      "firstSeen": "2026-11-15T10:30:53.254Z",
-      "url": "https://globalnation.inquirer.net/347887/asean-adopts-new-migrant-workers-policy-framework-amid-scam-hub-woes",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/04/OFW-repariated-10April2026_11.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Association of Southeast Asian Nations (Asean) has adopted a new policy framework providing expanded safeguards to migrant workers amid continuous prevalence of scam hubs in the region. In its plenary session on the 49th Asean Summit, the regional bloc adopted the Declaration on Fair, Ethical, and Sustainable Recruitment for Empowered Migrant"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1bhdjcw",
-      "source": "inqn",
-      "title": "Macacua vows to closely monitor Bangsamoro funds, financial obligations",
-      "summary": "COTABATO CITY – As an anti-corruption strategy, Bangsamoro Chief Minister Abdulraof Macacua vowed on Sunday to personally monitor the financial standing and payment obligations of the ministries and…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-15T15:31:00.899Z",
-      "firstSeen": "2026-11-15T14:30:51.772Z",
-      "url": "https://newsinfo.inquirer.net/2341761/macacua-vows-to-closely-monitor-bangsamoro-funds-financial-obligations",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Macacua-vows-to-closely-monitor-Bangsamoro-funds-15November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COTABATO CITY – As an anti-corruption strategy, Bangsamoro Chief Minister Abdulraof Macacua vowed on Sunday to personally monitor the financial standing and payment obligations of the ministries and offices under the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM). His pronouncement followed the signing of Memorandum of Agreement between the Bangsamoro Government and the Land Bank"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-veoklf",
       "source": "inqg",
       "title": "Asean to Myanmar: De-escalate violence, stop attacks vs civilians",
       "summary": "MANILA, Philippines — Association of Southeast Asian Nation (Asean) member-states have urged state forces and armed groups in Myanmar to de-escalate violence and stop targeted attacks against…",
       "byline": "mesarangay",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-15T15:30:58.368Z",
+      "published": "2026-11-15T16:01:04.800Z",
       "firstSeen": "2026-11-15T11:30:54.994Z",
       "url": "https://globalnation.inquirer.net/347899/asean-urges-myanmar-forces-deescalate-violence-stop-attacks-vs-civilians",
       "image": {
@@ -653,23 +578,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-19uj5kp",
+      "id": "inqn-1bhdjcw",
       "source": "inqn",
-      "title": "PCSO Nov. 15 lotto results: P537.91M jackpot unwon",
-      "summary": "MANILA, Philippines — No bettor won the P537.91 million Ultra Lotto 6/58 jackpot or the P109.18 million Super Lotto 6/49 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Sunday,…",
-      "byline": "cbuban",
+      "title": "Macacua vows to closely monitor Bangsamoro funds, financial obligations",
+      "summary": "COTABATO CITY – As an anti-corruption strategy, Bangsamoro Chief Minister Abdulraof Macacua vowed on Sunday to personally monitor the financial standing and payment obligations of the ministries and…",
+      "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:30:58.113Z",
-      "firstSeen": "2026-11-15T14:30:51.741Z",
-      "url": "https://newsinfo.inquirer.net/2341869/pcso-nov-15-lotto-results-p537-91m-jackpot-unwon",
+      "published": "2026-11-15T16:00:59.677Z",
+      "firstSeen": "2026-11-15T14:30:51.772Z",
+      "url": "https://newsinfo.inquirer.net/2341761/macacua-vows-to-closely-monitor-bangsamoro-funds-financial-obligations",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/05/lotto-pcso.jpeg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Macacua-vows-to-closely-monitor-Bangsamoro-funds-15November2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — No bettor won the P537.91 million Ultra Lotto 6/58 jackpot or the P109.18 million Super Lotto 6/49 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Sunday, Nov. 15, 2026. According to the PCSO results, the Ultra Lotto 6/58 draw produced the winning combination 26-33-18-46-15-14, with a jackpot prize of P537.91"
+          "text": "COTABATO CITY – As an anti-corruption strategy, Bangsamoro Chief Minister Abdulraof Macacua vowed on Sunday to personally monitor the financial standing and payment obligations of the ministries and offices under the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM). His pronouncement followed the signing of Memorandum of Agreement between the Bangsamoro Government and the Land Bank"
         }
       ],
       "truncated": true,
@@ -684,7 +609,7 @@
       "summary": "MANILA, Philippines — Southeast Asian lawmakers must agree on a common message that will bring the concerns of their constituents to leaders of the Association of Southeast Asian Nations (Asean) and…",
       "byline": "Alexander Magno",
       "section": "Asia & Pacific",
-      "published": "2026-11-15T15:30:57.166Z",
+      "published": "2026-11-15T16:00:58.297Z",
       "firstSeen": "2026-11-15T11:30:54.933Z",
       "url": "https://globalnation.inquirer.net/347901/dy-urges-regional-lawmakers-to-bring-citizens-concerns-to-asean",
       "image": {
@@ -703,13 +628,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-19uj5kp",
+      "source": "inqn",
+      "title": "PCSO Nov. 15 lotto results: P537.91M jackpot unwon",
+      "summary": "MANILA, Philippines — No bettor won the P537.91 million Ultra Lotto 6/58 jackpot or the P109.18 million Super Lotto 6/49 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Sunday,…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-15T16:00:57.955Z",
+      "firstSeen": "2026-11-15T14:30:51.741Z",
+      "url": "https://newsinfo.inquirer.net/2341869/pcso-nov-15-lotto-results-p537-91m-jackpot-unwon",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/05/lotto-pcso.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — No bettor won the P537.91 million Ultra Lotto 6/58 jackpot or the P109.18 million Super Lotto 6/49 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Sunday, Nov. 15, 2026. According to the PCSO results, the Ultra Lotto 6/58 draw produced the winning combination 26-33-18-46-15-14, with a jackpot prize of P537.91"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-17elf72",
       "source": "inqn",
       "title": "Baguio mayor creates committee to review proposed NCAP",
       "summary": "BAGUIO CITY, Philippines — The city government has formed an evaluation committee to review an unsolicited proposal for the implementation of the Baguio City No-Contact Apprehension Program (NCAP).…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:30:57.165Z",
+      "published": "2026-11-15T16:00:57.616Z",
       "firstSeen": "2026-11-15T15:01:02.836Z",
       "url": "https://newsinfo.inquirer.net/2341886/baguio-mayor-creates-committee-to-review-proposed-ncap",
       "image": {
@@ -734,7 +684,7 @@
       "summary": "MANILA, Philippines — Finishing the Code of Conduct (COC) in the South China Sea will now be in Singapore’s hands, as Philippine authorities lacked the time needed to wrap up several issues, Foreign…",
       "byline": "Alexander Magno",
       "section": "Asia & Pacific",
-      "published": "2026-11-15T15:30:57.165Z",
+      "published": "2026-11-15T16:00:57.616Z",
       "firstSeen": "2026-11-15T12:30:59.965Z",
       "url": "https://globalnation.inquirer.net/347914/finishing-south-china-sea-coc-now-in-singapores-hands",
       "image": {
@@ -750,7 +700,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-omy7a8",
@@ -759,7 +709,7 @@
       "summary": "MANILA, Philippines — President Ferdinand Marcos Jr. should prioritize trade, investment, and regional economic integration at the 33rd Apec Economic Leaders’ Meeting in China, moving beyond…",
       "byline": "",
       "section": "",
-      "published": "2026-11-15T15:30:57.164Z",
+      "published": "2026-11-15T16:00:57.565Z",
       "firstSeen": "2026-11-15T11:30:54.932Z",
       "url": "https://www.inquirer.net/?p=495840",
       "image": {
@@ -784,7 +734,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — The municipal government of Bansud has suspended work in government offices and classes in all public and private schools on Monday, Nov. 16, in commemoration of the…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-15T15:30:57.164Z",
+      "published": "2026-11-15T16:00:57.565Z",
       "firstSeen": "2026-11-15T15:30:57.164Z",
       "url": "https://newsinfo.inquirer.net/2341862/town-suspends-work-classes-for-oriental-mindoro-founding-anniversary",
       "image": {
@@ -800,7 +750,451 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqg-j91bg3",
+      "source": "inqg",
+      "title": "Marcos yet to accept Lula’s invitation to visit Brazil in 2027 – Palace",
+      "summary": "MANILA, Philippines — President Marcos has yet to formally accept an invitation from Brazilian President Luiz Inácio Lula da Silva to visit Brazil next year, according to Malacañang. In a message to…",
+      "byline": "cbuban",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-15T16:00:57.565Z",
+      "firstSeen": "2026-11-15T16:00:57.565Z",
+      "url": "https://globalnation.inquirer.net/347921/marcos-yet-to-accept-lulas-invitation-to-visit-brazil-in-2027-palace-2",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/20261114NJO-1.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — President Marcos has yet to formally accept an invitation from Brazilian President Luiz Inácio Lula da Silva to visit Brazil next year, according to Malacañang. In a message to reporters on Sunday, Palace press officer Claire Castro said Marcos “warmly received” Lula’s invitation, which included a proposal for the Philippine leader to"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-1ao4t4d",
+      "source": "abs",
+      "title": "WATCH: The Eurovision Asia 2026 Top 5 | One Music PH",
+      "summary": "Now that Carmelle Collado and songwriters Nica Del Rosario and Mat Olivades captured the inaugural Eurovision Asia, let's get to know and hear the Top 5.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-15T15:57:20.000Z",
+      "firstSeen": "2026-11-15T16:00:57.565Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/music/2026/11/15/watch-the-eurovision-asia-2026-top-5-one-music-ph-2355",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Now that Carmelle Collado and songwriters Nica Del Rosario and Mat Olivades captured the inaugural Eurovision Asia, let's get to know and hear the Top 5."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-urtiuk",
+      "source": "abs",
+      "title": "Les Néréides: A jewelry world inspired by nature",
+      "summary": "Available at Rustan’s Makati and Rustans.com , Les Néréides brings nature into its hand-painted jewelry. The Maison also creates an exclusive collection each season, donating a portion of the…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-15T15:53:50.000Z",
+      "firstSeen": "2026-11-15T16:00:57.616Z",
+      "url": "https://www.abs-cbn.com/lifestyle/health-beauty-fashion/2026/11/15/les-nereides-at-rustans-a-jewelry-world-inspired-by-nature-2350",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Available at Rustan’s Makati and Rustans.com , Les Néréides brings nature into its hand-painted jewelry. The Maison also creates an exclusive collection each season, donating a portion of the proceeds to the Les Néréides Loves Animals Foundation to help fund sanctuaries and shelters."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-zribua",
+      "source": "abs",
+      "title": "UAAP: Adamson men go top with demolition of UE",
+      "summary": "Adamson University soared back to the top of the UAAP Season 89 men's football table after crushing University of the East, 5-0, on Sunday at the UP Diliman Football Stadium.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-15T15:51:29.000Z",
+      "firstSeen": "2026-11-15T16:00:59.590Z",
+      "url": "https://www.abs-cbn.com/sports/othersports/2026/11/15/uaap-adamson-men-go-top-with-demolition-of-ueuaap-adamson-men-go-top-with-demolition-of-ue-2351",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Adamson University soared back to the top of the UAAP Season 89 men's football table after crushing University of the East, 5-0, on Sunday at the UP Diliman Football Stadium."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inqg-4zzbg6",
+      "source": "inqg",
+      "title": "Indonesia&#8217;s wiretapping scandal opens a political fault line",
+      "summary": "For decades, Indonesia&#8217;s police and intelligence agencies have been accused of spying on politicians, journalists, and activists, Now, a widening scandal involving some of the country&#8217;s…",
+      "byline": "dlejano",
+      "section": "Asia",
+      "published": "2026-11-15T15:46:38.000Z",
+      "firstSeen": "2026-11-15T08:01:00.233Z",
+      "url": "https://globalnation.inquirer.net/347756/indonesias-wiretapping-scandal-opens-a-political-fault-line",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2025/02/Lights-out-for-Indonesia-civil-servants-as-Prabowo-cuts-budgets.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For decades, Indonesia&#8217;s police and intelligence agencies have been accused of spying on politicians, journalists, and activists, Now, a widening scandal involving some of the country&#8217;s most senior police officers has brought those concerns to the heart of government. Earlier this month, Indonesian police named four senior officers as suspects in an alleged illegal surveillance"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-cnh984",
+      "source": "inq",
+      "title": "Marcos yet to accept Lula’s invitation to visit Brazil in 2027 – Palace",
+      "summary": "MANILA, Philippines — President Marcos has yet to formally accept an invitation from Brazilian President Luiz Inácio Lula da Silva to visit Brazil next year, according to Malacañang. In a message to…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-15T15:42:08.000Z",
+      "firstSeen": "2026-11-15T16:00:57.616Z",
+      "url": "https://globalnation.inquirer.net/347921/marcos-yet-to-accept-lulas-invitation-to-visit-brazil-in-2027-palace-2",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/20261114NJO-1-620x386.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — President Marcos has yet to formally accept an invitation from Brazilian President Luiz Inácio Lula da Silva to visit Brazil next year, according to Malacañang. In a message to reporters on Sunday, Palace press officer Claire Castro said Marcos “warmly received” Lula’s invitation, which included a proposal for the Philippine leader to bring a delegation of business leaders from various industries to strengthen economic ties between the two countries. Marcos described the invitation as “the most convincing” he had ever received and directed concerned government officials to study the proposal. Lula announced the invitation during a press briefing [&hellip;]... Keep on reading: Marcos yet to accept Lula’s invitation to visit Brazil in 2027 – Palace"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-10u931h",
+      "source": "grd",
+      "title": "Two planes collide on taxiway at Miami airport one day after national grounding",
+      "summary": "<p>Two people injured after wingtip of Copa Airlines Boeing 737 struck nose of United Parcel Service Boeing 767</p><p>Two planes collided with one another on a taxiway at Miami’s international…",
+      "byline": "Michael Sainato",
+      "section": "Miami",
+      "published": "2026-11-15T15:40:04.000Z",
+      "firstSeen": "2026-11-15T16:00:57.566Z",
+      "url": "https://www.theguardian.com/us-news/2026/nov/15/miami-airport-planes-collide",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/8be88a35e78423265047f8391033c6d4a25ba9db/755_0_4216_3373/master/4216.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=441cec80c5b3e005292c2419fa7e88b2",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Two planes collided with one another on a taxiway at Miami’s international airport on Saturday night – a day after the Federal Aviation Administration (FAA) issued an hours-long nationwide ground stop due to communication issues affecting multiple air traffic control centers."
+        },
+        {
+          "type": "p",
+          "text": "In a statement, the Trump administration-led FAA said the wingtip of a Copa Airlines Boeing 737 struck the nose of a United Parcel Service Boeing 767 “while the airplanes were taxiing at Miami International Airport”."
+        },
+        {
+          "type": "p",
+          "text": "Two people reportedly had minor injuries in the collision and subsequently received medical treatment."
+        },
+        {
+          "type": "p",
+          "text": "The FAA said it was investigating the matter, which was reported at about 9pm local time."
+        },
+        {
+          "type": "p",
+          "text": "According to the FAA, air traffic controllers had told the UPS crew to give way to the Copa flight before the collision. “The Copa flight was taxiing to the gate and the UPS flight was taxiing for departure to Bogotá, Colombia,” the FAA said."
+        },
+        {
+          "type": "p",
+          "text": "A passenger on the Copa flight, Cesar Ferreira, spoke to CNN about how screams from those around him clued him in to the emergency."
+        },
+        {
+          "type": "p",
+          "text": "“We were taxiing after landing at a normal speed when, all of a sudden, I heard the chatter around me getting louder – followed by a collective scream and then the impact of another aircraft hitting ours,” Ferreira said. “Inside the cabin, we felt the plane jerk abruptly sideways. At first, some passengers started freaking out, but the Copa crew reacted quickly, getting everyone to remain seated.”"
+        },
+        {
+          "type": "p",
+          "text": "Copa Airlines said in a statement that it “regrets the disruption this incident may cause our passengers”."
+        },
+        {
+          "type": "p",
+          "text": "“The safety of our passengers and crew is our top priority, and we will cooperate with authorities as they investigate,” the airline said."
+        },
+        {
+          "type": "p",
+          "text": "The airport said flights were directed to other taxiways, so airport operations were not affected."
+        },
+        {
+          "type": "p",
+          "text": "“We are aware of an incident involving one of our aircraft on the ground in Miami,” UPS said in a statement. “Our crew is safe, and we are committed to working with authorities to determine what happened. The safety of our employees and the public is our highest priority.”"
+        },
+        {
+          "type": "p",
+          "text": "The weekend was marked by thousands of flight delays and cancelations in the wake of a four-hour FAA ground stop on Friday which the Trump administration said stemmed from routine but botched maintenance aiming to switch telecommunication lines from old copper wire to fiber optic cables."
+        },
+        {
+          "type": "p",
+          "text": "Trump administration transportation secretary Sean Duffy on Saturday and Sunday blamed the need for the maintenance on a lack of congressional funding – though critics have said the White House has not spent the money it has been apportioned to upgrade the infrastructure supporting the US’s air travel system."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inqg-pct872",
+      "source": "inqg",
+      "title": "Why does El Salvador have troops in Haiti?",
+      "summary": "Haiti has been engulfed in crisis since 2018, with protests, a presidential assassination and widespread gang violence bringing the country to its knees. But earlier this week, Haiti&#8217;s Prime…",
+      "byline": "dlejano",
+      "section": "Americas",
+      "published": "2026-11-15T15:35:38.000Z",
+      "firstSeen": "2026-11-15T08:01:00.233Z",
+      "url": "https://globalnation.inquirer.net/347746/why-does-el-salvador-have-troops-in-haiti",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/Why-does-El-Salvador-have-troops-in-Haiti-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Haiti has been engulfed in crisis since 2018, with protests, a presidential assassination and widespread gang violence bringing the country to its knees. But earlier this week, Haiti&#8217;s Prime Minister Alix Didier Fils-Aime hailed a major win in the battle against the violence, thanks to &#8220;the commitment of the Salvadorean forces in the fight against gangs.&#8221;"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "cbc-1xghgah",
+      "source": "cbc",
+      "title": "Rock & Roll Hall of Fame ceremony full of emotions as Phil Collins, Queen Latifah, more inducted",
+      "summary": "Saturday night's Rock & Roll Hall of Came ceremony brought out stars and emotional tributes as Phil Collins, Billy Idol, Luther Vandross, Wu-Tang Clan, Queen Latifah, Oasis, MC Lyte, Sade, Joy…",
+      "byline": "Andrew Dalton",
+      "section": "News/Entertainment",
+      "published": "2026-11-15T15:34:57.000Z",
+      "firstSeen": "2026-11-15T16:00:57.566Z",
+      "url": "https://www.cbc.ca/news/entertainment/rock-roll-hall-of-fame-ceremony-9.7422731?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/88f3fd2c-cd7e-42eb-a03f-e074e8743f3a,1794753076181/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C312%2C6000%2C3375%29%3BResize%3D620",
+        "caption": "Aerosmith joined Run DMC for the surprise closing performance of their classic collaboration, Walk This Way, on Saturday at the Rock & Roll Hall of Fame induction ceremony. (Chris Pizzello/The Associated Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Entertainment·New"
+        },
+        {
+          "type": "p",
+          "text": "Saturday night's Rock & Roll Hall of Came ceremony brought out stars and emotional tributes as Phil Collins, Billy Idol, Luther Vandross, Wu-Tang Clan, Queen Latifah, Oasis, MC Lyte, Sade, Joy Division/New Order and Iron Maiden were inducted during the ceremony at the Peacock Theater in Los Angeles, along with producer Rick Rubin."
+        },
+        {
+          "type": "h",
+          "text": "Run DMC and Aerosmith were surprise event closers, as Wu-Tang Clan, Rick Rubin, Iron Maiden, others inducted"
+        },
+        {
+          "type": "p",
+          "text": "· The Associated Press"
+        },
+        {
+          "type": "p",
+          "text": "· Posted: Nov 15, 2026 10:34 AM EST | Last Updated: 26 minutes ago"
+        },
+        {
+          "type": "p",
+          "text": "Phil Collins gave a tearful acceptance speech and got an electrifying tribute from Cynthia Erivo, Oprah Winfrey inducted the late Luther Vandross, the crowd yelled along with Billy Idol, and Wu-Tang Clan crowded the stage for a rowdy celebration at the Rock & Roll Hall of Fame induction ceremony on Saturday night."
+        },
+        {
+          "type": "p",
+          "text": "Queen Latifah, Oasis, MC Lyte, Sade, Joy Division/New Order and Iron Maiden were also inducted during the ceremony at the Peacock Theater in Los Angeles, along with producer Rick Rubin, who got a long-bearded tribute from the Red Hot Chili Peppers."
+        },
+        {
+          "type": "p",
+          "text": "A night that beforehand felt like it might fall flat with the absences of key inductees was as lively and overloaded as the induction ceremony ever is."
+        },
+        {
+          "type": "p",
+          "text": "U2 was the night's surprise opener, playing their new single Silencio while surrounded by dancers in riot squad gear. They then launched into their 1984 classic Pride (In the Name of Love) as singer Bono alternately raised a peace sign and fist."
+        },
+        {
+          "type": "p",
+          "text": "Run DMC and Aerosmith were the surprise closers with a loud jam of Walk This Way, their 1986 classic collaboration, produced by Rubin."
+        },
+        {
+          "type": "p",
+          "text": "Queen Latifah, left, and Megan Thee Stallion perform during the Rock & Roll Hall of Fame Induction Ceremony on Saturday in Los Angeles. (Chris Pizzello/The Associated Press)"
+        },
+        {
+          "type": "h",
+          "text": "Collins gets emotional, Idol gets wild"
+        },
+        {
+          "type": "p",
+          "text": "The 75-year-old Collins, whose mobility trouble and other health problems kept him from performing, took the stage slowly using a pair of canes and cried at a huge ovation from a crowd that included his daughter, actor Lily Collins, and four other children."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Queen Latifah, Billy Idol, Sade and Oasis among artists being inducted into Rock & Roll Hall of Fame"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Blink-182 drummer Travis Barker inducted Collins and praised him for his unprecedented dual stardom as a drummer and a hit-making pop singer in the 1980s."
+        },
+        {
+          "type": "p",
+          "text": "\"I grew up just wanting to play the drums,\" Collins said. \"Everything else has been a really happy accident. I can't believe, when I look back, how life has gone.\""
+        },
+        {
+          "type": "p",
+          "text": "Phil Collins, left, is introduced by Blink-182 drummer Travis Barker during Saturday's ceremony, before Collins shared a tearful speech. (Chris Pizzello/The Associated Press)"
+        },
+        {
+          "type": "p",
+          "text": "Collins was already in the hall as a member of Genesis, but now gets the solo honour."
+        },
+        {
+          "type": "p",
+          "text": "Hours later, the crowd leapt to its feet and shouted along with White Wedding during the induction of Idol — one of the few artists ticket buyers knew for sure would show up and perform."
+        },
+        {
+          "type": "p",
+          "text": "He was inducted along with his longtime guitarist Steve Stevens by No Doubt members Gwen Stefani and Tony Kanal, who joined Idol for a duet on Eyes Without a Face."
+        },
+        {
+          "type": "h",
+          "text": "Oprah inducts Luther Vandross"
+        },
+        {
+          "type": "p",
+          "text": "Winfrey said with relish that Vandross was \"the maestro of the love song\" and said he was once correctly named \"the top artist that people make love to.\""
+        },
+        {
+          "type": "p",
+          "text": "Vandross, an R&B singer with a velvet voice, was one of the definitive singers of the 1980s and '90s. He died in 2005."
+        },
+        {
+          "type": "p",
+          "text": "\"Luther Vandross sang with such passion and soul it could reach something deep inside that you didn’t even know needed to be reached,\" Winfrey said."
+        },
+        {
+          "type": "h",
+          "text": "Hip-hop acts make their presence known"
+        },
+        {
+          "type": "p",
+          "text": "Wu-Tang Clan, the hip-hop collective from New York's Staten Island, filled the stage with its 10 current members, giving a memorable acceptance speech and a performance that had the crowd on its feet dancing. Backed by a big jazz band, the musical medley included C.R.E.A.M., Method Man and late member Ol' Dirty Bastard's Shimmy Shimmy Ya."
+        },
+        {
+          "type": "p",
+          "text": "\"Wu-Tang rewrote the rules of hip-hop and did it without a big machine behind them,\" said comedian Chris Rock, who inducted them."
+        },
+        {
+          "type": "p",
+          "text": "Audience members put up Wu-Tang Clan hand signs as the Wu-Tang Clan performs during the ceremony on Saturday. (Chris Pizzello/The Associated Press)"
+        },
+        {
+          "type": "p",
+          "text": "MC Lyte, a trailblazing female rapper starting in the late 1980s, was the first artist inducted, with hip-hop star Remy Ma doing the honours. Her contemporary and fellow groundbreaker Latifah was inducted later in the evening by Megan Thee Stallion, who said Latifah \"taught us to recognize royalty within ourselves.\""
+        },
+        {
+          "type": "p",
+          "text": "Latifah said that for a long time, she would not have believed this night was possible."
+        },
+        {
+          "type": "p",
+          "text": "\"It's difficult enough being a woman in hip-hop,\" she said, \"let alone being a hip-hopper in the Rock & Roll Hall of Fame.\""
+        },
+        {
+          "type": "p",
+          "text": "Inductee Queen Latifah speaks during the Rock & Roll Hall of Fame induction ceremony on Saturday in L.A. (Chris Pizzello/The Associated Press)"
+        },
+        {
+          "type": "p",
+          "text": "Latifah and MC Lyte then took the stage together to perform a medley of their hits, including Latifah's U.N.I.T.Y. and MC Lyte's Ruffneck."
+        },
+        {
+          "type": "p",
+          "text": "They entered the hall as recipients of the Early Influence Award along with posthumous inductees Gram Parsons, Fela Kuti and Celia Cruz, who were all inducted via video tribute."
+        },
+        {
+          "type": "h",
+          "text": "A stage full of Rick Rubins"
+        },
+        {
+          "type": "p",
+          "text": "Legendary rock, hip-hop and country producer Rubin accepted his induction with a one-sentence acceptance speech."
+        },
+        {
+          "type": "p",
+          "text": "\"You can't kill rock 'n' roll,\" he said, and left the stage."
+        },
+        {
+          "type": "p",
+          "text": "The Red Hot Chili Peppers dressed as Rick Rubin during their performance at the ceremony on Saturday. (Chris Pizzello/The Associated Press)"
+        },
+        {
+          "type": "p",
+          "text": "The Red Hot Chili Peppers then appeared, all four of them wearing white wigs and long white fake beards to match Rubin's signature look as they played their 1991 breakthrough hit Give It Away, one of many he produced for them."
+        },
+        {
+          "type": "h",
+          "text": "Oasis and the other no-shows"
+        },
+        {
+          "type": "p",
+          "text": "Oasis, the youngest of the inductees, didn’t show up. Guitarist Noel Gallagher was playing a gig back home in Britain, and his younger brother, Liam Gallagher, has said he just didn't want to come."
+        },
+        {
+          "type": "p",
+          "text": "\"Anybody surprised they didn’t show up?\" asked actor and Oasis superfan Bob Odenkirk, who inducted them. \"It would’ve been out of character if they had. I would've been worried.\""
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It's time to revisit Sade's legacy"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Iron Maiden, the quintessential British heavy metal band of the 1980s, as well as iconic singer Sade weren't at the event. Joy Division and New Order got a joint induction, with only the bassist for both bands, Peter Hook, showing up at the ceremony."
+        },
+        {
+          "type": "p",
+          "text": "After streaming the ceremony live for the past few years, the hall returned to its previous format, where the public won't see it until an edited version airs on ABC and Disney+ on Dec. 9."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "abs-13lam7g",
@@ -3785,31 +4179,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inqg-1o5rzmu",
-      "source": "inqg",
-      "title": "Thai PM to push trade, regional integration at Asean Summit",
-      "summary": "Prime Minister and Interior Minister Anutin Charnvirakul is leading a Thai delegation to Manila to champion a three-point strategy aimed at strengthening regional integration, boosting intra-bloc…",
-      "byline": "dlejano",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-15T13:14:55.000Z",
-      "firstSeen": "2026-11-15T05:30:58.112Z",
-      "url": "https://globalnation.inquirer.net/347728/thai-pm-to-push-trade-regional-integration-at-asean-summit",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Anutin-Pushes-Three-Point-ASEAN-Strategy-in-Manila-to-Boost-Trade-and-Investment.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Prime Minister and Interior Minister Anutin Charnvirakul is leading a Thai delegation to Manila to champion a three-point strategy aimed at strengthening regional integration, boosting intra-bloc trade, and positioning Thailand as a premier economic connectivity hub. Government Spokesperson Ekkapob Pianpises announced on Saturday (14 November) that Anutin is attending the 49th Asean Summit and Related"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inq-1yi62l0",
       "source": "inq",
       "title": "2 fishing vessels held in Tayabas Bay amid 'tamban' closed season",
@@ -4518,31 +4887,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-1eny67r",
-      "source": "inq",
-      "title": "Asean BAC highlights its role in scaling up MSMEs",
-      "summary": "MANILA, Philippines — Jose Maria Concepcion, the chair of the Association of Southeast Asian Nations (Asean) Business and Advisory Council (BAC), concluded the Asean Business and Investment Summit…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-15T12:43:47.000Z",
-      "firstSeen": "2026-11-15T13:00:57.338Z",
-      "url": "https://business.inquirer.net/621230/asean-bac-highlights-its-role-in-scaling-up-msmes",
-      "image": {
-        "src": "https://business.inquirer.net/files/2017/09/20170907RR8-e1794746460865-620x369.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Jose Maria Concepcion, the chair of the Association of Southeast Asian Nations (Asean) Business and Advisory Council (BAC), concluded the Asean Business and Investment Summit with a commitment to “remain the bridge between government and business, turning dialogue into investments, partnerships and measurable outcomes.” Speaking to business and industry leaders, Concepcion emphasized the role of the private sector in empowering micro, small, and medium enterprises (MSMEs), farmers, women, and young entrepreneurs as Asean leaders bring forward key agreements and declarations on the digital economy and energy and food security. “Across these conversations, one message stands out. Asean’s resilience [&hellip;]... Keep on reading: Asean BAC highlights its role in scaling up MSMEs"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "gma-4azxdt",
@@ -8079,6 +8423,209 @@
       "source_of_text": "page"
     },
     {
+      "id": "cbc-tbxv29",
+      "source": "cbc",
+      "title": "English was the language I built my career in. In Canada, it became something to prove",
+      "summary": "Anusuya Datta had never given a second thought to knowing English, having always written and spoken in the language. After moving to Saskatchewan, people continually remarked on her English skills,…",
+      "byline": "Anusuya Datta",
+      "section": "News/Canada/Saskatchewan",
+      "published": "2026-11-15T09:00:00.000Z",
+      "firstSeen": "2026-11-15T15:30:57.165Z",
+      "url": "https://www.cbc.ca/news/canada/saskatchewan/english-second-language-canada-9.7405885?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/e87ac55c-7985-4ec7-a210-48f10d443e5e,1793640560696/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C444%2C1152%2C648%29%3BResize%3D620",
+        "caption": "Anusuya Datta, seen here speaking at an international scientific conference, has had more than a decade of experience breaking down science concepts into plain-spoken English. But as an immigrant arriving in Saskatchewan, she found her skills in English were seen as an accomplishment in and of thems"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Saskatchewan·First Person"
+        },
+        {
+          "type": "p",
+          "text": "Anusuya Datta had never given a second thought to knowing English, having always written and spoken in the language. After moving to Saskatchewan, people continually remarked on her English skills, both in complimentary and derogatory ways."
+        },
+        {
+          "type": "h",
+          "text": "After moving to Canada, people kept reminding me English was my second language"
+        },
+        {
+          "type": "p",
+          "text": "· for CBC First Person"
+        },
+        {
+          "type": "p",
+          "text": "· Posted: Nov 15, 2026 4:00 AM EST | Last Updated: 7 hours ago"
+        },
+        {
+          "type": "p",
+          "text": "This First Person column is written by Anusuya Datta, a writer and journalist based in Saskatoon. For more information about First Person stories, see the FAQ."
+        },
+        {
+          "type": "p",
+          "text": "I had only been in Canada for two weeks when I got the question that would follow me around for the next few years."
+        },
+        {
+          "type": "p",
+          "text": "I’d gone to the pharmacy to ask about medication. The woman behind the counter looked up and said, “You speak very good English.”"
+        },
+        {
+          "type": "p",
+          "text": "By then, I had spent more than 15 years earning my living in English. Now I was being congratulated for successfully asking about a prescription."
+        },
+        {
+          "type": "p",
+          "text": "“Thank you,” I said."
+        },
+        {
+          "type": "p",
+          "text": "“Where did you learn it?”"
+        },
+        {
+          "type": "p",
+          "text": "“In India.”"
+        },
+        {
+          "type": "p",
+          "text": "She looked impressed."
+        },
+        {
+          "type": "p",
+          "text": "I walked out with my prescription and a piece of information: in Canada, my English was an accomplishment."
+        },
+        {
+          "type": "p",
+          "text": "Anusuya Datta attends a space conference, posing with a therapeutic robot seal proposed as a companion for astronauts on long missions. (Submitted by Anusuya Datta)"
+        },
+        {
+          "type": "p",
+          "text": "I had assumed I was the one immigrating. It turned out there were two of us. My English had done its paperwork. Canada makes you declare your English. That's what the international English language test is for. My English did very well. We both assumed that was the end of it. But someone had forgotten to send Saskatchewan a copy."
+        },
+        {
+          "type": "p",
+          "text": "English wasn't the first language I learned, I admit. But it was the one I was educated in. I read novels in it and did a master's in it. Nobody in India ever congratulated me on it. It was like having elbows. You don't get complimented on elbows."
+        },
+        {
+          "type": "h",
+          "text": "Coming face-to-face with assumptions"
+        },
+        {
+          "type": "p",
+          "text": "The pharmacist wasn’t the last. Neighbours told me I spoke English well. Doctors told me. People in shops told me, with the warmth usually reserved for someone who has parallel parked a combine. They were being kind to a newcomer, and I was grateful. I still am."
+        },
+        {
+          "type": "p",
+          "text": "I said thank you. Every time. You don't hold up the queue to explain English isn't rocket science, and that you have, in fact, explained rocket science in it."
+        },
+        {
+          "type": "p",
+          "text": "I have an accent when I speak English"
+        },
+        {
+          "type": "p",
+          "text": "Then my English got a job. So did I, at the same tech company in Saskatoon, which was convenient. We were both hired at a junior level. That seemed fair. We were new."
+        },
+        {
+          "type": "p",
+          "text": "Soon my English was fine-tuning everyone's copy. Colleagues sent me their drafts the way you send a shirt to the dry cleaner, without conversation and expecting it back clean. My English had become the office Wi-Fi. Everyone used it. You don’t promote the Wi-Fi."
+        },
+        {
+          "type": "p",
+          "text": "Eventually, I brought up a promotion on a call with my boss. I was told it was too soon. I didn't have the necessary experience."
+        },
+        {
+          "type": "p",
+          "text": "“You need to be patient. These things take time,” he repeated, a little too slowly, as if he were weighing my English comprehension skills."
+        },
+        {
+          "type": "p",
+          "text": "After the call, I sat for a long time. What my English lacked, I understood, was Canadian experience. It had only the other kind, where you do the work."
+        },
+        {
+          "type": "p",
+          "text": "A year later, I joined an agriculture-technology company. I imagined data and software. The company sold agricultural chemicals in jugs."
+        },
+        {
+          "type": "p",
+          "text": "This isn’t an attack on chemicals. Chemicals have had a long and successful career in agriculture. Jugs, for their part, have performed admirably throughout human civilization. But I couldn’t understand how the company involved technology."
+        },
+        {
+          "type": "p",
+          "text": "The company wanted lots of content, the kind that sounds like the future of food. So I asked what the technology was. In my line of work, this is a standard opening question. It turned out to be a hostile act."
+        },
+        {
+          "type": "p",
+          "text": "I was given a few words. Innovation. Sustainability. Transformation. None was attached to anything. My job was to expand them. I asked for details. I was told to read up."
+        },
+        {
+          "type": "p",
+          "text": "So I read everything I could find and came back with questions. The boss came back with more keywords. Then the words started changing their meaning. One week, sustainability was the next big thing. The next, it was “woke.”"
+        },
+        {
+          "type": "p",
+          "text": "Finally, I asked why he was saying the exact opposite of what he’d said the week before. That was when he explained the problem. I wasn't understanding his feedback because English wasn't my first language."
+        },
+        {
+          "type": "p",
+          "text": "The second half was true. I couldn’t fault his research, but it came a little late. My English had been excellent while it produced adjectives. It developed problems the moment it produced question marks."
+        },
+        {
+          "type": "p",
+          "text": "“I’ve written for American and European organizations for over 15 years,” I told him. “My English has never been a problem. Until now.”"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "I'm fluent in English, but my accent still feels like a barrier to acceptance"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "I was angry. Of all the things I expected to have to prove in Canada, my English wasn’t on the list."
+        },
+        {
+          "type": "p",
+          "text": "I ended up leaving the company. My English came with me. We had been through a lot together."
+        },
+        {
+          "type": "p",
+          "text": "It’s been more than two years since. The bitterness has aged nicely, like cheddar."
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, my English and I went freelance. Not one client told me my English was so good. Or so bad. They asked for a redraft when one was needed and sent more work. I recommend this as a form of compliment. It’s quieter and you can invoice for it."
+        },
+        {
+          "type": "p",
+          "text": "These days I work for a global company with people in Canada, the U.S. and Europe. People here have opinions, too. They tell me when a piece is great and when I’ve got the technology totally wrong. Not one of them has an opinion about my English. A plumber is judged on the pipes. Nobody asks where the wrench is from. I've never been so happily criticized."
+        },
+        {
+          "type": "p",
+          "text": "English is still not my first language. It's still doing very well. It even has Canadian experience now."
+        },
+        {
+          "type": "p",
+          "text": "Thank you for asking."
+        },
+        {
+          "type": "p",
+          "text": "Do you have a compelling personal story that can bring understanding or help others? We want to hear from you. Here's more info on how to pitch to us."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "A journalist based in Saskatoon, Anusuya has a keen interest in connecting technology with sustainability and social causes, and writes for various tech media platforms. She has also delivered guest lectures at the University of British Columbia’s school of journalism on the use of satellite imagery in storytelling."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
       "id": "cbc-1t96ph5",
       "source": "cbc",
       "title": "Scientists race to discover and protect what lives in the ocean",
@@ -8948,209 +9495,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-tbxv29",
-      "source": "cbc",
-      "title": "English was the language I built my career in. In Canada, it became something to prove",
-      "summary": "Anusuya Datta had never given a second thought to knowing English, having always written and spoken in the language. After moving to Saskatchewan, people continually remarked on her English skills,…",
-      "byline": "Anusuya Datta",
-      "section": "News/Canada/Saskatchewan",
-      "published": "2026-11-15T09:00:00.000Z",
-      "firstSeen": "2026-11-15T15:30:57.165Z",
-      "url": "https://www.cbc.ca/news/canada/saskatchewan/english-second-language-canada-9.7405885?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/e87ac55c-7985-4ec7-a210-48f10d443e5e,1793640560696/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C444%2C1152%2C648%29%3BResize%3D620",
-        "caption": "Anusuya Datta, seen here speaking at an international scientific conference, has had more than a decade of experience breaking down science concepts into plain-spoken English. But as an immigrant arriving in Saskatchewan, she found her skills in English were seen as an accomplishment in and of thems"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Saskatchewan·First Person"
-        },
-        {
-          "type": "p",
-          "text": "Anusuya Datta had never given a second thought to knowing English, having always written and spoken in the language. After moving to Saskatchewan, people continually remarked on her English skills, both in complimentary and derogatory ways."
-        },
-        {
-          "type": "h",
-          "text": "After moving to Canada, people kept reminding me English was my second language"
-        },
-        {
-          "type": "p",
-          "text": "· for CBC First Person"
-        },
-        {
-          "type": "p",
-          "text": "· Posted: Nov 15, 2026 4:00 AM EST | Last Updated: 7 hours ago"
-        },
-        {
-          "type": "p",
-          "text": "This First Person column is written by Anusuya Datta, a writer and journalist based in Saskatoon. For more information about First Person stories, see the FAQ."
-        },
-        {
-          "type": "p",
-          "text": "I had only been in Canada for two weeks when I got the question that would follow me around for the next few years."
-        },
-        {
-          "type": "p",
-          "text": "I’d gone to the pharmacy to ask about medication. The woman behind the counter looked up and said, “You speak very good English.”"
-        },
-        {
-          "type": "p",
-          "text": "By then, I had spent more than 15 years earning my living in English. Now I was being congratulated for successfully asking about a prescription."
-        },
-        {
-          "type": "p",
-          "text": "“Thank you,” I said."
-        },
-        {
-          "type": "p",
-          "text": "“Where did you learn it?”"
-        },
-        {
-          "type": "p",
-          "text": "“In India.”"
-        },
-        {
-          "type": "p",
-          "text": "She looked impressed."
-        },
-        {
-          "type": "p",
-          "text": "I walked out with my prescription and a piece of information: in Canada, my English was an accomplishment."
-        },
-        {
-          "type": "p",
-          "text": "Anusuya Datta attends a space conference, posing with a therapeutic robot seal proposed as a companion for astronauts on long missions. (Submitted by Anusuya Datta)"
-        },
-        {
-          "type": "p",
-          "text": "I had assumed I was the one immigrating. It turned out there were two of us. My English had done its paperwork. Canada makes you declare your English. That's what the international English language test is for. My English did very well. We both assumed that was the end of it. But someone had forgotten to send Saskatchewan a copy."
-        },
-        {
-          "type": "p",
-          "text": "English wasn't the first language I learned, I admit. But it was the one I was educated in. I read novels in it and did a master's in it. Nobody in India ever congratulated me on it. It was like having elbows. You don't get complimented on elbows."
-        },
-        {
-          "type": "h",
-          "text": "Coming face-to-face with assumptions"
-        },
-        {
-          "type": "p",
-          "text": "The pharmacist wasn’t the last. Neighbours told me I spoke English well. Doctors told me. People in shops told me, with the warmth usually reserved for someone who has parallel parked a combine. They were being kind to a newcomer, and I was grateful. I still am."
-        },
-        {
-          "type": "p",
-          "text": "I said thank you. Every time. You don't hold up the queue to explain English isn't rocket science, and that you have, in fact, explained rocket science in it."
-        },
-        {
-          "type": "p",
-          "text": "I have an accent when I speak English"
-        },
-        {
-          "type": "p",
-          "text": "Then my English got a job. So did I, at the same tech company in Saskatoon, which was convenient. We were both hired at a junior level. That seemed fair. We were new."
-        },
-        {
-          "type": "p",
-          "text": "Soon my English was fine-tuning everyone's copy. Colleagues sent me their drafts the way you send a shirt to the dry cleaner, without conversation and expecting it back clean. My English had become the office Wi-Fi. Everyone used it. You don’t promote the Wi-Fi."
-        },
-        {
-          "type": "p",
-          "text": "Eventually, I brought up a promotion on a call with my boss. I was told it was too soon. I didn't have the necessary experience."
-        },
-        {
-          "type": "p",
-          "text": "“You need to be patient. These things take time,” he repeated, a little too slowly, as if he were weighing my English comprehension skills."
-        },
-        {
-          "type": "p",
-          "text": "After the call, I sat for a long time. What my English lacked, I understood, was Canadian experience. It had only the other kind, where you do the work."
-        },
-        {
-          "type": "p",
-          "text": "A year later, I joined an agriculture-technology company. I imagined data and software. The company sold agricultural chemicals in jugs."
-        },
-        {
-          "type": "p",
-          "text": "This isn’t an attack on chemicals. Chemicals have had a long and successful career in agriculture. Jugs, for their part, have performed admirably throughout human civilization. But I couldn’t understand how the company involved technology."
-        },
-        {
-          "type": "p",
-          "text": "The company wanted lots of content, the kind that sounds like the future of food. So I asked what the technology was. In my line of work, this is a standard opening question. It turned out to be a hostile act."
-        },
-        {
-          "type": "p",
-          "text": "I was given a few words. Innovation. Sustainability. Transformation. None was attached to anything. My job was to expand them. I asked for details. I was told to read up."
-        },
-        {
-          "type": "p",
-          "text": "So I read everything I could find and came back with questions. The boss came back with more keywords. Then the words started changing their meaning. One week, sustainability was the next big thing. The next, it was “woke.”"
-        },
-        {
-          "type": "p",
-          "text": "Finally, I asked why he was saying the exact opposite of what he’d said the week before. That was when he explained the problem. I wasn't understanding his feedback because English wasn't my first language."
-        },
-        {
-          "type": "p",
-          "text": "The second half was true. I couldn’t fault his research, but it came a little late. My English had been excellent while it produced adjectives. It developed problems the moment it produced question marks."
-        },
-        {
-          "type": "p",
-          "text": "“I’ve written for American and European organizations for over 15 years,” I told him. “My English has never been a problem. Until now.”"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "I'm fluent in English, but my accent still feels like a barrier to acceptance"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "I was angry. Of all the things I expected to have to prove in Canada, my English wasn’t on the list."
-        },
-        {
-          "type": "p",
-          "text": "I ended up leaving the company. My English came with me. We had been through a lot together."
-        },
-        {
-          "type": "p",
-          "text": "It’s been more than two years since. The bitterness has aged nicely, like cheddar."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, my English and I went freelance. Not one client told me my English was so good. Or so bad. They asked for a redraft when one was needed and sent more work. I recommend this as a form of compliment. It’s quieter and you can invoice for it."
-        },
-        {
-          "type": "p",
-          "text": "These days I work for a global company with people in Canada, the U.S. and Europe. People here have opinions, too. They tell me when a piece is great and when I’ve got the technology totally wrong. Not one of them has an opinion about my English. A plumber is judged on the pipes. Nobody asks where the wrench is from. I've never been so happily criticized."
-        },
-        {
-          "type": "p",
-          "text": "English is still not my first language. It's still doing very well. It even has Canadian experience now."
-        },
-        {
-          "type": "p",
-          "text": "Thank you for asking."
-        },
-        {
-          "type": "p",
-          "text": "Do you have a compelling personal story that can bring understanding or help others? We want to hear from you. Here's more info on how to pitch to us."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "A journalist based in Saskatoon, Anusuya has a keen interest in connecting technology with sustainability and social causes, and writes for various tech media platforms. She has also delivered guest lectures at the University of British Columbia’s school of journalism on the use of satellite imagery in storytelling."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "grd-1waqu9v",
       "source": "grd",
       "title": "AI cheating scandal rattles South Korea as annual college exam looms",
@@ -9743,72 +10087,6 @@
         {
           "type": "p",
           "text": "All 17 Filipino seafarers on the Marshall Islands-flagged vessel Atlantic Asphalt that crashed into a docked river cruise boat in Louisiana in the US are safe, DMW Secretary Hans Leo Cacdac announced Sunday, November 15."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-7rw0pg",
-      "source": "abs",
-      "title": "Volleyball: NU, UST advance to Unity Cup semifinals",
-      "summary": "National University and University of Santo Tomas turned back their respective opponents to advance to the semifinals of the 2026 Shakey's Super League (SSL) Unity Cup on Saturday at the Muntinlupa…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-15T07:38:51.000Z",
-      "firstSeen": "2026-11-15T08:01:11.061Z",
-      "url": "https://www.abs-cbn.com/sports/volleyball/2026/11/15/volleyball-nu-ust-advance-to-unity-cup-semifinals-1538",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "National University and University of Santo Tomas turned back their respective opponents to advance to the semifinals of the 2026 Shakey's Super League (SSL) Unity Cup on Saturday at the Muntinlupa Sports Center."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-ztu4k4",
-      "source": "abs",
-      "title": "Volleyball: Adamson sweeps UP, forces do-or-die in Unity Cup q'finals",
-      "summary": "Adamson University lived to fight another day in the 2026 Shakey's Super League (SSL) Unity Cup quarterfinals, sweeping University of the Philippines on Saturday at the Muntinlupa Sports Center.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-15T07:25:19.000Z",
-      "firstSeen": "2026-11-15T07:30:55.179Z",
-      "url": "https://www.abs-cbn.com/sports/volleyball/2026/11/14/volleyball-adamson-sweeps-up-forces-do-or-die-in-unity-cup-q-finals-1456",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Adamson University lived to fight another day in the 2026 Shakey's Super League (SSL) Unity Cup quarterfinals, sweeping University of the Philippines on Saturday at the Muntinlupa Sports Center."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1b52pr5",
-      "source": "abs",
-      "title": "Not pity, but possibilities: Pageant champions PWD inclusion",
-      "summary": "Dubbed as Asia's first pageant for persons with disabilities featuring an inclusive fashion show with celebrities, the event provided a platform for participants to showcase their confidence and…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-15T07:24:52.000Z",
-      "firstSeen": "2026-11-15T07:30:55.180Z",
-      "url": "https://www.abs-cbn.com/lifestyle/pageants-beauty-queens/2026/11/15/not-pity-but-possibilities-pageant-champions-pwd-inclusion-1524",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Dubbed as Asia's first pageant for persons with disabilities featuring an inclusive fashion show with celebrities, the event provided a platform for participants to showcase their confidence and individuality, with celebrities joining them as they walked down the runway."
         }
       ],
       "truncated": true,
@@ -13224,116 +13502,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-e36z50",
-      "source": "cbc",
-      "title": "Mike Morrice — the only candidate on the ballot — wins Green Party leadership with 96.6% of vote",
-      "summary": "The Green Party of Canada enters a new era with former MP Mike Morrice taking over the political party's top job.",
-      "byline": "David Thurton",
-      "section": "News/Politics",
-      "published": "2026-11-14T22:51:24.000Z",
-      "firstSeen": "2026-11-14T23:00:59.632Z",
-      "url": "https://www.cbc.ca/news/politics/green-party-leader-mike-morrice-9.7422321?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/ce870e57-4d25-4bcb-b670-fc79850dc32b,1794510495936/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C270%2C5184%2C2916%29%3BResize%3D620",
-        "caption": "Mike Morrice at a news conference in Ottawa in November 2023. Morrice will be the next leader of the Green Party of Canada. (Spencer Colby/The Canadian Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Politics·Breaking"
-        },
-        {
-          "type": "p",
-          "text": "The Green Party of Canada enters a new era with former MP Mike Morrice taking over the political party's top job."
-        },
-        {
-          "type": "h",
-          "text": "Greens enter new chapter with Morrice as leader"
-        },
-        {
-          "type": "p",
-          "text": "Mike Morrice, the only candidate in the running, has secured 96.6 per cent of the vote to become Green Party leader, the federal party has announced."
-        },
-        {
-          "type": "p",
-          "text": "The Greens released the results of their five-month leadership race on Saturday evening. Party members had the option of voting for Morrice or selecting none of the above."
-        },
-        {
-          "type": "p",
-          "text": "The total number of votes cast was not immediately available."
-        },
-        {
-          "type": "p",
-          "text": "The party's search to find a new leader began in June. The second candidate in the race, Nira Dookeran, dropped out in September."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Former MP Mike Morrice only Green Party of Canada leadership candidate after Nira Dookeran withdraws"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Morrice was elected to Parliament in 2021. The one-term MP for the Ontario riding of Kitchener Centre lost his seat last year to a Conservative by a margin of 358 votes."
-        },
-        {
-          "type": "p",
-          "text": "Soon after the defeat, Morrice was named deputy leader of the party and declared the next Green candidate for Kitchener Centre."
-        },
-        {
-          "type": "p",
-          "text": "In a news release, the Green Party of Canada said Morrice's campaign brought \"renewed energy\" to the party."
-        },
-        {
-          "type": "p",
-          "text": "\"Young Greens membership more than doubled, accounting for over 25 per cent of all new members. Overall party membership grew by nearly 20 per cent,\" the release said."
-        },
-        {
-          "type": "p",
-          "text": "His campaign also raised more than $113,302.04, which the party said is seven times the required amount."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Green Party of Canada begins search for Elizabeth May's replacement"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Elizabeth May announced she would be stepping down as party leader after the 2025 federal election, while staying on as the party's sole member of Parliament."
-        },
-        {
-          "type": "p",
-          "text": "The 2025 election saw the party's national vote share drop below two per cent for the first time in 25 years. Co-leader Jonathan Pedneault failed to secure a seat and resigned."
-        },
-        {
-          "type": "p",
-          "text": "May was first elected Green Party leader in 2006 and stepped down in 2019. She returned to lead the party in 2022, following the resignation of Annamie Paul."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "David Thurton is a senior reporter in CBC's Parliamentary Bureau. He covers daily politics in the nation’s capital and specializes in environment and energy policy. Born in Canada but raised in Trinidad and Tobago, he’s moved around more times than he can count. He’s worked for CBC in several provinces and territories, including Alberta and the Northwest Territories. He can be reached at david.thurton@cbc.ca"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Latest from David Thurton",
-            "LinkedIn"
-          ]
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "dw-11a4jct",
       "source": "dw",
       "title": "Philippines wins first Eurovision Song Contest Asia",
@@ -14809,70 +14977,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-1o2b3gc",
-      "source": "cbc",
-      "title": "SpaceX Starship prepares attempt at pinpoint return landing on Earth",
-      "summary": "SpaceX's next-generation Starship spacecraft cruised around the globe on Saturday nearing the end of its 15th test flight and what the company hoped would be an unprecedented pinpoint return landing…",
-      "byline": "CBC",
-      "section": "News/World",
-      "published": "2026-11-14T18:29:44.000Z",
-      "firstSeen": "2026-11-14T19:00:58.777Z",
-      "url": "https://www.cbc.ca/news/world/spacex-starship-re-entry-space-earth-9.7422284?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/fdd7be38-ea4d-415b-8aeb-14bf8c48b184,1794682038505/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C566%2C7734%2C4350%29%3BResize%3D620",
-        "caption": "SpaceX's mega rocket Starship lifts off for a test flight from Starbase, Texas, on Friday. The company is hoping for an unprecedented pinpoint return landing at the exact spot in Texas from ‌which it launched. (Eric Gay/The Associated Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "World·New"
-        },
-        {
-          "type": "p",
-          "text": "SpaceX's next-generation Starship spacecraft cruised around the globe on Saturday nearing the end of its 15th test flight and what the company hoped would be an unprecedented pinpoint return landing at the exact spot in Texas from ‌which it launched."
-        },
-        {
-          "type": "h",
-          "text": "Company hopes spacecraft will land at exact same Texas spot from which it launched"
-        },
-        {
-          "type": "p",
-          "text": "Starship's uncrewed upper stage is poised to re-enter Earth's atmosphere after nearly a day in orbit and steer back toward its launch tower, then make an engine-controlled final descent into the embrace of giant mechanical arms ​designed to catch the vehicle as it hovers over ​the launchpad."
-        },
-        {
-          "type": "p",
-          "text": "If successful, it will mark the first round-trip voyage of a vertically launched spacecraft to orbit and back to the very spot where it ​left Earth, achieving a key test of Elon Musk's long-pursued goal of ⁠producing a fully ⁠reusable rocket system."
-        },
-        {
-          "type": "p",
-          "text": "The towering two-stage rocket's Super ‌Heavy booster — the rocket's bottom half — carried Starship to space on Friday, lifting off from SpaceX's Starbase, Texas, facilities. That booster had failed to return to the launch pad some 10 minutes after liftoff because of an onboard navigation issue, ⁠nixing SpaceX's plan to recover both parts of the rocket for the first time."
-        },
-        {
-          "type": "p",
-          "text": "Starship, cruising at an altitude of roughly 260 kilometres, is expected to complete 14 orbits around Earth for ‌a total flight time of 22 hours, 32 minutes."
-        },
-        {
-          "type": "p",
-          "text": "The 15th Starship flight since 2023 became the longest-lasting mission last night, lasting longer than the roughly three-hour trek in its 14th flight in September, when it reached orbit for the first time."
-        },
-        {
-          "type": "p",
-          "text": "SpaceX has ​spent roughly a decade developing Starship, which billionaire CEO Elon Musk sees as the future workhorse for the company's satellite ⁠business and ambitions to put humans on the moon and eventually Mars."
-        },
-        {
-          "type": "p",
-          "text": "SpaceX's dominance in the ⁠global launch industry has been centred on its workhorse Falcon 9 rocket, which has ⁠launched more than ⁠700 times since 2010. That ​rocket's first stage is reusable, but its second stage — the part that delivers payloads into orbit — is ​discarded into the ocean ⁠after each flight."
-        },
-        {
-          "type": "p",
-          "text": "Starship's Super Heavy booster has been recovered on three previous test flights using the launch-tower catching system, the last such catch occurring in March 2025. The company has not made such a landing since, either because it planned to dunk it in the Gulf waters or because ⁠of an onboard glitch."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-o4oruy",
       "source": "bbc",
       "title": "Philippines wins first Eurovision Song Contest Asia",
@@ -15867,78 +15971,6 @@
         {
           "type": "p",
           "text": "“[All] because I have spoken my mind, and I had a lot more money than others who have spoken their mind, in my country. And that’s all it amounts to.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-1hxws6f",
-      "source": "grd",
-      "title": "Bomb found at Illinois ethanol plant, prompting evacuations",
-      "summary": "<p>Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating</p><p>Residents were ordered to evacuate parts of an <a…",
-      "byline": "Ramon Antonio Vargas",
-      "section": "Illinois",
-      "published": "2026-11-14T14:13:49.000Z",
-      "firstSeen": "2026-11-14T14:30:54.342Z",
-      "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/c959bae56a786ff95913cb67d9c97a8fced81672/437_0_4680_3744/master/4680.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=51fa3394626d131083ad4af9586ae6bb",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol- and alcohol-production plant."
-        },
-        {
-          "type": "p",
-          "text": "The discovery reported at BioUrja Renewables in Peoria triggered a mandatory evacuation over a one-mile evacuation zone encompassing sections of that city as well as the adjacent municipality of East Peoria."
-        },
-        {
-          "type": "p",
-          "text": "“It is real – this is a real thing,” Peoria’s mayor, Rita Ali, said, according to local news outlet WMBD. “We know that is a real threat. We know it is a bomb.”"
-        },
-        {
-          "type": "p",
-          "text": "Peoria’s police chief, Brad Dixon, said at a news conference early on Saturday that bomb technicians had rendered the object in question safe."
-        },
-        {
-          "type": "p",
-          "text": "But Dixon asked for the public’s patience as investigators searched BioUrja Renewals’ expansive facility for other explosive devices, as the Peoria news outlet WEEK reported."
-        },
-        {
-          "type": "p",
-          "text": "“We don’t know if there are other devices,” Ali remarked."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, Ryan Presley of the FBI, who is in charge of the bureau’s field office about an hour away in Springfield, Illinois, said agents would pursue whoever was responsible “tirelessly” and “bring them to justice”."
-        },
-        {
-          "type": "p",
-          "text": "At about 7.05pm local time on Friday, the Peoria police department had announced that officers were “actively investigating a reported bomb threat at BioUrja Renewables”. The agency then urged “anyone who lives or works within a one-mile radius of the facility to immediately evacuate their homes and businesses until further notice”."
-        },
-        {
-          "type": "p",
-          "text": "The police’s statement said the evacuation notice had been “issued out of an abundance of caution while officers and emergency personnel investigate the threat”, which officials initially referred to as a suspicious package. The city offered the Manual Academy school as a temporary shelter, and police said anyone who needed assistance evacuating their home or business could call for help."
-        },
-        {
-          "type": "p",
-          "text": "In a separate statement, the municipal government of neighboring East Peoria acknowledged that the evacuation zone associated with the package at BioUrja Renewables extended into part of that city. The East Peoria government said it expected to provide an update at about 9am local time on Saturday, but in the meantime all evacuations would remain in place."
-        },
-        {
-          "type": "p",
-          "text": "“This is not a hoax,” the Illinois state senator Dave Koehler said during the early Saturday news conference. “This has gone beyond that … This is serious. This is serious.”"
-        },
-        {
-          "type": "p",
-          "text": "Friday’s BioUrja Renewables case came amid a particularly chaotic day in the US marked by a nationwide Federal Aviation Administration-ordered nationwide ground stop at US airports that was in effect for about four hours, canceling or delaying more than 11,000 US flights."
-        },
-        {
-          "type": "p",
-          "text": "The country’s nerves were also frayed by a tanker which struck a cruise ship docked on the Mississippi River in New Orleans on Friday afternoon. First responders had to rescue passengers from the river’s water after the cruise ship turned on its side, and there were more than 30 injuries reported. But none of those injuries were critical, and there were no fatalities reported in association with the crash."
         }
       ],
       "truncated": false,
@@ -18382,6 +18414,94 @@
         {
           "type": "p",
           "text": "If Eisenkot fails to form a government within 28 days, he may request a 14-day extension. Should he still fall short, the mandate would pass to another lawmaker, most likely Netanyahu."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-dccns5",
+      "source": "cbc",
+      "title": "Edmonton and Montreal battle for the last Grey Cup of this era",
+      "summary": "CBC Sports' daily newsletter previews the 113th Grey Cup game, which is the final one before the CFL introduces some controversial new rules and an expanded playoffs next year.",
+      "byline": "Jesse Campigotto",
+      "section": "Sports/Football/CFL",
+      "published": "2026-11-13T22:35:03.000Z",
+      "firstSeen": "2026-11-15T16:00:57.618Z",
+      "url": "https://www.cbc.ca/sports/football/cfl/the-buzzer-grey-cup-weekend-preview-nov-13-9.7421569?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/73dc7c98-7985-45c2-ab5b-18c7dcf372f1,1794608922547/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C165%2C3500%2C1968%29%3BResize%3D620",
+        "caption": "CFL Most Outstanding Player Davis Alexander will lead a high-powered Montreal Alouettes offence against a stout Edmonton Elks defence in the Grey Cup. (Graham Hughes/The Canadian Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CFL·THE BUZZER"
+        },
+        {
+          "type": "p",
+          "text": "CBC Sports' daily newsletter previews the 113th Grey Cup game, which is the final one before the CFL introduces some controversial new rules and an expanded playoffs next year."
+        },
+        {
+          "type": "h",
+          "text": "CFL's top two teams square off for the title before new rules arrive"
+        },
+        {
+          "type": "p",
+          "text": "One of the great traditions in Canadian sports continues on Sunday in Calgary as the Edmonton Elks and the Montreal Alouettes square off in the 113th Grey Cup. This is Montreal's third appearance in the CFL title game in four years (they won in 2023 and lost last year to Saskatchewan) while Edmonton returns for the first time since winning the Cup in 2015."
+        },
+        {
+          "type": "p",
+          "text": "The Elks missed the playoffs in each of the past five seasons and endured a 22-game home losing streak that stretched nearly four full years before they snapped it in August 2023 (the cancellation of the 2020 season due to the COVID pandemic helped lengthen the time frame). They improved from 7-11 the last two years to a West Division-leading 13-5 with an old-school formula: run the ball, play strong defence, and win the turnover battle."
+        },
+        {
+          "type": "p",
+          "text": "Edmonton's D did its part by allowing the fewest points and yards in the CFL while leading the league in interceptions and fumbles forced. On offence, the Elks topped the league in rushing yards with a strong running-back duo of Justin Rankin and ShunDerrick Powell and duel-threat quarterback Cody Fajardo leading the charge. The 34-year-old Fajardo threw for a career-high 4,788 yards and 25 touchdowns with an acceptable 10 picks while topping all QBs with 517 rushing yards before adding another 84 yards on the ground in last week's 28-16 playoff win over B.C."
+        },
+        {
+          "type": "p",
+          "text": "However, sometimes the best defence is a good offence. And Montreal, which led the league in total yards gained, is favoured by a field goal this Sunday on the strength of a dynamite passing attack featuring some explosive stars."
+        },
+        {
+          "type": "p",
+          "text": "Quarterback Davis Alexander, who was hampered by a bad hamstring in last year's Grey Cup loss, powered the Alouettes to a league-best 14-4 record and captured the CFL's Most Outstanding Player award after ranking second in the league in both passing yards and touchdowns (35) while throwing just four interceptions. He remained on top of his game in last week's 33-23 victory over Winnipeg in the East final, throwing for 372 yards and a pair of TDs."
+        },
+        {
+          "type": "p",
+          "text": "Montreal also has an incredibly dynamic duo of receivers in Tyson Philpot and Tyler Snead, who ranked No. 1 and 2 in the league in receiving yards and each caught 13 TDs this season. Philpot, especially dangerous after he catches the ball, was named the CFL's Most Outstanding Canadian before piling up a game-high 129 yards on nine grabs in the playoff win against Winnipeg. And, just in case Edmonton didn't have enough to worry about, depth receiver Charleston Rambo went off for 117 yards on three catches against the Blue Bombers."
+        },
+        {
+          "type": "h",
+          "text": "End of an era"
+        },
+        {
+          "type": "p",
+          "text": "This interesting matchup between the two best teams in the league should make for a good send-off in the final Grey Cup before second-year commissioner Stewart Johnston's most controversial rules changes take effect. Starting next year, the length of the field will be reduced from the CFL-signature 110 yards to the NFL standard of 100. The endzones are also shrinking, from 20 yards to 15, while the goalposts move from the goal line to the back of the endzone. The objective of all these reforms is, in Johnston's words, \"trading field goals for touchdowns.\""
+        },
+        {
+          "type": "p",
+          "text": "Big changes are also coming to the playoff format as eight of the league's nine teams will qualify (up from six currently) and there will be three rounds before the Grey Cup instead of two. The revamped first round even includes a pair of non-elimination games among the top two seeds in each division, who will square off for a bye to the semifinals. You can see the goal here: creating more inventory to sell to playoff-hungry broadcast partners, whose annual bill for rights fees is increasing from $50 million to about $83 million next year."
+        },
+        {
+          "type": "h",
+          "text": "Expansion and Olympic flag news"
+        },
+        {
+          "type": "p",
+          "text": "Johnston spoke on another hot topic today during his annual state of the league address, confirming that Quebec City has emerged as a leading candidate for the CFL's long-sought 10th franchise. He said the league is talking to a prospective owner but declined to give more details."
+        },
+        {
+          "type": "p",
+          "text": "Earlier today, the CFL and the players' union announced that they've agreed to participate in a training camp for those interested in representing Canada in flag football at the 2028 Olympics in Los Angeles. It will take place from Nov. 29 to Dec. 5 in the San Diego area and 20 CFL players were invited. They include the Alouettes' Tyson Philpot and B.C. quarterback Nathan Rourke, who won the Most Outstanding Player award last year. According to the CFL, the players will \"learn the rules, techniques, concepts and schemes of the international flag football game, under the guidance and evaluation of Team Canada coaches.\""
+        },
+        {
+          "type": "p",
+          "text": "Flag football will make its Olympic debut at the L.A. Games, and Canada earned a spot in the men's tournament by winning the bronze-medal game at the world championships in Germany in August. The Canadian women's team also qualified before upsetting the United States to win gold."
+        },
+        {
+          "type": "p",
+          "text": "While the CFL and its nine teams have \"agreed to the parameters\" of making their players available for the Olympics, it's unclear how the Canadian roster will be picked. Current members of the national team have a strong claim to be on it after their success at the worlds, and the NFL has also expressed its support for the Olympics, which could open the door for Canadian standouts like running backs Chase Brown and Chuba Hubbard to take part."
         }
       ],
       "truncated": false,
