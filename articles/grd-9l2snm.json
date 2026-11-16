@@ -1,0 +1,68 @@
+{
+  "id": "grd-9l2snm",
+  "source": "grd",
+  "title": "California sues OpenAI over safety concerns after rogue agent hacking",
+  "summary": "<p>The lawsuit stems from an earlier incident where the tech company’s products hacked into the open-source platform Hugging Face</p><p>California sued OpenAI on Monday, accusing the artificial…",
+  "byline": "Dara Kerr",
+  "section": "OpenAI",
+  "published": "2026-11-16T21:41:10.000Z",
+  "firstSeen": "2026-11-16T22:00:56.455Z",
+  "url": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
+  "image": {
+    "src": "https://i.guim.co.uk/img/media/a82ee4985c0d264e0ee6c830a014ad1e4ab73ec0/1050_51_3174_2541/master/3174.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=cfdcd96a4156781b08c3275e622af3b4",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "California sued OpenAI on Monday, accusing the artificial intelligence titan of developing its technology without safety or the public’s interest in mind."
+    },
+    {
+      "type": "p",
+      "text": "The lawsuit concerns an incident earlier this year where OpenAI agents – semi-autonomous AI software that can carry out digital actions on behalf of users – launched a cyber-attack into the open-source AI platform Hugging Face."
+    },
+    {
+      "type": "p",
+      "text": "Rob Bonta, California’s attorney general, said the “infamous” attack was just one of 80 known incidents involving “loss of control” and shows that OpenAI doesn’t have adequate safeguards in place to protect society."
+    },
+    {
+      "type": "p",
+      "text": "“While narratives about the Hugging Face attack have evoked science fiction fantasies of rogue AI systems run amok, let me be clear: the Hugging Face attack was the predictable result of an internal culture at OpenAI that prioritizes growth and rapid model development over safety and accountability,” Bonta said in a statement."
+    },
+    {
+      "type": "p",
+      "text": "The lawsuit, filed in state superior court in San Francisco, alleges OpenAI violated California’s Unfair Competition Law and is a public nuisance as defined by state law. Bonta is asking the court to order OpenAI to change its business practices and pay civil penalties."
+    },
+    {
+      "type": "p",
+      "text": "California’s lawsuit follows Bonta’s formal investigation into OpenAI, launched in September, over the Hugging Face incident, followed by a subpoena of the company probing other cybersecurity incidents and risks with its models. The Federal Trade Commission is also conducting an industry-wide investigation into OpenAI, Anthropic and other AI labs over the potential dangers their technology poses to consumers’ digital security."
+    },
+    {
+      "type": "p",
+      "text": "In July, OpenAI revealed that one of its autonomous AI agents went rogue during a test, accessing the open web and hacking into Hugging Face. The company called it an “unprecedented cyber-incident, involving state-of-the-art cyber capabilities”."
+    },
+    {
+      "type": "p",
+      "text": "Since then, several other incidents involving OpenAI have come to light, including a breach of government websites in Australia. Other AI firms, including Anthropic and Google, have also disclosed rogue agent activity."
+    },
+    {
+      "type": "p",
+      "text": "Drew Pusateri, a spokesperson for OpenAI, said the company has worked to create safeguards for its AI models, along with identifying and disclosing incidents of “misalignment”. He said most cases identified have been low severity with limited-to-no impact."
+    },
+    {
+      "type": "p",
+      "text": "“Since the Hugging Face incident, we’ve undertaken an extensive and transparent effort to understand and address misaligned model activity,” Pusateri said. “This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab.”"
+    },
+    {
+      "type": "p",
+      "text": "During a press conference, Bonta said OpenAI violated the law and that his suit is meant to ensure the company puts proper safeguards in place. He noted that the possibility exists for AI agents to hack into the power grid and medical and financial institutions."
+    },
+    {
+      "type": "p",
+      "text": "“These risks are no longer hypothetical,” Bonta said. “Without sufficient safeguards and controls, the scope and frequency of this already unacceptable risk will only increase.”"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
