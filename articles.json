@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-16T18:01:27.614Z",
+  "updated": "2026-11-16T18:31:14.865Z",
   "sources": [
     {
       "id": "inq",
@@ -53,38 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-s20lt3",
-      "source": "inqn",
-      "title": "Commissioner Mallillin among nominees for COA chairperson",
-      "summary": "MANILA, Philippines — Douglas Michael Mallillin was nominated as the new chairperson of Commission on Audit (COA), according to the Commission on Appointments (CA) pending nominations. The CA…",
-      "byline": "mesarangay",
-      "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:20.281Z",
-      "firstSeen": "2026-11-16T12:31:03.487Z",
-      "url": "https://newsinfo.inquirer.net/2342292/commissioner-mallillin-among-nominees-for-coa-chairperson",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/21oct2026-coa-e1792586343542.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Douglas Michael Mallillin was nominated as the new chairperson of Commission on Audit (COA), according to the Commission on Appointments (CA) pending nominations. The CA received Mallillin’s nomination on Nov. 16. Mallillin was appointed as ad interim Commissioner of COA on February 10, 2025. Prior to this he was Director IV"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-t2rdul",
       "source": "inqn",
       "title": "3 areas recorded &#8216;dangerous&#8217; heat index on Monday, Nov. 16",
       "summary": "MANILA, Philippines — The heat index peaked in Zamboanga City on Monday, Nov. 16, according to the Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa). Based on its…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:20.280Z",
+      "published": "2026-11-16T18:31:09.460Z",
       "firstSeen": "2026-11-16T12:30:59.760Z",
       "url": "https://newsinfo.inquirer.net/2342293/3-areas-recorded-dangerous-heat-index-on-monday-nov-16",
       "image": {
@@ -103,38 +78,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-3qgc82",
-      "source": "inqn",
-      "title": "Manila Water urges customers to prepare wisely for strong El Niño",
-      "summary": "MANILA, Philippines — Manila Water is urging customers to prepare wisely for the possible effects of a strong to very strong El Niño by preventing water waste, reporting leaks promptly, and avoiding…",
-      "byline": "Alexander Magno",
-      "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:18.834Z",
-      "firstSeen": "2026-11-16T12:01:07.138Z",
-      "url": "https://newsinfo.inquirer.net/2342305/manila-water-urges-customers-to-prepare-wisely-for-strong-el-nino",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/KaysakatWaterTreatmentPlant-Antipolo-30Oct2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Manila Water is urging customers to prepare wisely for the possible effects of a strong to very strong El Niño by preventing water waste, reporting leaks promptly, and avoiding unnecessary water storage while supply remains normal. The weather phenomenon is expected to increase the likelihood of below-normal rainfall, dry spells, and drought in"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1a3o8ly",
       "source": "inqn",
       "title": "Barangay chief, 2 others hurt in BARMM ambush",
       "summary": "COTABATO CITY, Philippines — Three people, including a female barangay chair, were wounded in an ambush in Barangay Tumbras, Kadayangan, Special Geographic Area (SGA) of the Bangsamoro Autonomous…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:18.833Z",
+      "published": "2026-11-16T18:31:09.408Z",
       "firstSeen": "2026-11-16T12:01:06.106Z",
       "url": "https://newsinfo.inquirer.net/2342270/barangay-chief-2-others-hurt-in-barmm-ambush",
       "image": {
@@ -153,13 +103,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-3qgc82",
+      "source": "inqn",
+      "title": "Manila Water urges customers to prepare wisely for strong El Niño",
+      "summary": "MANILA, Philippines — Manila Water is urging customers to prepare wisely for the possible effects of a strong to very strong El Niño by preventing water waste, reporting leaks promptly, and avoiding…",
+      "byline": "Alexander Magno",
+      "section": "Latest News Stories",
+      "published": "2026-11-16T18:31:09.408Z",
+      "firstSeen": "2026-11-16T12:01:07.138Z",
+      "url": "https://newsinfo.inquirer.net/2342305/manila-water-urges-customers-to-prepare-wisely-for-strong-el-nino",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/KaysakatWaterTreatmentPlant-Antipolo-30Oct2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Manila Water is urging customers to prepare wisely for the possible effects of a strong to very strong El Niño by preventing water waste, reporting leaks promptly, and avoiding unnecessary water storage while supply remains normal. The weather phenomenon is expected to increase the likelihood of below-normal rainfall, dry spells, and drought in"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1i3ww88",
+      "source": "inqn",
+      "title": "Dengue cases in Agusan del Sur town hit 858; 5 dead",
+      "summary": "SAN FRANCISCO, Agusan del Sur — Health authorities in Rosario town, Agusan del Sur, recorded 858 dengue cases and five deaths since January, prompting renewed calls for residents to intensify…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-16T18:31:09.407Z",
+      "firstSeen": "2026-11-16T13:00:58.948Z",
+      "url": "https://newsinfo.inquirer.net/2342298/dengue-cases-in-agusan-del-sur-town-hit-858-5-dead",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/02/dengue-mosquito-stock-18February2025.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN FRANCISCO, Agusan del Sur — Health authorities in Rosario town, Agusan del Sur, recorded 858 dengue cases and five deaths since January, prompting renewed calls for residents to intensify mosquito-control measures. As of Friday, data from the Municipal Health Office (MHO) showed that 37 dengue cases remain active. Barangay Sta. Cruz recorded the highest"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1xkxrso",
       "source": "inqn",
       "title": "2 nabbed, P260,000 ‘smuggled’ cigarettes seized in Surigao del Sur",
       "summary": "SAN FRANCISCO, Agusan del Sur — Police arrested two individuals, including a minor, and seized 400 reams of suspected smuggled cigarettes valued at P260,000 following a high-speed chase in Tandag…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:18.480Z",
+      "published": "2026-11-16T18:31:09.407Z",
       "firstSeen": "2026-11-16T13:01:05.982Z",
       "url": "https://newsinfo.inquirer.net/2342295/2-nabbed-p260000-smuggled-cigarettes-seized-in-surigao-del-sur",
       "image": {
@@ -184,7 +184,7 @@
       "summary": "COTABATO CITY, Philippines —A warrant of arrest has been issued against a municipal mayor and eight others over an alleged assassination attempt against a vice mayor in Maguindanao del Sur. A court…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:18.480Z",
+      "published": "2026-11-16T18:31:09.407Z",
       "firstSeen": "2026-11-16T12:01:06.043Z",
       "url": "https://newsinfo.inquirer.net/2342286/barmm-mayor-8-others-ordered-arrested-for-alleged-kill-plot",
       "image": {
@@ -203,63 +203,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1i3ww88",
-      "source": "inqn",
-      "title": "Dengue cases in Agusan del Sur town hit 858; 5 dead",
-      "summary": "SAN FRANCISCO, Agusan del Sur — Health authorities in Rosario town, Agusan del Sur, recorded 858 dengue cases and five deaths since January, prompting renewed calls for residents to intensify…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:18.479Z",
-      "firstSeen": "2026-11-16T13:00:58.948Z",
-      "url": "https://newsinfo.inquirer.net/2342298/dengue-cases-in-agusan-del-sur-town-hit-858-5-dead",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/02/dengue-mosquito-stock-18February2025.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN FRANCISCO, Agusan del Sur — Health authorities in Rosario town, Agusan del Sur, recorded 858 dengue cases and five deaths since January, prompting renewed calls for residents to intensify mosquito-control measures. As of Friday, data from the Municipal Health Office (MHO) showed that 37 dengue cases remain active. Barangay Sta. Cruz recorded the highest"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-ugcta6",
-      "source": "inqn",
-      "title": "Man dies after allegedly leaping from Bukidnon bridge",
-      "summary": "VALENCIA CITY, Bukidnon, Philippines — A man died after allegedly leaping off the towering Atugan Bridge in Impasugong, Bukidnon, on Monday afternoon, Nov. 16, adding to a troubling string of fatal…",
-      "byline": "Alexander Magno",
-      "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:16.940Z",
-      "firstSeen": "2026-11-16T13:00:56.993Z",
-      "url": "https://newsinfo.inquirer.net/2342303/man-dies-after-allegedly-leaping-from-bukidnon-bridge",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Bukidnon-map-filephoto-091422.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "VALENCIA CITY, Bukidnon, Philippines — A man died after allegedly leaping off the towering Atugan Bridge in Impasugong, Bukidnon, on Monday afternoon, Nov. 16, adding to a troubling string of fatal plunges and near-misses at one of Mindanao’s highest bridges. The tragedy took place between 3 p.m. and 4 p.m. under clear skies at the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1qph5bs",
       "source": "inqn",
       "title": "Marcos: We must nurture Asean for future generations",
       "summary": "MANILA, Philippines — President Ferdinand Marcos Jr. has reminded his fellow world leaders that as temporary stewards, they have a responsibility of nurturing the Association of Southeast Asian…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:16.940Z",
+      "published": "2026-11-16T18:31:07.985Z",
       "firstSeen": "2026-11-16T14:31:08.772Z",
       "url": "https://newsinfo.inquirer.net/2342344/marcos-we-must-nurture-asean-for-future-generations",
       "image": {
@@ -278,313 +228,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1bgoh45",
-      "source": "inqg",
-      "title": "Asean, Republic of Korea eye stronger AI, cultural cooperation",
-      "summary": "Screengrab from Asean 2026 Ph / Facebook. MANILA, Philippines — The Association of Southeast Asian Nations (Asean) and the Republic of Korea (ROK) are looking to expand cooperation in artificial…",
-      "byline": "mesarangay",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-16T18:01:16.940Z",
-      "firstSeen": "2026-11-16T11:30:56.186Z",
-      "url": "https://globalnation.inquirer.net/348161/asean-republic-of-korea-eye-stronger-ai-cultural-cooperation",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/nov162026-Asean-ROK.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Screengrab from Asean 2026 Ph / Facebook. MANILA, Philippines — The Association of Southeast Asian Nations (Asean) and the Republic of Korea (ROK) are looking to expand cooperation in artificial intelligence (AI) and cultural and creative industries, as both sides seek to strengthen their strategic partnership. This, as the 27th Asean-ROK Summit commenced on"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-r8xhb4",
-      "source": "inqg",
-      "title": "Teodoro says Philippines, allies now ‘better prepared’ for any crisis",
-      "summary": "MANILA, Philippines – Defense Secretary Gilberto Teodoro, Jr. said on Monday that the Philippines and its security partners are now &#8220;better prepared&#8221; to respond to any potential crisis,…",
-      "byline": "mesarangay",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-16T18:01:16.940Z",
-      "firstSeen": "2026-11-16T12:01:07.328Z",
-      "url": "https://globalnation.inquirer.net/348160/teodoro-says-philippines-allies-now-better-prepared-for-any-crisis",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/10/IMG_4409.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – Defense Secretary Gilberto Teodoro, Jr. said on Monday that the Philippines and its security partners are now &#8220;better prepared&#8221; to respond to any potential crisis, and expressed confidence that the United States would come to Manila&#8217;s aid should a conflict arise. The Philippines has sought to expand its network of allies in"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1ratvuu",
-      "source": "inqn",
-      "title": "Zamboanga del Sur sets P497M 10-year solid waste roadmap",
-      "summary": "PAGADIAN CITY, Zamboanga del Sur – The Zamboanga del Sur provincial government has rolled out a P497-million, 10-year solid waste management program to curb mounting garbage issues in its urban…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:16.681Z",
-      "firstSeen": "2026-11-16T13:00:56.950Z",
-      "url": "https://newsinfo.inquirer.net/2342300/zamboanga-del-sur-sets-p497m-10-year-solid-waste-roadmap",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Zamboanga-del-Sur-map-filephoto-091422.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PAGADIAN CITY, Zamboanga del Sur – The Zamboanga del Sur provincial government has rolled out a P497-million, 10-year solid waste management program to curb mounting garbage issues in its urban centers and waterways. Gov. Divina Grace Yu formally reconstituted the Provincial Solid Waste Management Board (PSWMB) through Executive Order No. 17, Series of 2026, setting"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-1us3d8o",
-      "source": "inqg",
-      "title": "Asean adopts PH-led plan to boost reading, math skills for youth",
-      "summary": "MANILA, Philippines — The Association of Southeast Asian Nations (Asean) has adopted a historic regional policy initiative led by the Philippines to ensure that children across Southeast Asia gain…",
-      "byline": "Alexander Magno",
-      "section": "Asia & Pacific",
-      "published": "2026-11-16T18:01:16.681Z",
-      "firstSeen": "2026-11-16T11:30:55.515Z",
-      "url": "https://globalnation.inquirer.net/348165/asean-adopts-ph-led-plan-to-boost-reading-math-skills-for-youth",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/ASEAN-2026-Default-Background.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Association of Southeast Asian Nations (Asean) has adopted a historic regional policy initiative led by the Philippines to ensure that children across Southeast Asia gain strong foundational literacy, numeracy, and socio-emotional skills. According to a statement issued by the Department of Education (DepEd) on Monday, the Asean Declaration on Foundational Learning"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-3t7o05",
-      "source": "inqn",
-      "title": "Supreme Court vows justice in Basilan judge slay",
-      "summary": "PAGADIAN CITY, Zamboanga del Sur – The Supreme Court (SC) is closely monitoring the ongoing investigation into the fatal shooting of a Basilan trial court judge in Zamboanga City, vowing to hold both…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:16.680Z",
-      "firstSeen": "2026-11-16T13:30:57.587Z",
-      "url": "https://newsinfo.inquirer.net/2342320/supreme-court-vows-justice-in-basilan-judge-slay",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/judge-Joseph-Wee-Sit.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PAGADIAN CITY, Zamboanga del Sur – The Supreme Court (SC) is closely monitoring the ongoing investigation into the fatal shooting of a Basilan trial court judge in Zamboanga City, vowing to hold both the gunmen and the masterminds accountable while ordering heightened security measures across the judiciary. In a statement released Monday, Nov. 16, the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-14t0240",
-      "source": "inqn",
-      "title": "Bohol eyes state of calamity as El Niño damage reaches P360M",
-      "summary": "TAGBILARAN CITY, Philippines — Bohol is being recommended for being declared under a state of calamity as prolonged dry conditions caused by El Niño have damaged crops worth an estimated P360.8…",
-      "byline": "Alexander Magno",
-      "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:16.680Z",
-      "firstSeen": "2026-11-16T13:30:58.116Z",
-      "url": "https://newsinfo.inquirer.net/2342315/bohol-eyes-state-of-calamity-as-el-nino-damage-reaches-p360m",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/bohol-El-Nino-21oct2026.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TAGBILARAN CITY, Philippines — Bohol is being recommended for being declared under a state of calamity as prolonged dry conditions caused by El Niño have damaged crops worth an estimated P360.8 million and affected more than 15,000 farmers across the province. The Provincial Disaster Risk Reduction and Management Council (PDRRMC) made the recommendation during a"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-wpp4q2",
-      "source": "inqg",
-      "title": "China&#8217;s Li warns against unilateralism in talks with Asean leaders",
-      "summary": "Chinese Premier Li Qiang on Monday appeared to take a swipe at the United States during a summit with leaders of the 11-member Association of Southeast Asian Nations in Manila, saying the world has…",
-      "byline": "dlejano",
-      "section": "Asia",
-      "published": "2026-11-16T18:01:16.680Z",
-      "firstSeen": "2026-11-16T13:00:59.159Z",
-      "url": "https://globalnation.inquirer.net/348187/chinas-li-warns-against-unilateralism-in-talks-with-asean-leaders",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Chinas-Li-warns-against-unilateralism-in-talks-with-Asean-leaders-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Chinese Premier Li Qiang on Monday appeared to take a swipe at the United States during a summit with leaders of the 11-member Association of Southeast Asian Nations in Manila, saying the world has witnessed &#8220;a growing trend of unilateralism and protectionism.&#8221; In remarks at the China-Asean summit, Li called on the two sides to"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-62l5qw",
-      "source": "inqg",
-      "title": "Marcos brings up karaoke memories, makes Takaichi laugh during bilateral",
-      "summary": "MANILA, Philippines — In a lighthearted moment amid formal meetings, President Marcos on Monday broke the ice with Japanese Prime Minister Sanae Takaichi by recalling a memorable bonding moment they…",
-      "byline": "cbuban",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-16T18:01:16.680Z",
-      "firstSeen": "2026-11-16T16:01:21.240Z",
-      "url": "https://globalnation.inquirer.net/348183/marcos-brings-up-karaoke-memories-makes-takaichi-laugh-during-bilateral",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/2-P-AB208171-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — In a lighthearted moment amid formal meetings, President Marcos on Monday broke the ice with Japanese Prime Minister Sanae Takaichi by recalling a memorable bonding moment they shared during a previous meeting. Takaichi arrived in Manila in the afternoon to participate in the Association of Southeast Asian Nations (Asean)-Japan Summit and meet"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-18at9qf",
-      "source": "inqn",
-      "title": "Retired soldier slain in Maguindanao del Norte ambush",
-      "summary": "COTABATO CITY – Unidentified motorcycle riding gunmen ambushed and killed a retired soldier in Datu Odin Sinsuat, Maguindanao del Norte at past 3 p.m. Monday, Nov. 16. Lt. Colonel Brian Balite, Datu…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:14.880Z",
-      "firstSeen": "2026-11-16T13:30:57.529Z",
-      "url": "https://newsinfo.inquirer.net/2342323/retired-soldier-slain-in-maguindanao-del-norte-ambush",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Retired-soldier-slain-in-Maguindanao-del-Norte-ambush-16November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COTABATO CITY – Unidentified motorcycle riding gunmen ambushed and killed a retired soldier in Datu Odin Sinsuat, Maguindanao del Norte at past 3 p.m. Monday, Nov. 16. Lt. Colonel Brian Balite, Datu Odin Sinsuat municipal police station chief, identified the victim as Danny Alif Lakim, 68, a resident of Poblacion Salbu, Datu Saudi Ampatuan, Maguindanao"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-1bnuqcm",
-      "source": "inqg",
-      "title": "UN chief backs engagement with Myanmar but &#8216;violence needs to stop&#8217;",
-      "summary": "MANILA, Philippines &#8212; UN Secretary-General Antonio Guterres expressed support Monday for fresh diplomatic efforts to engage with Myanmar&#8217;s post-coup government, but said that…",
-      "byline": "dlejano",
-      "section": "Global Scale",
-      "published": "2026-11-16T18:01:14.880Z",
-      "firstSeen": "2026-11-16T13:00:56.950Z",
-      "url": "https://globalnation.inquirer.net/348190/un-chief-backs-engagement-with-myanmar-but-violence-needs-to-stop",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/UN-chief-backs-engagement-with-Myanmar-but-violence-needs-to-stop-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines &#8212; UN Secretary-General Antonio Guterres expressed support Monday for fresh diplomatic efforts to engage with Myanmar&#8217;s post-coup government, but said that &#8220;violence needs to stop&#8221;. Guterres made the remarks in Manila, where leaders from the Association of Southeast Asian Nations (Asean) agreed Sunday to pursue a &#8220;calibrated engagement&#8221; with the war-torn country. Myanmar"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-2f8x3a",
-      "source": "inqg",
-      "title": "Groups ask Asean heads for reforms to fulfill universal health care",
-      "summary": "MANILA, Philippines — Several Southeast Asian civil society organizations (CSOs) called on member states of the Association of Southeast Asian Nations (Asean) to adopt immediate reforms to ensure…",
-      "byline": "Alexander Magno",
-      "section": "Asia & Pacific",
-      "published": "2026-11-16T18:01:14.880Z",
-      "firstSeen": "2026-11-16T13:00:56.994Z",
-      "url": "https://globalnation.inquirer.net/348181/groups-ask-asean-heads-for-reforms-to-fulfill-universal-health-care",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/0S3A6301-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Several Southeast Asian civil society organizations (CSOs) called on member states of the Association of Southeast Asian Nations (Asean) to adopt immediate reforms to ensure sustainable public financing and equitable access to universal health care (UHC) Led by the Social Watch Philippines (SWP), more than 40 CSOs across the region emphasized that"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1jezoq9",
-      "source": "inqn",
-      "title": "Police deny releasing suspects’ sketches in Basilan judge’s ambush",
-      "summary": "PAGADIAN CITY, Zamboanga del Sur – Police authorities in Western Mindanao on Monday denied releasing cartographic sketches of the suspects in the deadly ambush of Judge Joseph Wee Sit, warning the…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:14.879Z",
-      "firstSeen": "2026-11-16T14:01:04.115Z",
-      "url": "https://newsinfo.inquirer.net/2342341/police-deny-releasing-suspects-sketches-in-basilan-judges-ambush",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Basilan-judge-12nov2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PAGADIAN CITY, Zamboanga del Sur – Police authorities in Western Mindanao on Monday denied releasing cartographic sketches of the suspects in the deadly ambush of Judge Joseph Wee Sit, warning the public against sharing unverified materials circulating online. In separate advisories issued on Nov. 16, both the Police Regional Office 9 (PRO-9) and the Zamboanga"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-17wiq15",
       "source": "inqn",
       "title": "Village official from Eastern Samar arrested in a buy-bust operation",
       "summary": "TACLOBAN CITY, LEYTE, Philippines — A village councilor, tagged as a high-value target, was arrested in an anti-drug operation on Sunday, Nov. 15, in Guiuan, Eastern Samar. The arrested village…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:13.206Z",
+      "published": "2026-11-16T18:31:07.984Z",
       "firstSeen": "2026-11-16T15:00:59.498Z",
       "url": "https://newsinfo.inquirer.net/2342379/village-official-from-eastern-samar-arrested-in-a-buy-bust-operation",
       "image": {
@@ -609,7 +259,7 @@
       "summary": "MANILA, Philippines — No ticket holder won the P373.62 million Grand Lotto 6/55 jackpot or the P22.33 million MegaLotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:13.206Z",
+      "published": "2026-11-16T18:31:07.984Z",
       "firstSeen": "2026-11-16T14:30:59.609Z",
       "url": "https://newsinfo.inquirer.net/2342377/pcsos-nov-16-lotto-results-p373-62m-jackpot-not-won",
       "image": {
@@ -628,23 +278,148 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-vfniqa",
-      "source": "inqg",
-      "title": "Trump visit, Pax Silica draw more protests in Baguio",
-      "summary": "BAGUIO CITY — Veteran activists, Indigenous peoples’ groups, and students, including those from the University of the Philippines Baguio, gathered at Igorot Park on Monday afternoon (Nov. 16) to…",
+      "id": "inqn-1jezoq9",
+      "source": "inqn",
+      "title": "Police deny releasing suspects’ sketches in Basilan judge’s ambush",
+      "summary": "PAGADIAN CITY, Zamboanga del Sur – Police authorities in Western Mindanao on Monday denied releasing cartographic sketches of the suspects in the deadly ambush of Judge Joseph Wee Sit, warning the…",
       "byline": "besguerra",
-      "section": "Headlines",
-      "published": "2026-11-16T18:01:13.206Z",
+      "section": "Latest News Stories",
+      "published": "2026-11-16T18:31:07.984Z",
       "firstSeen": "2026-11-16T14:01:04.115Z",
-      "url": "https://globalnation.inquirer.net/348192/trump-visit-pax-silica-draw-more-protests-in-baguio",
+      "url": "https://newsinfo.inquirer.net/2342341/police-deny-releasing-suspects-sketches-in-basilan-judges-ambush",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Trump-visit-Pax-Silica-draw-more-protests-in-Baguio-16November2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Basilan-judge-12nov2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "BAGUIO CITY — Veteran activists, Indigenous peoples’ groups, and students, including those from the University of the Philippines Baguio, gathered at Igorot Park on Monday afternoon (Nov. 16) to protest the Pax Silica initiative anew and condemn the dispersal of a protest caravan and the arrest of its participants in Muntinlupa City a day earlier."
+          "text": "PAGADIAN CITY, Zamboanga del Sur – Police authorities in Western Mindanao on Monday denied releasing cartographic sketches of the suspects in the deadly ambush of Judge Joseph Wee Sit, warning the public against sharing unverified materials circulating online. In separate advisories issued on Nov. 16, both the Police Regional Office 9 (PRO-9) and the Zamboanga"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-18at9qf",
+      "source": "inqn",
+      "title": "Retired soldier slain in Maguindanao del Norte ambush",
+      "summary": "COTABATO CITY – Unidentified motorcycle riding gunmen ambushed and killed a retired soldier in Datu Odin Sinsuat, Maguindanao del Norte at past 3 p.m. Monday, Nov. 16. Lt. Colonel Brian Balite, Datu…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T13:30:57.529Z",
+      "url": "https://newsinfo.inquirer.net/2342323/retired-soldier-slain-in-maguindanao-del-norte-ambush",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Retired-soldier-slain-in-Maguindanao-del-Norte-ambush-16November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "COTABATO CITY – Unidentified motorcycle riding gunmen ambushed and killed a retired soldier in Datu Odin Sinsuat, Maguindanao del Norte at past 3 p.m. Monday, Nov. 16. Lt. Colonel Brian Balite, Datu Odin Sinsuat municipal police station chief, identified the victim as Danny Alif Lakim, 68, a resident of Poblacion Salbu, Datu Saudi Ampatuan, Maguindanao"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-3t7o05",
+      "source": "inqn",
+      "title": "Supreme Court vows justice in Basilan judge slay",
+      "summary": "PAGADIAN CITY, Zamboanga del Sur – The Supreme Court (SC) is closely monitoring the ongoing investigation into the fatal shooting of a Basilan trial court judge in Zamboanga City, vowing to hold both…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T13:30:57.587Z",
+      "url": "https://newsinfo.inquirer.net/2342320/supreme-court-vows-justice-in-basilan-judge-slay",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/judge-Joseph-Wee-Sit.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PAGADIAN CITY, Zamboanga del Sur – The Supreme Court (SC) is closely monitoring the ongoing investigation into the fatal shooting of a Basilan trial court judge in Zamboanga City, vowing to hold both the gunmen and the masterminds accountable while ordering heightened security measures across the judiciary. In a statement released Monday, Nov. 16, the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-14t0240",
+      "source": "inqn",
+      "title": "Bohol eyes state of calamity as El Niño damage reaches P360M",
+      "summary": "TAGBILARAN CITY, Philippines — Bohol is being recommended for being declared under a state of calamity as prolonged dry conditions caused by El Niño have damaged crops worth an estimated P360.8…",
+      "byline": "Alexander Magno",
+      "section": "Latest News Stories",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T13:30:58.116Z",
+      "url": "https://newsinfo.inquirer.net/2342315/bohol-eyes-state-of-calamity-as-el-nino-damage-reaches-p360m",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/bohol-El-Nino-21oct2026.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TAGBILARAN CITY, Philippines — Bohol is being recommended for being declared under a state of calamity as prolonged dry conditions caused by El Niño have damaged crops worth an estimated P360.8 million and affected more than 15,000 farmers across the province. The Provincial Disaster Risk Reduction and Management Council (PDRRMC) made the recommendation during a"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1ratvuu",
+      "source": "inqn",
+      "title": "Zamboanga del Sur sets P497M 10-year solid waste roadmap",
+      "summary": "PAGADIAN CITY, Zamboanga del Sur – The Zamboanga del Sur provincial government has rolled out a P497-million, 10-year solid waste management program to curb mounting garbage issues in its urban…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T13:00:56.950Z",
+      "url": "https://newsinfo.inquirer.net/2342300/zamboanga-del-sur-sets-p497m-10-year-solid-waste-roadmap",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Zamboanga-del-Sur-map-filephoto-091422.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PAGADIAN CITY, Zamboanga del Sur – The Zamboanga del Sur provincial government has rolled out a P497-million, 10-year solid waste management program to curb mounting garbage issues in its urban centers and waterways. Gov. Divina Grace Yu formally reconstituted the Provincial Solid Waste Management Board (PSWMB) through Executive Order No. 17, Series of 2026, setting"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-ugcta6",
+      "source": "inqn",
+      "title": "Man dies after allegedly leaping from Bukidnon bridge",
+      "summary": "VALENCIA CITY, Bukidnon, Philippines — A man died after allegedly leaping off the towering Atugan Bridge in Impasugong, Bukidnon, on Monday afternoon, Nov. 16, adding to a troubling string of fatal…",
+      "byline": "Alexander Magno",
+      "section": "Latest News Stories",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T13:00:56.993Z",
+      "url": "https://newsinfo.inquirer.net/2342303/man-dies-after-allegedly-leaping-from-bukidnon-bridge",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Bukidnon-map-filephoto-091422.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "VALENCIA CITY, Bukidnon, Philippines — A man died after allegedly leaping off the towering Atugan Bridge in Impasugong, Bukidnon, on Monday afternoon, Nov. 16, adding to a troubling string of fatal plunges and near-misses at one of Mindanao’s highest bridges. The tragedy took place between 3 p.m. and 4 p.m. under clear skies at the"
         }
       ],
       "truncated": true,
@@ -659,7 +434,7 @@
       "summary": "MANILA, Philippines &#8212; Prime Minister Anthony Albanese has not ruled out appearing in a photo alongside Vladimir Putin but has vowed to voice his opposition to Russia&#8217;s Ukraine invasion.…",
       "byline": "dlejano",
       "section": "Australia & Oceania",
-      "published": "2026-11-16T18:01:13.206Z",
+      "published": "2026-11-16T18:31:07.984Z",
       "firstSeen": "2026-11-16T13:30:57.529Z",
       "url": "https://globalnation.inquirer.net/348197/awkward-moment-awaits-australian-pm-with-potential-putin-photo",
       "image": {
@@ -678,23 +453,198 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1aqc9g2",
+      "id": "inqg-1bnuqcm",
       "source": "inqg",
-      "title": "Chinese academic proposes paid fishing permits as dispute compromise",
-      "summary": "MANILA, Philippines — A Chinese academic on Monday suggested allowing Chinese boats to fish inside the Philippines’ exclusive economic zone in exchange for a fee, proposing a permit system as a…",
-      "byline": "cbuban",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-16T18:01:09.546Z",
-      "firstSeen": "2026-11-16T15:30:58.344Z",
-      "url": "https://globalnation.inquirer.net/348209/chinese-academic-proposes-paid-fishing-permits-as-dispute-compromise",
+      "title": "UN chief backs engagement with Myanmar but &#8216;violence needs to stop&#8217;",
+      "summary": "MANILA, Philippines &#8212; UN Secretary-General Antonio Guterres expressed support Monday for fresh diplomatic efforts to engage with Myanmar&#8217;s post-coup government, but said that…",
+      "byline": "dlejano",
+      "section": "Global Scale",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T13:00:56.950Z",
+      "url": "https://globalnation.inquirer.net/348190/un-chief-backs-engagement-with-myanmar-but-violence-needs-to-stop",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2024/02/Philippines-accuses-China-of-attempting-to-block-another-vessel.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/UN-chief-backs-engagement-with-Myanmar-but-violence-needs-to-stop-scaled.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — A Chinese academic on Monday suggested allowing Chinese boats to fish inside the Philippines’ exclusive economic zone in exchange for a fee, proposing a permit system as a potential compromise in the South China Sea dispute between Manila and Beijing. Shen Dingli, a member of the academic committee at the Beijing-based Grandview"
+          "text": "MANILA, Philippines &#8212; UN Secretary-General Antonio Guterres expressed support Monday for fresh diplomatic efforts to engage with Myanmar&#8217;s post-coup government, but said that &#8220;violence needs to stop&#8221;. Guterres made the remarks in Manila, where leaders from the Association of Southeast Asian Nations (Asean) agreed Sunday to pursue a &#8220;calibrated engagement&#8221; with the war-torn country. Myanmar"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-2f8x3a",
+      "source": "inqg",
+      "title": "Groups ask Asean heads for reforms to fulfill universal health care",
+      "summary": "MANILA, Philippines — Several Southeast Asian civil society organizations (CSOs) called on member states of the Association of Southeast Asian Nations (Asean) to adopt immediate reforms to ensure…",
+      "byline": "Alexander Magno",
+      "section": "Asia & Pacific",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T13:00:56.994Z",
+      "url": "https://globalnation.inquirer.net/348181/groups-ask-asean-heads-for-reforms-to-fulfill-universal-health-care",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/0S3A6301-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Several Southeast Asian civil society organizations (CSOs) called on member states of the Association of Southeast Asian Nations (Asean) to adopt immediate reforms to ensure sustainable public financing and equitable access to universal health care (UHC) Led by the Social Watch Philippines (SWP), more than 40 CSOs across the region emphasized that"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-wpp4q2",
+      "source": "inqg",
+      "title": "China&#8217;s Li warns against unilateralism in talks with Asean leaders",
+      "summary": "Chinese Premier Li Qiang on Monday appeared to take a swipe at the United States during a summit with leaders of the 11-member Association of Southeast Asian Nations in Manila, saying the world has…",
+      "byline": "dlejano",
+      "section": "Asia",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T13:00:59.159Z",
+      "url": "https://globalnation.inquirer.net/348187/chinas-li-warns-against-unilateralism-in-talks-with-asean-leaders",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/Chinas-Li-warns-against-unilateralism-in-talks-with-Asean-leaders-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Chinese Premier Li Qiang on Monday appeared to take a swipe at the United States during a summit with leaders of the 11-member Association of Southeast Asian Nations in Manila, saying the world has witnessed &#8220;a growing trend of unilateralism and protectionism.&#8221; In remarks at the China-Asean summit, Li called on the two sides to"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-62l5qw",
+      "source": "inqg",
+      "title": "Marcos brings up karaoke memories, makes Takaichi laugh during bilateral",
+      "summary": "MANILA, Philippines — In a lighthearted moment amid formal meetings, President Marcos on Monday broke the ice with Japanese Prime Minister Sanae Takaichi by recalling a memorable bonding moment they…",
+      "byline": "cbuban",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T16:01:21.240Z",
+      "url": "https://globalnation.inquirer.net/348183/marcos-brings-up-karaoke-memories-makes-takaichi-laugh-during-bilateral",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/2-P-AB208171-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — In a lighthearted moment amid formal meetings, President Marcos on Monday broke the ice with Japanese Prime Minister Sanae Takaichi by recalling a memorable bonding moment they shared during a previous meeting. Takaichi arrived in Manila in the afternoon to participate in the Association of Southeast Asian Nations (Asean)-Japan Summit and meet"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1us3d8o",
+      "source": "inqg",
+      "title": "Asean adopts PH-led plan to boost reading, math skills for youth",
+      "summary": "MANILA, Philippines — The Association of Southeast Asian Nations (Asean) has adopted a historic regional policy initiative led by the Philippines to ensure that children across Southeast Asia gain…",
+      "byline": "Alexander Magno",
+      "section": "Asia & Pacific",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T11:30:55.515Z",
+      "url": "https://globalnation.inquirer.net/348165/asean-adopts-ph-led-plan-to-boost-reading-math-skills-for-youth",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/ASEAN-2026-Default-Background.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Association of Southeast Asian Nations (Asean) has adopted a historic regional policy initiative led by the Philippines to ensure that children across Southeast Asia gain strong foundational literacy, numeracy, and socio-emotional skills. According to a statement issued by the Department of Education (DepEd) on Monday, the Asean Declaration on Foundational Learning"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1bgoh45",
+      "source": "inqg",
+      "title": "Asean, Republic of Korea eye stronger AI, cultural cooperation",
+      "summary": "Screengrab from Asean 2026 Ph / Facebook. MANILA, Philippines — The Association of Southeast Asian Nations (Asean) and the Republic of Korea (ROK) are looking to expand cooperation in artificial…",
+      "byline": "mesarangay",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T11:30:56.186Z",
+      "url": "https://globalnation.inquirer.net/348161/asean-republic-of-korea-eye-stronger-ai-cultural-cooperation",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/nov162026-Asean-ROK.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Screengrab from Asean 2026 Ph / Facebook. MANILA, Philippines — The Association of Southeast Asian Nations (Asean) and the Republic of Korea (ROK) are looking to expand cooperation in artificial intelligence (AI) and cultural and creative industries, as both sides seek to strengthen their strategic partnership. This, as the 27th Asean-ROK Summit commenced on"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-r8xhb4",
+      "source": "inqg",
+      "title": "Teodoro says Philippines, allies now ‘better prepared’ for any crisis",
+      "summary": "MANILA, Philippines – Defense Secretary Gilberto Teodoro, Jr. said on Monday that the Philippines and its security partners are now &#8220;better prepared&#8221; to respond to any potential crisis,…",
+      "byline": "mesarangay",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-16T18:31:07.984Z",
+      "firstSeen": "2026-11-16T12:01:07.328Z",
+      "url": "https://globalnation.inquirer.net/348160/teodoro-says-philippines-allies-now-better-prepared-for-any-crisis",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/IMG_4409.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Defense Secretary Gilberto Teodoro, Jr. said on Monday that the Philippines and its security partners are now &#8220;better prepared&#8221; to respond to any potential crisis, and expressed confidence that the United States would come to Manila&#8217;s aid should a conflict arise. The Philippines has sought to expand its network of allies in"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-vfniqa",
+      "source": "inqg",
+      "title": "Trump visit, Pax Silica draw more protests in Baguio",
+      "summary": "BAGUIO CITY — Veteran activists, Indigenous peoples’ groups, and students, including those from the University of the Philippines Baguio, gathered at Igorot Park on Monday afternoon (Nov. 16) to…",
+      "byline": "besguerra",
+      "section": "Headlines",
+      "published": "2026-11-16T18:31:07.936Z",
+      "firstSeen": "2026-11-16T14:01:04.115Z",
+      "url": "https://globalnation.inquirer.net/348192/trump-visit-pax-silica-draw-more-protests-in-baguio",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/Trump-visit-Pax-Silica-draw-more-protests-in-Baguio-16November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BAGUIO CITY — Veteran activists, Indigenous peoples’ groups, and students, including those from the University of the Philippines Baguio, gathered at Igorot Park on Monday afternoon (Nov. 16) to protest the Pax Silica initiative anew and condemn the dispersal of a protest caravan and the arrest of its participants in Muntinlupa City a day earlier."
         }
       ],
       "truncated": true,
@@ -709,7 +659,7 @@
       "summary": "SAN ANTONIO, ZAMBALES, Philippines — The provincial government of Zambales expects to complete its five-vessel fishing modernization program early next year with the delivery of a 96-foot (almost 30…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:04.465Z",
+      "published": "2026-11-16T18:31:07.932Z",
       "firstSeen": "2026-11-16T18:01:04.465Z",
       "url": "https://newsinfo.inquirer.net/2342451/zambales-fishing-fleet-modernization-nears-completion-with-96-foot-ship",
       "image": {
@@ -728,23 +678,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-16xa5rh",
+      "id": "inqg-1aqc9g2",
       "source": "inqg",
-      "title": "Tarriela rebuffs Chinese scholar’s Ayungin shoal claim",
-      "summary": "MANILA, Philippines — Philippine Coast Guard Rear Adm. Jay Tarriela on Monday pushed back against a Chinese academic’s claim that the Philippines had illegally occupied a disputed Shoal, sparking a…",
+      "title": "Chinese academic proposes paid fishing permits as dispute compromise",
+      "summary": "MANILA, Philippines — A Chinese academic on Monday suggested allowing Chinese boats to fish inside the Philippines’ exclusive economic zone in exchange for a fee, proposing a permit system as a…",
       "byline": "cbuban",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-16T18:01:03.124Z",
-      "firstSeen": "2026-11-16T16:01:10.372Z",
-      "url": "https://globalnation.inquirer.net/348213/tarriela-rebuffs-chinese-scholars-ayungin-shoal-claim",
+      "published": "2026-11-16T18:31:05.872Z",
+      "firstSeen": "2026-11-16T15:30:58.344Z",
+      "url": "https://globalnation.inquirer.net/348209/chinese-academic-proposes-paid-fishing-permits-as-dispute-compromise",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2025/07/WhatsApp-Image-2025-07-09-at-13.50.30_ff5faf3e.jpg",
+        "src": "https://globalnation.inquirer.net/files/2024/02/Philippines-accuses-China-of-attempting-to-block-another-vessel.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — Philippine Coast Guard Rear Adm. Jay Tarriela on Monday pushed back against a Chinese academic’s claim that the Philippines had illegally occupied a disputed Shoal, sparking a sharp exchange underscoring the tensions surrounding the South China Sea dispute. Zheng Zhihua of Shanghai Jiaotong University made a point about the “fundamental differences” on"
+          "text": "MANILA, Philippines — A Chinese academic on Monday suggested allowing Chinese boats to fish inside the Philippines’ exclusive economic zone in exchange for a fee, proposing a permit system as a potential compromise in the South China Sea dispute between Manila and Beijing. Shen Dingli, a member of the academic committee at the Beijing-based Grandview"
         }
       ],
       "truncated": true,
@@ -759,7 +709,7 @@
       "summary": "TACLOBAN CITY, LEYTE, Philippines — The provincial government of Eastern Samar is considering tapping its vast seawater sources through desalination to mitigate the impacts of the ongoing El Niño dry…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:02.777Z",
+      "published": "2026-11-16T18:31:04.059Z",
       "firstSeen": "2026-11-16T16:30:56.924Z",
       "url": "https://newsinfo.inquirer.net/2342401/eastern-samar-mulls-desalination-for-island-barangays-amid-el-nino",
       "image": {
@@ -778,13 +728,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-16xa5rh",
+      "source": "inqg",
+      "title": "Tarriela rebuffs Chinese scholar’s Ayungin shoal claim",
+      "summary": "MANILA, Philippines — Philippine Coast Guard Rear Adm. Jay Tarriela on Monday pushed back against a Chinese academic’s claim that the Philippines had illegally occupied a disputed Shoal, sparking a…",
+      "byline": "cbuban",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-16T18:31:01.734Z",
+      "firstSeen": "2026-11-16T16:01:10.372Z",
+      "url": "https://globalnation.inquirer.net/348213/tarriela-rebuffs-chinese-scholars-ayungin-shoal-claim",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2025/07/WhatsApp-Image-2025-07-09-at-13.50.30_ff5faf3e.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Philippine Coast Guard Rear Adm. Jay Tarriela on Monday pushed back against a Chinese academic’s claim that the Philippines had illegally occupied a disputed Shoal, sparking a sharp exchange underscoring the tensions surrounding the South China Sea dispute. Zheng Zhihua of Shanghai Jiaotong University made a point about the “fundamental differences” on"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-ns5fes",
       "source": "inqn",
       "title": "Laoag City heat index reaches 39°C, same level expected Tuesday",
       "summary": "SAN ILDEFONSO, ILOCOS SUR, Philippines — Residents of Laoag City in Ilocos Norte were urged to take precautions against heat-related illnesses after the city recorded a heat index of 39 degrees…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:02.338Z",
+      "published": "2026-11-16T18:31:01.086Z",
       "firstSeen": "2026-11-16T17:01:02.077Z",
       "url": "https://newsinfo.inquirer.net/2342405/laoag-city-heat-index-reaches-39c-same-level-expected-tuesday",
       "image": {
@@ -803,13 +778,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-fd7ool",
+      "source": "inqn",
+      "title": "Cebu archbishop questions PH participation in Pax Silica",
+      "summary": "TAGBILARAN CITY, BOHOL, Philippines — Cebu Archbishop Alberto “Abet” Uy raised serious concerns over the Philippines’ participation in Pax Silica, warning that the partnership could have long-term…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-16T18:31:00.459Z",
+      "firstSeen": "2026-11-16T18:01:02.279Z",
+      "url": "https://newsinfo.inquirer.net/2342456/cebu-archbishop-questions-ph-participation-in-pax-silica",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Cebu-Archbishop-Alberto-Abet-Uy16November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TAGBILARAN CITY, BOHOL, Philippines — Cebu Archbishop Alberto “Abet” Uy raised serious concerns over the Philippines’ participation in Pax Silica, warning that the partnership could have long-term consequences for the country’s environment, water supply, energy resources and national interests. In a statement posted on his social media account on Monday night, Nov. 16, Uy questioned"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+    },
+    {
       "id": "inqg-15e7i60",
       "source": "inqg",
       "title": "Indian PM Modi arrives in Manila for Asean summit",
       "summary": "MANILA, Philippines — Indian Prime Minister Narendra Modi arrived in Manila on Monday to participate in the Association of Southeast Asian Nations (Asean) summits. “I am confident that the visit will…",
       "byline": "cbuban",
       "section": "Global Scale",
-      "published": "2026-11-16T18:01:02.338Z",
+      "published": "2026-11-16T18:31:00.459Z",
       "firstSeen": "2026-11-16T17:30:59.358Z",
       "url": "https://globalnation.inquirer.net/348231/indian-pm-modi-arrives-in-manila-for-asean-summit",
       "image": {
@@ -834,7 +834,7 @@
       "summary": "BATAC CITY, ILOCOS NORTE, Philippines — Holding placards and raising calls for the protection of land, life, and national sovereignty, youth-led progressive groups, students, and church leaders…",
       "byline": "cbuban",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-16T18:01:02.279Z",
+      "published": "2026-11-16T18:31:00.407Z",
       "firstSeen": "2026-11-16T17:01:02.077Z",
       "url": "https://globalnation.inquirer.net/348205/pax-silica-protests-reach-marcos-bailiwick",
       "image": {
@@ -853,29 +853,669 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-fd7ool",
+      "id": "inqn-zw5um1",
       "source": "inqn",
-      "title": "Cebu archbishop questions PH participation in Pax Silica",
-      "summary": "TAGBILARAN CITY, BOHOL, Philippines — Cebu Archbishop Alberto “Abet” Uy raised serious concerns over the Philippines’ participation in Pax Silica, warning that the partnership could have long-term…",
+      "title": "Power interruption suspends classes in parts of Ilocos Sur on Nov. 17",
+      "summary": "SAN ILDEFONSO, ILOCOS SUR, Philippines — Classes in affected public and private schools at all levels in parts of Magsingal, Ilocos Sur, will be suspended on Tuesday, Nov. 17, due to a scheduled…",
       "byline": "cbuban",
-      "section": "Latest News Stories",
-      "published": "2026-11-16T18:01:02.279Z",
-      "firstSeen": "2026-11-16T18:01:02.279Z",
-      "url": "https://newsinfo.inquirer.net/2342456/cebu-archbishop-questions-ph-participation-in-pax-silica",
+      "section": "Headlines",
+      "published": "2026-11-16T18:31:00.407Z",
+      "firstSeen": "2026-11-16T18:31:00.407Z",
+      "url": "https://newsinfo.inquirer.net/2342448/power-interruption-suspends-classes-in-parts-of-ilocos-sur-on-nov-17",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Cebu-Archbishop-Alberto-Abet-Uy16November2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Magsingal-Municipal-Hall-in-Ilocos-Sur-16November2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "TAGBILARAN CITY, BOHOL, Philippines — Cebu Archbishop Alberto “Abet” Uy raised serious concerns over the Philippines’ participation in Pax Silica, warning that the partnership could have long-term consequences for the country’s environment, water supply, energy resources and national interests. In a statement posted on his social media account on Monday night, Nov. 16, Uy questioned"
+          "text": "SAN ILDEFONSO, ILOCOS SUR, Philippines — Classes in affected public and private schools at all levels in parts of Magsingal, Ilocos Sur, will be suspended on Tuesday, Nov. 17, due to a scheduled eight-hour power interruption. The Ilocos Sur Electric Cooperative Inc. (Iseco) said the power interruption will run from 8:30 a.m. to 4:30 p.m."
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-14b5fqu",
+      "source": "inq",
+      "title": "Over 5,200 applied in Negros during 1st week of voter registration",
+      "summary": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — A total of 5,236 voter applications were processed in the Negros Island Region (NIR) during the first week of voter registration from Nov. 10 to 14.…",
+      "byline": "cbuban",
+      "section": "",
+      "published": "2026-11-16T18:21:48.000Z",
+      "firstSeen": "2026-11-16T18:31:00.406Z",
+      "url": "https://www.inquirer.net/496009/over-5200-applied-in-negros-during-1st-week-of-voter-registration/",
+      "image": {
+        "src": "https://www.inquirer.net/wp-content/uploads/2025/08/Negros-Island-region-map-620x352.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BACOLOD CITY, NEGROS OCCIDENTAL, Philippines — A total of 5,236 voter applications were processed in the Negros Island Region (NIR) during the first week of voter registration from Nov. 10 to 14."
+        },
+        {
+          "type": "p",
+          "text": "Female applicants outnumbered male applicants, with 2,800 women and 2,436 men registering, based on data from the Commission on Elections (Comelec)-NIR."
+        },
+        {
+          "type": "p",
+          "text": "Negros Occidental recorded the highest number of applications at 3,345, comprising 1,534 males and 1,811 females."
+        },
+        {
+          "type": "p",
+          "text": "Negros Oriental followed with 1,765 applications (829 males and 936 females), while Siquijor recorded 126 (73 males and 53 females)."
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, the poll body’s Register Anywhere Program (RAP) accommodated 40 applicants across the region, evenly split between 20 males and 20 females."
+        },
+        {
+          "type": "p",
+          "text": "Bacolod City accounted for 35 RAP applications, including 20 males and 15 females, while Dumaguete City recorded five female applicants. No RAP applications were recorded in Siquijor during the first week."
+        },
+        {
+          "type": "p",
+          "text": "Voter registration resumed on Nov. 10, 2026, and will continue until July 30, 2027, ahead of the 2028 National and Local Elections."
+        },
+        {
+          "type": "p",
+          "text": "Comelec-NIR Regional Director Lionel Marco Castillano earlier said the agency is targeting a 5-percent increase in the region’s current base of more than three million registered voters, or approximately 150,000 additional registrants across the three provinces."
+        },
+        {
+          "type": "p",
+          "text": "Eligible citizens may apply for first-time registration, transfer of voter records, reactivation, and correction of entries at their local Offices of the Election Officer, satellite and mall registration sites, or through RAP."
+        },
+        {
+          "type": "p",
+          "text": "Comelec officials urged eligible voters to register early to avoid long queues as the deadline approaches. /cb"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-exttdn",
+      "source": "inq",
+      "title": "Balisacan flags ‘costly’ infrastructure delays",
+      "summary": "MANILA, Philippines — Delays in infrastructure flagship projects (IFPs) targeted for completion by 2028 have become a growing concern, as these could hamper the recovery in public investments that…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:19:00.000Z",
+      "firstSeen": "2026-11-16T18:31:00.459Z",
+      "url": "https://business.inquirer.net/621349/balisacan-flags-costly-infrastructure-delays",
+      "image": {
+        "src": "https://business.inquirer.net/files/2026/09/Arsenio-M-Balisacan-11September2026_4-620x403.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Delays in infrastructure flagship projects (IFPs) targeted for completion by 2028 have become a growing concern, as these could hamper the recovery in public investments that the government is counting on to prop up the weak economy, Socioeconomic Planning Secretary Arsenio Balisacan said. Speaking to reporters on the sidelines of a Philippine Economic [&hellip;]... Keep on reading: Balisacan flags ‘costly’ infrastructure delays"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-zna9ib",
+      "source": "inq",
+      "title": "PSEi slides 2%, hits 6-year low on stagflation fears",
+      "summary": "MANILA, Philippines — Local stocks fell to their lowest close in more than six years on Monday as investors grappled with rising stagflation risks at home and the prospect of another US interest rate…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:18:00.000Z",
+      "firstSeen": "2026-11-16T18:31:00.468Z",
+      "url": "https://business.inquirer.net/621342/psei-slides-2-hits-6-year-low-on-stagflation-fears",
+      "image": {
+        "src": "https://business.inquirer.net/files/2025/04/111C90DF2B-A694-44F5-8777-1741A9ED5752-620x413.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Local stocks fell to their lowest close in more than six years on Monday as investors grappled with rising stagflation risks at home and the prospect of another US interest rate hike. The benchmark Philippine Stock Exchange Index (PSEi) dropped 2 percent, or 111.61 points, to close at 5,481.88. READ: Philippines can avoid [&hellip;]... Keep on reading: PSEi slides 2%, hits 6-year low on stagflation fears"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-lsx4uc",
+      "source": "inq",
+      "title": "PH seen leading Asia in rate cuts next year",
+      "summary": "MANILA, Philippines — The Philippines could lead Asia in cutting interest rates next year once inflationary pressures subside, Dutch financial giant ING Bank said, with the country’s sluggish…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:17:00.000Z",
+      "firstSeen": "2026-11-16T18:31:02.575Z",
+      "url": "https://business.inquirer.net/621350/ph-seen-leading-asia-in-rate-cuts-next-year",
+      "image": {
+        "src": "https://business.inquirer.net/files/2026/02/Ortigas-Business-District-Pasig-Economy-buildings-10February2026_8-620x400.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Philippines could lead Asia in cutting interest rates next year once inflationary pressures subside, Dutch financial giant ING Bank said, with the country’s sluggish economic growth making monetary easing more urgent than in its regional peers. Deepali Bhargava, head of Asia-Pacific research at ING, said moderating inflation could give most Asian central [&hellip;]... Keep on reading: PH seen leading Asia in rate cuts next year"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-12r1ir7",
+      "source": "inq",
+      "title": "September remittances grew at fastest pace in 8 months",
+      "summary": "MANILA, Philippines — Money sent home by Filipinos abroad grew at its fastest pace in eight months in September, with inflows expected to get stronger as the Christmas season approaches. Cash…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:16:00.000Z",
+      "firstSeen": "2026-11-16T18:31:07.661Z",
+      "url": "https://business.inquirer.net/621355/september-remittances-grew-at-fastest-pace-in-8-months",
+      "image": {
+        "src": "https://business.inquirer.net/files/2018/07/20180713-GG9-300x200.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Money sent home by Filipinos abroad grew at its fastest pace in eight months in September, with inflows expected to get stronger as the Christmas season approaches. Cash remittances coursed through banks went up 2.6 percent from a year earlier to $3.2 billion during the month, latest data from the Bangko Sentral ng [&hellip;]... Keep on reading: September remittances grew at fastest pace in 8 months"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-qjpnsn",
+      "source": "inq",
+      "title": "Power sales lift Lopez Holdings’ 9-month profit to P8.05B",
+      "summary": "MANILA, Philippines — Lopez Holdings Corp. saw its net income attributable to equity holders of the parent grow by 7 percent to P8.05 billion in the first nine months of 2026, as electricity sales…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:15:00.000Z",
+      "firstSeen": "2026-11-16T18:31:07.936Z",
+      "url": "https://business.inquirer.net/621346/power-sales-lift-lopez-holdings-9-month-profit-to-p8-05b",
+      "image": {
+        "src": "https://business.inquirer.net/files/2025/04/Lopez-Holdings-Corp-22April2025-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Lopez Holdings Corp. saw its net income attributable to equity holders of the parent grow by 7 percent to P8.05 billion in the first nine months of 2026, as electricity sales and earnings from its investments rose. On Monday, the conglomerate said consolidated revenues climbed 61 percent to P94.34 billion from a restated [&hellip;]... Keep on reading: Power sales lift Lopez Holdings’ 9-month profit to P8.05B"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "dw-thmmx9",
+      "source": "dw",
+      "title": "Grammy Awards: Raye and Rosalia lead nominations",
+      "summary": "The nominations for the 2027 Grammy Awards are in and women dominated the top categories for the highest accolade in the music industry.",
+      "byline": "Sertac Comak",
+      "section": "",
+      "published": "2026-11-16T18:14:00.000Z",
+      "firstSeen": "2026-11-16T18:31:00.459Z",
+      "url": "https://www.dw.com/en/grammy-awards-raye-and-rosalia-lead-nominations/a-79961198?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79962143_6.jpg",
+        "caption": "Raye received 11 Grammy nominationsImage: Mike Gray/Avalon/IMAGO"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "British singer Raye, with the genre mixing hit \"Where Is My Husband!,\" landed at the top of the list of Grammy Award nominees on Monday, followed by Spanish musician Rosalia and \"Choosin\" Texas\" artist Ella ‌Langley."
+        },
+        {
+          "type": "p",
+          "text": "Raye earned 11 ⁠Grammy ⁠nominations including nods for song and record of the year for \"Husband,\" and for album of the year for \"This Music May Contain Hope.\""
+        },
+        {
+          "type": "p",
+          "text": "She now ties Beyonce's record at the 2025 Grammys for the most nominations in a single year by a female artist."
+        },
+        {
+          "type": "p",
+          "text": "For her part, Rosalia received nine nominations, just days after sweeping the Latin Grammys with ​her album \"Lux.\""
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/78184150_$%7BformatId%7D.jpg",
+          "caption": "Rosalia mixes genres such as flamenco and popImage: Julie Sebadelha/AFP"
+        },
+        {
+          "type": "p",
+          "text": "First-time nominee Langley secured seven, as did Miranda Lambert, Olivia Rodrigo and Phoebe Bridgers."
+        },
+        {
+          "type": "p",
+          "text": "Megastar Taylor Swift received five nominations."
+        },
+        {
+          "type": "h",
+          "text": "Only one male artist nominated for Best Album"
+        },
+        {
+          "type": "p",
+          "text": "Besides Raye, competitors in the album race include Taylor Swift's \"The Life of a Showgirl,\" Langley's \"Dandelion,\" Rosalia's \"Lux,\" Bridgers' \"Lost Weekend,\" Olivia Dean's \"The Art of Loving,\" and Rodrigo's \"you ​seem pretty sad for a girl so in love.\" Bruno Mars was the only male artist nominated in the category, for his album \"The Romantic.\""
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79453090_$%7BformatId%7D.jpg",
+          "caption": "Taylor Swift, has taken the album of the year trophy a record four timesImage: Caroline Brehman/REUTERS"
+        },
+        {
+          "type": "p",
+          "text": "The record of the year category is made up of Dean's “Man I Need,” Langley's “Choosin' Texas,” Mars' “I Just Might,” Raye's “Where Is My Husband!”, Rodrigo's “The Cure,” Rosalía’s “Berghain” featuring Björk and Yves Tumor, Swift's “The Fate of Ophelia” and Tame Impala and Jennie's “Dracula.”"
+        },
+        {
+          "type": "p",
+          "text": "K-pop sensation ⁠BTS declined to submit any ​music for consideration in protest over a new Asian pop music category. Members of the South Korean band said they did not believe music should be categorized by region."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/78164659_$%7BformatId%7D.jpg",
+          "caption": "K-pop powerhouse BTS said in July they are not interested in winning a new Asian music categoryImage: Tom Weller/dpa/picture alliance"
+        },
+        {
+          "type": "p",
+          "text": "Dolly Parton, the country legend who died in August, received three posthumous nominations."
+        },
+        {
+          "type": "h",
+          "text": "Winners will be announced on February"
+        },
+        {
+          "type": "p",
+          "text": "The final Grammy voting round will run from December 10 to January 7, with winners selected by around 16,000 Recording Academy members."
+        },
+        {
+          "type": "p",
+          "text": "Winners will be announced at a red-carpet ceremony in downtown Los Angeles ‌on ​February 7."
+        },
+        {
+          "type": "p",
+          "text": "The event will be broadcast live on Walt Disney's ABC and streamed on Disney+ and Hulu."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-fxgzax",
+      "source": "inq",
+      "title": "Bloomberry swings to P915.5-M net loss",
+      "summary": "MANILA, Philippines — Bloomberry Resorts Corp. swung to a consolidated net loss of P915.5 million in the first nine months of 2026 from a net income of P160.1 million a year earlier. Back then, its…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:14:00.000Z",
+      "firstSeen": "2026-11-16T18:31:07.984Z",
+      "url": "https://business.inquirer.net/621357/bloomberry-swings-to-p915-5-m-net-loss",
+      "image": {
+        "src": "https://business.inquirer.net/files/2024/05/Bloomberry-Resorts-Corp.-15May2024_1-300x169.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Bloomberry Resorts Corp. swung to a consolidated net loss of P915.5 million in the first nine months of 2026 from a net income of P160.1 million a year earlier. Back then, its bottom line got a P2.9-billion boost from a one-time refinancing gain. On Monday, the Enrique Razon Jr.-led company said the prior-year [&hellip;]... Keep on reading: Bloomberry swings to P915.5-M net loss"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1x7za6w",
+      "source": "inq",
+      "title": "Semirara slams DOE anew over ‘booby traps’",
+      "summary": "MANILA, Philippines — Semirara Mining and Power Corp. (SMPC) said that the “confiscatory” rule of the Department of Energy (DOE), which now covers both assets and legal rights, could scare away…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:13:00.000Z",
+      "firstSeen": "2026-11-16T18:31:07.984Z",
+      "url": "https://business.inquirer.net/621351/semirara-slams-doe-anew-over-booby-traps",
+      "image": {
+        "src": "https://business.inquirer.net/files/2022/11/Semirara-Mining-and-Power-Corp-SMPC-filephoto-110222-300x169.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Semirara Mining and Power Corp. (SMPC) said that the “confiscatory” rule of the Department of Energy (DOE), which now covers both assets and legal rights, could scare away investors, especially as the Philippines hosts the 49th Association of Southeast Asian Nations (Asean) Summit in Manila. The Consunji-led group, which has operated the Semirara [&hellip;]... Keep on reading: Semirara slams DOE anew over ‘booby traps’"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-oj2vzk",
+      "source": "inq",
+      "title": "AboitizPower gets full control of 420-MW Pagbilao coal plant",
+      "summary": "MANILA, Philippines — Aboitiz Power Corp. has strengthened its portfolio anew, with the full takeover of a 420-megawatt (MW) coal-fired power plant in Quezon province following a P6.12-billion deal.…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:12:00.000Z",
+      "firstSeen": "2026-11-16T18:31:07.984Z",
+      "url": "https://business.inquirer.net/621347/aboitizpower-gets-full-control-of-420-mw-pagbilao-coal-plant",
+      "image": {
+        "src": "https://business.inquirer.net/files/2024/12/Aboitiz-Power-Corp-logo-620x413.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Aboitiz Power Corp. has strengthened its portfolio anew, with the full takeover of a 420-megawatt (MW) coal-fired power plant in Quezon province following a P6.12-billion deal. In a regulatory filing on Monday, the group said that its subsidiary, Therma Power Inc. (TPI), has acquired 100 percent of the outstanding capital stock of [&hellip;]... Keep on reading: AboitizPower gets full control of 420-MW Pagbilao coal plant"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-w52roh",
+      "source": "inq",
+      "title": "Asean members green-light $764-B power grid",
+      "summary": "MANILA, Philippines — The Association of Southeast Asian Nations’ (Asean) target to build a $764-billion regional infrastructure to link electricity systems has gained a major headway, with all…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:11:00.000Z",
+      "firstSeen": "2026-11-16T18:31:07.984Z",
+      "url": "https://business.inquirer.net/621348/asean-members-green-light-764-b-power-grid",
+      "image": {
+        "src": "https://business.inquirer.net/files/2022/09/DOE-300x169.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Association of Southeast Asian Nations’ (Asean) target to build a $764-billion regional infrastructure to link electricity systems has gained a major headway, with all members now backing the plan. The Department of Energy (DOE) said on Monday that Asean has completed the signing of the enhanced memorandum of understanding on the Asean [&hellip;]... Keep on reading: Asean members green-light $764-B power grid"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1mr4e1z",
+      "source": "inq",
+      "title": "SE Asia bloc eyes 2027 rollout of digital trade pact",
+      "summary": "MANILA, Philippines — The Association of Southeast Asian Nations (Asean) plans to start in 2027 the implementation of its region-wide digital economy pact, which aims to eliminate cross-border…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:10:00.000Z",
+      "firstSeen": "2026-11-16T18:31:07.984Z",
+      "url": "https://business.inquirer.net/621343/se-asia-bloc-eyes-2027-rollout-of-digital-trade-pact",
+      "image": {
+        "src": "https://business.inquirer.net/files/2026/11/nov162026-dti-chief-roque-scaled-e1794832183881-620x366.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Association of Southeast Asian Nations (Asean) plans to start in 2027 the implementation of its region-wide digital economy pact, which aims to eliminate cross-border barriers to payments, online commerce and data transfers. Trade Secretary Cristina Roque said that while the Digital Economy Framework Agreement (Defa) was signed under the Philippines’ chairship, concrete [&hellip;]... Keep on reading: SE Asia bloc eyes 2027 rollout of digital trade pact"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1i00gmh",
+      "source": "inq",
+      "title": "Philippine dairy output surged 30% in third quarter",
+      "summary": "MANILA, Philippines — The Philippines’ dairy output climbed by almost 30 percent in the third quarter of this year, as the government’s milk feeding program encouraged local farmers to scale up their…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:09:00.000Z",
+      "firstSeen": "2026-11-16T18:31:07.984Z",
+      "url": "https://business.inquirer.net/621341/philippine-dairy-output-surged-30-in-third-quarter",
+      "image": {
+        "src": "https://business.inquirer.net/files/2026/02/Sunday-Biz1173611-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Philippines’ dairy output climbed by almost 30 percent in the third quarter of this year, as the government’s milk feeding program encouraged local farmers to scale up their production. Data from the National Dairy Authority (NDA) showed that dairy production reached 41.46 million liters in the July to September period, representing a 29.69-percent [&hellip;]... Keep on reading: Philippine dairy output surged 30% in third quarter"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-kxpk3b",
+      "source": "inq",
+      "title": "Power interruption suspends classes in parts of Ilocos Sur on Nov. 17",
+      "summary": "SAN ILDEFONSO, ILOCOS SUR, Philippines — Classes in affected public and private schools at all levels in parts of Magsingal, Ilocos Sur, will be suspended on Tuesday, Nov. 17, due to a scheduled…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-16T18:07:19.000Z",
+      "firstSeen": "2026-11-16T18:31:07.984Z",
+      "url": "https://newsinfo.inquirer.net/2342448/power-interruption-suspends-classes-in-parts-of-ilocos-sur-on-nov-17",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Magsingal-Municipal-Hall-in-Ilocos-Sur-16November2026-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN ILDEFONSO, ILOCOS SUR, Philippines — Classes in affected public and private schools at all levels in parts of Magsingal, Ilocos Sur, will be suspended on Tuesday, Nov. 17, due to a scheduled eight-hour power interruption. The Ilocos Sur Electric Cooperative Inc. (Iseco) said the power interruption will run from 8:30 a.m. to 4:30 p.m. to allow the clearing and maintenance of power lines. The outage will affect Feeder 2 of the Sto. Domingo Substation, covering parts of Magsingal, Sto. Domingo, and San Juan. READ: Power fluctuations in Ilocos Norte traced to NGCP’s low voltage supply In Magsingal, the affected areas [&hellip;]... Keep on reading: Power interruption suspends classes in parts of Ilocos Sur on Nov. 17"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-1tlxebh",
+      "source": "grd",
+      "title": "Police ‘retreating from streets’ due to major funding crisis, chief constables say",
+      "summary": "<p>Forces across England and Wales struggle amid financial pressures described as worst for decades</p><p>Police chiefs say officers are “retreating from the streets” amid the worst financial crisis…",
+      "byline": "Vikram Dodd Police and crime correspondent",
+      "section": "Police",
+      "published": "2026-11-16T18:00:50.000Z",
+      "firstSeen": "2026-11-16T18:31:00.407Z",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/16/police-retreating-from-streets-major-funding-crisis-england-wales",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/4063038e12cd12af9983d3da80722504710011c2/625_167_3799_3039/master/3799.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=a8ff917eaf493563aa004faf985c7f0c",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Police chiefs say officers are “retreating from the streets” amid the worst financial crisis in decades, which has left nine forces seeking exceptional financial support (EFS) from the government."
+        },
+        {
+          "type": "p",
+          "text": "Paul Sanford, the chief constable of Norfolk police and the finance lead for the National Police Chiefs’ Council (NPCC), said exceptional financial support was needed if forces across England and Wales were to remain operationally viable."
+        },
+        {
+          "type": "p",
+          "text": "He named the nine forces as Durham, Cleveland, Greater Manchester, Wiltshire, Bedfordshire, South Yorkshire, Gloucestershire, Lincolnshire and Norfolk."
+        },
+        {
+          "type": "p",
+          "text": "The Home Office, which will decide whether or not the forces will get extra money – or whether the relevant councils will be allowed to charge taxpayers more – declined to confirm how many forces had applied for support."
+        },
+        {
+          "type": "p",
+          "text": "The government argues it has already given forces extra money in real terms, but police chiefs say demands on them have risen, as have population numbers."
+        },
+        {
+          "type": "p",
+          "text": "When Labour came to power in July 2024, officer numbers stood at 148,536, according to June 2024 figures. By March this year, the figure had fallen to 147,822, and senior officers expect it to fall further."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/81ba63e6a0956f04ce4feb0f1700617908fe573f/0_0_8192_5464/master/8192.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Stephen Watson, the chief constable of Greater Manchester, said ‘everyone agrees the system has been underinvested in’. Photograph: Christopher Thomond/The Guardian"
+        },
+        {
+          "type": "p",
+          "text": "Sanford told the Guardian: “Demand has gone up, population has increased. There is a growth in complex cases, sexual offending and historic inquiries, and civil orders. All of those are the right thing to do, but they’ve not come with the funding required."
+        },
+        {
+          "type": "p",
+          "text": "“That is why you see the retreat from the streets. Policing is in worse financial shape now than it has been for decades."
+        },
+        {
+          "type": "p",
+          "text": "“Those forces who have applied for EFS believe that they are close to the tipping point where the ability to deliver core services can no longer be sustained.”"
+        },
+        {
+          "type": "p",
+          "text": "One of the factors affecting forces’ budgets is the government’s early release scheme for prisoners, intended to ease the overcrowding crisis in jails. The NPCC has predicted this will lead to a rise in crime of up to 6%, with a consequent need for officers to respond."
+        },
+        {
+          "type": "p",
+          "text": "Police chiefs now say the projected funding gap for forces by 2030 has rocketed from £3bn to £4.3bn."
+        },
+        {
+          "type": "p",
+          "text": "They point to the use of reserves worth £300m by 43 forces in the last year as a sign of increasing financial distress, saying that while some of this was used for investment, some was needed to maintain services."
+        },
+        {
+          "type": "p",
+          "text": "Trevor Rodenhurst, the chief constable of Bedfordshire, said of the application for additional government support: “If I don’t get the money, the impact would be to degrade services.”"
+        },
+        {
+          "type": "p",
+          "text": "The Bedfordshire force has 1,486 officers, which Rodenhurst believes is hundreds fewer than it needs. He says it is getting a thousand more 999 calls a month this year compared with last year."
+        },
+        {
+          "type": "p",
+          "text": "Catherine Roper, the chief constable of Wiltshire, said: “We’ve taken the efficiencies we can out of the system. The wiggle room we have is leaner.”"
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "Privately, chiefs believe that Labour’s election promise of 13,000 new officers by 2029 has no chance of being met."
+        },
+        {
+          "type": "p",
+          "text": "The home secretary, Shabana Mahmood, will face the NPCC this week at its annual conference. Some of its members agree with the government that radical police reform, such as cutting the number of forces from 43 to nine, will free up hundreds of millions of pounds for fighting crime. But any projected savings remain years away."
+        },
+        {
+          "type": "p",
+          "text": "Stephen Watson, the chief constable of Greater Manchester, who is highly regarded by the prime minister, said: “The one thing that everyone agrees is that the policing system has been underinvested in for years and that the public are rightly demanding improvements now."
+        },
+        {
+          "type": "p",
+          "text": "“But there is no point in the service being seen to whine about what we haven’t got when it is a racing certainty, given the state of our public finances, that no great slug of additional general funding is going to drop into policing anytime soon. Nor is the Treasury likely to be keen on directing even targeted investment into an unreformed service.”"
+        },
+        {
+          "type": "p",
+          "text": "A spokesperson for the Home Office said: “Since the election, we have increased funding to policing by £2bn. Police force funding this year is at a historic high of £18.5bn."
+        },
+        {
+          "type": "p",
+          "text": "“We have established the financial resilience framework to ensure a consistent approach to assessing financial resilience in policing."
+        },
+        {
+          "type": "p",
+          "text": "“We are also reviewing the police funding formula to ensure the system is fair and continues to prioritise public safety. The new approach to funding will be brought in as part of our reforms to police structures.”"
+        },
+        {
+          "type": "p",
+          "text": "The Conservative-led government that came to power in 2010 cut police funding as part of its austerity programme, with 20,000 officers lost before ministers reversed course."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-ybj1mx",
+      "source": "grd",
+      "title": "Several companies are using Trump tariff refunds for corporate bonuses",
+      "summary": "<p>Some firms are directing refunds to corporate leadership instead of reimbursing consumers, ProPublica finds </p><p>Several companies that received refunds for paying Donald Trump’s tariffs have…",
+      "byline": "Gaya Gupta",
+      "section": "Trump tariffs",
+      "published": "2026-11-16T17:52:13.000Z",
+      "firstSeen": "2026-11-16T18:31:00.459Z",
+      "url": "https://www.theguardian.com/us-news/2026/nov/16/companies-trump-tariff-refunds-corporate-bonuses",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/976a600cf5e5d4314c2ee38b26b60463569d5dbc/665_0_4653_3722/master/4653.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0a9deff8c98976654963a86fb1198129",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several companies that received refunds for paying Donald Trump’s tariffs have put those funds towards corporate bonuses instead of reimbursing consumers, an investigation from ProPublica has found."
+        },
+        {
+          "type": "p",
+          "text": "After analyzing securities filings and earnings calls, ProPublica identified at least nine companies who are said they are receiving tariff refunds and noted they are directing some of those funds to their leadership."
+        },
+        {
+          "type": "p",
+          "text": "Stanley Black & Decker, a tool company that makes common household products including vacuums, electric drills and measuring tapes, told its consumers they were forced to raise prices because of Trump’s import fees, ProPublica reported. The company is expected to receive at least $298m in tariff reimbursements and indicated some of it will go to bonuses. Executives at TJMaxx and Marshalls, discount department stores that are set to receive tariff refunds, also said the same."
+        },
+        {
+          "type": "p",
+          "text": "In financial disclosures, Stanley Black & Decker said the refund it received “was partially offset by directly attributable costs for variable incentive compensation”, according to ProPublica. Stanley Black & Decker, TJMaxx and Marshalls did not immediately respond to request for comment."
+        },
+        {
+          "type": "p",
+          "text": "The Trump administration has refunded at least $100bn to companies since August, about 60% of roughly $131bn in tariffs, after the supreme court ruled that Trump’s “Liberation Day” tariffs were illegal. The court ruled that the tariffs were unlawful because they overstepped his executive authority and should have required congressional approval."
+        },
+        {
+          "type": "p",
+          "text": "Some companies immediately sued the US government for refunds after the ruling, though Trump signaled that he would “remember” which companies requested reimbursements and praised companies for holding off. The Trump administration has not specified which companies are receiving refunds, despite requests for information, according to ProPublica."
+        },
+        {
+          "type": "p",
+          "text": "Though many companies said publicly that they had to increase prices because of tariffs, it has largely been unclear what companies are doing with their tariff refunds."
+        },
+        {
+          "type": "p",
+          "text": "In its analysis, ProPublica found that almost all the companies that have publicly said they plan to use their tariff reimbursements to refund customers are those that deal directly with other businesses, rather than directly consumers. Some companies have remained “vague” about their plans for the reimbursements and have not specified whether those funds will go towards price decreases or holding back on future increases, according to the report."
+        },
+        {
+          "type": "p",
+          "text": "Research has shown that US consumers have shouldered some of the cost of tariffs, with the New York Federal Reserve estimating that 26% of tariff increases pass through to consumer prices. The Yale Budget Lab estimated that tariffs cost households about $900 annually under current laws."
+        },
+        {
+          "type": "p",
+          "text": "Tariffs are one of several of Trump’s economic policies that have proven unpopular with voters, reflected in the widespread victories Democrats notched in the November midterms. A year after Trump’s tariffs were announced, a survey from the Pew Research Center found that 63% of Americans felt little or no confidence in his handling of tariffs."
+        },
+        {
+          "type": "p",
+          "text": "Republican candidates across the country were largely punished for Trump’s tariffs and other White House decisions that have led to greater inflation. In the Associated Press’s survey of more than 100,000 midterm voters, two-thirds said that Trump’s decisions had fueled inflation, about half of the number of 2022 midterm voters who said the same thing about former president Joe Biden."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "grd-g6cv8s",
@@ -2338,81 +2978,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-1cay5t2",
-      "source": "inq",
-      "title": "Crazy Jhenny, November 17, 2026",
-      "summary": "... Keep on reading: Crazy Jhenny, November 17, 2026",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T16:29:56.000Z",
-      "firstSeen": "2026-11-16T17:01:04.799Z",
-      "url": "https://entertainment.inquirer.net/690338/crazy-jhenny-november-17-2026",
-      "image": {
-        "src": "https://entertainment.inquirer.net/files/2026/11/CrazyJhenny11172026-700x214.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "... Keep on reading: Crazy Jhenny, November 17, 2026"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-u5la1d",
-      "source": "inq",
-      "title": "Puerto Rico org says it regrets 'disastrous' Miss Universe swimsuit show",
-      "summary": "After the Miss Universe Organization (MUO) washed its hands off the heavily-criticized swimsuit show, and shifted blame on the Puerto Rican organizing team, the local producers issued its own…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T16:26:22.000Z",
-      "firstSeen": "2026-11-16T16:30:56.923Z",
-      "url": "https://entertainment.inquirer.net/690333/puerto-rico-org-says-it-regrets-disastrous-miss-universe-swimsuit-show",
-      "image": {
-        "src": "https://www.inquirer.net/wp-content/uploads/2016/08/inquirer_def_img.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "After the Miss Universe Organization (MUO) washed its hands off the heavily-criticized swimsuit show, and shifted blame on the Puerto Rican organizing team, the local producers issued its own statement about the event. Dominican beautician Magali Febles, Miss Universe licensee for Puerto Rico, the Dominican Republic, and Haiti, said she sincerely regrets that so many [&hellip;]... Keep on reading: Puerto Rico org says it regrets 'disastrous' Miss Universe swimsuit show"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-tuvqq",
-      "source": "inq",
-      "title": "Eastern Samar mulls desalination for island barangays amid El Niño",
-      "summary": "TACLOBAN CITY, LEYTE, Philippines — The provincial government of Eastern Samar is considering tapping its vast seawater sources through desalination to mitigate the impacts of the ongoing El Niño dry…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T16:25:38.000Z",
-      "firstSeen": "2026-11-16T16:30:56.954Z",
-      "url": "https://newsinfo.inquirer.net/2342401/eastern-samar-mulls-desalination-for-island-barangays-amid-el-nino",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Eastern-Samar-Gov-Ralph-Vincent-Evardone-17November2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TACLOBAN CITY, LEYTE, Philippines — The provincial government of Eastern Samar is considering tapping its vast seawater sources through desalination to mitigate the impacts of the ongoing El Niño dry spell, particularly in off-grid island communities. Eastern Samar Governor Ralph Vincent Evardone announced that pilot testing for desalination machines will be conducted exclusively in island villages, funded in part by the P100 million disaster risk reduction and management grant the province received from the national government. “We have an abundance of seawater. To make it more efficient, we will draw seawater and remove the salt so it becomes clean enough for [&hellip;]... Keep on reading: Eastern Samar mulls desalination for island barangays amid El Niño"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-jhzqf3",
       "source": "abs",
       "title": "Marcos highlights role of sustaining friendship in shaping ASEAN future",
@@ -2518,31 +3083,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-2hhkp8",
-      "source": "inq",
-      "title": "British actor Robert Pattinson is the new James Bond",
-      "summary": "LONDON, United Kingdom — British actor Robert Pattinson was Monday named as the new James Bond, stepping into the coveted role of the world&#8217;s most famous fictional spy. &#8220;Amazon MGM…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T16:23:09.000Z",
-      "firstSeen": "2026-11-16T16:30:57.861Z",
-      "url": "https://cebudailynews.inquirer.net/785649/british-actor-robert-pattinson-is-the-new-james-bond",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/11/AFP__20261116__D7M74ZQ__v1__HighRes__FilesBritainEntertainmentFilmBondPattinson-620x415.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LONDON, United Kingdom — British actor Robert Pattinson was Monday named as the new James Bond, stepping into the coveted role of the world&#8217;s most famous fictional spy. &#8220;Amazon MGM Studios have announced that Robert Pattinson will take on the iconic role of James Bond,&#8221; the studio said on the official 007.com website. Pattinson would succeed Daniel Craig as the super-suave MI6 agent, &#8220;ushering in a new era for one of cinema&#8217;s most celebrated characters&#8221;, the studios added. READ: &#8216;Avengers: Endgame&#8217; retakes box office crown It will be the first Bond film since long-term Bond producers Barbara Broccoli and Michael Wilson [&hellip;]... Keep on reading: British actor Robert Pattinson is the new James Bond"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "dw-1h3zapj",
@@ -2917,31 +3457,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-ksc20i",
-      "source": "inq",
-      "title": "Lotto results for Nov. 16, 2026",
-      "summary": "Here are the lotto draw results of the Philippine Charity Sweepstakes Office (PCSO) for Monday, Nov. 16, 2026. Check these out. READ MORE: Lotto results for Nov. 15, 2026 Lotto results for Nov. 14,…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T16:05:00.000Z",
-      "firstSeen": "2026-11-16T16:31:01.010Z",
-      "url": "https://cebudailynews.inquirer.net/785632/lotto-results-for-nov-16-2026",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2025/07/pcso-lotto-logo-filephoto-10222-4-2-2-620x349.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Here are the lotto draw results of the Philippine Charity Sweepstakes Office (PCSO) for Monday, Nov. 16, 2026. Check these out. READ MORE: Lotto results for Nov. 15, 2026 Lotto results for Nov. 14, 2026 PCSO lotto games and results The PCSO holds five 6-pick number games, the Lotto 6/42, MegaLotto 6/45, SuperLotto 6/49, GrandLotto [&hellip;]... Keep on reading: Lotto results for Nov. 16, 2026"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "grd-106j0jq",
@@ -4114,56 +4629,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-zzdjka",
-      "source": "inq",
-      "title": "Tarriela rebuffs Chinese scholar’s Ayungin shoal claim",
-      "summary": "MANILA, Philippines — Philippine Coast Guard Rear Adm. Jay Tarriela on Monday pushed back against a Chinese academic’s claim that the Philippines had illegally occupied a disputed Shoal, sparking a…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T15:34:08.000Z",
-      "firstSeen": "2026-11-16T16:01:10.372Z",
-      "url": "https://globalnation.inquirer.net/348213/tarriela-rebuffs-chinese-scholars-ayungin-shoal-claim",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2025/07/WhatsApp-Image-2025-07-09-at-13.50.30_ff5faf3e-620x410.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Philippine Coast Guard Rear Adm. Jay Tarriela on Monday pushed back against a Chinese academic’s claim that the Philippines had illegally occupied a disputed Shoal, sparking a sharp exchange underscoring the tensions surrounding the South China Sea dispute. Zheng Zhihua of Shanghai Jiaotong University made a point about the “fundamental differences” on the South China Sea issue and brought up that China had shown restraint by using only water cannons to defend what he called its territorial integrity, citing Second Thomas Shoal—known as Ayungin to the Philippines and Ren’ai Jiao to China—as an example. “China think[s] the Philippines [&hellip;]... Keep on reading: Tarriela rebuffs Chinese scholar’s Ayungin shoal claim"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-dgmmv4",
-      "source": "inq",
-      "title": "Lakers star Luka Doncic drawing warranted MVP attention",
-      "summary": "Luka Doncic couldn&#8217;t help but smile, the Los Angeles Lakers&#8217; star clearly appreciative of the roars of a crowd saluting his incredible start to the season. “M-V-P!” “M-V-P!” “M-V-P!” That…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T15:30:05.000Z",
-      "firstSeen": "2026-11-16T16:01:10.460Z",
-      "url": "https://sports.inquirer.net/707301/lakers-star-luka-doncic-drawing-warranted-mvp-attention",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/AP26320022776258-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Luka Doncic couldn&#8217;t help but smile, the Los Angeles Lakers&#8217; star clearly appreciative of the roars of a crowd saluting his incredible start to the season. “M-V-P!” “M-V-P!” “M-V-P!” That was the cry from the fans, over and over. He&#8217;s heard it before, countless times. The latest installment came Sunday — in Phoenix. That&#8217;s how good Doncic is right now: He&#8217;s turning what are ordinarily hostile road venues into temporary hubs of Lakers&#8217; fandom. READ: Luka Doncic scores 43, Lakers stretch run to 8 with win over Suns “Very nice,” Doncic said. “I think everybody can see my smile.” His latest [&hellip;]... Keep on reading: Lakers star Luka Doncic drawing warranted MVP attention"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "abs-sobqmo",
       "source": "abs",
       "title": "UK actor Robert Pattinson to be new James Bond: Amazon MGM Studios",
@@ -4375,79 +4840,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-19ete8l",
-      "source": "inq",
-      "title": "Chinese academic proposes paid fishing permits as dispute compromise",
-      "summary": "MANILA, Philippines — A Chinese academic on Monday suggested allowing Chinese boats to fish inside the Philippines’ exclusive economic zone in exchange for a fee, proposing a permit system as a…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T15:14:54.000Z",
-      "firstSeen": "2026-11-16T15:30:58.343Z",
-      "url": "https://globalnation.inquirer.net/348209/chinese-academic-proposes-paid-fishing-permits-as-dispute-compromise",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2024/02/Philippines-accuses-China-of-attempting-to-block-another-vessel-300x225.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — A Chinese academic on Monday suggested allowing Chinese boats to fish inside the Philippines’ exclusive economic zone in exchange for a fee, proposing a permit system as a potential compromise in the South China Sea dispute between Manila and Beijing. Shen Dingli, a member of the academic committee at the Beijing-based Grandview Institution, said his proposal was intended as a compromise to find middle ground, pointing to China’s large population and food needs. “I may offend my government by proposing the following idea without consulting with my government,” he said at the Manila Dialogue on the South China [&hellip;]... Keep on reading: Chinese academic proposes paid fishing permits as dispute compromise"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "grd-ra8wd8",
-      "source": "grd",
-      "title": "Two charged after man was run over by van after flags incident in Midlands",
-      "summary": "<p>Pair due to appear in court in December in relation to incident that took place in May in south-west Birmingham</p><p>Two men have been charged following an incident in Birmingham, where a man was…",
-      "byline": "Neha Gohil Midlands correspondent",
-      "section": "UK news",
-      "published": "2026-11-16T15:01:35.000Z",
-      "firstSeen": "2026-11-16T15:30:58.345Z",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/16/two-charged-man-run-over-by-van-midlands",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/a575013098050b5562b93e4330eb0b9e12f74d93/142_0_3543_2835/master/3543.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ab13adc9587c0f58f0757b527a6b3b91",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Two men have been charged following an incident in Birmingham, where a man was run over by a van after flags were removed from lamp-posts."
-        },
-        {
-          "type": "p",
-          "text": "A man in his 30s was taken to hospital with leg injuries after the incident on Mayfield Road in the suburb of Stirchley, south-west Birmingham, on 14 May."
-        },
-        {
-          "type": "p",
-          "text": "Mark Keating, 49, from Tamworth, has been charged with four counts of assault by beating and will appear before magistrates in Birmingham on 9 December, West Midlands police said on Monday."
-        },
-        {
-          "type": "p",
-          "text": "Ryan Bridge, 45, from Bromsgrove, is charged with two counts of using threatening/abusive words/behaviour likely to cause harassment, alarm or distress. He will appear before the same court on 10 December."
-        },
-        {
-          "type": "p",
-          "text": "Another man, 53, from Sutton Coldfield, remains on bail after being arrested on suspicion of wounding in May."
-        },
-        {
-          "type": "p",
-          "text": "In a statement, West Midlands police said the van was recovered nearby, shortly after the incident."
-        },
-        {
-          "type": "p",
-          "text": "“Officers have been carrying out a range of thorough enquiries to establish the full circumstances around what happened,” the statement read. “We took reports of four assaults relating to the same incident, but we understand that no one suffered serious injuries.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-12wx70g",
       "source": "bbc",
       "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
@@ -4537,102 +4929,6 @@
         {
           "type": "p",
           "text": "EU representatives kept pushing for \"unconditional support\" for Ukraine and \"enhanced pressure\" on Russia, Peskov said, adding that \"this sort of wording rather suggests their reluctance to facilitate the peace process\"."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-10uj9a4",
-      "source": "grd",
-      "title": "Mamdani disbands controversial NYPD unit accused of using excessive force",
-      "summary": "<p>Mayor axes strategic response group that cracked down on protesters and announces new community safety division</p><p>Zohran Mamdani, New York City’s mayor, announced Monday that he was disbanding…",
-      "byline": "Anna Betts in New York",
-      "section": "New York",
-      "published": "2026-11-16T14:57:26.000Z",
-      "firstSeen": "2026-11-16T15:30:59.227Z",
-      "url": "https://www.theguardian.com/us-news/2026/nov/16/nypd-strategic-response-group-mamdani",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/273f35e243f22b1c02cb8c86f61c99bd5a80cf15/644_681_2479_1983/master/2479.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=08feaa2a57512f88fb6dc80dfd79ffe7",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Zohran Mamdani, New York City’s mayor, announced Monday that he was disbanding a controversial city police unit that has faced criticism over the years from civil rights groups who have accused the unit of using excessive force and unduly aggressive tactics against protesters."
-        },
-        {
-          "type": "p",
-          "text": "In a video released Monday morning, Mamdani said the move stemmed from a campaign pledge he made to disband the New York City police department’s strategic response group (SRG). “Today, we are keeping that promise,” Mamdani said in the video."
-        },
-        {
-          "type": "p",
-          "text": "An accompanying joint statement from Mamdani and NYPD commissioner Jessica Tisch said the overhaul would “transform how the city prepares for and responds to protests, placing communication, de-escalation and civilian coordination at the center of our approach, while protecting New Yorkers’ constitutional right to protest”."
-        },
-        {
-          "type": "p",
-          "text": "Along with eliminating the SRG, which was founded in 2015 ostensibly to focus on counter-terrorism, Mamdani and Tisch’s statement also said that the city planned to establish a “first-of-its-kind, civilian-led Community Dialogue and De-escalation Division (CDDD)” within the mayor’s office of community safety."
-        },
-        {
-          "type": "p",
-          "text": "That division will not have weapons or arrest powers, unlike the SRG, according to the announcement."
-        },
-        {
-          "type": "p",
-          "text": "The city will also establish what they described as a “specialized dialogue team” that will be known as the “First Amendment Support Team” (Fast) within the NYPD’s community affairs bureau, Mamdani and Tisch’s statement said. The creation of Fast is meant to “improve the NYPD’s protest response,” and it will consist of 30 uniformed officers trained in communication and de-escalation, the mayor and police commissioner said."
-        },
-        {
-          "type": "p",
-          "text": "Additionally, their statement said, the NYPD will create a new patrol support division (PSD) within its patrol services bureau."
-        },
-        {
-          "type": "p",
-          "text": "Plans call for the unit to be staffed with vetted officers who will primarily perform patrol-related duties and receive specialized crowd management training to support responses to demonstrations."
-        },
-        {
-          "type": "p",
-          "text": "The reforms also introduce “significant new restrictions on the tactics and weapons” officers can use during protests and demonstrations – banning irritant gas, kettling and long guns. Responding officers will no longer be allowed to deploy pepper spray “as a crowd-management tool” – and “long-range acoustic devices” meant to affect protesters’ hearing “will be limited to 90 decibels,” Mamdani and Tisch said in their statement."
-        },
-        {
-          "type": "p",
-          "text": "Under the new structure, the mayor said, the SRG’s counter-terrorism functions – “including heavy weapons deployments at critical infrastructure” – will be consolidated within the NYPD’s intelligence and counter-terrorism bureau."
-        },
-        {
-          "type": "p",
-          "text": "The statement said that helped ensure a complete separation between the city’s counter-terrorism operations and protests protected by the rights to free speech and assembly guaranteed by the US constitution’s first amendment."
-        },
-        {
-          "type": "p",
-          "text": "Tisch said that the new structure was “designed to consolidate our counterterrorism capabilities, provide greater support to our patrol officers and ensure we continue to respond to protests consistent with public safety and the first amendment”."
-        },
-        {
-          "type": "p",
-          "text": "“These changes will make us a stronger, more effective department” she said."
-        },
-        {
-          "type": "p",
-          "text": "The administration said that the SRG-related reforms come at “no additional cost and without increasing or reducing NYPD headcount”."
-        },
-        {
-          "type": "p",
-          "text": "While civil rights groups hailed Monday’s announcement, the New York Police Benevolent Association’s president, Patrick Hendry, criticized it in a statement on social media."
-        },
-        {
-          "type": "p",
-          "text": "“Today is not a good day for New Yorkers who just want a safe and orderly city,” said the statement from Hendry, whose organization is a labor union representing more than 21,000 active NYPD officers. “Mayor Mamdani is showing his true colors: he’s willing to put your safety and police officers’ safety at risk to appease his radical base."
-        },
-        {
-          "type": "p",
-          "text": "“So the next time your life is disrupted by demonstrators who are blocking bridges and roadways or causing chaos on our streets, remember: Mayor Mamdani is on their side, not yours.”"
-        },
-        {
-          "type": "p",
-          "text": "Mamdani in January had reiterated promises to disband the SRG after it arrested dozens of demonstrators occupying a hotel lobby in protests opposing Immigration and Customs Enforcement (ICE), the federal agency at the forefront of the mass deportation campaign which Donald Trump has pursued throughout his second presidency."
-        },
-        {
-          "type": "p",
-          "text": "Furthermore, after 2020 protests over a Minneapolis police officer’s murder of George Floyd, New York City’s department of investigation recommended that the NYPD “reevaluate the central role” of the SRG “in response to large protests given their orientation to handle counterterrorism, riots, and other serious threats, and better calibrate their use to circumstances that require such specialized force”."
         }
       ],
       "truncated": false,
@@ -5235,56 +5531,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-18wtmp2",
-      "source": "inq",
-      "title": "Carmelle, BINI bring home three international wins for Philippines",
-      "summary": "MANILA, Philippines — ABS-CBN artists Carmelle and BINI brought pride to the Philippines with three major international victories over the weekend, as Carmelle made history as the first-ever champion…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T14:37:25.000Z",
-      "firstSeen": "2026-11-16T15:00:59.498Z",
-      "url": "https://entertainment.inquirer.net/690329/carmelle-bini-bring-home-three-international-wins-for-philippines",
-      "image": {
-        "src": "https://entertainment.inquirer.net/files/2026/11/Philippines-Carmelle-wins-Eurovisions-first-Asia-contest-700x467.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — ABS-CBN artists Carmelle and BINI brought pride to the Philippines with three major international victories over the weekend, as Carmelle made history as the first-ever champion of “Eurovision Song Contest Asia,” while BINI scored wins at the 2026 Nickelodeon Kids’ Choice Awards and the 2nd Jupiter Music Awards. The back-to-back victories highlight the growing global recognition of Filipino performing talent and ABS-CBN&#8217;s continued expansion into the international entertainment market. “These victories are a proud moment not just for ABS-CBN, but for the entire country. Carmelle and BINI have shown that Filipino talent can stand alongside the best in [&hellip;]... Keep on reading: Carmelle, BINI bring home three international wins for Philippines"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-13oiyfl",
-      "source": "inq",
-      "title": "Cebu City businesses hit by fires may qualify for financial relief under proposed ordinance",
-      "summary": "CEBU CITY, Philippines — Businesses in Cebu City affected by accidental fires could receive financial assistance under a proposed ordinance filed by City Councilor Alvin B. Arcilla. The measure,…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T14:35:25.000Z",
-      "firstSeen": "2026-11-16T15:00:59.573Z",
-      "url": "https://cebudailynews.inquirer.net/785578/cebu-city-businesses-hit-by-fires-may-qualify-for-financial-relief-under-proposed-ordinance",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/11/IMG_4078-620x349.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CEBU CITY, Philippines — Businesses in Cebu City affected by accidental fires could receive financial assistance under a proposed ordinance filed by City Councilor Alvin B. Arcilla. The measure, which is scheduled to be tackled during the Cebu City Council’s regular session on Tuesday, November 17, seeks to help establishments recover from fire incidents while providing financial protection to businesses that pay local taxes. Relief based on five years of tax payments Under the proposal, businesses may qualify for financial relief if at least 50% of their facilities in Cebu City have been destroyed by an accidental fire, as certified by [&hellip;]... Keep on reading: Cebu City businesses hit by fires may qualify for financial relief under proposed ordinance"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "rap-efuibj",
       "source": "rap",
       "title": "Rappler Recap: ASEAN talks trade and beyond with China, Australia, South Korea, UN",
@@ -5337,31 +5583,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-15qa6x3",
-      "source": "inq",
-      "title": "Village official from Eastern Samar arrested in a buy-bust operation",
-      "summary": "TACLOBAN CITY, LEYTE, Philippines — A village councilor, tagged as a high-value target, was arrested in an anti-drug operation on Sunday, Nov. 15, in Guiuan, Eastern Samar. The arrested village…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T14:33:37.000Z",
-      "firstSeen": "2026-11-16T15:01:01.092Z",
-      "url": "https://newsinfo.inquirer.net/2342379/village-official-from-eastern-samar-arrested-in-a-buy-bust-operation",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Eastern-Samar-map-filephoto-091322-300x171.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TACLOBAN CITY, LEYTE, Philippines — A village councilor, tagged as a high-value target, was arrested in an anti-drug operation on Sunday, Nov. 15, in Guiuan, Eastern Samar. The arrested village official was only identified as “Basil,” 60 years old. READ: P19.3M cocaine recovered in Eastern Samar waters Based on the report from the Eastern Samar Police Provincial Office (ESPPO), the suspect was arrested in a buy-bust operation where 10 sachets containing alleged “shabu” (crystal meth) were recovered. READ: Over P20-M shabu seized in Samar; 3 arrested The seized illegal items have a commercial value of more than P21, 000, weighing 3.18 [&hellip;]... Keep on reading: Village official from Eastern Samar arrested in a buy-bust operation"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-smjuu1",
@@ -5636,31 +5857,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-1mbvmsq",
-      "source": "inq",
-      "title": "It’s official: Bini and SB19 are going to the Grammys",
-      "summary": "SB19 and Bini receive nominations for Best Asian Pop Music Performance for the 69th Grammy Awards... Keep on reading: It’s official: Bini and SB19 are going to the Grammys",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T14:17:51.000Z",
-      "firstSeen": "2026-11-16T14:30:59.608Z",
-      "url": "https://lifestyle.inquirer.net/586144/sb19-bini-grammy-nominations/",
-      "image": {
-        "src": "https://lifestyle.inquirer.net/files/2026/11/Untitled-Design-26-620x349.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SB19 and Bini receive nominations for Best Asian Pop Music Performance for the 69th Grammy Awards... Keep on reading: It’s official: Bini and SB19 are going to the Grammys"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "abs-ulg7ez",
       "source": "abs",
       "title": "ANC: Protests, arrests mar 49th ASEAN Summit opening in PH",
@@ -5797,31 +5993,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "feed"
-    },
-    {
-      "id": "inq-1gh1w15",
-      "source": "inq",
-      "title": "PCSO’s Nov. 16 lotto results: P373.62M jackpot not won",
-      "summary": "MANILA, Philippines — No ticket holder won the P373.62 million Grand Lotto 6/55 jackpot or the P22.33 million MegaLotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-16T14:10:02.000Z",
-      "firstSeen": "2026-11-16T14:30:59.705Z",
-      "url": "https://newsinfo.inquirer.net/2342377/pcsos-nov-16-lotto-results-p373-62m-jackpot-not-won",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/10/pcso-lotto-logo-filephoto-10222-4-300x169.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — No ticket holder won the P373.62 million Grand Lotto 6/55 jackpot or the P22.33 million MegaLotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Monday, Nov. 16, 2026. The Grand Lotto 6/55 winning combination was 11-43-32-26-52-09, with a jackpot prize of P373.62 million. No ticket matched all six numbers. The MegaLotto 6/45 draw produced the winning combination 13-22-41-43-26-45 for a jackpot of P22.33 million. No bettor won the top prize. Minor games The results for the other PCSO lottery games drawn on Nov. 16 were: Draw schedule Grand Lotto 6/55 draws are held every Monday, [&hellip;]... Keep on reading: PCSO’s Nov. 16 lotto results: P373.62M jackpot not won"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-154x8c4",
@@ -14701,91 +14872,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "dw-5moqjo",
-      "source": "dw",
-      "title": "India news: Modi heads to ASEAN meet in Manila",
-      "summary": "Modi is also likely to attend the Quad leaders' summit involving the US, Japan and Australia on the sidelines of the ASEAN meet in Manila.",
-      "byline": "Midhat Fatimah",
-      "section": "",
-      "published": "2026-11-16T06:23:00.000Z",
-      "firstSeen": "2026-11-16T06:30:53.888Z",
-      "url": "https://www.dw.com/en/india-news-modi-heads-to-asean-meet-in-manila/live-79954596?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79731007_6.jpg",
-        "caption": "Indian Prime Minister Narendra Modi is also going to attend the 21st East Asia summit in ManilaImage: Manish Swarup/AP Photo/picture alliance"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Live"
-        },
-        {
-          "type": "p",
-          "text": "Modi is also likely to attend the Quad leaders' summit involving the US, Japan and Australia on the sidelines of the ASEAN meet in Manila."
-        },
-        {
-          "type": "p",
-          "text": "Prefer DW on Google"
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79731007_605.jpg",
-          "caption": "Indian Prime Minister Narendra Modi is also going to attend the 21st East Asia summit in ManilaImage: Manish Swarup/AP Photo/picture alliance"
-        },
-        {
-          "type": "h",
-          "text": "What you need to know"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "The three main issues on ASEAN's agenda include maritime security, economic cooperation and development partnership",
-            "The building collapse in Delhi's Paharganj area has left eight people injured"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Here is a roundup of headlines from India on Monday (November 16):"
-        },
-        {
-          "type": "p",
-          "text": "November 16, 2026"
-        },
-        {
-          "type": "h",
-          "text": "Indian PM Modi to attend ASEAN summit in Manila today"
-        },
-        {
-          "type": "p",
-          "text": "Prime Minister Narendra Modi is expected to leave for Manila, in the Philippines, to attend the Association of Southeast Asian Nations (ASEAN)-India summit and the 21st East Asia Summit."
-        },
-        {
-          "type": "p",
-          "text": "The ASEAN meeting will focus on three main issues: maritime security, economic cooperation and development partnership."
-        },
-        {
-          "type": "p",
-          "text": "According to the Ministry of External Affairs (MEA), the Prime Minister will attend a dinner hosted by Philippine President Ferdinand Marcos Jr. on November 16 before participating in the India-ASEAN Summit and the East Asia Summit process on November 17."
-        },
-        {
-          "type": "p",
-          "text": "During his two-day visit to Manila, Modi is also likely to meet US President Donald Trump, Japanese Prime Minister Sanae Takaichi and Australian Prime Minister Anthony Albanese as the leaders of the Quad group meet on the sidelines of the ASEAN summit."
-        },
-        {
-          "type": "p",
-          "text": "US Secretary of State Marco Rubio had indicated last month that the Quad meeting was planned alongside the wider meetings in the Philippines."
-        },
-        {
-          "type": "p",
-          "text": "Announcing his visit to Manila, PM Modi said in a post on X, \"Will be in Manila, Philippines later today and tomorrow to attend the following programmes: 23rd ASEAN-India Summit. 21st East Asia Summit.\""
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "abs-vtf8eh",
