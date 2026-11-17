@@ -2,24 +2,43 @@
   "id": "bbc-1r4tfwx",
   "source": "bbc",
   "title": "Russian military plane crashes killing all 19 on board",
-  "summary": "Russia's defence ministry says a technical malfunction was the likely cause of the crash in the Kemerovo region.",
-  "byline": "",
+  "summary": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
+  "byline": "Jaroslav Lukiv",
   "section": "",
-  "published": "2026-11-17T19:33:55.000Z",
+  "published": "2026-11-17T20:25:27.000Z",
   "firstSeen": "2026-11-17T20:01:06.386Z",
   "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
   "image": {
-    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a2d/live/537ff930-6139-11ee-b101-6f93d6dfbcc2.png",
+    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ead/live/4d71a050-e2bb-11f1-b083-69f1e69220f8.jpg",
     "caption": ""
   },
   "blocks": [
     {
       "type": "p",
-      "text": "Russia's defence ministry says a technical malfunction was the likely cause of the crash in the Kemerovo region."
+      "text": "A Russian military transport plane has crashed in Siberia, killing all 19 people on board, the country's defence ministry said, according to state-run media."
+    },
+    {
+      "type": "p",
+      "text": "The An-12 aircraft went down during a \"scheduled flight\" in an \"uninhabited area\" in the Kemerovo region, the ministry said in a statement."
+    },
+    {
+      "type": "p",
+      "text": "The ministry added that it preliminarily believed a technical malfunction was the cause of Tuesday's crash. An investigation by Russia's aviation authorities is now under way."
+    },
+    {
+      "type": "p",
+      "text": "Local Governor Ilya Seredyuk said an emergency response team \"quickly extinguished a blaze\" after the crash near the village of Yagunovo, and the area was sealed off by police."
+    },
+    {
+      "type": "p",
+      "text": "CCTV footage posted on social media appeared to show the moment the plane crashed, with a lighted object falling through the sky in the distance. An explosion then lit up the sky, but the crash was too far away to be seen."
+    },
+    {
+      "type": "p",
+      "text": "The BBC and Reuters news agency verified the time and date of the footage, while Reuters also verified the location based on features of the scenery that matched satellite imagery of the area."
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct returned no extractable article text"
+  "source_of_text": "page"
 }
