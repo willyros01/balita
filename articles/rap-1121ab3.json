@@ -1,0 +1,56 @@
+{
+  "id": "rap-1121ab3",
+  "source": "rap",
+  "title": "Popular websites subverted in bid to steal crypto, target iPhone users",
+  "summary": "Malicious JavaScript was aimed at visitors to the websites of 178 organizations across various sectors through Optimizely, a website optimization platform, according to researcher Scott Helme",
+  "byline": "Reuters",
+  "section": "Technology",
+  "published": "2026-11-17T06:52:24.000Z",
+  "firstSeen": "2026-11-17T07:00:58.899Z",
+  "url": "https://www.rappler.com/technology/websites-subverted-steal-crypto-target-iphone-users-optimizely/",
+  "image": {
+    "src": "https://www.rappler.com/tachyon/2026/11/cybersecurity-graphics-STEAL-CRYPTO.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Malicious JavaScript was aimed at visitors to the websites of 178 organizations across various sectors through Optimizely, a website optimization platform, according to researcher Scott Helme"
+    },
+    {
+      "type": "p",
+      "text": "Some of the world’s most visited websites, including those belonging to Zoom, HSBC, Equifax, CNN, Salesforce, and IKEA, were subverted in an effort to steal cryptocurrency and infect iPhones, a security researcher said on Monday, November 16."
+    },
+    {
+      "type": "p",
+      "text": "Malicious JavaScript was aimed at visitors to the websites of 178 organizations across various sectors through Optimizely, a website optimization platform, according to researcher Scott Helme."
+    },
+    {
+      "type": "p",
+      "text": "The scripts attempted to replace cryptocurrency payment addresses with the attacker’s wallet, skim card numbers as users entered credit card details, steal cookies and screenshots, and plant exploit code on iOS devices."
+    },
+    {
+      "type": "p",
+      "text": "Cybersecurity firm HudsonRock also said it had found evidence that the sites had served malicious code to their visitors."
+    },
+    {
+      "type": "p",
+      "text": "Reuters could not immediately ascertain whether the code was successfully used in each case, or the extent of any resulting hacks."
+    },
+    {
+      "type": "p",
+      "text": "Salesforce said it was investigating unauthorized Optimizely script changes, and had disabled them as a precaution."
+    },
+    {
+      "type": "p",
+      "text": "Equifax also investigated the issue and ceased using Optimizely. The company said it did not find evidence of any compromise to its systems."
+    },
+    {
+      "type": "p",
+      "text": "Optimizely, Apple, Zoom, HSBC, CNN and IKEA did not immediately respond to Reuters’ requests for comment. – Rappler.com"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
