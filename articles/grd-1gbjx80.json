@@ -2,7 +2,7 @@
   "id": "grd-1gbjx80",
   "source": "grd",
   "title": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
-  "summary": "<p>As Democrats flag AI bank breaches and cyberattacks in Japan, Jay Clayton says system failures happen</p><ul><li><p><a…",
+  "summary": "<p>As Democrats flag AI bank breaches and cyber-attacks in Japan, Jay Clayton says system failures happen</p><ul><li><p><a…",
   "byline": "Ariana Baio in New York",
   "section": "US politics",
   "published": "2026-11-18T15:53:10.000Z",
@@ -15,11 +15,58 @@
   "blocks": [
     {
       "type": "p",
-      "text": "<p>As Democrats flag AI bank breaches and cyberattacks in Japan, Jay Clayton says system failures happen</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates\">US politics live – latest updates</a></p></li></ul><p>A bipartisan pair of US senators are calling on Jay Clayton, the director of national intelligence and AI czar, to identify and fix <a href=\"https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down\">vulnerabilities in the US’s infrastructure </a>following nationwide <a href=\"https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo\">outages at major companies</a> and government agencies.</p><p>Maria Cantwell, the top Democrat on the Senate commerce, science, and transportation committee, and Mike Rounds, the Republican chair of the Senate subcommittee on cybersecurity, <a href=\"https://www.commerce.senate.gov/wp-content/uploads/2026/11/AI-and-cybersecurity-letter-to-SIF.pdf\">sent a letter</a> to Clayton on Tuesday, outlining concerns sparked by reports of AI accessing major banks, <a href=\"https://www.theguardian.com/world/2025/oct/03/asahi-super-dry-days-away-from-running-out-in-japan-due-to-cyber-attack\">cyberattacks in Japan</a> and more.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure\">Continue reading...</a>"
+      "text": "A bipartisan pair of US senators are calling on Jay Clayton, the director of national intelligence and AI czar, to identify and fix vulnerabilities in the US’s infrastructure following nationwide outages at major companies and government agencies."
+    },
+    {
+      "type": "p",
+      "text": "Maria Cantwell, the top Democrat on the Senate commerce, science, and transportation committee, and Mike Rounds, the Republican chair of the Senate subcommittee on cybersecurity, sent a letter to Clayton on Tuesday, outlining concerns sparked by reports of AI accessing major banks, cyber-attacks in Japan and more."
+    },
+    {
+      "type": "p",
+      "text": "“The fundamental problem is that AI can discover software weaknesses and help attackers exploit them faster than many organizations can respond,” Cantwell and Rounds wrote to Clayton, who is also serving as the White House AI czar."
+    },
+    {
+      "type": "p",
+      "text": "“Even when fixes are available, testing and installing patches across interconnected systems can take weeks or months, potentially disrupting essential services,” the senators wrote."
+    },
+    {
+      "type": "p",
+      "text": "Over the last week, tech outages at major banks, workplace communication systems and even federal infrastructure like the Federal Aviation Administration – triggering a four-hour nationwide flight stoppage that grounded or delayed thousands of flights – have raised alarms about potential cyber-attacks."
+    },
+    {
+      "type": "p",
+      "text": "Top officials have insisted the disruptions stem from software patch updates that intend to address potential AI harms."
+    },
+    {
+      "type": "p",
+      "text": "“Many people are patching their systems. They know that they’re legacy systems, have vulnerabilities, they’re outdated,” Clayton told CNBC on Tuesday. “It is time for an upgrade across our digital infrastructure and as you patch and upgrade your systems, taking them down and bringing them back up, there are things like this that happen.”"
+    },
+    {
+      "type": "p",
+      "text": "Mark Warner, the top Democrat on the Senate intelligence committee, echoed Clayton. “AI is making it possible to identify vulnerabilities across enormous numbers of systems at unprecedented speed, creating enormous pressure on companies and government agencies to patch those vulnerabilities immediately, often all at once, putting tremendous strain on systems that weren’t built to handle that pace of change,” he wrote on X."
+    },
+    {
+      "type": "p",
+      "text": "Marco Rubio, the secretary of state, attempted to quell public speculation and fear by assuring Americans that the tech outages were not linked to one another or the work of malicious actors."
+    },
+    {
+      "type": "p",
+      "text": "But nationwide cyber outages have roiled the country, filled with voters who are already skeptical of rapidly integrating and developing AI. It is unclear what exactly has caused the widespread outages or if AI played a role."
+    },
+    {
+      "type": "p",
+      "text": "JD Vance canceled his scheduled interview at the New York Times’ DealBook summit on Wednesday, citing his need to attend meetings addressing the recent tech outages."
+    },
+    {
+      "type": "p",
+      "text": "Cantwell and Rounds are asking Clayton to provide cybersecurity tools to critical US infrastructure such as hospitals, utilities, small government, federal agencies and more, to prevent further disruptions."
+    },
+    {
+      "type": "p",
+      "text": "They are also asking that US cybersecurity teams secure the same AI systems that are deployed to find vulnerabilities in software, raising concerns that they can “gain unauthorized access to sensitive systems”."
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct circuit open after repeated HTTP 403"
+  "source_of_text": "page"
 }
