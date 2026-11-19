@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-19T01:01:17.804Z",
+  "updated": "2026-11-19T01:31:16.453Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqg-1lmkhef",
+      "source": "inqg",
+      "title": "PMA gathers cadets from 12 countries for ‘meaningful dialogue’",
+      "summary": "BAGUIO CITY, Philippines — The Philippine Military Academy (PMA) on Wednesday welcomed some 37 cadets from 19 military schools in 12 countries to the International Cadet Conference held at Fort del…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-19T01:31:05.649Z",
+      "firstSeen": "2026-11-18T21:22:28.421Z",
+      "url": "https://globalnation.inquirer.net/348942/pma-gathers-cadets-from-12-countries-for-meaningful-dialogue",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/pma-fort-del-pilar-.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BAGUIO CITY, Philippines — The Philippine Military Academy (PMA) on Wednesday welcomed some 37 cadets from 19 military schools in 12 countries to the International Cadet Conference held at Fort del Pilar here until Monday. It is the first time for the country’s premier military school to host the conference that will allow the cadet-delegates"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-qh9g9u",
       "source": "inqn",
       "title": "Dengue cases surge in Eastern Visayas, Bohol",
       "summary": "TACLOBAN CITY, LEYTE, Philippines — The Department of Health (DOH) in Eastern Visayas is calling for intensified community-wide efforts to eliminate mosquito breeding sites as dengue infections in…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-19T01:01:05.569Z",
+      "published": "2026-11-19T01:31:05.648Z",
       "firstSeen": "2026-11-18T21:22:28.421Z",
       "url": "https://newsinfo.inquirer.net/2343540/dengue-cases-surge-in-eastern-visayas-bohol",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "BAGUIO CITY, Philippines — An Ilocos Sur regional trial court has acquitted community doctor Ana Marie Rilloraza-Leung and indigenous rights advocate Alpha Sungay of attempted murder in relation to…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-19T01:01:05.569Z",
+      "published": "2026-11-19T01:31:05.648Z",
       "firstSeen": "2026-11-18T20:01:06.525Z",
       "url": "https://newsinfo.inquirer.net/2343618/ilocos-sur-rtc-acquits-community-doc-ip-advocate-of-attempted-murder",
       "image": {
@@ -103,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-efenkt",
-      "source": "inqg",
-      "title": "Japan eyes faster ship transfer, P28-B PH aid",
-      "summary": "MANILA, Philippines — Japan and the Philippines are seeking to speed up negotiations on the possible transfer of Japanese destroyers to the Philippine Navy as Tokyo plans to provide 70 billion yen…",
-      "byline": "cbuban",
-      "section": "Asia & Pacific",
-      "published": "2026-11-19T01:01:05.569Z",
-      "firstSeen": "2026-11-18T22:01:08.516Z",
-      "url": "https://globalnation.inquirer.net/348971/japan-eyes-faster-ship-transfer-p28-b-ph-aid",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/marcos-sane-asean.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Japan and the Philippines are seeking to speed up negotiations on the possible transfer of Japanese destroyers to the Philippine Navy as Tokyo plans to provide 70 billion yen (about P28 billion) in financial assistance to help Manila address rising energy costs, a Japanese foreign ministry official said Wednesday. Japanese Foreign Press"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-3504b0",
       "source": "inqg",
       "title": "Cambridge Dictionary’s word of the year: Human",
       "summary": "UNITED KINGDOM — “Human,” meaning to have the “qualities, faults, and feelings that people have, as opposed to gods, animals, or machines” has been named Cambridge Dictionary’s Word of the Year. In…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-19T01:01:05.569Z",
+      "published": "2026-11-19T01:31:05.648Z",
       "firstSeen": "2026-11-18T22:01:10.240Z",
       "url": "https://globalnation.inquirer.net/348968/cambridge-dictionarys-word-of-the-year-human",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "MANILA, Philippines — US President Donald Trump was only in Manila for 21 hours on his whirlwind Asia trip, but that was long enough for an awkward encounter with a world leader and some local fast…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-19T01:01:05.569Z",
+      "published": "2026-11-19T01:31:05.648Z",
       "firstSeen": "2026-11-18T22:01:10.318Z",
       "url": "https://globalnation.inquirer.net/348964/imelda-modi-and-jollibee-lighter-side-of-trumps-manila-trip-2",
       "image": {
@@ -184,7 +184,7 @@
       "summary": "MANILA, Philippines — The civil society group August Twenty-One Movement (Atom) on Wednesday warned that the proposed Pax Silica hub could still sneak in “like a thief in the night” despite being the…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-19T01:01:05.569Z",
+      "published": "2026-11-19T01:31:05.648Z",
       "firstSeen": "2026-11-18T22:01:10.319Z",
       "url": "https://globalnation.inquirer.net/348962/pax-silica-foes-warn-it-can-still-sneak-in-like-thief-in-the-night",
       "image": {
@@ -209,7 +209,7 @@
       "summary": "MANILA, Philippines — United States President Donald Trump wrapped up his whirlwind visit to Manila on Wednesday by announcing that “a very big trade deal” had been reached with the Philippines, but…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-19T01:01:05.569Z",
+      "published": "2026-11-19T01:31:05.648Z",
       "firstSeen": "2026-11-18T22:01:10.319Z",
       "url": "https://globalnation.inquirer.net/348959/trump-touts-new-us-ph-trade-deal-but-details-still-vague",
       "image": {
@@ -228,38 +228,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1lmkhef",
-      "source": "inqg",
-      "title": "PMA gathers cadets from 12 countries for ‘meaningful dialogue’",
-      "summary": "BAGUIO CITY, Philippines — The Philippine Military Academy (PMA) on Wednesday welcomed some 37 cadets from 19 military schools in 12 countries to the International Cadet Conference held at Fort del…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-11-19T01:01:05.569Z",
-      "firstSeen": "2026-11-18T21:22:28.421Z",
-      "url": "https://globalnation.inquirer.net/348942/pma-gathers-cadets-from-12-countries-for-meaningful-dialogue",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/pma-fort-del-pilar-.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BAGUIO CITY, Philippines — The Philippine Military Academy (PMA) on Wednesday welcomed some 37 cadets from 19 military schools in 12 countries to the International Cadet Conference held at Fort del Pilar here until Monday. It is the first time for the country’s premier military school to host the conference that will allow the cadet-delegates"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1cci967",
       "source": "inqn",
       "title": "VP trial resumes; defense pressed on P817-M wealth",
       "summary": "MANILA, Philippines — The resumption of Vice President Sara Duterte’s impeachment trial on Thursday will test whether her defense can address the prosecution’s main claim that she accumulated P817…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-19T01:01:05.229Z",
+      "published": "2026-11-19T01:31:03.886Z",
       "firstSeen": "2026-11-18T21:30:57.473Z",
       "url": "https://newsinfo.inquirer.net/2343579/vp-trial-resumes-defense-pressed-on-p817-m-wealth",
       "image": {
@@ -284,7 +259,7 @@
       "summary": "TAGBILARAN CITY, BOHOL, Philippines — Bohol province has been placed under a state of calamity after extensive damage to agriculture amounting to over P360 million caused by the El Niño phenomenon.…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-19T01:01:05.229Z",
+      "published": "2026-11-19T01:31:03.886Z",
       "firstSeen": "2026-11-18T21:22:28.421Z",
       "url": "https://newsinfo.inquirer.net/2343542/bohol-under-calamity-state-due-to-el-nino",
       "image": {
@@ -309,7 +284,7 @@
       "summary": "MANILA, Philippines — The police have filed criminal charges against Thomas Markle Sr., the 82-year-old estranged father of Meghan Markle, who is married to Britain’s Prince Harry, over alleged…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-19T01:01:05.229Z",
+      "published": "2026-11-19T01:31:03.886Z",
       "firstSeen": "2026-11-18T22:01:02.335Z",
       "url": "https://globalnation.inquirer.net/348977/police-sue-markle-over-child-sexual-abuse-materials",
       "image": {
@@ -334,7 +309,7 @@
       "summary": "MANILA, Philippines — The National Bureau of Investigation has raided an online scam hub disguised as a Federal Bureau of Investigation (FBI) office in a town in Ilocos Norte and arrested three…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-19T01:01:05.229Z",
+      "published": "2026-11-19T01:31:03.886Z",
       "firstSeen": "2026-11-18T22:01:08.427Z",
       "url": "https://globalnation.inquirer.net/348975/nbi-detains-3-malaysians-behind-scam-hub-disguised-as-fbi-office",
       "image": {
@@ -353,23 +328,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1aws52n",
+      "id": "inqg-efenkt",
       "source": "inqg",
-      "title": "After PH meeting, Quad eyes first joint maritime exercise in 2027",
-      "summary": "MANILA, Philippines — The first-ever maritime patrol aircraft exercise among the four member nations of the Quad—United States, Japan, Australia and India—is set for 2027, with the final details…",
+      "title": "Japan eyes faster ship transfer, P28-B PH aid",
+      "summary": "MANILA, Philippines — Japan and the Philippines are seeking to speed up negotiations on the possible transfer of Japanese destroyers to the Philippine Navy as Tokyo plans to provide 70 billion yen…",
       "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-11-19T01:01:05.198Z",
-      "firstSeen": "2026-11-18T22:01:01.300Z",
-      "url": "https://globalnation.inquirer.net/348979/after-ph-meeting-quad-eyes-first-joint-maritime-exercise-in-2027",
+      "section": "Asia & Pacific",
+      "published": "2026-11-19T01:31:03.886Z",
+      "firstSeen": "2026-11-18T22:01:08.516Z",
+      "url": "https://globalnation.inquirer.net/348971/japan-eyes-faster-ship-transfer-p28-b-ph-aid",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/News1332486.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/marcos-sane-asean.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — The first-ever maritime patrol aircraft exercise among the four member nations of the Quad—United States, Japan, Australia and India—is set for 2027, with the final details currently being worked out, a Japanese foreign ministry official said on Wednesday. The plan was disclosed in Manila by Japanese Foreign Press Secretary Toshihiro Kitamura, following"
+          "text": "MANILA, Philippines — Japan and the Philippines are seeking to speed up negotiations on the possible transfer of Japanese destroyers to the Philippine Navy as Tokyo plans to provide 70 billion yen (about P28 billion) in financial assistance to help Manila address rising energy costs, a Japanese foreign ministry official said Wednesday. Japanese Foreign Press"
         }
       ],
       "truncated": true,
@@ -384,7 +359,7 @@
       "summary": "MANILA, Philippines — The Commission on Human Rights (CHR) said on Wednesday that it is looking into alleged violations in connection with the mass arrest of protesters in Manila and Muntinlupa on…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-19T01:01:03.802Z",
+      "published": "2026-11-19T01:31:03.848Z",
       "firstSeen": "2026-11-18T22:01:01.239Z",
       "url": "https://newsinfo.inquirer.net/2343578/chr-probes-alleged-rights-violations-in-mass-arrest-of-asean-protesters",
       "image": {
@@ -403,23 +378,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1alea6v",
+      "id": "inqg-1aws52n",
       "source": "inqg",
-      "title": "Gulf countries under fire after US hits Iran island",
-      "summary": "KUWAIT CITY, Kuwait — Gulf nations scrambled to intercept incoming fire from Iran and its allies on Wednesday after the US struck an Iranian island, as rising violence threatened efforts to resolve…",
-      "byline": "mmercado",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-19T01:01:03.802Z",
-      "firstSeen": "2026-11-18T22:01:01.240Z",
-      "url": "https://globalnation.inquirer.net/349012/gulf-countries-under-fire-after-us-hits-iran-island",
+      "title": "After PH meeting, Quad eyes first joint maritime exercise in 2027",
+      "summary": "MANILA, Philippines — The first-ever maritime patrol aircraft exercise among the four member nations of the Quad—United States, Japan, Australia and India—is set for 2027, with the final details…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-19T01:31:03.848Z",
+      "firstSeen": "2026-11-18T22:01:01.300Z",
+      "url": "https://globalnation.inquirer.net/348979/after-ph-meeting-quad-eyes-first-joint-maritime-exercise-in-2027",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261104__D6G26H4__v4__HighRes__TopshotIranUsIsraelWar-scaled.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/News1332486.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "KUWAIT CITY, Kuwait — Gulf nations scrambled to intercept incoming fire from Iran and its allies on Wednesday after the US struck an Iranian island, as rising violence threatened efforts to resolve the Middle East war. Kuwait activated its air defenses to counter drone strikes — the first since early September — and Bahrain said"
+          "text": "MANILA, Philippines — The first-ever maritime patrol aircraft exercise among the four member nations of the Quad—United States, Japan, Australia and India—is set for 2027, with the final details currently being worked out, a Japanese foreign ministry official said on Wednesday. The plan was disclosed in Manila by Japanese Foreign Press Secretary Toshihiro Kitamura, following"
         }
       ],
       "truncated": true,
@@ -434,7 +409,7 @@
       "summary": "MANILA, Philippines — The impeachment trial of Vice President Sara Duterte resumes on Thursday, with a former financial investigator of the Anti-Money Laundering Council (AMLC) expected to take the…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-19T01:01:03.432Z",
+      "published": "2026-11-19T01:31:02.099Z",
       "firstSeen": "2026-11-18T23:01:04.903Z",
       "url": "https://newsinfo.inquirer.net/2343385/vp-duterte-trial-day-44-ex-amlc-prober-expected-to-testify-for-defense",
       "image": {
@@ -453,23 +428,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1gr5cvr",
+      "id": "inqg-1alea6v",
       "source": "inqg",
-      "title": "Xi, Trump, Putin exchange greetings before historic China summit",
-      "summary": "SHENZHEN, China — The leaders of China, the United States and Russia exchanged greetings as they met in Shenzhen on Wednesday, a day before their historic first formal trilateral summit in the…",
+      "title": "Gulf countries under fire after US hits Iran island",
+      "summary": "KUWAIT CITY, Kuwait — Gulf nations scrambled to intercept incoming fire from Iran and its allies on Wednesday after the US struck an Iranian island, as rising violence threatened efforts to resolve…",
       "byline": "mmercado",
-      "section": "Asia & Pacific",
-      "published": "2026-11-19T01:01:02.109Z",
-      "firstSeen": "2026-11-18T22:30:59.128Z",
-      "url": "https://globalnation.inquirer.net/349018/xi-trump-putin-exchange-greetings-before-historic-china-summit-2",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-19T01:31:02.048Z",
+      "firstSeen": "2026-11-18T22:01:01.240Z",
+      "url": "https://globalnation.inquirer.net/349012/gulf-countries-under-fire-after-us-hits-iran-island",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261118__D7VH6PE__v1__HighRes__ChinaApecDiplomacySummit-1-scaled.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261104__D6G26H4__v4__HighRes__TopshotIranUsIsraelWar-scaled.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "SHENZHEN, China — The leaders of China, the United States and Russia exchanged greetings as they met in Shenzhen on Wednesday, a day before their historic first formal trilateral summit in the Chinese city. The agenda for Thursday&#8217;s meeting between Presidents Xi Jinping, Donald Trump and Vladimir Putin — which has raised fears of a"
+          "text": "KUWAIT CITY, Kuwait — Gulf nations scrambled to intercept incoming fire from Iran and its allies on Wednesday after the US struck an Iranian island, as rising violence threatened efforts to resolve the Middle East war. Kuwait activated its air defenses to counter drone strikes — the first since early September — and Bahrain said"
         }
       ],
       "truncated": true,
@@ -484,7 +459,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — The municipal government of Puerto Galera is crafting a comprehensive mental health program to expand community-based support, establish barangay referral systems,…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-19T01:01:01.990Z",
+      "published": "2026-11-19T01:31:01.475Z",
       "firstSeen": "2026-11-19T00:01:01.682Z",
       "url": "https://newsinfo.inquirer.net/2343624/puerto-galera-proposes-community-based-mental-health-program",
       "image": {
@@ -503,23 +478,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1757lmc",
+      "id": "inqg-1gr5cvr",
       "source": "inqg",
-      "title": "New leader of US Democrats pledges to target Trump corruption",
-      "summary": "WASHINGTON, United States — Hakeem Jeffries vowed Wednesday to &#8220;hold the crooks accountable&#8221; after Democrats nominated him to become the first Black speaker of the US House of…",
+      "title": "Xi, Trump, Putin exchange greetings before historic China summit",
+      "summary": "SHENZHEN, China — The leaders of China, the United States and Russia exchanged greetings as they met in Shenzhen on Wednesday, a day before their historic first formal trilateral summit in the…",
       "byline": "mmercado",
-      "section": "Americas",
-      "published": "2026-11-19T01:01:00.391Z",
-      "firstSeen": "2026-11-18T23:01:06.927Z",
-      "url": "https://globalnation.inquirer.net/349025/new-leader-of-us-democrats-pledges-to-target-trump-corruption",
+      "section": "Asia & Pacific",
+      "published": "2026-11-19T01:31:00.141Z",
+      "firstSeen": "2026-11-18T22:30:59.128Z",
+      "url": "https://globalnation.inquirer.net/349018/xi-trump-putin-exchange-greetings-before-historic-china-summit-2",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261118__D7WC4BB__v1__HighRes__776589142.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261118__D7VH6PE__v1__HighRes__ChinaApecDiplomacySummit-1-scaled.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "WASHINGTON, United States — Hakeem Jeffries vowed Wednesday to &#8220;hold the crooks accountable&#8221; after Democrats nominated him to become the first Black speaker of the US House of Representatives, setting the stage for two years of confrontation with President Donald Trump. The 56-year-old New Yorker is poised to preside over a commanding Democratic majority following his"
+          "text": "SHENZHEN, China — The leaders of China, the United States and Russia exchanged greetings as they met in Shenzhen on Wednesday, a day before their historic first formal trilateral summit in the Chinese city. The agenda for Thursday&#8217;s meeting between Presidents Xi Jinping, Donald Trump and Vladimir Putin — which has raised fears of a"
         }
       ],
       "truncated": true,
@@ -534,7 +509,7 @@
       "summary": "MANILA, Philippines — The Senate impeachment court resumes the trial of Vice President Sara Duterte on Thursday, Nov. 19, with the defense set to present four government officials as witnesses amid…",
       "byline": "jcristobal",
       "section": "Latest News Stories",
-      "published": "2026-11-19T01:01:00.271Z",
+      "published": "2026-11-19T01:30:58.801Z",
       "firstSeen": "2026-11-19T00:00:59.656Z",
       "url": "https://newsinfo.inquirer.net/2343621/watch-sara-duterte-impeachment-trial-nov-19-2026",
       "image": {
@@ -553,23 +528,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1wkey59",
+      "id": "inqg-1757lmc",
       "source": "inqg",
-      "title": "Israel army launches ground operation in Hamas-controlled area of Gaza",
-      "summary": "NUSEIRAT, Palestinian Territories — The Israeli military said it launched an operation on Wednesday in a Hamas-controlled area of central Gaza, where an AFP journalist saw Israeli tanks positioning…",
+      "title": "New leader of US Democrats pledges to target Trump corruption",
+      "summary": "WASHINGTON, United States — Hakeem Jeffries vowed Wednesday to &#8220;hold the crooks accountable&#8221; after Democrats nominated him to become the first Black speaker of the US House of…",
       "byline": "mmercado",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-19T01:00:58.093Z",
-      "firstSeen": "2026-11-18T23:01:04.953Z",
-      "url": "https://globalnation.inquirer.net/349035/israel-army-launches-ground-operation-in-hamas-controlled-area-of-gaza",
+      "section": "Americas",
+      "published": "2026-11-19T01:30:56.884Z",
+      "firstSeen": "2026-11-18T23:01:06.927Z",
+      "url": "https://globalnation.inquirer.net/349025/new-leader-of-us-democrats-pledges-to-target-trump-corruption",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261118__D7VZ2YZ__v1__HighRes__PalestinianGazaIsraelConflict-scaled.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261118__D7WC4BB__v1__HighRes__776589142.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "NUSEIRAT, Palestinian Territories — The Israeli military said it launched an operation on Wednesday in a Hamas-controlled area of central Gaza, where an AFP journalist saw Israeli tanks positioning themselves east of the Nuseirat refugee camp. The rare ground incursion came after inconclusive Israeli elections, with opposition leader Gadi Eisenkot trying to form a government"
+          "text": "WASHINGTON, United States — Hakeem Jeffries vowed Wednesday to &#8220;hold the crooks accountable&#8221; after Democrats nominated him to become the first Black speaker of the US House of Representatives, setting the stage for two years of confrontation with President Donald Trump. The 56-year-old New Yorker is poised to preside over a commanding Democratic majority following his"
         }
       ],
       "truncated": true,
@@ -584,7 +559,7 @@
       "summary": "MANILA, Philippines — The northeast monsoon, or amihan, is forecast to bring rains over Extreme Northern Luzon, while two other weather systems may affect parts of the country on Thursday, Nov. 19,…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-19T01:00:58.092Z",
+      "published": "2026-11-19T01:30:56.094Z",
       "firstSeen": "2026-11-19T00:00:59.596Z",
       "url": "https://newsinfo.inquirer.net/2343631/amihan-shear-line-itcz-to-bring-rains-across-ph",
       "image": {
@@ -609,7 +584,7 @@
       "summary": "MANILA, Philippines — In-person classes were suspended in some areas, while several schools adjusted their class schedules on Thursday, Nov. 19, due to the expected dangerous heat. READ: Walang…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-19T01:00:57.996Z",
+      "published": "2026-11-19T01:30:54.919Z",
       "firstSeen": "2026-11-19T00:30:56.391Z",
       "url": "https://newsinfo.inquirer.net/2343644/walang-pasok-heat-prompts-class-suspensions-in-some-areas-on-nov-19",
       "image": {
@@ -625,7 +600,32 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqg-1wkey59",
+      "source": "inqg",
+      "title": "Israel army launches ground operation in Hamas-controlled area of Gaza",
+      "summary": "NUSEIRAT, Palestinian Territories — The Israeli military said it launched an operation on Wednesday in a Hamas-controlled area of central Gaza, where an AFP journalist saw Israeli tanks positioning…",
+      "byline": "mmercado",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-19T01:30:54.919Z",
+      "firstSeen": "2026-11-18T23:01:04.953Z",
+      "url": "https://globalnation.inquirer.net/349035/israel-army-launches-ground-operation-in-hamas-controlled-area-of-gaza",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261118__D7VZ2YZ__v1__HighRes__PalestinianGazaIsraelConflict-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NUSEIRAT, Palestinian Territories — The Israeli military said it launched an operation on Wednesday in a Hamas-controlled area of central Gaza, where an AFP journalist saw Israeli tanks positioning themselves east of the Nuseirat refugee camp. The rare ground incursion came after inconclusive Israeli elections, with opposition leader Gadi Eisenkot trying to form a government"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqg-1midd1m",
@@ -634,7 +634,7 @@
       "summary": "SHENZHEN, China — President Marcos is set for a busy day on Thursday as he attends the 33rd Asia-Pacific Economic Cooperation (Apec) Economic Leaders’ Meeting (AELM) here, with several bilateral…",
       "byline": "cbuban",
       "section": "Asia & Pacific",
-      "published": "2026-11-19T01:00:57.996Z",
+      "published": "2026-11-19T01:30:54.847Z",
       "firstSeen": "2026-11-18T23:01:04.903Z",
       "url": "https://globalnation.inquirer.net/348998/apec-economic-leaders-meeting-opens-marcos-gears-up-for-jam-packed-day",
       "image": {
@@ -651,6 +651,1392 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-wc88p7",
+      "source": "inqn",
+      "title": "Iligan police to verify alleged surveillance of Pax Silica protesters",
+      "summary": "ILIGAN CITY — The Iligan City Police Office is verifying allegations of police surveillance and intimidation of students during a Nov. 17 campus mobilization at Mindanao State University-Iligan…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-11-19T01:30:54.847Z",
+      "firstSeen": "2026-11-19T01:30:54.847Z",
+      "url": "https://newsinfo.inquirer.net/2343651/iligan-police-to-verify-alleged-surveillance-of-pax-silica-protesters",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/08/Iligan-City-Lanao-del-Norte-filephoto-map.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ILIGAN CITY — The Iligan City Police Office is verifying allegations of police surveillance and intimidation of students during a Nov. 17 campus mobilization at Mindanao State University-Iligan Institute of Technology (MSU-IIT) against the US-led Pax Silica Initiative and US President Donald Trump&#8217;s state visit to Manila. In a statement posted on its social media"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-4v1e34",
+      "source": "abs",
+      "title": "Muslims to outnumber Christians globally by 2035, research shows",
+      "summary": "Pew Research Center projections show that there will be 2.57 billion Muslims and 2.52 billion Christians by 2035. Researchers say differences in fertility rates account for the change.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-19T01:26:22.000Z",
+      "firstSeen": "2026-11-19T01:30:54.847Z",
+      "url": "https://www.abs-cbn.com/news/world/2026/11/19/muslims-to-outnumber-christians-globally-by-2035-research-shows-0925",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pew Research Center projections show that there will be 2.57 billion Muslims and 2.52 billion Christians by 2035. Researchers say differences in fertility rates account for the change."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1bm1nja",
+      "source": "inq",
+      "title": "LIVE: VP Sara Duterte Impeachment Day 44",
+      "summary": "The Senate resumes the impeachment proceedings against Vice President Sara Duterte on Thursday, November 19, as senators continue deliberations in the historic trial. Follow CDN Digital’s live…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-19T01:23:02.000Z",
+      "firstSeen": "2026-11-19T01:30:54.846Z",
+      "url": "https://cebudailynews.inquirer.net/786357/live-vp-sara-duterte-impeachment-day-44",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/11/Day-32-of-Vice-President-Sara-Dutertes-impeachment-trial-senate-impeachment-court-INQUIRER-PHOTO-NINO-JESUS-ORBETA-1200x740-1-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Senate resumes the impeachment proceedings against Vice President Sara Duterte on Thursday, November 19, as senators continue deliberations in the historic trial. Follow CDN Digital’s live coverage below for the latest developments, key exchanges, and updates from the Senate as the proceedings unfold.... Keep on reading: LIVE: VP Sara Duterte Impeachment Day 44"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "rap-eyyene",
+      "source": "rap",
+      "title": "Sara Duterte trial: Can the defense explain P319-M remittances to Cale88?",
+      "summary": "The defense is now turning to government agencies to dispel money laundering allegations vs Cale88",
+      "byline": "Sundy Locus",
+      "section": "Editors' Pick",
+      "published": "2026-11-19T01:12:29.000Z",
+      "firstSeen": "2026-11-19T01:30:54.847Z",
+      "url": "https://www.rappler.com/newsbreak/inside-track/can-sara-duterte-defense-explain-remittances-cale88/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2026/09/sara-duterte-quezon-city-rtc-september-5-2026-003-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "VEEP. Vice President Sara Duterte, along with legal counsels, arrives at the Quezon City Regional Trial Court, following the issuance of an arrest warrant against her over a grave threats case, on September 5, 2026."
+        },
+        {
+          "type": "p",
+          "text": "Jire Carreon/Rappler"
+        },
+        {
+          "type": "p",
+          "text": "The defense is now turning to government agencies to dispel money laundering allegations vs Cale88"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The defense team for Vice President Sara Duterte is focusing on allegations regarding P319 million in foreign remittances linked to Cale88 Foods Corporation, a company associated with her.",
+            "Witnesses, including legal and government officials, will testify to establish the legitimacy of Cale88 Foods, but experts express skepticism about the effectiveness of these testimonies in countering money laundering allegations."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "The defense team of Vice President Sara Duterte appears to be shifting gears in the ongoing impeachment trial as they now seek to address one of the most contentious allegations against the second-highest official: the P319 million in foreign remittances allegedly received by Cale88 Foods Corporation, a company linked to her."
+        },
+        {
+          "type": "p",
+          "text": "On Wednesday, November 18, Senate impeachment court spokesperson Reginald Tongol confirmed that the defense would present the following witnesses this week to address allegations surrounding the Duterte-linked company:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Lawyer Rainer Dela Fuente (AML Consulting PH) who would testify on fundamental legal concepts under the Anti-Money Laundering Act (AMLA), as amended",
+            "Dr. Ceferino S. Rodolfo, DTI undersecretary and BOI managing head, who would testify on Cale88 Foods Corporation’s registration with the Board of Investments (BOI)",
+            "Director Pilar Marilyn M. Pagayunan of FDA Center for Food Regulation and Research who would testify on Cale88’s FDA product registration for its sweetened banana chips",
+            "Rowena G. Mendoza, department manager of Center for International Expositions and Missions (CITEM), and/or a CITEM representative who would testify on DTI/CITEM communications and invitations sent to Cale88 Foods Corporation for food expositions"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "“All four are covered by requests for subpoena ad testificandum and duces tecum to controvert allegations under Article II,” Tongol said."
+        },
+        {
+          "type": "p",
+          "text": "Cale88, a banana chips export company partly owned by Duterte’s husband, lawyer Mans Carpio, came under scrutiny in the ongoing impeachment trial over allegations of unexplained wealth."
+        },
+        {
+          "type": "p",
+          "text": "Anti-Money Laundering Council (AMLC) Executive Director Ronel Buenaventura previously testified that Cale88 received P319 million in inward remittances from China and Hong Kong, based on covered transaction reports (CTRs) and suspicious transaction reports (STRs)."
+        },
+        {
+          "type": "p",
+          "text": "Lawyer Alex Cabrera, who prepared a financial forensic report on Duterte and Carpio’s wealth, described the company’s operations as a “revolving door,” which he said, was a “symptom of money laundering.”"
+        },
+        {
+          "type": "p",
+          "text": "“As for Cale88’s financial statements, many things are not in order. It has no payables or receivables. It is a manufacturer or exporter of manufactured goods, yet it has no inventory of raw materials or work in process, and no matter how much money comes in and goes out, it continues to incur losses,” Cabrera told the impeachment court. “That is not tinikling but a revolving door.”"
+        },
+        {
+          "type": "p",
+          "text": "Will the defense’s decision to present government officials and other experts to establish Cale88’s legitimacy as a registered food exporter be enough to counter allegations of money laundering?"
+        },
+        {
+          "type": "p",
+          "text": "To constitutional lawyer and law professor Lulu Reyes, establishing legitimacy will be helpful to the defense, but the witnesses will be a boost to their case “if they can definitely and directly testify on Cale88’s export transactions with its Chinese business partners.”"
+        },
+        {
+          "type": "p",
+          "text": "She added, “I doubt that they can.” If her doubts prove to be true, the defense will be hard-pressed to find more compelling witnesses."
+        },
+        {
+          "type": "p",
+          "text": "Reyes further said the bank representatives whom the defense initially called to testify could have provided more relevant information about the transactions. But the defense backpedaled to expedite the proceedings supposedly. Could there have been other reasons?"
+        },
+        {
+          "type": "p",
+          "text": "“The best witnesses for the defense regarding Cale88 are the buyers or importers from China, customs brokers or freight companies who facilitate the trade, subcontractors or suppliers of Cale88 products, and of course, Cale88’s own employees with neat employment history in the company,” Reyes said."
+        },
+        {
+          "type": "p",
+          "text": "Former senator Antonio Trillanes IV has accused Carpio of receiving P319 million in cash remittances from China through Cale88. The company is listed in the Vice President’s Statements of Assets, Liabilities, and Net Worth (SALNs) from 2022 to 2025."
+        },
+        {
+          "type": "p",
+          "text": "The defense began presenting its evidence last week as it sought to counter allegations of Duterte’s unexplained wealth under Article II of the Articles of Impeachment."
+        },
+        {
+          "type": "p",
+          "text": "Among the witnesses presented were Davao City Assessor Jaime Adalin, who answered questions pertaining to allegations about Duterte’s undeclared properties in Davao, and lawyer Anel Martin Antero, who was presented to explain some of Carpio’s substantial credit card purchases previously flagged in Cabrera’s financial forensic report. The report alleged that Duterte and Carpio accumulated P817 million in unexplained wealth from 2022 to 2025. – Rappler.com"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1xtfmsy",
+      "source": "abs",
+      "title": "Hot demand lifts Anthropic IPO price to $83 a share, breaks SpaceX's record raise",
+      "summary": "Anthropic priced its initial public offering at $83 a share on Wednesday, above its expected range and toppling SpaceX's IPO to set a new record, as hot demand for the AI giant brushed aside market…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-19T01:10:29.000Z",
+      "firstSeen": "2026-11-19T01:30:54.921Z",
+      "url": "https://www.abs-cbn.com/news/world/2026/11/19/hot-demand-lifts-anthropic-ipo-price-to-83-a-share-breaks-spacex-s-record-raise-0908",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Anthropic priced its initial public offering at $83 a share on Wednesday, above its expected range and toppling SpaceX's IPO to set a new record, as hot demand for the AI giant brushed aside market jitters over the spy scandal that toppled Nvidia's chief executive."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-1j0z7jb",
+      "source": "abs",
+      "title": "Metro Beauty Awards 2026: Best K-Beauty Finds",
+      "summary": "Presenting this year's winners of the best finds in Korean beauty!",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-19T01:09:21.000Z",
+      "firstSeen": "2026-11-19T01:30:58.275Z",
+      "url": "https://www.abs-cbn.com/beauty/2026/11/17/metro-beauty-awards-2026-best-k-beauty-finds-2000",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Presenting this year's winners of the best finds in Korean beauty!"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "grd-1m2m1vr",
+      "source": "grd",
+      "title": "Elon Musk claims ‘I’m not Maga’ and says he regrets vast sums to back Republicans",
+      "summary": "<p>Musk, who aligned with Trump and was frequent White House guest, says he feels ‘pretty foolish’ about record midterm spending</p><p>Elon Musk denied being Maga on Wednesday, despite aligning…",
+      "byline": "Lucy Campbell and Robert Mackey",
+      "section": "US politics",
+      "published": "2026-11-19T01:07:51.000Z",
+      "firstSeen": "2026-11-19T01:30:55.426Z",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/elon-musk-maga-trump",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/0d10d08459c8b09152e92f3ebf55f9712a98d380/2128_149_4811_3852/master/4811.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=8839487fb786add260720cdfc034e3e8",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Elon Musk denied being Maga on Wednesday, despite aligning himself intensely with Donald Trump’s Make America Great Again movement since 2024."
+        },
+        {
+          "type": "p",
+          "text": "“I’m not Maga,” the world’s richest person told the New York Times Dealbook summit, which he attended via video call from China, where he is one of several US business leaders who have accompanied Trump on his trip to Asia."
+        },
+        {
+          "type": "p",
+          "text": "“I’m not sure what Maga means, but if that means sort of blind adherence to a set of policies by the Republican party, then I certainly don’t have that,” the chief executive of SpaceX and Tesla added."
+        },
+        {
+          "type": "p",
+          "text": "Musk famously declared at a 2024 campaign rally in Madison Square Garden: “I’m not just Maga. I’m dark, gothic Maga.”"
+        },
+        {
+          "type": "p",
+          "text": "In a 45-minute interview with Andrew Ross Sorkin, a New York Times columnist, Musk also said it would be good for Washington to have split control between the two parties, and that he thinks “there are positives and negatives in both”."
+        },
+        {
+          "type": "p",
+          "text": "He also accused Ukraine’s president, Volodymyr Zelenskyy, of “lying” about restrictions on access to his firm’s Starshield satellite system; praised Jensen Huang, the ousted Nvidia chief executive; and said that “no one I met at Anthropic set off my evil detector”."
+        },
+        {
+          "type": "p",
+          "text": "Asked about his previous negative comments about Anthropic, Musk said that before he agreed to rent computing power to the AI firm: “I went to met with a lot of people at Anthropic. I didn’t just move forward with the deal.”"
+        },
+        {
+          "type": "p",
+          "text": "“My interaction so far with the Anthropic team is that they seem like good people and they seem principled,” Musk added. “They seem diligent and they seem seem to care about the future.”"
+        },
+        {
+          "type": "p",
+          "text": "Musk donated at least $250m of his own money to help Trump win the election in 2024, and recently spent nearly $500m in the US midterms to support Republicans, many of whom lost."
+        },
+        {
+          "type": "p",
+          "text": "Musk admitted at the Dealbook summit that his spending had “failed”, and that he felt “pretty foolish” for spending such a sum, the most that anyone has ever spent in a political cycle when they themselves did not run for office. “It certainly shows that American elections are not just about money,” he said. “If I could rewind the clock, I would have spent less money.”"
+        },
+        {
+          "type": "p",
+          "text": "After Trump took office for the second time in 2025, Musk served for 180 days heading the so-called “department of government efficiency” (Doge) within Trump’s administration, before stepping down following a very public falling out with the president."
+        },
+        {
+          "type": "p",
+          "text": "That culminated in Musk posting on his social media platform in June of that year: “Time to drop the really big bomb: @realDonaldTrump is in the Epstein files. That is the real reason they have not been made public.”"
+        },
+        {
+          "type": "p",
+          "text": "The two men later reconciled. During his time leading Doge, Musk frequently appeared in the Oval Office and at cabinet meetings alongside the president, often sporting hats that read “Make America Great Again” or “Trump was right about everything”."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1eyed69",
+      "source": "abs",
+      "title": "Day 44: Defense to present 4 more witnesses in VP Sara impeach trial",
+      "summary": "The defense team is set to present 4 more witnesses in the impeachment trial of Vice President Sara Duterte.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-19T01:06:47.000Z",
+      "firstSeen": "2026-11-19T01:31:00.297Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/19/vp-trial-day-44-defense-to-present-4-more-witnesses-in-vp-sara-impeach-trial-0906",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The defense team is set to present 4 more witnesses in the impeachment trial of Vice President Sara Duterte."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "bbc-187jz0v",
+      "source": "bbc",
+      "title": "Crimean Bridge attacked again, Russian official says",
+      "summary": "The head of Crimea said traffic was suspended after another attack on the link between Russia and the occupied territory.",
+      "byline": "Claire Keenan",
+      "section": "",
+      "published": "2026-11-19T01:05:03.000Z",
+      "firstSeen": "2026-11-19T01:30:54.912Z",
+      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "image": {
+        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e29a/live/4b7210d0-e3ad-11f1-b942-5da5bfac5a5a.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Final moments before stretch of Crimean Bridge collapsed after Ukrainian attack"
+        },
+        {
+          "type": "p",
+          "text": "The Crimean Bridge has been attacked by Ukraine for the third time this week, a Russian official has said."
+        },
+        {
+          "type": "p",
+          "text": "The Moscow-installed head of Crimea, Sergei Aksyonov, confirmed that traffic was temporarily suspended following another strike on the bridge connecting Russia to occupied Crimea."
+        },
+        {
+          "type": "p",
+          "text": "The critical bridge had already been hit twice earlier in the week resulting in severe damage and part of the bridge collapsing into the water."
+        },
+        {
+          "type": "p",
+          "text": "The important infrastructure has long been targeted by Ukraine because of its significance as a logistical and symbolic asset to Moscow's war effort."
+        },
+        {
+          "type": "image",
+          "src": "https://ichef.bbci.co.uk/ace/standard/2560/cpsprodpb/6056/live/89bd09e0-e3b1-11f1-a094-5fdc692f3e33.jpg",
+          "caption": "Image caption, A screengrab of the damaged Crimean bridge in the Kerch Strait on 17 November"
+        },
+        {
+          "type": "p",
+          "text": "Image source, Reuters"
+        },
+        {
+          "type": "p",
+          "text": "A screengrab of the damaged Crimean bridge in the Kerch Strait on 17 November"
+        },
+        {
+          "type": "p",
+          "text": "It comes as Russian President Vladimir Putin meets US President Donald Trump and China's President Xi Jinping on Thursday for landmark talks in China."
+        },
+        {
+          "type": "p",
+          "text": "Aksyonov confirmed the strike on the bridge in the early hours of Thursday via Telegram, adding that assessment of the damage was under way."
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, Ukrainian sources have continued to issue air raid alert warnings overnight for districts just outside of the capital Kyiv."
+        },
+        {
+          "type": "p",
+          "text": "At least three people were killed in a Russian drone attack on Odesa on Wednesday, according to the regional state administration. Officials described the attack as \"brutal and deliberate... directly targeting people and their lives\"."
+        },
+        {
+          "type": "p",
+          "text": "President Volodymyr Zelensky has called the initial strikes on the Crimean Bridge as an \"unprecedented operation\" weeks in the making."
+        },
+        {
+          "type": "p",
+          "text": "Ukraine used drones and missiles against it on 17 November which brought down a key section of the road."
+        },
+        {
+          "type": "p",
+          "text": "That section of the double-arched, 12-mile bridge now lies on the seabed, brought down by an arsenal of Ukrainian long-range weaponry in a seven-stage operation culminating in a dramatic collapse."
+        },
+        {
+          "type": "p",
+          "text": "In response, Kremlin spokesman Dmitry Peskov has said the bridge \"will be rebuilt, and it will be even better than before\"."
+        },
+        {
+          "type": "p",
+          "text": "While Ukrainian forces have struggled to close the bridge for good, recent attempts have brought them closer to destroying the bridge's crucial road and rail route for Russian soldiers heading towards the front line."
+        },
+        {
+          "type": "p",
+          "text": "Russian forces have also targeted key bridge crossings over the Dnipro River in Kyiv in recent days."
+        },
+        {
+          "type": "p",
+          "text": "Russian strikes hit the Pivnichnyi (Northern) and Pivdennyi (Southern) bridges causing traffic closures, partial damage to the metro system and some power and water outages."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "rap-emz2sh",
+      "source": "rap",
+      "title": "[Vantage Point] GMA’s cash cushion shrinks as the boob tube goes digital",
+      "summary": "Today, competing against global streaming giants and social media algorithms has changed the math entirely",
+      "byline": "Val A. Villanueva",
+      "section": "Business",
+      "published": "2026-11-19T01:04:36.000Z",
+      "firstSeen": "2026-11-19T01:30:54.923Z",
+      "url": "https://www.rappler.com/voices/thought-leaders/vantage-point-gma-network-profit-shrinks-analog-television-shutdown/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2025/04/abs-cbn-gma-april-16-2025.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As the Philippines prepares to switch off analog television signals in Mega Manila, the country’s biggest television groups are facing a severe financial reckoning. Industry leader GMA Network saw its profit for the first nine months plunge, while rival ABS-CBN reported a consolidated net loss over the same period."
+        },
+        {
+          "type": "p",
+          "text": "For decades, the Filipino living room revolved around a single glowing box. Families gathered around television sets with rabbit-ear antennas to watch noontime variety shows, tearjerking dramas, and nightly newscasts."
+        },
+        {
+          "type": "p",
+          "text": "That familiar era is officially winding down."
+        },
+        {
+          "type": "p",
+          "text": "Starting in January 2027, the National Telecommunications Commission (NTC) is scheduled to pull the plug on traditional analog television broadcasts, beginning in Mega Manila—covering Metro Manila, Bulacan, Cavite, Pampanga, Bataan, Laguna, and Rizal—where most households have already shifted to digital signals."
+        },
+        {
+          "type": "p",
+          "text": "Viewers whose television sets lack a compatible digital tuner will need to buy a digital set-top box, which typically costs between P500 and P800, just to keep their old sets working. Compatible digital televisions can receive the signals directly with a suitable antenna. Cable and satellite subscribers will not be affected by the terrestrial analog switch-off."
+        },
+        {
+          "type": "p",
+          "text": "While the technical move is a routine upgrade in broadcast engineering, it arrives at a painful moment for the country’s free-to-air television networks. Behind the scenes, the business model that built Philippine broadcast empires is rapidly unraveling."
+        },
+        {
+          "type": "p",
+          "text": "Take GMA Network, the undisputed king of Philippine television after its longtime rival ABS-CBN lost its broadcast franchise in 2020."
+        },
+        {
+          "type": "p",
+          "text": "On paper, GMA remains dominant. According to Nielsen ratings, it stayed as the number-one station nationwide through the first nine months of 2026, powered by flagship programs like 24 Oras and Kapuso Mo, Jessica Soho, alongside top-performing radio stations Super Radyo DZBB and Barangay LS 97.1."
+        },
+        {
+          "type": "p",
+          "text": "Yet GMA’s latest financial report, released on November 13, reads less like a victory lap and more like a warning siren."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2025/04/abs-cbn-gma-april-16-2025.jpg?fit=449%2C449",
+          "caption": "Industry disruption continues: GMA’s profit falls 98% in Q3, ABS-CBN still in red"
+        },
+        {
+          "type": "p",
+          "text": "To understand how sharply GMA’s fortunes turned in the first nine months of 2026, imagine a neighborhood store that usually records P100 in daily profit after deducting its expenses and taxes. Suddenly, that profit shrinks to less than P2."
+        },
+        {
+          "type": "p",
+          "text": "That is essentially what happened to GMA. Its consolidated net income—the profit left over after deducting all expenses and taxes—plunged by 98%, tumbling from P2.07 billion in January–September 2025 to P32.85 million in the same period this year. The third quarter alone produced a P77.37-million loss, reversing a P102-million profit a year earlier."
+        },
+        {
+          "type": "p",
+          "text": "Why did profits evaporate so fast? Look at the money coming through the door. Total revenues for the first nine months dropped 31%, wiping out P4.32 billion in sales. Because free-to-air television relies heavily on commercials to pay the bills, advertising is the lifeblood of the business. During January–September, GMA’s advertising revenue fell by a third, sliding from P12.82 billion last year to P8.64 billion."
+        },
+        {
+          "type": "p",
+          "text": "Part of this drop comes down to the calendar. The first nine months of 2025 benefited from political advertisements tied to the May midterm elections, a temporary windfall that vanished in 2026. But GMA also acknowledged softer recurring revenues, showing that the deterioration extended beyond the election cycle."
+        },
+        {
+          "type": "p",
+          "text": "Even setting election spending aside, regular corporate advertisers are tightening their belts. GMA pointed to everyday operational headaches—high fuel prices, stubborn inflation, rising utility and labor costs, and supply chain snags linked to conflict in the Middle East—that squeezed advertisers’ margins and prompted them to reduce spending. GMA itself cut total operating expenses by 13%, but those savings could not keep pace with the 31% revenue decline."
+        },
+        {
+          "type": "p",
+          "text": "GMA’s earnings before interest, taxes, depreciation and amortization (EBITDA), fell 68%, dropping from P4.56 billion to P1.47 billion in the first nine months. EBITDA measures earnings before those charges; it is not operating cash flow. Actual operating cash flow fell from P4.34 billion to P1.63 billion."
+        },
+        {
+          "type": "p",
+          "text": "Simply put, the network’s cash generation has weakened dramatically. Notably, GMA revealed that digital ads remain its second-biggest revenue contributor, although that ranking alone does not establish how quickly audiences or advertising budgets are migrating online."
+        },
+        {
+          "type": "p",
+          "text": "The reckoning spreads across the dial."
+        },
+        {
+          "type": "p",
+          "text": "If the industry leader is struggling to stay in the black, the picture is even bleaker elsewhere on the dial. (READ: Why ABS-CBN is still retrenching 200 employees with P6 billion on the way)"
+        },
+        {
+          "type": "p",
+          "text": "ABS-CBN Corporation, still led by the Lopez family six years after losing its broadcast franchise, remains deep in the red. For the first nine months of 2026, the company posted a consolidated net loss of P2.96 billion, widening by 32% from P2.24 billion a year earlier. Its third-quarter loss, however, narrowed to P1.13 billion from P1.39 billion. These are accounting losses, rather than a direct measure of cash spending exceeding cash receipts."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/04/abs-cbn-facade-may-5-2020-001-scaled.jpg?fit=449%2C449",
+          "caption": "ABS-CBN is now 84% content — and still losing money. Can P6 billion fix it?"
+        },
+        {
+          "type": "p",
+          "text": "Total revenues at ABS-CBN slipped 11% in the first nine months, moving from P11.75 billion in 2025 to P10.52 billion. Third-quarter revenue nevertheless increased to P3.63 billion from P3.48 billion."
+        },
+        {
+          "type": "p",
+          "text": "Without its old nationwide broadcast franchise, ABS-CBN has reinvented itself as a content studio and digital player. It now produces shows for former rivals GMA and TV5, sells programs overseas, and leans heavily on live entertainment. (READ: Streaming services ‘winning hearts and minds’ of Filipinos, says new study)"
+        },
+        {
+          "type": "p",
+          "text": "The May 2026 Star Cinema movie Tayo Sa Wakas, starring Donny Pangilinan and Belle Mariano, alongside girl group BINI’s Coachella appearance and global tour, contributed to ABS-CBN’s activities during the period. These ventures broaden its revenue sources, although their contribution must ultimately be judged against production, talent, promotion, and distribution costs."
+        },
+        {
+          "type": "p",
+          "text": "All three major free-to-air networks now face financial difficulties, and the Philippine advertising pie is simply too small to sustain fierce, three-way competition."
+        },
+        {
+          "type": "p",
+          "text": "For decades, regulators and viewers assumed that more networks meant healthier competition. Today, competing against global streaming giants and social media algorithms has changed the math entirely."
+        },
+        {
+          "type": "p",
+          "text": "As analog signals fade to black in Mega Manila in January, Philippine television faces a sobering truth. Although buying a P500 converter box can rescue an old television set from the junkyard, saving the networks that fill those screens will require a far deeper reinvention. – Rappler.com"
+        },
+        {
+          "type": "p",
+          "text": "Below are some Vantage Point pieces you might have missed:"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "rap-1dtvbo3",
+      "source": "rap",
+      "title": "Day 2 of Trump&#8217;s Asia tour: Putin&#8217;s handshake, fried chicken and high-stakes diplomacy",
+      "summary": "US President Donald Trump arrives in China for a summit with Chinese President Xi Jinping and Russian President Vladimir Putin, focusing on issues like nuclear weapons, trade, and tensions over…",
+      "byline": "Reuters",
+      "section": "Asia Pacific",
+      "published": "2026-11-19T01:03:47.000Z",
+      "firstSeen": "2026-11-19T01:30:58.275Z",
+      "url": "https://www.rappler.com/world/asia-pacific/trump-asia-tour-putin-handshake-fried-chicken-high-stakes-diplomacy/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2026/11/2026-11-18T062358Z_2038227350_RC23QOAL240J_RTRMADP_3_PHILIPPINES-USA-TRUMP.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A notable moment included a handshake between Trump and Putin, symbolizing a cordial relationship despite ongoing geopolitical tensions, while Trump also showcased his penchant for theatricality during public appearances.",
+            "Trump announced perceived trade breakthroughs with Thailand and the Philippines during his trip, although details remain vague, and expectations for significant outcomes from the upcoming trilateral meeting are low due to differing priorities among the leaders."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "SHENZHEN, China – US President Donald Trump arrived in China on Wednesday, November 18, ahead of the highest-stakes leg of his Asia trip: an unprecedented summit with Chinese President Xi Jinping and Russian President Vladimir Putin."
+        },
+        {
+          "type": "p",
+          "text": "The gathering in Shenzhen brings together the leaders of the world’s three biggest nuclear powers at a moment of tension over Ukraine, Iran, trade and a global arms buildup."
+        },
+        {
+          "type": "p",
+          "text": "Here are some takeaways from Trump’s second full day in the region."
+        },
+        {
+          "type": "p",
+          "text": "A gathering of world leaders inevitably involves plenty of handshakes, but one in particular stood out on Wednesday."
+        },
+        {
+          "type": "p",
+          "text": "Putin approached Trump and initiated a handshake in front of cameras, offering a public display of cordiality between the two leaders at a time when Russia remains isolated from much of the West over its war in Ukraine."
+        },
+        {
+          "type": "p",
+          "text": "The moment gave Putin an opportunity to show that he retains direct access to the American president and remains a player on the world stage. For Trump, it reflected his emphasis on personal relationships with other world leaders."
+        },
+        {
+          "type": "p",
+          "text": "The brief exchange did not guarantee any policy breakthroughs but set a friendly tone ahead of Thursday, when Trump, Putin and Xi are scheduled to hold the first trilateral meeting among the three leaders. Trump is also expected to meet Putin separately."
+        },
+        {
+          "type": "p",
+          "text": "The leaders’ agendas for the meeting do not entirely align. Trump wants to talk about limiting nuclear weapons, a subject that Xi would prefer to avoid because his country is engaged in a massive nuclear buildup to catch up with US and Russian dominance. Trump has also said Ukraine and Iran will come up."
+        },
+        {
+          "type": "p",
+          "text": "In opening remarks at the Asia-Pacific Economic Cooperation forum, Putin criticized Western sanctions imposed over Russia’s war in Ukraine, while Xi took aim at US tariffs, calling for “free and open trade.”"
+        },
+        {
+          "type": "p",
+          "text": "Trump has a way of making even a routine arrival look different from those of other world leaders."
+        },
+        {
+          "type": "p",
+          "text": "As leaders entered the APEC summit banquet, most walked past an eight-piece classical music ensemble and a throng of journalists with little more than a nod or passing glance."
+        },
+        {
+          "type": "p",
+          "text": "Trump took a different approach. As the band played “America the Beautiful,” he paused for roughly 10 seconds, appearing to take in the music before turning directly toward the press corps and facing the cameras. He held the pose, giving photographers a straight-on portrait shot that stood out from the procession of more understated arrivals."
+        },
+        {
+          "type": "p",
+          "text": "It was a small but unmistakably Trump moment. He has long embraced the pageantry of the presidency, relishing military jet flyovers, crisp salutes and elaborate welcome dances — all with him at center stage."
+        },
+        {
+          "type": "p",
+          "text": "Trump’s love of fast food is well documented. One of the most memorable photos from his winning 2024 presidential campaign captured him wearing an apron and cooking french fries at a McDonald’s."
+        },
+        {
+          "type": "p",
+          "text": "On Wednesday, Philippine President Ferdinand Marcos Jr. announced to a gathering of Asian leaders in Manila that he had ordered fried chicken from the famed Filipino chain Jollibee for Trump and his delegation as a late-night snack."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/2026-11-18T062358Z_2038227350_RC23QOAL240J_RTRMADP_3_PHILIPPINES-USA-TRUMP.jpg?fit=449%2C449",
+          "caption": "‘Taste of Manila’: Marcos sends Trump, team late-night Jollibee snack"
+        },
+        {
+          "type": "p",
+          "text": "Marcos boasted that Jollibee is so popular that “we are very proud to say that we have surpassed KFC in the United States in terms of popularity.”"
+        },
+        {
+          "type": "p",
+          "text": "“Oh wow, fantastic,” said Trump, who has been known to dip into buckets of the US chain’s fried poultry."
+        },
+        {
+          "type": "p",
+          "text": "It was unclear whether he ate any of the Jollibee delivery."
+        },
+        {
+          "type": "p",
+          "text": "Trump’s Manila visit included a reunion with Imelda Marcos, the 97-year-old former first lady whose husband, Ferdinand Marcos, governed the Philippines for 21 years before being driven from power in 1986. Her vast collection of jewels and more than 1,000 pairs of shoes became a symbol of the family’s excess during his autocratic rule."
+        },
+        {
+          "type": "p",
+          "text": "Now the Marcos family is back in power with her son, known widely as Bongbong, serving as president."
+        },
+        {
+          "type": "p",
+          "text": "Sitting in a wheelchair, Imelda Marcos blew Trump a kiss during their brief encounter, shared in a video posted on social media by a White House aide. “Have a good time, okay?” Trump told her."
+        },
+        {
+          "type": "p",
+          "text": "The two go back decades. Trump met the former first lady at a New York party when he was a rising real estate developer and recalled his long history with the family earlier in the trip."
+        },
+        {
+          "type": "p",
+          "text": "“I just don’t want to date myself, but I knew your parents very well, and they were great,” Trump told Marcos Jr. in a speech on Tuesday night. “I believe in genetics, and they did a good job. You have very good genetics. I can tell you that.”"
+        },
+        {
+          "type": "p",
+          "text": "Trump has repeatedly used his Asia trip to declare economic victories, an important message for a president whose tariff policies have faced criticism at home over their effect on prices and whose Republican Party suffered major losses in the November midterm elections."
+        },
+        {
+          "type": "p",
+          "text": "Eager to show he is making progress, Trump twice on the trip has announced what he portrayed as significant trade breakthroughs, with Thailand and the Philippines."
+        },
+        {
+          "type": "p",
+          "text": "“This is an incredible victory,” Trump said of the Thai agreement."
+        },
+        {
+          "type": "p",
+          "text": "The details, however, are not completely sorted."
+        },
+        {
+          "type": "p",
+          "text": "A White House statement on the Thai deal said the two governments had reached a “substantial conclusion” and that final work toward an agreement would now be made. Trump said under the pending deal, Thailand will eliminate all tariffs on US exports and remove substantial non-tariff barriers."
+        },
+        {
+          "type": "p",
+          "text": "Trump called the Philippines agreement a landmark deal that would benefit US farmers and the energy sector, though he provided no specific terms, figures or timeline. Manila said the two countries had reached only an understanding on economic cooperation."
+        },
+        {
+          "type": "p",
+          "text": "For all the anticipation leading up to Thursday’s three-way summit, expectations for a major breakthrough are low."
+        },
+        {
+          "type": "p",
+          "text": "Trump, Xi and Putin are coming to the table with different priorities. The Chinese leader wants to focus generally on world peace, Putin is looking for an off-ramp out of the war in Ukraine on favorable terms and Trump would like to limit nuclear weapons."
+        },
+        {
+          "type": "p",
+          "text": "The meeting is expected to be highly choreographed, with access tightly controlled. But at such a high-profile gathering, there is a certain degree of unpredictability about what Trump might do when the cameras are rolling."
+        },
+        {
+          "type": "p",
+          "text": "Ukrainian and European leaders are nervous that Trump might try to strike a deal with Putin on Ukraine. Taiwan is worried about any move by the leaders that could encourage China to put more pressure on the self-ruled island."
+        },
+        {
+          "type": "p",
+          "text": "The summit may be scripted. Trump often isn’t."
+        },
+        {
+          "type": "p",
+          "text": "Stay tuned. – Rappler.com"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "rap-ixy4u6",
+      "source": "rap",
+      "title": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte",
+      "summary": "Rappler brings live updates, analysis, and commentary from reporters and experts as the historic impeachment trial unfolds",
+      "byline": "Rappler.com",
+      "section": "National News",
+      "published": "2026-11-19T01:03:35.000Z",
+      "firstSeen": "2026-11-19T01:31:00.297Z",
+      "url": "https://www.rappler.com/philippines/video-special-coverage-panel-discussion-impeachment-trial-sara-duterte/",
+      "image": {
+        "src": "https://www.youtube.com/embed/1Cl3F9Ob3WM",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LIVE"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/1Cl3F9Ob3WM/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "p",
+          "text": "Rappler brings live updates, analysis, and commentary from reporters and experts as the historic impeachment trial unfolds"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – The impeachment trial of Vice President Sara Duterte began on Monday, July 6. All eyes are on the Senate which has been convened as an impeachment court, with senators sitting as trial judges."
+        },
+        {
+          "type": "p",
+          "text": "Rappler’s special coverage brings updates, analysis, and commentary from a panel of reporters and experts, hosted by Rappler columnist John Nery."
+        },
+        {
+          "type": "p",
+          "text": "Rappler multimedia reporters Jairo Bolledo, Dwight de Leon, and Sundy Locus are at the Senate, bringing you eyewitness coverage of the historic trial."
+        },
+        {
+          "type": "p",
+          "text": "Bookmark this page to watch Rappler’s special coverage."
+        },
+        {
+          "type": "p",
+          "text": "Follow our real-time updates in the Impeachment Trial chat room on the Rappler app, where you can interact with Rappler journalists and fellow readers. – Rappler.com"
+        },
+        {
+          "type": "h",
+          "text": "Day 43"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/Np6Dl8Ai244/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 42"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/_a0KTPngz7E/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 41"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/_9PRZEmo2KU/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 40"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/rg8gSu8ei2U/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 39"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/KL0PAPkCRJI/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 38"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/GW9W3-vhdGk/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 37"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/Y8-ubvHjoX4/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 36"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/Reneb21NEj8/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 35"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/NmDz3LwNwAQ/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 34"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/ubookfE5vmE/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 33"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/TcJyoe2qluQ/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 32"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/XP6h6BZrNM8/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 31"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/vLxTCPk3IA0/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 30"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/JgpVhU2rOkA/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 29"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/B9aPup9N5Gs/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 28"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/jShD0lcYI3A/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 27"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/g8oaeHh7ULo/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 26"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/jAWw_oq7BzY/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 25"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/xlI142Hzlu0/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 24"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/efpN42wO-Tc/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 23"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/wSjMAQsDuvo/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 22"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/lDK9ThhXCVY/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 21"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/oOZnGfdiLn8/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 20"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/T7SRffoWb6o/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 19"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/ZHfZ6Qt31NE/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 18"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/u3Ak3_b1rWo/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 17"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/vQTCEQYGmD4/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 16"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/nG0DdjoAx-c/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 15"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/XSQlQz_CHt4/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 14"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/8apr59rF3AI/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 13"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/TadN8hOOf7A/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 12"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/FiBAOPR8Sak/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 11"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/85sZHRkoD3Q/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 10"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/daQpYeEgcEU/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 9"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/tTTARDNIN9M/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 8"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/BkagQLhQwCA/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 7"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/6U12xIZsJCQ/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 6"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/krJQIP2i0AM/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 5"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/4WV0vynlAMw/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 4"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/LrnqUGFr0Ns/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 3"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/V9fQ2wtT00s/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 2"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/69HI0C39Bo0/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        },
+        {
+          "type": "h",
+          "text": "Day 1"
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/jmSZlH7mdfs/sddefault.jpg",
+          "caption": "SPECIAL COVERAGE: Impeachment trial of Sara Duterte"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1dnohpg",
+      "source": "grd",
+      "title": "Record-breaking rain lashes California’s Bay area as ‘atmospheric river’ arrives",
+      "summary": "<p>Storm expected to move into southern California, with LA residents warned of potential evacuation orders</p><p>Heavy rain pounded California’s Bay area, with record rainfall in downtown San…",
+      "byline": "Lois Beckett",
+      "section": "California",
+      "published": "2026-11-19T01:03:34.000Z",
+      "firstSeen": "2026-11-19T01:30:58.481Z",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/f9f5212fc0956900ba97c6edec783a649f9bb14b/630_0_6300_5042/master/6300.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=a535c6eaf85cf6ca207953a5b7cc1559",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Heavy rain pounded California’s Bay area, with record rainfall in downtown San Francisco and flooding and power outages across the region, as an “atmospheric river” arrived on Wednesday and dumped precipitation across the state."
+        },
+        {
+          "type": "p",
+          "text": "The storm was expected to move into southern California on Wednesday night and Thursday, with Los Angeles warning residents in mudslide-prone areas of potential evacuation orders to come. Southern Californians were also warned of potential coastal flooding, heavy surf, wave damage to coastal piers and parking lots and beach sand erosion. Heavy snow warnings were issued for higher elevations of the Sierra Mountains, including in the Greater Lake Tahoe area."
+        },
+        {
+          "type": "p",
+          "text": "Downtown San Francisco saw the most rainfall before noon in 76 years, at 2.11in, surpassing a record from 1950, the San Francisco Chronicle reported. By 3pm, Wednesday’s daily total of 2.28in had broken the record for the most rainfall on 18 November, which was previously set in 1918, the National Weather Service reported. South of San Francisco, in Santa Clara, there was flooding and standing water on several highways."
+        },
+        {
+          "type": "p",
+          "text": "In San Jose, the local fire department posted on social media that two vehicles with passengers inside had become stranded in the flooded streets downtown near the SAP Center, the city’s major events arena. The second passenger was being extricated via a boat rescue, the department wrote."
+        },
+        {
+          "type": "p",
+          "text": "Daniel Lurie, the San Francisco mayor, warned city residents the region’s winter storm and flood season, supercharged by this year’s very strong El Niño weather, was just getting started."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/a544fc14d7ae847ab0fbc4197e4339bfac8c952a/0_0_3744_2675/master/3744.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Crews working at the flooded area on Alemany Blvd at the entrance of Highway 101 in San Francisco, California. Photograph: Tayfun Coşkun/Anadolu / Getty Images"
+        },
+        {
+          "type": "p",
+          "text": "Despite the Wednesday afternoon break in the rain, he posted on social media, “The storm should pick back up tonight, and more rain is in the forecast for next week.”"
+        },
+        {
+          "type": "p",
+          "text": "“When these heavy storms come, we expect flooding to return to many of the same areas that were impacted this morning,” he added."
+        },
+        {
+          "type": "p",
+          "text": "“Today’s storm certainly gave the Bay Area a good assessment of our pain points for future storms this season,” Drew Tuma, a local meteorologist for ABC7 News, wrote on social media."
+        },
+        {
+          "type": "p",
+          "text": "Street flooding in San Francisco left maintenance hole covers floating in one neighborhood of San Francisco, while the self-driving car company Waymo temporarily suspended service in the city, the Chronicle reported. One Waymo stalled in a flooded street and blocked traffic, ABC7 News reported."
+        },
+        {
+          "type": "p",
+          "text": "An overwhelmed sewer stormwater system also appeared to result in several “sewage geysers”, one reportedly 15-ft tall, the Chronicle reported, sharing bystander footage of the spew in the city’s Ocean Beach neighborhood."
+        },
+        {
+          "type": "p",
+          "text": "Thousands across the Bay area were dealing with storm-related power outages by Wednesday afternoon, according to a customer outage map from Pacific Gas & Electric, the major utility company for much of northern California."
+        },
+        {
+          "type": "p",
+          "text": "In Monterey, south of San Francisco, the local aquarium posted on social media that “storms and massive waves are causing a surge of sea otter strandings this week in Monterey Bay” and that their staff “safely rescued several pups” after receiving calls from local community members."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/4956a3b1f26724f8ee578b5ec0a5d9e21e8a2cea/0_0_5000_3333/master/5000.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "A car in flood water near Highway 101 in Sausalito, California.  Photograph: Benjamin Fanjoy/Getty Images"
+        },
+        {
+          "type": "p",
+          "text": "Areas of the state still recovering from recent wildfires continue to be at risk for flash flooding, with specific warnings issued for “burn scar” areas including in Big Sur and the Napa valley."
+        },
+        {
+          "type": "p",
+          "text": "In Los Angeles, city officials warned residents of areas burned by the 2025 Palisades, Sunset and Hurst fires, north of the city, to be prepared for potential evacuation orders starting on Wednesday night, as heavy rains brought increased risk of flooding, mudslide and debris flow."
+        },
+        {
+          "type": "p",
+          "text": "Statewide, the heaviest of the rainfall was expected north-east of San Francisco, from Santa Rosa to Chico and Redding in the state’s Central valley, and in the southern part of the Bay Area, along coastal mountain ranges from Santa Cruz to San Jose and Palo Alto, according to the National Weather Service."
+        },
+        {
+          "type": "p",
+          "text": "“Travel delays, localized flooding and hazardous conditions are possible, especially along the coast and on mountain pass roads,” AccuWeather warned in an online forecast."
+        },
+        {
+          "type": "p",
+          "text": "Atmospheric rivers, massive currents of water vapor that can carry as much or even more water than an actual river, have been growing stronger and deadlier in recent years. In the relatively dry western US, atmospheric river storms provide both essential precipitation and flood risk."
+        },
+        {
+          "type": "p",
+          "text": "In southern California, the NWS predicted 1-3in of rain in many areas, with 3in-5in in some mountain and foothill areas, and a 20% chance of thunderstorms on Wednesday and Thursday. As much as a foot of snow was expected in higher-elevation areas above 6,000ft. There was a high risk of “significant road flooding” and a moderate risk for rockslides and mudslides, the NWS said."
+        },
+        {
+          "type": "p",
+          "text": "The risk of coastal wave damage was expected to peak in southern California on Thursday, with additional risks expected next week, with seasonal high tides overlapping with storm risks during Thanksgiving week."
+        },
+        {
+          "type": "p",
+          "text": "Waterspouts were spotted over the San Francisco Bay earlier this week, and the NWS flagged the risk of additional waterspouts over the ocean east of San Francisco on Wednesday."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-15w1qvm",
+      "source": "grd",
+      "title": "Beau Lamarre-Condon’s testimony about Jesse Baird and Luke Davies’ deaths ‘fanciful in the extreme’, crown alleges",
+      "summary": "<p>Prosecutor argues accused could be convicted on strength of forensic and ballistics evidence alone in closing statement</p><ul><li><p>Get our <a…",
+      "byline": "Kat Wong",
+      "section": "New South Wales",
+      "published": "2026-11-19T01:00:25.000Z",
+      "firstSeen": "2026-11-19T01:30:54.912Z",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/19/beau-lamarre-condon-jesse-baird-luke-davies-ntwnfb",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/0531a2e953231af47512ada3cda5ebb111031ea5/0_0_5000_4000/master/5000.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0c5c24c6477967ed5f7c90be9a04b6d2",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Beau Lamarre-Condon’s claims about the deaths of Jesse Baird and Luke Davies are “fanciful in the extreme”, a court has heard."
+        },
+        {
+          "type": "p",
+          "text": "The former police officer is accused of fatally shooting Baird and his new partner, Davies, with his police service weapon in Baird’s Paddington home in Sydney on 19 February 2024."
+        },
+        {
+          "type": "p",
+          "text": "He has pleaded not guilty to two counts of murder and one charge of aggravated break and enter."
+        },
+        {
+          "type": "p",
+          "text": "The crown prosecutor Brett Hatfield SC began delivering his closing statement on Thursday as the double murder trial entered its ninth week."
+        },
+        {
+          "type": "p",
+          "text": "The defence had argued the two men died in struggles with the accused when he acted in “self-defence”."
+        },
+        {
+          "type": "p",
+          "text": "Lamarre-Condon had previously told the court he was aiming to shoot Baird in the shoulder to get him to drop a knife, and accidentally shot him a second time as they fell to the ground."
+        },
+        {
+          "type": "p",
+          "text": "But Hatfield told the court the injury from the first shot would cause someone to pass out."
+        },
+        {
+          "type": "p",
+          "text": "“Common sense renders it completely improbable that you could suffer such an injury yet immediately grab hold of a pistol with your left and forcefully pull a person brandishing it to the ground,” Hatfield said."
+        },
+        {
+          "type": "p",
+          "text": "“Such a scenario, you might think, is fanciful in the extreme.”"
+        },
+        {
+          "type": "p",
+          "text": "He argued Lamarre-Condon could be convicted on the strength of the forensic and ballistics evidence alone."
+        },
+        {
+          "type": "p",
+          "text": "Forensic evidence of the directionality of the bullet and the wounds on Baird’s body indicated Lamarre-Condon shot Baird in the back as the other man fled towards the back door, Hatfield alleged."
+        },
+        {
+          "type": "p",
+          "text": "The height of the bullet marks meant Baird must have been ducking or stooping at the time, according to the prosecution."
+        },
+        {
+          "type": "p",
+          "text": "Hatfield said the near-vertical trajectory of the bullet through the floor spoke to a controlled shot through Baird’s temple, with the prosecutor calling it an “execution-style shot”."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "The timing between the two shots allowed only for a quick two to three steps, the crown prosecutor told the court."
+        },
+        {
+          "type": "p",
+          "text": "“Not the bizarre wrestling and yanking the accused has described,” Hatfield said."
+        },
+        {
+          "type": "p",
+          "text": "At this point, Davies must have realised something was “seriously amiss”, the prosecutor said, and attempted to call triple zero."
+        },
+        {
+          "type": "p",
+          "text": "There was no doubt he was then killed by a bullet that passed through the door and into his head, Hatfield said, telling the court there was gunshot stippling on the door but not the body."
+        },
+        {
+          "type": "p",
+          "text": "Aspects of the defence’s case, that Baird lunged at Lamarre-Condon with a knife and that Davies picked up the gun and pointed it at the accused, came only from the former officer himself, Hatfield said."
+        },
+        {
+          "type": "p",
+          "text": "“Nothing independent of him supports any of what he said about those events,” Hatfield told the jury."
+        },
+        {
+          "type": "p",
+          "text": "The trial before Justice Natalie Adams continues."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "abs-i8522q",
@@ -1140,7 +2526,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
     },
     {
       "id": "rap-twwrfe",
@@ -2282,7 +3668,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-o7dygk",
@@ -5627,158 +7013,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-tgh0c1",
-      "source": "inq",
-      "title": "Beijing bolsters South China Sea push with new island runway – analysts",
-      "summary": "TOKYO, Japan — China is building a runway on another island in the disputed South China Sea that could significantly strengthen its military footprint in the strategic waterway, according to experts…",
-      "byline": "cbuban",
-      "section": "",
-      "published": "2026-11-18T21:52:00.000Z",
-      "firstSeen": "2026-11-18T22:01:01.309Z",
-      "url": "https://www.inquirer.net/496248/beijing-bolsters-south-china-sea-push-with-new-island-runway-analysts-2/",
-      "image": {
-        "src": "https://www.inquirer.net/wp-content/uploads/2026/11/News1332300-620x465.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TOKYO, Japan — China is building a runway on another island in the disputed South China Sea that could significantly strengthen its military footprint in the strategic waterway, according to experts and satellite images seen by Agence France-Presse (AFP)."
-        },
-        {
-          "type": "p",
-          "text": "Beijing claims most of the South China Sea, despite an international ruling that its assertion has no legal basis, and confrontations have occurred regularly with several Southeast Asian nations over control of the Paracel and Spratly Islands."
-        },
-        {
-          "type": "p",
-          "text": "Both island chains are essentially made up of reefs and outcrops, but analysts say China has been steadily reclaiming land and building infrastructure to gain military control of the sea."
-        },
-        {
-          "type": "p",
-          "text": "Beijing late last year began large-scale dredging and reclaiming land at Antelope Reef in the Paracel Islands, which are claimed by China, Vietnam and Taiwan, the Center for Strategic and International Studies (CSIS) and the Lowy Institute said in recent detailed reports, citing satellite images."
-        },
-        {
-          "type": "h",
-          "text": "Important outpost"
-        },
-        {
-          "type": "p",
-          "text": "Lowell Bautista, author of the Lowy Institute report, told AFP that China transformed the reef in 10 months from one of its smallest Paracel outposts into an island that can rival its largest atoll."
-        },
-        {
-          "type": "p",
-          "text": "The nearly 3-kilometer runway on Antelope Reef would be Beijing’s second in the Paracels and—together with infrastructure on the Spratly Islands and on Hainan Island—helps “create an integrated network of runways, harbors and sensors stretching across the sea,” Bautista said."
-        },
-        {
-          "type": "p",
-          "text": "China and Vietnam fought a brief but bloody skirmish over the Paracels in 1974. More than 70 Vietnamese soldiers were killed and China has had de facto control over the islands since then."
-        },
-        {
-          "type": "p",
-          "text": "The runway is a similar size to an airstrip on the Paracels’ Woody Island and three others across the Spratlys, according to CSIS."
-        },
-        {
-          "type": "h",
-          "text": "Civilian purposes"
-        },
-        {
-          "type": "p",
-          "text": "Analysts say Antelope—which is around 6 kilometers along its northwest-southeast axis—could become one of China’s most important outposts in the South China Sea, potentially helping Beijing limit the access of US and allied naval forces in the event of conflict."
-        },
-        {
-          "type": "p",
-          "text": "China says the development of the Paracel Islands, which it adds have a small resident population of mostly fishers, is for civilian purposes."
-        },
-        {
-          "type": "h",
-          "text": "‘Full control’ of sea"
-        },
-        {
-          "type": "p",
-          "text": "A spokesperson for the foreign ministry said in March that China’s land reclamation activities there are “necessary construction” for “improving living and working conditions on the islands and growing the local economy.”"
-        },
-        {
-          "type": "p",
-          "text": "A structure that appears to be a runway is clearly visible in photos taken in September by Earth imaging company Planet Labs."
-        },
-        {
-          "type": "p",
-          "text": "The images were reviewed as part of a recent report by Japanese intelligence firm Deep Dive and were also seen by AFP."
-        },
-        {
-          "type": "p",
-          "text": "Deep Dive director Bonji Ohara, a former defense attaché in China, said in the report that the structure would be able to handle not just fighter jets but also larger aircraft, including transport planes, aerial refueling tankers and bombers."
-        },
-        {
-          "type": "p",
-          "text": "The new runway could potentially bring China closer to achieving “full control over the entire South China Sea,” he said."
-        },
-        {
-          "type": "p",
-          "text": "CSIS has said that Antelope could enhance the reach of Chinese sensing capabilities closer to Vietnam’s shores and help expand its military capacity in an area of the northern South China Sea which is close to major shipping lanes."
-        },
-        {
-          "type": "p",
-          "text": "Antelope Reef’s runway is expected to be operational by mid-2027, although other analysts were more cautious about its significance."
-        },
-        {
-          "type": "p",
-          "text": "The runway and harbor will “add additional capacity and resilience to the facility that enable China’s military and paramilitary operations in the South China Sea,” Harrison Pretat, deputy director at CSIS’s Asia Maritime Transparency Initiative, told AFP."
-        },
-        {
-          "type": "h",
-          "text": "Limited pushback"
-        },
-        {
-          "type": "p",
-          "text": "But “Southeast Asian claimants have still largely maintained access to offshore resources and occupy their own outposts,” he said."
-        },
-        {
-          "type": "p",
-          "text": "Nevertheless, Pretat warned that “international attention and pushback … has been far less than might be expected given the scale and significance” of construction, due in part “to distraction from other global crises.”"
-        },
-        {
-          "type": "p",
-          "text": "“Regional countries … along with the United States and the international community, should be speaking with a stronger voice against island building and other attempts to permanently alter conditions in disputed areas,” he said."
-        },
-        {
-          "type": "h",
-          "text": "‘Completely illegal’"
-        },
-        {
-          "type": "p",
-          "text": "Vietnam in August called construction at Antelope Reef “completely illegal” and demanded “such activities cease immediately.”"
-        },
-        {
-          "type": "p",
-          "text": "And in October, Australian Defense Minister Richard Marles said that China’s military buildup was creating a “condition of pressure” in Southeast Asia, and urged allies and partners to deepen cooperation."
-        },
-        {
-          "type": "p",
-          "text": "But Hunter Marston of the Lowy Institute told AFP that “Asean (Association of Southeast Asian Nations member-states) will never be capable of communicating with one voice” due partly to their different views of China."
-        },
-        {
-          "type": "p",
-          "text": "US ally the Philippines has been engaged in years of confrontations with China over disputed areas of the sea, and Filipino and Chinese ships have engaged in repeated confrontations in recent years, some leading to collisions and injuries."
-        },
-        {
-          "type": "p",
-          "text": "Ohara said that Beijing views the sea as “a sanctuary … where it does not want foreign powers to enter in the event of a contingency” in the region."
-        },
-        {
-          "type": "p",
-          "text": "“While it will not restrict freedom of navigation in peacetime, if some incident occurs, China intends to prevent not only US naval forces but also those of its allies—for example, Australian submarines—from entering,” he said. /cb"
-        },
-        {
-          "type": "p",
-          "text": "For comprehensive coverage, in-depth analysis, visit our special page for West Philippine Sea updates. Stay informed with articles, videos, and expert opinions."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "inqn-1av70tj",
       "source": "inqn",
       "title": "Sara Duterte: Corruption a ‘progressive disease’ embedded in gov’t",
@@ -6654,31 +7888,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1p3sd6o",
-      "source": "inqn",
-      "title": "Cagayan de Oro students stage a walkout vs Pax Silica",
-      "summary": "CAGAYAN DE ORO CITY — Students, faculty and staff of Xavier University-Ateneo de Cagayan walked out of their classrooms Tuesday and conducted a campus-wide noise barrage. They are protesting the…",
-      "byline": "clopez",
-      "section": "Latest News Stories",
-      "published": "2026-11-18T21:10:58.000Z",
-      "firstSeen": "2026-11-18T13:31:01.614Z",
-      "url": "https://newsinfo.inquirer.net/2343468/cagayan-de-oro-students-stage-a-walkout-vs-pax-silica",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Xavier-University-students-protest.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "CAGAYAN DE ORO CITY — Students, faculty and staff of Xavier University-Ateneo de Cagayan walked out of their classrooms Tuesday and conducted a campus-wide noise barrage. They are protesting the US-led Pax Silica initiative and what is seen as a creeping specter of US imperialism. “This is an important expression of student and youth participation,"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "cbc-51g323",
       "source": "cbc",
       "title": "If Quebecor buys Telus, less competition could mean higher cellphone bills, experts say",
@@ -7314,70 +8523,6 @@
         {
           "type": "p",
           "text": "This article was translated from German."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-59rkrg",
-      "source": "grd",
-      "title": "PlayStation suffers widespread network problems hours before release of GTA VI",
-      "summary": "<p>Disruption comes at critical moment, with Grand Theft Auto VI one of the most eagerly anticipated titles in history</p><p>PlayStation has suffered widespread network problems just hours before the…",
-      "byline": "Marina Dunbar",
-      "section": "PlayStation",
-      "published": "2026-11-18T20:28:42.000Z",
-      "firstSeen": "2026-11-18T21:01:01.691Z",
-      "url": "https://www.theguardian.com/games/2026/nov/18/playstation-down-grand-theft-auto-vi-game-release",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/bd09cb7f2214cc6b9a941223e83cc6a10d1131fd/552_0_5493_4397/master/5493.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=9f537a4477e1396d49f73415d1d8fa22",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PlayStation has suffered widespread network problems just hours before the release of Grand Theft Auto VI, one of the most eagerly anticipated titles in recent gaming history."
-        },
-        {
-          "type": "p",
-          "text": "The disruption emerged Wednesday, causing frustrated players to flood social media with complaints about failed logins and server connection problems downloading games and updates."
-        },
-        {
-          "type": "p",
-          "text": "PlayStation’s official network status page acknowledged problems affecting its gaming and social services, which has left players struggling to access online features."
-        },
-        {
-          "type": "p",
-          "text": "“You might have difficulty launching games, apps, or network features. We’re working to resolve the issue as soon as possible. Thank you for your patience,” the alert read."
-        },
-        {
-          "type": "p",
-          "text": "Many affected users said their internet connections were working normally, suggesting the problems were specifically affecting PlayStation’s online services. Some PS5 owners said that their consoles successfully completed internet connection tests, only for the “Sign in to online services” check to fail."
-        },
-        {
-          "type": "p",
-          "text": "The scale of the disruption was reflected on Downdetector, a website that tracks real-time service outages, which cited 1,228 user reports of PlayStation outages by Wednesday afternoon."
-        },
-        {
-          "type": "p",
-          "text": "The website monitors disruptions using reports submitted by users, with sudden spikes potentially indicating that large numbers of people are experiencing similar technical difficulties. The reports do not independently confirm the extent of an official outage, however."
-        },
-        {
-          "type": "p",
-          "text": "Although no official cause has been established, the timing of the problems has raised questions about whether the issue could be linked to a recently released PS5 software update. Sony announced Tuesday evening that it had rolled out a system software update required for users planning to play GTA VI."
-        },
-        {
-          "type": "p",
-          "text": "Sony’s official troubleshooting advice recommends that affected players examine their system software and internet connections."
-        },
-        {
-          "type": "p",
-          "text": "The disruption comes at a critical moment for PlayStation users, with GTA VI scheduled to launch at midnight Thursday."
-        },
-        {
-          "type": "p",
-          "text": "GTA VI is being lauded as the most anticipated game in history. The hype for the latest installment of the iconic GTA franchise, the first new game in 13 years, is so high that a steady stream of news coverage has already suggested it heralds economic catastrophe due to workers taking time off to play the game."
         }
       ],
       "truncated": false,
@@ -8468,70 +9613,6 @@
         {
           "type": "p",
           "text": "Rachel Reeves, the former chancellor, has also said Britain’s future should be back in the bloc, arguing that leaving had made the UK “poorer, weaker and less secure”."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-4so3lw",
-      "source": "grd",
-      "title": "FAA administrator urges ‘lay off’ Sean Duffy for the flight stoppage: ‘Blame me’",
-      "summary": "<p>The comments come as the top US transportation official faces scrutiny over his handling of the tech outage crisis</p><p>The head of the Federal Aviation Administration (FAA) took responsibility…",
-      "byline": "Ariana Baio",
-      "section": "Air transport",
-      "published": "2026-11-18T19:14:38.000Z",
-      "firstSeen": "2026-11-18T19:31:04.736Z",
-      "url": "https://www.theguardian.com/world/2026/nov/18/faa-sean-duffy-flight-stoppage",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/4616ce07e7f4de93e722db12aac9bc8b412424c5/0_0_4183_3346/master/4183.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=f371062e4069fc225f68db85be5fe6f9",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The head of the Federal Aviation Administration (FAA) took responsibility for the nationwide ground stop that affected more than 12,400 flights on Friday, urging people to “lay off” Sean Duffy, the transportation secretary."
-        },
-        {
-          "type": "p",
-          "text": "“I take full responsibility for it,” Bryan Bedford, the FAA administrator, said at an event featuring aviation officials and lawmakers on Wednesday, Politico reported."
-        },
-        {
-          "type": "p",
-          "text": "“I wish people would lay off the secretary,” Bedford added. “He’s got a lot of work to do, but I’m the guy they hired to get this done. So blame me if we need to blame somebody. Blame me.”"
-        },
-        {
-          "type": "p",
-          "text": "The FAA administrator’s comments arrived as Duffy, the top transportation official in the US, faces scrutiny from former officials and lawmakers over his handling of the tech outage crisis, which left tens of thousands of travelers stranded over the weekend."
-        },
-        {
-          "type": "p",
-          "text": "In a press conference on Friday, Duffy refused to accept responsibility or apologize for the crisis, blaming Democratic lawmakers and his predecessors for not providing the funding to upgrade outdated systems."
-        },
-        {
-          "type": "p",
-          "text": "The FAA said it grounded all flights after a newly installed router flooded communication systems, causing issues between aircraft systems and radar feeds."
-        },
-        {
-          "type": "p",
-          "text": "Trump administration officials have emphasized that the tech outage at the FAA was not caused by a cybersecurity attack and was unrelated to other disruptions."
-        },
-        {
-          "type": "p",
-          "text": "Jay Clayton, director of national intelligence, testified on Wednesday that there was no indication the outage was the result of a malicious actor or connected to similar disruptions that have affected banks and major companies. He said the outages were caused by patches – modifications to systems to address issues such as security vulnerabilities."
-        },
-        {
-          "type": "p",
-          "text": "But lawmakers, including some Republicans, have grown frustrated with Duffy after he and the White House asked Congress to provide $50bn in funding to upgrade the air traffic system, more than double what was originally estimated."
-        },
-        {
-          "type": "p",
-          "text": "Some GOP lawmakers told reporters the justification behind the large sum of money was thin."
-        },
-        {
-          "type": "p",
-          "text": "But Bedford argued the investment was necessary on Wednesday, claiming Donald Trump and Duffy believed the outage was a “call to action” to “fix the system” and “return to the gold standard”."
         }
       ],
       "truncated": false,
@@ -13751,86 +14832,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "rap-rm4m2t",
-      "source": "rap",
-      "title": "AI a &#8216;growing concern&#8217; at ASEAN&#8217;s parliamentary org, but no concrete measures yet",
-      "summary": "'Artificial intelligence is advancing faster than many of our laws can keep pace with. No single parliament can manage these challenges alone,' House Speaker Bojie Dy tells ASEAN parliamentarians",
-      "byline": "Dwight de Leon",
-      "section": "Editors' Pick",
-      "published": "2026-11-18T12:21:35.000Z",
-      "firstSeen": "2026-11-18T12:30:57.392Z",
-      "url": "https://www.rappler.com/philippines/artificial-intelligence-growing-concern-asean-inter-parliamentary-assembly-november-2026/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/11/aipa-2026-bojie-dy.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "ADDRESS. House Speaker Bojie Dy delivers a speech at the opening ceremony of the ASEAN Inter-Parliamentary Assembly General Assembly in Manila on November 18, 2026."
-        },
-        {
-          "type": "p",
-          "text": "AIPA Philippines 2026 on Facebook"
-        },
-        {
-          "type": "p",
-          "text": "'Artificial intelligence is advancing faster than many of our laws can keep pace with. No single parliament can manage these challenges alone,' House Speaker Bojie Dy tells ASEAN parliamentarians"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "The ASEAN parliamentary body is increasingly concerned about the rapid advancement of artificial intelligence and the need for a collaborative regional approach to address its challenges.",
-            "While the ASEAN Inter-Parliamentary Assembly can influence member states to adopt regional commitments, any resolutions passed are non-binding and cannot enforce legislation."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "This is AI-generated. Read the article for full context. Report any errors."
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – The persistent threat of artificial intelligence (AI) is a cloud hanging over the parliamentary body of the Association of Southeast Asian Nations (ASEAN), but uncertainty remains over any concrete measure to approach the subject."
-        },
-        {
-          "type": "p",
-          "text": "“It’s a concern for everybody, it’s a growing concern, and I think it cannot be addressed by one country. It has to be a concerted effort among the regions and other countries to be able to make sure that this is not abused,” House Senior Deputy Speaker Ferdinand Hernandez, head of the Philippine delegation for the ASEAN Inter-Parliamentary Assembly, said on the sidelines of the AIPA on Wednesday, November 18."
-        },
-        {
-          "type": "p",
-          "text": "“Artificial intelligence is advancing faster than many of our laws can keep pace with. No single parliament can manage these challenges alone,” House Speaker Bojie Dy, current AIPA president, also said in his opening speech."
-        },
-        {
-          "type": "p",
-          "text": "Hernandez, however, sidestepped questions about whether a resolution on AI was being drafted during the AIPA general assembly, but said any effort will be “patterned on what transpired in the ASEAN.”"
-        },
-        {
-          "type": "p",
-          "text": "In 2025, the ASEAN adopted a declaration in Kuala Lumpur establishing an ASEAN AI Safety Network, a regional mechanism aimed at promoting collaboration among member states and addressing cross-border AI risks."
-        },
-        {
-          "type": "p",
-          "text": "AIPA, as a regional parliamentary bloc, is not as powerful as the European Parliament. Any resolution passed during the general assembly is non-binding, which means it cannot force member parliaments to pass legislation back home."
-        },
-        {
-          "type": "p",
-          "text": "AIPA, however, can still exercise influence by encouraging member parliaments to adopt regional commitments in their own countries."
-        },
-        {
-          "type": "p",
-          "text": "Concerns about AI come as the Philippines’ hosting of ASEAN was met with massive protests against the US-led initiative Pax Silica, which will lead to the construction of a 1600-hectare AI industrial hub in New Clark City. The project is feared to displace hundreds of indigenous peoples and farmers, according to Human Rights Watch."
-        },
-        {
-          "type": "p",
-          "text": "Only Singapore and the Philippines are ASEAN signatories to the Pax Silica initiative so far. – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1phflt4",
       "source": "abs",
       "title": "TV PATROL: 2 suspek sa pamamaril sa babae sa Taguig arestado; droga posibleng motibo",
@@ -13873,269 +14874,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "rap-4ig1j4",
-      "source": "rap",
-      "title": "Why the Lopez cousins are breaking up — and what other feuding dynasties teach us",
-      "summary": "Is keeping a family business together always worth the cost?",
-      "byline": "Lala Rimando",
-      "section": "Business",
-      "published": "2026-11-18T12:08:09.000Z",
-      "firstSeen": "2026-11-18T12:30:57.926Z",
-      "url": "https://www.rappler.com/business/why-lopez-cousins-breaking-up-what-lessons-family-feud-dynasties/",
-      "image": {
-        "src": "https://www.youtube.com/embed/WhY18mWD7iw",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "What happens when the people you inherited a business with are also the people you can no longer work with? You can quit a job, sell your shares, or find a new business partner. But what if that partner is your brother, sister, cousin, or parent, and the company is something your grandparents spent their lives building?"
-        },
-        {
-          "type": "p",
-          "text": "I have covered Philippine business families for most of my journalism career, interviewing relatives locked in battles over ownership, leadership, inheritance, and family land. Some disputes were already playing out in court, while others were waged quietly behind closed boardroom doors even as the companies kept running. As the feud between cousins Federico “Piki” Lopez and Eugenio “Gabby” Lopez III unfolded this year, I found myself returning to those stories, my interview notes, and reading Harvard Business Review research on why family businesses fight and how some survive. In June, I joined family-business adviser Enrique Soriano in an online forum with business owners across Asia to discuss why even wildly successful dynasties break apart."
-        },
-        {
-          "type": "p",
-          "text": "The Lopez cousins are hardly the first wealthy family to face this problem. India’s Ambani brothers split up the Reliance empire their father built, while the Ortigases fought over control of their real estate business. In Singapore, a father accused his son of trying to take over the board of one of the country’s biggest property developers. Some families eventually called a truce. Others decided they could no longer be business partners, and still fought for years, burning through cash on lawyers and leaving the next generation to clean up the mess."
-        },
-        {
-          "type": "p",
-          "text": "All of this brought me back to one big question: Is keeping a family business together always worth the cost?"
-        },
-        {
-          "type": "p",
-          "text": "For decades, the Lopez name has been tied to some of the Philippines’ most famous companies: ABS-CBN, Meralco, Benpres (now Lopez Holdings), First Philippine Holdings, First Gen, and Rockwell Land. The businesses changed over time, yet the family stayed connected to an empire their elders built, lost, won back, and rebuilt."
-        },
-        {
-          "type": "p",
-          "text": "Under Oscar Lopez‘s leadership, the family published Phoenix, a book about how they bounced back from hard times. Piki wanted a different symbol for the next chapter: not the phoenix, which rises again after being destroyed, but the butterfly, which transforms into something completely new. He has also talked a lot about compounding, the idea that smart decisions made consistently over decades pay off far more than quick wins. In his September speeches to stockholders, he stressed that “direction matters more than speed,” pointing to the group’s decision ten years earlier to stop building coal-fired power plants even when coal was still making good money."
-        },
-        {
-          "type": "p",
-          "text": "That mindset explains Piki’s game plan for First Gen’s energy investments. He believes the company must prepare for a power market that relies more and more on renewable energy. His cousins have questioned whether the bets he’s making are worth the massive price tag, risks, and years of waiting. They have also challenged his authority to make those calls on his own. Gabby and his allied cousins wanted something very different: immediate cash flow and shared family stewardship over a distressed media mission—ABS-CBN—that could not afford to wait until 2031 for long-gestation hydro projects to pay off."
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2026/04/PIKI-VS-CLK-TOWNHALL-APRIL-18-2026.jpg?fit=449%2C449",
-          "caption": "EXCLUSIVE: Inside Piki Lopez’s town hall as cousins rally for ABS-CBN"
-        },
-        {
-          "type": "p",
-          "text": "The fight turned public and personal. In April, majority owners of Lopez Inc.—representing three of the four branches of the family—accused Piki of acting “like a king without accountability,” questioning First Gen’s deals with Enrique Razon Jr.’s Prime Infrastructure, including selling control of its natural-gas business and investing in water-pumping hydropower projects. The majority group later called the hydropower bet “a horrible deal.” First Gen pushed back on those claims, defending the business logic, pricing, and board approvals behind its deals."
-        },
-        {
-          "type": "p",
-          "text": "The cousins reached a ceasefire in May, but it didn’t hold, and by August, Gabby’s branch sold its 25.68% share in Lopez Inc., the private holding company sitting at the very top of the family empire, to businessman Ramon Ang for about P11.56 billion. Meanwhile, ABS-CBN lined up fresh funding. Piki then locked down control of the boards of Lopez Holdings and First Philippine Holdings (FPH), the two companies that hold the group’s stakes in First Gen and geothermal giant Energy Development Corporation (EDC). In November, FPH approved the proposed P15.92-billion sale of its 90.74% controlling stake in Rockwell Land to Gabby’s branch’s investment firm, Crème Investment Corporation, a deal that is still waiting to close. (READ: What it took to save ABS-CBN)"
-        },
-        {
-          "type": "p",
-          "text": "Taken together, these deals suggest the cousins are moving toward a future where they no longer have to agree on how to run the same businesses."
-        },
-        {
-          "type": "p",
-          "text": "But is splitting up actually better than staying together?"
-        },
-        {
-          "type": "p",
-          "text": "One family owner wants bigger cash payouts today, while the relative running the company wants to plow back those profits into growing the business. Another thinks they should sell the company while buyers are offering a good price, while someone else wants to save it for the grandkids. One wants to ride out an industry slump, convinced a struggling business will bounce back, while another wants to stop pouring money into what looks like a sinking ship, especially when that cash could fund a different business that takes years of heavy spending before turning a profit."
-        },
-        {
-          "type": "p",
-          "text": "Yet each walks away believing the others are greedy, reckless, or unreasonable. The real trouble starts when the people around the boardroom table aren’t just ordinary investors, but siblings who grew up competing for their parents’ and uncles’ attention, cousins who feel their branch of the family sacrificed more, or heirs who remember the founder’s wishes differently."
-        },
-        {
-          "type": "p",
-          "text": "Josh Baron and Rob Lachenauer, who advise business families and write for Harvard Business Review, explain how everyday business arguments turn deeply personal. In Why Fights Erupt in Family Businesses, they show how fights over money, power, and status get tangled up with family history. An argument over company spending can bring back old resentment over unequal treatment. A fight over who gets to be CEO can reopen old arguments about favoritism. Selling a company might look like a smart opportunity to one relative and a betrayal of the family legacy to another."
-        },
-        {
-          "type": "p",
-          "text": "Soriano raised another complication during our webinar: many family businesses stay united for decades simply because one strong founder or family elder can settle all the arguments. Relatives might not like every decision, yet they accept the leader’s authority. Once that leader passes away, the next generation realizes it has inherited not only the businesses, but also old disagreements that were never truly resolved."
-        },
-        {
-          "type": "p",
-          "text": "The Lopezes had larger-than-life leaders in Eugenio “Geny” Lopez Jr. and his brother Oscar, who died in 1999 and 2023, leaving their successors to figure out how to own and run surviving empires without those strong elders around to settle arguments."
-        },
-        {
-          "type": "p",
-          "text": "Other Philippine families have ended up in far messier wars."
-        },
-        {
-          "type": "p",
-          "text": "Take Banco Filipino, once the country’s biggest savings bank, famous for its slogan, “Subok na Matibay, Subok na Matatag (Tested Strong, Proven Stable).” Founded by Tomas Aguirre in 1964, the bank was shut down by the Central Bank in January 1985 before reopening in 1994 after the Supreme Court ruled the Central Bank had abused its power. But its headaches were far from over. It kept clashing with regulators over financial aid, its money troubles, and the fallout from its first shutdown."
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2026/11/Screenshot-2026-11-18-at-5.18.41-PM.png",
-          "caption": "BANCO FILIPINO. This spread in Newsbreak’s March 3, 2003 issue shows the late Don Tomas Aguirre (left) and his children, Ana Marie Aguirre-Koruga (upper right), and Albert “Bobby” Aguirre (bottom right) on a polo field. Rappler"
-        },
-        {
-          "type": "p",
-          "text": "At the same time, the Aguirre family was tearing itself apart from the inside. I covered the legal fight involving Ana Maria Aguirre-Koruga, a minority stockholder who sued the bank’s directors in 2003, including her own brother, Albert Aguirre, who was then vice chairman. She accused them of risky banking practices, conflicts of interest, and shady loans meant to enrich insiders. The directors denied the claims. In 2009, the Supreme Court ruled in Koruga v. Arcenas that her complaints belonged with the Bangko Sentral ng Pilipinas (BSP), not a regular trial court. That ruling only decided who had authority to hear the case, not whether her accusations were true. The bank shut down for good on March 17, 2011, under BSP orders. The state deposit insurer, Philippine Deposit Insurance Corporation, took over a bank with 62 branches, 173,480 accounts, and P17.8 billion in customer deposits. The family and regulators kept arguing over who was to blame. While the sibling feud wasn’t the sole reason Banco Filipino collapsed—its financial and regulatory problems ran much deeper—the family war played out inside a bank holding the life savings of thousands of ordinary Filipinos."
-        },
-        {
-          "type": "p",
-          "text": "The Ilusorio family feud got even more personal. Potenciano “Nanoy” Ilusorio built a multi-billion-peso empire anchored by prime real estate, the pioneering satellite firm Philcomsat, and the exclusive Baguio Country Club. But by 1999, his six children had split into rival camps over their parents, the family fortune, and who should be in charge. When Nanoy grew old and frail, some of his children took him under their care, prompting their mother, Erlinda Kalaw-Ilusorio, to sue them for allegedly keeping her husband away from her, a battle the Supreme Court dismissed in 2001 as the “sad tale of a prominent family shattered by conflicts on expectancy in fabled fortune.” (READ: What drives people to declare war against their own flesh and blood?)"
-        },
-        {
-          "type": "p",
-          "text": "Even Nanoy’s death in June that year didn’t stop nearly 300 civil and criminal lawsuits filed between the rival camps, and according to an account Soriano published in 2016, some children only found out of Erlinda’s death four days later, leading to separate funerals. At one service, the urn reportedly held Nanoy’s ashes because another branch of the family kept Erlinda’s. Another service reportedly barred three of the sisters at the door with security guards."
-        },
-        {
-          "type": "p",
-          "text": "A fight that started over money and power had reached the point where children could not even mourn their parents together."
-        },
-        {
-          "type": "p",
-          "text": "In other prominent Philippine clans, the fracture began not at a parent’s deathbed, but when siblings began questioning how a brother or sister was managing inherited assets—turning boardroom suspicions into criminal complaints and proxy wars."
-        },
-        {
-          "type": "p",
-          "text": "For the Jacintos, who built their wealth in steel, banking, and real estate, also fought over their inheritance. After their patriarch, Fernando Jacinto died, his children clashed over how family properties were being managed and sold. Musician and businessman Ramon “RJ” Jacinto stepped in after relatives questioned real estate deals handled by their sister Marilene, who was running parts of the family business. One fight centered on a large property in Misamis Oriental sold in 2007 for P226 million, which RJ’s camp argued was far below its appraised value. Another involved a Novaliches property reportedly worth about P300 million. Acting as president of family-owned Oregon Land Inc., RJ accused Marilene of faking a deed to transfer the land. Prosecutors charged her in 2012 with falsifying public documents, an accusation that led to criminal proceedings, though not a conviction. The feud showed how inheritance fights can quickly spiral into claims of betrayal and criminal charges between brothers and sisters. (READ: Shaping the future: Family legacies)"
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2025/02/IMG_3007.jpeg?fit=449%2C300",
-          "caption": "Family feud: Court ruling saves Olivia Yanson’s share in PH’s biggest transport fleet"
-        },
-        {
-          "type": "p",
-          "text": "In the Yanson family, the trigger was a boardroom ouster over who would run the business. They parents founded Vallacar Transit Inc. and the Ceres bus empire, considered among the largest bus conglomerates in Southeast Asia with about 5,000 buses ferrying 700,000 to 850,000 passengers in routes across Visayas and Mindanao regions. In July 2019, four siblings—Roy, Emily, Ricardo Jr., and Ma. Lourdes Celina Yanson-Lopez—tried to oust their youngest brother, Leo Rey Yanson, from running the bus group. Their mother, Olivia Yanson, sided with Leo Rey and Ginette, splitting the family into Yanson 4 and Yanson 2 camps. They fought over who had the right to elect board directors and run the company, triggering lawsuits and battles over company records. In 2025, the Supreme Court said Olivia was mentally sound when she executed her will that designated the Yanson 2 camp as the righful heirs of their family business empire. The family still hasn’t reached the kind of broad peace deal needed to put the feud behind them. (READ: Yanson family feud gets uglier as court brands 4 siblings ‘fugitives from justice’)"
-        },
-        {
-          "type": "p",
-          "text": "This family drama resonated elsewhere in Asia where South Korea’s Lotte Group—the retail, hospitality, and confectionery giant behind Asia’s largest department stores, luxury hotels, and iconic snacks—became the stage for a succession war between brothers Shin Dong-joo and Shin Dong-bin, sons of founder Shin Kyuk-ho. The business giant had major operations in both Japan and South Korea. Dong-joo, the older brother, was prominent in Japan, while Dong-bin ran much of the Korean side. After Dong-joo lost top posts in Japan in late 2014 and early 2015, the brothers erupted into a public war over who had their father’s blessing and who should lead the empire. Their elderly father was pulled straight into the crossfire. At one point, Shin Kyuk-ho backed his eldest son, prompting Dong-bin’s camp to question whether their father was still mentally fit to make decisions. The brothers battled through shareholder votes, lawsuits, and press statements, turning their father’s mental health and legal guardianship into a court case. Dong-bin eventually won over shareholders and kept control, though Dong-joo kept fighting him. Instead of splitting the empire in two, one brother walked away with control of the main group."
-        },
-        {
-          "type": "image",
-          "src": "https://img.youtube.com/vi/WhY18mWD7iw/hqdefault.jpg",
-          "caption": "Why the Lopez cousins are breaking up — and what other feuding dynasties teach us"
-        },
-        {
-          "type": "p",
-          "text": "The Shin feud proved a hard truth: being the founder’s son, even being the oldest, doesn’t guarantee inheriting the throne."
-        },
-        {
-          "type": "p",
-          "text": "In Singapore, the Kwek family— the powers behind iconic skyscrapers, luxury condos, and over 160 hotels worldwide—showed how quickly a disagreement between a father and son could move from the family boardroom into the headlines. In February 2025, City Developments executive chairman Kwek Leng Beng accused his son, chief executive Sherman Kwek, of attempting a boardroom “coup” by bypassing governance rules to appoint independent directors, prompting the elder Kwek to go to court to fire his son. Trading in City Developments shares was suspended as the confrontation became public. For a listed property developer, the dispute raised questions that went beyond the relationship between father and son: Who had the authority to appoint directors? Were corporate procedures being followed? And could the company continue operating effectively while its chairman and chief executive were fighting?"
-        },
-        {
-          "type": "p",
-          "text": "Yet the confrontation ended relatively quickly. On March 12, 2025, City Developments announced that the court proceedings had been settled and would be discontinued. Kwek Leng Beng remained executive chairman and Sherman remained chief executive, while the two newly appointed independent directors whose appointments had sparked the dispute, Jennifer Duong Young and Wong Su-Yen, stepped down. Singapore’s Straits Times later reported that trusted family friends and senior figures had helped mediate the truce. The company continued under the same family leadership, although the settlement did not necessarily mean that every personal disagreement had been resolved."
-        },
-        {
-          "type": "p",
-          "text": "Here in the Philippines, the Ortigas family—the landed dynasty behind Ortigas Center and Greenhills—also managed to save its core property business after years of infighting. At stake was OCLP Holdings, which controls prime Ortigas land, Greenhills Shopping Center, and Tiendesitas. To gain an edge, rival branches teamed up with competing giants: the Rafael Ortigas group with Ayala Land, and the Francisco Ortigas group with SM Prime Holdings. The battle spilled into court over board elections and whether nominees tied to a rival developer could hold seats."
-        },
-        {
-          "type": "p",
-          "text": "Those divisions let Ayala and SM deepen their footholds in a fractured enterprise. In November 2014, the developers and Ortigas factions dropped their lawsuits and agreed to work together. The family kept its landholdings intact rather than carving them up, though peace came at a steep price: bringing in powerful giants handed outsiders major influence over an empire that had belonged to the Ortigas family for generations."
-        },
-        {
-          "type": "p",
-          "text": "There are strong business reasons to keep a family group intact. Companies under common ownership can share cash, talent, bank relationships, and leadership, allowing a stronger sister company to help a struggling one survive a rough patch or undertake massive investments too large for one branch alone. There is also the pull of family history, where a business built by a grandfather means far more to his grandkids than an ordinary stock investment, making a sale feel like erasing part of the family identity even when the financial math makes sense."
-        },
-        {
-          "type": "p",
-          "text": "Yet keeping a company together merely because the founder wanted it kept together can create another problem: What happens when the next generation no longer agrees on what the business should do?"
-        },
-        {
-          "type": "p",
-          "text": "Adviser Josh Baron has argued in Why Family Businesses Need to Find the Right Level of Conflict that avoiding disagreement is actually unhealthy. Families must debate tough questions rather than letting owners quietly stew over decisions they feel powerless to change. When relatives can still negotiate and compromise, staying together preserves huge value. But when every investment, dividend payout, job appointment, or asset sale becomes another war for control, the cost becomes far too high."
-        },
-        {
-          "type": "p",
-          "text": "India’s Ambani family decided that the brothers were simply better off running different companies. (READ: Timeline: Key dates in India’s Ambani brothers’ dispute)"
-        },
-        {
-          "type": "p",
-          "text": "After founder Dhirubhai Ambani died in 2002 without leaving a will, his sons Mukesh and Anil fought publicly over who would control Reliance Industries—India’s largest private-sector conglomerate, spanning petrochemicals, refining, telecom, and retail—until their mother, Kokilaben, stepped in to broker a June 2005 peace deal. Mukesh kept Reliance Industries and its core oil and chemical operations, while Anil took charge of telecom, power, and financial services. But it didn’t stop every argument as the brothers later fought over natural-gas supply deals in a battle that reached India’s Supreme Court. Still, they no longer had to agree on every single investment or management call."
-        },
-        {
-          "type": "p",
-          "text": "India’s Bajaj family—one of the country’s oldest business dynasties, famous for putting India on wheels as a motorcycle, scooter, and financial services powerhouse—also split up its companies among different branches after years of fighting. Under a 2008 settlement, Shishir Bajaj’s branch took control of businesses like Bajaj Hindusthan and Bajaj Consumer Care, while other family branches kept the group’s core auto, finance, and industrial companies."
-        },
-        {
-          "type": "image",
-          "src": "https://img.youtube.com/vi/9jI4WnmKxcs/hqdefault.jpg",
-          "caption": "Why the Lopez cousins are breaking up — and what other feuding dynasties teach us"
-        },
-        {
-          "type": "p",
-          "text": "Splitting up let each branch follow its own game plan. Their paths quickly diverged: the core Bajaj businesses boomed, while Bajaj Hindusthan struggled with heavy debt and a tough sugar market. Dividing the empire ended the fight over who was in charge, but it didn’t guarantee that both sides would win."
-        },
-        {
-          "type": "p",
-          "text": "In Hong Kong, Walter Kwok was pushed out as leader of Sun Hung Kai Properties—the real estate titan behind the city’s tallest skyscrapers, luxury malls, and housing estates—in 2008 after clashing with his brothers Thomas and Raymond over how to run the empire. The battle pulled in their mother, Kwong Siu-hing, and tangled up the family trusts. Walter lost his executive job, though he didn’t lose his financial slice of the family fortune. He went on to start his own property company, Empire Group Holdings, while new trust rules spelled out each brother’s share of the family wealth."
-        },
-        {
-          "type": "p",
-          "text": "Taking a different path is the Murdoch family—the real-life inspiration behind HBO’s hit drama Succession, and the media dynasty behind Fox News, The Wall Street Journal, and major outlets across the US, UK, and Australia that have shaped elections and public debate for decades. After a court battle over the family trust controlling voting power in Fox Corporation and News Corp, a September 2025 settlement locked in Lachlan Murdoch’s future control. His three older siblings from 95-year-old Rupert Murdoch‘s first two marriages—Prudence MacLeod, Elisabeth Murdoch, and James Murdoch—walked away with huge payouts and exited the trust. Grace and Chloe, Murdoch’s two youngest daughters from his third wife, Wendi Deng, stayed on as financial beneficiaries under the new setup, but without the voting power given to Lachlan."
-        },
-        {
-          "type": "p",
-          "text": "Each of these families handled their split differently. The Ambanis and Bajajs divided up operating companies. Walter Kwok stepped out of management while keeping a financial stake. The Murdochs rewrote who holds voting control over their media empire. None of them offers a one-size-fits-all recipe for solving family feuds."
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2026/11/Screenshot_20261118_165007_Facebook.jpg?fit=1024%2C609",
-          "caption": "ADVICE. Enrique Soriano, family business consultant of the Wong & Bernstein  Group, speaks during a forum. Courtesy of the Wong & Bernstein Group"
-        },
-        {
-          "type": "p",
-          "text": "Enrique Soriano, who has advised business families across the Philippines and Asia, does not view such separations as failures, noting during our June webinar that relatives who can no longer work together are often better served by an orderly division of business interests so they can stop being business partners without stopping being family."
-        },
-        {
-          "type": "p",
-          "text": "Of course, that is much easier said than done. A family deciding to split still has to agree on who gets what, how much each company is worth, who takes on the debts, and what happens to shared properties. One relative might want out, only to find the others can’t afford to buy their shares. Another might want to keep control, but has to bring in an outside investor to help pay for the buyout."
-        },
-        {
-          "type": "p",
-          "text": "And a peace deal that satisfies the relatives doesn’t automatically work out for the everyday public investors who also have money riding on those companies."
-        },
-        {
-          "type": "p",
-          "text": "The Lopez cousins appear to be heading toward a more permanent split of their business interests, though whether that turns out well for their companies, outside stockholders, and the family itself will take years to see."
-        },
-        {
-          "type": "p",
-          "text": "Part 1 | The Lopez heirs who ran Rockwell but never controlled itPart 2 | Why Gabby Lopez wants Rockwell as ABS-CBN strugglesPart 3 | Why Piki Lopez is letting Rockwell go"
-        },
-        {
-          "type": "p",
-          "text": "Other business dynasties offer no easy answers: The Kweks and Ortigases found ways to keep their shared businesses intact after fierce battles, though both had to make major compromises. The Ambanis and Bajajs carved up their empires. The Kwoks and Murdochs separated day-to-day control from financial ownership. The Shin brothers’ succession war left one brother running Lotte, while the Aguirres, Ilusorios, Jacintos, and Yansons showed how family fights can spiral into years of lawsuits and lasting broken relationships and personal wounds."
-        },
-        {
-          "type": "p",
-          "text": "There is a world of difference between keeping a company together because the owners actually agree on its future, and keeping it together just because nobody wants to be blamed for breaking up the family empire. There is also a difference between splitting up to chase new ambitions and splitting it up just to stop a fight."
-        },
-        {
-          "type": "p",
-          "text": "For the Lopezes, going their separate ways may give each branch the freedom to focus on what it values most. Piki can concentrate on long-term energy bets, while Gabby and his allies can focus on lifestyle-related consumer and media businesses. Yet, that freedom brings new pressures, and success will depend on the choices each side makes next."
-        },
-        {
-          "type": "p",
-          "text": "A family can survive a corporate divorce. Its companies might even grow stronger because of it. Or the split could leave both sides worse off than before. But the real question isn’t just whether relatives should stay together or go their separate ways. It is whether the businesses, and all the people who depend on them, will actually be better off afterward. – Rappler.com"
-        },
-        {
-          "type": "p",
-          "text": "Part 2 on Thursday, November 19 | Dividing the Lopez empire: Who decides what a family business is worth?Part 3 on Friday, November 20 | Two cousins, two big bets: Will the Lopez split actually work?"
-        },
-        {
-          "type": "p",
-          "text": "Lala Rimando wrote about Philippine business, and managed newsrooms, including Newsbreak, ABS-CBN, Rappler, and Forbes, for over 25 years. She’s now based in La Union, taking care of her mom with dementia, and working on the multimedia biography of the late John Gokongwei."
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2026/08/The-day-Gabby-Lopez-said-%E2%80%98Were-done.jpg?fit=449%2C449",
-          "caption": "[Rappler’s Best] The day Gabby Lopez said, ‘We’re done’"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "feed"
     },
     {
       "id": "abs-1nuz9zz",
@@ -14537,98 +15275,6 @@
         {
           "type": "p",
           "text": "The CHR also said that its lawyers and investigators were also initially denied access to the Muntinluipa protestors at Camp Bagong Diwa. — VDV, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "rap-13ukt1",
-      "source": "rap",
-      "title": "NASA Voyager 1 probe believed to have reached &#8216;light-day&#8217; milestone",
-      "summary": "Officials at NASA's Jet Propulsion Laboratory in California will have to wait about a day to get a signal from the probe, confirming it has reached this distance",
-      "byline": "Reuters",
-      "section": "Earth & Space",
-      "published": "2026-11-18T11:17:28.000Z",
-      "firstSeen": "2026-11-18T11:30:57.258Z",
-      "url": "https://www.rappler.com/science/earth-space/nasa-voyager-1-probe-believed-reached-light-day-milestone/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/11/voyager-1-nasa-reuters-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "VOYAGER 1. An undated artist's concept shows NASA's Voyager 1 spacecraft."
-        },
-        {
-          "type": "p",
-          "text": "NASA/JPL-Caltech/Handout via Reuters"
-        },
-        {
-          "type": "p",
-          "text": "Officials at NASA's Jet Propulsion Laboratory in California will have to wait about a day to get a signal from the probe, confirming it has reached this distance"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "NASA's Voyager 1 probe has reached a distance of one light-day from Earth, approximately 16 billion miles, marking a significant milestone in space exploration.",
-            "Launched in 1977, Voyager 1 is the most distant human-made object and continues to send back scientific data from interstellar space, including measurements of magnetic fields and cosmic rays."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "This is AI-generated. Read the article for full context. Report any errors."
-        },
-        {
-          "type": "p",
-          "text": "WASHINGTON, DC, USA – NASA’s Voyager 1 probe is believed to have now hit a distance milestone accomplished by no other spacecraft from Earth, based on advance computations by the US space agency, as the probe ventures through the near-emptiness of interstellar space."
-        },
-        {
-          "type": "p",
-          "text": "The robotic probe, launched in 1977, was calculated by NASA to have reached a light-day from Earth, the distance that light travels in 24 hours — about 16 billion miles (26 billion km) — on Wednesday, November 18, at 5:16 am ET (1016 GMT)."
-        },
-        {
-          "type": "p",
-          "text": "Officials at NASA’s Jet Propulsion Laboratory in California will have to wait about a day to get a signal from the probe, confirming it has reached this distance. They have scheduled an event for Thursday, November 19, to discuss the milestone."
-        },
-        {
-          "type": "p",
-          "text": "“Reaching one light-day is an astounding feat, one that I never expected to see,” Voyager project manager Suzanne Dodd said."
-        },
-        {
-          "type": "p",
-          "text": "Voyager 1, the most distant human-made object, is flying at almost 38,000 miles per hour (61,000 kph). It crossed the outer edge of the heliosphere, a protective bubble of particles and magnetic fields produced by the sun, to enter ‌interstellar space ⁠in 2012. Its twin, Voyager 2, was also launched in 1977 and entered interstellar space in 2018."
-        },
-        {
-          "type": "p",
-          "text": "A Jet Propulsion Laboratory representative said recent power-saving measures could give the two Voyager spacecraft enough power to stay in communication with Earth for three to four more years."
-        },
-        {
-          "type": "p",
-          "text": "“But the goal of the mission is to do science, and there is enough power to keep the current suite of instruments going through the 50th launch anniversary next year. Beyond that is hard to predict, and of course these are nearly 50-year-old spacecraft, and there are always things the team cannot anticipate that might happen,” the JPL representative said."
-        },
-        {
-          "type": "p",
-          "text": "Voyager 1 journeyed past Jupiter and Saturn, the solar system’s two largest planets, earlier in its mission. It continues to gather scientific data. For instance, its instruments have detected the faint monotonous hum caused by the constant vibrations of the small amounts of gas present in interstellar space."
-        },
-        {
-          "type": "p",
-          "text": "“Voyager is sending back continuous measurements of magnetic fields, cosmic rays and of plasma waves that we receive on Earth whenever the Deep Space Network points its antenna at Voyager,” Dodd said."
-        },
-        {
-          "type": "p",
-          "text": "The Deep Space Network is NASA’s international array of giant radio antennas supporting interplanetary spacecraft missions."
-        },
-        {
-          "type": "p",
-          "text": "“After the heliopause crossing, the magnetic field direction did not rotate into the interstellar direction as expected, but has maintained the direction it had when both Voyagers crossed the heliopause, a direction governed by our sun. We are watching to see when that rotation might occur,” Dodd said."
-        },
-        {
-          "type": "p",
-          "text": "“We also are still observing effects from our sun, including strong solar storms like coronal mass ejections, that generate shocks and pressure fronts that reach as far away as Voyager 1 and beyond,” Dodd said. “Where does the sun’s influence end and pristine interstellar space begin? Perhaps Voyager may last long enough to answer that question.” – Rappler.com"
         }
       ],
       "truncated": false,
@@ -15813,46 +16459,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "rap-fp06w5",
-      "source": "rap",
-      "title": "In the Public Square: Is impeachment democratic?",
-      "summary": "In this new episode of In the Public Square, Rappler columnist John Nery is joined by lawyer and constitutionalist Michael Henry Yusingco",
-      "byline": "Rappler.com, John Nery",
-      "section": "Editors' Pick",
-      "published": "2026-11-18T09:49:27.000Z",
-      "firstSeen": "2026-11-18T10:00:57.936Z",
-      "url": "https://www.rappler.com/philippines/in-the-public-square-sara-duterte-impeachment-trial-democratic/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/11/In-the-Public-Square-LS-SQ-1.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "In this new episode of In the Public Square, Rappler columnist John Nery is joined by lawyer and constitutionalist Michael Henry Yusingco"
-        },
-        {
-          "type": "p",
-          "text": "The on-again, off-again impeachment trial of Vice President Sara Duterte is on again this week — and according to the lead defense counsel, they have maybe eight to 10 witnesses left to present. It is possible to see the light at the end of the impeachment tunnel."
-        },
-        {
-          "type": "p",
-          "text": "But after over four months, and over 40 trial dates, are we any closer to the ideal of “political justice”? What have we learned about impeachment as a democratic process?"
-        },
-        {
-          "type": "p",
-          "text": "In this new episode of In the Public Square, Rappler columnist John Nery is joined by lawyer and constitutionalist Michael Henry Yusingco. He has written often, and critically, on impeachment in the Philippines. He is a senior fellow at the Ateneo Policy Center and also at the Institute for Autonomy Governance."
-        },
-        {
-          "type": "p",
-          "text": "Watch the episode on Wednesday, November 17, at 8 pm.-Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "gma-1leen0p",
       "source": "gma",
       "title": "Supreme Court announces court suspension in some areas on Thursday, Nov. 19, 2026",
@@ -16049,118 +16655,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "grd-mzwtfb",
-      "source": "grd",
-      "title": "‘Phantom forests’ in Australia’s arid outback used to create carbon credits meant to offset emissions, report claims",
-      "summary": "<p>Carbon credit companies reject research that found only small increase in forest and canopy cover in regeneration areas despite wet conditions</p><ul><li><p>Get our <a…",
-      "byline": "Adam Morton",
-      "section": "Greenhouse gas emissions",
-      "published": "2026-11-18T09:30:36.000Z",
-      "firstSeen": "2026-11-18T10:30:59.462Z",
-      "url": "https://www.theguardian.com/environment/2026/nov/18/phantom-forests-in-australian-arid-outback-used-to-create-carbon-credits-meant-to-offset-emissions-report-claims",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/06bf441bd0b1ae5e44706521aa2d8dfb287f3adb/126_0_3779_3024/master/3779.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=93eb27396e961a3d060c9f56600717d0",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A fight over the legitimacy of Australia’s climate change policy has reignited after researchers claimed “phantom forests” in the semi-arid outback are being used to create offsets that allow fossil fuel companies to keep pumping out pollution."
-        },
-        {
-          "type": "p",
-          "text": "A group of academics, including professors from the Australian National University and the University of New South Wales, said they had examined 50 forest regeneration projects used to create carbon credits."
-        },
-        {
-          "type": "p",
-          "text": "Led by Prof Andrew Macintosh, the former federal government carbon credit scheme integrity chair and the director of ANU’s Centre for Environmental Markets, the researchers said they found only a small increase in forest and tree crown cover in the areas over the past five years despite wet conditions."
-        },
-        {
-          "type": "p",
-          "text": "They said the conclusions were consistent with their previous peer-reviewed studies that found Australia’s method for creating carbon credits from forest regeneration was doing little to nothing to help address the climate crisis."
-        },
-        {
-          "type": "p",
-          "text": "The research was published in a report released on Wednesday by the Australian Conservation Foundation. Prof David Eldridge, one of the report’s authors and a former principal research scientist with the NSW environment department, said he was “gobsmacked” that “phantom forests” in outback areas north-west of the remote town of Bourke could earn carbon credits for forest regrowth."
-        },
-        {
-          "type": "p",
-          "text": "“Some of these areas have never grown forests; they will never grow forests,” he said."
-        },
-        {
-          "type": "p",
-          "text": "The findings were rejected by companies that manage what are known as human-induced regeneration projects in north-western NSW. “These are some of the most closely examined carbon projects in the country, and the evidence on the ground shows they are working,” a spokesperson for Green Collar, a business that manages carbon credit projects, said."
-        },
-        {
-          "type": "p",
-          "text": "Each carbon credit is said to represent one tonne of emissions that has been removed from, or prevented from being released to, the atmosphere."
-        },
-        {
-          "type": "p",
-          "text": "Their use is contentious, in part, because industrial-polluting companies that are required to cut emissions under a federal policy known as the safeguard mechanism are allowed to buy an unlimited number of credits to count as their own cuts while continuing to pollute."
-        },
-        {
-          "type": "p",
-          "text": "Scientists have warned limiting the climate crisis requires rapid direct cuts in emissions and that carbon credits – also known as offsets – should be used sparingly."
-        },
-        {
-          "type": "p",
-          "text": "The Australian Conservation Foundation said it showed coal and gas companies should be banned from claiming offsets as their own emissions cuts."
-        },
-        {
-          "type": "p",
-          "text": "Adam Bandt, the foundation’s chief executive and a former Australian Greens leader, said the safeguard mechanism was meant to “cut climate pollution and protect us from big coal and gas threatening our lives and livelihoods, but it’s not working”."
-        },
-        {
-          "type": "p",
-          "text": "“Putting more climate pollution into the atmosphere now could push us past dangerous tipping points. It can’t be offset, and the science tells us to keep coal and gas in the ground,” he said."
-        },
-        {
-          "type": "p",
-          "text": "Macintosh said the evidence showed the projects were by and large not regenerating forest, but had created more than 60m carbon credits worth up to $2bn."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "The report said the safeguard mechanism was being “materially undermined” by poor-quality credits. It said a “flood of cheap, low integrity” credits was making it cheaper in many cases for big polluters to pay for offsets rather than make direct emissions cuts."
-        },
-        {
-          "type": "p",
-          "text": "There have been more than 430 human-induced regeneration projects in Australia since 2013, covering an area of 38m hectares – larger than Japan. The federal government is now reviewing the safeguard policy, as required under legislation."
-        },
-        {
-          "type": "p",
-          "text": "A spokesperson for the Clean Energy Regulator, which manages the scheme, said it took allegations about the integrity or efficacy of carbon credit projects seriously, and had confidence in the forest regeneration method."
-        },
-        {
-          "type": "p",
-          "text": "It said projects were required to demonstrate every five years that canopy cover was increasing, and it had rejected non-complying areas that could have received 6.7m carbon credits."
-        },
-        {
-          "type": "p",
-          "text": "Green Collar said it stood “firmly behind the integrity of its human-induced regeneration projects” and expressed frustration that the report had not been publicly released or published in a peer-reviewed journal. It said the researchers had “judged these carbon projects with satellite pictures and a single field visit”."
-        },
-        {
-          "type": "p",
-          "text": "“Carbon is stored in stems, branches, leaves, roots and dead timber. Satellite canopy products see leaves from above. They do not measure the wood and roots where most of that carbon sits,” its spokesperson said."
-        },
-        {
-          "type": "p",
-          "text": "Skye Glenday, the chief executive of Climate Friendly, another carbon credit project developer, said the criticisms of the carbon credit projects were “at odds with the facts and the extensive independent scientific and regulatory scrutiny that is applied to all projects”."
-        },
-        {
-          "type": "p",
-          "text": "“Debate about the use of offsets is legitimate, but let’s have that debate on its merits rather than undermining the carbon drawdown Australia also needs,” she said."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "bbc-kce4jy",
@@ -17399,94 +17893,6 @@
         {
           "type": "p",
           "text": "Police on Wednesday clashed with protesters opposing the Pax Silica initiative and US President Donald Trump's visit to the Philippines."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1a35lz0",
-      "source": "abs",
-      "title": "Two arrested in Batangas over cigarettes without graphic health warnings",
-      "summary": "Two people were arrested in Batangas for allegedly selling boxes of various cigarette brands without the required graphic health warnings.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-18T07:16:30.000Z",
-      "firstSeen": "2026-11-18T07:30:55.168Z",
-      "url": "https://www.abs-cbn.com/news/regions/2026/11/18/two-arrested-in-batangas-over-cigarettes-without-graphic-health-warnings-1516",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Two people were arrested in Batangas for allegedly selling boxes of various cigarette brands without the required graphic health warnings."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-f3rkhj",
-      "source": "abs",
-      "title": "Trump: PH to be a ‘very natural partner’ in new oil pipeline in Alaska",
-      "summary": "The US has constructed a “major new pipeline in Alaska to export affordable abundant supplies of energy to our allies and friends across the Pacific,” Trump said during his bilateral meeting with…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-18T07:15:05.000Z",
-      "firstSeen": "2026-11-18T07:31:02.067Z",
-      "url": "https://www.abs-cbn.com/news/business/2026/11/18/trump-ph-to-be-a-very-natural-partner-in-new-oil-pipeline-in-alaska-1515",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The US has constructed a “major new pipeline in Alaska to export affordable abundant supplies of energy to our allies and friends across the Pacific,” Trump said during his bilateral meeting with Philippine President Ferdinand Marcos Jr. in Malacañang."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1t67u4a",
-      "source": "abs",
-      "title": "Maymay Entrata stars in game show 'Hong Kong Unlocked'",
-      "summary": "Kapamilya artist Maymay Entrata will join fellow Asian personalities in exploring both popular and lesser-known destinations in Hong Kong in a game show set to premiere in December.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-18T07:12:52.000Z",
-      "firstSeen": "2026-11-18T07:31:03.539Z",
-      "url": "https://www.abs-cbn.com/entertainment/showbiz/movies-series/2026/11/18/maymay-entrata-hong-kong-unlocked-1512",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Kapamilya artist Maymay Entrata will join fellow Asian personalities in exploring both popular and lesser-known destinations in Hong Kong in a game show set to premiere in December."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-cl6jqs",
-      "source": "abs",
-      "title": "Why Ethel Booba is scared to marry her long time partner",
-      "summary": "Is Ethel Booba ready to settle down?",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-18T07:09:56.000Z",
-      "firstSeen": "2026-11-18T07:31:03.540Z",
-      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/11/18/why-ethel-booba-is-scared-to-marry-her-long-time-partner-1509",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Is Ethel Booba ready to settle down?"
         }
       ],
       "truncated": true,
@@ -19541,134 +19947,6 @@
         {
           "type": "p",
           "text": "In his first remarks since his resignation, Jensen Huang said on Thursday he would be willing to return to Nvidia as CEO. Elon Musk and other Silicon Valley tech giants, along with 165,000 signatories to an open letter, have called for his reinstatement. Trump has also signaled his openness for the disgraced tech CEO’s return."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "bbc-1r6y77z",
-      "source": "bbc",
-      "title": "US loses measles elimination status after 26 years amid record case numbers",
-      "summary": "States have reported over 5,400 cases and 10 measles-related deaths for the first time since the early 1990s.",
-      "byline": "Madeline Halpert",
-      "section": "",
-      "published": "2026-11-17T16:26:22.000Z",
-      "firstSeen": "2026-11-17T16:31:00.057Z",
-      "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
-      "image": {
-        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b33/live/4927cca0-dfd1-11f1-8c90-4fc10fbf9142.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "After 26 years, the US has lost its status of having eliminated the highly contagious measles virus, following two years of record case numbers and deaths."
-        },
-        {
-          "type": "p",
-          "text": "The Pan American Health Organization (PAHO), a specialised service of the United Nations, determined the US has had uninterrupted transmission of the same strain of measles for more than 12 months."
-        },
-        {
-          "type": "p",
-          "text": "States have reported 10 measles-related deaths this year, the most the country has seen since the 1990s."
-        },
-        {
-          "type": "p",
-          "text": "Dr Jarbas Barbosa, director of PAHO, announced that Mexico and Bolivia have also lost their measles elimination status, attributing the resurgence of measles in the region to persistent \"gaps in vaccination\"."
-        },
-        {
-          "type": "p",
-          "text": "\"These figures are a serious warning for our region,\" Barbosa said at a news conference on Tuesday."
-        },
-        {
-          "type": "p",
-          "text": "He added that Canada, which lost its status of having eliminated measles last year after seeing several large outbreaks, has made strides this year to interrupt transmission."
-        },
-        {
-          "type": "p",
-          "text": "Daniel Salas, the executive manager of immunisations at PAHO, said on Tuesday that the US and others who lost elimination status would be required to submit corrective action plans outlining how they would attempt to improve vaccination rates."
-        },
-        {
-          "type": "p",
-          "text": "The UK, Spain and Austria were among European nations that lost their measles-free status earlier this year, along with countries including Russia, Azerbaijan and Uzbekistan."
-        },
-        {
-          "type": "p",
-          "text": "Nuwan Gunawardhana, an assistant professor of medicine with Columbia University Irving Medical Center, said the US losing its elimination status was \"a huge leap backwards\"."
-        },
-        {
-          "type": "p",
-          "text": "The US Department of Health and Human Services (HHS) did not respond to a request for comment from the BBC."
-        },
-        {
-          "type": "p",
-          "text": "The measles virus - with its signature blotchy red rash - used to infect millions of children a year before a vaccine was invented. The extremely contagious virus can be fatal, and some patients can experience long-term complications including encephalitis and immune amnesia, which resets the immune system, leaving it with only limited ability to respond to new infections."
-        },
-        {
-          "type": "p",
-          "text": "The US recommends two measles, mumps and rubella (MMR) shots for children between ages one and six, which is 97% effective in protecting against the illness."
-        },
-        {
-          "type": "p",
-          "text": "The US was the first country to eliminate measles in the Americas thanks to vaccination campaigns, noted William Moss, a paediatric infectious disease specialist at the Johns Hopkins Bloomberg School of Public Health."
-        },
-        {
-          "type": "p",
-          "text": "Dr Gunawardhana said it took massive efforts from public health officials and clinicians to build trust with patients to increase uptake of the MMR vaccine, leading to decades in the US with few infections and deaths."
-        },
-        {
-          "type": "p",
-          "text": "But that trust has been steadily eroding since the Covid-19 pandemic, when Dr Gunawardhana said patients were confronted with misinformation about the safety of vaccines and lost even more trust in public health systems."
-        },
-        {
-          "type": "p",
-          "text": "The vaccination rate for MMR across the US has fallen to 92.4%, below the 95% level that provides herd immunity, which limits the spread of measles and protects those who cannot get vaccinated, including newborns."
-        },
-        {
-          "type": "p",
-          "text": "The country has seen 5,400 cases of measles this year alone, the most it has recorded in a year since 1991."
-        },
-        {
-          "type": "p",
-          "text": "An outbreak in Pennsylvania has infected over 1,400 people - likely a large underestimate - and killed seven people, according to state officials."
-        },
-        {
-          "type": "p",
-          "text": "US Health Secretary Robert F Kennedy Jr has sparred with Pennsylvania officials over how it is counting the measles deaths, with the US Centers for Disease Control and Prevention (CDC) declining for now to record some of the deaths in its database."
-        },
-        {
-          "type": "p",
-          "text": "Kennedy has attempted to make a series of sweeping changes to US vaccine recommendations and policies. The vaccine sceptic has also frequently cast doubt on the safety of MMR shot, as vaccination rates have declined across the US in recent years."
-        },
-        {
-          "type": "p",
-          "text": "Last year, the health secretary fired all the members of a top vaccine advisory panel and replaced them with his own appointees, some of whom were vaccine critics."
-        },
-        {
-          "type": "p",
-          "text": "The panel recommended a number of vaccine changes - including no longer requiring the Hepatitis B vaccine for all newborns - but those recommendations were blocked by a federal judge."
-        },
-        {
-          "type": "p",
-          "text": "Kennedy has argued that the rise in measles cases started before he took the helm at HHS and that neighbouring countries have also seen more infections."
-        },
-        {
-          "type": "p",
-          "text": "President Donald Trump this year also cast doubt on the safety of the MMR vaccine, issuing an executive order for the shot to be split into three separate immunisations for measles, mumps and rubella, a move public health experts say is costly and could sow confusion about an already safe vaccine."
-        },
-        {
-          "type": "p",
-          "text": "Doctors and public health officials say the misinformation from Kennedy and Trump has played a major role in falling vaccination rates."
-        },
-        {
-          "type": "p",
-          "text": "\"It's confusing patients. It's confusing families,\" Dr Gunawardhana said. \"We need a clear message from the top.\""
-        },
-        {
-          "type": "p",
-          "text": "The federal government's vaccine manoeuvres have left public health officials and states to fill in the gaps, offering their own separate recommendations upholding decades-long practices."
         }
       ],
       "truncated": false,
