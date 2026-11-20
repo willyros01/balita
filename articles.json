@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-20T20:01:25.424Z",
+  "updated": "2026-11-20T20:31:20.899Z",
   "sources": [
     {
       "id": "inq",
@@ -53,63 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-1kt3ptk",
-      "source": "inqn",
-      "title": "Ridon: Alleged coercion of VP’s ex-staffers undocumented, lacks details",
-      "summary": "MANILA, Philippines — The alleged coercion of two former staff members of Vice President Sara Duterte to sign affidavits making false claims against her, as related by her spokesperson, lawyer Paolo…",
-      "byline": "Alexander Magno",
-      "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:14.620Z",
-      "firstSeen": "2026-11-20T12:31:05.185Z",
-      "url": "https://newsinfo.inquirer.net/2344496/ridon-alleged-coercion-of-vps-ex-staffers-undocumented-lacks-details",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Terry-Ridon-14September2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The alleged coercion of two former staff members of Vice President Sara Duterte to sign affidavits making false claims against her, as related by her spokesperson, lawyer Paolo Panelo, lacked details and official documentation. In an interview with TV5, Rep. Terry Ridon, a House prosecutor, questioned both the initial account and a"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-o1oklr",
-      "source": "inqn",
-      "title": "3 suspects yield guns, &#8216;shabu&#8217; in Ilocos Norte town",
-      "summary": "SAN ILDEFONSO, Ilocos Sur — Three individuals were arrested after police implemented a search warrant in Barangay Madupayas, Badoc, Ilocos Norte, on Thursday, Nov. 19, resulting in the seizure of…",
-      "byline": "clopez",
-      "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:14.619Z",
-      "firstSeen": "2026-11-20T13:30:58.954Z",
-      "url": "https://newsinfo.inquirer.net/2344522/3-suspects-yield-guns-shabu-in-ilocos-norte-town",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Ilocos-Norte-map-filephoto-091122.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN ILDEFONSO, Ilocos Sur — Three individuals were arrested after police implemented a search warrant in Barangay Madupayas, Badoc, Ilocos Norte, on Thursday, Nov. 19, resulting in the seizure of several firearms, ammunition, a rifle grenade and suspected illegal drugs. The operation was carried out by personnel from the Provincial Intelligence Unit, Provincial Investigation and"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1dvaevi",
       "source": "inqn",
       "title": "VP Duterte witness admits never visiting Cale88 plant",
       "summary": "MANILA, Philippines — Trade Undersecretary Ceferino Rodolfo, a defense witness who testified on Friday during Vice President Sara Duterte’s impeachment trial, admitted he had never personally visited…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:14.619Z",
+      "published": "2026-11-20T20:31:10.090Z",
       "firstSeen": "2026-11-20T13:30:58.984Z",
       "url": "https://newsinfo.inquirer.net/2344521/vp-duterte-witness-admits-never-visiting-cale88-plant",
       "image": {
@@ -134,7 +84,7 @@
       "summary": "MANILA, Philippines— The Department of Education (DepEd) is combining its nationwide laptop distribution with hands-on technology training for public school educators. On Friday, Education Secretary…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:14.619Z",
+      "published": "2026-11-20T20:31:10.090Z",
       "firstSeen": "2026-11-20T13:01:04.139Z",
       "url": "https://newsinfo.inquirer.net/2344512/deped-pairs-teacher-laptops-rollout-with-hands-on-training",
       "image": {
@@ -153,13 +103,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-o1oklr",
+      "source": "inqn",
+      "title": "3 suspects yield guns, &#8216;shabu&#8217; in Ilocos Norte town",
+      "summary": "SAN ILDEFONSO, Ilocos Sur — Three individuals were arrested after police implemented a search warrant in Barangay Madupayas, Badoc, Ilocos Norte, on Thursday, Nov. 19, resulting in the seizure of…",
+      "byline": "clopez",
+      "section": "Latest News Stories",
+      "published": "2026-11-20T20:31:10.089Z",
+      "firstSeen": "2026-11-20T13:30:58.954Z",
+      "url": "https://newsinfo.inquirer.net/2344522/3-suspects-yield-guns-shabu-in-ilocos-norte-town",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Ilocos-Norte-map-filephoto-091122.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN ILDEFONSO, Ilocos Sur — Three individuals were arrested after police implemented a search warrant in Barangay Madupayas, Badoc, Ilocos Norte, on Thursday, Nov. 19, resulting in the seizure of several firearms, ammunition, a rifle grenade and suspected illegal drugs. The operation was carried out by personnel from the Provincial Intelligence Unit, Provincial Investigation and"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-4jr1w5",
       "source": "inqn",
       "title": "3 nabbed, P90,800 worth of ‘shabu’ seized in Caraga anti-drug ops",
       "summary": "SAN FRANCISCO, Agusan del Sur — Police arrested three drug suspects and seized 13.36 grams of suspected shabu or crystal meth valued at P90,848 in separate buy-bust operations across the Caraga…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:12.847Z",
+      "published": "2026-11-20T20:31:08.307Z",
       "firstSeen": "2026-11-20T15:01:10.324Z",
       "url": "https://newsinfo.inquirer.net/2344549/3-nabbed-p90800-worth-of-shabu-seized-in-caraga-anti-drug-ops",
       "image": {
@@ -184,7 +159,7 @@
       "summary": "MANILA, Philippines — Good corporate governance often works quietly in the background, guiding how decisions are made, risks are managed, and stakeholders are kept informed. Manila Water Company,…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:12.847Z",
+      "published": "2026-11-20T20:31:08.307Z",
       "firstSeen": "2026-11-20T14:30:58.440Z",
       "url": "https://newsinfo.inquirer.net/2344567/manila-water-earns-icds-four-arrow-award-for-good-corporate-governance",
       "image": {
@@ -209,7 +184,7 @@
       "summary": "MANILA, Philippines — Sen. JV Ejercito filed on Friday Committee Report No. 131 on the General Appropriations Bill (GAB) for 2027, which incorporated P204.634 billion worth of Senate amendments to…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:12.847Z",
+      "published": "2026-11-20T20:31:08.307Z",
       "firstSeen": "2026-11-20T14:30:58.537Z",
       "url": "https://newsinfo.inquirer.net/2344547/ejercito-pushes-funding-for-health-education-infra-in-2027-budget",
       "image": {
@@ -234,7 +209,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — The Department of Environment and Natural Resources (DENR) in Mimaropa (Mindoro, Marinduque, Romblon, and Palawan) has urged residents to report water leaks,…",
       "byline": "clopez",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:12.847Z",
+      "published": "2026-11-20T20:31:08.307Z",
       "firstSeen": "2026-11-20T14:00:58.595Z",
       "url": "https://newsinfo.inquirer.net/2344524/denr-mimaropa-to-public-report-water-leaks-forest-fires-amid-el-nino",
       "image": {
@@ -259,7 +234,7 @@
       "summary": "MANILA, Philippines — The co-accused in the plunder case of former House Speaker Martin Romualdez surrendered “peacefully” in Forbes Park in Makati City, the National Bureau of Investigation (NBI)…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:12.847Z",
+      "published": "2026-11-20T20:31:08.307Z",
       "firstSeen": "2026-11-20T14:31:02.083Z",
       "url": "https://newsinfo.inquirer.net/2344533/nbi-romualdezs-co-accused-surrendered-in-forbes-park",
       "image": {
@@ -284,7 +259,7 @@
       "summary": "MANILA, Philippines—No bettor won the ₱563.29 million Ultra Lotto 6/58 jackpot or the ₱30.63 million Mega Lotto 6/45 jackpot in the Philippine Charity Sweepstakes Office (PCSO) draws on Friday, Nov.…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:12.818Z",
+      "published": "2026-11-20T20:31:08.290Z",
       "firstSeen": "2026-11-20T15:01:09.780Z",
       "url": "https://newsinfo.inquirer.net/2344546/pcso-lotto-results-nov-20-%e2%82%b1563-29m-jackpot-not-won",
       "image": {
@@ -309,7 +284,7 @@
       "summary": "DARAGA, Albay — Daraga’s new 20-megavolt-ampere (MVA) Cullat Substation was blessed and energized on Friday, Nov. 20, marking a major step toward improving power distribution capacity in the…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:12.817Z",
+      "published": "2026-11-20T20:31:08.289Z",
       "firstSeen": "2026-11-20T15:01:09.719Z",
       "url": "https://newsinfo.inquirer.net/2344552/albay-energizes-p130-5-m-cullat-substation",
       "image": {
@@ -334,7 +309,7 @@
       "summary": "MANILA, Philippines — Lead prosecutor Gerville Luistro said Friday that the defense&#8217;s sluggish presentation of witnesses and requests to defer trial dates validate the prosecution&#8217;s…",
       "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:11.050Z",
+      "published": "2026-11-20T20:31:06.542Z",
       "firstSeen": "2026-11-20T15:31:03.798Z",
       "url": "https://newsinfo.inquirer.net/2344590/highlights-day-45-of-sara-duterte-impeachment-trial-nov-20-2026",
       "image": {
@@ -359,7 +334,7 @@
       "summary": "MARAWI CITY, Lanao del Sur – Police and military authorities intercepted contraband cigarettes worth some P19.5 million in separate operations in Lanao del Sur province on Friday, November 20.…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:11.043Z",
+      "published": "2026-11-20T20:31:06.513Z",
       "firstSeen": "2026-11-20T15:31:03.706Z",
       "url": "https://newsinfo.inquirer.net/2344571/authorities-intercept-p19-5-m-in-contraband-cigarettes-in-lanao-del-sur",
       "image": {
@@ -384,7 +359,7 @@
       "summary": "MANILA, Philippines – The government is lining up nine airports and three major railway projects for public-private partnership (PPP) arrangements before President Marcos ends his term in June 2028,…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:07.441Z",
+      "published": "2026-11-20T20:31:04.732Z",
       "firstSeen": "2026-11-20T16:01:05.945Z",
       "url": "https://newsinfo.inquirer.net/2344559/9-airports-major-railway-projects-eyed-for-ppps-before-marcos-exits",
       "image": {
@@ -409,7 +384,7 @@
       "summary": "MANILA, Philippines — Two public high schools have been selected to join the Association of Southeast Asian Nations (Asean)-Australia Building Relationships through Intercultural Dialogue and Growing…",
       "byline": "clopez",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-20T20:01:04.666Z",
+      "published": "2026-11-20T20:30:59.790Z",
       "firstSeen": "2026-11-20T14:00:58.596Z",
       "url": "https://globalnation.inquirer.net/349309/2-ph-schools-join-asean-australia-regional-exchange-program",
       "image": {
@@ -428,88 +403,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1oi36pg",
-      "source": "inqn",
-      "title": "Shear line to bring more rains to eastern Luzon before easing Monday",
-      "summary": "MANILA, Philippines — The effects of the shear line, which brought rains to Luzon, will dissipate by Monday (Nov. 23), according to the state weather bureau. However, over the weekend, the shear line…",
-      "byline": "jvicente",
-      "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:04.445Z",
-      "firstSeen": "2026-11-20T16:30:57.814Z",
-      "url": "https://newsinfo.inquirer.net/2344583/shear-line-to-bring-more-rains-to-eastern-luzon-before-easing-monday",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Screen-Shot-2026-11-20-at-10.52.41-PM.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The effects of the shear line, which brought rains to Luzon, will dissipate by Monday (Nov. 23), according to the state weather bureau. However, over the weekend, the shear line will bring up to 100 millimeters of rain to eastern Luzon, said John Manalo, weather specialist at the Philippine Atmospheric, Geophysical and"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1f6lrnh",
-      "source": "inqn",
-      "title": "Kids&#8217; welfare group calls out comedian over ‘sexual’ playground joke",
-      "summary": "MANILA, Philippines — The Council for the Welfare of Children (CWC) on Friday called out a comedian over “sexualized humor” involving playground “and their association with children.” Comedian Mr. JP…",
-      "byline": "jvicente",
-      "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:03.860Z",
-      "firstSeen": "2026-11-20T17:01:01.166Z",
-      "url": "https://newsinfo.inquirer.net/2344593/kids-welfare-group-calls-out-comedian-over-sexual-playground-joke",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2023/11/Angelo-Tapales-2-e1701188265457.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Council for the Welfare of Children (CWC) on Friday called out a comedian over “sexualized humor” involving playground “and their association with children.” Comedian Mr. JP Aguilera of Pencilbox Comedy posted on Facebook: “Sabi ng doktor ko watch what you eat, kaso kumokonti na yung mga playground (My doctor said to watch"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-wmo7xj",
-      "source": "inqg",
-      "title": "Marcos: No need to reassess economic team despite slowdown",
-      "summary": "MANILA, Philippines – President Ferdinand Marcos Jr. on Friday dismissed Sen. Panfilo “Ping” Lacson’s call for him to reassess his current economic team. In a social media post, Lacson raised…",
-      "byline": "jvicente",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-20T20:01:03.860Z",
-      "firstSeen": "2026-11-20T15:01:09.719Z",
-      "url": "https://globalnation.inquirer.net/349315/marcos-no-need-to-reassess-economic-team-despite-slowdown",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/913653008_1827135215160353_4189946698141988365_n.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – President Ferdinand Marcos Jr. on Friday dismissed Sen. Panfilo “Ping” Lacson’s call for him to reassess his current economic team. In a social media post, Lacson raised concerns about an “economic malaise,” or a prolonged period of sluggish economic growth. Lacson told Marcos that it might be time to &#8220;look hard&#8221; at"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-a4e2so",
       "source": "inqn",
       "title": "Anti-narcotics agents nab 2 suspects, seize P4M in meth in Lanao del Sur",
       "summary": "MARAWI CITY, Lanao del Sur – A joint buy-bust operation on Friday, Nov. 20, by the Philippine National Police Regional Drug Enforcement Unit and the Philippine Drug Enforcement Agency in the…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-20T20:01:03.817Z",
+      "published": "2026-11-20T20:30:59.288Z",
       "firstSeen": "2026-11-20T18:30:59.413Z",
       "url": "https://newsinfo.inquirer.net/2344636/anti-narcotics-agents-nab-2-suspects-seize-p4m-in-meth-in-lanao-del-sur",
       "image": {
@@ -528,13 +428,63 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
+      "id": "inqn-1f6lrnh",
+      "source": "inqn",
+      "title": "Kids&#8217; welfare group calls out comedian over ‘sexual’ playground joke",
+      "summary": "MANILA, Philippines — The Council for the Welfare of Children (CWC) on Friday called out a comedian over “sexualized humor” involving playground “and their association with children.” Comedian Mr. JP…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-11-20T20:30:59.288Z",
+      "firstSeen": "2026-11-20T17:01:01.166Z",
+      "url": "https://newsinfo.inquirer.net/2344593/kids-welfare-group-calls-out-comedian-over-sexual-playground-joke",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2023/11/Angelo-Tapales-2-e1701188265457.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Council for the Welfare of Children (CWC) on Friday called out a comedian over “sexualized humor” involving playground “and their association with children.” Comedian Mr. JP Aguilera of Pencilbox Comedy posted on Facebook: “Sabi ng doktor ko watch what you eat, kaso kumokonti na yung mga playground (My doctor said to watch"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1oi36pg",
+      "source": "inqn",
+      "title": "Shear line to bring more rains to eastern Luzon before easing Monday",
+      "summary": "MANILA, Philippines — The effects of the shear line, which brought rains to Luzon, will dissipate by Monday (Nov. 23), according to the state weather bureau. However, over the weekend, the shear line…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-11-20T20:30:59.288Z",
+      "firstSeen": "2026-11-20T16:30:57.814Z",
+      "url": "https://newsinfo.inquirer.net/2344583/shear-line-to-bring-more-rains-to-eastern-luzon-before-easing-monday",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Screen-Shot-2026-11-20-at-10.52.41-PM.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The effects of the shear line, which brought rains to Luzon, will dissipate by Monday (Nov. 23), according to the state weather bureau. However, over the weekend, the shear line will bring up to 100 millimeters of rain to eastern Luzon, said John Manalo, weather specialist at the Philippine Atmospheric, Geophysical and"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-10se6r5",
       "source": "inqg",
       "title": "PH-US trade deal to focus on energy, agricultural products",
       "summary": "MANILA, Philippines — The trade deal between the Philippines and the United States will focus on energy and food, particularly agricultural products, President Ferdinand Marcos Jr. said on Friday. US…",
       "byline": "jvicente",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-20T20:01:03.817Z",
+      "published": "2026-11-20T20:30:59.288Z",
       "firstSeen": "2026-11-20T17:59:47.517Z",
       "url": "https://globalnation.inquirer.net/349332/ph-us-trade-deal-to-focus-on-energy-agricultural-products",
       "image": {
@@ -551,6 +501,330 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqg-wmo7xj",
+      "source": "inqg",
+      "title": "Marcos: No need to reassess economic team despite slowdown",
+      "summary": "MANILA, Philippines – President Ferdinand Marcos Jr. on Friday dismissed Sen. Panfilo “Ping” Lacson’s call for him to reassess his current economic team. In a social media post, Lacson raised…",
+      "byline": "jvicente",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-20T20:30:59.288Z",
+      "firstSeen": "2026-11-20T15:01:09.719Z",
+      "url": "https://globalnation.inquirer.net/349315/marcos-no-need-to-reassess-economic-team-despite-slowdown",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/913653008_1827135215160353_4189946698141988365_n.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – President Ferdinand Marcos Jr. on Friday dismissed Sen. Panfilo “Ping” Lacson’s call for him to reassess his current economic team. In a social media post, Lacson raised concerns about an “economic malaise,” or a prolonged period of sluggish economic growth. Lacson told Marcos that it might be time to &#8220;look hard&#8221; at"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "cbc-1emlzh1",
+      "source": "cbc",
+      "title": "Baywatch's Erika Eleniak says OnlyFans has her 'calling the shots' after money woes",
+      "summary": "Original Baywatch star Erika Eleniak is opening up about work and money challenges — including nearly being evicted from her home — amid a recent career upswing since joining OnlyFans, the online…",
+      "byline": "Jessica Wong",
+      "section": "News/Entertainment",
+      "published": "2026-11-20T20:21:18.000Z",
+      "firstSeen": "2026-11-20T20:30:59.288Z",
+      "url": "https://www.cbc.ca/news/entertainment/onlyfans-erika-eleniak-baywatch-9.7430177?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/b9665df3-dc05-4ca1-9268-57b4419634c4,1795200214018/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C236%2C7583%2C4265%29%3BResize%3D620",
+        "caption": "Erika Eleniak, seen at an event in Pasadena, Calif., in 2024, is seeing a career uptick since joining OnlyFans this summer, at a time she was nearly evicted from her home. (Willy Sanjuan/Invision/AP)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Entertainment·New"
+        },
+        {
+          "type": "p",
+          "text": "Original Baywatch star Erika Eleniak is opening up about work and money challenges — including nearly being evicted from her home — amid a recent career upswing since joining OnlyFans, the online subscriber platform known for its popularity with adult audiences."
+        },
+        {
+          "type": "h",
+          "text": "Original Baywatch star faced eviction in 2026, but says she's since cleared the debt"
+        },
+        {
+          "type": "p",
+          "text": "Original Baywatch star Erika Eleniak is opening up about work and money challenges — including nearly being evicted from her home — amid a recent career uptick since joining OnlyFans, the spicy online subscriber platform."
+        },
+        {
+          "type": "p",
+          "text": "Despite having \"kept a toe in the door\" of her film and TV career over the past two decades as well as teaching acting to others, Eleniak, a single mom, said her main focus has been to raise her daughter."
+        },
+        {
+          "type": "p",
+          "text": "\"I'm in this position where I'm not really acting anymore,\" Eleniak explained in an episode of the Miss Understood podcast released this week."
+        },
+        {
+          "type": "p",
+          "text": "\"You find yourself in that position where it's like, 'I need to make a certain amount of money in order to pay my overhead.' And so what do I do? Where am I going to make that kind of money?\""
+        },
+        {
+          "type": "p",
+          "text": "Actors Monte Markham, from left, Billy Warlock and Erika Eleniak appear in a scene from season one, episode seven of lifeguarding TV series Baywatch. (Baywatch/YouTube)"
+        },
+        {
+          "type": "p",
+          "text": "The 57-year-old started an OnlyFans account this past summer around the time she received an eviction notice for her condo, telling podcast host Rachel Uchitel she was able to settle her debts \"after a couple of months.\""
+        },
+        {
+          "type": "p",
+          "text": "An online platform where subscribers pay creators for custom photos and videos, OnlyFans is best known for its adult content and as a relatively safer space for sex workers to make a living, though it's also been singled out amid wider debates about combatting alleged sex trafficking and the reported exploitation of minors."
+        },
+        {
+          "type": "p",
+          "text": "Only a fraction of top-tier OnlyFans creators — such as celebrities or those with pre-established social media followings — typically make it big, with a large majority of others believed to make up to $200 per month after the platform takes its commission."
+        },
+        {
+          "type": "p",
+          "text": "Eleniak's among a growing wave of veteran actresses who have turned to the for-pay platform as a source of income, independence and to reconnect with fans. Others include 1980s-era soap divas Morgan Fairchild and Donna Mills, American Pie's Shannon Elizabeth and Battlestar Galactica's Tricia Helfer."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Morgan Fairchild, the icy diva you couldn't miss on 1980s TV, joins racy subscriber platform OnlyFans"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Eleniak gained global fame fresh out of high school after landing the role of a rookie lifeguard on the Santa Monica-set Baywatch, which debuted in 1989 and also helped launch the career of Canada's Pamela Anderson."
+        },
+        {
+          "type": "p",
+          "text": "Yet being on the show, coupled with her decision to pose in Playboy magazine, cast a shadow over her attempts to branch out with different types of roles, Eleniak said, noting later gigs where producers simply expected nudity from her."
+        },
+        {
+          "type": "p",
+          "text": "Her credits span films like E.T., Under Siege and The Beverly Hillbillies to cameos on TV shows such as Full House, CSI: Miami and Desperate Housewives to reality competitions like Celebrity Fit Club, in which she participated just after childbirth and during her nearly decade-long stint living in Calgary."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Marmots on OnlyFans: Researchers turn to the internet for funding",
+            "How an Olympic medallist is using OnlyFans for additional income and independence"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Now, with her daughter recently married, Eleniak is refocusing on acting and says she feels empowered making \"fun and spicy everyday life\" content on OnlyFans to interact with her loyal fanbase."
+        },
+        {
+          "type": "p",
+          "text": "\"I do my own content. I shoot my own stuff. I do my own everything,\" she said. \"I feel like I'm the one that's calling the shots and it feels good to be the one in control.\""
+        },
+        {
+          "type": "p",
+          "text": "Audiences will see Eleniak back on the beach again in the Baywatch reboot debuting in January, reprising her role as former-lifeguard-now-city-councilwoman Shauni McClain."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inqn-1kt3ptk",
+      "source": "inqn",
+      "title": "Ridon: Alleged coercion of VP’s ex-staffers undocumented, lacks details",
+      "summary": "MANILA, Philippines — The alleged coercion of two former staff members of Vice President Sara Duterte to sign affidavits making false claims against her, as related by her spokesperson, lawyer Paolo…",
+      "byline": "Alexander Magno",
+      "section": "Latest News Stories",
+      "published": "2026-11-20T20:14:22.000Z",
+      "firstSeen": "2026-11-20T12:31:05.185Z",
+      "url": "https://newsinfo.inquirer.net/2344496/ridon-alleged-coercion-of-vps-ex-staffers-undocumented-lacks-details",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Terry-Ridon-14September2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The alleged coercion of two former staff members of Vice President Sara Duterte to sign affidavits making false claims against her, as related by her spokesperson, lawyer Paolo Panelo, lacked details and official documentation. In an interview with TV5, Rep. Terry Ridon, a House prosecutor, questioned both the initial account and a"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "dw-140xrkb",
+      "source": "dw",
+      "title": "Has the 'Parthenon puzzle' been solved? The long quest to reassemble lost eastern pediment",
+      "summary": "The depiction of the birth of the goddess Athena above the Parthenon's entrance is considered a masterpiece of ancient art. Now, a German research team has pieced together all the surviving fragments.",
+      "byline": "Katharina Abel",
+      "section": "",
+      "published": "2026-11-20T20:03:00.000Z",
+      "firstSeen": "2026-11-20T20:30:59.288Z",
+      "url": "https://www.dw.com/en/has-the-parthenon-puzzle-been-solved-the-long-quest-to-reassemble-lost-eastern-pediment/a-79982098?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79969494_6.jpg",
+        "caption": "A digital reconstruction of the Parthenon's east pedimentImage: Vinzenz Brinkmann und Ulrike Koch-Brinkmann/Liebieghaus Skulpturensammlung"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The 2,500-year-old Parthenon is ancient Greece's most important temple and is regarded as one of the greatest masterpieces of the High Classical period of Greek art."
+        },
+        {
+          "type": "p",
+          "text": "Dedicated to Athena, the city's patron goddess, it towers over Athens from its position on the Acropolis — a powerful symbol of the city's importance."
+        },
+        {
+          "type": "p",
+          "text": "The Parthenon had a lasting influence on Western ideas of humanity and art. The sculptures adorning its pediments, created under the direction of the legendary sculptor Phidias, are considered unparalleled examples of proportion and grace. They have influenced artists from ancient Rome through Neoclassicism to the modern era."
+        },
+        {
+          "type": "h",
+          "text": "'Very confident we've solved the mystery'"
+        },
+        {
+          "type": "p",
+          "text": "The east pediment above the temple entrance depicted the birth of the goddess Athena from the head of her father Zeus, surrounded by the Olympian gods. A total of 39 figures adorned the roughly 29-meter-long work of art. At its center stood a colossal Zeus figure, measuring 3.8 meters in height."
+        },
+        {
+          "type": "p",
+          "text": "For centuries, scholars have puzzled over exactly what the arrangement looked like, as the pediment was destroyed during the Christianization of Greece."
+        },
+        {
+          "type": "p",
+          "text": "But now there has been a breakthrough."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79969508_$%7BformatId%7D.jpg",
+          "caption": "The results of the research are on show at the Frankfurt exhibition 'Athena, the Stage is Yours: The Parthenon Puzzle'Image: Norbert Miguletz/Liebieghaus Skulpturensammlung"
+        },
+        {
+          "type": "p",
+          "text": "After decades of painstaking detective work and with the help of modern technology, archaeologist Vinzenz Brinkmann and his team have managed to piece together all the surviving fragments of the Parthenon's east pediment."
+        },
+        {
+          "type": "p",
+          "text": "Brinkmann heads the Antiquities and Asia department at Frankfurt's Liebieghaus sculpture collection. \"We're very, very confident that we've solved the mystery,\" he told DW."
+        },
+        {
+          "type": "p",
+          "text": "The results are now on display in an exhibition at the Liebieghaus titled \"Athena, the Stage is Yours: The Parthenon Puzzle.\""
+        },
+        {
+          "type": "p",
+          "text": "Only around 20% of the original marble sculpture's volume is known to have survived. The fragments are scattered across various European museums, with most located in Athens. The British Museum also holds numerous pieces."
+        },
+        {
+          "type": "p",
+          "text": "Brinkmann and his wife, Ulrike Koch-Brinkmann, have spent more than 40 years working on this ancient puzzle, with so many of its pieces missing."
+        },
+        {
+          "type": "p",
+          "text": "And they were far from the first to attempt it: \"Already in the 19th century, many scholars studied the subject and developed well-founded theories based on their deep knowledge of ancient sources,\" Brinkmann explains."
+        },
+        {
+          "type": "p",
+          "text": "In 1910, a study documenting the many fragments held by the British Museum was published. The research team was able to build on that earlier work, but progress remained slow for years."
+        },
+        {
+          "type": "p",
+          "text": "Then, in 2014, a visit to the Hermitage Museum in St. Petersburg provided Brinkmann with a crucial clue. There, he encountered a Roman sarcophagus featuring a relief of Athena's birth. \"That's when it suddenly clicked: They're all there!\""
+        },
+        {
+          "type": "p",
+          "text": "Nine such sarcophagi are known to exist, almost all of them in Rome. Each depicts a different section of the Parthenon's east pediment."
+        },
+        {
+          "type": "p",
+          "text": "Brinkmann emphasizes that other scholars had already noticed this connection in the 19th century. \"But we really seized on the idea and never let go.\""
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79968790_$%7BformatId%7D.jpg",
+          "caption": "The researchers are convinced that the Dioscuri — the sons of the king of the gods, Zeus — located in Rome’s Piazza del Quirinale are also copies of the group of figures from the eastern pedimentImage: Zoonar/picture alliance"
+        },
+        {
+          "type": "h",
+          "text": "A handy tool: the iPhone"
+        },
+        {
+          "type": "p",
+          "text": "The researchers also benefited from 21st-century technology: 3D scanners and printers. Brinkmann and his team visited numerous destinations to examine around 60 original fragments at different locations — traveling light. An iPhone was all they needed to scan the pieces."
+        },
+        {
+          "type": "p",
+          "text": "Digitally fitting the fragments together led to another important discovery. \"We know these figures we're putting together!\" Brinkmann recalls thinking at the time."
+        },
+        {
+          "type": "p",
+          "text": "The Romans had repeatedly made individual copies of all the sculptures from the pediment. \"These copies matched the fragments perfectly. Suddenly, we found ourselves surrounded by old acquaintances we had never suspected had come from the pediment.\" This finally enabled the researchers to reconstruct all the figures and their original arrangement."
+        },
+        {
+          "type": "p",
+          "text": "Using a 3D printer, the team created a 4-meter-long model at a scale of 1:7.7. For the exhibition, they also produced life-size 3D prints of the most important fragments and mounted them on panels depicting the complete figures at their original size. An animation brings the reconstructed composition to life, digitally assembling the fragments to reveal how the east pediment once looked."
+        },
+        {
+          "type": "p",
+          "text": "Alongside works from the Liebieghaus collection, the exhibition features loans from other institutions, including the Vatican Museums and the Louvre. Objects from the Acropolis Museum in Athens had originally been expected as well. But Greece withdrew its participation after learning that the British Museum was also planning to lend fragments to the Frankfurt exhibition. The Liebieghaus ultimately decided to forgo the British-owned fragments, too."
+        },
+        {
+          "type": "h",
+          "text": "The dispute between Greece and Britain over the Parthenon sculptures"
+        },
+        {
+          "type": "p",
+          "text": "There is a reason for this controversy. Britain holds a substantial portion of the Parthenon frieze as well as fragments from both pediments."
+        },
+        {
+          "type": "p",
+          "text": "Greek authorities have been campaigning for their return for decades."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79968807_$%7BformatId%7D.jpg",
+          "caption": "The landmark of Athens: the Acropolis with the ParthenonImage: Fokke Baarssen/Zoonar/picture alliance"
+        },
+        {
+          "type": "p",
+          "text": "In Britain, the 56 sections of the frieze are known as the \"Elgin Marbles,\" named after Lord Elgin, the British ambassador to the Ottoman Empire in Constantinople."
+        },
+        {
+          "type": "p",
+          "text": "In the early 19th century, Elgin had sculptures removed from the exterior of the Parthenon on the Acropolis in Athens. They were taken to Britain with the consent of the Ottoman Empire, which ruled Greece at the time."
+        },
+        {
+          "type": "p",
+          "text": "Britain maintains that the sculptures were legally acquired."
+        },
+        {
+          "type": "p",
+          "text": "Greece, however, considers them stolen."
+        },
+        {
+          "type": "p",
+          "text": "For years, the dispute remained deadlocked. Since the Labour Party came to power in Britain, there has been some movement toward resolving it. But apparently not enough to persuade Greece to lend artworks to an exhibition in which the British Museum might also participate."
+        },
+        {
+          "type": "p",
+          "text": "The exhibition \"Athena, the Stage is Yours. The Parthenon Puzzle\" runs through July 25, 2027, at the Liebieghaus in Frankfurt."
+        },
+        {
+          "type": "p",
+          "text": "This article was originally written in German."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inqn-f9rez3",
@@ -17809,106 +18083,6 @@
         {
           "type": "p",
           "text": "Follow BBC News India on Instagram, external, YouTube,, external X, external and Facebook, external."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-1dmerhl",
-      "source": "dw",
-      "title": "New Ukraine talks including Europe to be held 'soon' — Merz",
-      "summary": "Germany's Chancellor Friedrich Merz says European leaders could take part in fresh Ukraine talks on \"neutral ground.\" The UK and EU countries have urged a seat at the table in meetings between the…",
-      "byline": "Wesley Dockery",
-      "section": "",
-      "published": "2026-11-19T23:19:00.000Z",
-      "firstSeen": "2026-11-19T23:31:08.862Z",
-      "url": "https://www.dw.com/en/new-ukraine-talks-including-europe-to-be-held-soon-merz/a-79997961?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79997050_6.jpg",
-        "caption": "Merz is one of the most pro-Ukraine leaders in EuropeImage: Hannah McKay/REUTERS"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "German Chancellor Friedrich Merz said on Friday he believes new talks regarding Russia's invasion of Ukraine with European leaders taking part will occur \"soon.\""
-        },
-        {
-          "type": "h",
-          "text": "What did Merz say about the next Ukraine talks?"
-        },
-        {
-          "type": "p",
-          "text": "\"Of course we are prepared to hold talks with Russia, we have always said this. These talks are now set to take place soon,\" Merz said after a meeting of Ukraine's allies in Berlin. He did not give a concrete date for the next talks, but said Europe's interests would be represented by Germany, France, the UK, Poland and Italy."
-        },
-        {
-          "type": "p",
-          "text": "Ukrainian President Volodymyr Zelenskyy was present at the Coalition of the Willing summit in the German capital, along with British Prime Minister Andy Burnham, French President Emmanuel Macron, US President Donald Trump's son-in-law Jared Kushner and US Special Envoy Steve Witkoff."
-        },
-        {
-          "type": "p",
-          "text": "Merz said the talks including Europe would take place on \"neutral ground,\" such as the United Arab Emirates."
-        },
-        {
-          "type": "p",
-          "text": "Merz along with other European leaders have been critical of meetings between US, Ukrainian and Russian representatives regarding the conflict, arguing that Europe needs a direct seat at the negotiating table."
-        },
-        {
-          "type": "h",
-          "text": "Can Ukraine still count on Germany?"
-        },
-        {
-          "type": "h",
-          "text": "Putin, in talks with Trump, says European leaders invited to Moscow"
-        },
-        {
-          "type": "p",
-          "text": "Russia's invasion of Ukraine began in February 2022, with the Trump administration prioritizing an end to the war."
-        },
-        {
-          "type": "p",
-          "text": "Trump took part in a bilateral meeting with Russian President Vladimir Putin in Shenzhen, China on Friday, with Trump saying the two leaders would discuss the war in closed-door talks. Putin acknowledged that Europeans want a seat at the table, and said Russia invited European leaders to Moscow."
-        },
-        {
-          "type": "p",
-          "text": "\"We understand that discussing issues linked to security in Europe is pointless without Europeans,\" Putin said, while rejecting any military cooperation between Europe and Ukraine."
-        },
-        {
-          "type": "h",
-          "text": "Merz: 'Yalta format cannot bring peace' to Ukraine"
-        },
-        {
-          "type": "p",
-          "text": "Trump also took part in a historic trilateral meeting with Putin and Chinese President Xi Jinping."
-        },
-        {
-          "type": "p",
-          "text": "The Trump-Putin-Xi meeting raised fears that the US, Russia and China are looking to carve up the world into spheres of influence. It drew comparisons with the February 1945 Yalta Conference, where US President Franklin D. Roosevelt, UK Prime Minister Winston Churchill and Soviet Union leader Joseph Stalin discussed Europe's future as Nazi Germany's defeat was imminent in World War II."
-        },
-        {
-          "type": "h",
-          "text": "Leaders of China, Russia, US praise trilateral summit as 'success'"
-        },
-        {
-          "type": "p",
-          "text": "Following the Trump-Xi-Putin summit, Merz said a \"Yalta format cannot bring peace\" to Ukraine. He downplayed the Shenzhen summit between the three leaders as a \"photo opportunity.\""
-        },
-        {
-          "type": "p",
-          "text": "Merz handed out pieces of the Berlin Wall to leaders at the Coalition of the Willing summit, saying the Yalta structure had brought \"oppression, insecurity and a lack of peace.\""
-        },
-        {
-          "type": "p",
-          "text": "\"This is exactly what Yalta stood for,\" Merz said."
-        },
-        {
-          "type": "p",
-          "text": "The Yalta format sought to divide post-war Germany into four zones: US, UK, France and the USSR. This later led to the construction of the Berlin Wall dividing the city into West and East Berlin, with city residents attempting to cross the barrier shot dead by border guards."
-        },
-        {
-          "type": "h",
-          "text": "Marking the divide: The Berlin Wall Memorial"
         }
       ],
       "truncated": false,
