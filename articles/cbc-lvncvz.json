@@ -1,0 +1,193 @@
+{
+  "id": "cbc-lvncvz",
+  "source": "cbc",
+  "title": "Large AI companies 'desperate for compute' are crowding out Canadian startups at home",
+  "summary": "Ottawa's new budget promises to help Canadian AI companies access AI processing power on home soil — something that's been a challenge as smaller startups face fierce competition from larger AI…",
+  "byline": "Rukhsar Ali",
+  "section": "News/Business",
+  "published": "2026-11-20T09:00:00.000Z",
+  "firstSeen": "2026-11-20T09:08:52.226Z",
+  "url": "https://www.cbc.ca/news/business/compute-canada-sovereignty-ai-9.7428523?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/bf337caa-b480-4c8b-8d88-5a28f9b09f94,1795116901062/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C208%2C4000%2C2250%29%3BResize%3D620",
+    "caption": "Wiring sits inside of the Data Hall of the Microsoft data centre campus in Mount Pleasant, Wisconsin, in September 2025. (Audrey Richardson/Reuters)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ottawa's new budget promises to help Canadian AI companies access processing power on home soil — something that's been a challenge as smaller startups struggle to compete with tech giants for increasingly scarce computing resources."
+    },
+    {
+      "type": "p",
+      "text": "The federal government is promising 500 megawatts of \"sovereign AI compute\" to help expand domestic computing capacity using financial tools such as backstops and offtake agreements to encourage private investment, but questions remain about when that capacity will become available and how companies will be able to access it."
+    },
+    {
+      "type": "p",
+      "text": "For Al Vigier, CEO of Vancouver-based AI company Caseway, accessing computing capacity in Canada is critical to serving his customers."
+    },
+    {
+      "type": "p",
+      "text": "Caseway develops AI and automation tools primarily for the court system, and also works with law firms and the defence sector. Many of its clients require their information to remain in Canada."
+    },
+    {
+      "type": "p",
+      "text": "\"Most of our clients, the courts, the defence, the Canadian military, they require sovereign AI, which basically means that they don't want their data to leave Canada. They want their data to be governed by Canadian law and they want to enter into agreements with Canadian companies,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "But that option doesn't exist in Canada at the moment, Vigier added, so certain Caseway customers won't use the company's AI offerings. For other clients who are more flexible with where their data lands, Caseway has to turn to the U.S. or elsewhere for computing power."
+    },
+    {
+      "type": "p",
+      "text": "Al Vigier is the CEO of Caseway, a Vancouver-based AI company that builds automation for enterprises and government. (Submitted by Al Vigier)"
+    },
+    {
+      "type": "p",
+      "text": "Canada, like many other countries, relies heavily on U.S. technology companies for cloud services, including remote computing and data storage offered by tech giants such as Amazon and Microsoft."
+    },
+    {
+      "type": "p",
+      "text": "That dependence raises concerns about data sovereignty, since U.S. laws can give American intelligence and law-enforcement agencies access to information held by technology providers under certain circumstances."
+    },
+    {
+      "type": "p",
+      "text": "Vigier said the federal government's commitment is exciting because it could help address those concerns. But while he'd like to offer sovereign computing services to clients immediately, he's worried about how the policy will be implemented and when the capacity will become available."
+    },
+    {
+      "type": "h",
+      "text": "Canadian computing power in high demand"
+    },
+    {
+      "type": "p",
+      "text": "Sean Mullin, a senior fellow at the Munk School of Global Affairs and Public Policy at the University of Toronto who helped launch Canada's sovereign AI compute strategy, said major technology companies such as Meta, Google and OpenAI are \"desperate for compute.\""
+    },
+    {
+      "type": "p",
+      "text": "As AI models become more powerful and more people use them, he said \"the demand just skyrockets.\""
+    },
+    {
+      "type": "p",
+      "text": "For Canadian startups looking to use AI on a larger scale, \"it can be hard to secure these contracts because these big hyperscalers can come in and just buy up all the use for five to 10 years into the future,\" Mullin said."
+    },
+    {
+      "type": "p",
+      "text": "\"And if you're ... a project developer for a data centre, you'd say, 'Oh, it's very easy. I'll just sign one contract with a big, huge company and I've sold all my compute. I don't have to worry about kind of smaller contracts and selling to smaller Canadian firms.'\""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Supersized data centres are coming to Canada. One province is at the epicentre"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The scale of investment by major technology companies is already evident in Canada."
+    },
+    {
+      "type": "p",
+      "text": "Earlier this year, Meta announced plans to build its first Canadian data centre, a massive one-gigawatt project northeast of Edmonton. Once completed, it is expected to be among the country's largest data centres and the first hyperscale data centre in Alberta."
+    },
+    {
+      "type": "p",
+      "text": "In October, U.S. AI company Anthropic announced it had signed a long-term lease for the first 95-megawatt phase of a data centre project in Nova Scotia. Canadian clean energy company EverWind Fuels will build and own the facility, while Anthropic will lease the capacity for at least 20 years."
+    },
+    {
+      "type": "p",
+      "text": "Government partners with Telus on building sovereign AI infrastructure"
+    },
+    {
+      "type": "h",
+      "text": "Ramping up efforts for sovereign AI"
+    },
+    {
+      "type": "p",
+      "text": "Innovation, Science and Economic Development Canada (ISED) says it is working to bring the capacity online \"as quickly as possible,\" but has not provided a firm timeline."
+    },
+    {
+      "type": "p",
+      "text": "\"The government is engaging with a number of proponents on potential projects across Canada that could significantly expand domestic AI compute capacity,\" a spokesperson said in an emailed statement to CBC News. \"These projects are at different stages of development and commercial discussions are ongoing, and it would be premature to confirm specific timelines, projects or locations.\""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Canada wants sovereign AI data centres. What does that actually mean?"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "ISED said pricing and access arrangements have not yet been decided, although the government expects companies using the capacity to pay market-based rates."
+    },
+    {
+      "type": "p",
+      "text": "The commitment is part of a broader federal strategy to support sovereign AI. In October, Ottawa also announced it would invest up to $1.6 billion in Toronto-based AI company Cohere."
+    },
+    {
+      "type": "p",
+      "text": "LISTEN | The Cohere story part one: Carney's $1.6B bet:"
+    },
+    {
+      "type": "p",
+      "text": "Front Burner31:44The Cohere story part one: Carney's $1.6B bet"
+    },
+    {
+      "type": "h",
+      "text": "500 megawatts could be a 'drop in the bucket'"
+    },
+    {
+      "type": "p",
+      "text": "Clay Swerdelian, CEO of Calgary-based Verano.AI, said he'd welcome the opportunity to keep his company's computing operations in Canada, provided the price was right."
+    },
+    {
+      "type": "p",
+      "text": "Verano.AI primarily supports the energy sector, using AI-powered tools to automate work related to regulatory matters."
+    },
+    {
+      "type": "p",
+      "text": "Swerdelian says the company has developed their own AI agents and models to handle tasks involving confidential information, including enterprise data and methane emissions data that clients wouldn't want to share with external AI services."
+    },
+    {
+      "type": "p",
+      "text": "Clay Swerdelian is the CEO of Verano.AI based in Calgary which primarily supports the energy sector with AI-powered automation of workflow on regulatory matters. (Submitted by Clay Swerdelian)"
+    },
+    {
+      "type": "p",
+      "text": "Swerdelian says he expects Canada to experience a \"massive boom\" when it comes to companies looking for computing power, partly driven by the recent U.S. midterm election results."
+    },
+    {
+      "type": "p",
+      "text": "\"A lot of the red states are now blue states and a lot of the blue states won't allow data centres, so they're shifting to Canada,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "\"And the place to be is Alberta for the most part, because the gas and all the land that we have and the infrastructure and everything is kind of built out already other than, of course, the data centres themselves.\""
+    },
+    {
+      "type": "p",
+      "text": "Given that growing demand, Swerdelian says Ottawa's proposed 500 megawatts of computing capacity could be a \"drop in the bucket.\""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Anthropic needs rapid growth to keep up spending, as Canadian AI sector heats up"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "And with no firm timeline for when that capacity will become available, Mullin said Canadian startups may have little choice but to continue relying on computing services outside the country."
+    },
+    {
+      "type": "p",
+      "text": "\"These firms could try and just buy compute back from hyperscalers, and in many cases that may be south of the border and that just makes us more vulnerable as a country,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "\"That means things like all that data is crossing the international border subject to U.S. law. It means we don't control these assets, they could be taken away, they can be repurposed for something else and that just makes us overall more dependent.\""
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
