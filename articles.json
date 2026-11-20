@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-20T09:31:29.100Z",
+  "updated": "2026-11-20T10:01:26.346Z",
   "sources": [
     {
       "id": "inq",
@@ -53,38 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-k04nqb",
-      "source": "inqn",
-      "title": "Marcos signs K-12 private school voucher law",
-      "summary": "MANILA, Philippines—President Marcos has signed a new law institutionalizing the Department of Education’s (DepEd) voucher program, allowing eligible Kindergarten to Grade 12 (K to 12) students to…",
-      "byline": "cavendano",
-      "section": "Nation",
-      "published": "2026-11-20T09:31:20.093Z",
-      "firstSeen": "2026-11-20T07:01:06.156Z",
-      "url": "https://newsinfo.inquirer.net/2344370/marcos-signs-k-12-private-school-voucher-law",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/05nov2026-marcos9.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—President Marcos has signed a new law institutionalizing the Department of Education’s (DepEd) voucher program, allowing eligible Kindergarten to Grade 12 (K to 12) students to enroll in private schools and help decongest public campuses. Deemed a landmark piece of legislation, Marcos signed Republic Act No. 12327, or the Basic Education Voucher Assistance Act,"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1o6xhwm",
       "source": "inqn",
       "title": "Defense told: Cale88 issue not on registration, but undeclared income",
       "summary": "MANILA, Philippines — Two members of the prosecution team have reminded Vice President Sara Duterte’s lawyers that the issue with Cale88 Foods Corporation is not whether it is a registered business,…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:18.389Z",
+      "published": "2026-11-20T10:01:17.359Z",
       "firstSeen": "2026-11-20T07:30:54.348Z",
       "url": "https://newsinfo.inquirer.net/2344376/defense-told-cale88-issue-not-on-registration-but-undeclared-income",
       "image": {
@@ -109,7 +84,7 @@
       "summary": "MANILA, Philippines — The Board of Investments (BOI) found no irregularities in Cale88 Foods Corp.’s export transactions involving Chinese companies, a defense witness testified at Vice President…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:18.389Z",
+      "published": "2026-11-20T10:01:17.359Z",
       "firstSeen": "2026-11-20T06:30:56.127Z",
       "url": "https://newsinfo.inquirer.net/2344363/boi-found-no-issue-with-cale88s-exports-to-china-witness-says",
       "image": {
@@ -128,13 +103,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-k04nqb",
+      "source": "inqn",
+      "title": "Marcos signs K-12 private school voucher law",
+      "summary": "MANILA, Philippines—President Marcos has signed a new law institutionalizing the Department of Education’s (DepEd) voucher program, allowing eligible Kindergarten to Grade 12 (K to 12) students to…",
+      "byline": "cavendano",
+      "section": "Nation",
+      "published": "2026-11-20T10:01:17.359Z",
+      "firstSeen": "2026-11-20T07:01:06.156Z",
+      "url": "https://newsinfo.inquirer.net/2344370/marcos-signs-k-12-private-school-voucher-law",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/05nov2026-marcos9.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—President Marcos has signed a new law institutionalizing the Department of Education’s (DepEd) voucher program, allowing eligible Kindergarten to Grade 12 (K to 12) students to enroll in private schools and help decongest public campuses. Deemed a landmark piece of legislation, Marcos signed Republic Act No. 12327, or the Basic Education Voucher Assistance Act,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1tbnufn",
       "source": "inqn",
       "title": "Dengue cases in Agusan del Sur breach 4,000; deaths now 22",
       "summary": "PROSPERIDAD, Agusan del Sur&#8212; Health authorities have raised the alarm anew as dengue infections in Agusan del Sur province continue to surge, breaching 4,000 cases and claiming 22 lives. Data…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:18.318Z",
+      "published": "2026-11-20T10:01:17.339Z",
       "firstSeen": "2026-11-20T07:01:05.340Z",
       "url": "https://newsinfo.inquirer.net/2344384/dengue-cases-in-agusan-del-sur-breach-4000-deaths-now-22",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "MANILA, Philippines — A co-accused of former Speaker Martin Romualdez in his P7.44-billion plunder case has surrendered to the National Bureau of Investigation (NBI) on Thursday, the Office of the…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:18.318Z",
+      "published": "2026-11-20T10:01:17.339Z",
       "firstSeen": "2026-11-20T08:01:16.311Z",
       "url": "https://newsinfo.inquirer.net/2344382/romualdez-co-accused-surrenders-to-nbi-says-ombudsman",
       "image": {
@@ -178,23 +178,48 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-vwe2dw",
+      "id": "inqn-1rozvfo",
       "source": "inqn",
-      "title": "Baguio warns of alcohol risks after infant suffocation death",
-      "summary": "BAGUIO CITY &#8211;An infant died of accidental suffocation after his intoxicated father pressed down on him while they slept at home, the City Health Services Office (CHSO) reported on Friday. The…",
-      "byline": "cavendano",
+      "title": "PNP calls on remaining suspects in Caloocan robbery to surrender",
+      "summary": "MANILA, Philippines — The Philippine National Police (PNP) on Friday called on the alleged suspects, including police officers, involved in a robbery and holdup case in Caloocan City to surrender.…",
+      "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:18.295Z",
-      "firstSeen": "2026-11-20T07:30:54.290Z",
-      "url": "https://newsinfo.inquirer.net/2344387/baguio-warns-of-alcohol-risks-after-infant-suffocation-death",
+      "published": "2026-11-20T10:01:15.603Z",
+      "firstSeen": "2026-11-20T09:01:12.544Z",
+      "url": "https://newsinfo.inquirer.net/2344408/pnp-calls-on-remaining-suspects-in-caloocan-robbery-to-surrender",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2020/05/000_AF6J6-scaled-e1590572810572.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/07/allen-rae-co-28july2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "BAGUIO CITY &#8211;An infant died of accidental suffocation after his intoxicated father pressed down on him while they slept at home, the City Health Services Office (CHSO) reported on Friday. The one-year-old child&#8217;s death certificate listed mechanical asphyxia due to external thoracic compression as the cause of death. READ: Our drinking culture is killing us"
+          "text": "MANILA, Philippines — The Philippine National Police (PNP) on Friday called on the alleged suspects, including police officers, involved in a robbery and holdup case in Caloocan City to surrender. PNP spokesperson Brig. Gen. Allen Rae Co made the appeal after the victim appeared before the National Police Commission (Napolcom) due to concerns"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1dyo3g2",
+      "source": "inqn",
+      "title": "Man arrested for illegal possession of loaded revolver in Palawan",
+      "summary": "CALAPAN CITY, Oriental Mindoro — Police arrested a 38-year-old man for possessing an unlicensed firearm after responding to a reported disturbance at a passenger terminal in the town of Busuanga in…",
+      "byline": "cavendano",
+      "section": "Latest News Stories",
+      "published": "2026-11-20T10:01:15.603Z",
+      "firstSeen": "2026-11-20T08:01:06.573Z",
+      "url": "https://newsinfo.inquirer.net/2344394/man-arrested-for-illegal-possession-of-loaded-revolver-in-palawan",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2024/11/Palawan-map-filephoto-091222.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CALAPAN CITY, Oriental Mindoro — Police arrested a 38-year-old man for possessing an unlicensed firearm after responding to a reported disturbance at a passenger terminal in the town of Busuanga in Palawan on Friday. The suspect was found carrying a loaded .38-caliber revolver with two live hollow-point bullets when police officers from the Busuanga Municipal"
         }
       ],
       "truncated": true,
@@ -209,7 +234,7 @@
       "summary": "MANILA, Philippines — The Philippine National Police (PNP) on Friday said they are identifying the individuals allegedly behind 70 social media posts inciting violence at the 49th Asean Summit and…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:16.561Z",
+      "published": "2026-11-20T10:01:15.603Z",
       "firstSeen": "2026-11-20T08:31:12.254Z",
       "url": "https://newsinfo.inquirer.net/2344397/pnp-looks-into-70-posts-inciting-violence-at-asean-summit-rallies",
       "image": {
@@ -234,7 +259,7 @@
       "summary": "MANILA, Philippines — Five major stations of the Metro Rail Transit Line 3 (MRT-3) are targeted for rehabilitation and modernization by next year, Transportation Secretary Vince Dizon said on Friday.…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:16.561Z",
+      "published": "2026-11-20T10:01:15.603Z",
       "firstSeen": "2026-11-20T08:01:09.119Z",
       "url": "https://newsinfo.inquirer.net/2344396/dizon-says-5-mrt-3-stations-to-be-modernized-by-2027",
       "image": {
@@ -253,23 +278,48 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1dyo3g2",
+      "id": "inqn-vwe2dw",
       "source": "inqn",
-      "title": "Man arrested for illegal possession of loaded revolver in Palawan",
-      "summary": "CALAPAN CITY, Oriental Mindoro — Police arrested a 38-year-old man for possessing an unlicensed firearm after responding to a reported disturbance at a passenger terminal in the town of Busuanga in…",
+      "title": "Baguio warns of alcohol risks after infant suffocation death",
+      "summary": "BAGUIO CITY &#8211;An infant died of accidental suffocation after his intoxicated father pressed down on him while they slept at home, the City Health Services Office (CHSO) reported on Friday. The…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:16.535Z",
-      "firstSeen": "2026-11-20T08:01:06.573Z",
-      "url": "https://newsinfo.inquirer.net/2344394/man-arrested-for-illegal-possession-of-loaded-revolver-in-palawan",
+      "published": "2026-11-20T10:01:15.603Z",
+      "firstSeen": "2026-11-20T07:30:54.290Z",
+      "url": "https://newsinfo.inquirer.net/2344387/baguio-warns-of-alcohol-risks-after-infant-suffocation-death",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/11/Palawan-map-filephoto-091222.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2020/05/000_AF6J6-scaled-e1590572810572.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "CALAPAN CITY, Oriental Mindoro — Police arrested a 38-year-old man for possessing an unlicensed firearm after responding to a reported disturbance at a passenger terminal in the town of Busuanga in Palawan on Friday. The suspect was found carrying a loaded .38-caliber revolver with two live hollow-point bullets when police officers from the Busuanga Municipal"
+          "text": "BAGUIO CITY &#8211;An infant died of accidental suffocation after his intoxicated father pressed down on him while they slept at home, the City Health Services Office (CHSO) reported on Friday. The one-year-old child&#8217;s death certificate listed mechanical asphyxia due to external thoracic compression as the cause of death. READ: Our drinking culture is killing us"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-17v8bfc",
+      "source": "inqn",
+      "title": "Quezon town schools to shift to online learning during extreme heat",
+      "summary": "LUCENA CITY — Public and private schools in the municipality of Buenavista in Quezon will shift to alternative learning arrangements whenever the heat index reaches the “extreme caution” level. “Due…",
+      "byline": "cavendano",
+      "section": "Latest News Stories",
+      "published": "2026-11-20T10:01:15.578Z",
+      "firstSeen": "2026-11-20T08:31:03.564Z",
+      "url": "https://newsinfo.inquirer.net/2344414/quezon-town-schools-to-shift-to-online-learning-during-extreme-heat",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Copy-Quezon-Province-map-filephoto-091122.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LUCENA CITY — Public and private schools in the municipality of Buenavista in Quezon will shift to alternative learning arrangements whenever the heat index reaches the “extreme caution” level. “Due to the prevailing extreme heat and upon the recommendation of the Municipal Disaster Risk Reduction and Management Office (MDRRMO), the local government unit of Buenavista"
         }
       ],
       "truncated": true,
@@ -284,7 +334,7 @@
       "summary": "MANILA, Philippines — Did Vice President Sara Duterte’s tree-planting activities have anything to do with a requirement imposed on Cale88 Foods Corporation, the banana chip company linked to her…",
       "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:16.495Z",
+      "published": "2026-11-20T10:01:15.578Z",
       "firstSeen": "2026-11-20T08:01:05.445Z",
       "url": "https://newsinfo.inquirer.net/2344390/prosec-asks-if-vps-tree-planting-was-tied-to-cale88-requirement",
       "image": {
@@ -309,7 +359,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — The Diocese of Imus has called on parishes to organize activities that promote youth participation in the Catholic Church as it prepares to observe Local World Youth…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:16.495Z",
+      "published": "2026-11-20T10:01:15.578Z",
       "firstSeen": "2026-11-20T08:01:05.532Z",
       "url": "https://newsinfo.inquirer.net/2344404/imus-diocese-sets-november-29-as-national-youth-day",
       "image": {
@@ -328,88 +378,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1rozvfo",
-      "source": "inqn",
-      "title": "PNP calls on remaining suspects in Caloocan robbery to surrender",
-      "summary": "MANILA, Philippines — The Philippine National Police (PNP) on Friday called on the alleged suspects, including police officers, involved in a robbery and holdup case in Caloocan City to surrender.…",
-      "byline": "mesarangay",
-      "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:16.495Z",
-      "firstSeen": "2026-11-20T09:01:12.544Z",
-      "url": "https://newsinfo.inquirer.net/2344408/pnp-calls-on-remaining-suspects-in-caloocan-robbery-to-surrender",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/07/allen-rae-co-28july2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Philippine National Police (PNP) on Friday called on the alleged suspects, including police officers, involved in a robbery and holdup case in Caloocan City to surrender. PNP spokesperson Brig. Gen. Allen Rae Co made the appeal after the victim appeared before the National Police Commission (Napolcom) due to concerns"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-17v8bfc",
-      "source": "inqn",
-      "title": "Quezon town schools to shift to online learning during extreme heat",
-      "summary": "LUCENA CITY — Public and private schools in the municipality of Buenavista in Quezon will shift to alternative learning arrangements whenever the heat index reaches the “extreme caution” level. “Due…",
-      "byline": "cavendano",
-      "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:14.716Z",
-      "firstSeen": "2026-11-20T08:31:03.564Z",
-      "url": "https://newsinfo.inquirer.net/2344414/quezon-town-schools-to-shift-to-online-learning-during-extreme-heat",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Copy-Quezon-Province-map-filephoto-091122.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — Public and private schools in the municipality of Buenavista in Quezon will shift to alternative learning arrangements whenever the heat index reaches the “extreme caution” level. “Due to the prevailing extreme heat and upon the recommendation of the Municipal Disaster Risk Reduction and Management Office (MDRRMO), the local government unit of Buenavista"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-cbyl82",
-      "source": "inqg",
-      "title": "AFP welcomes over $5B in US arms sales to PH",
-      "summary": "MANILA, Philippines — The Armed Forces of the Philippines (AFP) on Friday welcomed more than $5 billion worth of approved US arms sales to the Philippines. During a bilateral meeting with President…",
-      "byline": "Dona Policar",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-20T09:31:14.716Z",
-      "firstSeen": "2026-11-20T05:00:56.295Z",
-      "url": "https://globalnation.inquirer.net/349246/afp-welcomes-over-5b-in-us-arms-sales-to-ph",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Trump-arrives-in-Malacanang-for-bilateral-meeting-with-Marcos-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Armed Forces of the Philippines (AFP) on Friday welcomed more than $5 billion worth of approved US arms sales to the Philippines. During a bilateral meeting with President Ferdinand Marcos Jr. in Malacañang, US President Donald Trump said he had supported increased foreign military financing and approved $5 billion worth of"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-bupvd1",
       "source": "inqg",
       "title": "COP31 talks deadlocked over omission of fossil fuels in draft deal",
       "summary": "ANTALYA, Turkey — The UN&#8217;s COP31 climate talks enter their endgame Friday, with countries sharply divided over a draft deal lacking any mention of planet-heating fossil fuels, threatening to…",
       "byline": "Dennis Maliwanag",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-20T09:31:14.716Z",
+      "published": "2026-11-20T10:01:15.578Z",
       "firstSeen": "2026-11-20T03:01:05.348Z",
       "url": "https://globalnation.inquirer.net/349242/cop31-talks-deadlocked-over-omission-of-fossil-fuels-in-draft-deal",
       "image": {
@@ -434,7 +409,7 @@
       "summary": "MANILA, Philippines — The Senate committee on ethics and privileges has found the complaint against Sen. Ronald “Bato” dela Rosa over his prolonged absence sufficient in form and substance. In a…",
       "byline": "Dona Policar",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:14.715Z",
+      "published": "2026-11-20T10:01:15.577Z",
       "firstSeen": "2026-11-20T08:31:02.609Z",
       "url": "https://newsinfo.inquirer.net/2344405/ethics-complaint-vs-dela-rosa-sufficient-in-form-substance",
       "image": {
@@ -453,23 +428,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-t9ylwl",
+      "id": "inqg-cbyl82",
       "source": "inqg",
-      "title": "SM empowers Youth-driven innovation at the Sustainability Summit North Luzon",
-      "summary": "Following the successful mounting of its youth-oriented programs in Metro Manila, SM through its sustainability arm and SM Cares reinforced its commitment to empower community opportunities through…",
-      "byline": "nstamaria",
-      "section": "Events",
-      "published": "2026-11-20T09:31:13.438Z",
-      "firstSeen": "2026-11-20T05:30:59.447Z",
-      "url": "https://globalnation.inquirer.net/349249/sm-empowers-youth-driven-innovation-at-the-sustainability-summit-north-luzon",
+      "title": "AFP welcomes over $5B in US arms sales to PH",
+      "summary": "MANILA, Philippines — The Armed Forces of the Philippines (AFP) on Friday welcomed more than $5 billion worth of approved US arms sales to the Philippines. During a bilateral meeting with President…",
+      "byline": "Dona Policar",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-20T10:01:15.577Z",
+      "firstSeen": "2026-11-20T05:00:56.295Z",
+      "url": "https://globalnation.inquirer.net/349246/afp-welcomes-over-5b-in-us-arms-sales-to-ph",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/SM-empowers-Youth-driven-innovation-at-the-Sustainability-Summit-North-Luzon.png",
+        "src": "https://globalnation.inquirer.net/files/2026/11/Trump-arrives-in-Malacanang-for-bilateral-meeting-with-Marcos-scaled.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "Following the successful mounting of its youth-oriented programs in Metro Manila, SM through its sustainability arm and SM Cares reinforced its commitment to empower community opportunities through the youth, as well as enhance their agency to care for the environment with the third annual Sustainability Summit. Mounted in partnership with the Department of Science and"
+          "text": "MANILA, Philippines — The Armed Forces of the Philippines (AFP) on Friday welcomed more than $5 billion worth of approved US arms sales to the Philippines. During a bilateral meeting with President Ferdinand Marcos Jr. in Malacañang, US President Donald Trump said he had supported increased foreign military financing and approved $5 billion worth of"
         }
       ],
       "truncated": true,
@@ -484,7 +459,7 @@
       "summary": "TACLOBAN CITY — Residents in parts of Samar and Eastern Samar have been warned against gathering and consuming shellfish after red tide toxins were detected in several coastal waters, as the…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:12.941Z",
+      "published": "2026-11-20T10:01:15.558Z",
       "firstSeen": "2026-11-20T08:31:02.535Z",
       "url": "https://newsinfo.inquirer.net/2344422/red-tide-warning-up-in-samar-bays",
       "image": {
@@ -503,13 +478,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-t9ylwl",
+      "source": "inqg",
+      "title": "SM empowers Youth-driven innovation at the Sustainability Summit North Luzon",
+      "summary": "Following the successful mounting of its youth-oriented programs in Metro Manila, SM through its sustainability arm and SM Cares reinforced its commitment to empower community opportunities through…",
+      "byline": "nstamaria",
+      "section": "Events",
+      "published": "2026-11-20T10:01:15.558Z",
+      "firstSeen": "2026-11-20T05:30:59.447Z",
+      "url": "https://globalnation.inquirer.net/349249/sm-empowers-youth-driven-innovation-at-the-sustainability-summit-north-luzon",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/SM-empowers-Youth-driven-innovation-at-the-Sustainability-Summit-North-Luzon.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Following the successful mounting of its youth-oriented programs in Metro Manila, SM through its sustainability arm and SM Cares reinforced its commitment to empower community opportunities through the youth, as well as enhance their agency to care for the environment with the third annual Sustainability Summit. Mounted in partnership with the Department of Science and"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-1lo1x0j",
       "source": "inqg",
       "title": "Marcos laughs off ‘Anak’ song choice at Apec: ‘Very, very warm gesture’",
       "summary": "SHENZHEN, China — President Ferdinand Marcos Jr. on Friday brushed off speculation over China’s choice of the Filipino song “Anak” for his red-carpet entrance at the gala dinner for Asia-Pacific…",
       "byline": "Dona Policar",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-20T09:31:12.894Z",
+      "published": "2026-11-20T10:01:15.540Z",
       "firstSeen": "2026-11-20T06:30:56.127Z",
       "url": "https://globalnation.inquirer.net/349268/marcos-laughs-off-anak-song-choice-at-apec-very-very-warm-gesture",
       "image": {
@@ -534,7 +534,7 @@
       "summary": "MANILA, Philippines – Senate impeachment court presiding officer Francis “Chiz” Escudero unveiled on Friday the schedule for the rest of the trial of Vice President Sara Duterte. This, as the court…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:11.122Z",
+      "published": "2026-11-20T10:01:13.759Z",
       "firstSeen": "2026-11-20T09:01:02.738Z",
       "url": "https://newsinfo.inquirer.net/2344432/escudero-unveils-vp-trial-schedule-for-december",
       "image": {
@@ -559,7 +559,7 @@
       "summary": "SHENZHEN, China — President Ferdinand Marcos Jr. on Friday said he was “perplexed” by the protests against United States-led Pax Silica initiative, saying there were no provisions in the agreement…",
       "byline": "Dona Policar",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-20T09:31:11.117Z",
+      "published": "2026-11-20T10:01:10.162Z",
       "firstSeen": "2026-11-20T07:01:05.340Z",
       "url": "https://globalnation.inquirer.net/349271/marcos-perplexed-by-pax-silica-protests-says-no-data-centers-planned",
       "image": {
@@ -584,7 +584,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — The city government is shifting to a four‑day work week and scaling back upcoming fiesta and Christmas celebrations to keep its finances afloat amid soaring fuel…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:07.636Z",
+      "published": "2026-11-20T10:01:10.160Z",
       "firstSeen": "2026-11-20T09:01:01.820Z",
       "url": "https://newsinfo.inquirer.net/2344429/calapan-back-on-4-day-workweek-trims-fiesta-and-christmas-events",
       "image": {
@@ -609,7 +609,7 @@
       "summary": "SHENZHEN, China — President Ferdinand Marcos Jr. on Friday expressed belief that China is also leaning towards the finalization of the Code of Conduct (COC) in the South China Sea, citing his recent…",
       "byline": "Dona Policar",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-20T09:31:05.114Z",
+      "published": "2026-11-20T10:01:07.778Z",
       "firstSeen": "2026-11-20T07:30:54.344Z",
       "url": "https://globalnation.inquirer.net/349277/marcos-china-also-keen-on-finalizing-south-china-sea-coc",
       "image": {
@@ -634,7 +634,7 @@
       "summary": "PAGADIAN CITY, Zamboanga del Sur &#8212; With a tight local budget and backed by out-of-pocket contributions from municipal workers, the Municipality of Kumalarang in Zamboanga del Sur province is…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:04.567Z",
+      "published": "2026-11-20T10:01:07.026Z",
       "firstSeen": "2026-11-20T09:01:01.744Z",
       "url": "https://newsinfo.inquirer.net/2344435/zamboanga-del-sur-town-shortlisted-for-national-literacy-award",
       "image": {
@@ -659,7 +659,7 @@
       "summary": "MANILA, Philippines — House Speaker Faustino “Bojie” G. Dy III welcomed the National Parliament of Timor-Leste on Wednesday as the 11th member of the Association of Southeast Asian Nations (Asean)…",
       "byline": "Alexander Magno",
       "section": "Asia & Pacific",
-      "published": "2026-11-20T09:31:03.933Z",
+      "published": "2026-11-20T10:01:06.600Z",
       "firstSeen": "2026-11-20T07:30:54.290Z",
       "url": "https://globalnation.inquirer.net/349278/timor-leste-formally-joins-aipa-as-11th-member-parliament",
       "image": {
@@ -684,7 +684,7 @@
       "summary": "MANILA, Philippines — A “moderately strong” tremor was felt in Iloilo City on Friday morning following a Magnitude 4.3 earthquake south of Anilao town, according to state seismologists. The tectonic…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:03.931Z",
+      "published": "2026-11-20T10:01:06.598Z",
       "firstSeen": "2026-11-20T09:31:03.931Z",
       "url": "https://newsinfo.inquirer.net/2344443/phivolcs-moderately-strong-4-3-quake-felt-in-iloilo-city",
       "image": {
@@ -709,7 +709,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — The Department of Health in Mimaropa is monitoring cases of malaria caused by a monkey‑borne parasite in northern Palawan, particularly in the municipalities of Roxas…",
       "byline": "cavendano",
       "section": "Latest News Stories",
-      "published": "2026-11-20T09:31:03.894Z",
+      "published": "2026-11-20T10:01:06.538Z",
       "firstSeen": "2026-11-20T09:08:43.225Z",
       "url": "https://newsinfo.inquirer.net/2344441/doh-monitors-monkey-linked-malaria-cases-in-northern-palawan",
       "image": {
@@ -734,7 +734,7 @@
       "summary": "SHENZHEN, China— President Ferdinand Marcos Jr. on Friday said the Philippines is in talks with Elon Musk&#8217;s SpaceX to explore making the country one of its rocket launch sites, citing its…",
       "byline": "Dona Policar",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-20T09:31:03.894Z",
+      "published": "2026-11-20T10:01:06.538Z",
       "firstSeen": "2026-11-20T08:31:02.535Z",
       "url": "https://globalnation.inquirer.net/349285/marcos-eyes-ph-as-potential-spacex-rocket-launch-site",
       "image": {
@@ -751,6 +751,572 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "dw-1xjpoij",
+      "source": "dw",
+      "title": "Ukraine updates: Kyiv targeted by missile strikes, bridges hit",
+      "summary": "Ukraine's capital has been struck by Russian missiles with at least 3 deaths reported. The latest strikes come after Vladimir Putin warned of a \"painful\" response following the Kerch bridge strikes.…",
+      "byline": "Kieran Burke",
+      "section": "",
+      "published": "2026-11-20T09:58:00.000Z",
+      "firstSeen": "2026-11-20T10:01:06.598Z",
+      "url": "https://www.dw.com/en/ukraine-updates-kyiv-targeted-by-missile-strikes-bridges-hit/live-79999822?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79999836_6.jpg",
+        "caption": "Mayor Vitali Klitschko said at least three people have been killed and 13 others injuredImage: Gleb Garanich/REUTERS"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Live"
+        },
+        {
+          "type": "p",
+          "text": "Ukraine's capital has been struck by Russian missiles with at least 3 deaths reported. The latest strikes come after Vladimir Putin warned of a \"painful\" response following the Kerch bridge strikes. Follow DW."
+        },
+        {
+          "type": "p",
+          "text": "Prefer DW on Google"
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79999836_605.jpg",
+          "caption": "Mayor Vitali Klitschko said at least three people have been killed and 13 others injuredImage: Gleb Garanich/REUTERS"
+        },
+        {
+          "type": "h",
+          "text": "What you need to know"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Kyiv's mayor says 3 killed after Russian missile attacks",
+            "Three bridges in the capital reported to have been damaged",
+            "Russian media reporting visit by EU representatives to Russia 'under consideration'"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Below you can follow the latest updates dealing with Russia's war in Ukraine on Friday, 20th November:"
+        },
+        {
+          "type": "p",
+          "text": "November 20, 2026"
+        },
+        {
+          "type": "h",
+          "text": "WATCH — Ukraine: Premature babies in a war zone"
+        },
+        {
+          "type": "p",
+          "text": "In war-torn Ukraine, premature babies remain at risk during air raids, while young architects work to save a forgotten gem in Romania."
+        },
+        {
+          "type": "h",
+          "text": "Ukraine: Premature babies in a war zone"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-vzdv27",
+      "source": "abs",
+      "title": "Julia Barretto, Carlos Yulo practice tennis for Alex Eala celebrity match",
+      "summary": "The stars set to showcase their tennis skills at the Alex Eala Live Event next month are putting in the work to give the Philippine Arena crowd a show.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-20T09:56:55.000Z",
+      "firstSeen": "2026-11-20T10:01:06.538Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/11/20/julia-barretto-carlos-yulo-practice-tennis-for-alex-eala-celebrity-match-1756",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The stars set to showcase their tennis skills at the Alex Eala Live Event next month are putting in the work to give the Philippine Arena crowd a show."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "cbc-1w0iuru",
+      "source": "cbc",
+      "title": "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
+      "summary": "Russia launched missiles and drones across Kyiv overnight that killed three people, injured nine others and damaged bridges and transport infrastructure, local authorities said Friday.",
+      "byline": "CBC",
+      "section": "News/World",
+      "published": "2026-11-20T09:53:27.000Z",
+      "firstSeen": "2026-11-20T10:01:06.598Z",
+      "url": "https://www.cbc.ca/news/world/russian-attacks-on-kyiv-9.7429460?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/c03853e2-7c32-4406-8c5f-102cf35a4bb4,1795167098286/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C435%2C4176%2C2349%29%3BResize%3D620",
+        "caption": "A man walks through debris at the site of a warehouse that was struck during a Russian drone strike, amid Russia's attack on Ukraine, in Kyiv, Ukraine, November 20, 2026. (Thomas Peter/Reuters)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "World·New"
+        },
+        {
+          "type": "p",
+          "text": "Russia launched missiles and drones across Kyiv overnight that killed three people, injured nine others and damaged bridges and transport infrastructure, local authorities said Friday."
+        },
+        {
+          "type": "h",
+          "text": "Missile, drone strikes came after Putin vowed to retaliate for attacks on key bridge to Crimea"
+        },
+        {
+          "type": "p",
+          "text": "The attacks came hours after President Vladimir Putin vowed to retaliate against Ukraine for three aerial attacks this week on the vital Kerch Bridge, which links occupied Crimea with the Russian mainland."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "With Putin in the room, Carney condemns Russia's illegal invasion of Ukraine"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"We will respond to these attacks, and I want everyone to be clear about that,\" Putin told reporters Thursday in China, where he attended a summit with the Chinese and U.S. presidents. Putin said the road side of the bridge had been \"seriously damaged\" and vowed to rebuild."
+        },
+        {
+          "type": "p",
+          "text": "The Kyiv City Military Administration said the attack struck four districts of the capital. The attack caused widespread electricity disruptions. Energy provider DTEK said parts of the Pecherskyi, Solomianskyi, Holosiivskyi, Dniprovskyi and Darnytskyi districts were without power following the strikes."
+        },
+        {
+          "type": "p",
+          "text": "Non-residential buildings were damaged in the Obolonskyi and Holosiivskyi districts, while transport and logistics infrastructure was hit in the Podilskyi and Darnytskyi districts, it said in a statement."
+        },
+        {
+          "type": "p",
+          "text": "Why does Ukraine keep hitting Russia's prized Kerch Bridge?"
+        },
+        {
+          "type": "p",
+          "text": "Kyiv's Mayor Vitali Klitschko said a ballistic missile attack damaged the Podilskyi Bridge, forcing authorities to close traffic from the right bank to the left bank of the Dnipro River. The Darnitskyi Bridge was also damaged, he said."
+        },
+        {
+          "type": "p",
+          "text": "A further strike hit the Southern Bridge, where traffic remains restricted. Only vehicles weighing up to 10 tons traveling from the left bank to the right bank, and public transport weighing up to 18 tons, are being permitted, he said."
+        },
+        {
+          "type": "p",
+          "text": "Klitschko urged residents to avoid traveling into the city by private car unless absolutely necessary. He asked businesses and institutions to arrange remote working wherever possible."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "dw-p60zof",
+      "source": "dw",
+      "title": "COP31: UN Climate summit enters final phase with no deal in sight",
+      "summary": "After nearly two weeks of negotiations, countries remain divided on how to fight global warming. A new draft declaration doesn't mention the phaseout of fossil fuels, the main drivers of climate…",
+      "byline": "Karl Sexton",
+      "section": "",
+      "published": "2026-11-20T09:52:00.000Z",
+      "firstSeen": "2026-11-20T10:01:06.603Z",
+      "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79999578_6.jpg",
+        "caption": "Negotiators are scrambling to bridge their differences with the summit poised to be extendedImage: Yasin Akgul/AFP"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Live"
+        },
+        {
+          "type": "p",
+          "text": "After nearly two weeks of negotiations, countries remain divided on how to fight global warming. A new draft declaration doesn't mention the phaseout of fossil fuels, the main drivers of climate change. DW has more."
+        },
+        {
+          "type": "p",
+          "text": "Prefer DW on Google"
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79999578_605.jpg",
+          "caption": "Negotiators are scrambling to bridge their differences with the summit poised to be extendedImage: Yasin Akgul/AFP"
+        },
+        {
+          "type": "h",
+          "text": "What you need to know"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Diplomats and delegates from nearly 200 countries are meeting in Antalya, Turkey",
+            "A new draft deal omits any mention of how to phase out fossil fuels, in what campaigners call a step 'backwards' and a 'glaring regression'"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Like in previous years, the climate summit is likely to be extended until a consensus is reached"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These are the major developments from the closing phase of the UN's COP31 Climate Summit in Antalya, Turkey, on Friday, November 20, 2026:"
+        },
+        {
+          "type": "p",
+          "text": "November 20, 2026"
+        },
+        {
+          "type": "h",
+          "text": "IN DEPTH — Fossil fuels dropped from latest COP31 draft deal"
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/79992106_$%7BformatId%7D.jpg",
+          "caption": "Protesters at the COP31 in Antalya Turkey calling for a phaseout of fossil fuels, the burning of which is the main driver of climate changeImage: DW"
+        },
+        {
+          "type": "p",
+          "text": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas."
+        },
+        {
+          "type": "p",
+          "text": "Now, all mention of fossil fuels has been removed from the summit's new draft agreement."
+        },
+        {
+          "type": "p",
+          "text": "Learn more about why fossil fuels, the main drivers of global warming, were removed from the COP31 draft declaration in this report."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1kvsvid",
+      "source": "inq",
+      "title": "Cebu hosted 3.78M of Central Visayas’ 4.49M tourist arrivals in 2026",
+      "summary": "Cebu hosted 3.78M of Central Visayas' 4.49M tourist arrivals in 2026... Keep on reading: Cebu hosted 3.78M of Central Visayas’ 4.49M tourist arrivals in 2026",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-20T09:47:49.000Z",
+      "firstSeen": "2026-11-20T10:01:06.537Z",
+      "url": "https://cebudailynews.inquirer.net/786825/cebu-hosted-3-78m-of-central-visayas-4-49m-tourist-arrivals-in-2026",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/11/Cebu-Provincial-Government-welcomes-tourism-students-620x465.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cebu hosted 3.78M of Central Visayas' 4.49M tourist arrivals in 2026... Keep on reading: Cebu hosted 3.78M of Central Visayas’ 4.49M tourist arrivals in 2026"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-2775a6",
+      "source": "abs",
+      "title": "Orlando declares Nov. 12 ‘JEFRË Day’ as Fil-Am artist opens new exhibition",
+      "summary": "Filipino-American sculptor JEFRË was honored by the city of Orlando, Florida, with a proclamation declaring November 12, 2026, as JEFRË Day, coinciding with the opening of an exhibition of his work…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-20T09:44:39.000Z",
+      "firstSeen": "2026-11-20T10:01:06.601Z",
+      "url": "https://www.abs-cbn.com/lifestyle/people-culture-events/2026/11/20/orlando-declares-nov-12-jefre-day-as-fil-am-artist-opens-new-exhibition-1744",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Filipino-American sculptor JEFRË was honored by the city of Orlando, Florida, with a proclamation declaring November 12, 2026, as JEFRË Day, coinciding with the opening of an exhibition of his work at Orlando City Hall."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-14ksoua",
+      "source": "inq",
+      "title": "UAAP: UST keeps focus on itself amid heated Final Four race",
+      "summary": "SCHEDULE: UAAP Season 89 basketball tournament – second round MANILA, Philippines—University of Santo Tomas is knocking on the UAAP Season 89 men&#8217;s basketball Final Four door, and the Growling…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-20T09:43:41.000Z",
+      "firstSeen": "2026-11-20T10:01:06.598Z",
+      "url": "https://sports.inquirer.net/707854/uaap-ust-keeps-focus-on-itself-amid-heated-final-four-race",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/11/IMG_0291_UAAP-89-mens-basketball-UST-UE_Amiel-Acido-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SCHEDULE: UAAP Season 89 basketball tournament – second round MANILA, Philippines—University of Santo Tomas is knocking on the UAAP Season 89 men&#8217;s basketball Final Four door, and the Growling Tigers know they must focus on their own games as the semifinal race heats up. Following the squad’s 89-84 win that eliminated Ateneo on Sunday at Smart Araneta Coliseum, assistant coach Peter Martin was quick to acknowledge the UST’s newfound focus. UPDATED: UAAP Season 89 Standings: Men&#8217;s and women&#8217;s basketball With the Final Four race heading into the home stretch, the Tigers are keeping their attention on themselves rather than worrying about [&hellip;]... Keep on reading: UAAP: UST keeps focus on itself amid heated Final Four race"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "dw-bt23qw",
+      "source": "dw",
+      "title": "Lufthansa to cut 1,000 jobs, citing ongoing losses — reports",
+      "summary": "According to a letter obtained by the media, Lufthansa's executive board said the German company is losing €20 million every month. In addition to job cuts, operational cuts are also planned.",
+      "byline": "Sertac Comak",
+      "section": "",
+      "published": "2026-11-20T09:43:00.000Z",
+      "firstSeen": "2026-11-20T10:01:08.753Z",
+      "url": "https://www.dw.com/en/lufthansa-to-cut-1-000-jobs-citing-ongoing-losses-reports/a-80000062?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/79691095_6.jpg",
+        "caption": "Lufthansa is also the largest airline in Europe, in terms of passengers carriedImage: Ardan Fuessmann/Eibner-Pressefoto/picture alliance"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Germany's flagship airline Lufthansa plans to cut 1,000 jobs at its Frankfurt and Munich hubs, according to a company letter seen by German news agency DPA and news outlets."
+        },
+        {
+          "type": "p",
+          "text": "The letter was reportedly signed by Lufthansa CEO Jens Ritter and four other board members."
+        },
+        {
+          "type": "h",
+          "text": "Why is Lufthansa cutting 1,000 jobs?"
+        },
+        {
+          "type": "p",
+          "text": "This is reportedly down to ongoing financial losses. In the first nine months of the year, the airline recorded an operating loss of €180 million ($197 million)."
+        },
+        {
+          "type": "h",
+          "text": "VW on the brink"
+        },
+        {
+          "type": "p",
+          "text": "The executive board said on average the loss amounts to €20 million every month, according to media reports. The board stated in the letter that \"this is the third year in a row of not being financially successful.\""
+        },
+        {
+          "type": "p",
+          "text": "\"Lufthansa is currently not competitive in terms of its cost structure, efficiency and productivity,\" the letter said."
+        },
+        {
+          "type": "p",
+          "text": "At the end of 2025, the Lufthansa group employed some 67,100 people, up 1% from the previous year."
+        },
+        {
+          "type": "h",
+          "text": "How else is Lufthansa planning to save money?"
+        },
+        {
+          "type": "p",
+          "text": "The company also plans to cut employee travel benefits, restructure its hub operations to reduce crew overnight stays abroad, and reduce short- and medium-haul capacity by replacing some A320 aircraft with A220 jets."
+        },
+        {
+          "type": "p",
+          "text": "Furthermore, it plans to equip ten aircraft per month with Starlink, a satellite internet service developed by tech billionaire Elon Musk. The airline hopes to generate \"additional revenue” by monetizing onboard internet access, according to the letter."
+        },
+        {
+          "type": "p",
+          "text": "The time frame of the cuts is unclear. It's also unknown whether the cuts were a part of a previously announced downsizing."
+        },
+        {
+          "type": "p",
+          "text": "In September 2025, Lufthansa said it would slash 4,000 administrative positions due to the implementation of AI and digitalization."
+        },
+        {
+          "type": "p",
+          "text": "In regards to this year, Lufthansa has faced rising fuel costs spurred by the US-Israeli war with Iran, further complicating its financial outlook."
+        },
+        {
+          "type": "h",
+          "text": "How AI is changing the working world"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "gma-7xl50x",
+      "source": "gma",
+      "title": "Jinggoy Estrada's 'fees' linked to Bulacan pumping stations, solar lights --witness",
+      "summary": "Senator Jinggoy Estrada\"s P213 million worth of \"commitment fees\" or “kickbacks” stemmed from P355 million worth of pumping stations and P500 million worth of solar street lights in Bulacan, a…",
+      "byline": "LLANESCA T. PANTI, GMA News",
+      "section": "",
+      "published": "2026-11-20T09:34:54.000Z",
+      "firstSeen": "2026-11-20T10:01:06.598Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1010229/jinggoy-estrada-s-fees-linked-to-bulacan-pumping-stations-solar-lights-witness/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/07/Jinggoy_2026_07_30_09_33_50.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published November 20, 2026 5:34pm"
+        },
+        {
+          "type": "p",
+          "text": "Senator Jinggoy Estrada’s P213 million worth of \"commitment fees\" or “kickbacks” stemmed from P355 million worth of pumping stations and P500 million worth of solar street lights in Bulacan, a prosecution witness said Friday."
+        },
+        {
+          "type": "p",
+          "text": "Carlo Rivera, a former engineer at the Department of Public Works and Highways (DPWH) Bulacan First District Engineering Office (DEO), gave testimony during the ongoing hearing on the bail petition filed by Estrada before the Sandiganbayan Fifth Division."
+        },
+        {
+          "type": "p",
+          "text": "Estrada is facing a P573 million plunder charge over his alleged involvement in the flood control kickback scheme."
+        },
+        {
+          "type": "p",
+          "text": "“Ang sabi po niya prepare a list for Senator Estrada…iyong P300 million pumping station, i-tag kay SJE,” Rivera said, referring to this former boss, state witness and ex-Bulacan First DEO District Engineer Henry Alcantara."
+        },
+        {
+          "type": "p",
+          "text": "It was Alcantara who previously told the anti-graft court that Estrada got a 25% commitment fee per project. Alcantara, however, did not specify the nature of these Bulacan projects."
+        },
+        {
+          "type": "p",
+          "text": "“The total amount of solar street lights is P500 million,” Rivera said."
+        },
+        {
+          "type": "p",
+          "text": "Another prosecution witness, Edrick San Diego, said he served as a driver for Alcantara but was paid as a lot technician."
+        },
+        {
+          "type": "p",
+          "text": "Likewise, San Diego said his task was only to deliver the boxes to state witness and the DPWH Undersecretary Roberto Bernardo, not to Estrada."
+        },
+        {
+          "type": "p",
+          "text": "“Hindi ko alam ano nangyari [sa mga boxes] after madeliver sa Diamond Hotel,” San Diego said."
+        },
+        {
+          "type": "p",
+          "text": "After San Diego’s testimony, the prosecution informed the Sandiganbayan that San Diego would be its last witness."
+        },
+        {
+          "type": "p",
+          "text": "As a result, the Sandiganbayan gave the prosecution 10 days to submit its formal offer of evidence. —LDF, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-hbj069",
+      "source": "abs",
+      "title": "ENHYPEN explores destined love in final chapter of 'THE SIN' series",
+      "summary": "K-pop group ENHYPEN released Friday its single album 'THE SIN : PARALLEL WORLD,' exploring the idea of destined love and marking the final chapter in its album series.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-20T09:34:33.000Z",
+      "firstSeen": "2026-11-20T10:01:08.753Z",
+      "url": "https://www.abs-cbn.com/entertainment/showbiz/music/2026/11/20/enhypen-the-sin-parallel-world-release-1734",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "K-pop group ENHYPEN released Friday its single album 'THE SIN : PARALLEL WORLD,' exploring the idea of destined love and marking the final chapter in its album series."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "rap-1s7dvir",
+      "source": "rap",
+      "title": "[Pinoy Criminology] Killing of judges threatens the rule of law",
+      "summary": "A country that cannot protect its judges cannot promise its people a fair hearing, a just decision, or the rule of law",
+      "byline": "Raymund E. Narag",
+      "section": "Editors' Pick",
+      "published": "2026-11-20T09:30:00.000Z",
+      "firstSeen": "2026-11-20T10:01:06.538Z",
+      "url": "https://www.rappler.com/voices/thought-leaders/pinoy-criminology-killing-judges-threatens-rule-law/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2021/03/fredric-santos.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Another judge has fallen to assassins, and another court has been left to mourn. Judge Joseph Wee Sit, presiding over Branch 2 of the Regional Trial Court in Isabela City, Basilan, was shot dead in Zamboanga City on November 12. He was a young judge, only a little over a year into service on the bench, with his life and public service still opening before him."
+        },
+        {
+          "type": "p",
+          "text": "This should outrage not only the legal profession, but the entire Filipino community. The killing is horrifying on its own, but it also carries a danger beyond one family’s grief. Every bullet fired at a judge is a threat to the institution that must decide disputes by law."
+        },
+        {
+          "type": "p",
+          "text": "Whether this killing was intended to intimidate the judiciary remains for investigators to establish. But we cannot pretend an attack on a judge is merely a private crime, detached from public office. Judges sometimes confront politically charged, contested cases, where their decisions threaten interests powerful enough to answer law with force."
+        },
+        {
+          "type": "p",
+          "text": "That possibility makes the killing all the more urgent to investigate, without prematurely declaring who ordered it or why. A murder can terrorize a court before its motive becomes known, because judges understand the warning implicit in violence."
+        },
+        {
+          "type": "p",
+          "text": "The judiciary is supposed to be impartial and independent. Judges swear to decide cases on their merits, on the facts presented, and the law that governs them. They must be able to rule without fear or favor, even when their decisions anger the powerful or disappoint the public. When judges know that their lives, limbs, and careers are on the line, safety can begin to shape judgment. Then decisions are made not on merit, but on power; that is rule by men, not rule of law."
+        },
+        {
+          "type": "p",
+          "text": "I have written about judgments arriving after 21 years, people trapped in judicial limbo, and detention prolonged by vacancies and delay. Those problems may look different from the murder of a judge, but they expose the same fragility. A court cannot guard liberty when it lacks time, personnel, and resources to hear cases fairly and promptly. Nor can the public trust justice when the law’s guardians are left vulnerable, unsupported, or pressured by political power. The judge should be the immediate guardian of liberty, and accountability separates justice from mere force."
+        },
+        {
+          "type": "p",
+          "text": "That protection begins before a judge enters the courtroom. It begins with the appointment process, where judicial posts must never become prizes in partisan warfare. If lawyers must beg political patrons for judicial posts, obligations and loyalty tests can precede their first ruling. That is an unfair burden to place on young, idealistic lawyers, then send them to decide cases affecting the lives and fortunes of powerful people. Appointments must rest on merit alone, measured through integrity, ability, experience, and the courage to apply law equally."
+        },
+        {
+          "type": "p",
+          "text": "The Judicial and Bar Council must be strengthened in its work of recruiting, selecting, and recommending judges and justices. Malacañang, as the final appointing authority, must respect the council’s merit-based recommendations and choose the most qualified candidates. That principle has too often remained aspirational, invoked in speeches but weakened by political calculation. An appointment system based on merit gives judges legitimacy and weakens patrons’ leverage over the bench. It also assures the public that judicial office is earned through qualification and service, rather than political loyalty."
+        },
+        {
+          "type": "p",
+          "text": "We must also strengthen the judiciary after appointment. Congress and the presidency must provide more judges, court staff, functioning offices, and dependable operational budgets. Judges cannot deliver justice effectively when they lack the personnel, equipment, and basic resources to do their work. Courts should not have to depend on mayors, governors, or legislators for support that belongs to the national government. Local officials must respect independence, while the national government ensures judges never depend on local favor."
+        },
+        {
+          "type": "p",
+          "text": "Protection must be real, sustained, and visible, especially for judges serving in places where cases carry exceptional risks. That means assessing threats, protecting court personnel, and coordinating security without letting security arrangements compromise judicial independence."
+        },
+        {
+          "type": "p",
+          "text": "The investigation must establish who killed Judge Wee Sit, identify any instigators, and determine whether the attack was connected to his work. The Supreme Court has mobilized its judicial marshals to work with law enforcement, a necessary step toward accountability. The state must also stand with his family and every judge who returns to court despite danger."
+        },
+        {
+          "type": "p",
+          "text": "Otherwise, judges will be reduced from instruments of law to instruments of the powerful. Disgruntled politicians, criminals, and businessmen will learn that terror can clear a judge from their path. Young lawyers attracted to public service will see that idealism can cost them their lives, while the state offers little protection."
+        },
+        {
+          "type": "p",
+          "text": "That is how fear enters the courtroom, and how justice quietly yields to those who can threaten it. A country that cannot protect its judges cannot promise its people a fair hearing, a just decision, or the rule of law. – Rappler.com"
+        },
+        {
+          "type": "p",
+          "text": "Raymund E. Narag, PhD, is an associate professor in criminology and criminal justice at the School of Justice and Public Safety, Southern Illinois University, Carbondale."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "feed"
     },
     {
       "id": "gma-grudzc",
@@ -1033,7 +1599,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-1cvcpe0",
@@ -3279,7 +3845,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-1oaodm7",
@@ -3725,7 +4291,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-n3mrx4",
@@ -4991,31 +5557,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-czfr2u",
-      "source": "inq",
-      "title": "Quezon town schools to shift to online learning during extreme heat",
-      "summary": "LUCENA CITY — Public and private schools in the municipality of Buenavista in Quezon will shift to alternative learning arrangements whenever the heat index reaches the “extreme caution” level. “Due…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-20T08:07:13.000Z",
-      "firstSeen": "2026-11-20T08:31:12.271Z",
-      "url": "https://newsinfo.inquirer.net/2344414/quezon-town-schools-to-shift-to-online-learning-during-extreme-heat",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Copy-Quezon-Province-map-filephoto-091122-620x352.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — Public and private schools in the municipality of Buenavista in Quezon will shift to alternative learning arrangements whenever the heat index reaches the “extreme caution” level. “Due to the prevailing extreme heat and upon the recommendation of the Municipal Disaster Risk Reduction and Management Office (MDRRMO), the local government unit of Buenavista announces the temporary suspension of face-to-face classes whenever the heat index reaches 33 degrees to 42 degrees Celsius or higher,” the municipal government said in a Facebook post on Wednesday. Schools would adopt appropriate Modular Learning Options to ensure continuity of education while protecting students&#8217; health [&hellip;]... Keep on reading: Quezon town schools to shift to online learning during extreme heat"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-fudzsh",
       "source": "abs",
       "title": "Manibela sets another transport strike on Nov. 23, 24",
@@ -5058,31 +5599,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-132newa",
-      "source": "inq",
-      "title": "NBA: Spurs bounce back from loss to Pistons, beat Clippers",
-      "summary": "SAN ANTONIO— Victor Wembanyama had 32 points and 11 rebounds, Stephon Castle added 21 points and 12 assists, and the San Antonio Spurs held off the Los Angeles Clippers for a 124-112 victory in the…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-20T08:03:18.000Z",
-      "firstSeen": "2026-11-20T08:31:12.271Z",
-      "url": "https://sports.inquirer.net/707838/nba-spurs-bounce-back-from-loss-to-pistons-beat-clippers",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/AP26324133136148-1-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN ANTONIO— Victor Wembanyama had 32 points and 11 rebounds, Stephon Castle added 21 points and 12 assists, and the San Antonio Spurs held off the Los Angeles Clippers for a 124-112 victory in the NBA on Thursday night. Julian Champagnie added 20 points for San Antonio, which bounced back from a 105-93 loss to Detroit on Tuesday that snapped its 12-game winning streak. Wembanyama was 13 for 26 in scoring at least 30 points for the seventh time this season. Darius Garland and Brook Lopez had 23 points apiece for Los Angeles. San Antonio lost Dylan Harper to injury in [&hellip;]... Keep on reading: NBA: Spurs bounce back from loss to Pistons, beat Clippers"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-5wmn3s",
@@ -6417,37 +6933,20 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "dw-3wim9y",
+      "id": "dw-1d2ds31",
       "source": "dw",
-      "title": "Germany news: Lufthansa to cut 1,000 jobs, reports say",
-      "summary": "The job cuts come as Lufthansa Airlines is struggling to turn a profit. Meanwhile, further youth-led protests are expected. DW has the latest.",
-      "byline": "Wesley Dockery",
+      "title": "Germany news: Merz to join German-Ukrainian business forum",
+      "summary": "Chancellor Merz is taking part in a forum to boost business ties with Ukraine. Meanwhile, youth protests are expected to take to the streets again. DW has the latest.",
+      "byline": "Jenipher Camino Gonzalez, Wesley Dockery",
       "section": "",
       "published": "2026-11-20T06:41:00.000Z",
-      "firstSeen": "2026-11-20T07:01:05.435Z",
-      "url": "https://www.dw.com/en/germany-news-lufthansa-to-cut-1-000-jobs-reports-say/live-79998529?maca=en-rss-en-all-1573-rdf",
+      "firstSeen": "2026-11-20T10:01:10.328Z",
+      "url": "https://www.dw.com/en/germany-news-merz-to-join-german-ukrainian-business-forum/live-79998529?maca=en-rss-en-all-1573-rdf",
       "image": {
-        "src": "https://static.dw.com/image/78315422_6.jpg",
-        "caption": "Lufthansa traces its history all the way back to 1926Image: Arnaud Beinat/MAXPPP/IMAGO"
+        "src": "https://static.dw.com/image/79840819_6.jpg",
+        "caption": "German is aiming to support Ukraine's economy, as well as its militaryImage: Markus Schreiber/AP Photo/picture alliance"
       },
       "blocks": [
-        {
-          "type": "p",
-          "text": "Live"
-        },
-        {
-          "type": "p",
-          "text": "The job cuts come as Lufthansa Airlines is struggling to turn a profit. Meanwhile, further youth-led protests are expected. DW has the latest."
-        },
-        {
-          "type": "p",
-          "text": "Prefer DW on Google"
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/78315422_605.jpg",
-          "caption": "Lufthansa traces its history all the way back to 1926Image: Arnaud Beinat/MAXPPP/IMAGO"
-        },
         {
           "type": "h",
           "text": "What you need to know"
@@ -6456,8 +6955,9 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "Lufthansa to reportedly slash 1,000 positions at Frankfurt and Munich hubs",
-            "Further Gen Z-led protests are expected across Europe, including in Germany"
+            "Further Gen Z-led protests are expected across Europe, including in Germany",
+            "German Chancellor Friedrich Merz is set to attend a German-Ukrainian business forum in Berlin",
+            "Lufthansa to reportedly slash 1,000 positions at Frankfurt and Munich hubs"
           ]
         },
         {
@@ -6470,39 +6970,39 @@
         },
         {
           "type": "h",
-          "text": "Lufthansa to slash 1,000 jobs in Frankfurt, Munich — reports"
+          "text": "Youth protests expected in German cities"
         },
         {
           "type": "p",
-          "text": "German flagship airline Lufthansa plans to cut 1,000 jobs at its airport hubs in Frankfurt and Munich, according to a company letter seen by German news agency DPA and news outlets."
+          "text": "A group called \"Gen Z Takes Charge\" (Gen Z regelt) has called for thousands of young people to demonstrate in many German cities."
         },
         {
           "type": "p",
-          "text": "The letter was reportedly signed by Lufthansa Airlines CEO Jens Ritter and four other managers."
+          "text": "The gathering comes almost three weeks after the first major youth protests hit Germany, inspired by the protests that took place in France in the last weeks."
         },
         {
           "type": "p",
-          "text": "The timeframe of the cuts is unclear. It's also unknown whether the cuts were apart of a previously announced downsizing."
+          "text": "Those protests, which took place on October 31, saw tens of thousands take to the streets across Germany, with crowds remaining largely peaceful, although rioting broke out in several cities, including Frankfurt, later in the evening."
         },
         {
           "type": "p",
-          "text": "In September 2025, Lufthansa said it would slash 4000 administrative positions due to the implementation of AI and digitalization."
+          "text": "Among the demands of the \"Gen Z Takes Charge\" group are increased funding for schools, addiction support and psychotherapy, affordable living, opposition to conscription and consistent action on climate change."
         },
         {
           "type": "p",
-          "text": "Lufthansa's parent company Lufthansa Group had 67,100 employees in Germany by the end of last year. In the letter seen by news agencies, Lufthansa said financial struggles were the reason behind the planned cuts."
+          "text": "Another group, the Federal Pupils' Conference, has also organized its own demonstration at the Brandenburg Gate in Berlin, with police saying that some 5,000 people have already signed up."
         },
         {
           "type": "p",
-          "text": "\"Lufthansa is currently not competitive in terms of its cost structure, efficiency and productivity,\" the letter said, while pointing out that the company operated at a €180 million ($197 million) loss in the first nine months of this year."
+          "text": "The pupils' conference advocates for improvements in education policy in Germany, including school renovation, school social work, relief for teachers and the inclusion of climate action in curricula."
         },
         {
           "type": "p",
-          "text": "In addition, Lufthansa Airlines is now in its third straight year of being unprofitable."
+          "text": "The demonstrations are set to begin in the morning and run until late afternoon."
         },
         {
-          "type": "p",
-          "text": "In regards to this year, Lufthansa has faced rising fuel costs spurred by the US-Israeli war with Iran, further complicating its financial outlook."
+          "type": "h",
+          "text": "Does Germany's Gen Z still feel the East-West divide?"
         }
       ],
       "truncated": false,
@@ -7435,135 +7935,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "feed"
-    },
-    {
-      "id": "rap-1cte279",
-      "source": "rap",
-      "title": "Overlooked Apayao flower identified as new plant species",
-      "summary": "Scientists identify the plant as Medinilla bulutiorum, a species new to science from the forests of Calanasan, Apayao",
-      "byline": "Mia Magdalena Fokno",
-      "section": "Philippine News",
-      "published": "2026-11-20T05:44:56.000Z",
-      "firstSeen": "2026-11-20T06:01:00.761Z",
-      "url": "https://www.rappler.com/philippines/apayao-flower-medinilla-bulutiorum/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/11/IMG_7314.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "FLOWER FIND. Medinilla bulutiorum, a newly identified flowering plant from Calanasan, Apayao, grows in the province's lower montane forests."
-        },
-        {
-          "type": "p",
-          "text": "courtesy of Jiro T. Adorador"
-        },
-        {
-          "type": "p",
-          "text": "Scientists identify the plant as Medinilla bulutiorum, a species new to science from the forests of Calanasan, Apayao"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "A new plant species, Medinilla bulutiorum, has been identified in the forests of Calanasan, Apayao, marking a significant botanical discovery.",
-            "The species, which belongs to the Melastomataceae family, was published in the journal Phytotaxa and is notable for its distinct characteristics compared to similar plants.",
-            "This discovery highlights the biodiversity of Calanasan's forests and the importance of ongoing botanical exploration, with three new species documented since 2025."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "This is AI-generated. Read the article for full context. Report any errors."
-        },
-        {
-          "type": "p",
-          "text": "BAGUIO, Philippines – It was not hiding. In fact, the flowering plant is common in the forest where researchers found it. Yet botanists had overlooked it for centuries."
-        },
-        {
-          "type": "p",
-          "text": "Now, a team of scientists has officially identified the plant as Medinilla bulutiorum, a species new to science from the forests of Calanasan, Apayao."
-        },
-        {
-          "type": "p",
-          "text": "The “discovery,” published Wednesday, November 18, in the international scientific journal Phytotaxa, adds another species to the growing list of botanical finds from a province whose forests continue to reveal how much remains undocumented."
-        },
-        {
-          "type": "p",
-          "text": "Researchers recorded the plant in Barangay Eva Puzon, where it grows in lower montane forests at elevations of approximately 700 to 900 meters."
-        },
-        {
-          "type": "p",
-          "text": "The study was authored by Jiro T. Adorador, Zhereeleen D. Meneses-Adorador, Breiden Dela Cruz, Sarah Mae C. Batil, Jayson C. Ibañez, and J. Peter Quakenbush, who are affiliated with the University of the Philippines Los Baños, Apayao’s provincial and municipal environment offices, the Philippine Eagle Foundation, and Grand Valley State University in the United States."
-        },
-        {
-          "type": "p",
-          "text": "The newly described species belongs to the Melastomataceae family, which includes the familiar ornamental Medinilla magnifica."
-        },
-        {
-          "type": "p",
-          "text": "Both plants produce long, hanging flower clusters with prominent bracts, but M. bulutiorum differs in several characteristics, including its smaller leaves, rounded branchlets, more crowded flower clusters, and brownish covering on parts of its inflorescence."
-        },
-        {
-          "type": "p",
-          "text": "Its identification marks at least the third plant species newly described from Calanasan since 2025."
-        },
-        {
-          "type": "p",
-          "text": "In October 2025, scientists published Vaccinium kilangensis, a relative of blueberries collected near Kilang Pass along the Apayao–Ilocos Norte boundary."
-        },
-        {
-          "type": "p",
-          "text": "Another species, Medinilla calanasan, first encountered in Barangay Eva, was formally described in February 2026."
-        },
-        {
-          "type": "p",
-          "text": "Three species described in just over a year point to the scientific importance of Calanasan’s forests, where systematic botanical exploration has been limited."
-        },
-        {
-          "type": "p",
-          "text": "The researchers themselves noted that M. bulutiorum had gone unnoticed by botanists despite being widespread at the site where it was documented."
-        },
-        {
-          "type": "p",
-          "text": "The species was named in honor of the Bulut family, particularly the late Elias K. Bulut Sr., known as EKB, in recognition of the family’s leadership and stewardship of ancestral lands. Bulut is regarded as a founding political figure of Apayao."
-        },
-        {
-          "type": "p",
-          "text": "Despite the discovery, scientists still know relatively little about the plant’s overall population and geographical distribution."
-        },
-        {
-          "type": "p",
-          "text": "Researchers have provisionally assessed it as data deficient under the International Union for Conservation of Nature (IUCN) Red List criteria. The classification does not mean the species is endangered. It means available scientific information is insufficient to determine its extinction risk."
-        },
-        {
-          "type": "p",
-          "text": "The discovery adds to the biological importance of the Apayaos Biosphere Reserve, which UNESCO recognized in July 2024."
-        },
-        {
-          "type": "p",
-          "text": "Covering Apayao’s diverse landscapes, the reserve is internationally recognized for its biodiversity and efforts to balance conservation with the needs of local communities."
-        },
-        {
-          "type": "p",
-          "text": "The latest findings also show why continued botanical surveys matter. Identifying a species allows researchers to study its distribution, assess potential threats, and determine what protection it may need."
-        },
-        {
-          "type": "p",
-          "text": "For Calanasan, the succession of discoveries is more than a collection of new scientific names. It provides further evidence of the biological diversity of its forests and the importance of keeping those habitats intact."
-        },
-        {
-          "type": "p",
-          "text": "Medinilla bulutiorum may have been familiar to people who have long lived near these forests. What is new is its formal recognition by science."
-        },
-        {
-          "type": "p",
-          "text": "And with three species described from Calanasan since 2025, researchers have good reason to keep looking. – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "abs-i84j8l",
@@ -8709,94 +9080,6 @@
         {
           "type": "p",
           "text": "Chen's father reportedly arrived in Japan on 13 November. It is not clear when he posted the reward offer."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "gma-zwd02z",
-      "source": "gma",
-      "title": "Cale88 classified as MSME --DTI witness",
-      "summary": "Cale88 Foods Corporation, a declared business interest of Vice President Sara Duterte\"s husband Manases Carpio, is classified as a Small and Medium Enterprise (MSME), a defense witness said Friday.",
-      "byline": "LLANESCA T. PANTI, GMA News",
-      "section": "",
-      "published": "2026-11-20T04:00:04.000Z",
-      "firstSeen": "2026-11-20T04:31:07.866Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1010181/mans-carpio-s-declared-business-cale-88-classified-as-msme-dti-witness/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/11/1_2026_11_20_11_27_18.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published November 20, 2026 12:00pm"
-        },
-        {
-          "type": "p",
-          "text": "Cale88 Foods Corporation which is being linked to Vice President Sara Duterte’s husband Manases Carpio, is classified as a Small and Medium Enterprise (MSME), a defense witness said Friday."
-        },
-        {
-          "type": "p",
-          "text": "Department of Trade and Industry (DTI) Undersecretary Ceferino Rodolfo for Industry Development and Investment Promotions Group made the testimony during Day 45 of the impeachment trial of Vice President Duterte."
-        },
-        {
-          "type": "p",
-          "text": "“Ito po (Cale88) ay MSME po kasi siya dahil po dung po sa project cost niya, below 15 million pesos,” Rodolfo, who also serves as the Managing Head of the Board of Investments, said."
-        },
-        {
-          "type": "p",
-          "text": "(Cale88 is MSME because the project cost is below P15 million.)"
-        },
-        {
-          "type": "p",
-          "text": "Rodolfo then said Cale88 applied for a Certificate of Registration of an Export Enterprise before the BOI Extension in Davao and secured subsequent approval from the same office."
-        },
-        {
-          "type": "p",
-          "text": "“We streamlined the BOI system in 2016 for MSMEs under a Board Resolution, meaning the evaluation and approval [of a business] is now delegated function. This means that is the business is in Luzon, it would be under the Executive Director of Industry Development Service. Outside Luzon, it will depend on the jurisdiction of BOI Extension Office. Para dito po [sa Cale88], BOI Extension Office sa Davao ‘yung nag evaluate at nag approve,” Rodolfo pointed out."
-        },
-        {
-          "type": "p",
-          "text": "(It is the BOI Davao office which evaluated and approved its application.)"
-        },
-        {
-          "type": "p",
-          "text": "“Dahil po sa na-register po siya, ina-assume ko lang po na wala po nakuhang objection ‘yung Davao office po natin [sa Cale88 application for Certificate of Registration of an Export Enterprise]. Wala po akong nakita dun sa kanilang evaluation report na merong nag-object,” he added."
-        },
-        {
-          "type": "p",
-          "text": "(Since it was registered, I assume that nobody objected to its application, and that our Davao office did not find any things objectionable to its application based on the evaluation report.)"
-        },
-        {
-          "type": "p",
-          "text": "Rodolfo also said that as an MSME, Cale88 is not required to publish Certificate of Registration of an Export Enterprise in newspaper for general circulation."
-        },
-        {
-          "type": "p",
-          "text": "“This requirement does not apply to Cale88 being an MSME. What we do is we post the notice [of its Certificate of Registration of an Export Enterprise] on our BOI website kasi medyo mahal rin po mag-publish sa newspaper of general circulation,” Rodolfo said."
-        },
-        {
-          "type": "p",
-          "text": "Defense team lawyer Justin Gular said Rodolfo’s testimony disputes the findings of prosecution witness and financial forensic expert Alex Cabrera who earlier testified that Cale88 is not a real functioning business based on Cabrera’s analysis of the financial records of the Vice President and her husband."
-        },
-        {
-          "type": "p",
-          "text": "“The exact term, Your Honor, if I may, by the supposed forensic expert is that Cale88 is allegedly an implausible business model. And of course, we seek to dispute, among other things, that monies were received by Mans Carpio from this corporation,” Gular said."
-        },
-        {
-          "type": "p",
-          "text": "Cabrera, an accountant-lawyer, earlier testified that the Vice President and her husband have unexplained wealth worth P817 million to P1.5 billion due to non-declaration of their assets in their joint Statement of Assets, Liabilities and Net Worth (SALN), including income from Cale88 Foods Corporation."
-        },
-        {
-          "type": "p",
-          "text": "Defense witness and AML Consulting PH head, Atty. Rainer Dela Fuente, testified a day ago that there were red flags in Cale88 Foods Corporation operations given that the firm only has two employees, received P319 million remittances from China and recorded 757 covered transactions and suspicious transactions worth P1.2 billion."
-        },
-        {
-          "type": "p",
-          "text": "Dela Fuente, however, said such red flags are not automatically illegal. —VAL, GMA News"
         }
       ],
       "truncated": false,
@@ -10496,7 +10779,7 @@
       "id": "inqg-16r1p1f",
       "source": "inqg",
       "title": "Why ‘Anak’? China’s song choice for Marcos at Apec raises questions",
-      "summary": "SHENZHEN, China — A song meant to welcome President Marcos during his visit here has drawn scrutiny from some netizens—not because of its popularity, but because of the meaning behind its lyrics. The…",
+      "summary": "SHENZHEN, China — A song meant to welcome President Ferdinand Marcos Jr. during his visit here has drawn scrutiny from some netizens — not because of its popularity, but because of the meaning behind…",
       "byline": "cbuban",
       "section": "Latest Global Nation Stories",
       "published": "2026-11-20T01:39:02.000Z",
@@ -10509,7 +10792,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "SHENZHEN, China — A song meant to welcome President Marcos during his visit here has drawn scrutiny from some netizens—not because of its popularity, but because of the meaning behind its lyrics. The President arrived in Shenzhen at 5:30 p.m. on Nov. 18 for the 33rd Asia-Pacific Economic Cooperation (Apec) Economic Leaders’ Meeting. He and"
+          "text": "SHENZHEN, China — A song meant to welcome President Ferdinand Marcos Jr. during his visit here has drawn scrutiny from some netizens — not because of its popularity, but because of the meaning behind its lyrics. The president arrived in Shenzhen at 5:30 p.m. on Nov. 18 for the 33rd Asia-Pacific Economic Cooperation (Apec) Economic"
         }
       ],
       "truncated": true,
@@ -13269,160 +13552,6 @@
         {
           "type": "p",
           "text": "Kier Junos covers B.C.'s Fraser Valley for CBC News in Abbotsford, his hometown. He previously worked as a video journalist for CityNews Vancouver for five years. In 2023, he won the inaugural Emerging Journalist of the Year award from the Radio Television Digital News Association, for his reporting on drug policy and unhoused communities. He has a bachelor of journalism with a minor in economics from Kwantlen Polytechnic University."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-6tioap",
-      "source": "cbc",
-      "title": "This Sask. woman took some birds to a poultry show. Now avian flu is taking her whole flock",
-      "summary": "More than 18 million birds in Canada, including more than 1.2 million in Saskatchewan, have been lost due to the highly pathogenic disease since 2021.",
-      "byline": "Maeve Ellis",
-      "section": "News/Canada/Saskatchewan",
-      "published": "2026-11-19T22:07:29.000Z",
-      "firstSeen": "2026-11-19T23:31:06.903Z",
-      "url": "https://www.cbc.ca/news/canada/saskatchewan/sask-birds-poultry-show-avian-flu-9.7428882?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/ba88235a-94d3-409f-99ff-287e0185130b,1795125334675/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C81%2C526%2C295%29%3BResize%3D620",
-        "caption": "Christina Meyer with Huey, one of her geese that died from avian flu after she attended the Canadian National Poultry Show. (Christina Meyer/Facebook)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Saskatchewan"
-        },
-        {
-          "type": "p",
-          "text": "More than 18 million birds in Canada, including more than 1.2 million in Saskatchewan, have been lost due to the highly pathogenic disease since 2021."
-        },
-        {
-          "type": "h",
-          "text": "CFIA confirms 11 infected flocks connected to national bird show, up from 3 on weekend"
-        },
-        {
-          "type": "p",
-          "text": "Christina Meyer didn't think her birds would win the show."
-        },
-        {
-          "type": "p",
-          "text": "Still, she gave the chickens a bath to get ready. One of her geese, Frank, even won a second place ribbon."
-        },
-        {
-          "type": "p",
-          "text": "But after she got home, three geese died from avian flu. Now she's waiting for the rest of the flock of over 100 birds to die or be culled."
-        },
-        {
-          "type": "p",
-          "text": "\"I feel sick to my stomach day and night, knowing what's going to happen. I haven't been able to really sleep. I haven't eaten well,\" said Meyer, who lives in the Saskatoon area."
-        },
-        {
-          "type": "p",
-          "text": "Now she wants to spread awareness about the disease."
-        },
-        {
-          "type": "p",
-          "text": "One of Christina Meyer's chickens taking a bath to prepare for the Canadian National Poultry Show on Nov. 7. (Our latest hobby farm/Facebook)"
-        },
-        {
-          "type": "p",
-          "text": "\"I knew that if you have it, it's everybody. What I didn't know was how drastic and quickly it can hit,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "Meyer attended the Canadian National Poultry Show held on Nov. 7 in Moose Jaw through the Saskatchewan Poultry Association, which was the site of an avian flu outbreak."
-        },
-        {
-          "type": "p",
-          "text": "The Canadian Food Inspection Agency (CFIA) has confirmed 11 cases of highly pathogenic avian flu connected to the show, up from three on Saturday."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Avian flu outbreak at national poultry show spreads to other provinces: CFIA"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "This includes five in Saskatchewan, four in Alberta and two in Manitoba, all in non-commercial flocks."
-        },
-        {
-          "type": "p",
-          "text": "In Saskatchewan there have been two other recent detections in non-commercial flocks not related to the show, according to the CFIA."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "B.C. watching closely after Washington state death linked to avian flu in dairy industry"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Meyer said some breeders have lost years of progress."
-        },
-        {
-          "type": "p",
-          "text": "\"Because it's nationals, it has a bigger draw of people from further away bringing their best birds…. all those genetics and all those bloodlines are gone,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "The impact has also been emotional."
-        },
-        {
-          "type": "p",
-          "text": "\"Huey was one that died. He was really special too. He would give me hugs, kind of. He would eat grass out of my hand,\" she said."
-        },
-        {
-          "type": "h",
-          "text": "Avian flu ongoing risk, says expert"
-        },
-        {
-          "type": "p",
-          "text": "Stephanie Smith, Saskatchewan's chief veterinary officer, said this is the first time she's heard of avian flu outbreak at a bird show."
-        },
-        {
-          "type": "p",
-          "text": "\"The fact that this was a show where people came from across provinces increases that concern, just because now we have potentially moved the virus many directions,\" Smith said."
-        },
-        {
-          "type": "p",
-          "text": "Breeders can decide the risk level they want to take with their birds, and some steps could make shows safer, such as not holding them in the fall or spring, when transmission is higher, she said."
-        },
-        {
-          "type": "p",
-          "text": "The general approach is to cull flocks in which there have been infections, Smith said."
-        },
-        {
-          "type": "p",
-          "text": "Birds exposed to avian flu at national poultry show"
-        },
-        {
-          "type": "p",
-          "text": "\"At this point if it's in a domestic flock the approach is to cull anything on site that could have been exposed, to try and keep that virus contained and then get it out of the environment as quickly as possible so we're not causing further spread.\""
-        },
-        {
-          "type": "p",
-          "text": "Smith said properly cooking poultry and eggs ensures they're still safe to eat."
-        },
-        {
-          "type": "p",
-          "text": "More than 18 million birds in Canada, including more than 1.2 million in Saskatchewan, have been lost due to highly pathogenic avian flu since 2021."
-        },
-        {
-          "type": "p",
-          "text": "A notice issued by the federal government says the risk of avian influenza infection to most people in Canada \"remains low.\""
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Maeve Ellis is a reporter and associate producer with CBC News based in Saskatoon. You can reach her at maeve.ellis@cbc.ca or maeveellis_ on X. She would love to hear from anyone with Sask-related story ideas."
         }
       ],
       "truncated": false,
@@ -16988,72 +17117,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "abs-19t20e0",
-      "source": "abs",
-      "title": "TV PATROL: Medical, dental mission inilapit sa mga nalindol sa Lake Sebu, South Cotabato",
-      "summary": "Inilapit ng ABS-CBN Foundation Sagip Kapamilya katuwang ang TV Patrol Lingkod Kapamilya ang mga libreng serbisyong medikal sa mga nilindol sa bayan ng Lake Sebu sa South Cotabato.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-19T14:47:20.000Z",
-      "firstSeen": "2026-11-19T15:01:10.487Z",
-      "url": "https://www.abs-cbn.com/news/public-service/2026/11/19/tv-patrol-medical-dental-mission-inilapit-sa-mga-nalindol-sa-lake-sebu-south-cotabato-2247",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Inilapit ng ABS-CBN Foundation Sagip Kapamilya katuwang ang TV Patrol Lingkod Kapamilya ang mga libreng serbisyong medikal sa mga nilindol sa bayan ng Lake Sebu sa South Cotabato."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1y4tzmq",
-      "source": "abs",
-      "title": "TV PATROL: 'Filipiñana' star na si Jorrybell Agoto pumanaw na",
-      "summary": "Inanunsyo ng Film Development Council of the Philippines ang kanyang pagpanaw ng bida ng pelikulang 'Filipiñana' na si Jorrybell Agoto sa edad na 31.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-19T14:45:58.000Z",
-      "firstSeen": "2026-11-19T15:01:12.304Z",
-      "url": "https://www.abs-cbn.com/lifestyle/people-culture-events/2026/11/19/tv-patrol-filipi-ana-star-na-si-jorrybell-agoto-pumanaw-na-2245",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Inanunsyo ng Film Development Council of the Philippines ang kanyang pagpanaw ng bida ng pelikulang 'Filipiñana' na si Jorrybell Agoto sa edad na 31."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-gzpba6",
-      "source": "abs",
-      "title": "LOTTO RESULTS: Nobyembre 19, 2026",
-      "summary": "May isang maswerteng bettor na mag-uuwi ng mahigit P26-milyong jackpot sa Lotto 6/42.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-19T14:31:48.000Z",
-      "firstSeen": "2026-11-19T15:01:14.116Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/19/lotto-results-nobyembre-19-2026-2231",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "May isang maswerteng bettor na mag-uuwi ng mahigit P26-milyong jackpot sa Lotto 6/42."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "dw-1vxehii",
       "source": "dw",
       "title": "Wadephul: 'Coalition of the Willing' talks in Berlin send strong signal to Moscow",
@@ -17384,180 +17447,6 @@
         {
           "type": "p",
           "text": "Hegseth reposted the tweet commenting that the US-Colombian partnership \"is stronger than ever before\"."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-1iqca4r",
-      "source": "dw",
-      "title": "Pakistan minister to visit India, but no breakthrough expected",
-      "summary": "A Pakistani minister's visit to India for a Shanghai Cooperation Organization forum marks a rare high-level contact between the two archrivals, but analysts say it does not signal a resumption of…",
-      "byline": "Murali Krishnan",
-      "section": "",
-      "published": "2026-11-19T13:26:00.000Z",
-      "firstSeen": "2026-11-19T13:31:00.070Z",
-      "url": "https://www.dw.com/en/pakistan-minister-to-visit-india-but-no-breakthrough-expected/a-79991717?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/72483175_6.jpg",
-        "caption": "It's the first India visit by a Pakistani federal minister since the two neighbors fought a four-day conflict last yearImage: Aman Sharma/AP Photo/picture alliance"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Pakistan's Climate Change Minister Musadik Masood Malik will travel to India from November 20 to 22 to participate in the Shanghai Cooperation Organization (SCO) Civilizational Dialogue in New Delhi."
-        },
-        {
-          "type": "p",
-          "text": "It marks the first India visit by a Pakistani federal minister since the two nuclear-armed archrivals fought a four-day war last year."
-        },
-        {
-          "type": "p",
-          "text": "The fighting erupted after armed gunmen killed over two dozen tourists, mostly Hindus, in India-administered Kashmir in April 2025. New Delhi accused Islamabad of backing the attack, a charge Pakistan denied."
-        },
-        {
-          "type": "p",
-          "text": "Since the military confrontation, diplomatic tensions have remained high, leaving little room for official engagement between the two sides."
-        },
-        {
-          "type": "p",
-          "text": "The SCO Civilizational Dialogue was proposed by Prime Minister Narendra Modi at the SCO summit in Tianjin in September 2025."
-        },
-        {
-          "type": "p",
-          "text": "As the forum's host, India has invited all member states to participate in the event."
-        },
-        {
-          "type": "p",
-          "text": "The SCO is a political, economic, and security alliance established in 2001. Belarus, China, India, Iran, Kazakhstan, Kyrgyzstan, Pakistan, Russia, Tajikistan, and Uzbekistan are its current members."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79951488_$%7BformatId%7D.jpg",
-          "caption": "Pakistan's Climate Change Minister Musadik Masood Malik will participate in the Shanghai Cooperation Organization Civilizational Dialogue in New DelhiImage: Dogukan Keskinkilic/Anadolu/picture alliance"
-        },
-        {
-          "type": "h",
-          "text": "A 'good sign'"
-        },
-        {
-          "type": "p",
-          "text": "Ajay Bisaria, a former Indian ambassador to Pakistan, sees significance in the fact that neither side sought to avoid the engagement. \"The real takeaway is that the relationship isn't so broken that India won't invite Pakistan, or that Pakistan won't come. That alone is a good sign,\" he told DW."
-        },
-        {
-          "type": "p",
-          "text": "But Bisaria cautions against assuming that the invitation followed a diplomatic breakthrough."
-        },
-        {
-          "type": "p",
-          "text": "\"The trigger was procedural. This forum grew out of Modi's proposal at the 2025 SCO summit in Tianjin, and as host, New Delhi invited every SCO member. I see no evidence of a back channel or outside mediation, and I wouldn't read much into that either way,\" he said."
-        },
-        {
-          "type": "h",
-          "text": "'Being pragmatic'"
-        },
-        {
-          "type": "p",
-          "text": "The multilateral setting serves both countries, though for different reasons."
-        },
-        {
-          "type": "p",
-          "text": "Pakistan wants to retain its influence within the organization. It currently holds the chairmanship of the SCO Council of Heads of State for 2026–27 and is due to host the next leaders' summit in Islamabad in August 2027."
-        },
-        {
-          "type": "p",
-          "text": "Ayesha Siddiqa, a Pakistani expert on military and security affairs at King's College London, argues that Islamabad's decision to send a senior minister should be understood primarily in terms of its position in the grouping."
-        },
-        {
-          "type": "p",
-          "text": "\"Pakistan is keen to maintain its position and influence within the SCO and does not want to relinquish its role in the organization. The minister's visit should therefore be seen primarily in the context of Pakistan fulfilling its commitments under the SCO Charter, rather than as a gesture towards India,\" Siddiqa told DW."
-        },
-        {
-          "type": "h",
-          "text": "A 'frozen conflict': India-Pakistan tensions persist"
-        },
-        {
-          "type": "p",
-          "text": "T C A Raghavan, another former Indian ambassador to Pakistan, shares a similar sentiment."
-        },
-        {
-          "type": "p",
-          "text": "\"Both India and Pakistan attach importance to the SCO, and Pakistan currently holds its chairmanship. This visit should be seen primarily in the context of the SCO, rather than as a development in India-Pakistan bilateral relations,\" Raghavan told DW."
-        },
-        {
-          "type": "p",
-          "text": "\"Islamabad is also being pragmatic in keeping channels open during its SCO chairmanship by participating in an initiative championed by Prime Minister Narendra Modi. There will be no real impact on the India-Pakistan bilateral.\""
-        },
-        {
-          "type": "h",
-          "text": "The bilateral freeze"
-        },
-        {
-          "type": "p",
-          "text": "Since the April 2025 attack, India has maintained that terrorism and talks cannot go hand in hand."
-        },
-        {
-          "type": "p",
-          "text": "\"Post the Pahalgam attack, we have a Pakistan policy. That Pakistan policy remains in place. There has been no change,\" Randhir Jaiswal, spokesperson for India's Foreign Ministry, said at the end of October."
-        },
-        {
-          "type": "p",
-          "text": "Pakistan, meanwhile, continues to raise the issues of Kashmir and the Indus Waters Treaty, which New Delhi placed \"in abeyance\" following the attack."
-        },
-        {
-          "type": "p",
-          "text": "Malik, the climate change minister traveling to India, has been a prominent voice in Pakistan's campaign over water rights. In June, he warned: \"We will protect ourselves... if anyone lays a hand over our share of water, we'll cut off that hand.\""
-        },
-        {
-          "type": "p",
-          "text": "Sanjay Kumar Bhardwaj, professor at the Center for South Asian Studies at Jawaharlal Nehru University, said the SCO is part of India's \"multi-aligned foreign policy.\""
-        },
-        {
-          "type": "p",
-          "text": "He noted that the forum \"doesn't provide any space to normalize relations with Pakistan.\""
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/78584087_$%7BformatId%7D.jpg",
-          "caption": "The SCO Civilizational Dialogue was proposed by Prime Minister Narendra ModiImage: Pyotr Kovalev/Sputnik/Kremlin Pool Photo/AP Photo/picture alliance"
-        },
-        {
-          "type": "h",
-          "text": "Unofficial channels, no formal dialogue"
-        },
-        {
-          "type": "p",
-          "text": "The absence of official talks, however, does not mean all bilateral communication has stopped."
-        },
-        {
-          "type": "p",
-          "text": "Since the May 2025 confrontation, Indian and Pakistani former diplomats, strategic experts, parliamentarians and retired military officers have reportedly taken part in a series of informal or semi-official back-channel meetings."
-        },
-        {
-          "type": "p",
-          "text": "Such exchanges allow participants to assess the other side's thinking, keep informal lines of communication open and reduce the risk of miscalculation."
-        },
-        {
-          "type": "p",
-          "text": "But they do not amount to formal negotiations. New Delhi has said retired officials attending such meetings do so in their personal capacities."
-        },
-        {
-          "type": "p",
-          "text": "An assessment by the International Institute for Strategic Studies in November said both governments appeared reluctant to resume secret talks, despite the role earlier back-channel contacts had played in stabilizing relations."
-        },
-        {
-          "type": "p",
-          "text": "Bisaria described the visit by a Pakistani minister to India as \"a modest step forward, not a breakthrough.\""
-        },
-        {
-          "type": "p",
-          "text": "What happens next, he said, \"depends on Pakistan.\""
-        },
-        {
-          "type": "p",
-          "text": "\"If it avoids grandstanding in Delhi and offers credible assurances on terrorism, publicly or quietly, it becomes more likely that Indian leaders will attend next year's SCO summit in Islamabad. That will be the real test.\""
         }
       ],
       "truncated": false,
@@ -20557,293 +20446,6 @@
         {
           "type": "p",
           "text": "Additional reporting by: Emmie Eernisse"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-1tycn6d",
-      "source": "dw",
-      "title": "'Coalition of the Willing' meets in Berlin: Europe remains committed to Ukraine",
-      "summary": "The \"Coalition of the Willing\" supporting Ukraine is gathering in Berlin. One of the key issues under discussion is whether Europe will be able to play a role in future negotiations over the…",
-      "byline": "Jens Thurau",
-      "section": "",
-      "published": "2026-11-18T15:03:00.000Z",
-      "firstSeen": "2026-11-18T18:01:05.515Z",
-      "url": "https://www.dw.com/en/coalition-of-the-willing-meets-in-berlin-europe-remains-committed-to-ukraine/a-79974996?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/77949257_6.jpg",
-        "caption": "The 'Coalition of the Willing' comprises European countries and EU and NATO leadersImage: Ukrainian Presidential Press Service/Sven Simon/picture alliance"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Once again, Berlin is rolling out the red carpet, and once again the focus is on Ukraine: Around 20 heads of state and government, primarily from across Europe, are set to gather in the German capital on Thursday (November 19). They will discuss the future of the Eastern European country that has been under attack from Russia since February 2022 and is now facing yet another harsh winter."
-        },
-        {
-          "type": "p",
-          "text": "Extensive security measures have already been announced for Berlin's government district, pointing to the presence of high-ranking participants. It remains unclear whether Ukrainian President Volodymyr Zelenskyy will be among them. What does appear certain, however, is the attendance of chief US negotiators Steve Witkoff and Jared Kushner, according to several media outlets."
-        },
-        {
-          "type": "p",
-          "text": "The \"Coalition of the Willing\" is a group of 36 countries determined not to be deterred from supporting the nation under attack. Unlike other international forums, the group is focused not only on how to support Ukraine militarily and financially in the here and now."
-        },
-        {
-          "type": "h",
-          "text": "DW interview with German Chancellor Friedrich Merz"
-        },
-        {
-          "type": "p",
-          "text": "Led by Germany, France, and the United Kingdom, the coalition is also prepared, in principle, to help monitor a possible ceasefire within Ukraine itself and to contribute to the complex security guarantees the country would then require, should such a scenario come to pass. The effort dates back to March 2025, when the countries involved first met in London. Now they are gathering in Berlin."
-        },
-        {
-          "type": "p",
-          "text": "But what can the coalition realistically achieve? Stefan Meister of the German Council on Foreign Relations (DGAP) is not overly optimistic. In an interview with DW, he said: \"The fundamental problem is that Europe has yet to put forward a proposal. There is no plan outlining what security guarantees Europe would offer, what troops it would be prepared to deploy, what measures it could provide to safeguard a ceasefire, or where it would be willing to make compromises.\""
-        },
-        {
-          "type": "h",
-          "text": "Merz: 'Germany has a seat at the table'"
-        },
-        {
-          "type": "p",
-          "text": "Nevertheless, the meeting comes at a moment when some observers believe there may finally be movement toward ending the war. During talks in Abu Dhabi in the United Arab Emirates a few days ago, Russia, Ukraine, and the US managed to agree only on a prisoner exchange. It was a modest step forward."
-        },
-        {
-          "type": "p",
-          "text": "Further talks are planned, and it has been a long time since the prospects appeared as favorable as they do now for Europe to secure a role in future decisions on war and peace in Ukraine."
-        },
-        {
-          "type": "h",
-          "text": "Western allies boost Ukraine's defenses but clash over deep strikes"
-        },
-        {
-          "type": "p",
-          "text": "It has repeatedly been argued, both by US officials and by those in power in Russia, that Europe does not speak with a single voice."
-        },
-        {
-          "type": "p",
-          "text": "Unsurprisingly, this has sparked a debate among EU heads of state and government over who, exactly, could represent Europe in such talks. Could it be German Chancellor Friedrich Merz of the center-right Christian Democratic Union (CDU)? After the EU summit in Dublin, Ireland, on Friday, he said: \"For the first time, concrete peace talks are expected to take place in the coming weeks with Europe represented. Germany has a seat at the table, that is absolutely clear.\""
-        },
-        {
-          "type": "h",
-          "text": "Europe has yet to speak with one voice"
-        },
-        {
-          "type": "p",
-          "text": "But what exactly did that mean? That Germany alone would speak for all of Europe? Hardly. As was also made clear in Berlin on Monday, Europe would be represented by the E3 countries, namely Germany, France, and the non-EU member United Kingdom, joined by Poland and Italy. Official EU representatives, including European Council President António Costa, would also take part."
-        },
-        {
-          "type": "p",
-          "text": "Stefan Meister of the DGAP believes the debate says a great deal about the pressures Europe itself is under: \"Europe's positioning has more to do with domestic political considerations than with developments in the negotiations. Everyone needs to show that they are participating in the talks in some way. Elections will be held next year in France and Poland, and it is still unclear whether French support for Ukraine will continue in its current form after that.\""
-        },
-        {
-          "type": "p",
-          "text": "German Deputy Government Spokesperson Sebastian Hille, meanwhile, sought to downplay the debate on Monday over a possible role for Friedrich Merz as chief negotiator. At the federal government's regular press briefing, he said: \"This is not about discussing individuals. What matters is that Putin finally understands that he must come to the negotiating table so that we have a chance of achieving peace in the first place.\""
-        },
-        {
-          "type": "h",
-          "text": "Can Germany make Europe pay more for Ukraine?"
-        },
-        {
-          "type": "h",
-          "text": "German government spokesperson: Europe now needs stamina"
-        },
-        {
-          "type": "p",
-          "text": "US negotiator Jared Kushner, the son-in-law of President Donald Trump, struck a rather different tone last week. Speaking in Abu Dhabi, he said: \"If Europe could identify one person to speak on their behalf, that would be a bigger achievement than getting the Russians to include them in the negotiations.\""
-        },
-        {
-          "type": "p",
-          "text": "Government spokesperson Hille responded on Monday: \"Europe's strength lies precisely in the unity and cohesion of many countries. We should not allow ourselves to be drawn into debates that others want to frame around this question.\" Hille emphasized that the situation remained unchanged: peace in Ukraine could only be achieved step by step. Europe, too, would need stamina, perseverance, and a willingness to undertake the painstaking work required to bring it about."
-        },
-        {
-          "type": "p",
-          "text": "Declining support for Ukraine in German polls"
-        },
-        {
-          "type": "p",
-          "text": "European supporters of Ukraine are also under pressure as public opinion on the issue is shifting, including in Germany. While a broad majority favored helping defend the country in the immediate aftermath of Russia's invasion in the spring of 2022, support has since fallen markedly."
-        },
-        {
-          "type": "p",
-          "text": "According to the latest ARD DeutschlandTrend survey on the issue, conducted in September 2026, 52% of eligible voters still support weapons deliveries to Ukraine, while 42% believe such support has gone too far. That is the highest level of opposition recorded since the start of the war."
-        },
-        {
-          "type": "p",
-          "text": "A further study conducted for public broadcaster WDR in November 2026 found that support for Ukraine has become a more polarizing issue in Germany than immigration. According to the survey, 54% of respondents favor continued support for Ukraine, while just under 29% would prefer a rapprochement with Russia, despite its war of aggression against Ukraine."
-        },
-        {
-          "type": "p",
-          "text": "This article was originally written in German."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-140xrkb",
-      "source": "dw",
-      "title": "Has the 'Parthenon puzzle' been solved? The long quest to reassemble lost eastern pediment",
-      "summary": "The depiction of the birth of the goddess Athena above the Parthenon's entrance is considered a masterpiece of ancient art. Now, a German research team has pieced together all the surviving fragments.",
-      "byline": "Katharina Abel",
-      "section": "",
-      "published": "2026-11-18T14:49:00.000Z",
-      "firstSeen": "2026-11-18T15:01:04.277Z",
-      "url": "https://www.dw.com/en/has-the-parthenon-puzzle-been-solved-the-long-quest-to-reassemble-lost-eastern-pediment/a-79982098?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/79969494_6.jpg",
-        "caption": "A digital reconstruction of the Parthenon's east pedimentImage: Vinzenz Brinkmann und Ulrike Koch-Brinkmann/Liebieghaus Skulpturensammlung"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The 2,500-year-old Parthenon is ancient Greece's most important temple and is regarded as one of the greatest masterpieces of the High Classical period of Greek art."
-        },
-        {
-          "type": "p",
-          "text": "Dedicated to Athena, the city's patron goddess, it towers over Athens from its position on the Acropolis — a powerful symbol of the city's importance."
-        },
-        {
-          "type": "p",
-          "text": "The Parthenon had a lasting influence on Western ideas of humanity and art. The sculptures adorning its pediments, created under the direction of the legendary sculptor Phidias, are considered unparalleled examples of proportion and grace. They have influenced artists from ancient Rome through Neoclassicism to the modern era."
-        },
-        {
-          "type": "h",
-          "text": "'Very confident we've solved the mystery'"
-        },
-        {
-          "type": "p",
-          "text": "The east pediment above the temple entrance depicted the birth of the goddess Athena from the head of her father Zeus, surrounded by the Olympian gods. A total of 39 figures adorned the roughly 29-meter-long work of art. At its center stood a colossal Zeus figure, measuring 3.8 meters in height."
-        },
-        {
-          "type": "p",
-          "text": "For centuries, scholars have puzzled over exactly what the arrangement looked like, as the pediment was destroyed during the Christianization of Greece."
-        },
-        {
-          "type": "p",
-          "text": "But now there has been a breakthrough."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79969508_$%7BformatId%7D.jpg",
-          "caption": "The results of the research are on show at the Frankfurt exhibition 'Athena, the Stage is Yours: The Parthenon Puzzle'Image: Norbert Miguletz/Liebieghaus Skulpturensammlung"
-        },
-        {
-          "type": "p",
-          "text": "After decades of painstaking detective work and with the help of modern technology, archaeologist Vinzenz Brinkmann and his team have managed to piece together all the surviving fragments of the Parthenon's east pediment."
-        },
-        {
-          "type": "p",
-          "text": "Brinkmann heads the Antiquities and Asia department at Frankfurt's Liebieghaus sculpture collection. \"We're very, very confident that we've solved the mystery,\" he told DW."
-        },
-        {
-          "type": "p",
-          "text": "The results are now on display in an exhibition at the Liebieghaus titled \"Athena, the Stage is Yours: The Parthenon Puzzle.\""
-        },
-        {
-          "type": "p",
-          "text": "Only around 20% of the original marble sculpture's volume is known to have survived. The fragments are scattered across various European museums, with most located in Athens. The British Museum also holds numerous pieces."
-        },
-        {
-          "type": "p",
-          "text": "Brinkmann and his wife, Ulrike Koch-Brinkmann, have spent more than 40 years working on this ancient puzzle, with so many of its pieces missing."
-        },
-        {
-          "type": "p",
-          "text": "And they were far from the first to attempt it: \"Already in the 19th century, many scholars studied the subject and developed well-founded theories based on their deep knowledge of ancient sources,\" Brinkmann explains."
-        },
-        {
-          "type": "p",
-          "text": "In 1910, a study documenting the many fragments held by the British Museum was published. The research team was able to build on that earlier work, but progress remained slow for years."
-        },
-        {
-          "type": "p",
-          "text": "Then, in 2014, a visit to the Hermitage Museum in St. Petersburg provided Brinkmann with a crucial clue. There, he encountered a Roman sarcophagus featuring a relief of Athena's birth. \"That's when it suddenly clicked: They're all there!\""
-        },
-        {
-          "type": "p",
-          "text": "Nine such sarcophagi are known to exist, almost all of them in Rome. Each depicts a different section of the Parthenon's east pediment."
-        },
-        {
-          "type": "p",
-          "text": "Brinkmann emphasizes that other scholars had already noticed this connection in the 19th century. \"But we really seized on the idea and never let go.\""
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79968790_$%7BformatId%7D.jpg",
-          "caption": "The researchers are convinced that the Dioscuri — the sons of the king of the gods, Zeus — located in Rome’s Piazza del Quirinale are also copies of the group of figures from the eastern pedimentImage: Zoonar/picture alliance"
-        },
-        {
-          "type": "h",
-          "text": "A handy tool: the iPhone"
-        },
-        {
-          "type": "p",
-          "text": "The researchers also benefited from 21st-century technology: 3D scanners and printers. Brinkmann and his team visited numerous destinations to examine around 60 original fragments at different locations — traveling light. An iPhone was all they needed to scan the pieces."
-        },
-        {
-          "type": "p",
-          "text": "Digitally fitting the fragments together led to another important discovery. \"We know these figures we're putting together!\" Brinkmann recalls thinking at the time."
-        },
-        {
-          "type": "p",
-          "text": "The Romans had repeatedly made individual copies of all the sculptures from the pediment. \"These copies matched the fragments perfectly. Suddenly, we found ourselves surrounded by old acquaintances we had never suspected had come from the pediment.\" This finally enabled the researchers to reconstruct all the figures and their original arrangement."
-        },
-        {
-          "type": "p",
-          "text": "Using a 3D printer, the team created a 4-meter-long model at a scale of 1:7.7. For the exhibition, they also produced life-size 3D prints of the most important fragments and mounted them on panels depicting the complete figures at their original size. An animation brings the reconstructed composition to life, digitally assembling the fragments to reveal how the east pediment once looked."
-        },
-        {
-          "type": "p",
-          "text": "Alongside works from the Liebieghaus collection, the exhibition features loans from other institutions, including the Vatican Museums and the Louvre. Objects from the Acropolis Museum in Athens had originally been expected as well. But Greece withdrew its participation after learning that the British Museum was also planning to lend fragments to the Frankfurt exhibition. The Liebieghaus ultimately decided to forgo the British-owned fragments, too."
-        },
-        {
-          "type": "h",
-          "text": "The dispute between Greece and Britain over the Parthenon sculptures"
-        },
-        {
-          "type": "p",
-          "text": "There is a reason for this controversy. Britain holds a substantial portion of the Parthenon frieze as well as fragments from both pediments."
-        },
-        {
-          "type": "p",
-          "text": "Greek authorities have been campaigning for their return for decades."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/79968807_$%7BformatId%7D.jpg",
-          "caption": "The landmark of Athens: the Acropolis with the ParthenonImage: Fokke Baarssen/Zoonar/picture alliance"
-        },
-        {
-          "type": "p",
-          "text": "In Britain, the 56 sections of the frieze are known as the \"Elgin Marbles,\" named after Lord Elgin, the British ambassador to the Ottoman Empire in Constantinople."
-        },
-        {
-          "type": "p",
-          "text": "In the early 19th century, Elgin had sculptures removed from the exterior of the Parthenon on the Acropolis in Athens. They were taken to Britain with the consent of the Ottoman Empire, which ruled Greece at the time."
-        },
-        {
-          "type": "p",
-          "text": "Britain maintains that the sculptures were legally acquired."
-        },
-        {
-          "type": "p",
-          "text": "Greece, however, considers them stolen."
-        },
-        {
-          "type": "p",
-          "text": "For years, the dispute remained deadlocked. Since the Labour Party came to power in Britain, there has been some movement toward resolving it. But apparently not enough to persuade Greece to lend artworks to an exhibition in which the British Museum might also participate."
-        },
-        {
-          "type": "p",
-          "text": "The exhibition \"Athena, the Stage is Yours. The Parthenon Puzzle\" runs through July 25, 2027, at the Liebieghaus in Frankfurt."
-        },
-        {
-          "type": "p",
-          "text": "This article was originally written in German."
         }
       ],
       "truncated": false,
