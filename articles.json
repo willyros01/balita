@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-21T06:01:22.025Z",
+  "updated": "2026-11-21T06:31:27.679Z",
   "sources": [
     {
       "id": "inq",
@@ -53,23 +53,23 @@
   ],
   "articles": [
     {
-      "id": "inqn-8c4h9",
+      "id": "inqn-p8emp9",
       "source": "inqn",
-      "title": "Antimicrobial resistance explained: What it is and why it matters",
-      "summary": "Drug-resistant infections are making some illnesses harder to treat. Here’s how resistance develops and spreads, its impact on health, and what can be done to slow it. MANILA, Philippines — An…",
-      "byline": "postie",
+      "title": "ASF strikes 4 Quezon villages; hog raisers urged to stay vigilant",
+      "summary": "LUCENA CITY — At least four barangays in Macalelon, Quezon have been affected by African Swine Fever (ASF), prompting local authorities to urge hog raisers to remain vigilant and strictly observe…",
+      "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:13.016Z",
-      "firstSeen": "2026-11-21T01:30:55.856Z",
-      "url": "https://newsinfo.inquirer.net/2344680/antimicrobial-resistance-explained-what-it-is-and-why-it-matters",
+      "published": "2026-11-21T06:31:11.488Z",
+      "firstSeen": "2026-11-21T03:00:57.800Z",
+      "url": "https://newsinfo.inquirer.net/2344711/asf-strikes-4-quezon-villages-hog-raisers-urged-to-stay-vigilant",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/AMR-story-composite-image-20nov2026.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2024/08/Pigs-Pork-ASF-20August2024.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "Drug-resistant infections are making some illnesses harder to treat. Here’s how resistance develops and spreads, its impact on health, and what can be done to slow it. MANILA, Philippines — An analysis by the Institute for Health Metrics and Evaluation (IHME) found that bacterial infections involving antimicrobial resistance (AMR) were associated with an estimated 51,800"
+          "text": "LUCENA CITY — At least four barangays in Macalelon, Quezon have been affected by African Swine Fever (ASF), prompting local authorities to urge hog raisers to remain vigilant and strictly observe precautionary measures to prevent the further spread of the disease. In a public advisory, the Municipal Agriculture Office (MAO) said laboratory test results from"
         }
       ],
       "truncated": true,
@@ -84,7 +84,7 @@
       "summary": "COTABATO CITY — Authorities in Tawi-Tawi arrested five suspected smugglers and seized over P7.9 million worth of smuggled cigarettes during a joint law enforcement seaborne patrol in the coastal…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:13.015Z",
+      "published": "2026-11-21T06:31:11.488Z",
       "firstSeen": "2026-11-21T02:01:02.618Z",
       "url": "https://newsinfo.inquirer.net/2344692/barmm-cops-arrest-5-seize-p7-9-m-smuggled-cigarettes",
       "image": {
@@ -109,7 +109,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — An environmental advocate has called on local governments and residents to oppose a proposed 10,265.3-hectare mineral reservation in Puerto Galera and San Teodoro,…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:13.015Z",
+      "published": "2026-11-21T06:31:11.488Z",
       "firstSeen": "2026-11-21T02:01:02.690Z",
       "url": "https://newsinfo.inquirer.net/2344690/environmental-advocate-opposes-proposed-mindoro-mineral-reservation",
       "image": {
@@ -134,7 +134,7 @@
       "summary": "MANILA, Philippines — The persisting shear line will bring heavy rains over the eastern sections of northern and Central Luzon, while three other weather systems will affect parts of the country on…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:13.015Z",
+      "published": "2026-11-21T06:31:11.488Z",
       "firstSeen": "2026-11-21T02:31:02.897Z",
       "url": "https://newsinfo.inquirer.net/2344698/pagasa-shear-line-three-weather-systems-to-bring-rains-on-saturday",
       "image": {
@@ -153,13 +153,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-8c4h9",
+      "source": "inqn",
+      "title": "Antimicrobial resistance explained: What it is and why it matters",
+      "summary": "Drug-resistant infections are making some illnesses harder to treat. Here’s how resistance develops and spreads, its impact on health, and what can be done to slow it. MANILA, Philippines — An…",
+      "byline": "postie",
+      "section": "Latest News Stories",
+      "published": "2026-11-21T06:31:11.488Z",
+      "firstSeen": "2026-11-21T01:30:55.856Z",
+      "url": "https://newsinfo.inquirer.net/2344680/antimicrobial-resistance-explained-what-it-is-and-why-it-matters",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/AMR-story-composite-image-20nov2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Drug-resistant infections are making some illnesses harder to treat. Here’s how resistance develops and spreads, its impact on health, and what can be done to slow it. MANILA, Philippines — An analysis by the Institute for Health Metrics and Evaluation (IHME) found that bacterial infections involving antimicrobial resistance (AMR) were associated with an estimated 51,800"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-7m0uv0",
       "source": "inqn",
       "title": "OVP denies Sara Duterte tree-planting ties to Cale88",
       "summary": "MANILA, Philippines — The Office of Vice President Sara Duterte on Saturday denied allegations linking its tree-planting initiative to Cale88 Foods Corp.’s compliance with Board of Investments (BOI)…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:11.242Z",
+      "published": "2026-11-21T06:31:11.470Z",
       "firstSeen": "2026-11-21T03:00:57.798Z",
       "url": "https://newsinfo.inquirer.net/2344718/ovp-denies-being-linked-to-cale88s-tree-planting-requirement",
       "image": {
@@ -178,38 +203,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-p8emp9",
-      "source": "inqn",
-      "title": "ASF strikes 4 Quezon villages; hog raisers urged to stay vigilant",
-      "summary": "LUCENA CITY — At least four barangays in Macalelon, Quezon have been affected by African Swine Fever (ASF), prompting local authorities to urge hog raisers to remain vigilant and strictly observe…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:11.242Z",
-      "firstSeen": "2026-11-21T03:00:57.800Z",
-      "url": "https://newsinfo.inquirer.net/2344711/asf-strikes-4-quezon-villages-hog-raisers-urged-to-stay-vigilant",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/08/Pigs-Pork-ASF-20August2024.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — At least four barangays in Macalelon, Quezon have been affected by African Swine Fever (ASF), prompting local authorities to urge hog raisers to remain vigilant and strictly observe precautionary measures to prevent the further spread of the disease. In a public advisory, the Municipal Agriculture Office (MAO) said laboratory test results from"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-99k6gi",
       "source": "inqg",
       "title": "Trump: China&#8217;s nuclear buildup is &#8216;hot and heavy&#8217;",
       "summary": "WASHINGTON — Beijing is building nuclear weapons at a “hot and heavy” pace, President Donald Trump said Friday, a day after he met Chinese leader Xi Jinping and Russian President Vladimir Putin and…",
       "byline": "mesarangay",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-21T06:01:11.242Z",
+      "published": "2026-11-21T06:31:11.470Z",
       "firstSeen": "2026-11-21T01:00:56.490Z",
       "url": "https://globalnation.inquirer.net/349347/trump-chinas-nuclear-buildup-is-hot-and-heavy",
       "image": {
@@ -228,38 +228,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-11dbs0d",
-      "source": "inqn",
-      "title": "3 construction workers killed in water tank collapse in Cagayan",
-      "summary": "TUGUEGARAO CITY — Three construction workers died after a water tank collapsed on them while they were working at a facility under construction in Barangay Simayung, Abulug, Cagayan, on Thursday…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:11.217Z",
-      "firstSeen": "2026-11-21T03:00:57.798Z",
-      "url": "https://newsinfo.inquirer.net/2344721/3-construction-workers-killed-in-water-tank-collapse-in-cagayan",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/3-construction-workers-killed-in-water-tank-collapse-in-Cagayan-21November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TUGUEGARAO CITY — Three construction workers died after a water tank collapsed on them while they were working at a facility under construction in Barangay Simayung, Abulug, Cagayan, on Thursday morning, Nov. 19. The Bureau of Fire Protection (BFP) in Abulug said the workers were welding beneath the water tank when the heavy structure suddenly"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1ws9tnt",
       "source": "inqn",
       "title": "DOTr eyes pilot launch of barrier-less tollways in December",
       "summary": "MANILA, Philippines — The Department of Transportation (DOTr) on Saturday directed toll operators to prepare as the government seeks to start the pilot test for the barrier-less system across all…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:11.217Z",
+      "published": "2026-11-21T06:31:11.469Z",
       "firstSeen": "2026-11-21T05:31:04.268Z",
       "url": "https://newsinfo.inquirer.net/2344741/dotr-eyes-pilot-launch-of-barrier-less-tollways-in-december",
       "image": {
@@ -278,38 +253,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-2lt51q",
-      "source": "inqg",
-      "title": "Rohingya refugees welcome genocide ruling, demand justice",
-      "summary": "COX’S BAZAR, Bangladesh — Hundreds of Rohingya refugees in Bangladesh sat in front of a big screen at their sprawling camp in Cox’s Bazar, watching the news from the Netherlands, where the…",
-      "byline": "Dennis Maliwanag",
-      "section": "Asia & Pacific",
-      "published": "2026-11-21T06:01:11.217Z",
-      "firstSeen": "2026-11-21T02:01:02.618Z",
-      "url": "https://globalnation.inquirer.net/349353/rohingya-refugees-welcome-genocide-ruling-demand-justice",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/rohingyas-in-bangladesh-21nov26-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COX’S BAZAR, Bangladesh — Hundreds of Rohingya refugees in Bangladesh sat in front of a big screen at their sprawling camp in Cox’s Bazar, watching the news from the Netherlands, where the U.N.&#8217;s top court ruled that Myanmar committed genocide against the Rohingya minority in a brutal 2017 military operation. For many, the historic verdict"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-wabd9p",
       "source": "inqg",
       "title": "Zelensky says Putin a &#8216;killer&#8217; after Trump calls him his &#8216;friend&#8217;",
       "summary": "WASHINGTON — Ukrainian President Volodymyr Zelensky branded Vladimir Putin a &#8220;killer&#8221; in an interview broadcast on Friday, after President Donald Trump described the Russian leader as his…",
       "byline": "Dennis Maliwanag",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-21T06:01:11.217Z",
+      "published": "2026-11-21T06:31:11.469Z",
       "firstSeen": "2026-11-21T01:30:55.856Z",
       "url": "https://globalnation.inquirer.net/349350/zelensky-says-putin-a-killer-after-trump-calls-him-his-friend",
       "image": {
@@ -328,23 +278,48 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-dmslvd",
-      "source": "inqg",
-      "title": "Trump threatens penalties for US firms building AI data centers abroad",
-      "summary": "WASHINGTON — President Donald Trump on Friday threatened “a tremendous tax” on U.S. companies that build artificial intelligence data centers abroad, highlighting a divide between a president who…",
-      "byline": "Dennis Maliwanag",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-21T06:01:09.443Z",
-      "firstSeen": "2026-11-21T02:31:01.945Z",
-      "url": "https://globalnation.inquirer.net/349356/trump-threatens-penalties-for-us-firms-building-ai-data-centers-abroad",
+      "id": "inqn-11dbs0d",
+      "source": "inqn",
+      "title": "3 construction workers killed in water tank collapse in Cagayan",
+      "summary": "TUGUEGARAO CITY — Three construction workers died after a water tank collapsed on them while they were working at a facility under construction in Barangay Simayung, Abulug, Cagayan, on Thursday…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-21T06:31:09.688Z",
+      "firstSeen": "2026-11-21T03:00:57.798Z",
+      "url": "https://newsinfo.inquirer.net/2344721/3-construction-workers-killed-in-water-tank-collapse-in-cagayan",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AP26313751061749.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/3-construction-workers-killed-in-water-tank-collapse-in-Cagayan-21November2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "WASHINGTON — President Donald Trump on Friday threatened “a tremendous tax” on U.S. companies that build artificial intelligence data centers abroad, highlighting a divide between a president who sees their expansion as critical to winning the AI race and an American public that is deeply skeptical of their benefits. Briefing reporters at the White House"
+          "text": "TUGUEGARAO CITY — Three construction workers died after a water tank collapsed on them while they were working at a facility under construction in Barangay Simayung, Abulug, Cagayan, on Thursday morning, Nov. 19. The Bureau of Fire Protection (BFP) in Abulug said the workers were welding beneath the water tank when the heavy structure suddenly"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-2lt51q",
+      "source": "inqg",
+      "title": "Rohingya refugees welcome genocide ruling, demand justice",
+      "summary": "COX’S BAZAR, Bangladesh — Hundreds of Rohingya refugees in Bangladesh sat in front of a big screen at their sprawling camp in Cox’s Bazar, watching the news from the Netherlands, where the…",
+      "byline": "Dennis Maliwanag",
+      "section": "Asia & Pacific",
+      "published": "2026-11-21T06:31:09.669Z",
+      "firstSeen": "2026-11-21T02:01:02.618Z",
+      "url": "https://globalnation.inquirer.net/349353/rohingya-refugees-welcome-genocide-ruling-demand-justice",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/rohingyas-in-bangladesh-21nov26-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "COX’S BAZAR, Bangladesh — Hundreds of Rohingya refugees in Bangladesh sat in front of a big screen at their sprawling camp in Cox’s Bazar, watching the news from the Netherlands, where the U.N.&#8217;s top court ruled that Myanmar committed genocide against the Rohingya minority in a brutal 2017 military operation. For many, the historic verdict"
         }
       ],
       "truncated": true,
@@ -359,7 +334,7 @@
       "summary": "Persons deprived of liberty (PDLs) cast their votes during the plebiscite in Naga City on Saturday, Nov. 21, on whether the city should be converted into a highly urbanized city. Comelec chair George…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:09.442Z",
+      "published": "2026-11-21T06:31:07.888Z",
       "firstSeen": "2026-11-21T04:31:00.972Z",
       "url": "https://newsinfo.inquirer.net/2344750/pdls-cast-votes-in-naga-plebiscite-on-huc-status",
       "image": {
@@ -378,23 +353,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1oxg6y5",
+      "id": "inqg-dmslvd",
       "source": "inqg",
-      "title": "Trump wrongly calls Marcos ‘prime minister,’ touts PH-US deals",
-      "summary": "US President Donald Trump hosts a news conference at the White House on Nov. 20, 2026. —Screenshot from The White House YouTube livestream MANILA, Philippines — United States President Donald Trump…",
-      "byline": "mesarangay",
+      "title": "Trump threatens penalties for US firms building AI data centers abroad",
+      "summary": "WASHINGTON — President Donald Trump on Friday threatened “a tremendous tax” on U.S. companies that build artificial intelligence data centers abroad, highlighting a divide between a president who…",
+      "byline": "Dennis Maliwanag",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-21T06:01:07.643Z",
-      "firstSeen": "2026-11-21T03:30:53.420Z",
-      "url": "https://globalnation.inquirer.net/349359/trump-wrongly-calls-marcos-prime-minister-touts-ph-us-deals",
+      "published": "2026-11-21T06:31:07.888Z",
+      "firstSeen": "2026-11-21T02:31:01.945Z",
+      "url": "https://globalnation.inquirer.net/349356/trump-threatens-penalties-for-us-firms-building-ai-data-centers-abroad",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/trump-news-conference-nov-20-2026.png",
+        "src": "https://globalnation.inquirer.net/files/2026/11/AP26313751061749.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "US President Donald Trump hosts a news conference at the White House on Nov. 20, 2026. —Screenshot from The White House YouTube livestream MANILA, Philippines — United States President Donald Trump mistakenly referred to President Ferdinand Marcos Jr. as “Prime Minister Marcos” while recounting his trade discussions with the Philippines, as he touted agreements involving billions"
+          "text": "WASHINGTON — President Donald Trump on Friday threatened “a tremendous tax” on U.S. companies that build artificial intelligence data centers abroad, highlighting a divide between a president who sees their expansion as critical to winning the AI race and an American public that is deeply skeptical of their benefits. Briefing reporters at the White House"
         }
       ],
       "truncated": true,
@@ -409,7 +384,7 @@
       "summary": "COTABATO CITY — Police arrested two men and seized two pistols and prohibited drugs from them on Thursday night, Nov. 19, in Pigcawayan, North Cotabato. The arrest came after a brief pursuit…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:07.639Z",
+      "published": "2026-11-21T06:31:06.097Z",
       "firstSeen": "2026-11-21T04:00:55.766Z",
       "url": "https://newsinfo.inquirer.net/2344733/cops-arrest-2-men-seize-pistols-illegal-drugs-in-north-cotabato",
       "image": {
@@ -428,23 +403,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1ozs2dn",
+      "id": "inqg-1oxg6y5",
       "source": "inqg",
-      "title": "Duterte defense seeks exclusion of key ICC witness testimony",
-      "summary": "MANILA, Philippines—The lawyers of former President Rodrigo Duterte urged a trial chamber of the International Criminal Court (ICC) to reject the testimony and related evidence on the Davao Death…",
-      "byline": "besguerra",
-      "section": "Europe",
-      "published": "2026-11-21T06:01:02.312Z",
-      "firstSeen": "2026-11-21T04:00:55.766Z",
-      "url": "https://globalnation.inquirer.net/349372/duterte-defense-seeks-exclusion-of-key-icc-witness-testimony",
+      "title": "Trump wrongly calls Marcos ‘prime minister,’ touts PH-US deals",
+      "summary": "US President Donald Trump hosts a news conference at the White House on Nov. 20, 2026. —Screenshot from The White House YouTube livestream MANILA, Philippines — United States President Donald Trump…",
+      "byline": "mesarangay",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-21T06:31:06.091Z",
+      "firstSeen": "2026-11-21T03:30:53.420Z",
+      "url": "https://globalnation.inquirer.net/349359/trump-wrongly-calls-marcos-prime-minister-touts-ph-us-deals",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Duterte-defense-again-opposes-bid-to-admit-witness-testimony-scaled.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/trump-news-conference-nov-20-2026.png",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines—The lawyers of former President Rodrigo Duterte urged a trial chamber of the International Criminal Court (ICC) to reject the testimony and related evidence on the Davao Death Squad (DDS) of a key prosecution witness it called “deeply hostile” and “emotionally unstable.” The defense, led by Peter Haynes, told the ICC&#8217;s Trial Chamber (TC)"
+          "text": "US President Donald Trump hosts a news conference at the White House on Nov. 20, 2026. —Screenshot from The White House YouTube livestream MANILA, Philippines — United States President Donald Trump mistakenly referred to President Ferdinand Marcos Jr. as “Prime Minister Marcos” while recounting his trade discussions with the Philippines, as he touted agreements involving billions"
         }
       ],
       "truncated": true,
@@ -459,7 +434,7 @@
       "summary": "COTABATO CITY — The Bangsamoro Parliament will complete the proposed 2027 budget for the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) before the year ends, the parliament majority leader…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:02.310Z",
+      "published": "2026-11-21T06:31:02.689Z",
       "firstSeen": "2026-11-21T04:31:00.929Z",
       "url": "https://newsinfo.inquirer.net/2344745/barmm-parliament-to-discuss-2027-budget-parliamentary-rules-on-nov-24",
       "image": {
@@ -478,13 +453,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-1ozs2dn",
+      "source": "inqg",
+      "title": "Duterte defense seeks exclusion of key ICC witness testimony",
+      "summary": "MANILA, Philippines—The lawyers of former President Rodrigo Duterte urged a trial chamber of the International Criminal Court (ICC) to reject the testimony and related evidence on the Davao Death…",
+      "byline": "besguerra",
+      "section": "Europe",
+      "published": "2026-11-21T06:31:01.556Z",
+      "firstSeen": "2026-11-21T04:00:55.766Z",
+      "url": "https://globalnation.inquirer.net/349372/duterte-defense-seeks-exclusion-of-key-icc-witness-testimony",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/Duterte-defense-again-opposes-bid-to-admit-witness-testimony-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—The lawyers of former President Rodrigo Duterte urged a trial chamber of the International Criminal Court (ICC) to reject the testimony and related evidence on the Davao Death Squad (DDS) of a key prosecution witness it called “deeply hostile” and “emotionally unstable.” The defense, led by Peter Haynes, told the ICC&#8217;s Trial Chamber (TC)"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-13xl0ip",
       "source": "inqn",
       "title": "Badoc town in Ilocos Norte declared drug-cleared municipality",
       "summary": "SAN ILDEFONSO, Ilocos Sur — The municipality of Badoc in Ilocos Norte has officially been declared a drug-cleared municipality after successfully hurdling the deliberation of the Regional Oversight…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:02.307Z",
+      "published": "2026-11-21T06:31:01.236Z",
       "firstSeen": "2026-11-21T05:01:00.854Z",
       "url": "https://newsinfo.inquirer.net/2344756/badoc-town-in-ilocos-norte-declared-drug-cleared-municipality",
       "image": {
@@ -503,23 +503,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-10ymo64",
-      "source": "inqg",
-      "title": "Trump claims PH to buy 100% farm, energy goods from US; Marcos clarifies",
-      "summary": "MANILA, Philippines — US President Donald Trump claimed the Philippines had agreed to source all its agricultural and energy imports from the United States, but President Ferdinand Marcos Jr.…",
-      "byline": "Dennis Maliwanag",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-21T06:01:02.307Z",
-      "firstSeen": "2026-11-21T04:31:00.929Z",
-      "url": "https://globalnation.inquirer.net/349377/trump-claims-ph-agreed-to-buy-100-of-farm-energy-products-from-us",
+      "id": "inqn-1bbvbvv",
+      "source": "inqn",
+      "title": "Robredo casts vote as Naga seeks highly urbanized city status",
+      "summary": "NAGA CITY — Mayor Leni Robredo cast her vote at the Naga City Science High School on Saturday morning, Nov. 21, in a plebiscite seeking to ratify the city&#8217;s conversion into a Highly Urbanized…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-21T06:31:00.669Z",
+      "firstSeen": "2026-11-21T05:01:00.791Z",
+      "url": "https://newsinfo.inquirer.net/2344759/robredo-casts-vote-as-naga-seeks-highly-urbanized-city-status",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/WhatsApp-Image-2026-11-21-at-7.35.19-AM.jpeg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Naga-City-Mayor-Leni-Robredo-21November2026_2.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — US President Donald Trump claimed the Philippines had agreed to source all its agricultural and energy imports from the United States, but President Ferdinand Marcos Jr. clarified that the proposed deals were intended to diversify the country&#8217;s supplies, not replace its existing trade partners. Trump said he pressed Marcos to buy American"
+          "text": "NAGA CITY — Mayor Leni Robredo cast her vote at the Naga City Science High School on Saturday morning, Nov. 21, in a plebiscite seeking to ratify the city&#8217;s conversion into a Highly Urbanized City (HUC). President Ferdinand Marcos Jr. signed Proclamation No. 1267 on May 26, 2026, declaring Naga City a Highly Urbanized City,"
         }
       ],
       "truncated": true,
@@ -534,7 +534,7 @@
       "summary": "MANILA, Philippines — An Air Niugini plane carrying 146 passengers and crew members made an emergency landing at Davao International Airport early Saturday, Nov. 21, the Civil Aviation Authority of…",
       "byline": "Dennis Maliwanag",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-21T06:01:02.216Z",
+      "published": "2026-11-21T06:31:00.669Z",
       "firstSeen": "2026-11-21T05:01:00.791Z",
       "url": "https://globalnation.inquirer.net/349385/air-niugini-plane-makes-emergency-landing-at-davao-airport-all-passengers-safe",
       "image": {
@@ -553,29 +553,375 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-1bbvbvv",
-      "source": "inqn",
-      "title": "Robredo casts vote as Naga seeks highly urbanized city status",
-      "summary": "NAGA CITY — Mayor Leni Robredo cast her vote at the Naga City Science High School on Saturday morning, Nov. 21, in a plebiscite seeking to ratify the city&#8217;s conversion into a Highly Urbanized…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-21T06:01:02.215Z",
-      "firstSeen": "2026-11-21T05:01:00.791Z",
-      "url": "https://newsinfo.inquirer.net/2344759/robredo-casts-vote-as-naga-seeks-highly-urbanized-city-status",
+      "id": "inqg-10ymo64",
+      "source": "inqg",
+      "title": "Trump claims PH to buy 100% farm, energy goods from US; Marcos clarifies",
+      "summary": "MANILA, Philippines — US President Donald Trump claimed the Philippines had agreed to source all its agricultural and energy imports from the United States, but President Ferdinand Marcos Jr.…",
+      "byline": "Dennis Maliwanag",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-21T06:31:00.669Z",
+      "firstSeen": "2026-11-21T04:31:00.929Z",
+      "url": "https://globalnation.inquirer.net/349377/trump-claims-ph-agreed-to-buy-100-of-farm-energy-products-from-us",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Naga-City-Mayor-Leni-Robredo-21November2026_2.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/WhatsApp-Image-2026-11-21-at-7.35.19-AM.jpeg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "NAGA CITY — Mayor Leni Robredo cast her vote at the Naga City Science High School on Saturday morning, Nov. 21, in a plebiscite seeking to ratify the city&#8217;s conversion into a Highly Urbanized City (HUC). President Ferdinand Marcos Jr. signed Proclamation No. 1267 on May 26, 2026, declaring Naga City a Highly Urbanized City,"
+          "text": "MANILA, Philippines — US President Donald Trump claimed the Philippines had agreed to source all its agricultural and energy imports from the United States, but President Ferdinand Marcos Jr. clarified that the proposed deals were intended to diversify the country&#8217;s supplies, not replace its existing trade partners. Trump said he pressed Marcos to buy American"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1khfbwy",
+      "source": "inqn",
+      "title": "Intoxicated pedestrian killed after suddenly crossing Bukidnon highway",
+      "summary": "VALENCIA CITY, Bukidnon — A 50-year-old man believed to be under the influence of alcohol died early Saturday after he suddenly stepped into the path of an oncoming bus along the national highway in…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-21T06:31:00.669Z",
+      "firstSeen": "2026-11-21T06:31:00.669Z",
+      "url": "https://newsinfo.inquirer.net/2344792/intoxicated-pedestrian-killed-after-suddenly-crossing-bukidnon-highway",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Intoxicated-pedestrian-killed-after-suddenly-crossing-Bukidnon-highway-21November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "VALENCIA CITY, Bukidnon — A 50-year-old man believed to be under the influence of alcohol died early Saturday after he suddenly stepped into the path of an oncoming bus along the national highway in Barangay Lunocan, Manolo Fortich town, Bukidnon. Police identified the victim as a resident of Barangay Inutlanan, Claveria, Misamis Oriental. He was"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-g38qeb",
+      "source": "abs",
+      "title": "NBA: Raptors upset Pistons, Harden scores 51 in Cavs win",
+      "summary": "The Toronto Raptors upset the Detroit Pistons 105-102 in the NBA Cup on Friday as James Harden delivered a blockbuster 51-point performance in Cleveland's victory over the Indiana Pacers.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-21T06:29:08.000Z",
+      "firstSeen": "2026-11-21T06:31:00.669Z",
+      "url": "https://www.abs-cbn.com/sports/basketball/2026/11/21/nba-raptors-upset-pistons-harden-scores-51-in-cavs-win-1429",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Toronto Raptors upset the Detroit Pistons 105-102 in the NBA Cup on Friday as James Harden delivered a blockbuster 51-point performance in Cleveland's victory over the Indiana Pacers."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "gma-vhe0td",
+      "source": "gma",
+      "title": "DA: Errors in proposed farm-to-market roads coordinates already fixed",
+      "summary": "The Department of Agriculture on Saturday said the incorrect coordinates of eight farm-to-market road projects included in its proposed 2027 budget were already rectified.",
+      "byline": "TED CORDERO, GMA News",
+      "section": "",
+      "published": "2026-11-21T06:24:08.000Z",
+      "firstSeen": "2026-11-21T06:31:00.669Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1010308/da-errors-in-proposed-farm-to-market-roads-coordinates-already-fixed/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/11/DA_FMR_2026_11_04_19_36_50.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published November 21, 2026 2:24pm"
+        },
+        {
+          "type": "p",
+          "text": "The Department of Agriculture (DA) on Saturday said the incorrect coordinates of eight farm-to-market road (FMR) projects included in its proposed 2027 budget were already rectified."
+        },
+        {
+          "type": "p",
+          "text": "In an interview on Super Radyo dzBB, DA spokesperson Assistant Secretary Arnel de Mesa said the Agriculture Department had a meeting with People’s Budget Coalition, Better Gov. PH, and Bisto Proyekto to tackle supposed “encoding and geotagging errors” in the eight FMRs in question."
+        },
+        {
+          "type": "p",
+          "text": "“The DA told them that we took responsibility and are already correcting those information and it was already fixed,” de Mesa said in a mix of Filipino and English."
+        },
+        {
+          "type": "p",
+          "text": "During a hearing of the House agriculture and food committee on the government's response to El Niño, DA Assistant Secretary for Operations U-Nichols Manalo admitted that eight of 1,699 FMR projects under the agency’s proposed budget next year contained incorrect coordinates due to encoding errors."
+        },
+        {
+          "type": "p",
+          "text": "This came after budget watchdog People’s Budget Coalition flagged provisions in the proposed 2027 national budget, which the House had approved on third and final reading, over allegedly incorrect project coordinates."
+        },
+        {
+          "type": "p",
+          "text": "In an earlier statement, the DA said the discrepancies were traced to encoding and typographical errors."
+        },
+        {
+          "type": "p",
+          "text": "De Mesa said the projects with wrong coordinates were less than 1% of the total 1,669 FMRs in the DA’s proposed budget in 2027."
+        },
+        {
+          "type": "p",
+          "text": "The DA official said all of the proposed FMRs form part of the agency’s broader FMR Network Plan, which are already validated and geo-tagged. —KG, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-11j48hr",
+      "source": "inq",
+      "title": "Marcos' China visit generates P41-B in investment pledges",
+      "summary": "MANILA – President Ferdinand R. Marcos Jr. arrived in the Philippines on Friday after attending the 33rd Asia-Pacific Economic Cooperation (APEC) Economic Leaders&#8217; Meeting in Shenzhen, China,…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-21T06:19:00.000Z",
+      "firstSeen": "2026-11-21T06:31:00.668Z",
+      "url": "https://cebudailynews.inquirer.net/787053/marcos-china-visit-generates-p41-b-in-investment-pledges",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/11/11-21-Marcos-China-pledges-620x413.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA – President Ferdinand R. Marcos Jr. arrived in the Philippines on Friday after attending the 33rd Asia-Pacific Economic Cooperation (APEC) Economic Leaders&#8217; Meeting in Shenzhen, China, securing PHP41.1 billion worth of investment commitments expected to create more than 7,000 jobs. His presidential aircraft touched down at Villamor Air Base in Pasay City at 5:01 [&hellip;]... Keep on reading: Marcos' China visit generates P41-B in investment pledges"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1tktw7w",
+      "source": "inq",
+      "title": "Intoxicated pedestrian killed after suddenly crossing Bukidnon highway",
+      "summary": "VALENCIA CITY, Bukidnon — A 50-year-old man believed to be under the influence of alcohol died early Saturday after he suddenly stepped into the path of an oncoming bus along the national highway in…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-21T06:17:05.000Z",
+      "firstSeen": "2026-11-21T06:31:00.669Z",
+      "url": "https://newsinfo.inquirer.net/2344792/intoxicated-pedestrian-killed-after-suddenly-crossing-bukidnon-highway",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Intoxicated-pedestrian-killed-after-suddenly-crossing-Bukidnon-highway-21November2026-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "VALENCIA CITY, Bukidnon — A 50-year-old man believed to be under the influence of alcohol died early Saturday after he suddenly stepped into the path of an oncoming bus along the national highway in Barangay Lunocan, Manolo Fortich town, Bukidnon. Police identified the victim as a resident of Barangay Inutlanan, Claveria, Misamis Oriental. He was rushed to the Bukidnon Provincial Hospital in Barangay San Miguel of Manolo Fortich where attending physicians declared him dead on arrival due to severe injuries. Initial investigation by the Manolo Fortich Municipal Police Station (MPS), headed by Police Lt. Col. Edward T. Agpalza, showed the incident [&hellip;]... Keep on reading: Intoxicated pedestrian killed after suddenly crossing Bukidnon highway"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "gma-bjzcsq",
+      "source": "gma",
+      "title": "DSWD supports CWC's call vs. sexualized humor involving children",
+      "summary": "The Department of Social Welfare and Development on Saturday said it fully supports the Council for the Welfare of Children, its attached agency, in calling out the use of sexualized humor involving…",
+      "byline": "JAMIL SANTOS, GMA News",
+      "section": "",
+      "published": "2026-11-21T06:11:09.000Z",
+      "firstSeen": "2026-11-21T06:31:00.669Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1010297/dswd-supports-cwc-s-call-vs-sexualized-humor-involving-children/story/",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published November 21, 2026 2:11pm"
+        },
+        {
+          "type": "p",
+          "text": "The Department of Social Welfare and Development (DSWD) on Saturday said it fully supports the Council for the Welfare of Children (CWC), its attached agency, in calling out the use of sexualized humor involving children in comedy sets and online content."
+        },
+        {
+          "type": "p",
+          "text": "In a statement, the DSWD pointed out a recent remark by comedian JP Aguilera of Pencilbox Comedy, who utilized playgrounds and their connection with children as a sexual reference."
+        },
+        {
+          "type": "p",
+          "text": "“The DSWD stands firmly behind the CWC in reminding performers and content creators, and of course everyone, that children must never be reduced to punchlines or subjects of sexual insinuations,” said DSWD spokesperson Assistant Secretary Irene Dumlao."
+        },
+        {
+          "type": "p",
+          "text": "Dumlao said that while creative expression is valued, jokes that downplay the vulnerability of minors risk normalizing inappropriate behavior toward them."
+        },
+        {
+          "type": "p",
+          "text": "The DSWD cited Section 4 (n) of Republic Act (RA) No. 11930, or the Anti-Online Sexual Abuse or Exploitation of Children (OSAEC) and Anti-Child Sexual Abuse or Exploitation Materials (CSAEM) Act, that strictly prohibits sexualizing children by presenting minors as objects of sexual fantasy or making children conversational subjects of sexual fantasies on any online or digital platform."
+        },
+        {
+          "type": "p",
+          "text": "According to the agency, violators found guilty under the law face the penalty of reclusion temporal in its maximum period and a fine ranging from P800,000 to P1 million."
+        },
+        {
+          "type": "p",
+          "text": "“Hindi dapat ginagawang biro ang dignidad at kaligtasan ng mga bata dahil responsibilidad ng lahat na protektahan ang mga kabataan laban sa anumang uri ng pang-aabuso at pagsasamantala, lalo na sa social media at iba pang digital platforms,” Dumlao said."
+        },
+        {
+          "type": "p",
+          "text": "(The dignity and safety of children should not be made a joke because it is everyone's responsibility to protect young people against any form of abuse and exploitation, especially on social media and other digital platforms.)"
+        },
+        {
+          "type": "p",
+          "text": "The DSWD as well restated the call of CWC Executive Director Undersecretary Angelo Tapales for entertainers, media practitioners, and digital content creators to observe the CWC Guide for Media Practitioners in the Reporting and Coverage of Children to ensure the privacy, dignity, and best interests of minors are respected at all times."
+        },
+        {
+          "type": "p",
+          "text": "“Nananawagan ang DSWD sa mga nasa entertainment industry at content creation na maging responsable sa bawat materyal na inilalabas sa publiko dahil malaki ang epekto ng mga salita sa kung paano tinatrato ng lipunan ang mga bata,” Dumlao said."
+        },
+        {
+          "type": "p",
+          "text": "(DSWD calls on those in the entertainment industry and content creation to be responsible for every material released to the public because words have a great impact on how society treats children.)"
+        },
+        {
+          "type": "p",
+          "text": "GMA News Online contacted Pencilbox Comedy to get its comments and will update this story once it issues a statement. Efforts so far made to reach out to Aguilera have been unsuccessful as of posting time. —KG, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1gp8rjx",
+      "source": "grd",
+      "title": "Campaigners back call for scrutiny of consent laws by Joanne Young",
+      "summary": "Experts say no law states third-party consent is a valid defence and call for public debate and further education Campaigners have welcomed a call for scrutiny of consent laws by a survivor of…",
+      "byline": "Emine Sinmaz and Alexandra Topping",
+      "section": "Sexual consent",
+      "published": "2026-11-21T06:00:53.000Z",
+      "firstSeen": "2026-11-21T06:31:00.669Z",
+      "url": "https://www.theguardian.com/society/2026/nov/21/campaigners-back-call-for-scrutiny-of-consent-laws-by-joanne-young",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/b210f835d3402c106de262ff8f2b7ff286b6533c/35_0_4917_3933/master/4917.jpg?width=140&quality=85&auto=format&fit=max&s=4c73efff30b6f821b2bfb7045c9833b5",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Campaigners have welcomed a call for scrutiny of consent laws by a survivor of drug-facilitated rape but said action must also focus on wider issues around sexual assault."
+        },
+        {
+          "type": "p",
+          "text": "Joanne Young, who was drugged and raped by her husband and sexually abused by men he invited into their home, warned of “serious questions about how the law deals with consent”."
+        },
+        {
+          "type": "p",
+          "text": "Philip Young, 50, advertised Joanne Young, his then wife, on dating and swinging websites, presenting it as a “kink” for both of them, Winchester crown court heard. In fact, he had been sedating her, plunging her into an “inanimate state” in which anything could be done to her by the men who answered the adverts, jurors were told."
+        },
+        {
+          "type": "p",
+          "text": "The former Conservative councillor pleaded guilty earlier in the year to dozens of charges of abuse against his former wife, who has waived her right to anonymity."
+        },
+        {
+          "type": "p",
+          "text": "As four men were convicted of sexual offences against her on Thursday, Young, 49, said: “No one should be able to give [consent] on your behalf.” Her daughter, Alex Young, also called for a change in the law to make it clear that third-party consent cannot ever be used as an argument in a court of law."
+        },
+        {
+          "type": "p",
+          "text": "Barristers and campaigners said there was no law that stated third-party consent was a valid defence as they called for a public debate and further education about consent."
+        },
+        {
+          "type": "p",
+          "text": "Kate Parker, a criminal barrister and founder of the charity Schools Consent Project, said: “The law currently has nothing in it which allows someone to point to another person and say: ‘Because of what they told me, I believed the other person to be consenting.’ You can’t effectively outsource consent to a third party, the law has never had that within it. The Sexual Offences Act 2003 certainly doesn’t have that in it."
+        },
+        {
+          "type": "p",
+          "text": "“What is instead happening is defence counsel in this case, and in cases like this, are pointing to a defence you can run, which is to say that the defendant genuinely and reasonably thought that the victim was consenting.”"
+        },
+        {
+          "type": "p",
+          "text": "The trial heard that the four men, who were strangers to each other, failed to seek consent from Joanne Young before they engaged in sexual activity with her. The defendants claimed they had been duped by Philip Young and believed she was consenting."
+        },
+        {
+          "type": "p",
+          "text": "Parker said it was right that a defendant should be able to say what was in his or her mind at the time of an alleged offence."
+        },
+        {
+          "type": "p",
+          "text": "“I think that’s a sort of cornerstone of our law. But I hope that these arguments carry less and less traction with juries when generally there is more knowledge as to what the laws around consent are,” she said."
+        },
+        {
+          "type": "p",
+          "text": "“I hope that as time goes by, juries become more aware and members of the public become more aware as to what the law on consent is, so no one can say: ‘Because a third party told me so and I acted on it, I thought I was legally safe.’”"
+        },
+        {
+          "type": "p",
+          "text": "Harriet Wistrich, a solicitor and the director of the Centre for Women’s Justice, said the jury in the Young case had ultimately rejected the defence."
+        },
+        {
+          "type": "p",
+          "text": "“It should be obvious in the law that somebody can’t consent on somebody else’s behalf. But you could explicitly make it the case,” she said."
+        },
+        {
+          "type": "p",
+          "text": "“Defence barristers should robustly defend their clients. That’s their job. But they shouldn’t overstep the mark by relying on myths and stereotypes.”"
+        },
+        {
+          "type": "p",
+          "text": "Ciara Bergman, the chief executive of Rape Crisis England & Wales, agreed the law on consent should be scrutinised. The Sexual Offences Act 2003 states: “A person consents if he agrees by choice, and has the freedom and capacity to make that choice.”"
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "She said: “We can look at strengthening existing laws. But really we have to get to the root of the problem, which is about the understanding of consent."
+        },
+        {
+          "type": "p",
+          "text": "“The existing law is already clear. This is about how that law is interpreted and it is regularly misinterpreted and misapplied. That happens all the time by defendants, by barristers, by juries, and so this is highlighting a lack of understanding that consent is specific: it’s not a one-time event, it’s ongoing, it’s highly dependent on the actual situation at the time. The fact that someone is unconscious necessarily means they can’t consent."
+        },
+        {
+          "type": "p",
+          "text": "“The other thing about these cases is that drugging someone is the opposite of consent. What is emerging from these organised drug-facilitated sexual abuse cases is a growing recognition of the attraction that some people have to a woman not being able to consent.”"
+        },
+        {
+          "type": "p",
+          "text": "Prof Miranda Horvath, the director of the Institute for Social Justice and Crime at the University of Suffolk, said incorrect beliefs about consent should be “robustly challenged”."
+        },
+        {
+          "type": "p",
+          "text": "“It is incredibly important that people understand that legally nobody can give consent on your behalf, and this underlines the importance of clear education on consent through society, from young people right through to adults,” she said."
+        },
+        {
+          "type": "p",
+          "text": "“Rape and serious sexual offences are a direct choice made by perpetrators, and a lack of understanding on whether a sexual partner has given consent cannot be an acceptable excuse.”"
+        },
+        {
+          "type": "p",
+          "text": "The Labour MP Jess Phillips said the government should look at whether the law should be tightened. “It is absolutely right that the government should strength-test whether there is a way of really asserting in the law that consent cannot ever come from a third party – we need to be absolutely satisfied that that is the case,” she said."
+        },
+        {
+          "type": "p",
+          "text": "“There is an argument that while the law states that consent cannot come from a third party, we still see it being used as a defence. Perhaps if we look at tightening the law, these men would have had to plead guilty and Joanne Young would have been spared this trial.”"
+        },
+        {
+          "type": "p",
+          "text": "A Ministry of Justice spokesperson said: “The law is clear: no one can consent on someone else’s behalf. Consent must come from the person themselves, and they must have the freedom and capacity to make that choice. We keep the criminal law under review, and we will always look at what more can be done to protect victims.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "abs-o2wiq5",
@@ -751,7 +1097,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-1rmhvst",
@@ -976,31 +1322,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-n0rykj",
-      "source": "inqg",
-      "title": "Marcos laughs off buzz over his Apec entrance tune",
-      "summary": "SHENZHEN, CHINA—President Ferdinand Marcos Jr. on Friday laughed off the online buzz over the selection of “Anak” (Child) as the background music during his and his wife’s entrance at the gala dinner…",
-      "byline": "jvicente",
-      "section": "Asia & Pacific",
-      "published": "2026-11-21T05:40:00.000Z",
-      "firstSeen": "2026-11-20T22:01:05.957Z",
-      "url": "https://globalnation.inquirer.net/349325/marcos-laughs-off-buzz-over-his-apec-entrance-tune",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/marcos-apec-20nov2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SHENZHEN, CHINA—President Ferdinand Marcos Jr. on Friday laughed off the online buzz over the selection of “Anak” (Child) as the background music during his and his wife’s entrance at the gala dinner of the Asia-Pacific Economic Cooperation (Apec) Summit here. The song, which was made famous in the 1970s by the late folk singer Freddie"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inq-188bdt3",
       "source": "inq",
       "title": "Ombudsman: Romualdez co-accused surrenders to NBI",
@@ -1018,6 +1339,31 @@
         {
           "type": "p",
           "text": "MANILA, Philippines — The Office of the Ombudsman said Friday that a co-accused of former Speaker Martin Romualdez in his P7.44-billion plunder case has surrendered to the National Bureau of Investigation (NBI) on Thursday. In a statement, the Ombudsman announced the surrender of Felicito Guevarra, president of Samchan Foreign Exchange Corp. and a co-accused of [&hellip;]... Keep on reading: Ombudsman: Romualdez co-accused surrenders to NBI"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-n0rykj",
+      "source": "inqg",
+      "title": "Marcos laughs off buzz over his Apec entrance tune",
+      "summary": "SHENZHEN, CHINA—President Ferdinand Marcos Jr. on Friday laughed off the online buzz over the selection of “Anak” (Child) as the background music during his and his wife’s entrance at the gala dinner…",
+      "byline": "jvicente",
+      "section": "Asia & Pacific",
+      "published": "2026-11-21T05:40:00.000Z",
+      "firstSeen": "2026-11-20T22:01:05.957Z",
+      "url": "https://globalnation.inquirer.net/349325/marcos-laughs-off-buzz-over-his-apec-entrance-tune",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/marcos-apec-20nov2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SHENZHEN, CHINA—President Ferdinand Marcos Jr. on Friday laughed off the online buzz over the selection of “Anak” (Child) as the background music during his and his wife’s entrance at the gala dinner of the Asia-Pacific Economic Cooperation (Apec) Summit here. The song, which was made famous in the 1970s by the late folk singer Freddie"
         }
       ],
       "truncated": true,
@@ -1447,7 +1793,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqn-1dwyill",
@@ -1467,31 +1813,6 @@
         {
           "type": "p",
           "text": "COTABATO CITY—Bangsamoro Education Minister Naguib Sinarimbo on Thursday inspected two warehouses of the Ministry of Basic, Higher and Technical Education (MBHTE), giving him pointers on the necessary institutional reforms to undertake in the largest agency of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) bureaucracy. The team discovered thousands of undistributed school supplies and learning"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-vhv5fi",
-      "source": "inqn",
-      "title": "Southern Palawan forest loss mostly due to ‘kaingin’ – study",
-      "summary": "BAGUIO CITY—A study has identified “kaingin,” or slash-and-burn farming, as the leading driver of massive deforestation in southern Palawan, challenging widespread assumptions that mining is…",
-      "byline": "jvicente",
-      "section": "Headlines",
-      "published": "2026-11-21T05:04:00.000Z",
-      "firstSeen": "2026-11-20T21:30:56.480Z",
-      "url": "https://newsinfo.inquirer.net/2344537/southern-palawan-forest-loss-mostly-due-to-kaingin-study",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/11/Palawan-map-filephoto-091222.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BAGUIO CITY—A study has identified “kaingin,” or slash-and-burn farming, as the leading driver of massive deforestation in southern Palawan, challenging widespread assumptions that mining is primarily responsible for the loss of forest cover. Teodoro Jose Matta, a lawyer and executive director of the Palawan Council for Sustainable Development (PCSD), said mining-related activities accounted for only"
         }
       ],
       "truncated": true,
@@ -2915,31 +3236,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-lj10cf",
-      "source": "inq",
-      "title": "BARMM parliament to discuss 2027 budget, parliamentary rules on Nov. 24",
-      "summary": "COTABATO CITY — The Bangsamoro Parliament will complete the proposed 2027 budget for the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) before the year ends, the parliament majority leader…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-21T04:02:42.000Z",
-      "firstSeen": "2026-11-21T04:31:01.460Z",
-      "url": "https://newsinfo.inquirer.net/2344745/barmm-parliament-to-discuss-2027-budget-parliamentary-rules-on-nov-24",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/barmm-cabinet-5nov2026-620x375.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COTABATO CITY — The Bangsamoro Parliament will complete the proposed 2027 budget for the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) before the year ends, the parliament majority leader said Saturday, Nov. 21. Parliament Member Johari Abu, majority floor leader, said Speaker Amer Zaakaria Rakim issued a memorandum directing all parliament members to hold a regular session at 1 p.m. on Tuesday, Nov. 24, at the Shariff Kabunsuan Cultural Complex (SKCC) Plenary Session hall inside the Bangsamoro Government Center in Cotabato City. “Top priority is the proposed 2027 regional budget committee memberships,” Abu said. Also on the agenda are the completion [&hellip;]... Keep on reading: BARMM parliament to discuss 2027 budget, parliamentary rules on Nov. 24"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-990dsz",
       "source": "abs",
       "title": "Batangas drops letter 'h' from 'ala eh,' welcomes foreign visitors",
@@ -3348,31 +3644,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-18xmvvx",
-      "source": "inq",
-      "title": "Will your home grow old with you?",
-      "summary": "Across the world, populations are growing older. Japan is the best known example, where a large share of residents is past 65 and some rural towns are made up mostly of seniors. Italy and Germany are…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-21T03:57:52.000Z",
-      "firstSeen": "2026-11-21T04:00:55.766Z",
-      "url": "https://business.inquirer.net/622181/will-your-home-grow-old-with-you",
-      "image": {
-        "src": "https://business.inquirer.net/files/2026/11/1332895-620x620.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Across the world, populations are growing older. Japan is the best known example, where a large share of residents is past 65 and some rural towns are made up mostly of seniors. Italy and Germany are not far behind, as falling birth rates and longer lives reshape their cities. South Korea is aging faster than almost any country in history, and China is following the same path on a vast scale. The Philippines is still a young country, but that is changing. Better healthcare, longer lives and smaller families mean more Filipino seniors in the coming decades. Many of us already [&hellip;]... Keep on reading: Will your home grow old with you?"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-1pwneg9",
@@ -11639,94 +11910,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "grd-1oj30as",
-      "source": "grd",
-      "title": "No one else in Reform is suitable to lead the party, Nigel Farage says",
-      "summary": "<p>Farage issues warning to potential rivals and says he will fight next election as leader if ‘still here and fit and healthy’</p><p>Nigel Farage has said he does not see another person who could do…",
-      "byline": "Rowena Mason Whitehall editor",
-      "section": "Nigel Farage",
-      "published": "2026-11-20T18:11:25.000Z",
-      "firstSeen": "2026-11-20T18:31:08.414Z",
-      "url": "https://www.theguardian.com/politics/2026/nov/20/nigel-farage-leadership-reform-uk-party",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/f8e40ebdb59af4c88a35f0a5831e5d5d9dafb33f/0_183_3993_3194/master/3993.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0a8a7c5d4ac9722f7aba06c960582f4b",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Nigel Farage has said he does not see another person who could do his job as leader of Reform UK, in a warning shot to potential rivals who might seek to replace him."
-        },
-        {
-          "type": "p",
-          "text": "The Reform UK leader delivered a message that he was going nowhere despite his worries over his personal safety in the wake of the killing of the Reform politician Ann Widdecombe."
-        },
-        {
-          "type": "p",
-          "text": "There has been speculation over Farage’s future in light of police and parliamentary investigations of Reform’s financial affairs. The Commons standards watchdog is due to report soon on whether he should have declared a £5m personal gift from the crypto billionaire Christopher Harborne before the last election. If he gets a substantial suspension from parliament, he could face a second byelection, contested by other main parties, in his Clacton constituency."
-        },
-        {
-          "type": "p",
-          "text": "However, Farage sounded a note of defiance in an interview with the Sun, saying: “These are very thoughtful moments, but, you know what, if I’m not here doing this job right now, who else could? Who else would? I don’t see that person. So I’m gonna do it.”"
-        },
-        {
-          "type": "p",
-          "text": "A number of other Reform UK politicians are potential contenders to succeed him, including the party’s economics spokesperson and former Conservative, Robert Jenrick, the home affairs spokesperson, Zia Yusuf, and the former leader Richard Tice. Another possibility is the return of Rupert Lowe, who left Reform in acrimonious circumstances and founded his own party, Restore Britain, but who is popular on the online hard right."
-        },
-        {
-          "type": "p",
-          "text": "The party is going through a difficult period after slipping from first place in the polls to second or third behind behind Labour and sometimes the Conservatives."
-        },
-        {
-          "type": "p",
-          "text": "Asked by the Sun if he had “blown” his chances of reaching No 10, Farage said: “No, far from it.”"
-        },
-        {
-          "type": "p",
-          "text": "He admitted there had been “self-inflicted wounds” in the past year but said he still had a chance of becoming prime minister."
-        },
-        {
-          "type": "p",
-          "text": "He told the newspaper that he would fight the next election as Reform leader if he was “still here and fit and healthy”."
-        },
-        {
-          "type": "p",
-          "text": "He also batted away questions about the £5m, which he has insisted was to pay for his personal security despite the fact the party has been providing this."
-        },
-        {
-          "type": "p",
-          "text": "“What’s it got to do with you? Drugs, sports cars, desert islands. It’s a gift,” he said, adding that although the party had had “ebbs and flows” and had made mistakes after growing “too far and too fast”, he was confident it was “more than through the worst of it”."
-        },
-        {
-          "type": "p",
-          "text": "On the prospect of another battle over Europe as Andy Burnham weighs the case for rejoining the EU, the Reform leader said: “If you ask me, have I got the energy and the enthusiasm to do this again? I would say to you, hold my jacket. I’m ready for it.”"
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "He also warned of people taking to the streets with “direct action” if Brexit is reversed."
-        },
-        {
-          "type": "p",
-          "text": "In a separate interview with the Times while travelling to Brussels, where Burnham was attempting a reset deal, Farage said he believed the issue of Europe would dominate the years to come."
-        },
-        {
-          "type": "p",
-          "text": "“It’s going to be absolutely huge. It’s going to be much bigger than anyone realises. The genie is out of the bottle; it literally can’t be stopped now,” he said."
-        },
-        {
-          "type": "p",
-          "text": "He also ruled out joining a new campaign called Stay Out, led by former Tories, suggesting he would make his own case for keeping Brexit."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-e77xoq",
       "source": "bbc",
       "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
@@ -18105,67 +18288,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "gma-1ofndl8",
-      "source": "gma",
-      "title": "PNP identifies 70 social media posts encouraging protests, violence",
-      "summary": "The Philippine National Police (PNP) on Friday said it has identified around 70 social media posts allegedly encouraging people to participate in protests and engage in violence.",
-      "byline": "JOVILAND RITA, GMA News",
-      "section": "",
-      "published": "2026-11-20T09:00:29.000Z",
-      "firstSeen": "2026-11-20T09:08:43.225Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1010222/pnp-identifies-70-social-media-posts-encouraging-protests-violence/story/",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published November 20, 2026 5:00pm"
-        },
-        {
-          "type": "p",
-          "text": "The Philippine National Police (PNP) on Friday said it has identified around 70 social media posts allegedly encouraging people to participate in protests and engage in violence."
-        },
-        {
-          "type": "p",
-          "text": "At a press briefing, PNP spokesperson Police Brigadier General Allen Rae Co said the PNP Anti-Cybercrime Group is working to identify the individuals or groups behind the posts."
-        },
-        {
-          "type": "p",
-          "text": "“Marami po, marami ang na-ano natin na, several. Siguro nasa mga 70, more or less, 70,” Co said."
-        },
-        {
-          "type": "p",
-          "text": "(There were several. Maybe more or less 70.)"
-        },
-        {
-          "type": "p",
-          "text": "Among the posts monitored by authorities were messages urging people to take to the streets, join demonstrations, oust certain government officials, and resort to violence over alleged government’s wrongdoing."
-        },
-        {
-          "type": "p",
-          "text": "Co said the PNP is still validating the identities of those behind the posts."
-        },
-        {
-          "type": "p",
-          "text": "According to him, authorities have noticed similarities in some of the messages, including the use of identical punctuation marks and spacing."
-        },
-        {
-          "type": "p",
-          "text": "“It could have come from a single source na marami pong naglalabas (and many people posted them),” he said."
-        },
-        {
-          "type": "p",
-          "text": "Co said the PNP is examining possible violations of Philippine laws in connection with the posts."
-        },
-        {
-          "type": "p",
-          "text": "During the ASEAN Summit 2026, protesters expressed opposition to the Pax Silica initiative as well as the visit of United States President Donald Trump to the Philippines. —NB, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-1noqsep",
       "source": "cbc",
       "title": "A Montrealer died in Istanbul. Authorities blame food poisoning but what we found suggests something else",
@@ -18677,62 +18799,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "gma-fdzehb",
-      "source": "gma",
-      "title": "Marcos concludes 3-day China trip for APEC 2026 summit",
-      "summary": "President Ferdinand \"Bongbong\" Marcos Jr. on Friday afternoon flew back to Manila after wrapping up his three-day visit in China for the 33rd Asia-Pacific Economic Conference (APEC) Economic Leaders'…",
-      "byline": "GISELLE OMBAY, GMA News",
-      "section": "",
-      "published": "2026-11-20T08:28:29.000Z",
-      "firstSeen": "2026-11-20T09:01:01.814Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1010218/marcos-concludes-3-day-china-trip-for-apec-2026-summit/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2025/10/Marcos_flies_to_Malaysia_for_47th_ASEAN_Summit_Courtesy_RTVM_YouTube_20251025_2025_10_25_11_30_38.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published November 20, 2026 4:28pm"
-        },
-        {
-          "type": "p",
-          "text": "SHENZHEN, China — President Ferdinand \"Bongbong\" Marcos Jr. on Friday afternoon flew back to Manila after wrapping up his three-day visit in China for the 33rd Asia-Pacific Economic Conference (APEC) Economic Leaders' Meeting."
-        },
-        {
-          "type": "p",
-          "text": "The PR001 carrying the President and his delegation left Shenzhen Bao'an International Airport at 4:13 p.m."
-        },
-        {
-          "type": "p",
-          "text": "They are expected to land in Villamor Air Base in Pasay City at about 6 p.m."
-        },
-        {
-          "type": "p",
-          "text": "Before departing Shenzhen, Marcos held a Kapihan forum with the Philippine media where he said he used his presence in the APEC summit \"to the maximum\" by meeting with world leaders as well as business executives."
-        },
-        {
-          "type": "p",
-          "text": "\"So that the opportunities that a conference like APEC provides are fully utilized and we can find ways to engage new partners around the world in the hope that those engagements will bring new business, bring new trade to the betterment of our economy,\" the President said."
-        },
-        {
-          "type": "p",
-          "text": "On the sidelines of the APEC Economic Leaders' Meeting, Marcos had pull-aside meetings with New Zealand Prime Minister Christopher Luxon, Vietnamese President To Lam, and Mexican President Claudia Sheinbaum."
-        },
-        {
-          "type": "p",
-          "text": "He also had bilateral meetings with Chilean President Jose Antonio Kast, Peruvian President Keiko Fujimori, and Papua New Guinea Prime Minister James Marape."
-        },
-        {
-          "type": "p",
-          "text": "On Friday, Marcos also led business meetings with Chinese manufacturing company C&U Group, electric vehicle manufacturer BYD Company Limited, and clean-energy technology company Ming Yang Smart Energy Group Limited. — VDV, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1hx8dbc",
       "source": "abs",
       "title": "Philippines eyeing to be SpaceX launch site — Marcos",
@@ -18879,28 +18945,6 @@
         {
           "type": "p",
           "text": "The Armed Forces of the Philippines on Friday welcomed continued support from the United States in strengthening its military capabilities following the approval of more than $5 billion in arms sales and increased military financing for the Philippines."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-lw29q",
-      "source": "abs",
-      "title": "Comedian Ton Soriano marks one month of being married to non-showbiz partner",
-      "summary": "Ton Soriano and his non-showbiz partner, Jhonnas Desingaño, celebrates their first month of being married.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-20T07:47:33.000Z",
-      "firstSeen": "2026-11-20T08:01:06.192Z",
-      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/11/20/comedian-ton-soriano-marks-one-month-of-being-married-to-non-showbiz-partner-1547",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Ton Soriano and his non-showbiz partner, Jhonnas Desingaño, celebrates their first month of being married."
         }
       ],
       "truncated": true,
