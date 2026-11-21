@@ -1,0 +1,215 @@
+{
+  "id": "cbc-1lqlb7x",
+  "source": "cbc",
+  "title": "Should AI be your personal assistant? Here's what you need to know",
+  "summary": "",
+  "byline": "Sarah Petz",
+  "section": "News/Business",
+  "published": "2026-11-21T09:01:11.000Z",
+  "firstSeen": "2026-11-21T09:30:54.860Z",
+  "url": "https://www.cbc.ca/news/business/ai-personal-assistants-muse-dots-claude-duet-risks-9.7427574?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/da88bf56-521e-4986-b56e-02a8388db515,1795048789463/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C208%2C4000%2C2250%29%3BResize%3D620",
+    "caption": "OpenAI dots and Meta Muse are among the new artificial intelligence agents acting as personal digital assistants. (Dado Ruvic/Reuters)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Imagine a chatbot that can not only recommend a great restaurant in your area, but can also book a reservation, put it in your calendar and email an invitation to your friends."
+    },
+    {
+      "type": "p",
+      "text": "In recent months, that scenario has become reality, with some of the world's biggest AI developers launching digital personal assistants they say will make users' lives easier."
+    },
+    {
+      "type": "p",
+      "text": "The companies behind these new mass market agents say they are remarkably capable, safe and easy to use."
+    },
+    {
+      "type": "p",
+      "text": "But cybersecurity experts say the more advanced tasks come with more risk that something could go seriously wrong."
+    },
+    {
+      "type": "h",
+      "text": "What are AI assistants, and how do they work?"
+    },
+    {
+      "type": "p",
+      "text": "Three of most well-known ones on the market — Meta's Muse, OpenAI's dots and Anthropic's Claude Duet — all debuted within weeks of each other and all have similar capabilities."
+    },
+    {
+      "type": "p",
+      "text": "Muse can be spoken to as if it were a chatbot and instructed to send emails, book travel, make purchases and more on your behalf when connected to third-party apps like Shopify and Ticketmaster."
+    },
+    {
+      "type": "p",
+      "text": "It can handle multiple tasks at once and continue working through them even while the app is closed."
+    },
+    {
+      "type": "p",
+      "text": "LISTEN | Tech columnist on her experience using Muse:"
+    },
+    {
+      "type": "p",
+      "text": "The Current21:24What could possibly go wrong with Meta's Muse?"
+    },
+    {
+      "type": "p",
+      "text": "OpenAI says users can instruct dots to do \"nearly anything\" by messaging or calling them through ChatGPT. They can be connected to other devices and over 4,000 apps, and even have the ability to use your laptop."
+    },
+    {
+      "type": "p",
+      "text": "Anthropic's Claude Duet has been pitched as more of a proactive agent for work than as an assistant to take on personal errands."
+    },
+    {
+      "type": "p",
+      "text": "The agent can take on simple administrative tasks, like scheduling meetings, and more complex projects, like creating financial reports or building web apps, according to the company's product announcement."
+    },
+    {
+      "type": "p",
+      "text": "While Muse is free, dots and Claude Duet each require a subscription. Claude Duet isn't available in Canada yet."
+    },
+    {
+      "type": "h",
+      "text": "How do AI personal assistants keep your personal info safe?"
+    },
+    {
+      "type": "p",
+      "text": "CBC News reached out to Meta, OpenAI and Anthropic to ask how they protect users' privacy and prevent their personal assistant agents from going beyond the scope of the tasks they're assigned, along with what advice they'd give users to prevent this from happening."
+    },
+    {
+      "type": "p",
+      "text": "A spokesperson for Meta said Muse runs on its own dedicated computer in the cloud that is designed so users' data is securely stored, referring CBC to a blog post by software engineer Tarek Sheasha outlining the safeguards built into Muse."
+    },
+    {
+      "type": "p",
+      "text": "They also referred CBC to another blog post that says Muse checks with users before taking on sensitive actions, like sending an email or making a purchase, and shows a complete audit trail of everything the agent has done."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "People are using AI to 'dumb down' their smart TVs. Is that a good idea?",
+        "Google launches AI-based shopping in Canada in race to dominate e-commerce"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A spokesperson for OpenAI referred CBC to a blog post outlining its safeguards, which includes encryption for users' content and account security systems that monitor for suspicious use."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI also monitors dots as they plan and carry out actions \"looking for potentially harmful behavior, such as acting outside your instructions or trying to bypass safeguards,\" the blog post says."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI also notes that users can give dots custom rules, such as to never send emails, and says certain actions require a user's confirmation each time, such as permanently deleting data and installing or running software from an unrecognized source."
+    },
+    {
+      "type": "p",
+      "text": "A spokesperson for Anthropic said Claude Duet was built to enable people to stay in control of what it does, and so their information is handled with discretion."
+    },
+    {
+      "type": "p",
+      "text": "The model never sees users' passwords, browser cookies or sign-in tokens, and Claude Duet is instructed never to share sign-in credentials, credit card and bank account numbers and government ID numbers — even if you ask, the spokesperson said."
+    },
+    {
+      "type": "h",
+      "text": "What can go wrong?"
+    },
+    {
+      "type": "p",
+      "text": "Some users have reported getting more than they bargained for when putting these high-powered assistants to work."
+    },
+    {
+      "type": "p",
+      "text": "A Montreal man asked Muse to handle his Facebook Marketplace transactions. But after listing a keyboard for sale, Muse gave out his home address to a stranger without his knowledge."
+    },
+    {
+      "type": "p",
+      "text": "When the buyer showed up, Muse even told him the seller was there even though he wasn't home."
+    },
+    {
+      "type": "p",
+      "text": "\"Muse doesn't check with me, it doesn't tell me this guy has messaged and then it gives the guy my address, agrees to his price and literally tells him to come right now, that's the crazy part,\" Matt Robb told CBC News last month."
+    },
+    {
+      "type": "p",
+      "text": "He used Meta’s AI agent Muse for Marketplace sales. Then it set one up behind his back"
+    },
+    {
+      "type": "p",
+      "text": "Asked how something like this could happen, a spokesperson for Meta pointed CBC to a social media post made by Robb about his ordeal, where he explained he had clicked \"allow always\" instead of \"allow one time\" when asking Muse to handle his Marketplace transactions on his behalf going forward."
+    },
+    {
+      "type": "p",
+      "text": "While these agents can be innovative and exciting tools, they should be used in a limited way and given very specific instructions in order to avoid these kinds of mishaps, said Claudiu Popa, a Toronto-based certified cybersecurity professional with privacy consulting firm Datarisk Canada."
+    },
+    {
+      "type": "p",
+      "text": "\"Unless you tell them very specifically what they can and cannot do you're going to have unpredictable results,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "\"That's the issue with all AI agents, and this issue is going to continue for the foreseeable future.\""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "BMO CEO says don't give AI agents your banking info"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "David Shipley, CEO and co-founder of Beauceron Security in Fredericton, said he hasn't let these agents get near his computer at all."
+    },
+    {
+      "type": "p",
+      "text": "\"I absolutely do not trust this technology,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "Shipley compared trusting them with your personal errands to a monkey's paw wish, referring to the classic horror story that serves as a cautionary tale to be careful what you wish for."
+    },
+    {
+      "type": "p",
+      "text": "\"You might wish for it to do a certain set of actions and it's going to go and do those actions, but perhaps not in the way that you intended it to do that.\""
+    },
+    {
+      "type": "h",
+      "text": "Why have Canada's biggest banks blocked AI assistants?"
+    },
+    {
+      "type": "p",
+      "text": "With a client's authorization, AI agents can also connect to bank accounts and credit cards to monitor balances and transaction histories and give tips on budgeting."
+    },
+    {
+      "type": "p",
+      "text": "But concerns over AI agents accessing sensitive information have also prompted Royal Bank, TD Bank, CIBC and Bank of Montreal to block them from directly accessing their clients' online bank accounts and other information."
+    },
+    {
+      "type": "p",
+      "text": "The CEOs of RBC and BMO recently warned that third-party AI agents are not to be trusted with personal banking information."
+    },
+    {
+      "type": "p",
+      "text": "Why banks are banning AI agents"
+    },
+    {
+      "type": "p",
+      "text": "Those warnings should give people pause about using these agents entirely, given that banks \"have been among the more fervent adopters of digital technology over the last 30 years,\" Shipley said."
+    },
+    {
+      "type": "p",
+      "text": "But Popa said he thinks these AI personal assistants can be used in a limited way without compromising your personal information, such as for tasks like research or writing emails — not sending them — for you."
+    },
+    {
+      "type": "p",
+      "text": "\"You can't necessarily trust an outside AI agent with your private information. So sharing calendars, emails, all sorts of personal information and personal files, that is for me, it's not a line that I would let it cross.\""
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
