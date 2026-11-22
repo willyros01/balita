@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-22T08:31:18.739Z",
+  "updated": "2026-11-22T08:47:30.131Z",
   "sources": [
     {
       "id": "inq",
@@ -53,63 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-1bc8kmz",
-      "source": "inqn",
-      "title": "Lipa City pushes for government-run pet cemetery",
-      "summary": "LUCENA CITY — The city council of Lipa, Batangas, is pushing for a government-owned and operated pet cemetery to provide deceased companion animals with a proper resting place. On Nov. 16, the city…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:10.271Z",
-      "firstSeen": "2026-11-22T01:00:59.032Z",
-      "url": "https://newsinfo.inquirer.net/2345097/lipa-city-pushes-for-government-run-pet-cemetery",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/03/batangas-location-map-03march2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — The city council of Lipa, Batangas, is pushing for a government-owned and operated pet cemetery to provide deceased companion animals with a proper resting place. On Nov. 16, the city council adopted a resolution urging Mayor Eric Africa to consider establishing a local government-run Pet Memorial Park and directing concerned city offices"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-s09qf",
-      "source": "inqn",
-      "title": "Taal Volcano&#8217;s gas emissions rise as earthquakes decline",
-      "summary": "LUCENA CITY — Sulfur dioxide emissions from Taal Volcano in Batangas province have increased significantly, the Philippine Institute of Volcanology and Seismology (Phivolcs) reported Sunday, Nov. 22.…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:10.271Z",
-      "firstSeen": "2026-11-22T01:00:59.063Z",
-      "url": "https://newsinfo.inquirer.net/2345091/taal-volcanos-gas-emissions-rise-as-earthquakes-decline",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/04/taal-volcano-11April2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — Sulfur dioxide emissions from Taal Volcano in Batangas province have increased significantly, the Philippine Institute of Volcanology and Seismology (Phivolcs) reported Sunday, Nov. 22. In its latest 24-hour monitoring, Phivolcs recorded 567 metric tons (MT) of sulfur dioxide emissions from the volcano, which it classified as a “weak emission.” The figure marked"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-4enoly",
       "source": "inqn",
       "title": "Peasant group hits Marcos for downplaying opposition to Pax Silica",
       "summary": "LUCENA CITY — A peasant organization criticized President Ferdinand Marcos Jr. for downplaying widespread protests against the US-led Pax Silica initiative, saying his remarks were aimed at appeasing…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:09.735Z",
+      "published": "2026-11-22T08:47:23.019Z",
       "firstSeen": "2026-11-22T03:01:03.928Z",
       "url": "https://newsinfo.inquirer.net/2345129/peasant-group-hits-marcos-for-downplaying-opposition-to-pax-silica",
       "image": {
@@ -134,7 +84,7 @@
       "summary": "CALAPAN CITY, Oriental Mindoro — A vlogger faces a 90-day preventive suspension of his driver’s license after the Land Transportation Office (LTO) flagged him for alleged road safety violations in…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:09.735Z",
+      "published": "2026-11-22T08:47:23.019Z",
       "firstSeen": "2026-11-22T02:00:59.500Z",
       "url": "https://newsinfo.inquirer.net/2345107/lto-suspends-vloggers-drivers-license-over-alleged-traffic-violations",
       "image": {
@@ -159,7 +109,7 @@
       "summary": "MANILA, Philippines — Coron and Cuyo in Palawan are forecast to record the highest heat index on Sunday, the weather bureau said. In its latest heat index forecast issued on Saturday, the Philippine…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:09.735Z",
+      "published": "2026-11-22T08:47:23.019Z",
       "firstSeen": "2026-11-22T02:00:59.597Z",
       "url": "https://newsinfo.inquirer.net/2345114/cuyo-curon-in-palawan-heat-index-to-hit-dangerous-level-on-nov-22",
       "image": {
@@ -178,13 +128,88 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1bc8kmz",
+      "source": "inqn",
+      "title": "Lipa City pushes for government-run pet cemetery",
+      "summary": "LUCENA CITY — The city council of Lipa, Batangas, is pushing for a government-owned and operated pet cemetery to provide deceased companion animals with a proper resting place. On Nov. 16, the city…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-11-22T08:47:23.019Z",
+      "firstSeen": "2026-11-22T01:00:59.032Z",
+      "url": "https://newsinfo.inquirer.net/2345097/lipa-city-pushes-for-government-run-pet-cemetery",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/03/batangas-location-map-03march2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LUCENA CITY — The city council of Lipa, Batangas, is pushing for a government-owned and operated pet cemetery to provide deceased companion animals with a proper resting place. On Nov. 16, the city council adopted a resolution urging Mayor Eric Africa to consider establishing a local government-run Pet Memorial Park and directing concerned city offices"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-xtlp0k",
+      "source": "inqn",
+      "title": "Over 5,000 cops to secure Metro Manila for Nov. 23-24 transport strike",
+      "summary": "MANILA, Philippines — More than 5,000 cops will be deployed across Metro Manila for the transport strike on Nov. 23-24 to ensure commuter safety, the National Capital Region Police Office (NCRPO)…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-11-22T08:47:22.988Z",
+      "firstSeen": "2026-11-22T04:01:00.013Z",
+      "url": "https://newsinfo.inquirer.net/2345145/over-5000-cops-to-secure-metro-manila-for-nov-23-24-transport-strike",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Members-of-transport-group-Manibela-strike-protest-28September2026_3.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — More than 5,000 cops will be deployed across Metro Manila for the transport strike on Nov. 23-24 to ensure commuter safety, the National Capital Region Police Office (NCRPO) said. Transport group Manibela and its allied groups will stage a strike over a potential change in the leadership of the Land Transportation Office"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-19e8org",
+      "source": "inqn",
+      "title": "World&#8217;s largest rodent finds home at wildlife farm in Cavite",
+      "summary": "LUCENA CITY — Capybaras, known as the world’s largest living rodents, can now be seen up close at a wildlife farm in Mendez, Cavite, according to the Department of Environment and Natural Resources…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-11-22T08:47:22.923Z",
+      "firstSeen": "2026-11-22T04:31:01.682Z",
+      "url": "https://newsinfo.inquirer.net/2345165/worlds-largest-rodent-finds-home-at-wildlife-farm-in-cavite",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Worlds-largest-rodent-finds-home-at-wildlife-farm-in-Cavite.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LUCENA CITY — Capybaras, known as the world’s largest living rodents, can now be seen up close at a wildlife farm in Mendez, Cavite, according to the Department of Environment and Natural Resources (DENR). “The world&#8217;s largest living rodent can be seen in Cavite! This excellent swimmer and highly sociable animal can be seen up"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1ueqx7u",
       "source": "inqn",
       "title": "K-12 voucher law signing draws praise from senators",
       "summary": "MANILA, Philippines — Senators welcomed the enactment of the Basic Education Voucher Assistance Act, or Republic Act No. 12327, saying it would expand access to quality education while helping ease…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:09.734Z",
+      "published": "2026-11-22T08:47:22.923Z",
       "firstSeen": "2026-11-22T05:00:56.480Z",
       "url": "https://newsinfo.inquirer.net/2345179/senators-laud-signing-of-voucher-law-for-k-12-enrollees",
       "image": {
@@ -209,7 +234,7 @@
       "summary": "ILIGAN CITY — A fireworks display marking the grand opening of the Christmas Festival of Lights 2026 in Tangub City, Misamis Occidental, turned dangerous on Saturday night when fireworks went awry…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:09.734Z",
+      "published": "2026-11-22T08:47:22.923Z",
       "firstSeen": "2026-11-22T04:00:59.897Z",
       "url": "https://newsinfo.inquirer.net/2345148/18-injured-as-fireworks-display-goes-awry-in-misamis-occidental",
       "image": {
@@ -234,7 +259,7 @@
       "summary": "OLONGAPO CITY — Nine of the 17 people on the Zabali Bridge in Baler, Aurora, fell into the Kinalapan River after a cable on one side came loose, causing the structure to tilt on Nov. 20, according to…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:09.734Z",
+      "published": "2026-11-22T08:47:22.923Z",
       "firstSeen": "2026-11-22T04:01:00.007Z",
       "url": "https://newsinfo.inquirer.net/2345139/aurora-bridge-tilts-9-people-fall-into-river",
       "image": {
@@ -253,38 +278,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-xtlp0k",
-      "source": "inqn",
-      "title": "Over 5,000 cops to secure Metro Manila for Nov. 23-24 transport strike",
-      "summary": "MANILA, Philippines — More than 5,000 cops will be deployed across Metro Manila for the transport strike on Nov. 23-24 to ensure commuter safety, the National Capital Region Police Office (NCRPO)…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:09.734Z",
-      "firstSeen": "2026-11-22T04:01:00.013Z",
-      "url": "https://newsinfo.inquirer.net/2345145/over-5000-cops-to-secure-metro-manila-for-nov-23-24-transport-strike",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Members-of-transport-group-Manibela-strike-protest-28September2026_3.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — More than 5,000 cops will be deployed across Metro Manila for the transport strike on Nov. 23-24 to ensure commuter safety, the National Capital Region Police Office (NCRPO) said. Transport group Manibela and its allied groups will stage a strike over a potential change in the leadership of the Land Transportation Office"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1szpw7j",
       "source": "inqn",
       "title": "Tulfo urges gov&#8217;t agencies to accept valid digital IDs in transactions",
       "summary": "MANILA, Philippines — Sen. Erwin Tulfo has filed a bill seeking to require all national government agencies to recognize authenticated digital versions of valid government-issued IDs as sufficient…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:08.372Z",
+      "published": "2026-11-22T08:47:21.153Z",
       "firstSeen": "2026-11-22T05:30:55.974Z",
       "url": "https://newsinfo.inquirer.net/2345196/tulfo-urges-govt-agencies-to-accept-digital-valid-ids-in-transactions",
       "image": {
@@ -303,38 +303,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-19e8org",
-      "source": "inqn",
-      "title": "World&#8217;s largest rodent finds home at wildlife farm in Cavite",
-      "summary": "LUCENA CITY — Capybaras, known as the world’s largest living rodents, can now be seen up close at a wildlife farm in Mendez, Cavite, according to the Department of Environment and Natural Resources…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:08.372Z",
-      "firstSeen": "2026-11-22T04:31:01.682Z",
-      "url": "https://newsinfo.inquirer.net/2345165/worlds-largest-rodent-finds-home-at-wildlife-farm-in-cavite",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Worlds-largest-rodent-finds-home-at-wildlife-farm-in-Cavite.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — Capybaras, known as the world’s largest living rodents, can now be seen up close at a wildlife farm in Mendez, Cavite, according to the Department of Environment and Natural Resources (DENR). “The world&#8217;s largest living rodent can be seen in Cavite! This excellent swimmer and highly sociable animal can be seen up"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-19ki42f",
       "source": "inqn",
       "title": "DA: El Niño affects 12,595 farmers in Ilocos Region, causes P346M losses",
       "summary": "SAN ILDEFONSO, Ilocos Sur — The impact of El Niño has affected 12,595 farmers and damaged about 5,694 hectares of agricultural land in the Ilocos Region, causing an estimated P346.12 million in…",
       "byline": "jbarrion",
       "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:07.952Z",
+      "published": "2026-11-22T08:47:21.150Z",
       "firstSeen": "2026-11-22T05:30:55.915Z",
       "url": "https://newsinfo.inquirer.net/2345193/da-el-nino-affects-12595-farmers-in-ilocos-region-causes-p346-m-losses",
       "image": {
@@ -353,38 +328,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-7vjnnj",
-      "source": "inqg",
-      "title": "Trump defends &#8216;fantastic&#8217; ties with Xi, Putin after summit backlash",
-      "summary": "WASHINGTON — US President Donald Trump on Friday defended his &#8220;momentous&#8221; summit with Xi Jinping and Vladimir Putin as he returned home from China to face bitter criticism and turmoil…",
-      "byline": "evalderrama",
-      "section": "Americas",
-      "published": "2026-11-22T08:31:06.157Z",
-      "firstSeen": "2026-11-22T01:30:58.438Z",
-      "url": "https://globalnation.inquirer.net/349467/trump-defends-fantastic-ties-with-xi-putin-after-summit-backlash",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261120__D87A4YR__v2__HighRes__UsPoliticsTrump.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "WASHINGTON — US President Donald Trump on Friday defended his &#8220;momentous&#8221; summit with Xi Jinping and Vladimir Putin as he returned home from China to face bitter criticism and turmoil after the midterm elections. Speaking at a news conference in the White House the day after flying back, Trump said his &#8220;fantastic relationships&#8221; with the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-ffd47o",
       "source": "inqn",
       "title": "Ombudsman affirms preventive suspension order vs Dalaguete mayor",
       "summary": "MANILA, Philippines — The Office of the Ombudsman has affirmed its decision to impose a six-month preventive suspension without pay on Dalaguete, Cebu Mayor Ronald Allan Cesante and five municipal…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:04.364Z",
+      "published": "2026-11-22T08:47:19.357Z",
       "firstSeen": "2026-11-22T06:01:02.146Z",
       "url": "https://newsinfo.inquirer.net/2345202/ombudsman-affirms-preventive-suspension-order-vs-dalaguete-mayor",
       "image": {
@@ -403,23 +353,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1hcm2rj",
+      "id": "inqg-7vjnnj",
       "source": "inqg",
-      "title": "Scores dead in Nigeria as boat carrying people to a funeral capsizes",
-      "summary": "ABUJA, Nigeria — A boat carrying people to a funeral has capsized in southern Nigeria, killing at least 24 people, emergency services said on Saturday. The boat was taking passengers from one…",
+      "title": "Trump defends &#8216;fantastic&#8217; ties with Xi, Putin after summit backlash",
+      "summary": "WASHINGTON — US President Donald Trump on Friday defended his &#8220;momentous&#8221; summit with Xi Jinping and Vladimir Putin as he returned home from China to face bitter criticism and turmoil…",
       "byline": "evalderrama",
-      "section": "Africa",
-      "published": "2026-11-22T08:31:01.221Z",
-      "firstSeen": "2026-11-22T03:31:03.197Z",
-      "url": "https://globalnation.inquirer.net/349472/scores-dead-in-nigeria-as-boat-carrying-people-to-a-funeral-capsizes",
+      "section": "Americas",
+      "published": "2026-11-22T08:47:17.611Z",
+      "firstSeen": "2026-11-22T01:30:58.438Z",
+      "url": "https://globalnation.inquirer.net/349467/trump-defends-fantastic-ties-with-xi-putin-after-summit-backlash",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AP26325766410570-scaled.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/AFP__20261120__D87A4YR__v2__HighRes__UsPoliticsTrump.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "ABUJA, Nigeria — A boat carrying people to a funeral has capsized in southern Nigeria, killing at least 24 people, emergency services said on Saturday. The boat was taking passengers from one community to another for a burial ceremony when it sank on Friday in Bayelsa State in the country’s South South region, Nigeria’s National"
+          "text": "WASHINGTON — US President Donald Trump on Friday defended his &#8220;momentous&#8221; summit with Xi Jinping and Vladimir Putin as he returned home from China to face bitter criticism and turmoil after the midterm elections. Speaking at a news conference in the White House the day after flying back, Trump said his &#8220;fantastic relationships&#8221; with the"
         }
       ],
       "truncated": true,
@@ -434,7 +384,7 @@
       "summary": "MANILA, Philippines — Philippine National Police (PNP) chief Gen. Jose Melencio Nartatez Jr. stressed that police must remain impartial and uphold due process in all operations after Vice President…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:01.047Z",
+      "published": "2026-11-22T08:47:16.311Z",
       "firstSeen": "2026-11-22T06:01:02.072Z",
       "url": "https://newsinfo.inquirer.net/2345210/pnp-chief-vows-impartiality-after-sara-dutertes-criticism",
       "image": {
@@ -453,13 +403,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-1hcm2rj",
+      "source": "inqg",
+      "title": "Scores dead in Nigeria as boat carrying people to a funeral capsizes",
+      "summary": "ABUJA, Nigeria — A boat carrying people to a funeral has capsized in southern Nigeria, killing at least 24 people, emergency services said on Saturday. The boat was taking passengers from one…",
+      "byline": "evalderrama",
+      "section": "Africa",
+      "published": "2026-11-22T08:47:13.926Z",
+      "firstSeen": "2026-11-22T03:31:03.197Z",
+      "url": "https://globalnation.inquirer.net/349472/scores-dead-in-nigeria-as-boat-carrying-people-to-a-funeral-capsizes",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/AP26325766410570-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ABUJA, Nigeria — A boat carrying people to a funeral has capsized in southern Nigeria, killing at least 24 people, emergency services said on Saturday. The boat was taking passengers from one community to another for a burial ceremony when it sank on Friday in Bayelsa State in the country’s South South region, Nigeria’s National"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-198e2b5",
       "source": "inqn",
       "title": "Health advocates push funding for smoke-free, vape-free bill",
       "summary": "MANILA, Philippines — Health advocates have urged lawmakers to retain the funding provision in a proposed measure seeking smoke-free and vape-free environments, warning that inadequate enforcement…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:00.773Z",
+      "published": "2026-11-22T08:47:13.925Z",
       "firstSeen": "2026-11-22T06:30:56.359Z",
       "url": "https://newsinfo.inquirer.net/2345227/health-advocates-push-funding-for-smoke-free-vape-free-bill",
       "image": {
@@ -478,13 +453,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1agqkxe",
+      "source": "inqn",
+      "title": "Eastern Visayas youth groups warn Pax Silica may spur exploitation",
+      "summary": "TACLOBAN CITY — Youth groups across Eastern Visayas have strongly opposed the proposed Pax Silica initiative, warning that it could pave the way for the exploitation of the region’s mineral resources…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-11-22T08:47:13.922Z",
+      "firstSeen": "2026-11-22T06:30:56.309Z",
+      "url": "https://newsinfo.inquirer.net/2345220/eastern-visayas-youth-groups-warn-pax-silica-may-spur-exploitation",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/EASTERN-VISAYAS-MAP-09082022.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TACLOBAN CITY — Youth groups across Eastern Visayas have strongly opposed the proposed Pax Silica initiative, warning that it could pave the way for the exploitation of the region’s mineral resources and intensify foreign military presence in their communities. In a joint statement on Nov. 21, the groups accused the Marcos administration of prioritizing US"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+    },
+    {
       "id": "inqg-t0xpu7",
       "source": "inqg",
       "title": "ICC prosecution opposes Duterte defense bid over alleged rule violations",
       "summary": "MANILA, Philippines — The prosecution has asked a trial chamber of the International Criminal Court (ICC) to dismiss a request filed by the defense team of former President Rodrigo Duterte on a…",
       "byline": "evalderrama",
       "section": "Europe",
-      "published": "2026-11-22T08:31:00.773Z",
+      "published": "2026-11-22T08:47:13.922Z",
       "firstSeen": "2026-11-22T04:00:59.897Z",
       "url": "https://globalnation.inquirer.net/349475/icc-prosecution-opposes-duterte-defense-bid-over-alleged-rule-violations",
       "image": {
@@ -503,38 +503,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1agqkxe",
-      "source": "inqn",
-      "title": "Eastern Visayas youth groups warn Pax Silica may spur exploitation",
-      "summary": "TACLOBAN CITY — Youth groups across Eastern Visayas have strongly opposed the proposed Pax Silica initiative, warning that it could pave the way for the exploitation of the region’s mineral resources…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-11-22T08:31:00.735Z",
-      "firstSeen": "2026-11-22T06:30:56.309Z",
-      "url": "https://newsinfo.inquirer.net/2345220/eastern-visayas-youth-groups-warn-pax-silica-may-spur-exploitation",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/EASTERN-VISAYAS-MAP-09082022.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TACLOBAN CITY — Youth groups across Eastern Visayas have strongly opposed the proposed Pax Silica initiative, warning that it could pave the way for the exploitation of the region’s mineral resources and intensify foreign military presence in their communities. In a joint statement on Nov. 21, the groups accused the Marcos administration of prioritizing US"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "inqg-17zo4lo",
       "source": "inqg",
       "title": "Recto: PH to host Asean centers for creative, maritime industries",
       "summary": "MANILA, Philippines — The Philippines will host two new Association of Southeast Asian Nations (Asean) centers focused on creative industries and maritime cooperation. Executive Secretary Ralph Recto…",
       "byline": "mmercado",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-22T08:31:00.735Z",
+      "published": "2026-11-22T08:47:13.921Z",
       "firstSeen": "2026-11-22T05:00:56.431Z",
       "url": "https://globalnation.inquirer.net/349480/recto-ph-to-host-asean-centers-for-creative-maritime-industries",
       "image": {
@@ -551,6 +526,245 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-hbgqs1",
+      "source": "inqn",
+      "title": "Ombudsman: Romualdez&#8217;s case can be finished in a year",
+      "summary": "MANILA, Philippines — Ombudsman Jesus Crispin Remulla has expressed confidence that the plunder case of former House Speaker Martin Romualdez can be completed in a year as he emphasized that there…",
+      "byline": "mesarangay",
+      "section": "Latest News Stories",
+      "published": "2026-11-22T08:47:13.921Z",
+      "firstSeen": "2026-11-22T08:47:13.921Z",
+      "url": "https://newsinfo.inquirer.net/2345242/ombudsman-romualdezs-case-can-be-finished-in-a-year",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Jesus-Crispin-Boying-Remulla-13october2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Ombudsman Jesus Crispin Remulla has expressed confidence that the plunder case of former House Speaker Martin Romualdez can be completed in a year as he emphasized that there will not be delaying tactics in resting their cases. Last September, the Ombudsman filed a plunder case against Romualdez and two other co-accused before"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-s09qf",
+      "source": "inqn",
+      "title": "Taal Volcano&#8217;s gas emissions rise as earthquakes decline",
+      "summary": "LUCENA CITY — Sulfur dioxide emissions from Taal Volcano in Batangas province have increased significantly, the Philippine Institute of Volcanology and Seismology (Phivolcs) reported Sunday, Nov. 22.…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-11-22T08:41:24.000Z",
+      "firstSeen": "2026-11-22T01:00:59.063Z",
+      "url": "https://newsinfo.inquirer.net/2345091/taal-volcanos-gas-emissions-rise-as-earthquakes-decline",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/04/taal-volcano-11April2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LUCENA CITY — Sulfur dioxide emissions from Taal Volcano in Batangas province have increased significantly, the Philippine Institute of Volcanology and Seismology (Phivolcs) reported Sunday, Nov. 22. In its latest 24-hour monitoring, Phivolcs recorded 567 metric tons (MT) of sulfur dioxide emissions from the volcano, which it classified as a “weak emission.” The figure marked"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "dw-r989h4",
+      "source": "dw",
+      "title": "Inspired by Bernie Sanders: A German agency is using US-Style campaigning to boost the left in 2029",
+      "summary": "\"The Goodforces\" wants to see a swing to the left in the 2029 German elections. The agency counts New York Mayor Zohran Mamdani and Bernie Sanders among its inspirations. Could it transform the…",
+      "byline": "Julie Gregson",
+      "section": "",
+      "published": "2026-11-22T08:39:00.000Z",
+      "firstSeen": "2026-11-22T08:47:13.921Z",
+      "url": "https://www.dw.com/en/inspired-by-bernie-sanders-a-german-agency-is-using-us-style-campaigning-to-boost-the-left-in-2029/a-80001443?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/80002450_6.jpg",
+        "caption": "The Goodforces provides digital space for progressive political campaigns on social mediaImage: Neunund20/the Goodforces"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Red, red, green — those are the party colors of the left-leaning coalition recently formed in the German state of Mecklenburg-Western Pomerania. Now a Berlin-based agency wants to see the same alliance between the center-left Social Democrats, the socialist Left Party, and environmentalist Greens win the 2029 national elections."
+        },
+        {
+          "type": "p",
+          "text": "The Goodforces wants to help make that a reality with their campaign neunund20 (twenty-nine), taking its cue, in part, from the American left. The agency was set up in response to the rise of the far right across Europe."
+        },
+        {
+          "type": "p",
+          "text": "Co-founder Patrick Haermeyer told DW that the campaign's aim is \"to give people hope and an alternative narrative to: Things are getting worse and worse.\" He worked as an online organizer for the election team of Bernie Sanders in the US Democratic presidential primaries in 2016 and cites Sanders' \"not me, us\" campaign as an inspiration."
+        },
+        {
+          "type": "image",
+          "src": "https://static.dw.com/image/80003330_$%7BformatId%7D.jpg",
+          "caption": "Patrick Haermeyer got his inspiration from working with the campaign of US Senator Bernie SandersImage: Karol Roller"
+        },
+        {
+          "type": "h",
+          "text": "Content creation, sharing, networking, campaigning"
+        },
+        {
+          "type": "p",
+          "text": "Neunund20 currently has two strategies: It provides digital space for short-form videos and social media content on political and social topics on Instagram, Tiktok, and Bluesky. At the same time, it tries to connect content creators, activists, NGOs, and political initiatives around shared \"progressive\" issues."
+        },
+        {
+          "type": "p",
+          "text": "Users with a particular interest can click to get a link giving them access to archives of relevant social media material that they can then reshare. That feature is modelled on the campaign of New York's left-wing mayor Zohran Mamdani."
+        },
+        {
+          "type": "p",
+          "text": "And there are other projects. The Goodforces was recently involved in a tactical voting initiative in the September elections in the state of Saxony-Anhalt, intended to keep the far-right Alternative for Germany (AfD) from winning an absolute majority. Haermeyer says physical campaigns of that kind are necessary to provide essential \"interim victories\" en route to the next parliamentary elections."
+        },
+        {
+          "type": "p",
+          "text": "The Greens and the SPD, the two parties recommended by the app created by the organization, made it over the 5% hurdle and into parliament. The help that they received was declared by each party in the form of a €40,000 ($43,900) donation."
+        },
+        {
+          "type": "h",
+          "text": "Germany's public broadcasters under fire from far-right AfD"
+        },
+        {
+          "type": "h",
+          "text": "Super PAC-style campaigning is new in Germany"
+        },
+        {
+          "type": "p",
+          "text": "The agency sees itself as a kind of Super PAC, modeled on political organizations in the United States that collect money to carry out campaigns without directly supporting a single party or a special candidate."
+        },
+        {
+          "type": "p",
+          "text": "For Christoph Bieber, political scientist at the University of Duisburg-Essen, the Goodforces is an interesting new type of player on Germany's political scene because it operates outside the country's political parties."
+        },
+        {
+          "type": "p",
+          "text": "But many of those parties are eyeing the development with disquiet. The far-left, populist, immigration skeptical Alliance for Social Justice and Economic Reason (BSW) criticized the Goodforces' intervention in Saxony-Anhalt, telling the newspaper FAZ that it was an \"infantilizing, and perhaps even antidemocratic action.\" The neoliberal Free Democrats (FDP) called the tool \"wrong and intentionally misleading.\" The FDP failed to clear the threshold, while the BSW only just squeaked in. The AfD gained 43% of the vote and its candidate may soon become Germany's first far-right state premier since the Nazi era."
+        },
+        {
+          "type": "h",
+          "text": "What's behind the rising polarization in German politics?"
+        },
+        {
+          "type": "p",
+          "text": "Haermeyer set up the agency in 2024 along with Peter Jelinek, and both men previously worked for Green Party European Parliament member Michael Bloss. Ahead of that year's European elections, the EU's Green Deal began to come under increasing attack."
+        },
+        {
+          "type": "p",
+          "text": "That year also ended with the collapse of Germany's first federal coalition between the SPD, Greens, and FDP, after much infighting and attacks from right-wing quarters."
+        },
+        {
+          "type": "p",
+          "text": "\"We noticed that more and more successes and freedoms that we had fought for were being reversed: Things like freedom of movement, border checks, and other things that were coming more and more under fire,\" Haermeyer told DW. \"And we noticed that it was primarily democratic and progressive forces that were being drawn into defensive battles.\""
+        },
+        {
+          "type": "h",
+          "text": "Stemming the rise of far-right AfD with digital know-how"
+        },
+        {
+          "type": "p",
+          "text": "The AfD, founded in 2013, already in the age of social media, has successfully targeted younger voters with in its online campaigns. But the older parties, in particular, have struggled. The Goodforces saw a need for support in the online environment and is now seeking to plug this gap."
+        },
+        {
+          "type": "p",
+          "text": "The social media accounts of the campaign neunund20 contain posts on domestic German topics, such as the current negotiations to form a red-red-green coalition government in Berlin, and the country's new military service law. They also highlight \"wins\" in Spain in the protests for affordable housing and for US Democrats in the midterms."
+        },
+        {
+          "type": "p",
+          "text": "Haermeyer stresses that the issues the agency highlights are determined together with a wide range of grassroots organizations and activists. \"The campaign is not agreed in conjunction with the SPD, the Left Party, and the Greens,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "Agency funding comes from commissions and small donations. Haermeyer says that contributions generally range from $20 to $50."
+        },
+        {
+          "type": "h",
+          "text": "Why Germany's political center is losing ground"
+        },
+        {
+          "type": "h",
+          "text": "Big-tent parties in Germany in decline for decades"
+        },
+        {
+          "type": "p",
+          "text": "Bieber sees the emergence of non-party campaigning, long an accepted practice in the US, as a bid to compensate for the shortcomings of traditional parties."
+        },
+        {
+          "type": "p",
+          "text": "\"It is an omission of the parties,\" he said. \"For years they have been saying we have to modernize, we have to become more open and get away from rigid membership structures. There are legal regulations governing the organization of political parties in Germany, but perhaps it could be more flexible and open.\""
+        },
+        {
+          "type": "p",
+          "text": "The center-left and center-right big-tent parties have been in decline for decades. Membership of the SPD dropped from 943,000 in 1990 to some 348,000 at the end of 2025. Chancellor Friedrich Merz's Christian Democratic Union (CDU) has seen a fall from 750,000 to under 357,000."
+        },
+        {
+          "type": "p",
+          "text": "Party membership is particularly low in former communist eastern Germany. Centrist parties have also struggled to attract younger voters. A report by the Deutsche Kinder und Jugendstiftung (German Children and Youth Foundation) showed that only 20% of young people felt their concerns were taken seriously in the 2025 German elections and that trust in parties was low."
+        },
+        {
+          "type": "p",
+          "text": "In the United States, campaign financing comes predominantly from donations, and lobby groups can buy influence by contributing unlimited amounts to super PACs. In Germany, party funding comes, in part, from taxpayers and membership fees, and donations are capped. However, Bieber warns that whereas there are strict rules regarding the disclosure of donors to US Super PACs, these do not exist in Germany."
+        },
+        {
+          "type": "p",
+          "text": "The political scientist does not believe that US-style campaigning is going to take hold in Germany, but he does see potential dangers: \"This could be a door opener to make others consider whether they want to go in this direction in the field of campaigning. And he added: \"If it becomes rife, it could lead to a further devaluation of parties and their structures.\""
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-16vqn73",
+      "source": "abs",
+      "title": "‘Ramdam na namin’ — Bulacan farmers worry over Super El Niño impact",
+      "summary": "Farmers in Pulilan, Bulacan are growing concerned over dwindling water supply in their rice fields as the country braces for the expected peak of the Super El Niño phenomenon in the coming months.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-22T08:33:31.000Z",
+      "firstSeen": "2026-11-22T08:47:13.921Z",
+      "url": "https://www.abs-cbn.com/news/regions/2026/11/22/-ramdam-na-namin-bulacan-farmers-worry-over-super-el-ni-o-impact-1633",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Farmers in Pulilan, Bulacan are growing concerned over dwindling water supply in their rice fields as the country braces for the expected peak of the Super El Niño phenomenon in the coming months."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-1hj6r5m",
+      "source": "abs",
+      "title": "Closed-door sessions, pseudonyms to protect witnesses at ICC trial — lawyer",
+      "summary": "Holding closed-door sessions and using pseudonyms will prevent danger and social exclusion of witnesses who will testify during former President Rodrigo Duterte’s trial at the International Criminal…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-22T08:30:21.000Z",
+      "firstSeen": "2026-11-22T08:47:13.922Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/22/closed-door-sessions-pseudonyms-to-protect-witnesses-at-icc-trial-lawyer-1630",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Holding closed-door sessions and using pseudonyms will prevent danger and social exclusion of witnesses who will testify during former President Rodrigo Duterte’s trial at the International Criminal Court, a lawyer said on Sunday."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "inqn-1otqbjg",
@@ -570,6 +784,31 @@
         {
           "type": "p",
           "text": "MANILA, Philippines — The shear line, northeast monsoon, easterlies and intertropical convergence zone (ITCZ) will bring rains and thunderstorms over parts of the country on Sunday, the state weather bureau said. In its 4 a.m. weather forecast, the Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa) said the shear line will affect the eastern sections"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1s3a4hx",
+      "source": "inq",
+      "title": "Trans-Central Highway: Crackdown on reckless motoring",
+      "summary": "CEBU CITY, Philippines — Authorities are intensifying traffic enforcement along the Trans-Central Highway following reports of motorcycle riders allegedly engaging in illegal racing, excessive…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-22T08:27:47.000Z",
+      "firstSeen": "2026-11-22T08:47:13.921Z",
+      "url": "https://cebudailynews.inquirer.net/787309/trans-central-highway-crackdown-on-reckless-motoring",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/11/photo-output-21-620x349.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CEBU CITY, Philippines — Authorities are intensifying traffic enforcement along the Trans-Central Highway following reports of motorcycle riders allegedly engaging in illegal racing, excessive speeding and other reckless driving activities on the mountain road. The enforcement action followed the circulation of online videos showing motorcycle riders allegedly racing and engaging in other dangerous driving activities along the highway. READ: Transcentral Highway motorbike collision kills Balamban rider 22 motorists issued TOPs The Balamban Municipal Police Station issued Temporary Operator’s Permits (TOPs) to 22 motorists during an enforcement operation conducted last Saturday evening, November 21, for various traffic violations, the Cebu Police Provincial [&hellip;]... Keep on reading: Trans-Central Highway: Crackdown on reckless motoring"
         }
       ],
       "truncated": true,
@@ -600,7 +839,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-cunvln",
@@ -667,6 +906,31 @@
         {
           "type": "p",
           "text": "MANILA, Philippines–Bennie Boatwright has joined Gilas Pilipinas’ preparation for the fifth window of the Fiba World Cup Asian Qualifiers in Seremban, Malaysia. A group photo posted by utiltyman Junjun Atienza on his Facebook page, Ginebra Boy’s Ball-Baller’s, showed Boatwright standing in the middle following Sunday’s morning practice. Coach Tim Cone said Boatwright arrived past midnight from China and took part in first practice session. READ: Bennie Boatwright will have some cramming to do with Gilas in Malaysia Gilas is also scheduled to hold another practice in the afternoon as part of its twice-a-day schedule. The fifth window will be Boatwright’s first [&hellip;]... Keep on reading: Bennie Boatwright joins Gilas Pilipinas' build up in Malaysia"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inq-3ejxy7",
+      "source": "inq",
+      "title": "Ombudsman: Romualdez's case can be finished in a year",
+      "summary": "MANILA, Philippines — Ombudsman Jesus Crispin Remulla has expressed confidence that the plunder case of former House Speaker Martin Romualdez can be completed in a year as he emphasized that there…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-22T08:11:14.000Z",
+      "firstSeen": "2026-11-22T08:47:19.353Z",
+      "url": "https://newsinfo.inquirer.net/2345242/ombudsman-romualdezs-case-can-be-finished-in-a-year",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Jesus-Crispin-Boying-Remulla-13october2026-620x382.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Ombudsman Jesus Crispin Remulla has expressed confidence that the plunder case of former House Speaker Martin Romualdez can be completed in a year as he emphasized that there will not be delaying tactics in resting their cases. Last September, the Ombudsman filed a plunder case against Romualdez and two other co-accused before the Sandiganbayan over alleged kickbacks worth at least P7.44 billion. Romualdez is currently detained at the Bureau of Jail Management and Penology Jail Male Dormitory in Quezon City. “Within a one year period, pwedeng tapusin namin ang case namin. Kasi umaabot nga ng 15 years sa [&hellip;]... Keep on reading: Ombudsman: Romualdez's case can be finished in a year"
         }
       ],
       "truncated": true,
@@ -2418,7 +2682,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "bbc-kv1qua",
@@ -3379,31 +3643,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inqn-xt02c7",
-      "source": "inqn",
-      "title": "Agri losses due to El Niño up further past P10 billion",
-      "summary": "The El Niño phenomenon continues to drain the country’s agriculture sector, with losses inching up further past the P10-billion level, according to the Department of Agriculture (DA). In its bulletin…",
-      "byline": "jvicente",
-      "section": "Headlines",
-      "published": "2026-11-22T05:22:00.000Z",
-      "firstSeen": "2026-11-22T08:31:10.271Z",
-      "url": "https://newsinfo.inquirer.net/2345027/agri-losses-due-to-el-nino-up-further-past-p10-billion",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/HILONGOS-e1794416389744.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The El Niño phenomenon continues to drain the country’s agriculture sector, with losses inching up further past the P10-billion level, according to the Department of Agriculture (DA). In its bulletin on Friday evening, the DA said the farm sector incurred P10.44 billion in damage, 4.5 percent higher than the P9.99 billion reported by the agency"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "grd-z4bdxv",
       "source": "grd",
       "title": "Police say man whose body lay undiscovered in Sydney bushland for 12 days was killed in suspected hit-and-run",
@@ -3575,56 +3814,6 @@
         {
           "type": "p",
           "text": "MANILA, Philippines — The Office of the Ombudsman has affirmed its decision to impose a six-month preventive suspension without pay on Dalaguete, Cebu Mayor Ronald Allan Cesante and five municipal officials over alleged irregularities in the construction of a municipal warehouse. In a statement on Sunday, the Ombudsman said it had dismissed the motion for reconsideration filed by Cesante and the five other respondents against its Aug. 29, 2025, decision ordering their preventive suspension. READ: Romualdez co-accused surrenders to NBI, says Ombudsman “A perusal of the Motion would show that it does not present any newly discovered evidence nor does it [&hellip;]... Keep on reading: Ombudsman affirms preventive suspension order vs Dalaguete mayor"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-d6tdi7",
-      "source": "inq",
-      "title": "NBA: Kyrie Irving, Cooper Flagg help Mavericks top Clippers",
-      "summary": "DALLAS — Kyrie Irving scored 25 points and Cooper Flagg had 22 points, eight rebounds and six assists as the Dallas Mavericks used a late 11-0 run to beat the Los Angeles Clippers 110-100 on Saturday…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-22T05:09:22.000Z",
-      "firstSeen": "2026-11-22T05:30:55.974Z",
-      "url": "https://sports.inquirer.net/708131/nba-kyrie-irving-cooper-flagg-help-mavericks-top-clippers",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/AP26326128186522-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "DALLAS — Kyrie Irving scored 25 points and Cooper Flagg had 22 points, eight rebounds and six assists as the Dallas Mavericks used a late 11-0 run to beat the Los Angeles Clippers 110-100 on Saturday night. Walter Clayton Jr. added 16 points and Max Christie finished with 13, both off the bench, as Dallas (9-7) began a back-to-back with a second consecutive win at home following an 0-3 trip. Brook Lopez scored 17 of his 21 points in the second half to lead the Clippers (4-11), who have dropped three straight overall and are 0-7 on the road. Rui Hachimura [&hellip;]... Keep on reading: NBA: Kyrie Irving, Cooper Flagg help Mavericks top Clippers"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-180pw7t",
-      "source": "inq",
-      "title": "DA: El Niño affects 12,595 farmers in Ilocos Region, causes P346M losses",
-      "summary": "SAN ILDEFONSO, Ilocos Sur — The impact of El Niño has affected 12,595 farmers and damaged about 5,694 hectares of agricultural land in the Ilocos Region, causing an estimated P346.12 million in…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-22T05:09:14.000Z",
-      "firstSeen": "2026-11-22T05:30:55.988Z",
-      "url": "https://newsinfo.inquirer.net/2345193/da-el-nino-affects-12595-farmers-in-ilocos-region-causes-p346-m-losses",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/DA-El-Nino-affects-12595-farmers-in-Ilocos-Region-causes-P346-M-losses--620x279.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "SAN ILDEFONSO, Ilocos Sur — The impact of El Niño has affected 12,595 farmers and damaged about 5,694 hectares of agricultural land in the Ilocos Region, causing an estimated P346.12 million in agricultural losses, according to the Department of Agriculture (DA). The DA Disaster Risk Reduction and Management Operations Center (DA-DRRM OpCen) reported these figures in its latest monitoring update on the weather phenomenon&#8217;s effects in the region on Friday, Nov. 20. READ: Agri losses due to El Niño up further past P10 billion The Department of Science and Technology–Philippine Atmospheric, Geophysical and Astronomical Services Administration (DOST-Pagasa) said very strong El [&hellip;]... Keep on reading: DA: El Niño affects 12,595 farmers in Ilocos Region, causes P346M losses"
         }
       ],
       "truncated": true,
@@ -13746,6 +13935,28 @@
       "source_of_text": "page"
     },
     {
+      "id": "abs-19rrbgh",
+      "source": "abs",
+      "title": "NYC mayor Mamdani suffers Achilles injury playing soccer",
+      "summary": "New York City Mayor Zohran Mamdani appeared on crutches on Friday (November 20) after tearing his Achilles tendon in a soccer match the night before.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-21T08:06:52.000Z",
+      "firstSeen": "2026-11-22T08:47:14.434Z",
+      "url": "https://www.abs-cbn.com/news/world/2026/11/21/nyc-mayor-mamdani-suffers-achilles-injury-playing-soccer-1606",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "New York City Mayor Zohran Mamdani appeared on crutches on Friday (November 20) after tearing his Achilles tendon in a soccer match the night before."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
       "id": "abs-1x9o9s0",
       "source": "abs",
       "title": "Apl.de.Ap on why he keeps coming back to PH: ‘I wanna go back where I grew up’",
@@ -15668,197 +15879,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "dw-2j30ju",
-      "source": "dw",
-      "title": "US judge approves Bayer's $7.25 billion cancer settlement",
-      "summary": "Bayer could end years of costly lawsuits in the US over claims that its Roundup weedkiller causes cancer. Tens of thousands of people could now receive compensation, although some lawyers say the…",
-      "byline": "Patrick Große",
-      "section": "",
-      "published": "2026-11-21T00:03:00.000Z",
-      "firstSeen": "2026-11-21T00:30:58.183Z",
-      "url": "https://www.dw.com/en/us-judge-approves-bayer-s-7-25-billion-cancer-settlement/a-80007474?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/75196568_6.jpg",
-        "caption": "Roundup contains glyphosate, a weedkiller ingredient at the center of thousands of cancer-related lawsuits against Bayer [FILE: February 23, 2019]Image: Haven Daley/AP Photo/dpa/picture alliance"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "A US judge on Friday approved German chemical giant Bayer's $7.25 billion (€6.60 billion) settlement of lawsuits claiming its Roundup weedkiller causes cancer."
-        },
-        {
-          "type": "p",
-          "text": "Judge Timothy Boyer in the US state of Missouri ruled that the agreement was \"fair, reasonable, and adequate.\""
-        },
-        {
-          "type": "p",
-          "text": "The decision could help Bayer end years of costly legal battles over Roundup, which the company acquired when it bought US weedkiller producer Monsanto in 2018."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/64652885_$%7BformatId%7D.jpg",
-          "caption": "Bayer CEO Bill Anderson welcomed the court's approval as a major step toward ending years of Roundup-related lawsuits [FILE: January 31, 2019]Image: Georgios Kefalas//KEYSTONE/picture alliance"
-        },
-        {
-          "type": "p",
-          "text": "\"The court's final approval is a decisive milestone in the company's strategy to mitigate the risks of both pending and future Roundup litigation,\" Bayer CEO Bill Anderson said."
-        },
-        {
-          "type": "p",
-          "text": "The ruling could still be appealed."
-        },
-        {
-          "type": "h",
-          "text": "How much money will Roundup cancer patients receive?"
-        },
-        {
-          "type": "p",
-          "text": "The agreement covers tens of thousands of people who say they developed non-Hodgkin lymphoma, a type of blood cancer, after using Roundup."
-        },
-        {
-          "type": "p",
-          "text": "It also covers people who may be diagnosed with the disease in the future after previous exposure to the weedkiller."
-        },
-        {
-          "type": "p",
-          "text": "Bayer will pay up to $7.25 billion into a special fund over the next 21 years."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/68035102_$%7BformatId%7D.jpg",
-          "caption": "German pharmaceutical and chemical company Bayer is headquartered in Leverkusen, western Germany [FILE: August 30, 2023]Image: Christoph Hardt/Panama Pictures/IMAGO"
-        },
-        {
-          "type": "p",
-          "text": "Individual payments are expected to average between $10,000 and $165,000. The amount will depend on factors including the patient's age, the severity of the illness and how long they were exposed to Roundup."
-        },
-        {
-          "type": "p",
-          "text": "Some lawyers representing cancer patients have criticized the payments as too low."
-        },
-        {
-          "type": "p",
-          "text": "But the judge rejected their objections, saying that further delays could leave seriously ill patients waiting years for compensation."
-        },
-        {
-          "type": "p",
-          "text": "Christopher Seeger, a lawyer representing cancer patients, welcomed the decision."
-        },
-        {
-          "type": "p",
-          "text": "\"Today's final approval order delivers guaranteed compensation to Roundup cancer victims who have waited more than a decade for justice,\" he said."
-        },
-        {
-          "type": "h",
-          "text": "Why has it become harder to sue Bayer over Roundup?"
-        },
-        {
-          "type": "p",
-          "text": "The settlement follows a major victory for Bayer at the US Supreme Court in June."
-        },
-        {
-          "type": "p",
-          "text": "The court ruled that Bayer could not be sued under state laws for failing to put cancer warnings on Roundup packaging."
-        },
-        {
-          "type": "p",
-          "text": "The judges argued that US federal rules did not require such warnings and that individual states could not impose additional labeling requirements."
-        },
-        {
-          "type": "p",
-          "text": "The decision made it much harder for cancer patients to win lawsuits against Bayer."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/77713292_$%7BformatId%7D.jpg",
-          "caption": "US Senator Cory Booker joins a protest against glyphosate outside the US Supreme Court in April [FILE: April 27, 2026]Image: Sue Dorfman/ZUMA/IMAGO"
-        },
-        {
-          "type": "p",
-          "text": "In October, a Missouri jury also ruled in Bayer's favor in a separate Roundup cancer case."
-        },
-        {
-          "type": "p",
-          "text": "However, some legal battles continue. Around 200 cases are still being fought in federal courts outside the new settlement, according to Bayer."
-        },
-        {
-          "type": "h",
-          "text": "How much have the Roundup lawsuits cost Bayer?"
-        },
-        {
-          "type": "p",
-          "text": "Monsanto introduced Roundup in 1974. Its main ingredient, glyphosate, became one of the world's most widely used weedkillers."
-        },
-        {
-          "type": "p",
-          "text": "Farmers use Roundup to kill weeds without damaging crops that have been genetically modified to survive the chemical. It has also been widely used in private gardens and on lawns."
-        },
-        {
-          "type": "h",
-          "text": "Missouri decision could reshape Bayer's glyphosate fight"
-        },
-        {
-          "type": "p",
-          "text": "Bayer inherited the legal problems surrounding Roundup when it bought Monsanto for $63 billion in 2018."
-        },
-        {
-          "type": "p",
-          "text": "Since then, around 200,000 claims have been made against Bayer by people who believe the weedkiller caused their cancer."
-        },
-        {
-          "type": "p",
-          "text": "The company already agreed to a $10.9 billion settlement in 2020. However, it failed to secure approval for a separate agreement covering future cases."
-        },
-        {
-          "type": "p",
-          "text": "Some lawsuits have resulted in huge payouts, including a $2.1 billion award to plaintiffs in Georgia."
-        },
-        {
-          "type": "p",
-          "text": "Bayer has already set aside $16 billion for Roundup-related legal costs. Its shares have fallen by 46% since the Monsanto takeover."
-        },
-        {
-          "type": "p",
-          "text": "The company has also removed glyphosate from newer versions of Roundup sold to private consumers in the United States."
-        },
-        {
-          "type": "h",
-          "text": "Does Roundup really cause cancer?"
-        },
-        {
-          "type": "p",
-          "text": "Scientists and regulators disagree about whether glyphosate causes cancer."
-        },
-        {
-          "type": "p",
-          "text": "In 2015, the World Health Organization's cancer research agency classified the chemical as \"probably carcinogenic\" to humans."
-        },
-        {
-          "type": "p",
-          "text": "However, the US Environmental Protection Agency says glyphosate is unlikely to cause cancer when used as directed."
-        },
-        {
-          "type": "p",
-          "text": "Bayer has repeatedly denied that Roundup causes cancer, pointing to scientific studies and regulatory approvals."
-        },
-        {
-          "type": "p",
-          "text": "The debate intensified last year when a major scientific study that had supported Roundup's safety for decades was withdrawn."
-        },
-        {
-          "type": "p",
-          "text": "The journal that published it cited serious problems, including missing cancer research and previously undisclosed involvement by Monsanto employees."
-        },
-        {
-          "type": "p",
-          "text": "The withdrawal raised further questions about the influence of chemical companies on scientific research."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-hl1jjl",
       "source": "bbc",
       "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
@@ -17617,28 +17637,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-1krdd6q",
-      "source": "abs",
-      "title": "Who were the defense witnesses on Day 45 of the impeachment trial?",
-      "summary": "Some individuals from the prosecution’s side have questioned the relevance of defense witnesses and their testimonies in the impeachment trial against Vice President Sara Duterte.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-20T17:22:47.000Z",
-      "firstSeen": "2026-11-21T18:00:58.970Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/21/who-were-the-defense-witnesses-on-day-45-of-the-impeachment-trial-0122",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Some individuals from the prosecution’s side have questioned the relevance of defense witnesses and their testimonies in the impeachment trial against Vice President Sara Duterte."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "dw-jfibwv",
       "source": "dw",
       "title": "Better educated than ever – yet Germany's Gen Z is being shut out of its own future",
@@ -17787,28 +17785,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-9aykgc",
-      "source": "abs",
-      "title": "Former PBA star PJ Simon passes away",
-      "summary": "PJ Simon, an eight-time PBA Champion, has passed away.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-20T16:38:39.000Z",
-      "firstSeen": "2026-11-21T17:30:58.902Z",
-      "url": "https://www.abs-cbn.com/sports/basketball/2026/11/21/former-pba-star-pj-simon-passes-away-0038",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PJ Simon, an eight-time PBA Champion, has passed away."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "bbc-1mc0o0q",
@@ -18602,142 +18578,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-cwiz2h",
-      "source": "cbc",
-      "title": "Sunrise on the Reaping may be a prequel, but it's the worst way to start The Hunger Games",
-      "summary": "The framing of The Hunger Games: Sunrise on the Reaping as a painful, nihilistic and unrelentingly dour backstory for a single character makes it a deeply strange movie when viewed as a standalone…",
-      "byline": "Jackson Weaver",
-      "section": "News/Entertainment",
-      "published": "2026-11-20T09:00:00.000Z",
-      "firstSeen": "2026-11-21T22:30:54.713Z",
-      "url": "https://www.cbc.ca/news/entertainment/hunger-games-sunrise-on-the-reaping-review-9.7429249?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/7432ca42-5fd6-4efe-9d0c-65d72fbc563f,1795133872058/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1200%2C675%29%3BResize%3D620",
-        "caption": "Joseph Zada as a young Haymitch Abernathy in a still from The Hunger Games: Sunrise on the Reaping. (Murray Close/Lionsgate)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Entertainment·REVIEW"
-        },
-        {
-          "type": "p",
-          "text": "The framing of The Hunger Games: Sunrise on the Reaping as a painful, nihilistic and unrelentingly dour backstory for a single character makes it a deeply strange movie when viewed as a standalone feature."
-        },
-        {
-          "type": "h",
-          "text": "Latest chapter in dystopian franchise is more focused on backstory than story — and is almost absurdly morose"
-        },
-        {
-          "type": "p",
-          "text": "There is perhaps no worse instalment of The Hunger Games franchise to get started with than the new prequel, Sunrise on the Reaping."
-        },
-        {
-          "type": "p",
-          "text": "That should be a silly statement on face value. With five movies in the young-adult, Battle Royale-esque series already out — four of them following \"girl on fire\" Katniss Everdeen's quest to stop the dictatorial Capitol government from pitting randomly selected kids against one another in modern gladiator matches — you'd think the audience is coming in fairly well versed."
-        },
-        {
-          "type": "p",
-          "text": "So with Sunrise on the Reaping simply moving back and telling the story of how one grizzled character once competed in a blood-soaked tournament of his own, why does The Hunger Games need to hold your hand?"
-        },
-        {
-          "type": "p",
-          "text": "Well, because its creator said that was the goal. According to director Francis Lawrence, making Reaping function as a genuine entry point into the series works for both new and old audiences, independent of their experience with other films — a claim to craft a functional and entertaining midbrow action movie with new faces, but also to make it stand entirely on its own merits."
-        },
-        {
-          "type": "p",
-          "text": "It's a lofty pair of goals — the first of which Reaping actually more or less meets as a relatively strong entry in the overcrowded, clichéd YA post-apocalyptic canon."
-        },
-        {
-          "type": "p",
-          "text": "But in confronting the second goal, it ends up either failing outright; or barely passes by crafting one of the more bizarrely morose entries in the \"chosen one\" narrative field of all time."
-        },
-        {
-          "type": "p",
-          "text": "Instead of introducing the undauntable, constantly thwarted heroine Katniss, we follow the battle-scarred side character of Haymitch Abernathy — whose function has long been to be unhappy — and are told what made him so titillatingly broken when fans first met him."
-        },
-        {
-          "type": "p",
-          "text": "That might be interesting for those who have followed along from the beginning and are just hungry for more."
-        },
-        {
-          "type": "p",
-          "text": "But to those without any insight into who eventually triumphs over whom decades after all this unrewarding, unrelenting, unromantic failure, Reaping is something else. Its framing as a painful, almost universally nihilistic and unrelentingly dour backstory for a single character makes it a deeply strange movie when viewed as a standalone feature."
-        },
-        {
-          "type": "p",
-          "text": "Played in the original Hunger Games by Woody Harrelson as a grizzled, traumatized veteran of the games, Haymitch is here taken on by Joseph Zada. It's 24 years ahead of the events of the first movie, on the eve of something called the Second Quarter Quell."
-        },
-        {
-          "type": "p",
-          "text": "It is a requisitely arcane term for a pivotal Hunger Games competition, one that those following along know ended in even more bloodshed and tears than is normal — and somehow left an older, meaner Haymitch looking on in fiery-eyed fury when the corrupt, manipulative government presented him with doctored, propagandistic footage of it in the first movie."
-        },
-        {
-          "type": "p",
-          "text": "For those out of the know, though, this movie could still end in either heroic victory or heroic martyrization."
-        },
-        {
-          "type": "p",
-          "text": "Those expectations seem even more likely as we go through the typical setup: music video shots of Haymitch telling his girl Lenore (Whitney Peak) in a slightly southern accent that he'll never let her go; Haymitch saving her from his fate by selflessly setting himself up \"tribute\" for his district — the saddest, rinky-dinkiest, underdoggiest district in the whole state of Panem; and his ironic slow-clapping at the impassive President Snow (Ralph Fiennes) looking down at the moaning and dying young combatants in the arena below."
-        },
-        {
-          "type": "p",
-          "text": "Ralph Fiennes as President Snow in a still from The Hunger Games: Sunrise on the Reaping. (Lionsgate)"
-        },
-        {
-          "type": "p",
-          "text": "These are all expected and solidly executed moral and narrative markers for the tragic or triumphant formula to work off. They get more narrative juice once the real plot starts, as the mysterious Beetee Latier (Kelvin Harrison Jr.) sneaks out from the arena compound's shadows to present Haymitch with a plan to take the Capitol down from the inside, forgo trying to win the competition, and try to stop the ruling class from exploiting them."
-        },
-        {
-          "type": "p",
-          "text": "There's only one problem: if Haymitch does this, he's not getting out alive."
-        },
-        {
-          "type": "p",
-          "text": "Of course, this being the backstory for a character still alive in other Hunger Games movies precludes that eventuality. But instead of ruining the experience for those who know the broad-strokes ending, it only diminishes it: what was once compellingly mysterious, hinted-at trauma in Haymitch's rear-mirror moves from imagination and suggestion to about 30 minutes of screaming, montage-based alcoholism and more tiny coffins than a Dracula-themed dollhouse."
-        },
-        {
-          "type": "p",
-          "text": "Where the maudlin collage of trauma in Reaping's back half might harden and simplify old fans' relationship with Haymitch, it is simply bizarre for a newcomer. Instead of a story about victory over fascism — either real, performative or pyrrhic — we get a cruel rug-pull that lacks both a cohesive emotional framing and message."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Club Kid is one of TIFF's best. It might make you cry",
-            "Ebenezer review: Merry Christmas, Johnny Depp! Is this your comeback yet?"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "A fuzzy theme around learned helplessness is there — the \"implicit submission\" of the masses obeying a minority explained by philosopher David Hume, as The Hunger Games author Suzanne Collins has said. And, sure, the citizens in Reaping fail to realize the power they have to fight back."
-        },
-        {
-          "type": "p",
-          "text": "But aside from a trite, tacked-on ending — whose emotional weight hinges entirely upon the assumption you know the triumphs Katniss Everdeen will achieve — the rest is just punishment for punishment's sake."
-        },
-        {
-          "type": "p",
-          "text": "The dragged-out, morose portrayal of the pointlessness of Haymitch's existence works to explain his later anger — a useful tidbit if you ever make it to the first film. But aside from the novelty of a story refusing you redemption or fulfillment, there's little else for those making their way into the tale."
-        },
-        {
-          "type": "p",
-          "text": "With the real end to Sunrise on the Reaping being The Hunger Games, you might as well start there. Or not start at all."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Jackson Weaver is a reporter and film critic for CBC's entertainment news team in Toronto. You can reach him at jackson.weaver@cbc.ca."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-1noqsep",
       "source": "cbc",
       "title": "A Montrealer died in Istanbul. Authorities blame food poisoning but what we found suggests something else",
@@ -19154,6 +18994,142 @@
         {
           "type": "p",
           "text": "After this story first aired on Oct. 15, 2026, Turkish consular officials contacted us, confirming the investigation into Bérengère Deveaux-Cattino's death in Istanbul remains open."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "cbc-cwiz2h",
+      "source": "cbc",
+      "title": "Sunrise on the Reaping may be a prequel, but it's the worst way to start The Hunger Games",
+      "summary": "The framing of The Hunger Games: Sunrise on the Reaping as a painful, nihilistic and unrelentingly dour backstory for a single character makes it a deeply strange movie when viewed as a standalone…",
+      "byline": "Jackson Weaver",
+      "section": "News/Entertainment",
+      "published": "2026-11-20T09:00:00.000Z",
+      "firstSeen": "2026-11-21T22:30:54.713Z",
+      "url": "https://www.cbc.ca/news/entertainment/hunger-games-sunrise-on-the-reaping-review-9.7429249?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/7432ca42-5fd6-4efe-9d0c-65d72fbc563f,1795133872058/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1200%2C675%29%3BResize%3D620",
+        "caption": "Joseph Zada as a young Haymitch Abernathy in a still from The Hunger Games: Sunrise on the Reaping. (Murray Close/Lionsgate)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Entertainment·REVIEW"
+        },
+        {
+          "type": "p",
+          "text": "The framing of The Hunger Games: Sunrise on the Reaping as a painful, nihilistic and unrelentingly dour backstory for a single character makes it a deeply strange movie when viewed as a standalone feature."
+        },
+        {
+          "type": "h",
+          "text": "Latest chapter in dystopian franchise is more focused on backstory than story — and is almost absurdly morose"
+        },
+        {
+          "type": "p",
+          "text": "There is perhaps no worse instalment of The Hunger Games franchise to get started with than the new prequel, Sunrise on the Reaping."
+        },
+        {
+          "type": "p",
+          "text": "That should be a silly statement on face value. With five movies in the young-adult, Battle Royale-esque series already out — four of them following \"girl on fire\" Katniss Everdeen's quest to stop the dictatorial Capitol government from pitting randomly selected kids against one another in modern gladiator matches — you'd think the audience is coming in fairly well versed."
+        },
+        {
+          "type": "p",
+          "text": "So with Sunrise on the Reaping simply moving back and telling the story of how one grizzled character once competed in a blood-soaked tournament of his own, why does The Hunger Games need to hold your hand?"
+        },
+        {
+          "type": "p",
+          "text": "Well, because its creator said that was the goal. According to director Francis Lawrence, making Reaping function as a genuine entry point into the series works for both new and old audiences, independent of their experience with other films — a claim to craft a functional and entertaining midbrow action movie with new faces, but also to make it stand entirely on its own merits."
+        },
+        {
+          "type": "p",
+          "text": "It's a lofty pair of goals — the first of which Reaping actually more or less meets as a relatively strong entry in the overcrowded, clichéd YA post-apocalyptic canon."
+        },
+        {
+          "type": "p",
+          "text": "But in confronting the second goal, it ends up either failing outright; or barely passes by crafting one of the more bizarrely morose entries in the \"chosen one\" narrative field of all time."
+        },
+        {
+          "type": "p",
+          "text": "Instead of introducing the undauntable, constantly thwarted heroine Katniss, we follow the battle-scarred side character of Haymitch Abernathy — whose function has long been to be unhappy — and are told what made him so titillatingly broken when fans first met him."
+        },
+        {
+          "type": "p",
+          "text": "That might be interesting for those who have followed along from the beginning and are just hungry for more."
+        },
+        {
+          "type": "p",
+          "text": "But to those without any insight into who eventually triumphs over whom decades after all this unrewarding, unrelenting, unromantic failure, Reaping is something else. Its framing as a painful, almost universally nihilistic and unrelentingly dour backstory for a single character makes it a deeply strange movie when viewed as a standalone feature."
+        },
+        {
+          "type": "p",
+          "text": "Played in the original Hunger Games by Woody Harrelson as a grizzled, traumatized veteran of the games, Haymitch is here taken on by Joseph Zada. It's 24 years ahead of the events of the first movie, on the eve of something called the Second Quarter Quell."
+        },
+        {
+          "type": "p",
+          "text": "It is a requisitely arcane term for a pivotal Hunger Games competition, one that those following along know ended in even more bloodshed and tears than is normal — and somehow left an older, meaner Haymitch looking on in fiery-eyed fury when the corrupt, manipulative government presented him with doctored, propagandistic footage of it in the first movie."
+        },
+        {
+          "type": "p",
+          "text": "For those out of the know, though, this movie could still end in either heroic victory or heroic martyrization."
+        },
+        {
+          "type": "p",
+          "text": "Those expectations seem even more likely as we go through the typical setup: music video shots of Haymitch telling his girl Lenore (Whitney Peak) in a slightly southern accent that he'll never let her go; Haymitch saving her from his fate by selflessly setting himself up \"tribute\" for his district — the saddest, rinky-dinkiest, underdoggiest district in the whole state of Panem; and his ironic slow-clapping at the impassive President Snow (Ralph Fiennes) looking down at the moaning and dying young combatants in the arena below."
+        },
+        {
+          "type": "p",
+          "text": "Ralph Fiennes as President Snow in a still from The Hunger Games: Sunrise on the Reaping. (Lionsgate)"
+        },
+        {
+          "type": "p",
+          "text": "These are all expected and solidly executed moral and narrative markers for the tragic or triumphant formula to work off. They get more narrative juice once the real plot starts, as the mysterious Beetee Latier (Kelvin Harrison Jr.) sneaks out from the arena compound's shadows to present Haymitch with a plan to take the Capitol down from the inside, forgo trying to win the competition, and try to stop the ruling class from exploiting them."
+        },
+        {
+          "type": "p",
+          "text": "There's only one problem: if Haymitch does this, he's not getting out alive."
+        },
+        {
+          "type": "p",
+          "text": "Of course, this being the backstory for a character still alive in other Hunger Games movies precludes that eventuality. But instead of ruining the experience for those who know the broad-strokes ending, it only diminishes it: what was once compellingly mysterious, hinted-at trauma in Haymitch's rear-mirror moves from imagination and suggestion to about 30 minutes of screaming, montage-based alcoholism and more tiny coffins than a Dracula-themed dollhouse."
+        },
+        {
+          "type": "p",
+          "text": "Where the maudlin collage of trauma in Reaping's back half might harden and simplify old fans' relationship with Haymitch, it is simply bizarre for a newcomer. Instead of a story about victory over fascism — either real, performative or pyrrhic — we get a cruel rug-pull that lacks both a cohesive emotional framing and message."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Club Kid is one of TIFF's best. It might make you cry",
+            "Ebenezer review: Merry Christmas, Johnny Depp! Is this your comeback yet?"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A fuzzy theme around learned helplessness is there — the \"implicit submission\" of the masses obeying a minority explained by philosopher David Hume, as The Hunger Games author Suzanne Collins has said. And, sure, the citizens in Reaping fail to realize the power they have to fight back."
+        },
+        {
+          "type": "p",
+          "text": "But aside from a trite, tacked-on ending — whose emotional weight hinges entirely upon the assumption you know the triumphs Katniss Everdeen will achieve — the rest is just punishment for punishment's sake."
+        },
+        {
+          "type": "p",
+          "text": "The dragged-out, morose portrayal of the pointlessness of Haymitch's existence works to explain his later anger — a useful tidbit if you ever make it to the first film. But aside from the novelty of a story refusing you redemption or fulfillment, there's little else for those making their way into the tale."
+        },
+        {
+          "type": "p",
+          "text": "With the real end to Sunrise on the Reaping being The Hunger Games, you might as well start there. Or not start at all."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Jackson Weaver is a reporter and film critic for CBC's entertainment news team in Toronto. You can reach him at jackson.weaver@cbc.ca."
         }
       ],
       "truncated": false,
