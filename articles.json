@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-22T10:01:17.843Z",
+  "updated": "2026-11-22T10:31:26.101Z",
   "sources": [
     {
       "id": "inq",
@@ -53,38 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-xtlp0k",
-      "source": "inqn",
-      "title": "Over 6,000 cops to secure Metro Manila for Nov. 23-24 transport strike",
-      "summary": "MANILA, Philippines — More than 6,000 cops will be deployed across Metro Manila for the transport strike on Nov. 23-24 to ensure commuter safety, the National Capital Region Police Office (NCRPO)…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:08.936Z",
-      "firstSeen": "2026-11-22T04:01:00.013Z",
-      "url": "https://newsinfo.inquirer.net/2345145/over-5000-cops-to-secure-metro-manila-for-nov-23-24-transport-strike",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/Members-of-transport-group-Manibela-strike-protest-28September2026_3.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — More than 6,000 cops will be deployed across Metro Manila for the transport strike on Nov. 23-24 to ensure commuter safety, the National Capital Region Police Office (NCRPO) said. Transport group Manibela and its allied groups will stage a strike over a potential change in the leadership of the Land Transportation Office"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-4enoly",
       "source": "inqn",
       "title": "Peasant group hits Marcos for downplaying opposition to Pax Silica",
       "summary": "LUCENA CITY — A peasant organization criticized President Ferdinand Marcos Jr. for downplaying widespread protests against the US-led Pax Silica initiative, saying his remarks were aimed at appeasing…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:08.936Z",
+      "published": "2026-11-22T10:31:13.495Z",
       "firstSeen": "2026-11-22T03:01:03.928Z",
       "url": "https://newsinfo.inquirer.net/2345129/peasant-group-hits-marcos-for-downplaying-opposition-to-pax-silica",
       "image": {
@@ -103,13 +78,88 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1r1nqwv",
+      "source": "inqn",
+      "title": "Aurora bridge tilts, 9 people fall into river",
+      "summary": "OLONGAPO CITY — Nine of the 17 people on the Zabali Bridge in Baler, Aurora, fell into the Kinalapan River after a cable on one side came loose, causing the structure to tilt on Nov. 20, according to…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-11-22T10:31:13.494Z",
+      "firstSeen": "2026-11-22T04:01:00.007Z",
+      "url": "https://newsinfo.inquirer.net/2345139/aurora-bridge-tilts-9-people-fall-into-river",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Aurora-bridge-tilts.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OLONGAPO CITY — Nine of the 17 people on the Zabali Bridge in Baler, Aurora, fell into the Kinalapan River after a cable on one side came loose, causing the structure to tilt on Nov. 20, according to the Baler Municipal Disaster Risk Reduction and Management Office (MDRRMO). In a phone interview on Sunday, Arturo"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-xtlp0k",
+      "source": "inqn",
+      "title": "Over 6,000 cops to secure Metro Manila for Nov. 23-24 transport strike",
+      "summary": "MANILA, Philippines — More than 6,000 cops will be deployed across Metro Manila for the transport strike on Nov. 23-24 to ensure commuter safety, the National Capital Region Police Office (NCRPO)…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-11-22T10:31:13.494Z",
+      "firstSeen": "2026-11-22T04:01:00.013Z",
+      "url": "https://newsinfo.inquirer.net/2345145/over-5000-cops-to-secure-metro-manila-for-nov-23-24-transport-strike",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/Members-of-transport-group-Manibela-strike-protest-28September2026_3.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — More than 6,000 cops will be deployed across Metro Manila for the transport strike on Nov. 23-24 to ensure commuter safety, the National Capital Region Police Office (NCRPO) said. Transport group Manibela and its allied groups will stage a strike over a potential change in the leadership of the Land Transportation Office"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-19e8org",
+      "source": "inqn",
+      "title": "World&#8217;s largest rodent finds home at wildlife farm in Cavite",
+      "summary": "LUCENA CITY — Capybaras, known as the world’s largest living rodents, can now be seen up close at a wildlife farm in Mendez, Cavite, according to the Department of Environment and Natural Resources…",
+      "byline": "mmercado",
+      "section": "Latest News Stories",
+      "published": "2026-11-22T10:31:11.894Z",
+      "firstSeen": "2026-11-22T04:31:01.682Z",
+      "url": "https://newsinfo.inquirer.net/2345165/worlds-largest-rodent-finds-home-at-wildlife-farm-in-cavite",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Worlds-largest-rodent-finds-home-at-wildlife-farm-in-Cavite.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LUCENA CITY — Capybaras, known as the world’s largest living rodents, can now be seen up close at a wildlife farm in Mendez, Cavite, according to the Department of Environment and Natural Resources (DENR). “The world&#8217;s largest living rodent can be seen in Cavite! This excellent swimmer and highly sociable animal can be seen up"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1ueqx7u",
       "source": "inqn",
       "title": "K-12 voucher law signing draws praise from senators",
       "summary": "MANILA, Philippines — Senators welcomed the enactment of the Basic Education Voucher Assistance Act, or Republic Act No. 12327, saying it would expand access to quality education while helping ease…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:08.935Z",
+      "published": "2026-11-22T10:31:11.894Z",
       "firstSeen": "2026-11-22T05:00:56.480Z",
       "url": "https://newsinfo.inquirer.net/2345179/senators-laud-signing-of-voucher-law-for-k-12-enrollees",
       "image": {
@@ -134,7 +184,7 @@
       "summary": "ILIGAN CITY — A fireworks display marking the grand opening of the Christmas Festival of Lights 2026 in Tangub City, Misamis Occidental, turned dangerous on Saturday night when fireworks went awry…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:08.935Z",
+      "published": "2026-11-22T10:31:11.894Z",
       "firstSeen": "2026-11-22T04:00:59.897Z",
       "url": "https://newsinfo.inquirer.net/2345148/18-injured-as-fireworks-display-goes-awry-in-misamis-occidental",
       "image": {
@@ -153,23 +203,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1r1nqwv",
+      "id": "inqn-ffd47o",
       "source": "inqn",
-      "title": "Aurora bridge tilts, 9 people fall into river",
-      "summary": "OLONGAPO CITY — Nine of the 17 people on the Zabali Bridge in Baler, Aurora, fell into the Kinalapan River after a cable on one side came loose, causing the structure to tilt on Nov. 20, according to…",
+      "title": "Ombudsman affirms preventive suspension order vs Dalaguete mayor",
+      "summary": "MANILA, Philippines — The Office of the Ombudsman has affirmed its decision to impose a six-month preventive suspension without pay on Dalaguete, Cebu Mayor Ronald Allan Cesante and five municipal…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:08.935Z",
-      "firstSeen": "2026-11-22T04:01:00.007Z",
-      "url": "https://newsinfo.inquirer.net/2345139/aurora-bridge-tilts-9-people-fall-into-river",
+      "published": "2026-11-22T10:31:11.893Z",
+      "firstSeen": "2026-11-22T06:01:02.146Z",
+      "url": "https://newsinfo.inquirer.net/2345202/ombudsman-affirms-preventive-suspension-order-vs-dalaguete-mayor",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Aurora-bridge-tilts.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/05/1223477.jpeg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "OLONGAPO CITY — Nine of the 17 people on the Zabali Bridge in Baler, Aurora, fell into the Kinalapan River after a cable on one side came loose, causing the structure to tilt on Nov. 20, according to the Baler Municipal Disaster Risk Reduction and Management Office (MDRRMO). In a phone interview on Sunday, Arturo"
+          "text": "MANILA, Philippines — The Office of the Ombudsman has affirmed its decision to impose a six-month preventive suspension without pay on Dalaguete, Cebu Mayor Ronald Allan Cesante and five municipal officials over alleged irregularities in the construction of a municipal warehouse. In a statement on Sunday, the Ombudsman said it had dismissed the motion for"
         }
       ],
       "truncated": true,
@@ -184,7 +234,7 @@
       "summary": "SAN ILDEFONSO, Ilocos Sur — The impact of El Niño has affected 12,595 farmers and damaged about 5,694 hectares of agricultural land in the Ilocos Region, causing an estimated P346.12 million in…",
       "byline": "jbarrion",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:08.901Z",
+      "published": "2026-11-22T10:31:11.893Z",
       "firstSeen": "2026-11-22T05:30:55.915Z",
       "url": "https://newsinfo.inquirer.net/2345193/da-el-nino-affects-12595-farmers-in-ilocos-region-causes-p346-m-losses",
       "image": {
@@ -209,7 +259,7 @@
       "summary": "MANILA, Philippines — Sen. Erwin Tulfo has filed a bill seeking to require all national government agencies to recognize authenticated digital versions of valid government-issued IDs as sufficient…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:08.901Z",
+      "published": "2026-11-22T10:31:11.893Z",
       "firstSeen": "2026-11-22T05:30:55.974Z",
       "url": "https://newsinfo.inquirer.net/2345196/tulfo-urges-govt-agencies-to-accept-digital-valid-ids-in-transactions",
       "image": {
@@ -228,63 +278,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-19e8org",
-      "source": "inqn",
-      "title": "World&#8217;s largest rodent finds home at wildlife farm in Cavite",
-      "summary": "LUCENA CITY — Capybaras, known as the world’s largest living rodents, can now be seen up close at a wildlife farm in Mendez, Cavite, according to the Department of Environment and Natural Resources…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:08.901Z",
-      "firstSeen": "2026-11-22T04:31:01.682Z",
-      "url": "https://newsinfo.inquirer.net/2345165/worlds-largest-rodent-finds-home-at-wildlife-farm-in-cavite",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Worlds-largest-rodent-finds-home-at-wildlife-farm-in-Cavite.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — Capybaras, known as the world’s largest living rodents, can now be seen up close at a wildlife farm in Mendez, Cavite, according to the Department of Environment and Natural Resources (DENR). “The world&#8217;s largest living rodent can be seen in Cavite! This excellent swimmer and highly sociable animal can be seen up"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-198e2b5",
-      "source": "inqn",
-      "title": "Health advocates push funding for smoke-free, vape-free bill",
-      "summary": "MANILA, Philippines — Health advocates have urged lawmakers to retain the funding provision in a proposed measure seeking smoke-free and vape-free environments, warning that inadequate enforcement…",
-      "byline": "mesarangay",
-      "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:08.869Z",
-      "firstSeen": "2026-11-22T06:30:56.359Z",
-      "url": "https://newsinfo.inquirer.net/2345227/health-advocates-push-funding-for-smoke-free-vape-free-bill",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/01/vape-compositefilephoto-01222024.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Health advocates have urged lawmakers to retain the funding provision in a proposed measure seeking smoke-free and vape-free environments, warning that inadequate enforcement could leave Filipino families shouldering the rising costs of chronic diseases. Social Watch Philippines (SWP) said House Bill No. 9603, or the proposed Smoke-Free and Vape-Free Environment Act, should"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-vnsw4a",
       "source": "inqn",
       "title": "PNP chief vows impartiality after Sara Duterte’s criticism",
       "summary": "MANILA, Philippines — Philippine National Police (PNP) chief Gen. Jose Melencio Nartatez Jr. stressed that police must remain impartial and uphold due process in all operations after Vice President…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:08.869Z",
+      "published": "2026-11-22T10:31:11.695Z",
       "firstSeen": "2026-11-22T06:01:02.072Z",
       "url": "https://newsinfo.inquirer.net/2345210/pnp-chief-vows-impartiality-after-sara-dutertes-criticism",
       "image": {
@@ -303,23 +303,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-ffd47o",
+      "id": "inqn-198e2b5",
       "source": "inqn",
-      "title": "Ombudsman affirms preventive suspension order vs Dalaguete mayor",
-      "summary": "MANILA, Philippines — The Office of the Ombudsman has affirmed its decision to impose a six-month preventive suspension without pay on Dalaguete, Cebu Mayor Ronald Allan Cesante and five municipal…",
-      "byline": "mmercado",
+      "title": "Health advocates push funding for smoke-free, vape-free bill",
+      "summary": "MANILA, Philippines — Health advocates have urged lawmakers to retain the funding provision in a proposed measure seeking smoke-free and vape-free environments, warning that inadequate enforcement…",
+      "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:08.869Z",
-      "firstSeen": "2026-11-22T06:01:02.146Z",
-      "url": "https://newsinfo.inquirer.net/2345202/ombudsman-affirms-preventive-suspension-order-vs-dalaguete-mayor",
+      "published": "2026-11-22T10:31:10.164Z",
+      "firstSeen": "2026-11-22T06:30:56.359Z",
+      "url": "https://newsinfo.inquirer.net/2345227/health-advocates-push-funding-for-smoke-free-vape-free-bill",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/05/1223477.jpeg",
+        "src": "https://newsinfo.inquirer.net/files/2024/01/vape-compositefilephoto-01222024.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — The Office of the Ombudsman has affirmed its decision to impose a six-month preventive suspension without pay on Dalaguete, Cebu Mayor Ronald Allan Cesante and five municipal officials over alleged irregularities in the construction of a municipal warehouse. In a statement on Sunday, the Ombudsman said it had dismissed the motion for"
+          "text": "MANILA, Philippines — Health advocates have urged lawmakers to retain the funding provision in a proposed measure seeking smoke-free and vape-free environments, warning that inadequate enforcement could leave Filipino families shouldering the rising costs of chronic diseases. Social Watch Philippines (SWP) said House Bill No. 9603, or the proposed Smoke-Free and Vape-Free Environment Act, should"
         }
       ],
       "truncated": true,
@@ -334,7 +334,7 @@
       "summary": "TACLOBAN CITY — Youth groups across Eastern Visayas have strongly opposed the proposed Pax Silica initiative, warning that it could pave the way for the exploitation of the region’s mineral resources…",
       "byline": "mmercado",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:07.277Z",
+      "published": "2026-11-22T10:31:09.967Z",
       "firstSeen": "2026-11-22T06:30:56.309Z",
       "url": "https://newsinfo.inquirer.net/2345220/eastern-visayas-youth-groups-warn-pax-silica-may-spur-exploitation",
       "image": {
@@ -359,7 +359,7 @@
       "summary": "MANILA, Philippines — Ombudsman Jesus Crispin Remulla has expressed confidence that the plunder case of former House Speaker Martin Romualdez can be completed in a year as he emphasized that there…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:01:05.268Z",
+      "published": "2026-11-22T10:31:08.165Z",
       "firstSeen": "2026-11-22T08:47:13.921Z",
       "url": "https://newsinfo.inquirer.net/2345242/ombudsman-romualdezs-case-can-be-finished-in-a-year",
       "image": {
@@ -378,38 +378,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1hcm2rj",
-      "source": "inqg",
-      "title": "Scores dead in Nigeria as boat carrying people to a funeral capsizes",
-      "summary": "ABUJA, Nigeria — A boat carrying people to a funeral has capsized in southern Nigeria, killing at least 24 people, emergency services said on Saturday. The boat was taking passengers from one…",
-      "byline": "evalderrama",
-      "section": "Africa",
-      "published": "2026-11-22T10:00:59.882Z",
-      "firstSeen": "2026-11-22T03:31:03.197Z",
-      "url": "https://globalnation.inquirer.net/349472/scores-dead-in-nigeria-as-boat-carrying-people-to-a-funeral-capsizes",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AP26325766410570-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "ABUJA, Nigeria — A boat carrying people to a funeral has capsized in southern Nigeria, killing at least 24 people, emergency services said on Saturday. The boat was taking passengers from one community to another for a burial ceremony when it sank on Friday in Bayelsa State in the country’s South South region, Nigeria’s National"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-122gf3z",
       "source": "inqn",
       "title": "US urges PH to resolve Pax Silica issues first, says Gatchalian",
       "summary": "MANILA, Philippines – The United States wants the Philippine government to resolve issues related to the controversial Pax Silica initiative first before proceeding with an agreement, according to…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:00:59.880Z",
+      "published": "2026-11-22T10:31:04.563Z",
       "firstSeen": "2026-11-22T10:00:59.880Z",
       "url": "https://newsinfo.inquirer.net/2345250/us-urges-ph-to-resolve-pax-silica-issues-first-says-gatchalian",
       "image": {
@@ -428,13 +403,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-1hcm2rj",
+      "source": "inqg",
+      "title": "Scores dead in Nigeria as boat carrying people to a funeral capsizes",
+      "summary": "ABUJA, Nigeria — A boat carrying people to a funeral has capsized in southern Nigeria, killing at least 24 people, emergency services said on Saturday. The boat was taking passengers from one…",
+      "byline": "evalderrama",
+      "section": "Africa",
+      "published": "2026-11-22T10:31:02.604Z",
+      "firstSeen": "2026-11-22T03:31:03.197Z",
+      "url": "https://globalnation.inquirer.net/349472/scores-dead-in-nigeria-as-boat-carrying-people-to-a-funeral-capsizes",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/AP26325766410570-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ABUJA, Nigeria — A boat carrying people to a funeral has capsized in southern Nigeria, killing at least 24 people, emergency services said on Saturday. The boat was taking passengers from one community to another for a burial ceremony when it sank on Friday in Bayelsa State in the country’s South South region, Nigeria’s National"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1lv7vgk",
       "source": "inqn",
       "title": "WALANG PASOK: In-person classes, court operation suspensions on Nov. 23",
       "summary": "MANILA, Philippines — Face-to-face classes and court operations are suspended in several areas on Monday, November 23 due to scheduled power interruptions, elevated heat index levels, and…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-22T10:00:59.879Z",
+      "published": "2026-11-22T10:31:01.020Z",
       "firstSeen": "2026-11-22T09:30:55.548Z",
       "url": "https://newsinfo.inquirer.net/2345253/in-person-classes-court-operation-suspensions-on-nov-23",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "MANILA, Philippines — The prosecution has asked a trial chamber of the International Criminal Court (ICC) to dismiss a request filed by the defense team of former President Rodrigo Duterte on a…",
       "byline": "evalderrama",
       "section": "Europe",
-      "published": "2026-11-22T10:00:59.879Z",
+      "published": "2026-11-22T10:31:00.997Z",
       "firstSeen": "2026-11-22T04:00:59.897Z",
       "url": "https://globalnation.inquirer.net/349475/icc-prosecution-opposes-duterte-defense-bid-over-alleged-rule-violations",
       "image": {
@@ -478,13 +478,63 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1fzxz40",
+      "source": "inqn",
+      "title": "NUPL hits Marcos&#8217; &#8216;perplexed&#8217; remark on Pax Silica protests",
+      "summary": "MANILA, Philippines — The National Union of Peoples’ Lawyers (NUPL) on Sunday criticized the remarks of President Ferdinand Marcos Jr. on protests against the Pax Silica initiative, noting that his…",
+      "byline": "mesarangay",
+      "section": "Latest News Stories",
+      "published": "2026-11-22T10:31:00.997Z",
+      "firstSeen": "2026-11-22T10:31:00.997Z",
+      "url": "https://newsinfo.inquirer.net/2345283/nupl-hits-marcos-perplexed-remark-on-pax-silica-protests",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2023/01/NUPL-National-Union-of-Peoples-Lawyers-stock-01092023.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The National Union of Peoples’ Lawyers (NUPL) on Sunday criticized the remarks of President Ferdinand Marcos Jr. on protests against the Pax Silica initiative, noting that his administration already took measures to push for the said project. The NUPL issued this statement after Marcos last Friday said he was “perplexed” by the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-10p52hc",
+      "source": "inqn",
+      "title": "16 loose firearms surrendered to Caraga police",
+      "summary": "SAN FRANCISCO, Agusan del Sur — Sixteen loose firearms and an explosive device were surrendered to various police units across the Caraga Region on Saturday, Nov. 21, amid the government&#8217;s…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-22T10:31:00.893Z",
+      "firstSeen": "2026-11-22T10:00:59.836Z",
+      "url": "https://newsinfo.inquirer.net/2345262/16-loose-firearms-surrendered-to-caraga-police",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/16-loose-firearms-surrendered-to-Caraga-police-22November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN FRANCISCO, Agusan del Sur — Sixteen loose firearms and an explosive device were surrendered to various police units across the Caraga Region on Saturday, Nov. 21, amid the government&#8217;s intensified crackdown on unlicensed weapons, the Police Regional Office 13 (PRO-13) reported. PRO-13 director Brig. Gen. Rolindo Suguilon said the surrendered cache included six .38-caliber"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
       "id": "inqg-17zo4lo",
       "source": "inqg",
       "title": "Recto: PH to host Asean centers for creative, maritime industries",
       "summary": "MANILA, Philippines — The Philippines will host two new Association of Southeast Asian Nations (Asean) centers focused on creative industries and maritime cooperation. Executive Secretary Ralph Recto…",
       "byline": "mmercado",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-22T10:00:59.836Z",
+      "published": "2026-11-22T10:31:00.893Z",
       "firstSeen": "2026-11-22T05:00:56.431Z",
       "url": "https://globalnation.inquirer.net/349480/recto-ph-to-host-asean-centers-for-creative-maritime-industries",
       "image": {
@@ -503,29 +553,337 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-10p52hc",
-      "source": "inqn",
-      "title": "16 loose firearms surrendered to Caraga police",
-      "summary": "SAN FRANCISCO, Agusan del Sur — Sixteen loose firearms and an explosive device were surrendered to various police units across the Caraga Region on Saturday, Nov. 21, amid the government&#8217;s…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-22T10:00:59.836Z",
-      "firstSeen": "2026-11-22T10:00:59.836Z",
-      "url": "https://newsinfo.inquirer.net/2345262/16-loose-firearms-surrendered-to-caraga-police",
+      "id": "abs-mmxhhb",
+      "source": "abs",
+      "title": "Palace seeks authentication on alleged thumbprint signatures of Aetas for Pax Silica",
+      "summary": "MANILA— The Palace is seeking the authentication of alleged thumbprint signatures of Aetas in quit claim documents for the Pax Silica initiative.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-22T10:17:50.000Z",
+      "firstSeen": "2026-11-22T10:31:00.894Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/22/palace-seeks-authentication-on-alleged-thumbprint-signatures-of-aetas-for-pax-silica-1817",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA— The Palace is seeking the authentication of alleged thumbprint signatures of Aetas in quit claim documents for the Pax Silica initiative."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-lzft",
+      "source": "abs",
+      "title": "Dela Rosa says still 'committed' to Senate despite extended absence",
+      "summary": "The camp of Ronald \"Bato\" dela Rosa assured that the embattled senator remains committed to the Senate Ethics Committee.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-22T10:15:27.000Z",
+      "firstSeen": "2026-11-22T10:31:00.997Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/22/dela-rosa-says-still-committed-to-senate-despite-extended-absence-1815",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The camp of Ronald \"Bato\" dela Rosa assured that the embattled senator remains committed to the Senate Ethics Committee."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-b240q8",
+      "source": "inq",
+      "title": "Cesafi football: USJ-R ends USC dynasty, reclaims collegiate title",
+      "summary": "CEBU CITY, Philippines – The University of San Jose-Recoletos (USJ-R) Jaguars are back on top of Cesafi collegiate football after ending the University of San Carlos (USC) Warriors&#8217; eight-year…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-22T10:09:17.000Z",
+      "firstSeen": "2026-11-22T10:31:00.892Z",
+      "url": "https://cebudailynews.inquirer.net/787334/cesafi-football-usj-r-ends-usc-dynasty-reclaims-collegiate-title",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/16-loose-firearms-surrendered-to-Caraga-police-22November2026.jpg",
+        "src": "https://cebudailynews.inquirer.net/files/2026/11/920597947_1161831836369748_3039991288097436709_n-620x465.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "SAN FRANCISCO, Agusan del Sur — Sixteen loose firearms and an explosive device were surrendered to various police units across the Caraga Region on Saturday, Nov. 21, amid the government&#8217;s intensified crackdown on unlicensed weapons, the Police Regional Office 13 (PRO-13) reported. PRO-13 director Brig. Gen. Rolindo Suguilon said the surrendered cache included six .38-caliber"
+          "text": "CEBU CITY, Philippines – The University of San Jose-Recoletos (USJ-R) Jaguars are back on top of Cesafi collegiate football after ending the University of San Carlos (USC) Warriors&#8217; eight-year reign with a 1-0 victory in the Season 26 men&#8217;s championship match on Sunday, November 22, at the Cebu City Sports Center (CCSC). It took 13 years for the Jaguars to reclaim the Cebu Schools Athletic Foundation, Inc. (Cesafi) collegiate football crown, with Mandy Bacus delivering the decisive goal in the 32nd minute to dethrone the defending champions and bring the title back to USJ-R. Bacus&#8217; first-half strike proved enough to dismantle [&hellip;]... Keep on reading: Cesafi football: USJ-R ends USC dynasty, reclaims collegiate title"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-7sdpo9",
+      "source": "abs",
+      "title": "Sawa, biglang sumulpot mula sa manhole sa Recto, Maynila",
+      "summary": "Laking gulat ng mga nakahintong motorista nang sumulpot ang isang malaking sawa mula sa manhole sa kanilang harapan sa Maynila nitong madaling araw ng Linggo, Nobyembre 22.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-22T10:07:47.000Z",
+      "firstSeen": "2026-11-22T10:31:03.075Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/22/sawa-biglang-sumulpot-mula-sa-manhole-sa-recto-maynila-1807",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Laking gulat ng mga nakahintong motorista nang sumulpot ang isang malaking sawa mula sa manhole sa kanilang harapan sa Maynila nitong madaling araw ng Linggo, Nobyembre 22."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-eo8vp8",
+      "source": "abs",
+      "title": "Dela Rosa ethics complaint sufficient in form, substance — panel",
+      "summary": "The Senate Committee on Ethics and Privilege has found the complaint against Sen. Ronald dela Rosa over his prolonged absence from the Senate sufficient in form and substance.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-22T10:06:39.000Z",
+      "firstSeen": "2026-11-22T10:31:08.163Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/20/dela-rosa-ethics-complaint-sufficient-in-form-substance-panel-1719",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Senate Committee on Ethics and Privilege has found the complaint against Sen. Ronald dela Rosa over his prolonged absence from the Senate sufficient in form and substance."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-t4fegf",
+      "source": "inq",
+      "title": "Angeline Quinto credits husband Nonrev Daquina for keeping her finances in check",
+      "summary": "Angeline Quinto credited her husband, Nonrev Daquina, for helping her become more mindful of her finances as they ventured into business together for the first time as a married couple. During a…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-22T10:05:44.000Z",
+      "firstSeen": "2026-11-22T10:31:00.997Z",
+      "url": "https://entertainment.inquirer.net/691040/angeline-quinto-credits-husband-nonrev-daquina-for-keeping-her-finances-in-check",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/11/WhatsApp-Image-2026-11-22-at-14.55.45-1-700x394.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Angeline Quinto credited her husband, Nonrev Daquina, for helping her become more mindful of her finances as they ventured into business together for the first time as a married couple. During a recent contract signing with a salon, where the couple is set to open a franchise in Angeles, Pampanga, Quinto shared that Daquina takes charge of budgeting and keeping track of their money. “‘Yung asawa ko kasi talaga, bago pa kami nagkakilala, may mga business na talaga siyang inumpisahan. And, honestly po, kung sa paghahawak talaga ng budget, paghahawak ng pera, mas magaling siya sa akin. Mas masinop,” she said. [&hellip;]... Keep on reading: Angeline Quinto credits husband Nonrev Daquina for keeping her finances in check"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "rap-13emtsw",
+      "source": "rap",
+      "title": "The US midterm elections and this Norman Rockwell painting",
+      "summary": "Following the historic victory of Democratic Senator-elect Scott Colom in the US midterms, it would have been nice to visit the Freedom Summer marker to remember three voting rights activists—to say,…",
+      "byline": "Benjamin Pimentel",
+      "section": "Artists",
+      "published": "2026-11-22T10:00:00.000Z",
+      "firstSeen": "2026-11-22T10:31:00.894Z",
+      "url": "https://www.rappler.com/people/artists/us-midterm-elections-scott-colom-norman-rockwell-painting-mississippi/",
+      "image": {
+        "src": "https://www.youtube.com/embed/r8T2x8UZlxc",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The US midterm elections, especially in Mississippi where Democratic challenger Scott Colom became the state’s first Black senator since 1874, reminded me of this painting by Norman Rockwell."
+        },
+        {
+          "type": "p",
+          "text": "It depicts the final moments of three young men: voting rights activists James Chaney, a 20-year-old Black Mississippi native, and two Jewish New Yorkers, Michael Schwerner, 24, and Andrew Goodman, 20. They were kidnapped, beaten and killed by Klu Klax Klan members in June 1964 for taking part in the campaign to register Black voters in Mississippi."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/Screenshot-2026-11-22-at-11.42.03-AM.png",
+          "caption": "DEFIANCE. Norman Rockwell’s painting “Murder in Mississippi,” depicts a defiant civil rights advocate Michael Schwerner (in white shirt), with his colleague, a wounded Black Mississippi local James Chaney clutching his arms, facing a US deputy sheriff and Klan conspirators holding guns (only thei…"
+        },
+        {
+          "type": "p",
+          "text": "Michael Schwerner, in white shirt, is shown holding his colleague in the voting rights campaign, a wounded Mississippi local James Chaney. Another colleague in the campaign, Anthony Goodman, is lying face down on the ground."
+        },
+        {
+          "type": "p",
+          "text": "There’s a look of defiance on Schwerner’s face. What was he thinking shortly before he too was gunned down?"
+        },
+        {
+          "type": "p",
+          "text": "They were killed the day after I was born in Manila. That’s one reason what happened to them resonated with me — even though I didn’t know about them until I moved to California in my ’20s."
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/udhzc8YTqP0/hqdefault.jpg",
+          "caption": "The US midterm elections and this Norman Rockwell painting"
+        },
+        {
+          "type": "p",
+          "text": "I first heard their names in Mississippi Burning, which drew heavy criticism for downplaying the stories of Chaney, Goodman and Schwerner and the activists of the Freedom Summer campaign. FBI agents, played by Gene Hackman and Willem Dafoe, were the heroes in the movie. (READ: Actor Gene Hackman and wife found dead alongside dog at home)"
+        },
+        {
+          "type": "p",
+          "text": "I learned more as a student at the UC Berkeley Graduate School of Journalism where we watched Jon Else’s documentary Eyes on the Prize. The series led me to read Taylor Branch’s books bout the Civil Rights movement, Parting the Waters, Pillar of Fire, and At Canaan’s Edge."
+        },
+        {
+          "type": "image",
+          "src": "https://img.youtube.com/vi/rGVL9d_ibhw/hqdefault.jpg",
+          "caption": "The US midterm elections and this Norman Rockwell painting"
+        },
+        {
+          "type": "p",
+          "text": "Years later, I came across Race Beat: The Press, The Civil Rights Struggle and the Awakening of A Nation, by the legendary journalist Gene Roberts and Emory University professor Hank Klibanoff. The winners of the Pulitzer Prize in 2007, this powerful book is an account of the US Civil Rights movement through the eyes of the journalists who covered it."
+        },
+        {
+          "type": "p",
+          "text": "I spent a bit of time in the South last summer."
+        },
+        {
+          "type": "p",
+          "text": "My family and I spent a week in Alabama to celebrate my son’s graduation from Army flight school at Fort Rucker. We visited our other son in New Orleans where he lived while interning at the NASA Space Center in nearby Mississippi. We celebrated the Fourth of July in the New Orleans Riverfront and watched fireworks on the Mississippi River. (READ: Letting go on the road to Idaho: Notes on fatherhood)"
+        },
+        {
+          "type": "p",
+          "text": "I had one regret about my summer in the South, which became more pronounced after the midterms."
+        },
+        {
+          "type": "p",
+          "text": "Just a two-hour drive from New Orleans, at the intersection of County Road 515 and State Highway 19 near Philadelphia, Mississippi, there’s a plaque marking the area where James Chaney, Andrew Goodman and Michael Schwerner were killed."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/Screenshot-2026-11-22-at-3.37.50-PM.png",
+          "caption": "KILLED. Newspaper clipping shows voting rights advocates Michael Schwerner, James Chaney, and Andres Goodman. Courtesy of Normal Rockwell Museum YT"
+        },
+        {
+          "type": "p",
+          "text": "I had thought of driving there to see it. But that didn’t happen."
+        },
+        {
+          "type": "p",
+          "text": "It would have been nice to visit the marker, to remember James Chaney, Michael Schwerner and Andrew Goodman. To say, “Thank you.” – Rappler.com"
+        },
+        {
+          "type": "p",
+          "text": "(This article was first published in the author’s LinkedIn.)"
+        },
+        {
+          "type": "p",
+          "text": "Benjamin Pimentel is a journalist and technology editor based in the San Francisco Bay Area. His novel, ‘Mga Gerilya Sa Powell Street,’ won the 2007 National Book Award for Fiction and was staged by the Cultural Center of the Philippines’ (CCP) Tanghalang Pilipino in 2008."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/edgewise-after-blue-tsunami-November-5-2026.jpg?fit=449%2C449",
+          "caption": "[Edgewise] US midterms: After the blue tsunami, what is to be done?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "[EDITORIAL] Lessons from the ‘blue wave’",
+            "How Democrats expanded the map and won rural America",
+            "[Mind the Gap] In chaotic US midterm polls, Filams are running",
+            "The Democrats’ ‘blue tsunami’ is a strong repudiation of Donald Trump. Now, they will look to replicate it in 2028"
+          ]
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "feed"
+    },
+    {
+      "id": "rap-zpfh33",
+      "source": "rap",
+      "title": "[Inside the Newsroom] Why road safety is a budget issue",
+      "summary": "An ambitious goal to achieve zero road deaths requires adequate funding, and right now Congress has just given it zero allocation",
+      "byline": "James Patrick Cruz",
+      "section": "Editors' Pick",
+      "published": "2026-11-22T10:00:00.000Z",
+      "firstSeen": "2026-11-22T10:31:01.000Z",
+      "url": "https://www.rappler.com/voices/newsletters/inside-the-newsroom-road-safety-budget-issue/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2026/11/ROAD-SAFETY.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An ambitious goal to achieve zero road deaths requires adequate funding, and right now Congress has just given it zero allocation"
+        },
+        {
+          "type": "p",
+          "text": "I’m Patrick Cruz, a multimedia reporter for Rappler covering transportation, among other beats. Every day, millions of Filipinos navigate a chaotic, congested, and often perilous transport system. But the true cost of our daily commute isn’t just measured in lost hours and lost productivity; some lives are also lost on the road."
+        },
+        {
+          "type": "p",
+          "text": "In Metro Manila alone, the Metropolitan Manila Development Authority records an average of 239 road crash incidents every single day. That is roughly 10 accidents every hour."
+        },
+        {
+          "type": "p",
+          "text": "The national picture is even more alarming. According to recent data from the Philippine Statistics Authority, 3,133 people already died due to road crashes from January to April 2026 — not even half a year!"
+        },
+        {
+          "type": "p",
+          "text": "This staggering figure makes road accidents the 13th leading cause of death in the country."
+        },
+        {
+          "type": "p",
+          "text": "The government acknowledges that this is a crisis. The Philippine Road Safety Action Plan (PRSAP) 2023–2028, led by the Department of Transportation (DOTr), laid down an ambitious target to reduce road traffic deaths and injuries by at least 35% by 2028. It has a long-term vision of zero road deaths."
+        },
+        {
+          "type": "p",
+          "text": "But here is the glaring disconnect: ambitious goals require adequate funding, and right now the money simply isn’t there."
+        },
+        {
+          "type": "p",
+          "text": "The DOTr proposed a modest P111.29 million to fund the PRSAP. However, under the House General Appropriations Bill (HGAB), that allocation was reduced to exactly zero."
+        },
+        {
+          "type": "p",
+          "text": "Similarly, infrastructure designed to protect our most vulnerable road users has been gutted. The Active Transport Bike Share and Safe Pathways Program — essential for protecting cyclists and pedestrians — received a measly P33.9 million allocation. That is a mere 3% of the proposed P1.13 billion needed to build and maintain safe active transport networks."
+        },
+        {
+          "type": "p",
+          "text": "Without this funding, millions of Filipinos who rely on active transport are left to fend for themselves on fast-moving, heavily motorized thoroughfares."
+        },
+        {
+          "type": "p",
+          "text": "Advocates are rightfully sounding the alarm. The Move As One Coalition has pointed out that no funding has been provided for road safety for the past three years."
+        },
+        {
+          "type": "p",
+          "text": "“There’s no funding for road safety for the past three years, which is why we ask the Senate: Please, if you’re really serious in helping prevent road crashes, in making sure that our most vulnerable are protected, fund road safety,” Move As One Coalition representative Lou Gepuela said during the budget deliberations in the Senate."
+        },
+        {
+          "type": "p",
+          "text": "The road safety budget now sits in the hands of the Senate. Will our lawmakers finally put their money where their mouth is to protect commuters? Or will we see another year of zero funding for a crisis that claims thousands of Filipino lives?"
+        },
+        {
+          "type": "p",
+          "text": "Let’s keep a close eye on how government officials craft our national budget. Follow our #BudgetWatch page for more stories on where your taxes go (and where they don’t). – Rappler.com"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "grd-aoz2pv",
@@ -672,6 +1030,31 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inq-1dr3pvy",
+      "source": "inq",
+      "title": "NUPL hits Marcos' 'perplexed' remark on Pax Silica protests",
+      "summary": "MANILA, Philippines — The National Union of Peoples’ Lawyers (NUPL) on Sunday criticized the remarks of President Ferdinand Marcos Jr. on protests against the Pax Silica initiative, noting that his…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-22T09:43:19.000Z",
+      "firstSeen": "2026-11-22T10:31:03.075Z",
+      "url": "https://newsinfo.inquirer.net/2345283/nupl-hits-marcos-perplexed-remark-on-pax-silica-protests",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2023/01/NUPL-National-Union-of-Peoples-Lawyers-stock-01092023-300x169.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The National Union of Peoples’ Lawyers (NUPL) on Sunday criticized the remarks of President Ferdinand Marcos Jr. on protests against the Pax Silica initiative, noting that his administration already took measures to push for the said project. The NUPL issued this statement after Marcos last Friday said he was “perplexed” by the protests against the US-led initiative, as he stressed that “there is no deal yet.” He also said that the project does not include plans to build data centers in the country. READ: Marcos ‘perplexed’ by Pax Silica protests, says no data centers planned The NUPL said [&hellip;]... Keep on reading: NUPL hits Marcos' 'perplexed' remark on Pax Silica protests"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "abs-1io7ord",
       "source": "abs",
       "title": "Spikers' Turf: Player of the Week Mendoza shines as FEU reaches semis",
@@ -741,7 +1124,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-1xmwpzj",
@@ -767,6 +1150,106 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "star-195wovi",
+      "source": "star",
+      "title": "UN agency: 29% of Filipinos are aged 10-24, but fertility is below replacement level",
+      "summary": "The Philippines still has a large young population even as its demographic profile shifts.",
+      "byline": "Philstar.com",
+      "section": "",
+      "published": "2026-11-22T09:40:00.000Z",
+      "firstSeen": "2026-11-22T10:31:00.894Z",
+      "url": "https://www.philstar.com/headlines/2026/11/22/2571904/un-agency-29-filipinos-are-aged-10-24-fertility-below-replacement-level",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/11/22/philippines-youth-heat_2026-11-22_17-41-06.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "November 22, 2026 | 5:40pm"
+        },
+        {
+          "type": "p",
+          "text": "A student uses a paper bag to protect himself from the heat as he leaves school in Manila on March 3, 2025, where classes are suspended due to extreme heat."
+        },
+        {
+          "type": "p",
+          "text": "AFP / Jam Sta Rosa"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Nearly three in 10 Filipinos are between 10 and 24 years old, equivalent to roughly 34 million people. While that base is considered healthy for a nation, the fertility rate is already below replacement level, according to new United Nations population estimates."
+        },
+        {
+          "type": "p",
+          "text": "The United Nations Population Fund's State of World Population 2026 report estimates the Philippine population at 117.7 million this year, with people aged 10 to 24 accounting for 29%."
+        },
+        {
+          "type": "p",
+          "text": "The report notes country's total fertility rate at 1.9 children per woman, below the 2.1 births commonly considered the level needed for a population to replace itself from one generation to the next."
+        },
+        {
+          "type": "p",
+          "text": "The Philippines then has both a large cohort of young people remains a major part of the population and lower fertility that gradually changing the age profile of generations that follow."
+        },
+        {
+          "type": "p",
+          "text": "The Philippine share of people aged 10 to 24 is higher than both the global average of 24% and the Asia-Pacific average of 23%, according to the report."
+        },
+        {
+          "type": "p",
+          "text": "Fertility, meanwhile, is lower than the global rate of 2.2 children per woman but slightly higher than the Asia-Pacific rate of 1.8."
+        },
+        {
+          "type": "p",
+          "text": "The report estimates that 26% of Filipinos are under 15 years old, while 68% are between 15 and 64 and 6% are 65 or older."
+        },
+        {
+          "type": "p",
+          "text": "\"Both situations, high fertility and low fertility, will require sound, rights-based and forward-looking policies,\" the report said."
+        },
+        {
+          "type": "p",
+          "text": "UNFPA's 2026 report suggest that demographic shifts affect youner people's employment, housing, education and economic security as well as their decisions about relationships, independence and whether and when to have children."
+        },
+        {
+          "type": "p",
+          "text": "It said demographic outcomes ultimately reflect individual choices and whether people have the resources and opportunities to make those choices freely."
+        },
+        {
+          "type": "p",
+          "text": "Governments would therefore have to adapt policies covering human capital, employment, migration, care systems, healthy ageing and social protection rather than focus narrowly on raising or lowering fertility, the UN agency said."
+        },
+        {
+          "type": "h",
+          "text": "Fertility decline already visible"
+        },
+        {
+          "type": "p",
+          "text": "The UN estimate is consistent with the Philippines' most recent national demographic survey."
+        },
+        {
+          "type": "p",
+          "text": "While the UNFPA's 2026 demographic table estimates Philippine fertility at 1.9 children per woman, newer national survey data show the decline has gone further. The Philippine Statistics Authority's 2025 survey puts the rate at 1.7, from 1.9 in 2022 and 2.7 in 2017."
+        },
+        {
+          "type": "p",
+          "text": "The transition is also visible in the country's changing age structure."
+        },
+        {
+          "type": "p",
+          "text": "The 2024 census showed that children under 15 made up 26.7% of the household population, down from 30.7% in 2020. People aged 65 and older, meanwhile, accounted for 6.6%, up from 5.4% four years earlier."
+        },
+        {
+          "type": "p",
+          "text": "The working-age population, those between 15 and 64, increased to 66.7% of the household population from 63.9% in 2020."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inqn-1lhe889",
@@ -2686,31 +3169,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inqn-s09qf",
-      "source": "inqn",
-      "title": "Taal Volcano&#8217;s gas emissions rise as earthquakes decline",
-      "summary": "LUCENA CITY — Sulfur dioxide emissions from Taal Volcano in Batangas province have increased significantly, the Philippine Institute of Volcanology and Seismology (Phivolcs) reported Sunday, Nov. 22.…",
-      "byline": "mmercado",
-      "section": "Latest News Stories",
-      "published": "2026-11-22T08:41:24.000Z",
-      "firstSeen": "2026-11-22T01:00:59.063Z",
-      "url": "https://newsinfo.inquirer.net/2345091/taal-volcanos-gas-emissions-rise-as-earthquakes-decline",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/04/taal-volcano-11April2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LUCENA CITY — Sulfur dioxide emissions from Taal Volcano in Batangas province have increased significantly, the Philippine Institute of Volcanology and Seismology (Phivolcs) reported Sunday, Nov. 22. In its latest 24-hour monitoring, Phivolcs recorded 567 metric tons (MT) of sulfur dioxide emissions from the volcano, which it classified as a “weak emission.” The figure marked"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inq-2tyn4a",
       "source": "inq",
       "title": "WALANG PASOK: In-person classes, court operation suspensions on Nov. 23",
@@ -2903,15 +3361,15 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-938ype",
+      "id": "inq-1udolv5",
       "source": "inq",
-      "title": "US urges PH to resolve Pax Silica issues first, says Gathalian",
+      "title": "US urges PH to resolve Pax Silica issues first, says Gatchalian",
       "summary": "MANILA, Philippines – The United States wants the Philippine government to resolve issues related to the controversial Pax Silica initiative first before proceeding with an agreement, according to…",
       "byline": "",
       "section": "",
       "published": "2026-11-22T08:30:31.000Z",
-      "firstSeen": "2026-11-22T09:30:59.172Z",
-      "url": "https://newsinfo.inquirer.net/2345250/us-urges-ph-to-resolve-pax-silica-issues-first-says-gathalian",
+      "firstSeen": "2026-11-22T10:31:11.893Z",
+      "url": "https://newsinfo.inquirer.net/2345250/us-urges-ph-to-resolve-pax-silica-issues-first-says-gatchalian",
       "image": {
         "src": "https://newsinfo.inquirer.net/files/2026/06/Sherwin-Gatchalian-29June2026-620x349.jpg",
         "caption": ""
@@ -2919,7 +3377,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines – The United States wants the Philippine government to resolve issues related to the controversial Pax Silica initiative first before proceeding with an agreement, according to Senate President Sherwin Gatchalian. He said US Secretary of State Marco Rubio told him that the Philippines should be given enough time to address the various concerns surrounding the initiative. “He said he knows there are many issues and problems. We should not rush things and should give the Philippine government time to address these issues,” Gatchalian said in an interview with radio dzBB on Sunday, recounting the conversation he had with Rubio [&hellip;]... Keep on reading: US urges PH to resolve Pax Silica issues first, says Gathalian"
+          "text": "MANILA, Philippines – The United States wants the Philippine government to resolve issues related to the controversial Pax Silica initiative first before proceeding with an agreement, according to Senate President Sherwin Gatchalian. He said US Secretary of State Marco Rubio told him that the Philippines should be given enough time to address the various concerns surrounding the initiative. “He said he knows there are many issues and problems. We should not rush things and should give the Philippine government time to address these issues,” Gatchalian said in an interview with radio dzBB on Sunday, recounting the conversation he had with Rubio [&hellip;]... Keep on reading: US urges PH to resolve Pax Silica issues first, says Gatchalian"
         }
       ],
       "truncated": true,
@@ -4392,86 +4850,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-zsxzqx",
-      "source": "inq",
-      "title": "Comelec dismisses 'no-el' in 2028 claims anew",
-      "summary": "MANILA, Philippines — The Commission on Elections (Comelec) has once again dismissed resurfacing claims that there will be a “no-el” (no elections) scenario in 2028 as it emphasized that the poll…",
-      "byline": "postie",
-      "section": "",
-      "published": "2026-11-22T06:49:00.000Z",
-      "firstSeen": "2026-11-22T08:31:08.372Z",
-      "url": "https://www.inquirer.net/496558/comelec-dismisses-no-el-in-2028-claims-anew/",
-      "image": {
-        "src": "https://www.inquirer.net/wp-content/uploads/2026/11/Commission-on-Elections-Comelec-Chairman-George-Garcia-speaks-before-the-media-in-an-ambush-interview-on-Thursday-August-22-2024.-INQUIRER.net-photo-DIANNE-SAMPANG--620x349.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Commission on Elections (Comelec) has once again dismissed resurfacing claims that there will be a “no-el” (no elections) scenario in 2028 as it emphasized that the poll body is currently preparing for the much-anticipated elections."
-        },
-        {
-          "type": "p",
-          "text": "In an interview with dzBB on Sunday, Comelec chair George Erwin Garcia was asked about recent claims that there will be no elections in 2028."
-        },
-        {
-          "type": "p",
-          "text": "“Imposibleng mangyari. Ang Saligang Batas ang nagsasabing may eleksyon sa 2028. Walang kahit na anong batas ang pwedeng gawin ng kongreso, pirmahan ng pangulo ang makakapagbago sa Saligang Batas. Therefore, 100 percent naming ginagarantiya sa sambayanan na may halalan po tayo sa 2028.,” Garcia answered."
-        },
-        {
-          "type": "p",
-          "text": "(That is impossible to happen. The 1987 Constitution says that there shall be elections in 2028. The Congress cannot make any law that will be signed by the president to change the Constitution. Therefore, we guarantee 100 percent that there will be elections in 2028.)"
-        },
-        {
-          "type": "p",
-          "text": "The Article VII, Section 4 of the 1987 Constitution mandates that the president and vice president of the country must be elected for a term of six years, with their terms beginning at noon on the 30th day of June of the same election year."
-        },
-        {
-          "type": "p",
-          "text": "This came after Atty. Paolo Panelo, spokesperson of Vice President Sara Duterte, said in an interview with Bilyonaryo News Channel that he had a conversation with Duterte where she said that she received information for a “no-el” plan in 2028."
-        },
-        {
-          "type": "p",
-          "text": "Senior Deputy Speaker Ferdinand Hernandez on Thursday debunked the claims that members of House of Representatives are forming plans to postpone the 2028 elections."
-        },
-        {
-          "type": "p",
-          "text": "Garcia then said that the elections for the president and vice president cannot be likened to Barangay and Sangguniang Elections where they can be postponed or have their terms shortened or extended."
-        },
-        {
-          "type": "p",
-          "text": "“Sa president and vice president, di pwedeng baguhin ang termino sapagkat wala tayong hold over capacity. Matatapos at matatapos ang kanilang termino, June 30 tanghali ng 2028,” he added."
-        },
-        {
-          "type": "p",
-          "text": "(The terms of the president and vice president cannot be changed because we don’t have a hold over capacity. Their terms will end at noon of June 30, 2028.)"
-        },
-        {
-          "type": "p",
-          "text": "Election preparations"
-        },
-        {
-          "type": "p",
-          "text": "Garcia also shared updates on Comelec’s preparations for the 2028 elections, noting that the filing of certificates of candidacy (COC) will be scheduled on September 20-26, 2027."
-        },
-        {
-          "type": "p",
-          "text": "Garcia earlier said that the poll body will open the period filing of COCs earlier than the usual timeline of the first week of October so they can resolve disputes on candidacies and can immediately start printing of official ballots."
-        },
-        {
-          "type": "p",
-          "text": "Aside from this, he said that the poll body began the bidding process for the internet voting system and transmission services. He added that the procurement process for the automated counting machines (ACMs) will start by December this year."
-        },
-        {
-          "type": "p",
-          "text": "Garcia also said that the poll body will allocate P22 billion for the leasing of the ACMs, which is the same mechanism it used for the 2025 midterm elections. However, he clarified that the ACMs used in the previous elections will not be used in the 2028 elections as the machines have to be brand new. /ms"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1dvs0mg",
       "source": "abs",
       "title": "Mindoro mayors seek national gov't support ahead of El Niño drought",
@@ -4533,31 +4911,6 @@
         {
           "type": "p",
           "text": "TEHRAN, Iran — Bahrain accused Iran of striking a civilian industrial facility on Saturday, causing a fire and damage but no casualties, while two tankers were hit in the Strait of Hormuz, at the center of the Middle East conflict. The Gulf kingdom has suffered several attacks this week, ending a weeks-long lull in the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-17u3jlg",
-      "source": "inq",
-      "title": "Spikers' Turf: Lirick Mendoza keeps FEU's campaign going",
-      "summary": "MANILA, Philippines — Far Eastern University–DN Steel still has more songs to play after punching its ticket to the semifinals of the 2026 Spikers’ Turf Invitational Conference, all thanks to Lirick…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-22T06:41:45.000Z",
-      "firstSeen": "2026-11-22T07:01:00.812Z",
-      "url": "https://sports.inquirer.net/708138/spikers-turf-lirick-mendoza-keeps-feus-campaign-going",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/ST-INV-Criss-Cross-vs.-FEU-Lirick-Mendoza-8632-620x414.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Far Eastern University–DN Steel still has more songs to play after punching its ticket to the semifinals of the 2026 Spikers’ Turf Invitational Conference, all thanks to Lirick Mendoza’s heroics. With their backs against the wall, Mendoza stepped up when it mattered most and powered the Tamaraws to a semifinal seat-clinching win over erstwhile surging Alpha Insurance, 33-31, 25-18, 19-25, 25-20, on Wednesday at the FilOil EcoOil Centre in San Juan City. Mendoza dropped 18 points on 11 attacks and seven blocks as FEU-DN Steel snapped the Protectors’ five-game winning streak and secured its ticket to the next round. [&hellip;]... Keep on reading: Spikers' Turf: Lirick Mendoza keeps FEU's campaign going"
         }
       ],
       "truncated": true,
@@ -4814,31 +5167,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-ibxikc",
-      "source": "inq",
-      "title": "Eastern Visayas youth groups warn Pax Silica may spur exploitation",
-      "summary": "TACLOBAN CITY — Youth groups across Eastern Visayas have strongly opposed the proposed Pax Silica initiative, warning that it could pave the way for the exploitation of the region’s mineral resources…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-22T06:09:18.000Z",
-      "firstSeen": "2026-11-22T06:30:56.309Z",
-      "url": "https://newsinfo.inquirer.net/2345220/eastern-visayas-youth-groups-warn-pax-silica-may-spur-exploitation",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/EASTERN-VISAYAS-MAP-09082022-300x171.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TACLOBAN CITY — Youth groups across Eastern Visayas have strongly opposed the proposed Pax Silica initiative, warning that it could pave the way for the exploitation of the region’s mineral resources and intensify foreign military presence in their communities. In a joint statement on Nov. 21, the groups accused the Marcos administration of prioritizing US economic and military interests over national sovereignty. The said Eastern Visayas could become a target for resource extraction because of its deposits of bauxite, manganese, and chromite. “Our land is not yours to plunder,” the groups added, calling on students and youth organizations to unite against [&hellip;]... Keep on reading: Eastern Visayas youth groups warn Pax Silica may spur exploitation"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "bbc-kv1qua",
@@ -6471,207 +6799,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "rap-1dg81cb",
-      "source": "rap",
-      "title": "[Two Pronged] My son&#8217;s future wife is 5 months pregnant with someone else&#8217;s baby",
-      "summary": "Our letter sender is worried about her son, who loves someone who came back into his life when she was five months pregnant. How does one respond to a situation like this?",
-      "byline": "Margarita Holmes, Jeremy Baer",
-      "section": "Human Interest",
-      "published": "2026-11-22T03:00:00.000Z",
-      "firstSeen": "2026-11-22T03:01:03.928Z",
-      "url": "https://www.rappler.com/people/human-interest/two-pronged-son-future-wife-pregnant-not-his-baby/",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Rappler’s People section runs an advice column by couple Jeremy Baer and clinical psychologist Dr. Margarita Holmes."
-        },
-        {
-          "type": "p",
-          "text": "Jeremy has a master’s degree in law from Oxford University. A banker of 37 years who worked in three continents, he has been training with Dr. Holmes for the last 10 years as co-lecturer and, occasionally, as co-therapist, especially with clients whose financial concerns intrude into their daily lives."
-        },
-        {
-          "type": "p",
-          "text": "Together, they have written two books: Love Triangles: Understanding the Macho-Mistress Mentality and Imported Love: Filipino-Foreign Liaisons."
-        },
-        {
-          "type": "p",
-          "text": "Dear Dr Holmes and Mr Baer,"
-        },
-        {
-          "type": "p",
-          "text": "My son Rafael (29 years old) met his old girlfriend Bea after 12 years of being apart."
-        },
-        {
-          "type": "p",
-          "text": "Her family left for another country and, being just 17 then, she had to go with them. But she said that now that she has reached the age of majority and can live where she wants, she flew back here because “she could never forget Rafael.”"
-        },
-        {
-          "type": "p",
-          "text": "Rafael was inconsolable when she left. His friends and even his father, encouraged him to meet someone else he could love and introduced him to countless appropriate women. Even when he agreed to go out on dates, his heart was not in it."
-        },
-        {
-          "type": "p",
-          "text": "We would talk often then. I did my best to console him. He never seemed to get over her."
-        },
-        {
-          "type": "p",
-          "text": "She, however, seems to have gotten over him, despite her saying she never stopped loving him. She is now five months pregnant. It still doesn’t show, but Rafael told me immediately after she told him."
-        },
-        {
-          "type": "p",
-          "text": "He plans to marry her as soon as they can. I know they can do it much faster with my support. But I cannot give it."
-        },
-        {
-          "type": "p",
-          "text": "Imagine, my son being cuckolded like that! I asked him, his friends asked him how he could feel nothing about the fact that he was not her first love. He told them that, as long as he is her last love, he was fine with that."
-        },
-        {
-          "type": "p",
-          "text": "I told him I could never accept a grandchild that is not of my blood, but he said he was sure I would change my mind after that."
-        },
-        {
-          "type": "p",
-          "text": "There are other problems surrounding such a marriage. I cannot fathom his even thinking of doing this: a grown man behaving like a 15-year old schoolboy."
-        },
-        {
-          "type": "p",
-          "text": "Please help,"
-        },
-        {
-          "type": "p",
-          "text": "– Disappointed Mother"
-        },
-        {
-          "type": "p",
-          "text": "Dear Disappointed Mother (DM),"
-        },
-        {
-          "type": "p",
-          "text": "Thank you for your email."
-        },
-        {
-          "type": "p",
-          "text": "It is entirely appropriate that you should be concerned for your son given the circumstances."
-        },
-        {
-          "type": "p",
-          "text": "On the face of it, Bea seems to be taking advantage of his feelings for her, having failed (for whatever reason) to marry the biological father of her unborn child."
-        },
-        {
-          "type": "p",
-          "text": "What is unclear from your account is why Bea has waited so long to return to what she describes as someone she could never forget and never stopped loving."
-        },
-        {
-          "type": "p",
-          "text": "Her reason for leaving seems valid but surely she could have returned much earlier, once she became legally an adult, if this is truly how she felt/feels."
-        },
-        {
-          "type": "p",
-          "text": "This is potentially a red flag although of course there may be a perfectly sound explanation which may clear the air."
-        },
-        {
-          "type": "p",
-          "text": "Having said this and if Raphael insists on marrying Bea, you might perhaps reconsider your opposition to such an outcome."
-        },
-        {
-          "type": "p",
-          "text": "You say that Bea cuckolded him but this is a gross misinterpretation of the situation."
-        },
-        {
-          "type": "p",
-          "text": "They were not in any sort of relationship, much less married, when Bea became pregnant and therefore there was no question of infidelity whatsoever."
-        },
-        {
-          "type": "p",
-          "text": "Her actions may make her protestations of always loving Raphael decidedly questionable but nothing more."
-        },
-        {
-          "type": "p",
-          "text": "As for your intention to reject her child, are you really going to endanger your relationship with Raphael through such a course of action? You characterize his behavior as that of a 15 year old schoolboy; others might describe it as showing considerable maturity in the face of a full understanding of all the facts."
-        },
-        {
-          "type": "p",
-          "text": "You supported Raphael when Bea left and during his subsequent 12 years of grief; shouldn’t you be there for him when he then finds happiness with her?"
-        },
-        {
-          "type": "p",
-          "text": "Maybe it’s time to meet with Bea again. You may find a young woman who has more in common with you than you expected; after all, you both love Raphael."
-        },
-        {
-          "type": "p",
-          "text": "Best wishes,– JAF Baer"
-        },
-        {
-          "type": "p",
-          "text": "Dear DM,"
-        },
-        {
-          "type": "p",
-          "text": "Thank you very much for your letter. I am glad you have mentioned your concerns and your feelings of doubt, and even anger, towards Bea. Not only because she is pregnant with another man’s child, but because you probably feel she did not pine away as deeply, or as intensely, as Rafael did."
-        },
-        {
-          "type": "p",
-          "text": "True, you are really not clear on what sort of social and love life Bea had the 12 years she was away, but you know enough to presume it was a lot more active than Rafael’s because how else could she have gotten pregnant."
-        },
-        {
-          "type": "p",
-          "text": "Thus, it seems to me part of your mixed feelings towards Bea is due to what most mothers would feel towards the marriage if they were not comfortable with it: a sense of losing him to his soon-to-be-wife, instead of the old saying that “you are actually gaining a daughter!”"
-        },
-        {
-          "type": "p",
-          "text": "“But what sort of daughter,” you are probably asking yourself, “and even if she answers my questions or ‘volunteers’ some answers, how do I know she is telling the truth?”"
-        },
-        {
-          "type": "p",
-          "text": "Because of the particular circumstances of Rafael’s and Bea’s marriage, it is perfectly understandable for you to feel this way, to be wary of their marriage and yes, even hope it doesn’t pull through. But Rafael seems to dead set on it, as does she, and each will fight any dissension that may come up."
-        },
-        {
-          "type": "p",
-          "text": "This is probably another reason Rafael’s decisions hurt you so much. You have comforted him as much as you could during his 12 miserable years without her… and then she comes swanning in, without any reasonable explanation except she “could not forget Rafael.”"
-        },
-        {
-          "type": "p",
-          "text": "I can imagine how hard it must be to always hold your tongue and not say to her, “Well, you sure did at least one time 5 months ago.”"
-        },
-        {
-          "type": "p",
-          "text": "How it must have hurt you that you, the only woman in his life for the last 12 years, could be discarded so quickly once the love of his life came back to him."
-        },
-        {
-          "type": "p",
-          "text": "Dearest DM, I hope you do not think I am making gatong” (making it worse). I am merely repeating what my other clients have told me in similar situations."
-        },
-        {
-          "type": "p",
-          "text": "You may not see them as “soul mates destined to be with each other for all time,” but Rafael (and, I imagine, even Bea) certainly does. You may not see Rafael as loving her first child as much as he would his future children with her, but again, these soul mates do."
-        },
-        {
-          "type": "p",
-          "text": "For the sake of your son, and the possible relationship you may have with Bea and her child, I suggest you keep such thoughts to yourself if you are able to. Perhaps this will help make this suggestion more palatable: You cannot be sure your change of attitude (and hopefully the behavior that comes with it) may not necessarily mean all will be okay immediately, especially with you."
-        },
-        {
-          "type": "p",
-          "text": "BUT you can be sure it will be difficult to repair your growing family, which now includes Bea and her unborn child, if you sully their coming marriage in any way."
-        },
-        {
-          "type": "p",
-          "text": "This suggestion is not encouraging you to be a hypocrite. Rather, it just encourages you to respond to your resilience over Rafael’s seeming abandonment of you by your acceptance that this is what marriage means in healthy families — your openness to give fate a chance."
-        },
-        {
-          "type": "p",
-          "text": "All the best— MG Holmes"
-        },
-        {
-          "type": "p",
-          "text": "Life got complicated? Write to our Two Pronged duo at twopronged@rappler.com."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "feed"
-    },
-    {
       "id": "star-1y7a6tv",
       "source": "star",
       "title": "Analog TV stays on until Jan. 15 as NTC extends shutdown",
@@ -7305,135 +7432,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "rap-131v71c",
-      "source": "rap",
-      "title": "How one teen turns internet trends into viral Filipino covers",
-      "summary": "After listeners mistook his recordings for AI-generated music, young TikTok creator Malin — whose hit covers include 'Seis Syete' and 'Made in Philippines' — makes it clear that every lyric and note…",
-      "byline": "Dominique Astucia",
-      "section": "Artists",
-      "published": "2026-11-22T02:00:00.000Z",
-      "firstSeen": "2026-11-22T02:31:00.144Z",
-      "url": "https://www.rappler.com/people/artists/malin-tiktok-internet-trends-viral-filipino-covers/",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The question kept appearing under Malin’s videos: Was the voice real, or had it been generated by artificial intelligence (AI)?"
-        },
-        {
-          "type": "p",
-          "text": "After viewers began mistaking his covers for AI-generated music, the 16-year-old TikTok creator added a blunt line to his bio: “NO AI USE HERE.”"
-        },
-        {
-          "type": "p",
-          "text": "Malin, who posts as @postju on TikTok, said the questions started after someone posted one of his covers with its lyrics. Viewers assumed the recording was made by AI, and his own comment section soon filled with people asking the same thing."
-        },
-        {
-          "type": "p",
-          "text": "The reaction was frustrating, he said. But it also pushed him to make clear that his covers were made by a person, not a machine."
-        },
-        {
-          "type": "p",
-          "text": "As of November 20, 2026, Malin’s TikTok account had about 32,300 followers. Three of his most-viewed Filipino covers — “Seis Syete,” “Made in Philippines” and “Malaki Ka Na” — had reached about 3.7 million, 2.4 million, and 1.3 million views, respectively."
-        },
-        {
-          "type": "p",
-          "text": "Music has always been a way for Malin to express what he feels. He found a community of fellow music fans online and discovered the joy of sharing songs with others."
-        },
-        {
-          "type": "p",
-          "text": "That community encouraged him to start singing and eventually put his own voice and language into the music he loved, he said."
-        },
-        {
-          "type": "p",
-          "text": "Malin began posting music covers on TikTok in September 2025, starting with K-pop songs. He enjoyed the challenge of singing in another language, which he described as a stepping stone to exploring his potential."
-        },
-        {
-          "type": "p",
-          "text": "He also listens to older Original Pilipino Music (OPM) acts such as Cinderella, although he said he does not have any prominent musical influences. His creativity and passion, he added, are what drive him."
-        },
-        {
-          "type": "p",
-          "text": "The decision to translate songs into Filipino came from his appreciation of the language. “When a song is translated into Filipino, it sounds more intimate and more romantic, like it’s closer to the heart,” he told Rappler."
-        },
-        {
-          "type": "p",
-          "text": "His shift came after he wrote “Made in Philippines,” a Filipino version of “Made in Japan” by American singer Buck Owens, as a birthday gift for a friend. At the time, his videos usually received about 100 likes in a day. The cover reached 2,000 likes within 24 hours, then continued to gain attention."
-        },
-        {
-          "type": "p",
-          "text": "That response made him realize that translating songs could become the focus of his content — work he enjoyed doing even before it drew a larger audience."
-        },
-        {
-          "type": "p",
-          "text": "Malin is among Filipino creators who turn familiar online material into music. DJ Cupcakes makes remixes from viral clips and Filipino internet culture, while music scorer Ralph Novero turns classic Filipino recipes into song covers."
-        },
-        {
-          "type": "p",
-          "text": "Malin’s choices are often shaped by the trends circulating in his online circles. When looking for songs to cover, he checks with friends and pays attention to the sounds they keep using."
-        },
-        {
-          "type": "p",
-          "text": "But he does not simply translate lyrics word for word. Instead, he builds his versions around a song’s central theme and the feeling he wants to convey."
-        },
-        {
-          "type": "p",
-          "text": "“I’d rather capture the feelings than copy the words,” he said."
-        },
-        {
-          "type": "p",
-          "text": "Most of his covers are serious, but some are satirical and meant to make viewers laugh because of their absurdity. His “Seis Syete” cover, he said, made people both angry and amused."
-        },
-        {
-          "type": "p",
-          "text": "He often posts a short version first, using a song’s catchiest or most popular section to see whether viewers want more. Malin said TikTok’s copyright system makes it difficult for some longer covers to remain online, so he waits for audience demand before attempting a full version."
-        },
-        {
-          "type": "p",
-          "text": "Viewers also influence how he posts. Their support encouraged him to upload daily, and he began posting earlier so people could see his videos sooner. He reads comments when he can, taking note of song suggestions and ways to improve his singing and translations."
-        },
-        {
-          "type": "p",
-          "text": "One comment stayed with him: a listener asked for a full version after the fan’s mother liked Malin’s cover so much that she preferred it to the original. The response changed how he viewed his work. He had thought his covers were low-quality and did not deserve the attention they received."
-        },
-        {
-          "type": "p",
-          "text": "Despite the growing audience, Malin does not treat his covers as a source of income. He said it would be nice to earn passive income someday, but he is not actively pursuing it. “I’m not doing this for money,” he said."
-        },
-        {
-          "type": "p",
-          "text": "Malin said making music without AI is a matter of honesty. “Every mistake I make and every note I sing comes from my own effort, my own feelings, and my own voice,” he said. “The human touch is what gives music its soul, and that is something I want to keep.”"
-        },
-        {
-          "type": "p",
-          "text": "He writes lyrics in his Notes app and records using a PC, a Shure SM58 microphone, and a Maono PS22 Lite audio interface. He uses BandLab and FL Studio in his creative process."
-        },
-        {
-          "type": "p",
-          "text": "He would not want AI to do any part of his covers, especially the singing. Asked whether he would consider using AI as a creative aid, he said no, calling it “lazy” and saying it would make the music “soulless.”"
-        },
-        {
-          "type": "p",
-          "text": "Malin’s experience comes as AI-generated song covers spread on TikTok, prompting artists to raise concerns about job security and the lack of regulation."
-        },
-        {
-          "type": "p",
-          "text": "Malin said the issue is also about how listeners recognize the work that goes into a song. He hopes to release an original song someday, building on what he has learned from translating and recording covers."
-        },
-        {
-          "type": "p",
-          "text": "Until then, he continues to make his covers “with all my love and soul” and wants people to remember that the voice they hear is his. – Rappler.com"
-        },
-        {
-          "type": "p",
-          "text": "Dominique Astucia is a Rappler intern studying BA Journalism at the University of Santo Tomas."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "feed"
     },
     {
       "id": "gma-bnxguh",
@@ -10739,66 +10737,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "star-zndi3i",
-      "source": "star",
-      "title": "Philippines named Best Retirement Destination",
-      "summary": "The Philippines has been named the Best Retirement Destination in the World at the TripZilla Excellence Awards 2026, the international media group announced earlier this month.",
-      "byline": "The Philippine Star",
-      "section": "",
-      "published": "2026-11-21T16:00:00.000Z",
-      "firstSeen": "2026-11-21T16:31:02.106Z",
-      "url": "https://www.philstar.com/headlines/2026/11/22/2571794/philippines-named-best-retirement-destination",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/11/21/8_2026-11-21_22-39-47.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "November 22, 2026 | 12:00am"
-        },
-        {
-          "type": "p",
-          "text": "The Philippines took the Asia’s Best Retirement Destination award in 2025."
-        },
-        {
-          "type": "p",
-          "text": "STAR / File"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Philippines has been named the Best Retirement Destination in the World at the TripZilla Excellence Awards 2026, the international media group announced earlier this month."
-        },
-        {
-          "type": "p",
-          "text": "The Philippine Retirement Authority (PRA) was recognized as Best Retiree Support Program, marking a proud milestone and celebrating its commitment to delivering outstanding experiences and services."
-        },
-        {
-          "type": "p",
-          "text": "Now on its 12th edition, the TripZilla Excellence Awards honor outstanding travel brands, destinations and organizations for their achievements and contributions to the travel industry."
-        },
-        {
-          "type": "p",
-          "text": "Issued by the Bureau of Immigration through the PRA, the Special Resident Retiree’s Visa (SRRV) is a special non-immigrant visa granting permanent stay and multiple-entry privileges to foreign nationals."
-        },
-        {
-          "type": "p",
-          "text": "Alongside it, the PRA’s WE CARE initiative simplifies paperwork and expands client care, health care and lifestyle services."
-        },
-        {
-          "type": "p",
-          "text": "“We are truly honored to receive this award. This recognition is a wonderful encouragement to our team and a reminder of the importance of the work we do. We are grateful to everyone who has supported us along the way, and we look forward to building on this achievement in the years ahead,” said Bob Zozobrado, CEO and general manager of PRA."
-        },
-        {
-          "type": "p",
-          "text": "The PRA is an attached agency of the Department of Tourism responsible for promoting the Philippines as a premier retirement destination while attracting and assisting foreign retirees and former Filipinos to retire, invest and permanently reside in the country."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "gma-k28b17",
       "source": "gma",
       "title": "Senate cuts P97B in DPWH projects over non-compliance",
@@ -13162,42 +13100,20 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-124o2xa",
+      "id": "abs-1qz95gg",
       "source": "abs",
-      "title": "TV PATROL: 2 lalaki arestado matapos nakawin at baklasin ang motorsiklo sa Maynila",
-      "summary": "Kalaboso ang dalawang lalaki matapos nakawin at baklasin ang motorsiklo sa Tondo, Maynila.",
+      "title": "Dingdong Dantes and Marian Rivera Deliver Unforgettable Performances in ‘Remember’",
+      "summary": "Here's what we loved about \"Remember,\" starring Dingdong Dantes and Marian Rivera, and what their pre-holiday, big-screen present made us remember.",
       "byline": "",
       "section": "",
-      "published": "2026-11-21T10:28:55.000Z",
-      "firstSeen": "2026-11-21T10:30:57.036Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/21/tv-patrol-2-lalaki-arestado-matapos-nakawin-at-baklasin-ang-motorsiklo-sa-maynila-1828",
+      "published": "2026-11-21T10:00:04.000Z",
+      "firstSeen": "2026-11-22T10:31:09.894Z",
+      "url": "https://www.abs-cbn.com/people/2026/11/21/metro-digital-cover-dingdong-dantes-marian-rivera-deliver-unforgettable-performances-in-remember-1800",
       "image": null,
       "blocks": [
         {
           "type": "p",
-          "text": "Kalaboso ang dalawang lalaki matapos nakawin at baklasin ang motorsiklo sa Tondo, Maynila."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-7xmpf2",
-      "source": "abs",
-      "title": "THREE-PEAT: NU ‘tribe’ brings the vibes for third straight UAAP CDC crown",
-      "summary": "The National University Pep Squad delivered a near-flawless performance to complete a three-peat in the UAAP Season 89 Cheerdance Competition on Saturday at the Mall of Asia Arena in Pasay.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-21T10:21:01.000Z",
-      "firstSeen": "2026-11-21T10:30:57.099Z",
-      "url": "https://www.abs-cbn.com/sports/othersports/2026/11/21/three-peat-nu-tribe-brings-the-vibes-for-third-straight-uaap-cdc-crown-1821",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The National University Pep Squad delivered a near-flawless performance to complete a three-peat in the UAAP Season 89 Cheerdance Competition on Saturday at the Mall of Asia Arena in Pasay."
+          "text": "Here's what we loved about \"Remember,\" starring Dingdong Dantes and Marian Rivera, and what their pre-holiday, big-screen present made us remember."
         }
       ],
       "truncated": true,
@@ -16838,28 +16754,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-i0gpfp",
-      "source": "abs",
-      "title": "'Ex-driver' again claims suitcase deliveries from Velasco to Sara Duterte",
-      "summary": "The alleged former driver of ex-House Speaker Lord Allan Velasco, who claimed to have delivered suitcases supposedly containing money to Vice President Sara Duterte, said Friday that he is seeking…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-20T23:15:45.000Z",
-      "firstSeen": "2026-11-21T15:00:59.426Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/20/-ex-driver-again-claims-suitcase-deliveries-from-velasco-to-duterte-vp-s-camp-denies-allegation-2227",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The alleged former driver of ex-House Speaker Lord Allan Velasco, who claimed to have delivered suitcases supposedly containing money to Vice President Sara Duterte, said Friday that he is seeking protection under the Department of Justice's (DOJ) Witness Protection Program (WPP)."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "bbc-3nu7uo",
       "source": "bbc",
       "title": "US declassifies more UFO footage filmed in the Middle East",
@@ -16890,28 +16784,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-1mpvlaq",
-      "source": "abs",
-      "title": "22 sakay, kabilang ang mga turista, nailigtas sa nasiraang motor banca sa Coron",
-      "summary": "Nailigtas ng Philippine Coast Guard (PCG) ang 22 sakay ng motor banca na MBCA Ocean's Wanderer matapos itong masiraan ng makina 7-nautical miles mula sa Coron Bay nitong gabi ng Huwebes, Nobyembre 19.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-20T23:09:38.000Z",
-      "firstSeen": "2026-11-22T00:01:16.857Z",
-      "url": "https://www.abs-cbn.com/news/regions/2026/11/21/22-sakay-kabilang-ang-mga-turista-nailigtas-sa-nasiraang-motor-banca-sa-coron-0709",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Nailigtas ng Philippine Coast Guard (PCG) ang 22 sakay ng motor banca na MBCA Ocean's Wanderer matapos itong masiraan ng makina 7-nautical miles mula sa Coron Bay nitong gabi ng Huwebes, Nobyembre 19."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "bbc-1q4cg0e",
@@ -17024,50 +16896,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-1iyt2rd",
-      "source": "abs",
-      "title": "MMA: Joshua Pacio back in PH after successful ONE title defense",
-      "summary": "ONE Strawweight World Champion Joshua \"The Passion\" Pacio is back in the country after a successful title defense in Japan.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-20T23:03:08.000Z",
-      "firstSeen": "2026-11-22T00:01:18.247Z",
-      "url": "https://www.abs-cbn.com/sports/othersports/2026/11/21/mma-joshua-pacio-back-in-ph-after-successful-one-title-defense-0703",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "ONE Strawweight World Champion Joshua \"The Passion\" Pacio is back in the country after a successful title defense in Japan."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1j1rsul",
-      "source": "abs",
-      "title": "Ombudsman dismisses P180-M disaster fund complaint vs Laguna Gov. Aragones",
-      "summary": "The Office of the Ombudsman has dismissed one of the complaints filed by Laguna Provincial Board Member Karla Monica Adajar-Lajara against Governor Sol Aragones over the alleged irregular use of…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-20T23:02:31.000Z",
-      "firstSeen": "2026-11-22T00:01:18.247Z",
-      "url": "https://www.abs-cbn.com/news/regions/2026/11/21/ombudsman-dismisses-p180-m-disaster-fund-complaint-vs-laguna-gov-aragones-0702",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Office of the Ombudsman has dismissed one of the complaints filed by Laguna Provincial Board Member Karla Monica Adajar-Lajara against Governor Sol Aragones over the alleged irregular use of disaster funds."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "bbc-oonosa",
