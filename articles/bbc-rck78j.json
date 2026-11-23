@@ -3,9 +3,9 @@
   "source": "bbc",
   "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
   "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
-  "byline": "",
+  "byline": "Kali Hays",
   "section": "",
-  "published": "2026-11-23T22:15:26.000Z",
+  "published": "2026-11-23T22:45:51.000Z",
   "firstSeen": "2026-11-23T22:31:02.166Z",
   "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
   "image": {
@@ -15,11 +15,62 @@
   "blocks": [
     {
       "type": "p",
-      "text": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public."
+      "text": "The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America."
+    },
+    {
+      "type": "p",
+      "text": "The US Department of Commerce announced on Monday that it planned to add Megaspeed Ltd to a list of entities that are blacklisted from buying or selling goods in the US."
+    },
+    {
+      "type": "p",
+      "text": "The company is mainly a developer of data centres, but in recent weeks, a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang."
+    },
+    {
+      "type": "p",
+      "text": "The relationship led to additional scrutiny by US officials and heightened concern that Megaspeed was funneling Nvidia's advanced AI computer chips to China."
+    },
+    {
+      "type": "p",
+      "text": "When exactly the ban against Megaspeed will go into effect was not specified in the Commerce announcement. The BBC has asked the agency for comment, along with the White House and Megaspeed."
+    },
+    {
+      "type": "p",
+      "text": "Megaspeed was not well known within the US until last month, when media reports emerged that a former Megaspeed executive, Alice Huang, had carried on an affair with Jensen Huang."
+    },
+    {
+      "type": "p",
+      "text": "Alice Huang was thought by the US intelligence apparatus to be working as an asset for Beijing, creating national security concerns within the US."
+    },
+    {
+      "type": "p",
+      "text": "China has denied that she is a spy and warned the US not to use the scandal as a \"pretext for imposing a technological blockade\" on AI technology."
+    },
+    {
+      "type": "p",
+      "text": "Days later, another alleged affair surfaced involving Jensen Huang and the CEO resigned. On Monday, Nvidia's board reinstated him after US President Donald Trump said he \"convinced\" the company and \"made the deal\"."
+    },
+    {
+      "type": "p",
+      "text": "The Commerce Department has said it had been investigating Megaspeed for almost two years prior to the affair incident."
+    },
+    {
+      "type": "p",
+      "text": "The department said it had suspected the company was violating US export controls by helping to get Nvidia's chips into the hands of companies within China. China has been blocked from buying such technology since 2022."
+    },
+    {
+      "type": "p",
+      "text": "Although based in Singapore, Megaspeed has significant business dealings in China, Alibaba, for instance, the major Chinese online retailer, is its largest customer."
+    },
+    {
+      "type": "p",
+      "text": "This breaking news story is being updated and more details will be published shortly. Please refresh the page for the fullest version."
+    },
+    {
+      "type": "p",
+      "text": "You can receive Breaking News on a smartphone or tablet via the BBC News App. You can also follow @BBCBreaking on X, external to get the latest alerts."
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct returned no extractable article text"
+  "source_of_text": "page"
 }
