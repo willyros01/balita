@@ -1,0 +1,105 @@
+{
+  "id": "inq-1vpjo4s",
+  "source": "inq",
+  "title": "Plastering House Bill 11014 against real world AI workflows",
+  "summary": "For most of the last two years, we&#8217;ve treated AI as something we talk to. There is a dialogue of sorts happening – if you would like to call “talking to an AI” a dialogue. It’s a back and forth…",
+  "byline": "Jayvee Fernandez",
+  "section": "",
+  "published": "2026-11-24T13:18:10.000Z",
+  "firstSeen": "2026-11-24T13:31:02.221Z",
+  "url": "https://technology.inquirer.net/150617/plastering-house-bill-11014-against-real-world-ai-workflows",
+  "image": {
+    "src": "https://technology.inquirer.net/files/2026/11/pexels-markus-winkler-1430818-18548425-470x313.jpg",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "For most of the last two years, we’ve treated AI as something we talk to. There is a dialogue of sorts happening – if you would like to call “talking to an AI” a dialogue. It’s a back and forth of asking questions and it spits out answers. What happens when you try to apply House Bill 11014: The AI Agent Transactions and Accountability Act, against real world AI workflows"
+    },
+    {
+      "type": "p",
+      "text": "This is changing on many fronts from both vendors and interestingly, congress."
+    },
+    {
+      "type": "h",
+      "text": "The vendor’s case"
+    },
+    {
+      "type": "p",
+      "text": "At a virtual media roundtable on November 12, Gavin Barfield, Salesforce’s Chief Technology Officer and Vice President for Solutions in ASEAN, framed the problem in terms I found useful. Models are good at interpreting what someone wants, but their answers can vary. Business execution is deterministic: the same inputs and the same rules should produce the same approval every time. His line was that models are brilliant but can’t run the enterprise by themselves. Which is, by the way, why you still need people."
+    },
+    {
+      "type": "p",
+      "text": "Salesforce’s answer is what it calls a Trusted Enterprise AI Harness, six capabilities plus a control plane covering context, agency, action, governance, security and the models themselves. The model reasons and proposes, and the business system decides what is permitted."
+    },
+    {
+      "type": "p",
+      "text": "The second half of the pitch is about where this happens. Through AIforce, Salesforce wants its data and workflows to show up inside the tools people already use, whether that’s Slack, Claude Cowork or Lightning. On November 19, the company and Microsoft announced Copilotforce at Ignite, which extends the same idea into Microsoft Copilot and Teams."
+    },
+    {
+      "type": "p",
+      "text": "It’s still early: the Copilot integration is in public preview and the Teams piece is a pilot. One detail stood out to me. Supported writebacks to the CRM require explicit user confirmation."
+    },
+    {
+      "type": "image",
+      "src": "https://technology.inquirer.net/files/2026/11/pexels-markus-winkler-1430818-18548425-1200x740.jpg",
+      "caption": "AI in legal"
+    },
+    {
+      "type": "h",
+      "text": "The local Salesforce office milestone"
+    },
+    {
+      "type": "p",
+      "text": "There’s a Philippine angle too. Barfield said Salesforce opened its local office a year ago and that it keeps adding space and headcount. Asked for a growth figure and a count of local customers running live agents, he gave neither. What he did offer was a change in how projects are sold: working agents in a couple of weeks, tied to a KPI baseline, because CFOs and COOs no longer pay for experiments. His own numbers are tidy. He said briefing prep for a C-level meeting once took four to five hours and now takes about three minutes through Slackbot."
+    },
+    {
+      "type": "p",
+      "text": "He also cited $100 million in annual savings from Salesforce’s own help site. These are Salesforce’s figures about Salesforce. The same goes for the 90% pilot failure rate he cited, which he sourced to a Salesforce article without saying whether it describes global or Philippine deployments."
+    },
+    {
+      "type": "h",
+      "text": "AI accountability in congress"
+    },
+    {
+      "type": "p",
+      "text": "House Bill 11014, the AI Agent Transactions and Accountability Act, was filed on August 27 by Representatives Miguel Luis Villafuerte, Vincenzo Renato Luigi Villafuerte, Tsuyoshi Anthony Horibata and Terry Ridon. Its starting premise is the opposite of “the agent decided.” An act performed through an AI agent is attributed to the Principal, the person or company that authorized it. The bill says explicitly that a Principal can’t dodge responsibility by arguing the agent acted autonomously or probabilistically. That word appears in the text, and it is the same one Barfield used to describe models."
+    },
+    {
+      "type": "p",
+      "text": "The bill is not hostile to agents. It says using one doesn’t invalidate an otherwise valid contract under the E-Commerce Act, and it doesn’t require a human to confirm each step if authority was properly granted. It sets up a voluntary credential through the DICT so a counterparty can check what an agent is allowed to do. Mandatory registration is reserved for narrowly designated high-risk categories, after public consultation."
+    },
+    {
+      "type": "p",
+      "text": "Principals do get defenses: stolen credentials, a cyberattack, unauthorized modification of the agent, third-party fraud, or a provider failure outside their reasonable control. Knowing fraud or falsification carries fines of ₱200,000 to ₱2 million, or six months to six years in prison."
+    },
+    {
+      "type": "h",
+      "text": "Governance and the human element"
+    },
+    {
+      "type": "p",
+      "text": "Read side by side, these documents disagree on one thing, and it matters. Salesforce says its governance layer makes agents trustworthy. The bill says trust is a good thing to have, and liability sits with the customer. A vendor can offer audit trails and guardrails. Under HB 11014, the company that deployed the agent still answers for what it did."
+    },
+    {
+      "type": "p",
+      "text": "The bill does leave one door open. It says contractual indemnification among Principals, developers, providers and platforms isn’t prevented. In practice, the real division of risk would be written in the vendor agreement, not in the marketing deck. Any Philippine company signing for agents should read that clause before the demo."
+    },
+    {
+      "type": "p",
+      "text": "Section 14 deserves attention as well. It would require providers to disclose referral fees, preferential routing and similar arrangements that could steer an agent’s recommendations. Agents that live inside a single vendor’s ecosystem make that question more relevant, not less."
+    },
+    {
+      "type": "p",
+      "text": "Salesforce’s default is also more cautious than the proposed legal floor. The bill wouldn’t require a human to confirm each step, while Copilotforce asks for confirmation before it writes to the CRM. That gap won’t last on its own. Confirmation prompts are the first thing teams remove once the novelty wears off and the volume goes up."
+    },
+    {
+      "type": "p",
+      "text": "Which leaves the question the roundtable never quite got to. When a briefing takes three minutes instead of five hours, who is reading it?"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
