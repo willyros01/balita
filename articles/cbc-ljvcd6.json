@@ -1,0 +1,111 @@
+{
+  "id": "cbc-ljvcd6",
+  "source": "cbc",
+  "title": "Senate committee recommends changing Liberals' data access bill following cybersecurity concerns",
+  "summary": "Senators on the national security committee want to see some changes made to a deeply divisive Liberal bill that would give police and intelligence agencies easier access to Canadians' private…",
+  "byline": "Catharine Tunney",
+  "section": "News/Politics",
+  "published": "2026-11-25T22:33:14.000Z",
+  "firstSeen": "2026-11-25T23:01:12.544Z",
+  "url": "https://www.cbc.ca/news/politics/bill-c-22-lawful-access-security-9.7436101?cmp=rss",
+  "image": {
+    "src": "https://i.cbc.ca/ais/db52ea27-7f21-470c-a64a-a9bd5fbbc5a2,1795645423961/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C307%2C2659%2C1495%29%3BResize%3D620",
+    "caption": "A Senate committee is suggesting changes to a bill that deals with how organizations like the RCMP and CSIS can legally access Canadians' cellphone data for investigations. (Sean Kilpatrick/The Canadian Press)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Politics·New"
+    },
+    {
+      "type": "p",
+      "text": "Senators on the national security committee want to see some changes made to a deeply divisive Liberal bill that would give police and intelligence agencies easier access to Canadians' private information."
+    },
+    {
+      "type": "h",
+      "text": "Amendment to change metadata retention provision fails"
+    },
+    {
+      "type": "p",
+      "text": "Over the past two days, the upper chamber's national security, defence and veterans affairs committee has been going through Bill C-22 clause by clause."
+    },
+    {
+      "type": "p",
+      "text": "It agreed to further amend the landmark security bill."
+    },
+    {
+      "type": "p",
+      "text": "The bill, known as lawful access legislation, would compel tech companies to adapt their systems to preserve data and then turn it over to law enforcement and the Canadian Security Intelligence Service (CSIS) if they have a warrant."
+    },
+    {
+      "type": "p",
+      "text": "The bill also gives the minister of public safety the authority to issue confidential orders to electronic service providers and forces them to retain user metadata — information that can include the sender, recipient and timing of communications — for up to six months."
+    },
+    {
+      "type": "p",
+      "text": "It has pitted the government and security community — who argue the bill is essential for investigators to keep pace in a digital age — against privacy proponents, civil liberty advocates and some of the world's largest tech companies who have all raised concerns about opening up access to encrypted information."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Big tech, law enforcement make final pitches as Senate considers data access bill's future",
+        "Meta would 'consider' pulling services from Canada if lawful access bill passes as is"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "In the spring, Public Safety Minister Gary Anandasangaree amended the bill to limit decryption requirements to when providers built the encryption and hold the keys necessary to unlock it. He clarified that companies don't have to comply with a ministerial order if doing so would require the company to introduce a \"systemic vulnerability.\""
+    },
+    {
+      "type": "p",
+      "text": "Industry continued to argue the bill would force force them introduce back doors, ultimately weakening their cyber defences."
+    },
+    {
+      "type": "p",
+      "text": "On Tuesday night, the Senate committee supported amending the bill to further clarify the definition of \"systemic vulnerability\" to cover a credible risk that secure information could be accessed."
+    },
+    {
+      "type": "p",
+      "text": "Another change made Wednesday would allow providers to request that the minister consult a new technical advisory committee about whether a directive would introduce a vulnerability."
+    },
+    {
+      "type": "p",
+      "text": "The minister would also be able to proactively consult this advisory committee."
+    },
+    {
+      "type": "h",
+      "text": "Bill still compels 6 months of metadata retention"
+    },
+    {
+      "type": "p",
+      "text": "The committee debated but ultimately did not make any substantial changes when it came to the bill's contentious provision requiring providers to hold on to metadata for six months."
+    },
+    {
+      "type": "p",
+      "text": "Privacy advocates and businesses have been arguing that stockpiling months of metadata on millions of people even if they're not tied to a crime is an attractive target for foreign adversaries and hacking groups."
+    },
+    {
+      "type": "p",
+      "text": "The head of the Toronto-based VPN provider Windscribe told the Senate committee earlier this week he will move his company out of Canada if this bill passes because he has made an explicit promise to users that his company doesn't store their information."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ottawa makes $6B investment in Canada's spy agency over next decade"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nova Scotia Sen. Colin Deacon moved an amendment that would have prevented the government from compelling technology companies to retain metadata if they don't otherwise collect that type of data for business purposes, but it was defeated."
+    },
+    {
+      "type": "p",
+      "text": "Senators will eventually vote on whether to approve the bill with amendments. It would then be sent back to the House of Commons, where the Liberals hold a majority, to decide whether to accept, reject or further amend the bill."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
