@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-25T23:17:44.120Z",
+  "updated": "2026-11-25T23:31:26.363Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-1uteuct",
+      "source": "inqn",
+      "title": "In Zamboanga Sur, ‘mountain teachers’ brave perilous trek",
+      "summary": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — At the start and end of every school week, teachers assigned to Glab Integrated School at Barangay Cogonan in Labangan, Zamboanga del Sur, brave a…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-25T23:31:11.956Z",
+      "firstSeen": "2026-11-25T21:30:57.667Z",
+      "url": "https://newsinfo.inquirer.net/2347153/in-zamboanga-sur-mountain-teachers-brave-perilous-trek",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/zamboanga-teachers-25nov2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — At the start and end of every school week, teachers assigned to Glab Integrated School at Barangay Cogonan in Labangan, Zamboanga del Sur, brave a landslide-prone road just to reach their classrooms and back to the lowlands. The journey is perilous. They have to walk narrow, crumbling paths"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-k46osf",
       "source": "inqn",
       "title": "Sarangani earthquake victims to help build shelters",
       "summary": "GENERAL SANTOS CITY, Philippines — Hundreds of victims of the string of earthquakes that struck Glan, Sarangani, in June are trying to rebuild their lives with the help of the very same catastrophe…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-25T23:17:29.785Z",
+      "published": "2026-11-25T23:31:11.956Z",
       "firstSeen": "2026-11-25T21:30:58.180Z",
       "url": "https://newsinfo.inquirer.net/2347147/sarangani-earthquake-victims-to-help-build-shelters",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "MANILA, Philippines — The Iloilo International Airport resumed normal operations on Wednesday following emergency repairs on its runway, the Civil Aviation Authority of the Philippines (Caap) said on…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-25T23:17:29.785Z",
+      "published": "2026-11-25T23:31:11.956Z",
       "firstSeen": "2026-11-25T17:00:59.106Z",
       "url": "https://newsinfo.inquirer.net/2347270/iloilo-intl-airport-back-to-normal-ops-after-emergency-repairs",
       "image": {
@@ -103,113 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1up5wtf",
-      "source": "inqg",
-      "title": "Nvidia board also under fire after reinstating Huang",
-      "summary": "NEW YORK — Jensen Huang has been under a spotlight for weeks, but after the 11-day period of disorder that included the resignation and reinstatement of the Nvidia executive, the company’s board is…",
-      "byline": "cbuban",
-      "section": "Americas",
-      "published": "2026-11-25T23:17:29.785Z",
-      "firstSeen": "2026-11-25T19:01:00.560Z",
-      "url": "https://globalnation.inquirer.net/349859/nvidia-board-also-under-fire-after-reinstating-huang",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Huang-nvidia-25nov2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "NEW YORK — Jensen Huang has been under a spotlight for weeks, but after the 11-day period of disorder that included the resignation and reinstatement of the Nvidia executive, the company’s board is joining him at the center of scrutiny. The 10-person board voted unanimously to rehire Huang as Nvidia’s president, CEO and a fellow"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1uteuct",
-      "source": "inqn",
-      "title": "In Zamboanga Sur, ‘mountain teachers’ brave perilous trek",
-      "summary": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — At the start and end of every school week, teachers assigned to Glab Integrated School at Barangay Cogonan in Labangan, Zamboanga del Sur, brave a…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-11-25T23:17:29.713Z",
-      "firstSeen": "2026-11-25T21:30:57.667Z",
-      "url": "https://newsinfo.inquirer.net/2347153/in-zamboanga-sur-mountain-teachers-brave-perilous-trek",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/zamboanga-teachers-25nov2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PAGADIAN CITY, ZAMBOANGA DEL SUR, Philippines — At the start and end of every school week, teachers assigned to Glab Integrated School at Barangay Cogonan in Labangan, Zamboanga del Sur, brave a landslide-prone road just to reach their classrooms and back to the lowlands. The journey is perilous. They have to walk narrow, crumbling paths"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-trfvjg",
-      "source": "inqg",
-      "title": "Sotto: Why China-linked QR code in PH textbook?",
-      "summary": "MANILA, Philippines — A Chinese state media video has found its way into a Philippine Grade 3 textbook through a quick response (QR) code, prompting senators to question the Department of Education’s…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-11-25T23:17:29.713Z",
-      "firstSeen": "2026-11-25T21:30:57.623Z",
-      "url": "https://globalnation.inquirer.net/349852/sotto-why-china-linked-qr-code-in-ph-textbook",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/china-qr-code-25nov2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — A Chinese state media video has found its way into a Philippine Grade 3 textbook through a quick response (QR) code, prompting senators to question the Department of Education’s screening of learning materials. Senate President Pro Tempore Vicente “Tito” Sotto III raised the issue on Tuesday night during deliberations on DepEd’s proposed"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-nnz6i8",
-      "source": "inqn",
-      "title": "Ex-DOE chief: Tap flood infra funds for Visayas power",
-      "summary": "TACLOBAN CITY, LEYTE, Philippines — Leyte Gov. Carlos Jericho Petilla has urged the national government to consider redirecting part of its flood control budget to the energy sector, warning that the…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-11-25T23:17:27.912Z",
-      "firstSeen": "2026-11-25T21:30:57.623Z",
-      "url": "https://newsinfo.inquirer.net/2347148/ex-doe-chief-tap-flood-infra-funds-for-visayas-power",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/GOVERNOR-PETILLA.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "TACLOBAN CITY, LEYTE, Philippines — Leyte Gov. Carlos Jericho Petilla has urged the national government to consider redirecting part of its flood control budget to the energy sector, warning that the Visayas could face tighter electricity supply in the coming years as power reserves in Luzon and Mindanao dwindle. Petilla, a former secretary of the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqg-1tj6xd2",
       "source": "inqg",
       "title": "Pax Silica draws more questions after House bill is filed",
       "summary": "MANILA, Philippines — Senators on Wednesday called for greater transparency in the government’s proposed Pax Silica initiative, pointing to project details that have changed since it was first…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-25T23:17:27.912Z",
+      "published": "2026-11-25T23:31:11.956Z",
       "firstSeen": "2026-11-25T22:01:02.764Z",
       "url": "https://globalnation.inquirer.net/349855/pax-silica-draws-more-questions-after-house-bill-is-filed",
       "image": {
@@ -228,23 +153,73 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1exk0vx",
-      "source": "inqn",
-      "title": "Economist takes issue with Cayetano’s debt payment proposal",
-      "summary": "MANILA, Philippines — Filipinos do not need to be asked to pay an additional P170,000 each to help settle the national debt because they are already shouldering its cost through taxes and…",
+      "id": "inqg-trfvjg",
+      "source": "inqg",
+      "title": "Sotto: Why China-linked QR code in PH textbook?",
+      "summary": "MANILA, Philippines — A Chinese state media video has found its way into a Philippine Grade 3 textbook through a quick response (QR) code, prompting senators to question the Department of Education’s…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-25T23:17:26.786Z",
-      "firstSeen": "2026-11-25T22:01:09.927Z",
-      "url": "https://newsinfo.inquirer.net/2347254/economist-takes-issue-with-cayetanos-debt-payment-proposal",
+      "published": "2026-11-25T23:31:11.956Z",
+      "firstSeen": "2026-11-25T21:30:57.623Z",
+      "url": "https://globalnation.inquirer.net/349852/sotto-why-china-linked-qr-code-in-ph-textbook",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/cayetanooct132026.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/china-qr-code-25nov2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — Filipinos do not need to be asked to pay an additional P170,000 each to help settle the national debt because they are already shouldering its cost through taxes and deteriorating public services, an economist said on Wednesday. Sen. Panfilo “Ping” Lacson, meanwhile, took exception to Sen. Alan Peter Cayetano’s sweeping characterization of"
+          "text": "MANILA, Philippines — A Chinese state media video has found its way into a Philippine Grade 3 textbook through a quick response (QR) code, prompting senators to question the Department of Education’s screening of learning materials. Senate President Pro Tempore Vicente “Tito” Sotto III raised the issue on Tuesday night during deliberations on DepEd’s proposed"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1up5wtf",
+      "source": "inqg",
+      "title": "Nvidia board also under fire after reinstating Huang",
+      "summary": "NEW YORK — Jensen Huang has been under a spotlight for weeks, but after the 11-day period of disorder that included the resignation and reinstatement of the Nvidia executive, the company’s board is…",
+      "byline": "cbuban",
+      "section": "Americas",
+      "published": "2026-11-25T23:31:11.956Z",
+      "firstSeen": "2026-11-25T19:01:00.560Z",
+      "url": "https://globalnation.inquirer.net/349859/nvidia-board-also-under-fire-after-reinstating-huang",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/Huang-nvidia-25nov2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NEW YORK — Jensen Huang has been under a spotlight for weeks, but after the 11-day period of disorder that included the resignation and reinstatement of the Nvidia executive, the company’s board is joining him at the center of scrutiny. The 10-person board voted unanimously to rehire Huang as Nvidia’s president, CEO and a fellow"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-nnz6i8",
+      "source": "inqn",
+      "title": "Ex-DOE chief: Tap flood infra funds for Visayas power",
+      "summary": "TACLOBAN CITY, LEYTE, Philippines — Leyte Gov. Carlos Jericho Petilla has urged the national government to consider redirecting part of its flood control budget to the energy sector, warning that the…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-25T23:31:10.155Z",
+      "firstSeen": "2026-11-25T21:30:57.623Z",
+      "url": "https://newsinfo.inquirer.net/2347148/ex-doe-chief-tap-flood-infra-funds-for-visayas-power",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/GOVERNOR-PETILLA.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TACLOBAN CITY, LEYTE, Philippines — Leyte Gov. Carlos Jericho Petilla has urged the national government to consider redirecting part of its flood control budget to the energy sector, warning that the Visayas could face tighter electricity supply in the coming years as power reserves in Luzon and Mindanao dwindle. Petilla, a former secretary of the"
         }
       ],
       "truncated": true,
@@ -259,7 +234,7 @@
       "summary": "WASHINGTON, United States — Online shoppers endlessly scrolling through gift suggestions this holiday season risk being duped by a blizzard of artificial intelligence (AI)-generated scams touting…",
       "byline": "cbuban",
       "section": "Americas",
-      "published": "2026-11-25T23:17:26.786Z",
+      "published": "2026-11-25T23:31:10.155Z",
       "firstSeen": "2026-11-25T22:01:00.952Z",
       "url": "https://globalnation.inquirer.net/349857/fake-gifts-real-losses-as-ai-ads-proliferate",
       "image": {
@@ -284,7 +259,7 @@
       "summary": "LOS ANGELES, California — A federal grand jury in Los Angeles, California, on Tuesday indicted the estranged father of Meghan, the Duchess of Sussex, on charges that he kept child sexual abuse…",
       "byline": "cbuban",
       "section": "Americas",
-      "published": "2026-11-25T23:17:24.382Z",
+      "published": "2026-11-25T23:31:08.388Z",
       "firstSeen": "2026-11-25T22:01:00.894Z",
       "url": "https://globalnation.inquirer.net/349862/thomas-markle-indicted-in-us-over-child-abuse-materials",
       "image": {
@@ -303,98 +278,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1r5c3y0",
+      "id": "inqn-1exk0vx",
       "source": "inqn",
-      "title": "De Jesus of media watchdog CMFR honored with UP Gawad Plaridel",
-      "summary": "MANILA, Philippines — Veteran journalist Melinda Quintos de Jesus on Tuesday received the prestigious University of the Philippines (UP) Gawad Plaridel for 2026, an award recognizing her life’s work…",
+      "title": "Economist takes issue with Cayetano’s debt payment proposal",
+      "summary": "MANILA, Philippines — Filipinos do not need to be asked to pay an additional P170,000 each to help settle the national debt because they are already shouldering its cost through taxes and…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-25T23:17:21.327Z",
-      "firstSeen": "2026-11-25T22:01:09.919Z",
-      "url": "https://newsinfo.inquirer.net/2347249/de-jesus-of-media-watchdog-cmfr-honored-with-up-gawad-plaridel",
+      "published": "2026-11-25T23:31:08.387Z",
+      "firstSeen": "2026-11-25T22:01:09.927Z",
+      "url": "https://newsinfo.inquirer.net/2347254/economist-takes-issue-with-cayetanos-debt-payment-proposal",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/de-jesus-gawad-plaridel-25nov2026-scaled.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/10/cayetanooct132026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — Veteran journalist Melinda Quintos de Jesus on Tuesday received the prestigious University of the Philippines (UP) Gawad Plaridel for 2026, an award recognizing her life’s work championing press freedom and democracy. De Jesus was honored mainly for serving as the “conscience of Philippine media” through the Center for Media Freedom and Responsibility"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-v8imup",
-      "source": "inqn",
-      "title": "Purchase of 27 SUVs long overdue – Abalos",
-      "summary": "MANILA, Philippines — The Mandaluyong City government on Wednesday defended its procurement of 27 hybrid sport utility vehicles (SUVs) for its barangays, saying this was part of its efforts to speed…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-11-25T23:17:18.969Z",
-      "firstSeen": "2026-11-25T22:01:00.952Z",
-      "url": "https://newsinfo.inquirer.net/2347235/purchase-of-27-suvs-long-overdue-abalos",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/1336446.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Mandaluyong City government on Wednesday defended its procurement of 27 hybrid sport utility vehicles (SUVs) for its barangays, saying this was part of its efforts to speed up response and the delivery of services to residents. “This was long overdue for barangay captains. They will use these [SUVs] as their service"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-cemdto",
-      "source": "inqn",
-      "title": "Ilocos, Cagayan Valley workers get wage increases before Christmas",
-      "summary": "MANILA, Philippines — Minimum wage earners in the Ilocos Region and Cagayan Valley will receive daily wage increases of P30 to P40 starting in December, while domestic workers in both regions will…",
-      "byline": "cbuban",
-      "section": "Headlines",
-      "published": "2026-11-25T23:17:18.969Z",
-      "firstSeen": "2026-11-25T22:01:01.620Z",
-      "url": "https://newsinfo.inquirer.net/2347244/ilocos-cagayan-valley-workers-get-wage-increases-before-christmas",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/07/wage-hike-file-photo-e1719823146496.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Minimum wage earners in the Ilocos Region and Cagayan Valley will receive daily wage increases of P30 to P40 starting in December, while domestic workers in both regions will also see their monthly pay go up. Labor Secretary Francis Tolentino announced the new wage adjustments on Wednesday after the National Wages and"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-ut32sf",
-      "source": "inqg",
-      "title": "US clears SpaceX to launch up to 1M orbital data center satellites",
-      "summary": "NEW YORK, United States — The US Federal Communications Commission (FCC) on Wednesday authorized SpaceX to launch up to one million satellites as part of its plan to build data centers in space.…",
-      "byline": "mmercado",
-      "section": "Americas",
-      "published": "2026-11-25T23:17:18.969Z",
-      "firstSeen": "2026-11-25T23:01:12.502Z",
-      "url": "https://globalnation.inquirer.net/349885/us-clears-spacex-to-launch-up-to-1m-orbital-data-center-satellites",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2024/10/Nasa-launches-probe-to-study-if-life-possible-on-icy-Jupiter-moon.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "NEW YORK, United States — The US Federal Communications Commission (FCC) on Wednesday authorized SpaceX to launch up to one million satellites as part of its plan to build data centers in space. Projects for orbiting data centers have multiplied since last year. Alongside SpaceX and its Starmind constellation, Google is pursuing its own work under"
+          "text": "MANILA, Philippines — Filipinos do not need to be asked to pay an additional P170,000 each to help settle the national debt because they are already shouldering its cost through taxes and deteriorating public services, an economist said on Wednesday. Sen. Panfilo “Ping” Lacson, meanwhile, took exception to Sen. Alan Peter Cayetano’s sweeping characterization of"
         }
       ],
       "truncated": true,
@@ -409,7 +309,7 @@
       "summary": "ROME, Italy — Italy&#8217;s Catholic Church received complaints about 356 clergy members who were accused of sexual abuse between 2001 and 2021, according to a long-awaited partial report published…",
       "byline": "mmercado",
       "section": "Europe",
-      "published": "2026-11-25T23:17:18.969Z",
+      "published": "2026-11-25T23:31:06.590Z",
       "firstSeen": "2026-11-25T23:01:12.539Z",
       "url": "https://globalnation.inquirer.net/349876/356-italy-clerics-accused-of-sex-abuse-over-20-years-study",
       "image": {
@@ -428,13 +328,163 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1r5c3y0",
+      "source": "inqn",
+      "title": "De Jesus of media watchdog CMFR honored with UP Gawad Plaridel",
+      "summary": "MANILA, Philippines — Veteran journalist Melinda Quintos de Jesus on Tuesday received the prestigious University of the Philippines (UP) Gawad Plaridel for 2026, an award recognizing her life’s work…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-25T23:31:03.388Z",
+      "firstSeen": "2026-11-25T22:01:09.919Z",
+      "url": "https://newsinfo.inquirer.net/2347249/de-jesus-of-media-watchdog-cmfr-honored-with-up-gawad-plaridel",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/de-jesus-gawad-plaridel-25nov2026-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Veteran journalist Melinda Quintos de Jesus on Tuesday received the prestigious University of the Philippines (UP) Gawad Plaridel for 2026, an award recognizing her life’s work championing press freedom and democracy. De Jesus was honored mainly for serving as the “conscience of Philippine media” through the Center for Media Freedom and Responsibility"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-ut32sf",
+      "source": "inqg",
+      "title": "US clears SpaceX to launch up to 1M orbital data center satellites",
+      "summary": "NEW YORK, United States — The US Federal Communications Commission (FCC) on Wednesday authorized SpaceX to launch up to one million satellites as part of its plan to build data centers in space.…",
+      "byline": "mmercado",
+      "section": "Americas",
+      "published": "2026-11-25T23:31:00.865Z",
+      "firstSeen": "2026-11-25T23:01:12.502Z",
+      "url": "https://globalnation.inquirer.net/349885/us-clears-spacex-to-launch-up-to-1m-orbital-data-center-satellites",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2024/10/Nasa-launches-probe-to-study-if-life-possible-on-icy-Jupiter-moon.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NEW YORK, United States — The US Federal Communications Commission (FCC) on Wednesday authorized SpaceX to launch up to one million satellites as part of its plan to build data centers in space. Projects for orbiting data centers have multiplied since last year. Alongside SpaceX and its Starmind constellation, Google is pursuing its own work under"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-cemdto",
+      "source": "inqn",
+      "title": "Ilocos, Cagayan Valley workers get wage increases before Christmas",
+      "summary": "MANILA, Philippines — Minimum wage earners in the Ilocos Region and Cagayan Valley will receive daily wage increases of P30 to P40 starting in December, while domestic workers in both regions will…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-25T23:31:00.541Z",
+      "firstSeen": "2026-11-25T22:01:01.620Z",
+      "url": "https://newsinfo.inquirer.net/2347244/ilocos-cagayan-valley-workers-get-wage-increases-before-christmas",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2024/07/wage-hike-file-photo-e1719823146496.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Minimum wage earners in the Ilocos Region and Cagayan Valley will receive daily wage increases of P30 to P40 starting in December, while domestic workers in both regions will also see their monthly pay go up. Labor Secretary Francis Tolentino announced the new wage adjustments on Wednesday after the National Wages and"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1d6oyqq",
+      "source": "inqg",
+      "title": "Thousands rally across Turkey against violence against women",
+      "summary": "ISTANBUL, Turkey — Thousands of people gathered in several cities across Turkey on Wednesday to protest violence against women, AFP correspondents said. Around 3,000 people joined a demonstration in…",
+      "byline": "mmercado",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-25T23:30:59.881Z",
+      "firstSeen": "2026-11-25T23:17:18.911Z",
+      "url": "https://globalnation.inquirer.net/349892/thousands-rally-across-turkey-against-violence-against-women",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/AP26329713738240-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISTANBUL, Turkey — Thousands of people gathered in several cities across Turkey on Wednesday to protest violence against women, AFP correspondents said. Around 3,000 people joined a demonstration in Istanbul under heavy police presence after authorities banned gatherings in Taksim Square. &#8220;Under a police blockade, we are trying to hold a protest on November 25,"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-v8imup",
+      "source": "inqn",
+      "title": "Purchase of 27 SUVs long overdue – Abalos",
+      "summary": "MANILA, Philippines — The Mandaluyong City government on Wednesday defended its procurement of 27 hybrid sport utility vehicles (SUVs) for its barangays, saying this was part of its efforts to speed…",
+      "byline": "cbuban",
+      "section": "Headlines",
+      "published": "2026-11-25T23:30:59.443Z",
+      "firstSeen": "2026-11-25T22:01:00.952Z",
+      "url": "https://newsinfo.inquirer.net/2347235/purchase-of-27-suvs-long-overdue-abalos",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/1336446.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Mandaluyong City government on Wednesday defended its procurement of 27 hybrid sport utility vehicles (SUVs) for its barangays, saying this was part of its efforts to speed up response and the delivery of services to residents. “This was long overdue for barangay captains. They will use these [SUVs] as their service"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-u8zhw9",
+      "source": "inqg",
+      "title": "North Korea&#8217;s Kim calls for diversified use of tactical nuclear weapons",
+      "summary": "SEOUL, South Korea — North Korean leader Kim Jong Un said his country should diversify its use of tactical nuclear weapons, state media reported Thursday, stressing that its nuclear capabilities had…",
+      "byline": "mmercado",
+      "section": "Asia & Pacific",
+      "published": "2026-11-25T23:30:59.355Z",
+      "firstSeen": "2026-11-25T23:30:59.355Z",
+      "url": "https://globalnation.inquirer.net/349900/north-koreas-kim-calls-for-diversified-use-of-tactical-nuclear-weapons",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/2-Kim-Jong-Un-photos-released-on-October-20-amid-death-rumours.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SEOUL, South Korea — North Korean leader Kim Jong Un said his country should diversify its use of tactical nuclear weapons, state media reported Thursday, stressing that its nuclear capabilities had become a &#8220;reality.&#8221; Kim made the remarks during an inspection of a nuclear weapons research facility at an undisclosed location on Wednesday, following repeated"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-16b2vlg",
       "source": "inqn",
       "title": "NBI: Ashes in pet urns appear to be ‘sand’ or ‘cement’",
       "summary": "MANILA, Philippines — The ashes inside the urns turned over by a pet crematorium in Cavite province to animal owners appeared to be either sand or cement, forensic experts at the National Bureau of…",
       "byline": "cbuban",
       "section": "Headlines",
-      "published": "2026-11-25T23:17:18.911Z",
+      "published": "2026-11-25T23:30:59.354Z",
       "firstSeen": "2026-11-25T22:01:00.893Z",
       "url": "https://newsinfo.inquirer.net/2347239/nbi-ashes-in-pet-urns-appear-to-be-sand-or-cement",
       "image": {
@@ -453,29 +503,389 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqg-1d6oyqq",
-      "source": "inqg",
-      "title": "Thousands rally across Turkey against violence against women",
-      "summary": "ISTANBUL, Turkey — Thousands of people gathered in several cities across Turkey on Wednesday to protest violence against women, AFP correspondents said. Around 3,000 people joined a demonstration in…",
-      "byline": "mmercado",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-25T23:17:18.911Z",
-      "firstSeen": "2026-11-25T23:17:18.911Z",
-      "url": "https://globalnation.inquirer.net/349892/thousands-rally-across-turkey-against-violence-against-women",
+      "id": "inq-1r8pvas",
+      "source": "inq",
+      "title": "Beyond the classroom: USJ-R's 8th Youth Tourism Congress empowers the next generation of tourism leaders",
+      "summary": "The future of tourism is shaped not only by the destinations people visit but also by the young minds who will preserve, develop, and share them with the world. This was the message at the heart of…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-25T23:30:00.000Z",
+      "firstSeen": "2026-11-25T23:30:59.354Z",
+      "url": "https://cebudailynews.inquirer.net/788236/usj-r-holds-8th-youth-tourism-congress-for-future-tourism-leaders",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AP26329713738240-scaled.jpg",
+        "src": "https://cebudailynews.inquirer.net/files/2026/11/1123usjr8ytccp-620x349.png",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "ISTANBUL, Turkey — Thousands of people gathered in several cities across Turkey on Wednesday to protest violence against women, AFP correspondents said. Around 3,000 people joined a demonstration in Istanbul under heavy police presence after authorities banned gatherings in Taksim Square. &#8220;Under a police blockade, we are trying to hold a protest on November 25,"
+          "text": "The future of tourism is shaped not only by the destinations people visit but also by the young minds who will preserve, develop, and share them with the world. This was the message at the heart of the 8th Youth Tourism Congress (YTC), organized by fourth-year Bachelor of Science in Tourism Management students of the [&hellip;]... Keep on reading: Beyond the classroom: USJ-R's 8th Youth Tourism Congress empowers the next generation of tourism leaders"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "rap-1nv99jc",
+      "source": "rap",
+      "title": "EXPLAINER: How scammers reach you, with or without your data",
+      "summary": "Scammers are no longer just sliding into your DMs; they have found new ways to slip onto your screen",
+      "byline": "Alex Culla",
+      "section": "Philippine News",
+      "published": "2026-11-25T23:27:16.000Z",
+      "firstSeen": "2026-11-25T23:30:59.355Z",
+      "url": "https://www.rappler.com/technology/explainer-how-scammers-reach-you-with-or-without-your-data/",
+      "image": {
+        "src": "https://www.rappler.com/tachyon/2026/11/christmas-scams-nov-12-2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Recent data breaches in the Philippines have heightened the risk of scams, prompting the National Privacy Commission to advise the public to be vigilant against phishing, smishing, and other scams.",
+            "A report by the Global Anti-Scam Alliance revealed that 84% of Filipinos encountered scams this year, with scammers using sophisticated techniques across emails, social media, phone calls, and text messages.",
+            "To protect themselves, individuals are encouraged to verify communications, avoid clicking on suspicious links, and report any scams to authorities."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "Recent data breaches have exposed personal records across Philippine government agencies and private firms, making it more important than ever to stay alert to targeted scams."
+        },
+        {
+          "type": "p",
+          "text": "The National Privacy Commission has advised the public to remain cautious about possible attempts at phishing, smishing, and other scams that may arise after the wave of cybersecurity incidents in the country."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/christmas-scams-nov-12-2026.jpg?fit=449%2C449",
+          "caption": "12 Christmas scams to watch out for"
+        },
+        {
+          "type": "p",
+          "text": "In its State of Scams Report, the Global Anti-Scam Alliance (GASA) found that 84% of Filipinos have encountered a scam this year. This is an increase from 77% in 2025. The survey, which had 1,160 Filipino adult respondents, was conducted from March 16 to April 13, 2026."
+        },
+        {
+          "type": "p",
+          "text": "Knowing what a scam looks like is no longer enough, as scammers have upgraded their techniques to catch you. Here is how scammers reach you today."
+        },
+        {
+          "type": "p",
+          "text": "With your real name or account details, scammers can send convincing fake promotions, receipts, password-reset prompts, and even account-suspension warnings."
+        },
+        {
+          "type": "p",
+          "text": "Since emails allow you to enhance your text with styles, scammers can easily mimic official branding of government agencies, banks, and organizations to trick you into opening malicious attachments or clicking links."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/1-1.jpg?fit=1024%2C1024",
+          "caption": "SHAM PRIZE. A phishing email notifies the recipient that they have won free products from a hardware retailer. Rappler screenshot"
+        },
+        {
+          "type": "p",
+          "text": "Your email service can often detect whether a message is suspicious or not. But you must watch out for mismatched sender domains, unusual requests, or unexpected links and attachments."
+        },
+        {
+          "type": "p",
+          "text": "As more telecommunication companies tighten SMS filters, scammers have migrated to Facebook, Instagram, Viber, Telegram, WhatsApp, and other social media platforms."
+        },
+        {
+          "type": "p",
+          "text": "When they gain unauthorized access to your social media accounts, they target more victims by impersonating you and sending suspicious direct messages (DMs) or links to your contacts."
+        },
+        {
+          "type": "p",
+          "text": "Some even casually ask how you are and proceed to offer you job opportunities or paid tasks."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/3-1.jpg?fit=1024%2C868",
+          "caption": "FAKE JOB SCAMS. Individuals claiming ot be human resources (HR) staff of marketing agencies reach out on online messaging apps to offer virtual jobs or paid tasks. Rappler screenshots"
+        },
+        {
+          "type": "p",
+          "text": "Be mindful of engaging with messages not only from unknown contacts, but also from your loved ones. If you notice something suspicious, you may use your online messaging app’s report and block option."
+        },
+        {
+          "type": "p",
+          "text": "Scammers do not only use unknown numbers to contact you. They can spoof their caller ID to imitate banks, digital wallets, government employees, and courier companies using Voice over Internet Protocol (VoIP)."
+        },
+        {
+          "type": "p",
+          "text": "It allows users to make phone calls via an internet connection instead of an analog phone line, according to the Federal Communications Commission."
+        },
+        {
+          "type": "p",
+          "text": "Fraudsters utilize VoIP to lure you into sharing sensitive information by telling you that you have unauthorized transactions or your account has been compromised. They cause panic and urgency, so they can access your account information."
+        },
+        {
+          "type": "p",
+          "text": "Be cautious when answering phone calls from unknown numbers. Do not share sensitive account details or passwords, as banks and e-wallets will never ask for those details, and scammers can also spoof caller IDs."
+        },
+        {
+          "type": "p",
+          "text": "Hang up and verify whether a phone number is associated with legitimate institutions by checking their official channels or by searching this list of hotlines and telemarketing SIM numbers published by local banks and e-wallets:"
+        },
+        {
+          "type": "p",
+          "text": "GASA also discovered that Filipinos mostly experience scams conducted through text messages this year."
+        },
+        {
+          "type": "p",
+          "text": "Scammers used to deliver spam texts to you through an unknown phone number, which you can easily identify as suspicious."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/Scam_Smishing1.jpg",
+          "caption": "DELIVERY FRAUD. A smishing text message from an international number informs the recipient that they have a pending delivery from PHLPost and includes a malicious website link. Rappler screenshot"
+        },
+        {
+          "type": "p",
+          "text": "But now they have found a workaround that does not require your phone number to reach you: International Mobile Subscriber Identity (IMSI) catchers."
+        },
+        {
+          "type": "p",
+          "text": "These are surveillance devices acting as fake cell towers that can intercept your mobile phone, access your device’s location, and manipulate message threads by sending spoofed messages to you."
+        },
+        {
+          "type": "p",
+          "text": "Such messages slip straight into your legitimate message threads because they are undetected by telco spam filters as they bypass cell towers."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/2-1.jpg",
+          "caption": "BOGUS, NOT BONUS. Smishing messages from banks and a water service provider indicate that the recipient has expiring credit card points and a cash prize, which can be claimed by accessing the provided phishing links. Rappler screenshots"
+        },
+        {
+          "type": "p",
+          "text": "Cybersecurity advocacy group Scam Watch Pilipinas documented spoofed messages through IMSI catchers as early as 2024, according to an investigative report by The Philippine STAR."
+        },
+        {
+          "type": "p",
+          "text": "The Bangko Sentral ng Pilipinas already released Memorandum No. M-2022-015 in 2022, prohibiting banks from sending clickable links through text, email, or messaging apps."
+        },
+        {
+          "type": "p",
+          "text": "If you receive a text message with a link to your device, do not click it, since it may be a smishing scam."
+        },
+        {
+          "type": "p",
+          "text": "The Canadian Centre for Cyber Security also advised turning off the 2G network connection of your device, if the option is available."
+        },
+        {
+          "type": "p",
+          "text": "Unlike texts or calls that interrupt you, fake websites serve as the final trap."
+        },
+        {
+          "type": "p",
+          "text": "Fraudsters draw you in through a link in a spoofed SMS, a phishing email, a social media DM, or a sponsored search or social media ad. The goal is for you to land on a bogus website that clones a banking portal, promo page, or online store."
+        },
+        {
+          "type": "p",
+          "text": "Even scanning QR codes can lead you to malicious website links hidden as an image instead of text until the page loads."
+        },
+        {
+          "type": "p",
+          "text": "These fake websites often spoof banking portals that require you to enter your login credentials, card details, or one-time PINs."
+        },
+        {
+          "type": "p",
+          "text": "Before clicking on any link, look closely at the web address for uncommon domains, misspelled or extra words, unfamiliar symbols, and numbers swapped for letters (e.g., 0 for O and 1 for l)."
+        },
+        {
+          "type": "p",
+          "text": "When scanning QR codes, check first if the printed image has signs of tampering. You may also read the link preview first before accessing the site after scanning."
+        },
+        {
+          "type": "p",
+          "text": "Also ensure that you have activated the built-in anti-phishing or malware protection features of your browsers and have turned on multi-factor authentication for your digital accounts."
+        },
+        {
+          "type": "p",
+          "text": "Scammers can spoof phone numbers, clone websites, or imitate cell towers. But they cannot get through a user who stops to verify first."
+        },
+        {
+          "type": "p",
+          "text": "If you encounter any online scams, you may report them to the Cybercrime Investigation and Coordinating Center by dialing 1326. – Rappler.com"
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2024/09/received_825812582875097.jpeg?fit=449%2C449",
+          "caption": "Don’t let online scammers escape. Dial 1326 and report."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "gma-11lymnf",
+      "source": "gma",
+      "title": "Jury selection discussed for trial of Quiboloy co-defendant Felina Salinas",
+      "summary": "A federal judge and attorneys in Los Angeles discussed jury selection for the trial of Felina Salinas, also known as “Sis Eng Eng,” a Hawaii-based administrator of the Kingdom of Jesus Christ (KOJC).",
+      "byline": "GMA News",
+      "section": "",
+      "published": "2026-11-25T23:25:10.000Z",
+      "firstSeen": "2026-11-25T23:30:59.437Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1010816/jury-selection-discussed-for-trial-of-quiboloy-co-defendant-felina-salinas/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/11/US_court_2026_11_26_07_24_16.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published November 26, 2026 7:25am"
+        },
+        {
+          "type": "p",
+          "text": "NEW YORK —A federal judge and attorneys in Los Angeles discussed jury selection for the trial of Felina Salinas, also known as “Sis Eng Eng,” a Hawaii-based administrator of the Kingdom of Jesus Christ (KOJC)."
+        },
+        {
+          "type": "p",
+          "text": "Salinas is a co-defendant of Apollo Quiboloy, founder of the Philippines-based church, in a sex trafficking case in the U.S. District Court for the Central District of California. The court calendar listed Salinas as out on bond."
+        },
+        {
+          "type": "p",
+          "text": "A 2021 superseding indictment charged Salinas with conspiracy to engage in sex trafficking and multiple substantive counts of sex trafficking. Federal prosecutors allege that she helped recruit girls and young women to serve as Quiboloy’s personal assistants, known as “pastorals,” as part of a scheme to coerce them into sexual acts with him."
+        },
+        {
+          "type": "p",
+          "text": "At the final status conference, the judge and attorneys discussed trial preparations, including voir dire, the process of questioning prospective jurors to determine whether they can decide the case fairly and impartially."
+        },
+        {
+          "type": "p",
+          "text": "U.S. District Judge Percy Anderson set noon on Nov. 25, 2026, as the deadline for filing a motion in limine seeking a pretrial ruling on whether or how prosecutors may use a particular photograph at trial. The response is due Nov. 30, 2026."
+        },
+        {
+          "type": "p",
+          "text": "Separate federal case in Hawaii"
+        },
+        {
+          "type": "p",
+          "text": "In June 2020, Salinas pleaded guilty to making a false statement to federal authorities. She had claimed that a cash-filled suitcase aboard a private jet bound for the Philippines was hers. The suitcase reportedly belonged to Quiboloy."
+        },
+        {
+          "type": "p",
+          "text": "On Feb. 13, 2018, U.S. Customs and Border Protection officers inspected the jet at Honolulu’s Daniel K. Inouye International Airport before its scheduled departure. Salinas declared US$40,000 and 1,000 Philippine pesos."
+        },
+        {
+          "type": "p",
+          "text": "Officers found about US$40,000 in a red backpack. In a separate carry-on suitcase, they found bundles of cash rolled up inside black socks. The suitcase reportedly contained about US$335,000 and A$9,000."
+        },
+        {
+          "type": "p",
+          "text": "In October 2020, Salinas was sentenced to 30 days in jail and ordered to pay a $500 fine.—LDF, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-16delwe",
+      "source": "inq",
+      "title": "North Korea's Kim calls for diversified use of tactical nuclear weapons",
+      "summary": "SEOUL, South Korea — North Korean leader Kim Jong Un said his country should diversify its use of tactical nuclear weapons, state media reported Thursday, stressing that its nuclear capabilities had…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-25T23:24:21.000Z",
+      "firstSeen": "2026-11-25T23:30:59.443Z",
+      "url": "https://globalnation.inquirer.net/349900/north-koreas-kim-calls-for-diversified-use-of-tactical-nuclear-weapons",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/10/2-Kim-Jong-Un-photos-released-on-October-20-amid-death-rumours-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SEOUL, South Korea — North Korean leader Kim Jong Un said his country should diversify its use of tactical nuclear weapons, state media reported Thursday, stressing that its nuclear capabilities had become a &#8220;reality.&#8221; Kim made the remarks during an inspection of a nuclear weapons research facility at an undisclosed location on Wednesday, following repeated declarations that Pyongyang would not abandon its nuclear weapons. &#8220;The nuclear weapons manufacturing sector should pay attention to utilizing tactical nukes with different missions in multiple domains,&#8221; the official Korean Central News Agency (KCNA) quoted him as saying, without elaborating. It was &#8220;an important and urgent [&hellip;]... Keep on reading: North Korea's Kim calls for diversified use of tactical nuclear weapons"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "cbc-1q0crsf",
+      "source": "cbc",
+      "title": "U.S. government urges judge to keep alleged Tumbler Ridge shooting co-conspirator locked up",
+      "summary": "The U.S. government is pushing for the alleged Tumbler Ridge shooting co-conspirator to stay behind bars. He argues Melody Bryant knew perfectly well that the shooter planned to commit a mass…",
+      "byline": "Caroline Barghout",
+      "section": "Homepage/News",
+      "published": "2026-11-25T23:23:22.000Z",
+      "firstSeen": "2026-11-25T23:30:59.437Z",
+      "url": "https://www.cbc.ca/homepage/us-government-tumbler-ridge-shooting-co-conspirator-9.7436125?cmp=rss",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The U.S. government is pushing for the alleged Tumbler Ridge shooting co-conspirator to stay behind bars. He argues Melody Bryant knew perfectly well that the shooter planned to commit a mass atrocity, and took concrete steps to further that plan."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "direct HTTP 404"
+    },
+    {
+      "id": "inq-12cw36t",
+      "source": "inq",
+      "title": "Thousands rally across Turkey against violence against women",
+      "summary": "ISTANBUL, Turkey — Thousands of people gathered in several cities across Turkey on Wednesday to protest violence against women, AFP correspondents said. Around 3,000 people joined a demonstration in…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-25T23:16:34.000Z",
+      "firstSeen": "2026-11-25T23:31:00.283Z",
+      "url": "https://globalnation.inquirer.net/349892/thousands-rally-across-turkey-against-violence-against-women",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/AP26329713738240-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISTANBUL, Turkey — Thousands of people gathered in several cities across Turkey on Wednesday to protest violence against women, AFP correspondents said. Around 3,000 people joined a demonstration in Istanbul under heavy police presence after authorities banned gatherings in Taksim Square. &#8220;Under a police blockade, we are trying to hold a protest on November 25, the International Day for the Elimination of Violence Against Women,&#8221; 34-year-old protester Gizem Kuzuk said. &#8220;Women&#8217;s demands concerning their own lives &#8230; and their freedoms are being ignored,&#8221; she said. &#8220;Unfortunately, even on November 25, there is a state mentality that prevents women from marching against [&hellip;]... Keep on reading: Thousands rally across Turkey against violence against women"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-1w1lhjb",
+      "source": "grd",
+      "title": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
+      "summary": "<p>Mariam Dagga shares award with two of her colleagues from AP for ‘powerful coverage’ of human cost of war</p><p>Mariam Dagga, the Palestinian war correspondent who was killed at the age of 33 in…",
+      "byline": "Nadeem Badshah",
+      "section": "War reporting",
+      "published": "2026-11-25T23:06:06.000Z",
+      "firstSeen": "2026-11-25T23:30:59.437Z",
+      "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/b68724a0542029782beeb20a27ab4fd1a7f413d0/464_0_5000_4000/master/5000.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=983c7b4a03f9ecc93190771f3612f8ad",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "<p>Mariam Dagga shares award with two of her colleagues from AP for ‘powerful coverage’ of human cost of war</p><p>Mariam Dagga, the Palestinian war correspondent who was killed at the age of 33 in Gaza in an Israeli strike, has posthumously won the prestigious Rory Peck prize for freelance video journalists, the organisers announced on Wednesday.</p><p>She shares the award with two of her colleagues from the Associated Press (AP), Abdel Kareem Hana and Jehad Alshrafi, “for their powerful coverage of the human cost of the war” in the Palestinian territory, the Rory Peck Trust said.</p> <a href=\"https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize\">Continue reading...</a>"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-3wh6mw",
@@ -715,6 +1125,134 @@
         {
           "type": "p",
           "text": "More to follow..."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "star-nizngz",
+      "source": "star",
+      "title": "Taiwanese firms waiting to see US commitment before betting on Pax Silica",
+      "summary": "Taiwanese businesses are taking a \"wait-and-see\" stance on the proposed Pax Silica hub in New Clark City until Washington signs agreements for the project, a Taiwanese business leader said, amid…",
+      "byline": "Cristina Chi",
+      "section": "",
+      "published": "2026-11-25T22:46:00.000Z",
+      "firstSeen": "2026-11-25T23:30:59.355Z",
+      "url": "https://www.philstar.com/headlines/2026/11/26/2572593/taiwanese-firms-waiting-see-us-commitment-betting-pax-silica",
+      "image": {
+        "src": "https://media.philstar.com/photos/2026/07/24/pax-silica-artists-rendering_2026-07-24_13-32-19.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "November 26, 2026 | 6:46am"
+        },
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Taiwanese businesses are taking a \"wait-and-see\" stance on the proposed Pax Silica hub in New Clark City until Washington signs agreements for the project, a Taiwanese business leader said, amid signs the US is in no hurry to finalize the deal."
+        },
+        {
+          "type": "p",
+          "text": "Best Chang, president of the Subic Bay Taiwan Chamber of Commerce, said most of the Taiwanese businesses he has spoken with have shown some interest in the hub but first want to see whether the US will finalize the agreements and deliver on its commitments before they invest."
+        },
+        {
+          "type": "p",
+          "text": "That follow-through from the US, Chang told Philstar.com in an emailed interview on Wednesday, November 25, will strongly influence investor confidence and the timing of investment decisions."
+        },
+        {
+          "type": "p",
+          "text": "\"For Pax Silica to move from plans to actual investment in the Philippines, the United States needs to follow through with signed agreements for the proposed hub, concrete commitments, and implementation,\" Chang said. \"Without that, even the most detailed supporting plans risk remaining plans on paper.\""
+        },
+        {
+          "type": "p",
+          "text": "US President Donald Trump's visit to Manila last week came and went without the signing of the agreement that would finalize the Pax Silica industrial hub in New Clark City."
+        },
+        {
+          "type": "p",
+          "text": "The Bases Conversion and Development Authority, which is developing the 1,620-hectare site, had previously targeted a November signing."
+        },
+        {
+          "type": "h",
+          "text": "Not a done deal"
+        },
+        {
+          "type": "p",
+          "text": "The US-led Pax Silica initiative aims to secure supply chains for computer chips, artificial intelligence and critical minerals to reduce dependency on China. The Philippines joined in April and offered 1,620 hectares in New Clark City, in Capas, Tarlac, for an advanced manufacturing hub, the first physical site planned under the initiative."
+        },
+        {
+          "type": "p",
+          "text": "Senate President Sherwin Gatchalian said over the weekend that US Secretary of State Marco Rubio had assured him Washington was not rushing the initiative and recognized that Manila first needed to address domestic concerns on the planned hub."
+        },
+        {
+          "type": "p",
+          "text": "The proposed hub — generally promoted by the Philippine government as a rare opportunity to deliver billions in investments — is facing stiff resistance from a wide range of groups who believe its projected benefits do not outweigh the damage it may bring to communities and the environment."
+        },
+        {
+          "type": "p",
+          "text": "Critics, led by Indigenous groups, farmers, and progressive coalitions, remain unconvinced by official assurances of the hub's impact on local communities. Several groups, including rights watchdog Human Rights Watch, have warned that the Pax Silica project will displace residents, siphon off scarce water supplies, and overburden the Luzon power grid."
+        },
+        {
+          "type": "p",
+          "text": "Taiwan has not signed the Pax Silica declaration but takes part as a non-signatory participant. It was the largest source of foreign investment approved in the Philippines in the third quarter, accounting for P76.27 billion, or nearly half of the total, according to the Philippine Statistics Authority."
+        },
+        {
+          "type": "p",
+          "text": "Finance Secretary Frederick Go said in July that Foxconn, a Taiwanese electronics manufacturer, was poised to become the hub's anchor locator, or main tenant."
+        },
+        {
+          "type": "p",
+          "text": "Chang said a delegation from the Taiwan Electrical and Electronic Manufacturers' Association, which came to the Philippines in late July to look at investment opportunities, showed interest within Taiwanese industry."
+        },
+        {
+          "type": "p",
+          "text": "\"However, interest, site visits, and firm investment commitments are different stages and should not be confused,\" he said."
+        },
+        {
+          "type": "p",
+          "text": "Once US commitments are in place, Chang said, companies would weigh conditions at the site itself, including the supply and cost of power, the availability of workers, transport and logistics, and how clear and predictable regulations, incentives and procedures are."
+        },
+        {
+          "type": "p",
+          "text": "\"Both US follow-through and the Philippines' readiness to support investors are essential to turning interest into actual investment,\" he said."
+        },
+        {
+          "type": "h",
+          "text": "Taiwanese investments in the PH"
+        },
+        {
+          "type": "p",
+          "text": "Chang said he was \"cautiously optimistic\" about more Taiwanese investment in the Philippines."
+        },
+        {
+          "type": "p",
+          "text": "His chamber, founded in 1998 by Taiwanese manufacturers in the Subic Bay Freeport Zone, joined Taiwan Association, Inc. as its Subic Bay chapter on November 21, a move he said was meant \"to turn closer cooperation into tangible benefits for our members, rather than simply change the organizational structure.\""
+        },
+        {
+          "type": "p",
+          "text": "BCDA vice president Erwin Kenneth Peralta told Taiwan's Central News Agency (CNA) on November 21 that the New Clark City park was still at the framework planning stage, according to a report."
+        },
+        {
+          "type": "p",
+          "text": "Full development of the site would take 20 to 25 years, with the first five years spent on land preparation, roads and utility lines before factories are built."
+        },
+        {
+          "type": "p",
+          "text": "Peralta was briefing more than 30 Taiwanese businesspeople who visited New Clark City that day on a trip organized by Taiwan Association, Inc., CNA reported."
+        },
+        {
+          "type": "p",
+          "text": "He said the government was trying to attract Taiwanese companies to the park and that two of the three major international companies already in New Clark City are Taiwanese. Chang did not join the trip, saying he visits the area once or twice a year."
+        },
+        {
+          "type": "p",
+          "text": "Steve Chien, a vice president of Taiwan Association, Inc., told CNA that electricity and water are relatively expensive in the Philippines."
+        },
+        {
+          "type": "p",
+          "text": "He said New Clark City's power demand is projected to reach 2,000 megawatts, while nearly 200 megawatts, about a tenth of that, is available so far."
         }
       ],
       "truncated": false,
@@ -2186,31 +2724,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-fmsyji",
-      "source": "inq",
-      "title": "Cool Smashers rediscover selves after losing skid, await Finals foe",
-      "summary": "For a team that has done so much winning, Creamline learned something valuable about losing. A rare three-game skid in the elimination round put the Cool Smashers’ Premier Volleyball League campaign…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-25T21:15:43.000Z",
-      "firstSeen": "2026-11-25T21:30:57.667Z",
-      "url": "https://sports.inquirer.net/708673/cool-smashers-rediscover-selves-after-losing-skid-await-finals-foe",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/Bernadeth-Pons-and-the-Cool-Smarshers-620x414.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "For a team that has done so much winning, Creamline learned something valuable about losing. A rare three-game skid in the elimination round put the Cool Smashers’ Premier Volleyball League campaign in peril, testing the resolve of a veteran squad accustomed to playing for championships. And in finding their way out of that predicament, the [&hellip;]... Keep on reading: Cool Smashers rediscover selves after losing skid, await Finals foe"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "cbc-1i6il0c",
       "source": "cbc",
       "title": "Final Avengers: Doomsday trailer racks up over 500 million views in 1st day",
@@ -2388,31 +2901,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-acf45b",
-      "source": "inq",
-      "title": "Never-say-die GlobalPort rallies way to Final",
-      "summary": "BUENOS AIRES, Argentina—GlobalPort scored five unanswered goals in the final chukker to rally past Jehangiri Polo, 12-10, and advance to the championship match of the Copa La Martina. Trailing 10-7…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-25T21:10:43.000Z",
-      "firstSeen": "2026-11-25T21:30:57.667Z",
-      "url": "https://sports.inquirer.net/708674/never-say-die-globalport-rallies-way-to-final",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/Globalport-26nov2026-620x435.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BUENOS AIRES, Argentina—GlobalPort scored five unanswered goals in the final chukker to rally past Jehangiri Polo, 12-10, and advance to the championship match of the Copa La Martina. Trailing 10-7 at the end of the fourth chukker, the Philippine-flag-bearing squad of sports patron Mikee Romero leaned on Mariano Obregon and Ignacio Miguens to complete the [&hellip;]... Keep on reading: Never-say-die GlobalPort rallies way to Final"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "grd-swsifw",
       "source": "grd",
       "title": "New York City’s Macy’s Thanksgiving Day parade postponed due to weather",
@@ -2471,31 +2959,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-1em4kju",
-      "source": "inq",
-      "title": "The bigger danger",
-      "summary": "COP31, the United Nations Climate Change Conference that was recently held in Antalya, Turkiye, was preceded by an ominous warning from the World Meteorological Organization (WMO). “The state of the…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-25T21:07:00.000Z",
-      "firstSeen": "2026-11-25T21:31:01.439Z",
-      "url": "https://opinion.inquirer.net/196631/the-bigger-danger",
-      "image": {
-        "src": "https://opinion.inquirer.net/files/2026/04/Dry-season-El-Nino-28April2026-300x205.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COP31, the United Nations Climate Change Conference that was recently held in Antalya, Turkiye, was preceded by an ominous warning from the World Meteorological Organization (WMO). “The state of the global climate in 2026 gives new meaning to the phrase ‘off the charts,’” the WMO said in a Nov. 9 statement. Among the disturbing developments [&hellip;]... Keep on reading: The bigger danger"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct HTTP 403"
     },
     {
       "id": "cbc-1dpb2cv",
@@ -4656,149 +5119,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "cbc-1js2j94",
-      "source": "cbc",
-      "title": "Despite new powers, industry minister hasn't forced telecoms to remove Huawei equipment",
-      "summary": "Despite legislating new powers last spring to force telecommunications companies to remove products considered a security risk, the minister of industry hasn't used them — and the Conservative…",
-      "byline": "Kate McKenna",
-      "section": "News/Politics",
-      "published": "2026-11-25T18:45:26.000Z",
-      "firstSeen": "2026-11-25T19:01:01.116Z",
-      "url": "https://www.cbc.ca/news/politics/huawei-zte-china-cell-phone-towers-9.7435692?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/fa20bcae-ca7a-4473-88ae-d46b402f027e,1795631992690/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C397%2C7619%2C4285%29%3BResize%3D620",
-        "caption": "Minister of Industry Mélanie Joly is seen on Tuesday. Asked when the minister will use new powers to force the removal of high-risk telecommunications equipment, Innovation, Science and Economic Development Canada said orders 'will be made in due course, in consultation with affected parties.' (Just"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Politics·New"
-        },
-        {
-          "type": "p",
-          "text": "Despite legislating new powers last spring to force telecommunications companies to remove products considered a security risk, the minister of industry hasn't used them — and the Conservative Opposition is asking why."
-        },
-        {
-          "type": "h",
-          "text": "Chinese tech giant convicted in U.S. this week of conspiring to steal trade secrets"
-        },
-        {
-          "type": "p",
-          "text": "Bill C-8 received royal assent in June, enabling the federal government to restrict or ban equipment or services that could put Canada's telecommunications system at risk of \"interference, manipulation, disruption or degradation\""
-        },
-        {
-          "type": "p",
-          "text": "Although no companies were named in the bill, it was a successor to a Trudeau-era bill targeting Chinese companies Huawei and ZTE."
-        },
-        {
-          "type": "p",
-          "text": "On Tuesday, Huawei was convicted of 10 U.S. charges, including conspiracy to steal trade secrets."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Carney secures another China trade deal — but at what cost?",
-            "How Canada's expanded trade deal with China affects different sectors"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "For years, Huawei hasn't been allowed to sell equipment to U.S. telecommunications carriers due to security concerns. All of Canada's Five Eyes allies have banned Huawei's 5G equipment."
-        },
-        {
-          "type": "p",
-          "text": "While Canada has committed to cracking down on companies still using the equipment, it hasn't used its enforcement mechanisms to do so."
-        },
-        {
-          "type": "p",
-          "text": "A 2022 policy statement named Huawei and ZTE as at risk of being \"compelled to comply with extrajudicial directions from foreign governments.\" The statement includes deadlines to stop using — and rip out — the equipment."
-        },
-        {
-          "type": "p",
-          "text": "The next deadline — Dec. 31, 2027 — prohibits all 4G equipment and managed services from Huawei and ZTE. The deadline to remove 5G equipment was in 2024."
-        },
-        {
-          "type": "p",
-          "text": "CBC News reported in 2024 that all major telecommunications companies except Telus Corp. were co-operating with the policy directive."
-        },
-        {
-          "type": "p",
-          "text": "Telus did not respond to a request for comment about its compliance with the policy. But the company told the Globe and Mail last year that it doesn't consider its equipment subject to the 2024 deadline."
-        },
-        {
-          "type": "h",
-          "text": "Conservatives point to relations with China"
-        },
-        {
-          "type": "p",
-          "text": "Industry Minister Mélanie Joly now has the ability to compel any companies not in compliance to remove the gear."
-        },
-        {
-          "type": "p",
-          "text": "\"It was well understood at the time that Huawei and ZTE were indeed high-risk firms. And the minister has not exercised that power yet,\" said Conservative industry critic Adam Chambers in an interview on Tuesday."
-        },
-        {
-          "type": "p",
-          "text": "\"The government has now seemingly had a change of position with respect to engagement on Beijing, and I think Canadians deserve to know if that is the reason for which the minister has not yet used that power.\""
-        },
-        {
-          "type": "p",
-          "text": "U.S. prosecutors had originally also brought criminal charges against Huawei's chief financial officer, Meng Wanzhou, accusing her of misleading HSBC bank about the company's business dealings in Iran."
-        },
-        {
-          "type": "p",
-          "text": "Meng was arrested in Canada in 2018, which led to a diplomatic crisis involving the U.S., Canada and China."
-        },
-        {
-          "type": "p",
-          "text": "The Huawei executive ultimately was allowed to return to China in 2021 in a prisoner swap that freed two Canadians held by China. As part of the deal, the U.S. dropped its case against Meng."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "If Quebecor buys Telus, less competition could mean higher cellphone bills, experts say"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The company was acquitted on two additional counts, including the most serious: engaging in a criminal racketeering conspiracy."
-        },
-        {
-          "type": "p",
-          "text": "In a statement posted online, Huawei said the acquittal on the racketeering charge \"confirms these allegations lack factual basis and vindicates our consistent position over the past eight years.\""
-        },
-        {
-          "type": "p",
-          "text": "Joly's department said that the government of Canada is \"fully committed to protecting the security and reliability of Canadian networks.\""
-        },
-        {
-          "type": "p",
-          "text": "\"Orders under the Telecommunications Act will be made in due course, in consultation with affected parties,\" reads a statement from Innovation, Science and Economic Development Canada (ISED)."
-        },
-        {
-          "type": "p",
-          "text": "Huawei Technologies is one of the biggest suppliers of gear for telecommunications networks in the world. U.S. authorities have long claimed the company poses national security risks."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Kate McKenna is a senior reporter with CBC’s parliamentary bureau in Ottawa, where she covers federal politics. She previously worked for CBC’s The Fifth Estate and in the Halifax, Montreal and Charlottetown newsrooms. Her investigative and breaking news coverage has won five RTDNA awards. She is the author of No Choice: The 30-Year Fight for Abortion on Prince Edward Island."
-        },
-        {
-          "type": "p",
-          "text": "With files from The Associated Press"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-47xq06",
       "source": "cbc",
       "title": "Canadian intern and suspected NATO spy to await trial under electronic monitoring",
@@ -6908,118 +7228,6 @@
         {
           "type": "p",
           "text": "The survey had 1,200 respondents and a margin of error of plus/minus three percent."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "star-t4soh",
-      "source": "star",
-      "title": "VP: The majority won’t support me if I’m wrong",
-      "summary": "Vice President Sara Duterte has maintained her innocence, saying she still enjoys the support of the majority of the people despite all the accusations hurled against her before the Senate…",
-      "byline": "Bella Cariaso",
-      "section": "",
-      "published": "2026-11-25T16:00:00.000Z",
-      "firstSeen": "2026-11-25T16:31:09.764Z",
-      "url": "https://www.philstar.com/headlines/2026/11/26/2572718/vp-majority-wont-support-me-if-im-wrong",
-      "image": {
-        "src": "https://media.philstar.com/photos/2026/11/25/6-13_2026-11-25_23-46-15.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "November 26, 2026 | 12:00am"
-        },
-        {
-          "type": "p",
-          "text": "Vice President Sara Duterte led the commemoration of the 128th Araw ng Kalayaan at Rizal Park in Davao City on June 12, 2026."
-        },
-        {
-          "type": "p",
-          "text": "Facebook / Inday Sara Duterte"
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Vice President Sara Duterte has maintained her innocence, saying she still enjoys the support of the majority of the people despite all the accusations hurled against her before the Senate impeachment court."
-        },
-        {
-          "type": "p",
-          "text": "In an interview with Politiko, Duterte said she continues to draw strength from her followers amid speculative reports that the senator-judges have made up their minds ahead of the final verdict."
-        },
-        {
-          "type": "p",
-          "text": "“I think that God would not have put me here if He didn’t have a purpose, right? God is not that unreasonable. I trust His purpose. I have faith. He is there somewhere watching,” Duterte said."
-        },
-        {
-          "type": "p",
-          "text": "Reports said senators have secured the numbers to convict the Vice President, currently facing serious allegations of unexplained wealth."
-        },
-        {
-          "type": "p",
-          "text": "“Even with so many attacks, so much mudslinging, the people are still there, especially in 2016, 2019, 2022. Last year, they helped. They didn’t leave, they didn’t give up,” Duterte added."
-        },
-        {
-          "type": "p",
-          "text": "Certain legal quarters have said Duterte could resign before a guilty verdict is reached to spare her from the penalty of disqualification from public office. Resignation will then allow her to pursue her presidential bid in 2028. “It gives me confidence that I am right because how can the majority be there for me if I am wrong? That means the majority is wrong. So that gives me confidence that I am right, because the people are there,” Duterte noted."
-        },
-        {
-          "type": "p",
-          "text": "Other legal experts, however, said disqualification from public office automatically goes hand-in-hand with conviction."
-        },
-        {
-          "type": "p",
-          "text": "The impeachment court will resume trial sessions on Dec. 1, as the tribunal targets a final judgment before Congress adjourns on Dec. 18."
-        },
-        {
-          "type": "p",
-          "text": "Defense spokesman Michael Poa said the legal team of Duterte is expected to present at least five to six witnesses in the coming weeks."
-        },
-        {
-          "type": "h",
-          "text": "Thanksgiving"
-        },
-        {
-          "type": "p",
-          "text": "The Vice President and her allies, including former president and Pampanga Rep. Gloria Macapagal-Arroyo, gathered over the weekend for a thanksgiving party."
-        },
-        {
-          "type": "p",
-          "text": "During the Kapihan sa Manila Bay forum, Bagong Henerasyon (BH) party-list Rep. Robert Nazal and his wife, former representative Bernadette Herrera, confirmed that the occasion was held in their house."
-        },
-        {
-          "type": "p",
-          "text": "“Basically, she probably just wanted to thank her supporters, especially those (congressmen) who voted no to the impeachment. She conducts thanksgiving every year, when Christmas is approaching. It was like an early celebration of the Christmas season for those who helped her,” Nazal said."
-        },
-        {
-          "type": "p",
-          "text": "For her part, Herrera said some of the allies of Duterte were not able to attend the get-together as they were abroad."
-        },
-        {
-          "type": "p",
-          "text": "“Because it was a last-minute thing, many were out of the country because every year, she organizes a get-together so she just wanted to gather politicians first because every year, she really invites different sectors,” Herrera noted."
-        },
-        {
-          "type": "p",
-          "text": "According to Herrera, the ongoing impeachment trial was not discussed."
-        },
-        {
-          "type": "p",
-          "text": "“She told us, she just wanted to get together, no politics. She didn’t want to talk about politics. She just wanted to say thank you,” Herrera said."
-        },
-        {
-          "type": "p",
-          "text": "She added that Duterte also held a thanksgiving party for bloggers who support her."
-        },
-        {
-          "type": "p",
-          "text": "“The bloggers were invited to the Vice President’s office,” she said."
-        },
-        {
-          "type": "p",
-          "text": "Herrera said Duterte does not want to discuss politics until the impeachment trial is over."
         }
       ],
       "truncated": false,
@@ -15615,135 +15823,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "rap-t400nu",
-      "source": "rap",
-      "title": "Senate prioritizes feeding program in push for higher 2027 DepEd budget",
-      "summary": "Senator Bam Aquino wants to increase the school-based feeding program's budget to P28.7 billion. Meanwhile, the ARAL Program has no allocation in the Senate committee report.",
-      "byline": "Jelo Ritzhie Mantaring",
-      "section": "Editors' Pick",
-      "published": "2026-11-25T08:03:49.000Z",
-      "firstSeen": "2026-11-25T08:30:58.387Z",
-      "url": "https://www.rappler.com/philippines/deped-budget-school-feeding-program-senate-plenary-november-24-2026/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/11/School-based-feeding-program-in-Bulacan.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BUDGET DEBATES. Senator Bam Aquino and Education Secretary Sonny Angara during the Senate plenary deliberations on the proposed 2027 budget of the Department of Education on November 24, 2026."
-        },
-        {
-          "type": "p",
-          "text": "Senate Social Media Unit"
-        },
-        {
-          "type": "p",
-          "text": "Senator Bam Aquino wants to increase the school-based feeding program's budget to P28.7 billion. Meanwhile, the ARAL Program has no allocation in the Senate committee report."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Senator Bam Aquino advocates for prioritizing the school-based feeding program in the 2027 budget, proposing an increase to P28.7 billion to expand coverage.",
-            "The Senate finance committee recommended a P915.49-billion budget for the Department of Education, but the ARAL Program remains unfunded."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "This is AI-generated. Read the article for full context. Report any errors."
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – Senator Bam Aquino recommended making the school-based feeding program the top priority for an additional budget among other Department of Education (DepEd) programs in 2027."
-        },
-        {
-          "type": "p",
-          "text": "Overall, the Senate finance committee recommended P915.49 billion for the proposed new general appropriations of the DepEd and its attached agencies."
-        },
-        {
-          "type": "p",
-          "text": "That amount is P4.91 billion higher than the P910.5 billion approved by the House of Representatives, but P1.25 billion lower than the P916.75 billion in the 2027 National Expenditure Program (NEP)."
-        },
-        {
-          "type": "p",
-          "text": "Among the changes, the Senate panel added P11 billion to the school-based feeding program, pushing the proposed allocation to P22.4 billion."
-        },
-        {
-          "type": "p",
-          "text": "But Aquino, as the DepEd’s budget sponsor, plans to seek an additional increase for the program. “At the proper time, this representation, alongside some other colleagues, will introduce an amendment to increase the budget for the school-based feeding program by P6,265,478,145,” he said during the plenary deliberations."
-        },
-        {
-          "type": "p",
-          "text": "That would raise the program’s budget to P28.7 billion, higher than the P25.7 billion in the 2026 national budget."
-        },
-        {
-          "type": "p",
-          "text": "The additional funding would also expand the universal feeding to cover kindergarten to Grade 2, reaching another 1.8 million students in 2027. This follows the phased implementation under the national children’s nutrition bill, which has been ratified but not yet signed into law."
-        },
-        {
-          "type": "p",
-          "text": "The P28.7-billion budget would cover 124 feeding days, or from June to December in 2027, at P30 per meal."
-        },
-        {
-          "type": "image",
-          "src": "https://www.rappler.com/tachyon/2026/11/School-based-feeding-program-in-Bulacan.jpeg?fit=449%2C449",
-          "caption": "After Congress, expanded nutrition program bill’s next test is funding"
-        },
-        {
-          "type": "p",
-          "text": "Aquino remains hopeful that they can still set a higher budget for the education sector."
-        },
-        {
-          "type": "p",
-          "text": "“I have spoken to the Senate President multiple times to share my frustration with the fiscal space provided for this important agency,” he said in the plenary."
-        },
-        {
-          "type": "p",
-          "text": "“We have proposed a much bigger budget only to be met with an answer that we didn’t like, which was that the fiscal space is very limited — which we understand. Mr. [Senate] President, I believe that we can still increase this before the period of amendments,” he added in a mix of English and Filipino."
-        },
-        {
-          "type": "p",
-          "text": "Aquino also supports funding for the Academic Recovery and Accessible Learning (ARAL) Program in 2027. There is no separate line item for it in the 2027 NEP."
-        },
-        {
-          "type": "p",
-          "text": "However, in the Senate committee report, the ARAL Program remains unfunded."
-        },
-        {
-          "type": "p",
-          "text": "“Talo pa tayo ng House. P300 million, nakalagay sila. Tayo, wala,” Senator Joel Villanueva said during his interpellation. (The House outdid us. They allocated P300 million. We did not put anything.)"
-        },
-        {
-          "type": "p",
-          "text": "Villanueva noted that 11 million students have been identified as needing remediation sessions in school year 2026-2027."
-        },
-        {
-          "type": "p",
-          "text": "Aquino told senators that the ARAL Program still has unspent funds from this year. During the 2026 budget talks, it was the Senate that pushed P8.9 billion for the learning recovery initiative."
-        },
-        {
-          "type": "p",
-          "text": "“More than half of the P8.9-billion budget for this year was released very late, only in July and August. Therefore, because of the late release, meron pa pong pondo, ‘yon ang gagamitin (there is still funding, which will be used) next year,” he explained."
-        },
-        {
-          "type": "p",
-          "text": "He added that the disbursement rate, which refers to actual payments made, is only at 13%."
-        },
-        {
-          "type": "p",
-          "text": "According to Aquino, the DepEd is already in the process of disbursing the funds in the next few weeks, with Education Secretary Sonny Angara promising a faster process. Angara was standing beside the senator during the deliberations."
-        },
-        {
-          "type": "p",
-          "text": "“We know that it can work. We’ve been talking about our learning gaps for so many months. The main solution to the learning gap is really a remediation program,” Aquino said. – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "gma-1fysan8",
       "source": "gma",
       "title": "Not all ferns are edible, DENR warns",
@@ -15796,58 +15875,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "gma-lw053n",
-      "source": "gma",
-      "title": "Philippine Coast Guard adds 3 vessels into service",
-      "summary": "The Philippine Coast Guard (PCG) on Wednesday has commissioned three vessels into service as part of efforts to bolster operational capabilities in protecting the country's maritime territories.",
-      "byline": "JEAN MANGALUZ, GMA News",
-      "section": "",
-      "published": "2026-11-25T07:28:10.000Z",
-      "firstSeen": "2026-11-25T08:00:56.749Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1010734/philippine-coast-guard-adds-3-vessels-into-service/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/11/PCG_commissions_three_vessels_2026_11_25_15_23_18.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published November 25, 2026 3:28pm"
-        },
-        {
-          "type": "p",
-          "text": "The Philippine Coast Guard (PCG) on Wednesday has commissioned three vessels into service as part of efforts to bolster operational capabilities in protecting the country's maritime territories."
-        },
-        {
-          "type": "p",
-          "text": "“The newly commissioned vessels will expand our conduct of maritime safety operations and responses to emergencies at sea, including oil spills and other incidents that threaten the country's rich marine environment,” PCG spokesperson Commodore Noemie Cayabyab said in a statement."
-        },
-        {
-          "type": "p",
-          "text": "The commissioning of the three vessels was held at the National Headquarters in Port Area, Manila led by PCG Commandant Admiral Rommel Supangan."
-        },
-        {
-          "type": "p",
-          "text": "Two of the vessels, namely the BRP Patag (PATS-2701) and BRP Pag-asa (PATS-2702), are 27-meter marine protector-class patrol boats."
-        },
-        {
-          "type": "p",
-          "text": "The boats came from the United States and were acquired after 24 PCG crew members completed specialized training in Baltimore, Maryland last August."
-        },
-        {
-          "type": "p",
-          "text": "The third vessel is the BRP Kalikasan (MRSV-2001), a 20-meter marine research and survey vessel which will be used for shallow-water hydrographic surveys and ocean conservation."
-        },
-        {
-          "type": "p",
-          "text": "The PCG said the BRP Kalikasan was built locally in Cebu as part of the PCG’s long-term capability expansion project. It was already used in a mission in Corregidor Island early this month. — BAP, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "inqg-zylcbp",
       "source": "inqg",
       "title": "Australia, Solomons to sign treaty stymieing China",
@@ -15855,7 +15882,7 @@
       "byline": "mmercado",
       "section": "Asia & Pacific",
       "published": "2026-11-25T07:18:53.000Z",
-      "firstSeen": "2026-11-24T23:30:59.119Z",
+      "firstSeen": "2026-11-25T23:31:12.067Z",
       "url": "https://globalnation.inquirer.net/349795/australia-solomons-to-sign-treaty-stymieing-china",
       "image": {
         "src": "https://globalnation.inquirer.net/files/2026/07/China-ally-Solomon-Islands-invites-US-Coast-Guard-patrols-scaled.jpg",
@@ -15920,7 +15947,7 @@
       "byline": "mmercado",
       "section": "Americas",
       "published": "2026-11-25T07:05:25.000Z",
-      "firstSeen": "2026-11-24T23:30:59.152Z",
+      "firstSeen": "2026-11-25T23:31:12.067Z",
       "url": "https://globalnation.inquirer.net/349787/nvidias-huang-says-he-is-in-therapy-as-comeback-rally-fades",
       "image": {
         "src": "https://globalnation.inquirer.net/files/2026/11/AP26316465392119.jpg",
@@ -16085,31 +16112,6 @@
         {
           "type": "p",
           "text": "CARTAGENA, Colombia — Gunmen took 25 people hostage at a supermarket in the Colombian tourist city of Cartagena on Tuesday, prompting a major security operation that included the deployment of snipers and the closure of nearby streets. The attackers appeared to have tried to rob an armored vehicle before fleeing into the supermarket and taking"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-14ue8f0",
-      "source": "inqg",
-      "title": "US soldier admits selling military information to Chinese buyers",
-      "summary": "LOS ANGELES, United States — An American soldier who sold what he claimed was top secret know-how to Chinese-linked buyers faces up to a decade in prison after admitting passing on sensitive military…",
-      "byline": "mmercado",
-      "section": "Americas",
-      "published": "2026-11-25T06:16:13.000Z",
-      "firstSeen": "2026-11-25T22:31:13.115Z",
-      "url": "https://globalnation.inquirer.net/349772/us-soldier-admits-selling-military-information-to-chinese-buyers",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2024/12/AP24339750145530-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LOS ANGELES, United States — An American soldier who sold what he claimed was top secret know-how to Chinese-linked buyers faces up to a decade in prison after admitting passing on sensitive military information. Army sergeant Jian Zhao, 37, took advantage of his security clearance to get his hands on restricted documents. He snapped pictures of"
         }
       ],
       "truncated": true,
@@ -19701,87 +19703,6 @@
         {
           "type": "p",
           "text": "Bryan will be here shortly. In the meantime here’s our watch guide for this year’s World Chess Championship,"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-17z3y3u",
-      "source": "grd",
-      "title": "Gaza issues meningitis epidemic alert after steep rise in cases",
-      "summary": "<p>Health ministry records 272 new infections in October, more than eight times the normal monthly rate</p><p>Gaza’s health ministry has issued an epidemic alert after a sharp rise in meningitis…",
-      "byline": "Lorenzo Tondo in Jerusalem",
-      "section": "Gaza",
-      "published": "2026-11-24T14:51:18.000Z",
-      "firstSeen": "2026-11-24T15:01:40.343Z",
-      "url": "https://www.theguardian.com/world/2026/nov/24/gaza-meningitis-epidemic-alert",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/f28b38c1e5902f250db5030c50559091c6afe4c3/0_0_4206_3365/master/4206.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=6d163cc9e0d08484ca9c86a12364730d",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Gaza’s health ministry has issued an epidemic alert after a sharp rise in meningitis infections, with more than 270 new cases reported in October."
-        },
-        {
-          "type": "p",
-          "text": "Dr Nidal Ghoneim, a senior official at the ministry, said the spread of the disease posed a threat to the lives of hundreds of thousands of people, including children."
-        },
-        {
-          "type": "p",
-          "text": "Health organisations attribute the rise in infections to the destruction of infrastructure, overcrowded shelters and the contamination of drinking water with sewage – a crisis made worse by winter flooding and restrictions on humanitarian aid. Much of Gaza’s drinking water previously came from desalination plants and three Israeli-controlled pipelines, which were cut off at the start of the war and have only partially reopened."
-        },
-        {
-          "type": "p",
-          "text": "Ghoneim told a news conference that 272 meningitis infections had been reported in the territory in October, more than eight times the normal monthly rate of 30 to 50 cases. Fifteen Palestinians have died of meningitis since the beginning of this year, he said."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/6a654fb07e752ca7832d372f947d239f099d942f/413_0_6830_5464/master/6830.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "A doctor examines a child suffering from meningitis at al-Rantisi children’s hospital in Gaza City. Photograph: Omar Ashtawy/HL/Getty Images"
-        },
-        {
-          "type": "p",
-          "text": "“We hold the [Israeli] occupation fully and directly responsible for the epidemic outbreak due to its prevention of the entry of maintenance spare parts, sterilisation materials and fuel,” the health ministry said."
-        },
-        {
-          "type": "p",
-          "text": "The UN’s humanitarian agency (Ocha) had previously reported 413 suspected cases of meningitis in Gaza between 27 September and 31 October, including 294 viral and 119 bacterial cases. About 68% were recorded in Gaza City."
-        },
-        {
-          "type": "p",
-          "text": "Ocha said the increase in cases could be attributed to crowded tents and schools, the deterioration of shelter and sanitation conditions and exposure to unsafe water."
-        },
-        {
-          "type": "p",
-          "text": "Gaza’s water crisis is severe. Before the war, 80% of the territory’s supply came from an aquifer that is now contaminated by seawater and wastewater, making it unfit for human consumption."
-        },
-        {
-          "type": "p",
-          "text": "For many, this means a stark choice between drinking an extra cup of water or saving it to wash their hands and prevent disease. Acute diarrhoea is among the leading causes of illness in the territory. About 15,000 cubic metres a day of untreated waste seeps into the groundwater from soak-away pits, particularly in the informal camps in al-Mawasi."
-        },
-        {
-          "type": "p",
-          "text": "The World Health Organization said in September that microbial contamination in water samples had risen from less than 6% in January to nearly 20% in August."
-        },
-        {
-          "type": "p",
-          "text": "In addition to disease outbreaks and shortages of drinking water and basic necessities, Palestinians continue to face attacks and ceasefire violations by the Israeli military, which has intensified its strikes in recent days."
-        },
-        {
-          "type": "p",
-          "text": "Soldiers crossed into Hamas-controlled central Gaza last Wednesday in the first ground operation across the “yellow line” boundary since a fragile ceasefire was agreed in October last year, forcing dozens of displaced Palestinians to flee their tents."
-        },
-        {
-          "type": "p",
-          "text": "Four people were killed and seven wounded in Gaza over the past 24 hours, according to the health ministry, bringing the death toll since the ceasefire took effect to 1,679."
-        },
-        {
-          "type": "p",
-          "text": "More than 74,000 Palestinians have been killed and more than 176,000 wounded since the beginning of the war in October 2023, according to Gaza’s health authorities."
         }
       ],
       "truncated": false,
