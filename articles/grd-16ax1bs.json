@@ -1,7 +1,7 @@
 {
   "id": "grd-16ax1bs",
   "source": "grd",
-  "title": "Consumer prices are the highest since May, rising 3.8% in October",
+  "title": "Annual US consumer price inflation hits 3.8% – highest level since May",
   "summary": "<p>Rise occurs amid soaring energy prices, according to last inflation reading before a crucial Fed board meeting</p><p>Consumer prices rose an annualized 3.8% in October, according to new inflation…",
   "byline": "Lauren Aratani",
   "section": "US economy",
@@ -15,11 +15,42 @@
   "blocks": [
     {
       "type": "p",
-      "text": "<p>Rise occurs amid soaring energy prices, according to last inflation reading before a crucial Fed board meeting</p><p>Consumer prices rose an annualized 3.8% in October, according to new inflation data released Wednesday, the highest since May and the last <a href=\"https://www.theguardian.com/business/inflation\">inflation</a> reading before a crucial US Federal Reserve board meeting next month.</p><p>Prices rose 0.3% from September to October amid soaring energy prices, according to the Personal Consumption Expenditure index, the Fed’s preferred inflation measure from the commerce department’s bureau of economic analysis.</p> <a href=\"https://www.theguardian.com/business/2026/nov/25/consumer-prices-september-october-energy-inflation\">Continue reading...</a>"
+      "text": "Consumer prices rose an annualized 3.8% in October, according to new inflation data released on Wednesday, the highest since May and the last inflation reading before a crucial US Federal Reserve board meeting next month."
+    },
+    {
+      "type": "p",
+      "text": "Prices rose 0.3% from September to October amid soaring energy prices, according to the Personal Consumption Expenditure index, the Fed’s preferred inflation measure from the commerce department’s Bureau of Economic Analysis."
+    },
+    {
+      "type": "p",
+      "text": "The data comes after the Bureau of Labor Statistics separately reported prices climbed 0.4% from September to October, higher than economists had anticipated."
+    },
+    {
+      "type": "p",
+      "text": "Energy prices, including gas prices at the pump, have cooled, going from a high of $4.41 a gallon in early October to $3.61 a gallon by mid-November, according to AAA."
+    },
+    {
+      "type": "p",
+      "text": "In early December, the Fed will hold the last of its interest rate-setting meetings for the year, and officials are widely expected to hike interest rates for the second time this year. The Fed has set a target inflation rate of 2%, a level not seen since February 2021. Higher interest rates make it more expensive to borrow money, slowing price increases and raising the price of loans like mortgages and student debt."
+    },
+    {
+      "type": "p",
+      "text": "Though officials held rates steady at the last board meeting in late October, minutes from the meeting showed that some expressed concern about inflation’s stickiness."
+    },
+    {
+      "type": "p",
+      "text": "“A few of them warned that further delay risked allowing high inflation to become entrenched or necessitating a larger and more disruptive tightening later,” the minutes said."
+    },
+    {
+      "type": "p",
+      "text": "The move would come at a tumultuous time for the US economy. A new survey from the Conference Board released on Tuesday showed consumer confidence had ticked up in November to its highest level since January 2025, probably driven by the shake-up from the midterm elections."
+    },
+    {
+      "type": "p",
+      "text": "At the same time, US stocks have been fluctuating from a mixture of uncertainty over datacenter regulations, continuing scandals coming out of Nvidia and overall investor concern about the seemingly limitless amount of money being spent on building AI and the infrastructure to support it."
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct circuit open after repeated HTTP 403"
+  "source_of_text": "page"
 }
