@@ -15,11 +15,18 @@
   "blocks": [
     {
       "type": "p",
-      "text": "<p>Vladimir Putin has always kept the number of soldiers killed in Ukraine a secret, but at one point 720 were dying in 24 hours. Pjotr Sauer reports. Send your comments and questions to <a href=\"mailto:tif.questions@theguardian.com\"><strong>tif.questions@theguardian.com</strong></a></p><p>Russia has kept the death toll of its soldiers in the Ukraine war a carefully guarded secret. Now documents leaked to the Guardian have <a href=\"https://www.theguardian.com/world/series/russias-war-dead\">revealed its true scale</a>. The Guardian’s Russia affairs correspondent, <strong>Pjotr Sauer</strong>, tells <strong>Helen Pidd</strong> what reporters have discovered.</p><p>Two groups of hackers accessed Russia’s main statistics database last month and discovered a cache of 11m death certificates that revealed nearly 500,000 Russian losses in Ukraine since 2022. Among these were 1,000 – the equivalent of a whole regiment – who took their own lives.</p> <a href=\"https://www.theguardian.com/news/audio/2026/nov/25/the-russian-armys-secret-death-toll-podcast\">Continue reading...</a>"
+      "text": "Russia has kept the death toll of its soldiers in the Ukraine war a carefully guarded secret. Now documents leaked to the Guardian have revealed its true scale. The Guardian’s Russia affairs correspondent, Pjotr Sauer, tells Helen Pidd what reporters have discovered."
+    },
+    {
+      "type": "p",
+      "text": "Two groups of hackers accessed Russia’s main statistics database last month and discovered a cache of 11m death certificates that revealed nearly 500,000 Russian losses in Ukraine since 2022. Among these were 1,000 – the equivalent of a whole regiment – who took their own lives."
+    },
+    {
+      "type": "p",
+      "text": "The documents show how the majority of soldiers come from poorer areas and ethnic minorities, drawn in by high salaries. There are also recruits from abroad and even those lured to Russia by offers of jobs. But for how long can Vladimir Putin keep this shocking death toll from the Russian people?"
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct circuit open after repeated HTTP 403"
+  "source_of_text": "page"
 }
