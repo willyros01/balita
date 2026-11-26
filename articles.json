@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-26T15:45:03.441Z",
+  "updated": "2026-11-26T16:01:33.583Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-xcfwlu",
+      "source": "inqn",
+      "title": "2 sea turtles found butchered in Bohol",
+      "summary": "MANILA, Philippines — Two sea turtles were found dead, with their carcasses mutilated, on the shore of Barangay Tiguis in Lila, Bohol. READ: Bacnotan, La Union records first sea turtle nest of the…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-26T16:01:24.242Z",
+      "firstSeen": "2026-11-26T11:01:14.315Z",
+      "url": "https://newsinfo.inquirer.net/2347697/fwd-2-sea-turtles-found-butchered-in-bohol",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2022/09/Bohol-map-filephoto-091322.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Two sea turtles were found dead, with their carcasses mutilated, on the shore of Barangay Tiguis in Lila, Bohol. READ: Bacnotan, La Union records first sea turtle nest of the season According to the Bohol Provincial Environment Management Office, the dead green sea turtles (scientific name: Chelonia mydas) were discovered on Nov."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-vvlqra",
       "source": "inqn",
       "title": "SBMA marks 34 years, cites growth in Subic Freeport workforce",
       "summary": "SUBIC BAY FREEPORT — From a former American naval base that was preserved by thousands of Filipino volunteers to an economic zone employing nearly 177,000 workers, the Subic Bay Freeport has…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.122Z",
+      "published": "2026-11-26T16:01:24.242Z",
       "firstSeen": "2026-11-26T11:01:14.832Z",
       "url": "https://newsinfo.inquirer.net/2347678/sbma-marks-34-years-cites-growth-in-subic-freeport-workforce",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "COTABATO CITY – The Balay Mindanaw Foundation, Inc. (BMFI), a Mindanao-based non-government organization (NGO), joined other peace groups on the island in celebrating the annual Mindanao Week of…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.122Z",
+      "published": "2026-11-26T16:01:24.242Z",
       "firstSeen": "2026-11-26T11:01:18.096Z",
       "url": "https://newsinfo.inquirer.net/2347675/balay-mindanaw-peace-begins-with-the-people",
       "image": {
@@ -103,63 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-p7s4ul",
-      "source": "inqn",
-      "title": "BARMM forest ranger killed in Maguindanao del Norte",
-      "summary": "COTABATO CITY – A forest ranger in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) was shot dead Thursday morning in Sultan Kudarat, Maguindanao del Norte, according to the police. Capt.…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.122Z",
-      "firstSeen": "2026-11-26T10:31:00.823Z",
-      "url": "https://newsinfo.inquirer.net/2347670/barmm-forest-ranger-killed-in-maguindanao-del-norte",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/10/Maguindanao-del-Norte-map-filephoto-103022.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COTABATO CITY – A forest ranger in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) was shot dead Thursday morning in Sultan Kudarat, Maguindanao del Norte, according to the police. Capt. Steffi Salanguit, spokesperson for the Police Regional Office-Bangsamoro Autonomous Region (PRO-BAR), identified the victim as Ebrahim Sampayan Abdullah, a 59-year-old forest ranger of the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-xcfwlu",
-      "source": "inqn",
-      "title": "2 sea turtles found butchered in Bohol",
-      "summary": "MANILA, Philippines — Two sea turtles were found dead, with their carcasses mutilated, on the shore of Barangay Tiguis in Lila, Bohol. READ: Bacnotan, La Union records first sea turtle nest of the…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.119Z",
-      "firstSeen": "2026-11-26T11:01:14.315Z",
-      "url": "https://newsinfo.inquirer.net/2347697/fwd-2-sea-turtles-found-butchered-in-bohol",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/Bohol-map-filephoto-091322.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Two sea turtles were found dead, with their carcasses mutilated, on the shore of Barangay Tiguis in Lila, Bohol. READ: Bacnotan, La Union records first sea turtle nest of the season According to the Bohol Provincial Environment Management Office, the dead green sea turtles (scientific name: Chelonia mydas) were discovered on Nov."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-70o0gc",
       "source": "inqn",
       "title": "Most of PH to have fair weather; expect rain in parts of Luzon, Mindanao",
       "summary": "MANILA, Philippines – Most parts of the country are expected to experience generally fair weather, while parts of Luzon and Mindanao may see cloudy skies and rain due to the effects of the shear line…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.116Z",
+      "published": "2026-11-26T16:01:22.980Z",
       "firstSeen": "2026-11-26T11:01:14.235Z",
       "url": "https://newsinfo.inquirer.net/2347708/most-of-ph-to-have-fair-weather-expect-rain-in-parts-of-luzon-mindanao",
       "image": {
@@ -184,7 +159,7 @@
       "summary": "COTABATO CITY – Almost a month after the first duly-elected Bangsamoro Parliament assumed office, the body finally approved the rules that will govern the parliamentary proceedings, its first major…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.112Z",
+      "published": "2026-11-26T16:01:22.442Z",
       "firstSeen": "2026-11-26T11:31:12.345Z",
       "url": "https://newsinfo.inquirer.net/2347718/bangsamoro-parliament-approves-legislative-rules",
       "image": {
@@ -209,7 +184,7 @@
       "summary": "MANILA, Philippines — Any proposal to tax coffee products is already considered “dead on arrival” at the House of Representatives, Marikina Rep. Miro Quimbo said on Thursday. In a message to…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.109Z",
+      "published": "2026-11-26T16:01:21.114Z",
       "firstSeen": "2026-11-26T11:31:10.356Z",
       "url": "https://newsinfo.inquirer.net/2347648/fwd-proposed-coffee-tax-dead-on-arrival-at-house-quimbo-says",
       "image": {
@@ -234,7 +209,7 @@
       "summary": "COTABATO CITY – Thousands of christians, muslims and Indigenous Peoples (IPs) across the southern Philippines on Thursday joined the opening of the annual Mindanao Week of Peace (MWOP), with calls…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.103Z",
+      "published": "2026-11-26T16:01:20.977Z",
       "firstSeen": "2026-11-26T11:31:08.513Z",
       "url": "https://newsinfo.inquirer.net/2347721/mindanao-celebrates-peace-week-with-prayers-calls-for-solidarity-unity",
       "image": {
@@ -259,7 +234,7 @@
       "summary": "PROSPERIDAD, Agusan del Sur — With gadgets and social media making it effortless to publish without checking facts, the Public Relations Society of the Philippines (PRSP) is pushing ethics rules,…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.100Z",
+      "published": "2026-11-26T16:01:20.642Z",
       "firstSeen": "2026-11-26T11:31:08.444Z",
       "url": "https://newsinfo.inquirer.net/2347728/pr-group-pushes-ethics-training-vs-ai-disinformation-trolls",
       "image": {
@@ -284,7 +259,7 @@
       "summary": "SAN FERNANDO, Bukidnon — A municipal outreach team hiked for six hours through slippery mountain trails to deliver school supplies, slippers, and hot meals to 110 pupils from Indigenous Peoples (IP)…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.096Z",
+      "published": "2026-11-26T16:01:19.367Z",
       "firstSeen": "2026-11-26T12:01:01.324Z",
       "url": "https://newsinfo.inquirer.net/2347738/a-6-hour-trek-to-deliver-aid-hope-to-bukidnon-lumad-pupils",
       "image": {
@@ -309,7 +284,7 @@
       "summary": "MANILA, Philippines — While social media companies like Meta may view disinformation and misinformation as issues that can be addressed through fact-checking, Lanao del Sur Rep. Zia Alonto Adiong…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.092Z",
+      "published": "2026-11-26T16:01:19.169Z",
       "firstSeen": "2026-11-26T12:30:56.928Z",
       "url": "https://newsinfo.inquirer.net/2347758/adiong-tells-meta-fake-news-is-personal-impacts-us-families",
       "image": {
@@ -334,7 +309,7 @@
       "summary": "MANILA, Philippines — The Senate impeachment court on Thursday confirmed that it has served subpoenas on two witnesses named by Vice President Sara Duterte’s defense team, including a Bureau of…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:49.031Z",
+      "published": "2026-11-26T16:01:17.377Z",
       "firstSeen": "2026-11-26T13:01:11.049Z",
       "url": "https://newsinfo.inquirer.net/2347760/impeach-court-subpoenas-boc-exec-cale88-ex-co-owner-as-witnesses",
       "image": {
@@ -359,7 +334,7 @@
       "summary": "MANILA, Philippines — Here are the top INQToday stories for Thursday, Nov. 26, 2026, as of 6. p.m. OVP budget interpellation lasts just 2 minutes, with no questions asked Without any questions from…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:47.257Z",
+      "published": "2026-11-26T16:01:15.786Z",
       "firstSeen": "2026-11-26T13:01:09.227Z",
       "url": "https://newsinfo.inquirer.net/2347765/inqtoday-ovp-budget-interpellation-lasts-just-2-minutes",
       "image": {
@@ -384,7 +359,7 @@
       "summary": "MANILA, Philippines — Senators on Thursday warned heads of government agencies that their offices may suffer budget reductions if they fail to attend budget deliberations. The warning came as…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:43.721Z",
+      "published": "2026-11-26T16:01:15.642Z",
       "firstSeen": "2026-11-26T13:01:09.183Z",
       "url": "https://newsinfo.inquirer.net/2347746/senators-warn-budget-cuts-vs-absent-dept-heads-in-debates",
       "image": {
@@ -409,7 +384,7 @@
       "summary": "MANILA, Philippines — A dangerous heat index gripped five areas on Thursday as the El Niño phenomenon continues to affect the country, according to the Philippine Atmospheric, Geophysical and…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:41.901Z",
+      "published": "2026-11-26T16:01:15.292Z",
       "firstSeen": "2026-11-26T13:31:02.735Z",
       "url": "https://newsinfo.inquirer.net/2347779/dangerous-heat-index-hits-5-areas-on-thursday",
       "image": {
@@ -434,7 +409,7 @@
       "summary": "VALENCIA CITY, Bukidnon — A couple was shot dead allegedly by the former live-in partner of one of the victims in Bukidnon on Wednesday evening, November 25, police said. The Impasugong police…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:41.831Z",
+      "published": "2026-11-26T16:01:13.442Z",
       "firstSeen": "2026-11-26T13:31:02.647Z",
       "url": "https://newsinfo.inquirer.net/2347782/couple-shot-dead-in-bukidnon-by-one-of-victims-ex-partner",
       "image": {
@@ -459,7 +434,7 @@
       "summary": "MANILA, Philippines—No bettor won the jackpots in the Super Lotto 6/49 and Lotto 6/42 draws on Thursday, Nov. 26, 2026, according to the Philippine Charity Sweepstakes Office. Super Lotto 6/49 draw…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:35.788Z",
+      "published": "2026-11-26T16:01:11.642Z",
       "firstSeen": "2026-11-26T14:01:03.104Z",
       "url": "https://newsinfo.inquirer.net/2347796/super-lotto-6-49-lotto-6-42-draw-results-on-thursday-nov-26",
       "image": {
@@ -478,13 +453,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-136vbyy",
+      "source": "inqn",
+      "title": "Batanes polls to use manual voting, text-based results transmission",
+      "summary": "MANILA, Philippines — The Commission on Elections (Comelec) will use the messaging platform Viber to transmit election results during the Nov. 28 special elections in Batanes, aiming to speed up the…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-26T16:01:06.471Z",
+      "firstSeen": "2026-11-26T16:01:06.471Z",
+      "url": "https://newsinfo.inquirer.net/2347810/batanes-polls-to-use-manual-voting-text-based-results-transmission",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2021/06/map-batanes.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Commission on Elections (Comelec) will use the messaging platform Viber to transmit election results during the Nov. 28 special elections in Batanes, aiming to speed up the canvassing process and allow the proclamation of the winner on election night. The special elections will determine the new representative of Batanes’ lone congressional"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1u51g1c",
       "source": "inqn",
       "title": "Speaker Dy calls for stronger climate action",
       "summary": "MANILA, Philippines — At the first Philippine Summit on Localizing Climate Change and Nature-Based Solutions, Sustainable Tourism and Creative Industries Development, Speaker Faustino “Bojie” Dy III…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:33.352Z",
+      "published": "2026-11-26T16:01:02.677Z",
       "firstSeen": "2026-11-26T15:01:00.341Z",
       "url": "https://newsinfo.inquirer.net/2347806/speaker-dy-calls-for-stronger-climate-action",
       "image": {
@@ -509,7 +509,7 @@
       "summary": "MANILA, Philippines — The existence of Vice President Sara Duterte’s alleged dollar-denominated bank accounts has raised the possibility that she has additional financial assets beyond those already…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:32.922Z",
+      "published": "2026-11-26T16:01:02.672Z",
       "firstSeen": "2026-11-26T15:01:00.299Z",
       "url": "https://newsinfo.inquirer.net/2347816/prosecution-vps-dollar-accounts-may-point-to-alleged-wealth-past-p817m",
       "image": {
@@ -534,7 +534,7 @@
       "summary": "MANILA, Philippines — The International Criminal Court (ICC) should determine if former President Rodrigo Duterte’s “kill” remarks are just a Visayan way of emphasis, which has been “misread” by…",
       "byline": "jvicente",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-26T15:44:32.922Z",
+      "published": "2026-11-26T16:01:02.672Z",
       "firstSeen": "2026-11-26T08:30:55.035Z",
       "url": "https://globalnation.inquirer.net/350019/icc-told-to-assess-whether-dutertes-kill-remarks-are-a-visayan-quirk",
       "image": {
@@ -559,7 +559,7 @@
       "summary": "MANILA, Philippines — The unexplained difference between Cale88 Foods Corp.’s reported sales and substantial bank inflows requires an accounting of both the sources and ultimate disposition of the…",
       "byline": "cbuban",
       "section": "Latest News Stories",
-      "published": "2026-11-26T15:44:32.830Z",
+      "published": "2026-11-26T16:01:02.641Z",
       "firstSeen": "2026-11-26T15:30:56.121Z",
       "url": "https://newsinfo.inquirer.net/2347818/ridon-where-did-cale88s-p500-m-difference-come-from-and-go",
       "image": {
@@ -584,7 +584,7 @@
       "summary": "BANGKOK, Thailand &#8211; A huge explosion rocked an oil facility in Bangkok on Thursday, injuring nine people with three of them in a critical condition, Thai authorities said. The blast was so…",
       "byline": "ggaviola",
       "section": "Asia & Pacific",
-      "published": "2026-11-26T15:44:32.830Z",
+      "published": "2026-11-26T16:01:02.641Z",
       "firstSeen": "2026-11-26T13:01:09.183Z",
       "url": "https://globalnation.inquirer.net/350027/nine-hurt-in-huge-explosion-at-bangkok-oil-facility",
       "image": null,
@@ -598,6 +598,156 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "grd-1k24w9c",
+      "source": "grd",
+      "title": "Politician hosts 400,000 guests at daughter’s wedding in India’s poorest state",
+      "summary": "<p>Six helipads built and feast prepared by 500 cooks for wedding hosted by Anant Singh, an MP charged with murder</p><p>It takes a brave soul to try to match <a…",
+      "byline": "Amrit Dhillon in Delhi",
+      "section": "India",
+      "published": "2026-11-26T15:41:42.000Z",
+      "firstSeen": "2026-11-26T13:01:13.409Z",
+      "url": "https://www.theguardian.com/world/2026/nov/26/india-anant-singh-hosts-400000-guests-wedding-guests-daughter",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/146f27955d71d926be0d5814ed341c2e68dcde32/596_0_2787_2231/master/2787.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=361cf1d5684eccc5924cb68ef1e1ffcd",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It takes a brave soul to try to match the mythic opulence of the wedding arranged by the Indian billionaire Mukesh Ambani for his son Anant in 2024. Estimates of the cost for the months-long celebration ran to at least $600m, with world leaders and celebrities among those on the guest list."
+        },
+        {
+          "type": "p",
+          "text": "Smaller fry though he is, Anant Singh, a legislator in India’s poorest state, Bihar, gave it his best shot on Wednesday, albeit in a rustic rural setting, for the nuptials of his daughter Shivangi Singh, and Rishikesh Kumar, an MBA student from Georgia State University in Atlanta."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/c422b6be0dc157dbbbaa0439184e64804d1a34df/0_33_683_854/master/683.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Shivangi Singh (left) and Rishikesh Kumar during their wedding.  Photograph: NDTV"
+        },
+        {
+          "type": "p",
+          "text": "About 400,000 guests were hosted across 2.5 hectares at the family home in the village of Nadawa – a staggering figure even by the standards of India’s famed extravagant weddings. Guests were treated to 500,000 pieces of traditional sweets, and a feast prepared by an army of 500 chefs and cooks, Singh’s confidant Munna Singh told Agence France-Presse. One thousand kilos of mutton were reportedly used for kebabs and curries. Six makeshift helipads were erected for VIPs flying in from across India."
+        },
+        {
+          "type": "p",
+          "text": "Kumar arrived at the venue in sunglasses and waving an orange scarf in a convoy of 151 cars (Hindus consider uneven numbers to be lucky). Among the gifts for the groom was a Land Rover Defender."
+        },
+        {
+          "type": "p",
+          "text": "The roads leading to the venue were so choked with cars before the wedding that one guest escaped the gridlock, The Times of India reported, by jumping on a tractor and driving across the surrounding fields."
+        },
+        {
+          "type": "p",
+          "text": "Guests were also treated to elaborate flower arrangements featuring blooms imported from China and a fireworks display."
+        },
+        {
+          "type": "p",
+          "text": "Instead of a DJ for entertainment, Singh planned a horse race. Gatecrashers clambered up into trees and on to electricity towers to catch a glimpse of the race, but the chaos and tumult was so great it had to be cancelled at the 11th hour. Lying around somewhere amid the wedding detritus was the SUV that would have gone to the winner."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/3bd39065e092003427d36ea9eab998cf27b728e0/0_99_1083_936/master/1083.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "A screengrab showing crowds at the wedding. Photograph: NDTV"
+        },
+        {
+          "type": "p",
+          "text": "Singh is a controversial figure. Elected five times to the state assembly, he has 28 criminal cases pending against him ranging from murder and attempted murder to extortion and kidnapping. All the cases are listed on the website of the Association for Democratic Reforms, an NGO that is trying to improve governance and strengthen democracy. Singh denies any wrongdoing regarding the charges."
+        },
+        {
+          "type": "p",
+          "text": "In a television interview before the wedding, he pooh poohed the idea that there was anything unusual about the scale of the wedding preparations. “I laid on exactly the same thing for my elder daughter,” he said."
+        },
+        {
+          "type": "p",
+          "text": "India’s wedding season has just kicked off. Between now and 15 December, an estimated 5.2m weddings are expected to take place across the country."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-10m1c2y",
+      "source": "grd",
+      "title": "Man found guilty of attempted murder of seven people on LNER train",
+      "summary": "<p>Psychiatrists say Anthony Williams was experiencing ‘acute psychosis as a result of his schizophrenia’</p><p>A 33-year-old man has been found guilty<strong> </strong>of seven counts of attempted…",
+      "byline": "Neha Gohil Midlands correspondent",
+      "section": "UK news",
+      "published": "2026-11-26T15:37:36.000Z",
+      "firstSeen": "2026-11-26T16:01:15.786Z",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/26/anthony-williams-guilty-attempted-murder-lner-train",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/144bac472dac3850c4d20b91ffef395e108fc323/23_0_1350_1080/master/1350.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=cc523f1f7abf16c87eef67817b1e5730",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A 33-year-old man has been found guilty of seven counts of attempted murder after he stabbed 10 passengers at random on a London-bound train last year."
+        },
+        {
+          "type": "p",
+          "text": "Anthony Williams of Peterborough admitted stabbing 14 people over two days on 31 October and 1 November 2025, including 10 passengers on an LNER service from Doncaster to London. He denied 14 counts of attempted murder."
+        },
+        {
+          "type": "p",
+          "text": "After a six-week trial at Cambridge crown court, a jury found Williams guilty on seven counts. Deliberations on the other seven are continuing."
+        },
+        {
+          "type": "p",
+          "text": "The jury found Williams guilty of the attempted murder of Jonathan Gjoshe, 22, Sachin Balakrishnan, 29, David Presland, 73, Scott Bletcher, 50, Scott Green, 21, Stephen Crean, 61, and Samir Zitouni, 48, who were all on the LNER service, which made an emergency stop in Huntingdon last year."
+        },
+        {
+          "type": "p",
+          "text": "Williams, who psychiatrists said was experiencing “acute psychosis as a result of his schizophrenia” at the time, previously admitted to wounding with intent to cause really serious bodily harm to 12 people and attempting to do so to two others."
+        },
+        {
+          "type": "p",
+          "text": "During the trial, the court was told how passengers on the train from Doncaster to King’s Cross on 1 November 2025 were subjected to a “storm of violence” that left some with serious injuries and many fearing for their lives."
+        },
+        {
+          "type": "p",
+          "text": "In the 24 hours before the train attack, Williams had attacked three people in Peterborough and a 17-year-old boy on the Docklands Light Railway in London in the early hours of 1 November, jurors were told."
+        },
+        {
+          "type": "p",
+          "text": "Christopher Paxton KC, for the prosecution, told the court: “Williams, armed with a knife, caused terror and fear on an unimaginable scale, moving up and down a busy train from which there was no escape, stabbing several people as he did so.”"
+        },
+        {
+          "type": "p",
+          "text": "Crean was one of several passengers praised during the trial for their “extraordinary bravery” when trying to wrestle the knife off Williams. Among his injuries, he was stabbed to the left side of his scalp within “0.79cm of the brain”, jurors were told."
+        },
+        {
+          "type": "p",
+          "text": "Green was also stabbed while he attempted to grab the knife from Williams. A member of the train crew, Samir Zitouni, was also stabbed several times as he tried to use a frying pan to stop Williams, jurors heard."
+        },
+        {
+          "type": "p",
+          "text": "Paxton said: “In the face of that threat and the defendant’s sheer brutality, some stood tall to protect others trying to de-escalate his rampage, defending themselves and putting themselves in harm’s way to protect strangers.”"
+        },
+        {
+          "type": "p",
+          "text": "Gillian Jones KC, for the defence, said Williams had been “in the clutches of an acute psychotic episode” and that he “didn’t intend to kill, he didn’t intend to bring about death”. Williams was not called on to give evidence during the trial."
+        },
+        {
+          "type": "p",
+          "text": "Dr Bernard Chin, a psychiatrist instructed by the defence, said Williams had been experiencing “paranoid persecutory delusions, meaning he had ideas and beliefs that people were going to harm him and that this was an organised conspiracy that came about due to … the devil”."
+        },
+        {
+          "type": "p",
+          "text": "Jones said Williams’s actions during the mass stabbing, including the fact he attacked one of the people on the LNER train before walking away, was evidence that he had not intended to kill. This was “consistent with a delusional belief he was under attack”, she said."
+        },
+        {
+          "type": "p",
+          "text": "Mr Justice Calver instructed the jury to continue their deliberations on Thursday, and said he would accept a majority of 11 or 10 on the remaining counts."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "grd-128rg8f",
@@ -616,13 +766,88 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>The New York governor declares a state of emergency in several parts of the state due to severe weather</p><p>Heavy rain, winds, flooding and high tides are hitting the eastern and western US, snarling travel and leading to the cancellations of at least two commercial <a href=\"https://www.theguardian.com/lifeandstyle/thanksgiving\">Thanksgiving</a> parades.</p><p>On the East Coast, authorities in Philadelphia ordered the city’s Thanksgiving Day parade in Philadelphia off the streets and will be featured as an “alternative TV event”.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/26/storm-thanksgiving-parade-cancellations-severe-weather\">Continue reading...</a>"
+          "text": "Heavy rain, winds, flooding and high tides are hitting the eastern and western US, snarling travel and leading to the cancellations of at least two commercial Thanksgiving parades."
+        },
+        {
+          "type": "p",
+          "text": "On the East Coast, authorities in Philadelphia ordered the city’s Thanksgiving Day parade in Philadelphia off the streets and will be featured as an “alternative TV event”."
+        },
+        {
+          "type": "p",
+          "text": "In New York, the Macy’s parade of vast, inflatable characters was postponed to Saturday. One estimate put the cost of re-inflating the balloons with helium at $1.7m."
+        },
+        {
+          "type": "p",
+          "text": "The New York governor, Kathy Hochul, declared a state of emergency in several parts of the state due to severe weather."
+        },
+        {
+          "type": "p",
+          "text": "“I urge everyone to stay prepared, stay alert, stay informed and stay vigilant,” she said."
+        },
+        {
+          "type": "p",
+          "text": "The New York City mayor, Zohran Mamdani, said in a travel advisory that those traveling should “budget extra time and use caution. Leave early and prepare for the possibility that you may have to stay late. There is no destination worth risking your safety.”"
+        },
+        {
+          "type": "p",
+          "text": "In New Jersey, governor Mikie Sherrill declared a statewide emergency. She asked residents of the state to “stay off the roads as much as possible once the storm arrives, and follow every directive from local officials, including any order to evacuate.”"
+        },
+        {
+          "type": "p",
+          "text": "Residents in flood-prone areas of Atlantic City strongly urged residents to voluntarily self-evacuate."
+        },
+        {
+          "type": "p",
+          "text": "“We’d rather be safe than sorry. This is more like a tropical storm than a nor’easter,” the Atlantic City mayor, Marty Small Sr, said."
+        },
+        {
+          "type": "p",
+          "text": "On the West Coast, strong winds and king tides flooded communities, prompted flood warnings and demolished part of a municipal pier in California’s Pacifica Beach."
+        },
+        {
+          "type": "p",
+          "text": "Authorities warned residents that “debris may be underwater or wash ashore. If you see debris, leave it in place and report it.”"
+        },
+        {
+          "type": "p",
+          "text": "North of San Francisco, Marin county officials issued an evacuation warning for residents of beachfront properties in Stinson Beach, saying large waves expected through the afternoon could send water and debris into roads and homes."
+        },
+        {
+          "type": "p",
+          "text": "The National Weather Service said the storm was expected to affect air travel at eastern US airports Thanksgiving Day into Friday morning. Adverse aviation conditions include reduced visibility, greater turbulence, strong winds and aircraft icing."
+        },
+        {
+          "type": "p",
+          "text": "FlightAware reported 596 delays within, into, or out of the United States on Thursday and 844 cancellations. On Wednesday, more than 6,000 flights were delayed."
+        },
+        {
+          "type": "p",
+          "text": "The US secretary of transportation, Sean Duffy, said the coastal storms will challenge holiday travel. “If you’re flying, take it slow on your way to the airport and stay in touch with your airline for the latest updates,” he said in a post on X."
+        },
+        {
+          "type": "p",
+          "text": "Duffy said he recognized and sympathized “with the inconvenience any lost time causes travelers who are understandably anxious to be with their families, but our top priority will always be your safety.”"
+        },
+        {
+          "type": "p",
+          "text": "Winter storm warnings and watches were also posted for parts of Missouri and Illinois, with up to 13 inches of snow expected around St Louis by Thursday afternoon."
+        },
+        {
+          "type": "p",
+          "text": "South Florida is facing another day of constant rain, flooding and possible tornadoes. Areas around Miami are anticipating rainfall totals of 2 to 4in, with isolated areas picking up between 5 and 6in, according to the National Weather Service in Miami."
+        },
+        {
+          "type": "p",
+          "text": "A tornado brushed the ground in Boynton Gardens in Palm Beach county, 25 miles north of Mar-a-Lago, where Donald Trump is celebrating the holiday."
+        },
+        {
+          "type": "p",
+          "text": "On the upside, high pressure will develop over the central/southern Rockies by Sunday evening, the service said, with clear skies and light winds producing freeze warnings over southern New Mexico and south-eastern Arizona. A freeze watch is in also in effect for parts of western Texas."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "cbc-qnte0l",
@@ -733,13 +958,92 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Woman watches her sobbing husband speak about ‘the pain I’ve caused’, as nine men accused of roles in her abuse</p><p>A man who drugged and raped his wife, and invited other men into the family home to assault her, sobbed in court as he told a jury he felt “guilt and shame” over “the pain I’ve caused”.</p><p>The man, who cannot be named to protect the anonymity of his victim, looked gaunt and red-faced as he gave evidence in a trial of nine other men who are alleged to have raped or sexually assaulted the woman, or encouraged the abuse online.</p> <a href=\"https://www.theguardian.com/uk-news/2026/nov/26/man-drugged-wife-rape-strangers-stockport-guilt-shame\">Continue reading...</a>"
+          "text": "A man who drugged and raped his wife, and invited other men into the family home to assault her, sobbed in court as he told a jury he felt “guilt and shame” over “the pain I’ve caused”."
+        },
+        {
+          "type": "p",
+          "text": "The man, who cannot be named to protect the anonymity of his victim, looked gaunt and red-faced as he gave evidence in a trial of nine other men who are alleged to have raped or sexually assaulted the woman, or encouraged the abuse online."
+        },
+        {
+          "type": "p",
+          "text": "He held his head in his hands at times, sighed heavily, and fought back tears as the prosecutor Louise Oakley KC read out a list of the 62 charges he had pleaded guilty to, all of which relate to his wife of four decades."
+        },
+        {
+          "type": "p",
+          "text": "His wife watched him give evidence via a live stream from a different courtroom in the same building at Manchester Minshull Street crown court, flanked by several members of her family."
+        },
+        {
+          "type": "p",
+          "text": "The man said he wanted to give evidence “so the court knows the truth of what happened to my wife, so my wife knows, my children”."
+        },
+        {
+          "type": "p",
+          "text": "He said speaking to police about his crimes had been “very difficult”, because he felt “guilt and shame” over “the pain I’ve caused to [my wife]”."
+        },
+        {
+          "type": "p",
+          "text": "The man, who is in his 60s, initially denied the offences after his arrest in October last year, but later pleaded guilty to some, and then all, of the charges, which span a period of more than 20 years."
+        },
+        {
+          "type": "p",
+          "text": "He said he initially pleaded guilty to only some of the charges “because I felt guilty, I felt I needed to let people know that I was guilty”, but had denied some of them because he wanted to be able to participate in the trial to “tell the truth of what happened”."
+        },
+        {
+          "type": "p",
+          "text": "When asked by Oakley whether his wife, who is also in her 60s, had been aware at the time he was committing the offences, he replied: “No she wasn’t,” and when asked whether she was consenting, he replied: “No.”"
+        },
+        {
+          "type": "p",
+          "text": "Oakley asked him whether his wife had known “any of the men you invited round”, to which he replied: “No she didn’t” and added that “none of them ever spoke to her”."
+        },
+        {
+          "type": "p",
+          "text": "When he was asked whether his wife would “ever have consented to swinging”, the man responded: “No, not at all.”"
+        },
+        {
+          "type": "p",
+          "text": "He said he had posted on internet sites to connect with people who were local to his home in Stockport, Greater Manchester, “to come and see [my wife] and abuse her”."
+        },
+        {
+          "type": "p",
+          "text": "While he did not explicitly state that he wanted her to be raped and sexually assaulted in the posts, he said, he was aware “sexual assault and rape was possibly going to take place”."
+        },
+        {
+          "type": "p",
+          "text": "The offences involving the nine men on trial are alleged to have taken place between 2015 and the husband’s arrest in 2025."
+        },
+        {
+          "type": "p",
+          "text": "Two of the men, Daniel Rayner, 42, from Whitstable in Kent and David Graves, 59, from Ilkeston in Derbyshire, are alleged to be “non-contact offenders” who are accused of encouraging the abuse online."
+        },
+        {
+          "type": "p",
+          "text": "The other men are alleged to have visited the couple’s home and participated in the abuse of the victim."
+        },
+        {
+          "type": "p",
+          "text": "They are Philip Wild, 59, from Stockport; Jordan Wallace, 31, from Manchester; Alan Keelan, 42, from Manchester; Jonathan Kirk, 43, from Stockport; Mohammed Sabir, 28, of no fixed abode, and Richard Townsend, 38, from Heywood in Greater Manchester."
+        },
+        {
+          "type": "p",
+          "text": "Earlier this week Robert Stewart, 70, from Stockport, pleaded guilty to rape, and conspiracy to administer a substance with intent. He denies a charge of conspiracy to rape."
+        },
+        {
+          "type": "p",
+          "text": "All the men deny the charges against them."
+        },
+        {
+          "type": "p",
+          "text": "Four other men, Sean Peers, 38, from Stockport; Keith Fotheringham, 59, from Dundee; Graham Brougham, 74, from Northwich in Cheshire, and Tommy Golden, 59, from Salford, have admitted to abusing the woman. Karl Lindsay, 56, from Somerset has also pleaded guilty to “non-contact” offences."
+        },
+        {
+          "type": "p",
+          "text": "The trial continues."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "gma-n57pk1",
@@ -1062,13 +1366,63 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Or maybe just throw it in the recycling – every future issue could be written in German anyway if Burnham gets his way</p><p>It’s the “choice of a lifetime”. The stakes have never been higher. Do you waste 15 minutes of your life reading the second issue of the Reformer, the official monthly newspaper of Reform, every word of which has been written by me, Nigel Farage?</p><p>Or do you just throw it straight into the recycling bin?</p><p>On Tuesday 1 December, join John Crace and Pippa Crerar as they skewer the biggest stories from Westminster and beyond, as part of the <a href=\"https://www.theguardian.com/guardian-live-events/2026/sep/22/the-guardians-year-in-review-2026\">Guardian’s year in review event</a>. Joined by fellow Guardian writers, expect candid conversations, witty remarks and surprises as they look back on the year-defining stories of 2026. Book tickets <a href=\"https://www.theguardian.com/guardian-live-events/2026/sep/22/the-guardians-year-in-review-2026\">here</a> or at <a href=\"https://www.theguardian.com/guardian-live-events\">theguardian.live</a></p> <a href=\"https://www.theguardian.com/politics/2026/nov/26/reformer-nigel-farage-burnham-eu\">Continue reading...</a>"
+          "text": "It’s the “choice of a lifetime”. The stakes have never been higher. Do you waste 15 minutes of your life reading the second issue of the Reformer, the official monthly newspaper of Reform, every word of which has been written by me, Nigel Farage?"
+        },
+        {
+          "type": "p",
+          "text": "Or do you just throw it straight into the recycling bin?"
+        },
+        {
+          "type": "p",
+          "text": "Make no mistake. If “Backwards with Burnham” gets his way, the EU will insist that every future issue of the Reformer will be written in German. His so-called EU reset “deal” will make every household in the country at least £200,000 worse off each week."
+        },
+        {
+          "type": "p",
+          "text": "Don’t let the government try to fool you by pointing out that net migration has fallen to its lowest level since 1997. What’s really happening is that foreigners have wised up and are staying away because they don’t want to pay the extortionate amount of money the EU is demanding from the UK. We will only know we have the EU on the run when net immigration is back up over 1 million. Er, hang on …"
+        },
+        {
+          "type": "p",
+          "text": "A UK back in the EU should be unthinkable to every true-born Englishman. So, I’m afraid that rather counts Suella Braverman out. But for the rest of us, the idea of being made to speak French and eat mayonnaise with our chips is an insult to the memory of King George V. A more British king you could not hope to find in a man who was basically German. I didn’t fight in two world wars to take orders from Brussels."
+        },
+        {
+          "type": "p",
+          "text": "On a side note. Just a month too late, I would like us all to observe a two-minute silence to honour all those Brits who fell in combat. It’s also a time to remind you of my own heroism. On 1 July 1916, I was in command of a regiment on the frontline of the Somme. Shortly before zero hour, I reminded them all of the sacrifices we had to make to save our country. It was just rotten bad luck that as the whistle blew to go over the top, I noticed that one of my shoe laces had become untied. “Dash it, chaps. You go ahead,” I said. And as I bent down, I could feel my back go and I was basically out of combat until 11 November 1918. For my services to the country, I am proud to say I awarded myself the VC and the MC and Bar. Here’s a photo of how I might have looked at the time."
+        },
+        {
+          "type": "p",
+          "text": "Time now for a change of tone. Enough about me – for the moment. We now move on to our occasional series, Apprentice of the month, in which one of our members recounts their start in life. Today, we hear from Richard “Dicky” Tice, one of our interns at Reform HQ."
+        },
+        {
+          "type": "p",
+          "text": "“Gosh, yes, it was really exciting. My first day out with all the lads digging trenches on the building site. ‘This is really fun,’ I said to them, as they sat down to drink cups of tea. Or a ‘brew’ as they put it in their charming regional accents. And then, guess what? After three weeks, I must have been doing so well because it turned out that my grandfather ran the company and wanted me to be managing director. So with a bit of hard work, you can get on in life.”"
+        },
+        {
+          "type": "p",
+          "text": "Right, back to me. Here’s a photo of me with the brave women of Piddington. Up until a few months ago, Piddington was a sleepy Oxfordshire village with just 350 inhabitants and a US airbase on its doorstep. The women used to walk around with not a care in the world, mingling with 1,200 airmen, any one of whom could have been a rapist. Now the airbase is being repurposed as a detention centre for migrants from Afghanistan, all of whom could be murderers and rapists, and the village is up in arms. So well done to Piddington for declaring independence from the UK. We look forward to the villagers building their own schools and hospitals."
+        },
+        {
+          "type": "p",
+          "text": "Here in the Reformer, we – I mean, I – am not afraid to deal with the big issues, including climate change. This is one of the biggest hoaxes being perpetrated on the British people since Brexit. Worse still, it seems that even our fish are being duped. I have personally spoken to several blue-fin tuna and they tell me that they were persuaded to move back to British waters because they were told that the seas around Cornwall had warmed up. But after swimming hundreds of miles north, they found they were still freezing so they jumped into the back of a fishing boat in the hope of getting a hot bath."
+        },
+        {
+          "type": "p",
+          "text": "Time also for a shout-out to our vetting department. As you know we take vetting very seriously here in Reform. Unlike the Tories who have allowed any number of Cameron cuties – by the way I never said Kemi Badenoch was a Cameron cutie except in this week’s Telegraph – into their party. Brexit, my arse. Excuse my French. The only Brexit betrayer you’ll find in Reform is Robert Jenrick."
+        },
+        {
+          "type": "p",
+          "text": "That just leaves space for yet another photo of me. This time with my faithful poodle. Dicky likes nothing better than to lie on the floor of my garage while I ignore him. The labrador, of course, sleeps on the bed."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "On Tuesday 1 December, join John Crace and Pippa Crerar as they skewer the biggest stories from Westminster and beyond, as part of the Guardian’s year in review event. Joined by fellow Guardian writers, expect candid conversations, witty remarks and surprises as they look back on the year-defining stories of 2026. Book tickets here or at theguardian.live"
+          ]
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "grd-1cmg33k",
@@ -1087,13 +1441,104 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Then ambassador to US wanted to discuss alternatives to World Trade Organization in ‘under the radar’ meeting, documents reveal</p><ul><li><p><a href=\"https://www.theguardian.com/politics/live/2026/nov/26/uk-eu-food-deal-farage-penalty-compensation-reform-net-migration-latest-news-updates\">UK politics live – latest updates</a></p></li></ul><p>Peter Mandelson sought to organise an “under the radar” meeting between an economic adviser to Donald Trump and a member of his former lobbying firm, Global Counsel, while he still held shares in the company, newly released documents reveal.</p><p>Mandelson’s attempt to organise the meeting followed a Foreign Office proposal of a “light touch way” to protect him “against perceptions of benefitting [Global Counsel] in some way while in public office”.</p> <a href=\"https://www.theguardian.com/politics/2026/nov/26/peter-mandelson-trump-adviser-meeting-lobbying-firm\">Continue reading...</a>"
+          "text": "Peter Mandelson sought to organise an “under the radar” meeting between a member of his former lobbying firm, Global Counsel, and an economic adviser to Donald Trump, while he still held shares in the company, newly released documents reveal."
+        },
+        {
+          "type": "p",
+          "text": "Mandelson’s attempt to organise the meeting followed a Foreign Office proposal of a “light-touch way” to protect him “against perceptions of benefiting [Global Counsel] in some way while in public office”."
+        },
+        {
+          "type": "p",
+          "text": "In April 2025, while ambassador to Washington, Mandelson wanted to hold a lunch to discuss “alternative options” to the World Trade Organization and on how “like-minded partners come to terms with China and its practices”. He told the economic adviser he wanted to bring “a former trade colleague of mine” with “interesting views” who could “lead off”. He added: “It would be best to keep this under the radar.”"
+        },
+        {
+          "type": "p",
+          "text": "Mandelson then forwarded the emails to a Global Counsel employee to ask for their availability."
+        },
+        {
+          "type": "p",
+          "text": "Mandelson had already refused to dispose of his shares in the company after he was appointed ambassador because, according to an official’s letter, the firm had “not made an offer that Lord Mandelson considers commensurate with the fair value”. One July 2025 email reveals his frustration in response to media queries about his continuing shareholding: “They [Global Counsel] should pull their fingers out and buy my shares.”"
+        },
+        {
+          "type": "p",
+          "text": "By the time Mandelson was trying to arrange the lunch with the presidential adviser and the Global Counsel employee, the top civil servant in the Foreign Office, Olly Robbins, had told him in a letter that he needed to “avoid any perception that he is consciously or even unconsciously furthering [Global Counsel’s] commercial interests”."
+        },
+        {
+          "type": "p",
+          "text": "In a covering email to a draft of the letter to Mandelson, Robbins said: “If this looks sensible to you, I will sign and send and we can get this up and running in a light-touch way.”"
+        },
+        {
+          "type": "p",
+          "text": "Mandelson, however, continued to consult his former colleagues on his work as ambassador while holding shares, sharing a draft of a speech to the Ditchley Foundation with a Global Counsel director for comments. After receiving feedback, Mandelson said he would “soften the lecture on China”."
+        },
+        {
+          "type": "p",
+          "text": "Addressing the Commons on Thursday after the latest publication of documents, the security minister, Dan Jarvis, said the government planned to strengthen its policy on conflicts of interest."
+        },
+        {
+          "type": "p",
+          "text": "Andy Burnham said there was a need for “political reform” so that “vested interests aren’t running large within the system”, in order to restore public confidence in Westminster and Whitehall. He said these issues would be addressed next month in a 10-year plan."
+        },
+        {
+          "type": "p",
+          "text": "Several crucial documents about Mandelson’s appointment to Washington continue to be withheld from the public. They include his conflict of interest declaration form and a summary document produced by vetting officials about his security clearance."
+        },
+        {
+          "type": "p",
+          "text": "The Guardian revealed in April that Mandelson had failed the developed vetting process after Keir Starmer announced in December 2024 that he would be the next British ambassador to Washington. The Foreign Office overruled vetting officials’ recommendation that Mandelson be denied clearance, clearing him to take up the post."
+        },
+        {
+          "type": "p",
+          "text": "Among the vetting agency’s concerns, according to sources, were his associations with senior figures in China, Russia and Israel, as well as a £1m loan. Those concerns were separate to Mandelson’s relationship with the convicted child sex offender Jeffrey Epstein, the issue that led to Mandelson’s sacking in September 2025."
+        },
+        {
+          "type": "p",
+          "text": "Starmer also sacked Robbins, who told MPs investigating the issue that he believed vetting officials considered Mandelson to be “borderline” and so he could be cleared with “mitigations”, but no documents have been disclosed to back up his claims. He told them his office had been under “constant pressure” from Downing Street to get Mandelson in post as soon as possible."
+        },
+        {
+          "type": "p",
+          "text": "Robbins went on to receive a six-figure payout from the government for his dismissal."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "In February, parliament passed a motion known as a humble address requiring the government to publicly release “all papers” relevant to Mandelson’s appointment."
+        },
+        {
+          "type": "p",
+          "text": "But some documents were held back from disclosures in March and June at the request of the Metropolitan police, in case they could “potentially prejudice” its investigation into Mandelson. Ministers previously revealed that these documents included “vetting information and conflicts of interest process material”."
+        },
+        {
+          "type": "p",
+          "text": "A Met police spokesperson said: “Our investigation into alleged misconduct in public office is ongoing.”"
+        },
+        {
+          "type": "p",
+          "text": "Police sources expect the investigation to take months rather than years but the Met is yet to receive unredacted documents from the Epstein files held by the US Department of Justice that could be relevant to its inquiries."
+        },
+        {
+          "type": "p",
+          "text": "The newly released documents include an email from Ian Collard, the Foreign Office security chief, to his line managers noting Mandelson had been given clearance. Collard said Mandelson’s “private sector engagements” were being handled through the conflict of interest process and that Mandelson had been sent a letter about his responsibilities regarding personal conduct as an employee."
+        },
+        {
+          "type": "p",
+          "text": "Collard said questions about Mandelson’s “overseas contacts” would be reviewed by other authorities responsible for higher levels of security clearance."
+        },
+        {
+          "type": "p",
+          "text": "In July, the foreign affairs select committee concluded that Mandelson’s appointment was “nothing short of disastrous”, “highly damaging” for the British government and “painful and offensive to the victims of Jeffrey Epstein”."
+        },
+        {
+          "type": "p",
+          "text": "Mandelson has been approached for comment. On Thursday he published an article about how British negotiations to rejoin the European Union might unfold."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "dw-fw2cmd",
@@ -1341,31 +1786,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "grd-1fsbzh6",
-      "source": "grd",
-      "title": "Labour’s split over Rosebank oilfield exposed by letter from nearly 100 MPs",
-      "summary": "<p>Exclusive: Frontbenchers join scores of party colleagues urging Burnham not to let ministers approve project</p><ul><li><p><a…",
-      "byline": "Kiran Stacey Policy editor",
-      "section": "Labour",
-      "published": "2026-11-26T15:00:37.000Z",
-      "firstSeen": "2026-11-26T15:31:10.625Z",
-      "url": "https://www.theguardian.com/politics/2026/nov/26/labour-split-over-rosebank-oilfield-exposed-by-letter-from-nearly-100-mps",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/3b4b8cb55704a3ce1cd05925a86f51425692e4d8/617_0_4074_3259/master/4074.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=06908736da2a2aea64361929ef2eb91b",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "<p>Exclusive: Frontbenchers join scores of party colleagues urging Burnham not to let ministers approve project</p><ul><li><p><a href=\"https://www.theguardian.com/commentisfree/2026/nov/26/labour-mp-letter-andy-burnham-rosebank-oil-climate-crisis\">Opinion: Why Labour MPs are opposing Rosebank</a></p></li></ul><p>Labour’s internal divisions over the giant Rosebank oilfield have spilled into the open, with nearly 100 Labour MPs – including a handful of frontbenchers – writing to the prime minister to express their opposition to the project.</p><p>Ninety-two backbenchers and at least four frontbenchers have signed a letter to Andy Burnham urging him not to let his ministers approve the scheme for the biggest undeveloped field in UK waters.</p> <a href=\"https://www.theguardian.com/politics/2026/nov/26/labour-split-over-rosebank-oilfield-exposed-by-letter-from-nearly-100-mps\">Continue reading...</a>"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "grd-h8j0io",
       "source": "grd",
       "title": "Father dies while trying to save teen son on icy California mountain hike",
@@ -1382,13 +1802,48 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Guillermo Batres was helping his son, who had slid down a hill and was clinging on to a tree, when he lost his footing</p><p>A 44-year-old man who was trying to help his son navigate an icy patch of a southern <a href=\"https://www.theguardian.com/us-news/california\">California</a> mountain trail slipped and fell roughly 500ft to his death, according to local authorities.</p><p>Guillermo Batres, an avid hiker, set off on Sunday morning to summit Mount Baden-Powell in the San Gabriel mountains with his teenage son, according to Steve De Jong, a lieutenant with the Los Angeles county sheriff’s department.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/27/california-father-dies-helping-son-mountain-hike\">Continue reading...</a>"
+          "text": "A 44-year-old man who was trying to help his son navigate an icy patch of a southern California mountain trail slipped and fell roughly 500ft to his death, according to local authorities."
+        },
+        {
+          "type": "p",
+          "text": "Guillermo Batres, an avid hiker, set off on Sunday morning to summit Mount Baden-Powell in the San Gabriel mountains with his teenage son, according to Steve De Jong, a lieutenant with the Los Angeles county sheriff’s department."
+        },
+        {
+          "type": "p",
+          "text": "Batres recorded a video on Sunday, obtained by the Los Angeles Times, where he panned across the wintry mountain trail, surrounded by green pines. His wife had turned back early into the hike."
+        },
+        {
+          "type": "p",
+          "text": "In the clip, Batres’s son, Sebastián, could be seen holding trekking poles and smiling faintly beneath his jacket, which was bundled up toward his nose."
+        },
+        {
+          "type": "p",
+          "text": "The video cut off abruptly as Batres warned his son to be careful in Spanish."
+        },
+        {
+          "type": "p",
+          "text": "Sebastián had slid down the side of a hill and was clinging on to a tree, De Jong said."
+        },
+        {
+          "type": "p",
+          "text": "Batres attempted to aid his son, before losing his footing on the ice and falling down the mountain into a gulch."
+        },
+        {
+          "type": "p",
+          "text": "The Los Angeles county medical examiner’s office determined Batres died from blunt force injuries sustained in an accident."
+        },
+        {
+          "type": "p",
+          "text": "Two hikers who passed by Sebastián after the deadly fall helped him put spikes on his shoes and get to safety, according to De Jong."
+        },
+        {
+          "type": "p",
+          "text": "Jennifer Morse, Batres’s niece, wrote in a GoFundMe that their family has been left “shocked, grieving and facing an unimaginable loss”."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "grd-64o7wi",
@@ -1407,13 +1862,110 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Slovakia, Hungary and Czechia want to opt out of €45bn Ukraine loan to fill funding black hole caused by Russia’s relentless attacks</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates\">Europe live – latest updates</a></p></li></ul><p>EU leaders are bracing for a clash over long-term financial aid for Ukraine amid an effort to finalise high-stakes budget talks by the end of the year.</p><p>Arriving in Brussels on Thursday, the German chancellor, Friedrich Merz, reiterated his view that all EU member states should support a €45bn (£38bn) loan for Ukraine for 2027. “When the European Union provides funding, it does so as the European Union – and that union consists of 27 member states, not 23 or 24,” he said.</p> <a href=\"https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks\">Continue reading...</a>"
+          "text": "EU leaders are bracing for a clash over long-term financial aid for Ukraine amid an effort to finalise high-stakes budget talks by the end of the year."
+        },
+        {
+          "type": "p",
+          "text": "Arriving in Brussels on Thursday, the German chancellor, Friedrich Merz, reiterated his view that all EU member states should support a €45bn (£38bn) loan for Ukraine for 2027. “When the European Union provides funding, it does so as the European Union – and that union consists of 27 member states, not 23 or 24,” he said."
+        },
+        {
+          "type": "p",
+          "text": "Merz has previously threatened to veto the bloc’s next seven-year budget unless all countries sign up to the Ukraine loan, which would be a painful outcome for member states that are net recipients of EU funds."
+        },
+        {
+          "type": "p",
+          "text": "Slovakia, Hungary and Czechia, net beneficiaries, want to opt out of the loan. Slovakia’s prime minister, Robert Fico, who has maintained close ties to the Kremlin, has accused Merz of blackmail."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/86db1c3c255c07473547a67537a801a67e4d7bc0/0_0_4678_2899/master/4678.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "From left, France’s Emmanuel Macron, the European Central Bank president, Christine Lagarde, and Germany’s Friedrich Merz, talking in Brussels. Photograph: Olivier Hoslet/EPA"
+        },
+        {
+          "type": "p",
+          "text": "But Bulgaria, which had been against the loan, said on Thursday it was ready to contribute as long as its share was not linked to weapons."
+        },
+        {
+          "type": "p",
+          "text": "“Bulgaria is going to ‌take part in the loan of 20bn [for] non-military support ​for Ukraine,” Bulgaria’s prime minister, Rumen Radev, said as he arrived at the summit. “We have a ⁠huge historic diaspora of Bulgarians living ​in Ukraine. Our wish is ​to concentrate our support ​in that ‌area. We are ​going ​to contribute, but no money from Bulgaria for weapons,” he said."
+        },
+        {
+          "type": "p",
+          "text": "The European Commission last week proposed a €45bn EU loan for Ukraine to fill a funding black hole caused by Russia’s relentless attacks. EU officials proposed €25bn for military spending and €20bn for Ukraine’s civilian needs, such as schools and hospitals."
+        },
+        {
+          "type": "p",
+          "text": "Arriving at the summit, Czechia’s populist prime minister, Andrej Babiš, was in no mood for compromise. “Cohesion is really the goal of the European Union and [the] Czech Republic. We will fight for this money,” he said, referring to the EU’s cohesion funds, which are intended to help poorer regions catch up with richer ones."
+        },
+        {
+          "type": "p",
+          "text": "Babiš said his country needed a highway to Austria and more hospitals. “Financing of Ukraine should be negotiated separately. And the most important is the life of our citizens,” he said, adding that the EU should “do everything” to support peace in Ukraine."
+        },
+        {
+          "type": "p",
+          "text": "But Merz’s stance has won widespread support, especially among western European, Nordic and Baltic states. Sweden’s prime minister, Ulf Kristersson, said: “It’s not acceptable to simply kidnap the support for Ukraine by saying that we will accept the European Union support for Ukraine, but we will not pay for it ourselves. That is not a reasonable way of thinking.”"
+        },
+        {
+          "type": "p",
+          "text": "However, some governments that support Merz’s goal have reservations about his tactics, fearing the public threat to block cohesion funds could make it harder for recalcitrant governments to climb down."
+        },
+        {
+          "type": "p",
+          "text": "The discussion on support for Ukraine has become entangled in negotiations over the EU’s next long-term budget, which will set the bloc’s spending priorities for 2028-2034."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/7fb35feedbef8cb62042d511645c4109ce2fa855/1481_251_3333_2500/master/3333.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Czechia’s populist prime minister, Andrej Babiš, believes financing of Ukraine should be a separate negotiation to the main EU budget. Photograph: Geert Vanden Wijngaert/AP"
+        },
+        {
+          "type": "p",
+          "text": "EU leaders are discussing a €1.78tn proposal presented by the European Council president, António Costa, last Saturday, which represents a 10% reduction on the original €2tn plan from the European Commission."
+        },
+        {
+          "type": "p",
+          "text": "EU officials want to finalise a budget deal by the end of the year before a sequence of big elections in 2027 complicates finding an agreement. The far-right leader Marine Le Pen, who is the frontrunner in next year’s French presidential elections, wants to slash France’s contribution to the budget and cease funding Ukraine."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "The Irish taoiseach, Micheál Martin, said it was important to get a budget agreement before the end of the year as “the prospects of doing it in the first half of 2027 are very dim”."
+        },
+        {
+          "type": "p",
+          "text": "Separately, Germany is seeking to insulate EU funding for Ukraine from a Le Pen victory: Berlin wants to ensure future decisions on funding Kyiv via the EU budget are made by a majority of EU member states. The current system requires unanimity, enabling one country to veto a decision."
+        },
+        {
+          "type": "p",
+          "text": "Others have pushed back against allowing French elections to dominate the EU budget timetable, and have said making Le Pen the focus gives her ammunition to make a case that the EU is against her political movement. “We should be aware of a self-fulfilling prophecy,” said one senior EU diplomat. “Let’s not be paralysed by elections happening in six months.”"
+        },
+        {
+          "type": "p",
+          "text": "Arriving at the summit on Thursday, Costa said all leaders needed to approach discussions with an “open mind, a constructive approach and a sense of compromise” as he called for the budget to be approved in a “timely” way, adding: “That means by the end of this year.”"
+        },
+        {
+          "type": "p",
+          "text": "The budget has to be agreed unanimously, but countries are deeply split. In one camp are the so-called frugals – net contributors to the EU budget such as Germany, the Netherlands and Sweden – which want to reduce the overall size and shift spending priorities to defence and competitiveness, rather than farm subsidies and regional funds."
+        },
+        {
+          "type": "p",
+          "text": "In the other camp are 17 countries in southern, central and eastern Europe, which want to ensure the flow of EU funds to traditional policies and oppose cuts."
+        },
+        {
+          "type": "p",
+          "text": "France sits in neither camp, but has vowed to protect the common agriculture policy (CAP), which benefits French farmers. Maintaining farm payments would make it harder for Le Pen to unravel the budget. On the eve of the summit, the French president, Emmanuel Macron, said “not a single euro of the CAP must be withheld from France in the next European multi-annual budget”."
+        },
+        {
+          "type": "p",
+          "text": "Le Pen welcomed press reports that Paris was pushing for increased agriculture spending, but said Macron’s position had “nothing to do” with defending French farmers. “The objective would be to dissuade us – if the French entrusted us with the responsibility to govern – from defending French interests in European budgetary negotiations” she wrote on X."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "inq-suua6i",
@@ -1457,13 +2009,45 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Actor who had played fraudster Elizabeth Holmes in TV drama The Dropout reveals how she was drafted in to the hit documentary ‘at the last minute’</p><p>Amanda Seyfried says that the script and footage of You Can See Everything was kept secret even from her until the last possible moment, and that despite being asked not to reveal her involvement in the project she “told a lot of people”.</p><p><a href=\"https://www.youtube.com/watch?v=BsPtwzmQVts\">Seyfried was speaking on the Jimmy Fallon Show</a> on Tuesday, after the film’s <a href=\"https://www.theguardian.com/film/2026/nov/23/you-can-see-everything-global-box-office-uk-release-nathan-fielder-elizabeth-holmes\">extraordinary commercial success in North America</a>, where it is already the third most successful documentary in box office history. Having already played You Can See Everything’s central figure, Theranos fraudster Elizabeth Holmes, in the dramatised TV series The Dropout, Seyfried was called in by directors Nathan Fielder and Lance Oppenheim to stand in for Holmes after the latter started her prison term in 2023.</p> <a href=\"https://www.theguardian.com/film/2026/nov/26/amanda-seyfried-you-can-see-everything-elizabeth-holmes-the-dropout\">Continue reading...</a>"
+          "text": "Amanda Seyfried says that the script and footage of You Can See Everything was kept secret even from her until the last possible moment, and that despite being asked not to reveal her involvement in the project she “told a lot of people”."
+        },
+        {
+          "type": "p",
+          "text": "Seyfried was speaking on the Jimmy Fallon Show on Tuesday, after the film’s extraordinary commercial success in North America, where it is already the third most successful documentary in box office history. Having already played You Can See Everything’s central figure, Theranos fraudster Elizabeth Holmes, in the dramatised TV series The Dropout, Seyfried was called in by directors Nathan Fielder and Lance Oppenheim to stand in for Holmes after the latter started her prison term in 2023."
+        },
+        {
+          "type": "p",
+          "text": "Seyfried said that, after being introduced by fellow actor Emma Stone, Fielder “just reached out and said, ‘Hey, I’d love to, like, pick your brain about, you know, your experience playing Elizabeth Holmes in The Dropout … We talked for like an hour on FaceTime about Elizabeth Holmes, and he told me that he had lived with her for a month before she went to prison.”"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/f39f12052aa5cefe0386b14422c97525bfb2d7b2/0_0_3000_2250/master/3000.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Elizabeth Holmes, Billy Evans and Nathan Fielder in You Can See Everything Photograph: A24/PA"
+        },
+        {
+          "type": "p",
+          "text": "She added: “And then he said, ‘Would you be comfortable watching the footage if we came to your house and recorded you for the documentary? And I was like, ‘Yeah, that’s fine.’ A couple weeks later, I was watching the footage with four cameras in my apartment. And I was like, ‘How did I get here?’”"
+        },
+        {
+          "type": "p",
+          "text": "Saying that she “just jumped in kind of last minute”, Seyfried said that while she had access to all the research footage she had accrued for The Dropout, the script and material shot for You Can See Everything was a different proposition. “I couldn’t watch the footage until I would get to set, and I didn’t know what the script would be until I got to set. Or, you know, it’d be like five-factor authentication [for an] app where I could maybe read it the night before.”"
+        },
+        {
+          "type": "p",
+          "text": "Fallon asked Seyfried about a specific sequence in You Can See Everything where she had dinner with Fielder and Holmes’ partner Billy Evans, which she said caused her to question herself. “It was the Twilight Zone because I was in this man’s house with her children. And I was like, ‘Did I get too close?’ How did I get into this house with these reptiles and these children, and Nathan and Lance and all the cameras? … it was meta at a point.”"
+        },
+        {
+          "type": "p",
+          "text": "Joking that “I’m the most indiscreet person I’ve ever met in my life,” Seyfried said that she found it difficult keeping her involvement in the film secret for over a year. “I told a lot of people! But I guess I could trust them all. One person tweeted something and Nathan was like, ‘Hey. What is this?’ And I was like, ‘I don’t know!’”"
+        },
+        {
+          "type": "p",
+          "text": "She added: “I guess I was a perfect replacement for the purpose of trying to understand [Holmes] more.”"
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "dw-1gpri11",
@@ -1946,13 +2530,112 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>People’s party alters video of PM putting on Lamine Yamal’s Spain shirt in latest contentious use of AI in election race</p><p>Spanning 17 seconds, the campaign video showed the Spanish prime minister, Pedro Sánchez, speaking to the camera as he put on the jersey of the national football team. “Because this is what Spain is: a pluralistic and diverse country,” he said as he turned to reveal the number 19 on his back – the shirt number of the star player Lamine Yamal.</p><p>One day later, the opposition People’s party (PP) came under fire after it used AI to manipulate the same video, making it falsely appear as if Sánchez had put on the shirt of the Moroccan national team.</p> <a href=\"https://www.theguardian.com/world/2026/nov/26/spain-peoples-party-ai-video-pedro-sanchez-morocco-shirt\">Continue reading...</a>"
+          "text": "Spanning 17 seconds, the campaign video showed the Spanish prime minister, Pedro Sánchez, speaking to the camera as he put on the jersey of the national football team. “Because this is what Spain is: a pluralistic and diverse country,” he said as he turned to reveal the number 19 on his back – the shirt number of the star player Lamine Yamal."
+        },
+        {
+          "type": "p",
+          "text": "One day later, the opposition People’s party (PP) came under fire after it used AI to manipulate the same video, making it falsely appear as if Sánchez had put on the shirt of the Moroccan national team."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/uploads/2026/11/25/Pedro_S_nchez_original_football_post_-_loop--3afff55d-57ef-4a3a-8b3a-cb462b96cdf6-1.0.0000000.jpg?width=120&dpr=1&s=none&crop=16%3A9",
+          "caption": "Pedro Sánchez's original football video – clip"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/uploads/2026/11/25/Partido_Popular_AI_altered_post_of_Pedro_S_nchez_-_loop--5bb7df4b-f92c-4309-99a0-f81c93d2abc0-1.0.0000000.jpg?width=120&dpr=1&s=none&crop=16%3A9",
+          "caption": "PP's AI-altered Pedro Sánchez post – clip"
+        },
+        {
+          "type": "p",
+          "text": "The row comes as people across Spain prepare to cast their votes on Sunday after an election campaign marked by bitter polarisation. Most polls suggest Sánchez’s Socialist-led government is set to be replaced by a coalition led by the conservative PP and backed by the far-right, anti-immigrant Vox party."
+        },
+        {
+          "type": "p",
+          "text": "As the altered video made headlines across Spain, many were swift to point out that it made no mention of being made with AI, suggesting it could fall short of EU obligations regarding AI. Others described it as the latest in a list of problematic uses of AI by the PP during the campaign, after it notably stoked outrage with a deepfake video of Sánchez’s wife, Begoña Gómez."
+        },
+        {
+          "type": "p",
+          "text": "One leftwing news site suggested the PP was relying on AI rather than ideas to do most of the heavy lifting in the campaign. “That’s how the PP operates: when they run out of arguments, they hit ‘generate’,” Publico said in a piece that captured some of the criticism the party had faced over the football shirt video. “They must have thought [Sánchez’s] message lacked a touch of xenophobia and wanted to remedy that.”"
+        },
+        {
+          "type": "p",
+          "text": "The incident hinted at the tug of war that has played out among political parties during the campaign as Sánchez and his allies on the left seek to keep the spotlight on issues such as housing, pensions and women’s rights, while the PP and Vox had sought to centre the conversation on issues such as immigration."
+        },
+        {
+          "type": "p",
+          "text": "Sánchez’s video was seemingly a direct response to remarks made earlier this week by a PP candidate, Xavier García Albiol. The candidate – who in 2013 became the first mayor to face trial for racist remarks and who has repeatedly been accused of employing racist rhetoric – said he did not like Lamine Yamal, the wonderkid whose talents helped Spain win this year’s World Cup and Euro 2024, citing what he claimed was the teenager’s lack of maturity."
+        },
+        {
+          "type": "p",
+          "text": "Albiol said he would not wear Lamine Yamal’s jersey. “I’d feel more comfortable with any other Barça player on the national team,” he told the Barcelona-based newspaper Sport."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/612682b94fadc393ea84b63ab811d03857a40924/141_0_1110_888/master/1110.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Xavier Garcí­a Albiol at a campaign rally in Barcelona last week. Photograph: Matteo Secci/Zuma Press/Shutterstock"
+        },
+        {
+          "type": "p",
+          "text": "As people across the country raced to defend Lamine Yamal, who was born in Spain to parents from Morocco and Equatorial Guinea, Sánchez joined in, touting Spain as a “plural and diverse” country and asserting that he would wear the shirt of any player on the national team."
+        },
+        {
+          "type": "p",
+          "text": "Raúl Martínez Corcuera, a lecturer in media studies at the University of Vic who collaborates with the anti-racist group SOS Racismo, said the PP’s AI manipulation was probably an attempt to steer the campaign towards issues it saw as vote boosters, such as the mass influx of people into Spain’s north African territory of Ceuta."
+        },
+        {
+          "type": "p",
+          "text": "“I think the goal is to portray Morocco as a threat, cast immigration as a security issue and highlight the government’s alleged weakness regarding border control,” Martínez Corcuera said."
+        },
+        {
+          "type": "p",
+          "text": "Throughout the campaign, the PP has consistently sought to portray Sánchez as a pawn of Morocco, a view underlined by the text of the AI-generated video. The PP video also altered Sánchez’s speech to make it seem as if he was advocating for wearing the Moroccan team’s kit."
+        },
+        {
+          "type": "p",
+          "text": "The PP leader, Alberto Núñez Feijóo, has said that should he become prime minister, his first foreign trip will be to Morocco, where he will demand that it respects Spain’s territorial integrity or face problems – hinting at a view that could clash with the complexities of Spain and the EU’s deep reliance on the kingdom to control migration into the bloc."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "However, Martínez Corcuera said the result of the AI-generated video had been a form of “subtle racism” by the PP. “Morocco is being used as a symbol of ‘the other’,” he said, while at the same time “Sánchez and Lamine Yamal were being singled out as ‘players’ for Spain but not as Spaniards”."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/8c73773862e4abc7428c9b39c5d950dd2eae09ef/365_0_4595_3676/master/4595.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Lamine Yamal wearing his World Cup winner’s medal after the final in July. Photograph: Bradley Collyer/PA"
+        },
+        {
+          "type": "p",
+          "text": "It tapped into the vein of racism that Lamine Yamal has long faced off against, from the anti-Muslim cheers lobbed at Egypt during a friendly in Barcelona to the spike in racist and Islamophobic messages directed at the player online during the World Cup."
+        },
+        {
+          "type": "p",
+          "text": "For Martínez Corcuera, the AI video also recalled the widespread scorn and accusations of racism aimed at Spain’s former prime minister Mariano Rajoy, also of the PP, after he wrote in a newspaper column during the World Cup that the French national team “does not have any French players”."
+        },
+        {
+          "type": "p",
+          "text": "Rajoy’s words provoked a furious response in France as well as from Sánchez, who shot back that Spain belonged to “those who love it and work for it. Not to those who shame it with xenophobic statements.”"
+        },
+        {
+          "type": "p",
+          "text": "Martínez Corcuera described the former PP leader’s remarks as part of a long tradition of questioning the national identity of minority ethnic citizens, particularly when they were in the public eye. This week’s AI video had managed to tap into all of this, he noted. “As you can see, there are many intersecting issues playing out here,” he said."
+        },
+        {
+          "type": "p",
+          "text": "In Spanish media, many were quick to highlight that the PP had done a sloppy job in putting together the video, pointing to various errors it had made in replicating the Moroccan kit."
+        },
+        {
+          "type": "p",
+          "text": "Martínez Corcuera had one more to add to the list, one that had inadvertently highlighted the interconnectedness between Spain and Morocco. “They had the bad luck of using No 10, which in Morocco is worn by [the Málaga-born Real Madrid player] Brahim Díaz, who is Spanish.”"
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "abs-n9y7np",
@@ -1993,13 +2676,196 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Video of convicted double murderer shows him in 2020 deploying a Taser at close range to an Indigenous man’s face, chest and neck</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>Beau Lamarre-Condon, the double murderer who killed Jesse Baird and Luke Davies while he was a serving New South Wales police officer, had been under review by the force for repeatedly using his Taser on a man four years before the killings.</p><p>On Wednesday, he was convicted after a 12-person jury <a href=\"https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb\">found he had murdered both men with his police service weapon</a> on 19 February 2024.</p> <a href=\"https://www.theguardian.com/australia-news/2026/nov/27/beau-lamarre-condon-service-weapon-murder-police-recruiters-ntwnfb\">Continue reading...</a>"
+          "text": "Beau Lamarre-Condon, the double murderer who killed Jesse Baird and Luke Davies while he was a serving New South Wales police officer, had been under review by the force for repeatedly using his Taser on a man four years before the killings."
+        },
+        {
+          "type": "p",
+          "text": "On Wednesday, he was convicted after a 12-person jury found he had murdered both men with his police service weapon on 19 February 2024."
+        },
+        {
+          "type": "p",
+          "text": "During his 10-week trial, the prosecution alleged Lamarre-Condon had misused his authority as a police officer to obtain CCTV footage of Baird, who he had casually dated; stolen training bullets from the police; and taken a weapon from a police station to use in his crimes."
+        },
+        {
+          "type": "p",
+          "text": "The NSW police commissioner, Mal Lanyon, has offered his thoughts to the families of Baird and Davies and condemned Lamarre-Condon."
+        },
+        {
+          "type": "p",
+          "text": "“The actions for which Mr Lamarre-Condon has now been convicted are abhorrent and completely at odds with his oath of office as a police officer which he undertook. His actions are unacceptable to me, the NSW Police Force and to any member of our community,” he said in a statement."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/0531a2e953231af47512ada3cda5ebb111031ea5/0_0_5000_4000/master/5000.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Luke Davies (left) and Jesse Baird (right). Composite: NSW supreme court"
+        },
+        {
+          "type": "p",
+          "text": "“I also wish to acknowledge the professionalism and dedication of those officers who conducted the investigation into the deaths of Mr Baird and Mr Davies.”"
+        },
+        {
+          "type": "p",
+          "text": "But the trial’s revelations have raised questions about how NSW police recruits its officers."
+        },
+        {
+          "type": "p",
+          "text": "“If police recruitment processes and then police professional standards can let this guy get through all the gates, we need to review our checks and balances,” Dr Justin Ellis, a University of Newcastle criminology lecturer, told Guardian Australia."
+        },
+        {
+          "type": "p",
+          "text": "“Authority figures are expected to meet higher ethical and behavioural standards, and in this case, the additional responsibility that comes with being a police officer.”"
+        },
+        {
+          "type": "p",
+          "text": "The circumstances surrounding Lamarre-Condon’s recruitment and ongoing employment are being examined by a coronial inquest and a critical incident investigation, NSW police said in a statement."
+        },
+        {
+          "type": "p",
+          "text": "Terry Goldsworthy, a criminologist at Bond University and former detective, suggested the force revisit Lamarre-Condon’s assessment to see whether any red flags were missed."
+        },
+        {
+          "type": "p",
+          "text": "He added that Lamarre-Condon’s case is an “extraordinary exception” rather than indicative of systemic issues in the police."
+        },
+        {
+          "type": "p",
+          "text": "But Ellis believes this type of framing, which narrows focus to individual actors, must be taken into wider consideration of the police processes that “may have enabled the ‘bad apple’ to be in place and to stay in place”."
+        },
+        {
+          "type": "p",
+          "text": "Separate from the police response to the murders, recruitment processes have been probed as part of a broader independent cultural review, released in June."
+        },
+        {
+          "type": "p",
+          "text": "It recommended the NSW police force change testing and vetting processes that unintentionally exclude capable candidates, following recent downturns in applicants."
+        },
+        {
+          "type": "p",
+          "text": "Applicants to the police academy are required to undertake a psychometric test, but former police officer turned criminologist at Macquarie University, Vincent Hurley, said “anyone can bluff a questionnaire”."
+        },
+        {
+          "type": "p",
+          "text": "He said police should, and may already have, reviewed Lamarre-Condon’s psychometric testing, as well as any complaints by the public or other officers about his behaviour."
+        },
+        {
+          "type": "p",
+          "text": "Years of staff shortages are placing pressure on recruiting and retaining officers, which can lead to complaints being overlooked, Hurley said."
+        },
+        {
+          "type": "p",
+          "text": "Four years before the murders and about three years into his policing career, Lamarre-Condon became the subject of an internal police review after video emerged of him repeatedly deploying a Taser on an Indigenous man in the face, chest and neck."
+        },
+        {
+          "type": "p",
+          "text": "During the June 2020 incident, Lamarre-Condon yells, “If you move, I will Taser you,” before pulling the man to the ground and firing his stun gun."
+        },
+        {
+          "type": "p",
+          "text": "The man says: “Are you serious? I’m trying to protect my face, I’m not even fighting you.”"
+        },
+        {
+          "type": "p",
+          "text": "An internal review by NSW police cleared Lamarre-Condon of any wrongdoing, finding that he had complied with policy and training guidelines."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "h",
+          "text": "‘Haters like to hate’"
+        },
+        {
+          "type": "p",
+          "text": "Police faced intense scrutiny after the murders first occurred in 2024."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/cdb46263ed4cd71f48e1a0b4798c74aee57336d4/0_332_7781_4672/master/7781.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Then NSW police commissioner Karen Webb addressing media in February 2024. Photograph: Dan Himbrechts/AAP"
+        },
+        {
+          "type": "p",
+          "text": "Then police commissioner Karen Webb came under fire when she described the killings as a “crime of passion” and responded to criticism by saying: “There will always be haters. Haters like to hate. Isn’t that what Taylor [Swift] says?”"
+        },
+        {
+          "type": "p",
+          "text": "During the trial, it was revealed Baird did not believe he could report Lamarre-Condon’s stalking and controlling behaviour to law enforcement because of his role in the police."
+        },
+        {
+          "type": "p",
+          "text": "Even if he did report the officer, Hurley said there was a chance police may not have taken him seriously because he did not fit the mould of a “stereotypical” victim of such behaviour – referring to the fact he was not in a heterosexual relationship."
+        },
+        {
+          "type": "p",
+          "text": "Hurley said Baird and Davies’ deaths were a “wake-up call” for police in how such matters are handled."
+        },
+        {
+          "type": "p",
+          "text": "The independent NSW MP Alex Greenwich, who helped facilitate a 2024 vigil for Baird and Davies, said after the verdicts: “This tragic and heartbreaking violent crime tells us we need to do everything we can do to increase awareness, reporting, support and access to justice for LGBTQ victims of stalking and violence.”"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/3595fb722164f15b9f7b9bb6e310addd3fd24df1/0_0_2946_1965/master/2946.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "A Pride in Protest press conference in Sydney on 27 February 2024. NSW police were asked not to march in the Sydney Gay and Lesbian Mardi Gras that year, days after Lamarre-Condon was charged. Photograph: Australian Associated Press/Alamy"
+        },
+        {
+          "type": "p",
+          "text": "People in the LGBTQ+ community have long faced discrimination when engaging with police and the justice system, with a 2022 special commission of inquiry into LGBTQ+ hate crimes revealing police reluctance to thoroughly investigate homicides and assaults involving gay men and transgender women."
+        },
+        {
+          "type": "p",
+          "text": "Ellis, who is part of a NSW police force taskforce established in response to inquiry, said police have an opportunity to renew their engagement strategies with the LGBTQ+ community."
+        },
+        {
+          "type": "p",
+          "text": "“The more that they’re trusted and people have confidence in them, the more likely [people] are to report to the police.”"
+        },
+        {
+          "type": "p",
+          "text": "In the wake of the murders, NSW police reviewed and implemented changes to the force’s firearms policies and procedures, which have been welcomed by Hurley and Goldsworthy."
+        },
+        {
+          "type": "p",
+          "text": "At the time of Lamarre-Condon’s arrest, the NSW police force launched its critical incident investigation, which is ongoing and being monitored by the Law Enforcement Conduct Commission."
+        },
+        {
+          "type": "p",
+          "text": "The investigation will also be reviewed by the police’s professional standards command."
+        },
+        {
+          "type": "p",
+          "text": "Eventual findings from the ongoing coronial inquest may offer recommendations for the police."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-agflw4",
+      "source": "inq",
+      "title": "Batanes polls to use manual voting, text-based results transmission",
+      "summary": "MANILA, Philippines — The Commission on Elections (Comelec) will use the messaging platform Viber to transmit election results during the Nov. 28 special elections in Batanes, aiming to speed up the…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-26T14:22:11.000Z",
+      "firstSeen": "2026-11-26T16:01:10.032Z",
+      "url": "https://newsinfo.inquirer.net/2347810/batanes-polls-to-use-manual-voting-text-based-results-transmission",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2021/06/map-batanes-300x157.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Commission on Elections (Comelec) will use the messaging platform Viber to transmit election results during the Nov. 28 special elections in Batanes, aiming to speed up the canvassing process and allow the proclamation of the winner on election night. The special elections will determine the new representative of Batanes’ lone congressional district following the death of incumbent Rep. Ciriaco Gato Jr. last September. Comelec Chair George Erwin Garcia said on Thursday that municipal boards of canvassers would be allowed to send initial results to the provincial canvassing center through Viber while the official physical copies of election [&hellip;]... Keep on reading: Batanes polls to use manual voting, text-based results transmission"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "gma-1lxsako",
@@ -2164,13 +3030,96 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p><strong>Exclusive</strong>: Australian Electoral Commission to review $1m in donations to Pauline Hanson-led party from Adam Giles and Ian Plimer</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">daily political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><a href=\"https://www.theguardian.com/australia-news/2026/apr/29/pauline-hanson-new-private-plane-gina-rinehart-assosciates-ntwnfb\">Major donations</a> from close associates of One Nation’s billionaire benefactor, Gina Rinehart, will be reviewed by the Australian Electoral Commission (AEC) amid concerns they were made on behalf of a third party.</p><p>The special minister of state, Don Farrell, said on Thursday that information about two $500,000 donations made to the Pauline Hanson-led party could be subject to further regulatory action if they are found not to comply with provisions in the Electoral Act.</p> <a href=\"https://www.theguardian.com/australia-news/2026/nov/27/one-nation-pauline-hanson-gina-rinehart-aec-donations-ntwnfb\">Continue reading...</a>"
+          "text": "Major donations from close associates of One Nation’s billionaire benefactor, Gina Rinehart, will be reviewed by the Australian Electoral Commission (AEC) amid concerns they were made on behalf of a third party."
+        },
+        {
+          "type": "p",
+          "text": "The special minister of state, Don Farrell, said on Thursday that information about two $500,000 donations made to the Pauline Hanson-led party could be subject to further regulatory action if they are found not to comply with provisions in the Electoral Act."
+        },
+        {
+          "type": "p",
+          "text": "In April, Hanson thanked two of Rinehart’s closest associates and senior executives for their “investment” in the party at the same time as she unveiled a private plane gifted to her by Rinehart."
+        },
+        {
+          "type": "p",
+          "text": "The geologist Ian Plimer, who is an executive with Hancock Energy and known for his climate denialism, and Adam Giles, the head of Hancock Agriculture and former Northern Territory chief minister, each donated $500,000 to One Nation."
+        },
+        {
+          "type": "p",
+          "text": "At the time, Hanson thanked “two wonderful patriotic Australians” for the combined $1m in contributions."
+        },
+        {
+          "type": "p",
+          "text": "The money – and the use of the new Cirrus SR22 G7 plane – which can retail for about $2.1m, prompted Labor to accuse One Nation of being “a wholly owned subsidiary of Gina Rinehart”."
+        },
+        {
+          "type": "p",
+          "text": "A question on notice about the donations from Plimer and Giles asked if the government had “any concerns that these donations were made on behalf of a third party”."
+        },
+        {
+          "type": "p",
+          "text": "In answer, Farrell said the Electoral Act required relevant disclosures to be made within 2025-26 annual financial disclosure returns to the AEC, due earlier this month."
+        },
+        {
+          "type": "p",
+          "text": "He said information about donations and in-kind support to political parties, including One Nation, would be published on the AEC’s transparency register on 1 February."
+        },
+        {
+          "type": "p",
+          "text": "“The AEC will examine disclosures and determine whether further regulatory action is required,” Farrell said."
+        },
+        {
+          "type": "p",
+          "text": "Guardian Australia has reported extensively on Hanson’s links to Rinehart, including her repeated failures to properly declare free flights on the mining magnate’s private jet."
+        },
+        {
+          "type": "p",
+          "text": "Hancock Prospecting and One Nation were contacted for comment on Thursday."
+        },
+        {
+          "type": "p",
+          "text": "The Coalition raised concerns with the federal government about whether Plimer and Giles had made the donations on behalf of a third party, asking if the source of the money would be investigated."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "Crossbencher David Pocock also sought more information about the donations, using a parliamentary question on notice to ask if the AEC could investigate their source."
+        },
+        {
+          "type": "p",
+          "text": "Guardian Australia reported in September that James Ashby, formerly Hanson’s chief of staff and now the party’s national director, drives a new Ford Ranger that was “personally” gifted to One Nation by Giles in April."
+        },
+        {
+          "type": "p",
+          "text": "Hanson said the vehicle would help the party’s campaign efforts and “provides us the presence we need in the lead up to the next federal election”."
+        },
+        {
+          "type": "p",
+          "text": "Hanson celebrated the defection of Liberal Leah Blyth to One Nation on Thursday, suggesting the senator would “build on One Nation’s expanding support” in South Australia."
+        },
+        {
+          "type": "p",
+          "text": "The defection sparked recriminations from within the Coalition, even as Blyth struggled to justify her move to a party she has previously criticised – and as she fumbled key policy positions held by Hanson."
+        },
+        {
+          "type": "p",
+          "text": "The Nationals leader, Matt Canavan, called Blyth “a turncoat” while the deputy Liberal leader, Jane Hume, said her former colleague “wasn’t a big contributor” to the Coalition."
+        },
+        {
+          "type": "p",
+          "text": "In an interview with the Australian Financial Review on Thursday, Hanson insisted she was not controlled by Rinehart, pointing to her party’s opposition to the Australia-European Union free trade agreement."
+        },
+        {
+          "type": "p",
+          "text": "Rinehart would benefit from the deal, including provisions to ease tariffs on beef and critical minerals."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "grd-1yneva",
@@ -2189,13 +3138,156 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Farmers’ federation president says Australia ‘can’t even keep [illicit] cigarettes out of the country … let alone some of these difficult-to-detect pests’</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>Years-old recommendations by Australia’s biosecurity watchdog have been ignored or not acted on by successive federal governments, increasing the risk of an invasive pest outbreak such as the fire ants discovered in Sydney this week, according to experts.</p><p>Environmentalists and biosecurity experts warn the large colony of red imported fire ants are a warning sign that the country’s quarantine system is too slow-moving, underfunded and overly concerned with agriculture.</p> <a href=\"https://www.theguardian.com/australia-news/2026/nov/27/sydney-fire-ants-outbreak-biosecurity-experts-ignored\">Continue reading...</a>"
+          "text": "Years-old recommendations by Australia’s biosecurity watchdog have been ignored or not acted on by successive federal governments, increasing the risk of an invasive pest outbreak such as the fire ants discovered in Sydney this week, according to experts."
+        },
+        {
+          "type": "p",
+          "text": "Environmentalists and biosecurity experts warn the large colony of red imported fire ants are a warning sign that the country’s quarantine system is too slow-moving, underfunded and overly concerned with agriculture."
+        },
+        {
+          "type": "p",
+          "text": "The nest was found in Auburn and is the second outbreak of the invasive species in Sydney this year after they were discovered at the Enfield intermodal logistics centre on 23 September."
+        },
+        {
+          "type": "p",
+          "text": "Both sites are industrial areas dealing with imported goods."
+        },
+        {
+          "type": "p",
+          "text": "The NSW agriculture minister, Tara Moriarty, said on Wednesday that the Auburn outbreak was “different to what has occurred in the past and is seemingly the result of infested imported goods”."
+        },
+        {
+          "type": "p",
+          "text": "“Our government is boosting our on-ground resources and establishing a taskforce to focus on tracing the supply chains that have led to this occurring,” she said."
+        },
+        {
+          "type": "p",
+          "text": "But experts say there have been years of warnings about Australia’s biosecurity, often not acted on by the federal government, that might have made a difference in halting the ants’ spread."
+        },
+        {
+          "type": "p",
+          "text": "The policy director of the Invasive Species Council, Carol Booth, pointed to a 2021 review by the inspector general of biosecurity of the controls for the Khapra beetle, which made recommendations to improve the entire quarantine system."
+        },
+        {
+          "type": "p",
+          "text": "The South Asian beetle is the second-highest identified national priority plant pest, due to its risks to the grain industry."
+        },
+        {
+          "type": "p",
+          "text": "At the time, the inspector general made 13 recommendations, including that the department “improve its level of regulatory agility”, “with an expectation of response time frames of days or weeks, not months or years” due to the rapidly-evolving risk of outbreak."
+        },
+        {
+          "type": "p",
+          "text": "It also criticised the federal government for not acting when the risk of the beetle arriving was first identified in July 2020."
+        },
+        {
+          "type": "p",
+          "text": "“This delay is an illustration of the department’s continuing regulatory immaturity,” the inspector general found, suggesting either a poorly defined risk assessment process or an overly cavalier attitude to risk."
+        },
+        {
+          "type": "p",
+          "text": "Four years later, nothing had been done about the recommendation to improve response times. An October 2025 review of the report by the inspector general found that all but one of the recommendations were still open."
+        },
+        {
+          "type": "p",
+          "text": "Booth said the recommendation was particularly significant because biosecurity risks to Australia were endlessly evolving and increasing, partly due to climate change."
+        },
+        {
+          "type": "p",
+          "text": "“There are just so many things they should be doing that they’re not, or they weren’t doing well, or they weren’t auditing to ensure that their measures were being actually implemented,” Booth said."
+        },
+        {
+          "type": "p",
+          "text": "“There’s definitely some things they do well, but others, they just don’t have the resources.”"
+        },
+        {
+          "type": "p",
+          "text": "The Guardian understands the recommendation has since been implemented."
+        },
+        {
+          "type": "p",
+          "text": "Hamish McIntyre, the president of the National Farmers’ Federation, said farmers “believe we are watching a national biosecurity and human health disaster unfold in front of our eyes around fire ants” due to a failure of the quarantine system."
+        },
+        {
+          "type": "p",
+          "text": "“We can’t even keep [illicit] cigarettes out of the country through our borders, let alone some of these difficult-to-detect pests.”"
+        },
+        {
+          "type": "p",
+          "text": "He said being an island nation was Australia’s greatest biosecurity advantage."
+        },
+        {
+          "type": "p",
+          "text": "The federal minister for agriculture, Julie Collins, said the government had delivered over $2bn in additional biosecurity resourcing since 2022."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "“This includes more than $296m in the current red imported fire ant eradication program,” she said."
+        },
+        {
+          "type": "p",
+          "text": "“In the last financial year alone, federal biosecurity officers inspected almost 350,000 commercial sea and air cargoes, preventing tens of thousands of harmful pests, diseases and weeds from entering Australia.”"
+        },
+        {
+          "type": "p",
+          "text": "Tom Kompas, a professor of environmental economics and biosecurity at the University of Melbourne, said it was likely that Sydney’s infestation was broader than currently thought."
+        },
+        {
+          "type": "p",
+          "text": "“If it does get into metro Sydney, it would be a disaster. It would be an absolute disaster,” he said."
+        },
+        {
+          "type": "h",
+          "text": "Tax the importer"
+        },
+        {
+          "type": "p",
+          "text": "Australia has a reputation for extraordinarily tough and strict biosecurity controls, but no system can block, inspect or decontaminate every container of every pest."
+        },
+        {
+          "type": "p",
+          "text": "“We’re going to have incursions of fire ants, among other things,” the Invasive Species Council CEO, Jack Gough, said."
+        },
+        {
+          "type": "p",
+          "text": "“The key is basically how early in the biosecurity system we’re catching these things, such that then it’s a lot easier to deal with.”"
+        },
+        {
+          "type": "p",
+          "text": "While the Enfield site had been subject to pest inspections, Gough said there had been “clear failings” because its fire ant mitigation process did not match the ant’s biology."
+        },
+        {
+          "type": "p",
+          "text": "Lures were only placed in some businesses once a year, but ants can move after six months, he said. They were also placed too far apart, further than the 40 or so metres the ants will roam."
+        },
+        {
+          "type": "p",
+          "text": "He said this was partly due to underfunding and an overreliance on mitigation in the private sector."
+        },
+        {
+          "type": "p",
+          "text": "Kompas said the biosecurity system was hampered by its approach to risk, with funding against an individual pest allocated according to concern levels. According to him, a better approach would be to allocate funding based on an assessment of cost effectiveness and suggested testing Australian cows for foot-and-mouth disease is probably overfunded."
+        },
+        {
+          "type": "p",
+          "text": "He said the system placed an overemphasis on mitigating risks to agriculture rather than the environment."
+        },
+        {
+          "type": "p",
+          "text": "Ultimately, it falls to the taxpayer to pay for eradication, Gough said. Queensland’s fire ant eradication program costs more than $100m a year."
+        },
+        {
+          "type": "p",
+          "text": "The Invasive Species Council has long called for a new tax on importers to fund the country’s biosecurity system, but Gough said Australia’s obligations under World Trade Organization agreements had prevented its implementation as a flat fee."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "grd-16wd61z",
@@ -2214,13 +3306,165 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Environment minister says he understands concerns about potential impact after 150 scientists and celebrities urged the government to block the project</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">daily political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The environment minister, Murray Watt, has acknowledged concerns raised by scientists and celebrity campaigners, including Hugh Jackman, about a contentious Woodside offshore gas proposal in northern Western Australia, saying he “absolutely understands” why they think it could have “very serious impacts” on nature.</p><p>The federal government is expected to make a decision on whether to approve the Browse gas development near Scott Reef, about 300km off the Kimberley coast, under national environment law early next year.</p><p><strong><a href=\"https://www.theguardian.com/australia-news/2026/aug/28/politics-really-newsletter-guardian-australia-free-best-daily-auspol-email-subscribe?CMP=copyembed\">Sign up for Guardian Australia’s Politics, really newsletter here</a></strong></p> <a href=\"https://www.theguardian.com/australia-news/2026/nov/27/hugh-jackman-woodside-gas-project-wa-reef-murray-watt\">Continue reading...</a>"
+          "text": "The environment minister, Murray Watt, has acknowledged concerns raised by scientists and celebrity campaigners, including Hugh Jackman, about a contentious Woodside offshore gas proposal in northern Western Australia, saying he “absolutely understands” why they think it could have “very serious impacts” on nature."
+        },
+        {
+          "type": "p",
+          "text": "The federal government is expected to make a decision on whether to approve the Browse gas development near Scott Reef, about 300km off the Kimberley coast, under national environment law early next year."
+        },
+        {
+          "type": "p",
+          "text": "Scientists and WA state regulators have documented the risk of leakage and oil spills near the reef, which is home to more than 1,500 species, many of them unique to the area. They include endangered green turtles and migratory whales."
+        },
+        {
+          "type": "p",
+          "text": "Watt said from “day one” of the project there had been a “level of concern about what the environmental impacts would be”, and the national environment agency had to assess whether they could be managed."
+        },
+        {
+          "type": "p",
+          "text": "“I don’t think that Hugh Jackman or any of the other people campaigning against this project are wrong to be concerned because, clearly, the project at an early stage was considered to potentially have some very serious impacts,” Watt said, noting that the former government in 2019 “decided that the Browse project was likely to have significant impacts on various environmental matters”."
+        },
+        {
+          "type": "p",
+          "text": "More than 150 Australian artists, including Jackman, Rebel Wilson and Jessica Mauboy, last week backed a Greenpeace-led campaign against Woodside’s proposal, signing an open letter and urging the government to block it."
+        },
+        {
+          "type": "p",
+          "text": "Browse, which was first proposed by Woodside in 2018, would involve gas being piped about 900km to the North West Shelf gas export plant, which last year had its life extended to 2070 despite concerns of its potential impact on world heritage-listed Murujuga rock art."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/60c79f9885815da1d17ad2a1dd60cec8aac76c05/0_0_3543_2363/master/3543.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The environment minister, Murray Watt, says the EPA ‘will be running a very close eye over fossil fuel projects in the future to make sure that they do meet stronger tests under the reforms’. Photograph: Hilary Wardhaugh/Getty Images"
+        },
+        {
+          "type": "p",
+          "text": "WA’s independent environmental watchdog sharply criticised the proposal in 2023 in a draft letter, warning it might be impossible to reduce the risk of an oil spill to an acceptable level, and that plans to protect marine life near Scott Reef would be ineffective."
+        },
+        {
+          "type": "p",
+          "text": "“I absolutely understand people’s concerns about the potential environmental impacts from big projects like these,” Watt said."
+        },
+        {
+          "type": "p",
+          "text": "“What the EPA’s got to do is get across in much more thorough detail and go through the scientific evidence to assess what those impacts would be.”"
+        },
+        {
+          "type": "p",
+          "text": "Saturday marks one year since Labor’s reformed Environment Protection and Biodiversity Conservation (EPBC) Act was legislated, but Watt said that all projects being assessed under the environment laws before 1 December would be assessed under the previous rules. That included Woodside’s Browse proposal. No fossil fuel development proposals have been rejected since the legislation was passed."
+        },
+        {
+          "type": "p",
+          "text": "Watt said the new rules would set a higher bar for fossil fuel projects proposed after 1 December though the laws do not include the effects of greenhouse gas emissions on the climate as grounds to block a development."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "“I think there are stronger tests that need to be passed by all projects – fossil fuel and other projects – as a result of our reforms,” Watt said. “The EPA, I think, will be running a very close eye over fossil fuel projects in the future to make sure that they do meet stronger tests under the reforms.”"
+        },
+        {
+          "type": "p",
+          "text": "Watt defended the government’s treatment of native forestry logging under the changes made last year. Under the revamped laws, an effective exemption for native forest logging from the EPBC Act was removed."
+        },
+        {
+          "type": "p",
+          "text": "But conservationists have been concerned that decisions on logging could still be left to pro-forestry state governments, which argue the industry does not harm the environment, under bilateral agreements that hand decision-making powers to state governments. Tasmanian Greens senator Nick McKim described this as a “sneaky way to keep the chainsaws running”."
+        },
+        {
+          "type": "p",
+          "text": "Watt said the bilateral agreement would still require the state to abide by stricter federal rules."
+        },
+        {
+          "type": "p",
+          "text": "“At the time we passed the reforms, I made the point, our government’s policy is not to end native forestry but we do want to see it become more sustainable,” Watt said."
+        },
+        {
+          "type": "p",
+          "text": "“We have to accredit whatever environmental framework the Tasmanian government applies to forestry, which means that it has to meet our standards in a way that they’ve never had to do before.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "rap-y2vhik",
+      "source": "rap",
+      "title": "Senate approves OVP 2027 budget in one minute &#124; The wRap",
+      "summary": "Today’s headlines: Sara Duterte, Excise tax on coffee, Jensen Huang",
+      "byline": "Rappler.com",
+      "section": "Editors' Pick",
+      "published": "2026-11-26T14:00:00.000Z",
+      "firstSeen": "2026-11-26T15:44:32.831Z",
+      "url": "https://www.rappler.com/video/daily-wrap/november-26-2026/",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Here are today’s headlines – the latest news in the Philippines and around the world:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Senate OKs OVP 2027 budget in one minute"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Vice President Sara Duterte personally attends the Senate plenary deliberations on the Office of the Vice President’s proposed P785.24-million budget for 2027."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Excise tax on your coffee? House leader shuts down suggestion"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "House ways and means chairman Miro Quimbo shuts down the idea of imposing an excise tax on coffee."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sandiganbayan suspends Pasay judge over bribery case"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The anti-graft court Sandiganbayan orders the three-month preventive suspension of Pasay City Judge Albert Cansino for a direct bribery charge filed by the Office of the Ombudsman."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "US officials divided over Chinese spying allegations following Jensen Huang’s return"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Days after President Donald Trump declared Nvidia CEO Jensen Huang was not a security threat, a question remains unanswered: Was the woman Huang had an affair with a Chinese spy?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Duran Duran guitarist and songwriter Andy Taylor dies at 65"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The guitarist and songwriter for pop-rock band Duran Duran and a Rock and Roll Hall of Fame inductee Andy Taylor passed away at the age of 65. – Rappler.com"
         }
       ],
       "truncated": true,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "feed"
     },
     {
       "id": "cbc-ppm5zs",
@@ -2377,82 +3621,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "rap-y2vhik",
-      "source": "rap",
-      "title": "Senate approves OVP 2027 budget in one minute &#124; The wRap",
-      "summary": "Today’s headlines: Sara Duterte, Excise tax on coffee, Jensen Huang",
-      "byline": "Rappler.com",
-      "section": "Editors' Pick",
-      "published": "2026-11-26T14:00:00.000Z",
-      "firstSeen": "2026-11-26T15:44:32.831Z",
-      "url": "https://www.rappler.com/video/daily-wrap/november-26-2026/",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Here are today’s headlines – the latest news in the Philippines and around the world:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Senate OKs OVP 2027 budget in one minute"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Vice President Sara Duterte personally attends the Senate plenary deliberations on the Office of the Vice President’s proposed P785.24-million budget for 2027."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Excise tax on your coffee? House leader shuts down suggestion"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "House ways and means chairman Miro Quimbo shuts down the idea of imposing an excise tax on coffee."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Sandiganbayan suspends Pasay judge over bribery case"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The anti-graft court Sandiganbayan orders the three-month preventive suspension of Pasay City Judge Albert Cansino for a direct bribery charge filed by the Office of the Ombudsman."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "US officials divided over Chinese spying allegations following Jensen Huang’s return"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Days after President Donald Trump declared Nvidia CEO Jensen Huang was not a security threat, a question remains unanswered: Was the woman Huang had an affair with a Chinese spy?"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Duran Duran guitarist and songwriter Andy Taylor dies at 65"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The guitarist and songwriter for pop-rock band Duran Duran and a Rock and Roll Hall of Fame inductee Andy Taylor passed away at the age of 65. – Rappler.com"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "feed"
     },
     {
       "id": "inqg-kjo815",
@@ -3737,13 +4905,160 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Communities say big railroad companies won’t act and that lawmakers moving too slowly to address a major problem</p><p>The drive from the Lockland fire station to a house fire on Patterson Avenue should have taken no more than <a href=\"https://www.wsaz.com/2026/10/20/89-year-old-woman-dies-house-fire-after-stopped-train-delays-first-responders/\">45 seconds</a>.</p><p>But East Wyoming Avenue and Davis Street were both blocked: a Norfolk Southern train was stopped across several streets – the fire engine had to turn around and take a detour via a nearby highway. By the time firefighters snaked through the highway traffic and reached the fire last month, seven minutes after the call came in, 89-year-old Marian Haefner was <a href=\"https://www.wsaz.com/2026/10/20/89-year-old-woman-dies-house-fire-after-stopped-train-delays-first-responders/\">dead in her own home</a>.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/26/freight-trains-blocking-streets-disrupting-life\">Continue reading...</a>"
+          "text": "The drive from the Lockland fire station to a house fire on Patterson Avenue should have taken no more than 45 seconds."
+        },
+        {
+          "type": "p",
+          "text": "But East Wyoming Avenue and Davis Street were both blocked: a Norfolk Southern train was stopped across several streets – the fire engine had to turn around and take a detour via a nearby highway. By the time firefighters snaked through the highway traffic and reached the fire last month, seven minutes after the call came in, 89-year-old Marian Haefner was dead in her own home."
+        },
+        {
+          "type": "p",
+          "text": "“We lost a house here about five years ago, on Central Avenue which is directly on the other side of the tracks. Same thing, couldn’t get to it,” says Mark Mason, Lockland’s mayor."
+        },
+        {
+          "type": "p",
+          "text": "“I’ve been mayor of Lockland for nine years. Frankly, [Norfolk Southern] don’t give a crap. If they did, they would do something about it.”"
+        },
+        {
+          "type": "p",
+          "text": "From his office in a century-old building in Lockland, a small community north of Cincinnati, Mason reels off a list of complaints about train crossing blockages he’s been fielding: People threatened with dismissal because they are constantly late to work. Parents paying extra to daycares because they’re late picking up their children. College students who have had to drop out of a class because they can’t get to campus on time."
+        },
+        {
+          "type": "p",
+          "text": "Lockland is several miles south of the Sharonville intermodal terminal, a link of the Heartland Corridor that links an Atlantic seaport in Norfolk, Virginia, with Chicago. It is from this terminal that Norfolk Southern trains are moved on to the tracks across Lockland streets, sometimes for up to 23 hours, to make room for other trains to be connected, say local officials."
+        },
+        {
+          "type": "p",
+          "text": "“I’ve had it. It’s 2026 – trains should not be affecting people’s lives like this, much less putting them in danger. It’s an easy fix – quit pulling out trains if they can’t move forward [but train companies] are a powerful entity,” Mason says."
+        },
+        {
+          "type": "p",
+          "text": "Rail companies own most tracks and lines in the US. Local and state authorities have scant ability to regulate."
+        },
+        {
+          "type": "p",
+          "text": "Lockland is far from alone in dealing with Norfolk Southern, a $73bn public company with a long line of environmental and other charges against it."
+        },
+        {
+          "type": "p",
+          "text": "Similar rail crossing incidents have been happening in Cleveland, Chicago, Houston and beyond."
+        },
+        {
+          "type": "p",
+          "text": "In Hammond, Indiana a 2023 Pro Publica investigation found children regularly having to climb through cars to get to and from school. Local administrators say Norfolk Southern backed out of building a pedestrian overpass."
+        },
+        {
+          "type": "p",
+          "text": "Over the past 12 months there have been more than 34,000 public reports of rail crossing blockages, according to the Federal Railroad Administration, a sharp increase from more than 25,000 reports over the previous 12 months. Texas alone made up almost 10,000 of those, with Ohio seeing the third-highest number of reports in that time."
+        },
+        {
+          "type": "p",
+          "text": "In almost a quarter of those incidents, pedestrians crawling on, over or between rail cars were reported. In nearly 22%, first responders were unable to cross the tracks. Numerous other reports found students at the University of Alabama in Tuscaloosa having to climb through stopped cars to get to campus."
+        },
+        {
+          "type": "p",
+          "text": "In 2023, Houston reported 5,610 reports of blocked rail crossings, with the city’s East End reporting the highest number of complaints in the country, according to local reports."
+        },
+        {
+          "type": "p",
+          "text": "Last December, Sylvia Garcia, a Texas congresswoman whose district includes the East End, reintroduced a bill prohibiting trains from blocking rail crossings for more than 10 minutes."
+        },
+        {
+          "type": "p",
+          "text": "“We tragically lost 15-year-old Sergio Rodriguez, who was killed by an oncoming train while trying to get to Milby high school. No child should have to risk their life getting to school, and no family should have to worry about a blocked train delaying emergency care. Our communities deserve better,” she says."
+        },
+        {
+          "type": "p",
+          "text": "“Republicans have allowed this legislation to languish in committee while powerful railroad companies continue putting their bottom lines ahead of the safety of our communities. These companies have spent years making promises while our families continue paying the price.”"
+        },
+        {
+          "type": "p",
+          "text": "Ohioans have had a troubled relationship with Norfolk Southern in recent years. In February 2023, a failed wheel bearing caused a train derailment and catastrophic chemical fire in East Palestine. The company settledwith the justice department and Environmental Protection Agency for more than $310m."
+        },
+        {
+          "type": "p",
+          "text": "Last July, 19 rail cars carried on a Norfolk Southern train, including one containing hydrochloric acid, derailed in Bucyrus, Ohio, forcing emergency services to establish a one-mile evacuation zone and driving residents from their homes."
+        },
+        {
+          "type": "p",
+          "text": "The Atlanta-headquartered company is in the midst of a merger attempt with Union Pacific, another freight rail behemoth and the owner of the train that killed Sergio Rodriguez in Houston."
+        },
+        {
+          "type": "p",
+          "text": "JD Vance, Vice-president and Ohio native, has pushed for the passing of the Railway Safety Act, a bipartisan senate bill that calls for having two-person crews on board to operate a train. But rail companies have staunchly opposed the proposal, arguing one person is sufficient. Railroad lobbyists, which number in the hundreds, are among the most powerful and well-financed in Washington."
+        },
+        {
+          "type": "p",
+          "text": "For its part, Norfolk Southern says changes it made to scheduling in Hammond, Indiana, has led to a 50% reduction in blocked crossing calls from residents."
+        },
+        {
+          "type": "p",
+          "text": "“Norfolk Southern (NS) continues working with local officials to reduce the impact of blocked crossings, particularly for emergency responders. Those efforts include discussions around crossing-detection technology that could provide real-time visibility when crossings are occupied,” says a Norfolk Southern spokesperson."
+        },
+        {
+          "type": "p",
+          "text": "“NS is making infrastructure investments in the [Lockland] area intended to help reduce congestion and minimize crossing impacts while maintaining safe operations.”"
+        },
+        {
+          "type": "p",
+          "text": "The spokesperson says the company is taking part in the Cincinnati Rail Congestion Mitigation Plan, “focused on improving rail fluidity and addressing blocked-crossing concerns across the corridor.”"
+        },
+        {
+          "type": "p",
+          "text": "There are no federal limits on maximum freight train lengths, with some recorded as being three miles in length. Others have argued that deregulation of the sector by the Trump administration has made matters worse for communities."
+        },
+        {
+          "type": "p",
+          "text": "In August, Sean Duffy, transportation secretary, appeared in Cincinnati to announce funding for a swathe of national rail projects, including a proposed $40m grant to close two crossings and build a new bridge in nearby Fairfield, Ohio."
+        },
+        {
+          "type": "p",
+          "text": "“The tragedy in Lockland is a reminder that the safest crossing is no crossing at all,” says Alex Murglin of the Federal Railroad Administration."
+        },
+        {
+          "type": "p",
+          "text": "“Events like [the death of Marian Haefner] are why Secretary Duffy recently announced $1.24bn in grants to eliminate key crossings in 37 states and why FRA continues to work closely with railroads and local municipalities to reduce the occurrence of blockages at crossings.”"
+        },
+        {
+          "type": "p",
+          "text": "Still, for Lockland residents the threat of blocked streets isn’t going away anytime soon."
+        },
+        {
+          "type": "p",
+          "text": "Dozens of homes on the east side are hemmed in by an interstate highway and creek to the east, and the Norfolk Southern rail line to the west."
+        },
+        {
+          "type": "p",
+          "text": "Scott Fritsch’s Mueller Roofing Distributors has been operating in Lockland since 1875 and is the kind of local business where customers are greeted with free hotdogs inside the main door. But with some of his premises on either side of the Norfolk Southern railway, crossing blockages have been a nightmare for business."
+        },
+        {
+          "type": "p",
+          "text": "“They can be stopped across the tracks for hours at times. You can’t get back and forth,” he says."
+        },
+        {
+          "type": "p",
+          "text": "“They say they’ll look into it but it’s not getting any better. It’s been a constant battle for customers and our trucks not being able to get where they need to go.”"
+        },
+        {
+          "type": "p",
+          "text": "Nearby Cincinnati is one of the busiest rail hubs in the midwest, connecting industrial northern cities such as Chicago with freight destined for overseas markets via the Ohio and Mississippi rivers. CSX, which operates about 20,000 miles of track mostly in the eastern US and Canada, has a huge rail yard several miles south of Lockland that handles about 3,200 train cars at any one time."
+        },
+        {
+          "type": "p",
+          "text": "Mason says Norfolk Southern representatives have been in touch following the death of Marian Haefner, but he hasn’t been impressed by their approach."
+        },
+        {
+          "type": "p",
+          "text": "“They couldn’t make [a meeting in] November work, so that tells me the sort of urgency that Norfolk Southern feels about this,” he says."
+        },
+        {
+          "type": "p",
+          "text": "“Lockland’s school is right here – it’s within a stone’s throw of the tracks, so you’ve got an unmanned train with all these chemical cars. Again, they don’t care.”"
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "inq-mtarsd",
@@ -3948,56 +5263,6 @@
         {
           "type": "p",
           "text": "MANILA, Philippines — Senators on Thursday warned heads of government agencies that their offices may suffer budget reductions if they fail to attend budget deliberations. The warning came as senators gave leeway to Philippine Sports Commission Chairperson Patrick “Pato” Gregorio, who missed the debates for the agency’s P1.9-billion proposed 2027 spending plan due to an overseas meeting with the Fédération Internationale de Football Association (FIFA). “Those heads of agencies who were not here, we’re forewarning them now that there&#8217;s a chance na mabawasan po yung budget nila kung hindi po sila sumipot dito,” Senate Majority Leader Sen. Juan Miguel Zubiri said. [&hellip;]... Keep on reading: Senators warn agency heads: No show, less budget"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "grd-1k24w9c",
-      "source": "grd",
-      "title": "MP hosts 400,000 guests at daughter’s wedding in India’s poorest state",
-      "summary": "<p>Five helipads built and feast prepared by 500 cooks for wedding hosted by Anant Singh, an MP charged with murder</p><p>About 400,000 guests have attended a wedding hosted by a politician in…",
-      "byline": "Agence France-Press in Patna",
-      "section": "India",
-      "published": "2026-11-26T12:43:10.000Z",
-      "firstSeen": "2026-11-26T13:01:13.409Z",
-      "url": "https://www.theguardian.com/world/2026/nov/26/india-anant-singh-hosts-400000-guests-wedding-guests-daughter",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/146f27955d71d926be0d5814ed341c2e68dcde32/596_0_2787_2231/master/2787.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=361cf1d5684eccc5924cb68ef1e1ffcd",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "<p>Five helipads built and feast prepared by 500 cooks for wedding hosted by Anant Singh, an MP charged with murder</p><p>About 400,000 guests have attended a wedding hosted by a politician in India’s poorest state, choking roads and sending spectators scrambling up electricity pylons for a glimpse of the lavish celebrations.</p><p>Anant Singh, a six-time MP who is facing dozens of criminal cases including murder charges, invited villagers, political allies and VIPs to his daughter’s wedding in the eastern state of Bihar on Wednesday. Singh denies any wrongdoing regarding the charges he faces.</p> <a href=\"https://www.theguardian.com/world/2026/nov/26/india-anant-singh-hosts-400000-guests-wedding-guests-daughter\">Continue reading...</a>"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-1nt9lor",
-      "source": "inq",
-      "title": "INQToday: OVP budget interpellation lasts just 2 minutes",
-      "summary": "MANILA, Philippines — Here are the top INQToday stories for Thursday, Nov. 26, 2026, as of 6. p.m. OVP budget interpellation lasts just 2 minutes, with no questions asked Without any questions from…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-26T12:40:29.000Z",
-      "firstSeen": "2026-11-26T13:01:16.420Z",
-      "url": "https://newsinfo.inquirer.net/2347765/inqtoday-ovp-budget-interpellation-lasts-just-2-minutes",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/INQToday-TitleCard-26Nov2026-620x349.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Here are the top INQToday stories for Thursday, Nov. 26, 2026, as of 6. p.m. OVP budget interpellation lasts just 2 minutes, with no questions asked Without any questions from lawmakers, the Senate terminated the period of interpellation on the proposed P785.2-million budget of the Office of the Vice President (OVP). VP’s dentist, a former Cale88 co-owner, among next defense witnesses Dr. Lourdes Lebosada, Vice President Sara Duterte’s dentist and a former co-owner of controversial company Cale88 Foods Corporation, will be among the next defense witnesses in the impeachment trial. Driver dies as car falls from 4th floor [&hellip;]... Keep on reading: INQToday: OVP budget interpellation lasts just 2 minutes"
         }
       ],
       "truncated": true,
@@ -4490,13 +5755,72 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Suit says parish board was manipulated to allow deal to go through and settlement agreement hidden from public</p><p>After ending a lawsuit over <a href=\"https://www.theguardian.com/business/exxonmobil\">ExxonMobil</a>’s damage to wetlands, <a href=\"https://www.theguardian.com/us-news/louisiana\">Louisiana</a> officials moved quickly to approve a deal giving <a href=\"https://www.theguardian.com/science/spacex\">SpaceX</a> access to 125,000 acres (50,600 hectares) of marsh formerly owned by the oil company. A new lawsuit now alleges they did so in violation of the state’s open meetings law.</p><p>The lawsuit, filed by three south-central Louisiana residents, follows state and Vermilion parish officials’ approval of what is estimated to be a record $27.5bn tax incentive package for SpaceX’s Starbase Louisiana project, <a href=\"https://www.theguardian.com/us-news/2026/aug/10/spacex-rocket-launch-site-louisiana-backlash\">announced over the summer</a>. The officials violated the state’s open meetings law eight times while facilitating the agreement in attempts to “keep the public in the dark about what they are doing for SpaceX”, the lawsuit alleges.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/26/louisiana-spacex-exxonmobil-land-deal-lawsuit\">Continue reading...</a>"
+          "text": "After ending a lawsuit over ExxonMobil’s damage to wetlands, Louisiana officials moved quickly to approve a deal giving SpaceX access to 125,000 acres (50,600 hectares) of marsh formerly owned by the oil company. A new lawsuit now alleges they did so in violation of the state’s open meetings law."
+        },
+        {
+          "type": "p",
+          "text": "The lawsuit, filed by three south-central Louisiana residents, follows state and Vermilion parish officials’ approval of what is estimated to be a record $27.5bn tax incentive package for SpaceX’s Starbase Louisiana project, announced over the summer. The officials violated the state’s open meetings law eight times while facilitating the agreement in attempts to “keep the public in the dark about what they are doing for SpaceX”, the lawsuit alleges."
+        },
+        {
+          "type": "p",
+          "text": "Prior to working on the tax abatement for SpaceX, the Vermilion parish industrial development board had not been active for nearly three decades. But in July 2026, the Vermilion parish police jury appointed seven members to the board without advance notice at the same meeting where they approved the ExxonMobil settlement, which wasn’t on the meeting agenda either, according to the lawsuit. The police jury’s legal counsel, Paul Moresi, told WWL Louisiana that the officials deny the allegations in the lawsuit and followed the requirements of the state’s open meetings law."
+        },
+        {
+          "type": "p",
+          "text": "The governor’s office then collected all copies of the settlement agreement with ExxonMobil, the details of which still remain unclear, said New Orleans attorney William Most."
+        },
+        {
+          "type": "p",
+          "text": "“The Vermilion parish government has been violating transparency laws in totally new and unprecedented ways including using code names in public agendas and making sure they don’t keep copies of the contracts they sign so their constituents can’t read them,” Most said. “Transparency is so important because it helps prevent the state from making the same mistakes of the past and letting out-of-state corporations take our resources and hurt our citizens.”"
+        },
+        {
+          "type": "p",
+          "text": "Jackson Voss, the government affairs and policy coordinator for the Alliance for Affordable Energy, said there’s still much unknown about the deals, making it harder to know what the state is getting in return for the loss of tax revenue and potentially further damage to wetlands."
+        },
+        {
+          "type": "p",
+          "text": "“I think that what we’ve done with this deal is subsidise both ExxonMobil and SpaceX. We’re helping two of the biggest corporations in the world to make even more money than they’re already making,” he said."
+        },
+        {
+          "type": "p",
+          "text": "SpaceX has told locals that 30 rockets per day could be launched from the spaceport’s 10 launch pads, or about 10,000 launches per year."
+        },
+        {
+          "type": "p",
+          "text": "Last month, a public research university in the area also entered into an agreement with SpaceX, which would allow the company to further expand the footprint of its 125,000-acre spaceport in the coastal marshlands of Vermilion parish. The University of Louisiana System Board approved the lease of five acres of UL Lafayette property to a non-profit called Ragin’ Cajun Facilities for $1 per year, as well as a sublease agreement to Space Exploration Technologies, or SpaceX."
+        },
+        {
+          "type": "p",
+          "text": "Local residents have raised concerns about the launch site’s potential to disrupt migratory bird habitat on the cheniere surrounded by fast-eroding marshland. The lawsuit settled by ExxonMobil this summer alleged that the company was partly responsible for the severe land loss in the parish through decades of drilling activities."
+        },
+        {
+          "type": "p",
+          "text": "Louisiana is experiencing some of the highest rates of relative sea level rise in the world, alongside alarming rates of wetland loss, estimated as a football field every 100 minutes. While the levying of the lower Mississippi River has contributed to much of the land loss in the bayou state, in Vermilion parish, wetland loss was largely caused by oil and gas activities, said coastal researcher Alex Kolker, the director of the Coastal Climates Institute."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "“It’s a little different from other parts of Louisiana because you never had much of a river input,” he said. “Changes in hydrology of the Mississippi River weren’t as impactful.”"
+        },
+        {
+          "type": "p",
+          "text": "While SpaceX’s lease agreement with UL Lafayette does not say the company will launch rockets from the site, it does include a wide range of permitted uses, such as training and workforce development, warehousing and assembly, and “testing and light industrial operations”. In exchange, SpaceX agreed to invest $10m in planned improvements to the site, which was donated to the university last year for a wildlife and coastal preservation center."
+        },
+        {
+          "type": "p",
+          "text": "Voss, with the Alliance for Affordable Energy, said that the university, as well as those responsible for the SpaceX tax deal, are making a lot of bets, without any real guarantees."
+        },
+        {
+          "type": "p",
+          "text": "“We’re going out of our way to make sure that whatever deal is reached is the best possible for industry no matter how much it costs everyone else,” he said. “It really is like a fire sale: get what you can before it’s too late.”"
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "cbc-zxwmy7",
