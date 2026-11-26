@@ -3,15 +3,221 @@
   "source": "cbc",
   "title": "So, your personal info was hacked in a breach. Here's how scammers use it against you",
   "summary": "",
-  "byline": "",
+  "byline": "Natalie Stechyson",
   "section": "News",
   "published": "2026-11-26T12:01:28.000Z",
-  "firstSeen": "2026-11-26T16:30:57.152Z",
+  "firstSeen": "2026-11-26T17:01:05.531Z",
   "url": "https://www.cbc.ca/news/canada/hackers-data-breaches-personal-information-9.7434363?cmp=rss",
-  "image": null,
-  "blocks": [],
-  "truncated": true,
+  "image": {
+    "src": "https://i.cbc.ca/ais/e7b39601-44d6-4bdf-ba56-3425c899eba9,1795547044582/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C627%2C5981%2C3364%29%3BResize%3D620",
+    "caption": "While it may come as a relief when a breached company says financial information wasn't accessed, cybersecurity experts explain that doesn't mean your bank accounts are safe. (Graeme Roy/The Canadian Press)"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "The hacks just keep coming."
+    },
+    {
+      "type": "p",
+      "text": "Canadians have been hit with a string of data breaches recently, with companies and organizations such as Bell, Staples Canada's printing website, KPMG, Pattison Food Group and Toronto's Hospital for Sick Children all reporting cybersecurity incidents in the last few months alone."
+    },
+    {
+      "type": "p",
+      "text": "In many cases, personal — but not financial — information was accessed by unauthorized third parties. Bell and Staples Canada both confirmed no financial information was exposed in their recent breaches."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Data breaches are coming fast and furious. Are businesses doing enough to protect your data?"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "While it may come as a relief to those affected that their credit cards and bank accounts, at least, haven't been compromised, information such as mailing addresses, passwords and phone numbers were."
+    },
+    {
+      "type": "p",
+      "text": "That's enough to increase the risk of falling victim to identity theft or a financial loss, according to the Office of the Privacy Commissioner of Canada."
+    },
+    {
+      "type": "p",
+      "text": "Bell cyberattack raises fear AI is making data breaches easier"
+    },
+    {
+      "type": "p",
+      "text": "When companies say that no financial data has been stolen, or that the breach was small, people tend to think the breach wasn't that serious, said Ali Dehghantanha, a professor in the school of computer science at the University of Guelph and a Canada Research Chair in Cybersecurity and Threat Intelligence."
+    },
+    {
+      "type": "p",
+      "text": "But he said criminals can stack and merge the personal information taken from multiple breaches — a piece here from Bell, a piece there from Staples — and use it to try to access your finances, often with the help with AI."
+    },
+    {
+      "type": "p",
+      "text": "\"Once you stack them up, it becomes much easier to scale your attack and targets a much wider and bigger audience,\" Dehghantanha told CBC News."
+    },
+    {
+      "type": "p",
+      "text": "\"Companies judge each breach alone. But criminals add all of them up. And that's what gives the criminals the upper hand.\""
+    },
+    {
+      "type": "h",
+      "text": "How hackers use personal data"
+    },
+    {
+      "type": "p",
+      "text": "While companies at the centre of some of the most recent breaches, such as Bell, said no financial information was compromised, our identity alone can be linked to financial information, said Jeff Horncastle, an outreach officer at the Canadian Anti-Fraud Centre."
+    },
+    {
+      "type": "p",
+      "text": "\"They can potentially have enough information to be able to compromise existing accounts, get into existing accounts or apply for new credit with the information that they've gained,\" he told CBC News."
+    },
+    {
+      "type": "p",
+      "text": "\"And if they're missing any information, they may be behind a different type of fraud where they're phishing for the information that they're missing.\""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bell says it's investigating cyberattack that led to potential theft of business customer data",
+        "Staples Canada says customer data accessed during 'security incident' on print website"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Scammers can use the information they've accessed from breaches to trick victims into handing over their own financial information on scam calls, Dehghantanha said."
+    },
+    {
+      "type": "p",
+      "text": "Bell's leak, for instance, included the date and amount of customers' last payment, which call centres use to verify their identities."
+    },
+    {
+      "type": "p",
+      "text": "People walk bast a Bell store in downtown Montreal on May 7, 2025. Bell is one of several Canadian companies who recently warned customers their personal data had been accessed by hackers. (Christopher Katsarov/The Canadian Press)"
+    },
+    {
+      "type": "p",
+      "text": "If someone has access to a bill you've paid recently, they now have your phone number, and can call you and say your payment for a specific amount on a specific date failed, Dehghantanha said."
+    },
+    {
+      "type": "p",
+      "text": "If the small pieces of information they repeat to you seem legitimate, they might convince you to give them your card information."
+    },
+    {
+      "type": "p",
+      "text": "\"These bills that have been leaked, have been stolen, are now the gateways,\" Dehghantanha said."
+    },
+    {
+      "type": "p",
+      "text": "The scam can also go both ways. Criminals can call companies pretending to be person whose information they now possess, and ask to have their phone number moved to a new SIM card."
+    },
+    {
+      "type": "p",
+      "text": "So, next time you log into your bank and it texts you an authentication code, the scammer will get it instead, giving them access to your account, Dehghantanha explained."
+    },
+    {
+      "type": "h",
+      "text": "What to do if your data was breached"
+    },
+    {
+      "type": "p",
+      "text": "Business are required to notify affected customers of a breach."
+    },
+    {
+      "type": "p",
+      "text": "If you receive a notice about a data breach, contact the organization directly using its official website or phone number, Horncastle said, because sometimes fraudsters will pretend to be a breached company. (Fraudsters have even been impersonating the Canadian Anti-Fraud Centre for years)."
+    },
+    {
+      "type": "quote",
+      "text": "You need to be suspicious for at least a year, not a week.Ali Dehghantanha"
+    },
+    {
+      "type": "p",
+      "text": "If your information has been exposed, Horncastle says you should change your passwords and contact your financial institution if needed. Some companies will offer credit protection through either Equifax or TransUnion, but he strongly suggests using both."
+    },
+    {
+      "type": "p",
+      "text": "Try to find out what information was accessed and be cautious for how it may be used, Dehghantanha said. In the recent Staples breach, for example, order summaries and encrypted passwords were accessed by an unauthorized third party."
+    },
+    {
+      "type": "p",
+      "text": "A customer shops at a Staples Canada store in Richmond Hill, Ont. on Nov. 17, 2026. Staples Canada said there was a 'security incident' on its staplesprint.ca website in early November, which saw a third party get unauthorized access to certain customer data. (Chris Young/The Canadian Press)"
+    },
+    {
+      "type": "p",
+      "text": "That could mean criminals now have access to your print orders, which might include wedding invitations, or funeral programs, or job applications, making you vulnerable to scams that target newlyweds, grieving families and job-seekers."
+    },
+    {
+      "type": "p",
+      "text": "It's also important to keep in mind that most personal information doesn't have an expiry date, and criminals can wait a long time after the initial data breach before they attempt to use it."
+    },
+    {
+      "type": "p",
+      "text": "\"You need to be suspicious for at least a year, not a week,\" Dehghantanha said."
+    },
+    {
+      "type": "h",
+      "text": "How can people protect their information?"
+    },
+    {
+      "type": "p",
+      "text": "Horncastle said you should use strong, different passwords for each of your accounts, turn on multi-factor authentication, and regularly monitor your bank and credit card statements, and credit reports, for unusual activity."
+    },
+    {
+      "type": "p",
+      "text": "In addition, he suggests always independently verifying the source of an email or text message, no matter how legitimate it looks. When possible, log into your accounts using official apps and websites — avoid clicking on links through messages."
+    },
+    {
+      "type": "p",
+      "text": "\"Never share your passwords, banking information or verification codes with anyone over the phone, especially when you receive that contact unexpectedly,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "Always be careful about any personal information you choose to share online, he added."
+    },
+    {
+      "type": "p",
+      "text": "\"It may be the missing piece of information for the puzzle.\""
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "'That was my granddaughter's voice': Senior suspects scammers used AI in Regina, Saskatoon",
+        "Her grandson's voice said he was under arrest. This senior was almost scammed with suspected AI voice cloning"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Dehghantanha suggests contacting your phone carrier to lock your number from being transferred to a new SIM card, if that's a service they allow, and setting a unique a pin representatives are required to ask before they can make account changes."
+    },
+    {
+      "type": "p",
+      "text": "And don't just rely on text messages for authentication, since scammers may be able to access those, he added. Enable the call-back option, or combine the text message verification with another method, such as the unique pin, or your fingerprints for touch ID, Dehghantanha said."
+    },
+    {
+      "type": "p",
+      "text": "Cellphone number transfer highlights potential security risks"
+    },
+    {
+      "type": "p",
+      "text": "Dehghantanha also suggests every family has their own unique code word, because AI has made voice-cloning technology so convincing that people are often tricked into thinking they're getting a call from a loved one in distress — commonly known as a grandparent scam."
+    },
+    {
+      "type": "p",
+      "text": "\"If a conversation is uncommon, just quickly ask, 'What is the code word?'\" he said."
+    },
+    {
+      "type": "p",
+      "text": "Finally, Dehghantanha warns people to never underestimate how quickly and convincingly you may be targeted after a breach."
+    },
+    {
+      "type": "p",
+      "text": "\"An AI intruder moves fast,\" he said."
+    }
+  ],
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct timed out after 8s"
+  "source_of_text": "page"
 }
