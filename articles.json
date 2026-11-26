@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-26T14:31:17.746Z",
+  "updated": "2026-11-26T15:01:27.309Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-z7k1x5",
+      "source": "inqn",
+      "title": "Bangsamoro Parliament approves legislative rules",
+      "summary": "COTABATO CITY – Almost a month after the first duly-elected Bangsamoro Parliament assumed office, the body finally approved the rules that will govern the parliamentary proceedings, its first major…",
+      "byline": "ggaviola",
+      "section": "Latest News Stories",
+      "published": "2026-11-26T15:01:12.984Z",
+      "firstSeen": "2026-11-26T11:31:12.345Z",
+      "url": "https://newsinfo.inquirer.net/2347718/bangsamoro-parliament-approves-legislative-rules",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/05/BARMM-LOGO.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "COTABATO CITY – Almost a month after the first duly-elected Bangsamoro Parliament assumed office, the body finally approved the rules that will govern the parliamentary proceedings, its first major measure that will replace the rules and procedures practiced during the seven-year transition period. During its regular session on Tuesday, Nov. 24, the parliament approved Bangsamoro"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-70o0gc",
       "source": "inqn",
       "title": "Most of PH to have fair weather; expect rain in parts of Luzon, Mindanao",
       "summary": "MANILA, Philippines – Most parts of the country are expected to experience generally fair weather, while parts of Luzon and Mindanao may see cloudy skies and rain due to the effects of the shear line…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:07.014Z",
+      "published": "2026-11-26T15:01:12.984Z",
       "firstSeen": "2026-11-26T11:01:14.235Z",
       "url": "https://newsinfo.inquirer.net/2347708/most-of-ph-to-have-fair-weather-expect-rain-in-parts-of-luzon-mindanao",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "MANILA, Philippines — Two sea turtles were found dead, with their carcasses mutilated, on the shore of Barangay Tiguis in Lila, Bohol. READ: Bacnotan, La Union records first sea turtle nest of the…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:07.014Z",
+      "published": "2026-11-26T15:01:12.984Z",
       "firstSeen": "2026-11-26T11:01:14.315Z",
       "url": "https://newsinfo.inquirer.net/2347697/fwd-2-sea-turtles-found-butchered-in-bohol",
       "image": {
@@ -109,7 +134,7 @@
       "summary": "SUBIC BAY FREEPORT — From a former American naval base that was preserved by thousands of Filipino volunteers to an economic zone employing nearly 177,000 workers, the Subic Bay Freeport has…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:07.014Z",
+      "published": "2026-11-26T15:01:12.984Z",
       "firstSeen": "2026-11-26T11:01:14.832Z",
       "url": "https://newsinfo.inquirer.net/2347678/sbma-marks-34-years-cites-growth-in-subic-freeport-workforce",
       "image": {
@@ -134,7 +159,7 @@
       "summary": "COTABATO CITY – The Balay Mindanaw Foundation, Inc. (BMFI), a Mindanao-based non-government organization (NGO), joined other peace groups on the island in celebrating the annual Mindanao Week of…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:07.014Z",
+      "published": "2026-11-26T15:01:12.984Z",
       "firstSeen": "2026-11-26T11:01:18.096Z",
       "url": "https://newsinfo.inquirer.net/2347675/balay-mindanaw-peace-begins-with-the-people",
       "image": {
@@ -159,7 +184,7 @@
       "summary": "COTABATO CITY – A forest ranger in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) was shot dead Thursday morning in Sultan Kudarat, Maguindanao del Norte, according to the police. Capt.…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:07.014Z",
+      "published": "2026-11-26T15:01:12.984Z",
       "firstSeen": "2026-11-26T10:31:00.823Z",
       "url": "https://newsinfo.inquirer.net/2347670/barmm-forest-ranger-killed-in-maguindanao-del-norte",
       "image": {
@@ -184,7 +209,7 @@
       "summary": "MANILA, Philippines — Manila Water Foundation, the social development arm of Manila Water Company, has recently completed a series of WASH Paaralan sessions under its Lunas hygiene education program…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:07.014Z",
+      "published": "2026-11-26T15:01:12.984Z",
       "firstSeen": "2026-11-26T10:31:00.927Z",
       "url": "https://newsinfo.inquirer.net/2347695/world-toilet-day-manila-water-conducts-wash-drive-for-girls",
       "image": {
@@ -203,88 +228,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-zdf25j",
-      "source": "inqn",
-      "title": "Witness admits incompetence in testifying vs Revilla in graft case",
-      "summary": "MANILA, Philippines — A former official of the Department of Public Works and Highways (DPWH) on Thursday admitted to being “incompetent” to testify that former Sen. Bong Revilla allegedly received…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:07.014Z",
-      "firstSeen": "2026-11-26T10:01:00.626Z",
-      "url": "https://newsinfo.inquirer.net/2347659/witness-admits-incompetence-in-testifying-vs-revilla-in-graft-case",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/02/Former-Senator-Bong-Revilla-arrives-at-the-Sandiganbayan-for-the-arraignment-of-his-two-cases.-Noy-MorcosoINQUIRER.net_.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — A former official of the Department of Public Works and Highways (DPWH) on Thursday admitted to being “incompetent” to testify that former Sen. Bong Revilla allegedly received kickbacks from government infrastructure projects. Former DPWH National Capital Region (NCR) Director Gerard Opulencia made the admission during the continuation of the trial of Revilla and"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-2b5b3i",
-      "source": "inqn",
-      "title": "&#8216;Alarming&#8217; tourism losses cited due to Naia exit of turboprop flights",
-      "summary": "MANILA, Philippines — Senate Majority Leader Juan Miguel Zubiri on Thursday described as “alarming” the billions in tourism revenue losses incurred by Palawan and Siargao. The losses, he said, was…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:07.014Z",
-      "firstSeen": "2026-11-26T10:01:00.709Z",
-      "url": "https://newsinfo.inquirer.net/2347644/alarming-tourism-losses-cited-due-to-naia-exit-of-turboprop-flights",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/01/naia-1.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Senate Majority Leader Juan Miguel Zubiri on Thursday described as “alarming” the billions in tourism revenue losses incurred by Palawan and Siargao. The losses, he said, was attributable to the transfer of turboprop flights from Ninoy Aquino International Airport (Naia) in Manila to the Clark International Airport in Pampanga. “The loss of"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-z7k1x5",
-      "source": "inqn",
-      "title": "Bangsamoro Parliament approves legislative rules",
-      "summary": "COTABATO CITY – Almost a month after the first duly-elected Bangsamoro Parliament assumed office, the body finally approved the rules that will govern the parliamentary proceedings, its first major…",
-      "byline": "ggaviola",
-      "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:07.006Z",
-      "firstSeen": "2026-11-26T11:31:12.345Z",
-      "url": "https://newsinfo.inquirer.net/2347718/bangsamoro-parliament-approves-legislative-rules",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/05/BARMM-LOGO.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "COTABATO CITY – Almost a month after the first duly-elected Bangsamoro Parliament assumed office, the body finally approved the rules that will govern the parliamentary proceedings, its first major measure that will replace the rules and procedures practiced during the seven-year transition period. During its regular session on Tuesday, Nov. 24, the parliament approved Bangsamoro"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-r68gwv",
       "source": "inqn",
       "title": "House panel shoots down coffee excise proposal",
       "summary": "MANILA, Philippines — Any proposal to tax coffee products is already considered “dead on arrival” at the House of Representatives, Marikina Rep. Miro Quimbo said on Thursday. In a message to…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:07.002Z",
+      "published": "2026-11-26T15:01:12.981Z",
       "firstSeen": "2026-11-26T11:31:10.356Z",
       "url": "https://newsinfo.inquirer.net/2347648/fwd-proposed-coffee-tax-dead-on-arrival-at-house-quimbo-says",
       "image": {
@@ -309,7 +259,7 @@
       "summary": "COTABATO CITY – Thousands of christians, muslims and Indigenous Peoples (IPs) across the southern Philippines on Thursday joined the opening of the annual Mindanao Week of Peace (MWOP), with calls…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:06.998Z",
+      "published": "2026-11-26T15:01:12.979Z",
       "firstSeen": "2026-11-26T11:31:08.513Z",
       "url": "https://newsinfo.inquirer.net/2347721/mindanao-celebrates-peace-week-with-prayers-calls-for-solidarity-unity",
       "image": {
@@ -334,7 +284,7 @@
       "summary": "PROSPERIDAD, Agusan del Sur — With gadgets and social media making it effortless to publish without checking facts, the Public Relations Society of the Philippines (PRSP) is pushing ethics rules,…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:06.993Z",
+      "published": "2026-11-26T15:01:12.976Z",
       "firstSeen": "2026-11-26T11:31:08.444Z",
       "url": "https://newsinfo.inquirer.net/2347728/pr-group-pushes-ethics-training-vs-ai-disinformation-trolls",
       "image": {
@@ -359,7 +309,7 @@
       "summary": "SAN FERNANDO, Bukidnon — A municipal outreach team hiked for six hours through slippery mountain trails to deliver school supplies, slippers, and hot meals to 110 pupils from Indigenous Peoples (IP)…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:06.990Z",
+      "published": "2026-11-26T15:01:12.973Z",
       "firstSeen": "2026-11-26T12:01:01.324Z",
       "url": "https://newsinfo.inquirer.net/2347738/a-6-hour-trek-to-deliver-aid-hope-to-bukidnon-lumad-pupils",
       "image": {
@@ -384,7 +334,7 @@
       "summary": "MANILA, Philippines — While social media companies like Meta may view disinformation and misinformation as issues that can be addressed through fact-checking, Lanao del Sur Rep. Zia Alonto Adiong…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:06.943Z",
+      "published": "2026-11-26T15:01:12.969Z",
       "firstSeen": "2026-11-26T12:30:56.928Z",
       "url": "https://newsinfo.inquirer.net/2347758/adiong-tells-meta-fake-news-is-personal-impacts-us-families",
       "image": {
@@ -409,7 +359,7 @@
       "summary": "MANILA, Philippines — The Senate impeachment court on Thursday confirmed that it has served subpoenas on two witnesses named by Vice President Sara Duterte’s defense team, including a Bureau of…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:05.831Z",
+      "published": "2026-11-26T15:01:12.899Z",
       "firstSeen": "2026-11-26T13:01:11.049Z",
       "url": "https://newsinfo.inquirer.net/2347760/impeach-court-subpoenas-boc-exec-cale88-ex-co-owner-as-witnesses",
       "image": {
@@ -434,7 +384,7 @@
       "summary": "MANILA, Philippines — Here are the top INQToday stories for Thursday, Nov. 26, 2026, as of 6. p.m. OVP budget interpellation lasts just 2 minutes, with no questions asked Without any questions from…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:05.196Z",
+      "published": "2026-11-26T15:01:11.105Z",
       "firstSeen": "2026-11-26T13:01:09.227Z",
       "url": "https://newsinfo.inquirer.net/2347765/inqtoday-ovp-budget-interpellation-lasts-just-2-minutes",
       "image": {
@@ -459,7 +409,7 @@
       "summary": "MANILA, Philippines — Senators on Thursday warned heads of government agencies that their offices may suffer budget reductions if they fail to attend budget deliberations. The warning came as…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:31:01.583Z",
+      "published": "2026-11-26T15:01:09.372Z",
       "firstSeen": "2026-11-26T13:01:09.183Z",
       "url": "https://newsinfo.inquirer.net/2347746/senators-warn-budget-cuts-vs-absent-dept-heads-in-debates",
       "image": {
@@ -484,7 +434,7 @@
       "summary": "MANILA, Philippines — A dangerous heat index gripped five areas on Thursday as the El Niño phenomenon continues to affect the country, according to the Philippine Atmospheric, Geophysical and…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:30:58.482Z",
+      "published": "2026-11-26T15:01:09.300Z",
       "firstSeen": "2026-11-26T13:31:02.735Z",
       "url": "https://newsinfo.inquirer.net/2347779/dangerous-heat-index-hits-5-areas-on-thursday",
       "image": {
@@ -503,38 +453,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-odtukd",
-      "source": "inqg",
-      "title": "ICC told to assess whether Duterte’s ‘kill’ remarks are a Visayan quirk",
-      "summary": "MANILA, Philippines — The International Criminal Court (ICC) should determine if former President Rodrigo Duterte’s “kill” remarks are just a Visayan way of emphasis, which has been “misread” by…",
-      "byline": "jvicente",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-26T14:30:57.996Z",
-      "firstSeen": "2026-11-26T08:30:55.035Z",
-      "url": "https://globalnation.inquirer.net/350019/icc-told-to-assess-whether-dutertes-kill-remarks-are-a-visayan-quirk",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/Duterte-defense-again-opposes-bid-to-admit-witness-testimony-scaled.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The International Criminal Court (ICC) should determine if former President Rodrigo Duterte’s “kill” remarks are just a Visayan way of emphasis, which has been “misread” by outsiders in Manila and abroad. This was contained in a 77-page pretrial filing of Duterte dated November 25, by his defense lawyer Peter Haynes, as his camp accused"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-1d5q95l",
       "source": "inqn",
       "title": "Couple shot dead in Bukidnon by one of victim&#8217;s ex-partner",
       "summary": "VALENCIA CITY, Bukidnon — A couple was shot dead allegedly by the former live-in partner of one of the victims in Bukidnon on Wednesday evening, November 25, police said. The Impasugong police…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:30:57.995Z",
+      "published": "2026-11-26T15:01:04.138Z",
       "firstSeen": "2026-11-26T13:31:02.647Z",
       "url": "https://newsinfo.inquirer.net/2347782/couple-shot-dead-in-bukidnon-by-one-of-victims-ex-partner",
       "image": {
@@ -559,7 +484,7 @@
       "summary": "MANILA, Philippines—No bettor won the jackpots in the Super Lotto 6/49 and Lotto 6/42 draws on Thursday, Nov. 26, 2026, according to the Philippine Charity Sweepstakes Office. Super Lotto 6/49 draw…",
       "byline": "ggaviola",
       "section": "Latest News Stories",
-      "published": "2026-11-26T14:30:57.937Z",
+      "published": "2026-11-26T15:01:02.302Z",
       "firstSeen": "2026-11-26T14:01:03.104Z",
       "url": "https://newsinfo.inquirer.net/2347796/super-lotto-6-49-lotto-6-42-draw-results-on-thursday-nov-26",
       "image": {
@@ -575,7 +500,57 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-odtukd",
+      "source": "inqg",
+      "title": "ICC told to assess whether Duterte’s ‘kill’ remarks are a Visayan quirk",
+      "summary": "MANILA, Philippines — The International Criminal Court (ICC) should determine if former President Rodrigo Duterte’s “kill” remarks are just a Visayan way of emphasis, which has been “misread” by…",
+      "byline": "jvicente",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-26T15:01:00.342Z",
+      "firstSeen": "2026-11-26T08:30:55.035Z",
+      "url": "https://globalnation.inquirer.net/350019/icc-told-to-assess-whether-dutertes-kill-remarks-are-a-visayan-quirk",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/Duterte-defense-again-opposes-bid-to-admit-witness-testimony-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The International Criminal Court (ICC) should determine if former President Rodrigo Duterte’s “kill” remarks are just a Visayan way of emphasis, which has been “misread” by outsiders in Manila and abroad. This was contained in a 77-page pretrial filing of Duterte dated November 25, by his defense lawyer Peter Haynes, as his camp accused"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-1u51g1c",
+      "source": "inqn",
+      "title": "Speaker Dy calls for stronger climate action",
+      "summary": "MANILA, Philippines — At the first Philippine Summit on Localizing Climate Change and Nature-Based Solutions, Sustainable Tourism and Creative Industries Development, Speaker Faustino “Bojie” Dy III…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-26T15:01:00.341Z",
+      "firstSeen": "2026-11-26T15:01:00.341Z",
+      "url": "https://newsinfo.inquirer.net/2347806/speaker-dy-calls-for-stronger-climate-action",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Dy.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — At the first Philippine Summit on Localizing Climate Change and Nature-Based Solutions, Sustainable Tourism and Creative Industries Development, Speaker Faustino “Bojie” Dy III on Wednesday night called on government leaders, scientists, and development partners to work together in protecting the environment, saying that one of the greatest legacies Filipinos can leave their"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqg-1g4pnrr",
@@ -584,7 +559,7 @@
       "summary": "BANGKOK, Thailand &#8211; A huge explosion rocked an oil facility in Bangkok on Thursday, injuring nine people with three of them in a critical condition, Thai authorities said. The blast was so…",
       "byline": "ggaviola",
       "section": "Asia & Pacific",
-      "published": "2026-11-26T14:30:57.937Z",
+      "published": "2026-11-26T15:01:00.299Z",
       "firstSeen": "2026-11-26T13:01:09.183Z",
       "url": "https://globalnation.inquirer.net/350027/nine-hurt-in-huge-explosion-at-bangkok-oil-facility",
       "image": null,
@@ -598,6 +573,545 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-1xlft0",
+      "source": "inqn",
+      "title": "Prosecution: VP’s dollar accounts may point to alleged wealth past P817M",
+      "summary": "MANILA, Philippines — The existence of Vice President Sara Duterte’s alleged dollar-denominated bank accounts has raised the possibility that she has additional financial assets beyond those already…",
+      "byline": "cbuban",
+      "section": "Latest News Stories",
+      "published": "2026-11-26T15:01:00.299Z",
+      "firstSeen": "2026-11-26T15:01:00.299Z",
+      "url": "https://newsinfo.inquirer.net/2347816/prosecution-vps-dollar-accounts-may-point-to-alleged-wealth-past-p817m",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/12/Zia-Alonto-Adiong-PNA-13December2025.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The existence of Vice President Sara Duterte’s alleged dollar-denominated bank accounts has raised the possibility that she has additional financial assets beyond those already examined in the P817.87 million alleged unexplained wealth case, according to the House prosecution panel in her ongoing impeachment trial. House trial spokesperson and Lanao del Sur Rep."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-suua6i",
+      "source": "inq",
+      "title": "Prosecution: VP’s dollar accounts may point to alleged wealth past P817M",
+      "summary": "MANILA, Philippines — The existence of Vice President Sara Duterte’s alleged dollar-denominated bank accounts has raised the possibility that she has additional financial assets beyond those already…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-26T14:53:15.000Z",
+      "firstSeen": "2026-11-26T15:01:00.299Z",
+      "url": "https://newsinfo.inquirer.net/2347816/prosecution-vps-dollar-accounts-may-point-to-alleged-wealth-past-p817m",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/12/Zia-Alonto-Adiong-PNA-13December2025-620x349.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The existence of Vice President Sara Duterte’s alleged dollar-denominated bank accounts has raised the possibility that she has additional financial assets beyond those already examined in the P817.87 million alleged unexplained wealth case, according to the House prosecution panel in her ongoing impeachment trial. House trial spokesperson and Lanao del Sur Rep. Zia Alonto Adiong, pointed out that the foreign currency accounts were not included in the financial records underlying the remaining impeachment charge. “At ’yung dollar accounts ang nagpapatunay na mayroon pang mga possible na asset o yaman na hindi pa naideklara o hindi nasali sa complaint [&hellip;]... Keep on reading: Prosecution: VP’s dollar accounts may point to alleged wealth past P817M"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "dw-1gpri11",
+      "source": "dw",
+      "title": "Freigang banned — Germany star to miss 2027 World Cup",
+      "summary": "Germany forward Laura Freigang has been suspended until October 2027 after missing three doping tests, ruling her out of next year's Women's World Cup in Brazil. Freigang denies any intention to…",
+      "byline": "Jonathan Harding",
+      "section": "",
+      "published": "2026-11-26T14:50:00.000Z",
+      "firstSeen": "2026-11-26T15:01:00.341Z",
+      "url": "https://www.dw.com/en/freigang-banned-germany-star-to-miss-2027-world-cup/a-80063930?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/62339284_6.jpg",
+        "caption": "Laura Freigang is already well into her 16-month suspensionImage: Michael Memmler/Eibner/picture alliance"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Laura Freigang is set to miss next year's women's World Cup in Brazil after being suspended for missing doping tests, the German Football Association (DFB) said in a statement on Thursday."
+        },
+        {
+          "type": "p",
+          "text": "Freigang, who has 45 Germany caps and scored 17 goals, will be suspended until October 7, 2027 after reaching a settlement with the DFB, the World Anti-Doping Agency (WADA) and Germany's National Anti-Doping Agency (NADA). The suspension is for the next 16-months as it began retroactively on June 8, 2026, when she was notified by the DFB."
+        },
+        {
+          "type": "p",
+          "text": "\"It's important to me to emphasize once again that I was never suspected of doping,\" Freigang said in a statement on Instagram."
+        },
+        {
+          "type": "p",
+          "text": "\"My agreement to a settlement does not mean that I share all the assessments of my case. The past few months have been extremely difficult for me. Another legal process would have entailed significant financial, mental, and emotional strain. This is why I decided to take this path, in the hope of finding some peace, clarity, and perspective for myself,\" she added."
+        },
+        {
+          "type": "p",
+          "text": "\"It was never my intention to let it get this far. Sports have defined my life since I was little. It breaks my heart that, for now, I won't be able to step onto the field, help my team, or live the daily life that I love so much.\""
+        },
+        {
+          "type": "h",
+          "text": "End of an ongoing process for Freigang"
+        },
+        {
+          "type": "p",
+          "text": "This brings to a close a case that has been ongoing for months. The 28-year-old had been accused of not being where she said she would be for a doping control on three occasions between March 2025 and February 2026."
+        },
+        {
+          "type": "p",
+          "text": "In June of this year, Freigang explained missing the tests \"were not deliberately avoided appointments but inconsistencies or misunderstandings in the comprehensive details that have to be updated daily and which we as national team players have to update in the system on a daily and hourly basis.\""
+        },
+        {
+          "type": "p",
+          "text": "The ban ends her World Cup hopes, something the DFB has also acknowledged."
+        },
+        {
+          "type": "p",
+          "text": "\"We are simply so sorry for Laura on a personal level because of this situation. The past few weeks have been very stressful for her,\" said DFB Sporting Director Nia Künzer. \"We hold her in high regard both as a player and as a person, and—as we have done in recent weeks—we will continue to stay in touch with her and support her as best we can.\""
+        },
+        {
+          "type": "p",
+          "text": "The situation also puts her future at her club, Eintracht Frankfurt, into question. Freigang's contract runs until June next year."
+        },
+        {
+          "type": "p",
+          "text": "\"The agreement that has now been reached provides clarity and planning certainty through a process that is unique to Eintracht Frankfurt—for us as a club, but above all for Laura,\" Katharina Kiel, Frankfurt's director of women's football."
+        },
+        {
+          "type": "p",
+          "text": "The club and Freigang, who has played 180 Bundesliga games in her career, are now set to enter talks to determine the shape of her contract moving forward."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-1mhijyq",
+      "source": "abs",
+      "title": "PVL: Trisha Tubu on first Finals with Foxies — ‘Sobrang sarap po sa feeling’",
+      "summary": "Overwhelmed with happiness after making it to the championship round for the first time in her volleyball career, Trisha Tubu was on Cloud 9 after Farm Fresh made it to the Premier Volleyball League…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-26T14:49:07.000Z",
+      "firstSeen": "2026-11-26T15:01:00.299Z",
+      "url": "https://www.abs-cbn.com/sports/volleyball/2026/11/26/pvl-trisha-tubu-on-first-finals-with-foxies-sobrang-sarap-po-sa-feeling-2249",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Overwhelmed with happiness after making it to the championship round for the first time in her volleyball career, Trisha Tubu was on Cloud 9 after Farm Fresh made it to the Premier Volleyball League (PVL) Finals."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-17ojmbr",
+      "source": "abs",
+      "title": "ANC: Duterte to stand trial before ICC for crimes against humanity starting Nov. 30",
+      "summary": "The International Criminal Court will formally open on November 30 the crimes against humanity trial of ex-Philippine President Rodrigo Duterte. He will be the first Asian leader to be tried before…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-26T14:46:20.000Z",
+      "firstSeen": "2026-11-26T15:01:00.455Z",
+      "url": "https://www.abs-cbn.com/news/2026/11/26/duterte-to-stand-trial-before-icc-for-crimes-against-humanity-starting-nov-30-2246",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The International Criminal Court will formally open on November 30 the crimes against humanity trial of ex-Philippine President Rodrigo Duterte. He will be the first Asian leader to be tried before the Hague-based tribunal."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "dw-174cgmb",
+      "source": "dw",
+      "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
+      "summary": "World football's governing body says the cyberattack targeted personal and business information. They struck at a sensitive time for the under-fire organization and its president, Gianni Infantino.",
+      "byline": "Mark Hallam",
+      "section": "",
+      "published": "2026-11-26T14:45:00.000Z",
+      "firstSeen": "2026-11-26T15:01:01.037Z",
+      "url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660?maca=en-rss-en-all-1573-rdf",
+      "image": {
+        "src": "https://static.dw.com/image/80063397_6.jpg",
+        "caption": "The cyberattack comes at the end of a rollercoaster year for FIFA and its president Gianni Infantino, who is now preparing his bid for reelection at a vote in March [FILE: June 10, 2026]Image: Alfredo Estrella/AFP"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "FIFA told news agencies on Thursday that it had been targeted by a person or group seeking access to its data."
+        },
+        {
+          "type": "p",
+          "text": "\"FIFA can confirm that it has been the victim of a criminal cyberattack resulting in unauthorized access to a limited set of personal and business information,\" a FIFA spokesperson told the Reuters news agency, issuing similar comments to other outlets."
+        },
+        {
+          "type": "p",
+          "text": "Reuters cited a person \"with direct knowledge of the matter\" as saying that less than 0.1% of FIFA's total data had been compromised."
+        },
+        {
+          "type": "p",
+          "text": "This person also said that no files from the controversial, abandoned FIFA Forward Enterprise project that looked to sell a stake in the World Cup to private investors had been accessed."
+        },
+        {
+          "type": "h",
+          "text": "What else did FIFA say about the cyberattack?"
+        },
+        {
+          "type": "p",
+          "text": "FIFA said that it was working closely with the relevant authorities, including law enforcement, in the aftermath of the event."
+        },
+        {
+          "type": "p",
+          "text": "It did not say when the attack took place, list the precise nature of the compromised data or specify how unauthorized access to FIFA data had been sought, amid reports of people having posed as FIFA officials rather than actually hacking the organization or otherwise compromising its cybersecurity systems."
+        },
+        {
+          "type": "p",
+          "text": "\"FIFA condemns in the strongest possible terms the unlawful acquisition and publication of information, particularly personal data,\" the Zurich-based organization said. \"Such actions constitute a serious and unacceptable violation of privacy and can have significant consequences for the individuals concerned.\""
+        },
+        {
+          "type": "p",
+          "text": "Last week, a group calling itself the Handsome Boy Hacking Club posted a screenshot of what it said were FIFA files. Three days later, it appeared to take credit for the cyberattack when responding to a post saying that more than 12 gigabytes of internal documents had been posted."
+        },
+        {
+          "type": "p",
+          "text": "FIFA did not explicitly state whether it was talking about the same supposed incident."
+        },
+        {
+          "type": "p",
+          "text": "The breach comes at a sensitive time for the organization. Still reeling from the scandalfollowing this summer's World Cup of its now-aborted plans to sell off World Cup commercial rights shares, it's now trying to secure another term for its embattled president, Gianni Infantino."
+        },
+        {
+          "type": "p",
+          "text": "Infantino is the favorite for an election on March 18, when he is expected toface challenges from Kohzo Tashima of Japan and Philippe Diallo of France. But until the turbulence of the last six months, it seemed most likely he would simply stand unopposed and extend his 11-year tenure without a fight."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "bbc-1dfh0mt",
+      "source": "bbc",
+      "title": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+      "summary": "A Paris appeals court rules Depardieu will go on trial for the alleged rape of Charlotte Arnould.",
+      "byline": "Phoebe Hopson",
+      "section": "",
+      "published": "2026-11-26T14:44:26.000Z",
+      "firstSeen": "2026-11-26T15:01:00.299Z",
+      "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
+      "image": {
+        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5c6/live/4c0cb100-e97d-11f1-99b6-a35a62fa4264.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "French film actor Gérard Depardieu is to stand trial for the alleged rape of actress Charlotte Arnould, a Paris appeals court has confirmed."
+        },
+        {
+          "type": "p",
+          "text": "Arnould, who was 22 at the time, had reported the alleged rape several days after going to his house in Paris to rehearse a play."
+        },
+        {
+          "type": "p",
+          "text": "She has waived her right to anonymity and her lawyer said Thursday's ruling was a \"first\" and the forthcoming trial would be historic."
+        },
+        {
+          "type": "p",
+          "text": "Depardieu, 77, had contested his indictment on two counts of rape. In a letter published in Le Figaro in 2023, Depardieu strongly denied Arnould's allegations, saying \"there was never any coercion or violence between us\"."
+        },
+        {
+          "type": "p",
+          "text": "Depardieu was for decades a leading figure in French and international cinema for roles in Green Card, The Man in the Iron Mask and the Asterix films. He was awarded France's Légion d'honneur in 1996."
+        },
+        {
+          "type": "p",
+          "text": "But in recent years a series of allegations have been made against him over his conduct on film sets and elsewhere in the wake of France's #MeToo movement, known as balance ton porc (call out your pig)."
+        },
+        {
+          "type": "p",
+          "text": "Last year, he was given an 18-month suspended jail term after he was found guilty of sexually assaulting two women on a film set in Paris in May. He was also placed on the sex offenders register and ordered to pay compensation."
+        },
+        {
+          "type": "p",
+          "text": "He dropped his appeal against the ruling last week and offered \"sincere apologies\" for his behaviour on the set of director Jean Becker's 2021 film Les Volets Verts (The Green Shutters)."
+        },
+        {
+          "type": "p",
+          "text": "Depardieu had been a friend of Charlotte Arnould's father and on 7 August 2018 she had gone to his home, where much of what happened was captured on the actor's own CCTV."
+        },
+        {
+          "type": "p",
+          "text": "Arnould's case was initially dismissed for insufficient evidence, but after she filed a civil complaint, a judicial investigation was opened in the summer of 2020."
+        },
+        {
+          "type": "p",
+          "text": "Speaking outside the Paris appeal court on Thursday, her lawyer Carine Durrieu Diebolt said the ruling was a victory for her client for whom it was \"genuinely a relief\"."
+        },
+        {
+          "type": "p",
+          "text": "The appeal court said that while Depardieu should stand trial for what took place on that day, he would not be tried for a further alleged rape at a hotel six days later."
+        },
+        {
+          "type": "p",
+          "text": "Depardieu's lawyer David-Olivier Kaminski told reporters that court had partly ruled in his favour: \"As soon as we get the ruling, we will look into the possibility of appealing to the Court of Cassation.\""
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, Depardieu is under a separate investigation alongside French author Michel Houellebecq for \"allegations of a sexual nature\"."
+        },
+        {
+          "type": "p",
+          "text": "French authorities confirmed their inquiry last week, following reports of an alleged \"gang rape\" on the set of the film Thalasso in 2018."
+        },
+        {
+          "type": "p",
+          "text": "If you have been affected by any of the issues raised in this story, details of help and support in the UK are available at BBC Action Line."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "gma-gf702c",
+      "source": "gma",
+      "title": "Mother of drug war victims set to observe Duterte's ICC proceedings in The Hague",
+      "summary": "The mother of two drug war victims is set to observe former President Rodrigo Duterte\"s trial proceedings at the International Criminal Court (ICC) in The Hague, Netherlands.",
+      "byline": "GMA News",
+      "section": "",
+      "published": "2026-11-26T14:37:22.000Z",
+      "firstSeen": "2026-11-26T15:01:00.299Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1010897/mother-of-drug-war-victims-set-to-observe-duterte-s-icc-proceedings-in-the-hague/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/11/Mother_of_two_drug_war_victims_to_observe_ICC_proceedings_2026_11_26_22_29_58.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published November 26, 2026 10:37pm"
+        },
+        {
+          "type": "p",
+          "text": "The mother of two drug war victims is set to observe former President Rodrigo Duterte’s trial proceedings at the International Criminal Court (ICC) in The Hague, Netherlands."
+        },
+        {
+          "type": "p",
+          "text": "In a \"24 Oras\" report from Oscar Oida on Thursday, members of the group Rise Up supported Llore Pasco, who embarked on a flight to The Hague."
+        },
+        {
+          "type": "p",
+          "text": "As an observer, Pasco represents the parents of slain drug war victims who could not afford to attend the hearings in The Netherlands. She lost two sons to the drug war on the same day in 2017: Juan Carlos Lozano and Crisanto Lozano."
+        },
+        {
+          "type": "p",
+          "text": "“Sobrang importante po dahil yung iba po hanggang ngayon ay takot pa rin at sabi ko nga palagi dahil tayo ang naiwan, tayo yung buhay, sino pa ang magtatanggol sa kanila? Sino pa ang magboboses kundi tayong mga buhay,” Pasco said."
+        },
+        {
+          "type": "p",
+          "text": "(It's very important because the others are still afraid and I always say that because we are the ones left, we are the living, who else will defend them? Who else will speak up but us, the living?)"
+        },
+        {
+          "type": "p",
+          "text": "Pasco brings with her the bag of one of her children. She prayed for strength as her fight for justice continues."
+        },
+        {
+          "type": "p",
+          "text": "Rise Up covered the expense of Pasco’s trip to the Hague. Members made contributions so that she could make the trip, signifying that they were serious about justice."
+        },
+        {
+          "type": "p",
+          "text": "“Yung aming paglalakbay, kasama ang pamilya ng biktima, ay talagang napakahaba, mahirap, masalimuot… Pero nang makita namin ang determinasyon ng mga pamilya, lalo na yung mga nanay, yung mga nawalan ng anak, yung mga nawalan ng asawa, yung kanilang determinasyon. Sabi nga ng isang nanay, ‘alam ko dapat may hustisya pero di ko alam kung paano’,” Rise Up Coordinator Rubylin Litaw said."
+        },
+        {
+          "type": "p",
+          "text": "(Our journey, together with the family of the victims, is so long, difficult, complicated... But when we saw the determination of the families, especially the mothers who lost their children, who lost their husbands, their determination. One of the mothers said ‘I know that there should be justice, but I do not know how to attain it.) — Jean Mangaluz/BAP, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1hcu4ng",
+      "source": "inq",
+      "title": "PVL: Trisha Tubu savors first Finals after Farm Fresh breakthrough",
+      "summary": "MANILA, Philippines–Trisha Tubu’s journey with the Farm Fresh Foxies has finally brought her to the Premier Volleyball League Finals. A former Adamson one-and-done, Tubu took a leap of faith into the…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-26T14:36:16.000Z",
+      "firstSeen": "2026-11-26T15:01:00.341Z",
+      "url": "https://sports.inquirer.net/708841/pvl-trisha-tubu-savors-first-finals-after-farm-fresh-breakthrough",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/11/PVL-AFC-2026-Nxled-vs.-Farm-Fresh-Trisha-Tubu-2628-620x414.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines–Trisha Tubu’s journey with the Farm Fresh Foxies has finally brought her to the Premier Volleyball League Finals. A former Adamson one-and-done, Tubu took a leap of faith into the pros when Farm Fresh joined the league in 2023. She was part of the franchise’s early struggles, while individually thriving with five Conference Best Opposite Hitter awards and her first Season MVP in the 2025-26 campaign. Now, she has helped lead the Foxies to their first Finals appearance after they stunned twice-to-beat No. 1 seed and Nxled, 26-24, 25-16, 23-25, 17-25, 15-11, in their do-or-die semifinal match in the 2026 [&hellip;]... Keep on reading: PVL: Trisha Tubu savors first Finals after Farm Fresh breakthrough"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-plhc5a",
+      "source": "inq",
+      "title": "Speaker Dy calls for stronger climate action",
+      "summary": "MANILA, Philippines — At the first Philippine Summit on Localizing Climate Change and Nature-Based Solutions, Sustainable Tourism and Creative Industries Development, Speaker Faustino “Bojie” Dy III…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-26T14:36:08.000Z",
+      "firstSeen": "2026-11-26T15:01:01.267Z",
+      "url": "https://newsinfo.inquirer.net/2347806/speaker-dy-calls-for-stronger-climate-action",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Dy-620x414.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — At the first Philippine Summit on Localizing Climate Change and Nature-Based Solutions, Sustainable Tourism and Creative Industries Development, Speaker Faustino “Bojie” Dy III on Wednesday night called on government leaders, scientists, and development partners to work together in protecting the environment, saying that one of the greatest legacies Filipinos can leave their children and grandchildren is a safer, cleaner, and better world. Speaking during the Speaker’s Night dinner, the House leader urged summit participants to look beyond policy discussions and technical solutions and reflect on their shared responsibility to preserve the country’s natural resources for future generations. Drawing [&hellip;]... Keep on reading: Speaker Dy calls for stronger climate action"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-najbdf",
+      "source": "abs",
+      "title": "Palace rejects VP Duterte spokesperson's claim that she is Marcos admin's 'Public Enemy No. 1'",
+      "summary": "Malacañang denies the Marcos Jr. administration has tagged Vice President Sara Duterte as \"public enemy no. 1\".",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-26T14:36:06.000Z",
+      "firstSeen": "2026-11-26T15:01:02.501Z",
+      "url": "https://www.abs-cbn.com/news/2026/11/26/palace-rejects-vp-duterte-spokesperson-s-claim-that-she-is-marcos-admin-s-public-enemy-no-1-2236",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Malacañang denies the Marcos Jr. administration has tagged Vice President Sara Duterte as \"public enemy no. 1\"."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "bbc-7le7xz",
+      "source": "bbc",
+      "title": "Pregnant US inmate escapes in prison vehicle after medical appointment",
+      "summary": "Rebecca Taylor had been imprisoned in New Mexico for multiple theft and burglary charges.",
+      "byline": "Jamie Whitehead",
+      "section": "",
+      "published": "2026-11-26T14:35:22.000Z",
+      "firstSeen": "2026-11-26T15:01:00.455Z",
+      "url": "https://www.bbc.co.uk/news/articles/c9m2jke85xzxo?at_medium=RSS&at_campaign=rss",
+      "image": {
+        "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b19/live/49e2b830-e995-11f1-9d1c-4dcc8fcde666.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A pregnant inmate has escaped from custody in the US state of New Mexico, after taking control of a police vehicle while returning to prison from a prenatal appointment, the state's corrections department has said."
+        },
+        {
+          "type": "p",
+          "text": "Rebecca Taylor, 26, took control of the Dodge Journey and drove away when the team transporting her and another inmate stopped to pick up food in Albuquerque, local media reported."
+        },
+        {
+          "type": "p",
+          "text": "The New Mexico Corrections Department said that the vehicle and her prison jumpsuit were later recovered, but Taylor remains on the run."
+        },
+        {
+          "type": "p",
+          "text": "She had been imprisoned for multiple theft and burglary charges, the department said in a Facebook statement."
+        },
+        {
+          "type": "p",
+          "text": "Local media reported that another inmate, also travelling back from a prenatal appointment, was able to get out of the car as Taylor took control on Wednesday morning."
+        },
+        {
+          "type": "p",
+          "text": "The corrections department has said that a multi-agency search for Taylor is under way. The BBC has approached it for an update."
+        },
+        {
+          "type": "p",
+          "text": "The Albuquerque Journal reported that Taylor is currently in her second trimester of pregnancy. For this reason, she was not restrained during transportation, department spokesperson Brittany Roembach said."
+        },
+        {
+          "type": "p",
+          "text": "\"It is the understanding right now that one officer was with the vehicle but not inside of the vehicle when this occurred,\" she was quoted as saying."
+        },
+        {
+          "type": "p",
+          "text": "All prisons in New Mexico went into lockdown following Taylor's escape, but it was lifted at 06:00 on Thursday."
+        },
+        {
+          "type": "p",
+          "text": "However the prison where she was being held, the Western New Mexico Corrections Facility, will remain on \"modified movement\", and no visitors are currently allowed."
+        },
+        {
+          "type": "p",
+          "text": "The public has been told not to approach Rebecca Taylor if they see her, and call police straight away."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-9o4w9b",
+      "source": "grd",
+      "title": "Spanish opposition criticised for AI video of Pedro Sánchez in Morocco shirt",
+      "summary": "<p>People’s party alters video of PM putting on Lamine Yamal’s Spain shirt in latest contentious use of AI in election race</p><p>Spanning 17 seconds, the campaign video showed the Spanish prime…",
+      "byline": "Ashifa Kassam European community affairs correspondent",
+      "section": "Spain",
+      "published": "2026-11-26T14:33:00.000Z",
+      "firstSeen": "2026-11-26T15:01:11.101Z",
+      "url": "https://www.theguardian.com/world/2026/nov/26/spain-peoples-party-ai-video-pedro-sanchez-morocco-shirt",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/e38ffbe42acd4c816aa81bd2aa3f5981a8d1fd47/1_0_2999_2400/master/2999.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=9a27554572220285ef6aaf946970227e",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "<p>People’s party alters video of PM putting on Lamine Yamal’s Spain shirt in latest contentious use of AI in election race</p><p>Spanning 17 seconds, the campaign video showed the Spanish prime minister, Pedro Sánchez, speaking to the camera as he put on a jersey of the national football team. “Because this is what Spain is: a pluralistic and diverse country,” he said as he turned to reveal the number 19 on his back – the shirt number of the star player Lamine Yamal.</p><p>One day later, the opposition People’s party (PP) came under fire after it used AI to manipulate the same video, making it falsely appear as if Sánchez had donned a shirt belonging to the Moroccan national team.</p> <a href=\"https://www.theguardian.com/world/2026/nov/26/spain-peoples-party-ai-video-pedro-sanchez-morocco-shirt\">Continue reading...</a>"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-n9y7np",
@@ -620,6 +1134,31 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "grd-1pptfv3",
+      "source": "grd",
+      "title": "Beau Lamarre-Condon used his service weapon to murder two men. Did NSW police recruiters miss any red flags?",
+      "summary": "<p>Video of convicted double murderer shows him in 2020 deploying a Taser at close range to an Indigenous man’s face, chest and neck</p><ul><li><p>Get our <a…",
+      "byline": "Kat Wong and Jordyn Beazley",
+      "section": "Australian police and policing",
+      "published": "2026-11-26T14:26:00.000Z",
+      "firstSeen": "2026-11-26T14:30:59.826Z",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/27/beau-lamarre-condon-service-weapon-murder-police-recruiters-ntwnfb",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/9121e130e1a0424273a784f6febc21cfcb53dd1d/444_120_2573_2058/master/2573.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=b5e433c438ad8fb701bd8fae71fff843",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "<p>Video of convicted double murderer shows him in 2020 deploying a Taser at close range to an Indigenous man’s face, chest and neck</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>Beau Lamarre-Condon, the double murderer who killed Jesse Baird and Luke Davies while he was a serving New South Wales police officer, had been under review by the force for repeatedly using his Taser on a man four years before the killings.</p><p>On Wednesday, he was convicted after a 12-person jury <a href=\"https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb\">found he had murdered both men with his police service weapon</a> on 19 February 2024.</p> <a href=\"https://www.theguardian.com/australia-news/2026/nov/27/beau-lamarre-condon-service-weapon-murder-police-recruiters-ntwnfb\">Continue reading...</a>"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "direct circuit open after repeated HTTP 403"
     },
     {
       "id": "gma-1lxsako",
@@ -696,7 +1235,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-q0v0o6",
@@ -721,7 +1260,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "abs-1e0796r",
@@ -785,31 +1324,6 @@
         {
           "type": "p",
           "text": "<p><strong>Exclusive</strong>: Australian Electoral Commission to review $1m in donations to Pauline Hanson-led party from Adam Giles and Ian Plimer</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">daily political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><a href=\"https://www.theguardian.com/australia-news/2026/apr/29/pauline-hanson-new-private-plane-gina-rinehart-assosciates-ntwnfb\">Major donations</a> from close associates of One Nation’s billionaire benefactor, Gina Rinehart, will be reviewed by the Australian Electoral Commission (AEC) amid concerns they were made on behalf of a third party.</p><p>The special minister of state, Don Farrell, said on Thursday that information about two $500,000 donations made to the Pauline Hanson-led party could be subject to further regulatory action if they are found not to comply with provisions in the Electoral Act.</p> <a href=\"https://www.theguardian.com/australia-news/2026/nov/27/one-nation-pauline-hanson-gina-rinehart-aec-donations-ntwnfb\">Continue reading...</a>"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "grd-1pptfv3",
-      "source": "grd",
-      "title": "Beau Lamarre-Condon used his service weapon to murder two men. Did NSW police recruiters miss any red flags?",
-      "summary": "<p>Video of convicted double murderer shows him in 2020 deploying a Taser at close range to an Indigenous man’s face, chest and neck</p><ul><li><p>Get our <a…",
-      "byline": "Kat Wong and Jordyn Beazley",
-      "section": "Australian police and policing",
-      "published": "2026-11-26T14:00:39.000Z",
-      "firstSeen": "2026-11-26T14:30:59.826Z",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/27/beau-lamarre-condon-service-weapon-murder-police-recruiters-ntwnfb",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/9121e130e1a0424273a784f6febc21cfcb53dd1d/444_120_2573_2058/master/2573.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=b5e433c438ad8fb701bd8fae71fff843",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "<p>Video of convicted double murderer shows him in 2020 deploying a Taser at close range to an Indigenous man’s face, chest and neck</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>Double murderer Beau Lamarre-Condon was a serving New South Wales police officer who had been under review for repeatedly using his Taser on a man, four years before he killed Jesse Baird and Luke Davies.</p><p>On Wednesday, he was convicted after a 12-person jury <a href=\"https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-verdict-former-police-officer-jesse-baird-luke-davies-ntwnfb\">found he had murdered both men with his police service weapon</a> on 19 February 2024.</p> <a href=\"https://www.theguardian.com/australia-news/2026/nov/27/beau-lamarre-condon-service-weapon-murder-police-recruiters-ntwnfb\">Continue reading...</a>"
         }
       ],
       "truncated": true,
@@ -940,7 +1454,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-e0964g",
@@ -1270,7 +1784,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Latest figure of young people not in education, employment or training remains close to highest level in a decade</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/nov/26/nvidia-chip-shipments-south-east-asia-stock-dentists-live-updates\">Business live – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/politics/live/2026/nov/26/uk-eu-food-deal-farage-penalty-compensation-reform-net-migration-latest-news-updates\">UK politics live – latest updates</a></p></li></ul><p>The number of young people across the UK not in education, employment or training (Neet) has decreased but remains close to a million as Andy Burnham’s government pushes to tackle Britain’s youth jobs crisis.</p><p>As ministers prepare to make sweeping changes in response to Alan Milburn’s landmark report into young people and work, the <a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/bulletins/youngpeoplenotineducationemploymentortrainingneet/november2026\">Office for National Statistics</a> (ONS) said the number of Neets fell by 22,000 in the three months to September, to 959,000.</p> <a href=\"https://www.theguardian.com/society/2026/nov/26/neets-uk-young-people-education-employment-training-andy-burnham\">Continue reading...</a>"
+          "text": "<p>Latest figure of young people not in education, employment or training remains close to highest level in a decade</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/nov/26/nvidia-chip-shipments-south-east-asia-stock-dentists-live-updates\">Business live – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/politics/live/2026/nov/26/uk-eu-food-deal-farage-penalty-compensation-reform-net-migration-latest-news-updates\">UK politics live – latest updates</a></p></li></ul><p>The number of young people across the UK not in education, employment or training (Neet) has decreased but remains close to a million as Andy Burnham’s government pushes to tackle Britain’s youth jobs crisis.</p><p>As ministers prepare to make sweeping changes in response to Alan Milburn’s landmark report on young people and work, the <a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/bulletins/youngpeoplenotineducationemploymentortrainingneet/november2026\">Office for National Statistics</a> said the number of Neets fell by 22,000 in the three months to September, to 959,000.</p> <a href=\"https://www.theguardian.com/society/2026/nov/26/neets-uk-young-people-education-employment-training-andy-burnham\">Continue reading...</a>"
         }
       ],
       "truncated": true,
@@ -1979,20 +2493,20 @@
       "id": "grd-1cmg33k",
       "source": "grd",
       "title": "Mandelson tried to set up meeting between Trump adviser and lobbying firm he held shares in",
-      "summary": "<p>Then ambassador to US wanted to discuss alternatives to World Trade Organisation in ‘under the radar’ meeting, documents reveal</p><ul><li><p><a…",
+      "summary": "<p>Then ambassador to US wanted to discuss alternatives to World Trade Organization in ‘under the radar’ meeting, documents reveal</p><ul><li><p><a…",
       "byline": "Henry Dyer, Pippa Crerar and Paul Lewis",
       "section": "Peter Mandelson",
       "published": "2026-11-26T13:11:39.000Z",
       "firstSeen": "2026-11-26T13:31:09.918Z",
       "url": "https://www.theguardian.com/politics/2026/nov/26/peter-mandelson-trump-adviser-meeting-lobbying-firm",
       "image": {
-        "src": "https://i.guim.co.uk/img/media/ff1207557f3c58e205c4bec08ca53254507ea7c0/313_221_3844_3075/master/3844.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=3f1b81bfdc9ef5171ec58296a4742bd7",
+        "src": "https://i.guim.co.uk/img/media/7450950aea5b236e0cbfff6accd4f606a5dcd367/133_0_3750_3000/master/3750.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=2ea3273d74fcc56225e50b65cdd882b0",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Then ambassador to US wanted to discuss alternatives to World Trade Organisation in ‘under the radar’ meeting, documents reveal</p><ul><li><p><a href=\"https://www.theguardian.com/politics/live/2026/nov/26/uk-eu-food-deal-farage-penalty-compensation-reform-net-migration-latest-news-updates\">UK politics live – latest updates</a></p></li></ul><p>Peter Mandelson sought to organise an “under the radar” meeting between an economic adviser to Donald Trump and a member of his former lobbying firm, Global Counsel, while he still held shares in the company, newly released documents reveal.</p><p>In April 2025, while ambassador to Washington, Mandelson wanted to hold a lunch to discuss “alternative options” to the World Trade Organization and on how “like-minded partners come to terms with China and its practices”. He told the economic adviser he wanted to bring “a former trade colleague of mine” with “interesting views” who could “lead off”. He added: “It would be best to keep this under the radar”.</p> <a href=\"https://www.theguardian.com/politics/2026/nov/26/peter-mandelson-trump-adviser-meeting-lobbying-firm\">Continue reading...</a>"
+          "text": "<p>Then ambassador to US wanted to discuss alternatives to World Trade Organization in ‘under the radar’ meeting, documents reveal</p><ul><li><p><a href=\"https://www.theguardian.com/politics/live/2026/nov/26/uk-eu-food-deal-farage-penalty-compensation-reform-net-migration-latest-news-updates\">UK politics live – latest updates</a></p></li></ul><p>Peter Mandelson sought to organise an “under the radar” meeting between an economic adviser to Donald Trump and a member of his former lobbying firm, Global Counsel, while he still held shares in the company, newly released documents reveal.</p><p>In April 2025, while ambassador to Washington, Mandelson wanted to hold a lunch to discuss “alternative options” to the World Trade Organization and on how “like-minded partners come to terms with China and its practices”. He told the economic adviser he wanted to bring “a former trade colleague of mine” with “interesting views” who could “lead off”. He added: “It would be best to keep this under the radar”.</p> <a href=\"https://www.theguardian.com/politics/2026/nov/26/peter-mandelson-trump-adviser-meeting-lobbying-firm\">Continue reading...</a>"
         }
       ],
       "truncated": true,
@@ -2654,31 +3168,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "inq-8f58z0",
-      "source": "inq",
-      "title": "Adiong tells Meta: Fake news is personal, impacts us, families",
-      "summary": "MANILA, Philippines — While social media companies like Meta may view disinformation and misinformation as issues that can be addressed through fact-checking, Lanao del Sur Rep. Zia Alonto Adiong…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-26T12:22:15.000Z",
-      "firstSeen": "2026-11-26T12:30:56.928Z",
-      "url": "https://newsinfo.inquirer.net/2347758/adiong-tells-meta-fake-news-is-personal-impacts-us-families",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/12/Zia-Alonto-Adiong-PNA-13December2025-620x349.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — While social media companies like Meta may view disinformation and misinformation as issues that can be addressed through fact-checking, Lanao del Sur Rep. Zia Alonto Adiong reminded these firms that such activities have personal consequences for their victims, affecting not only individuals but also their families. During a hearing of the House of Representatives’ Committee on Suffrage and Electoral Reforms, Alonto Adiong said he believes he is now being targeted by a disinformation campaign, referring to rumors circulating on social media about a supposedly unfinished flood control project. READ: Facebook takes down accounts linked to Duterte’s ex-socmed strategist According [&hellip;]... Keep on reading: Adiong tells Meta: Fake news is personal, impacts us, families"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-1bpfpq9",
       "source": "abs",
       "title": "TV PATROL: Mainit at maalinsangang panahon aasahan sa malaking bahagi ng bansa",
@@ -3062,31 +3551,6 @@
       "why": "direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inq-1lvhvgs",
-      "source": "inq",
-      "title": "NCAA: Chris Hubilla makes up for lost time, leads JRU to Finals",
-      "summary": "MANILA, Philippines—Chris Hubilla missed the latter part of Jose Rizal University’s NCAA Season 102 elimination round campaign due to a leg injury. But when the Heavy Bombers needed him most to…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-26T12:00:08.000Z",
-      "firstSeen": "2026-11-26T12:30:56.988Z",
-      "url": "https://sports.inquirer.net/708769/ncaa-chris-hubilla-makes-up-for-lost-time-leads-jru-to-finals",
-      "image": {
-        "src": "https://sports.inquirer.net/files/2026/11/IMG_9899-620x413.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—Chris Hubilla missed the latter part of Jose Rizal University’s NCAA Season 102 elimination round campaign due to a leg injury. But when the Heavy Bombers needed him most to secure their return to the NCAA men&#8217;s basketball Finals, Hubilla delivered and led JRU to an 85-79 victory over Letran in Game 2 of the Final Four at Mall of Asia Arena on Thursday. READ: NCAA: JRU ends 18-year Finals drought with sweep of Letran Hubilla said he has been on a mission since returning from injury, and a closeout game against the Knights proved the perfect opportunity to make [&hellip;]... Keep on reading: NCAA: Chris Hubilla makes up for lost time, leads JRU to Finals"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "cbc-zxwmy7",
       "source": "cbc",
       "title": "Flood watch in place on Vancouver Island as king tide impact continues",
@@ -3377,31 +3841,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-1txzwy7",
-      "source": "inq",
-      "title": "Teodoro says cyberspace is a new domain of conflict",
-      "summary": "MANILA – Department of National Defense (DND) Secretary Gilberto Teodoro Jr. on Thursday said advances in digital technology have made cyberspace an increasingly established domain of conflict.…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-26T11:54:09.000Z",
-      "firstSeen": "2026-11-26T12:01:01.324Z",
-      "url": "https://cebudailynews.inquirer.net/788471/teodoro-says-cyberspace-is-a-new-domain-of-conflict",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/11/923490484_4720034211565610_5028914584542581512_n-620x413.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA – Department of National Defense (DND) Secretary Gilberto Teodoro Jr. on Thursday said advances in digital technology have made cyberspace an increasingly established domain of conflict. &#8220;We have witnessed increasingly that the cyber domain, (also known as the) digital domain, is another (fully) mature area of conflict,&#8221; he said during the closing ceremonies of this year&#8217;s &#8220;DAGIT-PA&#8221; drills in Camp Aguinaldo, Quezon City. Teodoro noted that with advances in this particular field, traditional areas of conflict like the sea, air and land are now being left behind. READ: Cyber trends shaping our world in 2026 Military experts say that the [&hellip;]... Keep on reading: Teodoro says cyberspace is a new domain of conflict"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-ra598q",
@@ -6798,90 +7237,51 @@
       "source_of_text": "page"
     },
     {
-      "id": "dw-c1x9xu",
+      "id": "dw-8ogqlx",
       "source": "dw",
-      "title": "Germany news: Final budget debate continues in Bundestag",
-      "summary": "Spending for federal police and domestic intelligence are high on the agenda for parliamentary debate this Thursday. An alleged spy and suspected terrorists are also making in Germany this Thursday.…",
+      "title": "Germany news: Cologne court awards record damages in Catholic sex abuse case",
+      "summary": "A court has awarded the highest damages ever in Germany to a victim of sexual abuse linked with the Catholic Church. An alleged spy and suspected terrorists are also making headlines in Germany on…",
       "byline": "Timothy Jones",
       "section": "",
       "published": "2026-11-26T09:49:00.000Z",
-      "firstSeen": "2026-11-26T10:01:00.706Z",
-      "url": "https://www.dw.com/en/germany-news-final-budget-debate-continues-in-bundestag/live-80056746?maca=en-rss-en-all-1573-rdf",
+      "firstSeen": "2026-11-26T15:01:02.505Z",
+      "url": "https://www.dw.com/en/germany-news-cologne-court-awards-record-damages-in-catholic-sex-abuse-case/live-80056746?maca=en-rss-en-all-1573-rdf",
       "image": {
-        "src": "https://static.dw.com/image/80057754_6.jpg",
-        "caption": "The Bundestag is debating the budget for 2027Image: Michael Kappeler/dpa/picture alliance"
+        "src": "https://static.dw.com/image/80065042_6.jpg",
+        "caption": "The court in Cologne has ordered the Catholic Church to pay out record damages to an abuse victimImage: Thomas Banneyer/dpa/picture alliance"
       },
       "blocks": [
-        {
-          "type": "p",
-          "text": "Live"
-        },
-        {
-          "type": "p",
-          "text": "Spending for federal police and domestic intelligence are high on the agenda for parliamentary debate this Thursday. An alleged spy and suspected terrorists are also making in Germany this Thursday. DW has more."
-        },
-        {
-          "type": "p",
-          "text": "Prefer DW on Google"
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/80057754_605.jpg",
-          "caption": "The Bundestag is debating the budget for 2027Image: Michael Kappeler/dpa/picture alliance"
-        },
-        {
-          "type": "h",
-          "text": "What you need to know"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "The German parliament, or Bundestag, has begun the penultimate day of debate on the federal budget for 2027 ahead of an expected finalizing vote on Friday",
-            "A Berlin woman accused of spying for Russia is going on trial",
-            "Two suspected pro-Iran Islamists alleged to have planned an attack on a synagogue in Cologne have been arrested in Germany, federal prosecutors say.",
-            "Less chocolate was produced in Germany last year"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "This is a roundup of the top news stories from Germany on Thursday, November 26, 2026:"
-        },
         {
           "type": "p",
           "text": "November 26, 2026"
         },
         {
           "type": "h",
-          "text": "Parliament continues budget debates"
+          "text": "Court awards record damages in Catholic sexual abuse case"
         },
         {
           "type": "p",
-          "text": "The Bundestag is conducting its concluding debates on the budget for 2027 ahead of a final vote scheduled for Friday."
+          "text": "The archdiocese in the western city of Cologne was ordered on Wednesday to pay a woman who was sexually abused by a priest for years €550,000 ($601,865) in damages — the highest amount a German court has ever awarded to a victim of abuse in theCatholic Church."
         },
         {
           "type": "p",
-          "text": "On Thursday, the focus will initially be on the individual budget for the Interior Ministry led by Alexander Dobrindt of the conservative Bavarian Christian Social Union (CSU), the sister party of Chancellor Friedrich Merz's Christian Democrats (CDU)."
+          "text": "That amount will, however, by offset by the €360,000 that the Catholic Church's Independent Commission for Recognition Payments has already paid to the claimant."
         },
         {
           "type": "p",
-          "text": "The government foresees that the ministry, which is responsible for the federal police and the domestic intelligence agency BfV, among other things, will receive some €16.8 billion in 2027 ($18.43 billion), around €1 billion more than this year."
+          "text": "The woman had previously had her claim rejected by the Cologne Regional Court, which, although it accepted that the victim had been severely sexually abused by a priest in the 1970s and 1980s, argued that the archdiocese could not be made responsible for the crimes because the man had acted \"more or less as a private individual.\""
         },
         {
           "type": "p",
-          "text": "Lawmakers will then go on to debate the individual budgets for the Economics and Energy Ministry, the Ministry for Housing, Urban Development and Building, the Ministry of Food and Agriculture and the Ministry for Education, Family Affairs, Senior Citizens, Women and Youth."
+          "text": "The higher regional court has now overturned that ruling at an appeal, saying that the priest had approached the claimant \"under the cover of his church work\" when he was a deacon."
         },
         {
           "type": "p",
-          "text": "Opening the debates on Wednesday, Merz described the tight budget as an \"accurate reflection\" of the \"difficult situation as a country — geopolitically, technologically, and demographically\" — that Germany finds itself in."
+          "text": "It said he used his standing in the church to be allowed to take in foster children, of whom the claimant was one."
         },
         {
           "type": "p",
-          "text": "\"We will no longer be able to afford everything with tax revenue that we have become all too accustomed to for far too long,\" Merz added."
-        },
-        {
-          "type": "p",
-          "text": "You can read more about what the planned record-breaking German budget for 2027 includes in this DW article:€561 Billion and Still Not Enough: Germany's 2027 Budget Exposes a Coalition on the Brink"
+          "text": "The priest was sentenced to 12 years in prison in 2022."
         }
       ],
       "truncated": false,
@@ -7573,74 +7973,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "grd-77w6rg",
-      "source": "grd",
-      "title": "Details of two treaties at heart of Andy Burnham’s EU reset to be published",
-      "summary": "<p>Government also to publish bill that will enact EU deals, as Tories and Reform hit out over 10-year termination clause</p><ul><li><p><a…",
-      "byline": "Alexandra Topping Political correspondent",
-      "section": "Brexit",
-      "published": "2026-11-26T09:16:19.000Z",
-      "firstSeen": "2026-11-26T09:31:00.623Z",
-      "url": "https://www.theguardian.com/politics/2026/nov/26/treaties-andy-burnham-eu-reset-published",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/d91005f7883108c0ca8f41e1f10cc43261e75525/529_0_6508_5206/master/6508.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=a3d66c469dfdcd5b1a2d22967faf4ae7",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Details of two treaties at the heart of Andy Burnham’s post-Brexit reset plans will be published on Thursday alongside the bill that will implement the changes into UK law."
-        },
-        {
-          "type": "p",
-          "text": "The treaties signed by the UK and the European Union at last week’s summit will have a 10-year termination clause that would mean if one party were to end the agreement, they would have to pay to rebuild border checks infrastructure, the BBC reported on Thursday."
-        },
-        {
-          "type": "p",
-          "text": "Any termination clause could bring the longer-term future of the deal into doubt, after the opposition leader, Kemi Badenoch, described it as a “terrible deal” that she would scrap. Nigel Farage has suggested he would refuse to pay, with the Reform UK leader promising to renege on the deal if he were to win power, arguing that Burnham “cannot bind a future British government”."
-        },
-        {
-          "type": "p",
-          "text": "At a major summit in Brussels last week the UK and EU announced three deals, on food and drink, emissions trading and a youth mobility scheme, which will allow 100,000 young Britons to live, work, study and travel in the EU, with reciprocal access for Europeans in the UK."
-        },
-        {
-          "type": "p",
-          "text": "But uncertainty around the trio of deals remains, with fears they could be derailed in six months unless the UK allows European students to pay domestic-level fees to study at British universities."
-        },
-        {
-          "type": "p",
-          "text": "On Wednesday Burnham indicated that European students would have to pay higher fees than their domestic equivalents at UK universities."
-        },
-        {
-          "type": "p",
-          "text": "While Burnham has previously stated he would like to see the UK rejoin the EU in his lifetime, he has played down the issue of full integration since the deal was struck, saying it was “not a prelude to anything” and that it would be “unthinkable” for the UK to rejoin the EU without holding another referendum."
-        },
-        {
-          "type": "p",
-          "text": "Two of the three legal texts will be released on Thursday, covering the food and emissions trading deals, alongside the government’s bill to enact the agreement. The government is also expected to publish assessments of the impact on different sectors and regions of the country ."
-        },
-        {
-          "type": "p",
-          "text": "Earlier this year, the Guardian revealed ministers were planning to reshape Britain’s relationship with the EU with legislation that would result in the UK signing up to EU single market rules without a normal parliamentary vote."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "The new bill that will bring into force the food and drink trade deal will contain powers enabling the government to dynamically align with Europe on areas where it has already made agreements. It will also allow the UK to quickly implement evolving single market rules if it determines it is in the national interest, without having to face full parliamentary scrutiny each time."
-        },
-        {
-          "type": "p",
-          "text": "The European affairs minister, Hamish Falconer, said: “The cutting costs bill allows us to implement two major trade agreements. It allows us to eliminate paperwork for our food and drink traders, protect billions of pounds worth of British exports from carbon taxes, and make doing business with our largest trading partner cheaper and easier.”"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
     },
     {
       "id": "rap-1hsum89",
@@ -13792,50 +14124,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "abs-pgj08s",
-      "source": "abs",
-      "title": "Proposed Bonifacio museum, Kartilya display bills tackled in Senate",
-      "summary": "The Senate Committee on Culture and the Arts held a committee hearing on the proposed Andres Bonifacio Museum Act and the Kartilya ng Katipunan Act, to honor the father of Philippine Revolution.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-26T04:02:31.000Z",
-      "firstSeen": "2026-11-26T04:30:57.319Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/26/proposed-bonifacio-museum-kartilya-display-bills-tackled-in-senate-1202",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Senate Committee on Culture and the Arts held a committee hearing on the proposed Andres Bonifacio Museum Act and the Kartilya ng Katipunan Act, to honor the father of Philippine Revolution."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1h5qj3r",
-      "source": "abs",
-      "title": "New market hub to organize Baclaran street vendors",
-      "summary": "The MMDA, together with the local government units of Pasay and Parañaque, held a groundbreaking ceremony on Thursday for the Bagong Baclaran Multimodal and Market Hub (BBMH), a project aimed at…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-26T03:59:31.000Z",
-      "firstSeen": "2026-11-26T04:01:03.213Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/26/new-market-hub-to-organize-baclaran-street-vendors-1159",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The MMDA, together with the local government units of Pasay and Parañaque, held a groundbreaking ceremony on Thursday for the Bagong Baclaran Multimodal and Market Hub (BBMH), a project aimed at providing permanent vending spaces for street vendors in Baclaran."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
       "id": "grd-1v2wy26",
       "source": "grd",
       "title": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
@@ -14074,28 +14362,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "abs-1t8w0pu",
-      "source": "abs",
-      "title": "PH seeks purchase of 6 Chinook helicopters from US, eyes 2029 delivery",
-      "summary": "The Philippines is seeking to acquire six Boeing CH-47 Chinook heavy-lift helicopters from the United States through the $2-billion military financing package announced by US President Donald Trump,…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-26T03:29:56.000Z",
-      "firstSeen": "2026-11-26T03:30:59.082Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/26/ph-seeks-purchase-of-6-chinook-helicopters-from-us-eyes-2029-delivery-1129",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The Philippines is seeking to acquire six Boeing CH-47 Chinook heavy-lift helicopters from the United States through the $2-billion military financing package announced by US President Donald Trump, Defense Secretary Gilberto Teodoro Jr. said Thursday."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
     },
     {
       "id": "bbc-ncle69",
@@ -16496,87 +16762,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "dw-1q67d7x",
-      "source": "dw",
-      "title": "Nigeria detains 5 Mexicans, confiscates over $220 million of meth",
-      "summary": "Nigeria's anti-drug agency said Mexican experts were allegedly recruited by a Nigerian national to run a meth laboratory in the southeastern state of Enugu.",
-      "byline": "Wesley Dockery",
-      "section": "",
-      "published": "2026-11-25T20:28:00.000Z",
-      "firstSeen": "2026-11-25T21:01:04.963Z",
-      "url": "https://www.dw.com/en/nigeria-detains-5-mexicans-confiscates-over-220-million-of-meth/a-80054606?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/80054628_6.jpg",
-        "caption": "At least 10 Mexicans are now in Nigerian custody, including five from an earlier raidImage: NDLEA/Handout/REUTERS"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Nigeria's National Drug Law Enforcement Agency (NDLA) said Wednesday it had arrested five Mexicans and confiscated over $220 million (around €200 million) in methamphetamine as part of a significant drug bust."
-        },
-        {
-          "type": "h",
-          "text": "What do we know about the drug bust?"
-        },
-        {
-          "type": "p",
-          "text": "The agency said the Mexican experts were allegedly recruited by a Nigerian national to run a meth laboratory in the southeastern Nigerian state of Enugu."
-        },
-        {
-          "type": "p",
-          "text": "\"A total of 1,512 kilograms of methamphetamine, finished and in production, with an estimated value of $226.8 million was recovered from the clandestine factory,\" NDLA spokesperson Femi Babafemi said."
-        },
-        {
-          "type": "p",
-          "text": "Nigeria first rejected the entry of the Mexicans into the country in August. They later entered Nigeria again in September via neighboring Benin using forged passports, with authorities then putting them under surveillance."
-        },
-        {
-          "type": "p",
-          "text": "On November 11, the Mexicans were taken into custody at the Enugu lab after their movements were tracked by the Nigerian government. A Nigerian was also arrested in a nearby hotel."
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/80054642_$%7BformatId%7D.jpg",
-          "caption": "Nigerian authorities inspected the Enugu facility and seized industrial equipment along with chemicalsImage: NDLEA/Handout/REUTERS"
-        },
-        {
-          "type": "p",
-          "text": "The latest drug bust comes after Nigerian authorities in May also detained 10 people in a anti-meth operation in the southwest, including three Mexicans."
-        },
-        {
-          "type": "h",
-          "text": "Why do Mexican cartels find African countries desirable for drug production?"
-        },
-        {
-          "type": "p",
-          "text": "The arrests raise concern that Mexican cartels are getting a foothold in Africa for international drug trafficking. In addition to Nigeria, South Africa is another country where Mexicans have been arrested for being involved in a meth lab."
-        },
-        {
-          "type": "p",
-          "text": "According to Vanda Felbab-Brown, an expert at the Washington DC-based Brookings Institution, Mexican cartels such as the Sinaloa Cartel and the Cartel de Jalisco Nueva Generation (CJNG) have expanded their operations into other continents such as Africa."
-        },
-        {
-          "type": "h",
-          "text": "How drug cartels expand their reach across West Africa"
-        },
-        {
-          "type": "p",
-          "text": "In a June testimony to the US Senate Caucus on International Narcotics Control, Felbab-Brown said the cartels find \"desirable partners\" for production in countries such as South Africa and Kenya due to factors such as \"limited law enforcement capacities and entrenched criminal and corrupt networks.\""
-        },
-        {
-          "type": "p",
-          "text": "According to the UN Office on Drugs and Crime,criminal networks often take advantage of porous borders in the West and Central Africa region to carry out activities such as illicit drug trafficking."
-        },
-        {
-          "type": "p",
-          "text": "\"Many countries in the region have vast territory and borders are located either in very remote or densely populated areas, thus making law enforcement activities particularly difficult to conduct in an efficient manner,\" the office said. \"The porous nature of the borders in West and Central Africa is a major factor of insecurity: the borders are neither demarcated or sufficiently controlled.\""
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "bbc-2wv0gb",
       "source": "bbc",
       "title": "Moment Nasa spacecraft hit asteroid - and what happened next",
@@ -17259,86 +17444,6 @@
         {
           "type": "p",
           "text": "The international court of justice stated in October 2025, however, that “Israel has not substantiated its allegations that a significant part of Unrwa’s employees are members of Hamas … or other terrorist factions”."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "gma-177rn4s",
-      "source": "gma",
-      "title": "Rodrigo Duterte camp: Link to alleged crimes against humanity \"untenable\"",
-      "summary": "In its major 77-page pre-trial brief released on November 25, Duterte\"s defense team questioned the Office of the Prosecutor\"s evidence that links Duterte to the allegations of murder and alleged…",
-      "byline": "ANDY PEÑAFUERTE III, JAY-VEE MARASIGAN PANGAN",
-      "section": "",
-      "published": "2026-11-25T18:05:05.000Z",
-      "firstSeen": "2026-11-25T18:30:58.005Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1010809/rodrigo-duterte-camp-link-to-alleged-crimes-against-humanity-untenable/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/10/rodrigo_duterte_icc_101326_2026_10_13_17_16_28.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published November 26, 2026 2:05am"
-        },
-        {
-          "type": "p",
-          "text": "PRAGUE, Czech Republic – Roughly four days before the International Criminal Court (ICC) opens its trial of Rodrigo Duterte, his camp has reiterated its position: the allegation of crimes against humanity charged to the former president is “untenable”."
-        },
-        {
-          "type": "p",
-          "text": "In its major 77-page pre-trial brief released on November 25, Duterte’s defense team questioned the Office of the Prosecutor’s evidence that links Duterte to the allegations of murder and alleged murder during the charged period."
-        },
-        {
-          "type": "p",
-          "text": "\"The link between Mr. Duterte and the alleged crimes is untenable,\" according to the document. \"The Prosecution places weight on the speeches of Mr. Duterte, but that rhetoric, situated in its proper context, establishes neither criminal intent nor the requisite nexus to the charges. Furthermore, the term neutralisation did not mean to kill a suspect.\""
-        },
-        {
-          "type": "p",
-          "text": "Saying that the defense “does not intend to raise a positive defense,” lead counsel Peter Haynes emphasized that Duterte’s camp will instead “show that the crimes alleged do not constitute crimes against humanity”."
-        },
-        {
-          "type": "p",
-          "text": "Haynes refuted the prosecution’s charges, saying that even if it could prove beyond reasonable doubt the 56 incidents it linked to Duterte, their evidence “cannot establish the contextual elements” of crimes against humanity."
-        },
-        {
-          "type": "p",
-          "text": "“There was no widespread or systematic attack against the civilian population of the Philippines. There was no State or organisational policy to murder. This is not a crimes against humanity case and, as such, does not belong before this Court.”"
-        },
-        {
-          "type": "p",
-          "text": "Duterte’s defense also told Trial Chamber III that it “is not contesting the existence of unlawful killings by police” during Duterte’s drug war, but argued the killings “undoubtedly occurred”, but “they were not crimes against humanity.\""
-        },
-        {
-          "type": "p",
-          "text": "Haynes argued that the drug war killings “have been prosecuted and continue to be prosecuted as ordinary murders” in the Philippines, which he said has a “functioning criminal justice system” as well as “functioning domestic mechanisms for accountability – including criminal accountability.\""
-        },
-        {
-          "type": "p",
-          "text": "He also asserted that the ICC case against Duterte “organically emerged from an impartial investigation into incriminating and exonerating circumstances.”"
-        },
-        {
-          "type": "p",
-          "text": "“There is something obscene and perverse about a process which removes accountability processes from a national system entirely equipped to deal with them, and instead rewards the direct perpetrators with impunity for the crimes, all to build an “international” case against an 81-year old man, whose cognitive impairment has been acknowledged by court-appointed doctors, one of whom was transparent that Mr Duterte doesn’t remember things from one meeting to the next,” Haynes stated in the brief."
-        },
-        {
-          "type": "p",
-          "text": "The defense’s pre-trial brief, originally submitted to Trial Chamber III on November 20, is released with redactions."
-        },
-        {
-          "type": "p",
-          "text": "The filing comes as Presiding Judge Joanna Korner, Judge Keebong Paek, and Judge Nicolas Guillou are hearing and deciding on a multitude of evidentiary and procedural arguments from the defense, the prosecution, the Common Legal Representatives of Victims, and the ICC Registry."
-        },
-        {
-          "type": "p",
-          "text": "With less than a week before Duterte’s trial begins, information on which prosecution witness testimony should be admitted in court, the in-court security measures to protect witnesses and victims, and other logistical courtroom concerns remains scarce."
-        },
-        {
-          "type": "p",
-          "text": "Duterte’s trial for charges against humanity begins on Monday, November 30. The ICC Public Affairs Unit said the trial may take months, as the first block of presentations will focus on the prosecution presenting its witnesses and evidence. —LDF, GMA News"
         }
       ],
       "truncated": false,
@@ -18921,155 +19026,6 @@
         {
           "type": "p",
           "text": "\"We do not want that a climate disaster in Pakistan should translate into further debt for Pakistan,\" Kharal said, calling for grants rather than loans."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "dw-32irmp",
-      "source": "dw",
-      "title": "Germany's women's football team take stand against domestic violence",
-      "summary": "Germany's women's football team are to wear UN Women badges in games against Argentina and Peru, as domestic violence hits a record high in Germany.",
-      "byline": "Jonathan Harding",
-      "section": "",
-      "published": "2026-11-25T09:30:00.000Z",
-      "firstSeen": "2026-11-25T12:01:06.867Z",
-      "url": "https://www.dw.com/en/germany-s-women-s-football-team-take-stand-against-domestic-violence/a-70907974?maca=en-rss-en-all-1573-rdf",
-      "image": {
-        "src": "https://static.dw.com/image/70934632_6.jpg",
-        "caption": "Germany's women have been strong supporters of the campaign, as the orange logo of 'stop violence agianst women' reveals on Lea Schüller's sleeveImage: imago images/Beautiful Sports"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Domestic violence has reached a record high in Germany, with 16 women subjected to physical abuse behind closed doors each hour."
-        },
-        {
-          "type": "p",
-          "text": "UN Women Germany is one of 13 UN Women national committees worldwide, each an independent, non-profit, non-governmental organization committed to gender equality and the empowerment of women and girls."
-        },
-        {
-          "type": "p",
-          "text": "Their current campaign \"Orange The World\" runs from the start of International Day for the Elimination of Violence Against Women on November 25 to December 10, International Human Rights Day. It is designed to raise awareness around violence against women in the country and worldwide. The 2026 campaign's focus is particularly on men's responsibility in ending gender-based violence."
-        },
-        {
-          "type": "p",
-          "text": "\"In these 16 days of activism, we can deliver a lot of information. Survivors of gender-based violence can find out where to get support and be reminded that they are not at fault,\" UN Women Germany chair, politician and long-standing campaigner for women's rights Elke Ferner told DW. \"The debate helps and it's a chance to change consciousness about the topic.\""
-        },
-        {
-          "type": "p",
-          "text": "Germany captain Giulia Gwinn said in a statement via the German Football Association (DFB): \"Violence against women and girls affects us all and must have no place in our society. As the women's national team, we therefore want to once again use our reach to create awareness for this important issue and jointly set a visible sign against violence.\""
-        },
-        {
-          "type": "p",
-          "text": "The campaign with the women's team is not new. Two years ago, the team joined the campaign, delivering a moving video that saw players reveal the truth of statements by crossing out words."
-        },
-        {
-          "type": "p",
-          "text": "During Germany's upcoming South America tour — part of their preparations for the 2027 World Cup in Brazil — they are to wear special UN Women Germany badges on their sleeves in their games against Argentina and Peru."
-        },
-        {
-          "type": "h",
-          "text": "Role models pivotal for the campaign"
-        },
-        {
-          "type": "p",
-          "text": "Ferner believes the work with role models is pivotal and that the campaign is powerful, especially in a football context. A 2022 study from Warwick Business School in the UK revealed alcohol-related domestic abuse rises by nearly 50% after England's men's football team win a World Cup game, never mind lose."
-        },
-        {
-          "type": "p",
-          "text": "Currently, there is no data on domestic abuse during Germany games, however during the 2026 World Cup last summer, Berlin police recorded a 31% increase in domestic violence compared to the week before."
-        },
-        {
-          "type": "p",
-          "text": "Ferner is encouraged that sport has understood the importance of the issue, and that the German Olympic Committee (DOSB) and other sports clubs and organizations are helping move the conversation forward."
-        },
-        {
-          "type": "p",
-          "text": "In sport, this is particularly important given the problematic nature of dependency relationships that so often exist in high-performance environments. But violence against women is really a societal issue that is not specific to class, origin, religion or societal space, such as sport."
-        },
-        {
-          "type": "p",
-          "text": "\"Violence against women has structural origins and to change that you need to change the structures,\" Ferner said. \"You just need to do it. I always say, this isn't about a lack of knowledge but rather a lack of action.\""
-        },
-        {
-          "type": "p",
-          "text": "Performance is an integral part of sport, but a multi-dimensional understanding of it might help shift perspective in a country that remains driven by a performance culture."
-        },
-        {
-          "type": "p",
-          "text": "\"What is performance? Higher, faster, further? Or is it managing to look after a family of three?\" Ferner asked. \"Why do people who repair washing machines earn more than those looking after your kids in nursery? This is about changing business culture, but also awareness around the role men play at home and in the family."
-        },
-        {
-          "type": "p",
-          "text": "\"The picture boys and young men get of girls and women in school is a problem that needs addressing. We can't wait for generational change. This is about saving lives. We need to change societal structures.\""
-        },
-        {
-          "type": "h",
-          "text": "Male power structures a problem"
-        },
-        {
-          "type": "p",
-          "text": "Sports structures are also in need of reform. Non-profit organization Safe Sport provides independent support for people affected by sexual, physical and psychological violence in both amateur and professional sport in Germany."
-        },
-        {
-          "type": "p",
-          "text": "They are the only organization with a specific focus on violence in grassroots sports in Germany, and one of only two in professional sport in the country. They also have to contend with structures, in a sporting context, that make spaces less safe for women."
-        },
-        {
-          "type": "p",
-          "text": "\"Gender roles have become more fluid in the last few years, but in associations and clubs management positions are still occupied by men, regardless of the sport,\" Safe Sport manager Ina Lambert told DW."
-        },
-        {
-          "type": "p",
-          "text": "\"In professional sport, there are a lot fewer women involved in training and so the space remains male dominated, and, as a result, so do the power structures."
-        },
-        {
-          "type": "p",
-          "text": "\"We have people in search of advice, men included, who see the problems and want to enforce change, and we offer them support so they are not alone,\" Lambert said. \"But whether in a big association or a small club, perpetrators are frequently protected, incidents are ignored and so the people who want to enforce change are often prevented from doing so.\""
-        },
-        {
-          "type": "p",
-          "text": "Safe Sport, which provides free psychological and legal support, has only been in action since July 2023, but in that time the number of support requests they have received continues to grow. Psychological violence in sport in Germany is the most common case they are faced with, but sexual violence is also a major problem."
-        },
-        {
-          "type": "p",
-          "text": "\"There is finally recognition of the problem and there is a seriousness about tackling it,\" Lambert said."
-        },
-        {
-          "type": "p",
-          "text": "\"There is a lot of good work being done in the right direction, with many good concepts for prevention, intervention and processing violence, as well as more education, holistic training and focus on women's menstrual cycles.\""
-        },
-        {
-          "type": "image",
-          "src": "https://static.dw.com/image/70934618_$%7BformatId%7D.jpg",
-          "caption": "Germany is backing UN efforts to highlight that more must be done to tackle violence against womenImage: imago images/Lucca Fundel"
-        },
-        {
-          "type": "h",
-          "text": "Comprehensive support on the way"
-        },
-        {
-          "type": "p",
-          "text": "Germany's Interior Ministry is leading the process with participants from the country's states, organized sport, affected parties and academia to create a central hub. The center for safe sport was founded in July 2026, but investigative and sanctioning work is expected to begin in the spring of 2027."
-        },
-        {
-          "type": "p",
-          "text": "Support from leading figures clearly makes a huge difference, but it's also clear that more data is needed. Addressing the underlying issues, such as social norms and gender stereotyping, is a must."
-        },
-        {
-          "type": "p",
-          "text": "After all, as UN Women Executive Director Sima Bahous said: \"No country has yet eliminated violence against women. Ending it requires transformative action — greater investment, innovation, and unwavering political will.\""
-        },
-        {
-          "type": "p",
-          "text": "This article was originally published on November 28, 2024, and updated on November 25, 2026."
-        },
-        {
-          "type": "h",
-          "text": "Behind domestic violence: Causes, patterns and solutions"
         }
       ],
       "truncated": false,
