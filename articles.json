@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-27T17:01:32.733Z",
+  "updated": "2026-11-27T17:31:25.036Z",
   "sources": [
     {
       "id": "inq",
@@ -53,63 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-etgdzs",
-      "source": "inqn",
-      "title": "VP Sara Duterte to sell properties to pay P5-M debt",
-      "summary": "MANILA, Philippines — Vice President Sara Duterte on Friday said she is planning to sell properties to pay the P5 million she owed to her friends and to cover expenses of her impeachment trial and…",
-      "byline": "mesarangay",
-      "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:23.728Z",
-      "firstSeen": "2026-11-27T11:01:04.632Z",
-      "url": "https://newsinfo.inquirer.net/2348154/vp-sara-duterte-to-sell-properties-to-pay-p5-m-debt",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Messenger_creation_3CC8D0AD-DCDC-4983-A9A3-8664D3ECFC90-e1791275163116.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Vice President Sara Duterte on Friday said she is planning to sell properties to pay the P5 million she owed to her friends and to cover expenses of her impeachment trial and the case of her father, former President Rodrigo Duterte, in the International Criminal Court (ICC). READ: Sara Duterte won’t campaign"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-165g6jw",
-      "source": "inqn",
-      "title": "Tulfo flags P71M in DOH-procured meds expiring in March 2027",
-      "summary": "MANILA, Philippines – Sen. Raffy Tulfo flagged on Friday around P71-million worth of government-procured medicines set to expire by March 2027. Tulfo expressed concern over expiring medicines during…",
-      "byline": "mesarangay",
-      "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:23.727Z",
-      "firstSeen": "2026-11-27T12:01:03.932Z",
-      "url": "https://newsinfo.inquirer.net/2348189/tulfo-flags-p71m-in-doh-procured-meds-expiring-in-march-2027",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/08/Screenshot-2026-08-11-at-9.03.31-PM.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – Sen. Raffy Tulfo flagged on Friday around P71-million worth of government-procured medicines set to expire by March 2027. Tulfo expressed concern over expiring medicines during the deliberations on the Department of Health’s P274-billion budget for fiscal year 2027. “P11-million worth of HIV/AIDS medicine, P43 million for family planning medicine, and 15 million"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-ash2xs",
       "source": "inqn",
       "title": "Bucor: Thiamine deficiency possible culprit in deaths among PDLs",
       "summary": "MANILA, Philippines — The Bureau of Corrections (BuCor) on Friday said it is reviewing the food allocation and its nutritional content of persons deprived of liberty (PDLs) in the Zamboanga prison…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:23.727Z",
+      "published": "2026-11-27T17:31:16.225Z",
       "firstSeen": "2026-11-27T11:30:55.278Z",
       "url": "https://newsinfo.inquirer.net/2348183/bucor-thiamine-deficiency-possible-culprit-in-deaths-among-pdls",
       "image": {
@@ -134,7 +84,7 @@
       "summary": "MANILA, Philippines — The Makabayan bloc has called out the Court of Appeals for upholding the conviction for child abuse of the so-called Talaingod 13 — which includes former lawmakers from…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:23.727Z",
+      "published": "2026-11-27T17:31:16.225Z",
       "firstSeen": "2026-11-27T11:30:55.322Z",
       "url": "https://newsinfo.inquirer.net/2348160/makabayan-hits-ca-decision-vs-talaingod-13",
       "image": {
@@ -153,13 +103,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-165g6jw",
+      "source": "inqn",
+      "title": "Tulfo flags P71M in DOH-procured meds expiring in March 2027",
+      "summary": "MANILA, Philippines – Sen. Raffy Tulfo flagged on Friday around P71-million worth of government-procured medicines set to expire by March 2027. Tulfo expressed concern over expiring medicines during…",
+      "byline": "mesarangay",
+      "section": "Latest News Stories",
+      "published": "2026-11-27T17:31:16.131Z",
+      "firstSeen": "2026-11-27T12:01:03.932Z",
+      "url": "https://newsinfo.inquirer.net/2348189/tulfo-flags-p71m-in-doh-procured-meds-expiring-in-march-2027",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/08/Screenshot-2026-08-11-at-9.03.31-PM.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Sen. Raffy Tulfo flagged on Friday around P71-million worth of government-procured medicines set to expire by March 2027. Tulfo expressed concern over expiring medicines during the deliberations on the Department of Health’s P274-billion budget for fiscal year 2027. “P11-million worth of HIV/AIDS medicine, P43 million for family planning medicine, and 15 million"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-ejehez",
       "source": "inqn",
       "title": "VP Duterte prepared for verdict of Senate impeachment court",
       "summary": "MANILA, Philippines — Vice President Sara Duterte said on Friday that she was preparing for the worst as she awaited the verdict of the Senate impeachment court, warning of the consequences of her…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:21.957Z",
+      "published": "2026-11-27T17:31:16.026Z",
       "firstSeen": "2026-11-27T12:30:56.384Z",
       "url": "https://newsinfo.inquirer.net/2348198/vp-duterte-prepared-for-verdict-of-senate-impeachment-court",
       "image": {
@@ -178,23 +153,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-x8xo4m",
+      "id": "inqn-rw1uq",
       "source": "inqn",
-      "title": "Tulfo: Unused P104-M Covid-19 syringes expiring in 2027",
-      "summary": "MANILA, Philippines – Approximately P104 million worth of unused vaccine syringes procured by the government during the Covid-19 pandemic is set to expire in 2027, Sen. Raffy Tulfo said on Friday.…",
+      "title": "VP Sara: &#8220;Painful small talk&#8221; with senators during Senate visit",
+      "summary": "MANILA, Philippines — Vice President Sara Duterte on Friday shared that she had a “painful small talk” with senators when she went to the Senate on Thursday, emphasizing that being two-faced is a…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:21.928Z",
-      "firstSeen": "2026-11-27T13:01:02.468Z",
-      "url": "https://newsinfo.inquirer.net/2348202/tulfo-unused-p104-m-covid-19-syringes-expiring-in-2027",
+      "published": "2026-11-27T17:31:14.350Z",
+      "firstSeen": "2026-11-27T14:01:03.901Z",
+      "url": "https://newsinfo.inquirer.net/2348209/vp-sara-painful-small-talk-with-senators-during-senate-visit",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/06/2022-06-29T012338Z_1_LYNXMPEI5S01F_RTROPTP_4_HEALTH-CORONAVIRUS-VACCINES-PFIZER-scaled.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/1336990.jpeg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines – Approximately P104 million worth of unused vaccine syringes procured by the government during the Covid-19 pandemic is set to expire in 2027, Sen. Raffy Tulfo said on Friday. During the Department of Health’s P274-billion budget deliberations at the Senate, Tulfo discussed the stocks of government-procured medical supplies and medicines left at the"
+          "text": "MANILA, Philippines — Vice President Sara Duterte on Friday shared that she had a “painful small talk” with senators when she went to the Senate on Thursday, emphasizing that being two-faced is a politicians’ national sport. This was the response of Duterte when she was asked about her visit to the Senate for the plenary"
         }
       ],
       "truncated": true,
@@ -209,7 +184,7 @@
       "summary": "MANILA, Philippines — Several roads will be closed in the city of Manila starting Saturday evening, Nov. 28, ahead of a road running event.According to the Manila Public Information Office, the…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:20.199Z",
+      "published": "2026-11-27T17:31:14.350Z",
       "firstSeen": "2026-11-27T13:31:03.077Z",
       "url": "https://newsinfo.inquirer.net/2348206/road-closures-in-manila-on-saturday-nov-28",
       "image": {
@@ -228,48 +203,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-11dtvhy",
+      "id": "inqn-x8xo4m",
       "source": "inqn",
-      "title": "Sotto urges DICT to crack down on online sale of abortion drugs",
-      "summary": "MANILA, Philippines – Senate President Pro Tempore Vicente “Tito” Sotto III on Friday urged the Department of Information and Communications Technology (DICT) to crack down on social media pages or…",
-      "byline": "jvicente",
+      "title": "Tulfo: Unused P104-M Covid-19 syringes expiring in 2027",
+      "summary": "MANILA, Philippines – Approximately P104 million worth of unused vaccine syringes procured by the government during the Covid-19 pandemic is set to expire in 2027, Sen. Raffy Tulfo said on Friday.…",
+      "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:20.127Z",
-      "firstSeen": "2026-11-27T15:01:04.609Z",
-      "url": "https://newsinfo.inquirer.net/2348231/sotto-urges-dict-to-crack-down-on-online-sale-of-abortion-drugs",
+      "published": "2026-11-27T17:31:14.350Z",
+      "firstSeen": "2026-11-27T13:01:02.468Z",
+      "url": "https://newsinfo.inquirer.net/2348202/tulfo-unused-p104-m-covid-19-syringes-expiring-in-2027",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/09/02sept2026-sotto.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2022/06/2022-06-29T012338Z_1_LYNXMPEI5S01F_RTROPTP_4_HEALTH-CORONAVIRUS-VACCINES-PFIZER-scaled.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines – Senate President Pro Tempore Vicente “Tito” Sotto III on Friday urged the Department of Information and Communications Technology (DICT) to crack down on social media pages or groups selling abortifacients and promoting abortion. Abortifacients are substances or drugs used to induce an abortion or terminate a pregnancy. “There are groups on Facebook"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-cz95g7",
-      "source": "inqn",
-      "title": "Nov. 27 lotto results: Lone bettor wins ₱44.2M jackpot",
-      "summary": "MANILA, Philippines—A lone bettor won the ₱44.2 million Mega Lotto 6/45 jackpot on Friday, Nov. 27, while no player won the ₱603.58 million Ultra Lotto 6/58 top prize. According to the Philippine…",
-      "byline": "jvicente",
-      "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:20.127Z",
-      "firstSeen": "2026-11-27T14:30:59.561Z",
-      "url": "https://newsinfo.inquirer.net/2348258/nov-27-lotto-results-lone-bettor-wins-%e2%82%b144-2m-jackpot",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2025/12/megalotto-6-45.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—A lone bettor won the ₱44.2 million Mega Lotto 6/45 jackpot on Friday, Nov. 27, while no player won the ₱603.58 million Ultra Lotto 6/58 top prize. According to the Philippine Charity Sweepstakes Office (PCSO), the winning combination for Mega Lotto 6/45 was 33-37-36-26-23-03. READ: Lotto Results Today &#8211; November 27, 2026 Meanwhile, no"
+          "text": "MANILA, Philippines – Approximately P104 million worth of unused vaccine syringes procured by the government during the Covid-19 pandemic is set to expire in 2027, Sen. Raffy Tulfo said on Friday. During the Department of Health’s P274-billion budget deliberations at the Senate, Tulfo discussed the stocks of government-procured medical supplies and medicines left at the"
         }
       ],
       "truncated": true,
@@ -284,7 +234,7 @@
       "summary": "MANILA, Philippines — Sen. Loren Legarda is urging local government units (LGUs) to open free public cooling centers in barangay halls and other accessible community facilities, and partner with…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:20.127Z",
+      "published": "2026-11-27T17:31:14.226Z",
       "firstSeen": "2026-11-27T13:01:00.602Z",
       "url": "https://newsinfo.inquirer.net/2348219/legarda-urges-lgus-to-set-up-free-public-cooling-centers-for-el-nino",
       "image": {
@@ -309,7 +259,7 @@
       "summary": "MANILA, Philippines — The 55-year-old driver who fell from a fourth floor parking building along Jimenez Street in Barangay San Lorenzo, Makati City was only a reliever the day of the incident, the…",
       "byline": "mesarangay",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:20.127Z",
+      "published": "2026-11-27T17:31:14.226Z",
       "firstSeen": "2026-11-27T14:01:00.330Z",
       "url": "https://newsinfo.inquirer.net/2348218/spd-says-driver-who-fell-from-makati-building-only-a-reliever",
       "image": {
@@ -334,7 +284,7 @@
       "summary": "MANILA, Philippines —Manila Water releases its December desludging schedule for selected barangays in the East Zone of Metro Manila and Rizal, helping households maintain properly functioning septic…",
       "byline": "Alexander Magno",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:20.127Z",
+      "published": "2026-11-27T17:31:14.226Z",
       "firstSeen": "2026-11-27T13:01:00.644Z",
       "url": "https://newsinfo.inquirer.net/2348213/manila-water-sets-desludging-schedule-for-a-cleaner-holiday-season",
       "image": {
@@ -353,63 +303,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-rw1uq",
-      "source": "inqn",
-      "title": "VP Sara: &#8220;Painful small talk&#8221; with senators during Senate visit",
-      "summary": "MANILA, Philippines — Vice President Sara Duterte on Friday shared that she had a “painful small talk” with senators when she went to the Senate on Thursday, emphasizing that being two-faced is a…",
-      "byline": "mesarangay",
-      "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:20.127Z",
-      "firstSeen": "2026-11-27T14:01:03.901Z",
-      "url": "https://newsinfo.inquirer.net/2348209/vp-sara-painful-small-talk-with-senators-during-senate-visit",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/1336990.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Vice President Sara Duterte on Friday shared that she had a “painful small talk” with senators when she went to the Senate on Thursday, emphasizing that being two-faced is a politicians’ national sport. This was the response of Duterte when she was asked about her visit to the Senate for the plenary"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-1tnhwu6",
-      "source": "inqn",
-      "title": "Pia Cayetano flags risks of ‘flavored air,’ energy drinks to youth",
-      "summary": "MANILA, Philippines — Sen. Pia Cayetano on Friday raised concerns over the marketing of so-called “flavored air” products and highly caffeinated energy drinks, warning that these could pose health…",
-      "byline": "jvicente",
-      "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:18.330Z",
-      "firstSeen": "2026-11-27T15:01:03.450Z",
-      "url": "https://newsinfo.inquirer.net/2348233/pia-cayetano-flags-risks-of-flavored-air-energy-drinks-to-youth",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/cayetano10082026.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Sen. Pia Cayetano on Friday raised concerns over the marketing of so-called “flavored air” products and highly caffeinated energy drinks, warning that these could pose health risks to young people. Cayetano raised the concerns during the Senate’s deliberations on the proposed 2027 budget of the Department of Health (DOH) and its attached"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-gw7nil",
       "source": "inqn",
       "title": "Groups urge Congress to further increase education budget for 2027",
       "summary": "MANILA, Philippines — A national coalition on Friday called on Congress to further increase the proposed government budget for education in 2027 as both chambers prepare for bicam. E-Net Philippines…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:14.757Z",
+      "published": "2026-11-27T17:31:12.426Z",
       "firstSeen": "2026-11-27T15:01:03.386Z",
       "url": "https://newsinfo.inquirer.net/2348247/groups-urge-congress-to-further-increase-education-budget-for-2027",
       "image": {
@@ -428,13 +328,88 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1tnhwu6",
+      "source": "inqn",
+      "title": "Pia Cayetano flags risks of ‘flavored air,’ energy drinks to youth",
+      "summary": "MANILA, Philippines — Sen. Pia Cayetano on Friday raised concerns over the marketing of so-called “flavored air” products and highly caffeinated energy drinks, warning that these could pose health…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-11-27T17:31:12.426Z",
+      "firstSeen": "2026-11-27T15:01:03.450Z",
+      "url": "https://newsinfo.inquirer.net/2348233/pia-cayetano-flags-risks-of-flavored-air-energy-drinks-to-youth",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/cayetano10082026.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Sen. Pia Cayetano on Friday raised concerns over the marketing of so-called “flavored air” products and highly caffeinated energy drinks, warning that these could pose health risks to young people. Cayetano raised the concerns during the Senate’s deliberations on the proposed 2027 budget of the Department of Health (DOH) and its attached"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-11dtvhy",
+      "source": "inqn",
+      "title": "Sotto urges DICT to crack down on online sale of abortion drugs",
+      "summary": "MANILA, Philippines – Senate President Pro Tempore Vicente “Tito” Sotto III on Friday urged the Department of Information and Communications Technology (DICT) to crack down on social media pages or…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-11-27T17:31:12.426Z",
+      "firstSeen": "2026-11-27T15:01:04.609Z",
+      "url": "https://newsinfo.inquirer.net/2348231/sotto-urges-dict-to-crack-down-on-online-sale-of-abortion-drugs",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/09/02sept2026-sotto.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Senate President Pro Tempore Vicente “Tito” Sotto III on Friday urged the Department of Information and Communications Technology (DICT) to crack down on social media pages or groups selling abortifacients and promoting abortion. Abortifacients are substances or drugs used to induce an abortion or terminate a pregnancy. “There are groups on Facebook"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-cz95g7",
+      "source": "inqn",
+      "title": "Nov. 27 lotto results: Lone bettor wins ₱44.2M jackpot",
+      "summary": "MANILA, Philippines—A lone bettor won the ₱44.2 million Mega Lotto 6/45 jackpot on Friday, Nov. 27, while no player won the ₱603.58 million Ultra Lotto 6/58 top prize. According to the Philippine…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-11-27T17:31:12.426Z",
+      "firstSeen": "2026-11-27T14:30:59.561Z",
+      "url": "https://newsinfo.inquirer.net/2348258/nov-27-lotto-results-lone-bettor-wins-%e2%82%b144-2m-jackpot",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2025/12/megalotto-6-45.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—A lone bettor won the ₱44.2 million Mega Lotto 6/45 jackpot on Friday, Nov. 27, while no player won the ₱603.58 million Ultra Lotto 6/58 top prize. According to the Philippine Charity Sweepstakes Office (PCSO), the winning combination for Mega Lotto 6/45 was 33-37-36-26-23-03. READ: Lotto Results Today &#8211; November 27, 2026 Meanwhile, no"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-x3quf0",
       "source": "inqn",
       "title": "Coffee tax proposal fails to perk up senators",
       "summary": "MANILA, Philippines — Senators pushed back against the distillers&#8217; idea of taxing coffee products, with Sen. Joel Villanueva saying that the move could lead to a &#8220;messy situation.&#8221;…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:07.828Z",
+      "published": "2026-11-27T17:31:08.826Z",
       "firstSeen": "2026-11-27T15:30:59.450Z",
       "url": "https://newsinfo.inquirer.net/2348264/coffee-tax-proposal-fails-to-perk-up-senators",
       "image": {
@@ -459,7 +434,7 @@
       "summary": "MANILA, Philippines — The office of Cagayan de Oro Rep. Lordan Suan on Friday debunked false information circulating online claiming that the lawmaker was proposing a shift to a parliamentary form of…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:06.121Z",
+      "published": "2026-11-27T17:31:07.026Z",
       "firstSeen": "2026-11-27T16:00:59.155Z",
       "url": "https://newsinfo.inquirer.net/2348270/rep-suan-debunks-fake-posts-about-parliamentary-shift-poll-delay",
       "image": {
@@ -484,7 +459,7 @@
       "summary": "MANILA, Philippines – A co-accused of former Speaker Martin Romualdez in his P7.44-billion plunder case has been allowed by the Sandiganbayan Third Division to testify as a prosecution witness during…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:05.767Z",
+      "published": "2026-11-27T17:31:01.881Z",
       "firstSeen": "2026-11-27T16:00:59.112Z",
       "url": "https://newsinfo.inquirer.net/2348301/sandiganbayan-allows-romualdez-co-accused-to-testify-as-prosecution-witness",
       "image": {
@@ -509,7 +484,7 @@
       "summary": "MANILA, Philippines – The Sandiganbayan Third Division on Friday ordered the National Bureau of Investigation (NBI) to identify the individual who posed as one of the court’s justices in order to…",
       "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:01:05.727Z",
+      "published": "2026-11-27T17:30:58.439Z",
       "firstSeen": "2026-11-27T16:30:55.969Z",
       "url": "https://newsinfo.inquirer.net/2348345/nbi-urged-to-probe-individual-posing-as-court-justice-to-solicit-money",
       "image": {
@@ -528,13 +503,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1af1ohw",
+      "source": "inqn",
+      "title": "Lacson flags unequal distribution of P760-B multi-purpose buildings",
+      "summary": "MANILA, Philippines – Sen. Panfilo Lacson on Saturday highlighted the unequal distribution of multi-purpose building (MPB) projects among local governments, noting that most are built in high-income…",
+      "byline": "jvicente",
+      "section": "Latest News Stories",
+      "published": "2026-11-27T17:30:58.072Z",
+      "firstSeen": "2026-11-27T17:30:58.072Z",
+      "url": "https://newsinfo.inquirer.net/2348366/lacson-flags-unequal-distribution-of-p760-b-multi-purpose-buildings",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/News1324585.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Sen. Panfilo Lacson on Saturday highlighted the unequal distribution of multi-purpose building (MPB) projects among local governments, noting that most are built in high-income cities and municipalities. Lacson raised the issue while questioning the allocation for MPBs under the Department of Public Works and Highways (DPWH) 2027 budget, which was endorsed by"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-v3oq8o",
       "source": "inqg",
       "title": "Sara Duterte not expecting &#8216;fair trial&#8217; from ICC on father&#8217;s case",
       "summary": "MANILA, Philippines — Vice President Sara Duterte on Friday said she is not expecting a “fair trial” for her father before the International Criminal Court (ICC), which is set to begin hearing the…",
       "byline": "jvicente",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-27T17:01:05.727Z",
+      "published": "2026-11-27T17:30:58.025Z",
       "firstSeen": "2026-11-27T16:30:55.969Z",
       "url": "https://globalnation.inquirer.net/350158/sara-duterte-not-expecting-fair-trial-from-icc-on-fathers-case",
       "image": {
@@ -553,23 +553,150 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-11mhw8n",
+      "id": "inqn-t1o121",
       "source": "inqn",
-      "title": "MMDA suspends coding scheme on Monday, Nov. 30",
-      "summary": "MANILA, Philippines — The Metropolitan Manila Development Authority (MMDA) suspended the implementation of the expanded number coding scheme on Monday, Nov. 30. This is amid the observation of…",
-      "byline": "mesarangay",
+      "title": "Sara Duterte asks if Marcos had hand in father&#8217;s transfer to The Hague",
+      "summary": "MANILA, Philippines — Vice President Sara Duterte on Friday questioned whether Palace press officer Claire Castro was admitting that President Ferdinand Marcos Jr. had a hand in bringing former…",
+      "byline": "jvicente",
       "section": "Latest News Stories",
-      "published": "2026-11-27T17:00:50.000Z",
-      "firstSeen": "2026-11-27T10:30:57.185Z",
-      "url": "https://newsinfo.inquirer.net/2348147/mmda-suspends-coding-scheme-on-monday-nov-30",
+      "published": "2026-11-27T17:30:58.025Z",
+      "firstSeen": "2026-11-27T17:30:58.025Z",
+      "url": "https://newsinfo.inquirer.net/2348367/sara-duterte-asks-if-marcos-had-hand-in-fathers-transfer-to-the-hague",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2022/09/MMDA-logo-filephoto-091322-02.jpeg",
+        "src": "https://newsinfo.inquirer.net/files/2026/04/claire-castro-sara-duterte.png",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — The Metropolitan Manila Development Authority (MMDA) suspended the implementation of the expanded number coding scheme on Monday, Nov. 30. This is amid the observation of Bonifacio Day, which is declared a regular holiday under President Ferdinand Marcos Jr.’s Proclamation No. 1006.“Suspendido ang pagpapatupad ng Expanded Number Coding Scheme sa Lunes, Nobyembre 30,"
+          "text": "MANILA, Philippines — Vice President Sara Duterte on Friday questioned whether Palace press officer Claire Castro was admitting that President Ferdinand Marcos Jr. had a hand in bringing former President Rodrigo Duterte to The Hague, Netherlands, to face charges of crimes against humanity over his administration’s drug war. Duterte also slammed what she described as"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-yvf375",
+      "source": "grd",
+      "title": "Google told to halt Belgium datacentre construction over lack of planning permit",
+      "summary": "<p>Greenpeace publishes report showing tech firm is continuing to build despite planning appeal still unresolved</p><p>Belgian authorities have ordered Google to halt construction work on a large…",
+      "byline": "Jon Henley",
+      "section": "Datacentres",
+      "published": "2026-11-27T17:18:19.000Z",
+      "firstSeen": "2026-11-27T17:30:58.074Z",
+      "url": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/53fa79a19abbefe201798e60613aa1864cc000e7/0_0_3360_2688/master/3360.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=a7db4ce91794fea20a5cd3b0263dedc4",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Belgian authorities have ordered Google to halt construction work on a large datacentre in the south of the country because the US tech firm’s requests to modify the original terms of the planning permission did not have approval."
+        },
+        {
+          "type": "p",
+          "text": "“Inspectors visited the site and observed that the building was almost finished, with the structural work completed, even though the permit had been refused,” Raphaël Stokis, a Wallonia regional official, told the public broadcaster RTBF."
+        },
+        {
+          "type": "p",
+          "text": "Stokis said the 300 workers had been given a verbal order to stop work that had been confirmed in writing to Google. The company said in a statement it was “committed to maintaining an open and collaborative dialogue” with the regional authorities."
+        },
+        {
+          "type": "p",
+          "text": "Google’s 2025 application to change its plans, notably including a switch from air to water cooling, was initially approved by local authorities but later revoked after protests. The company has appealed and a ruling is due early next year."
+        },
+        {
+          "type": "p",
+          "text": "The vast building, which occupies about 3 hectares (7.4 acres) of a 50-hectare business park on the site of a former coalmine at Aiseau-Presles, about 15km (9 miles) west of Charleroi, is one of three originally planned by Google on the site."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/8d39ce0949b821e3adce798166778ead387a14ec/0_0_5644_3763/master/5644.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The Google construction site. Photograph: Belga News Agency/Alamy"
+        },
+        {
+          "type": "p",
+          "text": "Nicolas Yernaux, a regional government spokesperson, told Agence France-Presse on Friday that a report was being submitted to public prosecutors alleging “a major offence: the illegal construction of a building covering 3 hectares”."
+        },
+        {
+          "type": "p",
+          "text": "The environmental group Greenpeace earlier this week published a report including drone footage that showed Google was carrying on construction work at the site despite lacking the correct permits."
+        },
+        {
+          "type": "p",
+          "text": "“The tech giant is continuing work, even though in August the latest version of its planning permission to build this datacentre was revoked,” Greenpeace said, adding that it had filed an emergency appeal with local planning authorities."
+        },
+        {
+          "type": "p",
+          "text": "“The climate crisis will only intensify in our region,” the environmental group said. “Against this backdrop, the construction of energy-guzzling behemoths cannot be allowed to go unnoticed.”"
+        },
+        {
+          "type": "p",
+          "text": "Google’s 2024 permit was to construct three smaller air-cooled datacentres, but in 2025 applied instead to merge two of them into one much larger facility and switch to liquid cooling by drawing 600m3 of water an hour from the nearby Sambre River."
+        },
+        {
+          "type": "p",
+          "text": "The regional administration initially approved the amendments in April, but residents and protest groups appealed and in August the Wallonia infrastructure minister, François Desquesnes, revoked the modified permit over drought concerns."
+        },
+        {
+          "type": "p",
+          "text": "Google appealed against that decision to Belgium’s council of state and a ruling in the case is expected on 7 January. The legal row is the latest confronting the company in Europe as large tech companies push to build datacentres to support the AI boom."
+        },
+        {
+          "type": "p",
+          "text": "In October, Finland opened a criminal investigation into possible breaches ⁠of environmental ⁠laws ​at a planned Google datacentre in the rural north of the country. Work has been halted until environmental impact assessments are completed."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-me3xsn",
+      "source": "inq",
+      "title": "Sara Duterte asks if Marcos had hand in father's transfer to The Hague",
+      "summary": "MANILA, Philippines — Vice President Sara Duterte on Friday questioned whether Palace press officer Claire Castro was admitting that President Ferdinand Marcos Jr. had a hand in bringing former…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-27T17:13:41.000Z",
+      "firstSeen": "2026-11-27T17:30:58.025Z",
+      "url": "https://newsinfo.inquirer.net/2348367/sara-duterte-asks-if-marcos-had-hand-in-fathers-transfer-to-the-hague",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/04/claire-castro-sara-duterte-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Vice President Sara Duterte on Friday questioned whether Palace press officer Claire Castro was admitting that President Ferdinand Marcos Jr. had a hand in bringing former President Rodrigo Duterte to The Hague, Netherlands, to face charges of crimes against humanity over his administration’s drug war. Duterte also slammed what she described as the “split personality” of officials in the Office of the President, citing the differing statements made by Castro and Marcos regarding the Philippines’ cooperation with the International Criminal Court (ICC). READ: VP Duterte can’t raise sovereignty in SC habeas corpus ruling – Palace Last Tuesday, Castro [&hellip;]... Keep on reading: Sara Duterte asks if Marcos had hand in father's transfer to The Hague"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1iry72i",
+      "source": "inq",
+      "title": "Lacson flags unequal distribution of P760-B multi-purpose buildings",
+      "summary": "MANILA, Philippines – Sen. Panfilo Lacson on Saturday highlighted the unequal distribution of multi-purpose building (MPB) projects among local governments, noting that most are built in high-income…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-27T17:03:55.000Z",
+      "firstSeen": "2026-11-27T17:30:58.072Z",
+      "url": "https://newsinfo.inquirer.net/2348366/lacson-flags-unequal-distribution-of-p760-b-multi-purpose-buildings",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/News1324585-620x409.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines – Sen. Panfilo Lacson on Saturday highlighted the unequal distribution of multi-purpose building (MPB) projects among local governments, noting that most are built in high-income cities and municipalities. Lacson raised the issue while questioning the allocation for MPBs under the Department of Public Works and Highways (DPWH) 2027 budget, which was endorsed by Senate finance committee chair Sen. JV Ejercito. According to DPWH data, the government funded 79,816 MPBs nationwide from 2012 to 2026, at a total cost of P760 billion. Aside from questioning the seemingly excessive number of projects, Lacson also raised concerns about their distribution, citing TGP [&hellip;]... Keep on reading: Lacson flags unequal distribution of P760-B multi-purpose buildings"
         }
       ],
       "truncated": true,
@@ -920,13 +1047,102 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Trump’s son-in-law and top negotiator paints Russian invasion of Ukraine as a misunderstanding to be resolved</p><p>In the space of a 70-minute interview, Jared Kushner – Donald Trump’s son-in-law and a prominent US negotiator in Russia, Gaza and Iran – probably did more to reveal why the world is mired in entrenched conflicts than a thousand geopolitical tomes or seminars.</p><p>During the <a href=\"https://www.youtube.com/watch?v=MTcWEH0vUPA\">conversation</a> this week with Mathias Döpfner, the chief executive of Axel Springer, Kushner gave a rare insight into his diplomatic technique, offering a string of homilies that veered close to banalities: “You have nothing until you have something”, “diplomacy is like untying knots on a fishing line for his son”, and “you play the ball from where it lands”.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/27/jared-kushner-interview-peril-putin-corporate-rival\">Continue reading...</a>"
+          "text": "In the space of a 70-minute interview, Jared Kushner – Donald Trump’s son-in-law and a prominent US negotiator in Russia, Gaza and Iran – probably did more to reveal why the world is mired in entrenched conflicts than a thousand geopolitical tomes or seminars."
+        },
+        {
+          "type": "p",
+          "text": "During the conversation this week with Mathias Döpfner, the chief executive of the Axel Springer media publisher, Kushner gave a rare insight into his diplomatic technique, offering a string of homilies that veered close to banalities: “You have nothing until you have something”, “diplomacy is like untying knots on a fishing line for his son”, and “you play the ball from where it lands”."
+        },
+        {
+          "type": "p",
+          "text": "There were also many happy admissions of historical ignorance. Since taking on the Ukraine brief a year ago, Kushner said, he had to learn “the algorithm of Europe and how complicated that is”, and he had to get abreast of “the local issues with Ukraine”."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/777fc178f7b9711ed442a870f230184366d8dfcb/0_0_7020_4177/master/7020.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Jared Kushner, left, stands with the Ukrainian president, Volodymyr Zelenskyy, centre, and the US special envoy, Steve Witkoff, as they speak to the press in Dublin. Photograph: Peter Morrison/AP"
+        },
+        {
+          "type": "p",
+          "text": "As a businessman he brought a special expertise, he claimed. “Look at what’s happening in the Middle East with sanctions, with Russia, with Iran. I think that you have to understand economics in order to understand geopolitics because the two go together very, very closely,” he said."
+        },
+        {
+          "type": "p",
+          "text": "But the main revelation was how much he believes the Ukraine conflict is not a case of an aggressor and a victim – but is simply a series of misunderstandings and miscommunication."
+        },
+        {
+          "type": "p",
+          "text": "Indeed, he treated Vladimir Putin as if he were a masterful corporate executive quite willing to close the deal if he were only given the right economic incentives – instead of a man ready to sacrifice hundreds of thousands of Russians to reclaim part of a historical empire."
+        },
+        {
+          "type": "p",
+          "text": "In the process, Kushner revealed – often inadvertently – that he has largely bought into the Russian narrative of a string of postwar missteps by Europe and the US coming to a head in Nato’s expansion eastwards after 9/11."
+        },
+        {
+          "type": "p",
+          "text": "That, in turn, has led him to adopt Moscow’s central demand to reshape the European security order to allow Russia, without opprobrium, to retain land it has gained by force. Shining through his answers was a naive bias towards the aggressor, presented as a mediator’s desire to understand both parties."
+        },
+        {
+          "type": "p",
+          "text": "Praise veering on awe for the Russian leader flowed. “Putin – people can like what he has done, they can not like what he has done – [but] he is a grand master of politics. He is a historic figure,” he said. Any sense that Putin may have blundered escaped him."
+        },
+        {
+          "type": "p",
+          "text": "As to the rights and wrongs of invading another country, Kushner was blasé. “After all, most lines in Europe have changed over time and they are decided through war or peace, or concessions. It’s not about fairness or who is right or wrong. It’s about ending the killing,” he said."
+        },
+        {
+          "type": "p",
+          "text": "He understood too why Putin could not offer a ceasefire: “He has very little confidence that if he stops the war, that he [will] be able to get to a postwar settlement that leads to not having a future war.”"
+        },
+        {
+          "type": "p",
+          "text": "To stop the killing, the killing has to go on."
+        },
+        {
+          "type": "p",
+          "text": "What is more, Kushner was struck by the Russian leader’s self-control. “So far Putin has shown restraint and he has agreed not to use nuclear weapons and he has reassured us that is his intention.”"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/354c5812d4a80c57aef34315306550f125254a44/0_0_4307_3089/master/4307.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Donald Trump and Vladimir Putin shake hands during a meeting in China. Photograph: Vyacheslav Prokofyev/Reuters"
+        },
+        {
+          "type": "p",
+          "text": "Kushner denied that his boss had put any pressure on Volodymyr Zelenskyy, defying his interviewer to provide evidence – at which point Döpfner recited a list of examples, including only last month when Trump suggested that Ukraine should get a new leader."
+        },
+        {
+          "type": "p",
+          "text": "Trump was “a strong counter-puncher,” argued Kushner, implying that Zelenskyy had thrown the first punch in a conflict that began with a Russian invasion. Relations with Ukraine were cooperative, he said before pointedly saying Kyiv needed things from the US, without which “Ukraine will not be safe in the future”."
+        },
+        {
+          "type": "p",
+          "text": "After noting that “the territorial issue is now a little bit of a deadlock,” his strategic insight was that if a future security architecture for Europe could be agreed, the land question in Donbas would eventually follow."
+        },
+        {
+          "type": "p",
+          "text": "In essence, he proposed a revival of the Russia-Nato council, one of the bodies eviscerated by Putin’s war."
+        },
+        {
+          "type": "p",
+          "text": "He also envisioned Ukraine inside the European Union with security guarantees akin to those offered by Nato’s article five. But it was impossible at this stage to give “more specificity” about these guarantees in the detailed way Ukraine sought, he admitted."
+        },
+        {
+          "type": "p",
+          "text": "So far neither Moscow or Kyiv have bought this plan, let alone a wary Europe."
+        },
+        {
+          "type": "p",
+          "text": "Kushner tried to be polite about Europe, insisting it had to be at the negotiating table, but he could not stop himself characterising European military assistance to Ukraine as a “proxy war” against Russia."
+        },
+        {
+          "type": "p",
+          "text": "As an analysis of why the Ukraine war had not ended inside the 24 hours Donald Trump promised, Kushner showed an alarming belief that the answer lay in granting more concessions to Putin, believing that the misunderstandings and misperceptions would then evaporate."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "inq-17megm3",
@@ -951,7 +1167,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "grd-1g83czj",
@@ -970,13 +1186,122 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Heavy rains and high winds downed trees and power lines and led to water rescues from New York to Virginia</p><p>Skies are clearing along the US eastern seaboard, and power was being restored to hundreds of thousands of customers, whose Thanksgiving plans were disrupted by heavy rains and high winds that swept over the region Thursday.</p><p>The storms snarled travel, downed trees and power lines and led to water rescues from New York to Virginia. At its peak, nearly a million customers were without power and widespread coastal flooding was reported by Poweroutage.us.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving\">Continue reading...</a>"
+          "text": "Skies are clearing along the US eastern seaboard, and power was being restored to hundreds of thousands of customers, whose Thanksgiving plans were disrupted by heavy rains and high winds that swept over the region Thursday."
+        },
+        {
+          "type": "p",
+          "text": "The storms snarled travel, downed trees and power lines and led to water rescues from New York to Virginia. At its peak, nearly a million customers were without power and widespread coastal flooding was reported by Poweroutage.us."
+        },
+        {
+          "type": "p",
+          "text": "“The bulk of the storm impacts are behind us, but tidal flooding will continue today,” the National Weather Service said early Friday."
+        },
+        {
+          "type": "p",
+          "text": "The storms prompted the first-ever postponement of the Macy’s Thanksgiving Day parade in New York City, and more than 2,200 flights to or from US destinations were delayed and more than 400 were cancelled, according to the flight tracking service FlightAware."
+        },
+        {
+          "type": "p",
+          "text": "On Friday, the service said total delays within, into, or out of the US stood at 485 and cancellations at 113."
+        },
+        {
+          "type": "p",
+          "text": "In New Jersey widespread flooding even reached levels not seen since 2012, after Hurricane Sandy, and a state of emergency was put in place. The strongest wind gust reported was 82 mph in Mantoloking in Ocean county, the National Weather Service said."
+        },
+        {
+          "type": "p",
+          "text": "The midwest and the south saw unusual snowfalls for the time of year, with St Louis, Missouri, getting 7.3in, and snow reported in Alabama and Tennessee. An ice arena in Wentzville, Missouri, was empty when the roof caved in at about 3am, according to the city"
+        },
+        {
+          "type": "p",
+          "text": "The storms are now giving way to winds and falling temperatures."
+        },
+        {
+          "type": "p",
+          "text": "“The south and south-east US will start with very cold morning temperatures today and Saturday as lows drop into the upper 20s and the middle 30s,” the National Weather Service said. “Freeze headlines are in effect for portions of the deep south. High temperatures Saturday will begin to moderate into the 60s.”"
+        },
+        {
+          "type": "p",
+          "text": "In New York City, people were rescued from their cars amid flooding, said Zohran Mamdani, and similar rescues were reported in other coastal communities."
+        },
+        {
+          "type": "p",
+          "text": "“There is no destination worth your safety,” the New York City mayor said."
+        },
+        {
+          "type": "p",
+          "text": "Strong winds and flooding disrupted train lines, toppled trees and caused power outages on Thanksgiving night, New York City emergency management officials said. Several scaffolding structures collapsed in the wind, but no injuries were reported."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/ec3dda041c82aeebb2c84a4dda644119070450a4/0_0_8192_5464/master/8192.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "People walk through a wet midtown Manhattan. Macy’s postponed its Thanksgiving Day parade to Saturday due to weather.   Photograph: Spencer Platt/Getty Images"
+        },
+        {
+          "type": "p",
+          "text": "The storms also flooded areas from North Carolina through to New Jersey as high tide rolled in. Roads were closed, and emergency workers were rescuing people from cars stranded in water."
+        },
+        {
+          "type": "p",
+          "text": "Avalon, New Jersey, was seeing some of the worst flooding in its history, said Scott J Wahl, the borough’s business administrator."
+        },
+        {
+          "type": "p",
+          "text": "Flood waters washed debris over the road, and a few drivers were rescued after driving around barricades into the waters, but no injuries were reported, Wahl said."
+        },
+        {
+          "type": "p",
+          "text": "Lance Miller, 54, said flood waters in his Ocean City, New Jersey, neighbourhood were about a foot deep and that driving to the nearest supermarket would probably “destroy your car”."
+        },
+        {
+          "type": "p",
+          "text": "The Margate City fire department near Atlantic City, New Jersey posted video on Facebook of water pouring through the city’s streets, even before heavy rains started."
+        },
+        {
+          "type": "p",
+          "text": "A firefighter said the tide was coming in ferociously, even with an hour to go before its peak. Water closed in on houses, and sandbags were piled in front of businesses."
+        },
+        {
+          "type": "p",
+          "text": "Some highways and bridges were temporarily closed. The nearly 18-mile (29-km) Chesapeake Bay bridge-tunnel in southern Virginia was closed for several hours on Thursday morning because of high winds, while NC 12, the only highway connecting Hatteras Island on the North Carolina Outer Banks to the mainland, was closed after seawater breached the dunes and covered the two-lane highway."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/1645f0c282e5933b73b551d4d3537f80d873de58/0_0_3000_2001/master/3000.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The Lincoln Memorial during a rain storm in Washington DC. Photograph: Anna Rose Layden/Reuters"
+        },
+        {
+          "type": "p",
+          "text": "In Maryland, nearly 2 million water customers in Montgomery and Prince George’s counties were asked to conserve water because of intermittent power disruptions associated with the storm. Baltimore police closed several streets on Thursday night after storm surge caused flooding in waterfront neighborhoods."
+        },
+        {
+          "type": "p",
+          "text": "The storms also prompted several brief tornado warnings on Thursday, including a rare twister south-east of Seattle, Washington."
+        },
+        {
+          "type": "p",
+          "text": "Donald Trump signed a disaster declaration on Thursday for Florida in response to earlier flooding that damaged hundreds of homes and required water rescues. The US president had approved funding earlier this week, but gathered local officials on Thanksgiving to talk about it in a small signing ceremony at his home in West Palm Beach."
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, high-tide driven waves and strong winds caused flooding along the Pacific coast on Thursday."
+        },
+        {
+          "type": "p",
+          "text": "Record tides along the California coast forced evacuations in areas from Humboldt county in the far north to Ventura county near Los Angeles."
+        },
+        {
+          "type": "p",
+          "text": "King tides were surging along the west coast."
+        },
+        {
+          "type": "p",
+          "text": "Video showed a big wave tearing down part of the Pacifica pier in California on Wednesday, sending it into the ocean. Officials had closed the L-shaped pier in the summer after finding cracks."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "inq-38bljz",
@@ -1272,13 +1597,88 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Closely watched decision exposes tensions between minority rights and the power of government to override those rights</p><p>Canada’s top court has largely upheld a <a href=\"https://www.theguardian.com/world/2019/nov/07/quebec-law-banning-religious-symbols-derails-womens-careers\">controversial secularism law</a> in the province of Quebec barring public sector workers from wearing conspicuous religious symbols, in a closely watched decision that exposes the tensions between minority rights and the power of government to override those rights.</p><p>In a 6-1 ruling <a href=\"https://www.scc-csc.ca/judgments-jugements/cb/2026/41231/\">released on Friday morning</a>, the supreme court found Quebec was permitted to shield the law, Bill 21, from most court challenges on the grounds that it violated charter rights.</p> <a href=\"https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols\">Continue reading...</a>"
+          "text": "Canada’s top court has largely upheld a controversial secularism law in the province of Quebec barring public sector workers from wearing conspicuous religious symbols, in a closely watched decision that exposes the tensions between minority rights and the power of government to override those rights."
+        },
+        {
+          "type": "p",
+          "text": "In a 6-1 ruling released on Friday morning, the supreme court found Quebec was permitted to shield the law, Bill 21, from most court challenges on the grounds that it violated charter rights."
+        },
+        {
+          "type": "p",
+          "text": "“Bill 21 is rooted in Quebec’s legitimate and historical commitment to ensuring the laicity of the state in a free and democratic society,” chief justice Richard Wagner wrote in the majority opinion."
+        },
+        {
+          "type": "p",
+          "text": "Canada’s top court says the four days of hearings from earlier in the year marked one of the longest in its 151-year history. Fifty-one interveners participated, including six attorneys general – also a record number. The court’s website crashed on Friday morning when the judgment was released."
+        },
+        {
+          "type": "p",
+          "text": "While the judgment was celebrated by some in Quebec who considered it a vindication of the province’s fight, it was swiftly criticised by religious civil liberties groups."
+        },
+        {
+          "type": "p",
+          "text": "“We cannot exist in a country as free people, where governments can literally go to the electorate and say, ‘I’m gonna take away the rights of a certain group of minorities’, because it’s popular and to play wedge politics with the charter rights of Canadians,” Stephen Brown, chief executive of the National Council of Canadian Muslims, told reporters at a press conference. “If that is the case, we don’t have a charter of rights and freedoms. We have a charter of suggestions and permissions.”"
+        },
+        {
+          "type": "p",
+          "text": "Passed in 2019, Quebec’s secularism law, Bill 21, bars workers including lawyers, judges, police and teachers from wearing religious symbols such as a hijab, turban, kippah or a cross while on the job."
+        },
+        {
+          "type": "p",
+          "text": "Central to the case – and the reason provincial governments across the country are closely watching the result – is the “notwithstanding clause”, a constitutional mechanism that allows elected governments to override certain fundamental rights and freedoms guaranteed by Canada’s Charter of Rights and Freedoms."
+        },
+        {
+          "type": "p",
+          "text": "The clause is the result of political compromise from the 1980s, when the federal government set out to replace the existing British North America Act with a new constitution. Provinces feared that under a new constitution, courts would become too powerful, undermining the authority of the elected government. A compromise was hashed out: in cases when a government – provincial or federal – felt that the courts had overstepped, they could invoke the clause to override certain charter rights of citizens."
+        },
+        {
+          "type": "p",
+          "text": "Some fundamental rights, including protections of religious freedom, equality and speech, could be suspended. But voting, as well as language rights, were untouchable, ensuring Canadians could remove a government if they wanted. A government could only invoke the clause for five years. Before they could renew it, they would first have to face voters."
+        },
+        {
+          "type": "p",
+          "text": "In its decision, the supreme court rejected most arguments that Bill 21 violated portions of the charter that are not subject to the notwithstanding clause, including guarantees relating to the equality of men and women and the education rights of Quebec’s English-speaking minority."
+        },
+        {
+          "type": "p",
+          "text": "Quebec’s use of the clause with Bill 21 was notable – and controversial – in that it was the first time the notwithstanding clause had been invoked pre-emptively in an attempt to shield the law from court challenges. Quebec also passed Bill 96, which sought to strengthen French language protections – again pre-emptively invoking the notwithstanding clause."
+        },
+        {
+          "type": "p",
+          "text": "But groups affected by those laws can still challenge them and many teachers, religious and civil liberties groups argued it was a clear violation of constitutional rights and reflected government overreach. Quebec’s government has defended the law, saying it is constitutionally valid."
+        },
+        {
+          "type": "p",
+          "text": "In April 2021, a Quebec superior court judge described the effects of the law as “cruel”, saying it “dehumanises” the people it targets, but conceded the statute could not be struck down because it was protected by the notwithstanding clause. Quebec’s court of appeal also upheld the law in February 2024 on the same grounds."
+        },
+        {
+          "type": "p",
+          "text": "In its 520-page judgment, the court did find that element of the law infringed on democratic rights protected by the charter, including preventing elected members of Quebec’s National Assembly who wear face coverings for religious reasons from participating in the legislative process."
+        },
+        {
+          "type": "p",
+          "text": "In a 4-3 decision, the court also endorsed the ability of lower courts to issue “judicial declarations” on laws protected by the notwithstanding clause, giving judges the power to declare a law in violation of the charter, even though the law would be permitted to stand."
+        },
+        {
+          "type": "p",
+          "text": "The court’s decision was celebrated in Quebec, where the governing Parti Québécois has looked for wedges with the federal government and institutions like the supreme court."
+        },
+        {
+          "type": "p",
+          "text": "The premier, Paul St-Pierre Plamondon, had previously said his province’s right to decide its own laws was at risk."
+        },
+        {
+          "type": "p",
+          "text": "Canada only recently fended off a threat to national unity after voters in Alberta rejected the initial stages of a separatist push. But Quebec’s newly elected government has shown an eagerness to clash with the prime minister, Mark Carney."
+        },
+        {
+          "type": "p",
+          "text": "The supreme court’s judgment comes on the same day an appeal will be heard regarding a superior court decision that forces Quebec’s members of the national assembly to swear allegiance to King Charles to sit in the Salon Bleu – the chamber of the assembly. Lawmakers from a number of parties in the province recently refused to swear the oath of allegiance."
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "dw-1li3ex8",
@@ -1493,6 +1893,56 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "inq-1sdfhr9",
+      "source": "inq",
+      "title": "Tuldok, November 28, 2026",
+      "summary": "... Keep on reading: Tuldok, November 28, 2026",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-27T16:02:00.000Z",
+      "firstSeen": "2026-11-27T17:31:07.637Z",
+      "url": "https://entertainment.inquirer.net/692008/tuldok-november-28-2026",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/11/ItoTuldok11282026-700x221.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "... Keep on reading: Tuldok, November 28, 2026"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-11m29ia",
+      "source": "inq",
+      "title": "Crazy Jhenny, November 28, 2026",
+      "summary": "... Keep on reading: Crazy Jhenny, November 28, 2026",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-27T16:01:00.000Z",
+      "firstSeen": "2026-11-27T17:31:10.685Z",
+      "url": "https://entertainment.inquirer.net/692002/crazy-jhenny-november-28-2026",
+      "image": {
+        "src": "https://entertainment.inquirer.net/files/2026/11/CrazyJhenny11282026-700x214.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "... Keep on reading: Crazy Jhenny, November 28, 2026"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-mbwgye",
@@ -2337,7 +2787,7 @@
       "byline": "",
       "section": "",
       "published": "2026-11-27T15:56:24.000Z",
-      "firstSeen": "2026-11-27T17:01:12.956Z",
+      "firstSeen": "2026-11-27T17:30:58.025Z",
       "url": "https://www.abs-cbn.com/",
       "image": null,
       "blocks": [],
@@ -2445,13 +2895,56 @@
       "blocks": [
         {
           "type": "p",
-          "text": "<p>Pharmacies being asked to administer jabs to children for first time amid NHS pre-Christmas vaccination push </p><p>Parents are being urged to make sure their children are vaccinated against flu before Christmas amid a surge in hospitalisations, with pharmacies being asked to administer them for the first time.</p><p>The NHS in England is pushing to vaccinate thousands of children who missed out when jabs were administered at schools. More than 6,000 high street pharmacies are offering appointments, with bookings opening on Monday through the NHS app or the NHS find a pharmacy webpage, with appointments from Tuesday.</p> <a href=\"https://www.theguardian.com/society/2026/nov/27/parents-urged-to-vaccinate-children-for-flu-as-hospital-cases-surge-in-england\">Continue reading...</a>"
+          "text": "Parents are being urged to make sure their children are vaccinated against flu before Christmas amid a surge in hospitalisations, with pharmacies being asked to administer them for the first time."
+        },
+        {
+          "type": "p",
+          "text": "The NHS in England is pushing to vaccinate thousands of children who missed out when jabs were administered at schools. More than 6,000 high street pharmacies are offering appointments, with bookings opening on Monday through the NHS app or the NHS find a pharmacy webpage, with appointments from Tuesday."
+        },
+        {
+          "type": "p",
+          "text": "Dr Suzanna McDonald, the flu vaccination programme lead at the UK Health Security Agency (UKHSA), said: “Vaccinating schoolchildren against flu not only helps protect them, but crucially helps protect younger siblings and other more vulnerable family members at greater risk, like grandparents."
+        },
+        {
+          "type": "p",
+          "text": "“Ensuring all children from age two receive a flu vaccine every winter is so important to help prevent the thousands of unnecessary hospitalisations we see among unvaccinated children."
+        },
+        {
+          "type": "p",
+          "text": "“Please don’t dismiss the importance of a flu vaccine for your children. It will help keep them out of hospital and even save lives. Don’t put your child needlessly at risk; book that appointment with your GP surgery or at some community pharmacies offering the vaccine.”"
+        },
+        {
+          "type": "p",
+          "text": "Pharmacies are also offering nasal spray flu vaccinations for two- and three-year-olds. Children can fall very ill with flu and can spread it to more vulnerable people. More than 3.5 million children from reception to year 11 have already had their vaccine."
+        },
+        {
+          "type": "p",
+          "text": "The rate of flu admissions in England stood at 9 in 100,000 people last week; up from 5 in 100,000 in the previous seven days, according to the UKHSA. Admissions stood at 4.9 in 100,000 in the equivalent week in 2025."
+        },
+        {
+          "type": "p",
+          "text": "UKHSA data shows the rate has not been at such a high level at this point in November in any previous year this decade. It confirmed the number of attendances at hospital emergency departments for flu-like illnesses was “above seasonally expected levels”."
+        },
+        {
+          "type": "p",
+          "text": "The NHS England national medical director, Prof Frankie Swords, said: “The run-up to Christmas can be such a busy time for parents, so it’s great news that for the first time, it’s now really easy to book your child’s flu vaccine at your local high street pharmacy if they missed it in school.”"
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "“Winter viruses like flu are on the rise again, which puts real pressure on the NHS and could also ruin your family’s plans for Christmas. This offer is another way to protect children, families and communities, so if you need an appointment for your child, please book now.”"
+        },
+        {
+          "type": "p",
+          "text": "McDonald told BBC Radio 4’s Today programme on Friday: “Hospital admission rates have increased 80% in the latest data that we’ve published this week compared to last week … What we’re seeing is that sharp rise is coming in a few weeks earlier than we saw this time last season, but last season was the earliest season that we’d seen for over 20 years. This is very early to be seeing such high demand in hospitals.”"
         }
       ],
-      "truncated": true,
+      "truncated": false,
       "fx": 6,
-      "source_of_text": "summary",
-      "why": "direct circuit open after repeated HTTP 403"
+      "source_of_text": "page"
     },
     {
       "id": "abs-pmdl60",
@@ -2655,6 +3148,121 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "cbc-1c9x8mk",
+      "source": "cbc",
+      "title": "Workplace safety charges laid in 2024 shooting death of Edmonton security guard",
+      "summary": "Workplace safety charges have been laid in connection with the death of an Edmonton security guard who was shot on the job two years ago.",
+      "byline": "Wallis Snowdon",
+      "section": "News/Canada/Edmonton",
+      "published": "2026-11-27T15:41:16.000Z",
+      "firstSeen": "2026-11-27T17:30:58.025Z",
+      "url": "https://www.cbc.ca/news/canada/edmonton/singh-security-shooting-9.7438536?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/1.7406019,1733798156000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C1013%2C3024%2C1701%29%3BResize%3D620",
+        "caption": "Harshandeep Singh, 20, was shot and killed inside a central Edmonton apartment building in the early morning of Dec. 6, 2024, while he was working as a security guard. (Submitted by Navjot Singh Shergill)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Edmonton"
+        },
+        {
+          "type": "p",
+          "text": "Workplace safety charges have been laid in connection with the death of an Edmonton security guard who was shot on the job two years ago."
+        },
+        {
+          "type": "h",
+          "text": "Harshandeep Singh was patrolling downtown apartment building alone and at night"
+        },
+        {
+          "type": "p",
+          "text": "Harshandeep Singh, 20, died on Dec. 6, 2024, after he was found unresponsive in a stairwell by police officers responding to a call about reported gunshots at a downtown Edmonton apartment building."
+        },
+        {
+          "type": "p",
+          "text": "Singh, who had moved to Canada from India as an international business student, was patrolling the property alone at night. It was his third day on the job."
+        },
+        {
+          "type": "p",
+          "text": "His employer, National Security Guard Protection Services Inc., was charged last week with failing to ensure his safety and failing to address the previous violence reported at the property, according to the provincial government's Occupational Health and Safety (OHS) website."
+        },
+        {
+          "type": "p",
+          "text": "According to the OHS charges, Singh was conducting security patrols in the apartment building at 10603 107th Ave., when he was assaulted and then fatally shot."
+        },
+        {
+          "type": "p",
+          "text": "The building had been the site of a previous shooting on Nov. 21, 2024, two weeks before Singh's death."
+        },
+        {
+          "type": "p",
+          "text": "Two weeks after his death, the apartment building was shut down by the City of Edmonton over \"serious safety concerns,\" triggering the relocation of more than 60 tenants."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Man shot 2 weeks earlier in same Edmonton building where security guard slain"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "National Security Guard Protection Services Inc. is facing a total of five charges under the Occupational Health and Safety Act, for failing to reassess the hazards at the work site in a timely manner “after violent incidents occurred” and for failing to withdraw security guard services from the building when the hazards could no longer be “eliminated or controlled.”"
+        },
+        {
+          "type": "p",
+          "text": "Investigators further allege the Alberta-based company failed to ensure the necessary hazard assessments and violence prevention plans were adopted, and revised as necessary."
+        },
+        {
+          "type": "p",
+          "text": "The company has not responded to a request for comment on the charges."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Slain Edmonton security guard remembered as generous, selfless",
+            "1 year after Edmonton security guard's death, province says updated training curriculum on the way"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Singh, a NorQuest College student, took the security job because he wanted to build experience for a career in policing."
+        },
+        {
+          "type": "p",
+          "text": "His death triggered calls for better protections and improved safety standards for security guards, and prompted the Alberta government to announce plans to change its mandatory training programs for licensed security guards in the province."
+        },
+        {
+          "type": "p",
+          "text": "Harshandeep Singh, 20, was killed in a 2024 shooting while working as a security guard in an Edmonton apartment building. Workplace safety charges have now been laid in his death. (Samuel Martin/CBC)"
+        },
+        {
+          "type": "p",
+          "text": "A man and woman have been charged in Singh’s killing."
+        },
+        {
+          "type": "p",
+          "text": "Evan Chase Rain, 31, is facing a charge of first-degree murder. Judith Saulteaux, also 31, has had her charge downgraded to second-degree murder."
+        },
+        {
+          "type": "p",
+          "text": "Record records show their trials are expected to get underway in late February 2027."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Wallis Snowdon is a journalist with CBC Edmonton focused on bringing stories to the website and the airwaves. Originally from New Brunswick, Wallis has reported in communities across Canada, from Halifax to Fort McMurray. She previously worked as a digital and current affairs producer with CBC Radio in Edmonton. Share your stories with Wallis at wallis.snowdon@cbc.ca."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "grd-2t4ww5",
@@ -6973,31 +7581,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-4jfp1g",
-      "source": "inq",
-      "title": "NTC logs no overdue FOI requests in nearly 10 years",
-      "summary": "MANILA, Philippines — The National Telecommunications Commission (NTC) had no overdue pending Freedom of Information (FOI) requests from Jan. 31, 2017, to June 30, 2026. In a statement, the NTC said…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-27T12:55:31.000Z",
-      "firstSeen": "2026-11-27T13:31:01.020Z",
-      "url": "https://business.inquirer.net/623204/ntc-logs-no-overdue-foi-requests-in-nearly-10-years",
-      "image": {
-        "src": "https://business.inquirer.net/files/2023/04/NTC-LOGO-300x169.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The National Telecommunications Commission (NTC) had no overdue pending Freedom of Information (FOI) requests from Jan. 31, 2017, to June 30, 2026. In a statement, the NTC said the FOI Program Management Office had named it among the government agencies that consistently complied with the FOI Program over the period. READ: NTC recognized as ‘Freedom of Information Champion’ Since 2018, it has also ranked among the most requested and top-performing agencies on the electronic Freedom of Information (eFOI) portal. Likewise, the portal lets the public request government records. For consumers and businesses seeking information from the telecommunications regulator, the [&hellip;]... Keep on reading: NTC logs no overdue FOI requests in nearly 10 years"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
-    },
-    {
       "id": "abs-dc7htp",
       "source": "abs",
       "title": "Senators say medical assistance program should be removed",
@@ -7018,31 +7601,6 @@
       "fx": 6,
       "source_of_text": "summary",
       "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "inq-14qjo7l",
-      "source": "inq",
-      "title": "Legarda urges LGUs to set up free public cooling centers for El Niño",
-      "summary": "MANILA, Philippines — Sen. Loren Legarda is urging local government units (LGUs) to open free public cooling centers in barangay halls and other accessible community facilities, and partner with…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-27T12:53:52.000Z",
-      "firstSeen": "2026-11-27T13:01:00.602Z",
-      "url": "https://newsinfo.inquirer.net/2348219/legarda-urges-lgus-to-set-up-free-public-cooling-centers-for-el-nino",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/LorenLegarda-23Oct2026-620x394.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — Sen. Loren Legarda is urging local government units (LGUs) to open free public cooling centers in barangay halls and other accessible community facilities, and partner with shopping malls to provide relief from dangerous heat as a very strong El Niño threatens the health of vulnerable Filipinos. The proposal forms the sixth point of her 10-Point Policy Action Plan against El Niño, launched on Oct. 19. It aims to provide safe places where residents can cool down, rest, and get drinking water, particularly those without air-conditioning at home and workers who spend long hours outdoors. “If you have air-conditioning at [&hellip;]... Keep on reading: Legarda urges LGUs to set up free public cooling centers for El Niño"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "abs-cdqp3p",
@@ -7341,56 +7899,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-4mq3ai",
-      "source": "inq",
-      "title": "Lapu-Lapu City intensifies dengue prevention as cases rise to 2,507",
-      "summary": "LAPU-LAPU CITY, Cebu – Lapu-Lapu City is sustaining dengue prevention efforts across all its barangays while intensifying surveillance and targeted interventions in communities recording the highest…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-27T12:42:31.000Z",
-      "firstSeen": "2026-11-27T13:01:00.644Z",
-      "url": "https://cebudailynews.inquirer.net/788746/lapu-lapu-city-intensifies-dengue-prevention-as-cases-rise-to-2507",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/05/Japan-Dengue-620x438.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "LAPU-LAPU CITY, Cebu – Lapu-Lapu City is sustaining dengue prevention efforts across all its barangays while intensifying surveillance and targeted interventions in communities recording the highest number of infections. Basak topped the list of barangays with the most dengue cases, recording 354 infections and four deaths from January to November 2026. It was followed by Mactan with 283 cases and one death, Pusok with 198 cases and one death, Babag with 185 cases and one death, and Gun-ob with 176 cases. &#8220;Karun sa areas na-belong sa top 5, wala nay (additional) mortality rate,&#8221; said Dr. Niño Nero Almirante, medical coordinator for [&hellip;]... Keep on reading: Lapu-Lapu City intensifies dengue prevention as cases rise to 2,507"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-lhz1jn",
-      "source": "inq",
-      "title": "SPD says driver who fell from Makati building only a reliever",
-      "summary": "MANILA, Philippines — The 55-year-old driver who fell from a fourth floor parking building along Jimenez Street in Barangay San Lorenzo, Makati City was only a reliever the day of the incident, the…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-27T12:39:23.000Z",
-      "firstSeen": "2026-11-27T14:31:08.814Z",
-      "url": "https://newsinfo.inquirer.net/2348218/spd-says-driver-who-fell-from-makati-building-only-a-reliever",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Parking-accident-makati-building-620x502.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The 55-year-old driver who fell from a fourth floor parking building along Jimenez Street in Barangay San Lorenzo, Makati City was only a reliever the day of the incident, the Southern Police District (SPD) disclosed. SPD Public Information Officer PLt. Margaret Panaga said that the driver picked up the vehicle parked inside the building around 11:46 a.m. to pick up someone on Thursday, Nov. 26. She added that the victim was new and not familar with driving the Toyota Vios. READ: PNP orders probe in car mishap for possible negligence “Ito ang driver kahapon is reliever lamang po [&hellip;]... Keep on reading: SPD says driver who fell from Makati building only a reliever"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqg-14lyf0e",
@@ -10054,59 +10562,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "grd-srsdsf",
-      "source": "grd",
-      "title": "King tides batter US coasts as storms threaten Thanksgiving celebrations",
-      "summary": "<p>Heavy rain, strong winds and coastal flooding creating hazardous conditions for millions travelling for holiday</p><p>King tides and huge waves have been battering both coasts of the US during a…",
-      "byline": "Matt Andrews",
-      "section": "US weather",
-      "published": "2026-11-27T10:50:48.000Z",
-      "firstSeen": "2026-11-27T11:30:58.920Z",
-      "url": "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/7021c3fba59895984e4b86a1f246a4fffca9c129/748_0_5657_4528/master/5657.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0745a496008c3ef202341048fa4ade18",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "King tides and huge waves have been battering both coasts of the US during a turbulent Thanksgiving period, with severe weather threatening millions across the country. Along the California coast, king tides caused considerable damage. In Pacifica, south of San Francisco, large waves battered the coastline on Wednesday, destroying part of a pier and sending debris into the ocean."
-        },
-        {
-          "type": "p",
-          "text": "The National Weather Service issued coastal flood warnings covering parts of the Pacific coastline and shorelines around San Francisco Bay and San Pablo Bay. Several beachfront properties in Pacifica have already experienced flooding, while authorities in Marin County temporarily issued an evacuation warning for residents of beachfront homes at Stinson Beach."
-        },
-        {
-          "type": "p",
-          "text": "The high tides also affected southern California. San Diego recorded a tide of 8ft 11in (2.7 metres) on Wednesday morning, while Los Angeles experienced tides reaching approximately 8.19ft, potentially surpassing a record set at the end of October."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/bb7a88bc454fe21c03b6df5068f0d0242e669050/0_0_2792_1564/master/2792.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "A flooded street in Sea Isle City, New Jersey. Photograph: Seetheview.com/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "King tides are unusually high natural tides that occur when the gravitational forces of the sun and moon combine around their alignment with Earth. Their impact is being heightened by unusually warm Pacific waters associated with the 2026 super El Niño."
-        },
-        {
-          "type": "p",
-          "text": "A Nor’easter has also been bringing severe weather across the eastern US. The system produced heavy rain, damaging winds and coastal flooding, creating hazardous conditions for millions of Americans travelling to celebrate the holiday."
-        },
-        {
-          "type": "p",
-          "text": "The severity of the forecast forced an unprecedented decision in New York: Macy’s postponed its 100th annual Thanksgiving Day parade, originally scheduled for Thursday, until Saturday. It was the first time in the event’s history that the parade had been postponed because of weather. The decision was taken to safeguard performers and spectators, particularly given the dangers that powerful gusts pose to the parade’s enormous character balloons."
-        },
-        {
-          "type": "p",
-          "text": "Meanwhile, significant fresh snowfall during the past week has transformed conditions across several major ski regions in the Alps, providing an excellent early season foundation for the new season. French resorts have been among the biggest beneficiaries. Reported accumulated snow depths on Thursday included approximately 120cm in the Tignes-Val d’Isère area, while substantial snowfall was recorded around Les Deux Alpes, Alpe d’Huez and the Les Trois Vallées. Further snowfall is forecast across parts of France, Switzerland, Italy and Austria, with several resorts expecting additional accumulations over the coming days."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "grd-11uer47",
       "source": "grd",
       "title": "Momentous decision awaits after judges’ call for Netanyahu charges to be dropped",
@@ -11071,98 +11526,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "cbc-2zice6",
-      "source": "cbc",
-      "title": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
-      "summary": "A powerful storm disrupted the Thanksgiving holiday along much of the U.S. East Coast on Thursday, knocking out power to nearly 1 million customers at one point as wind gusts of up to 112 km/h…",
-      "byline": "CBC",
-      "section": "News/World",
-      "published": "2026-11-27T09:57:50.000Z",
-      "firstSeen": "2026-11-27T10:30:57.186Z",
-      "url": "https://www.cbc.ca/news/world/u-s-thanksgiving-storm-power-flight-delays-9.7438358?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/36e09950-3c14-4e21-a649-39b2b2ac843e,1795768723382/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C28%2C594%2C334%29%3BResize%3D620",
-        "caption": "New York postponed the iconic Macy's Thanksgiving Day Parade to Saturday over fears of extreme weather, a first in the event's 100-year history, as a major storm gathered steam on the U.S. East Coast. (Kena Betancur AFP/Getty Images)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "World·New"
-        },
-        {
-          "type": "p",
-          "text": "A powerful storm disrupted the Thanksgiving holiday along much of the U.S. East Coast on Thursday, knocking out power to nearly 1 million customers at one point as wind gusts of up to 112 km/h toppled trees and power lines."
-        },
-        {
-          "type": "h",
-          "text": "More than 900,000 U.S. utility customers had no power Thursday evening"
-        },
-        {
-          "type": "p",
-          "text": "The storm contributed to flight delays, with FlightAware reporting a total of 454 U.S.-related cancellations on Thursday and 2,411 delays. Major airports in the Washington and New York City areas were among the hardest hit."
-        },
-        {
-          "type": "p",
-          "text": "Heavy rains flooded coastal areas, while utilities warned of an increased risk of falling trees and power outages."
-        },
-        {
-          "type": "p",
-          "text": "More than 908,000 U.S. utility customers had no power as of 9:56 p.m. ET, according to PowerOutage.us, down from 961,000 at 7:30 p.m. ET."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Macy's Thanksgiving Parade postponed to Saturday due to expected high winds",
-            "Flooding triggers evacuation order for dozens of properties on Vancouver Island"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The data included more than 207,000 outages in Pennsylvania, over 179,000 in New Jersey, 139,000 in Maryland,106,000 in Virginia, 100,000 in Missouri and more than 68,000 in New Yorkstate."
-        },
-        {
-          "type": "p",
-          "text": "Waves crash over dunes and onto the boardwalk on Thursday in Bethany Beach, Delaware. (Kevin Dietsch/Getty Images)"
-        },
-        {
-          "type": "p",
-          "text": "Wind gusts of 80-112 km/h were reported or forecast across parts of Virginia, Maryland, Delaware, New Jersey, New York, and coastal New England, according to the U.S. National Weather Service (NWS)."
-        },
-        {
-          "type": "p",
-          "text": "It said conditions would gradually improve across the Mid-Atlantic overnight as the heaviest rain and strongest winds moved into New England, although blustery conditions with gusts of 40 to 55 km/h were expected across parts of the East Coast on Friday."
-        },
-        {
-          "type": "p",
-          "text": "New York City Emergency Management reported winds intensified on Thursday afternoon, reaching 90 km/h at LaGuardia Airport."
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "FedEx airplane overruns runway at Miami airport, temporarily closing all but 1 runway",
-            "Up to 9 hours of freezing rain in forecast for N.B., warning says"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The NWS said strong onshore winds associated with the storm, combined with king tides, were causing coastal flooding in low-lying communities along portions of the East Coast."
-        },
-        {
-          "type": "p",
-          "text": "Officials had already postponed Thursday's 100th edition of the annual Macy's ​Thanksgiving Day Parade in New York City because of the storm threat, the first time the event has been rescheduled due to severe weather."
-        },
-        {
-          "type": "p",
-          "text": "Separately on Thursday, President Donald Trump said he had approved about $100 million US in federal aid to Florida following severe storms and flooding there. He said the total included funding previously approved in connection with Hurricane Isaias."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-isdqnu",
       "source": "abs",
       "title": "Chief Justice to court interpreters: ‘Justice must never get lost in translation’",
@@ -12094,6 +12457,227 @@
       "source_of_text": "page"
     },
     {
+      "id": "cbc-157v5db",
+      "source": "cbc",
+      "title": "Danielle Smith’s hold over UCP takes centre stage as 7,000 members registered for annual meeting",
+      "summary": "Alberta's United Conservatives kick off their fifth annual general meeting under Premier Danielle Smith Friday, a gathering expected to reveal much about the party’s future a little more than a month…",
+      "byline": "Joel Dryden",
+      "section": "News/Canada/Calgary",
+      "published": "2026-11-27T09:00:00.000Z",
+      "firstSeen": "2026-11-27T14:31:05.011Z",
+      "url": "https://www.cbc.ca/news/canada/calgary/danielle-smith-alberta-ucp-agm-martin-belanger-9.7437423?cmp=rss",
+      "image": {
+        "src": "https://i.cbc.ca/ais/2eca4177-a527-4751-92c0-cadbf1770529,1795717024974/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C5072%2C2853%29%3BResize%3D620",
+        "caption": "Alberta Premier Danielle Smith speaks to party faithful at a prior United Conservative Party annual general meeting in Calgary in 2023. (Jeff McIntosh/The Canadian Press)"
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Calgary"
+        },
+        {
+          "type": "p",
+          "text": "Alberta's United Conservatives kick off their fifth annual general meeting under Premier Danielle Smith Friday, a gathering expected to reveal much about the party’s future a little more than a month after a divisive referendum."
+        },
+        {
+          "type": "h",
+          "text": "Annual gathering to draw party faithful (and those in crisis of faith)"
+        },
+        {
+          "type": "p",
+          "text": "In the days after the vote, Smith said the UCP would not be turned into a vehicle for independence."
+        },
+        {
+          "type": "p",
+          "text": "But party unity remains elusive."
+        },
+        {
+          "type": "p",
+          "text": "Several constituency association presidents have refused to sign pledges backing the results, meaning the independence issue remains a live one heading into the weekend."
+        },
+        {
+          "type": "p",
+          "text": "Smith herself has advocated for conservatives to band together, suggesting she expects a “really robust [and] fun” debate at the annual meeting."
+        },
+        {
+          "type": "p",
+          "text": "“We sadly always seem to try to find the things that blow us apart. I keep on wanting to try to find the things that will draw us together,” Smith told longtime separatist Cory Morgan in a recent interview."
+        },
+        {
+          "type": "p",
+          "text": "Some attendees, though, expect these fissures to come into public view on the convention floor over the course of the weekend."
+        },
+        {
+          "type": "p",
+          "text": "“I think she’s going to get absolutely surprised at the AGM,” said Martin Belanger, a social media influencer who has been a vocal proponent for Alberta independence on his channel, Martyupnorth."
+        },
+        {
+          "type": "p",
+          "text": "“If people think that Jeff Rath getting up in front of the mic last year and saying, ‘Who here is pro-independence?’ [was notable] … You’re going to get a moment like that, after moment, after moment.”"
+        },
+        {
+          "type": "p",
+          "text": "Jeffrey Rath, co-founder of the Alberta Prosperity Project, speaks at a referendum watch party in October. At last year’s AGM, Rath received a standing ovation at a microphone after challenging Alberta Premier Danielle Smith. (John Ulan/The Canadian Press)"
+        },
+        {
+          "type": "p",
+          "text": "For Belanger and others in his camp, frustration lies with Smith’s approach to Ottawa."
+        },
+        {
+          "type": "p",
+          "text": "“Some people are fed up with negotiations,” Belanger said."
+        },
+        {
+          "type": "p",
+          "text": "“In this big tent, we have different paths, and she’s trying to shove us down one path. I don’t think she’s genuine when she says she wants that discussion, because some of her actions of late don’t reflect that.”"
+        },
+        {
+          "type": "h",
+          "text": "Remarks expected from 3 conservative premiers"
+        },
+        {
+          "type": "p",
+          "text": "More than 7,000 members have registered for the event at Calgary’s BMO Centre. On Friday, candidates for the UCP board will deliver speeches."
+        },
+        {
+          "type": "p",
+          "text": "Saskatchewan Premier Scott Moe and British Columbia Premier Lorne Doerkson are expected to deliver remarks later in the day."
+        },
+        {
+          "type": "p",
+          "text": "British Columbia Premier Lorne Doerkson looks on during the swearing-in ceremony at Government House in Victoria on Nov. 20. Doerkson and Saskatchewan Premier Scott Moe are expected to deliver remarks on Friday at the 2026 United Conservative Party annual general meeting. (Chad Hipolito/The Canadian Press)"
+        },
+        {
+          "type": "p",
+          "text": "During the event, members will vote for eight people to join the party’s board while also voting on proposed policy matters. Smith will deliver a keynote address Saturday morning."
+        },
+        {
+          "type": "p",
+          "text": "It will be a balancing act for Smith as she is tasked with appearing as though she has a reasonably united party behind her, without conceding too much ground to the separatists in the party, said Lisa Young, a professor of political science at the University of Calgary."
+        },
+        {
+          "type": "p",
+          "text": "“I would imagine that there’s a substantial number of party members who are sympathetic to the idea that they have to set aside their differences, because this is the last convention going into an election,” Young said."
+        },
+        {
+          "type": "p",
+          "text": "“What proportion of the members those are … it’s anyone’s guess, really.”"
+        },
+        {
+          "type": "h",
+          "text": "Resolutions on land acknowledgements, washrooms"
+        },
+        {
+          "type": "p",
+          "text": "Members will also vote on a series of grassroots policy resolutions during the meeting. While non-binding, they signal the desires of party faithful and have influenced party legislation in the past."
+        },
+        {
+          "type": "p",
+          "text": "For instance, at last year’s annual general meeting, Smith pointed to recent legislation that she said was inspired by the “attack” on psychologist and media personality Jordan Peterson."
+        },
+        {
+          "type": "p",
+          "text": "“That came from you. That was your policy last AGM. We're calling it the 'Peterson law,’” Smith said during her speech to delegates."
+        },
+        {
+          "type": "p",
+          "text": "As she has at AGMs past, Smith will hold an “accountability session” in front of members on Saturday."
+        },
+        {
+          "type": "p",
+          "text": "Delegates cast their votes at the United Conservative Party annual general meeting in Calgary on Nov. 4, 2023. (Jeff McIntosh/The Canadian Press)"
+        },
+        {
+          "type": "p",
+          "text": "This year, delegates will debate policy resolutions that will be voted on by members during the convention, including:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ending the use of land acknowledgements by the government, as well as all publicly-funded institutions and entities.",
+            "Adopting policy that would “protect the safety and privacy of women and girls in schools and public facilities,” including washrooms and change areas.",
+            "Mandate that Alberta use \"all available legal avenues” to challenge federal land claims, including Indigenous claims that \"may infringe on private property owners and their rights.\"",
+            "Pass legislation that would require an MLA who departs their party to sit as an independent member and seek a renewed mandate from voters before joining another party."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Notably, there are no policy resolutions tied to the notion of separating from Canada to be debated."
+        },
+        {
+          "type": "p",
+          "text": "Near the site of the convention, some people opposed to the UCP government's priorities have promised to hold a sort of “accountability” session of their own, saying there will be “costumes, signs, music” and other forms of protest."
+        },
+        {
+          "type": "p",
+          "text": "“There are so many awful issues!” the Calgary Raging Grannies wrote in a post on Facebook."
+        },
+        {
+          "type": "h",
+          "text": "Who will sit on the party's board?"
+        },
+        {
+          "type": "p",
+          "text": "To many, the biggest thing to watch over the weekend will be the results of the board elections. Half of the provincial board is elected each year, with winners going on to serve two years."
+        },
+        {
+          "type": "p",
+          "text": "Going into the next election, this group will set the rules and the processes for nomination and platform development, making this key to the party’s future, said Colin Aitchison, managing director of western Canada with Enterprise Canada."
+        },
+        {
+          "type": "p",
+          "text": "“I think a lot of the party membership … they want the party to be best positioned to beat the NDP and Naheed Nenshi in the next election,” said Aitchison, who was a former spokesperson for the UCP under ministers Adriana LaGrange and Nicholas Milliken."
+        },
+        {
+          "type": "p",
+          "text": "“In order to do that, you need to have a unified leadership at the top, and one that supports the current leader and their agenda.”"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The 'unity' fight splitting Danielle Smith's party intensifies at UCP convention"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Some running for the party board have dismissed the idea that the disagreements that have emerged over past months can be resolved simply by supporting a unity principle."
+        },
+        {
+          "type": "p",
+          "text": "“A strong leader should welcome a board willing to speak candidly on behalf of its members,” wrote Vince Byfield, a board candidate, on his Substack."
+        },
+        {
+          "type": "p",
+          "text": "“Sometimes that means offering support, sometimes it means proposing alternatives, and sometimes it means saying that members have serious concerns about a particular decision. None of those actions is inherently disloyal.”"
+        },
+        {
+          "type": "p",
+          "text": "Board election results are expected to be delivered on Saturday evening, just before the adjournment of the annual general meeting."
+        },
+        {
+          "type": "h",
+          "text": "ABOUT THE AUTHOR"
+        },
+        {
+          "type": "p",
+          "text": "Joel is a senior writer with CBC Calgary. In fall 2021, he spent time with CBC's bureau in Lethbridge. He was previously the editor of the Airdrie City View and Rocky View Weekly newspapers. He hails from Swift Current, Sask. Reach him by email at joel.dryden@cbc.ca"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "joeldryden.bsky.social",
+            "@joeldryden"
+          ]
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
       "id": "cbc-1dxsjzr",
       "source": "cbc",
       "title": "Jays tickets, drums and Tinder: Hundreds of purchases made with Toronto city credit cards raise questions about misuse",
@@ -12567,227 +13151,6 @@
         {
           "type": "p",
           "text": "Scott hopes the publication of this study will encourage more people to contribute."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "cbc-157v5db",
-      "source": "cbc",
-      "title": "Danielle Smith’s hold over UCP takes centre stage as 7,000 members registered for annual meeting",
-      "summary": "Alberta's United Conservatives kick off their fifth annual general meeting under Premier Danielle Smith Friday, a gathering expected to reveal much about the party’s future a little more than a month…",
-      "byline": "Joel Dryden",
-      "section": "News/Canada/Calgary",
-      "published": "2026-11-27T09:00:00.000Z",
-      "firstSeen": "2026-11-27T14:31:05.011Z",
-      "url": "https://www.cbc.ca/news/canada/calgary/danielle-smith-alberta-ucp-agm-martin-belanger-9.7437423?cmp=rss",
-      "image": {
-        "src": "https://i.cbc.ca/ais/2eca4177-a527-4751-92c0-cadbf1770529,1795717024974/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C5072%2C2853%29%3BResize%3D620",
-        "caption": "Alberta Premier Danielle Smith speaks to party faithful at a prior United Conservative Party annual general meeting in Calgary in 2023. (Jeff McIntosh/The Canadian Press)"
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Calgary"
-        },
-        {
-          "type": "p",
-          "text": "Alberta's United Conservatives kick off their fifth annual general meeting under Premier Danielle Smith Friday, a gathering expected to reveal much about the party’s future a little more than a month after a divisive referendum."
-        },
-        {
-          "type": "h",
-          "text": "Annual gathering to draw party faithful (and those in crisis of faith)"
-        },
-        {
-          "type": "p",
-          "text": "In the days after the vote, Smith said the UCP would not be turned into a vehicle for independence."
-        },
-        {
-          "type": "p",
-          "text": "But party unity remains elusive."
-        },
-        {
-          "type": "p",
-          "text": "Several constituency association presidents have refused to sign pledges backing the results, meaning the independence issue remains a live one heading into the weekend."
-        },
-        {
-          "type": "p",
-          "text": "Smith herself has advocated for conservatives to band together, suggesting she expects a “really robust [and] fun” debate at the annual meeting."
-        },
-        {
-          "type": "p",
-          "text": "“We sadly always seem to try to find the things that blow us apart. I keep on wanting to try to find the things that will draw us together,” Smith told longtime separatist Cory Morgan in a recent interview."
-        },
-        {
-          "type": "p",
-          "text": "Some attendees, though, expect these fissures to come into public view on the convention floor over the course of the weekend."
-        },
-        {
-          "type": "p",
-          "text": "“I think she’s going to get absolutely surprised at the AGM,” said Martin Belanger, a social media influencer who has been a vocal proponent for Alberta independence on his channel, Martyupnorth."
-        },
-        {
-          "type": "p",
-          "text": "“If people think that Jeff Rath getting up in front of the mic last year and saying, ‘Who here is pro-independence?’ [was notable] … You’re going to get a moment like that, after moment, after moment.”"
-        },
-        {
-          "type": "p",
-          "text": "Jeffrey Rath, co-founder of the Alberta Prosperity Project, speaks at a referendum watch party in October. At last year’s AGM, Rath received a standing ovation at a microphone after challenging Alberta Premier Danielle Smith. (John Ulan/The Canadian Press)"
-        },
-        {
-          "type": "p",
-          "text": "For Belanger and others in his camp, frustration lies with Smith’s approach to Ottawa."
-        },
-        {
-          "type": "p",
-          "text": "“Some people are fed up with negotiations,” Belanger said."
-        },
-        {
-          "type": "p",
-          "text": "“In this big tent, we have different paths, and she’s trying to shove us down one path. I don’t think she’s genuine when she says she wants that discussion, because some of her actions of late don’t reflect that.”"
-        },
-        {
-          "type": "h",
-          "text": "Remarks expected from 3 conservative premiers"
-        },
-        {
-          "type": "p",
-          "text": "More than 7,000 members have registered for the event at Calgary’s BMO Centre. On Friday, candidates for the UCP board will deliver speeches."
-        },
-        {
-          "type": "p",
-          "text": "Saskatchewan Premier Scott Moe and British Columbia Premier Lorne Doerkson are expected to deliver remarks later in the day."
-        },
-        {
-          "type": "p",
-          "text": "British Columbia Premier Lorne Doerkson looks on during the swearing-in ceremony at Government House in Victoria on Nov. 20. Doerkson and Saskatchewan Premier Scott Moe are expected to deliver remarks on Friday at the 2026 United Conservative Party annual general meeting. (Chad Hipolito/The Canadian Press)"
-        },
-        {
-          "type": "p",
-          "text": "During the event, members will vote for eight people to join the party’s board while also voting on proposed policy matters. Smith will deliver a keynote address Saturday morning."
-        },
-        {
-          "type": "p",
-          "text": "It will be a balancing act for Smith as she is tasked with appearing as though she has a reasonably united party behind her, without conceding too much ground to the separatists in the party, said Lisa Young, a professor of political science at the University of Calgary."
-        },
-        {
-          "type": "p",
-          "text": "“I would imagine that there’s a substantial number of party members who are sympathetic to the idea that they have to set aside their differences, because this is the last convention going into an election,” Young said."
-        },
-        {
-          "type": "p",
-          "text": "“What proportion of the members those are … it’s anyone’s guess, really.”"
-        },
-        {
-          "type": "h",
-          "text": "Resolutions on land acknowledgements, washrooms"
-        },
-        {
-          "type": "p",
-          "text": "Members will also vote on a series of grassroots policy resolutions during the meeting. While non-binding, they signal the desires of party faithful and have influenced party legislation in the past."
-        },
-        {
-          "type": "p",
-          "text": "For instance, at last year’s annual general meeting, Smith pointed to recent legislation that she said was inspired by the “attack” on psychologist and media personality Jordan Peterson."
-        },
-        {
-          "type": "p",
-          "text": "“That came from you. That was your policy last AGM. We're calling it the 'Peterson law,’” Smith said during her speech to delegates."
-        },
-        {
-          "type": "p",
-          "text": "As she has at AGMs past, Smith will hold an “accountability session” in front of members on Saturday."
-        },
-        {
-          "type": "p",
-          "text": "Delegates cast their votes at the United Conservative Party annual general meeting in Calgary on Nov. 4, 2023. (Jeff McIntosh/The Canadian Press)"
-        },
-        {
-          "type": "p",
-          "text": "This year, delegates will debate policy resolutions that will be voted on by members during the convention, including:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Ending the use of land acknowledgements by the government, as well as all publicly-funded institutions and entities.",
-            "Adopting policy that would “protect the safety and privacy of women and girls in schools and public facilities,” including washrooms and change areas.",
-            "Mandate that Alberta use \"all available legal avenues” to challenge federal land claims, including Indigenous claims that \"may infringe on private property owners and their rights.\"",
-            "Pass legislation that would require an MLA who departs their party to sit as an independent member and seek a renewed mandate from voters before joining another party."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Notably, there are no policy resolutions tied to the notion of separating from Canada to be debated."
-        },
-        {
-          "type": "p",
-          "text": "Near the site of the convention, some people opposed to the UCP government's priorities have promised to hold a sort of “accountability” session of their own, saying there will be “costumes, signs, music” and other forms of protest."
-        },
-        {
-          "type": "p",
-          "text": "“There are so many awful issues!” the Calgary Raging Grannies wrote in a post on Facebook."
-        },
-        {
-          "type": "h",
-          "text": "Who will sit on the party's board?"
-        },
-        {
-          "type": "p",
-          "text": "To many, the biggest thing to watch over the weekend will be the results of the board elections. Half of the provincial board is elected each year, with winners going on to serve two years."
-        },
-        {
-          "type": "p",
-          "text": "Going into the next election, this group will set the rules and the processes for nomination and platform development, making this key to the party’s future, said Colin Aitchison, managing director of western Canada with Enterprise Canada."
-        },
-        {
-          "type": "p",
-          "text": "“I think a lot of the party membership … they want the party to be best positioned to beat the NDP and Naheed Nenshi in the next election,” said Aitchison, who was a former spokesperson for the UCP under ministers Adriana LaGrange and Nicholas Milliken."
-        },
-        {
-          "type": "p",
-          "text": "“In order to do that, you need to have a unified leadership at the top, and one that supports the current leader and their agenda.”"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "The 'unity' fight splitting Danielle Smith's party intensifies at UCP convention"
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Some running for the party board have dismissed the idea that the disagreements that have emerged over past months can be resolved simply by supporting a unity principle."
-        },
-        {
-          "type": "p",
-          "text": "“A strong leader should welcome a board willing to speak candidly on behalf of its members,” wrote Vince Byfield, a board candidate, on his Substack."
-        },
-        {
-          "type": "p",
-          "text": "“Sometimes that means offering support, sometimes it means proposing alternatives, and sometimes it means saying that members have serious concerns about a particular decision. None of those actions is inherently disloyal.”"
-        },
-        {
-          "type": "p",
-          "text": "Board election results are expected to be delivered on Saturday evening, just before the adjournment of the annual general meeting."
-        },
-        {
-          "type": "h",
-          "text": "ABOUT THE AUTHOR"
-        },
-        {
-          "type": "p",
-          "text": "Joel is a senior writer with CBC Calgary. In fall 2021, he spent time with CBC's bureau in Lethbridge. He was previously the editor of the Airdrie City View and Rocky View Weekly newspapers. He hails from Swift Current, Sask. Reach him by email at joel.dryden@cbc.ca"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "joeldryden.bsky.social",
-            "@joeldryden"
-          ]
         }
       ],
       "truncated": false,
