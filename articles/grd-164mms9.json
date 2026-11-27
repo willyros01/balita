@@ -15,11 +15,71 @@
   "blocks": [
     {
       "type": "p",
-      "text": "<p>Papa John’s order was made without sharing bank security details – tech that could revolutionise shopping</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/nov/27/retailers-ai-shopping-assistants-black-friday-brands-meta-muse\">Retailers enter the unknown with AI shopping assistants on Black Friday</a></p></li></ul><p>An order of Papa John’s margherita pizzas has become the first purchase in the UK to be made using an AI agent using cardless payment technology.</p><p>The order of nine mini pizzas was made as part of the Financial Conduct Authority’s (FCA) regulated sandbox trials to test the technology, using Lloyds Bank and payment specialist TrueLayer.</p> <a href=\"https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer\">Continue reading...</a>"
+      "text": "An order of Papa John’s margherita pizzas has become the first purchase in the UK to be made using an AI agent using cardless payment technology."
+    },
+    {
+      "type": "p",
+      "text": "The order of nine mini pizzas was made as part of the Financial Conduct Authority’s (FCA) regulated sandbox trials to test the technology, using Lloyds Bank and payment specialist TrueLayer."
+    },
+    {
+      "type": "p",
+      "text": "London-based TrueLayer, which enables payments to be made between bank accounts without using cards, said it was the first time an AI agent had been used to pay a UK retailer for an order for a real customer."
+    },
+    {
+      "type": "p",
+      "text": "“We completed this payment transaction with Papa John’s with no account numbers, no password [and] handled with the highest possible security profile,” said the TrueLayer chief executive, Francesco Simoneschi, in an interview with BBC Radio 4’s Today programme. “We talked with the AI agent, described the occasion and dietary requirements. Of course the agent suggested different flavours and quantities. We confirmed the order and the pizza arrived later.”"
+    },
+    {
+      "type": "p",
+      "text": "The team ordered the pizzas using the Papa John’s AI agent, which had been given permission to access their bank account and request payment to the retailer’s account."
+    },
+    {
+      "type": "p",
+      "text": "Papa John’s AI agent was set to work with a strict mandate established with Lloyds, including a maximum spend limit per transaction and per month, with no account security information shared."
+    },
+    {
+      "type": "image",
+      "src": "https://i.guim.co.uk/img/media/912407da92f81e48cef56ce3c116102b3662685d/493_0_5000_4000/master/5000.jpg?width=445&dpr=1&s=none&crop=none",
+      "caption": "The Papa John’s agent had been given permission to access the customer’s bank account and request payment to the retailer’s account. Photograph: Ryan Browne/Shutterstock"
+    },
+    {
+      "type": "p",
+      "text": "Simoneschi said the test was the first step toward mass adoption by the public of a technology that would fundamentally change purchasing habits."
+    },
+    {
+      "type": "p",
+      "text": "“This is possibly the last Black Friday as we know it,” he said, referring to the annual online sales discount day. “At the moment plenty of us are already using AI to write up the shopping list. I think next year the agent will buy gifts on our behalf. Agents will do shopping on our behalf, will manage our finances, and will help us understand and compare complex products. This idea that they can really help us to sort out a lot of different aspects of our lives is a little bit like having an assistant available to millions of consumers out there.”"
+    },
+    {
+      "type": "p",
+      "text": "However, Simoneschi said consumers would still need to make informed decisions about how they used AI agents for making purchases."
+    },
+    {
+      "type": "p",
+      "text": "“I think good [personal] judgment still applies, of course,” he said. “It does require control and supervision, and we need to make sure that the underlying technology is fit for purpose, while enforcing the highest possible security standards.”"
+    },
+    {
+      "type": "p",
+      "text": "after newsletter promotion"
+    },
+    {
+      "type": "p",
+      "text": "He added that if there was an error or mistake in the order process, such as the agent ordering the wrong product, consumers would still be protected by existing rules and regulations covering buyers’ rights."
+    },
+    {
+      "type": "p",
+      "text": "Earlier this week the FCA issued a warning to financial services companies developing AI agents that they must comply with existing regulations."
+    },
+    {
+      "type": "p",
+      "text": "“The reason we are testing with regulators in this sandbox is to really understand all the aspects of the technology ahead of its mass adoption,” he said. “This is a great place to start.”"
+    },
+    {
+      "type": "p",
+      "text": "Meta’s personal AI assistant, Muse, which launched in the UK on Tuesday, can also make purchases online. Unlike TrueLayer, Muse makes payments using a customer’s bank card."
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct circuit open after repeated HTTP 403"
+  "source_of_text": "page"
 }
