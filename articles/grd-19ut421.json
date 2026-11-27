@@ -15,11 +15,30 @@
   "blocks": [
     {
       "type": "p",
-      "text": "<p>Local media reported that 18 people fell ill after attending a Thanksgiving lunch at a medical center headquarters</p><p>A Thanksgiving meal in Florida triggered a bout of food poisoning so bad that local emergency officials said it was a “mass casualty” event as numerous stricken diners were sent to hospital.</p><p>Local <a href=\"https://www.nbcmiami.com/news/local/10-sick-after-possible-food-poisoning-at-leon-medical-center-fire-rescue-says/3892963/\">media</a> reported that 18 people at the Leon medical center headquarters in Doral fell ill <a href=\"https://www.newsweek.com/thanksgiving-meal-ends-in-mass-casualty-incident-after-18-people-fall-ill-12772459\">due to possible food poisoning </a>after attending the center’s annual Thanksgiving lunch on Wednesday.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/27/thanksgiving-meal-florida-mass-casualty-food-poisoning\">Continue reading...</a>"
+      "text": "A Thanksgiving meal in Florida triggered a bout of food poisoning so bad that local emergency officials said it was a “mass casualty” event as numerous stricken diners were sent to hospital."
+    },
+    {
+      "type": "p",
+      "text": "Local media reported that 18 people at the Leon medical center headquarters in Doral fell ill due to possible food poisoning after attending the center’s annual Thanksgiving lunch on Wednesday."
+    },
+    {
+      "type": "p",
+      "text": "Miami-Dade fire rescue crews who received reports of the possible food poisoning said the call was upgraded to a “mass casualty incident” after 15 of those who fell ill required hospitalization, the Miami Herald reported."
+    },
+    {
+      "type": "p",
+      "text": "In a statement to NBC Miami Leon medical center said: “Some of the staff began to experience gastrointestinal symptoms shortly after the luncheon and required treatment."
+    },
+    {
+      "type": "p",
+      "text": "“We continue to work with the caterers to determine, if possible, the cause and continue to provide support to our staff and their families.”"
+    },
+    {
+      "type": "p",
+      "text": "No patients at the center were affected. Investigations are continuing as to the exact cause and nature of the food poisoning."
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct circuit open after repeated HTTP 403"
+  "source_of_text": "page"
 }
