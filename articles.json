@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-28T06:01:25.278Z",
+  "updated": "2026-11-28T06:31:24.493Z",
   "sources": [
     {
       "id": "inq",
@@ -53,13 +53,38 @@
   ],
   "articles": [
     {
+      "id": "inqn-dae19t",
+      "source": "inqn",
+      "title": "Pagasa sees rains over northern Luzon, fair weather across rest of PH",
+      "summary": "MANILA, Philippines — The northeast monsoon or amihan will bring rains in parts of northern Luzon, while the rest of the country will see fair weather conditions with chances of thunderstorms due to…",
+      "byline": "postie",
+      "section": "Latest News Stories",
+      "published": "2026-11-28T06:31:10.133Z",
+      "firstSeen": "2026-11-28T03:01:09.297Z",
+      "url": "https://newsinfo.inquirer.net/2348424/pagasa-sees-rains-over-northern-luzon-fair-weather-across-rest-of-ph",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/pagasa-28nov2026.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The northeast monsoon or amihan will bring rains in parts of northern Luzon, while the rest of the country will see fair weather conditions with chances of thunderstorms due to easterlies on Saturday, according to the weather bureau. In the 5 a.m. weather forecast of the Philippine Atmospheric, Geophysical, and Astronomical Services"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-tqqa6q",
       "source": "inqn",
       "title": "Why young adults are having less sex — and why it’s getting worse",
       "summary": "The sexual recession — the sustained decline in the frequency of partnered sexual activity, romantic partnership formation and marriage among adults ages 18 to 39 in high- and middle-income societies…",
       "byline": "Dennis Maliwanag",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:14.799Z",
+      "published": "2026-11-28T06:31:10.133Z",
       "firstSeen": "2026-11-28T01:31:05.322Z",
       "url": "https://newsinfo.inquirer.net/2348412/why-young-adults-are-having-less-sex-and-why-its-getting-worse",
       "image": {
@@ -84,7 +109,7 @@
       "summary": "MANILA, Philippines — Noel Celis&#8217;s pulse still races whenever a motorcyclist pulls up alongside him at a red light, a legacy of countless nights photographing ex-president Rodrigo…",
       "byline": "Dennis Maliwanag",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:14.799Z",
+      "published": "2026-11-28T06:31:10.133Z",
       "firstSeen": "2026-11-28T00:30:54.535Z",
       "url": "https://newsinfo.inquirer.net/2348404/proof-it-happened-photographers-reflect-on-dutertes-drug-war",
       "image": {
@@ -103,38 +128,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-6hyrgp",
-      "source": "inqn",
-      "title": "Church of the Risen Lord in UP Diliman declared Important Cultural Property",
-      "summary": "MANILA, Philippines—The National Commission for Culture and the Arts (NCCA) declared the Church of the Risen Lord at the University of the Philippines Diliman in Quezon City as an Important Cultural…",
-      "byline": "postie",
-      "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:14.512Z",
-      "firstSeen": "2026-11-28T04:01:01.192Z",
-      "url": "https://newsinfo.inquirer.net/2348448/church-of-the-risen-lord-in-up-diliman-declared-important-cultural-property",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Chruch-of-the-risen-Lord-29November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—The National Commission for Culture and the Arts (NCCA) declared the Church of the Risen Lord at the University of the Philippines Diliman in Quezon City as an Important Cultural Property in recognition of its “architectural, artistic, spiritual, and social value.” In a Facebook post on Friday, the NCCA said it also acknowledges architect"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-fojznv",
       "source": "inqn",
       "title": "Ilocos Norte logs 53 new dengue cases in a week",
       "summary": "SAN ILDEFONSO, Ilocos Sur — Ilocos Norte recorded 53 new dengue cases from Nov. 15 to 21, bringing the province&#8217;s total to 3,229 from the first to the 46th morbidity week of 2026, according to…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:14.512Z",
+      "published": "2026-11-28T06:31:10.110Z",
       "firstSeen": "2026-11-28T03:01:05.399Z",
       "url": "https://newsinfo.inquirer.net/2348432/ilocos-norte-logs-53-new-dengue-cases-in-a-week",
       "image": {
@@ -159,7 +159,7 @@
       "summary": "PAGADIAN CITY, Zamboanga del Sur—Police arrested a newly identified high-value drug suspect and confiscated approximately one kilogram of suspected &#8220;shabu&#8221; (crystal meth) valued at P6.8…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:14.512Z",
+      "published": "2026-11-28T06:31:10.110Z",
       "firstSeen": "2026-11-28T02:30:56.291Z",
       "url": "https://newsinfo.inquirer.net/2348421/p6-8-m-shabu-seized-high-value-suspect-nabbed-in-zamboanga-city",
       "image": {
@@ -184,7 +184,7 @@
       "summary": "BACOLOD CITY — A 12-year-old girl who had been missing for three days was found dead in a grassy area in Barangay Singcang-Airport, Bacolod City, on Friday evening, Nov. 27, while a man suspected of…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:14.512Z",
+      "published": "2026-11-28T06:31:10.110Z",
       "firstSeen": "2026-11-28T02:30:56.291Z",
       "url": "https://newsinfo.inquirer.net/2348415/police-arrest-suspect-in-killing-of-missing-bacolod-girl",
       "image": {
@@ -203,23 +203,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-dae19t",
+      "id": "inqn-6hyrgp",
       "source": "inqn",
-      "title": "Pagasa sees rains over northern Luzon, fair weather across rest of PH",
-      "summary": "MANILA, Philippines — The northeast monsoon or amihan will bring rains in parts of northern Luzon, while the rest of the country will see fair weather conditions with chances of thunderstorms due to…",
+      "title": "Church of the Risen Lord in UP Diliman declared Important Cultural Property",
+      "summary": "MANILA, Philippines—The National Commission for Culture and the Arts (NCCA) declared the Church of the Risen Lord at the University of the Philippines Diliman in Quezon City as an Important Cultural…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:14.512Z",
-      "firstSeen": "2026-11-28T03:01:09.297Z",
-      "url": "https://newsinfo.inquirer.net/2348424/pagasa-sees-rains-over-northern-luzon-fair-weather-across-rest-of-ph",
+      "published": "2026-11-28T06:31:10.109Z",
+      "firstSeen": "2026-11-28T04:01:01.192Z",
+      "url": "https://newsinfo.inquirer.net/2348448/church-of-the-risen-lord-in-up-diliman-declared-important-cultural-property",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/pagasa-28nov2026.png",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Chruch-of-the-risen-Lord-29November2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — The northeast monsoon or amihan will bring rains in parts of northern Luzon, while the rest of the country will see fair weather conditions with chances of thunderstorms due to easterlies on Saturday, according to the weather bureau. In the 5 a.m. weather forecast of the Philippine Atmospheric, Geophysical, and Astronomical Services"
+          "text": "MANILA, Philippines—The National Commission for Culture and the Arts (NCCA) declared the Church of the Risen Lord at the University of the Philippines Diliman in Quezon City as an Important Cultural Property in recognition of its “architectural, artistic, spiritual, and social value.” In a Facebook post on Friday, the NCCA said it also acknowledges architect"
         }
       ],
       "truncated": true,
@@ -234,7 +234,7 @@
       "summary": "MANILA, Philippines — In the forests of the southern Philippines lives another endangered eagle that has received far less scientific and public attention than the critically endangered Philippine…",
       "byline": "Dennis Maliwanag",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:14.472Z",
+      "published": "2026-11-28T06:31:10.087Z",
       "firstSeen": "2026-11-28T03:30:57.182Z",
       "url": "https://newsinfo.inquirer.net/2348446/unlocking-the-genetic-secrets-of-the-philippines-lesser-known-eagle",
       "image": {
@@ -253,38 +253,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1uzdykj",
-      "source": "inqg",
-      "title": "Belgian authorities force Google to halt data center construction",
-      "summary": "BRUSSELS, Belgium — Belgian authorities have ordered Google to suspend construction of a data center in the south of the country because of a lack of proper planning permission, a regional official…",
-      "byline": "Dennis Maliwanag",
-      "section": "Europe",
-      "published": "2026-11-28T06:01:14.471Z",
-      "firstSeen": "2026-11-28T01:00:58.084Z",
-      "url": "https://globalnation.inquirer.net/350169/belgian-authorities-force-google-to-halt-data-centre-construction-2",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/belgium-google-data-centers-28nov26.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BRUSSELS, Belgium — Belgian authorities have ordered Google to suspend construction of a data center in the south of the country because of a lack of proper planning permission, a regional official said Friday. &#8220;We have identified a major offense: the illegal construction of a building covering three hectares,&#8221; or 7.4 acres, Nicolas Yernaux, spokesman for"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-mjcm6h",
       "source": "inqn",
       "title": "3 hurt in 7-vehicle smashup in Pagadian City",
       "summary": "PAGADIAN CITY, Zamboanga del Sur—Three people were injured in a seven-vehicle collision triggered by a runaway delivery truck along Rizal Avenue in Barangay Sta. Lucia in this city Friday noon, Nov.…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:12.857Z",
+      "published": "2026-11-28T06:31:08.319Z",
       "firstSeen": "2026-11-28T03:30:57.176Z",
       "url": "https://newsinfo.inquirer.net/2348450/3-hurt-in-7-vehicle-smashup-in-pagadian-city",
       "image": {
@@ -303,23 +278,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-2j8ikc",
+      "id": "inqg-1uzdykj",
       "source": "inqg",
-      "title": "Protesters take to the streets in Puerto Rico&#8217;s capital as standard of living deteriorates",
-      "summary": "SAN JUAN, Puerto Rico (AP) — Thousands of people protested Friday in Puerto Rico ’s capital as anger and frustration erupted over record high electric rates, the surging cost of living, deterioration…",
-      "byline": "chitoDLV",
-      "section": "Americas",
-      "published": "2026-11-28T06:01:12.706Z",
-      "firstSeen": "2026-11-28T01:00:57.464Z",
-      "url": "https://globalnation.inquirer.net/350166/protesters-take-streets-in-puerto-ricos-capital-standard-of-living-deteriorates",
+      "title": "Belgian authorities force Google to halt data center construction",
+      "summary": "BRUSSELS, Belgium — Belgian authorities have ordered Google to suspend construction of a data center in the south of the country because of a lack of proper planning permission, a regional official…",
+      "byline": "Dennis Maliwanag",
+      "section": "Europe",
+      "published": "2026-11-28T06:31:08.286Z",
+      "firstSeen": "2026-11-28T01:00:58.084Z",
+      "url": "https://globalnation.inquirer.net/350169/belgian-authorities-force-google-to-halt-data-centre-construction-2",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AP-puerto-rico-28nov2026.jpeg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/belgium-google-data-centers-28nov26.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "SAN JUAN, Puerto Rico (AP) — Thousands of people protested Friday in Puerto Rico ’s capital as anger and frustration erupted over record high electric rates, the surging cost of living, deterioration in basic services and other issues. Retirees, university students, bus drivers and others joined the protest organized by some 30 groups ranging from"
+          "text": "BRUSSELS, Belgium — Belgian authorities have ordered Google to suspend construction of a data center in the south of the country because of a lack of proper planning permission, a regional official said Friday. &#8220;We have identified a major offense: the illegal construction of a building covering three hectares,&#8221; or 7.4 acres, Nicolas Yernaux, spokesman for"
         }
       ],
       "truncated": true,
@@ -334,7 +309,7 @@
       "summary": "MURCIA, Negros Occidental — A warehouse in Barangay Santa Rosa yielded more than P24.3 million worth of suspected smuggled cigarettes after law enforcement operatives raided the facility on Friday…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:12.705Z",
+      "published": "2026-11-28T06:31:06.545Z",
       "firstSeen": "2026-11-28T03:30:57.117Z",
       "url": "https://newsinfo.inquirer.net/2348439/p24-3m-smuggled-cigarettes-seized-in-negros-warehouse-raid",
       "image": {
@@ -353,23 +328,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-1sdpigu",
+      "id": "inqg-2j8ikc",
       "source": "inqg",
-      "title": "&#8216;Radical change&#8217;: Angry youngsters back far right in Spanish vote",
-      "summary": "MADRID, Spain — At a protest in Madrid, Hugo, 22, recalled an attack that he believes illustrates the problems that will push him to vote for the far right in Sunday&#8217;s Spanish general election.…",
+      "title": "Protesters take to the streets in Puerto Rico&#8217;s capital as standard of living deteriorates",
+      "summary": "SAN JUAN, Puerto Rico (AP) — Thousands of people protested Friday in Puerto Rico ’s capital as anger and frustration erupted over record high electric rates, the surging cost of living, deterioration…",
       "byline": "chitoDLV",
-      "section": "Europe",
-      "published": "2026-11-28T06:01:12.703Z",
-      "firstSeen": "2026-11-28T01:31:05.322Z",
-      "url": "https://globalnation.inquirer.net/350177/angry-youngsters-back-far-right-in-spanish-vote",
+      "section": "Americas",
+      "published": "2026-11-28T06:31:06.530Z",
+      "firstSeen": "2026-11-28T01:00:57.464Z",
+      "url": "https://globalnation.inquirer.net/350166/protesters-take-streets-in-puerto-ricos-capital-standard-of-living-deteriorates",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AP-Spain-balota-2026-11-28.jpeg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/AP-puerto-rico-28nov2026.jpeg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MADRID, Spain — At a protest in Madrid, Hugo, 22, recalled an attack that he believes illustrates the problems that will push him to vote for the far right in Sunday&#8217;s Spanish general election. The student, who refused to give his surname, said he was outside a hospital in the Madrid suburb of Leganes, where"
+          "text": "SAN JUAN, Puerto Rico (AP) — Thousands of people protested Friday in Puerto Rico ’s capital as anger and frustration erupted over record high electric rates, the surging cost of living, deterioration in basic services and other issues. Retirees, university students, bus drivers and others joined the protest organized by some 30 groups ranging from"
         }
       ],
       "truncated": true,
@@ -384,7 +359,7 @@
       "summary": "MANILA, Philippines — The Senate has wrapped up its week-long plenary deliberations for the proposed P7.2-trillion national budget for 2027, paving the way for the period of amendments before the…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:10.916Z",
+      "published": "2026-11-28T06:31:04.781Z",
       "firstSeen": "2026-11-28T04:31:00.278Z",
       "url": "https://newsinfo.inquirer.net/2348472/senate-wraps-up-deliberations-on-proposed-p7-2t-budget-for-2027",
       "image": {
@@ -403,23 +378,23 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-4qqpjq",
+      "id": "inqg-1sdpigu",
       "source": "inqg",
-      "title": "Kenyan cult leader convicted in deaths of 123 followers",
-      "summary": "NAIROBI, Kenya — A self-proclaimed Kenyan preacher was found guilty Friday of the manslaughter of 123 people, barely a month after being sentenced to 200 years in prison for the murders of children…",
-      "byline": "Dennis Maliwanag",
-      "section": "Africa",
-      "published": "2026-11-28T06:01:05.474Z",
-      "firstSeen": "2026-11-28T02:30:56.291Z",
-      "url": "https://globalnation.inquirer.net/350184/kenyan-cult-leader-convicted-in-deaths-of-123-followers",
+      "title": "&#8216;Radical change&#8217;: Angry youngsters back far right in Spanish vote",
+      "summary": "MADRID, Spain — At a protest in Madrid, Hugo, 22, recalled an attack that he believes illustrates the problems that will push him to vote for the far right in Sunday&#8217;s Spanish general election.…",
+      "byline": "chitoDLV",
+      "section": "Europe",
+      "published": "2026-11-28T06:31:02.927Z",
+      "firstSeen": "2026-11-28T01:31:05.322Z",
+      "url": "https://globalnation.inquirer.net/350177/angry-youngsters-back-far-right-in-spanish-vote",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2024/07/Kenya-starvation-cult-leader-goes-on-trial-on-terrorism-charges-scaled.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/AP-Spain-balota-2026-11-28.jpeg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "NAIROBI, Kenya — A self-proclaimed Kenyan preacher was found guilty Friday of the manslaughter of 123 people, barely a month after being sentenced to 200 years in prison for the murders of children in an infamous starvation cult. Hundreds of bodies have been discovered since 2023 at the sect’s base near the coastal resort of"
+          "text": "MADRID, Spain — At a protest in Madrid, Hugo, 22, recalled an attack that he believes illustrates the problems that will push him to vote for the far right in Sunday&#8217;s Spanish general election. The student, who refused to give his surname, said he was outside a hospital in the Madrid suburb of Leganes, where"
         }
       ],
       "truncated": true,
@@ -434,7 +409,7 @@
       "summary": "BAGUIO CITY—Police seized more than P17.6 million worth of illegal drugs and arrested 20 suspected drug personalities in a series of operations across the Cordillera from November 16 to 22. In a…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:05.472Z",
+      "published": "2026-11-28T06:31:01.480Z",
       "firstSeen": "2026-11-28T04:31:00.215Z",
       "url": "https://newsinfo.inquirer.net/2348459/p17-6m-worth-of-illegal-drugs-seized-in-weeklong-cordillera-operations",
       "image": {
@@ -453,13 +428,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-4qqpjq",
+      "source": "inqg",
+      "title": "Kenyan cult leader convicted in deaths of 123 followers",
+      "summary": "NAIROBI, Kenya — A self-proclaimed Kenyan preacher was found guilty Friday of the manslaughter of 123 people, barely a month after being sentenced to 200 years in prison for the murders of children…",
+      "byline": "Dennis Maliwanag",
+      "section": "Africa",
+      "published": "2026-11-28T06:31:00.748Z",
+      "firstSeen": "2026-11-28T02:30:56.291Z",
+      "url": "https://globalnation.inquirer.net/350184/kenyan-cult-leader-convicted-in-deaths-of-123-followers",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2024/07/Kenya-starvation-cult-leader-goes-on-trial-on-terrorism-charges-scaled.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NAIROBI, Kenya — A self-proclaimed Kenyan preacher was found guilty Friday of the manslaughter of 123 people, barely a month after being sentenced to 200 years in prison for the murders of children in an infamous starvation cult. Hundreds of bodies have been discovered since 2023 at the sect’s base near the coastal resort of"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-1yxw3iy",
       "source": "inqn",
       "title": "Visayas grid placed under yellow alert anew due to plant outages",
       "summary": "MANILA, Philippines — The National Grid Corp. of the Philippines (NGCP) on Saturday placed the Visayas power grid under a yellow alert for one hour due to insufficient operating reserves amid…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:05.470Z",
+      "published": "2026-11-28T06:30:59.715Z",
       "firstSeen": "2026-11-28T05:01:01.110Z",
       "url": "https://newsinfo.inquirer.net/2348482/visayas-grid-placed-under-yellow-alert-anew-due-to-plant-outages",
       "image": {
@@ -478,29 +478,29 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-cqiyrt",
-      "source": "inqg",
-      "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
-      "summary": "JERUSALEM — Doctors Without Borders (MSF) said Saturday an Israeli strike killed two staff members at a clinic in Gaza, with the Israeli army labelling the pair as Hamas &#8220;terrorists&#8221;. The…",
-      "byline": "Dennis Maliwanag",
-      "section": "Latest Global Nation Stories",
-      "published": "2026-11-28T06:01:05.470Z",
-      "firstSeen": "2026-11-28T04:00:59.227Z",
-      "url": "https://globalnation.inquirer.net/350190/israeli-strike-kills-two-doctors-without-borders-staff-in-gaza",
+      "id": "inqn-1p5xug4",
+      "source": "inqn",
+      "title": "323 PMA freshmen formally join Corps of Cadets",
+      "summary": "BAGUIO CITY — The Philippine Military Academy (PMA) formally welcomed 323 freshmen cadets of the Masiklab Lahi Class of 2030 into the Corps of Cadets during recognition rites on Saturday, marking the…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-28T06:30:59.345Z",
+      "firstSeen": "2026-11-28T05:30:53.984Z",
+      "url": "https://newsinfo.inquirer.net/2348478/323-pma-freshmen-formally-join-corps-of-cadets",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/palestinians-killed-gaza-28nov26.jpg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/323-PMA-freshmen-formally-join-Corps-of-Cadets-29November2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "JERUSALEM — Doctors Without Borders (MSF) said Saturday an Israeli strike killed two staff members at a clinic in Gaza, with the Israeli army labelling the pair as Hamas &#8220;terrorists&#8221;. The Israel Defense Forces (IDF) identified the men, who worked as security guards at the clinic, as Hamas artillery cell commander Moaz Yousef Alitsbach and"
+          "text": "BAGUIO CITY — The Philippine Military Academy (PMA) formally welcomed 323 freshmen cadets of the Masiklab Lahi Class of 2030 into the Corps of Cadets during recognition rites on Saturday, marking the last time the academy will hold separate ceremonies for the incorporation and recognition of new cadets. PMA Superintendent Lt. Gen. Michael Logico told"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
     },
     {
       "id": "inqg-62ai7g",
@@ -509,7 +509,7 @@
       "summary": "MANILA, Philippines — The Philippines and seven other Asian and European countries are exploring closer intelligence-sharing and cross-border police cooperation amid emerging threats of terrorism and…",
       "byline": "postie",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-28T06:01:05.470Z",
+      "published": "2026-11-28T06:30:59.345Z",
       "firstSeen": "2026-11-28T03:30:57.117Z",
       "url": "https://globalnation.inquirer.net/350186/ph-european-asian-police-eye-closer-intelligence-sharing-vs-terrorism",
       "image": {
@@ -528,29 +528,391 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-1p5xug4",
-      "source": "inqn",
-      "title": "323 PMA freshmen formally join Corps of Cadets",
-      "summary": "BAGUIO CITY — The Philippine Military Academy (PMA) formally welcomed 323 freshmen cadets of the Masiklab Lahi Class of 2030 into the Corps of Cadets during recognition rites on Saturday, marking the…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-28T06:01:05.469Z",
-      "firstSeen": "2026-11-28T05:30:53.984Z",
-      "url": "https://newsinfo.inquirer.net/2348478/323-pma-freshmen-formally-join-corps-of-cadets",
+      "id": "inqg-cqiyrt",
+      "source": "inqg",
+      "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
+      "summary": "JERUSALEM — Doctors Without Borders (MSF) said Saturday an Israeli strike killed two staff members at a clinic in Gaza, with the Israeli army labelling the pair as Hamas &#8220;terrorists&#8221;. The…",
+      "byline": "Dennis Maliwanag",
+      "section": "Latest Global Nation Stories",
+      "published": "2026-11-28T06:30:59.285Z",
+      "firstSeen": "2026-11-28T04:00:59.227Z",
+      "url": "https://globalnation.inquirer.net/350190/israeli-strike-kills-two-doctors-without-borders-staff-in-gaza",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/323-PMA-freshmen-formally-join-Corps-of-Cadets-29November2026.jpg",
+        "src": "https://globalnation.inquirer.net/files/2026/11/palestinians-killed-gaza-28nov26.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "BAGUIO CITY — The Philippine Military Academy (PMA) formally welcomed 323 freshmen cadets of the Masiklab Lahi Class of 2030 into the Corps of Cadets during recognition rites on Saturday, marking the last time the academy will hold separate ceremonies for the incorporation and recognition of new cadets. PMA Superintendent Lt. Gen. Michael Logico told"
+          "text": "JERUSALEM — Doctors Without Borders (MSF) said Saturday an Israeli strike killed two staff members at a clinic in Gaza, with the Israeli army labelling the pair as Hamas &#8220;terrorists&#8221;. The Israel Defense Forces (IDF) identified the men, who worked as security guards at the clinic, as Hamas artillery cell commander Moaz Yousef Alitsbach and"
         }
       ],
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
       "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
+      "id": "inqn-1evr4x7",
+      "source": "inqn",
+      "title": "VP Duterte yet to decide if she will testify in impeachment trial",
+      "summary": "MANILA, Philippines — Vice President Sara Duterte has shared that she has not yet discussed with her defense team if she can testify as a witness in her own impeachment trial as the proceedings…",
+      "byline": "mesarangay",
+      "section": "Latest News Stories",
+      "published": "2026-11-28T06:30:59.285Z",
+      "firstSeen": "2026-11-28T06:30:59.285Z",
+      "url": "https://newsinfo.inquirer.net/2348489/vp-duterte-yet-to-decide-if-she-will-testify-in-impeachment-trial",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Vice-President-Sara-Duterte-press-briefing-October-6-2026-via-FacebookInday-Sara-Duterte-.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Vice President Sara Duterte has shared that she has not yet discussed with her defense team if she can testify as a witness in her own impeachment trial as the proceedings resume next week. During a press conference on Friday, Duterte was asked if she had already thought of standing as a"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-f4g0ca",
+      "source": "abs",
+      "title": "Inside Esca House, Antonio's Group's Beautiful New Asian Restaurant in Bridgetowne",
+      "summary": "Antonio’s Group enters a new culinary territory with Esca House, its first Asian dining concept in Bridgetowne, serving contemporary dishes inspired by Filipino, Thai, Vietnamese, and Chinese flavors…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-28T06:27:57.000Z",
+      "firstSeen": "2026-11-28T06:30:59.286Z",
+      "url": "https://www.abs-cbn.com/food/2026/11/25/inside-esca-house-antonio-s-group-s-beautiful-new-asian-restaurant-in-bridgetowne-1705",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Antonio’s Group enters a new culinary territory with Esca House, its first Asian dining concept in Bridgetowne, serving contemporary dishes inspired by Filipino, Thai, Vietnamese, and Chinese flavors in a striking, thoughtfully designed space."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "gma-tgywqe",
+      "source": "gma",
+      "title": "Sandiganbayan drops Samchan exec as co-accused in Martin Romualdez plunder case",
+      "summary": "The Sandiganbayan Third Division has removed a businessman as a co-accused in the plunder case against former House speaker Ferdinand Martin Romualdez, clearing the way for the former to testify for…",
+      "byline": "TED CORDERO, GMA News",
+      "section": "",
+      "published": "2026-11-28T06:18:31.000Z",
+      "firstSeen": "2026-11-28T06:30:59.286Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1011047/sandiganbayan-drops-samchan-exec-as-co-accused-in-martin-romualdez-plunder-case/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/11/Sandiganbayan-3_2016_01_10_18_54_21_2025_11_17_11_09_56_2026_11_23_12_33_28.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published November 28, 2026 2:18pm"
+        },
+        {
+          "type": "p",
+          "text": "The Sandiganbayan Third Division has removed a businessman as a co-accused in the plunder case against former House speaker Ferdinand Martin Romualdez, clearing the way for the former to testify for the prosecution."
+        },
+        {
+          "type": "p",
+          "text": "In an 11-page resolution, the anti-graft court approved an amended charge sheet dropping Samchan Foreign Exchange Corp. president Felicito Guevarra from the case."
+        },
+        {
+          "type": "p",
+          "text": "Prosecutors will now present Guevarra as a witness during the bail hearings, replacing former Public Works secretary Manuel Bonoan."
+        },
+        {
+          "type": "p",
+          "text": "Guevarra surrendered himself to the National Bureau of Investigation (NBI) and was granted conditional immunity \"because his testimony and records are necessary to establish the truth in this case,\" according to the Office of the Ombudman."
+        },
+        {
+          "type": "p",
+          "text": "The Ombudsman said the conditions are as follows:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Guevarra will cooperate fully and truthfully turn over all of Samchan's records and devices",
+            "he will remain in the Philippines",
+            "he will stay under the protection of the Department of Justice (DOJ)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Sandignbayan ruled that prosecutors correctly followed the rules for removing an accused person before they enter a plea, rather than the stricter process for turning someone into a state witness."
+        },
+        {
+          "type": "p",
+          "text": "\"His (Guevarra) testimony and records will help the prosecution trace the movement of funds alleged in the charge sheet. The charges against the other accused stand as filed,\" the Ombudsman said."
+        },
+        {
+          "type": "p",
+          "text": "The Sandiganbayan, meanwhile, noted that it \"finds merit in the prosecution's contention thatGuevarra's willingness to testify against his co-accused is a supervening event.\""
+        },
+        {
+          "type": "p",
+          "text": "The anti-graft court added that the Resolution issued by the Office of the Ombudsman directing the exclusion of Guevarra was issued only on November 20, 2026."
+        },
+        {
+          "type": "p",
+          "text": "Due to security risks, the Sandiganbayan also granted the prosecution's request to keep Guevarra in the custody of the National Bureau of Investigation (NBI) while his application for the DOJ's Witness Protection Program is being processed. — VDV, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "abs-11hilxq",
+      "source": "abs",
+      "title": "WWE pro wrestling star Bronson Reed dies aged 38",
+      "summary": "Professional wrestling star Jermaine Haley, known to his fans as Bronson Reed, has died aged 38, World Wrestling Entertainment (WWE) said Friday.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-28T06:07:52.000Z",
+      "firstSeen": "2026-11-28T06:30:59.345Z",
+      "url": "https://www.abs-cbn.com/sports/othersports/2026/11/28/wwe-pro-wrestling-star-bronson-reed-dies-aged-38-1407",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Professional wrestling star Jermaine Haley, known to his fans as Bronson Reed, has died aged 38, World Wrestling Entertainment (WWE) said Friday."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-1mf8g60",
+      "source": "abs",
+      "title": "More delays in impeachment trial put Dec. 18 verdict in doubt, prosecution warns",
+      "summary": "MANILA – The House prosecution panel is preparing to oppose further postponements in Vice President Sara Duterte’s impeachment trial, warning that continued delays could derail a possible verdict by…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-28T06:05:03.000Z",
+      "firstSeen": "2026-11-28T06:31:01.151Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/28/more-delays-in-impeachment-trial-put-dec-18-verdict-in-doubt-prosecution-warns-1405",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA – The House prosecution panel is preparing to oppose further postponements in Vice President Sara Duterte’s impeachment trial, warning that continued delays could derail a possible verdict by Dec. 18."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "grd-geg0sc",
+      "source": "grd",
+      "title": "Palestinian tells of ‘devastating’ struggle after being made redundant by EU in Gaza",
+      "summary": "<p>Mohammad Baraka unable to access redundancy pay for almost 20 years’ service as family’s situation becomes ‘increasingly desperate’</p><p>A Palestinian man who worked for the EU in Gaza has told…",
+      "byline": "Lisa O’Carroll Senior correspondent",
+      "section": "European Union",
+      "published": "2026-11-28T06:00:34.000Z",
+      "firstSeen": "2026-11-28T06:30:59.286Z",
+      "url": "https://www.theguardian.com/world/2026/nov/28/mohammad-baraka-palestinian-eu-gaza-redundancy-pay-access",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/fa5a5cac1eb2fc8328bff1d0190f9de2e0928a91/0_79_502_402/master/502.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=698f8150cca5ae8ef4c34c52a8009b92",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A Palestinian man who worked for the EU in Gaza has told of a “devastating” struggle to survive after he was made redundant by bosses in Brussels."
+        },
+        {
+          "type": "p",
+          "text": "He was let go last year after being evacuated to Egypt but his redundancy payment was made to an account to which he has no access. “My family’s situation has become increasingly desperate,” said Mohammad Baraka, a former staffer at the EU border assistance mission (EUBam)."
+        },
+        {
+          "type": "p",
+          "text": "“Both of my daughters have suffered severe psychological distress as a result of the war, displacement and the prolonged uncertainty surrounding our future.”"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/1b879493bc732da1b9f6e79b55ad6dabc5c081da/0_0_1200_1600/master/1200.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Mohammad Baraka’s house was finished just three months before it was bombed. Photograph: Mohammad Baraka"
+        },
+        {
+          "type": "p",
+          "text": "The 220,000 Israeli shekels (£52,000) payment for almost 20 years’ service was made on 5 August last year to the Bank of Palestine but access to the money has been blocked, a risk he was aware of given the relatively large sum being transferred."
+        },
+        {
+          "type": "p",
+          "text": "He said he wrote on several occasions to the European Commission, asking it not to make the payment into that bank because of a known risk that a large sum of money could be misconstrued as war funds. “I am now in the devastating position of having money in my name that I cannot access, while my family is experiencing severe financial hardship,” said Baraka."
+        },
+        {
+          "type": "p",
+          "text": "Instead he had asked for the payment to go to a new account in an Abu Dhabi bank, but that never materialised."
+        },
+        {
+          "type": "p",
+          "text": "Baraka was evacuated in 2023 after his house in Gaza was bombed and family members killed. The EU tried to relocate him to alternative offices in the West Bank but travel for Palestinians in Gaza was severely restricted. After a hasty three-day concession agreed with the Egyptian government, Baraka was able to leave for Cairo."
+        },
+        {
+          "type": "p",
+          "text": "As the conflict continued, Baraka was initially able to work remotely from Cairo as an EU employee and had the comfort of a salary, private healthcare and access to schools for his two children. But when Brussels decided to close its EUBam office in Rafah, he was let go, leading to what he says have been traumatic consequences for himself and his wife and two daughters."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/b186c2013ba1cf6012a97aa6aa0a6ce33d0929aa/0_0_2048_1536/master/2048.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "The remains of Mohammad Baraka’s house in Gaza after it was bombed. Photograph: Mohammad Baraka"
+        },
+        {
+          "type": "p",
+          "text": "He says the evacuation to Egypt with no plan for onward travel to an EU nation or a diplomatically secured place in another country has rendered him stateless, with no residency rights and no right to healthcare or schooling for his seriously ill wife and two daughters, both of whom he says are suffering from the trauma of war."
+        },
+        {
+          "type": "p",
+          "text": "One of his daughters has an acute mental health condition and Baraka says he cannot pay for her treatment. “I am not asking for charity or special treatment. I am asking for access to my own money, and for accountability over a decision that could have been avoided,” said Baraka."
+        },
+        {
+          "type": "p",
+          "text": "“I had specifically asked the [EU] mission to transfer my money to my new bank account in Egypt to avoid precisely this situation,” he said."
+        },
+        {
+          "type": "p",
+          "text": "“If the EU argues that it fulfilled its obligations simply because it transferred the settlement, I believe the legitimate question is whether an employer can consider its responsibility discharged when it knowingly disregards an employee’s repeated warnings about the destination of such a substantial payment.”"
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/d7505b02880b53af64789762caf975ddccc11196/644_0_6440_5152/master/6440.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "EU Commission president Ursula von der Leyen. Photograph: Thierry Monasse/Getty Images"
+        },
+        {
+          "type": "p",
+          "text": "Last year he wrote to the European Commission president, Ursula von der Leyen, pleading with her to reverse what he called his “unjust dismissal” and asked her to restore his employment, even temporarily, “until a dignified and legal solution is arranged”."
+        },
+        {
+          "type": "p",
+          "text": "He also wrote to the European ombudsman to ask them to open an investigation but they replied last week to say they had no scope for an inquiry. “We fully appreciate that you and your family are in an immensely difficult position. The hardship you are experiencing as a result of the war and your displacement are clear from your complaint,” wrote Tina Nilsson, the head of inquiries."
+        },
+        {
+          "type": "p",
+          "text": "“I realise that this conclusion will be disappointing. I nevertheless hope you can understand why, based on the information available, there are insufficient grounds for the ombudsman to intervene further.”"
+        },
+        {
+          "type": "p",
+          "text": "He is now suing the commission for alleged breach of Belgian employment law but the case could take years to be heard."
+        },
+        {
+          "type": "p",
+          "text": "Without the “laissez-passer” document that allowed him to be evacuated from Gaza, he cannot leave Egypt, he says, putting him in an impossible position."
+        },
+        {
+          "type": "p",
+          "text": "A spokesperson for the commission said: “Due to the ongoing related court case, we cannot comment on this further.”"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "grd-1mu5ru3",
+      "source": "grd",
+      "title": "Stunted sprouts: heatwaves and drought take toll on festive vegetable",
+      "summary": "<p>The Christmas staple is smaller this year after a hot, dry summer hit the water-loving – but versatile – brassica</p><p>They are a key ingredient in many Christmas dinners, but brussels sprouts…",
+      "byline": "Joanna Partridge",
+      "section": "Food & drink industry",
+      "published": "2026-11-28T06:00:34.000Z",
+      "firstSeen": "2026-11-28T06:30:59.347Z",
+      "url": "https://www.theguardian.com/business/2026/nov/28/sprouts-smaller-than-usual-heatwaves-drought-festive-vegetable",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/60e5c88dc6e8b92522341cef05d9996c4212e6a8/0_309_2142_1714/master/2142.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=6154beea9d0f8bcb2042e6bf4edaace7",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They are a key ingredient in many Christmas dinners, but brussels sprouts appearing on diners’ plates this festive season are likely to be smaller than usual, after the hot, dry summer took its toll on the water-loving crop."
+        },
+        {
+          "type": "p",
+          "text": "Sprouts are generally planted outdoors between March and early June, meaning they were already in the ground when the UK faced a series of heatwaves and drought conditions across Wales and most of England."
+        },
+        {
+          "type": "p",
+          "text": "Low water-reserves limited the amount growers could use to irrigate their crops, slowing down the growth of sprouts and other brassica such as cabbages, broccoli and cauliflowers."
+        },
+        {
+          "type": "p",
+          "text": "Sprouts grow on a stalk, maturing from the bottom upwards. This means the largest sprouts are found at the bottom, with the smallest at the top. Supermarkets and other food retailers generally select only the mid-sized sprouts, found in the middle."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/49e280ae7a575f1ec4bbb012abfb731a7c23ae9c/0_0_1500_1200/master/1500.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Food retailers generally select the sprouts growing in the middle of the stalk. Photograph: Oddbox"
+        },
+        {
+          "type": "p",
+          "text": "Higher volumes of stunted sprouts are available this year after a challenging growing season, according to the low-waste food retailer Oddbox, which is known for supplying wonky fruit and vegetables."
+        },
+        {
+          "type": "p",
+          "text": "“We would typically see smaller sprouts heading to Oddbox, because that’s the product that growers don’t tend to have outlets for, but this year there’s an awful lot more of them,” said Gavin Phelps, the company’s head of sourcing."
+        },
+        {
+          "type": "p",
+          "text": "Most of the sprouts available are from Lincolnshire, where quantities of brassica and other crops are grown, but which has had extended periods of drought."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/c34456995a68b36e6266e7b48a4c0ce0ff7ec3cc/0_815_2250_1800/master/2250.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Most of the sprouts available are from Lincolnshire. Photograph: Oddbox"
+        },
+        {
+          "type": "p",
+          "text": "Some consumers may believe that smaller sprouts will be harder to peel than larger ones, making the much-maligned vegetable more difficult to prepare."
+        },
+        {
+          "type": "p",
+          "text": "Phelps said this was not the case: “Peeling small sprouts is of course going to be a bit of extra effort, but you can also save some prep time because you don’t need to cut them in half like you typically do with the larger size ones. So it equals out.”"
+        },
+        {
+          "type": "p",
+          "text": "Sprouts are harvested in the UK between September and March, although a quarter of their annual consumption takes place in the two weeks leading up to Christmas."
+        },
+        {
+          "type": "p",
+          "text": "after newsletter promotion"
+        },
+        {
+          "type": "p",
+          "text": "Growers say that tweaks to sprout breeding and the introduction of new varieties have made the vegetable – sometimes criticised for perceived bitterness – tastier. More than half of adults (56.4%) polled by YouGov in October said they liked sprouts, while the number who said they disliked them has fallen from 26% to under 22% in the past six years."
+        },
+        {
+          "type": "image",
+          "src": "https://i.guim.co.uk/img/media/02686a9fe487d69cf37b3c4c3dda24fe79e3aaa8/295_0_2953_2362/master/2953.jpg?width=445&dpr=1&s=none&crop=none",
+          "caption": "Sprouts with kaiserfleisch. Cooks may want to try roasting, pickling or even smashing sprouts this Christmas. Photograph: Eugene Hyland/The Guardian"
+        },
+        {
+          "type": "p",
+          "text": "Cooking techniques have also improved, said Phelps. “Back 20 or 30 years ago there was this obsession with boiling everything. I feel people have come round to them more because there is just so much more out there in terms of recipe inspiration.”"
+        },
+        {
+          "type": "p",
+          "text": "Cooks may want to try roasting, pickling or even smashing sprouts this Christmas, while Phelps is planning to crisp his in an air fryer."
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
     },
     {
       "id": "inq-hb06h1",
@@ -575,7 +937,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inqn-xcr7bo",
@@ -703,31 +1065,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-hn4y0j",
-      "source": "inqn",
-      "title": "‘Falling car’ probe: Building flaws or driving error?",
-      "summary": "Police are looking into the health condition of the man driving a car that fell from the parking area of a hotel building in Makati City on Thursday, as investigators continue to determine if there…",
-      "byline": "jvicente",
-      "section": "Headlines",
-      "published": "2026-11-28T05:38:00.000Z",
-      "firstSeen": "2026-11-27T22:01:13.512Z",
-      "url": "https://newsinfo.inquirer.net/2348318/falling-car-probe-building-flaws-or-driving-error",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Parking-accident-makati-building.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Police are looking into the health condition of the man driving a car that fell from the parking area of a hotel building in Makati City on Thursday, as investigators continue to determine if there was negligence or criminal liability involved in the incident. In an interview on Friday, Lt. Margaret Panaga, public information officer"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inq-13pgj9h",
       "source": "inq",
       "title": "NBA Cup: Giannis has 20-20 game as Heat stop streaking Knicks",
@@ -750,7 +1087,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+      "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
       "id": "inq-1lbpc6g",
@@ -7368,82 +7705,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "grd-j910nb",
-      "source": "grd",
-      "title": "Graham Thorpe’s widow takes legal action against NHS trust after inquest",
-      "summary": "<p>Former England Test cricketer was diagnosed with anxiety and depression before he took his own life in 2024</p><p>The wife of Graham Thorpe, the former England cricketer who took his own life, has…",
-      "byline": "Nadeem Badshah",
-      "section": "UK news",
-      "published": "2026-11-27T19:52:30.000Z",
-      "firstSeen": "2026-11-27T20:01:09.825Z",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/27/graham-thorpe-widow-legal-action-against-nhs-trust-after-inquest",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/65003307b1e98b9442467736c41f4291260ab315/0_0_4565_3652/master/4565.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=313575a180faed4a20df2b5a7c4ec7f3",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The wife of Graham Thorpe, the former England cricketer who took his own life, has started legal proceedings against an NHS trust after an inquest identified “failings” in his mental health care."
-        },
-        {
-          "type": "p",
-          "text": "Thorpe died aged 55 in August 2024 in Surrey. His wife, Amanda, has lodged a personal injury claim at the high court against Surrey and Borders Partnership NHS foundation trust which was involved in his care, the Telegraph reported."
-        },
-        {
-          "type": "p",
-          "text": "The former batsman and coach was diagnosed with anxiety and depression and had tried to kill himself in 2022, the inquest at Surrey coroner’s court in Woking heard last year. The inquest found the trust was culpable of “failings” and “shortcomings”."
-        },
-        {
-          "type": "p",
-          "text": "Thorpe, who played 100 Tests for England, had “spiralled into depression” after losing his job as a batting coach in 2022 at the conclusion of the Ashes series in Australia, the hearing heard."
-        },
-        {
-          "type": "p",
-          "text": "Surrey coroner’s court was told there had been a gap of more than four months in his being seen by the local NHS trust before his death despite a “crisis” call in June 2024 when he told his care coordinator that he had “given up”. Thorpe was offered a follow-up appointment by the community mental health team but no home visit was made."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/95f17d2269a6cb6eee89436378ff5b320ea15bfe/0_0_3072_2048/master/3072.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Graham Thorpe in December 1996. Photograph: Clive Mason/Getty"
-        },
-        {
-          "type": "p",
-          "text": "Jonathan Stevens, the assistant coroner, said at the inquest: “In my judgment, someone should have been going to see him to properly monitor and assess him, to understand his care needs. Saying ‘come and see me in two weeks’ was not an appropriate response to the crisis."
-        },
-        {
-          "type": "p",
-          "text": "“I don’t accept that when Graham was constantly asking his wife to help end his life, which was a new presentation that hadn’t been seen before, he was not at that moment in crisis. There were shortcomings in the care that should have been provided to Graham in the last four months of his life. There were failings in the provision of his care.”"
-        },
-        {
-          "type": "p",
-          "text": "Stevens did not conclude those shortcomings were negligent, adding: “I cannot say whether it would have made any difference or not.”"
-        },
-        {
-          "type": "p",
-          "text": "Amanda told the inquest her husband was constantly asking for help to end his life and that he was sure nothing would work. She also told the inquest of Thorpe’s desire to go to Switzerland to end his life, although he did also tell his care coordinator that he had “no immediate plans” to act on his suicidal thoughts. A coroner recorded a verdict of suicide."
-        },
-        {
-          "type": "p",
-          "text": "after newsletter promotion"
-        },
-        {
-          "type": "p",
-          "text": "A statement from Surrey and Borders NHS trust read: “We understand there is an intention to commence proceedings and cannot comment further at this stage.”"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "In the UK and Ireland, Samaritans can be contacted on freephone 116 123. In the US, you can call or text the 988 Suicide & Crisis Lifeline at 988 or chat at 988lifeline.org. In Australia, the crisis support service Lifeline is 13 11 14. Other international helplines can be found at befrienders.org"
-          ]
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "cbc-b2y32h",
       "source": "cbc",
       "title": "Grand Theft Auto VI writer behind female protagonist deletes X account after online hate",
@@ -8535,120 +8796,6 @@
         {
           "type": "p",
           "text": "EU leaders know that the clock on their end-of-2026 deadline is ticking, and will return to the same conference rooms in late December hoping for a more conducive atmosphere to strike a deal."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
-      "id": "grd-ob7zrk",
-      "source": "grd",
-      "title": "Jared Kushner’s 70-minute interview shows the peril of treating Putin like a corporate rival",
-      "summary": "<p>Trump’s son-in-law and top negotiator paints Russian invasion of Ukraine as a misunderstanding to be resolved</p><p>In the space of a 70-minute interview, Jared Kushner – Donald Trump’s son-in-law…",
-      "byline": "Patrick Wintour Diplomatic editor",
-      "section": "Jared Kushner",
-      "published": "2026-11-27T16:49:59.000Z",
-      "firstSeen": "2026-11-27T17:01:07.617Z",
-      "url": "https://www.theguardian.com/us-news/2026/nov/27/jared-kushner-interview-peril-putin-corporate-rival",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/2982dd4242ca828d413c2bc16a208c6b356eb841/401_0_5492_4392/master/5492.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e799b6911fb30f055aad60dbd69170c9",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "In the space of a 70-minute interview, Jared Kushner – Donald Trump’s son-in-law and a prominent US negotiator in Russia, Gaza and Iran – probably did more to reveal why the world is mired in entrenched conflicts than a thousand geopolitical tomes or seminars."
-        },
-        {
-          "type": "p",
-          "text": "During the conversation this week with Mathias Döpfner, the chief executive of the Axel Springer media publisher, Kushner gave a rare insight into his diplomatic technique, offering a string of homilies that veered close to banalities: “You have nothing until you have something”, “diplomacy is like untying knots on a fishing line for his son”, and “you play the ball from where it lands”."
-        },
-        {
-          "type": "p",
-          "text": "There were also many happy admissions of historical ignorance. Since taking on the Ukraine brief a year ago, Kushner said, he had to learn “the algorithm of Europe and how complicated that is”, and he had to get abreast of “the local issues with Ukraine”."
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/777fc178f7b9711ed442a870f230184366d8dfcb/0_0_7020_4177/master/7020.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Jared Kushner, left, stands with the Ukrainian president, Volodymyr Zelenskyy, centre, and the US special envoy, Steve Witkoff, as they speak to the press in Dublin. Photograph: Peter Morrison/AP"
-        },
-        {
-          "type": "p",
-          "text": "As a businessman he brought a special expertise, he claimed. “Look at what’s happening in the Middle East with sanctions, with Russia, with Iran. I think that you have to understand economics in order to understand geopolitics because the two go together very, very closely,” he said."
-        },
-        {
-          "type": "p",
-          "text": "But the main revelation was how much he believes the Ukraine conflict is not a case of an aggressor and a victim – but is simply a series of misunderstandings and miscommunication."
-        },
-        {
-          "type": "p",
-          "text": "Indeed, he treated Vladimir Putin as if he were a masterful corporate executive quite willing to close the deal if he were only given the right economic incentives – instead of a man ready to sacrifice hundreds of thousands of Russians to reclaim part of a historical empire."
-        },
-        {
-          "type": "p",
-          "text": "In the process, Kushner revealed – often inadvertently – that he has largely bought into the Russian narrative of a string of postwar missteps by Europe and the US coming to a head in Nato’s expansion eastwards after 9/11."
-        },
-        {
-          "type": "p",
-          "text": "That, in turn, has led him to adopt Moscow’s central demand to reshape the European security order to allow Russia, without opprobrium, to retain land it has gained by force. Shining through his answers was a naive bias towards the aggressor, presented as a mediator’s desire to understand both parties."
-        },
-        {
-          "type": "p",
-          "text": "Praise veering on awe for the Russian leader flowed. “Putin – people can like what he has done, they can not like what he has done – [but] he is a grand master of politics. He is a historic figure,” he said. Any sense that Putin may have blundered escaped him."
-        },
-        {
-          "type": "p",
-          "text": "As to the rights and wrongs of invading another country, Kushner was blasé. “After all, most lines in Europe have changed over time and they are decided through war or peace, or concessions. It’s not about fairness or who is right or wrong. It’s about ending the killing,” he said."
-        },
-        {
-          "type": "p",
-          "text": "He understood too why Putin could not offer a ceasefire: “He has very little confidence that if he stops the war, that he [will] be able to get to a postwar settlement that leads to not having a future war.”"
-        },
-        {
-          "type": "p",
-          "text": "To stop the killing, the killing has to go on."
-        },
-        {
-          "type": "p",
-          "text": "What is more, Kushner was struck by the Russian leader’s self-control. “So far Putin has shown restraint and he has agreed not to use nuclear weapons and he has reassured us that is his intention.”"
-        },
-        {
-          "type": "image",
-          "src": "https://i.guim.co.uk/img/media/354c5812d4a80c57aef34315306550f125254a44/0_0_4307_3089/master/4307.jpg?width=445&dpr=1&s=none&crop=none",
-          "caption": "Donald Trump and Vladimir Putin shake hands during a meeting in China. Photograph: Vyacheslav Prokofyev/Reuters"
-        },
-        {
-          "type": "p",
-          "text": "Kushner denied that his boss had put any pressure on Volodymyr Zelenskyy, defying his interviewer to provide evidence – at which point Döpfner recited a list of examples, including only last month when Trump suggested that Ukraine should get a new leader."
-        },
-        {
-          "type": "p",
-          "text": "Trump was “a strong counter-puncher,” argued Kushner, implying that Zelenskyy had thrown the first punch in a conflict that began with a Russian invasion. Relations with Ukraine were cooperative, he said before pointedly saying Kyiv needed things from the US, without which “Ukraine will not be safe in the future”."
-        },
-        {
-          "type": "p",
-          "text": "After noting that “the territorial issue is now a little bit of a deadlock,” his strategic insight was that if a future security architecture for Europe could be agreed, the land question in Donbas would eventually follow."
-        },
-        {
-          "type": "p",
-          "text": "In essence, he proposed a revival of the Russia-Nato council, one of the bodies eviscerated by Putin’s war."
-        },
-        {
-          "type": "p",
-          "text": "He also envisioned Ukraine inside the European Union with security guarantees akin to those offered by Nato’s article five. But it was impossible at this stage to give “more specificity” about these guarantees in the detailed way Ukraine sought, he admitted."
-        },
-        {
-          "type": "p",
-          "text": "So far neither Moscow or Kyiv have bought this plan, let alone a wary Europe."
-        },
-        {
-          "type": "p",
-          "text": "Kushner tried to be polite about Europe, insisting it had to be at the negotiating table, but he could not stop himself characterising European military assistance to Ukraine as a “proxy war” against Russia."
-        },
-        {
-          "type": "p",
-          "text": "As an analysis of why the Ukraine war had not ended inside the 24 hours Donald Trump promised, Kushner showed an alarming belief that the answer lay in granting more concessions to Putin, believing that the misunderstandings and misperceptions would then evaporate."
         }
       ],
       "truncated": false,
@@ -9944,7 +10091,7 @@
       "byline": "",
       "section": "",
       "published": "2026-11-27T15:56:24.000Z",
-      "firstSeen": "2026-11-28T06:01:05.470Z",
+      "firstSeen": "2026-11-28T06:31:03.024Z",
       "url": "https://www.abs-cbn.com/",
       "image": null,
       "blocks": [],
@@ -15643,62 +15790,6 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "gma-1hjamr7",
-      "source": "gma",
-      "title": "DBM releases P336M for hog raisers affected by ASF",
-      "summary": "The Department of Budget and Management (DBM) has released P336 million to fund the compensation of hog raisers affected by African swine fever (ASF).",
-      "byline": "JEAN MANGALUZ, GMA News",
-      "section": "",
-      "published": "2026-11-27T10:13:52.000Z",
-      "firstSeen": "2026-11-27T10:30:57.186Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1010972/dbm-releases-p336m-for-hog-raisers-affected-by-asf/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2026/08/asf_2026_08_01_09_21_12.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published November 27, 2026 6:13pm"
-        },
-        {
-          "type": "p",
-          "text": "The Department of Budget and Management (DBM) has released P336 million to fund the compensation of hog raisers affected by African swine fever (ASF)."
-        },
-        {
-          "type": "p",
-          "text": "During the interpellation of the Department of Agriculture's (DA) budget at the Senate plenary, Senator Risa Hontiveros raised that more than 8,400 hog raisers and traders affected by ASF from 2023 to 2026 have yet to be paid by the government for their losses. They are owed a total of P434 million."
-        },
-        {
-          "type": "p",
-          "text": "Senator Francis Pangilinan, the DA's budget sponsor in the Senate, said the DBM had not released the contingency fund. However, Pangilinan was informed on the spot that DBM released the fund on Thursday night. He quipped that perhaps the agency knew that Hontiveros was about to ask that question."
-        },
-        {
-          "type": "p",
-          "text": "\"So P336 million has been released, unpaid is P229 million as of 2024, and December, the payout will start,\" Pangilinan said."
-        },
-        {
-          "type": "p",
-          "text": "The remaining balance will be sourced from quick response funds, Pangilinan said. The balance will be fully paid by the end of the first quarter of 2027."
-        },
-        {
-          "type": "p",
-          "text": "\"Just for the record, your Committee on Agriculture has been following this up since July. And after five months, it has been released,\" said Pangilinan in a mix of English and Filipino."
-        },
-        {
-          "type": "p",
-          "text": "ASF first hit the Philippines in 2019, severely affecting the country's hog industry and reducing its swine population from around 13 million heads to about 8 million."
-        },
-        {
-          "type": "p",
-          "text": "The Bureau of Animal Industry has reported ASF outbreaks in 76 of the country's 82 provinces. — VDV, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "dw-1pvhihn",
       "source": "dw",
       "title": "German Catholic Church: Abuse victims may receive higher compensation",
@@ -16234,72 +16325,6 @@
         {
           "type": "p",
           "text": "Catriona Gray remains one of the most celebrated figures in pageantry, with her lava gown in Miss Universe recreated and reinterpreted multiple times across international competitions."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1myksbr",
-      "source": "abs",
-      "title": "Karylle recalls heartbreaking loss in ‘It’s Showtime’ Magpasikat 2017",
-      "summary": "Karylle recalls the heartbreaking loss she had in ‘It’s Showtime’ Magpasikat 2017.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-27T09:07:54.000Z",
-      "firstSeen": "2026-11-27T09:31:04.991Z",
-      "url": "https://www.abs-cbn.com/entertainment/showbiz/celebrities/2026/11/27/karylle-recalls-heartbreaking-loss-in-it-s-showtime-magpasikat-2017-1707",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Karylle recalls the heartbreaking loss she had in ‘It’s Showtime’ Magpasikat 2017."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-u5yo20",
-      "source": "abs",
-      "title": "Cong TV, Viy Cortez lead family wellness campaign",
-      "summary": "Purple Hearts, the food supplement brand under Love Kryzl & Siblings Co., welcomed content creators Lincoln “Cong TV” Velasquez and Viy Cortez-Velasquez, together with their family, as its newest…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-27T09:06:41.000Z",
-      "firstSeen": "2026-11-27T09:31:10.186Z",
-      "url": "https://www.abs-cbn.com/lifestyle/2026/11/27/cong-tv-viy-cortez-lead-family-wellness-campaign-1706",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Purple Hearts, the food supplement brand under Love Kryzl & Siblings Co., welcomed content creators Lincoln “Cong TV” Velasquez and Viy Cortez-Velasquez, together with their family, as its newest brand endorsers."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-1c4yz6k",
-      "source": "abs",
-      "title": "Savouge inches closer to Spikers' Turf finals after escape act vs NU",
-      "summary": "Savouge moved closer to returning to the Spikers' Turf finals after escaping National University-Archipelago Builders, 22-25, 25-20, 14-25, 25-22, 15-13, in the semifinals on Friday at the Filoil…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-27T08:55:13.000Z",
-      "firstSeen": "2026-11-27T09:00:58.387Z",
-      "url": "https://www.abs-cbn.com/sports/volleyball/2026/11/27/savouge-inches-closer-to-spikers-turf-finals-after-escape-act-vs-nu-1655",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Savouge moved closer to returning to the Spikers' Turf finals after escaping National University-Archipelago Builders, 22-25, 25-20, 14-25, 25-22, 15-13, in the semifinals on Friday at the Filoil Centre in San Juan."
         }
       ],
       "truncated": true,
