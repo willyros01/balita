@@ -1,25 +1,48 @@
 {
   "id": "bbc-xg7tsu",
   "source": "bbc",
-  "title": "Seven students killed and nearly 100 injured in explosion in Afghanistan, official says",
+  "title": "Ten students killed and over 100 injured in explosion in Afghanistan, official says",
   "summary": "A spokesman for Afghanistan's interior ministry says the blast was caused by carelessness at an explosives depot nearby.",
-  "byline": "",
+  "byline": "Jacob Phillips, Mahfouz Zubaide",
   "section": "",
-  "published": "2026-11-28T10:14:37.000Z",
+  "published": "2026-11-28T11:18:37.000Z",
   "firstSeen": "2026-11-28T10:30:58.157Z",
   "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
   "image": {
-    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2da/live/46909920-eb18-11f1-90b9-a9d17de9c0bd.jpg",
+    "src": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bd9/live/19b5f490-eb1d-11f1-8743-3f686b14075c.jpg",
     "caption": ""
   },
   "blocks": [
     {
       "type": "p",
-      "text": "A spokesman for Afghanistan's interior ministry says the blast was caused by carelessness at an explosives depot nearby."
+      "text": "At least 10 students have been killed and 110 others have been injured following an explosion near a school in Afghanistan, a spokesperson has told the BBC."
+    },
+    {
+      "type": "p",
+      "text": "The incident happened on Saturday morning in the Anderseir area of Asadabad, the capital of Kunar province, the spokesperson for the Taliban government's interior ministry said."
+    },
+    {
+      "type": "p",
+      "text": "Posting on X, Abdul Mateen Qani said that according to initial investigations, the blast was caused by \"negligence and carelessness\" at an explosives depot belonging to nearby mining companies."
+    },
+    {
+      "type": "p",
+      "text": "An investigation into the incident was ongoing, he added."
+    },
+    {
+      "type": "p",
+      "text": "Footage shared on social media showed several wounded children being taken out of cars and carried into the emergency department at a hospital in Asadabad as a large crowd watched on."
+    },
+    {
+      "type": "p",
+      "text": "Photos from inside the hospital also show children lying next to each other in hospital beds with bandages strapped around their heads."
+    },
+    {
+      "type": "p",
+      "text": "Mining is a major industry in Afghanistan but safety standards are often poor, leading to accidents."
     }
   ],
-  "truncated": true,
+  "truncated": false,
   "fx": 6,
-  "source_of_text": "summary",
-  "why": "direct returned no extractable article text"
+  "source_of_text": "page"
 }
