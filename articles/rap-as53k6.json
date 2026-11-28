@@ -1,0 +1,104 @@
+{
+  "id": "rap-as53k6",
+  "source": "rap",
+  "title": "What are AI chips, and what’s so special about Nvidia’s?",
+  "summary": "How Nvidia’s GPUs evolved from powering video games to becoming the backbone of the global AI race",
+  "byline": "Jeffrey Young, The Conversation",
+  "section": "Tech Features",
+  "published": "2026-11-28T08:30:00.000Z",
+  "firstSeen": "2026-11-28T08:30:52.571Z",
+  "url": "https://www.rappler.com/technology/features/what-are-ai-chips-whats-so-special-about-nvidias/",
+  "image": {
+    "src": "https://www.youtube.com/embed/RBmOgQi4Fr0",
+    "caption": ""
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "The commotion around Nvidia CEO Jensen Huang’s ouster and reinstatement, the central role of Nvidia in the U.S.-China AI competition, and the U.S. economy’s reliance on the AI boom might leave you asking: What’s so special about Nvidia’s chips?"
+    },
+    {
+      "type": "p",
+      "text": "The answer comes down to graphics processing units, or GPUs, and how far they’ve come from their humble beginnings as sidekicks to computers’ main chips: central processing units, or CPUs."
+    },
+    {
+      "type": "p",
+      "text": "GPUs now power the most visible advances in generative artificial intelligence, but they began as modestly priced add-on cards for video games and video rendering."
+    },
+    {
+      "type": "p",
+      "text": "As a researcher of high-performance computing and computer processors, I see three factors that explain how GPUs have become so important to the modern economy and how Nvidia became their dominant supplier: software that made GPUs useful beyond graphics, a research breakthrough that showed what they could do for AI, and a global commercial and political race to build ever-larger AI models."
+    },
+    {
+      "type": "p",
+      "text": "The CPU is built to handle a wide variety of complicated tasks quickly, a few at a time. In contrast, a GPU typically operates on simpler mathematical tasks, such as multiplying two sets of numbers, but it can perform many of these simpler operations in parallel."
+    },
+    {
+      "type": "p",
+      "text": "A GPU’s design turns out to be ideal for AI. Training a neural network, the kind of AI model behind today’s chatbots and image generators, comes down mostly to multiplying enormous grids of numbers, over and over. Today’s top AI GPUs can perform more than a quadrillion, or thousand trillion, of these operations every second."
+    },
+    {
+      "type": "p",
+      "text": "Early GPUs could only draw graphics. Programmers controlled them with small programs called shaders, which calculate things such as the color of each pixel and which can be repeated across millions of pixels in parallel. Nvidia dominated the market for graphics chips in the late 1990s and 2000s."
+    },
+    {
+      "type": "p",
+      "text": "In the early 2000s, Stanford University researchers built software tools that let programmers use this hardware for other kinds of calculations. That work provided the basis for Nvidia’s Compute Unified Device Architecture, or CUDA, which was released in 2007. CUDA allowed scientists and engineers to run scientific and more general purpose programs using the GPU’s parallel execution model."
+    },
+    {
+      "type": "p",
+      "text": "The second major shift occurred when AlexNet, a neural network model developed and trained on GPUs, won the 2012 ImageNet challenge, an annual competition to see which software could most accurately identify objects in a set of photographs. AlexNet was trained on two Nvidia GPUs, and it made far fewer mistakes than any competitor. The result showed that GPUs made it practical to train neural networks big enough to beat the older techniques, and AI researchers quickly adopted them for their work."
+    },
+    {
+      "type": "p",
+      "text": "Because Nvidia had spent years building CUDA and the software around it, it was positioned to benefit more than anyone. Competitors, including AMD, which also makes GPUs, and Google, which designs its own AI chips, called tensor processing units, have since built strong alternatives."
+    },
+    {
+      "type": "p",
+      "text": "Nvidia and other chipmakers then began redesigning GPUs for AI with specific features. These include adding hardware specialized for the matrix multiplication math that neural networks rely on, using reduced precision numbers to improve the speed of neural network training and adding larger amounts of fast memory to keep these chips supplied with data for AI workloads."
+    },
+    {
+      "type": "p",
+      "text": "In 2017, Google researchers introduced the transformer, a neural network design originally built to translate between languages. Transformers turned out to perform remarkably well in terms of accuracy as the model and dataset size grew, and this design became the foundation of today’s chatbots and many other generative AI systems."
+    },
+    {
+      "type": "p",
+      "text": "The growth of these new transformer models has also led to the current boom of generative AI companies, including U.S.-based companies OpenAI, Anthropic, Meta, Google and xAI, as well as Chinese companies such as DeepSeek, Alibaba and Baidu. Each of these companies is actively focused on building large data centers composed of high-end GPUs to train next-generation foundation models."
+    },
+    {
+      "type": "p",
+      "text": "These foundation models, exemplified by Google’s Gemini, Anthropic’s Claude Fable and OpenAI’s GPT Astra, are very large neural networks that can reason, write software code and analyze information in response to plain language instructions. The companies working on foundation model training are betting that the best models will automate much of the world’s information work and generate enormous economic returns."
+    },
+    {
+      "type": "p",
+      "text": "Nvidia’s GPUs dominate the AI market, but rival companies developing other chips are trying to knock Nvidia off its throne."
+    },
+    {
+      "type": "p",
+      "text": "Nvidia trains some AI models of its own, but most of its profit comes from selling the chips and software that other companies use to build theirs. This AI boom has led to record profits for Nvidia, but it has also drawn attention from the U.S. government, which has debated how far to restrict sales of advanced chips to China. The Trump administration tightened its export controls for advanced GPUs in the immediate aftermath of the scandal involving Huang’s relationship with an alleged Chinese spy."
+    },
+    {
+      "type": "p",
+      "text": "Demand for AI chips looks likely to keep growing as the leading AI companies compete to build more capable models, but the boom faces real limits. AI data centers require enormous amounts of electricity, raising questions about the power costs and environmental impacts to local communities."
+    },
+    {
+      "type": "p",
+      "text": "The most advanced AI chips, including Nvidia’s, are fabricated largely by one company, Taiwanese chip giant Taiwan Semiconductor Manufacturing Co., known as TSMC. Demand for AI hardware has also strained supplies of memory chips, creating shortages that reach gaming graphics cards and smartphones."
+    },
+    {
+      "type": "p",
+      "text": "Nvidia also faces direct competition from AMD, cloud companies designing their own chips, and startups, all promising to run AI more cheaply and with less power. Whether Nvidia’s software and hardware advantages can hold off these challengers is one of the biggest open questions in the industry. – Rappler.com"
+    },
+    {
+      "type": "p",
+      "text": "This article first appeared on The Conversation."
+    },
+    {
+      "type": "p",
+      "text": "Jeffrey Young, Principal Research Scientist, Partnership for an Advanced Computing Environment, Georgia Institute of Technology"
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
