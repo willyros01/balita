@@ -1,6 +1,6 @@
 {
   "version": "0.17.20",
-  "updated": "2026-11-28T06:31:24.493Z",
+  "updated": "2026-11-28T07:01:23.973Z",
   "sources": [
     {
       "id": "inq",
@@ -53,38 +53,13 @@
   ],
   "articles": [
     {
-      "id": "inqn-dae19t",
-      "source": "inqn",
-      "title": "Pagasa sees rains over northern Luzon, fair weather across rest of PH",
-      "summary": "MANILA, Philippines — The northeast monsoon or amihan will bring rains in parts of northern Luzon, while the rest of the country will see fair weather conditions with chances of thunderstorms due to…",
-      "byline": "postie",
-      "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:10.133Z",
-      "firstSeen": "2026-11-28T03:01:09.297Z",
-      "url": "https://newsinfo.inquirer.net/2348424/pagasa-sees-rains-over-northern-luzon-fair-weather-across-rest-of-ph",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/pagasa-28nov2026.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The northeast monsoon or amihan will bring rains in parts of northern Luzon, while the rest of the country will see fair weather conditions with chances of thunderstorms due to easterlies on Saturday, according to the weather bureau. In the 5 a.m. weather forecast of the Philippine Atmospheric, Geophysical, and Astronomical Services"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-tqqa6q",
       "source": "inqn",
       "title": "Why young adults are having less sex — and why it’s getting worse",
       "summary": "The sexual recession — the sustained decline in the frequency of partnered sexual activity, romantic partnership formation and marriage among adults ages 18 to 39 in high- and middle-income societies…",
       "byline": "Dennis Maliwanag",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:10.133Z",
+      "published": "2026-11-28T07:01:16.933Z",
       "firstSeen": "2026-11-28T01:31:05.322Z",
       "url": "https://newsinfo.inquirer.net/2348412/why-young-adults-are-having-less-sex-and-why-its-getting-worse",
       "image": {
@@ -109,7 +84,7 @@
       "summary": "MANILA, Philippines — Noel Celis&#8217;s pulse still races whenever a motorcyclist pulls up alongside him at a red light, a legacy of countless nights photographing ex-president Rodrigo…",
       "byline": "Dennis Maliwanag",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:10.133Z",
+      "published": "2026-11-28T07:01:16.933Z",
       "firstSeen": "2026-11-28T00:30:54.535Z",
       "url": "https://newsinfo.inquirer.net/2348404/proof-it-happened-photographers-reflect-on-dutertes-drug-war",
       "image": {
@@ -128,13 +103,88 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-19gcb9g",
+      "source": "inqn",
+      "title": "Police arrest suspect in killing of missing Bacolod girl",
+      "summary": "BACOLOD CITY — A 12-year-old girl who had been missing for three days was found dead in a grassy area in Barangay Singcang-Airport, Bacolod City, on Friday evening, Nov. 27, while a man suspected of…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-28T07:01:16.800Z",
+      "firstSeen": "2026-11-28T02:30:56.291Z",
+      "url": "https://newsinfo.inquirer.net/2348415/police-arrest-suspect-in-killing-of-missing-bacolod-girl",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2021/06/hand-cuff-arrested-crime-06112021-2.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BACOLOD CITY — A 12-year-old girl who had been missing for three days was found dead in a grassy area in Barangay Singcang-Airport, Bacolod City, on Friday evening, Nov. 27, while a man suspected of killing her was arrested. Personnel of Bacolod City Police Office (BCPO) Station 8, led by officer-in-charge Capt. Francis Depasucat, arrived"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-dae19t",
+      "source": "inqn",
+      "title": "Pagasa sees rains over northern Luzon, fair weather across rest of PH",
+      "summary": "MANILA, Philippines — The northeast monsoon or amihan will bring rains in parts of northern Luzon, while the rest of the country will see fair weather conditions with chances of thunderstorms due to…",
+      "byline": "postie",
+      "section": "Latest News Stories",
+      "published": "2026-11-28T07:01:16.800Z",
+      "firstSeen": "2026-11-28T03:01:09.297Z",
+      "url": "https://newsinfo.inquirer.net/2348424/pagasa-sees-rains-over-northern-luzon-fair-weather-across-rest-of-ph",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/pagasa-28nov2026.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The northeast monsoon or amihan will bring rains in parts of northern Luzon, while the rest of the country will see fair weather conditions with chances of thunderstorms due to easterlies on Saturday, according to the weather bureau. In the 5 a.m. weather forecast of the Philippine Atmospheric, Geophysical, and Astronomical Services"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-6hyrgp",
+      "source": "inqn",
+      "title": "Church of the Risen Lord in UP Diliman declared Important Cultural Property",
+      "summary": "MANILA, Philippines—The National Commission for Culture and the Arts (NCCA) declared the Church of the Risen Lord at the University of the Philippines Diliman in Quezon City as an Important Cultural…",
+      "byline": "postie",
+      "section": "Latest News Stories",
+      "published": "2026-11-28T07:01:16.724Z",
+      "firstSeen": "2026-11-28T04:01:01.192Z",
+      "url": "https://newsinfo.inquirer.net/2348448/church-of-the-risen-lord-in-up-diliman-declared-important-cultural-property",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/Chruch-of-the-risen-Lord-29November2026.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines—The National Commission for Culture and the Arts (NCCA) declared the Church of the Risen Lord at the University of the Philippines Diliman in Quezon City as an Important Cultural Property in recognition of its “architectural, artistic, spiritual, and social value.” In a Facebook post on Friday, the NCCA said it also acknowledges architect"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqn-fojznv",
       "source": "inqn",
       "title": "Ilocos Norte logs 53 new dengue cases in a week",
       "summary": "SAN ILDEFONSO, Ilocos Sur — Ilocos Norte recorded 53 new dengue cases from Nov. 15 to 21, bringing the province&#8217;s total to 3,229 from the first to the 46th morbidity week of 2026, according to…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:10.110Z",
+      "published": "2026-11-28T07:01:16.724Z",
       "firstSeen": "2026-11-28T03:01:05.399Z",
       "url": "https://newsinfo.inquirer.net/2348432/ilocos-norte-logs-53-new-dengue-cases-in-a-week",
       "image": {
@@ -159,7 +209,7 @@
       "summary": "PAGADIAN CITY, Zamboanga del Sur—Police arrested a newly identified high-value drug suspect and confiscated approximately one kilogram of suspected &#8220;shabu&#8221; (crystal meth) valued at P6.8…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:10.110Z",
+      "published": "2026-11-28T07:01:16.724Z",
       "firstSeen": "2026-11-28T02:30:56.291Z",
       "url": "https://newsinfo.inquirer.net/2348421/p6-8-m-shabu-seized-high-value-suspect-nabbed-in-zamboanga-city",
       "image": {
@@ -178,138 +228,13 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqn-19gcb9g",
-      "source": "inqn",
-      "title": "Police arrest suspect in killing of missing Bacolod girl",
-      "summary": "BACOLOD CITY — A 12-year-old girl who had been missing for three days was found dead in a grassy area in Barangay Singcang-Airport, Bacolod City, on Friday evening, Nov. 27, while a man suspected of…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:10.110Z",
-      "firstSeen": "2026-11-28T02:30:56.291Z",
-      "url": "https://newsinfo.inquirer.net/2348415/police-arrest-suspect-in-killing-of-missing-bacolod-girl",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2021/06/hand-cuff-arrested-crime-06112021-2.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BACOLOD CITY — A 12-year-old girl who had been missing for three days was found dead in a grassy area in Barangay Singcang-Airport, Bacolod City, on Friday evening, Nov. 27, while a man suspected of killing her was arrested. Personnel of Bacolod City Police Office (BCPO) Station 8, led by officer-in-charge Capt. Francis Depasucat, arrived"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-6hyrgp",
-      "source": "inqn",
-      "title": "Church of the Risen Lord in UP Diliman declared Important Cultural Property",
-      "summary": "MANILA, Philippines—The National Commission for Culture and the Arts (NCCA) declared the Church of the Risen Lord at the University of the Philippines Diliman in Quezon City as an Important Cultural…",
-      "byline": "postie",
-      "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:10.109Z",
-      "firstSeen": "2026-11-28T04:01:01.192Z",
-      "url": "https://newsinfo.inquirer.net/2348448/church-of-the-risen-lord-in-up-diliman-declared-important-cultural-property",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Chruch-of-the-risen-Lord-29November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—The National Commission for Culture and the Arts (NCCA) declared the Church of the Risen Lord at the University of the Philippines Diliman in Quezon City as an Important Cultural Property in recognition of its “architectural, artistic, spiritual, and social value.” In a Facebook post on Friday, the NCCA said it also acknowledges architect"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-19thqam",
-      "source": "inqn",
-      "title": "Unlocking the genetic secrets of the Philippines’ lesser-known eagle",
-      "summary": "MANILA, Philippines — In the forests of the southern Philippines lives another endangered eagle that has received far less scientific and public attention than the critically endangered Philippine…",
-      "byline": "Dennis Maliwanag",
-      "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:10.087Z",
-      "firstSeen": "2026-11-28T03:30:57.182Z",
-      "url": "https://newsinfo.inquirer.net/2348446/unlocking-the-genetic-secrets-of-the-philippines-lesser-known-eagle",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/South-Philippine-Hawk-eagle-28nov26.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — In the forests of the southern Philippines lives another endangered eagle that has received far less scientific and public attention than the critically endangered Philippine eagle. The South Philippine hawk-eagle (Nisaetus pinskeri), found only in the Philippines, is considered the country’s second most threatened eagle, with an estimated 600 to 800 mature"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqn-mjcm6h",
-      "source": "inqn",
-      "title": "3 hurt in 7-vehicle smashup in Pagadian City",
-      "summary": "PAGADIAN CITY, Zamboanga del Sur—Three people were injured in a seven-vehicle collision triggered by a runaway delivery truck along Rizal Avenue in Barangay Sta. Lucia in this city Friday noon, Nov.…",
-      "byline": "besguerra",
-      "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:08.319Z",
-      "firstSeen": "2026-11-28T03:30:57.176Z",
-      "url": "https://newsinfo.inquirer.net/2348450/3-hurt-in-7-vehicle-smashup-in-pagadian-city",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/7-vehicle-smashup-in-Pagadian-City-29November2026.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PAGADIAN CITY, Zamboanga del Sur—Three people were injured in a seven-vehicle collision triggered by a runaway delivery truck along Rizal Avenue in Barangay Sta. Lucia in this city Friday noon, Nov. 27. Police Capt. Derf Jay Maquinta, spokesperson for the Zamboanga del Sur Police Provincial Office, said the crash occurred at 12:10 p.m. near the"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inqg-1uzdykj",
-      "source": "inqg",
-      "title": "Belgian authorities force Google to halt data center construction",
-      "summary": "BRUSSELS, Belgium — Belgian authorities have ordered Google to suspend construction of a data center in the south of the country because of a lack of proper planning permission, a regional official…",
-      "byline": "Dennis Maliwanag",
-      "section": "Europe",
-      "published": "2026-11-28T06:31:08.286Z",
-      "firstSeen": "2026-11-28T01:00:58.084Z",
-      "url": "https://globalnation.inquirer.net/350169/belgian-authorities-force-google-to-halt-data-centre-construction-2",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/belgium-google-data-centers-28nov26.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "BRUSSELS, Belgium — Belgian authorities have ordered Google to suspend construction of a data center in the south of the country because of a lack of proper planning permission, a regional official said Friday. &#8220;We have identified a major offense: the illegal construction of a building covering three hectares,&#8221; or 7.4 acres, Nicolas Yernaux, spokesman for"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "inqn-16w5w8b",
       "source": "inqn",
       "title": "P24.3M smuggled cigarettes seized in Negros warehouse raid",
       "summary": "MURCIA, Negros Occidental — A warehouse in Barangay Santa Rosa yielded more than P24.3 million worth of suspected smuggled cigarettes after law enforcement operatives raided the facility on Friday…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:06.545Z",
+      "published": "2026-11-28T07:01:15.173Z",
       "firstSeen": "2026-11-28T03:30:57.117Z",
       "url": "https://newsinfo.inquirer.net/2348439/p24-3m-smuggled-cigarettes-seized-in-negros-warehouse-raid",
       "image": {
@@ -328,23 +253,73 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
-      "id": "inqg-2j8ikc",
-      "source": "inqg",
-      "title": "Protesters take to the streets in Puerto Rico&#8217;s capital as standard of living deteriorates",
-      "summary": "SAN JUAN, Puerto Rico (AP) — Thousands of people protested Friday in Puerto Rico ’s capital as anger and frustration erupted over record high electric rates, the surging cost of living, deterioration…",
-      "byline": "chitoDLV",
-      "section": "Americas",
-      "published": "2026-11-28T06:31:06.530Z",
-      "firstSeen": "2026-11-28T01:00:57.464Z",
-      "url": "https://globalnation.inquirer.net/350166/protesters-take-streets-in-puerto-ricos-capital-standard-of-living-deteriorates",
+      "id": "inqn-mjcm6h",
+      "source": "inqn",
+      "title": "3 hurt in 7-vehicle smashup in Pagadian City",
+      "summary": "PAGADIAN CITY, Zamboanga del Sur—Three people were injured in a seven-vehicle collision triggered by a runaway delivery truck along Rizal Avenue in Barangay Sta. Lucia in this city Friday noon, Nov.…",
+      "byline": "besguerra",
+      "section": "Latest News Stories",
+      "published": "2026-11-28T07:01:15.173Z",
+      "firstSeen": "2026-11-28T03:30:57.176Z",
+      "url": "https://newsinfo.inquirer.net/2348450/3-hurt-in-7-vehicle-smashup-in-pagadian-city",
       "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/AP-puerto-rico-28nov2026.jpeg",
+        "src": "https://newsinfo.inquirer.net/files/2026/11/7-vehicle-smashup-in-Pagadian-City-29November2026.jpg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "SAN JUAN, Puerto Rico (AP) — Thousands of people protested Friday in Puerto Rico ’s capital as anger and frustration erupted over record high electric rates, the surging cost of living, deterioration in basic services and other issues. Retirees, university students, bus drivers and others joined the protest organized by some 30 groups ranging from"
+          "text": "PAGADIAN CITY, Zamboanga del Sur—Three people were injured in a seven-vehicle collision triggered by a runaway delivery truck along Rizal Avenue in Barangay Sta. Lucia in this city Friday noon, Nov. 27. Police Capt. Derf Jay Maquinta, spokesperson for the Zamboanga del Sur Police Provincial Office, said the crash occurred at 12:10 p.m. near the"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqn-19thqam",
+      "source": "inqn",
+      "title": "Unlocking the genetic secrets of the Philippines’ lesser-known eagle",
+      "summary": "MANILA, Philippines — In the forests of the southern Philippines lives another endangered eagle that has received far less scientific and public attention than the critically endangered Philippine…",
+      "byline": "Dennis Maliwanag",
+      "section": "Latest News Stories",
+      "published": "2026-11-28T07:01:15.173Z",
+      "firstSeen": "2026-11-28T03:30:57.182Z",
+      "url": "https://newsinfo.inquirer.net/2348446/unlocking-the-genetic-secrets-of-the-philippines-lesser-known-eagle",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/11/South-Philippine-Hawk-eagle-28nov26.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — In the forests of the southern Philippines lives another endangered eagle that has received far less scientific and public attention than the critically endangered Philippine eagle. The South Philippine hawk-eagle (Nisaetus pinskeri), found only in the Philippines, is considered the country’s second most threatened eagle, with an estimated 600 to 800 mature"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inqg-1uzdykj",
+      "source": "inqg",
+      "title": "Belgian authorities force Google to halt data center construction",
+      "summary": "BRUSSELS, Belgium — Belgian authorities have ordered Google to suspend construction of a data center in the south of the country because of a lack of proper planning permission, a regional official…",
+      "byline": "Dennis Maliwanag",
+      "section": "Europe",
+      "published": "2026-11-28T07:01:15.173Z",
+      "firstSeen": "2026-11-28T01:00:58.084Z",
+      "url": "https://globalnation.inquirer.net/350169/belgian-authorities-force-google-to-halt-data-centre-construction-2",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/belgium-google-data-centers-28nov26.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BRUSSELS, Belgium — Belgian authorities have ordered Google to suspend construction of a data center in the south of the country because of a lack of proper planning permission, a regional official said Friday. &#8220;We have identified a major offense: the illegal construction of a building covering three hectares,&#8221; or 7.4 acres, Nicolas Yernaux, spokesman for"
         }
       ],
       "truncated": true,
@@ -359,7 +334,7 @@
       "summary": "MANILA, Philippines — The Senate has wrapped up its week-long plenary deliberations for the proposed P7.2-trillion national budget for 2027, paving the way for the period of amendments before the…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:04.781Z",
+      "published": "2026-11-28T07:01:14.954Z",
       "firstSeen": "2026-11-28T04:31:00.278Z",
       "url": "https://newsinfo.inquirer.net/2348472/senate-wraps-up-deliberations-on-proposed-p7-2t-budget-for-2027",
       "image": {
@@ -378,13 +353,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqg-2j8ikc",
+      "source": "inqg",
+      "title": "Protesters take to the streets in Puerto Rico&#8217;s capital as standard of living deteriorates",
+      "summary": "SAN JUAN, Puerto Rico (AP) — Thousands of people protested Friday in Puerto Rico ’s capital as anger and frustration erupted over record high electric rates, the surging cost of living, deterioration…",
+      "byline": "chitoDLV",
+      "section": "Americas",
+      "published": "2026-11-28T07:01:14.954Z",
+      "firstSeen": "2026-11-28T01:00:57.464Z",
+      "url": "https://globalnation.inquirer.net/350166/protesters-take-streets-in-puerto-ricos-capital-standard-of-living-deteriorates",
+      "image": {
+        "src": "https://globalnation.inquirer.net/files/2026/11/AP-puerto-rico-28nov2026.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAN JUAN, Puerto Rico (AP) — Thousands of people protested Friday in Puerto Rico ’s capital as anger and frustration erupted over record high electric rates, the surging cost of living, deterioration in basic services and other issues. Retirees, university students, bus drivers and others joined the protest organized by some 30 groups ranging from"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
       "id": "inqg-1sdpigu",
       "source": "inqg",
       "title": "&#8216;Radical change&#8217;: Angry youngsters back far right in Spanish vote",
       "summary": "MADRID, Spain — At a protest in Madrid, Hugo, 22, recalled an attack that he believes illustrates the problems that will push him to vote for the far right in Sunday&#8217;s Spanish general election.…",
       "byline": "chitoDLV",
       "section": "Europe",
-      "published": "2026-11-28T06:31:02.927Z",
+      "published": "2026-11-28T07:01:13.181Z",
       "firstSeen": "2026-11-28T01:31:05.322Z",
       "url": "https://globalnation.inquirer.net/350177/angry-youngsters-back-far-right-in-spanish-vote",
       "image": {
@@ -409,7 +409,7 @@
       "summary": "BAGUIO CITY—Police seized more than P17.6 million worth of illegal drugs and arrested 20 suspected drug personalities in a series of operations across the Cordillera from November 16 to 22. In a…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:31:01.480Z",
+      "published": "2026-11-28T07:01:11.551Z",
       "firstSeen": "2026-11-28T04:31:00.215Z",
       "url": "https://newsinfo.inquirer.net/2348459/p17-6m-worth-of-illegal-drugs-seized-in-weeklong-cordillera-operations",
       "image": {
@@ -434,7 +434,7 @@
       "summary": "NAIROBI, Kenya — A self-proclaimed Kenyan preacher was found guilty Friday of the manslaughter of 123 people, barely a month after being sentenced to 200 years in prison for the murders of children…",
       "byline": "Dennis Maliwanag",
       "section": "Africa",
-      "published": "2026-11-28T06:31:00.748Z",
+      "published": "2026-11-28T07:01:08.980Z",
       "firstSeen": "2026-11-28T02:30:56.291Z",
       "url": "https://globalnation.inquirer.net/350184/kenyan-cult-leader-convicted-in-deaths-of-123-followers",
       "image": {
@@ -459,7 +459,7 @@
       "summary": "MANILA, Philippines — The National Grid Corp. of the Philippines (NGCP) on Saturday placed the Visayas power grid under a yellow alert for one hour due to insufficient operating reserves amid…",
       "byline": "postie",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:30:59.715Z",
+      "published": "2026-11-28T07:01:08.144Z",
       "firstSeen": "2026-11-28T05:01:01.110Z",
       "url": "https://newsinfo.inquirer.net/2348482/visayas-grid-placed-under-yellow-alert-anew-due-to-plant-outages",
       "image": {
@@ -484,7 +484,7 @@
       "summary": "BAGUIO CITY — The Philippine Military Academy (PMA) formally welcomed 323 freshmen cadets of the Masiklab Lahi Class of 2030 into the Corps of Cadets during recognition rites on Saturday, marking the…",
       "byline": "besguerra",
       "section": "Latest News Stories",
-      "published": "2026-11-28T06:30:59.345Z",
+      "published": "2026-11-28T07:01:07.794Z",
       "firstSeen": "2026-11-28T05:30:53.984Z",
       "url": "https://newsinfo.inquirer.net/2348478/323-pma-freshmen-formally-join-corps-of-cadets",
       "image": {
@@ -500,7 +500,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqg-62ai7g",
@@ -509,7 +509,7 @@
       "summary": "MANILA, Philippines — The Philippines and seven other Asian and European countries are exploring closer intelligence-sharing and cross-border police cooperation amid emerging threats of terrorism and…",
       "byline": "postie",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-28T06:30:59.345Z",
+      "published": "2026-11-28T07:01:07.794Z",
       "firstSeen": "2026-11-28T03:30:57.117Z",
       "url": "https://globalnation.inquirer.net/350186/ph-european-asian-police-eye-closer-intelligence-sharing-vs-terrorism",
       "image": {
@@ -528,13 +528,38 @@
       "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
+      "id": "inqn-1evr4x7",
+      "source": "inqn",
+      "title": "VP Duterte yet to decide if she will testify in impeachment trial",
+      "summary": "MANILA, Philippines — Vice President Sara Duterte has shared that she has not yet discussed with her defense team if she can testify as a witness in her own impeachment trial as the proceedings…",
+      "byline": "mesarangay",
+      "section": "Latest News Stories",
+      "published": "2026-11-28T07:01:07.724Z",
+      "firstSeen": "2026-11-28T06:30:59.285Z",
+      "url": "https://newsinfo.inquirer.net/2348489/vp-duterte-yet-to-decide-if-she-will-testify-in-impeachment-trial",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Vice-President-Sara-Duterte-press-briefing-October-6-2026-via-FacebookInday-Sara-Duterte-.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Vice President Sara Duterte has shared that she has not yet discussed with her defense team if she can testify as a witness in her own impeachment trial as the proceedings resume next week. During a press conference on Friday, Duterte was asked if she had already thought of standing as a"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway HTTP 403; direct HTTP 403"
+    },
+    {
       "id": "inqg-cqiyrt",
       "source": "inqg",
       "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
       "summary": "JERUSALEM — Doctors Without Borders (MSF) said Saturday an Israeli strike killed two staff members at a clinic in Gaza, with the Israeli army labelling the pair as Hamas &#8220;terrorists&#8221;. The…",
       "byline": "Dennis Maliwanag",
       "section": "Latest Global Nation Stories",
-      "published": "2026-11-28T06:30:59.285Z",
+      "published": "2026-11-28T07:01:07.724Z",
       "firstSeen": "2026-11-28T04:00:59.227Z",
       "url": "https://globalnation.inquirer.net/350190/israeli-strike-kills-two-doctors-without-borders-staff-in-gaza",
       "image": {
@@ -553,23 +578,476 @@
       "why": "doorway HTTP 403; direct HTTP 403"
     },
     {
-      "id": "inqn-1evr4x7",
-      "source": "inqn",
-      "title": "VP Duterte yet to decide if she will testify in impeachment trial",
-      "summary": "MANILA, Philippines — Vice President Sara Duterte has shared that she has not yet discussed with her defense team if she can testify as a witness in her own impeachment trial as the proceedings…",
-      "byline": "mesarangay",
-      "section": "Latest News Stories",
-      "published": "2026-11-28T06:30:59.285Z",
-      "firstSeen": "2026-11-28T06:30:59.285Z",
-      "url": "https://newsinfo.inquirer.net/2348489/vp-duterte-yet-to-decide-if-she-will-testify-in-impeachment-trial",
+      "id": "rap-1psihdj",
+      "source": "rap",
+      "title": "In ‘Shux,’ Bicol band Kilyab calls out ‘ayuda’ politics, climate neglect",
+      "summary": "Drawn from a Gen Z expression of disappointment, the track urges voters in Camarines Sur and across Bicol to look beyond band-aid relief efforts",
+      "byline": "Reinnard Balonzo",
+      "section": "Artists",
+      "published": "2026-11-28T07:00:00.000Z",
+      "firstSeen": "2026-11-28T07:01:07.725Z",
+      "url": "https://www.rappler.com/people/artists/bicol-band-kilyab-shux-ayuda-politics-climate-neglect/",
       "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/10/Vice-President-Sara-Duterte-press-briefing-October-6-2026-via-FacebookInday-Sara-Duterte-.png",
+        "src": "https://www.rappler.com/tachyon/2026/11/SHUX5-Kilyab-Bicol.jpeg",
         "caption": ""
       },
       "blocks": [
         {
           "type": "p",
-          "text": "MANILA, Philippines — Vice President Sara Duterte has shared that she has not yet discussed with her defense team if she can testify as a witness in her own impeachment trial as the proceedings resume next week. During a press conference on Friday, Duterte was asked if she had already thought of standing as a"
+          "text": "GRASSROOTS MUSIC. Kilyab performs in the streets and at venues across Naga City and the Bicol region."
+        },
+        {
+          "type": "p",
+          "text": "Drawn from a Gen Z expression of disappointment, the track urges voters in Camarines Sur and across Bicol to look beyond band-aid relief efforts"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Bicol pop band Kilyab's new single 'Shux' addresses climate change and systemic neglect in their community, urging citizens to reflect on their voting choices.",
+            "The band highlights the exploitation of disasters by politicians for self-promotion and emphasizes the need for socially relevant music to inspire civic engagement.",
+            "Kilyab's lyrics criticize the disconnect between local leaders' priorities and community needs, linking environmental issues to political accountability and urging action against corruption."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is AI-generated. Read the article for full context. Report any errors."
+        },
+        {
+          "type": "p",
+          "text": "ALBAY, Philippines – Bicol pop band Kilyab isn’t just singing about change — they’re marching for it in the streets, too. With their new single, “Shux,” the band pushes back against the idea that climate suffering is unavoidable, blaming decades of systemic neglect for the ongoing struggles in their community."
+        },
+        {
+          "type": "p",
+          "text": "“Drawing inspiration from Camarines Sur, we saw how even delivering ayuda (relief aid) is being used to mind-condition voters instead of really solving the issues that worsen climate change,” songwriter and lead vocalist Karl Ramirez said."
+        },
+        {
+          "type": "p",
+          "text": "“If we don’t talk and do something about it, most of our fellow citizens will continue to fall prey to the same system,” he added."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/SHUX5-Kilyab-Bicol.jpeg",
+          "caption": "PROTEST. Kilyab’s lead vocalist Karl Ramirez speaks on the importance of socially relevant songs during a rally against Pax Silica in Naga on November 17, 2026. Photo by Jascyl Jee Hugo Sayson"
+        },
+        {
+          "type": "p",
+          "text": "The band emphasized that voters are often left with almost no real alternatives when choosing their leaders, trapping them in a recurring cycle: enduring calamities while politicians exploit those same disasters for self-promotion."
+        },
+        {
+          "type": "p",
+          "text": "“These politicians don’t even hide it anymore — they even post videos on their social media accounts showing them handing out money disguised as prizes during their relief operations,” Ramirez said."
+        },
+        {
+          "type": "p",
+          "text": "For Ramirez, “Shux” reflects the band’s firm belief in using socially relevant music to awaken their fellow citizens — and help end the cycles of neglect in their province and the wider Bicol region."
+        },
+        {
+          "type": "p",
+          "text": "“Now and any time is the right time to sing songs that reflect the hardship and condition of our nation, and inspire all of us to continue taking a stand against corruption and imperialism,” he noted."
+        },
+        {
+          "type": "p",
+          "text": "Verna Velasco, Kilyab’s keyboardist and a Bicol Pop mentor who coined the song’s title, said the word comes from a Gen Z expression."
+        },
+        {
+          "type": "p",
+          "text": "“Shux” is a shortened version of “shucks,” used to convey disdain or disappointment."
+        },
+        {
+          "type": "p",
+          "text": "“Using the ‘shux’ expression feels like a call for the youth and their communities to be more vigilant, starting with reflecting on why we vote for the people we put into power,” Velasco said."
+        },
+        {
+          "type": "p",
+          "text": "“Like what the lyrics ask, ‘Ba’t ba kasi sila ang binoto niyo?’ (Why did you vote for them in the first place?), the song explains to us that we also have a shared responsibility for the neglect happening now amid the sufferings and issues we face,” she added."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/SHUX1-Kilyab-Bicol.jpeg",
+          "caption": "CIVIC ADVOCACY. Bicol Pop band Kilyab performs its original hits in Naga City at major gatherings advocating for youth empowerment and anti-corruption accountability."
+        },
+        {
+          "type": "p",
+          "text": "In a world quick to move past pressing issues, Velasco hopes the song will help people remember — especially when selecting new leaders."
+        },
+        {
+          "type": "p",
+          "text": "That call for electoral reflection lands in a province long shaped by entrenched political power. Camarines Sur has been dominated by the Villafuerte dynasty for nearly 40 years."
+        },
+        {
+          "type": "p",
+          "text": "In the 2025 midterm elections, the family maintained its grip on the province as Luis Raymund “LRay” Villafuerte reclaimed the gubernatorial seat, while his sons, Migz and Luigi, also secured seats in Congress. (READ: Iriga City bet decries harassment, vote buying in Camarines Sur)."
+        },
+        {
+          "type": "p",
+          "text": "Ramirez told Rappler that the song’s lyrics were written in one sitting during a songwriting class with Bicol Pop students back in April."
+        },
+        {
+          "type": "p",
+          "text": "Set against soaring oil prices and looming warnings of a Super El Niño, the track was sparked by growing frustration over the government’s failure to step up."
+        },
+        {
+          "type": "p",
+          "text": "“Our government can do major things regarding the climate crisis, or at least to ease the suffering of those affected. But instead of helping, we still allow some of our local watersheds — like Mount Isarog in Camarines Sur — to be destroyed,” Ramirez said."
+        },
+        {
+          "type": "p",
+          "text": "That environmental vulnerability is already playing out on the ground. In 2025, San Jose Mayor Jerold Peña pointed out that rampant quarrying near the Rangas River had accelerated erosion within the Mount Isarog watershed and worsened flooding."
+        },
+        {
+          "type": "p",
+          "text": "“What we are witnessing is not only the force of nature, but also the consequence of human actions — rampant quarrying and a widespread lack of understanding of the natural dynamics of the Rangas River,” Peña said at the time."
+        },
+        {
+          "type": "image",
+          "src": "https://www.rappler.com/tachyon/2026/11/SHUX4-Kilyab-Bicol.jpeg",
+          "caption": "SOCIAL RELEVANCE. Kilyab recorded its new single, ‘Shux,’ to reflect issues surrounding El Niño and inflation caused by bad governance."
+        },
+        {
+          "type": "p",
+          "text": "A year later, in preparation for El Niño, the mayor assured residents that the local government had formed a task force to monitor the watershed and secure community water supplies, though he acknowledged that meeting agricultural demands during the dry season would remain a steep challenge."
+        },
+        {
+          "type": "p",
+          "text": "For Kilyab, the strain on Mount Isarog and Bicol’s watersheds highlights a stark disconnect between what local leaders prioritize and what communities actually need to survive worsening climate impacts."
+        },
+        {
+          "type": "p",
+          "text": "Rather than treating floods and dry spells as mere acts of nature, the band argues that years of unchecked quarrying, weak environmental enforcement, and band-aid relief operations are the real drivers of the region’s recurring crises — the exact cycle of neglect that “Shux” wants to expose."
+        },
+        {
+          "type": "p",
+          "text": "Rooted in their environmental protection advocacy, Kilyab cuts straight to the heart of political accountability with the song’s biting line: “Bakit ba kasi sila ang binoto niyo? Oh ayan, naghihirap tayo (Why did you vote for them in the first place? Look now, we’re suffering).” – Rappler.com"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-1jp52b7",
+      "source": "inq",
+      "title": "CCTO suspends IT Park Road 15 traffic scheme dry run after congestion",
+      "summary": "CEBU CITY, Philippines — The Cebu City Transportation Office (CCTO) has suspended the dry run of its new traffic scheme along Road 15 of Cebu IT Park after the initial implementation resulted in…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-28T06:53:27.000Z",
+      "firstSeen": "2026-11-28T07:01:07.724Z",
+      "url": "https://cebudailynews.inquirer.net/788894/cebu-city-suspends-it-park-road-15-traffic-scheme-dry-run",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/11/932713562_4343210445896391_8314226084641975037_n-620x351.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CEBU CITY, Philippines — The Cebu City Transportation Office (CCTO) has suspended the dry run of its new traffic scheme along Road 15 of Cebu IT Park after the initial implementation resulted in heavier traffic congestion than projected, prompting the restoration of the previous traffic arrangement. The previous traffic flow was reinstated effective 11 p.m. on Friday, November 27, with vehicles exiting Cebu IT Park through Road 15 once again directed toward Gov. Cuenco Avenue. CCTO Assistant Department Head Atty. Kent Jongoy said the suspension was necessary after the test run produced results that differed from the office’s projections, particularly amid [&hellip;]... Keep on reading: CCTO suspends IT Park Road 15 traffic scheme dry run after congestion"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-1v3zu16",
+      "source": "inq",
+      "title": "NBA Cup: Trail Blazers beat Warriors, advance to quarterfinals",
+      "summary": "PORTLAND, Oregon — Deni Avdija had 26 points and eight rebounds, Toumani Camara added 20 points and eight rebounds and the Portland Trail Blazers beat the Golden State Warriors 116-94 on Friday night…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-28T06:49:22.000Z",
+      "firstSeen": "2026-11-28T07:01:07.794Z",
+      "url": "https://sports.inquirer.net/709046/nba-cup-trail-blazers-beat-warriors-advance-to-quarterfinals",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/11/AP26332172049726-620x415.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PORTLAND, Oregon — Deni Avdija had 26 points and eight rebounds, Toumani Camara added 20 points and eight rebounds and the Portland Trail Blazers beat the Golden State Warriors 116-94 on Friday night to advance to the NBA Cup quarterfinals. Portland led by 36 points in the first half and Golden State cut it to 10 in the fourth quarter before Portland regained control. With its margin of victory and San Antonio’s win over the Lakers, Portland will host the Memphis Grizzlies on Dec. 5. Scoot Henderson added 18 points for Portland off the bench. READ: NBA Cup: Deni Avdija, Damian [&hellip;]... Keep on reading: NBA Cup: Trail Blazers beat Warriors, advance to quarterfinals"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "grd-rfweai",
+      "source": "grd",
+      "title": "Mental health patients refusing NHS treatment over shared therapy notes",
+      "summary": "<p><strong>Exclusive:</strong> Uploading of intimate psychiatric information to wider medical records prompts some to shun support altogether</p><p>Some psychiatric patients are refusing treatment…",
+      "byline": "Matthew Weaver",
+      "section": "NHS",
+      "published": "2026-11-28T06:47:29.000Z",
+      "firstSeen": "2026-11-28T07:01:07.788Z",
+      "url": "https://www.theguardian.com/society/2026/nov/28/mental-health-patients-refusing-nhs-treatment-medical-history-shared",
+      "image": {
+        "src": "https://i.guim.co.uk/img/media/004c94c765569b58a3c94c48e641df8c020432a6/605_0_6030_4827/master/6030.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=a5bc46a68538e509d395d49c01386282",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "<p><strong>Exclusive:</strong> Uploading of intimate psychiatric information to wider medical records prompts some to shun support altogether</p><p>Some psychiatric patients are refusing treatment over the NHS adding intimate details from therapy sessions to their medical notes, fuelling fears that breaching privacy is posing a risk to health, the Guardian can reveal.</p><p>One stopped medical care for a heart condition when he discovered that details of intrusive sexual thoughts he’d experienced as result of obsessive compulsive disorder (OCD) had been shared with a cardiac nurse.</p> <a href=\"https://www.theguardian.com/society/2026/nov/28/mental-health-patients-refusing-nhs-treatment-medical-history-shared\">Continue reading...</a>"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-sk98xq",
+      "source": "inq",
+      "title": "Comelec assures clean, honest 2028 elections amid cheating concerns",
+      "summary": "MANILA, Philippines — The Commission on Elections (Comelec) on Saturday said clean and honest 2028 elections will be achieved through transparency, openness, and strict compliance with the 1987…",
+      "byline": "besguerra",
+      "section": "",
+      "published": "2026-11-28T06:47:21.000Z",
+      "firstSeen": "2026-11-28T07:01:07.798Z",
+      "url": "https://www.inquirer.net/497092/comelec-assures-clean-honest-2028-elections-amid-cheating-concerns/",
+      "image": {
+        "src": "https://www.inquirer.net/wp-content/uploads/2024/10/UPDATED-COMELEC-LOGO-1-11182022-620x352.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — The Commission on Elections (Comelec) on Saturday said clean and honest 2028 elections will be achieved through transparency, openness, and strict compliance with the 1987 Constitution."
+        },
+        {
+          "type": "p",
+          "text": "This was the response of Comelec chair George Erwin Garcia when asked how the poll body will ensure that the 2028 national and local elections will be free from fraud and cheating."
+        },
+        {
+          "type": "p",
+          "text": "“Transparency, openness and strict observance of the mandate of the Constitution and the rule of law. These are the basic foundation of a credible and honest elections,” Garcia told the INQUIRER in a Viber message."
+        },
+        {
+          "type": "p",
+          "text": "This came after Vice President Sara Duterte on Friday said that her camp is already preparing for her legal and IT (information technology) teams for possible cheating occurrences in the 2028 elections. Duterte announced her presidential bid for the much-anticipated elections as early as February this year."
+        },
+        {
+          "type": "p",
+          "text": "During her press conference, Duterte said that while their network on the ground is not yet activated, her camp has prepared the legal and IT teams “because this will be a fight against cheating in the elections.” She also shared that some election lawyers already committed to join her legal team."
+        },
+        {
+          "type": "p",
+          "text": "Garcia then expressed support in the fight against cheating and fraud in the elections."
+        },
+        {
+          "type": "p",
+          "text": "“Kasama po kami ng Pangalawang Pangulo sa paglaban sa lahat ng uri ng pandaraya sa halalan lalong lalo na ang pamimili ng boto, walang pakundangan na paggamit ng pondo at kagamitan ng pamahalaan para sa pansariling kapakanan at malawakang pagkakalat ng mga maling kaalaman,” Garcia added."
+        },
+        {
+          "type": "p",
+          "text": "(We are with the vice president in the fight against any forms of cheating in the elections, particularly in vote-selling, abuse of state resources, and dissemination of wrong information.)"
+        },
+        {
+          "type": "p",
+          "text": "Garcia also maintained that there will be elections in 2028 after Duterte said that two lawmakers from the House of Representatives were allegedly plotting a plan for charter change, or the amendment of the 1987 Constitution, although she did not name them. Duterte noted that the “no el” can only happen through the amendment of the Constitution."
+        },
+        {
+          "type": "p",
+          "text": "Garcia repeatedly dismissed claims that there will be no elections in that year as he stressed that the 1987 Constitution mandates the conduct of elections in 2028."
+        },
+        {
+          "type": "p",
+          "text": "Last June, Garcia also said that a “no el” scenario in 2028 through an amendment of the Constitution is not possible due to the lack of rules allowing it. He noted that the rule to amend the Constitution is suspended."
+        },
+        {
+          "type": "p",
+          "text": "In January 2024, the Comelec suspended any proceedings regarding people’s initiative to amend the 1987 Constitution. The Comelec Resolution No. 10650, promulgated in January 2020, served as the implementing rules and regulations of Republic Act No. 6735, or the Initiative and Referendum Act."
+        },
+        {
+          "type": "p",
+          "text": "Under the said resolution, any registered voter or group of voters may file a petition for an initiative or referendum to “propose, enact, approve or reject, in whole or in part, the Constitution, laws, ordinances or resolutions passed by any legislative body.” /ms"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-c362p7",
+      "source": "inq",
+      "title": "NBA Cup: Hawks close out group stage with win over Celtics",
+      "summary": "BOSTON — Jalen Johnson had 24 points, Nickeil Alexander-Walker scored Atlanta’s final four points as part of a 20-point night and the Hawks beat the Boston Celtics 87-86 on Friday in the final NBA…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-28T06:43:22.000Z",
+      "firstSeen": "2026-11-28T07:01:11.367Z",
+      "url": "https://sports.inquirer.net/709043/nba-cup-hawks-close-out-group-stage-with-win-over-celtics",
+      "image": {
+        "src": "https://sports.inquirer.net/files/2026/11/AP26332124697336-620x413.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "BOSTON — Jalen Johnson had 24 points, Nickeil Alexander-Walker scored Atlanta’s final four points as part of a 20-point night and the Hawks beat the Boston Celtics 87-86 on Friday in the final NBA Cup group-stage game for both teams. The Celtics and Hawks finished 3-1 in Cup play, with Atlanta winning the group thanks to taking the head-to-head matchup against Boston. The Hawks have won five straight. Alexander-Walker finished off a drive with 54.3 seconds left to break a tie, then sealed it with two free throws that made it a four-point game with 2.6 seconds remaining. READ: NBA Cup: [&hellip;]... Keep on reading: NBA Cup: Hawks close out group stage with win over Celtics"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "abs-16hoyzp",
+      "source": "abs",
+      "title": "Exactly 100 years later: Filipino devotees celebrate 'Birhen ng Antipolo's' canonical coronation",
+      "summary": "Reliving a defining moment in its centuries-old history, the widely venerated image of Birhen ng Antipolo (Our Lady of Antipolo) was once again crowned in a solemn ceremony at the Manila Cathedral.",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-28T06:41:46.000Z",
+      "firstSeen": "2026-11-28T07:01:07.725Z",
+      "url": "https://www.abs-cbn.com/news/nation/2026/11/28/filipino-devotees-celebrate-birhen-ng-antipolo-s-canonical-coronation-1441",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reliving a defining moment in its centuries-old history, the widely venerated image of Birhen ng Antipolo (Our Lady of Antipolo) was once again crowned in a solemn ceremony at the Manila Cathedral."
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "abs-d3j1n4",
+      "source": "abs",
+      "title": "Jeepneys, Sampaguitas, and the Lacoste Crocodile Meet in this Club Pilipinas Collection",
+      "summary": "The limited-edition collaboration with Ched Studio brings jeepneys, sampaguitas, and other familiar Filipino symbols into Lacoste’s signature sportswear",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-28T06:39:58.000Z",
+      "firstSeen": "2026-11-28T07:01:07.796Z",
+      "url": "https://www.abs-cbn.com/fashion/2026/11/28/lacoste-club-pilipinas-collection-1439",
+      "image": null,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The limited-edition collaboration with Ched Studio brings jeepneys, sampaguitas, and other familiar Filipino symbols into Lacoste’s signature sportswear"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "headline only by design — this outlet blocks article pages"
+    },
+    {
+      "id": "gma-1eg25rt",
+      "source": "gma",
+      "title": "DBM chief urges public to monitor public funds via 'COMPASS' spending tracking platform",
+      "summary": "Department of Budget and Management (DBM) Secretary Kim Robert De Leon urged the public to use the government's unified budget transparency platform to monitor how public funds are released and…",
+      "byline": "TED CORDERO, GMA News",
+      "section": "",
+      "published": "2026-11-28T06:34:55.000Z",
+      "firstSeen": "2026-11-28T07:01:07.788Z",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1011050/dbm-chief-urges-public-to-monitor-public-funds-via-compass-spending-tracking-platform/story/",
+      "image": {
+        "src": "https://images.gmanews.tv/webpics/2026/11/1_2026_11_28_14_22_44.jpg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published November 28, 2026 2:34pm"
+        },
+        {
+          "type": "p",
+          "text": "Department of Budget and Management (DBM) Secretary Kim Robert De Leon urged the public to use the government's unified budget transparency platform to monitor how public funds are released and spent, and to ensure that the institutions managing them are held accountable."
+        },
+        {
+          "type": "p",
+          "text": "In a news release on Saturday, the DBM, citing Episode 20 of A.S.K. – Alamin Kay Sec. Kim— said the Budget chief demonstrated how Filipinos can use the Centralized Open Monitoring Platform for Appropriations and Spending Statistics (COMPASS) to view available information regarding government funds, from budget allocation to actual expenditure."
+        },
+        {
+          "type": "p",
+          "text": "In September, President Ferdinand Marcos Jr. signed Executive Order No. 126 on September 28, institutionalizing the Centralized Open Monitoring Platform for Appropriations and Spending Statistics (COMPASS)."
+        },
+        {
+          "type": "p",
+          "text": "The DBM said it aims to consolidate into a single online platform financial information that previously had to be searched for across various government institutions."
+        },
+        {
+          "type": "p",
+          "text": "Under EO No. 126, concerned national government agencies and instrumentalities, including government-owned or -controlled corporations (GOCCs) and government financial institutions (GFIs), are mandated to submit, publish, and update the information required under the EO."
+        },
+        {
+          "type": "p",
+          "text": "Local government units (LGUs) are also encouraged to participate."
+        },
+        {
+          "type": "p",
+          "text": "Through the initiative, public access to information will be broadened, institutional accountability will be strengthened, and citizens will be encouraged to participate in monitoring the use of public resources, according to the DBM."
+        },
+        {
+          "type": "p",
+          "text": "COMPASS will also be linked to existing digital systems, including the integrated Financial Management Information System, Budget and Treasury Management System, Philippine Government Electronic Procurement System, Digital Information for Monitoring and Evaluation, and the E-Gov PH App."
+        },
+        {
+          "type": "p",
+          "text": "Meanwhile, the COMPASS Council will oversee the platform."
+        },
+        {
+          "type": "p",
+          "text": "Malacañang said the council will be chaired by the DBM and co-chaired by the Department of Information and Communications Technology. The Department of Finance and the Department of the Interior and Local Government (DILG) will serve as members. —VAL, GMA News"
+        }
+      ],
+      "truncated": false,
+      "fx": 6,
+      "source_of_text": "page"
+    },
+    {
+      "id": "inq-11btry9",
+      "source": "inq",
+      "title": "Make 2027 a year of island escapes with Jpark Island Resort and Waterparks’ year-end sale",
+      "summary": "A year of exciting getaways starts with a good deal, and Jpark Island Resort & Waterparks is giving vacationers more reasons to plan ahead with its Year-End Sale, available for a limited time from…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-28T06:33:42.000Z",
+      "firstSeen": "2026-11-28T07:01:14.282Z",
+      "url": "https://cebudailynews.inquirer.net/788889/jpark-year-end-sale-offers-2027-island-getaways-at-special-rates",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/11/1127JPARKYESMALLCP-620x349.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A year of exciting getaways starts with a good deal, and Jpark Island Resort & Waterparks is giving vacationers more reasons to plan ahead with its Year-End Sale, available for a limited time from November 27 to 29, 2026. Leverage the three-day promotion for unforgettable escapes at JPark Island Resort & Waterpark Mactan, Cebu, and Alona by JPark Island Resort Panglao, Bohol, with stays available anytime in 2027, by visiting their booth on the ground floor of Ayala Center Cebu, near the C. Rosales Avenue entrance. “Whether you’re planning a big family trip, barkada getaway, or a quiet escape, Jpark really [&hellip;]... Keep on reading: Make 2027 a year of island escapes with Jpark Island Resort and Waterparks’ year-end sale"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-19j6xh5",
+      "source": "inq",
+      "title": "PRC assures sufficient blood supply for dengue patients",
+      "summary": "MANDAUE CITY, Cebu — With dengue cases surging in parts of Cebu and other areas of the country, the Philippine Red Cross (PRC) assured the public that it has sufficient blood supply to meet current…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-28T06:30:00.000Z",
+      "firstSeen": "2026-11-28T07:01:14.958Z",
+      "url": "https://cebudailynews.inquirer.net/788847/prc-assures-sufficient-blood-supply-for-dengue-patients",
+      "image": {
+        "src": "https://cebudailynews.inquirer.net/files/2026/11/11-28-PRC-blood-donation-620x465.jpeg",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANDAUE CITY, Cebu — With dengue cases surging in parts of Cebu and other areas of the country, the Philippine Red Cross (PRC) assured the public that it has sufficient blood supply to meet current demand. PRC Secretary General Dr. Gwen Pang urged the public not to spread misinformation about an alleged blood supply shortage [&hellip;]... Keep on reading: PRC assures sufficient blood supply for dengue patients"
         }
       ],
       "truncated": true,
@@ -937,7 +1415,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inqn-xcr7bo",
@@ -1007,6 +1485,31 @@
         {
           "type": "p",
           "text": "A court in Lanao del Sur has ordered the arrest of lawyer Levito Baligod and the 18 witnesses under his watch for cyberlibel charges filed by a lawmaker. According to the arrest warrant issued by Presiding Judge Samina Sampaco Macabando-Usman of Branch 8 of the Marawi City Regional Trial Court, bail was set at P30,000"
+        }
+      ],
+      "truncated": true,
+      "fx": 6,
+      "source_of_text": "summary",
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
+    },
+    {
+      "id": "inq-i9rs4l",
+      "source": "inq",
+      "title": "VP Duterte yet to decide if she will testify in impeachment trial",
+      "summary": "MANILA, Philippines — Vice President Sara Duterte has shared that she has not yet discussed with her defense team if she can testify as a witness in her own impeachment trial as the proceedings…",
+      "byline": "",
+      "section": "",
+      "published": "2026-11-28T05:43:17.000Z",
+      "firstSeen": "2026-11-28T07:01:15.173Z",
+      "url": "https://newsinfo.inquirer.net/2348489/vp-duterte-yet-to-decide-if-she-will-testify-in-impeachment-trial",
+      "image": {
+        "src": "https://newsinfo.inquirer.net/files/2026/10/Vice-President-Sara-Duterte-press-briefing-October-6-2026-via-FacebookInday-Sara-Duterte--620x321.png",
+        "caption": ""
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MANILA, Philippines — Vice President Sara Duterte has shared that she has not yet discussed with her defense team if she can testify as a witness in her own impeachment trial as the proceedings resume next week. During a press conference on Friday, Duterte was asked if she had already thought of standing as a witness in her own trial. Her defense team began presenting witnesses and evidence last November 9. “Attending as witness, that is something that I need to discuss with the defense team for the impeachment trial and we are not there yet,” Duterte answered. “Ang sabi kasi [&hellip;]... Keep on reading: VP Duterte yet to decide if she will testify in impeachment trial"
         }
       ],
       "truncated": true,
@@ -1087,7 +1590,7 @@
       "truncated": true,
       "fx": 6,
       "source_of_text": "summary",
-      "why": "doorway HTTP 403; direct HTTP 403"
+      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "inq-1lbpc6g",
@@ -2680,31 +3183,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "inq-7dtrta",
-      "source": "inq",
-      "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
-      "summary": "JERUSALEM — Doctors Without Borders (MSF) said Saturday an Israeli strike killed two staff members at a clinic in Gaza, with the Israeli army labelling the pair as Hamas &#8220;terrorists&#8221;. The…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-28T03:44:35.000Z",
-      "firstSeen": "2026-11-28T04:00:59.227Z",
-      "url": "https://globalnation.inquirer.net/350190/israeli-strike-kills-two-doctors-without-borders-staff-in-gaza",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/palestinians-killed-gaza-28nov26-620x414.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "JERUSALEM — Doctors Without Borders (MSF) said Saturday an Israeli strike killed two staff members at a clinic in Gaza, with the Israeli army labelling the pair as Hamas &#8220;terrorists&#8221;. The Israel Defense Forces (IDF) identified the men, who worked as security guards at the clinic, as Hamas artillery cell commander Moaz Yousef Alitsbach and Ahmed Sufyan Muhammad Ali Abu. MSF said it was &#8220;devastated&#8221; by the killings and denounced &#8220;a direct hit&#8221; on the organization. &#8220;Our premises were clearly marked with MSF logos, and their location had been communicated to and was known by the Israeli military,&#8221; it wrote on [&hellip;]... Keep on reading: Israeli strike kills two Doctors Without Borders staff in Gaza"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "rap-1rtq9ue",
       "source": "rap",
       "title": "More than a place to eat: Inside Cavite’s thriving food bazaar culture",
@@ -2882,131 +3360,6 @@
       "source_of_text": "feed"
     },
     {
-      "id": "inq-1ljy945",
-      "source": "inq",
-      "title": "P24.3M smuggled cigarettes seized in Negros warehouse raid",
-      "summary": "MURCIA, Negros Occidental — A warehouse in Barangay Santa Rosa yielded more than P24.3 million worth of suspected smuggled cigarettes after law enforcement operatives raided the facility on Friday…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-28T03:25:27.000Z",
-      "firstSeen": "2026-11-28T03:30:57.117Z",
-      "url": "https://newsinfo.inquirer.net/2348439/p24-3m-smuggled-cigarettes-seized-in-negros-warehouse-raid",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2024/06/CIGARETTES-MUGGLING-stock-17June2024-300x169.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MURCIA, Negros Occidental — A warehouse in Barangay Santa Rosa yielded more than P24.3 million worth of suspected smuggled cigarettes after law enforcement operatives raided the facility on Friday morning, Nov. 27. Operatives seized 429 master cases of cigarettes during the operation in Purok Ipil-Ipil, following intelligence reports that illicit tobacco products were being stored in the area, the Police Regional Office Negros Island Region (PRO NIR) reported. No caretaker or owner was present during the inspection of the warehouse and its vicinity. However, police have identified a person of interest for further investigation. READ: P2.4M in contraband cigarettes seized, 2 [&hellip;]... Keep on reading: P24.3M smuggled cigarettes seized in Negros warehouse raid"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-ekemz8",
-      "source": "inq",
-      "title": "Carcar City nutritionist crowned Mrs. Cebu-Philippines 2026",
-      "summary": "MANDAUE CITY, Cebu — A nutritionist from Carcar City was crowned Mrs. Cebu-Philippines 2026, earning the opportunity to represent Cebu in an international pageant next year. Dana Nicole Rosales…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-28T03:15:00.000Z",
-      "firstSeen": "2026-11-28T03:30:57.176Z",
-      "url": "https://cebudailynews.inquirer.net/788817/carcar-city-nutritionist-crowned-mrs-cebu-philippines-2026",
-      "image": {
-        "src": "https://cebudailynews.inquirer.net/files/2026/11/11-28-Mrs.-Cebu-2026-620x465.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANDAUE CITY, Cebu — A nutritionist from Carcar City was crowned Mrs. Cebu-Philippines 2026, earning the opportunity to represent Cebu in an international pageant next year. Dana Nicole Rosales bested 13 other wives and mothers from various parts of Cebu City and Cebu Province during the pageant&#8217;s sixth edition. The 31-year-old also bagged three major [&hellip;]... Keep on reading: Carcar City nutritionist crowned Mrs. Cebu-Philippines 2026"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-essccn",
-      "source": "inq",
-      "title": "3 hurt in 7-vehicle smashup in Pagadian City",
-      "summary": "PAGADIAN CITY, Zamboanga del Sur—Three people were injured in a seven-vehicle collision triggered by a runaway delivery truck along Rizal Avenue in Barangay Sta. Lucia in this city Friday noon, Nov.…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-28T03:14:29.000Z",
-      "firstSeen": "2026-11-28T03:30:57.179Z",
-      "url": "https://newsinfo.inquirer.net/2348450/3-hurt-in-7-vehicle-smashup-in-pagadian-city",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/7-vehicle-smashup-in-Pagadian-City-29November2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "PAGADIAN CITY, Zamboanga del Sur—Three people were injured in a seven-vehicle collision triggered by a runaway delivery truck along Rizal Avenue in Barangay Sta. Lucia in this city Friday noon, Nov. 27. Police Capt. Derf Jay Maquinta, spokesperson for the Zamboanga del Sur Police Provincial Office, said the crash occurred at 12:10 p.m. near the corner of Duterte Street. Initial investigation by the Pagadian City Police Station showed that a white Isuzu Elf drop-side truck, loaded with about 200 boxes of assorted dried fish, was negotiating an uphill stretch when it lost engine power and suffered brake failure. READ: Driver dies [&hellip;]... Keep on reading: 3 hurt in 7-vehicle smashup in Pagadian City"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-dtwyx7",
-      "source": "inq",
-      "title": "PH, European, Asian police eye closer intelligence-sharing vs terrorism",
-      "summary": "MANILA, Philippines — The Philippines and seven other Asian and European countries are exploring closer intelligence-sharing and cross-border police cooperation amid emerging threats of terrorism and…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-28T03:02:57.000Z",
-      "firstSeen": "2026-11-28T03:31:00.927Z",
-      "url": "https://globalnation.inquirer.net/350186/ph-european-asian-police-eye-closer-intelligence-sharing-vs-terrorism",
-      "image": {
-        "src": "https://globalnation.inquirer.net/files/2026/11/IMG_4722-620x413.jpeg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — The Philippines and seven other Asian and European countries are exploring closer intelligence-sharing and cross-border police cooperation amid emerging threats of terrorism and violent extremism. In a statement on Friday, the Delegation of the European Union (EU) to the Philippines said police representatives from the Philippines, France, Indonesia, Ireland, Japan, Malaysia, Spain and Thailand gathered at Camp Crame in Quezon City from Nov. 24 to 26 for a counterterrorism conference. Specialists from Europol’s European Counter Terrorism Centre also attended the three-day meeting. READ: US boosts PNP counterterrorism drive, trains 40 elite cops in Mindanao Philippine National Police (PNP) [&hellip;]... Keep on reading: PH, European, Asian police eye closer intelligence-sharing vs terrorism"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
-      "id": "inq-16u3sy8",
-      "source": "inq",
-      "title": "Unlocking the genetic secrets of the Philippines’ lesser-known eagle",
-      "summary": "MANILA, Philippines — In the forests of the southern Philippines lives another endangered eagle that has received far less scientific and public attention than the critically endangered Philippine…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-28T03:02:42.000Z",
-      "firstSeen": "2026-11-28T03:31:04.346Z",
-      "url": "https://newsinfo.inquirer.net/2348446/unlocking-the-genetic-secrets-of-the-philippines-lesser-known-eagle",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/South-Philippine-Hawk-eagle-28nov26-620x465.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines — In the forests of the southern Philippines lives another endangered eagle that has received far less scientific and public attention than the critically endangered Philippine eagle. The South Philippine hawk-eagle (Nisaetus pinskeri), found only in the Philippines, is considered the country’s second most threatened eagle, with an estimated 600 to 800 mature individuals remaining in the wild and its population continuing to decline. Now, Filipino scientists have unlocked part of the bird’s genetic history, providing a scientific foundation for future research and conservation efforts to prevent its extinction. Researchers from the University of the Philippines (UP) Diliman and [&hellip;]... Keep on reading: Unlocking the genetic secrets of the Philippines’ lesser-known eagle"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
-    },
-    {
       "id": "abs-kc2n16",
       "source": "abs",
       "title": "Peru finds 677 live tarantulas, scorpions and centipedes in travelers' luggage at airport",
@@ -3119,31 +3472,6 @@
       "truncated": false,
       "fx": 6,
       "source_of_text": "page"
-    },
-    {
-      "id": "inq-o7at8n",
-      "source": "inq",
-      "title": "Church of the Risen Lord in UP Diliman declared Important Cultural Property",
-      "summary": "MANILA, Philippines—The National Commission for Culture and the Arts (NCCA) declared the Church of the Risen Lord at the University of the Philippines Diliman in Quezon City as an Important Cultural…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-28T02:49:23.000Z",
-      "firstSeen": "2026-11-28T04:01:11.869Z",
-      "url": "https://newsinfo.inquirer.net/2348448/church-of-the-risen-lord-in-up-diliman-declared-important-cultural-property",
-      "image": {
-        "src": "https://newsinfo.inquirer.net/files/2026/11/Chruch-of-the-risen-Lord-29November2026-620x382.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "MANILA, Philippines—The National Commission for Culture and the Arts (NCCA) declared the Church of the Risen Lord at the University of the Philippines Diliman in Quezon City as an Important Cultural Property in recognition of its “architectural, artistic, spiritual, and social value.” In a Facebook post on Friday, the NCCA said it also acknowledges architect Cesar Concio’s “skillful reinterpretation and ingenious adaptation of international design movements to the Philippine climate” in designing the church. “The Church of the Risen Lord stands as a significant work of Filipino Tropical Modernism and has retained the spirit of its era despite few modifications. It [&hellip;]... Keep on reading: Church of the Risen Lord in UP Diliman declared Important Cultural Property"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "doorway circuit open after repeated HTTP 403; direct circuit open after repeated HTTP 403"
     },
     {
       "id": "grd-o30h9t",
@@ -7060,70 +7388,6 @@
       "source_of_text": "page"
     },
     {
-      "id": "grd-74rstq",
-      "source": "grd",
-      "title": "Elderly ‘Scrooge’ severs neighbour’s Christmas lights in mobility-scooter raid",
-      "summary": "<p>CCTV shows unidentified woman taking scissors to Middlesbrough home’s festive display</p><p>An elderly woman has been accused of defying the season of goodwill after appearing to cut down her…",
-      "byline": "Nadeem Badshah",
-      "section": "Middlesbrough",
-      "published": "2026-11-27T21:31:40.000Z",
-      "firstSeen": "2026-11-27T22:01:03.775Z",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/27/elderly-scrooge-severs-neighbours-christmas-lights-in-mobility-scooter-raid",
-      "image": {
-        "src": "https://i.guim.co.uk/img/media/31002f7557ad88f90058fb5bc878bbf4f6900edd/4_0_844_675/master/844.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=b0306ba3651f2a7f4bc12b3e7e67701b",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "An elderly woman has been accused of defying the season of goodwill after appearing to cut down her neighbour’s Christmas lights."
-        },
-        {
-          "type": "p",
-          "text": "CCTV footage showed her approaching a property on a mobility scooter brandishing scissors."
-        },
-        {
-          "type": "p",
-          "text": "After several seconds, the Christmas lights at Beth Wilson-Croft’s house in Middlesbrough, North Yorkshire, which is surrounded by lights with an inflatable Father Christmas and Rudolph on the roof and two snowmen in the garden, went out."
-        },
-        {
-          "type": "p",
-          "text": "The woman then fled the scene on her scooter at about 11pm on Wednesday."
-        },
-        {
-          "type": "p",
-          "text": "Wilson-Croft said most of her neighbours enjoyed her festive display and she had never seen the alleged perpetrator before, the Daily Mail reported."
-        },
-        {
-          "type": "p",
-          "text": "The 31-year-old said she had reported the vandalism to the police."
-        },
-        {
-          "type": "p",
-          "text": "In an effort to find the woman, Wilson-Croft posted the footage online and wrote: “If you don’t like my Christmas decorations that’s an absolute shame for you because they’ll be back up today alongside a singing Santa and a snow machine and anything else I can get my hands on.”"
-        },
-        {
-          "type": "p",
-          "text": "After seeing the video of the incident, a man offered to help and fixed the lights by soldering them back together."
-        },
-        {
-          "type": "p",
-          "text": "Wilson-Croft, who has a six-year-old child, has subsequently shared photographs showing her lights restored."
-        },
-        {
-          "type": "p",
-          "text": "The footage triggered outrage from neighbours who accused the perpetrator of flouting the festive spirit and described her as a “Grinch” and a “Scrooge”."
-        },
-        {
-          "type": "p",
-          "text": "The family’s seasonal decorations draw visitors from around the area."
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "grd-gzdh1x",
       "source": "grd",
       "title": "‘Abusive and insulting to Canadians’: campaign to oust US ambassador presented to parliament",
@@ -10091,7 +10355,7 @@
       "byline": "",
       "section": "",
       "published": "2026-11-27T15:56:24.000Z",
-      "firstSeen": "2026-11-28T06:31:03.024Z",
+      "firstSeen": "2026-11-28T07:01:11.367Z",
       "url": "https://www.abs-cbn.com/",
       "image": null,
       "blocks": [],
@@ -13021,118 +13285,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "rap-11y3nlk",
-      "source": "rap",
-      "title": "DOH eyes faster upgrades for LGU-run hospitals in 2027",
-      "summary": "The Senate finance committee recommends an additional P5.4 billion for the Health Facilities Enhancement Program, pushing its proposed 2027 allocation to P15.58 billion",
-      "byline": "Jelo Ritzhie Mantaring",
-      "section": "Editors' Pick",
-      "published": "2026-11-27T13:12:38.000Z",
-      "firstSeen": "2026-11-27T13:31:01.021Z",
-      "url": "https://www.rappler.com/philippines/doh-eyes-faster-upgrades-lgu-run-hospitals-2027/",
-      "image": {
-        "src": "https://www.rappler.com/tachyon/2026/04/Screenshot-2026-03-31-at-7.44.39-PM-1.png",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "DOH. The Department of Health facade."
-        },
-        {
-          "type": "p",
-          "text": "Angie de Silva/Rappler"
-        },
-        {
-          "type": "p",
-          "text": "The Senate finance committee recommends an additional P5.4 billion for the Health Facilities Enhancement Program, pushing its proposed 2027 allocation to P15.58 billion"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "The Department of Health plans to decentralize funding for the Health Facilities Enhancement Program by 2027.",
-            "The Senate finance committee recommended increasing the proposed 2027 budget for HFEP to P15.58 billion."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "This is AI-generated. Read the article for full context. Report any errors."
-        },
-        {
-          "type": "p",
-          "text": "MANILA, Philippines – The Department of Health plans to bring funds for the Health Facilities Enhancement Program (HFEP) down to the provincial level in 2027, to speed up infrastructure projects and the decongestion of DOH-run hospitals."
-        },
-        {
-          "type": "p",
-          "text": "The Senate finance committee recommended an additional P5.4 billion for HFEP, pushing the proposed allocation to P15.58 billion, Senator JV Ejercito said during plenary deliberations on the DOH’s proposed 2027 budget on Friday, November 27."
-        },
-        {
-          "type": "p",
-          "text": "This comes after the House of Representatives approved only P10.09 billion for HFEP in its version of the general appropriations bill (HGAB), lower than the P14.54 billion allocated in the National Expenditure Program (NEP)."
-        },
-        {
-          "type": "p",
-          "text": "“Admittedly, ‘yong pagiging centralized ay talaga naging problema…for the whole fund to be utilized. Kaya nga po siguro one reason ‘yan [na] P4 billion natanggal sa HGAB,” said Ejercito, the Senate finance committee chairman and the DOH’s budget sponsor."
-        },
-        {
-          "type": "p",
-          "text": "“But dito sa ating committee, binalik natin dahil may bagong programa ang DOH under Secretary [Edwin] Mercado, that is to download ito sa provincial hospitals and locally-run hospitals. So that they will [be improved, capacitated], para po ma-decongest ‘yong DOH-run hospitals,” he added."
-        },
-        {
-          "type": "p",
-          "text": "(Admittedly, HFEP being centralized became a problem for the whole fund to be utilized. Maybe that’s one reason why P4 billion was cut from the HGAB. But the Senate finance committee restored it because the DOH, under Secretary Edwin Mercado, has a new program, that is to download the funding to provincial hospitals and locally-run hospitals. So that they will be improved, capacitated, and to decongest the DOH-run hospitals)."
-        },
-        {
-          "type": "p",
-          "text": "With the limited funding, the DOH will also be prioritizing the completion of ongoing HFEP projects, particularly critical health facilities in remote and disadvantaged areas."
-        },
-        {
-          "type": "p",
-          "text": "Ejercito said DOH-run hospitals, which are end-referral centers providing advanced or specialty care, currently have an average bed occupancy rate of 150%, especially with the implementation of zero balance billing (ZBB)."
-        },
-        {
-          "type": "p",
-          "text": "Since the ZBB rollout in July 2025, 4.2 million patients have benefited from the program in DOH-run hospitals, according to Ejercito. Recently, it was piloted in some hospitals run by local government units (LGUs)."
-        },
-        {
-          "type": "p",
-          "text": "In its version, the Senate realigned P19.8 billion from government assistance programs, including the Medical Assistance Program (MAP) and the Assistance to Individuals in Crisis Situations or AICS, to augment funding for the Philippine Health Insurance Corporation or PhilHealth."
-        },
-        {
-          "type": "p",
-          "text": "Ejercito previously said the funds would go directly to hospitals to support the implementation of the ZBB program. This includes P7.6 billion for DOH hospitals, P2 billion for legacy hospitals, and P1 billion for LGU hospitals."
-        },
-        {
-          "type": "p",
-          "text": "Aside from boosting the HFEP budget, the Senate also provided an additional P1.099 billion for health promotion, P1.599 billion for immunization programs, and P736 million for the Sulu Transition Program."
-        },
-        {
-          "type": "p",
-          "text": "But if Senator Panfilo Lacson had his way, essential health programs would get even more funds while MAP would become a thing of the past."
-        },
-        {
-          "type": "p",
-          "text": "MAP, previously called Medical Assistance to Indigent and Financially Incapacitated Patients or MAIFIP, has been tagged by watchdogs as “soft pork” and called a “politicized discretionary program.”"
-        },
-        {
-          "type": "p",
-          "text": "Acknowledging that the Senate might have to wrestle with the House regarding unfunding MAP, Lacson suggested introducing a special provision that would allow the remaining P16.2 billion for MAP in the proposed 2027 budget to be allocated to the chambers’ public assistance centers instead. He proposed having DOH personnel oversee the vetting process for claiming the medical aid."
-        },
-        {
-          "type": "p",
-          "text": "Lacson said this was in a bid to eventually phase out the aid program."
-        },
-        {
-          "type": "p",
-          "text": "“For next year, the DOH is planning to have a rules-based approach in granting medical assistance to qualified patients. They will, of course, study ‘yong inyong (your) proposal,” Ejercito replied. – Rappler.com"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "abs-1nfxryh",
       "source": "abs",
       "title": "Spikers’ Turf: FEU stays in finals hunt by routing Australians",
@@ -15685,86 +15837,6 @@
       "why": "headline only by design — this outlet blocks article pages"
     },
     {
-      "id": "gma-1n4hvg3",
-      "source": "gma",
-      "title": "Sara Duterte decries dad Rodrigo's required attendance in ICC trial",
-      "summary": "Vice President Sara Duterte on Friday said it was \"unfair\" that her father, former president Rodrigo Duterte, is being required to attend trial proceedings for his crimes against humanity case before…",
-      "byline": "GISELLE OMBAY, GMA News",
-      "section": "",
-      "published": "2026-11-27T10:36:01.000Z",
-      "firstSeen": "2026-11-27T11:01:05.432Z",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1010974/sara-duterte-decries-dad-rodrigo-s-required-attendance-in-icc-trial/story/",
-      "image": {
-        "src": "https://images.gmanews.tv/webpics/2025/09/Sara_Rodrigo_Duterte_2025_09_24_10_07_05.jpg",
-        "caption": ""
-      },
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Published November 27, 2026 6:36pm"
-        },
-        {
-          "type": "p",
-          "text": "Vice President Sara Duterte on Friday said it was \"unfair\" that her father, former president Rodrigo Duterte, is being required to attend trial proceedings for his crimes against humanity case before the International Criminal Court (ICC) on a daily basis."
-        },
-        {
-          "type": "p",
-          "text": "Speaking before the media, the vice president stressed that her father is already 81 years old and is unlikely to focus throughout an eight-hour trial."
-        },
-        {
-          "type": "p",
-          "text": "\"I think it's unfair that they are demanding that he attends the trial every day as long as there is a trial, because of his age. Clearly, he cannot sit eight hours a day on a chair,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "\"And I don't think he can focus and give his time and attention, particularly his attention, to something for eight hours. So I think it's unfair to demand that of an 81-year-old man,\" she added."
-        },
-        {
-          "type": "p",
-          "text": "The vice president expressed hope that the court would allow her father to attend the trial virtually."
-        },
-        {
-          "type": "p",
-          "text": "\"Unfortunately, that was not given him, so I hope that his defense team will ask for that in the coming days,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "The ICC Chamber III earlier found the elder Duterte fit to stand trial, stating that he \"is able to effectively exercise his fair trial rights in the proceedings.\""
-        },
-        {
-          "type": "p",
-          "text": "The court chamber also ordered measures to facilitate Duterte's participation in the proceedings."
-        },
-        {
-          "type": "p",
-          "text": "The trial is scheduled to open on November 30, 2026."
-        },
-        {
-          "type": "p",
-          "text": "However, Sara Duterte stood firm that she is not expecting a fair trial from the ICC."
-        },
-        {
-          "type": "p",
-          "text": "\"Particularly because this is the only remaining case in the ICC already. And I think the ICC, after the ganging up of superpowers, they would want to make a statement that they are in the right,\" she said."
-        },
-        {
-          "type": "p",
-          "text": "\"So there is no one else there that they would like to make a statement to, and that's the case of Rodrigo Duterte,\" she added."
-        },
-        {
-          "type": "p",
-          "text": "Trial aside, the vice president said she and her family have no complaints as to how the ICC is treating Rodrigo in the detention unit."
-        },
-        {
-          "type": "p",
-          "text": "She said the Scheveningen Prison in The Hague, Netherlands has been \"taking good care\" of the former president. — VDV, GMA News"
-        }
-      ],
-      "truncated": false,
-      "fx": 6,
-      "source_of_text": "page"
-    },
-    {
       "id": "inqg-i8qbjl",
       "source": "inqg",
       "title": "Attack on Saudi refinery kills 1, forces temporary shutdown",
@@ -16281,50 +16353,6 @@
         {
           "type": "p",
           "text": "Stars brought their own interpretations to the theme, debuting glamorous beauty looks that honored Filipino cultural roots while embracing holiday glamour. Here are the standout ladies who nailed the brief and slayed the red carpet!"
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-4l6riz",
-      "source": "abs",
-      "title": "Padilla would rather face ICC probe than 'depressing' DOJ investigation",
-      "summary": "Sen. Robinhood Padilla said he would prefer the International Criminal Court (ICC) rather than fellow Filipinos to investigate him, despite calling on the government to end its cooperation with the…",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-27T09:19:52.000Z",
-      "firstSeen": "2026-11-27T09:31:01.150Z",
-      "url": "https://www.abs-cbn.com/news/nation/2026/11/27/padilla-would-rather-face-icc-probe-than-depressing-doj-investigation-1719",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Sen. Robinhood Padilla said he would prefer the International Criminal Court (ICC) rather than fellow Filipinos to investigate him, despite calling on the government to end its cooperation with the tribunal."
-        }
-      ],
-      "truncated": true,
-      "fx": 6,
-      "source_of_text": "summary",
-      "why": "headline only by design — this outlet blocks article pages"
-    },
-    {
-      "id": "abs-nylqbf",
-      "source": "abs",
-      "title": "Miss Universe Nigeria 2026 pays tribute to Catriona Gray's lava gown",
-      "summary": "Catriona Gray remains one of the most celebrated figures in pageantry, with her lava gown in Miss Universe recreated and reinterpreted multiple times across international competitions.",
-      "byline": "",
-      "section": "",
-      "published": "2026-11-27T09:17:18.000Z",
-      "firstSeen": "2026-11-27T09:31:01.958Z",
-      "url": "https://www.abs-cbn.com/lifestyle/pageants-beauty-queens/2026/11/27/miss-universe-nigeria-2026-pays-tribute-to-catriona-gray-s-lava-gown-1717",
-      "image": null,
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Catriona Gray remains one of the most celebrated figures in pageantry, with her lava gown in Miss Universe recreated and reinterpreted multiple times across international competitions."
         }
       ],
       "truncated": true,
