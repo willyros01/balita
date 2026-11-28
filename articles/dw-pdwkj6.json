@@ -1,0 +1,156 @@
+{
+  "id": "dw-pdwkj6",
+  "source": "dw",
+  "title": "AI data centers in space: Millions of satellites and so many unknowns",
+  "summary": "SpaceX is seeking approval to launch a million satellites into orbit to build AI data centers in space. Experts are skeptical, citing many unanswered questions. At the top of the list: Who owns the…",
+  "byline": "Julia Vergin",
+  "section": "",
+  "published": "2026-11-28T12:09:00.000Z",
+  "firstSeen": "2026-11-28T12:30:58.492Z",
+  "url": "https://www.dw.com/en/ai-data-centers-in-space-millions-of-satellites-and-so-many-unknowns/a-80080166?maca=en-rss-en-all-1573-rdf",
+  "image": {
+    "src": "https://static.dw.com/image/79951752_6.jpg",
+    "caption": "By 2040, SpaceX's Starship rockets are expected to have deployed 1 million satellites into space. With today's technology, that is impossibleImage: Chandan Khanna/AFP"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Elon Musk's space company SpaceX has got the green light from the US Federal Communications Commission (FCC) to build a network of 1 million satellites designed to host AI data centers in space. The project is called \"Starmind.\""
+    },
+    {
+      "type": "p",
+      "text": "Official approval comes with an ambitious timeline: SpaceX must have 10%, or 100,000, of the authorized satellites in orbit by 2035. By 2038, that figure must reach 50%. Within 15 years, a total of 1 million satellites are expected to orbit Earth, helping meet the rapidly growing demand for artificial intelligence computing power."
+    },
+    {
+      "type": "h",
+      "text": "Why is space a potential location for AI data centers?"
+    },
+    {
+      "type": "p",
+      "text": "1. Ample sunshine and no clouds"
+    },
+    {
+      "type": "p",
+      "text": "\"Putting data centers onto satellites and into space is somewhat attractive due to the higher availability of solar energy,\" Ulrich Speidel of the University of Auckland's School of Computer Science in New Zealand told the Science Media Center."
+    },
+    {
+      "type": "p",
+      "text": "Depending on a satellite's orbit, it would be exposed to sunlight for more than half the day, Speidel said. And, of course, there are no clouds in space."
+    },
+    {
+      "type": "p",
+      "text": "SpaceX makes a similar argument, saying its satellites would take advantage of space's plentiful energy and cooling possibilities, reducing the burden on Earth."
+    },
+    {
+      "type": "p",
+      "text": "Electricity consumption by AI data centers is indeed rising worldwide. According to the International Energy Agency (IEA), their consumption could more than double to 945 terawatt-hours per year by 2030."
+    },
+    {
+      "type": "h",
+      "text": "Will Elon Musk's plan to have data centers in orbit take off?"
+    },
+    {
+      "type": "p",
+      "text": "2. No water consumption for cooling"
+    },
+    {
+      "type": "p",
+      "text": "In addition to electricity, data centers on Earth consume large amounts of water to cool their servers. According to a recent study, global water consumption for this purpose ranges from 313 billion to 764 billion liters (82.7 billion to 201.8 billion gallons). Around a quarter of all data centers are also located in regions that regularly experience water shortages, the study's authors said."
+    },
+    {
+      "type": "p",
+      "text": "Cooling in space, however, is difficult, Ulrich Speidel said. \"The only way to remove heat from a satellite in a vacuum is to radiate it away, rather than dissipate it as we can do here on Earth using water or air cooling.\""
+    },
+    {
+      "type": "p",
+      "text": "Richard Easther, a physicist at the University of Auckland, also sees cooling as a challenge, \"but there are plausible solutions that are entirely consistent with basic physics.\""
+    },
+    {
+      "type": "p",
+      "text": "However, Easther told the Science Media Center that the \"Starmind\" project is \"at the very edge of technical feasibility.\" He also pointed out that Elon Musk's Starlink project would have sounded far-fetched 15 years ago."
+    },
+    {
+      "type": "h",
+      "text": "Data centers in space: Solution or disaster?"
+    },
+    {
+      "type": "h",
+      "text": "What are the arguments against space as a location for AI data centers?"
+    },
+    {
+      "type": "p",
+      "text": "Easther said he sees the FCC timeline as unrealistic, joining others who doubt that SpaceX can meet its commitments to the agency."
+    },
+    {
+      "type": "p",
+      "text": "\"That would mean launching about eight satellites per hour from now until their deadline to complete the authorized constellation of Nov. 25, 2040,\" Laura Revell, a professor of atmospheric chemistry at the University of Canterbury in Christchurch, New Zealand, told the Science Media Center."
+    },
+    {
+      "type": "p",
+      "text": "1. Rockets and satellites damaging the ozone layer"
+    },
+    {
+      "type": "p",
+      "text": "\"I am extremely concerned about the levels of pollution that would accumulate in the atmosphere. We already know that emissions from rocket launches can cause depletion of the protective ozone layer,\" Revell said."
+    },
+    {
+      "type": "p",
+      "text": "So far, this has not been a major problem because of the relatively small number of rocket launches. But this project could undo \"decades of efforts to protect the ozone layer,\" she said."
+    },
+    {
+      "type": "p",
+      "text": "The satellites themselves also pose an environmental risk, Revell said. Satellites are typically decommissioned after five years. When they reenter the atmosphere, they burn up, which \"fundamentally turns the atmosphere into a crematorium for satellites,\" she said."
+    },
+    {
+      "type": "p",
+      "text": "Overall, the long-term effects of vaporized metals on the atmosphere's climate and the ozone layer are entirely unknown."
+    },
+    {
+      "type": "h",
+      "text": "Could space debris endanger the ozone layer again?"
+    },
+    {
+      "type": "p",
+      "text": "2. Space debris on the rise"
+    },
+    {
+      "type": "p",
+      "text": "Space debris is already a problem. The Starmind project would increase the number of active satellites in orbit by more than 50-fold, Michael Brown, an astronomer at Monash University in Melbourne, Australia, told the Science Media Center."
+    },
+    {
+      "type": "p",
+      "text": "\"This greatly increases the risk of collisions with space junk, which could lead to the Kessler syndrome — a cascade of collisions that would make low Earth orbit unusable.\""
+    },
+    {
+      "type": "p",
+      "text": "3. Light pollution in the night sky"
+    },
+    {
+      "type": "p",
+      "text": "Earth's increasingly crowded orbit is not the only factor that could make space research more difficult for astronomers in the future."
+    },
+    {
+      "type": "p",
+      "text": "The Starmind satellites will come equipped with enormous solar panels. These will be larger and heavier than other satellites because of the cooling systems they need. This could have \"devastating effects on numerous astronomical observations,\" physicist Richard Easther said. Even for people who are not astronomers, the view of the night sky could change dramatically."
+    },
+    {
+      "type": "p",
+      "text": "The FCC made a decision with global implications on its own, dismissing environmental concerns as being \"outside its purview,\" Laura Revell said."
+    },
+    {
+      "type": "p",
+      "text": "\"The question is, who has the authority to protect the upper atmosphere from rocket and satellite pollution for the common good?\""
+    },
+    {
+      "type": "p",
+      "text": "One thing is certain: Protecting the atmosphere should not be left to a company focused on maximizing profits."
+    },
+    {
+      "type": "p",
+      "text": "This article was originally written in German."
+    }
+  ],
+  "truncated": false,
+  "fx": 6,
+  "source_of_text": "page"
+}
